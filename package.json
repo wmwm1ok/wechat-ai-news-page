@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "test": "node tests/deduplication-engine.test.js && node tests/news-scorer.test.js && node tests/ai-summarizer.test.js",
+    "test": "node tests/deduplication-engine.test.js && node tests/news-scorer.test.js && node tests/ai-summarizer.test.js && node tests/index-date.test.js",
     "test:dedup": "node tests/deduplication-engine.test.js"
   },
   "keywords": ["AI", "news", "rss"],

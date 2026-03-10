@@ -286,8 +286,11 @@
         }
 
         function renderContent(data) {
-            document.getElementById('current-date').textContent = data.date;
-            document.getElementById('article-count').textContent = `共 ${data.count} 条精选资讯`;
+            const beijingToday = formatBeijingToday();
+            document.getElementById('current-date').textContent = beijingToday;
+            document.getElementById('article-count').textContent = data.generatedAt
+                ? `内容更新于 ${escapeHtml(data.generatedAt)}`
+                : `共 ${data.count} 条精选资讯`;
 
             const editor = document.getElementById('rich-editor');
             const sections = {};
@@ -369,6 +372,15 @@
             const date = new Date(value);
             if (Number.isNaN(date.getTime())) return value;
             return `${date.getMonth() + 1}月${date.getDate()}日`;
+        }
+
+        function formatBeijingToday() {
+            return new Intl.DateTimeFormat('zh-CN', {
+                timeZone: 'Asia/Shanghai',
+                year: 'numeric',
+                month: 'numeric',
+                day: 'numeric'
+            }).format(new Date());
         }
 
         async function copyForWechat() {

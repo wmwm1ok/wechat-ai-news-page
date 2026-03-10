@@ -7,6 +7,50 @@ import { generateHTML, generateWechatHTML } from './html-formatter.js';
 import fs from 'fs/promises';
 import path from 'path';
 
+function getBeijingDateParts(date = new Date()) {
+  const formatter = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Shanghai',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  });
+
+  const parts = formatter.formatToParts(date);
+  const values = Object.fromEntries(parts.map(part => [part.type, part.value]));
+
+  return {
+    year: values.year,
+    month: values.month,
+    day: values.day
+  };
+}
+
+function getBeijingDateString(date = new Date()) {
+  const { year, month, day } = getBeijingDateParts(date);
+  return `${year}-${month}-${day}`;
+}
+
+function getBeijingDisplayDate(date = new Date()) {
+  return new Intl.DateTimeFormat('zh-CN', {
+    timeZone: 'Asia/Shanghai',
+    year: 'numeric',
+    month: 'numeric',
+    day: 'numeric'
+  }).format(date);
+}
+
+function getBeijingDisplayDateTime(date = new Date()) {
+  return new Intl.DateTimeFormat('zh-CN', {
+    timeZone: 'Asia/Shanghai',
+    year: 'numeric',
+    month: 'numeric',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  }).format(date);
+}
+
 async function saveOutput(filename, content) {
   const outputDir = 'output';
   await fs.mkdir(outputDir, { recursive: true });
@@ -30,10 +74,9 @@ async function saveOutput(filename, content) {
  */
 async function loadYesterdayNews() {
   try {
-    // 计算昨天的日期
     const yesterday = new Date();
     yesterday.setDate(yesterday.getDate() - 1);
-    const dateStr = yesterday.toISOString().split('T')[0];
+    const dateStr = getBeijingDateString(yesterday);
     
     const filepath = path.join('output', `news-${dateStr}.json`);
     
@@ -161,13 +204,15 @@ async function main() {
   const html = generateHTML(grouped);
   const wechatHtml = generateWechatHTML(grouped);
   
-  const date = new Date().toISOString().split('T')[0];
+  const now = new Date();
+  const date = getBeijingDateString(now);
   await saveOutput(`newsletter-${date}.html`, html);
   await saveOutput(`wechat-${date}.html`, wechatHtml);
   
   // 7. 生成 JSON
   const jsonData = {
-    date: new Date().toLocaleDateString('zh-CN'),
+    date: getBeijingDisplayDate(now),
+    generatedAt: getBeijingDisplayDateTime(now),
     count: totalNews,
     articles: topNews.map(item => ({
       section: item.category,
