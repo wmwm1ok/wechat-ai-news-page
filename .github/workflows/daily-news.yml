@@ -1,0 +1,66 @@
+name: AI Daily News
+
+on:
+  schedule:
+    # 北京时间每天早上 8:15（UTC 00:15）
+    - cron: '15 0 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: ai-daily-news
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch and generate news
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_API_URL: ${{ secrets.DEEPSEEK_API_URL }}
+          DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: npm start
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-output
+          path: |
+            output/
+            latest.json
+          retention-days: 30
+
+      - name: Commit generated files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add -f latest.json output/*.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update AI news: $(date -u +'%Y-%m-%d')"
+            git push
+          else
+            echo "No generated file changes"
+          fi
