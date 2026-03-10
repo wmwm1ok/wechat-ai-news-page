@@ -184,6 +184,57 @@
             color: #666;
         }
         .tips strong { color: #d48806; }
+        .links-panel {
+            background: white;
+            margin: 0 15px 15px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            overflow: hidden;
+            display: none;
+        }
+        .links-header {
+            padding: 12px 15px;
+            font-size: 13px;
+            color: #666;
+            background: #f8f9fa;
+            border-bottom: 1px solid #eee;
+        }
+        .links-list {
+            padding: 12px 15px;
+        }
+        .link-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        .link-item:last-child {
+            border-bottom: none;
+        }
+        .link-title {
+            font-size: 14px;
+            color: #222;
+            line-height: 1.6;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        .link-meta {
+            font-size: 12px;
+            color: #94a3b8;
+            margin-bottom: 8px;
+        }
+        .link-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .mini-btn {
+            border: 1px solid #dbeafe;
+            background: #f8fbff;
+            color: #1c5cff;
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 12px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -213,6 +264,11 @@
         <div id="rich-editor" contenteditable="true" spellcheck="false">
             <div class="loading">正在加载内容</div>
         </div>
+    </div>
+
+    <div class="links-panel" id="links-panel">
+        <div class="links-header">🔗 原文链接面板（仅供查看/复制，不会进入公众号正文）</div>
+        <div class="links-list" id="links-list"></div>
     </div>
     
     <div class="footer">
@@ -270,9 +326,11 @@
 
                 currentData = data;
                 renderContent(data);
+                renderSourceLinks(data);
                 hasLocalEdits = false;
                 document.getElementById('action-bar').style.display = 'block';
                 document.getElementById('tips').style.display = 'block';
+                document.getElementById('links-panel').style.display = 'block';
             } catch (error) {
                 console.error('加载失败:', error);
                 document.getElementById('rich-editor').innerHTML = `
@@ -337,22 +395,40 @@
 
             items.forEach((item, index) => {
                 const meta = [item.source, formatDate(item.publishedAt)].filter(Boolean).map(escapeHtml).join(' · ');
-                const sourceLink = item.url
-                    ? `<a href="${escapeAttribute(item.url)}" target="_blank" rel="noopener noreferrer" style="color:${color};text-decoration:none;">原文</a>`
-                    : '';
 
                 html += `
     <section style="padding:0 0 16px;margin:0 0 16px;border-bottom:1px solid #e5e7eb;">
         <h3 style="font-size:16px;color:#111827;margin:0 0 10px;line-height:1.65;font-weight:800;">
             ${index + 1}. ${item.company ? `<strong style="color:${color};">${escapeHtml(item.company)}</strong> · ` : ''}${escapeHtml(item.title)}
         </h3>
-        ${(meta || sourceLink) ? `<p style="font-size:12px;color:#6b7280;margin:0 0 10px;">${meta}${meta && sourceLink ? ' · ' : ''}${sourceLink}</p>` : ''}
+        ${meta ? `<p style="font-size:12px;color:#6b7280;margin:0 0 10px;">${meta}</p>` : ''}
         <p style="font-size:14px;color:#374151;margin:0;line-height:1.85;text-align:justify;">${escapeHtml(item.summary)}</p>
     </section>
 `;
             });
 
             return html;
+        }
+
+        function renderSourceLinks(data) {
+            const container = document.getElementById('links-list');
+            const articlesWithUrl = (data.articles || []).filter(article => article.url);
+
+            if (articlesWithUrl.length === 0) {
+                container.innerHTML = '<div style="font-size:13px;color:#94a3b8;">当前数据没有可用的原文链接。</div>';
+                return;
+            }
+
+            container.innerHTML = articlesWithUrl.map((item, index) => `
+                <div class="link-item">
+                    <div class="link-title">${index + 1}. ${escapeHtml(item.title)}</div>
+                    <div class="link-meta">${[item.source, formatDate(item.publishedAt)].filter(Boolean).map(escapeHtml).join(' · ')}</div>
+                    <div class="link-actions">
+                        <button class="mini-btn" type="button" onclick="openSourceLink(decodeURIComponent('${encodeURIComponent(item.url)}'))">打开原文</button>
+                        <button class="mini-btn" type="button" onclick="copySourceLink(decodeURIComponent('${encodeURIComponent(item.url)}'))">复制链接</button>
+                    </div>
+                </div>
+            `).join('');
         }
 
         function escapeHtml(str) {
@@ -411,6 +487,20 @@
                     console.error('兼容复制失败:', fallbackError);
                     showToast('❌ 复制失败，请手动全选后复制', 'error');
                 }
+            }
+        }
+
+        function openSourceLink(url) {
+            window.open(url, '_blank', 'noopener,noreferrer');
+        }
+
+        async function copySourceLink(url) {
+            try {
+                await navigator.clipboard.writeText(url);
+                showToast('✅ 已复制原文链接', 'success');
+            } catch (error) {
+                console.error('复制链接失败:', error);
+                showToast('❌ 原文链接复制失败', 'error');
             }
         }
 
