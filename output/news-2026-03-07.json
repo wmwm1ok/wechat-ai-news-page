@@ -1,0 +1,276 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "网易有道LobsterAI上线技能商店并支持MCP协议，构建开放智能体生态",
+      "url": "https://www.infoq.cn/article/TJ4K86cg0ilwKlZHuvxD?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 06 Mar 2026 17:14:01 GMT",
+      "region": "国内",
+      "summary": "网易有道旗下AI智能体LobsterAI（有道龙虾）宣布上线技能商店并全面支持MCP协议。技能商店允许用户浏览、搜索和安装新技能，包括官方技能和第三方开源技能，实现即装即用。同时，产品内置了涵盖搜索、开发工具、办公协作等六大类别的MCP服务市场，支持用户添加自定义服务以连接企业内部系统或私有数据源。此次更新旨在降低智能体使用门槛，通过开放标准与开发者共建生态。",
+      "category": "产品发布与更新",
+      "company": "网易有道",
+      "score": 31,
+      "breakdown": {
+        "substance": 12,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Claude消费者增长在国防部合同失败后持续飙升",
+      "url": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/",
+      "snippet": "Claude's app is now seeing more new installs than ChatGPT and is growing its daily active users.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 06 Mar 2026 17:56:07 +0000",
+      "region": "海外",
+      "summary": "Claude应用现在的新安装量超过了ChatGPT，并且其日活跃用户数正在增长。这是在Anthropic与五角大楼的交易失败后出现的增长趋势。",
+      "category": "产品发布与更新",
+      "company": "Claude",
+      "score": 19,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "商汤科技联合南洋理工大学发布NEO-unify，彻底告别视觉编码器与变分自编码器",
+      "url": "https://www.qbitai.com/2026/03/384623.html",
+      "snippet": "2B规模吊打传统范式",
+      "source": "量子位",
+      "publishedAt": "Sat, 07 Mar 2026 04:39:02 +0000",
+      "region": "国内",
+      "summary": "商汤科技联合南洋理工大学发布了一项名为NEO-unify的多模态模型架构新技术。该技术的核心突破在于彻底摒弃了行业长期依赖的视觉编码器和变分自编码器，转而采用一种“原生、统一、端到端”的设计。通过创新的混合变换器架构，该模型能够在同一体系内直接处理像素和文字等原生输入，实现视觉与语言的理解和生成双向能力的统一。这一架构标志着多模态AI从“模态连接”向“原生统一智能体”的进化，为未来跨模态认知与生成一体化的智能系统奠定了基础。",
+      "category": "技术与研究",
+      "company": "商汤科技",
+      "score": 42,
+      "breakdown": {
+        "substance": 18,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "贾国龙卸任西贝CEO；字节跳动启动最大规模实习生招聘；OpenClaw爆火催生上门安装服务",
+      "url": "https://36kr.com/p/3712170172264838?f=rss",
+      "snippet": "今日热点导览 字节跳动启动最大规模转正实习生招聘，拟招超7000人 黄仁勋称OpenClaw为：当代最重磅的软件发布 印尼：3月28日起将限制16岁以下儿童使用YouTube、Facebook等平台 SpaceX计划在2027年底前发射约1200颗第二代卫星 雅诗兰黛收购Forest Essentials剩余股份 东芝重组巨额债务，目标2028财年重新上市 TOP3大新闻 贾国龙卸任西贝CEO，前任CEO董俊义重新回归该职 36氪独家获悉，春节前，贾国龙卸任西贝主品牌CEO，前任CEO董俊义重新回归该职。后者从1992年起就加入西贝，从学徒一路成长为店长、分部经理，直至西贝事业部CEO。 近日，西贝对内宣告“因公司业务量大幅下降”，不少总部员工需待岗（按照最低工资标准执行），或是离开。 一位被要求离开的总部员工告诉36氪，公司给出三种方案——一是停薪留职；二是公司发放2025年的部分绩效，员工收到后主动离职；三是按照“N”倍补偿解聘，但补偿金需分期一年支付，也可能以“转股份”形式解决。据36氪了解，原本西贝总部有超过500名员工，本轮裁员之后，“这个数字大约会降至200余人。” 字节跳动启动最大规模转正实习生招聘，拟招超7000人 3月6日字节跳动官方微信公众号发文称，ByteIntern实习生招聘项目正式启动。本次招聘为字节跳动史上规模最大的转正实习生招聘计划，拟面向全球高校招聘超7000名实习生，面向2027届毕业生（毕业时间为2026年9月至2027年8月），所有的ByteIntern岗位均提供转正机会，整体转正率超50%。 本次招聘重点倾斜研发、产品与AI领域。其中研发类岗位Offer数量超4800个，占比超六成。（财联社APP） OpenClaw爆火，程序员上门安装收费500元 最近爆火的AI模型OpenClaw，网上已经把它捧成“新一代超级AI”，但作为开源智能体项目OpenClaw并非零门槛上手。这也使得先赚钱的人变成了“OpenClaw上门安装”。“OpenClaw上门安装”是指有人专门在线下为客户的电脑部署OpenClaw，在线上平台检索“龙虾/OpenClaw上门安装”即可。 记者了解到，“OpenClaw上门安装”价格从300元到800元不等，500元/次为最常见的价格。相对应地“远程安装”则便宜不少，价格在50-100元左右，蓝鲸新闻查询发现，目前有多个相关网店服务显示已售1000+。 由于OpenClaw爆火，“上门安装”似乎也成为了一个热门赛道，不少人也开始“卷服务”。有的人在详情页中称“包教包会”，还有的人提出“7*24小时内出现问题免费解答”，甚至还有人不仅“上门部署”还送“做饭服务一次，家常菜都会做”。（蓝鲸新闻） 大公司/大事件 “死了么”App创始人被原公司劝退，现为全职创业者 此前，“死了么”App爆火后下架，引起关注。3月5日，“死了么”App创始人吕先生告诉记者，因为“死了么”爆火，他从原本的公司离职，变成了全职创业者。近日，他注册成立了一家月境未来（杭州）科技有限公司，另外两名曾经的“死了么”App团队成员也在这家新公司兼职，主要负责远程协作。 “我本来在杭州的一家公司工作。‘死了么’爆火后，原公司因担心我精力有限，建议我离职。”吕先生向南都记者透露，他于今年1月22日离职，“当时我的感受是被很多外部的事情推着走，我也没有想好自己下一步具体要做些什么，还是会有对未知的恐惧的。”（南方都市报） 黄仁勋称OpenClaw为：当代最重磅的软件发布 3月6日，在摩根士丹利会议上，NVIDIA CEO黄仁勋分享了关于Agentic AI（代理式人工智能）转折点的见解，并将开源软件OpenClaw评价为“当代最重磅的软件发布”。黄仁勋指出，OpenClaw在短短三周内的普及速度已经超越了Linux过去三十年的成就，成为了历史上下载量最大的开源软件。 黄仁勋 将AI生态比作一个“五层蛋糕”，而OpenClaw所在的应用程序层正是目前产出最高、最具回报的领域。他认为，OpenClaw之所以能在短时间内风靡全球，是因为它向 世界证明了AI可以深入高度个性化的环境，直接解决普通用户和企业的冗余任务。（ 快科技） 美股三大指数集体收跌，大型科技股普跌 美股三大指数集体收跌，纳指跌1.59%，本周累跌1.24%；标普500指数跌1.33%，本周累跌2.02%；道指跌0.95%，本周累跌3.01%。大型科技股普跌，英特尔跌超5%，英伟达跌3%，亚马逊、特斯拉、Meta跌超2%，苹果跌逾1%，微软、谷歌小幅下跌。美股加密货币概念股回落，Riot Platforms跌超9%，IREN跌超8%，BMNR跌超7%，Robinhood、Strategy、Coinbase跌超4%。迈威尔科技收涨18%，创2025年4月份以来最佳单日表现。（界面新闻） 国际原油期货结算价创有记录以来最大周涨幅，WTI原油期货本周累涨超35% 国际原油期货结算价大幅收涨，创2023年10月以来新高。美油、布油分别创自1983年和1991年有记录以来的最大周涨幅。WTI原油期货4月合约收涨12.21%，报90.9美元/桶；本周累涨35.6%。布伦特原油期货5月合约涨8.52%，报92.69美元/桶，本周累涨27.88%。（界面新闻） 福特因后视摄像头存在缺陷在美召回174万辆汽车 3月6日，美国国家公路交通安全管理局（NHTSA）表示，福特汽车公司正在美国召回174万辆汽车，原因是后视摄像头缺陷可能导致图像无法显示。（界面新闻） 蜜雪冰城公司已公布多项咖啡相关专利 36氪获悉，目前蜜雪冰城现磨咖啡业务处于前期规划试点阶段，除全自动咖啡机外，接下来将同步试点升级咖啡产品线，包括推出咖啡新品，升级咖啡豆、牛奶等核心原料等多个方面，整体仍将延续高质平价的产品策略。爱企查App显示，蜜雪冰城股份有限公司已公布“滴漏式咖啡壶”“包装盒（咖啡）”“包装袋（咖啡）”等多项咖啡相关专利，专利类型均为外观设计。 中国人民银行行长：融资平台数量和债务规模较2023年初均下降超过70% 中国人民银行行长潘功胜3月6日在十四届全国人大四次会议经济主题记者会上说，融资平台债务风险化解取得重要阶段性成效。2025年末相较2023年初，融资平台数量和债务规模均下降超过70%。（新华社） 印尼：3月28日起将限制16岁以下儿童使用YouTube、Facebook等平台 印度尼西亚通信与数字事务部发表声明称，政府将禁止16岁以下儿童在被认定为高风险的数字平台上拥有账户。声明称，当局将从3月28日起逐步实施新规，从YouTube、Facebook、Instagram、Threads、X、Bigo Live和Roblox等平台开始。该部门表示，保护儿童的责任在于管理数字空间的平台。（财联社） 商务部：机器人成中国外贸新标签 十四届全国人大四次会议3月6日举行经济主题记者会。商务部部长王文涛在会上表示，我们一些高端智能、绿色低碳，包括机器人等等，已经成为中国外贸的一个新标签。（央视新闻） SpaceX计划在2027年底前发射约1200颗第二代卫星 SpaceX计划在2027年底前向太空发射约1200颗第二代卫星。该公司希望借此在全球范围内提供具备DSL宽带质量的移动版Starlink互联网服务，下载速度可达100兆比特/秒，上传速度可达50兆比特/秒。（新浪财经） 商务部：跨境电商进出口规模达2.75万亿 十四届全国人大四次会议3月6日举行经济主题记者会。商务部部长王文涛表示，中国外贸新业态、新模式展现出强劲活力，跨境电商进出口规模达到了2.75万亿。（央视新闻） 王文涛：中国网剧在全球市场营收占比达90% 3月6日，在十四届全国人大四次会议经济主题记者会上，商务部部长王文涛表示，中国现在网剧在全球市场的营收占比达90%，APP下载量占全球80%，基本上我们国内看什么网剧，海外就看什么，只不过换了一下（形式）。（证券时报） 雅诗兰黛收购Forest Essentials剩余股份 36氪获悉，雅诗兰黛集团已达成协议，收购印度阿育吠陀美容品牌Forest Essentials剩余51%股份，交易预计于2026年下半年完成，具体金额未披露。据了解，双方合作始于2008年，当时雅诗兰黛首次进行少数股权投资，并于2020年将持股比例提升至49%。完成收购后，该品牌将全面纳入集团体系。 谷歌商店迎来改革：下调抽成比例，开放第三方支付 美东时间4日，谷歌向美国旧金山联邦法院提交了一份拟议变更方案，将对其Google Play商店进行系统性改革：不仅要降低其安卓应用商店所收取的高额费用，而且还将全面开放第三方支付系统和第三方应用商店。这是Google Play应用商店自成立以来在商业模式上的一次彻底重构，标志着困扰谷歌数年的反垄断官司终于要落下帷幕，预计也将对移动应用和游戏行业带来深远影响。（财联社） 日本财务大臣：日本尚未完全走出通缩 日本财务大臣片山皋月称，日本尚未完全走出通缩。（财联社） 知情人士回应泡泡玛特新IP销量低于同期其他热门新品 2026年以来，泡泡玛特IP推新速度加快，Supertutu和放学后的Merodi相继发售，并预告了新IP形象“Key A”。不过，Supertutu和放学后的Merodi在上市后均反响平淡，销量远低于同期其他热门IP新品。在二手交易平台，成交价格也处于较低水平。对此，一位接近泡泡玛特的知情人士表示：“新IP销售整体表现符合预期。”（证券时报） 东芝重组巨额债务，目标2028财年重新上市 东芝公司正在重组其大部分有息债务，为最早于2028财年重返公开市场铺平道路。该公司计划偿还夹层贷款、赎回已发行的优先股，并将与收购相关的融资再融资为标准公司贷款。东芝目标于2028财年在东京证券交易所重新上市，具体时间取决于市场环境及公司重组进展。（财联社） 埃诺格鲁肽（先维盈®）获批用于中国成人体重管理 36氪获悉，辉瑞中国3月6日宣布，国家药品监督管理局（NMPA）已正式批准新一代cAMP偏向型GLP-1受体激动剂埃诺格鲁肽注射液（先维盈®），用于在控制饮食和增加体力活动基础上对成人超重/肥胖患者的长期体重管理。 美国海关部门称目前尚无法退还关税 美国海关与边境保护局3月6日向美国国际贸易法院提交的一份声明说，由于现有技术、流程和人力资源限制，目前无法按照该法院4日的裁定退还依据美国《国际紧急经济权力法》征收的关税。美国海关与边境保护局表示，截至4日，有超过33万个进口商依据《国际紧急经济权力法》提交超过5300万个报关申请并预付或支付关税税款，涉及约1660亿美元资金。该机构面临空前的退款工作量。（新华社） AI最前沿 Xiaomi miclaw开启小范围封测 36氪获悉，据小米公司消息，Xiaomi miclaw是基于小米MiMo大模型构建的AI交互测试产品，3月6日天开始小范围封闭测试。 英伟达云服务合作伙伴Together AI拟以75亿美元估值融资 据两名知情人士透露，向AI开发者出租英伟达芯片服务器的新兴云服务商之一Together AI，正与投资者洽谈融资事宜，计划融资约10亿美元，融资前估值为75亿美元。（新浪财经） 大公司财报 新希望：2月商品猪销售收入13.27亿元，同比下降7.42% 36氪获悉，新希望公告公告，2月销售商品猪98.22万头，环比下降12.44%，同比增长19.97%。商品猪销售收入13.27亿元，环比下降18.49%，同比下降7.42%。商品猪销售均价11.45元/公斤，环比下降8.25%，同比下降21.79%。 老凤祥：2025年度归母净利润17.55亿元，同比下降9.99% 36氪获悉，老凤祥发布2025年度业绩快报，报告期内实现营业收入528.23亿元，同比下降6.99%；归属于上市公司股东的净利润17.55亿元，同比下降9.99%；基本每股收益3.3548元。 万邦德：预计2026年第一季度净利润同比增长985.40% 36氪获悉，万邦德公告，预计2026年第一季度归属于上市公司股东的净利润为1.65亿元，同比增长985.40%；扣除非经常性损益后的净利润为1.64亿元，同比增长2174.55%。公司由仿制药向创新药战略发展转型初见成效，报告期业务拓展取得积极进展，带来新的业绩增长点，并持续加大研发力度。报告期内，公司加强内部管理，加大应收款回收力度，有效加速资金回笼。 投融资 Quince正洽谈融资，拟将估值翻倍至超100亿美元 据知情人士透露，线上零售商Quince正与投资者洽谈新一轮融资，融资完成后公司估值将超过100亿美元。若谈判成功，这家备受关注的线上品牌估值将较上一轮融资翻倍以上。（新浪财经） “天创机器人”完成超亿元D轮融资，两家上市公司战略入股 近期，“天创机器人”完成超亿元D轮融资，金洲管道与超达装备两家上市公司战略入股。该公司长期专注于4D场景（偏远、危险、肮脏、枯燥）下的特种具身智能系统研发与应用。金洲管道是国内油气输送管道领域核心公司，超达装备为汽车零部件及自动化设备老牌企业，两家企业分别从下游产业与上游供应链深度赋能，形成“市场牵引+技术反哺”的双轮驱动格局，为天创机器人持续研发投入、场景拓展与规模化应用提供保障。 整理｜何雨婷",
+      "source": "36氪",
+      "publishedAt": "2026-03-07 08:57:15  +0800",
+      "region": "国内",
+      "summary": "西贝餐饮创始人贾国龙在春节前卸任主品牌CEO，由前任CEO董俊义重新接任。与此同时，西贝因业务量下降，对总部员工进行了调整，部分员工需待岗或离职，总部员工人数预计从500余人降至200余人。字节跳动启动了其史上最大规模的转正实习生招聘计划，面向全球高校招聘超7000名2027届毕业生，重点倾斜研发、产品与AI领域，其中研发类岗位超4800个，整体转正率超50%。此外，近期爆火的开源AI模型OpenClaw因并非零门槛上手，催生了线下“上门安装”服务，市场价格通常在500元/次左右。",
+      "category": "技术与研究",
+      "company": "西贝,字节跳动",
+      "score": 35,
+      "breakdown": {
+        "substance": 10,
+        "importance": 10,
+        "timeliness": 8,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Vercel发布React最佳实践技能包，含40余条面向AI代理的性能规则",
+      "url": "https://www.infoq.cn/article/eJaITDi1aTzpAR6wmZzz?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 07 Mar 2026 10:00:00 GMT",
+      "region": "国内",
+      "summary": "Vercel发布了名为react-best-practices的开源存储库，其中包含40多条针对React和Next.js应用程序的性能优化规则。该框架基于Vercel超过十年的生产代码库工程知识构建，虽然专为AI编码代理和大型语言模型设计，但对人类开发者同样有价值。规则被分为八个类别并按优先级排序，最高优先级类别关注消除异步瀑布流和减少资源包大小，其他类别涵盖服务器端性能、客户端数据获取、重新渲染优化等方面。该框架作为Vercel Agent Skills生态系统的一部分分发，开发者可通过一行命令将其安装到Claude Code、Cursor等工具中，社区反应不一，有人肯定其价值，也有人表达安全担忧或认为AI编码的主要问题在于业务逻辑理解而非缺少优化规则。",
+      "category": "技术与研究",
+      "company": "Vercel",
+      "score": 34,
+      "breakdown": {
+        "substance": 11,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Momenta关键中间件获ASIL D全认证，实现智驾安全新突破",
+      "url": "https://www.leiphone.com/category/industrynews/voVUxxrlDLiKKLaY.html",
+      "snippet": "3月6日，Momenta 宣布了一项在智能驾驶安全领域的里程碑式成就：其自研的自动驾驶统一基础软件框架OBF（Open BSW Framework）的三款中间件产品——执行管理（OBF-EM）、状态管理（OBF-SM）与平台健康管理（OBF-PHM），均获得国际知名检测认证机构德国莱茵TÜV的最高等级ISO 26262 ASIL D功能安全产品认证。继2024年率先拿下通信管理中间件（OBF-CM）认证后，至此，Momenta成为业界首个在所有负责安全机制的关键中间件上，均已通过国际认证机构最严格的ASIL D安全等级评估的企业。这标志着Momenta已在底层架构上构建起国际领先的智驾安全体系，为“软件定义汽车”时代的系统级安全，树立了全新的行业标杆。 ISO 26262 是全球公认权威、严格的汽车功能安全标准，ASIL D是该标准下的最高功能安全等级。本次认证方德国莱茵 TÜV 集团是全球领先的测试和检验服务提供商，从1904年开始车辆领域的检验测试服务，拥有超过150年的专业技术积淀，其认证结果在全球汽车产业中极具权威性与认可度。 自动驾驶中间件，是位于上层应用算法与底层硬件/操作系统之间的核心软件层，能够实现软硬件解耦、模块间标准化通信与资源调度，是“软件定义汽车”的关键支撑。如果把智能驾驶系统比作一架飞机，算法是飞行员，操作系统是引擎，而中间件就是控制飞机姿态、监测发动机状态、确保各系统协同工作的“飞控系统”。此次获得认证的正是“飞控系统”中负责安全的“大脑”： · 执行管理（OBF-EM）中间件负责平台初始化以及应用程序进程的启动与停止； · 状态管理（OBF-SM）中间件负责确定整个系统的状态，并通过与其他OBF中间件模块（如OBF-EM）协同工作来完成功能组的启动和系统状态的转换； · 平台健康管理（OBF-PHM）中间件通过与其他中间件模块协同工作，实现故障监测及故障报告功能。 Momenta已获得认证的四大自动驾驶中间件，从多个环节助力保障系统功能的正确性和稳定性，它们不仅是Momenta自动驾驶统一基础软件框架OBF的核心安全支柱，更是实现“安全、安心”智驾体验的技术基石。 OBF作为Momenta自研的自动驾驶统一基础软件框架，拥有全栈自研的底软、中间件产品以及配套工具链，可支持多种硬件平台，能够支持智能驾驶系统的高效量产应用。当前全球智驾产业形成了丰富多元的生态协作系统，产品系统的安全性也日益重要。此次，OBF关键组件的认证流程极为严苛，覆盖从设计到落地的全流程，对各类故障情况和应用场景环境都进行了模拟和验证，确保每一行代码、每一个功能都得到充分测试。此次完成认证的四个软件已在多个软硬件平台完成验证，并且已在多个量产项目上落地，累积超70亿公里数据，Momenta的安全工程体系与量产交付能力之间的高效协同得到了国内外OEM客户的普遍认可。 Momenta CEO 曹旭东表示： “Momenta作为全球领先的智驾企业，致力于打造更智能、更安全的智能驾驶系统，提供‘安全、安心’的驾乘体验。安全是智能驾驶的生命线，此次团队在14个月内完成了三款核心中间件的最高等级安全认证，实现了业界领先的认证效率，这不仅是Momenta体系化研发能力的最佳证明，更是我们向‘十年挽救百万生命’愿景迈出的坚实一步。依托丰富的研发与量产经验，这套获得国际最高标准认证的安全体系，已从理论走向实践，真正为全球用户保驾护航。” 德国莱茵 TÜV 功能安全及网络安全全球负责人 Sven Nowak 表示： “Momenta连续多次取得德国莱茵 TÜV ISO 26262 最高等级的功能安全产品认证，充分体现了其在智驾领域的卓越技术实力与体系化能力。在合作过程中，我们深切感受到Momenta团队在智驾安全领域严谨、精益求精的工作方式和流程管理。未来，希望双方加强合作，能够共同加速智能驾驶的全球化普及。” 目前，Momenta合作伙伴已覆盖全球主流车企，成为全球品牌的共同选择。Momenta国内首个在端到端基础上实现量产落地的强化学习大模型R6，也已于2025 Q3正式量产上车。产品的高效迭代量产与领先的商业版图，均离不开Momenta对于智驾安全体系的重视与建设，通过提供全链条、全流程的智驾安全保障，Momenta能够为车企提供具备国际权威认证的安全背书与可靠的量产交付保障，确保智能驾驶整车产品符合严苛的全球市场准入要求。未来，Momenta将持续构建业内顶尖的智驾安全体系，为全球用户带来更加安全、安心的智能出行体验。",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 06 Mar 2026 14:50:00 +0800",
+      "region": "国内",
+      "summary": "Momenta宣布其自研的自动驾驶统一基础软件框架OBF中的三款关键中间件产品——执行管理、状态管理与平台健康管理，均获得了德国莱茵TÜV颁发的ISO 26262 ASIL D功能安全产品认证。结合此前已获认证的通信管理中间件，Momenta成为业界首个在所有负责安全机制的关键中间件上均通过最高等级安全评估的企业，标志着其在底层架构上构建了国际领先的智驾安全体系。此次认证流程极为严苛，覆盖从设计到落地的全流程，确保代码和功能得到充分测试，且相关软件已在多个量产项目上落地应用。公司CEO表示，这不仅是其体系化研发能力的证明，也是向‘十年挽救百万生命’愿景迈出的坚实一步。",
+      "category": "技术与研究",
+      "company": "Momenta",
+      "score": 28,
+      "breakdown": {
+        "substance": 14,
+        "importance": 5,
+        "timeliness": 4,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "汽车之家AI助手多Agent设计与多阶段优化策略将在QCon北京分享",
+      "url": "https://www.infoq.cn/article/ITsw8J6aX1q6XPsoDMsx?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 07 Mar 2026 10:17:00 GMT",
+      "region": "国内",
+      "summary": "汽车之家算法平台部负责人马宝昌将在QCon全球软件开发大会上分享汽车之家AI助手的技术实践。演讲将重点介绍其多Agent设计架构及多阶段优化策略，旨在解决多Agent系统面临的协同效率低、训练复杂度高等挑战。内容涵盖智能体平台与生态建设、RAG与KAG结合的知识检索架构、层次评测体系建设以及基于多阶段强化学习的优化流程。通过真实业务案例，展示如何提升AI助手的决策能力和用户体验，推动其从单一功能向智能生态演进。",
+      "category": "技术与研究",
+      "company": "汽车之家",
+      "score": 24,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "超智算智能算力中心在京揭牌并点亮AI算力设备",
+      "url": "https://www.qbitai.com/2026/03/384561.html",
+      "snippet": "北京在算力基础设施建设上迈出关键一步",
+      "source": "量子位",
+      "publishedAt": "Fri, 06 Mar 2026 11:46:47 +0000",
+      "region": "国内",
+      "summary": "3月6日，超智算智能算力中心揭牌暨AI算力设备点亮仪式在北京成功举行，主题为“智算驱动·万象更新”。来自清华大学、商汤科技、智谱华章、中科闻歌、识因智能等科研机构与企业的代表出席活动，共同见证首批高性能AI算力集群正式上线运行。该中心将秉持高效、绿色、智能的理念，为高校、科研机构及企业提供普惠算力服务，加速大模型训练与产业智能化进程。北京石景山科技创新集团有限公司、海南峰和私募基金管理有限公司、智谱Z基金、元禾璞华等机构代表共同为智算中心揭牌，标志着这一高能级平台正式启动建设。",
+      "category": "技术与研究",
+      "company": "超智算（北京）科技有限公司",
+      "score": 22,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "《下载》：AI代理的恶意攻击，以及预防闪电",
+      "url": "https://www.technologyreview.com/2026/03/05/1133968/the-download-ai-agent-hit-piece-preventing-lightning/",
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Online harassment is entering its AI era Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a software library he helps manage. Then things…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 05 Mar 2026 14:28:46 +0000",
+      "region": "海外",
+      "summary": "这是《下载》的今日版，这是一份工作日通讯，每日提供科技世界动态。网络骚扰正进入AI时代。Scott Shambaugh在拒绝一个AI代理为matplotlib软件库贡献代码的请求时毫不犹豫。像许多开源项目一样，matplotlib已被大量AI代码贡献淹没，因此Shambaugh和其他维护者制定了政策来应对。",
+      "category": "技术与研究",
+      "company": "无",
+      "score": 27,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "DiligenceSquared利用AI语音代理降低并购研究成本",
+      "url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
+      "snippet": "Instead of relying on expensive management consultants, the startup uses AI voice agents to conduct interviews with customers of the companies the PE firms are considering buying.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 05 Mar 2026 23:14:04 +0000",
+      "region": "海外",
+      "summary": "这家初创公司使用AI语音代理来采访私募股权公司考虑收购的企业的客户。这种方法旨在替代依赖昂贵的管理咨询公司。",
+      "category": "技术与研究",
+      "company": "DiligenceSquared",
+      "score": 13,
+      "breakdown": {
+        "substance": 1,
+        "importance": 0,
+        "timeliness": 4,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "2026年AI视频工具测试：Manus在12个平台中脱颖而出",
+      "url": "https://www.mexc.com/news/866936",
+      "snippet": "Independent testing of 12 text-to-video AI platforms reveals structural orchestration, not visual quality, separates winners from pretenders in 2026.",
+      "source": "MEXC",
+      "publishedAt": "17 hours ago",
+      "region": "海外",
+      "summary": "一项对12个文本到视频AI平台的独立测试显示，结构性编排而非视觉质量是决定平台优劣的关键因素。测试结果表明，Manus在2026年的评估中位居榜首。",
+      "category": "技术与研究",
+      "company": "Manus",
+      "score": 13,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "多少野火预防才算过度？",
+      "url": "https://www.technologyreview.com/2026/03/05/1133960/wildfire-prevention-limits/",
+      "snippet": "The race to prevent the worst wildfires has been an increasingly high-tech one. Companies are proposing AI fire detection systems and drones that can stamp out early blazes. And now, one Canadian startup says it’s going after lightning. Lightning-sparked fires can be a big deal: The Canadian wildfires of 2023 generated nearly 500 million metric…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 05 Mar 2026 11:00:00 +0000",
+      "region": "海外",
+      "summary": "预防最严重野火的竞赛正变得越来越高科技。公司们正在提议AI火灾探测系统和能够扑灭早期火灾的无人机。现在，一家加拿大初创公司表示，它正在着手应对闪电。由闪电引发的火灾可能是个大问题：加拿大野火季节的许多大火都是由闪电点燃的。",
+      "category": "技术与研究",
+      "company": "无",
+      "score": 12,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "City Detect完成1300万美元A轮融资，利用AI帮助城市保持安全与清洁",
+      "url": "https://techcrunch.com/2026/03/06/city-detect-uses-ai-to-help-cities-stay-safe-and-clean/",
+      "snippet": "City Detect, a company that helps local governments prevent urban decay, is in at least 17 cities so far, including Dallas and Miami.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 06 Mar 2026 14:00:00 +0000",
+      "region": "海外",
+      "summary": "City Detect是一家帮助地方政府预防城市衰败的公司。该公司目前已在包括达拉斯和迈阿密在内的至少17个城市开展业务。该公司刚刚完成了1300万美元的A轮融资。",
+      "category": "投融资与并购",
+      "company": "City Detect",
+      "score": 31,
+      "breakdown": {
+        "substance": 17,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "微软、谷歌、亚马逊表示Anthropic Claude仍对非国防客户开放",
+      "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
+      "snippet": "Trump's Department of War feud with Anthropic won't impact other companies that are using Claude via Microsoft and Google products.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 06 Mar 2026 19:50:10 +0000",
+      "region": "海外",
+      "summary": "特朗普政府的国防部与Anthropic的争执不会影响通过微软和谷歌产品使用Claude的其他公司。微软、谷歌和亚马逊均表示，Claude服务对非国防客户保持可用。",
+      "category": "政策与监管",
+      "company": "Microsoft, Google, Amazon, Anthropic",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ]
+}

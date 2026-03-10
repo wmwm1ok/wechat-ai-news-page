@@ -1,0 +1,275 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "百度以5亿红包与OpenClaw接入回应AI入口大战",
+      "url": "https://www.qbitai.com/2026/02/381435.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Thu, 19 Feb 2026 10:15:41 +0000",
+      "region": "国内",
+      "summary": "春节期间，国内外AI圈有两件大事备受关注：一是OpenClaw在GitHub上Star数飙升至18.9万，二是国内互联网大厂围绕春节营销展开激烈竞争，如元宝推出10亿现金红包活动、千问投入30亿请喝奶茶、豆包成为春晚独家AI云合作伙伴。百度则同时切入这两场竞争核心，一方面上线OpenClaw极速简易部署方案，并于2月14日在百度App支持一键调用OpenClaw智能体，整合搜索、地图等生态产品；另一方面从1月底起推出5亿现金红包活动，用户使用文心助手即可参与。当前，文心、豆包和千问已成为国内三大亿级AI入口，形成三足鼎立之势，而春节正是争夺AI超级入口的关键战场。",
+      "category": "产品发布与更新",
+      "company": "百度",
+      "score": 45,
+      "breakdown": {
+        "substance": 25,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "蚂蚁推出万亿参数开源模型Ling-2.5-1T，兼具情商与高效执行",
+      "url": "https://www.qbitai.com/2026/02/381300.html",
+      "snippet": "万亿参数的大块头也能身轻如燕",
+      "source": "量子位",
+      "publishedAt": "Thu, 19 Feb 2026 04:47:47 +0000",
+      "region": "国内",
+      "summary": "蚂蚁百灵大模型家族发布了万亿参数的旗舰模型Ling-2.5-1T，该模型定位为追求极致效率的即时模型。它在保持强大Agent执行力和情商写作能力的同时，通过混合线性注意力机制等技术优化，实现了比小参数模型更快的运行速度，并支持1M Tokens的超长上下文窗口。模型在指令遵循和长流程任务中表现出高准确性与逻辑一致性，且能有效节约Token消耗。",
+      "category": "产品发布与更新",
+      "company": "蚂蚁",
+      "score": 38,
+      "breakdown": {
+        "substance": 18,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "蚂蚁数科将发布百灵大模型企业版",
+      "url": "https://36kr.com/newsflashes/3689932550286982?f=rss",
+      "snippet": "蚂蚁数科将于近日推出百灵大模型企业版，让AI真正在企业的真实场景落地。据了解，百灵企业版将更加关注大模型幻觉抑制、指令遵循、Agentic Engineering以及安全合规能力，以满足To B场景的高标准需求。据了解，在AI To B方面，蚂蚁集团通过蚂蚁数科对外探索。目前，蚂蚁数科大模型技术方案在多家金融、能源客户投产应用，与此同时，蚂蚁数科今年进一步成立“大模型技术创新部”，攻坚百灵大模型的To B场景落地",
+      "source": "36氪",
+      "publishedAt": "2026-02-19 15:53:29  +0800",
+      "region": "国内",
+      "summary": "蚂蚁数科计划于近日推出百灵大模型企业版，旨在推动人工智能技术在企业真实场景中的实际应用。该企业版将重点提升大模型的幻觉抑制、指令遵循、Agentic Engineering以及安全合规能力，以满足企业级场景的高标准需求。蚂蚁集团通过蚂蚁数科对外探索AI To B业务，目前其大模型技术方案已在多家金融和能源客户中投产应用。此外，蚂蚁数科今年还专门成立了“大模型技术创新部”，以攻坚百灵大模型在企业场景的落地。",
+      "category": "产品发布与更新",
+      "company": "蚂蚁数科",
+      "score": 22,
+      "breakdown": {
+        "substance": 9,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌宣布Gemini 3.1 Pro，称其更擅长解决复杂问题",
+      "url": "https://arstechnica.com/google/2026/02/google-announces-gemini-3-1-pro-says-its-better-at-complex-problem-solving/",
+      "snippet": "Google says 3.1 Pro is ready for \"your hardest challenges.\"",
+      "source": "Ars Technica",
+      "publishedAt": "Thu, 19 Feb 2026 17:42:14 +0000",
+      "region": "海外",
+      "summary": "谷歌宣布推出Gemini 3.1 Pro，并声称该模型已准备好应对用户最困难的挑战。新版本在复杂问题解决能力方面有所提升。谷歌强调该模型能够处理更具挑战性的任务。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 30,
+      "breakdown": {
+        "substance": 11,
+        "importance": 6,
+        "timeliness": 8,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "太初元碁完成40余款大模型适配，推动国产算力高效落地",
+      "url": "https://www.qbitai.com/2026/02/381415.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Thu, 19 Feb 2026 06:11:38 +0000",
+      "region": "国内",
+      "summary": "国产AI芯片企业太初元碁宣布，已完成包括智谱GLM-5.0、阿里千问Qwen3.5-397B-A17B、DeepSeek、文心一言等在内的40余款AI大模型的深度适配，实现“即发即适配，上线即可用”。该公司针对不同开发者的技术能力，在SDAA软件栈中推出了阶梯式开发工具链，以降低CUDA生态迁移的技术门槛与成本。工具链包括SDAA Copilot、Teco-Triton、SDAA C、PCX虚拟指令集以及Teco-vLLM等，旨在帮助开发者快速构建高性能算子，并与主流AI生态实现无缝兼容。公司首席产品官洪源指出，突破集群性能、追求极致推理性价比、加速生态和软件工具建设是国产AI芯片企业的三大主攻方向。",
+      "category": "技术与研究",
+      "company": "太初元碁",
+      "score": 37,
+      "breakdown": {
+        "substance": 12,
+        "importance": 10,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "宇树科技人形机器人亮相春晚展示功夫",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-19-5",
+      "snippet": "<![CDATA[]]>",
+      "source": "机器之心",
+      "publishedAt": "Thu, 19 Feb 2026 21:02:14 +0800",
+      "region": "国内",
+      "summary": "宇树科技的人形机器人登上春晚舞台，进行了长达四分半钟的表演。文章将宇树科技称为全球人形机器人领域的领先企业。该公司的机器人展示了其功夫动作能力。",
+      "category": "技术与研究",
+      "company": "宇树",
+      "score": 17,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "微软提出Re-TRAC框架，让AI智能体从失败经验中学习",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-19-4",
+      "snippet": "<![CDATA[]]>",
+      "source": "机器之心",
+      "publishedAt": "Thu, 19 Feb 2026 20:57:26 +0800",
+      "region": "国内",
+      "summary": "<![CDATA[]]>",
+      "category": "技术与研究",
+      "company": "微软",
+      "score": 17,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "对于开源项目而言，AI编程工具是一把双刃剑",
+      "url": "https://techcrunch.com/2026/02/19/for-open-source-programs-ai-coding-tools-are-a-mixed-blessing/",
+      "snippet": "AI coding tools have enabled a flood of bad code that threatens to overwhelm many projects. Building new features is easier, but maintaining them is just as hard.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 19 Feb 2026 14:00:00 +0000",
+      "region": "海外",
+      "summary": "AI编程工具虽然使构建新功能变得更容易，但也导致了大量低质量代码的出现，这可能威胁到许多项目的稳定。维护这些项目的难度并未因此降低。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 28,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Anthropic的Claude在OpenAI智能合约安全测试中击败GPT-5",
+      "url": "https://coincentral.com/anthropics-claude-beats-gpt-5-in-openais-own-smart-contract-security-test/",
+      "snippet": "OpenAI launched EVMbench to test AI on smart contract security. Claude Opus 4.6 ranked first, beating GPT-5 and Gemini 3 Pro in detecting crypto...",
+      "source": "CoinCentral",
+      "publishedAt": "15 hours ago",
+      "region": "海外",
+      "summary": "OpenAI发布了用于测试AI模型智能合约安全能力的基准测试EVMbench。在该测试中，Anthropic的Claude Opus 4.6模型表现最佳，排名第一，其检测加密相关漏洞的能力超过了GPT-5和Gemini 3 Pro模型。",
+      "category": "技术与研究",
+      "company": "Anthropic, OpenAI",
+      "score": 28,
+      "breakdown": {
+        "substance": 10,
+        "importance": 11,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Reface和Prisma联合创始人携手成立Mirai，致力于改进设备端模型推理",
+      "url": "https://techcrunch.com/2026/02/19/co-founders-behind-reface-and-prisma-join-hands-to-improve-on-device-model-inference-with-mirai/",
+      "snippet": "Mirai raised a $10 million seed round to improve how AI models run on devices like smartphones and laptops.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 19 Feb 2026 14:43:58 +0000",
+      "region": "海外",
+      "summary": "Reface和Prisma的联合创始人共同创立了Mirai，旨在改进AI模型在智能手机和笔记本电脑等设备上的运行方式。该公司已获得1000万美元的种子轮融资。",
+      "category": "技术与研究",
+      "company": "Reface, Prisma, Mirai",
+      "score": 26,
+      "breakdown": {
+        "substance": 10,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "在零售业实现智能体AI运作所需的条件",
+      "url": "https://www.technologyreview.com/2026/02/19/1133324/what-it-takes-to-make-agentic-ai-work-in-retail/",
+      "snippet": "Thank you for joining us on the “Enterprise AI hub.” In this episode of the Infosys Knowledge Institute Podcast, Dylan Cosper speaks with Prasad Banala, director of software engineering at a large US-based retail organization, about operationalizing agentic AI across the software development lifecycle. Prasad explains how his team applies AI to validate requirements, generate…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 19 Feb 2026 08:54:41 +0000",
+      "region": "海外",
+      "summary": "本文是印孚瑟斯知识研究所播客“企业AI中心”系列的一期内容摘要。在该期节目中，主持人Dylan Cosper与一家美国大型零售组织的软件工程总监Prasad Banala进行了对话。他们探讨了如何在软件开发生命周期中实现智能体AI的运营化，以及在此过程中需要满足的关键条件。",
+      "category": "技术与研究",
+      "company": "Infosys",
+      "score": 20,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "李飞飞创业公司World Labs获10亿美元融资，AMD与英伟达参投",
+      "url": "https://www.qbitai.com/2026/02/381378.html",
+      "snippet": "李飞飞开年访谈信息量好大",
+      "source": "量子位",
+      "publishedAt": "Thu, 19 Feb 2026 04:49:30 +0000",
+      "region": "国内",
+      "summary": "李飞飞创立的World Labs公司宣布完成10亿美元新一轮融资，估值达到50亿美元。本轮投资方包括AMD、英伟达、Autodesk、富达等机构，涉及算力基础设施、3D设计软件、资本与市场等多个关键环节。公司成立于2024年4月，在不到两年时间内估值从最初的10亿美元增长至50亿美元，累计融资额已超过2.3亿美元。该公司致力于推进空间智能和构建世界模型，以革新故事讲述、创造力、机器人技术等领域。",
+      "category": "投融资与并购",
+      "company": "World Labs",
+      "score": 48,
+      "breakdown": {
+        "substance": 25,
+        "importance": 8,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Freeform完成6700万美元B轮融资，以扩大激光AI制造规模",
+      "url": "https://techcrunch.com/2026/02/19/freeform-raises-67m-series-b-to-scale-up-laser-ai-manufacturing/",
+      "snippet": "“I think we're the only quote-unquote manufacturing company out there that has H200 clusters in a data center on site.\"",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 19 Feb 2026 13:00:00 +0000",
+      "region": "海外",
+      "summary": "Freeform公司完成了6700万美元的B轮融资，旨在扩大其激光AI制造业务的规模。该公司自称是唯一在现场数据中心拥有H200集群的制造公司。",
+      "category": "投融资与并购",
+      "company": "Freeform",
+      "score": 30,
+      "breakdown": {
+        "substance": 14,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Reload为AI智能体推出共享记忆功能并完成融资",
+      "url": "https://techcrunch.com/2026/02/19/reload-an-ai-employee-agent-management-platform-raises-2-275m-and-launches-an-ai-employee/",
+      "snippet": "Reload announces a $2.275 million raise in a round led by Anthemis and the launch of its first AI employee, Epic.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 19 Feb 2026 15:00:00 +0000",
+      "region": "海外",
+      "summary": "Reload宣布完成由Anthemis领投的227.5万美元融资，并推出了首款AI员工产品Epic。该公司致力于为AI智能体提供共享记忆能力。新资金将用于产品开发和市场拓展。",
+      "category": "投融资与并购",
+      "company": "Reload",
+      "score": 28,
+      "breakdown": {
+        "substance": 12,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "政策与监管": []
+}

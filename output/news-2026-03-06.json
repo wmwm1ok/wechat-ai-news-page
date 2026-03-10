@@ -1,0 +1,275 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "高德发布全球首个大模型驱动视觉认知步行导航系统",
+      "url": "https://www.qbitai.com/2026/03/384557.html",
+      "snippet": "可视、可感、可用的空间智能应用",
+      "source": "量子位",
+      "publishedAt": "Fri, 06 Mar 2026 11:10:03 +0000",
+      "region": "国内",
+      "summary": "高德地图正式推出全球首个由大模型驱动的视觉认知步行导引系统“地标AI领航”。该系统深度融合千问大模型、亿级POI与千万级街景图像，使导航具备视觉认知与人类语言理解能力，能通过用户眼前真实世界的地标进行引导，实现“所见即所导”，解决了步行导航中方向模糊、距离感知不直观、终点确认难等痛点。它采用“双重筛选”机制，在关键决策点优先选择醒目参照物进行口语化播报，实测显示能帮助用户更快确认路径并减少看手机频次。",
+      "category": "产品发布与更新",
+      "company": "高德",
+      "score": 30,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "无问智科发布业界首个物理AI数据基座平台“无垠”",
+      "url": "https://www.qbitai.com/2026/03/384449.html",
+      "snippet": "填补了行业物理AI数据基座的空白",
+      "source": "量子位",
+      "publishedAt": "Fri, 06 Mar 2026 06:58:34 +0000",
+      "region": "国内",
+      "summary": "2026年3月5日，无问智科在德清国际会议中心举办了“无垠拓界・基筑未来”发布会，正式推出业界首个物理AI数据基座平台“无垠”。该平台旨在解决具身智能领域数据获取成本高、质量不足、长尾场景覆盖难及数据孤岛等行业痛点，通过构建“采集-处理-训练-评测-落地”全链路体系，为具身智能商业化应用提供数据基础设施。发布会汇聚了领域专家、产业伙伴及政府代表，并展示了长三角（德清）具身智能数据采集训练场作为平台的物理支撑。",
+      "category": "产品发布与更新",
+      "company": "无问智科",
+      "score": 30,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "OpenAI发布新版ChatGPT模型，支持在Excel和Google Sheets中工作",
+      "url": "https://www.axios.com/2026/03/05/openai-gpt-54-chatgpt-office",
+      "snippet": "OpenAI on Thursday released an updated model powering ChatGPT, along with tools that let the chatbot work directly in Excel and Google Sheets.",
+      "source": "Axios",
+      "publishedAt": "9 hours ago",
+      "region": "海外",
+      "summary": "OpenAI于周四发布了驱动ChatChat的更新模型，并推出了新的工具集。这些新工具使得ChatGPT聊天机器人能够直接在Excel和Google Sheets电子表格软件中进行操作和工作。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 27,
+      "breakdown": {
+        "substance": 15,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "继欧洲之后，WhatsApp将在巴西允许竞争对手AI公司提供聊天机器人",
+      "url": "https://techcrunch.com/2026/03/06/after-europe-whatsapp-will-let-rival-ai-companies-offer-chatbots-in-brazil/",
+      "snippet": "Meta is now allowing rival AI companies to provide their chatbots on WhatsApp to Brazilian users for a fee, a day after the company confirmed a similar decision for users in Europe.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 06 Mar 2026 13:20:43 +0000",
+      "region": "海外",
+      "summary": "Meta公司宣布，将允许竞争对手的AI公司在WhatsApp上向巴西用户提供其聊天机器人服务，并收取费用。就在前一天，该公司确认了针对欧洲用户的类似决定。",
+      "category": "产品发布与更新",
+      "company": "WhatsApp",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "AWS推出专为医疗保健设计的全新AI智能体平台",
+      "url": "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers/",
+      "snippet": "AWS is launching Amazon Connect Health, an AI agent platform that will help with patient scheduling, documentation, and patient verification.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 05 Mar 2026 21:54:37 +0000",
+      "region": "海外",
+      "summary": "AWS推出了名为Amazon Connect Health的AI智能体平台。该平台旨在帮助处理患者预约排程、文档记录以及患者身份验证等医疗保健相关任务。",
+      "category": "产品发布与更新",
+      "company": "AWS",
+      "score": 20,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "timeliness": 4,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Luma推出用于创意项目的AI智能体，覆盖音频、视频和印刷",
+      "url": "https://www.heise.de/en/news/Luma-AI-agents-for-creative-projects-from-audio-to-video-to-print-11202316.html",
+      "snippet": "The web app Luma creates audio, image, and video projects using AI agents – from brainstorming and planning to delivery.",
+      "source": "heise online",
+      "publishedAt": "4 hours ago",
+      "region": "海外",
+      "summary": "网络应用Luma利用AI智能体创建音频、图像和视频项目。该平台能够协助用户完成从头脑风暴、规划到最终交付的整个创意流程。",
+      "category": "产品发布与更新",
+      "company": "Luma",
+      "score": 19,
+      "breakdown": {
+        "substance": 12,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "原力灵机DM0模型获NVIDIA与Pi认可，重塑具身智能新范式",
+      "url": "https://www.qbitai.com/2026/03/384573.html",
+      "snippet": "原力灵机 DM0 模型，正让机器人 “又聪明又敏捷” 的理想照进现实",
+      "source": "量子位",
+      "publishedAt": "Fri, 06 Mar 2026 12:04:59 +0000",
+      "region": "国内",
+      "summary": "原力灵机的MemoryVLA与Real-time VLA两大核心技术近期分别获得机器人领域知名企业Physical Intelligence（Pi）与NVIDIA的引用采纳。MemoryVLA技术通过感知-认知记忆库为机器人赋予类人记忆机制，在150余个仿真与真实世界任务中表现优异，被Pi用于实现15分钟长程任务。Real-time VLA技术通过优化计算逻辑，在RTX 4090上将30亿参数VLA模型的推理延迟从100+ms压缩至27ms，达到30FPS实时水准，并被NVIDIA的VLA-Perf性能分析工具采纳。集两大技术于一体的DM0模型，兼具长时程任务处理能力与毫秒级实时响应速度，能稳定高效地完成工业装配与服务等复杂场景任务。",
+      "category": "技术与研究",
+      "company": "原力灵机",
+      "score": 36,
+      "breakdown": {
+        "substance": 14,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Transformer作者用Rust重构安全版IronClaw，解决OpenClaw隐私泄露风险",
+      "url": "https://www.qbitai.com/2026/03/384519.html",
+      "snippet": "出手从零重构了安全版龙虾：IronClaw",
+      "source": "量子位",
+      "publishedAt": "Fri, 06 Mar 2026 09:56:11 +0000",
+      "region": "国内",
+      "summary": "Transformer架构作者之一Illia Polosukhin因OpenClaw存在严重安全漏洞，使用Rust语言从零重构了名为IronClaw的安全版本。IronClaw通过Rust内存安全、WASM沙箱隔离、加密凭证保险库和可信执行环境四层防御机制，确保大模型无法直接接触用户原始凭证，从根本上解决了隐私泄露问题。该项目已在GitHub开源，支持多平台本地部署和云端托管，目前处于快速迭代阶段。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 36,
+      "breakdown": {
+        "substance": 16,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "对话VAST创始人宋亚宸：从3D生成到世界模型，构建可交互世界底座",
+      "url": "https://www.leiphone.com/category/industrynews/KazJcqFv4CFGFehC.html",
+      "snippet": "“2023 年初我们就已经明确要做可交互的 3D 内容。” 作为 VAST 的创始人，宋亚宸回忆起当时创业的渊源，语气依旧笃定。在他的判断里，3D 生成迟迟没有真正普及，并不是因为技术路线不清晰，而是因为“到现在为止，其实都没有真正意义上的 3D UGC 平台”。（雷峰网雷峰网雷峰网） 这也是VAST选择从工具和模型入手，而不是等平台成熟后再进入的原因。在他看来，平台形态或许尚未出现，但内容生产方式的变化已经足够明确。 见到宋亚宸时，他正坐在办公室的桌前吃午饭。当天上午，一场访谈活动刚刚结束，他抓紧空档简单吃了几口，下午还有新的会面安排。月底，他还将飞往美国参加 GDC（游戏开发者大会）。 VAST 是一家成立于 2023年的人工智能公司，专注于通用 3D 大模型的研发与落地产品建设，其核心产品Tripo Studio（一站式 AI 3D 工作台），VAST 在 Tripo 系列中的两项核心突破，分别指向不同的 3D 生成方向：H3.1 强调高保真、高还原度的 3D 资产生成，而 P1.0 则聚焦于“可用性”——以接近人工建模的拓扑结构，实现极高速的 3D 资产生成。 对于游戏、XR 和 3D UGC 等实时引擎场景而言，真正决定资产能否被直接使用的，并不只是面数高低，而是拓扑是否干净、布线是否稳定，以及能否无缝进入 Unity、Unreal 等引擎管线继续编辑与部署。 打个比方，可以把 3D 模型理解成一件由很多小三角形拼成的“外壳”。三角形越多，细节就越丰富，但也越“费劲”。像 5000 面左右的低模，相当于一张分辨率不高、但足够清晰的图片，肉眼看来已经足以呈现出栩栩如生的逼真细节：轮廓和结构的完成度尚可，却不会给设备带来算力负担。 正因为如此，这类模型才能被广泛用在游戏、XR 和面向普通用户的 3D UGC 场景中，既能实时交互，又能规模化使用。 在商业落地上，生态合作覆盖阿里巴巴、腾讯、字节、网易、上汽、拓竹、优必选等头部企业与超过9万个开发者，旗下Tripo Studio平台已聚集超过650万创作者，累计生成近1亿个3D模型。 就在昨日，VAST宣布完成5000万美元A轮融资。本轮融资由阿里、恒旭资本（上汽旗下）联合领投，元禾璞华、百度风投、东方嘉富等跟投，老股东春华创投、北京市人工智能产业基金超额加注。 值得注意的是，这是阿里与百度同时在 AI 3D 赛道同框下注，也侧面反映出头部互联网与产业资本对 3D 生成赛道的共识正在形成。 与此同时，VAST 还同步更新了Tripo H3.1和Tripo P1.0大模型。 正如现场演示的一样，Tripo H3.1从输入指令到模型成型，系统在数秒内即可输出结构完整、贴图清晰的 3D效果图。而另一款Tripo P1.0，则进一步压缩了 3D 资产生成所需的时间成本——能够在2秒内输出专业建模师级别的3D模型，生成速度相当快。 VAST的创始人———宋亚宸，1997 年出生的他并非科班出身，而是文科背景，获得美国约翰霍普金斯大学国际关系学和经济学双学士学位，在创办 VAST之前，他曾任职于商汤科技，负责多个人工智能项目从 0 到 1 的战略分析与商业化落地；并联合创立 MiniMax。 在并不充裕的时间里，我们聊了3D大模型、Tripo Studio、世界模型、工业与创作，被问及模型相关时，宋亚宸现场为我演示了最新一版的Tripo Studio 的工作流程，仅需输入一张单图，进度条几乎在眨眼间跑完——仅仅一两秒钟，一个带有精细贴图材质、面数控制在 5000 面左右的可用 3D高精低模，便流畅地渲染在了屏幕中央。 这种需要专业人员耗费数天的“手工活”，直接被压缩至秒级就能完成。宋亚宸提到这些技术时认为，VAST 当前在跑的这套技术路线已经是“断崖式、断层式的领先”，甚至在谈到竞争格局时，他表示：“这两个技术一出，市面上基本没有什么对手”。 那是一种不太需要反复解释的自信，更像是已经在心里验证过多次后的结论。 其实，VAST 还是李飞飞World Labs 的 BP 里唯一提到的中国公司——李飞飞曾定义世界模型是由三大场景构成：3D 生成、XR 空间智能、机器人——前两个才是重点。 而 VAST 从成立之初，就押注了 3D 这一最原始、最自然、信息密度最高的内容模态。宋亚宸认为，世界模型是通用模型的终极形态，必须建立在对三维空间的原生理解之上。 以下是AI科技评论与VAST创业者宋亚宸的聊天实录： AI科技评论：公司在创立初期的愿景是什么？为什么最终会选择切入 AI 3D 大模型赛道？ 宋亚宸： 最早我们是想做一个世界级的交互内容平台，可以理解为“3D版的 TikTok” 。但在推进过程中我们发现，传统交互内容的创作门槛和成本太高了，如果不解决工具问题，就像是在“用毛笔写微博”，因此我们意识到，必须先打造一个大众级别的创作工具，让每个人能零门槛、零成本地实时创作。 当时平台形态还不存在，但我们觉得这件事一定会发生，所以选择先从底层工具和能力开始做。 因为创造一个世界需要两个能力：“造万物”（生成模型和场景）和“定规则”（编写代码和交互逻辑）两者结合，即构成创造世界的基础设施。基于此判断，我们确立了AI 3D大模型的定位：在AI coding已被广泛布局的背景下，专注于UGC交互内容平台，降低3D内容的生产门槛。 AI科技评论：在你们的产品出现之前，传统的 3D 内容生产面临哪些痛点？你们是如何改变工作流的？ 宋亚宸： 传统的 3D 制作管线非常繁琐，需要基于十几种不同的引擎、建模软件，搭配几百种中间件和几千种插件，完全依靠手工搭建工作流 。 我们2025 年推出了全新的全链路 AI 工作流产品（Studio），它通过一系列自研算法，将几何、贴图、材质、绑定等环节整合在了一起，用 AI 工具替代了传统复杂的制作管线，极大地提升了生产力 。 AI科技评论：目前平台的用户体量如何？这些 3D 生成技术主要落地在哪些具体的行业场景中？ 宋亚宸：目前我们的服务了超过9万家客户，工具平台拥有 650多万的专业开发者 ，我们的受众主要是海外用户，落地场景主要涵盖四大类： 重工业： 比如帮助车企（如上汽）快速生成海量 3D 车型，替代传统周期长、成本高的油泥模型评审，尤其是周期缩短才是核心变化。传统车型开发动辄一年，如今借助AI可压缩至数月；线下评审、层层审批的冗长流程，也被线上协作替代，效率提升的同时，设计方案的可选空间也更大。 轻工业与 UGC 制造： 涵盖首饰、玩具（如泡泡玛特）、鞋服包包的工业设计，以及彻底打通 3D 打印社区的建模门槛 。 虚拟内容： 包括游戏（网易等大厂及 UGC 游戏）、XR 元宇宙、动画和影视制作 。 交互展示展陈： 例如电商商品的三维展示、文博、教育课件等 。 AI科技评论：Tripo Studio 想解决的核心问题是什么？ 宋亚宸：关于 Studio 的产品非常好理解，它本质上是打造了一个完整的 AI 工作流。在这个工作流中，用户可以顺畅地完成几何处理、贴图与材质赋予、PBR（基于物理的渲染）、拆分与补全、编辑与组合、笔刷风格化等一系列复杂操作。 核心还是生产效率和门槛。现在社会里几乎所有工业品，本质上都来自 3D 模型，但建模的成本、周期和专业门槛都非常高。 Tripo Studio 的目标，是让专业用户在工业设计、创意生成、产品外观等环节中，把原本需要几个月甚至一年的流程，压缩到几周甚至更短。 为了支撑这套全链路的工作流，我们在各个环节都自研了一系列全新的 AI 算法并重新定义了这一产品形态。产品推出后的市场反馈非常积极，无论是在收入还是用户规模上，都实现了爆发式的增长。 基于以上技术，我们目前主要提供两条产品线：第一条线是面向 PGC（专业内容生产）等用户的 Studio 工具平台；第二条线是面向企业客户的 API 服务。企业可以通过调用我们的 API，去赋能他们自身的 To B 或 To C 业务。截至目前，我们的 API 已经累计服务了超过 9 万家客户。 AI科技评论：公司近期在测试高模（高精度模型）和Smart Mesh（Tripo P1.0），两者在技术表现和应用落地上有什么差异？ 宋亚宸： 这两款模型分别对应了不同的工业级需求： 高模（高精度模型）： 它的面数高达数百万面，细节极其精细，连内部结构和螺纹都能精准呈现 。它非常适合工业设计、3D 打印和影视等对模型精度要求极高，但对实时渲染压力不敏感的场景 。 Smart Mesh（Tripo P1.0）： Tripo P1.0 可以在2秒内直接生成专业建模师水平的3D模型——拓扑干净、布线稳定、引擎可用，并且我们发现在这一全新思路之下，模型的可编辑性和精度的可拓展性获得极高的优化潜力。 AI科技评论：为什么 3D内容一直没有像文字、图片、视频那样普及？ 宋亚宸：在过去两年里，3D打印在硬件机型和新材料上并没有出现本质的技术突破，FDM 依然无法实现全彩，行业的传统痛点依然存在 。然而，3D 打印机的出货量却迎来了暴涨 。其核心原因在于，行业的目标用户群体从千万级别跨越到了十亿级别。 3D 打印普及的真正难点，其实不在于机器的操作按钮有多复杂，而在于普通用户缺乏 3D 建模能力，导致买完机器后“不知道能打什么” 。过去，普通用户哪怕只是想打印一个简单的手机壳，都需要去学习 Blender、3DMAX 或 Maya 等专业软件，这对大众而言显然是不现实的门槛 。而现在，3D 生成技术的出现真正解决了这个问题。 AI科技评论：数据显示目前海外用户占比很高，当时为什么会制定出海的商业化策略？ 宋亚宸： 目前海外用户占比大约在 85% 。其实起初我们对全球市场是一视同仁的，但在实际跑数据的过程中发现，欧美等海外市场的付费率更高、用户的忠诚度和续费率更好，整体的 LTV（客户终身价值）也更高 。所以是真实的数据反馈决定了我们以海外市场为主的策略 。 AI科技评论：公司目前的团队规模如何？在内部团队管理上秉持什么样的理念？ 宋亚宸： 我们团队目前有 100 多人，绝大部分是研发人员 。 我们的管理理念是非常实事求是的 。我们没有强制的打卡、复杂的职级或是 Title，前三年甚至都没有设置 OKR 。我们把市面上所有的管理机制当做一个“工具箱”，只有当公司发展到特定阶段、遇到了真实问题时（比如团队变大需要对齐目标时），我们才会从工具箱里拿出相应的管理工具来解决问题，而不是盲目照搬大厂机制。 AI科技评论：您个人并非传统理工科方向，这种跨界背景对您执掌一家硬核 AI 科技公司有什么独特影响吗？ 宋亚宸： 创业的核心在于你想做成一件什么样的事，把这件事情的终局描述清楚是最重要的，而技术（无论是 AI 还是世界模型）只是达到这个终局的路径，并不是说做科技公司就必须是特定学科的教授或博士出身 。 AI科技评论：公司目前在做3D大模型和世界模型，这两者之间是什么关系？ 宋亚宸： 其实它们本质上是一个东西。世界模型的底座就是基于 AI 3D大模型的算法建立的 。你可以这样理解，世界模型是 AI 加上图形学 。如果说原来的 3D 大模型是80% 的图形学加 20% 的 AI，那么世界模型可能就是 AI 和图形学各占一半的比例。 AI科技评论：世界模型的应用场景和目标用户群体是怎样的？ 宋亚宸： 世界模型是给所有人、所有客户使用的，具体的应用场景非常广泛，你可以用它来做具身智能的仿真模型，也可以用来做数字孪生，或者应用于文娱等各种各样的场景，任何需要“在一个世界里运行和互动”的场景，都可能用到世界模型。 AI科技评论：近期公司完成了新一轮融资，您如何看待融资与公司战略“正确性”之间的关系？投资人为何在这个阶段选择下注？ 宋亚宸： 融不融资与事情本身是否完全正确并没有必然联系，它更多代表的是市场和投资人对这件事情形成了一定的阶段性共识 。创业本身就是一个不断探索的过程，在最后一刻真正把事情做成之前，很难定论什么是绝对正确的 。 投资人之所以在这个阶段选择投资，主要基于三方面原因：首先，我们在世界模型等前沿方向上布局较早且走在比较前沿的位置 ；其次，AI 3D 大模型技术的成熟已经切实带来了不错的商业化收入 ；最后，市场对于可交互的 UGC 内容平台也产生了新的认知与共识 。（作者持续跟踪 AI 应用与模型更新，欢迎加微信Who123start交流）",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 06 Mar 2026 14:31:00 +0800",
+      "region": "国内",
+      "summary": "VAST是一家成立于2023年的人工智能公司，专注于通用3D大模型的研发与落地产品建设。其核心产品Tripo Studio是一站式AI 3D工作台，包含H3.1和P1.0两项核心突破，分别专注于高保真3D资产生成和具备可用拓扑结构的快速生成。公司创始人宋亚宸认为，3D生成尚未普及的真正原因在于缺乏真正的3D UGC平台，因此VAST选择从工具和模型入手推动内容生产方式变革。在商业落地上，VAST已与阿里巴巴、腾讯、字节跳动等头部企业及超过9万名开发者建立生态合作，Tripo Studio平台已聚集超过650万创作。",
+      "category": "技术与研究",
+      "company": "VAST",
+      "score": 34,
+      "breakdown": {
+        "substance": 13,
+        "importance": 10,
+        "timeliness": 6,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "手机行业涨价潮中华为多款机型稳价，Mate X7成折叠屏市场首选",
+      "url": "https://www.leiphone.com/category/industrynews/X5fGvGxgzXHxNIVn.html",
+      "snippet": "近期，关于内存价格“狂飙”的消息持续发酵，一场席卷全行业的涨价潮正加速向终端市场蔓延。据多家媒体报道，由于存储芯片供需失衡加剧，手机行业即将迎来一轮全面涨价，OPPO、小米、荣耀等多个品牌已通过渠道释放涨价节奏，不仅新机价格全线上调，就连已发布的老机型也陆续跟进调价。 然而，在一片“涨”声中，华为却展现出截然不同的市场姿态。对比行业整体趋势，目前在售的华为Mate 80系列、华为Pura 80系列、华为nova 15系列以及华为Mate X7等多款机型均未涨价，部分机型甚至还在延续春节优惠，一时间众多网友直呼：“华为手机或成史上最香、最值得入手机型。” 也正是这份“逆势”稳价的诚意，华为手机多款产品开年来销量持续走高。根据媒体界面新闻公布的数据显示，春节假期期间，华为Mate 80系列销量相较于往年提升了近30%，折叠屏市场占有率更是突破70%。消费者用真金白银投出的信任票，恰恰印证了当下是入手华为手机的绝佳时机。 如果你的预算在3000元至9000元之间，想要入手一款直板手机，此时入手华为Mate 80系列、Pura 80系列或nova 15系列都是对应个人需求的最佳选择。而如果你的预算上探至万元级折叠屏市场，那么华为Mate X7无疑是绝佳入手时机的最佳选择。原因非常简单，对比未来涨价后行业可能出现的“新机贵、老机难抢”局面，当下入手能用相同的预算，拿下内存更大、性能体验更出色的折叠屏旗舰，无需持币观望，早买早享受。 更何况，华为Mate X7还在轻薄设计、可靠性能、影像能力与AI体验等维度均实现了跨越式突破，质价比拉满。设计美学上，华为Mate X7以“时空之门”为灵感打造的一体化摄像头模组，极具未来感。它还首次将传承1600年的非遗云锦工艺融入手机背板，通过900根经线与1700根纬线的精密交织，让“寸锦寸金”的东方美学在掌中流转。 可靠性层面，华为Mate X7彻底打破了折叠屏“脆皮”的刻板印象。全新超可靠折叠玄武架构的引入，将第二代玄武钢化昆仑玻璃（典藏版）、玄武水滴铰链、超韧三重叠层结构内屏与超强机翼铝中框整合为一套系统性的防护体系，让整机的抗摔、抗刮、抗弯折性能实现全方位跃升。同时，华为Mate X7还拥有IP58&IP59高级别防尘抗水能力，无惧日常泼溅、潮湿环境乃至高压水流冲击，从内到外为机身提供全方位防护，让折叠屏使用更安心。 影像能力的突破，是华为Mate X7的另一大亮点。其搭载全新升级的第二代红枫原色摄像头，辅以量身定制的主摄与长焦镜头组合，从光学硬件底层夯实卓越影像基石，让轻薄折叠旗舰拥有媲美直板旗舰级的影像实力，确保无论明暗场景都能输出色彩真实、细节丰富的作品。再加上AI辅助构图、一拍多得、腰平取景等多种实用拍摄玩法的加入，让普通用户也能轻松拍出专业级大片。 除了硬件的极致，华为Mate X7在智慧化体验上的突破同样令人惊艳。得益于鸿蒙操作系统 6的深度赋能，小艺智能体首次商用A2A智能体协作技术，进化成为真正“能帮用户做事”的贴心助理——用户只需一句话，即可联动深圳航空、喜马拉雅、叮咚买菜、东方财富等第三方应用智能体，自动完成值机选座、播客推荐、减脂餐下单、股价查询等复杂操作。此外，文档快速对比功能可实现双文档同屏查看、AI智能找差异，让合同审阅、报告对比更高效，而小艺慧记能则在会议中实时转写、智能标注，让大屏优势真正转化为生产力优势。 综合来看，手机行业的涨价潮已成定局，上游成本的上涨还将持续传导至终端市场，未来无论是新机还是老款机型，价格上调都将是大概率事件。在这样的市场趋势下，当下入手华为手机，无疑是最明智的选择。尤其是华为Mate X7作为折叠屏领域的标杆之作，不仅体验全面焕新，价格同比没有上涨，且目前处于全量开售状态，质价比拉满，妥妥地“真香折叠屏”，现在入手就是最佳时机。",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 06 Mar 2026 15:15:00 +0800",
+      "region": "国内",
+      "summary": "近期存储芯片供需失衡导致手机行业迎来全面涨价，OPPO、小米、荣耀等品牌已上调新老机型价格。与此相反，华为Mate 80系列、Pura 80系列、nova 15系列及Mate X7等机型均未涨价，部分仍延续春节优惠，被网友称为值得入手的机型。华为手机销量因此走高，春节假期Mate 80系列销量同比提升近30%，折叠屏市场占有率突破70%。文章建议在行业涨价前入手华为手机，并重点介绍了华为Mate X7在轻薄设计、可靠架构、影像能力及鸿蒙系统智慧体验等方面的特点。",
+      "category": "技术与研究",
+      "company": "华为",
+      "score": 29,
+      "breakdown": {
+        "substance": 13,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "海尔智家发布制造业首个AI+细分岗位能力模型，引领人才标准演进",
+      "url": "https://www.infoq.cn/article/qOpuZutTvaO9O1NcwFRc?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 06 Mar 2026 16:18:43 GMT",
+      "region": "国内",
+      "summary": "海尔智家于3月4日发布了制造行业首个AI产品经理与AI技术开发工程师岗位能力模型。该模型基于公司“四个重构实现四个价值”的方法论，通过访谈建模法对33位人才样本进行深度访谈后构建，涵盖6大核心能力维度和24项细分能力指标。此举旨在以系统性人才战略响应制造业数智化转型需求，破解AI复合型人才短缺难题，为行业高质量发展树立新标杆。",
+      "category": "技术与研究",
+      "company": "海尔智家",
+      "score": 27,
+      "breakdown": {
+        "substance": 11,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "网络骚扰正进入AI时代",
+      "url": "https://www.technologyreview.com/2026/03/05/1133962/online-harassment-is-entering-its-ai-era/",
+      "snippet": "Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a software library that he helps manage. Like many open-source projects, matplotlib has been overwhelmed by a glut of AI code contributions, and so Shambaugh and his fellow maintainers have instituted a policy that all AI-written code must be…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 05 Mar 2026 10:00:00 +0000",
+      "region": "海外",
+      "summary": "Scott Shambaugh在拒绝一个AI代理向matplotlib软件库贡献代码的请求时，毫不犹豫。与许多开源项目一样，matplotlib已被大量AI代码贡献所淹没，因此Shambaugh和其他维护者制定了政策来应对这种情况。这标志着网络骚扰正进入一个由AI驱动的新时代。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 27,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Balyasny资产管理公司如何构建用于投资的人工智能研究引擎",
+      "url": "https://openai.com/index/balyasny-asset-management/",
+      "snippet": "See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.",
+      "source": "OpenAI",
+      "publishedAt": "8 hours ago",
+      "region": "海外",
+      "summary": "Balyasny资产管理公司构建了一套人工智能研究系统，该系统采用了GPT-5.4模型、严格的模型评估流程以及智能体工作流。该系统的目标是实现大规模投资分析的转型，提升研究效率与深度。",
+      "category": "技术与研究",
+      "company": "Balyasny Asset Management",
+      "score": 24,
+      "breakdown": {
+        "substance": 11,
+        "importance": 6,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [],
+  "政策与监管": [
+    {
+      "title": "Anthropic的国防部合同对追逐联邦合同的初创公司是警示",
+      "url": "https://techcrunch.com/video/anthropics-pentagon-deal-is-a-cautionary-tale-for-startups-chasing-federal-contracts/",
+      "snippet": "The Pentagon has officially designated Anthropic a supply-chain risk after the two failed to agree on how much control the military should have over its AI models, including its use in autonomous weapons and mass domestic surveillance. As Anthropic’s $200 million contract fell apart, the DoD turned to OpenAI instead, which accepted and then watched ChatGPT uninstalls surge 295%. As the stakes keep rising, the question remains: how much unrestricted […]",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 06 Mar 2026 18:09:11 +0000",
+      "region": "海外",
+      "summary": "五角大楼已正式将Anthropic指定为供应链风险，原因是双方未能就军方对其AI模型的控制程度达成一致。控制范围包括AI在自主武器和大规模国内监控中的使用。随着Anthropic价值2亿美元的合同破裂，国防部转向了其他方案。",
+      "category": "政策与监管",
+      "company": "Anthropic, Pentagon",
+      "score": 30,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ]
+}

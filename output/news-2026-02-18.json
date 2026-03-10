@@ -1,0 +1,276 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "Claude发布Sonnet 4.6：计算机操作接近人类水平，性价比超越Opus系列",
+      "url": "https://www.qbitai.com/2026/02/381081.html",
+      "snippet": "计算机操作接近人类水平",
+      "source": "量子位",
+      "publishedAt": "Wed, 18 Feb 2026 08:16:04 +0000",
+      "region": "国内",
+      "summary": "Anthropic在春节期间发布了Claude Sonnet 4.6模型，其计算机操作能力接近人类水平，能处理填写复杂Excel和网页清单等任务。该模型在编码、长上下文推理、Agent规划、知识型工作和设计等方面均有升级，Beta阶段支持100万token上下文，且定价与Sonnet 4.5相同，免费用户也可使用。内测用户反馈显示，Sonnet 4.6在大多数Agent任务上的表现与Opus系列相当，速度更快且价格仅为五分之一，在金融分析和办公室任务测试中甚至超越了历代Opus模型。",
+      "category": "产品发布与更新",
+      "company": "Anthropic",
+      "score": 34,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Teleport推出智能体身份框架，保障企业AI智能体安全",
+      "url": "https://www.infoq.cn/article/NCScMoBflBRBsFh5tQmJ?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 18 Feb 2026 08:00:00 GMT",
+      "region": "国内",
+      "summary": "Teleport公司发布了Teleport智能体身份框架，这是一个以AI为核心的安全模型，旨在帮助企业安全地在云环境和本地环境中部署自主和半自主AI智能体。该框架将AI智能体作为可信身份进行管理，通过定义规模化安全运行AI智能体所需的策略、参考架构与开发者工具，应对数据泄露、合规失效与对抗性攻击等风险。Teleport的基础设施身份平台为该框架提供了以统一硬件信任根为支撑的加密安全身份层，用临时身份取代静态凭证，实现零信任认证和实时监控。行业分析师认为，随着企业部署自主AI智能体，身份将成为核心的安全管控手段，缺乏统一的身份基础会带来不可控的风险。",
+      "category": "产品发布与更新",
+      "company": "Teleport",
+      "score": 33,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "马斯克xAI发布Grok 4.2公测版，通过洗车店测试并展现快速学习能力",
+      "url": "https://www.qbitai.com/2026/02/381037.html",
+      "snippet": "联创跑了并不耽误xAI发新模型",
+      "source": "量子位",
+      "publishedAt": "Wed, 18 Feb 2026 08:10:10 +0000",
+      "region": "国内",
+      "summary": "马斯克旗下xAI公司发布了Grok 4.2模型的公测Beta版本，该模型参数为500B。模型通过了近期流行的“50米外洗车店”逻辑测试，并首次引入了基于实时反馈的快速学习能力，支持每周自我迭代。尽管马斯克宣称其在预测能力上击败了其他AI模型，但发布后用户反馈呈现两极分化，部分用户认为其逻辑推理能力未达预期。目前xAI尚未发布详细的技术报告，模型的具体表现多停留在体验层面。",
+      "category": "产品发布与更新",
+      "company": "xAI",
+      "score": 26,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "WordPress.com推出可编辑、调整样式和创建图像的AI助手",
+      "url": "https://techcrunch.com/2026/02/17/wordpress-com-adds-an-ai-assistant-that-can-edit-adjust-styles-create-images-and-more/",
+      "snippet": "The feature is designed to work inside the website to understand its content and layout, allowing site owners to make changes with natural language commands. The WordPress AI assistant doesn't need precisely tailored prompts, either.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 17 Feb 2026 16:10:44 +0000",
+      "region": "海外",
+      "summary": "WordPress.com为其网站平台添加了一个AI助手功能。该功能旨在理解网站的内容和布局，允许网站所有者使用自然语言命令进行修改。该AI助手也不需要非常精确的提示词。",
+      "category": "产品发布与更新",
+      "company": "WordPress.com",
+      "score": 22,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "超两万人请愿要求OpenAI恢复GPT-4o",
+      "url": "https://www.businessinsider.com/openai-retires-gpt-4o-20-000-sign-petition-save-it-2026-2",
+      "snippet": "The deprecation of OpenAI's GPT-4o sparks backlash and a petition. Users said they cherish its unique conversational style.",
+      "source": "Business Insider",
+      "publishedAt": "16 hours ago",
+      "region": "海外",
+      "summary": "OpenAI决定弃用GPT-4o引发了用户强烈反对并发起请愿活动。请愿者表示他们珍视GPT-4o独特的对话风格，希望公司能重新启用该模型。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 21,
+      "breakdown": {
+        "substance": 3,
+        "importance": 11,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "千问3.5开源引爆全球AI产业链，英伟达、华为昇腾等国内外厂商第一时间适配",
+      "url": "https://www.leiphone.com/category/industrynews/GL2oDExVsQ0Kt0sc.html",
+      "snippet": "千问3.5除夕开源发布，在全球AI产业链掀起热潮。截至2月18日，记者发现，英伟达、AMD、苹果公司等国际硬件厂商，已实现开发框架乃至芯片层对Qwen3.5的适配；华为昇腾、摩尔线程、沐曦、海光等国产GPU和平台均官宣Day 0 适配千问3.5新模型。千问3.5总参数3970亿仅激活170亿，性能超越上代万亿参数模型Qwen3-Max，部署显存占用大降60%，推理最大吞吐提升至19倍。基于底层模型架构创新，Qwen3-Plus在阿里云百炼API价格低至每百万Token0.8元，以不到5%的低价格获得媲美Gemini 3的高性能。\n千问3.5以小胜大，创下大模型效率和性价比新高，又因其开源而一举成为三方平台争先抢上的最热门模型。国家超算互联网平台、曙光云、算能Sophnet、OpenRouter、Together AI、Ollama、ZenMux、Novita AI、Poe等国内外平台，均已第一时间上线Qwen3.5模型，对外提供API服务或体验入口。",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 18 Feb 2026 15:21:00 +0800",
+      "region": "国内",
+      "summary": "千问3.5模型在除夕开源发布后，迅速在全球AI产业链引发热潮。包括英伟达、AMD、苹果等国际硬件厂商，以及华为昇腾、摩尔线程、沐曦、海光等国产GPU和平台，均已宣布实现从开发框架到芯片层的适配。该模型以3970亿总参数仅激活170亿的架构，实现了性能超越上代万亿参数模型，同时部署显存占用降低60%，推理最大吞吐提升至19倍，并在阿里云百炼平台以极具竞争力的价格提供API服务。因其出色的效率和性价比，国家超算互联网平台、曙光云、OpenRouter、Together AI等众多国内外平台均已第一时间上线该模型，提供API服务或体验入口。",
+      "category": "技术与研究",
+      "company": "AMD",
+      "score": 53,
+      "breakdown": {
+        "substance": 28,
+        "importance": 10,
+        "timeliness": 10,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌AI CEO解释Gemini和ChatGPT赢得国际数学奥林匹克的原因",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-ai-ceo-demis-hassabis-just-tells-everyone-why-gemini-and-chatgpt-winning-international-maths-olympiad-is-not-big-as-they-can-still-/articleshow/128496436.cms",
+      "snippet": "Tech News News: Google AI CEO Demis Hassabis has cautioned against overstating the significance of AI systems like Gemini and ChatGPT solving international...",
+      "source": "The Times of India",
+      "publishedAt": "3 hours ago",
+      "region": "海外",
+      "summary": "谷歌人工智能首席执行官Demis Hassabis告诫不要过度夸大像Gemini和ChatGPT这样的AI系统解决国际数学奥林匹克问题的意义。他解释了这些系统在该竞赛中取得成功的原因。",
+      "category": "技术与研究",
+      "company": "Google",
+      "score": 13,
+      "breakdown": {
+        "substance": 0,
+        "importance": 6,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "月之暗面融资超7亿美元估值超百亿，大模型赛道热钱涌动",
+      "url": "https://36kr.com/p/3688162369908611?f=rss",
+      "snippet": "文｜周鑫雨\n编辑｜苏建勋\n春节，热钱涌动在中国大模型赛道上。\n一端，是狂撒几十亿元发红包、请奶茶，替当家AI应用拉流量的大厂们；另一端，则是股价飞涨、融资迅猛的大模型六小虎们。\n在搞钱的战场上，开年最大的一笔融资，来自月之暗面。\n此前彭博社等媒体报道称，近期月之暗面即将完成的超7亿美元融资，由阿里、腾讯、五源资本、九安医疗等老股东领投，并且已经超募。与此同时，月之暗面已经以100亿-120亿美金的估值，无缝开启了新一轮融资。\n《智能涌现》独家获悉，月之暗面的超7亿美元融资中，股东阵容除了联合领投的老股东们，还包括老股东高榕创投，以及新增的凯辉基金——这也是凯辉，首次朝大模型公司开枪；\n据我们了解，以超100亿美金估值开启的新一轮融资，已经收到了多家机构的意向，包括欧洲背景的海外基金。\n有关上述信息，截至发稿前，月之暗面暂无回应。\n用“抢”形容月之暗面这轮融资的局面，一点也不过分。\n一名知情人士告诉我们，从2025年下半年，月之暗面开启融资之初，不少机构的LP，就“催着投资”。\n这几轮融资，还吸引到了不少首次对大模型出手的基金。\n比如，我们得知，在月之暗面上一轮超7亿美金的融资中，凯辉基金成为了新增股东——直到2025年5月，凯辉基金管理合伙人段兰春，还在36氪的访谈中提到，凯辉暂时没有参与通用大模型或底层Infra的投资，原因是凯辉的投资策略是“重落地、重生态”。\n这或许是除了2023年初，行业对大模型最大的一次FOMO（错失恐慌症）。\n溯其缘由，是自港股IPO以来，智谱和MiniMax这两家大模型初创公司飞速上涨的市值，再次给予一级市场投资大模型的热情。\n自2026年初相继IPO后，智谱和MiniMax的股价就水涨船高。尤其2月12日，两家公司上架新一代模型后，市值又达到了新的峰值——\n截至2月17日，智谱的盘中最高市值已经超过2200亿港元，MiniMax则超过2600亿港元，两者相较上市初期，均翻了四五倍。\n二级市场可观的回报，也让一级市场的捕手们，将目光投向尚未上市的月之暗面，试图囤积居奇。\n港股IPO，也将中国大模型的影响力扩大至海外。可见的是，此前鲜少接触中国企业的欧洲资本，也在新一轮融资中，罕见地向月之暗面伸出了橄榄枝。\n一名知情人告诉《智能涌现》，月之暗面上一轮7亿美金的融资，新投资者“速度快才能抢到份额”。以超100亿美金估值开启的新一轮融资，某种意义上也是没抢到上一轮份额的机构，“推着开启的”。\n与此同时，“智谱和MiniMax的市值，给了大模型公司在二级市场的一个估值锚点。”另有知情人士表示。\n之前，月之暗面和阶跃星辰的估值都相对偏低。即便如今估值已超过100亿美金，但相较智谱（估值约280亿美金）和MiniMax（估值约330亿美金），两家未上市的模型初创公司，还有数倍的差距。\n二级市场逐渐验证了模型公司的价值，这一现象也改变了月之暗面和阶跃星辰的融资策略：自2025年下半年以来，开启滚动融资，迅速抬高估值。\n就月之暗面而言，2025年12月底，公司宣布完成5亿美金的融资后，就开启了价值7亿美金的新一轮；之后无缝开启的，则是如今以超100亿美金估值快速推进的融资——短短两个月，月之暗面估值翻了超过2.2倍。\n如今，大模型六小虎，纷纷在一二级市场，加快了筹措资金的步伐。他们最强劲的对手——大厂战队的字节、阿里、腾讯，已经先他们一步，迈入了撒钱换用户的阶段。\n春节期间，赞助上春晚，豪掷几十亿元发红包、请奶茶，显然，大厂们已经更早抢滩“AI国民应用”。\n对于留在场上的4家大模型创业公司而言，稳住模型技术第一梯队的位置，是当下最重要的命题。\n阶跃星辰董事长印奇在最近的访谈中提到，基模研发，一年需要30亿-50亿元的资金投入，才能留在牌桌上。\n高涨的估值，仍愿意买单的一二级市场，对创业公司而言，是个乐观的信号。\n\n欢迎交流！",
+      "source": "36氪",
+      "publishedAt": "2026-02-18 09:54:31  +0800",
+      "region": "国内",
+      "summary": "春节前后，中国大模型赛道呈现热钱涌动局面。一方面，字节、阿里、腾讯等大厂通过巨额红包和营销活动为AI应用拉流量；另一方面，以月之暗面为代表的大模型初创公司融资活跃。月之暗面近期完成了超7亿美元的融资，由阿里、腾讯、五源资本、九安医疗等老股东领投，并吸引了凯辉基金等新投资者，随后公司又以超过100亿美元的估值开启了新一轮融资。智谱和MiniMax在港股IPO后市值大幅上涨，分别超过2200亿港元和2600亿港元，这刺激了一级市场对月之暗面等未上市公司的投资热情，也促使月之暗面采取了滚动融资策略以快速提升估值。",
+      "category": "投融资与并购",
+      "company": "月之暗面",
+      "score": 53,
+      "breakdown": {
+        "substance": 25,
+        "importance": 13,
+        "timeliness": 8,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Brevan Howard旗下加密货币基金2025年暴跌30%",
+      "url": "https://36kr.com/newsflashes/3688387366629249?f=rss",
+      "snippet": "据媒体援引知情人士消息报道，布莱文・霍华德（Brevan Howard）旗下 BH 数字资产基金在 2025 年暴跌约 30%，创下该基金 2021 年成立以来最严重的年度跌幅。该基金曾在 2023 年实现 43% 的收益，2024 年收益达 52%，但在去年遭遇重创。原因是受人工智能冲击、面临颠覆性风险的科技股大幅下跌，连带加密资产也受到剧烈波及。",
+      "source": "36氪",
+      "publishedAt": "2026-02-18 18:05:31  +0800",
+      "region": "国内",
+      "summary": "据知情人士透露，Brevan Howard旗下的BH数字资产基金在2025年下跌约30%，创下该基金自2021年成立以来最严重的年度跌幅。该基金在2023年和2024年曾分别实现43%和52%的收益，但在2025年因受人工智能冲击和面临颠覆性风险的科技股大幅下跌，连带加密资产也受到剧烈波及而遭遇重创。",
+      "category": "投融资与并购",
+      "company": "Brevan Howard",
+      "score": 28,
+      "breakdown": {
+        "substance": 11,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "巴菲特与段永平双双减持苹果股份",
+      "url": "https://36kr.com/newsflashes/3688346243296903?f=rss",
+      "snippet": "最新披露的文件显示，在巴菲特卸任CEO前的最后一个季度，伯克希尔·哈撒韦公司对科技股的持仓进行了大幅调整，大举减持了苹果、亚马逊。其中，纽约时报是伯克希尔四季度唯一新建仓的个股，买入数量为506.7万股。 与此同时，知名投资人段永平也在2025年第四季度减持了苹果，减持数量为247.06万股，减持幅度达7.09%。值得注意的是，段永平似乎正大举押注AI，其在第四季度大举增持了663.93万股英伟达，还建仓买入了三家AI“新面孔”。",
+      "source": "36氪",
+      "publishedAt": "2026-02-18 15:04:42  +0800",
+      "region": "国内",
+      "summary": "根据最新披露的文件，在巴菲特卸任CEO前的最后一个季度，伯克希尔·哈撒韦公司对科技股持仓进行了大幅调整，大举减持了苹果和亚马逊的股份。与此同时，知名投资人段永平也在2025年第四季度减持了苹果股票，减持数量为247.06万股，减持幅度达7.09%。值得注意的是，段永平在第四季度大举增持了英伟达股票，并新建仓了三家AI相关公司。",
+      "category": "投融资与并购",
+      "company": "苹果",
+      "score": 27,
+      "breakdown": {
+        "substance": 10,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "2026年已有17家美国AI公司融资超1亿美元",
+      "url": "https://techcrunch.com/2026/02/17/here-are-the-17-us-based-ai-companies-that-have-raised-100m-or-more-in-2026/",
+      "snippet": "Three U.S.-based AI companies raised rounds larger than $1 billion so far in 2026, with 14 others raising rounds of $100 million or more.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 17 Feb 2026 14:58:09 +0000",
+      "region": "海外",
+      "summary": "截至2026年，已有三家总部位于美国的AI公司融资轮次超过10亿美元。此外，还有另外14家公司融资轮次达到或超过1亿美元。",
+      "category": "投融资与并购",
+      "company": "AI companies",
+      "score": 32,
+      "breakdown": {
+        "substance": 10,
+        "importance": 8,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "SpaceX前员工为数据中心连接项目筹集5000万美元A轮融资",
+      "url": "https://techcrunch.com/2026/02/17/spacex-vets-raise-50m-series-a-for-data-center-links/",
+      "snippet": "Mesh aims to mass-produce optical transceivers for AI data centers.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 17 Feb 2026 17:00:00 +0000",
+      "region": "海外",
+      "summary": "由SpaceX前员工创立的Mesh公司为其数据中心连接项目筹集了5000万美元的A轮融资。Mesh公司旨在为AI数据中心大规模生产光收发器。这笔资金将用于支持其光学连接技术的研发与生产。",
+      "category": "投融资与并购",
+      "company": "SpaceX",
+      "score": 21,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "印度计划到2028年吸引超2000亿美元AI基础设施投资",
+      "url": "https://techcrunch.com/2026/02/17/india-bids-to-attract-over-200b-in-ai-infrastructure-investment-by-2028/",
+      "snippet": "India is ramping up shared AI compute, adding 20,000 GPUs as part of a broader push to attract global AI investment.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 17 Feb 2026 14:13:54 +0000",
+      "region": "海外",
+      "summary": "印度正在增加共享AI计算能力，计划增加20,000个GPU。这是其为吸引全球AI投资而进行的更广泛推动的一部分。",
+      "category": "投融资与并购",
+      "company": "India",
+      "score": 21,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "美国法院禁止OpenAI在Sora中使用‘Cameo’名称",
+      "url": "https://techcrunch.com/2026/02/17/u-s-court-bars-openai-from-using-cameo/",
+      "snippet": "OpenAI has renamed its feature in Sora from \"Cameo\" to \"Characters.\"",
+      "source": "TechCrunch",
+      "publishedAt": "4 hours ago",
+      "region": "海外",
+      "summary": "美国一家法院裁定禁止OpenAI使用‘Cameo’这一名称。OpenAI因此将其Sora视频生成模型中的一项功能从‘Cameo’更名为‘Characters’。",
+      "category": "政策与监管",
+      "company": "OpenAI",
+      "score": 12,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ]
+}

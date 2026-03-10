@@ -1,0 +1,276 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "阿里千问推出Qwen Coding Plan，支持更多模型与AI工具",
+      "url": "https://36kr.com/newsflashes/3692864510389889?f=rss",
+      "snippet": "2月21日，阿里千问宣布推出Qwen Coding Plan，支持更多模型，上新Qwen3.5-Plus、Qwen3-Coder-Next，适配QwenCode、ClaudeCode、Cline等Al工具使用。",
+      "source": "36氪",
+      "publishedAt": "2026-02-21 19:39:49  +0800",
+      "region": "国内",
+      "summary": "2月21日，阿里千问宣布推出Qwen Coding Plan。该计划支持更多模型，并上新了Qwen3.5-Plus和Qwen3-Coder-Next两款模型。同时，该计划还适配了包括QwenCode、ClaudeCode和Cline在内的多种AI工具。",
+      "category": "产品发布与更新",
+      "company": "阿里千问",
+      "score": 26,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌AI Plus、Pro和Ultra套餐包含哪些Gemini功能 [2026年2月]",
+      "url": "https://9to5google.com/2026/02/21/google-ai-pro-ultra-features/",
+      "snippet": "At I/O 2025, Google One AI Premium (and Gemini Advanced) became Google AI Pro, while a more expensive tier was introduced with AI Ultra.",
+      "source": "9to5Google",
+      "publishedAt": "6 hours ago",
+      "region": "海外",
+      "summary": "在2025年的I/O大会上，谷歌将Google One AI Premium（以及Gemini Advanced）更名为Google AI Pro。同时，谷歌还推出了一个更昂贵的AI Ultra套餐层级。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 23,
+      "breakdown": {
+        "substance": 5,
+        "importance": 11,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "OpenAI智能音箱可通过面部识别让用户购买商品",
+      "url": "https://www.techtimes.com/articles/314764/20260220/openai-smart-speaker-can-allow-you-buy-things-through-facial-recognition.htm",
+      "snippet": "OpenAI is developing a camera-equipped, screen-free AI speaker with Jony Ive, aiming to launch in 2027 as a proactive smart home rival to Apple.",
+      "source": "Tech Times",
+      "publishedAt": "23 hours ago",
+      "region": "海外",
+      "summary": "OpenAI正与Jony Ive合作开发一款配备摄像头、无屏幕的人工智能音箱，目标是于2027年推出，作为苹果的主动式智能家居竞争对手。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 20,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "GPT-4o和GPT-5的终结？OpenAI今日将淘汰旧版GPT模型",
+      "url": "https://www.livemint.com/technology/tech-news/end-of-the-road-for-gpt-4o-and-gpt-5-openai-set-to-retire-legacy-gpt-models-today-heres-why-11771002559821.html",
+      "snippet": "OpenAI is retiring GPT-4o and several older models from ChatGPT today, shifting focus to newer GPT-5 systems with improved personality, creativity and...",
+      "source": "Mint",
+      "publishedAt": "4 hours ago",
+      "region": "海外",
+      "summary": "OpenAI今日将从ChatGPT中淘汰GPT-4o及多个旧模型，将重心转向具有改进个性、创造力的新版GPT-5系统。此举旨在推动用户采用更新的技术。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 18,
+      "breakdown": {
+        "substance": 0,
+        "importance": 11,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "16个Claude智能体无人工干预协作构建C语言编译器",
+      "url": "https://www.infoq.cn/article/YSdbKmoPyzFgxvPA3TZl?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 21 Feb 2026 08:00:00 GMT",
+      "region": "国内",
+      "summary": "Anthropic研究员Nicholas Carlini使用十六个Claude Opus 4.6 AI智能体从零开始构建了一个基于Rust的C编译器，整个过程没有人工干预。这些智能体在共享仓库中并行协作，通过基于锁的方案同步协调代码修改，最终实现了能够编译Linux 6.9内核的编译器，并支持x86、ARM和RISC-V架构。该项目共进行了约2000次会话，产生了约20000美元的API费用，其深层意义在于探索为长期自主运行的智能体团队设计控制框架。",
+      "category": "技术与研究",
+      "company": "Anthropic",
+      "score": 38,
+      "breakdown": {
+        "substance": 19,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "北航团队开源Code2Bench：双重扩展动态评测框架，应对代码大模型基准挑战",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-21-3",
+      "snippet": "在衡量大语言模型（LLM）代码生成能力的竞赛中，一个日益严峻的问题正浮出水面：当模型在 HumanEval、MBPP 等经典基准上纷纷取得近乎饱和的成绩时，我们究竟是在评估其真实的泛化推理能力，还是在检验其对训练语料库的「 记忆力」？ 现有的代码基准正面临两大核心挑战： 数据污染 的风险，以及 测试严谨性不足 。前者使评测可能退化为「 开卷考试」，后者则常常导致一种「 正确的幻觉 」（Illusion of Correctness）&mdash;&mdash; 模型生成的代码或许能通过少数示例，却在复杂的真实世界边缘场景中不堪一击。 为了打破这种「 高分幻觉」，来自北京航空航天大学的研究团队提出了一种全新的基准构建哲学 &mdash;&mdash; 双重扩展（Dual Scaling） ，并基于此构建了端到端的自动化框架 Code2Bench 。该研究旨在为代码大模型的评估，建立一个更动态、更严苛、也更具诊断性的新范式。 目前，该论文已被 ICLR 2026 接收。 论文标题：Code2Bench: Scaling Source and Rigor for Dynamic Benchmark Construction 论文链接： https://arxiv.org/pdf/2508.07180 榜单链接：https://code2bench.github.io/&nbsp; 我们需要什么样的 Benchmark 构建方法？ 理想的代码评测基准不应是静态题库的简单堆砌，而应是一个持续演化的对抗环境。它必须同时满足两个条件：题目对模型绝对「 新鲜」，以杜绝记忆作弊；测试足够严苛，以暴露逻辑深处的脆弱性。 然而，当前绝大多数评测体系仍困于「 一次性构建、长期复用」的旧范式。它们要么依赖人工编写（易污染），要么从竞赛平台抓取（脱离工程实际）；测试用例则普遍稀疏且浅层，无法区分「 功能可用」与「 生产可靠」。 &nbsp; &nbsp; &nbsp; 表一：现有主流代码生成基准多维度对比 表一清晰地勾勒出了当前评测界的「 能力缺口」：大多数基准要么依赖人工编写（极易被后续训练集污染），要么从竞赛平台抓取（往往脱离工程实际逻辑）。更致命的是，它们的测试用例普遍 稀疏且浅层 ，只能验证「 功能可用」，却无法甄别 「 生产可靠」。 为了填补这一空白，一个面向未来的基准构建方法必须具备以下四大特质： 动态性（Dynamic） ：问题来源必须是持续更新的，以从根本上对抗数据污染。 真实性（Real-world） ：问题应源自真实的、复杂的项目代码库，而非人工编写的「玩具问题」。 严谨性（Rigorous） ：测试必须是深入且全面的，能够挖掘出最细微的逻辑缺陷。 全面性（Comprehensive） ：应能处理复杂的外部库依赖，并具备向多语言扩展的能力。 正是在对这四大目标的追求下，Code2Bench 的核心构建哲学应运而生。 「 双重扩展」：重构代码基准的构建逻辑 Code2Bench 并非仅仅发布了一个新数据集，而是提出了一套端到端、全自动、可持续演进的基准构建流水线。如图一所示，其核心是「 双重扩展」哲学 &mdash;&mdash; 通过系统性地扩展来源广度与测试深度，确保我们总能源源不断地生成高质量、抗污染、高覆盖的评测任务。 &nbsp; &nbsp; &nbsp; 图一：Code2Bench Pipeline 总览 1. 扩展代码来源（Scaling the Source）：与数据污染赛跑 为了确保问题的新颖性与真实性，框架摒弃了静态题库，转而建立了一套动态获取代码的流水线： 动态获取与时间戳过滤：直接从海量、活跃的 GitHub 开源项目中提取函数，并严格依据各待评测模型的知识截止日期（Knowledge Cutoff Date），仅筛选在此之后提交的代码。这不仅杜绝了「背题」，更意味着只要 GitHub 有新代码，Code2Bench 就能源源不断产出新题目。 语言无关的 Scope Graph 分析：作为系统化分类的技术核心，该方法不依赖特定语言语法，而是通过高度抽象的逻辑作用域图（Scope Graph）精准识别外部依赖，自动将任务分为： 自包含任务（SC）：无外部依赖，专注考核核心逻辑合成能力； 弱自包含任务（WSC）：仅依赖标准库或白名单库（如 NumPy），考核真实开发中的 API 应用能力。 这一设计使框架天然支持多语言扩展，为未来纳入 Go、JavaScript 等语言奠定基础。 2. 扩展测试严谨性（Scaling the Rigor）：以工业级标准终结「 正确性幻觉」 面对传统基准测试用例稀疏的弊病，Code2Bench 引入了极致的严谨性作为核心准则： 基于属性的测试（Property-Based Testing, PBT） ：框架为每个候选函数自动生成包含数百乃至上千个输入的测试套件，这些输入覆盖了典型值、边界值和复杂的嵌套结构。 「Great Filter」&mdash;&mdash;100% 分支覆盖率 ：这是 Code2Bench 最具标志性的设计。一个函数及其对应的 PBT 测试套件，只有在执行时能够 覆盖到函数内每一个逻辑分支 （如 if/else 的所有情况），才会被最终采纳。这一看似简单的要求，却是一个极其严苛的质量门，它确保了基准中的每一个问题都是一个逻辑完备且可被深度验证的挑战。 Code2Bench-2509 基准 为了验证「 双扩展」哲学的有效性，研究团队基于该框架自动构建了&nbsp; Code2Bench-2509 &nbsp;基准套件。这是一份动态摄取自 2025 年 5 月至 9 月 GitHub 最新提交的「 实战考卷」，包含 Python 与 Java 的原生实例。 表二的量化指标直观地揭示了 Code2Bench-2509 在工程维度上对传统基准的 「 代差」优势： &nbsp; &nbsp; &nbsp; 表二：Code2Bench-2509 核心指标 复杂度跃升 ：在纯逻辑（SC-Python）任务中，平均 圈复杂度（Cyclomatic Complexity）达到 5.3 ，远高于 HumanEval 的 2.8。 严谨性碾压 ：不同于 HumanEval 平均每题仅约 7.8 个测试用例，Code2Bench 为每道题生成了 约 500 个测试用例 。 生态多样性 ：在 WSC 任务中，基准涵盖了 超过 30 个主流第三方库 （如 NumPy、Pandas、Scipy 等），真实模拟了现代软件开发对 API 应用能力的依赖。 图二的多维评估景观图（Figure 2）则清晰地展示了这一跨越： &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 图二：Code2Bench-2509 与主流基准在测试严谨性、依赖深度与可扩展性上的多维对比 相比于 HumanEval 和 BigCodeBench 等主流基准，Code2Bench 在 测试严谨性（Testing Rigor） 、依赖深度（Dependency Level）以及框架可扩展性（Extensibility）三个维度上均实现了显著的位移。 它不再仅仅停留于考察模型「 能否写出正确的代码」，而是通过「 语言扩展」和 「 依赖扩展」，将评估推向了更广阔的软件工程生态。这种多维度的跨越，为后续揭示模型更深层的能力缺陷奠定了基础。 诊断指纹：揭示能力鸿沟与「 性能脚手架」效应 传统的 Pass@1 分数往往是一个「 黑盒」：它记录了结果，却掩盖了模型思维的过程。 正是得益于 Code2Bench 对测试强度的量级扩展（从个位数跃升至～500 个用例），我们才获得了足以勾勒「 错误光谱」的高分辨率视角。 这种「 诊断指纹（Diagnostic Fingerprint） 」将评估从单一维度的「 得分」统计，进化为对模型思维失效模式的深度透视。 从表 3 的 Pass@1 数据中，我们可以观察到不同模型在不同赛道上的 &ldquo;偏科&rdquo; 现象： 在 纯算法任务（SC-Python） 上，Claude-4-Sonnet 以&nbsp; 40.1% 的胜率领跑，凸显了其在无依赖逻辑推理上的深厚底蕴； 在&nbsp; API 应用任务（WSC-Python） 上，Mistral-small-3.1 表现亮眼（ 38.7% ），与 Claude 持平，显示出其对库调用极高的熟练度； 在 Java 算法任务（SC-Java） 上，DeepSeek-V3 则以 47.8% 的惊人成绩冠绝全场。 &nbsp; &nbsp; &nbsp; 表三：Pass@1 performance (%) on the Code2Bench-2509 suite. 然而，真正的洞察隐藏在图三中 &mdash;&mdash; 指纹图谱中失败分布的 偏移 ，揭示了两个被单一分数掩盖的关键事实： &nbsp; &nbsp; &nbsp; 图三：模型诊断指纹对比：SC-Python、WSC-Python 与 SC-Java 的结果分布 1. 能力鸿沟：擅长「 调 API」，却在「 写算法」上挣扎。 指纹图揭示了模型在面对不同任务时截然不同的思维状态：在纯算法（ SC-Python ）任务中，失败峰值集中于 逻辑错误 (LogicErr) ；而一旦涉及调用外部库（ WSC-Python ），峰值则迅速转向了 运行时错误 (RuntimeErr) 。这清晰地表明，模型目前的瓶颈已从 &ldquo;记不住 API 参数&rdquo; 转向了更深层的 &ldquo;无法自主构建复杂逻辑&rdquo;。 2.「 性能脚手架&nbsp; 」效应：语言范式如何塑造模型表现。 更具启发性的是 Python 与 Java 的对比。在&nbsp; SC-Java 任务中，Python 中常见的逻辑错误被大幅抑制，完美通过率（Perfect）显著飙升。这并非因为任务变简单了，而是 Java 的 静态类型 系统扮演了「 性能脚手架 」的角色 &mdash;&mdash; 它在代码执行前就强行拦截了大量低级错误。 换言之，指纹图的分布偏移本身，就是语言范式塑造模型能力的直接可视化证据。它揭示了一个关键事实：一个模型的编程能力并非抽象存在；其表现深度耦合于目标语言的生态系统 &mdash;&mdash; 静态类型不是「 限制」，而是一种前置的、高性价比的鲁棒性保障。 「 近乎完美」的失败：揭示「 正确幻觉」的普遍性 在 Code2Bench 的严苛测试下，平均有 6.94% &nbsp;的 SC-Python 任务提交会陷入 「 近乎完美」的失败 &mdash;&mdash; 它们能通过 98% 以上的测试用例，却在最后几个微妙的边缘场景中出错。这些在传统基准中极有可能被计为「 成功」的案例，恰恰暴露了模型在逻辑鲁棒性上的「 最后一公里」缺陷。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 表四：「 近乎完美」失败（Pass@&ge;98% &amp; Pass@&lt;100%）的发生比例 与现有基准的对比：动态性 vs 静态增强 与当前最严谨的静态基准 EvalPlus（HumanEval 的测试增强版）相比，Code2Bench-2509 展现出系统性难度跃升。如图 4 所示，所有模型在新基准上的性能均远低于其在 HumanEval 上的表现 &mdash;&mdash; 例如，Claude-4-Sonnet 在 HumanEval 上达 97%，但在 Code2Bench-2509 上骤降至 40.1%。 这一断崖式下滑揭示了两个关键事实： 传统高分包含显著记忆成分 &mdash;&mdash;EvalPlus 虽强化了测试，但题源仍为多年前人工编写，极易被模型「背过」； Code2Bench 源于真实工程代码 &mdash;&mdash; 题目动态采自 2025 年后 GitHub 活跃项目，天然具备复杂控制流与语义深度，无法靠记忆或模式匹配通过。 换言之，EvalPlus 是对旧题目的「 加固」，而 Code2Bench 是面向未来的「 新战场」。前者测的是「 是否见过」，后者问的是「 能否创造」。 &nbsp; &nbsp; &nbsp; 图四：模型在 EvalPlus 和 Code2Bench-2509 上的表现对比 总结与展望：迈向真实工程世界的编程评测 Code2Bench 的本质，不是又一个 benchmark，而是一套可持续演进的评测基础设施。它通过「 双重扩展」哲学，将代码 LLM 评估从「 静态谜题的复现」，推向 「 未知工程问题的稳健求解」。 未来，研究团队计划进一步扩展 Code2Bench 的边界，将 代码安全性、执行效率以及仓库级别的生成能力 纳入评估范畴。随着评测基准从单纯的「 考场」进化为高压的「 练兵场」，我们期待这一框架能驱动 LLM 跨越「 正确幻觉」的鸿沟，最终成长为真正具备工程鲁棒性的智能开发者。 目前，Code2Bench 的框架代码、数据集以及详尽的评测结果已全部开源，研究团队诚邀社区共同参与和探索。",
+      "source": "机器之心",
+      "publishedAt": "Sat, 21 Feb 2026 21:56:23 +0800",
+      "region": "国内",
+      "summary": "针对当前代码大模型在HumanEval、MBPP等经典基准上成绩趋于饱和，面临数据污染和测试严谨性不足两大核心挑战的问题，北京航空航天大学研究团队提出了一种名为“双重扩展”的新基准构建哲学，并开发了端到端的自动化框架Code2Bench。该框架旨在通过动态扩展代码来源和测试深度，构建一个更动态、严苛且具诊断性的评测新范式，以评估模型在真实、复杂场景下的泛化推理能力，而非检验其对训练数据的记忆力。该研究成果已被ICLR 2026接收。",
+      "category": "技术与研究",
+      "company": "北航",
+      "score": 36,
+      "breakdown": {
+        "substance": 16,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Anthropic CEO改口称软件比白领更易被AI影响，暗讽马斯克观点危言耸听",
+      "url": "https://www.infoq.cn/article/auecWVTgm3Eh8lo5PK8U?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 20 Feb 2026 12:01:25 GMT",
+      "region": "国内",
+      "summary": "Anthropic公司宣布在G轮融资中筹集到300亿美元，估值达3800亿美元，资金将用于前沿研究、产品发展和基础设施扩建，目标是成为企业人工智能和编码市场的领导者。马斯克对此批评其AI具有厌世、反人类倾向，而Anthropic CEO Dario Amodei则在最新采访中暗讽马斯克关于AI未来发展的观点是危言耸听，强调AI发展的核心是实现人类巅峰水平智能的规模化，并认为人机关系应是共生而非对立。Amodei还改口表示，相比白领工作，软件更容易被AI技术所影响。",
+      "category": "技术与研究",
+      "company": "Anthropic",
+      "score": 34,
+      "breakdown": {
+        "substance": 11,
+        "importance": 13,
+        "timeliness": 2,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "BridgeV2W通过“动作剪影”打通视频生成与机器人世界模型",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-21",
+      "snippet": "机器人如何 &quot;脑补&quot; 未来？ 想象一下，你面前摆着一杯咖啡，你伸手去拿，在你的手真正触碰到杯子之前，你的大脑已经在 &quot;脑补&quot; 了整个过程：手臂将如何移动、杯子会是什么触感、抬起后桌面的样子&hellip;&hellip; 这种对未来场景的想象和预测能力，正是人类操控世界的核心认知基石。 那么，能否赋予机器人同样的 &ldquo;预演能力&rdquo;，先在 &ldquo;脑海&rdquo; 中模拟动作后果，再付诸执行？这就是 具身世界模型 要做的事情：让机器人在行动前，就能 &ldquo;看见&rdquo; 未来。近年来，借助大规模视频生成模型（如 Sora、Wan 等）强大的视觉先验，这一方向取得了令人瞩目的进展。 然而，一个尴尬的问题始终悬而未决： 视频生成模型的世界由像素编织而成，而机器人的语言却是关节角度与位姿坐标，它们使用完全不同的 &ldquo;表征语言&rdquo; 描述同一个物理世界。 为了解决上述问题，具身智能公司中科第五纪联合中科院自动化所团队推出 BridgeV2W ，它通过一个极为优雅的设计， 具身掩码（Embodiment Mask） ，一种由机器人动作渲染出的 &ldquo;动作剪影&rdquo;，将坐标空间的动作无缝映射到像素空间，从而真正打通预训练视频生成模型与世界模型之间的桥梁，让机器人学会可靠地 &ldquo;预演未来&rdquo;。 论文标题：BridgeV2W: Bridging Video Generation Models to Embodied World Models via Embodiment Masks 论文链接： https://arxiv.org/pdf/2602.03793 项目链接： https://bridgev2w.github.io/ 困境：三座大山挡住了机器人的 &quot;预演能力&quot; 尽管前景广阔，当前的具身世界模型仍面临三大核心挑战： 1. 动作与画面 &ldquo;语言不通&rdquo;。 机器人动作是关节角、末端位姿等坐标数值，而视频生成模型只 &ldquo;看&rdquo; 像素。直接拼接动作向量效果有限，往往缺乏空间对齐的 &ldquo;硬连接&rdquo;，模型难以理解。 2. 视角一变，世界就 &ldquo;崩&rdquo;。 同一动作在不同视角下外观迥异。现有方法在训练视角上尚可，一旦换视角，预测质量骤降，而真实场景中，相机位置几乎不可能复现训练设置。 3. 换一个机器人就得 &ldquo;从零开始&rdquo;。 单臂、双臂、移动底盘&hellip;&hellip; 结构千差万别。现有方法往往需为每种机器人定制架构，难以构建统一的世界模型。 核心创新：仅凭 &quot;动作剪影&quot;，一举破解三大难题 BridgeV2W 的核心洞察极其直觉： 既然鸿沟源于 &ldquo;坐标 vs 像素&rdquo;，那就把动作直接 &ldquo;画&rdquo; 进画面里！ 它提出具身掩码：利用机器人的 URDF 模型和相机参数，将动作序列实时渲染为每帧图像上的二值 &ldquo;动作剪影&rdquo;，精准标出机器人在画面中的位置与姿态。 这一设计，一举破解前述三大难题： 动作 - 像素对齐 ：&nbsp;掩码是天然的像素级信号，与视频模型输入空间完全匹配，无需模型 &ldquo;猜&rdquo; 坐标的含义。 视角自适应 ：&nbsp;掩码随当前相机视角动态生成，动作与画面始终对齐，模型因此天然泛化到任意新视角。 跨具身通用 ： 只要提供 URDF，单臂、双臂机器人都能用同一套框架生成对应掩码，无需修改模型结构。 技术上，BridgeV2W 采用 ControlNet 式的旁路注入，将掩码作为条件信号融入预训练视频生成模型，在保留其强大视觉先验的同时，赋予其理解机器人动作的能力。此外，为防止模型 &ldquo;偷懒&rdquo;（只复现静态背景），还引入光流驱动的运动损失，引导其聚焦于任务相关的动态区域。 实验结果：多场景、多机器人、多视角的全面验证 研究团队在多个设置下系统验证了 BridgeV2W 的能力，涵盖不同机器人平台、不同操作场景、未见视角和下游任务应用。 DROID 数据集：大规模单臂操作 DROID 是目前最大规模的真实世界机器人操作数据集之一，数据采集跨越多个实验室和环境。BridgeV2W 在该数据集上的表现尤为亮眼，在 PSNR、SSIM、LPIPS 等核心指标上超越 SOTA 方法。 尤其在 &ldquo;未见视角&rdquo; 测试中，对比方法常出现画面崩塌、肢体错位，而 BridgeV2W 依然生成物理合理、视觉连贯的未来视频，充分验证了其视角鲁棒性。在 &ldquo;未见场景&rdquo;（全新桌面布局、背景）下，泛化能力同样出色。 AgiBot-G1 数据集：双臂人形机器人 AgiBot-G1 是一个完全不同的双臂平台，自由度与运动模式与 DROID 截然不同。 关键结果：无需修改模型架构，仅替换 URDF 并重新渲染掩码，BridgeV2W 就能无缝适配，并取得媲美单臂的预测质量，这是迈向通用具身世界模型的重要一步。 下游任务应用：从 &quot;想象&quot; 到 &quot;行动&quot; BridgeV2W 不仅仅是一个 &quot;能生成好看视频&quot; 的模型，研究团队进一步在真实世界的下游任务中验证了其实用价值： 策略评估： 在世界模型中 &ldquo;试跑&rdquo; 不同策略，无需真实机器人反复试错。实验显示，BridgeV2W 的评估结果与真实成功率高度相关，大幅降低策略迭代成本。 目标图像操作规划： 给定一张目标图像（如 &ldquo;把杯子放到盘子上&rdquo;），BridgeV2W 能在 &ldquo;想象空间&rdquo; 中搜索出可行动作序列，实现从视觉目标到物理动作的闭环规划。 关键亮点：海量无标注人类视频，全都能用！ 你可能会问：具身掩码不是需要 URDF 和相机参数吗？没有这些几何信息的数据怎么办？ BridgeV2W 的巧妙之处在于： 推理时需轻量几何信息（URDF + 相机参数）渲染 &ldquo;计算掩码&rdquo;，用于精准控制； 训练时却无需任何标定：只需分割模型（如 SAM）提取的 &ldquo;分割掩码&rdquo;，即可提供有效监督。 团队将 AgiBot-G1 机器人数据与无标定的 Ego4D FHO（第一人称手部操作视频）混合训练，仅用 SAM 提取的手部掩码，就实现了惊人效果： 仅用分割掩码训练，模型仍能学到合理的运动规律； 加入大量 Ego4D 视频 + 少量机器人标定数据，性能几乎媲美全量标定训练。 这说明：人类视频蕴含丰富的动作先验，只需少量机器人数据，就能完成 &ldquo;具身对齐&rdquo;。 一句话总结：训练靠 &ldquo;野生&rdquo; 视频扩规模，部署靠轻量几何保精度：BridgeV2W 兼得可扩展性与准确性。 BridgeV2W 揭示了一条极具前景的技术路线： 视频生成模型 + 具身掩码 = 可扩展的机器人世界模型 这条路线有三个关键优势值得深思： 1. 数据飞轮真正启动：互联网视频规模远超机器人数据数个数量级。BridgeV2W 无需几何先验即可利用人类视频，为构建 &ldquo;机器人数据飞轮&rdquo; 迈出关键一步。 2. 技术红利自动继承：视频生成领域正高速迭代（Sora、Wan、CogVideoX&hellip;&hellip;）。BridgeV2W 的架构使其能自然受益于底座模型升级，底座越强，&ldquo;预演&rdquo; 越真。 3. 通用智能的坚实基石：从单臂到双臂，从已知场景到未知视角，BridgeV2W 展现出的跨平台、跨场景、跨视角泛化能力，是迈向通用具身智能的重要里程碑。 总结与展望 BridgeV2W 通过 &ldquo;具身掩码&rdquo; 这一简洁而优雅的中间表征，成功架起了从大规模视频生成模型到实用具身世界模型的桥梁。它不仅解决了动作 - 像素对齐、视角鲁棒性、跨具身通用性三大核心挑战，更关键的是：训练无需 URDF 或相机标定，可直接利用海量无标注人类视频，为世界模型的规模化训练开辟了全新路径。 目前展现的能力，或许只是冰山一角。 试想未来：当视频生成底座从十亿参数迈向千亿，当训练数据从数千小时机器人视频扩展到百万小时人类操作视频，当具身掩码从机械臂延伸至全身人形、乃至多机协作，机器人的 &ldquo;预演能力&rdquo; 将迎来怎样的飞跃？ 正如 DreamZero 等工作预示的 &ldquo;机器人 GPT 时刻&rdquo;，BridgeV2W 从另一个维度证明： 让机器人借助视频生成模型 &ldquo;预演&rdquo; 自身行动的后果 &mdash;&mdash; 这条路，不仅走得通，而且可以走得很远。",
+      "source": "机器之心",
+      "publishedAt": "Sat, 21 Feb 2026 21:37:11 +0800",
+      "region": "国内",
+      "summary": "中科第五纪与中科院自动化所团队联合推出了BridgeV2W，旨在解决机器人“预演未来”能力的关键障碍。该研究面临的核心挑战是机器人动作（坐标数值）与视频生成模型（像素画面）之间的“语言不通”，以及模型难以适应不同视角和机器人结构的问题。BridgeV2W的创新在于引入了“具身掩码”，即一种由机器人动作实时渲染出的二值“动作剪影”，它能将动作精准映射到像素空间，从而无缝连接预训练视频生成模型与世界模型，帮助机器人实现可靠的未来场景预测。",
+      "category": "技术与研究",
+      "company": "中科第五纪",
+      "score": 30,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "24人初创公司Taalas推出HC1芯片，推理速度达每秒17000个token",
+      "url": "https://www.qbitai.com/2026/02/381552.html",
+      "snippet": "成本却只有1/10",
+      "source": "量子位",
+      "publishedAt": "Sat, 21 Feb 2026 06:31:56 +0000",
+      "region": "国内",
+      "summary": "一家名为Taalas的初创公司推出了首款芯片HC1，该芯片在搭载Llama 3.1 8B模型时，峰值推理速度高达每秒17000个token，远超当前其他主流芯片。其技术方案是将模型直接刻在硅片上，采用结构化ASIC理念，通过调整掩模层快速生产专用AI推理芯片，从而在降低成本与功耗的同时大幅提升速度。该芯片采用台积电N6工艺，典型功耗为250W，并可通过多芯片方案支持更大模型。",
+      "category": "技术与研究",
+      "company": "Taalas",
+      "score": 29,
+      "breakdown": {
+        "substance": 14,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Sam Altman提醒：人类训练同样消耗大量能源",
+      "url": "https://techcrunch.com/2026/02/21/sam-altman-would-like-remind-you-that-humans-use-a-lot-of-energy-too/",
+      "snippet": "\"It also takes a lot of energy to train a human.\"",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 21 Feb 2026 21:38:01 +0000",
+      "region": "海外",
+      "summary": "Sam Altman指出，训练人类也需要消耗大量能源。这一观点旨在将人工智能的能源消耗置于更广泛的背景中进行讨论。",
+      "category": "技术与研究",
+      "company": "Sam Altman",
+      "score": 18,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "OpenAI估值或超8500亿美元，刷新AI公司纪录",
+      "url": "https://www.qbitai.com/2026/02/381542.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Fri, 20 Feb 2026 09:49:58 +0000",
+      "region": "国内",
+      "summary": "据报道，OpenAI正接近完成新一轮融资的第一阶段，预计募集超过1000亿美元，超过其2025年初创下的400亿美元融资纪录。随着融资推进，公司整体估值可能超过8500亿美元，成为AI圈最高估值企业，这一数字是其主要竞争对手Anthropic当前估值的2.2倍以上。本轮融资的主要战略投资者包括亚马逊、软银、英伟达和微软，其中亚马逊预计投资最多500亿美元，软银最多300亿美元，英伟达已讨论投入200亿美元。不过，该交易尚未最终敲定，具体条款仍可能发生变化。",
+      "category": "投融资与并购",
+      "company": "OpenAI",
+      "score": 37,
+      "breakdown": {
+        "substance": 13,
+        "importance": 13,
+        "timeliness": 2,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "迪士尼与OpenAI达成10亿美元合作，用户可用AI生成迪士尼角色短片",
+      "url": "https://www.aol.com/articles/disney-openai-deal-means-short-203151138.html",
+      "snippet": "A $1 billion, three year deal between Disney and Open AI means consumers can use the Sora video maker to create videos starring Disney characters.",
+      "source": "AOL.com",
+      "publishedAt": "14 hours ago",
+      "region": "海外",
+      "summary": "迪士尼与OpenAI达成一项为期三年、价值10亿美元的合作协议。根据协议，消费者将能够使用OpenAI的Sora视频生成器，来制作包含米老鼠、R2-D2等迪士尼旗下角色的短视频内容。",
+      "category": "投融资与并购",
+      "company": "Disney, OpenAI",
+      "score": 19,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "OpenAI曾考虑就加拿大枪击案嫌疑人聊天记录报警",
+      "url": "https://techcrunch.com/2026/02/21/openai-debated-calling-police-about-suspected-canadian-shooters-chats/",
+      "snippet": "Jesse Van Rootselaar's descriptions of gun violence were flagged by tools that monitor ChatGPT for misuse.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 21 Feb 2026 15:25:44 +0000",
+      "region": "海外",
+      "summary": "OpenAI内部曾讨论是否就一名加拿大枪击案嫌疑人的聊天记录报警。该嫌疑人在ChatGPT中描述的枪支暴力内容被平台的滥用监控工具标记。",
+      "category": "政策与监管",
+      "company": "OpenAI",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Anthropic资助团体支持遭对手AI超级PAC攻击的候选人",
+      "url": "https://techcrunch.com/2026/02/20/anthropic-funded-group-backs-candidate-attacked-by-rival-ai-super-pac/",
+      "snippet": "Dueling pro-AI PACs have centered around backing or targeting one New York congressional bid: Alex Bores, whose RAISE Act requires AI developers to disclose safety protocols and report serious system misuse.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 20 Feb 2026 20:52:48 +0000",
+      "region": "海外",
+      "summary": "两个支持AI的政治行动委员会围绕纽约国会候选人Alex Bores展开竞争。Bores提出的RAISE法案要求AI开发者披露安全协议并报告严重的系统滥用情况。",
+      "category": "政策与监管",
+      "company": "Anthropic",
+      "score": 17,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 4,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ]
+}

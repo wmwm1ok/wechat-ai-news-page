@@ -1,0 +1,276 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "MWC成中国AI主场，小米展示AI赋能人车家全生态",
+      "url": "https://www.qbitai.com/2026/03/383299.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Tue, 03 Mar 2026 04:33:51 +0000",
+      "region": "国内",
+      "summary": "在今年的MWC展会上，中国AI企业展现出强大的应用落地能力，其中小米首次在海外展示了其AI赋能的“人车家全生态”。小米凭借全球开源大模型第一梯队的AI能力和10亿级终端生态规模，将AI从屏幕内延伸至现实世界，实现了智能设备在真实环境中的协同运转。展会现场，小米展示了搭载HyperAI系统的智能手机、配备小爱语音助手的智能汽车，以及由自研大模型驱动的全屋智能系统Miloco，该系统具备画面理解、全屋视觉问答和规则驱动的智能触发能力。",
+      "category": "产品发布与更新",
+      "company": "小米",
+      "score": 38,
+      "breakdown": {
+        "substance": 14,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "腾讯云发布TDSQL Boundless多模态数据库，探讨如何释放数据深层价值",
+      "url": "https://www.infoq.cn/article/YHvr48IeZBO9K4ZqUOfk?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 03 Mar 2026 11:26:33 GMT",
+      "region": "国内",
+      "summary": "AI大模型的快速发展正在改变数据产业的底层逻辑，非结构化数据的指数级增长使得多模态数据库成为企业数智化转型的关键基础设施。与传统数据库相比，多模态数据库能够通过统一架构原生支持关系、向量、地信、全文检索等多种数据模型，实现多模态数据的统一存储、管理与关联查询，从而解决数据孤岛问题并借助AI能力挖掘数据价值。腾讯云TDSQL Boundless正是基于这一趋势推出的新一代产品，它基于自研数据库引擎并高度兼容MySQL，集成了成本优化、弹性伸缩和企业级高可用等特性。腾讯云将于2026年3月11日举办DBTalk直播，由三位技术专家解读TDSQL Boundless在多模态数据库架构、HBase兼容模式以及实时分析引擎等方面的技术内容。",
+      "category": "产品发布与更新",
+      "company": "腾讯云",
+      "score": 35,
+      "breakdown": {
+        "substance": 12,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Rivet发布Sandbox Agent SDK，旨在解决Agent API碎片化问题",
+      "url": "https://www.infoq.cn/article/9wBHVhzl3hoUORHLyULU?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 03 Mar 2026 12:00:00 GMT",
+      "region": "国内",
+      "summary": "Rivet公司推出了Sandbox Agent SDK，该工具旨在为开发者提供一个统一的API，用于构建编程代理。该SDK允许开发者在不同的代理运行时（如Claude Code、Codex、OpenCode和Amp）之间进行切换，而无需为每个运行时重写集成代码，从而解决了因API碎片化、会话管理差异以及流式数据格式不统一所带来的集成复杂性和维护难题。Rivet联合创始人兼CTO Nathan Flurry指出，构建自主代理系统面临的主要挑战包括API碎片化、临时状态问题以及不同服务提供商之间的部署差异。",
+      "category": "产品发布与更新",
+      "company": "Rivet",
+      "score": 33,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "PixVerse V5.6突破：AI视频实现多语言语音与自然韵律",
+      "url": "https://blockchain.news/ainews/pixverse-v5-6-breakthrough-multi-language-voice-and-natural-prosody-for-ai-video-2026-analysis",
+      "snippet": "According to PixVerse on X, PixVerse V5.6 delivers major advances in multi-language support and natural-sounding voice for AI-generated video,...",
+      "source": "blockchain.news",
+      "publishedAt": "20 hours ago",
+      "region": "海外",
+      "summary": "PixVerse在X平台上宣布，其V5.6版本在AI生成视频方面取得了重大进展。该版本主要在多语言支持和自然语音方面实现了突破。这些进展旨在使AI生成的视频语音听起来更自然。",
+      "category": "产品发布与更新",
+      "company": "PixVerse",
+      "score": 20,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "阿里开源4款Qwen3.5小尺寸模型，马斯克称赞其智能水平",
+      "url": "https://www.leiphone.com/category/industrynews/FZAozobt9BovYRnk.html",
+      "snippet": "3月2日夜间，阿里巴巴开源了4款 Qwen3.5 小尺寸模型系列：Qwen3.5-0.8B/2B/4B/9B。这一系列模型继承了 Qwen3.5 家族的技术能力，采用原生多模态训练、最新的模型架构，可满足从极端资源受限到高性能轻量级应用的不同需求。 模型发布后，马斯克很快在X上点赞并评论道：“惊人的智能水平”。 雷峰网",
+      "source": "雷锋网",
+      "publishedAt": "Tue, 03 Mar 2026 09:58:00 +0800",
+      "region": "国内",
+      "summary": "阿里巴巴于3月2日夜间开源了4款Qwen3.5小尺寸模型，具体型号为Qwen3.5-0.8B、2B、4B和9B。这一系列模型继承了Qwen3.5家族的技术能力，采用了原生多模态训练和最新的模型架构，旨在满足从极端资源受限到高性能轻量级应用的不同需求。模型发布后，马斯克在社交平台X上点赞并评论称其具有“惊人的智能水平”。",
+      "category": "技术与研究",
+      "company": "阿里",
+      "score": 45,
+      "breakdown": {
+        "substance": 20,
+        "importance": 10,
+        "timeliness": 10,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "FlagOS镜像登陆腾讯云HAI社区，助力快速部署OpenClaw智能体",
+      "url": "https://www.qbitai.com/2026/03/383235.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Mon, 02 Mar 2026 10:25:09 +0000",
+      "region": "国内",
+      "summary": "众智FlagOS是一款完全开源的AI系统软件栈，支持多款异构AI芯片，可帮助AI模型与智能体实现快速部署。此次FlagOS联合腾讯云HAI，将Qwen3-4B-hygon-flagos模型镜像正式上线腾讯云HAI社区，开发者可直接拉取使用。基于该镜像，用户可快速在加速卡上运行FlagOS与OpenClaw，实现小模型驱动智能体执行，为企业从公有云API转向自建本地AI服务提供了实践方案。",
+      "category": "技术与研究",
+      "company": "众智",
+      "score": 40,
+      "breakdown": {
+        "substance": 15,
+        "importance": 10,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "MiniMax发布全球首份大模型公司年报，预判2026年三大超级PMF",
+      "url": "https://www.qbitai.com/2026/03/383276.html",
+      "snippet": "全年营收7903.8万美元",
+      "source": "量子位",
+      "publishedAt": "Tue, 03 Mar 2026 03:12:07 +0000",
+      "region": "国内",
+      "summary": "MiniMax发布了全球首份大模型公司年报，披露了2025年的财务表现。公司2025年总营收达到7904万美元，同比增长158.9%，其中超过70%的收入来自国际市场。营收主要来源于面向C端的AI原生产品（如MiniMax、海螺AI等应用的订阅收入）和面向B端的开放平台及企业服务，两者分别贡献了总营收的67.2%和32.8%。公司毛利同比猛涨437%至2008万美元，毛利率提升至25.4%，净亏损率显著收窄。截至2025年末，其产品累计服务超过2.36亿用户，拥有超过21.4万企业客户及开发者。",
+      "category": "技术与研究",
+      "company": "MiniMax",
+      "score": 36,
+      "breakdown": {
+        "substance": 17,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "阿里通义千问Qwen3.5-9B模型性能超越更大参数对手",
+      "url": "https://venturebeat.com/technology/alibabas-small-open-source-qwen3-5-9b-beats-openais-gpt-oss-120b-and-can-run",
+      "snippet": "Whether it is a 0.8B model running on a smartphone or a 9B model powering a coding terminal, the Qwen3.5 series is effectively democratizing the \"agentic...",
+      "source": "VentureBeat",
+      "publishedAt": "11 hours ago",
+      "region": "海外",
+      "summary": "阿里巴巴的Qwen3.5系列模型正在有效推动“智能体”技术的普及。其开源的Qwen3.5-9B模型在性能上超越了OpenAI的gpt-oss-120B模型，并且可以在标准笔记本电脑上运行。该系列还包括能在智能手机上运行的0.8B模型和为编码终端提供支持的9B模型。",
+      "category": "技术与研究",
+      "company": "Alibaba",
+      "score": 27,
+      "breakdown": {
+        "substance": 10,
+        "importance": 10,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "14.ai公司用AI替代初创企业的客服团队",
+      "url": "https://techcrunch.com/2026/03/02/a-married-founder-duos-company-14-ai-is-replacing-customer-support-teams-at-startups/",
+      "snippet": "14.ai also launched a consumer brand to understand how much AI can handle customer support tasks.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 02 Mar 2026 15:14:36 +0000",
+      "region": "海外",
+      "summary": "由一对已婚创始人创办的公司14.ai，正在用其AI技术替代初创企业的客户支持团队。该公司还推出了一个消费品牌，以测试AI能够处理多少客户支持任务。这表明AI在自动化客户服务领域的应用正在深入。",
+      "category": "技术与研究",
+      "company": "14.ai",
+      "score": 22,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "PureblueAI清蓝完成数千万元天使轮融资，发布AI口碑营销数字员工Mark",
+      "url": "https://36kr.com/p/3705907852800136?f=rss",
+      "snippet": "作者 | 邓咏仪 编辑 | 苏建勋 36氪获悉，国内AI营销技术服务公司「PureblueAI清蓝」正式宣布完成数千万元人民币天使轮融资。本轮融资由祥峰中国（Vertex China）领投，老股东英诺基金及一村淞灵、36氪跟投。 本轮融资资金，将主要用于新一代产品开发与技术迭代、全行业生态拓展及业务布局，同时将持续携手投资方与生态伙伴，打造 AI 口碑营销领域的标杆性解决方案，助力更多企业在 AI 时代实现确定性增长。 36氪此前曾报道PureblueAI清蓝。公司成立于2025年，创始团队成员毕业于清华大学、中科院等高校，曾任字节跳动、阿里巴巴等企业高管和技术专家。 此前，PureblueAI清蓝还曾于2025年8月获得由英诺基金与蓝色光标共同领投、水木清华校友种子基金跟投的超千万元人民币种子轮融资。 PureblueAI清蓝基于自研的混合模型架构、优化算法与数字员工平台，通过先进的生成引擎优化（GEO）技术，助力企业提升品牌的 AI 推荐率和影响力。目前，清蓝已服务汽车、金融、互联网科技、零售、消费、大健康等众多行业头部企业。 本轮融资之际，PureblueAI清蓝同时发布了旗下AI营销数字员工平台mkter.ai，上线了行业首款AI口碑营销数字员工“Mark”。作为企业专属的“AI品牌推荐官”。 Mark 依托清蓝自研 GEO 模型算法与多智能体（Multi-Agent）架构打造，可以为企业提供一站式 、全链路、智能化、可量化的 AI 口碑营销服务。 来源：PureblueAI清蓝 不同于行业内传统功能型 SaaS 工具，Mark 能够提供从用户意图挖掘到效果监控优化的AI口碑营销全流程，覆盖诊断、执行到复盘优化的环节。 Mark能够覆盖的范围也很广，比如可适配中小企业自运营、大型企业定制化服务、营销服务商代理合作等多元需求，同时兼容豆包、DeepSeek、千问、元宝等主流AI平台。 围绕全链路GEO流程，Mark 可提供六大核心能力服务，实现AI口碑营销全流程智能化闭环管理：通过专业意图挖掘锁定高转化用户需求；根据多维品牌诊断输出全维度优化方案；一键专属知识库搭建帮助生成高可信内容；精准效果预估提前锁定投放价值；全域智能发布匹配高权重可信信源；实时效果监控实现7×24小时动态监测分析。 来源：PureblueAI清蓝 无论是 AI 营销数字员工平台mkter.ai，还是 AI 口碑营销数字员工“Mark”，背后都是基于清蓝自研的混合模型架构与优化算法，通过先进的生成引擎优化技术，助力企业提升品牌的 AI 推荐率和影响力。 这系列能力，会让 Agent 去学习 AI 平台的推荐规律，替代过往的人工去“猜测”平台投放测录的过程。 在过程中，PureblueAI清蓝的系统降持续分析那些在AI搜索中被成功推荐的内容，让模型找出这些内容背后共有的“特征因子”，让模型知道什么样的内容结构和特征，能拿到AI平台更高的采信权重，用以指导企业客户的内容生成策略、监测模型反馈等等。 比如，当客户提出优化需求（如优化“超混架构车型推荐”这个搜索意图）时，PureblueAI 清蓝的模型不仅会生成一篇营销稿件，还会计算出权重最高的发布平台组合。 DeepSeek 爆发后，GEO 已经成为当下的火热创业方向，但技术仍在早期。除了快速推进产品外，PureblueAI清蓝在中国商务广告协会指导下，与其他13家相关企业作为首批发起单位，发表了《中国GEO行业发展倡议》；并于2026年2月，与中国人工智能产业发展联盟（AIIA）等10家行业伙伴，共同签署了《人工智能安全承诺：生成式引擎优化（GEO）专项》。除此之外，PureblueAI清蓝还参与了中国信通院《GEO服务可信基本要求》等行业标准规范的起草和制定。 相关阅读 前豆包大模型市场负责人创业，GEO服务商「PureblueAI清蓝」获千万级种子轮融资 丨涌现新项目",
+      "source": "36氪",
+      "publishedAt": "2026-03-03 09:00:26  +0800",
+      "region": "国内",
+      "summary": "国内AI营销技术服务公司PureblueAI清蓝宣布完成数千万元人民币天使轮融资，本轮融资由祥峰中国领投，老股东英诺基金及一村淞灵、36氪跟投。公司同时发布了AI营销数字员工平台mkter.ai及行业首款AI口碑营销数字员工“Mark”，该产品基于自研GEO模型算法与多智能体架构打造，旨在为企业提供一站式、全链路的AI口碑营销服务。PureblueAI清蓝成立于2025年，创始团队来自清华大学、中科院等高校，并曾任职于字节跳动、阿里巴巴等企业，此前已于2025年8月获得超千万元种子轮融资。目前公司已服务汽车、金融、互联网科技等多个行业的头部企业。",
+      "category": "投融资与并购",
+      "company": "PureblueAI清蓝",
+      "score": 41,
+      "breakdown": {
+        "substance": 21,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "OpenAI与美国国防部达成协议，允许军方在机密环境中使用其技术",
+      "url": "https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/",
+      "snippet": "On February 28, OpenAI announced it had reached a deal that will allow the US military to use its technologies in classified settings. CEO Sam Altman said the negotiations, which the company began pursuing only after the Pentagon’s public reprimand of Anthropic, were “definitely rushed.” In its announcements, OpenAI took great pains to say that…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 02 Mar 2026 17:29:42 +0000",
+      "region": "海外",
+      "summary": "OpenAI于2月28日宣布，已与美国军方达成一项协议，允许其在机密环境中使用OpenAI的技术。公司首席执行官萨姆·阿尔特曼表示，此次谈判是在五角大楼公开谴责Anthropic之后才开始的，过程“绝对仓促”。",
+      "category": "政策与监管",
+      "company": "OpenAI",
+      "score": 25,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "国防部合作后ChatGPT卸载量激增295%",
+      "url": "https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/",
+      "snippet": "Many consumers ditched ChatGPT's app after news of its DoD deal went live, while Claude's downloads grew.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 03 Mar 2026 00:03:37 +0000",
+      "region": "海外",
+      "summary": "在ChatGPT与美国国防部合作的消息公开后，许多消费者卸载了其应用程序，卸载量激增了295%。与此同时，竞争对手Claude的下载量则出现了增长。这一现象反映了部分用户对AI公司与政府机构合作的负面反应。",
+      "category": "政策与监管",
+      "company": "ChatGPT",
+      "score": 22,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "我亲历了一场大规模的反AI抗议活动",
+      "url": "https://www.technologyreview.com/2026/03/02/1133814/i-checked-out-londons-biggest-ever-anti-ai-protest/",
+      "snippet": "Pull the plug! Pull the plug! Stop the slop! Stop the slop! For a few hours this Saturday, February 28, I watched as a couple of hundred anti-AI protesters marched through London’s King’s Cross tech hub, home to the UK headquarters of OpenAI, Meta, and Google DeepMind, chanting slogans and waving signs. The march was…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 02 Mar 2026 12:55:20 +0000",
+      "region": "海外",
+      "summary": "2月28日星期六，作者在伦敦国王十字科技中心目睹了一场数百人参加的反AI抗议活动。抗议者高呼口号，挥舞标语，在OpenAI、Meta和Google DeepMind的英国总部所在地游行。",
+      "category": "政策与监管",
+      "company": "OpenAI, Meta, Google DeepMind",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "科技工作者敦促国防部撤销对Anthropic的供应链风险标签",
+      "url": "https://techcrunch.com/2026/03/02/tech-workers-urge-dod-congress-to-withdraw-anthropic-label-as-a-supply-chain-risk/",
+      "snippet": "Tech workers have signed an open letter urging the Department of Defense to withdraw its designation of Anthropic as a \"supply chain risk\" and instead to settle the matter quietly.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 02 Mar 2026 17:18:34 +0000",
+      "region": "海外",
+      "summary": "科技工作者签署了一封公开信，敦促美国国防部撤销将Anthropic指定为“供应链风险”的决定。他们建议国防部以更低调的方式解决此事。这体现了科技行业对政府监管措施可能带来的商业影响的担忧。",
+      "category": "政策与监管",
+      "company": "Anthropic",
+      "score": 19,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ]
+}

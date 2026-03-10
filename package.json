@@ -1,0 +1,22 @@
+{
+  "name": "ai-news-wechat-publisher",
+  "version": "1.0.0",
+  "description": "AI 行业资讯自动抓取",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/deduplication-engine.test.js && node tests/news-scorer.test.js",
+    "test:dedup": "node tests/deduplication-engine.test.js"
+  },
+  "keywords": ["AI", "news", "rss"],
+  "license": "MIT",
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

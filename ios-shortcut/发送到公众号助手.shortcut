@@ -1,0 +1,74 @@
+{
+  "WFWorkflowClientVersion": "1092.0.2",
+  "WFWorkflowClientRelease": "4.0",
+  "WFWorkflowMinimumClientVersion": 411,
+  "WFWorkflowMinimumClientVersionString": "411",
+  "WFWorkflowIcon": {
+    "WFWorkflowIconStartColor": -12359921,
+    "WFWorkflowIconGlyphNumber": 61440
+  },
+  "WFWorkflowImportQuestions": [],
+  "WFWorkflowTypes": [
+    "ActionExtension"
+  ],
+  "WFWorkflowActionExtensionCategory": 0,
+  "WFWorkflowActionExtensionInputContentItemClasses": [
+    "WFGenericFileContentItem",
+    "WFURLContentItem"
+  ],
+  "WFWorkflowInputContentItemClasses": [
+    "WFGenericFileContentItem",
+    "WFURLContentItem"
+  ],
+  "WFWorkflowActions": [
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.comment",
+      "WFWorkflowActionParameters": {
+        "WFCommentActionText": "🤖 AI日报 → 公众号助手\n保留 HTML 格式，直接粘贴到编辑器"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+      "WFWorkflowActionParameters": {
+        "WFTextActionText": {
+          "Value": {
+            "Type": "ExtensionInput"
+          },
+          "WFSerializationType": "WFTextTokenAttachment"
+        }
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.setclipboard",
+      "WFWorkflowActionParameters": {
+        "WFInput": {
+          "Value": {
+            "Type": "ActionOutput",
+            "OutputName": "快捷输入",
+            "OutputUUID": "input-text"
+          },
+          "WFSerializationType": "WFTextTokenAttachment"
+        },
+        "WFLocalOnly": false
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.showresult",
+      "WFWorkflowActionParameters": {
+        "Text": {
+          "Value": {
+            "string": "✅ HTML 内容已复制！\n\n格式已保留，请打开公众号助手\n在编辑区长按粘贴",
+            "attachmentsByRange": {}
+          },
+          "WFSerializationType": "WFTextTokenString"
+        }
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.openapp",
+      "WFWorkflowActionParameters": {
+        "WFAppIdentifier": "com.tencent.mpweixin"
+      }
+    }
+  ]
+}

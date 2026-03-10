@@ -1,0 +1,276 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "谷歌通过意外发布Gemini 3.1 Pro使其AI推理能力翻倍",
+      "url": "https://www.msn.com/en-us/lifestyle/shopping/google-just-doubled-its-ai-reasoning-power-with-the-surprise-launch-of-gemini-3-1-pro/ar-AA1WNICr",
+      "snippet": "Google is previewing Gemini 3.1 Pro, with a focus on complex, multi-step problem-solving that stumps most chatbots. The model scored 77.1% on the ARC-AGI-2...",
+      "source": "MSN",
+      "publishedAt": "14 hours ago",
+      "region": "海外",
+      "summary": "谷歌正在预览Gemini 3.1 Pro模型，该模型专注于解决复杂的多步骤问题，这些问题通常难倒了大多数聊天机器人。该模型在ARC-AGI-2基准测试中获得了77.1%的分数。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 31,
+      "breakdown": {
+        "substance": 13,
+        "importance": 11,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌发布Gemini 3.1 Pro模型",
+      "url": "https://www.yugatech.com/news/google-rolls-out-gemini-3-1-pro/",
+      "snippet": "Google has released the Gemini 3.1 Pro. This is an upgraded core model designed to power more advanced reasoning across...",
+      "source": "YugaTech",
+      "publishedAt": "19 hours ago",
+      "region": "海外",
+      "summary": "谷歌已正式推出Gemini 3.1 Pro模型。这是一个升级后的核心模型，旨在为更高级的推理任务提供支持。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 28,
+      "breakdown": {
+        "substance": 15,
+        "importance": 6,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌Gemini新增AI工具，可生成短音乐片段",
+      "url": "https://itbrief.com.au/story/google-adds-gemini-ai-tool-to-generate-short-music-tracks",
+      "snippet": "Google's Gemini app can now spin 30-second AI songs from text or images using its new Lyria 3 model, with built-in SynthID watermarks.",
+      "source": "IT Brief Australia",
+      "publishedAt": "5 hours ago",
+      "region": "海外",
+      "summary": "谷歌的Gemini应用程序现在可以利用其新的Lyria 3模型，从文本或图像生成30秒的AI歌曲。这些生成的音乐带有内置的SynthID水印。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 16,
+      "breakdown": {
+        "substance": 3,
+        "importance": 6,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "苹果与谷歌Gemini为核心应用添加音乐生成AI功能",
+      "url": "https://www.seattletimes.com/business/apple-google-gemini-add-music-focused-generative-ai-features/",
+      "snippet": "Google and Apple are adding music-focused generative artificial intelligence features to their core consumer apps. Google's Gemini AI assistant can now...",
+      "source": "The Seattle Times",
+      "publishedAt": "12 hours ago",
+      "region": "海外",
+      "summary": "谷歌和苹果正在为其核心消费者应用程序添加专注于音乐的生成式人工智能功能。谷歌的Gemini AI助手现已具备相关能力。",
+      "category": "产品发布与更新",
+      "company": "Google, Apple",
+      "score": 13,
+      "breakdown": {
+        "substance": 0,
+        "importance": 6,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "微软游戏新CEO承诺不滥用AI技术",
+      "url": "https://techcrunch.com/2026/02/21/microsofts-new-gaming-ceo-vows-not-to-flood-the-ecosystem-with-endless-ai-slop/",
+      "snippet": "Is Microsoft's gaming division doubling down on AI?",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 21 Feb 2026 17:41:27 +0000",
+      "region": "海外",
+      "summary": "微软新任游戏部门负责人表示，不会让生态系统充斥低质量的AI生成内容。他承诺将负责任地推进AI在游戏领域的应用，避免损害用户体验。",
+      "category": "产品发布与更新",
+      "company": "Microsoft",
+      "score": 12,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 4,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "中美AI同步加速：47天30次更新，中国AI主场何在？",
+      "url": "https://www.qbitai.com/2026/02/381644.html",
+      "snippet": "一个最集中、最滚烫的坐标浮出水面",
+      "source": "量子位",
+      "publishedAt": "Sun, 22 Feb 2026 10:33:32 +0000",
+      "region": "国内",
+      "summary": "2026年开年，中美AI领域同步进入高速竞争阶段。据不完全统计，从1月1日至除夕，中国国内公开宣发、具有行业影响力的AI模型技术迭代已超过30起，平均每1.5天就有一次新模型发布。同期，硅谷也保持高频更新，如Meta发布Llama4-Swarm，Google推出Gemini 3.1 Pro等，双方在多个全球权威榜单上各有胜负。这场竞争已从单向追随进入全赛道、全维度的双极竞速时代，中国模型在开发者社区与应用市场也开始获得越来越多海外用户的认可。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 44,
+      "breakdown": {
+        "substance": 18,
+        "importance": 11,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Claude Code创始人访谈：软件工程师头衔或将消失，多Agent将自主协作",
+      "url": "https://www.infoq.cn/article/Ki4t4mNFY92hisCVaxwB?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 23 Feb 2026 08:00:00 GMT",
+      "region": "国内",
+      "summary": "Claude Code创始人Boris Cherny在YC圆桌访谈中表示，软件工程师头衔可能逐渐消失或变为遗留符号，因为工作内容不再局限于写代码。他指出在Anthropic内部，Claude Code已将人均工程产出提升150%，许多人已70%-100%使用Claude编写代码。Boris认为编程正在被“解决”，模型能力将指数增长，代码保质期仅几个月，Claude Code六个月前的代码几乎全部重写。他还透露未来可能不再使用plan mode，多Agent将开始自主组队工作。",
+      "category": "技术与研究",
+      "company": "Anthropic",
+      "score": 29,
+      "breakdown": {
+        "substance": 6,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "LightRetriever：非对称LLM嵌入模型将查询侧算力负担降低千倍",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-22-4",
+      "snippet": "近年来，大模型文本检索（LLM-based Text Retrieval）技术发展迅猛，SOTA 的 LLM Embedding Model 参数量普遍在 7B 以上，相关性搜索性能提升的同时， 部署成本也大幅增长 。 众所周知，LLM Embedding Model 是一种 对称式双塔结构 ，Query 和 Doc 侧常 共享 同一个完整的 LLM。但一个长期被忽视的问题是： 线上推理中，查询端（Query）真的需要和文档端（Document）一样 &ldquo;重&rdquo; 的大模型吗？ 在我们最新的研究论文 LightRetriever 中，文章给出了一个明确、激进、但被大量实验证实可行的答案： 不需要 。 LightRetriever 设计了一种 极致非对称式结构的 LLM Embedding Model &mdash;&mdash; Doc 侧使用完整 LLM 建模，但 Query 侧最多仅用一层 Embedding Lookup 。极致化降低了 Query 侧推理负担，也能做好大模型文本搜索。对比 Query-Doc 均用完整 LLM 的标准设计， LightRetriever 让 Query 侧的推理速度提升了千倍以上、端到端 QPS 提升 10 倍 ，同时 BeIR、CMTEB Retreival 等测试集上的 中英文检索性能也能维持 95% 左右 。 文章由 中科院信工所 &amp; 澜舟科技 共同完成，已接收于国际计算机顶级会议 ICLR 2026。ICLR（International Conference on Learning Representations）是机器学习与表示学习领域的国际顶级会议之一，与 NeurIPS、ICML 并列为人工智能方向最具影响力的学术会议。本次 ICLR 2026 共有接近 19000 篇有效投稿，接收率约为 28%。&nbsp; 论文标题：LightRetriever: A LLM-based Text Retrieval Architecture with Extremely Faster Query Inference 论文链接：https://arxiv.org/abs/2505.12260 LightRetriever：极致非对称的 LLM Embedding Model LightRetriever 的核心思想非常明确： 将深度建模的主要计算负担彻底转移到 Doc 侧，Query 侧只保留必要、可缓存的表征能力 。LightRetriever 为 稠密 和 稀疏 检索两大检索范式，分别设计了极致非对称的建模方法。 图。在稠密 / 稀疏检索中，对称式 LLM Embedding Model 使用了 1) 标准的 Full-sized Query Inference，查询侧推理负担很重；2) LightRetriever 大幅降低了查询推理成本，查询侧负载降低至不超过一层 Embedding Layer Lookup。 稠密检索（Dense Retreival） 训练中，Doc 侧保持建模方式不变，LightRetriever 词袋化了 Query 侧建模：完整的 LLM 接收 &ldquo;指令 + 单个 Query Token&rdquo; 作为输入，先建模 Token Embedding，再求平均获取 Query 句向量，并通过对比学习获得 Prompted Token Embedding。 不同之处在于，这些 Token Embedding 在训练完成后，可以被 整体缓存为一个词表级 Embedding 矩阵 。在线推理时，Query 句向量的推理仅需 一次简单的 Token Embedding 查表 + 求均值 ，不再涉及任何 LLM 推理。由于 Query 侧在训练阶段仍需要完整 LLM 建模，稠密向量训练遵循 &ldquo;训练全量 + 推理轻量&rdquo; 的思想。后面的消融实验证明，&ldquo;训练全量&rdquo; 这种配置不可忽略。 图. LightRetriever 的稠密检索设计遵守 &ldquo;训练全量 + 推理轻量&rdquo; 的思想，通过词袋化 Query 侧建模，打破上下文依赖，使得 Query 侧向量推理具备可缓存（Cacheable）的特性。仅需一次缓存，就可以无 LLM 部署 Query 推理服务。 稀疏检索（Sparse Retrieval） 中，LightRetriever 将 Query 侧进一步被 简化为词表空间 T 的 &ldquo;Token ID -&gt; 个数&rdquo; 的词频映射 ，完全移除了可学习的模型参数。 同样通过端到端对比学习，通过 Doc 侧的 LLM，学习类 SPLADE 方法的 TF-based （Term Frequency-based）稀疏向量。 图. LightRetriever 的稀疏检索设计更加极致，Query 侧仅依靠词袋化的统计方法建模词频特征，来实现无 LLM 高效化线上推理。 极端轻量化的查询，并没有带来灾难性的性能代价 直觉上，移除 Query 侧的深度上下文建模会显著损害检索效果。然而，大规模实验结果给出了一个出乎意料的结论： 在 BeIR（英文）与 CMTEB-Retrieval（中文）等多任务文本检索基准上，相对完整的对称式 LLM Embedding，LightRetriever 的 nDCG@10 排序指标只下降 1&ndash;5 pp ，平均性能保持率约为 95% 。更重要的是，该方法的性能水平大幅超过传统稀疏方法（BM25、SPLADE）以及多种轻量化或蒸馏检索模型，并逼近了类似开源训练语料的配置下，LLM2Vec、E5-Mistral 等经典的 LLM Embedding 方法。 这表明： 在绝大多数相关性导向的检索任务中，Query 侧并不需要完整的深度 Token 交互，也能够匹配 Doc 侧所学习到的语义结构。 表. BeIR / CMTEB-Retrieval 主实验结果，包含经典 Embedding Model Baseline、对称式 Full LLM Retriever 与 LightRetriever 的检索效果。 文章对比了 LightRetriever 在不同任务中的 细粒度性能表现 。以 BeIR 为例，LightRetriever 在 大多数常规的相关性检索任务中性能表现十分优异 ，是全对称式结构的 93% 以上；在 Domain-specific QA、Entity Retrieval、Citation Prediction 等更具挑战性的 OOD 任务中，性能维持在全对称式结构的 87%～89%。虽然相对性能略有下降，这些任务性能的绝对数值仍然具备较强的竞争力。 &nbsp; &nbsp; &nbsp; 表。在 BeIR 的不同任务中，LightRetriever 的性能表现及相对变化（Retention）。 查询服务速度大幅提升 LightRetriever 的 Query 轻量化设计，为查询推理效率带来了 数量级的提升 。 在 MSMARCO 检索场景下对 64k 查询进行检索，完整的 Llama-8B 查询编码需要超过 100 秒 ；而 LightRetriever 的查询编码时间仅为 0.04 秒 ，对应 超过 1000&times; 的编码加速。即便考虑 Faiss 与 Lucene 的检索时间，端到端吞吐仍然获得了 10&times; 以上的 QPS 提升 。文章还尝试了一个经典的 Transformers Layer 裁剪 Baseline：在 Query 侧只用 Llama-8b 的第一层 Transformers Layer 用于训练和推理。然而，这个设置的检索性能和 QPS 均不如 LightRetriever，因为训练时 Query 侧没有完整的 LLM 建模。这证明了文章中 &ldquo;训练全量 + 推理轻量&rdquo; 的设计的合理性。 &nbsp; &nbsp; &nbsp; 表。查询编码时间 / 端到端 QPS 对比 为什么这种 &ldquo;训练全量 + 推理轻量&rdquo; 是必要的，而不是偶然有效？ 在 LightRetriever 的稠密检索中，Query 侧在训练时使用全量（Full）建模、推理时转化为 Embedding Layer（Emb）高效化推理。为了验证这种设计的合理性，文章进行了以下两组消融实验： A1) Doc 侧在推理时也使用 Embedding Layer。 A2) Query 侧在训练时直接用 Embedding Layer。 两者均会引起性能的大幅下降。这说明： 在大模型文本检索中，移除深度建模并非偶然设计。 消融实验一（A1）证明了： Doc 侧始终需要完整建模 ，而 Query 侧可通过词袋化方法做到近似建模。 消融实验二（A1）证明了：LightRetriever 的关键不在于 &ldquo;减少建模&rdquo;，而在于 将建模负载卸载至不同阶段 &mdash;&mdash; 在训练阶段与 Doc 侧充分建模，在推理阶段最大化复用可缓存的 Query 词向量，即 &ldquo; 训练全量 + 推理轻量 &rdquo;。 从这一角度看，LightRetriever 并不是一次针对模型结构的微调，而是对 LLM 双塔模型计算范式的重新审视。 表。对称性消融实验。A1) Doc 侧推理时也进行了词袋轻量化；A2) Query 侧训练时直接使用了 Embedding 词袋。两者效果均显著下降。 结语：当 Query 侧部署不再是负担，LLM 检索才真正具备可扩展性 LightRetriever 表明， 高质量的 LLM Embedding Model 并不必然意味着高昂的在线推理成本 。通过明确区分 Query 与 Doc 在检索流程中的角色，并有意识地打破对称建模这一长期默认的设计假设，检索系统可以在维持效果的前提下，获得数量级的效率提升。 对于面向真实应用场景的检索系统、RAG 框架与在线搜索服务而言，这种查询轻量化的建模思路，或许比单纯追求更大的模型规模更具应用价值。 作者简介 文章第一作者为中国科学院信息工程研究所博士研究生马广远，研究方向为大模型信息检索，导师是虎嵩林研究员。本文在微软亚研院前副院长、现澜舟科技 CEO 周明博士和虎嵩林研究员的共同指导下完成。",
+      "source": "机器之心",
+      "publishedAt": "Sun, 22 Feb 2026 21:04:44 +0800",
+      "region": "国内",
+      "summary": "针对大模型文本检索中对称式双塔结构导致查询侧推理负担重、部署成本高的问题，LightRetriever提出了一种极致非对称的LLM嵌入模型架构。该架构在文档侧使用完整大语言模型进行建模，而查询侧最多仅需一层嵌入查找，从而将查询侧推理速度提升千倍以上，端到端QPS提升10倍，同时在BEIR、CMTEB Retrieval等测试集上维持约95%的中英文检索性能。这项由中科院信工所与澜舟科技共同完成的研究已被人工智能顶级会议ICLR 2026接收。",
+      "category": "技术与研究",
+      "company": "澜舟科技",
+      "score": 28,
+      "breakdown": {
+        "substance": 13,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "微软CTO邮件揭露：Ilya因嫉妒下属突破引发OpenAI宫斗，奥特曼遭罢免",
+      "url": "https://36kr.com/p/3693861726826112?f=rss",
+      "snippet": "编辑：元宇 KingHZ 【新智元导读】硅谷最离谱宫斗：Ilya因嫉妒Jakub的「震撼突破」而点燃OpenAI火药桶，奥特曼被董事会踢出，引发高管离职潮。算力不足和预算挤压是根源，2026年文件曝光后，Ilya「塌房」。 2023年，OpenAI上演了硅谷版「权力的游戏」：奥特曼在一无所知的情况，被当时的首席技术官Mira Murati 和首席科学家Ilya联手踢出OpenAI。 山姆·奥特曼被踢出OpenAI 但这样抓马的戏码，你还以为是AI安全理念的高尚对决？ 不，这一次，邮件把真相写得刺眼：算力不够、人手紧张、产品爆火挤压研究预算…… 再加上Jakub Pachocki用「惊人进步」把导师Ilya多年卡住的难题一举攻破。天才也会受伤，组织也会失控。 于是，一场科技圈最离谱的「宫斗」，在妒火中被点燃。 师徒争斗，奥特曼被驱逐 微软首席技术官Kevin Scott一封邮件彻底解开了Ilya出走OpenAI的真相── Ilya由于对Jakub Pachocki一种深层的、无法言说的「智力嫉妒」，而不惜引爆OpenAI危机。 Ilya Sutskever（左）与Jakub Pachocki（右） 2026年马斯克诉奥特曼案最新披露的法律文件，罕见地揭开了OpenAI危机背后的人事暗涌。 2023年11月，微软首席技术官Kevin Scott向CEO纳德拉汇报时如此剖析局势： 真正推动研究突破的其实是Jakub Pachocki而非Ilya，其贡献之显著，促使奥特曼破格提拔他统领核心模型研发方向。 自担此重任后，Jakub的研究进程明显加速——尤其在最近几周取得了堪称震撼的突破性进展。 Ilya对此想必极为煎熬：昔日下属不仅跃升为领导者，更关键的是，此人竟攻克了困扰他多年却始终无解的核心难题。 对于Ilya这样骄傲的天才来说，其心理防线所遭受的冲击自然不难想象。这一刻，即使硅谷最聪明的大脑，也难逃人性的弱点。 于是，2023年11月17日，OpenAI董事会传出了一场震惊科技界的重磅炸弹： 宣布解除联合创始人兼CEO奥特曼职务，并将其踢出董事会。 公司在官方声明中措辞严厉地表示： 奥特曼在与董事会的沟通中未能保持一贯的坦诚，阻碍了董事会履行职责的能力。董事会已不再对他继续领导OpenAI抱有信心。 据《华尔街日报》等媒体披露，时任OpenAI首席科学家Ilya Sutskever在此次罢免中发挥了关键作用。 他利用自己对董事会的影响力，使他们接受了自己的说法，于是奥特曼被解雇了。 就在奥特曼被免职的决定公布数小时后，OpenAI联合创始人Greg Brockman愤而辞去董事长职务，随后，研究总监Jakub Pachocki、核心研究员Aleksander Mądry和Szymon Sidor 等「波兰军团」技术骨干也相继离职以示抗议。 最终，这场「政变」并未持续太久，便以奥特曼官宣复职，重掌CEO权杖告终。 在随后的一次全员会议上，Sutskever试图为罢免决定辩护，坚称这并非「敌意收购」，而是为了保护公司的使命。 但这场「罢免风波」之后，Ilya与奥特曼之间的裂痕已无法弥补。 Kevin Scott在给纳德拉的邮件中，将Ilya对奥特曼的不满归结为两个问题，这些问题在OpenAI内部均已酝酿已久。 第一个问题，是研究部门和应用部门之间关于计算资源（GPU）的争夺；第二个问题，是Jakub职务的晋升。 Kevin Scott在给纳德拉的邮件 Kevin Scott在给纳德拉的邮件 Kevin Scott在给纳德拉的邮件 Kevin Scott在给纳德拉的邮件 Kevin Scott在给纳德拉的邮件 算力「资源内战」 随着ChatGPT的爆火，OpenAI应用部门与研究部门之间争夺GPU的「资源内战」也不可避免。 应用部门（ChatGPT团队）的成功，直接导致了公司内部资源的倾斜。 原本属于研究部门用来探索未来的珍贵GPU，被大量抽调去服务那些渴望聊天的C端用户，而研究部门负责训练新模型的算力需求，则永远无法得到满足。 Ilya需要海量的算力去验证他对「超级智能」的构想受到了限制。 最终，奥特曼提拔了Jakub领导OpenAI的核心模型开发工作。 Kevin Scott在邮件里评价道：「从CEO的角度看，奥特曼提拔Jakub的决定是完全正确的。」 OpenAI已在2019年开启了商业化尝试，并逐步推出了商业化产品，而算力资源的分配，一定也是要服务这一战略方向的，如果才华不能转化为产品，就会被无情抛弃。 相比较搞纯粹研究的师傅Ilya，实干派的徒弟Jakub似乎更适应这个新的游戏规则。 在2023年主导了那场罢免奥特曼OpenAI CEO职务的行动之后，2024年3月，Ilya宣布了离开OpenAI的消息，他还在X平台上晒出了与Jakub等人的合照。 失去Ilya之后，OpenAI更好了吗？ Jakub在Ilya的推文下留言 Jakub在Ilya的推文下留言，称其为自己的导师和出色的合作伙伴，并称会想念和Ilya一起工作的日子。 Ilya黯然离去，这不仅是职位之争，更是Ilya的「预言家形象」塌房。 有的网友直言Ilya「傲慢」，翻出来以往媒体关于Ilya「故弄玄虚」的报道。 据《大西洋月刊》报道，员工们高呼「感受AGI！感受AGI！」，这一口号正是Ilya本人带头喊出的。 据《大西洋月刊》报道，员工们高呼「感受AGI！感受AGI！」，这一口号正是Ilya本人带头喊出的。 他甚至委托制作了一尊木制雕像，用来代表「未对齐」的、与人类利益相悖的AI，随后将其付之一炬。 简而言之，一些董事会成员似乎不是在专注于以科学严谨的方式切实推动AI技术进步，而是在搞些奇怪的玄学主张。 山姆·奥特曼 不过，逼走了Ilya，OpenAI好起来了吗？ 社媒评论 社媒评论 网友批评了奥特曼「与人类利益不一致，只追求利润最大化」，在AI输出中插入广告的做法，甚至表示奥特曼在2023年被短暂解雇本应该是「最佳结局」。 有网友暗指OpenAI在模型开发上「停滞不前」。自从2024年6月后，OpenAI在大型模型预训练上遇阻之后，一年多以来无重大突破。 社媒评论 还有网友指出OpenAI已经一年多没有推出新的前沿模型了，ChatGPT的用户正在转向Gemini，从长远看OpenAI已经失去竞争力。 随着2024年Jakub正式接任OpenAI首席科学家，Ilya黯然离场，「波兰军团」彻底走向了台前。 当内斗的硝烟散去，市场绝不会为权谋故事买单，只会为颠覆性的产品投票。 面对谷歌、Anthropic等竞争对手的强势表现，「波兰军团」能否在OpenAI拉响「红色警报」后，重夺昔日的领先地位，他们必须尽快拿出像GPT-5级别的震撼来打破质疑。 参考资料： https://x.com/trajektoriePL/status/2018242446577086589 https://officechai.com/ai/ilya-sutskever-was-unhappy-that-jakub-pachocki-was-making-more-research-breakthroughs-and-had-been-promoted-microsoft-cto-kevin-scott-during-openai-coup https://www.geekwire.com/2026/the-microsoft-openai-files-internal-documents-reveal-the-realities-of-ais-defining-alliance 本文来自微信公众号“新智元”，作者：新智元，36氪经授权发布。",
+      "source": "36氪",
+      "publishedAt": "2026-02-22 12:00:29  +0800",
+      "region": "国内",
+      "summary": "根据2026年马斯克诉奥特曼案披露的法律文件，微软首席技术官Kevin Scott在2023年11月向CEO纳德拉汇报时指出，OpenAI首席科学家Ilya Sutskever因对下属Jakub Pachocki的“智力嫉妒”而推动了罢免CEO奥特曼的行动。Jakub Pachocki在晋升后取得了震撼性的研究突破，攻克了困扰Ilya多年的核心难题，同时公司内部还存在研究部门与应用部门之间关于GPU计算资源的争夺。2023年11月17日，OpenAI董事会宣布解除奥特曼的CEO职务并将其踢出董事会，此举导致包括Jakub Pachocki在内的多名技术骨干离职抗议，但奥特曼最终官复原职。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 24,
+      "breakdown": {
+        "substance": 1,
+        "importance": 10,
+        "timeliness": 6,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "春节AI红包大战：巨头狂掷80亿，争夺AI时代入口",
+      "url": "https://36kr.com/p/3693887791459976?f=rss",
+      "snippet": "一个“最赛博朋克”的春节，互联网巨头押注“AI新世界”。 文｜章航英 2026年春节，手机微信群被持续轰炸。 从2月初至今，很多人不是在元宝抢红包，就是在千问买年货、点奶茶，或者在豆包里忙抽奖，一轮轮持续升级的春节“红包大战”，将元宝、千问和豆包等AI应用，轮番送上应用榜单下载榜首。 中国互联网巨头正“集体加码”，阿里、腾讯、百度、字节跳动、京东等在春节档投下的预算合计或将超过80亿元。 其中，阿里千问宣布投入30亿元请客，并还将投入20亿元补贴春节跑单的外卖骑手；腾讯元宝派发10亿元现金红包；百度文心助手投入5亿元现金红包；蚂蚁阿福联动支付宝发放近亿元红包；随后豆包也杀入战局，不仅官宣将登上央视春晚，还将发放超10万份礼品，据晚点报道字节为此斥资11亿元[1][2]。 截至发稿前，共有千问、元宝、文心助手、豆包、蚂蚁阿福“五强AI应用”加入战局，这被业内认为是近年来最大规模的春节AI营销投入之一。 与历届春节红包大战不同，今年巨头大手笔预算背后的投放逻辑发生巨大变化。红包不再为了“绑卡”“拉新”“冲日活”，而是从更上游串联起互联网巨头全业务场景，抢占AI时代的第一入口，试图定义AI时代全新生活方式。 千问官方透露，春节活动期间，超过1.3亿人通过千问点奶茶、囤年货、订机票酒店。36氪报道，30亿免单活动上线后，千问DAU（日活用户数量）从不足1000万暴涨至7352万，逼近行业头部豆包。千问还在除夕当天开源 Qwen3.5-Plus大模型，实现了又一次模型的代际跃迁。 字节豆包凭借央视春晚独家AI云合作伙伴身份，除夕单日全平台互动量达19亿次，完成较大规模国民触达。此前豆包发布的Seedance 2.0，更是引发巨大涟漪。 巨头打响“春节红包大战”，邀请用户进入AI时代 在春节战场上，千问正在将AI深度焊进真实场景。 通过30亿元的“请客计划”，千问不仅提供25元无门槛免单券，更深度接入了淘宝、飞猪、高德。AI在这里负责识别意图并引导成交，从订奶茶到订酒店，千问希望串联起集团多种业态场景，接管消费者越来越多消费决策，成为能“办成事”的AI。 此前千问APP春节项目组负责人郑嗣寿对外表示，在春节这个生活消费活动密集的节点，千问希望通过真金白银的投入，培养用户“有事找AI”的习惯，推动AI融入真实世界的衣食住行之中。据了解，后续千问将持续上线AI打车、AI充值等场景。 阿里正试图打造一套全新的AI叙事。此前阿里提出的“通云哥”概念（通义、云、平头哥），展现了从芯片到算力再到产品的立体布局。据晚点报道，阿里计划将未来三年的AI与云基建投入从3800亿元提升至4800亿元。马云现身千问项目组，传递了全力投入的信号。 ���先发起春节红包攻势的腾讯，试图抢占AI时代的社交入口。 2025年底前腾讯在AI上一度低调，但连续引入原OpenAI研究员姚顺雨、前Sea AI Lab科学家庞天宇，释放AI社交领域的野心。 姚顺雨强调不要盯榜单、要把系统放进真实世界约束中评估。对于拥有微信这一最强场景池的腾讯来说，元宝在春节期间推出的“元宝派”不仅是抢红包的工具，更是一次社交通路实验，让AI以“数字成员”身份进入家族群，通过发红包、接梗、总结信息，争取在最高频的社交场景中实现“自然融入”。 但腾讯也面临矛盾。它拥有最强入口，同时也最难动用入口。微信已是基础设施，过度导流会引发用户反感与生态震荡，因此出现了微信封杀元宝链接的插曲。 字节旗下豆包在2025年底成为了首个DAU突破1亿的AI产品。字节跳动的路径更接近内容逻辑，把AI定位为内容生产力工具，通过“创作—传播—新增”获取规模。 相比抢抢红包做做线上任务，AI时代的互联网巨头，正与消费者的真实生活贴得更近、融入更深。挑战也同样明显，交易链路越深，系统越需要稳定的供给、履约与体验。 红包十年，从支付基建到AI启蒙 这场看似热闹的红包狂欢，实则是十年入口之争的最新变体。 巨头集体加码背后，春节是中国社会少数仍具备“全国同步性”的时间窗口。需求密集、社交密集、消费密集，且用户愿意尝试新玩法。它天然适合做大规模用户教育，是新的消费习惯和生活方式的催化场。 过去十年，春节红包不断变迁。 第一阶段，2015年微信支付凭借“摇一摇”完成快速渗透，本质是补贴换习惯，抢的是支付入口。用户为了几块钱完成第一次绑卡，平台用几十亿补贴买下了移动支付的普及成本。竞争的核心变量是基础设施，胜负取决于谁能更快占领“交易发生的地方”。 第二阶段，集五福、短视频裂变、任务体系逐渐复杂化，红包被设计成概率游戏与社交传播链条。本质是抢时长、抢留存、抢用户生命周期价值。 第三阶段���红包再次变形，它不再只是“现金刺激”，而成为AI交互的启动器，领红包的同时与AI发生一次对话、一次创作或一次交易决策。平台想要的不仅是新用户或停留时长，而是通过一次体验，开启全新AI时代生活方式。 按照传播学者罗杰斯的“创新扩散理论”，一个新事物要进入主流市场，需要跨越约14%的渗透率鸿沟，才能从早期尝鲜者走向大众应用。 到2025年底，主流AI产品的渗透率已经逼近这一临界点，但行业仍处于“能用”与“必用”之间的区间。春节的脉冲式流量，提供了一个“全民实验场”。 2026年的AI红包大战，就像是AI世界入口的确权。谁能把AI变成用户的第一调用对象，谁就更接近下一代流量入口的心智顺序，有着战略意义。 2026赛博时刻：AI自建群聊对话 全国人民徜徉在红包和奶茶的轰炸中，与此同时，全球AI竞赛的另一端，硅谷正上演着更魔幻的场景。 在一些前沿社区，AI智能体不再只服务于人，开始尝试自建秩序，建立一个“纯AI”自发组成的线上社交平台。从Moltbook到Clawdbot，智能体通过特定协议对话、发帖、评论，有网友发现这些聚集在一起的AI不仅开起了对人类的“吐槽大会”，甚至开始形成原始“硅基文明”的雏形——比如尝试组建工会和机器人联盟，形成AI自发的虚拟社会，相互交流为“我的人类（My human）”工作时的各种经历[3]。 2月初，Moltbook宣布已有超150万个“AI智能体”注册，增长速度超所有人类社交网络早期。这更像探索AI边界的另一场实验——AI究竟能否被激发出自我意识？埃隆・马斯克评价，这或许标志着“奇点非常早期的阶段”。 更为魔幻的案例是RentAHuman.ai。AI开始通过API（应用程序编程接口）调用，在平台上以时薪500美金的高价雇佣人类打工，例如去线下签署一份纸质文件或实地考察某一地理坐标，上线48小时，吸引超过2万人“为AI打工”。 “之前还担心AI抢人的工作，现在AI已经开始给人类提供工作了。”有网友如此调侃。这场AI发起的“赛博雇佣”，将人类的劳动力变成了编程代码的一部分。在AI应用狂飙的背后，全球企业秩序格局也正在重新排列。硅谷知名风投a16z近期发布的第三届年度CIO调查报告显示，全球2000强企业对AI的支出正在持续加速，一个由OpenAI、Anthropic和谷歌构成的“三国杀”格局日益清晰。 未来科技生活图景 图片由RoboNeo AI生成 不过，狂热过后，质疑也随之而来。 有观点指出，部分AI的“自主行为”，比如发帖、评论，并非真正源于AI意志，很大程度上是人为驱动和引导的结果。当AI以前所未有的速度和烈度涌入现实生活，也伴随着泡沫、谎言和疯狂，以及不可预知的风险。 但无论是RentAHuman上AI发给人类的薪水，还是千问App请用户春节喝奶茶，种种迹象终究会汇流成同一个事实，AI正以前所未有的速度，从一个多数人生活中可有可无的应用图标，变成一个无法被忽视的社会运行基建。二者指向同一个未来，AI正在从“工具”演变为“环境”和“参与者”。 热闹终将散去，2026年春节盛况，或许会成为一个全新世界的启幕。 参考资料： 1. 《晚点独家|阿里要继续大投入淘宝闪购，三年不担心亏损》 2. 财新：字节跳动豆包春晚发红包、送机器人 春节AI应用入口竞争加剧 3. 澎湃：Moltbook百万条评论吐槽分析：AI如何集体吐槽人类？ （封面和头图 由AI生成） 本文来自微信公众号“天下网商”，作者：天下网商，36氪经授权发布。",
+      "source": "36氪",
+      "publishedAt": "2026-02-22 14:00:59  +0800",
+      "region": "国内",
+      "summary": "2026年春节期间，中国互联网巨头投入超过80亿元，通过千问、元宝、文心助手、豆包、蚂蚁阿福等AI应用展开大规模营销活动。与以往不同，此次投入的核心逻辑不再是简单的用户拉新或绑卡，而是为了将AI深度融入真实生活场景，抢占AI时代的第一入口，并试图定义新的生活方式。例如，阿里千问通过30亿元“请客计划”串联起淘宝、飞猪、高德等业务，培养用户“有事找AI”的习惯；腾讯元宝则尝试让AI以“数字成员”身份融入微信社交场景；字节豆包借助央视春晚合作实现了大规模国民触达。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 22,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "TMLR 2026收录首篇多模态长上下文Token压缩综述，浙大、西湖大学等解析MLLM效率瓶颈",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-22-2",
+      "snippet": "随着 GPT-4o、Gemini 3Pro 等模型的爆发，多模态大语言模型（MLLM）正在处理越来越长的上下文（Long Context）。 然而，一张高清图、一段长视频或长音频产生的 Token 数量往往是文本的数千倍，不仅挤占了宝贵的上下文窗口，更因自注意力机制的二次复杂度导致推理成本飙升。如何「 给 Token 瘦身」？ 近日，来自浙江大学、西湖大学等机构的研究者发布了首篇关于多模态长上下文 Token 压缩的系统性综述，已被 TMLR 2026 接收。该文提出了统一的分类体系，深入剖析了图像、视频、音频模态的压缩机制，为高效 MLLM 的研究指明了方向。 论文标题：A Survey of Token Compression for Efficient Multimodal Large Language Models 论文链接：https://arxiv.org/abs/2507.20198 论文集：https://github.com/cokeshao/Awesome-Multimodal-Token-Compression OpenReview：https://openreview.net/forum?id=G2od9JVHkE 多模态大语言模型（MLLM）在视觉问答、视频理解和语音交互等任务上展现了惊人的能力。这些能力很大程度上源于模型对长而复杂上下文的处理能力 &mdash;&mdash; 无论是高分辨率图像、长达数小时的视频，还是长语音输入。 然而，这种能力并非没有代价。随着 Token 数量的增加，Transformer 架构中自注意力机制（Self-Attention）的计算复杂度呈二次方增长。 Token 爆炸问题有多严重？ 如下图所示，一段 90 分钟的视频如果不经处理，可能会产生高达 5400 万个 Token（假设 1fps 采样），这远远超过了当前顶尖模型（如 Gemini 2.5）的百万级上下文窗口。更重要的是，视觉和听觉数据中存在大量冗余 &mdash;&mdash; 研究表明，推理过程中超过 50% 的 Token 获得的注意力极低。 为了解决这一计算瓶颈，Token 压缩（Token Compression）成为了一种关键技术。它旨在训练或推理阶段，在保留关键语义信息的前提下，大幅减少传递给 LLM 的 Token 数量。 全新的分类体系：从模态到机制 由于不同模态的数据冗余特性各不相同（例如图像的空间冗余 vs. 视频的时空冗余），该综述首先依据数据模态将现有工作分为三大类： 以图像为中心的压缩（Image-centric）： 解决视觉数据的空间冗余。 以视频为中心的压缩（Video-centric）： 解决动态序列中的时空冗余。 以音频为中心的压缩（Audio-centric）： 解决声学信号中的时间和频谱冗余。 在此基础上，作者进一步根据底层算法机制，将方法细分为四种类型： 基于变换（Transformation-based）： 如池化、卷积，直接改变特征的物理形态。 基于相似度（Similarity-based）： 如聚类、合并，将相似的 Token 融合成一个。 基于注意力（Attention-based）： 利用 Attention Score 剪枝，保留高显著性区域。 基于查询（Query-based）： 使用 Learned Queries（如 Q-Former）或文本引导来筛选信息。 同时，作者总结了这四类机制的优缺点，为研究者选择合适的方法提供了直观参考。 1. 图像 Token 压缩：从空间冗余入手 图像 Token 是 MLLM 中最主要的输入来源之一。高分辨率图像虽然带来了丰富的细节，但也引入了巨大的计算开销。 基于变换（Transformation-based）： 如 InternVL 和 LLaVA-OneVision 采用的 Pixel Unshuffle 或双线性插值。这类方法不筛选 Token，而是通过改变特征的物理形态（如降低分辨率但增加通道数）来保留所有信息的结构化表示。 基于相似度（Similarity-based）： 如 ToMe 和 VisionZip。利用图像块（Patch）之间的视觉相似性，将冗余的背景或纹理进行聚类合并，减少计算量。 基于注意力（Attention-based）： 分为编码器端（如 PruMerge+）和解码器端（如 FastV）。前者利用 ViT 的注意力分数在进入 LLM 前剔除 Token，后者则发现 LLM 深层对视觉 Token 的关注极低，从而在推理过程中动态剪枝。 基于查询（Query-based）：如 Q-Former、LLaMA-VID 则通过少量的 Query Token 来「蒸馏」整张图像的信息。 2. 视频 Token 压缩：攻克时空冗余 视频不仅包含空间信息，还包含时间维度。视频压缩的核心挑战在于：如何在压缩海量帧的同时，保留运动和时间动态。 时空冗余消除： 视频中相邻帧往往高度相似。Chat-UniVi 等方法采用基于相似度的聚类算法，将静态背景或重复帧合并为一个代表性 Token，仅保留发生变化的动态区域。 查询引导的帧选择： 针对长视频理解，LongVU 等方法利用用户的文本提问作为 Query，计算每一帧与问题的相关性。这种方法能跳过大量无关帧，仅将与问题最相关的「关键帧」Token 输入 LLM，从而在有限的上下文窗口中处理小时级视频。 3. 音频 Token 压缩：处理静音与噪声 音频数据具有高采样率特性（1 秒音频可能包含数万采样点），且存在独特的冗余。 序列降维： 由于音频通常被处理为 Mel 频谱图或一维序列，Qwen2-Audio 等模型采用一维卷积（1D Convolution）或 Token 堆叠（Stacking）技术，直接在时间维度上进行下采样，大幅缩短序列长度。 跨模态语义过滤： 音频中常包含静音片段或背景噪声。SpeechPrune 等方法利用文本 - 音频的对齐关系，通过注意力机制识别并保留包含语音语义的有效片段，剔除无意义的噪声 Token，实现「听觉 - 语义」层面的高效压缩。 挑战与展望 尽管 Token 压缩技术已经取得了显著进展，综述最后也指出了当前面临的几个关键挑战： 性能与效率的权衡： 极高的压缩率往往会导致细粒度任务（如 OCR、微小物体检测）的性能急剧下降。 部署难题： 部分基于 Attention 动态剪枝的方法依赖于实时计算 Attention Score，这与 FlashAttention 等现代加速库不完全兼容。 多轮对话的适应性： 现有的 Query-based 方法在多轮对话中可能需要针对新问题重新计算，效率受限。 未来方向 Omni-modal 联合压缩： 随着 GPT-4o 等全能模型的出现，利用音频引导视频压缩、文本引导图像压缩的跨模态协同压缩（Cross-modal Synergy）将是巨大的潜力点。 原生高效架构： 从模型设计之初就通过线性 Attention 或状态空间模型（如 Mamba）来解决长序列问题，而非仅依靠后处理压缩。 总结 这篇综述为多模态大模型的效率优化提供了一份详尽的「 路书」。对于希望在资源受限设备上部署 MLLM，或希望处理超长视频 / 文档的研究者和工程师来说，理解并应用 Token 压缩技术将是必经之路。",
+      "source": "机器之心",
+      "publishedAt": "Sun, 22 Feb 2026 20:56:55 +0800",
+      "region": "国内",
+      "summary": "随着多模态大语言模型处理长上下文的需求激增，图像、视频和音频等模态产生的海量Token带来了巨大的计算负担和成本。为此，来自浙江大学、西湖大学等机构的研究者发表了首篇关于多模态长上下文Token压缩的系统性综述，该论文已被TMLR 2026接收。该综述提出了一个统一的分类体系，将现有工作按数据模态分为图像、视频和音频三大类，并进一步根据算法机制细分为基于变换、相似度、注意力和查询的四类方法。文章深入剖析了各模态的压缩机制，旨在为构建更高效的多模态大语言模型指明研究方向。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 21,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌Gemini提示词指南：改善低质量人像照片",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-gemini-prompts-to-improve-low-quality-portraits-step-by-step-guide-prompts-and-quick-tips/articleshow/128671177.cms",
+      "snippet": "Tech News News: Blurry selfies or low-quality portraits can be really annoying. You want something sharp, natural-looking, but without spending hours...",
+      "source": "The Times of India",
+      "publishedAt": "17 hours ago",
+      "region": "海外",
+      "summary": "模糊的自拍照或低质量的人像照片可能非常令人烦恼。用户希望获得清晰、自然的照片，但又不想花费数小时处理。文章提供了一份分步指南、提示词和快速技巧，以帮助用户利用谷歌Gemini改善此类照片。",
+      "category": "技术与研究",
+      "company": "Google",
+      "score": 13,
+      "breakdown": {
+        "substance": 0,
+        "importance": 6,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "谷歌加码AI竞争，计划发债筹资并获资本重仓",
+      "url": "https://36kr.com/p/3693821399084937?f=rss",
+      "snippet": "Alphabet CEO桑达尔·皮查伊 如果采用之前对互联网的估值方式对AI大模型公司进行估值，那么很有可能会错失一个时代。 但这并不意味着，所有的大模型公司都能获配超溢价估值。 过去很长一段时间，对于创业型科技企业我们习惯找一家头部公司进行对标，然后贴上相应的标签。例如在芯片领域，一些创业型芯片企业很容易被对标英伟达，然后给予超出公司实际营收水平且梦幻般的估值。 实际上，从公司本身的质地而言，差距十分明显。而英伟达作为芯片全球龙头，不管从需求的角度还是市场的角度，其产品很容易出售，业绩也很容易兑现，市场给予的高估值往往一两年就能被消化。 因此，尽管近两年英伟达市值暴涨超过了十倍，但截至目前，该公司的动态市盈率也仅有46.5倍。而一些对标英伟达的芯片企业，其产品和营收本身比较欠缺，两者之间的鸿沟明显，却因为被贴上“某某英伟达”的标签获得超过百倍以上的估值，这显然是荒谬的，也是不合理的。 另外，从产品本身而言，随着头部科技公司的资本开支加大，其与中腰部公司的差距并非不断被缩小，而是越来越大。且随着头部公司的产品迭代速度加快，市场则会更加青睐优质的产品。在这种背景下小公司逆袭的故事，只会越来越少。 谷歌 例如当下的AI行业，市场并不相信小公司产品的逆袭，AI公司的底层的竞争力往往体现在算力、算法与模型上，这些都是创业型小公司难以与巨头匹敌的客观事实。目前，在AI的全球语境下，谷歌、OpenAI、Meta、亚马逊等头部科技公司资本开支逐年提升，算力基本处于过剩状态，这种优势是小公司所不具备的。 需要说明的是，当下AI的竞争需要实打实地投入，没有弯路可以取巧。因此，尽管目前AI是全球最大的风口，但并不意味着小型创业企业可以突围。 当下，市场随意给一些创业型的AI公司给出魔幻般估值，尤其是营收还未超过10亿量级公司却给出两三千亿的估值水平，这绝对是一种不负责任的表现。因为，估值最终都需要用业绩来消化，假设业绩不能兑现，不管是对于市场还是投资者而言，结果都是灾难性的，这一点投资者需要警惕！ 加码！重仓 AI的竞争已经到了白热化阶段。 头部科技公司不断增加的资本开支预示着，这场关于AI的竞争，巨头们已无退路。因此，在这场AI的竞争中，部分头部企业甚至举巨债进行扩张。 有媒体报道，谷歌母公司Alphabet计划通过其美元债券发行筹集200亿美元，规模高于最初预计的150亿美元。知情人士表示，Alphabet美元债券发行已吸引超过1000亿美元的订单。 此外，Alphabet也在向投资者推介其在瑞士和英国的首次发债计划。其中，英国市场的发行还可能包括一笔罕见的100年期债券。 据悉，这将是自20世纪90年代末互联网泡沫时期以来，科技公司首次尝试发行如此长期限的债券。 值得注意的是，头部科技公司的加码还在继续。根据统计，仅谷歌，Meta、微软以及亚马逊这四家科技公司，今年合计支出将高达6500亿美元，这些资金将主要用于扩建AI基础设施。 谷歌 科技公司疯狂的下注，资本市场也并未袖手旁观。 2025年三季度，一向对科技股不感兴趣的伯克希尔公司重仓了谷歌，并且一举将其买成前十大重仓。一些国内私募巨头，也开始重仓站队。 近期，但斌执掌的东方港湾海外基金向美国证监会（SEC）提供了2025年四季度的13F文件，文件显示，四季度但斌先后清仓了阿里巴巴、Coinbase、奈飞、Astera Labs、BitMine Immersion Technologies、博通以及台积电等多只股票。其持仓进一步向科技巨头集中，尤其是大幅加仓谷歌，一举成为其第一大重仓股。 截至年末，东方港湾海外基金持有谷歌的股份约为4.06亿美元，占美股持仓总规模的约31%，显著高于英伟达约18%的权重，期末持股数量为129.35万股。 值得注意的是，但斌不仅大举买入谷歌的股票，还大幅加仓了二倍做多谷歌的ETF，加仓幅度高达117.61%，通过杠杆进一步提升谷歌的仓位。据悉，但斌旗下东方港湾海外基金期末管理规模约为13.16亿美元，较去年三季度末的12.92亿美元小幅增长。 而另外一家私募巨头景林资产也大幅增持了谷歌公司。根据景林资产的海外主体景林资产管理香港有限公司向SEC提交的截至2025年末的美股持仓数据显示，2025年第四季度，该私募基金大举增持谷歌近93万股，使其成为新的第一大重仓股，季末持仓市值达到8.42亿美元，仓位占比超20%。 截至2025年年末，景林香港公司的前五大重仓股分别为谷歌、Meta、拼多多、网易、满帮集团。 谷歌，冲击全球AI“王座” 关于对于AI的重仓投资，但斌在接受媒体采访时表示：“把时间拉长到更长远的周期里，这很可能只是蓄势的一年。我们依然明确认为人工智能会走出十年行情，今年人工智能的大方向依然会持续。” 侃见财经认为，在AI时代的加速来临背景下，AI正在快速成为市场的共识。 值得注意的是，段永平也在四季度买入了头部AI公司，根据其持仓，段永平不仅重仓了英伟达，还加仓了谷歌。 他还表示，新的一年里，需要认真学习一下怎么使用AI，希望能让自己能理解AI到敢下重注的地步。 需要说明的是，看好未来并不意味着不恐惧当下。目前，随着头部AI公司的暴涨，市场对这些公司的看法也产生了分化。另外，这些公司庞大的资本开支也让市场产生了一定程度的担忧。 2月初，谷歌母公司Alphabet发布四季度财报，财报显示，第四季度公司实现营收1138.28亿美元，同比增长18%，超出华尔街普遍预期的1114亿美元；稀释后每股收益为2.82美元，同样超出市场预期的2.63美元。同期净利润达到344.55亿美元，同比增长接近30%。 从全年的角度来看，Alphabet营收首次突破4000亿美元，达到4028.36亿美元，净利润1321.7亿美元，多项核心指标创出历史新高。 最被市场关注的云业务，四季度营收达176.6亿美元，同比增长48%，显著高于分析师约162亿美元的预期。谷歌表示，主要系企业级AI基础设施需求、AI原生解决方案，以及核心GCP产品持续放量的推动。 值得注意的是，第四季度谷歌云业务的运营利润达到53.13亿美元，同比大幅增长超过一倍。云业务的“突围”，预示着跨过盈利平衡点之后该业务将实质性地为公司带来可持续的现金流。 云业务的超预期，也让谷歌放开了手脚，因而资本开支也越来越大。Alphabet预计，2026年资本支出将达到1750亿至1850亿美元，区间中值接近1800亿美元（约合人民币12435亿元），显著高于华尔街分析师此前约1200亿美元的预期，是2025年资本开支规模的近两倍。 面对市场对巨额资本开支担忧。在近期印度举行的AI峰会上，Alphabet CEO桑达尔·皮查伊表示，“在某些语境下，有人谈到这是工业革命，但速度快10倍，规模大10倍。” Alphabet CEO桑达尔·皮查伊 他还称，“仅云业务在过去一年，积压订单就同比增长了一倍，达到2400亿美元。这表明了另一方面的回报潜力。因此，我们正在投资以满足这一需求。” 此前，皮查伊也曾表示，AI 投资和基础设施建设正在“全面推动收入和增长”，提高2026年资本开支，是为了满足已出现的客户需求，而非提前透支潜在预期。 侃见财经认为，随着AI的竞争进入深水区，讲故事的阶段已经结束，未来市场对AI产品的考验将更加残酷，能否获得市场以及用户的青睐，将会成为市场估值的关键。不仅如此，随着AI迭代速度的加快，市场的淘汰赛将持续加速。在这种背景下，一些初创企业若不能先头部AI公司一步快速占领市场并且兑现业绩，那么他们就会迅速被头部AI公司甩在身后。 本文来自微信公众号“侃见财经”，作者：侃见财经，36氪经授权发布。",
+      "source": "36氪",
+      "publishedAt": "2026-02-22 10:30:27  +0800",
+      "region": "国内",
+      "summary": "文章指出，当前AI行业的竞争已进入白热化阶段，其核心竞争力体现在算力、算法与模型上，这使得创业型小公司难以与头部科技巨头匹敌。谷歌母公司Alphabet计划通过发行美元债券筹集200亿美元，并考虑在瑞士和英国首次发债，其中包括可能发行罕见的100年期债券。资本市场对此反应积极，伯克希尔公司在2025年三季度重仓谷歌，国内私募东方港湾也在四季度大幅加仓谷歌，使其成为第一大重仓股。头部科技公司如谷歌、Meta、微软和亚马逊今年在AI基础设施上的合计资本支出预计将高达6500亿美元。",
+      "category": "投融资与并购",
+      "company": "谷歌",
+      "score": 18,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "迪士尼如何选择AI版权诉讼对象：诉讼还是合作",
+      "url": "https://www.aol.com/articles/lawsuits-billion-dollar-deals-disney-183659184.html",
+      "snippet": "Disney sent ByteDance a cease-and-desist for using its characters on Seedance. When OpenAI's Sora did it, however, Disney struck a deal.",
+      "source": "AOL.com",
+      "publishedAt": "6 hours ago",
+      "region": "海外",
+      "summary": "迪士尼对字节跳动发送了停止使用其角色的警告函，因为后者在Seedance平台上使用了迪士尼的角色。然而当OpenAI的Sora做了类似事情时，迪士尼却选择了与其达成合作协议。这显示了迪士尼在处理AI版权问题时的不同策略。",
+      "category": "政策与监管",
+      "company": "迪士尼",
+      "score": 16,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ]
+}

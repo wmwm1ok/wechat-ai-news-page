@@ -1,0 +1,275 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "Kimi春节档收入超去年全年，估值达700亿元，网易阿里等大厂加入AI Agent竞争",
+      "url": "https://www.qbitai.com/2026/02/381896.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Tue, 24 Feb 2026 07:49:30 +0000",
+      "region": "国内",
+      "summary": "Kimi在春节期间推出的Kimi Claw产品支持一键部署，上线后迅速在OpenClaw模型调用榜上位列第一。该产品接入ClawHub社区插件，支持云端运行，并集成了自家的Kimi K2.5 Thinking模型。近20天收入已超过2025年全年，公司估值飙升至约700亿元人民币，近期完成了7亿美元融资，累计融资额超过12亿美元。与此同时，网易、阿里等互联网大厂也纷纷推出各自的Claw产品，加入AI Agent领域的竞争。",
+      "category": "产品发布与更新",
+      "company": "Kimi",
+      "score": 53,
+      "breakdown": {
+        "substance": 25,
+        "importance": 13,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "开工首日LobsterAI下载量翻倍，这款AI助手春节期间已火到海外",
+      "url": "https://www.leiphone.com/category/industrynews/uunWz8KdXqg3OKhN.html",
+      "snippet": "2月24日，年后开工第一天，“7×24小时全场景个人助理”、桌面级Agent “LobsterAI ” 迎来下载新高峰。网易有道数据显示，LobsterAI 中文版当日下载量较前一日翻倍。 记者了解到，2月19日，网易有道正式宣布开源其全场景个人助理Agent——LobsterAI。这款能够7×24小时在电脑端自主运行、直接替用户“动手干活”的智能助手，已在软件项目托管平台GitHub上公开全部代码（https://github.com/netease-youdao/lobsterai）。上线仅五天，已获得超1800个Star（星标/收藏），Fork（复制/派生）数量突破200。在社区的共同参与下，项目团队快速响应用户反馈，连续发布3个迭代版本。 “开工首日下载量翻倍增长，说明大家确实需要一个能真正帮自己工作提效、处理日常事务的‘数字员工’。而海内外开发者的关注也让我们看到了中国Agent创新走向全球的潜力。”网易有道LobsterAI项目负责人对雷峰网表示。 作为“国版OpenClaw”，LobsterAI是一款真正懂中文办公场景、能本地化落地的智能助手。上线期间，项目也吸引了来自美国、英国、新加坡等地的用户尝鲜体验。 项目负责人介绍，LobsterAI从设计之初就坚持三大核心理念：一键安装开箱即用，无需复杂配置；提供直观的图形界面，告别命令行，让普通用户也能轻松上手；深度适配国内主流IM平台，无缝对接钉钉、飞书等，使Agent能够融入真实工作流。这种“接地气”的设计，使其迅速成为打工人心中的效率搭子。 作为运行在个人电脑上的智能助理，LobsterAI的核心能力在于“直接交付结果”。用户只需用自然语言下达指令，Agent就能自主规划并执行复杂任务，输出包括文档、报表、海报、视频、网页自动化操作等多模态成果。它内置了16种实用技能，全面覆盖文档处理、数据分析、创意设计、多媒体生成、网页自动化、邮件处理等日常办公场景。 用户甚至可以用自然语言创建定时任务。例如“每天早上9点帮我收集科技新闻”、“每天推送我的专属头脑风暴点子”、“炒股实时盯盘”…… Agent都会高效率执行并推送结果。更值得关注的是，LobsterAI支持通过IM平台远程调用。出门在外时，只需在手机上给钉钉或飞书上的“数字员工”发条指令，桌面端Agent便会立即响应，将成果返回手机，真正实现随时随地办公。 “我上班时的一个崩溃场景是，21点终于要下班了，老板给我发来一条消息说：‘帮我做一份xx产品的竞品分析报告给我，明天11点会上要沟通’。一句话不提加班，但是这种崩溃感懂的都懂。现在的AI Agent，其实完全有能力让你打上车，在滴滴里用飞书给AI发个消息，让它帮你把活干了。”一位LobsterAI用户对雷峰网感慨道。这种“人在归途，活已干完”的体验，也是LobsterAI能够在开工首日成为打工人最佳搭子的原因。 （图片来源：LobsterAI用户使用界面） “OpenClaw证明了AI Agent的能力上限够高，而LobsterAI在试着做另一件事——让更多人真正用上这个能力。GUI界面、飞书远控、沙盒安全、适配国内工具生态，再加上开源，这不只是降低门槛，是让AI Agent真正走进每个打工人的日常工作流。”该用户对雷峰网补充道。 为了让助手更贴合个人习惯，LobsterAI内置了持久记忆系统，能够从对话中自动提取偏好，跨会话记住使用风格。安全方面，所有敏感操作均需用户批准，支持沙箱隔离执行，所有数据存储在本地SQLite数据库，绝不离开设备，用户始终掌控全局。 LobsterAI目前已全面支持macOS与Windows两大桌面平台，普通用户可通过官网下载体验，开发者则可在GitHub上获取源代码参与项目共建。",
+      "source": "雷锋网",
+      "publishedAt": "Tue, 24 Feb 2026 17:00:00 +0800",
+      "region": "国内",
+      "summary": "2月24日，年后开工首日，网易有道开源的桌面级智能助手LobsterAI中文版下载量较前一日翻倍。该产品于2月19日正式开源，上线五天内在GitHub上已获得超1800个Star和超200个Fork，并吸引了来自美国、英国、新加坡等地的用户。LobsterAI设计注重易用性和本地化，提供图形界面，深度适配钉钉、飞书等国内主流办公平台，支持通过自然语言指令执行文档处理、数据分析、创意设计等16种技能，并能通过IM平台远程调用，实现“人在归途，活已干完”的体验。项目团队表示，下载量的增长反映了市场对能提升工作效率的“数字员工”的需求，也展现了中国AI智能体创新走向全球的潜力。",
+      "category": "产品发布与更新",
+      "company": "网易有道",
+      "score": 40,
+      "breakdown": {
+        "substance": 24,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Oura推出专注于女性健康的专有AI模型",
+      "url": "https://techcrunch.com/2026/02/24/oura-launches-a-proprietary-ai-model-focused-on-womens-health/",
+      "snippet": "The model supports questions spanning the full reproductive health spectrum, from early menstrual cycles through menopause.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 24 Feb 2026 15:08:01 +0000",
+      "region": "海外",
+      "summary": "Oura发布了一款专注于女性健康的专有AI模型。该模型支持涵盖整个生殖健康周期的问题，范围从早期月经周期到更年期。",
+      "category": "产品发布与更新",
+      "company": "Oura",
+      "score": 31,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "西班牙“准独角兽”Multiverse Computing发布免费压缩AI模型",
+      "url": "https://techcrunch.com/2026/02/24/spanish-soonicorn-multiverse-computing-releases-free-compressed-ai-model/",
+      "snippet": "Spanish startup Multiverse Computing has released a new version of its HyperNova 60B model on Hugging Face that, it says, bests Mistral's model.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 24 Feb 2026 23:32:00 +0000",
+      "region": "海外",
+      "summary": "西班牙初创公司Multiverse Computing在Hugging Face上发布了其HyperNova 60B模型的新版本，该公司称其性能优于Mistral的模型。",
+      "category": "产品发布与更新",
+      "company": "Multiverse Computing",
+      "score": 25,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "千问3.5登顶Hugging Face开源模型榜，前十名中国占八席",
+      "url": "https://www.qbitai.com/2026/02/381976.html",
+      "snippet": "总参数3970亿仅激活170亿",
+      "source": "量子位",
+      "publishedAt": "Tue, 24 Feb 2026 08:19:03 +0000",
+      "region": "国内",
+      "summary": "2月24日，阿里最新开源的原生多模态模型千问3.5在全球最大AI开源社区Hugging Face公布的新一期榜单中登顶榜首，成为近期最受全球开发者关注的开源大模型。该模型是阿里在除夕开源的最新一代基础大模型，总参数3970亿但仅激活170亿，性能媲美Gemini 3，而Token成本约为其5%。在本次榜单前十名中，有8款模型来自中国团队，涵盖阿里巴巴、智谱、MiniMax、月之暗面等多家机构。千问3.5开源后迅速获得全球产业链响应，包括英伟达、AMD、苹果、Intel等国际公司以及华为昇腾、摩尔线程等国产GPU平台均在第一时间完成适配。截至当前，阿里千问共开源400多款模型，全球下载量超10亿，衍生模型超20万，是全球第一的开源大模型。",
+      "category": "技术与研究",
+      "company": "阿里巴巴",
+      "score": 55,
+      "breakdown": {
+        "substance": 24,
+        "importance": 16,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "中兴开源RealMirror平台，以端到端仿真基座推动具身智能研发",
+      "url": "https://www.qbitai.com/2026/02/381926.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Tue, 24 Feb 2026 08:12:51 +0000",
+      "region": "国内",
+      "summary": "中兴通讯研究团队在ICRA 2026上发布论文，开源了名为RealMirror的端到端具身智能仿真平台。该平台旨在解决人形机器人视觉-语言-动作研究面临的数据采集成本高、缺乏统一评测基准以及仿真与现实差距显著三大挑战。平台核心贡献包括构建了无需真机的端到端数据采集、训练与推理系统，提出了针对人形机器人的VLA算法评测基准，并利用生成模型和3D高斯泼溅技术实现高保真视觉重建，以促进零样本仿真到现实的迁移。平台开源后短期内获得了超过600个GitHub星标，相关开源资产下载量达2400多次。",
+      "category": "技术与研究",
+      "company": "中兴",
+      "score": 50,
+      "breakdown": {
+        "substance": 30,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "全自动研究系统FARS 228小时生成100篇论文，消耗114亿Token",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-24-4",
+      "snippet": "编辑｜Sia 这个春节，AI 圈最硬核的一场「真人秀」，悄然完成了阶段性收官。 主角不是动漫人物，也不是舞枪弄棒的机器人，而是一位 7&times;24 小时从不疲倦的 AI 科学家 FARS （ Fully Automated Research System ）。 这套由 Analemma（日行迹）打造的全自动研究系统，在长达 228 小时 28 分 33 秒的连续公开运行中，自己提假设、做实验、写论文，共生成 244 个研究假设，「肝」出 100 篇短论文（ short paper ）。 算下来，在这座流水线式的「科研工厂」中，每隔约 2 小时就有一篇论文产出。 让 AI 自己写 100 篇论文目标达成，花了 228 个小时。目前，计划持续一个月的直播仍在进行中。直播地址：https://analemma.ai/fars 这种跳出传统科研范式的工业级吞吐量，很快让围观网友坐不住了。 首批深度「验货」的专业网友给出了一个颇为一致的判断：结果超过预期、相当出色。 如果把它当作人类顶会论文，还不够惊艳；但如果考虑到这是一个全自动系统的阶段性产出，其完成度已经明显超出很多人的事前预期。 「考虑到这只是一个 AI 的自主起步，能 7&times;24 小时稳定产出到这个质量，还要啥自行车？」 而且，真 work 没有通篇幻觉。 至少在当前阶段，FARS&nbsp;已经完成了一次关键跨越。它首次证明，一条无人值守的科研「流水线」不仅能跑，而且能在相对稳定条件下，持续产出具备一定学术竞争力的&nbsp;short paper&nbsp;级工作。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 「发论文这件事本身的稀缺性」被摧毁了。 恐怖的「工业节拍」，算力正在转化为知识 FARS 并不是一个单体模型，而是一套多智能体系统，包括四个功能模块： Ideation（构思）：负责文献调研与假设生成 Planning（规划）：负责实验方案设计 Experiment（实验）：负责代码编写与执行 Writing（写作）：负责论文撰写 从实时运行界面可以直观看到，FARS&nbsp;以项目队列的方式并行推进多个研究任务。每个课题依次穿过&nbsp;Ideation &rarr; Planning &rarr; Experiment &rarr; Writing&nbsp;四个阶段，流程高度模块化，呈现出明显的「科研装配线」特征。 FARS 实时运行界面：从假设生成到论文写作，自动化科研流水线首次以可观测形态完整展开。 为了让它心无旁骛的做研究，Analemma（日行迹）还给它搭建了一个 160 张显卡的计算集群，并允许它调用几乎任何开源和闭源大模型，实验条件远超大部分高校实验室。 而这条「流水线」的产能，已经到了让人很难忽视的程度。在约 228&nbsp;小时（&asymp;9.5&nbsp;天） 的连续运行周期内： 系统生成 244&nbsp;个研究假设 完成 100&nbsp;篇&nbsp;short paper 累计消耗 114&nbsp;亿&nbsp;Token 总成本约 10.4&nbsp;万美元 （&asymp;75 万元人民币） 全程无人干预。 进一步归一化后，这套系统的「工业节拍」变得更加直观：平均每隔约 2 小时 17 分就有一篇研究论文完成，平均每篇论文成本大约 1000 美元，花费 1 亿多Token。 对比人类科研常见的 3&ndash;6 个月 / 篇的周期，这种吞吐差距几乎是数量级级别的，成本也极为低廉。 不过，如果把目光从吞吐转向效率，约 1.14 亿 Token / 篇的消耗，已经明显高于普通写作生成（通常百万级 Token ）以及常见复杂 Agent 任务（通常百万、千万级 Token&nbsp; ）的开销。 这表明，FARS 仍处于「算力换智能」的阶段，其表现更多来自计算密度，而非算法效率的极限压缩。 综合来看， 一方面，FARS 已经用实测结果证明，端到端自动化科研流水线在吞吐层面是切实可行的。另一方面，其当前的 Token 与成本结构，距离「足够便宜地大规模跑」还有工程空间。 质量：它写得快，那写得好吗？&nbsp; 量大，从来不自动等于质优。FARS 写出来的东西，到底处在什么水平？ 为此，研究团队使用斯坦福大学开发的 AI 审稿系统 Agentic Reviewer （ paperreview.ai ），按照 ICLR 的评审标准，对这 100 篇论文进行了统一打分。 根据开发者公开评估，Agentic Reviewer 在审稿一致性上，已达到人类审稿人的判断水平。 开发者在 ICLR 2025 审稿数据 上做了对比评测，使用的是 Spearman 相关系数。人类 vs 人类：0.41；AI vs 人类：0.42。开发者认为 agentic reviewing 正在逼近人类水平。 从整体评分结果来看，FARS 产出的 100 篇论文中，平均得分为 5.05 （区间 3.0&ndash;6.3）。 少量论文处于 3.0&ndash;4.5 的低分段，也有极少数突破 6.0 分。 FARS 论文分数主要堆在 5 分附近，说明产出质量并不是随机波动，而是已经形成相对稳定的「质量带」。 少量样本进入 6 分以上区间，意味着系统偶尔能产出超强作品。 这个成绩，与人类战绩相比，又如何呢？ 作为参照，ICLR 2026 人类投稿的平均分为 4.21，而最终被接收论文的平均分为 5.39。 对照来看，FARS 的平均分 5.05，已经明显高于人类投稿的整体平均水平，但距离「平均中稿线」仍存在差距。 可谓 比下有余，比上未满。 FARS 生成的学术论文平均分超过人类投稿者的平均水平，但与平均中稿分数仍有差距。 需要再次强调的是，本次自动化生产以短论文为主，并未以当前学术会议的评审标准作为优化目标。因此，无论是 斯坦福大学 Agentic Reviewer 还是其他基于现有特定审稿标准的 AI 审稿结果，都只能作为一种参照，而非盖棺定论。 据团队透露，除 AI 审稿外，目前也在同步开展人工质量评审，并将在评估完成后形成综合质量报告。 即便在这一审慎前提下，将前后两部分数据合并观察，整体信号仍然较为清晰：在接近人类评审尺度的评价体系中，FARS 已然一台稳定的中分段输出机器。 论文深读： 从「极速跟进」到「直面失败」 如果说前面的数据与评分只能给出一条宏观刻度，那么具体论文样本，才真正暴露出 FARS 的研究成色。 已有网友拆解其中一篇 LLM-as-a-Judge 工作后评价，这类论文在摘要组织与问题切入上已经相当工整。 考虑这是 AI 自动产出，完成度已经「超出预期」。框架图、结果图、分析基本都齐全，「像那么回事」 也有人觉得编号为 FA0008 的项目「 make sense 」。 接下来，我们选择一成一败两篇代表作，一探究竟。 先看「做成」的一篇&nbsp;FA0042。它瞄准的是文本 embedding 里一个老矛盾：&nbsp; 双向注意力质量高，但会破坏 KV-cache；因果注意力能流式推理，但表示能力吃亏。 FA0042 的解法非常工程导向&mdash;&mdash;训练阶段用双向拿质量，推理阶段用因果保效率。具体路径是先训一个双向 teacher，再把能力蒸馏进 causal student。为了避免直接切双向带来的分布漂移，论文还引入了刚发布不久的 GG-SM 做渐进过渡。 结果也确实「能打」， 这条工程折中路线被验证是 work 的。 &nbsp; &nbsp; &nbsp; MTEB-slice 主要结果 &nbsp; &nbsp; &nbsp; 流式推理延迟对比 LoCoV1 长文档检索结果。student 模型以 0.284 的 NDCG@10 大幅领先所有 baseline（包括 teacher 的 0.212 ），出人意料。 当然，short paper 气质也很足：细粒度成对任务提升有限，长文档检索反超 teacher 的机制还没完全讲透。 但更值得注意的是，蚂蚁集团的 GG-SM 发布 3 天就被接入实验流程，这种紧跟前沿的速度，本身就是 FARS 系统敏捷性的一个信号。 再看一篇「没做成」的 FA0121。 它的文献调研很给力，盯上了 DeepSeek 新提出的 Engram 稀疏架构，并抓到了一个很研究味的问题&mdash;&mdash; hot-to-cold advantage flip ,&nbsp;即&nbsp;Engram&nbsp;中的门控（&nbsp;gate&nbsp;）在训练过程中难以准确根据&nbsp;n-gram embedding&nbsp;的实际效用进行调整，存在高频（&nbsp;hot&nbsp;）和低频（&nbsp;cold&nbsp;）偏置。 为了打破这种「马太效应」，FARS 尝试了一个直觉上非常硬核的方案：试图通过「反事实门控监督（ CGS ）」修复 DeepSeek Engram 架构中的「冷热偏置」问题。 在特定训练步骤中分别强制 gate 全开和全关，计算两种情况下的 loss 差值来估计当前 n-gram embedding 的实际效用，以此作为辅助监督信号来训练 gate。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FA0121 方法示意图 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 主实验结果 思路很直觉。但结果很诚实&mdash;&mdash;基本没救回来。 CGS 带来的那点提升，甚至不如让模型多训练几步来得实在。这说明，要解决 AI 的偏见，光靠「教练现场打分」是不够的，得从更深层的制度（架构）上下功夫。 论文给出的复盘也很到位：Gate 和 n-gram embedding 的训练是一个相互耦合的系统动力学问题，不是简单加监督就能补的。 这篇工作的价值正在于：它没有试图掩盖负面结果，没有为了追求正面结果而篡改数据或强行解释，而是通过一套严密的诊断性实验（Diagnostic Experiments ），反思 CGS 的失败。 这种「算法诚实」是当前学术界稀缺的品质。 舆论场： 从「又一个 Demo」到「科研流水线雏形」 随着 FARS 「直播真人秀」数据披露，社区讨论也迅速升温，高频指向一个关键词&mdash;&mdash;生产线。 不少围观者很快抓住了真正的冲击点：这次引发不安的，并不是某一篇论文写得多惊艳，而是系统所展现出的连续科研运转能力。 当一个系统能够稳定提出假设、自动完成实验、并持续吐出成稿时，评价坐标其实已经悄然移动。问题不再是「 AI 会不会写论文」，而是更具结构性的那一句&mdash;&mdash; AI 是否开始具备科研工业产能的雏形。 这种叙事重心的变化，本身就意味着社区对 AI 科研系统的预期正在抬升。一些技术讨论甚至认为，LLM 在 AI 方向论文写作上的能力已「基本够用」，剩余差距更多体现在工程细节层面。 「 3 个月内就可能出现非常成熟可用的自动 paper pipeline。」 换言之，大多数人几乎已经默认：科研流水线时代，迟早会来。真正悬而未决的问题反而是，当科研开始规模化自动生产，人类的不可替代性究竟还剩下什么？ 对此，也有人给出答案：决定上限的，或许仍是研究者个人品味。 当然，社区并非只有单一声音。 有人认为，与其关注单纯 scale 出大量「普通 conference paper 」，不如将算力与模型能力投入到真正困难的开放问题上，这或许才是更具长期价值的方向。 无限心智的起点 FARS 的这 100 篇论文，并不是终点，更像是一枚被钉下的坐标点。 它证明了一件很重要的事：端到端自动科研流水线，已经能够在相对稳定的运行条件下，持续产出具备一定学术竞争力的 short paper，并且开始展现出基础的自我纠错与负结果报告能力。 这意味着，自动化科研第一次以一种可连续运转的系统形态，正式进入现实。 但如果把放大镜再压近一层，当前阶段的天花板同样清晰可见。 FARS 很会把一条合理路径走通，却还不够擅长在复杂假设空间中做出真正具有突破性的研究取舍；能完成结构完整的论证，但在思想压强和机制洞察上仍有提升空间；而在算力利用率上，系统也还停留在明显的「算力换智能」阶段。 此刻的 FARS，更像一位极度勤奋、训练有素且从不疲倦的初级研究员，距离那种能够稳定打出顶会级工作的成熟研究者，仍有一段需要跨越的进化距离。 不过，真正重要的或许并不是它此刻已经多强，而是那条「无限心智生产线」，已经可以稳定地跑起来。",
+      "source": "机器之心",
+      "publishedAt": "Tue, 24 Feb 2026 12:49:19 +0800",
+      "region": "国内",
+      "summary": "AI公司Analemma（日行迹）开发的全自动研究系统FARS在连续公开运行228小时28分33秒期间，自主提出244个研究假设并完成了100篇短论文。该系统采用多智能体架构，包含构思、规划、实验和写作四个模块，以流水线方式并行推进研究任务，平均每2小时17分产出一篇论文。整个过程中系统消耗了114亿Token，估算成本约10.4万美元，全程无人干预，首次证明了无人值守的科研流水线能够持续产出具备一定学术竞争力的成果。",
+      "category": "技术与研究",
+      "company": "Analemma（日行迹）",
+      "score": 35,
+      "breakdown": {
+        "substance": 20,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "AI视频制作成本低于20美元：单人工作流程实现突破",
+      "url": "https://blockchain.news/ainews/ai-video-production-costs-under-20-latest-analysis-on-rapid-solo-workflow-breakthroughs",
+      "snippet": "According to God of Prompt on X, creator Alex Prompter produced an entire AI-generated video scene in roughly 40 minutes for under $20 using a solo workflow...",
+      "source": "blockchain.news",
+      "publishedAt": "6 hours ago",
+      "region": "海外",
+      "summary": "据X平台用户God of Prompt透露，创作者Alex Prompter使用单人工作流程在约40分钟内制作了完整的AI生成视频场景，成本低于20美元。这一突破展示了快速、低成本的AI视频制作可能性。分析指出这代表了工作流程的重要进展。",
+      "category": "技术与研究",
+      "company": "无",
+      "score": 26,
+      "breakdown": {
+        "substance": 14,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "视网膜重启治疗弱视",
+      "url": "https://www.technologyreview.com/2026/02/24/1132077/a-retinal-reboot-for-amblyopia/",
+      "snippet": "In the vision disorder amblyopia (or “lazy eye”), impaired vision in one eye early in life causes neural connections in the brain’s visual system to shift toward supporting the other eye, leaving the amblyopic eye less capable even if the original impairment is corrected. Current interventions don’t work after infancy and early childhood, when the…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 24 Feb 2026 22:00:00 +0000",
+      "region": "海外",
+      "summary": "弱视是一种视觉障碍，早期一只眼睛视力受损会导致大脑视觉系统的神经连接偏向支持另一只眼睛，即使原始损伤得到纠正，弱视眼的功能也会下降。目前的干预措施尚不完善。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 20,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "制造业的推动力",
+      "url": "https://www.technologyreview.com/2026/02/24/1132163/a-boost-for-manufacturing/",
+      "snippet": "Several years ago, Suzanne Berger was visiting a manufacturing facility in Ohio, talking to workers on the shop floor, when a machinist offered a thought that could serve as her current credo. “Technology takes a step forward—workers take a step forward too,” the employee said. Berger, to explain, is an MIT political scientist who for…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 24 Feb 2026 22:00:00 +0000",
+      "region": "海外",
+      "summary": "几年前，苏珊娜·伯杰在参观俄亥俄州的一家制造工厂时，与车间工人交谈，一位机械师提出了一种观点，可以作为她当前的信念。这位员工表示，技术向前迈进一步，工人也会向前迈进一步。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 20,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "九识智能完成超3亿美元融资，估值突破百亿人民币",
+      "url": "https://36kr.com/p/3697210914549632?f=rss",
+      "snippet": "图为九识无人车 36氪获悉，九识智能近日完成新一轮超3亿美元融资，估值突破百亿人民币。这也意味着，就已有公开信息来看，RoboVan（L4级自动驾驶物流车）领域首家估值超百亿的独角兽诞生。 截止目前，九识智能已经获得了6次融资。 九识智能成立于2021年，专注于人工智能以及L4级自动驾驶技术的研发，核心产品为L4级自动驾驶城市配送车，业务聚焦于城市支线运输及B2B无人物流领域。 截至2025年年底，其无人配送车业务已覆盖全国300余个城市，并拓展至新加坡、阿联酋、日本、韩国、马来西亚等市场。2025年10月，九识智能和中国邮政签订了7000台无人车订单。 今年一月，九识与菜鸟无人车业务完成战略合并，整合后的九识智能同时运营九识与菜鸟无人车双品牌，RoboVan车队总规模超2万台，覆盖全球10余个国家超300座城市。 整合完成后，九识智能将进行双品牌运营。“菜鸟无人车”品牌将由菜鸟授权给九识使用，菜鸟自身不再生产和直接销售无人车，依托其物流科技基因，聚焦特定场景和KA客户，提供基于RoboVan的智能供应链深度服务，而九识智能将持续深耕自动驾驶全栈自研技术，提供全场景的智慧运力方案。 据36氪汽车了解，九识智能无人车能帮助客户降低约50%的末端配送成本。引入无人车后，快递加盟商每月花在一辆物流无人车的成本，大概在2000~3000元，在车辆成本、折旧费用、电费的综合计量下，其快递单票配送成本已从0.2元降到0.1元。 在不断达成合作的背后，九识的无人车部署规模每年基本以10倍速度增长。2023年，九识的无人车部署数量为200辆，2024 年增至 2000 辆，2026年初，通过与菜鸟整合后迅速达到20000辆。 九识智能联创周清曾表示，如果不算研发成本，九识智能已经实现盈亏平衡。如果算上研发成本的话，当车辆达到大概5万台的时候基本可以实现盈亏平衡。 目前九识智能卖得最好的产品是其首款L4级量产车型Z5，是九识在业内首推的货箱容积在5立方米以上的无人物流车。 在九识智能的产品布局中，Z系列是九识的标准款产品，车型从2立方到10立方不等。轻量版车型E系列则聚焦社区零售、轻抛货等细分场景，提供更低成本的选择，填补了轻量化场景的空白；而更高载重、充电效率更高的L系列则在于满足客户的重载需求场景。 近年来，九识智能瞄准的无人物流领域，正处在规模化落地的爆发节点上。过去一年，包括轻舟智航、德赛西威等车企供应商也开始入局无人配送市场，竞争不断升级。 周清在采访中曾表示:“行业已经从‘春秋时代’进化到了‘战国时代’的末期，头部效应会进一步明显，最终可能由‘秦汉’来统一了。”",
+      "source": "36氪",
+      "publishedAt": "2026-02-24 20:28:55  +0800",
+      "region": "国内",
+      "summary": "九识智能近日完成新一轮超3亿美元融资，估值突破百亿人民币，成为RoboVan领域首家公开信息显示估值超百亿的独角兽企业。该公司成立于2021年，专注于L4级自动驾驶城市配送车研发，业务已覆盖全国300余个城市并拓展至新加坡、阿联酋等多个海外市场，2025年10月还与中国邮政签订了7000台无人车订单。今年一月，九识与菜鸟无人车业务完成战略合并，整合后运营双品牌，RoboVan车队总规模超2万台，覆盖全球10余个国家超300座城市，公司联创表示若不计算研发成本已实现盈亏平衡。其无人车能帮助客户降低约50%的末端配送成本，部署规模每年以约10倍速度增长，从2023年的200辆增至2026年初的20000辆。",
+      "category": "投融资与并购",
+      "company": "九识智能",
+      "score": 48,
+      "breakdown": {
+        "substance": 22,
+        "importance": 13,
+        "timeliness": 6,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "智平方完成B轮系列融资超10亿元，估值超百亿",
+      "url": "https://www.qbitai.com/2026/02/382004.html",
+      "snippet": "当前“最像特斯拉”的中国机器人创业公司",
+      "source": "量子位",
+      "publishedAt": "Tue, 24 Feb 2026 08:44:14 +0000",
+      "region": "国内",
+      "summary": "智平方（AI² Robotics）于2026年2月23日宣布完成B轮融资，融资规模超过10亿元人民币，公司估值超过百亿元，成为中国具身智能企业第一梯队。公司在一年内累计完成12轮融资，被认为是全球融资节奏最快的具身智能企业。投资方阵容包括百度、中国中车等互联网和AI巨头、头部央企以及特斯拉生态链龙头等，形成了“资本+产业”双轮驱动格局。",
+      "category": "投融资与并购",
+      "company": "智平方",
+      "score": 46,
+      "breakdown": {
+        "substance": 18,
+        "importance": 13,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "英伟达挑战者AI芯片初创公司MatX融资5亿美元",
+      "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
+      "snippet": "The startup was founded by former Google TPU engineers in 2023.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 25 Feb 2026 00:45:47 +0000",
+      "region": "海外",
+      "summary": "这家初创公司由前谷歌TPU工程师于2023年创立。",
+      "category": "投融资与并购",
+      "company": "MatX",
+      "score": 33,
+      "breakdown": {
+        "substance": 7,
+        "importance": 8,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Meta与AMD达成高达1000亿美元的芯片交易以追求“个人超级智能”",
+      "url": "https://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence/",
+      "snippet": "Meta is buying billions of dollars in AMD AI chips in a multiyear deal tied to a 160 million-share warrant, deepening its push to diversify beyond Nvidia and expand data center capacity.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 24 Feb 2026 15:15:16 +0000",
+      "region": "海外",
+      "summary": "Meta与AMD达成了一项涉及数十亿美元AI芯片的多年期协议，该交易与一份1600万股的认股权证挂钩。此举旨在减少对英伟达的依赖并扩大数据中心容量，以追求“个人超级智能”目标。",
+      "category": "投融资与并购",
+      "company": "Meta",
+      "score": 31,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "政策与监管": []
+}

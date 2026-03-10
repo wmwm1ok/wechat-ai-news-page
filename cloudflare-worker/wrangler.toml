@@ -1,0 +1,8 @@
+name = "wechat-api-proxy"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+# 可选：自定义域名（如果你有的话）
+# routes = [
+#   { pattern = "wechat-proxy.yourdomain.com", custom_domain = true }
+# ]

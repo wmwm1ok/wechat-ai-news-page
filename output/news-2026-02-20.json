@@ -1,0 +1,276 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "谷歌发布Gemini 3.1 Pro模型，姚顺宇称后续将有更优版本",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-20",
+      "snippet": "<![CDATA[]]>",
+      "source": "机器之心",
+      "publishedAt": "Fri, 20 Feb 2026 08:53:39 +0800",
+      "region": "国内",
+      "summary": "<![CDATA[]]>",
+      "category": "产品发布与更新",
+      "company": "谷歌",
+      "score": 29,
+      "breakdown": {
+        "substance": 4,
+        "importance": 6,
+        "timeliness": 10,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌Lyria 3 AI音乐模型今日登陆Gemini",
+      "url": "https://arstechnica.com/google/2026/02/gemini-can-now-generate-ai-music-for-you-no-lyrics-required/",
+      "snippet": "With a simple prompt, you can generate 30 seconds of something like music.",
+      "source": "Ars Technica",
+      "publishedAt": "Wed, 18 Feb 2026 16:00:11 +0000",
+      "region": "海外",
+      "summary": "谷歌的Lyria 3 AI音乐模型现已在Gemini中提供，用户可以通过简单提示生成约30秒的音乐类音频。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 21,
+      "breakdown": {
+        "substance": 6,
+        "importance": 6,
+        "timeliness": 4,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "超两万人联署请愿，要求OpenAI恢复GPT-4o",
+      "url": "https://www.aol.com/articles/more-20-000-sign-petition-180237496.html",
+      "snippet": "The deprecation of OpenAI's GPT-4o sparks backlash and a petition. Users said they cherish its unique conversational style.",
+      "source": "AOL.com",
+      "publishedAt": "14 hours ago",
+      "region": "海外",
+      "summary": "OpenAI决定弃用GPT-4o模型引发了用户强烈反对并发起请愿活动。已有超过两万人签署请愿书，要求恢复该模型。用户表示他们珍视GPT-4o独特的对话风格。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 21,
+      "breakdown": {
+        "substance": 3,
+        "importance": 11,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Anthropic超级碗广告效果显著：Claude日活用户激增11%，跻身苹果应用商店前十",
+      "url": "https://m.economictimes.com/news/international/us/anthropics-super-bowl-ad-pays-off-how-claude-users-surge-11-and-enters-apple-app-stores-top-10-after-taking-aim-at-openai/articleshow/128561354.cms",
+      "snippet": "Anthropic Super Bowl ad impact on Claude users: Anthropic's Super Bowl advertisement successfully increased Claude's daily active users by 11% and propelled...",
+      "source": "The Economic Times",
+      "publishedAt": "11 hours ago",
+      "region": "海外",
+      "summary": "Anthropic在超级碗期间投放的广告对Claude用户增长产生了积极影响。广告成功使Claude的日活跃用户数量增长了11%。这一增长还推动Claude进入了苹果App Store的排行榜前十名。",
+      "category": "产品发布与更新",
+      "company": "Anthropic",
+      "score": 18,
+      "breakdown": {
+        "substance": 6,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Reddit测试面向购物场景的新AI搜索功能",
+      "url": "https://techcrunch.com/2026/02/19/reddit-is-testing-a-new-ai-search-feature-for-shopping/",
+      "snippet": "A small group of users in the U.S. will start to see search results that include interactive product carousels with pricing, images, and direct where-to-buy links.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 19 Feb 2026 18:22:51 +0000",
+      "region": "海外",
+      "summary": "Reddit正在测试一项新的AI搜索功能，该功能面向购物场景。美国的一小部分用户将开始看到包含交互式产品轮播的搜索结果，轮播中会显示价格、图片和直接购买链接。",
+      "category": "产品发布与更新",
+      "company": "Reddit",
+      "score": 16,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "Gemini 3.1 Pro在12项基准测试中领先，谷歌发布核心智能升级版本",
+      "url": "https://www.infoq.cn/article/Ic69NzLCGqQ6HRuCligh?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 20 Feb 2026 09:19:40 GMT",
+      "region": "国内",
+      "summary": "谷歌正式推出Gemini 3.1 Pro模型，该模型采用混合专家架构，支持高达100万token的输入和6.4万token的输出。模型已开始分批上线，覆盖开发者、企业客户和普通消费者等多个使用场景。在ARC-AGI-2基准测试中，Gemini 3.1 Pro获得了77.1%的成绩，是其前代模型推理表现的两倍以上，并在12项基准测试中排名第一。",
+      "category": "技术与研究",
+      "company": "谷歌",
+      "score": 59,
+      "breakdown": {
+        "substance": 30,
+        "importance": 11,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "千问3.5开源引爆全球AI产业链，国内外硬件与平台厂商争相适配",
+      "url": "https://www.leiphone.com/category/industrynews/GL2oDExVsQ0Kt0sc.html",
+      "snippet": "千问3.5除夕开源发布，在全球AI产业链掀起热潮。截至2月18日，记者发现，英伟达、AMD、苹果公司等国际硬件厂商，已实现开发框架乃至芯片层对Qwen3.5的适配；华为昇腾、摩尔线程、沐曦、海光等国产GPU和平台均官宣Day 0 适配千问3.5新模型。千问3.5总参数3970亿仅激活170亿，性能超越上代万亿参数模型Qwen3-Max，部署显存占用大降60%，推理最大吞吐提升至19倍。基于底层模型架构创新，Qwen3-Plus在阿里云百炼API价格低至每百万Token0.8元，以不到5%的低价格获得媲美Gemini 3的高性能。\n千问3.5以小胜大，创下大模型效率和性价比新高，又因其开源而一举成为三方平台争先抢上的最热门模型。国家超算互联网平台、曙光云、算能Sophnet、OpenRouter、Together AI、Ollama、ZenMux、Novita AI、Poe等国内外平台，均已第一时间上线Qwen3.5模型，对外提供API服务或体验入口。",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 18 Feb 2026 15:21:00 +0800",
+      "region": "国内",
+      "summary": "千问3.5模型于除夕开源发布后，在全球AI产业链引发热潮。国际硬件厂商英伟达、AMD、苹果，以及国内厂商华为昇腾、摩尔线程、沐曦、海光等，均已实现从开发框架到芯片层的适配。该模型以3970亿总参数仅激活170亿的设计，在性能超越前代万亿参数模型的同时，显著降低了部署显存占用并大幅提升了推理吞吐量。基于其开源特性和高性价比，国家超算互联网平台、曙光云、OpenRouter、Together AI等众多国内外平台已第一时间上线该模型，提供API服务或体验入口。",
+      "category": "技术与研究",
+      "company": "AMD",
+      "score": 33,
+      "breakdown": {
+        "substance": 21,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "春晚后AI与机器人热度流向B站",
+      "url": "https://www.qbitai.com/2026/02/381301.html",
+      "snippet": "有个地方稳稳接住了春晚的流浪（doge）",
+      "source": "量子位",
+      "publishedAt": "Thu, 19 Feb 2026 04:44:20 +0000",
+      "region": "国内",
+      "summary": "2026年春晚后，多家科技公司选择在B站延续AI与机器人的热度。松延动力的人形机器人小布米在蔡明的B站直播间进行互动，消解了大众对机器人的距离感。腾讯的元宝AI与B站超1000个兴趣房间合作，围绕五大圈层与多位UP主推出定制主题直播。宇树科技也在春晚后空降B站，通过直播和投稿补充技术细节。这些公司通过B站的线上互动场景，将春晚的短期关注转化为持续的公众参与。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 28,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "北京卫视春晚展示机器人从舞台表演走向日常实用",
+      "url": "https://www.qbitai.com/2026/02/381417.html",
+      "snippet": "霍尔曼亮相北京卫视",
+      "source": "量子位",
+      "publishedAt": "Thu, 19 Feb 2026 09:58:37 +0000",
+      "region": "国内",
+      "summary": "2026年北京卫视春晚通过机器人短片《我们的除夕夜》，集中展示了10家北京具身智能品牌的20台机器人完成打咖啡、穿针线、包饺子等精细化操作，以及在救灾、养老、农业等真实场景的应用潜力。睿尔曼公司作为核心参与方，其RealBOT轮式折叠机器人在节目中化身“新春大厨”，流畅完成了从冰箱取物、倒酱油到搅拌肉馅等一系列贴近人类操作习惯的厨房任务，展现了机器人在家庭场景中的实用价值。节目录制期间，睿尔曼通过远程作业网络（GLN）实现训练中心与现场的实时联动，以“远程操控”形式完成作业，并在此过程中积累真实场景数据。",
+      "category": "技术与研究",
+      "company": "睿尔曼",
+      "score": 26,
+      "breakdown": {
+        "substance": 11,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌Gemini Pro模型再次刷新基准测试记录",
+      "url": "https://techcrunch.com/2026/02/19/googles-new-gemini-pro-model-has-record-benchmark-scores-again/",
+      "snippet": "Gemini 3.1 Pro promises a Google LLM capable of handling more complex forms of work.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 20 Feb 2026 00:55:22 +0000",
+      "region": "海外",
+      "summary": "谷歌新推出的Gemini 3.1 Pro模型在基准测试中取得了创纪录的分数。该模型被定位为一款能够处理更复杂工作形式的大型语言模型。",
+      "category": "技术与研究",
+      "company": "Google",
+      "score": 38,
+      "breakdown": {
+        "substance": 14,
+        "importance": 6,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "初创公司CEO认为AI将替代任务而非人类岗位",
+      "url": "https://techcrunch.com/2026/02/19/web-summit-qatar-read-ai-lucidya-notetakers-customer-support/",
+      "snippet": "The CEOs of Read AI and Lucidya told TechCrunch at Web Summit Qatar that they see AI tools replacing tasks, rather than workers.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 19 Feb 2026 20:47:22 +0000",
+      "region": "海外",
+      "summary": "Read AI和Lucidya的CEO在卡塔尔网络峰会上表示，他们认为AI工具将替代的是具体任务，而非取代工人。",
+      "category": "技术与研究",
+      "company": "Read AI, Lucidya",
+      "score": 18,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "美股三大指数集体收跌，大型科技股多数下跌",
+      "url": "https://36kr.com/newsflashes/3690990188801921?f=rss",
+      "snippet": "36氪获悉，2月20日收盘，美股三大指数集体下跌，道指跌0.54%，纳指跌0.31%，标普500指数跌0.28%。大型科技股多数收跌，苹果、奈飞、英特尔跌超1%，微软、谷歌、英伟达小幅下跌；亚马逊、特斯拉、Meta小幅上涨。热门中概股多数下跌，阿里巴巴、拼多多、京东、百度、B站跌近1%，蔚来涨0.41%。",
+      "source": "36氪",
+      "publishedAt": "2026-02-20 09:49:22  +0800",
+      "region": "国内",
+      "summary": "2月20日美股收盘时，三大主要指数均出现下跌，其中道琼斯工业平均指数下跌0.54%，纳斯达克综合指数下跌0.31%，标准普尔500指数下跌0.28%。在大型科技股中，多数公司股价收跌，苹果、奈飞和英特尔跌幅超过1%，微软、谷歌和英伟达也出现小幅下跌，而亚马逊、特斯拉和Meta则小幅上涨。热门中概股同样多数下跌，阿里巴巴、拼多多、京东、百度和哔哩哔哩跌幅接近1%，蔚来汽车小幅上涨0.41%。",
+      "category": "投融资与并购",
+      "company": "",
+      "score": 32,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "从整合混乱到数字清晰：Nutrien Ag Solutions收购后的IT重塑",
+      "url": "https://www.technologyreview.com/2026/02/19/1133320/from-integration-chaos-to-digital-clarity-nutrien-ag-solutions-post-acquisition-reset/",
+      "snippet": "Thank you for joining us on the “Enterprise AI hub.” In this episode of the Infosys Knowledge Institute Podcast, Dylan Cosper speaks with Sriram Kalyan, head of applications and data at Nutrien Ag Solutions, Australia, about turning a high-risk post-acquisition IT landscape into a scalable digital foundation. Sriram shares how the merger of two major…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 19 Feb 2026 08:48:53 +0000",
+      "region": "海外",
+      "summary": "在Infosys Knowledge Institute播客中，Nutrien Ag Solutions澳大利亚公司的应用和数据负责人Sriram Kalyan讨论了如何将高风险收购后的IT环境转变为可扩展的数字平台。对话聚焦于解决收购后IT整合的挑战，以实现更清晰的数字化运营。",
+      "category": "投融资与并购",
+      "company": "Nutrien Ag Solutions",
+      "score": 21,
+      "breakdown": {
+        "substance": 5,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "美联储戴利：降息75个基点后劳动力市场状况改善",
+      "url": "https://36kr.com/newsflashes/3690998245797510?f=rss",
+      "snippet": "2月20日，美联储戴利表示，在降息75个基点后，劳动力市场状况更好了；政策处于良好状态；由于存在关税等冲击，实现通胀目标的最后一步一直充满挑战；技术的商业应用很可能有助于缓解通胀。并表示，关于人工智能资本支出，存在真实需求，并非空谈；劳动力市场比以前更加低迷，因此看不到来自人工智能资本支出的通胀风险。（财联社）",
+      "source": "36氪",
+      "publishedAt": "2026-02-20 09:57:34  +0800",
+      "region": "国内",
+      "summary": "美联储官员戴利于2月20日表示，在美联储降息75个基点后，劳动力市场状况得到了改善，当前政策处于良好状态。她同时指出，由于存在关税等外部冲击，实现通胀目标的最后一步充满挑战，但技术的商业应用可能有助于缓解通胀压力。关于人工智能资本支出，戴利认为存在真实需求而非空谈，并且由于劳动力市场比以前更加低迷，因此目前看不到来自人工智能资本支出的通胀风险。",
+      "category": "政策与监管",
+      "company": "",
+      "score": 24,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "Perplexity发布AI系统Perplexity Computer，可调度19个模型并复刻彭博终端机功能",
+      "url": "https://www.qbitai.com/2026/02/382647.html",
+      "snippet": "比OpenClaw“更安全”",
+      "source": "量子位",
+      "publishedAt": "Thu, 26 Feb 2026 03:57:25 +0000",
+      "region": "国内",
+      "summary": "Perplexity公司宣布推出新产品Perplexity Computer，这是一个基于浏览器的全能型通用数字员工，能够执行推理、委派、搜索、构建、编码、交付等多种任务，并管理工作流程。该系统以Claude Opus 4.6为核心，可调度包括Gemini、Grok、ChatGPT 5.2在内的19种模型，并能像真人一样与浏览器、文件系统和命令行工具进行交互。发布后仅5小时，就有用户利用Perplexity Computer创建了一个功能初具雏形的平民版彭博终端机，而使用该系统的成本仅为彭博终端机标准年费的约十二分之一。",
+      "category": "产品发布与更新",
+      "company": "Perplexity",
+      "score": 40,
+      "breakdown": {
+        "substance": 21,
+        "importance": 6,
+        "timeliness": 4,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "扎克伯格现身Prada时装周，引发Meta AI眼镜合作猜测",
+      "url": "https://techcrunch.com/2026/02/26/so-were-getting-prada-meta-ai-glasses-right/",
+      "snippet": "Mark Zuckerberg was at Prada's fashion week event in Milan, leaving everyone to wonder if we're getting Meta AI glasses under the Prada brand.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 26 Feb 2026 20:11:55 +0000",
+      "region": "海外",
+      "summary": "马克·扎克伯格出席了在米兰举行的Prada时装周活动，这引发了人们对于Meta是否会推出Prada品牌AI眼镜的猜测。",
+      "category": "产品发布与更新",
+      "company": "Meta",
+      "score": 29,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Read AI推出基于邮件的“数字分身”，协助处理日程与回答问题",
+      "url": "https://techcrunch.com/2026/02/26/read-ai-launches-an-email-based-digital-twin-to-help-you-with-schedules-and-answers/",
+      "snippet": "Read AI is launching Ada, which can reply with your availability and extract answers from the company knowledge base and the web.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 26 Feb 2026 17:00:00 +0000",
+      "region": "海外",
+      "summary": "Read AI推出了名为Ada的产品，它可以回复你的日程安排，并从公司知识库和网络中提取答案。",
+      "category": "产品发布与更新",
+      "company": "Read AI",
+      "score": 22,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "千问3.5霸榜全球开源大模型前四，10分钟完成中级程序员5小时编程测试",
+      "url": "https://www.qbitai.com/2026/02/382732.html",
+      "snippet": "累计下载量超10亿，衍生模型超20万",
+      "source": "量子位",
+      "publishedAt": "Thu, 26 Feb 2026 08:23:59 +0000",
+      "region": "国内",
+      "summary": "2月26日，阿里千问3.5模型在全球最大AI开源社区Hugging Face公布的最新榜单中包揽前四，成为最热门的开源模型。新发布的三款中型模型在多个榜单表现优于GPT-5 mini，具备原生多模态和Agent能力，部分模型可直接部署在消费级显卡上，开源不到24小时便实现登顶。在最新一期全球开源模型榜单前十名中，均是中国模型或其衍生模型，其中基于千问大模型的3款衍生模型同样入选前十。开发者测评显示，Qwen3.5-35B-A3B模型仅用10分钟即可高分通过人类中级程序员需5小时完成的编程测试，在与其他主流模型的横向对比中，其上下文引用等关键能力表现惊艳。截至目前，千问共开源400多款模型，累计下载量超10亿，衍生模型超20万，是全球第一开源大模型。",
+      "category": "技术与研究",
+      "company": "阿里",
+      "score": 56,
+      "breakdown": {
+        "substance": 25,
+        "importance": 16,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "DeepSeek联手清华北大发布新论文，提出DualPath系统优化智能体大模型推理",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-27",
+      "snippet": "「DeepSeek V4 来了！」这样的消息是不是已经听烦了？ 我们也是。 不过 DeepSeek V4 虽然迟迟未发，但今天我们等来了其与清华、 北大 合作撰写的一篇新论文。 总结来说，这篇新论文介绍了一个名为「DualPath」的创新推理系统，专门针对智能体工作负载下的大语言模型（LLM）推理性能进行优化。具体来讲，通过引入「双路径 KV-Cache 加载」机制，解决了在预填充 - 解码（PD）分离架构下，KV-Cache 读取负载不平衡的问题。 该推理系统带来了显著效果：在离线推理场景中实现了 1.87 倍的吞吐量提升，在线服务场景下实现了 1.96 倍的服务吞吐量提升。 论文标题：DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference arXiv 地址： https://arxiv.org/pdf/2602.21548 我们知道，如今智能体已经成为主流 AI 开发范式。但是，智能体范式下出现了全新的瓶颈，即存储带宽。 在多轮互动的智能体场景中，上下文信息会随轮次迅速累积，导致其呈现出 「长上下文、短追加」 的特征。研究指出，这类负载的 KV-Cache 命中率通常高于 95%。这意味着系统性能的决定性因素已不再是纯粹的计算能力，而是从存储中加载 KV-Cache 的效率。 在现有的预填充 - 解码分离（PD-disaggregated）架构中，所有的存储 I/O 压力都集中在预填充引擎（PE）的存储网卡上，而解码引擎（DE）的存储带宽则被闲置。这种带宽利用的极度不平衡，成为了限制系统吞吐量的核心障碍。 针对这一痛点，DualPath 重新设计了数据加载路径，核心创新在于引入了存储到解码（Storage-to-Decode）路径，包括以下两个特征： 一方面是双路并行。KV-Cache 不仅可以直接读入预填充引擎，还可以先加载到解码引擎，随后通过高带宽 RDMA 计算网络高效传输至预填充引擎。 另一方面是带宽资源池化：通过动态分配两条路径的负载，DualPath 成功将集群中所有引擎的存储网卡聚合为一个 全局容量池，彻底打破了单节点 I/O 的限制。 另外，为了确保大规模数据传输不干扰延迟极其敏感型的模型推理任务，DualPath 还采用了以下两项关键技术： 一是以计算网卡（CNIC）为中心的流量管理：系统将所有 GPU 相关的流量（包括本地内存拷贝）统一通过计算网卡进行管理，同时利用网络的服务质量（QoS）机制，将推理通信设为高优先级，确保加载 KV-Cache 的流量仅利用闲置带宽，不影响延迟 SLO。 二是自适应请求调度：调度器实时监控各引擎的磁盘读取队列长度和计算负载，动态决定每个请求的最优路径。同时，通过计算配额机制优化引擎内调度，最大限度减少 GPU 执行过程中的气泡。 研究团队在包含 1152 个 GPU 的大规模生产集群上对 DualPath 进行了评估，并验证了离线与在线服务场景下吞吐量的显著提升。 接下来解析 DualPath 系统细节。 DualPath 系统概览 为了打破 Prefill 侧存储 I/O 的瓶颈，DeepSeek 提出了一种双路径加载架构，重新设计了在 Prefill&ndash;Decode 解耦（PD-disaggregated）推理架构中 KV-Cache 的读取方式。传统做法是所有 KV-Cache 都从存储直接读入 Prefill 侧 GPU，导致 Prefill 侧存储网卡成为单点瓶颈。DualPath 则在此基础上增加了一条新的加载路径，从而缓解这一不平衡问题。 DualPath 仍然建立在两项已有技术之上： （1）P/D 解耦（PD Disaggregation），将 prompt 处理与 decode 处理分离，以提高整体效率； （2）Layerwise Prefill，通过按层加载 KV-Cache，避免了 LayerKV 和 PrefillOnly 指出的 Prefill 引擎上的 HBM 显存瓶颈问题，从而提升 GPU 利用率。 DualPath 整个系统由三部分组成： 推理引擎（Inference Engines）。每个引擎管理一张 GPU。引擎分为两类：用于执行 prefill 的 Prefill Engine（PE），以及用于执行 decode 的 Decode Engine（DE）。 流量管理器（Traffic Manager）。每个引擎内部都包含一个流量管理器，负责：（1）主机与设备之间的内存拷贝（H2D 与 D2H）；（2）PE 与 DE 之间的 KV-Cache 传输；（3）通过存储网卡进行 KV-Cache 的读写操作。DeepSeek 采用以 CNIC 为中心的流量管理方案，以防止 KV-Cache 相关流量干扰模型推理过程中的通信。 请求调度器（Request Scheduler）。一个中心化调度器，负责接收客户端请求并将其分配到不同引擎。同时，它还负责在两条加载路径之间动态分配数据流量（如图 4 所示）。 双路径加载（Dual-Path Loading） 传统系统中，KV-Cache 只能从存储直接读入 Prefill 引擎，因此所有存储带宽压力都集中在 Prefill 侧，形成单点瓶颈。DualPath 在此基础上增加了一条新的加载路径：KV-Cache 可以先从存储读入 Decode 引擎，再通过高速 RDMA 计算网络传回 Prefill 引擎。这样，系统就可以同时利用 Prefill 和 Decode 两侧的存储网卡带宽，而不是只依赖 Prefill 一侧，从而消除带宽不均衡问题。 为了实现双路径加载，DualPath 在每个 Prefill Engine（PE）和 Decode Engine（DE）上分配少量 DRAM 作为缓冲区，分别称为 PE buffer 和 DE buffer。 Prefill 侧读取路径。首先，将命中 token 的 KV-Cache 从持久化存储中读取到 PE buffer（如图 4a 中标注 1 和 2）。在某一注意力层开始计算之前，该层对应的 KV-Cache 会从 PE buffer 传输到 PE 的 HBM（3 和 4），用于计算未命中（cache-miss）的 prompt token 的 KV-Cache。随后，命中和未命中 token 的所有 KV-Cache 都会被传输到 DE buffer，以组成完整的 prompt KV-Cache（ 5&ndash;7）。步骤 3&ndash;7 的流程会重复 n_layer 次。在 prefill 前向计算过程中，数据传输与计算是重叠执行的。 预填充 DE 读取路径。首先，命中 token 的 KV-Caches 会被读取到 DE 缓冲区中（如图 4b 中的标签 1 和 2 ）。在 PE 预填充期间，相应层的 KV-Cache 会从 DE 缓冲区中读取，这同样与计算过程相重叠（ 3-5）。此过程会重复 n_layer 次。当每一层的计算完成后，只有缺失 token 的 KV-Caches 会被传输到 DE 缓冲区，并与现有的命中 token KV-Cache 进行合并。 解码阶段。在 DE 缓冲区接收到完整的提示 KV-Cache（包括通过 PE 读取路径加载的 KV-Cache 以及新追加 token 的 KV-Cache）后，解码阶段正式开始。DE 首先分配 HBM 并执行主机到设备（H2D）传输（如图 4a 中的标签 8 和 9；图 4b 中的标签 6 和 7 ），随后在开始解码前释放 CPU 内存。 DE 缓冲区的设计虽然给 DRAM 和 CNIC 带来了额外的带宽压力（因为增加了一次额外的 H2D 拷贝），这本可以通过 GPU Direct RDMA 直接绕过来避免。然而，由于在此类智能体场景下生成的长度通常较短，首 token 延迟在整个端到端请求时间中占据了不可忽视的比例。引入 DE 缓冲区有助于减少 GPU 内存占用。在解码过程中，每当累积一个完整的 token 块（例如 64 个 token）时，系统会立即将其持久化到磁盘中。 不同的数据块布局。DualPath 采用了两种不同的数据块布局：完整块和层级块，它们分别包含所有层的信息和单个层的信息。对于所有与存储系统的交互，均采用完整块。在 PE 读取的情况下，KV-Cache 加载到 PE HBM 以及传输到 DE 缓冲区的过程是以层级流式方式进行的，两者都使用层级块。同样地，对于 DE 读取路径，从 DE 缓冲区到 PE HBM 的传输也使用层级块。 无瓶颈（Bottleneck-Free）分析 比例（预填充 / 解码比例）下证明了，该系统可以完全打满所有存储网卡（NIC）的带宽，且不会引入计算网卡或 DRAM 的瓶颈。 假设 PCIe 拓扑配置良好（即每一对 GPU - NIC 都位于同一个 PCIe 交换机下）、任务调度负载均衡、计算网络无拥塞，且存储读取带宽得到了充分利用。 首先是 PE CNIC 带宽分析。对于 PE CNIC，由于存在回环流量（即不经过交换机的 H2D 和 D2H 拷贝），因此无论读或写操作，PCIe 侧的总流量始终大于或等于交换机方向的流量。因此，只需要计算 PCIe 侧的压力。读取操作包括 PE 路径 (3) 和 (5)，其在所有配对上的总流量为： 其次是 DRAM 压力分析。DRAM 是半双工的，因此将读取和写入压力相加。对于 PE 内存，其压力为 2sB，这通常不会超过内存带宽。对于 DE 内存，遵循上述类似的分析，可以得出其压力为 (3 + 2P / D) Bs。要求 DE 内存压力小于或等于 M，得到如下： 更多公式请参考原论文。 实际挑战 双路径架构从根本上重新定向了数据移动方式：KV-Cache 既可以直接从存储加载到预填充引擎，也可以通过解码引擎间接加载 。通过这种方式，系统聚合了所有引擎的存储带宽，从而打破了预填充侧的 I/O 瓶颈 。然而，在实际系统中实现这一高层设计引入了三个相互关联的挑战 。 一是细粒度数据传输。层级执行范式虽然对于克服 HBM 容量限制至关重要，但它会将 KV-Cache 碎片化为海量的细粒度数据块。为了实现吞吐量增益，在存储、主机 DRAM 和 GPU HBM 之间传输这些海量的细粒度数据块时，必须确保产生极低的开销，并与计算任务无缝重叠。 二是流量隔离。DualPath 中复杂的数据路径在计算网络和 PCIe 链路上都引入了额外的 KV-Cache 传输流量。一个主要的顾虑是，这些流量可能会干扰模型执行中至关重要的、对延迟敏感的现有集合通信操作 &mdash;&mdash; 例如专家并行中的 AllToAll，以及张量 / 上下文并行中的 ReduceScatter 和 AllGather。由于这些集合通信直接决定了端到端的推理延迟，因此在不降低模型推理性能的前提下利用空闲 I/O 带宽是一个关键挑战。 三是动态负载均衡。由于采用了两种不同的 KV-Cache 加载路径，系统必须及时决定每个请求使用哪条路径。过于简单的策略可能会导致某条路径过载，从而重新产生原始瓶颈。流量调度器必须实时平衡多个因素：存储网卡队列长度、GPU 上的计算负载以及请求的工作负载特性。 评估结果 在评估部分，论文核心任务只有一个：证明 DualPath 在真实 agent 工作负载下，确实能解决存储带宽瓶颈，并带来稳定、可扩展的性能提升。 论文在自研推理框架上实现 DualPath，核心改动约 5000 行代码。底层使用 FlashMLA、DeepGEMM、DeepEP 等高性能算子，存储后端采用 3FS 分布式存储。 评测模型包括：DS 660B（MoE + 稀疏注意力）、DS 27B（缩小版实验模型），Qwen 32B（稠密模型）。 离线批量推理 这一部分模拟 RL rollout 场景：n 个 agent 同时启动，测整体完成时间（JCT）。 不同 Agent 批量规模与最大 Agent 长度（MAL）的影响。 随着批量规模增大以及 MAL 变长，DualPath 的优势更加明显。图 7 展示了在不同 batch size 与 MAL 组合下的 JCT 表现。SGL (MC) 出现错误，未能完成部分大规模配置（图中 token 为 N/A）。在 DS 660B 模型上，DualPath 相比 Basic 最高实现了 1.87&times; 的加速，并展现出接近 Oracle 的性能，这表明 KV-cache 的 I/O 开销基本被消除。在 DS 27B 上，DualPath 相比 Basic 最高提升 1.78&times;，但由于 1P1D 架构下存储带宽受限，其性能仍比 Oracle 慢 1.09&ndash;1.85&times;（见图 8）。对于 Qwen 32B，趋势与 DS 27B 类似。 不同追加长度（Append Length）与生成长度（Generation Length）的影响。如图 9 所示，随着追加长度增加，Basic 的性能逐渐接近 DualPath 和 Oracle，而 DualPath 与 Oracle 的性能变化较小，这表明系统瓶颈始终主要来自 GPU 计算压力。与 Basic 相比，DualPath 在不同追加规模下实现了 1.82&ndash;1.99&times; 的加速。生成长度扩展时的趋势类似。&nbsp; Online Serving（在线推理服务） 在线服务实验部分则模拟真实生产环境下 agent 按泊松分布持续到达的场景，设置 TTFT &le; 4 秒、TPOT &le; 50 毫秒为服务等级目标。结果表明，DualPath 显著提高系统可承载的到达率上限：在 DS 27B 上提升 1.67 倍，在 DS 660B 上提升 2.25 倍。 与此同时，DualPath 的 TTST 与 Basic 基本持平，TPOT 也未引入额外解码开销，说明其优化集中在 KV-Cache 读取与排队阶段，而不会影响解码阶段效率。更重要的是，在负载升高时，DualPath 能保持 TTFT 结构稳定，而 Basic 的排队时间会因存储带宽不足迅速上升，成为延迟恶化的主要来源。 最后，论文还做了大量消融实验，感兴趣的读者，可以参考原论文，查看更多内容。",
+      "source": "机器之心",
+      "publishedAt": "Fri, 27 Feb 2026 11:32:14 +0800",
+      "region": "国内",
+      "summary": "DeepSeek与清华大学、北京大学合作发表了一篇新论文，提出了一种名为“DualPath”的创新推理系统，旨在优化智能体工作负载下的大语言模型推理性能。该系统通过引入“双路径KV-Cache加载”机制，解决了在预填充-解码分离架构下KV-Cache读取负载不平衡的问题，从而有效缓解了存储带宽瓶颈。在包含1152个GPU的大规模生产集群上的评估结果显示，该系统在离线推理场景中实现了1.87倍的吞吐量提升，在线服务场景下实现了1.96倍的服务吞吐量提升。",
+      "category": "技术与研究",
+      "company": "DeepSeek",
+      "score": 45,
+      "breakdown": {
+        "substance": 26,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Anthropic CEO指控中国大模型蒸馏攻击，舆论战漏洞百出遭质疑",
+      "url": "https://www.infoq.cn/article/kN0HD0jPivJBm8JZt8lw?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 26 Feb 2026 15:35:14 GMT",
+      "region": "国内",
+      "summary": "近期，Anthropic CEO Dario Amodei在资本层面和市场舆论上采取了一系列行动。在资本层面，市场将多次板块级波动归因于Anthropic的产品发布，而Amodei对此态度暧昧。在舆论层面，Anthropic指控中国三家主要实验室DeepSeek、Moonshot和Minimax对其模型Claude发起“蒸馏攻击”，使用超过2.4万个虚假账户进行交互以复制模型能力，并将问题上升到国家安全层面。然而，该指控很快遭到质疑，有用户发现Claude Sonnet 4.6在回答“你是什么模型”时竟自称“DeepSeek”，且该现象可通过官方API复现。此外，Amodei在访谈中未直接回答开源闭源问题，转而指责中国模型为基准测试做优化并从美国模型蒸馏，但其言论与Claude的“乌龙”回应形成矛盾，使得这场舆论战显得漏洞百出。",
+      "category": "技术与研究",
+      "company": "Anthropic",
+      "score": 41,
+      "breakdown": {
+        "substance": 17,
+        "importance": 10,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌DeepMind数学智能体Aletheia在FirstProof挑战中创纪录，自主解决6道高难度研究问题",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-26-5",
+      "snippet": "编辑｜冷猫 去年 7 月的 IMO 数学奥林匹克竞赛中，两大人工智能公司抢夺竞赛「金牌」成绩的闹剧搞得沸沸扬扬。 当时 OpenAI 和 谷歌 同时声称取得竞赛金牌，而 OpenAI 因 绕过官方竞赛规则提前官宣 ，遭到广泛吐槽；谷歌 DeepMind 的 Gemini 进阶模型 成为首个获得奥赛组委会官方认定为金牌的 AI 系统 。 竞赛与真正的数学研究之间，仍然存在一道明显的分界线。 在此之后，AI 智能体飞速发展，解决数学问题的能力不再仅依靠模型的推理能力。AI 智能体已经可以开始自己做数学，不只是解题，更能够进行数学研究，而且研究的还是顶尖数学家都要挠头的问题，这意味着什么？ 近日， 来自谷歌 DeepMind ，由 Gemini 3 Deep Think 驱动的最新数学研究智能体 Aletheia 在首届 FirstProof 挑战中，自主解决了 10 道高难度研究问题中的 6 道，成为创下了该数学挑战赛的最佳纪录 。 曾带队实现 AI IMO 金牌成绩的 DeepMind 超人类推理方向负责人 Thang Luong 表示， 这一成果的分量超过去年 AI 在 IMO 测试中获得金牌的表现 。 相关论文《Aletheia tackles FirstProof autonomously》已发布在 arXiv，并且团队在 Github 上公开了解决 FirstProof 问题的提示词与输出结果。 论文标题：Aletheia tackles FirstProof autonomously 论文链接：https://arxiv.org/pdf/2602.21201 提示词与输出结果：https://github.com/google-deepmind/superhuman/tree/main/aletheia FirstProof：把 AI 放进真实的数学研究现场 FirstProof 是一项专门为评估 AI 数学研究能力而设计的实验性挑战。项目由多位活跃在不同数学分支的一线研究者发起，题目 全部来自真实科研过程中的命题 ，被提出作为评估当前人工智能能力的测试。 这些问题 在挑战启动前从未公开证明 ，组织方提前将标准证明加密保存，以尽量排除训练数据泄露的可能。最终提交的答案，需要由 领域专家人工审阅 ，判断其逻辑严密性与学术可接受度。 评价标准接近论文审稿 ，而非自动判分。 这种设计刻意提高了门槛。它测试的，是 AI 在陌生问题上进行长期推理与结构构造的能力。换句话说，FirstProof 关心的，是系统是否具备参与数学研究的潜力。 这些问题于 2026 年 2 月 5 日发布，并设定了截止时间为太平洋时间 2026 年 2 月 13 日晚上 11:59 ，解决方法在截止后在互联网上发布。 这项评估本身极其困难，能够真正理解这些问题的专家屈指可数。关键的一点是： Aletheia 的所有解答均在没有任何人工干预的情况下生成，并且在 FirstProof 挑战规定的时间范围内提交。 &nbsp; &nbsp; &nbsp; 研究团队执行整体流程 FirstProof 的第一作者确认了这一事实： 研究团队运行了两个版本的 Aletheia（两者仅在底层基础模型上有所不同），它们都由 Gemini DeepThink 提供支持。综合多数专家评审意见，这两个系统共同解决了 10 道题中的 6 道（第 2、5、7、8、9、10 题）。我们注意到，专家们对第 8 题的评估并不完全一致。 Aletheia 在 FirstProof 上的性能总结。专家评估列显示了在咨询的总专家人数中，有多少专家将解决方案评为正确。仅在 P8 上的评估不是一致的。 Aletheia 的「解题分析」 两个智能体在同样的 FirstProof 十个问题的执行结果如下所示： 在 FirstProof 的 10 道问题中，Aletheia 为其中 6 道题（P2、P5、P7、P8、P9、P10）生成了候选解答。在「best-of-2」的评估设置下，根据多数专家的评审意见，这 6 道题都被认定为在该解释框架下已正确解决。 Aletheia A 与 Aletheia B 针对相同的六道题目都生成了候选解答。单独来看，每个智能体都至少出现过一次「假阳性」（false positive），但在 best-of-2 的评估机制下，它们共同为六道题目都提供了可信的解答。这一结果相比 2025 年 12 月用于解决 Erdős 问题的 Aletheia 版本，在准确率上有明显提升。 不过，P8 的评估并非一致通过 &mdash;&mdash;7 位专家中有 5 位给出了「Correct」的评价。对于另外 4 道题（P1、P3、P4、P6），两个智能体都没有给出解答：要么明确输出「No solution found」（未找到解答），要么在时间限制内没有返回任何结果。 研究团队认为， Aletheia 具备一种「自我筛选」机制 ，这也是 Aletheia 的关键设计原则之一。 在将 AI 扩展为数学研究助手的过程中， 可靠性 才是首要瓶颈。如果智能体给出错误的「幻觉」答案，会极度浪费人类专家用于验证结果的时间与精力，与提高研究效率和自动化的目标背道而驰。 此外，解决问题的推理成本也是非常重要的指标。 在图中展示了每个候选解的推理成本，并将其表示为相对于 Erdős-1051 解答推理成本的倍数。不难发现， Aletheia 在所有问题上，推理成本都高于 Erdős-1051 。 尤其是 P7，其推理成本比此前观察到的规模高出一个数量级。研究者称，这一方面是因为 Generator 子智能体在生成候选解时消耗了大量计算资源，另一方面是因为需要更多轮交互才能通过 Verifier 子智能体的验证。 总结 数学研究包含多个环节：提出问题、建立框架、寻找关键结构、完成证明。当前系统显然还无法全面承担所有角色，但它已经开始在证明与验证环节发挥作用。 未来的研究场景或许会发生变化。人类研究者提出方向与核心思想，AI 负责高强度的路径搜索与形式化验证，再由人类进行理论整合与升华。这种协作模式，正在逐渐成形。 数学长期以来被视为人类理性能力的高地。如今，AI 正在这里取得实质性突破。当机器开始稳定地完成研究级证明，我们或许需要重新思考一个问题： 在未来的数学论文作者名单中，AI 会以什么身份出现？",
+      "source": "机器之心",
+      "publishedAt": "Thu, 26 Feb 2026 14:49:13 +0800",
+      "region": "国内",
+      "summary": "谷歌DeepMind推出的数学研究智能体Aletheia，在首届FirstProof数学挑战中取得了突破性成果。该智能体由Gemini 3 Deep Think驱动，在没有任何人工干预的情况下，于规定时间内自主解决了10道高难度研究问题中的6道，创下了该挑战的最佳纪录。FirstProof是一项专门为评估AI数学研究能力而设计的实验性挑战，其题目全部来自真实科研过程中的未公开证明命题，并由领域专家按照接近论文审稿的标准进行人工评估。DeepMind超人类推理方向负责人Thang Luong表示，这一成果的分量超过了去年AI在国际数学奥林匹克竞赛中获得金牌的表现。",
+      "category": "技术与研究",
+      "company": "谷歌",
+      "score": 39,
+      "breakdown": {
+        "substance": 15,
+        "importance": 11,
+        "timeliness": 4,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Mistral AI与全球咨询巨头埃森哲达成合作协议",
+      "url": "https://techcrunch.com/2026/02/26/mistral-ai-inks-a-deal-with-global-consulting-giant-accenture/",
+      "snippet": "Mistral AI lands a partnership with Accenture, the consultant that has also recently announced partnerships with rivals OpenAI and Anthropic.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 26 Feb 2026 19:17:27 +0000",
+      "region": "海外",
+      "summary": "Mistral AI与埃森哲达成了合作伙伴关系。埃森哲最近也宣布了与竞争对手OpenAI和Anthropic的合作。",
+      "category": "技术与研究",
+      "company": "Mistral AI",
+      "score": 25,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "这家公司声称取得电池突破，现在他们需要证明它",
+      "url": "https://www.technologyreview.com/2026/02/26/1133722/solid-state-batteries-donut-lab/",
+      "snippet": "When a company claims to have created what’s essentially the holy grail of batteries, there are bound to be some questions. Interest has been swirling since Donut Lab, a Finnish company, announced last month that it had a new solid-state battery technology, one that was ready for large-scale production. The company said its batteries can…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 26 Feb 2026 11:00:00 +0000",
+      "region": "海外",
+      "summary": "当一家公司声称创造了本质上是电池领域的“圣杯”时，必然会引发一些疑问。自芬兰公司Donut Lab上个月宣布其拥有新的固态电池技术，并已准备好大规模生产以来，兴趣一直在发酵。",
+      "category": "技术与研究",
+      "company": "Donut Lab",
+      "score": 25,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "AI与工业5.0转型：探寻价值所在",
+      "url": "https://www.technologyreview.com/2026/02/26/1133707/finding-value-with-ai-and-industry-5-0-transformation/",
+      "snippet": "For years, Industry 4.0 transformation has centered on the convergence of intelligent technologies like AI, cloud, the internet of things, robotics, and digital twins. Industry 5.0 marks a pivotal shift from integrating emerging technologies to orchestrating them at scale. With Industry 5.0, the purpose of this interconnected web of technologies is more nuanced: to augment…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 26 Feb 2026 15:00:59 +0000",
+      "region": "海外",
+      "summary": "工业4.0转型多年来一直聚焦于人工智能、云计算、物联网、机器人技术和数字孪生等智能技术的融合。工业5.0标志着一个关键转变，即从整合新兴技术转向大规模地协调运用这些技术。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 16,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "《下载》简报：美国如何在寻找外星生命的竞赛中失去领先地位，以及雄心勃勃的电池声明",
+      "url": "https://www.technologyreview.com/2026/02/26/1133734/the-download-how-america-lost-its-lead-in-the-hunt-for-alien-life-and-ambitious-battery-claims/",
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. America was winning the race to find Martian life. Then China jumped in. In July 2024, NASA’s Perseverance rover came across a peculiar rocky outcrop on Mars covered in strange spots. On Earth,…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 26 Feb 2026 13:10:00 +0000",
+      "region": "海外",
+      "summary": "这是《下载》简报的今日版，这份工作日通讯提供每日科技世界动态。美国曾在寻找火星生命的竞赛中领先，随后中国加入竞争。2024年7月，美国宇航局的毅力号火星车在火星上发现了一个奇特的岩石露头。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 16,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "具身智能公司中科第五纪获数亿元融资，红杉中国领投并成为宇树科技“大脑”供应商",
+      "url": "https://36kr.com/p/3700919151538052?f=rss",
+      "snippet": "文｜富充 编辑｜苏建勋 在我们访谈具身智能公司“中科第五纪”期间，两件事情先后发生。 第一件事，是2026年1月，中科第五纪获得宇树科技“核心生态合作伙伴”称号。在To B及工业场景，中科第五纪目前作为宇树机器人的“大脑”模型供应商。 第二件事，是中科第五纪在近期接连完成Pre-A及Pre-A+轮融资，两笔交易在一个月之内完成，规模达数亿元。其中，Pre-A轮由红杉中国领投，东方富海跟投；Pre-A+轮由芯能创投、优山资本联合领投，清控金信跟投。 中科第五纪创始人兼CEO刘年丰认为，两件事之间存在关联，核心逻辑是一级市场对机器人的认知更务实了。 “去年，投资人更倾向通用的具身智能叙事，比如偏好‘既能搬箱子、又能收拾桌子、还能叠衣服’的机器人。但现在则更看重能不能先扎进垂类场景，并且让客户愿意复购。这关系到商业化能力，也关系到能不能用数据飞轮突破真机数据不足的瓶颈。”刘年丰对《智能涌现》介绍。 中科第五纪与宇树的合作，正是这种“身体+大脑”分工的落地。自2025年起，双方就已逐渐展开在电力巡检、工业等场景的测试验证和落地。 △采用中科第五纪“具身大脑”的宇树机器人正在展示工业场景的搬运工作，图片：采访人提供 除了以“宇树大脑供应商”的角色进入场景，中科第五纪也面向行业客户直接提供完整的机器人解决方案。 在位于北京的办公室，我们见到了中科第五纪为一家头部央企客户定制的机器人。这款红色涂装的机器人，即将进入零售门店承担货品销售，未来还将进入加油站给汽车加油。此外，为行业客户的检测、搬运订单也已逐步推进中。 中科第五纪创建于2024年9月，成立一年出头便拿下宇树等多家知名企业客户。提及接订单的方法论，刘年丰说，现在找客户不难，难的是供给——“每次拿大订单都要PK众多对手，给客户的场景做POC，经过数轮可靠性、鲁棒性和稳定性的测试，通过的才能留下。” 刘年丰透露，现在看似很多具身智能公司进了场景，但真能把活干好的不多。“比如工厂里搬运料箱，光线一变、料箱外观、尺寸有所不同，机器人就认不出来，导致任务失败，”他说。 这种“认得出、干得了”的能力，来自中科第五纪的技术团队。 算法层面，团队核心成员均来自中科院自动化所。除刘年丰外，联创及算法总监刘京、青年首席科学家黄岩均为谭铁牛院士的博士生，深耕人工智能与多模态智能领域，毕业后曾就职于微软、华为等企业；联创曹恩华为中科院自动化所硕士，曾任阿里达摩院算法专家。 团队自研的超少样本具身操作大模型“FAM系列”用“二次预训练”和“热力图对齐”，让模型在执行任务时更聚焦局部关键点。比如，搬运料箱时优先关注把手，而不是依赖堆大量不同颜色、新旧程度的料箱图片去“记住外观”。 刘年丰称，这套方法使机器人只需最少3到5条真机示范数据即可完成新任务学习，基础任务成功率可达97%。 中科第五纪的硬件能力则来自清华大学团队。清华大学长聘教授孙富春担任中科第五纪联合创始人兼首席科学家，其师生团队为公司提供硬件和运控能力的支撑。 以下是刘年丰的采访实录，对话经作者整理： △中科第五纪轮式双臂机器人，图片：采访人提供 从“通用的大脑”到“在垂类真干活的大脑” 智能涌现：成为宇树“核心生态合作伙伴”意味着什么？ 刘年丰：成为宇树“核心生态合作伙伴”，意味着我们的具身智能模型能够与宇树的高性能机器人平台深度融合。宇树机器人在运动控制和硬件设计上具备领先优势，出货量持续增长。作为生态伙伴，我们将自研的具身大脑集成至宇树整机，赋予其执行复杂任务的能力。这种模式下，可使机器人更快地进入工业、巡检等实际作业场景，宇树的规模化出货也带动了我们的业务落地。 智能涌现：在具身智能大脑上有优势的公司也有好多家，为什么是中科第五纪成为宇树的模型供应方？ 刘年丰：宇树的合作，也是PK掉了非常多头部的具身企业的。 宇树之前接触过不少头部大脑公司和高校研究机构，有很多模型能力也不错。我们之所以能胜出，核心原因有两个，一是我们的大脑能力扎实，尤其是通过小数据量样本快速学习的能力；二是我们具备快速交付落地的执行力，同时团队也拥有丰富的产品经验。 智能涌现：你说帮宇树做电力巡检，但行业内一些公司已经进入这个场景了，你们的优势或者差异化在哪里？ 刘年丰：传统的巡检只能“看”，发现问题后还得派人去解决。我们的目标是巡检加操作——巡检到点位后，直接完成操作，比如掏钥匙开柜门、按开关、拔插头。 传统的电力巡检用的是四足狗，但这些操作需要类人的构型。在最近的电力智能巡检大赛中，我们的机器人实现了跨站室迁移成功率90%、新柜型示教少于10次、末端定位精度±15mm的严苛指标，验证了落地可行性。 智能涌现：给狗加个手不能解决这个问题吗？ 刘年丰：不太行，主要有两层理由。 第一个就是马斯克讲的就是我们人类的世界是field for human beings。有很多的设备，它是按照人的身高。电力设备是按人的身高设计的，狗形态的机器人很难够到2米高的电柜。 第二个问题在于，狗加双臂是一个非标的构型，我觉得我们做机器人公司，一定要杜绝按照非标的构型思路。因为非标意味着无法放量——今天臂长要1.5米，明天要2米；今天精度0.1毫米，明天要1毫米——这样就会量上不去，成本降不下来，算法也无法复用。 行业应该先“收敛”到标准硬件构型，比如至少上半身双臂可以达到共识。再解决不同负载、节拍的泛化问题，而不是总用新构型解决问题。 智能涌现：无论是面向宇树还是整机客户，其实中科第五纪提供的确定性都围绕着“进入场景”的能力，投资人现阶段Buy In的也是这一点吗？ 刘年丰：是的，之前行业可能追求的是一个“既能搬箱子、又能收拾桌子、还能叠衣服”的通用模型。 但比起一个遥远而终极的通用智能，我们一直坚持做要能够在垂类、具体任务中落地的模型，比如至少能把工厂搬料箱这个问题真正解决。今年一级市场也意识到了这一点的重要性。 技术核心：小数据量样本、高数据使用效率 智能涌现：包括中科第五纪在内，最近采访的多家具身智能公司都说自己的机器人在工业场景搬箱子。但你提到，即使这个看似简单的任务，真能做好的企业也不是很多，所以从模型能力来看，具身机器人搬箱子的难点是什么？ 刘年丰：看似搬箱子是一个单调重复的工作，但其实有多个难点。 第一是泛化：料箱颜色、尺寸、新旧程度都不同，能不能用同一个模型稳定完成识别、抓取与搬运。第二是导航：搬起之后从A点到B点怎么走，路径规划、避障，途中被打断后能不能续做。第三是策略理解：比如“从面前100个箱子里搬走50个”，机器人能不能理解数量、以及该选择哪50个箱子，到目的地怎么码放，以及放下后要不要把物体取出等等，每个环节都存在问题。 这些看起来是搬箱子，背后其实是一整套复杂的任务规划与执行。 智能涌现：刚才你说到料箱的泛化性，感觉箱子已经是外观比较简单的物体了，为什么光照变了，具身智能模型的辨认就变难了？ 刘年丰：最本质的原因就是因为，我们现在具身模型主流使用的VLA，是沿袭的动态模型沿袭了大语言模型——对整张图片做全局信息映射。 举个例子，比如拍一张有三瓶矿泉水的照片，白天和晚上光线不同，整张图片的色温、亮度都变了，模型可能就不认识了。 问题在于，具身智能没有大模型那样的数据体量去覆盖所有光照变化。但换个思路，如果模型能关注局部信息——比如只锁定每瓶水的外观特征，而不关心背景、光线、桌子颜色——就能避免被全局变化干扰。这正是我们做“热力图”的出发点：让模型聚焦操作对象本身，而不是整个画面。 智能涌现：具体讲讲中科第五纪的模型是如何提高泛化性的？ 刘年丰：操作的核心是操作对象，但以前的主流模型太关注全局信息。我们的思路是：通过多个二维热力图，把要操作的对象位置自适应地学习出来，让模型意识到什么是最需要响应的操作对象。 △中科第五纪FAM模型图，图片：采访人提供 热力图可以理解为一张“重点标记图”——图像中颜色越深的区域，代表模型应该越关注。比如指令是让机器人开办公室门，它会重点盯着门把手，而不是整扇门——不管门是木门、玻璃门还是什么颜色，只要把手在那儿，它就知道怎么操作。回到工厂搬料箱的场景也一样，模型关注的是把手，不是整个料箱，更不是整个视野里的工厂。 这是通过“二次预训练”实现的，第一次预训练，我们让模型知道各个物体是什么；第二次预训练，我们通过“热力图”让模型重点关注操作对象，让模型学会分辨“什么才是当前任务最重要的东西”。 智能涌现：所以你之前说拿到宇树订单的原因之一在于，FAM模型能通过小数据量样本，快速实现新任务学习，正是因为你们的技术方法比较节省数据？ 刘年丰：是的，当前真机数据不足是行业共识。 我们的解决方法之一是通过“二次预训练”提高模型对重点操作对象的关注，可以提高数据使用效率，节省大量预训练数据。 此外，我们重视进入场景，也是因为可以通过真干活的数据飞轮，把真机数据转起来。 商业化展望：“复购”很关键 智能涌现：具身智能行业从去年下半年开始，就非常注重“商业化落地”，但你指出今年更考验的是“复购”？ 刘年丰：对。2025年，我们看到很多机器人看似进入干活场景，其实还是在POC（概念验证）。到了2026年，考验的是复购，像搬箱子这样的场景，要在2026年被彻底解决。 智能涌现：今年彻底解决搬箱子这个任务之后，那在工业场景里，下一个被具身智能企业集中探索，且可能被解决的工作是什么？ 刘年丰：有挺多的，比如移动分拣，这是一种更精细的搬箱子。需要把箱子里面的某些特定的东西，拿到特定的位置去。这一大类任务，无论是横向（跨客户）还是纵向（跨场景）看，都有极强的泛化空间。 智能涌现：你们的商业模式是怎样的？如何收费？ 刘年丰：面向本体公司，我们交付大脑，并按照一个机器人对应一个license收费，现阶段会根据场景和任务的复杂度判断费用。 而面向终端场景客户，我们交付自研的轮式机器人，按照整台机器人收费。而未来随着供应链愈加成熟，整机的价格会进一步下探，客户也会看到更好的ROI数据。 智能涌现：中科第五纪既给客户出“软”的部分，也自己做软硬一体的机器人。所以最后公司的商业模式究竟会更偏向哪条路？ 刘年丰：我们的最终定位是软硬一体的公司，我们也认为具身智能在“脑”不在“型”。可以参考苹果，最核心的竞争力不是摄像头、不是主板，而是操作系统和生态。这条路虽然难，但也是我们想走的路。",
+      "source": "36氪",
+      "publishedAt": "2026-02-27 10:11:09  +0800",
+      "region": "国内",
+      "summary": "具身智能公司中科第五纪近期在一个月内接连完成Pre-A及Pre-A+轮融资，规模达数亿元，其中Pre-A轮由红杉中国领投。该公司已成为宇树科技的“核心生态合作伙伴”，为其机器人提供“大脑”模型，双方在电力巡检、工业等场景已有测试验证和落地合作。创始人刘年丰表示，当前市场更关注机器人能否在垂类场景实现商业化落地和客户复购，而中科第五纪通过自研的超少样本具身操作大模型“FAM系列”，可使机器人仅需3到5条真机示范数据即可学习新任务，基础任务成功率可达97%。公司团队核心成员来自中科院自动化所，硬件能力则由清华大学团队支撑。",
+      "category": "投融资与并购",
+      "company": "中科第五纪",
+      "score": 43,
+      "breakdown": {
+        "substance": 18,
+        "importance": 8,
+        "timeliness": 10,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Sophia Space获1000万美元种子轮融资，将演示新型太空计算机",
+      "url": "https://techcrunch.com/2026/02/26/sophia-space-raises-10m-seed-to-demo-novel-space-computers/",
+      "snippet": "The company's modular computer tiles offer a new vision for space data centers.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 26 Feb 2026 19:55:20 +0000",
+      "region": "海外",
+      "summary": "Sophia Space公司筹集了1000万美元的种子轮资金，用于演示其新型太空计算机。该公司的模块化计算机单元为太空数据中心提供了一个新的愿景。",
+      "category": "投融资与并购",
+      "company": "Sophia Space",
+      "score": 23,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "政策与监管": []
+}

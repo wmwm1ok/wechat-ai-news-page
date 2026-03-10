@@ -1,0 +1,276 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "阿里云Coding Plan新增多款编程模型并推出优惠活动",
+      "url": "https://www.leiphone.com/category/industrynews/YcpxNqf22S9oxi7j.html",
+      "snippet": "2月22日，阿里云Coding Plan订阅服务新增支持Qwen3.5-Plus、Qwen3-Coder-Next、GLM-4.7、Kimi-K2.5共4款顶尖编程模型，用户无需更改订阅和配置即可自由切换。阿里云Coding Plan还上线了优惠活动，即日起，新用户首购可享2折优惠，首月18000次请求额度仅需7.9元，90000次请求仅需39.9元。 AI Agent是目前大模型的主要应用载体，业界已涌现Claude Code、OpenClaw等爆火的AI工具。但Agent需要执行复杂任务，并进行多轮规划与工具调用，Tokens消耗量呈指数级增长，有数据显示，单个Agent的算力消耗是传统Chatbot的100至1000倍 。为此，阿里云推出Coding Plan订阅服务，为用户提供性价比更高、可自由选择的模型服务。 阿里云Coding Plan共有Lite基础版和Pro高级版两个套餐，其中，Lite基础套餐可享受每月最多18000次请求，新用户购买首月仅需7.9元；Pro高级套餐可享受每月90000次请求，可完成数千次复杂任务，新用户首月仅需39.9元，极大地降低高频次编码需求场景的成本。用户可在Qwen Code、Claude Code、Cline、OpenClaw等主流AI工具使用阿里云Coding Plan订阅服务。 此前，阿里云百炼已上线全新的Qwen3.5-Plus，其API价格低至每百万Tokens 0.8元，用户仅需不到5%的价格即可获得媲美Gemini 3的高性能。现在，阿里云Coding Plan的上新进一步降低了模型的使用成本，让用户真正享受到模型自由。 据介绍，目前阿里云百炼平台已上线100多款国内外主流模型，同时为开发者提供了400多个AI硬件、短视频及广告内容等领域的Agent模板与服务。",
+      "source": "雷锋网",
+      "publishedAt": "Sun, 22 Feb 2026 10:11:00 +0800",
+      "region": "国内",
+      "summary": "2月22日，阿里云Coding Plan订阅服务新增支持Qwen3.5-Plus、Qwen3-Coder-Next、GLM-4.7、Kimi-K2.5共四款编程模型，用户无需更改订阅即可自由切换。同时，该服务推出新用户首购优惠活动，首月18000次请求额度仅需7.9元，90000次请求仅需39.9元，包含Lite基础版和Pro高级版两个套餐。阿里云表示，此举旨在为高频次编码需求场景提供更具性价比的模型服务，降低使用成本，目前用户可在Qwen Code、Claude Code等主流AI工具中使用该订阅服务。阿里云百炼平台已上线超过100款国内外主流模型，并为开发者提供了400多个领域的Agent模板与服务。",
+      "category": "产品发布与更新",
+      "company": "阿里云",
+      "score": 37,
+      "breakdown": {
+        "substance": 25,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Spotify向英国等市场推出AI驱动的提示播放列表功能",
+      "url": "https://techcrunch.com/2026/02/23/spotify-ai-prompted-playlists-uk-markets/",
+      "snippet": "Spotify continues to test its AI-powered “Prompted Playlist” feature, now rolling out the tool to Premium subscribers in the U.K., Ireland, Australia, and Sweden.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 23 Feb 2026 16:50:36 +0000",
+      "region": "海外",
+      "summary": "Spotify正在继续测试其AI驱动的“提示播放列表”功能。目前，该工具正在向英国、爱尔兰、澳大利亚和瑞典的Premium订阅用户推出。",
+      "category": "产品发布与更新",
+      "company": "Spotify",
+      "score": 24,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "我注册了Google Gemini Pro：这5个功能让它物有所值",
+      "url": "https://www.pcmag.com/how-to/i-signed-up-for-google-gemini-pro-5-features-make-it-worth-cost",
+      "snippet": "Google has a free AI tier, but a paid subscription adds several perks that upgrade your Gemini 3 experience, from priority access to video generation.",
+      "source": "PCMag",
+      "publishedAt": "5 hours ago",
+      "region": "海外",
+      "summary": "作者分享了注册Google Gemini Pro付费订阅服务的体验。文章指出付费版本在免费层基础上增加了多项功能升级。这些功能包括优先访问和视频生成等，提升了Gemini 3的使用体验。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 21,
+      "breakdown": {
+        "substance": 3,
+        "importance": 11,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "5000亿美元「星际之门」项目陷入停滞与算力争夺困境",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-23-6",
+      "snippet": "去年 1 月底，在一次白宫新闻发布会上，特朗普和 OpenAI CEO Sam Altman、软银 CEO 孙正义等人联合宣布了一个名为「星际之门」（Stargate Project）的人工智能项目。 该项目计划在未来四年内投资高达 5000 亿美元，为 OpenAI 在美国建设新的人工智能基础设施。当时承诺将立即投入 1000 亿美元，并打造 10 吉瓦（GW）的超级计算基础设施。 目标很远大：建设起来的基础设施将确保美国在人工智能领域的领导地位，创造数十万个美国就业岗位，并为全球带来巨大的经济效益。 然而，一年多时间过去了，项目进展究竟怎样了？ 近日，外媒 The Information 的一篇报道，揭露了这场野心勃勃的 AI 军备竞赛正在经历的阵痛。 据三位知情人士透露，在宣布成立后的数周内，Stargate 项目基本处于停滞状态。原因在于：OpenAI、Oracle 和软银三方在领导权归属、任务分工以及合伙架构上产生了严重分歧，导致协作机制形同虚设。 其中，急于获取算力的 Sam Altman 一度决定摒弃合作伙伴，尝试「单飞」。当时，OpenAI 计划直接租赁甚至自行建设大型数据中心园区，从而减少对云服务商的依赖，掌握绝对的算力控制权。 然而，由于 OpenAI 每年烧钱数十亿美元，且商业模式尚未得到充分验证，债权人对直接支持这样一家高风险公司承建百亿级项目持怀疑态度。 根据 The Information 披露的后续细节，在面临严峻的财务现实后，OpenAI 不得不重新回到谈判桌前，向软银和 Oracle 寻求合作。 但是，合作的形式发生了微妙的变化：所谓的「三方合伙」名存实亡，取而代之的是 OpenAI 与软银、OpenAI 与 Oracle 分别达成的双边协议。 在上个月的达沃斯世界经济论坛上，OpenAI CFO Sarah Friar 明确释放了转型信号，「我们正利用云合作伙伴来保持资产负债表的『轻量化』，目前我们还没到完全自建的阶段，并且我们拥有优秀的合作伙伴。」 与此同时，OpenAI 内部的基础设施部门也经历了一场人事洗牌。 去年 11 月，OpenAI 挖来了原英特尔首席技术官兼 AI 业务负责人 Sachin Katti，由其负责打造支撑 AGI 的计算基础设施。据知情人士透露，Katti 目前正在对计算部门内的多个小组进行大刀阔斧的重组。 The Information 进一步引述了 OpenAI 内部员工的消息，尽管自建数据中心已不再是短期内的重点，但公司仍希望通过 Stargate 这一名义，在基础设施协议中植入特殊条款，以确保其对数据中心设计的深度参与和特权。 也许正如星际之门项目刚公布时，马斯克所评价的那样，「他们根本就没钱」。 目前，OpenAI、Oracle、软银均未回应 The Information 的置评请求。 从狂想走向现实，OpenAI 的算力「阿喀琉斯之踵」 我们很难明确判断 Stargate 项目的推进受阻，是否直接拖慢了 OpenAI 模型能力的迭代节奏。 但从 OpenAI 最近一段时间的表现来看，其所承受的压力显然不小。 一方面，算力获取的不确定性与成本飙升持续挤压公司的利润空间。为了维持模型迭代速度，OpenAI 不得不在多个云平台之间进行算力调度。据知情人士透露，原本预计到 2030 年的 4500 亿美元算力投入，如今已上调至 6600 多亿美元，在生成式 AI 仍处于重投入、轻变现阶段的当下，这种现金流压力并不轻松。 另一方面，来自谷歌和 Anthropic 的压力进一步加大。Google 凭借自研 TPU 芯片与深厚的云计算基础设施，将模型训练与推理成本压到更具优势的位置；Anthropic 则在代码大模型领域打出自己的特色。相比之下，OpenAI 在算力布局上更多依赖外部合作，其对资源的掌控程度尚未形成类似 Google 那样的垂直整合算力体系，这也使其在战略推进上必须更加审慎。 在 Stargate 推进节奏不及预期的背景下，OpenAI 面临的压力明显上升。 自从 Stargate 计划公布后，OpenAI 内部迅速进入筹备状态。但合作架构一直不清晰，Oracle 与软银在其中扮演何种角色，职责如何划分，始终没有形成统一方案。 在内部讨论中，有高管提出另一种思路：将 Stargate 打造成一个相对独立的基础设施平台，由该平台负责数据中心建设，再通过租赁形式向 OpenAI 提供算力资源。按照这一设想，部分 OpenAI 团队成员甚至可能转入该实体，以强化项目执行能力。同时，也有人提出将 Stargate 作为融资工具，用于为芯片采购和基础设施建设筹集长期资本，使其不仅是工程项目载体，也成为资金运作的平台。 最初，OpenAI 确实认真考虑过全面自建数据中心的路径，并在全美范围内考察选址、测算成本，希望在算力资源上实现更强的自主掌控。但在完成融资测算后，公司意识到，如果由自身承担建设与融资责任，资金成本将显著偏高。相比之下，由信用评级更高的合作方出面签约、再向 OpenAI 提供算力资源的模式，整体财务压力更可控。 随后，OpenAI 与 Oracle 达成一项覆盖 4.5 吉瓦电力容量的重大合作协议。不同于逐个园区签约，这一结构允许在多个项目之间分摊风险，并通过风险共担机制降低不确定性。为此，OpenAI 一度暂停了自建推进计划，将部分原本考察的园区交由 Oracle 主导开发。 &nbsp; &nbsp; &nbsp; 图源：OpenAI 在德州一处 1 吉瓦规模的园区项目上，OpenAI 则与软银展开合作。双方在控制权与所有权问题上经历多轮谈判，最终达成折中方案：由软银旗下公司负责开发和持有资产，OpenAI 签署长期租约并掌握数据中心设计主导权。这意味着，公司短期内不再追求完全自建拥有，而是转向一种掌控架构但不承担全部资产风险的模式。 整体来看，OpenAI 的算力战略发生了明显转向，从最初的自建与拥有，调整为控制与协作。 Stargate 将如何发展，我们拭目以待。 参考链接：https://www.theinformation.com/articles/inside-openais-scramble-get-computing-power-stargate-stalled",
+      "source": "机器之心",
+      "publishedAt": "Mon, 23 Feb 2026 20:28:28 +0800",
+      "region": "国内",
+      "summary": "去年 1 月底，在一次白宫新闻发布会上，特朗普和 OpenAI CEO Sam Altman、软银 CEO 孙正义等人联合宣布了一个名为「星际之门」（Stargate Project）的人工智能项目。 该项目计划在未来四年内投资高达 5000 亿美元，为 OpenAI 在美国建设新的人工智能基础设施。当时承诺将立即投入 1000 亿美元，并打造 10 吉瓦（GW）的超级计算基础设施。 目标很远大：建设起来的基础设施将确保美国在人工智能领域的领导地位，创造数十万个美国就业岗位，并为全球带来巨大的经济效益。 然而，一年多时间过去了，项目进展究竟怎样了？ 近日，外媒 The Information 的一篇报道，揭露了这场野心勃勃的 AI 军备竞赛正在经历的阵痛。 据三位知情人士透露，在宣布成立后的数周内，Stargate 项目基本处于停滞状态。原因在于：OpenAI、Oracle 和软银三方在领导权归属、任务分工以及合伙架构上产生了严重分歧，导致协作机制形同虚设。 其中，急于获取算力的 Sam Altman 一度决定摒弃合作伙伴，尝试「单飞」。当时，OpenAI 计划直接租赁甚至自行建设大型数据中心园区，从而减少对云服务商的依赖，掌握绝对的算力控制权。 然而，由于 OpenAI 每年烧钱数十亿美元，且商业模式尚未得到充分验证，债权人对直接支持这样一家高风险公司承建百亿级项目持怀疑态度。 根据 The Information 披露的后续细节，在面临严峻的财务现实后，OpenAI 不得不重新回到谈判桌前，向软银和 Oracle 寻求合作。 但是，合作的形式发生了微妙的变化：所谓的「三方合伙」名存实亡，取而代之的是 OpenAI 与软银、OpenAI 与 Oracle 分别达成的双边协议。 在上个月的达沃斯世界经济论坛上，OpenAI CFO Sarah Friar 明确释放了转型信号，「我们正利用云合作伙伴来保持资产负债表的『轻量化』，目前我们还没到完全自建的阶段，并且我们拥有优秀的合作伙伴。」 与此同时，OpenAI 内部的基础设施部门也经历了一场人事洗牌。 去年 11 月，OpenAI 挖来了原英特尔首席技术官兼 AI 业务负责人 Sachin Katti，由其负责打造支撑 AGI 的计算基础设施。据知情人士透露，Katti 目前正在对计算部门内的多个小组进行大刀阔斧的重组。 The Information 进一步引述了 OpenAI 内部员工的消息，尽管自建数据中心已不再是短期内的重点，但公司仍希望通过 Stargate 这一名义，在基础设施协议中植入特殊条款，以确保其对数据中心设计的深度参与和特权。 也许正如星际之门项目刚公布时，马斯克所评价的那样，「他们根本就没钱」。 目前，OpenAI、Oracle、软银均未回应 The Information 的置评请求。 从狂想走向现实，OpenAI 的算力「阿喀琉斯之踵」 我们很难明确判断 Stargate 项目的推进受阻，是否直接拖慢了 OpenAI 模型能力的迭代节奏。 但从 OpenAI 最近一段时间的表现来看，其所承受的压力显然不小。 一方面，算力获取的不确定性与成本飙升持续挤压公司的利润空间。为了维持模型迭代速度，OpenAI 不得不在多个云平台之间进行算力调度。据知情人士透露，原本预计到 2030 年的 4500 亿美元算力投入，如今已上调至 6600 多亿美元，在生成式 AI 仍处于重投入、轻变现阶段的当下，这种现金流压力并不轻松。 另一方面，来自谷歌和 Anthropic 的压力进一步加大。Google 凭借自研 TPU 芯片与深厚的云计算基础设施，将模型训练与推理成本压到更具优势的位置；Anthropic 则在代码大模型领域打出自己的特色。相比之下，OpenAI 在算力布局上更多依赖外部合作，其对资源的掌控程度尚未形成类似 Google 那样的垂直整合算力体系，这也使其在战略推进上必须更加审慎。 在 Stargate 推进节奏不及预期的背景下，OpenAI 面临的压力明显上升。 自从 Stargate 计划公布后，OpenAI 内部迅速进入筹备状态。但合作架构一直不清晰，Oracle 与软银在其中扮演何种角色，职责如何划分，始终没有形成统一方案。 在内部讨论中，有高管提出另一种思路：将 Stargate 打造成一个相对独立的基础设施平台，由该平台负责数据中心建设，再通过租赁形式向 OpenAI 提供算力资源。按照这一设想，部分 OpenAI 团队成员甚至可能转入该实体，以强化项目执行能力。同时，也有人提出将 Stargate 作为融资工具，用于为芯片采购和基础设施建设筹集长期资本，使其不仅是工程项目载体，也成为资金运作的平台。 最初，OpenAI 确实认真考虑过全面自建数据中心的路径，并在全美范围内考察选址、测算成本，希望在算力资源上实现更强的自主掌控。但在完成融资测算后，公司意识到，如果由自身承担建设与融资责任，资金成本将显著偏高。相比之下，由信用评级更高的合作方出面签约、再向 OpenAI 提供算力资源的模式，整体财务压力更可控。 随后，OpenAI 与 Oracle 达成一项覆盖 4.5 吉瓦电力容量的重大合作协议。不同于逐个园区签约，这一结构允许在多个项目之间分摊风险，并通过风险共担机制降低不确定性。为此，OpenAI 一度暂停了自建推进计划，将部分原本考察的园区交由 Oracle 主导开发。 &nbsp; &nbsp; &nbsp; 图源：OpenAI 在德州一处 1 吉瓦规模的园区项目上，OpenAI 则与软银展开合作。双方在控制权与所有权问题上经历多轮谈判，最终达成折中方案：由软银旗下公司负责开发和持有资产，OpenAI 签署长期租约并掌握数据中心设计主导权。这意味着，公司短期内不再追求完全自建拥有，而是转向一种掌控架构但不承担全部资产风险的模式。 整体来看，OpenAI 的算力战略发生了明显转向，从最初的自建与拥有，调整为控制与协作。 Stargate 将如何发展，我们拭目以待。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 52,
+      "breakdown": {
+        "substance": 19,
+        "importance": 18,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "DeepMind运作模式曝光：员工20%时间用于创新，跨学科研究推动多领域突破",
+      "url": "https://www.infoq.cn/article/IIY8A1V05cpP614yjFRD?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 23 Feb 2026 15:36:16 GMT",
+      "region": "国内",
+      "summary": "Google DeepMind首席运营官Lila Ibrahim与谷歌研究高级副总裁James Manyika在播客中首次系统披露了公司的运作模式。DeepMind采用“只给方向，不给答案”的研究方法，并鼓励跨学科合作，生物伦理学家、神经科学家与计算机科学家常共同工作。公司保留了员工20%时间用于自主探索的创新机制，目前实验室同时推进约30个项目，涵盖量子计算、材料科学、气象预测等多个领域。Google Brain与DeepMind合并后，围绕Gemini建立了中央AI引擎，每5到6个月完成一次重大迭代，并快速集成到搜索、Workspace等核心产品中。",
+      "category": "技术与研究",
+      "company": "DeepMind",
+      "score": 50,
+      "breakdown": {
+        "substance": 18,
+        "importance": 16,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "智谱发布GLM-5技术报告，揭秘异步强化学习框架Slime等核心技术",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-23-3",
+      "snippet": "编辑｜杜伟、陈陈 一边放出新一代旗舰基座模型 GLM-5 技术报告，展现其从底层架构到异步强化学习基准设施的深层创新硬实力；一边马年港股首个交易日收盘暴涨近 43%，市值突破 3200 亿港元。这一波，智谱属实「两开花」了。 到今天，对于打工人来说，这个「AI 味」浓厚的马年春节即将迎来尾声！ 过去一周多的时间，机器人无疑是顶流中的顶流，「机器人全面入侵春晚」的词条更是一度占据了各大社交平台的热搜榜首。与此同时，作为当前主流机器人「大脑」的 AI 大模型，其范式与技术创新同样值得我们复盘。 这个春节，DeepSeek V4「鸽了」，但以字节 Seedance、智谱为代表的大厂及 AI 明星独角兽相继发布模型，同样是在技术路径上的一次「强势亮剑」。 其中，凭借新一代旗舰基座大模型 GLM-5 引爆全球开发者社区的智谱，在几天前将该模型完整的技术报告放了出来。 我们先来回顾一下 GLM-5 的核心亮点： 它面向 Agentic Engineering 打造，凭借更强的代码能力、更长的 200K 上下文、更好的 Agent 工具调用能力，尤其擅长处理复杂系统工程与长程 Agent 任务，准确率攀升明显。 在 Coding 与 Agent 任务上，GLM-5 在 SWE-bench、Terminal-Bench、BrowseComp、MCP-Atlas 等多个主流基准测试中取得开源 SOTA 级表现。这使得 GLM-5 成为构建通用 Agent 助手的理想基座选择，并推动 Agent 从「跑通 Demo」的玩具阶段跨越到「解决现实世界复杂工程问题」的生产力临界点。 随着技术报告的释出，我们得以揭开其强悍性能背后的技术秘诀。总结来看，GLM-5 的核心创新点可以归纳为三点： 首先，GLM-5 在底层架构层面采用 DSA（DeepSeek Sparse Attention） ，在「长文本推理能力」与「训推成本」之间取得绝佳平衡。 其次，GLM-5 通过 异步强化学习基础设施 &mdash;&mdash; Slime 框架 ，将「生成过程」与「训练过程」解耦，显著提升后训练阶段的效率。 最后， Agent 强化学习算法 是 GLM-5 能够更高效地从复杂、长时序交互中学习的关键。 针对 GLM-5 的一系列创新，X 平台上一些大 V 给出了极高评价，「在处理端到端的软件工程挑战时，GLM-5 显著超越现有基线，标志着模型能力从『片段式响应』进化到『系统级交付』。」 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 图源：X@omarsar0 在大模型的发展历程中，很少有能力是凭空产生的。无论是架构设计、训练范式，还是数据处理与优化技巧，几乎所有领先模型都建立在既有研究成果与工程实践的基础之上。 从 Transformer 的提出到注意力机制的演进，再到强化学习与知识迁移方法的成熟，每一次突破都来自持续的迭代与吸收。 但在仔细研读 GLM-5 的技术报告之后，我们发现了智谱独特的技术品味。 技术报告原文链接：https://arxiv.org/pdf/2602.15763 GitHub 开源地址：https://github.com/zai-org/GLM-5 DSA：降低训练与推理成本 DSA（DeepSeek Sparse Attention）是 DeepSeek 提出的一种高效注意力机制。要理解它解决了什么问题，我们先要知道注意力机制是干什么的：模型在理解每一个词时，需要参考上下文中其他所有词，句子越长，需要参考的词越多，计算量呈平方级增长。对于动辄十万词的长文本，这个开销是灾难性的。 DSA 的核心思路是：不是每个词都同等重要，大多数词其实可以忽略。它通过动态打分，只挑出真正相关的少数 token 参与计算。实验证明，长文本中约 90% 的注意力计算是冗余的，DSA 把这部分直接省掉，在不牺牲理解能力的前提下，将长序列的计算量压缩了 1.5 到 2 倍。 得益于 DSA， GLM-5 得以将模型参数规模扩展至 744B（40B 激活参数），训练 token 总量提升至 28.5T 。但用 DSA 和把 DSA 真正用好之间，有一段不短的工程距离。 当 DSA 与 MLA（Multi-Latent Attention）、自研 Muon 优化器等既有组件叠加时，团队发现模型在多个基准上出现性能退化。 为此，GLM-5 提出 Muon Split 机制 ：将矩阵拆分为不同头的更小矩阵，并对这些独立矩阵应用矩阵正交化，使得不同注意力头的投影权重能够以不同尺度更新。 另外，针对 MLA 解码计算成本高难题，GLM 团队提出了 MLA-256 变体 ：把 head dimension 从 192 提到 256，同时把注意力头数减少 1/3，使训练计算量和参数量保持不变，但解码计算量显著下降。 为进一步提升基础模型性能，智谱还提出在 训练阶段共享 3 层 MTP 的参数 。这样既保持了草稿模型与 DeepSeek-V3 相同的内存开销，又提升了 token 的接受率。 在当前大模型竞争格局中，参数规模已不再是唯一的护城河。真正的壁垒在于如何在算力预算、长上下文忠实度与工程稳定性之间取得平衡。 GLM-5 在 DSA 体系上的实践提供了一个清晰的答案：不再盲目追求无限堆砌算力，而是通过重构计算路径，让模型在同等资源下完成更高效的工作。 如果说大模型的前半场是在比拼「谁做得更大」，那么 GLM-5 则标志着下半场的开启，在长程推理与 Agent 时代，谁能把计算结构设计得更「聪明」，谁才能在端到端的软件工程等复杂任务中胜出。 异步 RL 基础设施：Slime 框架的工程创新 在从「文本生成」向「自主代理（Agent）」进化的过程中，传统同步强化学习的低效与长程推理的昂贵成本成为了最大的阻碍。 传统同步 RL 的流程是：生成一批轨迹&rarr;等所有轨迹完成&rarr;送入训练&rarr;更新权重&rarr;再生成下一批。但问题在于，智能体任务的轨迹长度极度不均匀，修一个简单 bug 可能 3 步，实现一个复杂功能可能需要 50 步以上。同步模式下整批训练的速度由最慢的那条轨迹决定，GPU 在等待中大量空转，造成资源浪费。 GLM-5 的核心解法是将 推理引擎与训练引擎部署在不同 GPU 设备上，完全异步并行运行 。 推理引擎持续生成轨迹，积累到预定阈值后批量推送给训练引擎；训练引擎持续消费数据、更新参数，每完成 K 次梯度更新后将新权重同步回推理引擎。两条流水线互不阻塞，GPU 利用率大幅提升。 但异步 RL 中有一个看似微小但后果严重的问题：如果推理引擎输出文本，训练端再重新 tokenize，哪怕是空白符处理、特殊 token 位置、截断方式的细微差异，都可能导致 action 和 reward 之间的对应位置出错，这种错位会持续累积，最终破坏 RL 信号的准确性。 TITO Gateway 的解法是直接截获推理引擎产生的 token ID 序列和元数据，绕过任何文本中转，确保训练端使用与采样完全一致的 token 流。 此外，异步训练中，一条轨迹的生成过程中模型可能已经更新了多次，精确追踪行为策略概率几乎不可行，否则需要维护大量历史 checkpoint，存储和通信开销极高。 GLM 团队提出 直接双侧重要性采样 ：直接复用 rollout 时记录的 log 概率作为行为策略代理。并采用双侧 token 级掩码：重要性采样比落在区间范围内的 token 正常计算梯度，超出范围的 token 梯度直接置零。 这些设计听上去像是工程层面的补丁，但它们解决的，其实是一个更根本的问题：如何让大规模 Agent 强化学习在现实算力条件下真正跑得起来、稳得住。如果说同步 RL 更适合短轨迹、规则明确的任务，那么 GLM-5 这一套异步机制，则是为长程软件工程、复杂工具调用、多轮交互决策场景量身打造的。它让模型不再被训练框架拖慢节奏，而是能够在持续交互中不断生成、评估、更新，形成近似在线学习的循环。 锻造工业级长程智能体，非一役之功 解决了训推效率与工程落地难题，接下来就要进入长程软件工程的实战环节了。 GLM 团队发现，在将底层 DSA 架构与大规模 RL 训练结合时，短短数步之内就会出现崩溃、损失异常以及模型能力快速退化等情况。在一番摸查之后，根源定位到了 DSA 内部使用的非确定性 CUDA top-k 算子，其输出的不稳定性干扰了 RL 的梯度更新。 因此，在将该算子替换为确定性的 torch.topk 之后，虽然牺牲了微小的运行速度，但可以让训练立刻恢复稳定并带来显著的性能收益。同时，为了避免 RL 阶段的无效学习干扰，还对索引器参数（Indexer）进行了冻结。 不仅如此，GLM 团队还通过以下一系列创新性解法，全方位克服 RL 在复杂智能体任务中的 数据短缺、审美、遗忘 等其他难题。 首先，软件工程任务的 RL 训练最缺的是「考场」，现有数据集不仅规模小，还极易受到数据污染。 GLM 团队基于 RepoLaunch 框架，构建了 10000 + 可验证的 SWE 环境 ，覆盖了 Python、Java、Go 等 9 种主流编程语言。并且，每个环境支持从依赖安装到测试解析的全流程自动化。这意味着，模型对代码的修改是否有效，全凭单元测试说了算，不再依赖主观且低效的人工打分，从而实现 RL 信号的真实可靠。 其次，智能体不仅要会写代码，还要懂设计。GLM-5 引入了 以 HTML 幻灯片为载体的三级奖励体系 ，在结构化文档生成的「审美」方面形成了自己的风格： Level-1（静态规则）：检查布局、间距、字体等基础属性，并利用 AI 识别幻觉与重复图片。 Level-2（运行布局）：通过分布式渲染，抓取渲染后 DOM 节点的宽高、边界框等真实几何指标，搞定静态代码看不出的排版冲突。 Level-3（视觉感知）：直接从视觉层面检测异常空白或构图失衡，确保看起来舒服。 一套流程走下来，效果立竿见影，GLM 团队识别并修复了两类奖励破解行为，将 16:9 合规率从 40% 提升至 92%。 接下来要面对多阶段 RL 训练中的灾难性遗忘问题。GLM-5 的后训练依次分为推理 RL、智能体 RL、通用对齐 RL 等三个阶段，遗忘问题会导致后续阶段覆盖前序积累的能力。 为此，GLM 团队引入了「 跨阶段蒸馏 」，将当前策略与各个前序阶段的最优教师模型进行对数概率对比。这样既可以让模型掌握新能力，也会靠拢之前的最优状态。一种设计达成两个目标：在克服遗忘的同时通过简化算法逻辑提升训练效率。 最后还要为搜索智能体配上「长短期记忆」。GLM 团队发现，当上下文超过 100K 时，传统的清空所有工具记录的方案会造成浪费，而保留所有记录又可能导致混乱。 GLM 团队提出了 分层上下文管理（HCM，Hierarchical Context Management）策略 ，在实践中先试着折叠早期记录，并保留最近 5 轮记忆。如果还是太大，则清空所有工具调用历史，然后重置。结果显示，这种分层组合方案让 GLM-5 在 BrowseComp 任务上的准确率从 55.3% 暴涨至 75.9%，一举超越了现有已知的开源上下文管理方案。 可以看到，通过对长程交互中每一个细节的极致掌控，包括底层算子、环境构建以及如何让模型长记性，GLM 团队全给理顺了。 当然，GLM-5 还全栈适配了国产 GPU，包括华为昇腾、摩尔线程、海光、 寒武纪、昆仑芯、沐曦、燧原等七家主流国产芯片平台，进一步拓宽算力生态。 以上构成了 GLM-5 技术底色的完整轮廓，它们不是调参的结果，不是重新包装的已有工作，而是在真实工程实践中遇到真实问题、提出真实解法的过程。 写在最后 十天前，图灵奖得主、RL 大佬 Richard Sutton 以远程连线的方式，在加州大学洛杉矶分校（UCLA）的纯粹与应用数学研究所（IPAM）发表了名为《AI 的未来》（The Future of AI）的最新演讲。 &nbsp; &nbsp; &nbsp; 图源：https://www.youtube.com/watch?v=lieqoaBV6ww 演讲中，Sutton 表达了这样一种观点：尽管当下的 AI 仍受限于对人类数据的学习，但未来的 AI 将立足于从交互经验中学习。这样的范式能让模型持续获取新知识，从而爆发出远超现状的演进潜力。 这一观点与 GLM-5 发力 Agentic Engineering 并推进「系统级交付」的范式选择不谋而合：让 AI 脱离人类预设的指令集，转而在长程真实或虚拟环境中通过 RL 实现自我进化。 在长程规划与资源管理能力上，GLM-5 证明了其实力。如下图左的 Vending-Bench 2（让 AI 模拟自动售货机一整年）和图右的 CC-Bench-V2（智谱 AI 官方内部测试）基准结果所示，GLM-5 的表现接近并在一些任务上能够超越 Claude Opus 4.5。 根据 Artificial Analysis 最近的一项数据显示，相较于 Anthropic 最强的 Claude Opus 4.6，作为开源模型的 GLM-5 与其之间的智能差距已经缩小到史无前例的程度。 在开源步步逼近闭源竞品的路上，GLM-5 交出了一份令业界惊叹的答卷。 而这仅仅是智谱在 Agentic Engineering 路径上的首次出手，下一代 GLM 旗舰模型又将进化到何种程度，我们拭目以待。",
+      "source": "机器之心",
+      "publishedAt": "Mon, 23 Feb 2026 20:18:55 +0800",
+      "region": "国内",
+      "summary": "智谱公司发布了新一代旗舰基座大模型GLM-5的完整技术报告，详细阐述了其核心技术亮点与创新。GLM-5面向Agentic Engineering打造，在代码能力、长上下文处理和Agent工具调用方面表现突出，并在SWE-bench等多个主流基准测试中取得了开源SOTA级表现。报告揭示了其性能背后的三大核心技术：采用DSA注意力机制以平衡长文本推理与成本、通过异步强化学习框架Slime提升后训练效率、以及运用Agent强化学习算法从复杂交互中高效学习。",
+      "category": "技术与研究",
+      "company": "智谱",
+      "score": 43,
+      "breakdown": {
+        "substance": 23,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "MiniMax春节表现亮眼：M2.5模型周调用量破3T，登顶热度榜",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-23-5",
+      "snippet": "编辑｜杨文 这个春节，MiniMax 杀疯了。 2 月 20 日，港股马年首个交易日，MiniMax 收盘股价报涨 14.52%，市值一度冲破 3042 亿港元。 这轮上涨并非只是资本市场的情绪宣泄。 过去两年，AI 行业的叙事几乎集中在供给侧，比如更强的模型、更快的芯片、更大的数据中心。然而，制约 AI 产业规模化落地的，除了供给侧的能力上限外，还有大量长期憋着、始终未能真正释放的需求。 春节假期前后，MiniMax 发布新一代模型 M2.5，这些被压制的需求终于找到了一个出口。 M2.5 发布后 12 小时内登顶 OpenRouter 热度榜，一周内登顶调用量榜首，周调用量暴涨至 3.07T tokens ，超过 Kimi K2.5、GLM-5 与 DeepSeek V3.2 三家的总和。 这还不是故事的全部。OpenRouter 整体调用量也在同步攀升。官方随后确认， M2.5 带动了 100K 至 1M 长文本区间的增量调用需求 ，而这个区间正是 Agent 工作流的典型消耗场景。 此前因为找不到能力和成本同时过关的模型，大量开发者手里攥着现成的工作流却迟迟无法启动。Agent 任务的 token 消耗远比普通对话密集，需求一旦被激活，带动的调用增量自然相当可观。 硅谷在用什么，已经悄悄变了 早在 MiniMax 推出 M2.1 模型时，被公认为 Cursor 最强挑战者的硅谷新贵 Kilo Code 就已表态。这家可调用全球超过 500 种模型的 AI 编程工具，在核心产品的默认模型位置上，曾高调宣布首选 MiniMax M2.1。 Kilo 联合创始人兼 CEO Breitenother 给出的理由简单粗暴：在开发者直接评判的真实编码工作流程中，M2.1 能够与前沿模型相媲美。 此次 M2.5 发布后随即全面开源，模型权重在 HuggingFace 上发布，支持本地部署 ，Kilo 再次宣布接入。与此同时，OpenCode、OpenClaw、Fireworks、Factory、TRAE、Cline、OpenHands、Roo Code，以及 Ollama、vLLM、SGLang、Dify、魔搭社区等 国内外知名开源 Agent 应用、开源工具平台，也在第一时间接入 。 Kilo 代表新一代 AI 编程工具的方向，OpenClaw 代表最新的 AgentOS，它们在底层模型的选择上极为挑剔，M2.5 能够成为这类产品的优先推荐，意味着在真实生产环境中对于模型的认可。 在编程领域最具代表性的 SWE-Bench Verified 评测中，M2.5 以 80.2% 的通过率达到了与 Claude Opus 系列相当的水平，在多语言任务 Multi-SWE-Bench 上排名第一。 知名技术博主 Simon Willison 使用 mini-swe-agent 对当前主流模型进行了独立测评，结果显示 M2.5 排名第三，仅次于 Claude Opus 4.5 和 Gemini 3 Flash，且是 开源模型中的第一名 。 执行效率也有实质性提升。研究机构 SemiAnalysis 实测显示，在 8 张 H200 显卡上，M2.5 在合理首 token 延迟范围内能够持续达到每 GPU 每秒约 2500 个 token 的吞吐量，即便在严格要求每用户每秒 20 个 token 交互性的条件下，处理超过 1 万个 token 的上下文时仍能维持稳定的解码速度。 开源 Agent 社区的密集接入同样说明问题。对于需要长时间运行、高频调用工具的 Agent 框架来说，模型的定价直接决定了产品能否跑通商业逻辑。 M2.5 的价格区间恰好落在这批产品真正能接受的范围里。它提供两个版本：100 TPS 快速版，输入每百万 tokens 仅需 0.3 美元，输出每百万 tokens 仅需 2.4 美元；50 TPS 版本输出价格还要再降一半。 能力、速度、成本，这三个维度在 M2.5 上同时达标，带来的结果在 OpenRouter 上看得尤为清楚，M2.5 第一次走出了一条接近指数型的曲线。 满足真实需求，从底层重新设计 这些提升的背后，得益于 MiniMax 从工程底层重新设计的一套原生 Agent 强化学习系统，代号 Forge。 Forge 将 Agent 的执行逻辑与底层训练推理引擎彻底解耦。 在此之前，大多数 RL 框架要求把 Agent 当作白盒来处理，Agent 与框架之间需要深度共享内部状态，一旦涉及动态上下文管理或多 Agent 协作，工程复杂度就会急剧膨胀；传统的 Token-In-Token-Out 模式还迫使 Agent 与底层 Tokenizer 深度绑定，维护训练和推理之间的一致性成本极高。 Forge 通过引入 中间件抽象层 绕开了这两个问题。Gateway Server 作为标准化通信网关，将 Agent 的高层行为与底层模型复杂性隔离；Data Pool 异步收集训练轨迹，使生成与训练彻底解耦。这套架构让 MiniMax 可以在不修改任何 Agent 内部代码的前提下，接入数百种框架和数千种工具调用格式进行训练。 在 训练效率 上，Forge 引入了 Prefix Tree Merging 方案，将训练样本从线性序列重构为树形结构，消除了多轮 Agent 请求之间大量重复的上下文前缀，实现了约 40 倍的训练加速，同时显著降低了显存开销。 异步调度 上，Forge 提出 Windowed FIFO 策略，在最大化系统吞吐量的同时，通过滑动窗口约束控制样本的离策略程度，避免训练分布向「快而简单」的样本严重偏移，兼顾了效率与稳定性。 算法层面 ，MiniMax 沿用自研的 CISPO 算法保障 MoE 模型在大规模训练中的稳定性，并针对 Agent 场景的长轨迹信用分配难题，设计了由过程奖励、任务完成时间奖励与 Reward-to-Go 三部分组成的复合奖励：过程奖励对 Agent 中间行为进行密集监督，不只依赖最终结果；任务完成时间奖励将相对完成时间作为奖励信号，激励模型主动利用并行策略选择最短执行路径；Reward-to-Go 则通过标准化回报大幅降低梯度方差，稳定优化过程。 此外，MiniMax 还将上下文管理机制直接整合进了 RL 交互循环，将其视为驱动状态转换的功能性动作，让模型在训练阶段就学会预见并适应上下文变迁，这从根本上解决了长程任务中随交互轮次增加而出现的注意力稀释问题。 正是这套系统，让 M2.5 在 Kilo、OpenClaw 这类对模型要求颇为苛刻的 Agent 框架上跑出了稳定的表现。 超越 Agentic Engineering，面向下一代应用生态 在过去 108 天里，MiniMax 陆续推出了 M2、M2.1 和 M2.5，在 SWE-Bench Verified 榜单上，M2 系列的进步速度超过了 Claude、GPT 和 Gemini 系列， 是行业迭代最快的 。 这个节奏，恰好踩在一个需求爆发的窗口上。OpenClaw 从籍籍无名到席卷全球，前后不过一两个月时间。如今 OpenRouter 上已有上千种类似工具和应用在此生长，这片 ChatGPT、Claude、Gemini「御三家」之外的生态里，开发者只认一个标准：模型跑不跑得通、用不用得起。 能力达到第一梯队、价格只有主流旗舰模型十分之一、还支持本地部署，MiniMax M2.5 和一系列国产模型的出现，恰好在性能与成本之间击穿了那个临界点，让开源社区里那些原本只存在于 Demo 中的复杂多 Agent 系统，第一次具备了大规模商业落地的经济可行性。 3T tokens 的周调用量背后，是开发者们用脚投出的票。这个数字不只是 M2.5 模型的增量， 更是硅谷下一代的开源生态应用的增量 。 那些被压制了许久的 Agent 需求，真的要开始跑起来了。",
+      "source": "机器之心",
+      "publishedAt": "Mon, 23 Feb 2026 20:26:16 +0800",
+      "region": "国内",
+      "summary": "春节期间，MiniMax公司发布的新一代模型M2.5在市场上引发强烈反响。该模型在发布后12小时内登顶OpenRouter热度榜，一周内周调用量达到3.07T tokens，超过Kimi K2.5、GLM-5与DeepSeek V3.2三家的总和，并带动了长文本区间的增量调用需求。M2.5模型已全面开源，支持本地部署，并获得了包括Kilo Code、OpenClaw在内的国内外多家知名开源Agent应用和工具平台的接入。在SWE-Bench Verified评测中，M2.5达到了与Claude Opus系列相当的水平，并在多语言任务中排名第一，同时在实际部署中展现出较高的执行效率。",
+      "category": "技术与研究",
+      "company": "MiniMax",
+      "score": 37,
+      "breakdown": {
+        "substance": 17,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "华为发布CLI-Gym：首个面向Terminal-Bench环境交互任务的数据规模化方案，解决率提升超20%",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-23-4",
+      "snippet": "「首个公开的面向 Terminal-Bench 环境交互类任务的数据规模化生产管线正式发布！」 开源完整自动化数据构建算法 构建 1655 个高可靠 CLI 任务环境镜像 通过 291 条轨迹数据带来 20% 解决率提升 在 Agentic Coding 领域，基于 SWE-bench 的数据管线研究已取得长足进展。过去一年中，业界涌现了大量相关工作，例如 SWE-Gym、SWE-Smith 和 R2E-Gym 等，极大推动了以代码生成为核心的 Agentic Coding 发展，也使得当前最先进的开源模型与闭源模型之间的表现差距显著缩小。然而，对于更广泛的环境交互类问题（如 Terminal-Bench 所涵盖的任务），目前尚没有公开的高效和可规模化的数据生产方案，导致相关数据构建困难重重，高度依赖人工参与，这已然成为制约该方向发展的瓶颈，也使得在相关任务上开源模型的表现大幅落后于闭源模型。 因此 CLI-Gym 来了！我们首先尝试用 Dockerfile 对环境进行结构化与可复现定义；进一步，将数据生产管线本身重新建模为一种 Agentic Coding 任务：在健康环境中驱动 Code Agent 执行环境反演（即 &ldquo;劣化&rdquo; 操作），自动生成问题环境及其准确的单元测试，从而实现问题实例与验证工具的自动化构造。 我们在 29 个基础镜像上制造出 1655 个针对 Terminal-Bench 实例并产出 291 条高质量成功轨迹，我们的微调模型 LiberCoder 32B 和 235B 在 Terminal Bench 上分别实现了 + 28.6%（至 38.9%）和 + 21.1%（至 46.1%）的提升。 我们的管线创新性地以 Codebase、Dockerfile 与 Base Image 为核心抽象，完备地定义任意 CLI Coding 实体，使环境构建、问题生成与验证机制形成统一表达框架，具备良好的可组合性与通用性。我们希望这一范式能够进一步拓展至更多 Agentic Coding 场景，推动更通用的数据生产算法与基准构建方法的发展。 论文、代码和镜像数据均会在如下链接放出： 论文链接：https://arxiv.org/pdf/2602.10999 开源代码：https://github.com/LiberCoders/CLI-Gym 镜像数据：https://huggingface.co/datasets/LiberCoders/CLI-Gym 背景介绍 近年来，Agentic Coding 正在快速改变软件工程任务的解决方式，模型能力的边界正在从 &ldquo;写代码&rdquo; 逐渐扩展为 &ldquo;解决真实软件系统中的复杂问题&rdquo;。当前的研究重点还停留在以 SWE-bench 为核心的的 代码层面 的研究，而在现实的软件工程和系统运维场景中， 大量问题并非源于代码本身，而是来自运行环境 ，例如依赖版本冲突、环境变量错误、权限配置问题、系统库损坏、网络配置错误等。这类问题通常无法或很难通过修改代码修复，而必须依赖 agent 通过命令行理解系统状态，定位问题来源，并执行一系列系统级操作恢复环境运行状态。因此，对 agent 的环境理解与干预能力的要求越来越高。 Terminal-Bench 的任务恰好契合这一需求。其基准中包含大量以环境修复为核心目标的任务，对 agent 在 CLI 环境下的交互、诊断与修复能力提出了更高要求。然而，从当前官方 leaderboard 可以观察到，高性能方案往往依赖围绕强闭源模型构建的复杂 agent 框架，通过大量提示工程与多轮反思机制来弥补模型在环境理解与问题定位方面的能力不足。相比之下，围绕开源模型如何通过系统性训练提升其环境修复能力的研究仍然相当有限。 其根本瓶颈在于：环境密集型任务难以规模化生成。代码类问题可以通过挖掘仓库历史与 pull request 自动构建训练数据，但环境状态通常缺乏可追溯的演化记录，难以进行自动化重建与标注。这使得环境任务的数据长期依赖人工构造，规模难以扩展，也限制了模型在该方向上的持续训练与能力提升。 CLI-Gym 正是在这一背景下提出，旨在通过自动化机制突破环境依赖型任务数据难以规模化的问题，为 agent 能力训练提供可持续的数据来源。我们创新性地将数据生产管线本身重新建模为一种 Agentic Coding 任务：在健康环境中驱动 Code Agent 执行环境反演（即 &ldquo;劣化&rdquo; 操作），自动生成问题环境及其精确的单元测试，从而实现问题实例与验证机制的自动化构建。 如上表所示，该建模思路具有良好的通用性，不仅适用于环境依赖型任务的构造，也在统一框架下涵盖了此前 SWE 系列方法的核心范式，实现了方法论层面的整合与扩展。 Pipeline：通过环境反演自动生成故障任务 CLI-Gym 的核心思想非常巧妙，通过模拟环境历史自动生成故障场景。与传统方法相反，我们不是从零构建受损环境，而是驱动一个 &ldquo;破坏者&rdquo; agent 主动篡改健康环境，制造多样化故障，再将其转化为可修复的任务实例。 CLI-Gym 的核心思想在于重新思考任务生成方式：既然真实环境问题通常源于环境状态的错误，那么我们不再从零人工构造损坏环境，而是从健康环境出发，自动模拟环境如何被破坏，从而反向构造出可修复任务。这一思想被称为 &ldquo;环境反演&rdquo;，即通过 agent 将一个原本正常运行的环境主动破坏，使其回退到包含运行错误的状态，再将这一退化过程转换为 agent 需要修复的问题实例。在具体流程中，系统首先从真实开源仓库中构建包含健康环境的 Docker 镜像，该环境能够成功运行并通过全部单元测试，作为后续任务生成的起点。随后系统自动从 Unit Tests 中抽取目标 UT，通过语言模型生成诱导 agent 执行环境破坏的指令，例如删除关键依赖、篡改配置文件、破坏系统库、修改路径或权限等，agent 在执行过程中不断改变环境状态，使得部分测试失败，从而模拟真实系统退化或配置错误产生的历史过程。 当环境中出现失败测试后，系统根据失败日志、执行轨迹以及环境变更自动生成问题描述与修复目标，从而形成完整 CLI 任务实例，agent 的目标是通过命令行操作恢复环境，使失败测试重新通过。 整个流程无需人工参与，从健康环境生成故障环境，再从故障环境构造修复任务，实现了环境问题的自动规模化生成。 这一过程不仅能够模拟真实系统问题的产生方式，同时由于每次破坏路径不同，也带来了丰富多样的任务类型，使得生成任务覆盖软件工程、系统管理、安全调试等多个场景，显著提升训练数据的多样性与真实性。 产出：规模化与高质量的数据 基于这一自动化 pipeline，CLI-Gym 在 29 个真实开源仓库中生成了 1,655 个环境密集型 CLI 任务实例，规模远超 Terminal-Bench 的人工构造数据，同时任务类型覆盖多个应用领域，展现出极强的可扩展性。与现有 benchmark 相比，这些任务具有更高复杂度，每个任务平均包含超过 20 个失败测试，为 agent 提供更丰富的诊断信号和修复反馈，使模型必须真正理解系统状态并执行多步操作才能完成修复，而不是通过简单代码修改或投机策略通过测试。此外，该流程完全自动化运行，仅消耗计算资源而无需人工标注，相比依赖大量工程师构造任务的传统方式大幅降低成本，使环境任务数据能够持续扩展。 在轨迹数据收集阶段，系统通过强模型运行这些自动生成任务，收集成功修复轨迹，并通过严格过滤机制排除过于简单或存在作弊路径的轨迹，仅保留真正体现复杂环境修复过程的数据，最终获得数百条高质量 agent 行为轨迹，用于后续模型训练。这些轨迹展示了丰富的修复策略，包括依赖恢复、系统配置调试、权限问题处理与环境组件修复等，为模型学习真实环境问题解决模式提供了宝贵监督信号。 实战效果：显著提升环境问题解决能力 基于 CLI-Gym 生成的数据对 Qwen3 系列模型进行微调后，得到 LiberCoder 系列模型，在 Terminal-Bench 上取得显著性能提升。 LiberCoder-32B 在 Terminal-Bench 1.0 上的 Pass@1 达到 38.9%，相比基础模型实现大幅提升，而规模更大的 LiberCoder-235B-A22B 达到 46.1%，超过大多数开源模型，并接近部分闭源模型性能。 进一步分析发现，微调后的模型在环境问题处理能力上发生明显变化，模型不再频繁失败于编辑错误或问题定位，而更多受到上下文长度与执行时间等外部因素限制，说明其核心环境修复能力已经显著增强。同时在多个任务类别中均观察到一致提升，包括软件工程、系统管理、安全修复与调试任务，说明 CLI-Gym 数据并非针对单一场景优化，而是全面增强了模型在环境交互任务中的泛化能力。 结语 CLI-Gym 是第一种用于扩展 CLI 代理编码任务训练环境的公开方法。使用 Dockerfile 来表示每个环境，以进行精确的配置和版本控制，并使用 agent 来模拟环境历史。整理了 1655 个任务实例，收集了 291 个成功的轨迹。实验表明，对我们的数据进行微调可以大大增强以环境为中心的代理编码，从而在开源模型中在 Terminal Bench 上实现顶级性能。",
+      "source": "机器之心",
+      "publishedAt": "Mon, 23 Feb 2026 20:22:25 +0800",
+      "region": "国内",
+      "summary": "华为发布了首个面向Terminal-Bench环境交互类任务的公开数据规模化生产管线CLI-Gym，旨在解决此类任务数据构建困难、依赖人工的瓶颈。该方案通过将数据生产管线建模为Agentic Coding任务，利用Dockerfile结构化定义环境，驱动Code Agent执行环境反演，自动生成问题环境及单元测试。在29个基础镜像上构建了1655个CLI任务环境镜像，并产出291条高质量轨迹数据，使得其微调模型LiberCoder在Terminal-Bench上的解决率获得了超过20%的显著提升。论文、代码和镜像数据均已公开。",
+      "category": "技术与研究",
+      "company": "华为",
+      "score": 35,
+      "breakdown": {
+        "substance": 20,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "智谱GLM-5技术论文全公开，完全适配华为等国产芯片",
+      "url": "https://www.qbitai.com/2026/02/381712.html",
+      "snippet": "引入DeepSeek同款机制",
+      "source": "量子位",
+      "publishedAt": "Mon, 23 Feb 2026 05:19:44 +0000",
+      "region": "国内",
+      "summary": "智谱公司公开了GLM-5大模型的技术论文，详细介绍了其核心技术。论文指出，GLM-5引入了类似DeepSeek的稀疏注意力机制以降低长上下文计算成本，并采用了异步强化学习基础设施提升训练效率。该模型已完成对华为昇腾、摩尔线程、海光、寒武纪、昆仑芯、沐曦及燧原等国产芯片的全栈适配。论文发布后，有观点认为其在成本效率方面表现突出，并引发了海外社区的关注与讨论。",
+      "category": "技术与研究",
+      "company": "智谱",
+      "score": 32,
+      "breakdown": {
+        "substance": 17,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Guide Labs推出新型可解释大语言模型",
+      "url": "https://techcrunch.com/2026/02/23/guide-labs-debuts-a-new-kind-of-interpretable-llm/",
+      "snippet": "The company open sourced an 8-billion-parameter LLM, Steerling-8B, trained with a new architecture designed to make its actions easily interpretable.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 23 Feb 2026 17:53:28 +0000",
+      "region": "海外",
+      "summary": "Guide Labs公司开源了一款名为Steerling-8B的80亿参数大语言模型。该模型采用了一种旨在使其行为易于解释的新架构进行训练。",
+      "category": "技术与研究",
+      "company": "Guide Labs",
+      "score": 48,
+      "breakdown": {
+        "substance": 27,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "OpenAI的GPT-5热度下降，智能体评估面临挑战",
+      "url": "https://www.theinformation.com/newsletters/ai-agenda/openais-gpt-5-dip-agents-hard-evaluate",
+      "snippet": "Before we get into today's column, Friday's story from Sri and me confirmed what many had been hypothesizing since OpenAI's release of GPT-5 in August:...",
+      "source": "The Information",
+      "publishedAt": "11 hours ago",
+      "region": "海外",
+      "summary": "文章提及自OpenAI八月发布GPT-5以来，其热度有所下降。同时，文章指出评估AI智能体（Agents）的难度是一个重要议题。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 22,
+      "breakdown": {
+        "substance": 4,
+        "importance": 11,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "今日摘要：芝加哥监控网络与更好的文胸设计",
+      "url": "https://www.technologyreview.com/2026/02/23/1133495/the-download-chicagos-surveillance-network-and-building-better-bras/",
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside Chicago’s surveillance panopticon Chicago has tens of thousands of surveillance cameras—up to 45,000, by some estimates. That’s among the highest numbers per capita in the US. Chicago boasts one of the largest…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 23 Feb 2026 13:10:00 +0000",
+      "region": "海外",
+      "summary": "这是 The Download 的今日版，该每日通讯提供技术世界的最新动态。本期内容涵盖了芝加哥庞大的监控网络，该市估计拥有高达4.5万个监控摄像头，数量位居世界前列。同时，通讯也提及了关于改进文胸设计的相关内容。",
+      "category": "技术与研究",
+      "company": "The Download",
+      "score": 19,
+      "breakdown": {
+        "substance": 3,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "AI时代投资者忠诚度几近消亡：至少十余家OpenAI风投同时投资Anthropic",
+      "url": "https://techcrunch.com/2026/02/23/with-ai-investor-loyalty-is-almost-dead-at-least-a-dozen-openai-vcs-now-also-back-anthropic/",
+      "snippet": "While some dual investors are understandable, others were more shocking, and signal the disregard of a longstanding ethical conflict-of-interest rule.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 23 Feb 2026 21:46:41 +0000",
+      "region": "海外",
+      "summary": "报道指出，在AI投资领域，投资者同时支持多家竞争公司的现象变得普遍。至少有十几家曾投资OpenAI的风险投资机构现在也投资了其竞争对手Anthropic。虽然部分双重投资可以理解，但另一些则令人震惊，这标志着长期以来关于利益冲突的伦理规则被忽视。",
+      "category": "投融资与并购",
+      "company": "OpenAI, Anthropic",
+      "score": 27,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "Anthropic指控中国AI实验室窃取Claude能力，正值美国辩论AI芯片出口管制",
+      "url": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "snippet": "Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude’s AI capabilities, as U.S. officials debate export controls aimed at slowing China’s AI progress.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 23 Feb 2026 19:57:27 +0000",
+      "region": "海外",
+      "summary": "Anthropic公司指控中国的深度求索、月之暗面和MiniMax三家AI实验室，通过创建24000个虚假账户来提取其Claude模型的能力。这一指控提出的时机，正值美国官员辩论旨在减缓中国AI进步的出口管制措施，特别是关于AI芯片的出口控制。",
+      "category": "政策与监管",
+      "company": "Anthropic",
+      "score": 27,
+      "breakdown": {
+        "substance": 6,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ]
+}

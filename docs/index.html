@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AI日报 - 在线编辑器</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', sans-serif;
+            background: #f5f5f5;
+            padding-bottom: 100px;
+        }
+        .header {
+            background: linear-gradient(135deg, #1c5cff 0%, #00c6ff 100%);
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header h1 { font-size: 22px; margin-bottom: 5px; }
+        .header .date { font-size: 13px; opacity: 0.9; }
+        .header .count { font-size: 12px; margin-top: 5px; opacity: 0.8; }
+        
+        .action-bar {
+            background: white;
+            padding: 15px 20px;
+            margin: 15px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .action-bar p {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background: #07c160;
+            color: white;
+            border: none;
+            padding: 14px 40px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(7, 193, 96, 0.35);
+            transition: all 0.2s;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .btn:active {
+            transform: scale(0.96);
+            box-shadow: 0 2px 8px rgba(7, 193, 96, 0.25);
+        }
+        .btn-secondary {
+            background: #576b95;
+            margin-left: 10px;
+            box-shadow: 0 4px 12px rgba(87, 107, 149, 0.35);
+        }
+        .btn-secondary:active {
+            box-shadow: 0 2px 8px rgba(87, 107, 149, 0.25);
+        }
+        
+        .editor-container {
+            background: white;
+            margin: 0 15px 15px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .editor-toolbar {
+            background: #f8f9fa;
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            font-size: 13px;
+            color: #666;
+        }
+        #rich-editor {
+            padding: 20px;
+            min-height: 400px;
+            font-size: 15px;
+            line-height: 1.8;
+            color: #333;
+            outline: none;
+        }
+        #rich-editor:focus {
+            background: #fafafa;
+        }
+        
+        .section-title {
+            color: #1c5cff;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 25px 0 15px;
+            padding: 8px 12px;
+            background: #f0f7ff;
+            border-radius: 6px;
+            display: inline-block;
+        }
+        .article {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 3px solid #1c5cff;
+        }
+        .article-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .article-meta {
+            font-size: 12px;
+            color: #999;
+            margin-bottom: 10px;
+        }
+        .article-summary {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #999;
+            font-size: 12px;
+        }
+        
+        .toast {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0,0,0,0.85);
+            color: white;
+            padding: 18px 32px;
+            border-radius: 10px;
+            font-size: 15px;
+            display: none;
+            z-index: 1000;
+            text-align: center;
+            max-width: 80%;
+        }
+        .toast.success { background: rgba(7, 193, 96, 0.95); }
+        .toast.error { background: rgba(255, 77, 79, 0.95); }
+        
+        .tips {
+            background: #fffbe6;
+            border: 1px solid #ffe58f;
+            padding: 12px 15px;
+            margin: 15px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #666;
+        }
+        .tips strong { color: #d48806; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🤖 AI 每日快报</h1>
+        <div class="date" id="current-date">加载中...</div>
+        <div class="count" id="article-count"></div>
+    </div>
+    
+    <div class="action-bar">
+        <p>💡 点击下方按钮复制全部内容<br>然后在公众号编辑器中粘贴即可保留格式</p>
+        <button class="btn" onclick="copyForWechat()">📋 复制到公众号</button>
+        <button class="btn btn-secondary" onclick="openWechatMP()">📱 打开公众号助手</button>
+    </div>
+    
+    <div class="tips">
+        <strong>📝 使用说明：</strong><br>
+        1. 点击「复制到公众号」按钮<br>
+        2. 内容已复制（含格式）<br>
+        3. 打开公众号助手粘贴即可
+    </div>
+    
+    <div class="editor-container">
+        <div class="editor-toolbar">
+            📄 编辑区（可直接修改内容）
+        </div>
+        <div id="rich-editor" contenteditable="true">
+            <p style="text-align: center; color: #999; padding: 50px;">正在加载内容...</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>AI 每日快报 · 自动生成</p>
+        <p style="margin-top: 8px; opacity: 0.7;">每天 8:00 更新</p>
+    </div>
+    
+    <div class="toast" id="toast"></div>
+
+    <script>
+        // 示例数据 - 实际应从 JSON 文件加载
+        const demoData = {
+            date: new Date().toLocaleDateString('zh-CN'),
+            count: 8,
+            articles: [
+                {
+                    section: '产品发布与更新',
+                    title: 'OpenAI 发布 GPT-4.5 预览版',
+                    source: '机器之心',
+                    summary: 'OpenAI 今日发布了 GPT-4.5 的预览版本，新模型在推理能力和多模态理解上有显著提升，支持更长的上下文窗口。'
+                },
+                {
+                    section: '产品发布与更新',
+                    title: 'Google 推出 Gemini Pro 1.5',
+                    source: 'InfoQ',
+                    summary: 'Google 宣布 Gemini Pro 1.5 正式上线，支持 100万 token 上下文，可处理 1 小时视频内容。'
+                },
+                {
+                    section: '技术与研究',
+                    title: 'Meta 开源 Llama 3 训练细节',
+                    source: '36氪',
+                    summary: 'Meta 公布了 Llama 3 的完整训练日志和技术报告，包括数据集构建、训练策略等核心细节。'
+                }
+            ]
+        };
+        
+        // 渲染内容
+        function renderContent(data) {
+            document.getElementById('current-date').textContent = data.date;
+            document.getElementById('article-count').textContent = `共 ${data.count} 条精选资讯`;
+            
+            const editor = document.getElementById('rich-editor');
+            
+            let html = `
+<section style="max-width: 600px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; line-height: 1.8;">
+    
+    <div style="text-align: center; padding: 30px 20px; background: linear-gradient(135deg, #1c5cff, #00c6ff); border-radius: 12px; margin-bottom: 20px;">
+        <h1 style="color: white; margin: 0 0 10px; font-size: 24px;">🤖 AI 每日快报</h1>
+        <p style="color: white; margin: 0; opacity: 0.9; font-size: 14px;">${data.date}</p>
+    </div>
+    
+    <div style="background: #f0f7ff; border-left: 4px solid #1c5cff; padding: 15px; margin-bottom: 25px; border-radius: 0 8px 8px 0;">
+        <p style="margin: 0; font-size: 14px; color: #333;">📌 本期精选 ${data.count} 条 AI 行业资讯，内容由 AI 自动抓取并生成摘要。</p>
+    </div>
+`;
+            
+            // 按分类渲染
+            const sections = [...new Set(data.articles.map(a => a.section))];
+            const sectionColors = {
+                '产品发布与更新': '#07c160',
+                '技术与研究': '#1989fa',
+                '投融资与并购': '#ff6b6b',
+                '政策与监管': '#ff9f43'
+            };
+            
+            sections.forEach(section => {
+                const items = data.articles.filter(a => a.section === section);
+                const color = sectionColors[section] || '#1c5cff';
+                
+                html += `
+    <h2 style="color: ${color}; font-size: 16px; margin: 25px 0 15px; padding: 8px 12px; background: #f0f7ff; border-radius: 6px; display: inline-block;">${section}</h2>
+`;
+                
+                items.forEach(item => {
+                    html += `
+    <div style="background: #f8f9fa; padding: 15px; border-radius: 10px; margin-bottom: 12px; border-left: 3px solid ${color};">
+        <h3 style="font-size: 15px; color: #333; margin: 0 0 8px; line-height: 1.5; font-weight: 600;">${item.company ? `<span style="color: ${color};">[${item.company}]</span> ` : ''}${item.title}</h3>
+        ${item.source ? `<p style="font-size: 12px; color: #999; margin: 0 0 8px;">📰 ${item.source}</p>` : ''}
+        <p style="font-size: 14px; color: #555; margin: 0; line-height: 1.8;">${item.summary}</p>
+    </div>
+`;
+                });
+            });
+            
+            html += `
+    <div style="text-align: center; padding: 20px; margin-top: 30px; border-top: 1px solid #eee;">
+        <p style="color: #999; font-size: 12px; margin: 0;">AI 每日快报 · ${data.date}</p>
+    </div>
+    
+</section>`;
+            
+            editor.innerHTML = html;
+        }
+        
+        // 复制到公众号（保留格式）
+        function copyForWechat() {
+            const editor = document.getElementById('rich-editor');
+            
+            // 选中编辑器内容
+            const range = document.createRange();
+            range.selectNodeContents(editor);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            
+            // 执行复制
+            try {
+                document.execCommand('copy');
+                showToast('✅ 已复制全部内容！\n请打开公众号助手粘贴', 'success');
+            } catch (err) {
+                showToast('❌ 复制失败，请手动复制', 'error');
+            }
+            
+            // 清除选中
+            selection.removeAllRanges();
+        }
+        
+        // 打开公众号助手
+        function openWechatMP() {
+            // 尝试打开公众号助手
+            window.location.href = 'weixin://';
+            showToast('正在打开微信...', 'success');
+        }
+        
+        // 显示提示
+        function showToast(message, type) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = 'toast ' + type;
+            toast.style.display = 'block';
+            
+            setTimeout(() => {
+                toast.style.display = 'none';
+            }, 2500);
+        }
+        
+        // 加载数据
+        function loadData() {
+            // 尝试从 JSON 文件加载
+            fetch('latest.json')
+                .then(res => res.json())
+                .then(data => renderContent(data))
+                .catch(err => {
+                    console.log('使用示例数据');
+                    renderContent(demoData);
+                });
+        }
+        
+        // 初始化
+        loadData();
+    </script>
+</body>
+</html>

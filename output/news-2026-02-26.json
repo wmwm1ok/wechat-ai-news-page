@@ -1,0 +1,256 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "GitHub发布Agentic Workflows技术预览版，以AI智能体驱动代码库自动化",
+      "url": "https://www.infoq.cn/article/WXJ1S1rsALiDNxoswz6f?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 26 Feb 2026 08:00:00 GMT",
+      "region": "国内",
+      "summary": "GitHub近日推出了名为Agentic Workflows（智能体工作流）的技术预览版，旨在通过可理解上下文与意图的编码智能体，自动化处理代码仓库中的复杂重复性任务。该方案允许开发者使用简洁的Markdown文件定义自动化目标，由智能体通过GitHub Actions执行，可应用于自动问题分类、文档更新、CI故障排查、测试优化及报告生成等工作流。系统强调安全性，默认以只读权限运行，写入操作需经安全输出流程审查，并利用隔离沙箱和防火墙保护，确保智能体仅能访问授权资源。GitHub表示，该技术旨在增强而非取代现有CI/CD流程，并保持人类在关键决策环节的参与。",
+      "category": "产品发布与更新",
+      "company": "GitHub",
+      "score": 36,
+      "breakdown": {
+        "substance": 18,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "MiniMax推出MaxClaw模式，一键部署OpenClaw并提供上万专家智能体",
+      "url": "https://www.qbitai.com/2026/02/382127.html",
+      "snippet": "聊着天就能构建自己的专属Expert",
+      "source": "量子位",
+      "publishedAt": "Wed, 25 Feb 2026 15:58:43 +0000",
+      "region": "国内",
+      "summary": "MiniMax在其Agent平台上推出了名为MaxClaw的新模式，旨在简化OpenClaw生态的接入流程，实现一键配置。该模式预置了多种工具和内置技能，如爆款猎手、多Agent投研团队、热点追踪以及生图、搜图、生成视频等，并可直接接入飞书和钉钉等工作平台。此外，MiniMax Agent平台的Expert社区已拥有超过10000个针对不同垂直领域的现成专家智能体，用户可直接调用或创建自己的专属智能体。整个部署过程简便，从创建到启动仅需不到20秒。",
+      "category": "产品发布与更新",
+      "company": "MiniMax",
+      "score": 32,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Gemini现可在Android上自动化执行部分多步骤任务",
+      "url": "https://techcrunch.com/2026/02/25/gemini-can-now-automate-some-multi-step-tasks-on-android/",
+      "snippet": "Gemini on Android will be able to automate tasks involving rideshare requests, or grocery or food delivery, says Google.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 25 Feb 2026 18:00:00 +0000",
+      "region": "海外",
+      "summary": "谷歌宣布，Gemini在Android设备上将能够自动化执行涉及多步骤的任务。这些任务包括叫车服务请求，以及杂货或食品配送。该功能旨在简化用户的操作流程。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 22,
+      "breakdown": {
+        "substance": 0,
+        "importance": 6,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "OpenAI首席运营官表示ChatGPT广告推出将是“迭代式”的",
+      "url": "https://searchengineland.com/openai-coo-says-chatgpt-ad-rollout-will-be-iterative-470231",
+      "snippet": "OpenAI's COO says ChatGPT ad rollout will be gradual and privacy-focused, as it tests monetization without compromising user trust.",
+      "source": "Search Engine Land",
+      "publishedAt": "7 hours ago",
+      "region": "海外",
+      "summary": "OpenAI首席运营官表示ChatGPT的广告推出将是渐进且以隐私为中心的。该公司正在测试在不损害用户信任的前提下实现货币化的方式。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 21,
+      "breakdown": {
+        "substance": 9,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "阿里开源三款千问3.5新模型，消费级显卡即可运行",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-25-7",
+      "snippet": "刚过完年，阿里又卷起来了。 2 月 25 日，继除夕开源 Qwen3.5-397B-A17B 之后，阿里继续开源千问 3.5 系列模型，而且是一口气开源三款中等规模的新模型，分别是 &nbsp;Qwen3.5-35B-A3B、Qwen3.5-122B-A10B、Qwen3.5-27B 。 此次开源的三款千问 3.5 模型，凭借架构创新和训练突破，均创下中等尺寸模型的性能新高，不仅超越了更大尺寸的上代旗舰模型 Qwen3-235B-A22B 和 Qwen3-VL，更在多榜单表现上均明显优于 GPT-5 mini。 千问 3.5 新模型甚至 可直接部署于消费级显卡 ，对开发者极为友好。目前，基于 Qwen3.5-35B-A3B 的托管模型 Qwen3.5-Flash 已上线阿里云百炼， 每百万 Token 输入低至 0.2 元。 更小的参数，更强的性能 千问 3.5 模型采用混合注意力机制，结合高稀疏的 MoE 架构创新，并基于更大规模的文本和视觉混合 Token 上训练，新模型以更小的总参数和激活参数量，实现了更大的性能提升。 Qwen3.5-122B-A10B 与 Qwen3.5-35B-A3B，就是这一新范式在中等规模下的最新模型成果，在指令遵循（IFBench）、博士级别推理（GPQA）、数学推理（HMMT 25）、多语言知识（MMMLU）、Agent 工具调用（BFCL v4）、Agentic Coding（SWE-bench Verified）等多个权威榜单上，新模型均超越了远大于其规模的 Qwen3-235B-A22B 模型及 Qwen3-VL，以及 GPT-5 mini、gpt-oss-120b 等模型。 更紧凑的模型，更好的性能，千问 3.5 家族中的 首个密集（Dense）模型 Qwen3.5-27B 此次惊艳亮相。 Qwen3.5-27B 同时拥有更强的 Agent 能力和原生多模态能力，在工具调用、搜索、编程等多个 Agent 评测中均超过了 GPT-5 mini，在视觉推理、文本识别和理解、视频推理等多项视觉理解能力榜单中超过了 Qwen3-VL 旗舰模型和 Claude Sonnet 4.5。 Qwen3.5-27B 可运行于单个 GPU ，对于本地部署极为友好。 阿里开源再次引爆AI社区 此前，基于 Qwen3.5-397B-A17B 的 Qwen3.5-Plus 模型已上线阿里云百炼，性能媲美 Gemini 3 但 API 价格仅为其 5%，适用于高性能的 AI 编程、Agent 等场景。 此次，百炼上线基于 Qwen3.5-35B-A3B 的 Qwen3.5-Flash， 支持 1M 的上下文长度 ，提供官方的内置工具调用，企业和开发者每百万 Token 输入成本低至 0.2 元。Qwen3.5-Flash 响应速度快、性价比高、门槛低，适合处理工作、生产、生活的日常 AI 任务。 此外，Qwen3.5-35B-A3B 的基座（Base）模型也一并开源。 千问 3.5 的系列开源引发全球 AI 开源社区热议，有开发者指出，这将加速机器人产业的 VLA 模型发展，或将衍生出一批基于 Qwen3.5 的多模态模型。 据了解，除夕开源的 Qwen3.5-397B-A17B 模型已登顶 Hugging Face 全球榜首，截至目前， 阿里已开源千问模型超 400 个，全球下载量突破 10 亿次，衍生模型数超 20 万，千问稳居全球第一开源模型。",
+      "source": "机器之心",
+      "publishedAt": "Wed, 25 Feb 2026 16:43:34 +0800",
+      "region": "国内",
+      "summary": "2月25日，阿里巴巴继除夕开源Qwen3.5-397B-A17B后，再次开源了千问3.5系列的三款中等规模新模型，分别是Qwen3.5-35B-A3B、Qwen3.5-122B-A10B和Qwen3.5-27B。这些模型凭借架构创新和训练突破，在多个权威榜单上的性能超越了更大尺寸的上代旗舰模型以及GPT-5 mini等，并且能够直接部署于消费级显卡，对开发者友好。其中，基于Qwen3.5-35B-A3B的托管模型Qwen3.5-Flash已在阿里云百炼上线，每百万Token输入成本低至0.2元，支持1M上下文长度和官方内置工具调用。阿里已开源千问模型超过400个，全球下载量突破10亿次。",
+      "category": "技术与研究",
+      "company": "阿里",
+      "score": 64,
+      "breakdown": {
+        "substance": 33,
+        "importance": 16,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "仅需1100美元tokens，一周内重写Next.js",
+      "url": "https://www.jiqizhixin.com/articles/2026-02-25-8",
+      "snippet": "编辑｜冷猫 今天，Web 开发社区爆发了一条令人咋舌的技术新闻。 Cloudflare 的一名工程师在一周之内，借助 AI 模型从头重建了 Next.js 。 该公司的首席技术官 Dane Knecht 发推庆祝这一史诗级的成就，称之为 「Next.js 的解放日」 ，Next.js 属于每个人。 Cloudflare 称，在这次重构中，保留了 Next.js 的出色开发体验，没有定制的工具，打造了一个基于 Vite 构建的，名为 vinext 的替代框架。 Vinext 是一个可以无缝替换 Next.js 的框架，只需一条命令即可部署到 Cloudflare Workers。 在早期的基准测试中，它构建生产应用的速度最高可达 4 倍，生成的客户端包大小最高可缩小 57%。而且目前已有一些客户在将其用于生产环境。 最夸张的是，整个过程大约 只花费了价值 1100 美元的 tokens 。 Cloudflare 发布了该工作的介绍博客，感兴趣的读者可以进行参阅。 博客链接：https://blog.cloudflare.com/vinext/ 从 Next.js 到 vinext 的实验性进化 Next.js 的影响力与困境 Next.js 是当前最大的 React 全栈框架之一 ，它定义了数百万 web 应用的开发方式，尤其在 SSR（服务器渲染）、RSC（React Server Components）、静态生成与渐进再生（ISR）等特性上的创新，使其成为现代 Web 的标配。 然而，这把双刃剑也带来复杂性：它的构建工具 Turbopack、专有构建输出，以及与平台无关的部署流程，一直是生态中反复被提及的痛点。&nbsp; 以 Next.js 的构建输出为基础进行二次构建，是一种困难且脆弱的方法。过去几年，社区尝试使用 OpenNext 等适配器解决 Next.js 在云平台（尤其是 Cloudflare Workers）上的部署问题，这些工具通过转换 Next.js 的构建输出，使其在 V8 沙箱等环境下运行。但这种「转译层」经常与 Next.js 的版本更新相互博弈 &mdash;&mdash; 就像打地鼠一样，不断修补边缘兼容问题。 Next.js 一直在开发一个一等公民级别的 adapters API，目前这仍处于早期阶段。但即便有了 adapters，本质上仍然是构建在定制化的 Turbopack 工具链之上。而且 adapters 只覆盖构建和部署阶段。 在开发阶段，next dev 仍然只能在 Node.js 中运行，没有办法接入其他运行时环境。如果你的应用使用了平台特定 API，比如 Durable Objects、KV 或 AI 绑定，那么在开发环境中就无法直接测试这些代码，只能通过各种变通方案来实现。 Vinext 的方案 针对这些麻烦事儿，Cloudflare 的工程师提出，如果我们不去适配 Next.js 的构建输出，而是直接在 Vite 之上重新实现 Next.js 的 API 接口，会怎么样？ Vite 是除 Next.js 之外，大多数前端生态所使用的构建工具，驱动着 Astro、SvelteKit、Nuxt 和 Remix 等框架。 Vite（法语意为「快」）是一款现代前端构建工具，它通过重新设计开发和构建流程，让 Web 开发的体验变得 极速、直观且高效。它最早由 Evan You（Vue.js 创始人）提出，并在 2020 年正式发布，迅速成为了整个前端生态的核心基础设施之一。&nbsp; 传统的前端构建工具（例如 Webpack 或 Parcel）会在启动开发服务器之前，把整个应用代码全部打包处理，这在大型项目中会带来明显的延迟。而 Vite 的理念则是借助现代浏览器和生态的新能力 &mdash;&mdash; 原生 ES 模块（ESM），彻底改变这一体验。 在安装 vinext 后，只需在脚本中将 next 替换为 vinext，其余一切保持不变，现有的 app/、pages/ 以及 next.config.js 都可以直接使用。 初期基准测试显示，vinext 在构建速度和客户端 bundle 大小上都有显著优势： 在某 33 路由应用上，利用 Vite 8（Rolldown）构建，vinext 构建时间比 Next.js 快 约 4.4 倍 ； 客户端 bundle gzipped 大小比 Next.js 小 约 56% 以上。&nbsp; 这一数字并非偶然。Vite 生态的原生 ESM 和轻量构建管线使得整体构建过程比 Next.js 传统的 Turbopack 更加敏捷，而 AI 成功编写可通过严格测试的实现代码，则是这一成果得以快速达成的关键。 不过官方也强调，这仍然是一个 实验性项目 。vinext 上线时间不足一周，尚未经过大规模流量考验，某些 Next.js 的静态预渲染方案（静态 build 预挂载生成）仍未完全覆盖，需要进一步打磨。 完全用 AI 完成重建 根据 Cloudflare 官方博客，整个项目由一名工程经理牵头，只用了大约 一周时间、约 800 多次与 AI 模型交互的 OpenCode 会话、以及合计约 1100 美金的 AI token 成本 ，就搭建出了一个 兼容 Next.js 16 API 的替代框架。&nbsp; 项目从 2 月 13 日第一条提交开始： 当天晚上，就实现了基础的 Pages Router 和 App Router 的 SSR 渲染、Middleware 支持、Server Actions 等。 第二天下午，App Router Playground 可渲染绝大多数路由。 到第三天，vinext deploy 已能将应用打包并发布到 Cloudflare Workers，并支持客户端水合和导航。 剩下几天则用于完善测试套件（包括 1700 多个 Vitest 单元测试和 380 多个 Playwright E2E 测试）和覆盖 Next.js API 94% 的测试验证。&nbsp; 该项目是 AI 在工程师设定架构规范、分配任务、执行反馈循环的协助下逐步逼近高质量实现的结果。 为什么一个如此夸张的项目能在一周内实现？ Cloudflare 的解释是「天时地利人和」，并不是所有项目都能用这种方式完成。这个项目之所以可以，是因为几个关键条件在同一时间点同时成立。 1. 目标 API 已有良好文档和测试覆盖 作为主流开源项目，Next.js 拥有详尽的文档、庞大的用户群体，以及多年积累的 Stack Overflow 问答和教程。它的 API 早已广泛存在于训练数据之中。如果让 Claude 实现 getServerSideProps，或者解释 useRouter 的工作原理，它不会产生幻觉。它真的「知道」 Next.js 是如何运作的。 Next.js 拥有一个非常完善的测试体系。Next.js 仓库中包含数千个端到端测试，覆盖几乎所有功能和边界情况。工程师直接移植了测试，提供了一份可以机械验证的说明书。 2. 基础工具生态成熟 Vite 作为现代构建工具，Vite 已经解决了前端工具链中最困难的部分：极速 HMR、原生 ESM、干净的插件 API，以及生产级打包能力。它既能处理模块化构建也能扩展 RSC 等高级特性，为实现提供了稳定基础。 3. AI 模型能力跃迁 即便在几个月前，这件事都不可能完成。早期模型无法在如此规模的代码库中保持长期一致性。新一代模型可以在上下文中容纳完整架构，推理模块之间的交互关系，并足够频繁地产出正确代码，从而维持项目推进的节奏。当前最先进的模型确实令人印象深刻，而且还在不断进步。 软件中的大多数抽象层，本质上是为了帮助人类管理复杂性。人类无法在脑中同时容纳整个系统，于是构建了分层结构来组织复杂度。每一层都让下一位开发者的工作更容易。 于是，我们有了「框架的框架」、包装库、成千上万行的胶水代码。 但 AI 并没有同样的限制。它可以在上下文中持有整个系统，然后直接写代码。它不需要一个中间框架来维持组织结构。它只需要一个规格说明和一个可靠的基础。 这一案例之所以受到社区热议，是因为它是一个清晰的拐点：AI 真正作为协作伙伴参与、主导大型系统级实现。并且，AI 抛弃了很多中间框架，让真正基础性的代码部分和便于人类认知代码结构的分界线逐渐显现。 正如 Cloudflare 博客文章最后所感叹的那样：「我们不确定哪些抽象是真正基础的，哪些只是为了适应人类认知构建的『拐杖』。AI 的出现正 促使这一边界重新被定义 。」",
+      "source": "机器之心",
+      "publishedAt": "Wed, 25 Feb 2026 16:48:32 +0800",
+      "region": "国内",
+      "summary": "编辑｜冷猫 今天，Web 开发社区爆发了一条令人咋舌的技术新闻。 Cloudflare 的一名工程师在一周之内，借助 AI 模型从头重建了 Next.js 。 该公司的首席技术官 Dane Knecht 发推庆祝这一史诗级的成就，称之为 「Next.js 的解放日」 ，Next.js 属于每个人。 Cloudflare 称，在这次重构中，保留了 Next.js 的出色开发体验，没有定制的工具，打造了一个基于 Vite 构建的，名为 vinext 的替代框架。 Vinext 是一个可以无缝替换 Next.js 的框架，只需一条命令即可部署到 Cloudflare Workers。 在早期的基准测试中，它构建生产应用的速度最高可达 4 倍，生成的客户端包大小最高可缩小 57%。而且目前已有一些客户在将其用于生产环境。 最夸张的是，整个过程大约 只花费了价值 1100 美元的 tokens 。 Cloudflare 发布了该工作的介绍博客，感兴趣的读者可以进行参阅。 博客链接：https://blog.cloudflare.com/vinext/ 从 Next.js 到 vinext 的实验性进化 Next.js 的影响力与困境 Next.js 是当前最大的 React 全栈框架之一 ，它定义了数百万 web 应用的开发方式，尤其在 SSR（服务器渲染）、RSC（React Server Components）、静态生成与渐进再生（ISR）等特性上的创新，使其成为现代 Web 的标配。 然而，这把双刃剑也带来复杂性：它的构建工具 Turbopack、专有构建输出，以及与平台无关的部署流程，一直是生态中反复被提及的痛点。&nbsp; 以 Next.js 的构建输出为基础进行二次构建，是一种困难且脆弱的方法。过去几年，社区尝试使用 OpenNext 等适配器解决 Next.js 在云平台（尤其是 Cloudflare Workers）上的部署问题，这些工具通过转换 Next.js 的构建输出，使其在 V8 沙箱等环境下运行。但这种「转译层」经常与 Next.js 的版本更新相互博弈 &mdash;&mdash; 就像打地鼠一样，不断修补边缘兼容问题。 Next.js 一直在开发一个一等公民级别的 adapters API，目前这仍处于早期阶段。但即便有了 adapters，本质上仍然是构建在定制化的 Turbopack 工具链之上。而且 adapters 只覆盖构建和部署阶段。 在开发阶段，next dev 仍然只能在 Node.js 中运行，没有办法接入其他运行时环境。如果你的应用使用了平台特定 API，比如 Durable Objects、KV 或 AI 绑定，那么在开发环境中就无法直接测试这些代码，只能通过各种变通方案来实现。 Vinext 的方案 针对这些麻烦事儿，Cloudflare 的工程师提出，如果我们不去适配 Next.js 的构建输出，而是直接在 Vite 之上重新实现 Next.js 的 API 接口，会怎么样？ Vite 是除 Next.js 之外，大多数前端生态所使用的构建工具，驱动着 Astro、SvelteKit、Nuxt 和 Remix 等框架。 Vite（法语意为「快」）是一款现代前端构建工具，它通过重新设计开发和构建流程，让 Web 开发的体验变得 极速、直观且高效。它最早由 Evan You（Vue.js 创始人）提出，并在 2020 年正式发布，迅速成为了整个前端生态的核心基础设施之一。&nbsp; 传统的前端构建工具（例如 Webpack 或 Parcel）会在启动开发服务器之前，把整个应用代码全部打包处理，这在大型项目中会带来明显的延迟。而 Vite 的理念则是借助现代浏览器和生态的新能力 &mdash;&mdash; 原生 ES 模块（ESM），彻底改变这一体验。 在安装 vinext 后，只需在脚本中将 next 替换为 vinext，其余一切保持不变，现有的 app/、pages/ 以及 next.config.js 都可以直接使用。 初期基准测试显示，vinext 在构建速度和客户端 bundle 大小上都有显著优势： 在某 33 路由应用上，利用 Vite 8（Rolldown）构建，vinext 构建时间比 Next.js 快 约 4.4 倍 ； 客户端 bundle gzipped 大小比 Next.js 小 约 56% 以上。&nbsp; 这一数字并非偶然。Vite 生态的原生 ESM 和轻量构建管线使得整体构建过程比 Next.js 传统的 Turbopack 更加敏捷，而 AI 成功编写可通过严格测试的实现代码，则是这一成果得以快速达成的关键。 不过官方也强调，这仍然是一个 实验性项目 。vinext 上线时间不足一周，尚未经过大规模流量考验，某些 Next.js 的静态预渲染方案（静态 build 预挂载生成）仍未完全覆盖，需要进一步打磨。 完全用 AI 完成重建 根据 Cloudflare 官方博客，整个项目由一名工程经理牵头，只用了大约 一周时间、约 800 多次与 AI 模型交互的 OpenCode 会话、以及合计约 1100 美金的 AI token 成本 ，就搭建出了一个 兼容 Next.js 16 API 的替代框架。&nbsp; 项目从 2 月 13 日第一条提交开始： 当天晚上，就实现了基础的 Pages Router 和 App Router 的 SSR 渲染、Middleware 支持、Server Actions 等。 第二天下午，App Router Playground 可渲染绝大多数路由。 到第三天，vinext deploy 已能将应用打包并发布到 Cloudflare Workers，并支持客户端水合和导航。 剩下几天则用于完善测试套件（包括 1700 多个 Vitest 单元测试和 380 多个 Playwright E2E 测试）和覆盖 Next.js API 94% 的测试验证。&nbsp; 该项目是 AI 在工程师设定架构规范、分配任务、执行反馈循环的协助下逐步逼近高质量实现的结果。 为什么一个如此夸张的项目能在一周内实现？ Cloudflare 的解释是「天时地利人和」，并不是所有项目都能用这种方式完成。这个项目之所以可以，是因为几个关键条件在同一时间点同时成立。 1. 目标 API 已有良好文档和测试覆盖 作为主流开源项目，Next.js 拥有详尽的文档、庞大的用户群体，以及多年积累的 Stack Overflow 问答和教程。它的 API 早已广泛存在于训练数据之中。如果让 Claude 实现 getServerSideProps，或者解释 useRouter 的工作原理，它不会产生幻觉。它真的「知道」 Next.js 是如何运作的。 Next.js 拥有一个非常完善的测试体系。Next.js 仓库中包含数千个端到端测试，覆盖几乎所有功能和边界情况。工程师直接移植了测试，提供了一份可以机械验证的说明书。 2. 基础工具生态成熟 Vite 作为现代构建工具，Vite 已经解决了前端工具链中最困难的部分：极速 HMR、原生 ESM、干净的插件 API，以及生产级打包能力。它既能处理模块化构建也能扩展 RSC 等高级特性，为实现提供了稳定基础。 3. AI 模型能力跃迁 即便在几个月前，这件事都不可能完成。早期模型无法在如此规模的代码库中保持长期一致性。新一代模型可以在上下文中容纳完整架构，推理模块之间的交互关系，并足够频繁地产出正确代码，从而维持项目推进的节奏。当前最先进的模型确实令人印象深刻，而且还在不断进步。 软件中的大多数抽象层，本质上是为了帮助人类管理复杂性。人类无法在脑中同时容纳整个系统，于是构建了分层结构来组织复杂度。每一层都让下一位开发者的工作更容易。 于是，我们有了「框架的框架」、包装库、成千上万行的胶水代码。 但 AI 并没有同样的限制。它可以在上下文中持有整个系统，然后直接写代码。它不需要一个中间框架来维持组织结构。它只需要一个规格说明和一个可靠的基础。 这一案例之所以受到社区热议，是因为它是一个清晰的拐点：AI 真正作为协作伙伴参与、主导大型系统级实现。并且，AI 抛弃了很多中间框架，让真正基础性的代码部分和便于人类认知代码结构的分界线逐渐显现。 正如 Cloudflare 博客文章最后所感叹的那样：「我们不确定哪些抽象是真正基础的，哪些只是为了适应人类认知构建的『拐杖』。AI 的出现正 促使这一边界重新被定义 。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 45,
+      "breakdown": {
+        "substance": 25,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "OpenClaw创始人受访吐槽Gemini：自信100%能跑，一试就崩",
+      "url": "https://www.infoq.cn/article/YTywvAOvAxu7kXeKP2y1?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 25 Feb 2026 15:44:25 GMT",
+      "region": "国内",
+      "summary": "OpenClaw创始人彼得·斯坦伯格在加入OpenAI后首次公开受访，谈及了OpenClaw的爆火细节。他透露自己仅用1小时就做出了OpenClaw，并分享了与AI沟通的技巧，如对模型提问“你有什么问题吗？”。访谈还涉及了OpenClaw的安全争议，探讨了工具本身是否不安全还是被用错了场景。同时，近期因用户通过OpenClaw调用谷歌模型，导致一批账号被谷歌封禁，引发了关于大厂是否开始对“套壳式调用”动真格的讨论。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 36,
+      "breakdown": {
+        "substance": 9,
+        "importance": 11,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "圆桌讨论：为何2026年是钠离子电池之年",
+      "url": "https://www.technologyreview.com/2026/02/25/1132873/roundtables-why-2026-is-the-year-for-sodium-ion-batteries/",
+      "snippet": "Listen to the session or watch below Sodium-based batteries could be a cheaper, safer alternative to lithium-ion, and the technology is finally making its way into cars—and energy storage arrays on the grid. Sodium-ion batteries are one of MIT Technology Review’s 10 Breakthrough Technologies of 2026 list, and this subscriber-only discussion explains why. Watch a…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Wed, 25 Feb 2026 21:15:27 +0000",
+      "region": "海外",
+      "summary": "钠离子电池有望成为比锂离子电池更便宜、更安全的替代品，该技术正开始应用于汽车和电网储能阵列。钠离子电池被《麻省理工科技评论》评为2026年十大突破性技术之一。",
+      "category": "技术与研究",
+      "company": "MIT Technology Review",
+      "score": 26,
+      "breakdown": {
+        "substance": 1,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "《下载》栏目：犯罪专题介绍",
+      "url": "https://www.technologyreview.com/2026/02/25/1133653/the-download-introducing-the-crime-issue/",
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Crime issue Technology has long made crime and its prosecution a game of cat and mouse. But those same new technologies that have allowed crime to outpace law have also reenergized…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Wed, 25 Feb 2026 13:10:00 +0000",
+      "region": "海外",
+      "summary": "这是《下载》栏目的今日版，该工作日通讯每日提供科技世界动态。本期推出犯罪专题，科技长期以来使犯罪与起诉成为猫鼠游戏。但同样的新技术既让犯罪活动得以发生，也为打击犯罪提供了工具。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 24,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "英伟达在创纪录的资本支出中再创季度业绩新高",
+      "url": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
+      "snippet": "\"The demand for tokens in the world has gone completely exponential,\" Nvidia CEO Jensen Huang said about the company's earnings.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 25 Feb 2026 23:04:42 +0000",
+      "region": "海外",
+      "summary": "英伟达首席执行官黄仁勋在谈及公司业绩时表示，全球对计算令牌的需求已呈指数级增长。该公司在资本支出创纪录的背景下实现了又一个创纪录的季度业绩。",
+      "category": "技术与研究",
+      "company": "Nvidia",
+      "score": 22,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "新川电子获近亿元pre-IPO轮融资，AI与光伏驱动纳米金属粉材需求增长",
+      "url": "https://36kr.com/p/3698117482212997?f=rss",
+      "snippet": "文 | 张冰冰 编辑 | 阿至 36氪获悉，杭州新川电子材料股份有限公司（简称「新川电子」）近期宣布完成近亿元pre-IPO轮融资，由杭州城投，联想投资、富浙科技、浙江交投产业转型基金等机构联合参投，资金将主要用于MLCC60nm-80nm成品镍粉、光伏特种铜粉、贱金属催化剂等产品研发，生产线规模扩张及市场拓展。 「新川电子」是36氪长期关注的企业，专注于纳米级金属粉材的研发、生产，以MLCC（片式多层陶瓷电容）用镍粉和超细软磁粉为核心产品，其内电极用200nm及以下高端成品镍粉于2024年获评“国内首批次新材料”，解决了高端MLCC内电极材料的国产化难题，超细软磁合金粉已应用于全球主流头部电感厂商。 「新川电子」产品研发实验室 「新川电子」创始人谢上川总结近一年来的重要进展，最核心的三方面是：业绩保持高速增长；客户群体增加，进一步新增日韩海外客户；业务范围增加，MLCC镍粉、AI软磁粉、光伏铜粉均实现批量销售。 业绩增长方面，谢上川认为，AI产业的高速发展给整个行业都带来了很好的发展机遇。其中对初创公司来说，要抓住增长机遇，最重要的是一支坚持技术长期主义的团队，并且拥有高效的产品迭代升级能力。这背后是客户支持与技术能力的双重推动：“我们做材料行业，没有客户的配合，再厉害也做不出好的材料，这是决定性因素。在客户支持与信任下，能够快速匹配需求，这是我们技术能力的体现。这两个因素结合在一起，是我们产品能快速迭代的最重要原因。” 客户群体方面，「新川电子」超细软磁粉产品已被头部AI芯片厂商采用；光伏铜粉产品深度参与到行业客户的技术研发，逐步开始批量投产；MLCC镍粉产品，针对其核心产业链所在的日本和韩国市场开拓，实现了客户突破，未来两年将重点推进60-80nm成品镍粉的市场开拓。 业务范围上，目前「新川电子」产品线主要分为MLCC镍粉、超细软磁粉、光伏铜粉以及未来的制氢贱金属催化剂等。未来产品规划中，谢上川认为，三大产品线都是核心的关键基础材料，需要团队平衡好研发精力，服务多类型客户，而从发展趋势上看，光伏铜粉将是性价比革命的一个重要迭代产品。 「新川电子」丽水产线示意图 光伏产业链中国占比很大，而且本身市场容量比电子行业大得多，随着贵金属价格的剧烈波动，贱金属替代的时机已经来临。谢上川分析，金属材料替代是重大的产业革命升级，过去出于成本考量，光伏企业不会贸然进行技术切换，但随着银等有色金属价格抬升，经济账将推动行业进行技术迭代。同时，光伏铜粉产品性能的进步，也将促成技术路线跑通。 “目前来看，有头部几家公司在推进贱金属化，一旦走通，光伏行业就回到成本为王的时代了。”谢上川预估，2026年下半年，光伏铜粉有望大规模地落地，“随着整个产业发展，光伏铜粉或光伏类基础贱金属材料很可能成为我们最大的业务之一。” 组织规划上，「新川电子」已于2025年7月完成股改，计划2028年上市。 “我相信这会是一个比较成功的转变，帮助公司利用资本市场，在AI市场、绿色能源市场的扩张更顺利。保持以技术为中心的底色，未来大规模扩张时，管理会更规范，风险会更小。”谢上川总结，他关注的核心是让「新川电子」成为一家对行业、对全球科技发展起到促进作用的有价值的公司，实现“全球领先的电子信息和绿色能源的核心材料供应商”的愿景。 2026-2027年将是「新川电子」产能扩张的核心关键节点，预计2026年产能将扩大到4000吨，2027年达到6000吨规模。 36氪未来产业 「36氪未来产业」持续关注城市发展、产业转型和创新创业项目落地。寻求报道可邮箱联系wangfengzhi@36kr.com或扫码联系。 此外，今年36氪正式推出《36氪企业投资指南内参》，依托在经济圈产业群、区域重点推进规划与招商领域的深厚积累，36氪通过提供深入详细、更为及时、独家专有的全面信息服务，为政府部门提供高效、精准的产业项目内参；助力项目方匹配产业资金、链接关键人脉、快速融入新的产业生态。 本文来自微信公众号“36氪未来产业”，作者：张冰冰，阿至，36氪经授权发布。",
+      "source": "36氪",
+      "publishedAt": "2026-02-25 10:41:46  +0800",
+      "region": "国内",
+      "summary": "杭州新川电子材料股份有限公司近期完成近亿元pre-IPO轮融资，投资方包括杭州城投、联想投资等机构。该公司专注于纳米级金属粉材的研发与生产，核心产品包括MLCC用镍粉和超细软磁粉，其高端成品镍粉已实现国产化突破，软磁粉产品已被头部AI芯片厂商采用。公司业绩保持高速增长，业务范围已扩展至光伏特种铜粉等领域，并计划于2028年上市。",
+      "category": "投融资与并购",
+      "company": "新川电子",
+      "score": 35,
+      "breakdown": {
+        "substance": 9,
+        "importance": 13,
+        "timeliness": 6,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Anthropic收购AI初创公司Vercept，此前其创始人之一被Meta挖走",
+      "url": "https://techcrunch.com/2026/02/25/anthropic-acquires-vercept-ai-startup-agents-computer-use-founders-investors/",
+      "snippet": "Seattle-based Vercept developed complex agentic tools, including a computer-use agent that could complete tasks inside applications like a person with a laptop would.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 25 Feb 2026 23:49:19 +0000",
+      "region": "海外",
+      "summary": "Anthropic收购了位于西雅图的AI初创公司Vercept。Vercept开发了复杂的智能体工具，包括一个能像人操作笔记本电脑一样在应用程序内完成任务的计算机使用智能体。",
+      "category": "投融资与并购",
+      "company": "Anthropic",
+      "score": 31,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Gushwork获900万美元种子轮融资，押注AI搜索工具获取客户线索",
+      "url": "https://techcrunch.com/2026/02/25/gushwork-bets-on-ai-search-for-customer-leads-and-early-results-are-emerging/",
+      "snippet": "Gushwork has raised $9 million in a seed round led by SIG and Lightspeed. The startup has seen early customer traction from AI search tools like ChatGPT.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 26 Feb 2026 00:00:00 +0000",
+      "region": "海外",
+      "summary": "Gushwork在由SIG和Lightspeed领投的种子轮中筹集了900万美元。这家初创公司已通过ChatGPT等AI搜索工具获得了早期客户。",
+      "category": "投融资与并购",
+      "company": "Gushwork",
+      "score": 28,
+      "breakdown": {
+        "substance": 10,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "政策与监管": []
+}

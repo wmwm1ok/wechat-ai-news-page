@@ -1,0 +1,77 @@
+name: AI Daily News
+
+on:
+  schedule:
+    # 北京时间每天早上8点 (UTC 0:00)
+    # 注意：GitHub Actions 实际执行可能有 0-2 小时延迟
+    - cron: '0 0 * * *'
+    # 备用：北京时间每天下午2点 (UTC 6:00) - 确保每天至少有1次运行
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+# 并发控制：防止同时运行多个实例导致冲突
+concurrency:
+  group: ai-daily-news
+  cancel-in-progress: false
+
+permissions:
+  contents: write  # 允许提交文件
+  actions: read    # 允许读取 actions
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # 获取完整历史，确保昨天的新闻文件存在
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Fetch and generate news
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_API_URL: ${{ secrets.DEEPSEEK_API_URL }}
+          DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: npm start
+      
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-output
+          path: output/
+          retention-days: 30
+      
+      - name: Commit to repository
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # 检查文件是否存在
+          if [ -f "output/latest.json" ]; then
+            # 只提交 JSON 文件（用于跨天去重），HTML 文件通过 artifact 保存
+            # 使用 -f 强制添加（可能被 .gitignore 忽略）
+            git add -f output/*.json
+            # 同时提交根目录的 latest.json（供网站直接访问）
+            if [ -f "latest.json" ]; then
+              git add -f latest.json
+            fi
+            if ! git diff --cached --quiet; then
+              git commit -m "Update AI news: $(date +'%Y-%m-%d')"
+              git push
+            else
+              echo "No changes to commit"
+            fi
+          else
+            echo "No output files generated"
+          fi

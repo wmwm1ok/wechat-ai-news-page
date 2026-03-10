@@ -1,0 +1,276 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "谷歌Nano Banana 2上线，补齐短板可生成信息图，价格仅为OpenAI一半",
+      "url": "https://www.infoq.cn/article/GcPU9NHkexyuriC2cBM2?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 28 Feb 2026 15:18:33 GMT",
+      "region": "国内",
+      "summary": "谷歌发布了Nano Banana 2模型，该模型具备实时联网能力，能够结合Gemini的搜索功能进行理解和检索，从而生成细节丰富且贴合真实世界信息的图像。新模型特别强调了信息图生成的新方向，并通过实例展示了其逻辑分析和绘图能力。在权威测评中，Nano Banana 2位列榜首，其图像编辑能力排名第三，而价格仅为竞争对手OpenAI同类产品的一半。",
+      "category": "产品发布与更新",
+      "company": "谷歌",
+      "score": 36,
+      "breakdown": {
+        "substance": 11,
+        "importance": 11,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "阿里千问将发布AI眼镜耳机指环，巨头竞逐AI硬件新入口",
+      "url": "https://36kr.com/p/3702628151751046?f=rss",
+      "snippet": "文｜邱晓芬 编辑｜苏建勋 过去的一个月，当千问用“一句话下单”带来2亿订单之后，阿里还希望将这套玩法走出手机屏幕，下放到更多形态的硬件上。 《智能涌现》从阿里内部人士处获悉，阿里旗下个人AI助手“千问”将进入AI硬件领域，其在2026年规划的硬件形态包括AI眼镜、AI耳机、AI指环，将面向全球市场发售。 其中，千问AI眼镜将在即将在2026年世界移动通信大会（MWC）上发布，将在3月2日开启预约。 为了进一步丰富这些终端硬件的使用体验，据《智能涌现》了解，千问APP上的点外卖、打车等功能，都将会无缝迁移到未来众多终端设备中。 有意思的是，不仅仅是阿里千问，近期，全球AI巨头纷纷抢滩消费级AI硬件赛道—— Meta在RayBan Meta AI眼镜打了初步胜仗之后，还在隐秘构建以一套AI眼镜为核心的可穿戴硬件生态圈。据外媒称，Meta隐秘研发的硬件设备包括AI耳机、神经腕带、智能手表等等； OpenAI近期也被爆出已组建起一支超过2000人的硬件团队，并计划在2026年年末至2027年推出多款消费级硬件设备，产品线涵盖智能眼镜、录音笔、可穿戴胸针等等。 在国内，字节的AI眼镜、AI耳机也正在筹备中。（关于字节的AI硬件秘辛，可见《智能涌现》此前报道：《豆包手机卷土重来：从“被围剿”，到“反围剿”丨智能涌现独家》） 其实，在2025年，阿里在C端硬件已经有所涉猎，夸克团队发布了AI眼镜，钉钉团队则发布了AI录音产品DingTalk A1。不过，接下来，阿里在C端硬件上的动作，显然会更加集中。 这首先体现在组织架构上。2025年12月，阿里将原来智能信息与智能互联事业群合并，成立“千问C端事业群”。这一事业群将统一负责千问App、夸克、AI硬件等C端业务。 除了将各处力量集中到千问之外，阿里在模型方面也做了适配于端侧的调整。2月16日，阿里巴巴开源全新一代大模型千问Qwen3.5-Plus。 从参数上看，新模型不仅仅部署显存占用降低了60%，使得最大推理吞吐量提升至19倍。 成本方面，Qwen3.5-Plus每百万Token占用的API成本低至0.8元，仅为Gemini 3 Pro的1/18。而显存、成本，正是端侧设备最关注的要素。 对于阿里来说，加入C端的AI硬件入口争夺战，意义绝非只是拓展几款新硬件那么简单。 阿里在过去已经储备了大量国民级软件生态，阿里缺少的，恰恰是“千问”这样一个链接起广袤的阿里生态（支付宝、高德、淘宝、盒马、飞猪等）的入口。 这个入口可以是APP，也可以是更多“可能成为入口”的AI硬件，眼镜、耳机、戒指、吊坠这类已经被验证过的通用可穿戴设备，毫无疑问成为优先选项。 数据或许是另外一项考量。 通过能够全天候佩戴的AI硬件，阿里在内的AI巨头能够获取大量第一视角、多模态的真实世界数据，而这些数据未来也有利于反哺千问模型迭代，形成正向的数据飞轮。 其实，要切入AI硬件领域，阿里或许比其他玩家更有优势。 在最关键的基础设施上，拥有“通云哥”的阿里几乎是一项全能选手——阿里不仅拥有最大的开源模型家族通义，还构建了自研AI芯片平头哥“真武810E”，以及全球最大的云计算平台阿里云。 在软件生态方面，阿里也拥有支付、出行、购物等等业态，不同的智能体在未来也有机会结合起来。 正如阿里集团CEO吴泳铭此前曾表示，AI最大的想象力，不在手机屏幕，而在于如何接管数字世界。 end",
+      "source": "36氪",
+      "publishedAt": "2026-02-28 15:09:00  +0800",
+      "region": "国内",
+      "summary": "据阿里内部人士透露，其个人AI助手“千问”计划在2026年进军AI硬件领域，产品形态包括AI眼镜、AI耳机和AI指环，并将面向全球市场发售。其中，AI眼镜预计在2026年世界移动通信大会上发布，并于3月2日开启预约，同时千问APP的部分功能将迁移至这些新终端。全球范围内，Meta、OpenAI以及国内的字节跳动等巨头也均在布局消费级AI硬件，如眼镜、耳机、腕带等产品。阿里已于2025年底调整组织架构，成立“千问C端事业群”以整合相关业务，并开源了适配端侧设备的新模型Qwen3.5-Plus，以降低部署成本和显存占用。",
+      "category": "产品发布与更新",
+      "company": "阿里",
+      "score": 31,
+      "breakdown": {
+        "substance": 8,
+        "importance": 10,
+        "timeliness": 6,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Anthropic的Claude在五角大楼争议后升至App Store第二名",
+      "url": "https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/",
+      "snippet": "Anthropic’s chatbot Claude seems to have benefited from the attention around the company’s fraught negotiations with the Pentagon.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 28 Feb 2026 21:05:06 +0000",
+      "region": "海外",
+      "summary": "Anthropic的聊天机器人Claude似乎从该公司与五角大楼之间紧张谈判所引发的关注中获益。这一关注度帮助Claude在App Store的排名上升至第二位。",
+      "category": "产品发布与更新",
+      "company": "Anthropic",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌Gemini更新图像与视频媒体导入功能",
+      "url": "https://www.ubergizmo.com/2026/02/google-gemini-update-image-video/",
+      "snippet": "Google has released a significant update for its Gemini chatbot, specifically targeting how users interact with multimedia files. The latest version...",
+      "source": "Ubergizmo",
+      "publishedAt": "19 hours ago",
+      "region": "海外",
+      "summary": "谷歌为其Gemini聊天机器人发布了一项重要更新，特别针对用户与多媒体文件的交互方式进行了改进。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 17,
+      "breakdown": {
+        "substance": 4,
+        "importance": 6,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Grok革命：xAI在2026年向视频、军事和监管领域扩张",
+      "url": "https://hounslowherald.com/the-grok-revolution-xais-expansion-into-video-warfare-and-west-end-p30930-396.htm",
+      "snippet": "Stay updated on Grok AI in 2026: From the Grok 4.2 video generation release and Tesla integration to the UK's ICO investigation and Pentagon deals.",
+      "source": "Hounslow Herald",
+      "publishedAt": "17 hours ago",
+      "region": "海外",
+      "summary": "Grok AI在2026年的动态包括发布Grok 4.2视频生成模型、与特斯拉整合、面临英国ICO调查以及获得五角大楼合同。",
+      "category": "产品发布与更新",
+      "company": "xAI",
+      "score": 14,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "淘宝闪购开源食品安全治理AI大模型“白泽”",
+      "url": "https://36kr.com/newsflashes/3702711337431170?f=rss",
+      "snippet": "2月28日消息，淘宝闪购正式发布专为餐饮服务与零售门店打造的风控治理垂直领域开源大模型——“白泽”（Ostrakon-VL），并宣布相关技术能力向全行业免费开放。 借助“白泽”大模型，外卖平台、餐饮及零售企业等行业参与方在图像识别、后厨预警等方面，都能通过人工智能技术快速加强对不合规场景的识别和治理能力，大幅提高数字化治理效率。（界面）",
+      "source": "36氪",
+      "publishedAt": "2026-02-28 18:01:39  +0800",
+      "region": "国内",
+      "summary": "淘宝闪购正式发布了一款专为餐饮服务与零售门店打造的风控治理垂直领域开源大模型，命名为“白泽”。该模型的技术能力将向全行业免费开放。借助“白泽”大模型，外卖平台、餐饮及零售企业等行业参与方能够在图像识别和后厨预警等方面，通过人工智能技术快速加强对不合规场景的识别和治理能力，从而大幅提高数字化治理效率。",
+      "category": "技术与研究",
+      "company": "淘宝闪购",
+      "score": 29,
+      "breakdown": {
+        "substance": 11,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "DeepSeek联合北大清华发布DualPath新框架，利用闲置网卡加速智能体推理",
+      "url": "https://www.qbitai.com/2026/02/382872.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Fri, 27 Feb 2026 08:11:51 +0000",
+      "region": "国内",
+      "summary": "DeepSeek与北京大学、清华大学在ArXiv上发布了一篇关于智能体推理框架DualPath的论文。该框架旨在解决智能体长文本推理场景下的I/O瓶颈，通过优化从外部存储加载KV-Cache的速度，避免计算资源被存储读取拖累。其核心创新在于改变了传统的单路径加载模式，引入了“存储至解码引擎”的第二条路径，利用解码引擎闲置的存储网卡带宽读取缓存，并通过高速计算网络将其传输至预填充引擎，实现了集群存储带宽的全局池化与动态负载均衡。在660B规模的生产级模型实测中，该框架使离线推理吞吐量提高了1.87倍，在线服务吞吐量平均提升1.96倍，并优化了高负载下的首字延迟。",
+      "category": "技术与研究",
+      "company": "DeepSeek",
+      "score": 25,
+      "breakdown": {
+        "substance": 14,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "对话冯雷：从AI播客到真人感Agent的创业路径",
+      "url": "https://www.leiphone.com/category/industrynews/H4d9CfqcIDT7YNxe.html",
+      "snippet": "当下AI圈几乎每周都有新鲜事发生，这反而给了许多创业公司熬出头的机会。（雷峰网雷峰网雷峰网） 无论是Clawedbot掀起对物理世界交互方式的重构，还是Moltbot上开始讨论AI和人类如何共存的危机感，都在提醒市场：真正的机会往往藏在边缘地带，以及看似微小的‘非共识’时刻。 比如“播客”这个领域，即便有短视频和短剧的大力冲击，但是播客赛道仍旧火热，根据《CPA中文播客白皮书2026》显示，2025年中文播客听众人数已突破1.5亿人，较2023年的1.2亿增长25%。 在大量研究国外对播客的论文文献之后，创始人冯雷决定选择AI播客这条赛道，其创业路径非常清晰：我们的目标不是DAU，而是要做一个赚钱的 AI 产品，专注于 1%-3%以内的创作者，这群人很有创造力，也愿意付费，我们就服务这群人。 “我们就是希望他像一个真人一样，没有太多 AI 表达。尽量有人味，越自然越好。” 冯雷对AI科技评论表示。 ListenHub创始人 冯雷 作为一家在播客生成领域做到国内头部的公司，ListenHub 选择为内容创作者提供声音克隆、多模态编辑、一键生成解说视频等专业工具。 公司去年底实现了300万美金的ARR，并在近期以5000万美金的估值开启新一轮融资。 在成为一名创业者之前，冯雷是Minimax 海螺AI的产品负责人，最广为人知的是他的个人公众号“有机大橘子”，更早期在BOSS直聘、兰亭集势、三星等公司就职就职，从事产品经理相关职位。 在对PMF的理解上，他指出：在传统互联网时代，产品经理的核心任务是\"发现需求-验证模型-规模化复制\"，流程清晰如流水线；而在AI时代，他坦言这套方法论已经失效——\"真的是拿锤子找钉子，而且还真的能找到\"。 这种反常识的颠倒，源于大模型作为通用技术的特殊性，因此在招聘时，冯雷也会警惕经验主义者，\"3年以上的产品经理容易陷到过去的方法论里\"；他坚持定ARR而非DAU目标，也会将产品核心交给工程师和AI本身，信奉Manus那句\"less structure, more intelligence\"——当技术本身具备涌现能力时，人的任务不是控制，而是守护那1%的灵魂。 在这次对话中，冯雷展现了一个AI创业者的清醒与坦诚。他不讳言对大模型降本论的质疑——\"去年大家最大的错误判断就是相信模型降价能带来利润空间\"；他也直言当前AI应用公司的困境——\"调用Claude的公司利润都很低，ARR只是给Claude交的税\"；他甚至略带自嘲地承认\"现在的英文模型效果依然不够好，一定程度上影响了海外的 GTM\"。 这篇对话记录不仅是对ListenHub成功的复盘，更是为当下AI创业者呈现出的另一个参考样本： 01 关于ListenHub产品现状 AI科技评论：ListenHub目前进展如何？在市面上各种AI产品都在卷DAU的时候，你们怎么选择？ 冯雷：去年底我们做到了300万美金的ARR，和豆包相比，它的目标是做中国DAU第一的AI产品，做的是大众生意。但我们的目标是做一个赚钱的AI产品。我们服务的核心人群可能只占全网用户的1%到3%，就是那些有创造力、愿意付费的创作者。我们增加了声音克隆、编辑模式等他们需要的功能，这样与大厂形成正交关系，没有直接竞争。 AI科技评论：既然是给创作者用的工具，为什么选择“AI播客”这个切入点？短视频不是更火吗？ 冯雷： 播客是一个很神奇的存在。短视频冲击了这么多年，听播客的人不仅没少，反而变多了。这说明它里面有一种不可替代的“深度表达”需求。 ListenHub做到了国内第一，核心特色在于“像人一样自然的表达”。我们不是在做表演，而是在做沟通。现在的AI能把解说视频做得非常有“人味儿”，这种自然感是用户买单的关键。而且，我们正在从音频向视频、PPT拓展，流量池会更大。 AI科技评论：ListenHub的商业模式是一开始就确定的吗？ 冯雷：是逐渐在创业过程中探索而来的。最初尝试情感电台方向——AI个性化推送情感故事，支持聊天并按对话收费。但该方向用户付费意愿有限，工具属性反而更易变现，因此自然转向迭代，逐步加入视频、图片、解说等功能。 02 技术路径与产品体验 AI科技评论：你们现在主要使用哪些模型？国内外模型使用的差异性在哪里？ 冯雷：我们主要用海外的原生多模态模型。比如把PDF或Youtube视频直接“洗”成一篇高质量的播客稿件，这需要极强的长窗口和多模态理解力。 我们也会用到一些国内的模型，比如Qwen、Minimax、字节（豆包）在中文处理上都不错。但问题出在英文和多语言上。因为我们要出海，服务海外用户和海外华人，所以必须依赖海外模型。 AI科技评论：产品最主要的技术指标是什么？是声音还原度还是文本流畅？ 冯雷：分几块：文本方面希望像真人一样，没有太多\"AI味\"；声音方面越自然越好，保持播客轻松的状态；图片方面要给用户足够信息量，同时精美并符合用户要求。 AI科技评论：让AI\"没有人味\"是通过提示词工程实现的吗？ 冯雷：整体是一套标准的\"上下文工程\"。前置处理包括各种输入（YouTube、PDF等），基于讲解场景整理核心信息，然后按照播客场景处理。分两步：一是搭架构（像建房搭结构），二是润色表达（像装修和外墙），最终形成好内容：第一，要有信息量、有干货知识性；第二，表达要吸引人，能让人听完（比如3分钟完播率），内容再好没人听也不行；第三，要有内在逻辑，让人听完能改变行为。对创作者来说，还需要节奏、韵律，让粉丝听完想听下一个，这三者要结合。 03 商业模式与创业思考 AI科技评论：现在市场上有做“套壳”集成的（如Manus），也有自研模型的，这两种模式怎么看？ 冯雷： 如果钱足够，还是会训模型。模型公司追求更高的上限，比如Coding是个大市场，只有自己训模型，在大规模用户下利润率才算得过来。应用公司调用API（如Claude）其实很难有高利润，大部分收入都交给模型厂商了（像交税一样）。 AI科技评论：既然模型成本这么高，前两年说的“模型降价”似乎没有给应用公司带来特别大的成本空间？ 冯雷：这可能是去年大家最大的错误判断。 降价发生在模型能力到达阈值之前，那时候模型没那么有用，只能靠降价扩张，或者像OpenAI这样追求超高速覆盖率。但一旦突破阈值（如谷歌的图片模型，一块钱一张图，很贵，不降价都供不应求），顶级模型就变成了商品。 AI科技评论：所以现在做应用必然烧钱？ 冯雷： 会烧钱，但要合理地烧。不能像互联网时代那样免费换规模。AI时代没有网络效应，必须建立健康的经济模型。 AI科技评论：公司目前融资进展如何？资金可支撑多久？ 冯雷：正在推进新一轮融资，上一轮天际投完之后估值达到约2000万美元。Q4 ARR增至300万美元，本轮按5000万美元估值进行融资，年底目标估值1亿美元。 当前资金可支撑两年以上。下一轮融资完成后可支撑五年。 AI科技评论：创业公司资金有限，如何控制成本？ 冯雷：主要成本在Token上。我们设定规则：任何创业项目初始预算为1000美元Token费用。若上线一天内耗尽，说明项目有潜力，公司追加投资；若项目走红但成本可控，也不会造成损失。以预算作为约束机制，核心目标是ARR。 该机制自去年10月\"任务酒馆\"改革后实行。任务公开发布，成员自主认领，独立完成从开发到验证的全流程，预算内API费用实报实销。 但尝试也需要主线和方向。我们的主线是帮助人表达——通过多模态技术增强表达能力。技术与人文结合，目标人群明确（创作者、学生、教师），在此范围内可自由尝试，但需避免偏离核心（如短剧属于表演而非表达，不在范围内）。 04 AI时代的产品方法论 AI科技评论：如果中厂、大厂把TPMF做得很好，纯做PMF的公司会受到冲击吗？ 冯雷：训模型的公司普遍开放API，因其自有场景不足，需要用数据持续优化模型。模型公司与我们合作时也会协助微调模型，目标同样是提升模型能力。因此在这一层面，双方利益一致——场景上各取所需，ROI不同，但都希望用数据让模型更强。若模型公司真能覆盖所有场景，便不会开放API。 AI科技评论：AI时代做产品，与过去寻找PMF有何不同？ 冯雷：完全不同。过去需求与技术相对确定，产品只需找到连接点，固化workflow，发现盈利路径后迅速规模化，借助网络效应扩张。 AI时代则相反：用户场景与模型训练者的预设往往不一致，因此产品、运营、增长都无法先设定明确目标。例如马卡龙初期专注写作，但模型能力未达预期，方向错误只能放弃。 逻辑是倒置的：先构建通用技术，投入市场验证，发现匹配场景（如PPT高频且有价值），再针对性完善工程。这类似于\"拿锤子找钉子\"，虽反常识，但通用技术确能找到适配场景。因此我们倾向招募3年以内经验的产品经理，资深者反而易受旧有方法论束缚。 AI科技评论：在MiniMax时的产品思路与现在一致吗？ 冯雷：当时尚处Chatbot早期，产品目标是服务模型迭代——获取数据、构建飞轮、提升模型能力，不关注产品数据或营收，只追求技术上限。 当前环境对产品经理挑战更大：技术变量不由产品主导，因此需摒弃 ego。我们公司工程师地位很高，拥有充分决策权。我不会以15年产品经验自居进行指导，而是聚焦目标设定。目标选择至关重要——DAU目标会导致团队动作变形，ARR 目标在前两年都更有效，因其倒逼真实增长与付费转化。 我们正培养工程师的端到端能力：从用户需求验证（工程师直接参与用户社群）、商业模式设计到产品上架，全流程参与。将产品经理培养成全栈成本过高，而将工程师培养成具备产品决策能力的全栈人才更具性价比，这是我们的核心方法论。 AI科技评论：公司当前主线是什么？是否会涉足数字人和陪伴类产品？ 冯雷：数字人和陪伴类暂不涉及。完成现有表达类产品后，我们认为智能表达已较为成熟。长期目标是构建Agent——本质上是模拟完整的人。除表达外，还需具备思考能力、意图理解能力和执行能力。表达能力已夯实，现正推进完整Agent的研发。 内部从去年8月开始就已经在开发一款语音交互驱动的桌面 Personal Agent产品，支持语音对话，长期记忆，控制电脑，使用网络。我们将 ListenHub 里积累的真人感的表达理念和技术积累注入到全新的 Agent产品中，力图打造出第一个具有真人感的 Agent。 目前该产品正在紧张的内测中，最早在春节后会跟大家见面。（本文作者长期关注AI应用以及创业者故事，欢迎加微信Who123start畅聊探讨）",
+      "source": "雷锋网",
+      "publishedAt": "Sat, 28 Feb 2026 18:00:00 +0800",
+      "region": "国内",
+      "summary": "ListenHub创始人冯雷分享了其从AI播客到真人感Agent的创业思考。该公司专注于服务1%-3%的创作者群体，提供声音克隆、多模态编辑、一键生成解说视频等工具，旨在打造具有真人感的AI产品，而非追求DAU。公司去年底实现了300万美元的年度经常性收入，并以5000万美元估值开启新一轮融资。冯雷指出，在AI时代传统产品方法论已失效，更倾向于将产品核心交给工程师和AI本身。",
+      "category": "技术与研究",
+      "company": "ListenHub",
+      "score": 23,
+      "breakdown": {
+        "substance": 12,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌云SRE团队运用Gemini CLI应对服务中断",
+      "url": "https://www.infoq.cn/article/Pw8vha4aUtY9C4xY28zf?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 28 Feb 2026 12:00:00 GMT",
+      "region": "国内",
+      "summary": "谷歌云SRE团队在一篇博文中介绍了他们如何使用基于Gemini 3构建的AI驱动工具Gemini CLI来处理服务中断事件。该工具能在中断处理的各个阶段提供帮助，包括告警分类、初步缓解、根因分析以及自动生成事后分析文档，旨在缩短平均缓解时间并减少对用户的影响。团队通过一个虚构事件展示了该工具在终端驱动的完整事件生命周期中的应用，同时强调目前仍需人工验证缓解措施，并执行分层安全控制以确保操作安全。该方法虽然使用了谷歌内部的一些工具，但其模式被认为具有普适性。",
+      "category": "技术与研究",
+      "company": "谷歌",
+      "score": 20,
+      "breakdown": {
+        "substance": 0,
+        "importance": 6,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "ChatGPT与谷歌Gemini对比",
+      "url": "https://vocal.media/geeks/chat-gpt-vs-google-gemini",
+      "snippet": "When I first started using AI tools for writing, research, and daily tasks, two names kept popping up everywhere: ChatGPT and Google Gemini.",
+      "source": "vocal.media",
+      "publishedAt": "13 hours ago",
+      "region": "海外",
+      "summary": "文章讨论了作者在开始使用AI工具进行写作、研究和日常任务时，ChatGPT和谷歌Gemini是两个频繁出现的名字。",
+      "category": "技术与研究",
+      "company": "Google",
+      "score": 13,
+      "breakdown": {
+        "substance": 0,
+        "importance": 6,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "推动AI热潮的数十亿美元基础设施交易",
+      "url": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/",
+      "snippet": "Here's everything we know about the biggest AI infrastructure projects, including major spending from Meta, Oracle, Microsoft, Google, and OpenAI.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 28 Feb 2026 20:41:55 +0000",
+      "region": "海外",
+      "summary": "文章汇总了关于最大规模AI基础设施项目的已知信息。这些项目涉及Meta、Oracle、Microsoft、Google和OpenAI等公司的大量资金投入。这些基础设施交易是当前AI繁荣的重要驱动力。",
+      "category": "投融资与并购",
+      "company": "Meta, Oracle, Microsoft, Google, OpenAI",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "迪士尼与OpenAI达成协议，允许Sora生成其角色的AI视频",
+      "url": "https://www.aol.com/articles/disney-strikes-deal-openai-let-160030456.html",
+      "snippet": "It's “A Whole New World.”The Walt Disney Company announced on Thursday that it had reached a three-year agreement with OpenAI to bring its popular...",
+      "source": "AOL.com",
+      "publishedAt": "16 hours ago",
+      "region": "海外",
+      "summary": "华特迪士尼公司宣布与OpenAI达成一项为期三年的协议。根据协议，OpenAI的Sora模型将获准生成迪士尼角色的AI视频。迪士尼将此描述为'一个全新的世界'。",
+      "category": "投融资与并购",
+      "company": "OpenAI",
+      "score": 16,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "特朗普下令封杀Claude，Altman声援后OpenAI却以类似协议过关",
+      "url": "https://www.infoq.cn/article/h8WsVXZzHtP9W6l2mQqO?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 28 Feb 2026 15:01:12 GMT",
+      "region": "国内",
+      "summary": "特朗普在Truth Social发文，下令联邦机构停止使用Anthropic公司的Claude等所有产品，并给予六个月过渡期，明确表示Anthropic将不再被接纳为联邦承包商。美国国防部长Pete Hegseth指责Anthropic在获得2亿美元合同后表现傲慢与背叛，并指示战争部将Anthropic列为国家安全供应链风险，禁止与美军有业务往来的各方与Anthropic开展商业活动。白宫与Anthropic的争端核心在于Anthropic拒绝让其AI模型用于大规模国内监控或全自动武器，而Anthropic首席执行官Dario Amodei认为设置安全防护措施是必要的，因为Claude并非完美无缺，且强大的AI模型可能引发严重隐私问题。",
+      "category": "政策与监管",
+      "company": "Anthropic",
+      "score": 19,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "字节跳动承诺加强AI模型保护措施",
+      "url": "https://www.aol.com/articles/bytedance-vows-boost-safeguards-ai-085905107.html?utm_source=spotim&utm_medium=spotim_recirculation&spot_im_redirect_source=pitc&spot_im_comment_id=sp_IjnMf2Jd_23926307_c_zzO5HM&spot_im_highlight_immediate=true",
+      "snippet": "Chinese tech giant ByteDance said it was taking steps to \"strengthen current safeguards\" after Hollywood heavyweights accused its new AI video model of...",
+      "source": "AOL.com",
+      "publishedAt": "10 hours ago",
+      "region": "海外",
+      "summary": "在好莱坞重量级人物指控其新AI视频模型侵权后，中国科技巨头字节跳动表示正在采取措施“加强现有保障措施”。",
+      "category": "政策与监管",
+      "company": "ByteDance",
+      "score": 15,
+      "breakdown": {
+        "substance": 3,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ]
+}

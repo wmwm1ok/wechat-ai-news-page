@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AI日报 - 在线编辑器</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', sans-serif;
+            background: #f5f5f5;
+            padding-bottom: 100px;
+        }
+        .header {
+            background: linear-gradient(135deg, #1c5cff 0%, #00c6ff 100%);
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header h1 { font-size: 22px; margin-bottom: 5px; }
+        .header .date { font-size: 13px; opacity: 0.9; }
+        .header .count { font-size: 12px; margin-top: 5px; opacity: 0.8; }
+        
+        .action-bar {
+            background: white;
+            padding: 15px 20px;
+            margin: 15px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .action-bar p {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background: #07c160;
+            color: white;
+            border: none;
+            padding: 14px 40px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(7, 193, 96, 0.35);
+            transition: all 0.2s;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .btn:active {
+            transform: scale(0.96);
+            box-shadow: 0 2px 8px rgba(7, 193, 96, 0.25);
+        }
+        .btn-secondary {
+            background: #576b95;
+            margin-left: 10px;
+            box-shadow: 0 4px 12px rgba(87, 107, 149, 0.35);
+        }
+        .btn-secondary:active {
+            box-shadow: 0 2px 8px rgba(87, 107, 149, 0.25);
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px 20px;
+            color: #999;
+        }
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #1c5cff;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .editor-container {
+            background: white;
+            margin: 0 15px 15px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .editor-toolbar {
+            background: #f8f9fa;
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            font-size: 13px;
+            color: #666;
+        }
+        #rich-editor {
+            padding: 20px;
+            min-height: 420px;
+            font-size: 15px;
+            line-height: 1.8;
+            color: #333;
+            outline: none;
+            background: #fff;
+        }
+        #rich-editor:focus {
+            background: #fafafa;
+        }
+        
+        .section-title {
+            color: #1c5cff;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 25px 0 15px;
+            padding: 8px 12px;
+            background: #f0f7ff;
+            border-radius: 6px;
+            display: inline-block;
+        }
+        .article {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 3px solid #1c5cff;
+        }
+        .article-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .article-meta {
+            font-size: 12px;
+            color: #999;
+            margin-bottom: 10px;
+        }
+        .article-summary {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #999;
+            font-size: 12px;
+        }
+        
+        .toast {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0,0,0,0.85);
+            color: white;
+            padding: 18px 32px;
+            border-radius: 10px;
+            font-size: 15px;
+            display: none;
+            z-index: 1000;
+            text-align: center;
+            max-width: 80%;
+        }
+        .toast.success { background: rgba(7, 193, 96, 0.95); }
+        .toast.error { background: rgba(255, 77, 79, 0.95); }
+        
+        .tips {
+            background: #fffbe6;
+            border: 1px solid #ffe58f;
+            padding: 12px 15px;
+            margin: 15px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #666;
+        }
+        .tips strong { color: #d48806; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🤖 AI 每日快报</h1>
+        <div class="date" id="current-date">加载中...</div>
+        <div class="count" id="article-count"></div>
+    </div>
+    
+    <div class="action-bar" id="action-bar" style="display: none;">
+        <p>💡 可先在下方编辑区微调内容<br>再点击复制，粘贴到公众号助手里尽量保留格式</p>
+        <button class="btn" onclick="copyForWechat()">📋 复制全部内容</button>
+    </div>
+    
+    <div class="tips" id="tips" style="display: none;">
+        <strong>📝 使用说明：</strong><br>
+        1. 先在下方按需修改文案<br>
+        2. 点击「复制全部内容」按钮<br>
+        3. 若浏览器提示剪贴板权限，请选择允许<br>
+        4. 切换到公众号编辑器粘贴即可
+    </div>
+    
+    <div class="editor-container">
+        <div class="editor-toolbar">
+            📄 编辑区（可直接修改内容）
+        </div>
+        <div id="rich-editor" contenteditable="true" spellcheck="false">
+            <div class="loading">正在加载内容</div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>AI 每日快报 · 自动生成</p>
+        <p style="margin-top: 8px; opacity: 0.7;">每天 8:00 更新</p>
+    </div>
+    
+    <div class="toast" id="toast"></div>
+
+    <script>
+        let currentData = null;
+        let hasLocalEdits = false;
+
+        const SECTION_ORDER = [
+            '产品发布与更新',
+            '技术与研究',
+            '投融资与并购',
+            '政策与监管',
+            '其他'
+        ];
+
+        const SECTION_COLORS = {
+            '产品发布与更新': '#1c5cff',
+            '技术与研究': '#0f766e',
+            '投融资与并购': '#b45309',
+            '政策与监管': '#7c3aed',
+            '其他': '#64748b'
+        };
+
+        async function loadData(options = {}) {
+            if (options.skipWhenDirty && hasLocalEdits) {
+                console.log('skip reload because editor has local changes');
+                return;
+            }
+
+            try {
+                const sources = ['./latest.json', './output/latest.json'];
+                let data = null;
+
+                for (const url of sources) {
+                    try {
+                        const response = await fetch(url + '?t=' + Date.now());
+                        if (response.ok) {
+                            data = await response.json();
+                            break;
+                        }
+                    } catch (error) {
+                        console.log('load failed:', url, error);
+                    }
+                }
+
+                if (!data) {
+                    throw new Error('无法加载 latest.json');
+                }
+
+                currentData = data;
+                renderContent(data);
+                hasLocalEdits = false;
+                document.getElementById('action-bar').style.display = 'block';
+                document.getElementById('tips').style.display = 'block';
+            } catch (error) {
+                console.error('加载失败:', error);
+                document.getElementById('rich-editor').innerHTML = `
+                    <div style="text-align:center;padding:50px;color:#999;">
+                        <p>⚠️ 内容加载失败</p>
+                        <p style="font-size:14px;margin-top:10px;">请刷新页面重试</p>
+                        <p style="font-size:12px;margin-top:20px;opacity:0.7;">${escapeHtml(error.message)}</p>
+                    </div>
+                `;
+            }
+        }
+
+        function renderContent(data) {
+            document.getElementById('current-date').textContent = data.date;
+            document.getElementById('article-count').textContent = `共 ${data.count} 条精选资讯`;
+
+            const editor = document.getElementById('rich-editor');
+            const sections = {};
+
+            data.articles.forEach(article => {
+                const section = article.section || '其他';
+                if (!sections[section]) sections[section] = [];
+                sections[section].push(article);
+            });
+
+            let html = `
+<section style="max-width:677px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;line-height:1.8;color:#333;">
+    <div style="text-align:center;padding:14px 0 22px;border-bottom:2px solid #1c5cff;margin-bottom:22px;">
+        <h1 style="color:#1c5cff;margin:0 0 8px;font-size:26px;line-height:1.4;font-weight:900;">AI 每日快报</h1>
+        <p style="color:#94a3b8;margin:0;font-size:13px;">${escapeHtml(data.date)}</p>
+    </div>
+
+    <p style="background:#f8fbff;border:1px solid #dbeafe;border-left:4px solid #1c5cff;padding:12px 14px;margin:0 0 24px;font-size:13px;color:#475569;line-height:1.8;border-radius:8px;">
+        📌 本期精选 ${data.count} 条 AI 行业资讯。可直接复制到公众号助手，也可先在下方编辑区微调。
+    </p>
+`;
+
+            SECTION_ORDER.forEach(section => {
+                if (!sections[section] || sections[section].length === 0) return;
+                html += renderSection(section, sections[section], SECTION_COLORS[section] || '#1c5cff');
+            });
+
+            Object.keys(sections).forEach(section => {
+                if (SECTION_ORDER.includes(section)) return;
+                html += renderSection(section, sections[section], '#64748b');
+            });
+
+            html += `
+    <p style="text-align:center;color:#94a3b8;font-size:12px;margin-top:30px;padding-top:20px;border-top:1px solid #e5e7eb;">
+        AI 每日快报 · ${escapeHtml(data.date)}
+    </p>
+</section>`;
+
+            editor.innerHTML = html;
+        }
+
+        function renderSection(section, items, color) {
+            let html = `
+    <h2 style="color:${color};font-size:18px;line-height:1.5;border-left:4px solid ${color};padding:2px 0 2px 10px;margin:26px 0 16px;font-weight:800;">
+        ${escapeHtml(section)}
+    </h2>
+`;
+
+            items.forEach((item, index) => {
+                const meta = [item.source, formatDate(item.publishedAt)].filter(Boolean).map(escapeHtml).join(' · ');
+                const sourceLink = item.url
+                    ? `<a href="${escapeAttribute(item.url)}" target="_blank" rel="noopener noreferrer" style="color:${color};text-decoration:none;">原文</a>`
+                    : '';
+
+                html += `
+    <section style="padding:0 0 16px;margin:0 0 16px;border-bottom:1px solid #e5e7eb;">
+        <h3 style="font-size:16px;color:#111827;margin:0 0 10px;line-height:1.65;font-weight:800;">
+            ${index + 1}. ${item.company ? `<strong style="color:${color};">${escapeHtml(item.company)}</strong> · ` : ''}${escapeHtml(item.title)}
+        </h3>
+        ${(meta || sourceLink) ? `<p style="font-size:12px;color:#6b7280;margin:0 0 10px;">${meta}${meta && sourceLink ? ' · ' : ''}${sourceLink}</p>` : ''}
+        <p style="font-size:14px;color:#374151;margin:0;line-height:1.85;text-align:justify;">${escapeHtml(item.summary)}</p>
+    </section>
+`;
+            });
+
+            return html;
+        }
+
+        function escapeHtml(str) {
+            return String(str || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;');
+        }
+
+        function escapeAttribute(str) {
+            return escapeHtml(str).replace(/'/g, '&#39;');
+        }
+
+        function formatDate(value) {
+            if (!value) return '';
+            const date = new Date(value);
+            if (Number.isNaN(date.getTime())) return value;
+            return `${date.getMonth() + 1}月${date.getDate()}日`;
+        }
+
+        async function copyForWechat() {
+            const editor = document.getElementById('rich-editor');
+            const html = editor.innerHTML;
+            const text = editor.innerText;
+
+            try {
+                if (window.ClipboardItem && navigator.clipboard && navigator.clipboard.write) {
+                    await navigator.clipboard.write([
+                        new ClipboardItem({
+                            'text/html': new Blob([html], { type: 'text/html' }),
+                            'text/plain': new Blob([text], { type: 'text/plain' })
+                        })
+                    ]);
+                    showToast('✅ 已复制富文本内容，请打开公众号助手粘贴', 'success');
+                    return;
+                }
+
+                copyWithExecCommand(editor);
+                showToast('✅ 已复制内容，请打开公众号助手粘贴', 'success');
+            } catch (error) {
+                console.error('复制失败:', error);
+                try {
+                    copyWithExecCommand(editor);
+                    showToast('✅ 已通过兼容模式复制，请直接粘贴', 'success');
+                } catch (fallbackError) {
+                    console.error('兼容复制失败:', fallbackError);
+                    showToast('❌ 复制失败，请手动全选后复制', 'error');
+                }
+            }
+        }
+
+        function copyWithExecCommand(editor) {
+            const range = document.createRange();
+            range.selectNodeContents(editor);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+
+            const success = document.execCommand('copy');
+            selection.removeAllRanges();
+
+            if (!success) {
+                throw new Error('execCommand copy failed');
+            }
+        }
+
+        function showToast(message, type) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = 'toast ' + type;
+            toast.style.display = 'block';
+
+            setTimeout(() => {
+                toast.style.display = 'none';
+            }, 2500);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const editor = document.getElementById('rich-editor');
+            editor.addEventListener('input', () => {
+                hasLocalEdits = true;
+            });
+
+            loadData();
+            setInterval(() => loadData({ skipWhenDirty: true }), 5 * 60 * 1000);
+        });
+    </script>
+</body>
+</html>

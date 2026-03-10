@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+.npm-cache/
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Output files - 保留 JSON 用于跨天去重，排除 HTML
+# 保留 output 目录本身和 .gitkeep
+!output/
+!output/.gitkeep
+
+# 排除 output 目录下的 HTML 文件
+output/*.html
+
+# 根目录 HTML 文件（除了静态页面）
+*.html
+!index.html
+!mobile-preview.html
+
+# JSON 数据文件（需要提交用于跨天去重）
+!latest.json
+
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp

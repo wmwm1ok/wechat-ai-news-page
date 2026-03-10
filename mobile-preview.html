@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI日报 - 手机预览</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', sans-serif;
+            background: #f5f5f5;
+            padding: 15px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .header {
+            background: #1c5cff;
+            color: white;
+            padding: 20px;
+            border-radius: 12px 12px 0 0;
+            text-align: center;
+        }
+        .header h1 { font-size: 20px; margin-bottom: 5px; }
+        .header .date { font-size: 14px; opacity: 0.9; }
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 0 0 12px 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .article {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 3px solid #1c5cff;
+        }
+        .article h3 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .article .meta {
+            font-size: 12px;
+            color: #999;
+            margin-bottom: 8px;
+        }
+        .article .summary {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+        .copy-btn {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #07c160;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(7, 193, 96, 0.4);
+            cursor: pointer;
+            z-index: 100;
+        }
+        .copy-btn:active { transform: translateX(-50%) scale(0.95); }
+        .toast {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            display: none;
+            z-index: 200;
+        }
+        .tips {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fffbe6;
+            border: 1px solid #ffe58f;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #666;
+        }
+        .tips strong { color: #d48806; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 AI 每日快报</h1>
+            <div class="date" id="current-date"></div>
+        </div>
+        
+        <div class="content" id="articles-container">
+            <!-- 文章内容将在这里动态加载 -->
+        </div>
+        
+        <div class="tips">
+            <strong>📱 发布步骤：</strong><br>
+            1. 点击底部绿色按钮复制全部内容<br>
+            2. 打开「公众号助手」App<br>
+            3. 粘贴到图文编辑器<br>
+            4. 添加封面图，点击发布
+        </div>
+    </div>
+    
+    <button class="copy-btn" onclick="copyContent()">📋 一键复制全部内容</button>
+    <div class="toast" id="toast">已复制！</div>
+
+    <script>
+        // 设置日期
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('zh-CN');
+        
+        // 示例数据（实际应从 GitHub API 获取最新内容）
+        const articles = [
+            {
+                section: '产品发布与更新',
+                title: 'OpenAI 发布 GPT-5 预览版',
+                source: '机器之心',
+                summary: 'OpenAI 今日发布了 GPT-5 的预览版本，新模型在多模态理解和推理能力上有显著提升...'
+            },
+            {
+                section: '技术与研究',
+                title: 'Google DeepMind 突破蛋白质折叠预测',
+                source: '36氪',
+                summary: 'DeepMind 团队在蛋白质结构预测领域取得重大突破，准确率提升至 95% 以上...'
+            }
+        ];
+        
+        // 渲染文章
+        function renderArticles() {
+            const container = document.getElementById('articles-container');
+            let html = '';
+            let currentSection = '';
+            
+            articles.forEach(article => {
+                if (article.section !== currentSection) {
+                    html += `<h2 style="color:#1c5cff;font-size:18px;margin:20px 0 15px;padding-left:10px;border-left:4px solid #1c5cff;">${article.section}</h2>`;
+                    currentSection = article.section;
+                }
+                
+                html += `
+                    <div class="article">
+                        <h3>${article.title}</h3>
+                        <div class="meta">📰 ${article.source}</div>
+                        <div class="summary">${article.summary}</div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        // 一键复制
+        function copyContent() {
+            const content = document.querySelector('.content').innerText;
+            
+            // 创建临时 textarea 来复制
+            const textarea = document.createElement('textarea');
+            textarea.value = `AI 每日快报｜${new Date().toLocaleDateString('zh-CN')}\n\n${content}`;
+            textarea.style.position = 'fixed';
+            textarea.style.opacity = '0';
+            document.body.appendChild(textarea);
+            textarea.select();
+            
+            try {
+                document.execCommand('copy');
+                showToast('✅ 已复制全部内容！');
+            } catch (err) {
+                showToast('❌ 复制失败，请手动复制');
+            }
+            
+            document.body.removeChild(textarea);
+        }
+        
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            toast.textContent = msg;
+            toast.style.display = 'block';
+            setTimeout(() => {
+                toast.style.display = 'none';
+            }, 2000);
+        }
+        
+        // 初始化
+        renderArticles();
+    </script>
+</body>
+</html>
