@@ -1,6 +1,6 @@
 {
   "date": "2026/3/11",
-  "generatedAt": "2026/3/11 08:05",
+  "generatedAt": "2026/3/11 10:53",
   "count": 14,
   "articles": [
     {
@@ -10,8 +10,28 @@
       "url": "https://www.leiphone.com/category/industrynews/I7ftM1HzjADTPOCq.html",
       "source": "雷锋网",
       "publishedAt": "Tue, 10 Mar 2026 18:37:00 +0800",
-      "summary": "3月9日，具身智能企业魔法原子宣布完成新一轮5亿元融资，投资方包括天空工场创投基金、拓普集团、金雨茂物等多家机构。同时，该公司与天空工场创投基金及无锡梁溪区共同发起百亿级产业生态基金，重点布局具身智能产业链上下游，整体撬动资金规模超105亿元。本轮融资引入了拓普集团、杰创智能、爱仕达等具备制造与场景资源的战略投资方，以及多家地方国资，旨在为技术研发、产品迭代与产业化落地提供支撑。公司已在核心硬件、控制技术、模型算法三大方向取得系统性技术突破，并拥有覆盖人形与四足机器人的产品线。",
+      "summary": "具身智能企业魔法原子于3月9日宣布完成新一轮5亿元融资，投资方包括天空工场创投基金、拓普集团、金雨茂物等多家机构。同时，该公司与天空工场创投基金及无锡梁溪区共同发起百亿级产业生态基金，重点布局具身智能产业链上下游，整体撬动资金规模超过105亿元。本轮融资引入了拓普集团、杰创智能、爱仕达等具备制造与场景资源的战略投资方，以及多家地方国资，旨在为技术研发、产品迭代与产业化落地提供支撑。公司在核心硬件、控制技术和模型算法三大方向已取得系统性技术突破，并拥有覆盖人形与四足机器人的产品线，其产品曾于2026年央视春晚公开亮相。",
       "score": 51
+    },
+    {
+      "section": "技术与研究",
+      "title": "CNCF毕业项目Dragonfly：云原生镜像分发领域的重要里程碑",
+      "company": "阿里巴巴集团",
+      "url": "https://www.infoq.cn/article/SeYvhWvOzkbdk8PI4ciM?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 11 Mar 2026 10:40:00 GMT",
+      "summary": "云原生计算基金会（CNCF）宣布其开源镜像和文件分发系统Dragonfly已达到毕业状态，这是CNCF项目生命周期中的最高成熟度级别。该项目通过点对点（P2P）加速技术，实现了容器镜像、OCI工件、AI模型等大文件的高效、稳定和安全分发，可将镜像拉取时间从分钟级减少到秒级，并节省高达90%的存储带宽。Dragonfly最初由阿里巴巴集团在2017年开源，于2018年作为沙箱项目加入CNCF，现已获得来自超过130个组织的数百名开发者的贡献。",
+      "score": 45
+    },
+    {
+      "section": "其他",
+      "title": "MiniMax市值大涨超越百度，MaxClaw功能推动股价上涨",
+      "company": "MiniMax",
+      "url": "https://www.infoq.cn/article/JDGCTtxAfaMlJXFURYMg?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 11 Mar 2026 09:51:19 GMT",
+      "summary": "MiniMax昨日股价收涨超过22%，总市值达到3826.4亿港元，超越了百度的3322.2亿港元市值。根据公司2025年全年业绩报告，MiniMax总收入为7903.8万美元，同比增长158.9%，超过70%的收入来自国际市场，毛利率提升至25.4%，经调整净亏损为2.5亿美元且亏损率同比大幅收窄。股价上涨与近期推出的MaxClaw功能密切相关，该功能于2月26日在网页端上线，3月3日在移动端全球上线，提供了零部署、免额外API费用和7×24小时云端常驻的服务，同时公司还将Speech语音模型和Music音乐模型的开放平台接口封装并上架到Openclaw生态中。",
+      "score": 45
     },
     {
       "section": "技术与研究",
@@ -20,97 +40,77 @@
       "url": "https://www.qbitai.com/2026/03/385569.html",
       "source": "量子位",
       "publishedAt": "Tue, 10 Mar 2026 07:27:34 +0000",
-      "summary": "谷歌首席AI科学家Jeff Dean在访谈中预测，未来每个工程师可能管理多达50个智能体来完成并行任务，而“写清楚需求”将成为最重要的核心技能，因为智能体的输出质量取决于问题定义。他揭秘了谷歌遵循的帕累托前沿策略，同时开发高端前沿模型用于复杂任务和高性价比模型用于低延迟场景，并指出蒸馏技术是Gemini Flash模型实现性能突破的关键，能让小模型接近大模型性能。此外，Jeff Dean强调了低延迟对用户体验的改变价值，以及多模态模型应包含非人类模态数据的重要性。",
+      "summary": "谷歌首席AI科学家Jeff Dean在访谈中预测，未来每位工程师可能管理多达50个智能体来完成并行任务，而清晰定义需求将成为最重要的核心技能。他同时揭示了谷歌遵循的帕累托前沿策略，即同时开发用于复杂任务的高端前沿模型和用于低延迟场景的高性价比模型，并指出蒸馏技术是Gemini Flash模型实现性能突破的关键。此外，Jeff Dean强调了低延迟对用户体验的变革性影响，以及多模态模型未来可能涵盖数百种数据模态的重要性。",
       "score": 41
     },
     {
-      "section": "产品发布与更新",
-      "title": "Claude推出代码审查服务：单次PR审查收费25美元，大企业年费或达百万",
-      "company": "Anthropic",
-      "url": "https://www.infoq.cn/article/WFMcDd9FOLLLv3jpamv5?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 10 Mar 2026 17:46:02 GMT",
-      "summary": "Anthropic公司于3月9日推出了一款名为Code Review的代码审查产品，该产品旨在利用AI在人工介入前自动检查Pull Request中的问题。这项服务主要面向团队和企业用户，运行在GitHub和CI流程中，而非开发者本地IDE。其收费模式为按token使用量计费，平均每次审查费用在15到25美元之间，具体取决于PR的规模和复杂度。根据开发者测试，审查三个PR（两个约750行代码，一个约100行代码）的平均费用为18.39美元。若按此价格计算，一个每天产生100个PR的中大型企业，年审查成本可能达到70多万美元，规模更大的组织甚至可能超过百万美元。此外，每次审查平均耗时约20分钟，因为系统需要分析整个代码库作为上下文，以确保审查的彻底性。",
-      "score": 39
-    },
-    {
       "section": "投融资与并购",
-      "title": "宜宾在长三角推出20亿AI产业基金，布局具身智能等新赛道",
-      "company": "",
-      "url": "https://36kr.com/p/3717075892778368?f=rss",
+      "title": "原微软首席量子架构师创业获超亿元天使融资，聚焦中性原子量子计算",
+      "company": "太一量生",
+      "url": "https://36kr.com/p/3717849446659464?f=rss",
       "source": "36氪",
-      "publishedAt": "2026-03-10 20:10:58  +0800",
-      "summary": "3月10日，宜宾市在上海举行人工智能产业合作推介会，面向长三角地区推出总额20亿元的应用场景机会清单和20亿元的产业基金，并预发布最高1亿元经费支持的研发意向榜单。场景清单涵盖具身智能、AI垂类应用和数据基础设施三大领域共19个具体场景，产业基金将投向具身智能硬件制造、大模型行业应用和算力基础设施。推介会上，宜宾与银河通用、追觅科技、宇树科技、阿加犀智能科技等企业签约，合作模式强调“研发在长三角、转化在宜宾”。业内人士认为，宜宾凭借产业场景、绿色能源和产业化落地能力，为长三角企业提供了技术转化和市场拓展的机会。",
+      "publishedAt": "2026-03-11 09:12:19  +0800",
+      "summary": "原微软首席量子架构师刘弘斌博士与资深投资人方正浩共同创立的中性原子量子计算企业太一量生，近日完成超亿元天使轮融资。本轮融资由上海未来产业基金和科大讯飞旗下讯飞创投联合领投，多家产业方及市场化投资机构跟投，资金将用于产品研发、团队扩张及首台量子计算机的研制搭建。公司选择以镱原子为核心的中性原子技术路线，该路线在扩展性和校准方面具有优势，团队已入驻上海徐汇并开始搭建实验系统。",
       "score": 37
     },
     {
       "section": "技术与研究",
-      "title": "机器人全程自主收拾客厅，Figure展示端到端新技能获英伟达持续看好",
-      "company": "Figure",
-      "url": "https://www.qbitai.com/2026/03/385126.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 10 Mar 2026 05:50:05 +0000",
-      "summary": "估值390亿美元的机器人公司Figure展示了其机器人完全自主、端到端整理客厅的能力，包括喷洒消毒液擦拭茶几、拾起杂物归置、摆正抱枕以及用遥控器关机并摆放整齐。这一突破由团队自主研发的具身大脑Helix 02系统支撑，该系统是一个单神经网络系统，能够通过像素直接控制全身，让机器人把感觉、思考和行动统一起来。此次解锁新任务仅通过补充最新场景数据实现，并未新增算法或进行特殊工程适配。英伟达持续看好并投资该公司。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "Akamai联合英伟达推出基于DPU的无代理零信任安全方案",
-      "company": "Akamai,英伟达",
-      "url": "https://www.infoq.cn/article/m4lQlXIAK0st0siiQzgk?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 10 Mar 2026 18:15:49 GMT",
-      "summary": "Akamai与英伟达合作推出了一项安全解决方案，通过将Akamai Guardicore Segmentation与NVIDIA BlueField DPU集成，实现了无需在主机安装软件代理的零信任网络分段。该方案将安全策略执行从主机系统卸载到DPU硬件层，旨在解决工业控制系统等关键基础设施领域因无法安装代理而面临的安全与稳定性矛盾。这种硬件卸载架构避免了安全工具对主机性能的影响，并能在不修改原有系统的情况下实现网络流量的监控与控制。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "宁德时代日赚近2亿，二手平台现OpenClaw卸载服务，小红书打击AI托管账号",
+      "title": "宁德时代日赚近2亿；二手平台现OpenClaw卸载服务；小红书打击AI托管账号",
       "company": "宁德时代,小红书",
       "url": "https://36kr.com/p/3717775829776002?f=rss",
       "source": "36氪",
       "publishedAt": "2026-03-11 08:01:31  +0800",
-      "summary": "宁德时代2025年年度报告显示，公司全年营收4237.02亿元，净利润722.01亿元，同比增长42.28%，期末货币资金及交易性金融资产合计超3600亿元，相当于日均新增现金储备近2亿元。随着AI智能体OpenClaw的流行，二手平台出现了专门的上门卸载服务，价格从20元到299元不等，服务提供者表示卸载需求主要源于用户对安全风险和费用消耗的担忧。小红书发布公告，明确表示将严格治理利用AI托管模式运营的账号，禁止任何模拟真人进行非真实内容创作或虚假互动的行为，以维护社区真实底色。",
-      "score": 34
+      "summary": "宁德时代2025年年度报告显示，公司全年营收4237.02亿元，净利润722.01亿元，同比增长42.28%，期末货币资金及交易性金融资产合计超3600亿元，相当于日均新增现金储备近2亿元。随着AI智能体OpenClaw的流行，二手平台出现了专门的上门卸载服务，价格从20元到299元不等，主要原因是用户担心安全风险或认为其使用成本过高。小红书发布公告，明确表示将严格打击利用AI托管模式运营的账号，以维护社区内容的真实底色，并呼吁创作者分享真实经历。此外，报道提及由于配置不当，目前已有约27万台OpenClaw的控制接口暴露在互联网上，存在安全风险。",
+      "score": 37
+    },
+    {
+      "section": "技术与研究",
+      "title": "GitHub数据显示AI工具创造“便利循环”，重塑开发者语言选择",
+      "company": "GitHub",
+      "url": "https://www.infoq.cn/article/6U6QxjzgUwA4XL80Kv2b?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 11 Mar 2026 10:10:00 GMT",
+      "summary": "GitHub 2025年的Octoverse报告显示，AI编程助手不仅改变了开发者编写代码的速度，还影响了他们对编程语言的选择。TypeScript以66%的年增长率成为GitHub上月活跃贡献者最多的语言，这一现象被GitHub开发大使Andrea Griffiths称为“便利循环”，即AI使某项技术变得方便，吸引更多开发者使用，进而产生更多训练数据，使AI在该技术上表现更出色。报告指出，强类型语言如TypeScript为AI提供了明确的护栏，有助于在错误成为生产问题之前捕捉它们，而超过110万个公共存储库使用LLM SDK表明AI辅助编码已成为主流。GitHub Next团队负责人Idan Gazit表示，AI的出现为语言选择增加了一个新的考量因素，即模型能带来多少提升。",
+      "score": 36
     },
     {
       "section": "投融资与并购",
-      "title": "AI法律科技公司Legora估值达55.5亿美元",
+      "title": "法律科技公司Legora估值达55.5亿美元",
       "company": "Legora",
       "url": "https://techcrunch.com/2026/03/10/legora-reaches-5-55-billion-valuation-as-ai-legaltech-boom-endures/",
       "source": "TechCrunch AI",
       "publishedAt": "Tue, 10 Mar 2026 14:34:24 +0000",
-      "summary": "AI法律平台Legora在Accel领投的5.5亿美元D轮融资后，估值达到55.5亿美元。本轮融资将用于支持其在美国市场的扩张。",
-      "score": 34
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "亚马逊在网站和应用中推出医疗AI助手",
-      "company": "Amazon",
-      "url": "https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 10 Mar 2026 20:10:06 +0000",
-      "summary": "亚马逊推出了名为Health AI的医疗人工智能助手，用户可通过其网站和应用访问。该助手能够回答健康相关问题、解释健康记录、管理处方续签以及预约挂号。",
-      "score": 26
+      "summary": "面向律师的AI平台Legora在由Accel领投的5.5亿美元D轮融资后，估值达到55.5亿美元。此轮融资旨在支持其在美国市场的增长。",
+      "score": 35
     },
     {
       "section": "投融资与并购",
-      "title": "Thinking Machines Lab与英伟达签署大规模算力协议",
-      "company": "Thinking Machines Lab, Nvidia",
-      "url": "https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/",
+      "title": "AgentMail融资600万美元以构建面向AI代理的电子邮件服务",
+      "company": "AgentMail",
+      "url": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/",
       "source": "TechCrunch AI",
-      "publishedAt": "Tue, 10 Mar 2026 15:08:39 +0000",
-      "summary": "Thinking Machines Lab与英伟达达成了一项多年期大规模算力合作协议，涉及至少一千兆瓦的算力资源。该协议还包括英伟达对Thinking Machines Lab的战略投资。",
+      "publishedAt": "Tue, 10 Mar 2026 16:00:00 +0000",
+      "summary": "AgentMail公司筹集了600万美元资金，用于开发一个面向人工智能代理的电子邮件服务平台。该平台通过API提供功能，使AI代理能够拥有自己的收件箱，并支持双向对话、邮件解析、会话线程、标签分类、搜索和回复等操作。",
+      "score": 26
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "谷歌在印度Chrome浏览器中引入Gemini",
+      "company": "Google",
+      "url": "https://techcrunch.com/2026/03/10/google-gemini-chrome-expands-to-india-canada-new-zealand/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 11 Mar 2026 02:30:00 +0000",
+      "summary": "谷歌将Gemini功能引入印度市场的Chrome浏览器。该功能将支持包括印地语、孟加拉语、古吉拉特语、卡纳达语、马拉雅拉姆语、马拉地语、泰卢固语和泰米尔语在内的多种语言。",
       "score": 24
     },
     {
       "section": "产品发布与更新",
-      "title": "Adobe为Photoshop推出AI助手",
-      "company": "Adobe",
-      "url": "https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/",
+      "title": "亚马逊在网站和应用上推出医疗健康AI助手",
+      "company": "Amazon",
+      "url": "https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/",
       "source": "TechCrunch AI",
-      "publishedAt": "Tue, 10 Mar 2026 13:06:51 +0000",
-      "summary": "Adobe正在为Photoshop推出AI助手。同时，该公司也在为Firefly添加新的AI图像编辑功能。",
+      "publishedAt": "Tue, 10 Mar 2026 20:10:06 +0000",
+      "summary": "亚马逊推出了名为Health AI的医疗健康人工智能助手。该助手能够回答健康问题、解释健康记录、管理处方续签以及预约挂号。",
       "score": 24
     },
     {
@@ -125,23 +125,23 @@
     },
     {
       "section": "技术与研究",
+      "title": "下载：AI在伊朗战争中的作用与升级的法律斗争",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/03/10/1134077/the-download-ai-iran-war-theater-anthropic-sues-us/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 10 Mar 2026 12:55:32 +0000",
+      "summary": "这是《下载》栏目的当日内容，该栏目是工作日发布的科技新闻简报。文章聚焦于人工智能在伊朗冲突中扮演的角色，特别是像Claude这样的模型如何帮助美军进行决策。同时，简报也提及了正在升级的法律斗争。",
+      "score": 23
+    },
+    {
+      "section": "技术与研究",
       "title": "优先发展能源智能以实现可持续增长",
       "company": "Intel",
       "url": "https://www.technologyreview.com/2026/03/10/1133972/prioritizing-energy-intelligence-for-sustainable-growth/",
       "source": "MIT Technology Review",
       "publishedAt": "Tue, 10 Mar 2026 13:00:00 +0000",
-      "summary": "弗吉尼亚州劳登县从昔日的田园风光转变为全球数据中心最密集的区域。十年前，这些设施主要支持电子邮件和电子商务，如今则因人工智能需求的激增而面临新的能源挑战。文章探讨了该地区如何通过发展能源智能来应对数据中心扩张带来的可持续增长问题。",
-      "score": 22
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI在伊朗冲突中的作用及升级的法律斗争",
-      "company": "",
-      "url": "https://www.technologyreview.com/2026/03/10/1134077/the-download-ai-iran-war-theater-anthropic-sues-us/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Tue, 10 Mar 2026 12:55:32 +0000",
-      "summary": "本期《下载》通讯聚焦技术领域动态，探讨了人工智能在伊朗冲突中的角色。文章指出，AI模型如Claude正被用于协助美军进行军事决策，同时相关法律争议也在升级。通讯还涵盖了其他技术新闻。",
-      "score": 21
+      "summary": "弗吉尼亚州劳登县从昔日的田园风光转变为全球数据中心最密集的区域。十年前的数据中心主要支持电子邮件和电子商务，如今则因人工智能需求的爆炸式增长而面临新的能源挑战。文章探讨了该地区如何通过发展能源智能来应对这一转变，以实现可持续增长。",
+      "score": 20
     }
   ]
 }
