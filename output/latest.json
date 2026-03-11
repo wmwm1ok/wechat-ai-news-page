@@ -1,147 +1,147 @@
 {
-  "date": "2026/3/10",
-  "generatedAt": "2026/3/10 11:09",
+  "date": "2026/3/11",
+  "generatedAt": "2026/3/11 08:05",
   "count": 14,
   "articles": [
     {
-      "section": "产品发布与更新",
-      "title": "AWS推出智能体插件实现云部署自动化",
-      "company": "AWS",
-      "url": "https://www.infoq.cn/article/hIg1OifpYrt5Vo517yqo?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 10 Mar 2026 10:30:00 GMT",
-      "summary": "AWS近期发布了名为Agent Plugins for AWS的开源仓库，旨在为AI编程智能体提供在AWS平台上进行应用架构设计、部署与运维的专项能力。首个发布的deploy-on-aws插件能够接收自然语言指令，自动执行包括分析代码库、推荐AWS服务、估算成本、生成基础设施即代码以及最终部署在内的五步工作流，从而将原本需要数小时的手动配置过程缩短至不到10分钟。该插件目前支持Claude Code和Cursor两种开发环境，其核心价值在于通过明确定义和系统化整个AWS工作流，实现了设计流程的标准化与组织知识的规范化。",
-      "score": 44
+      "section": "投融资与并购",
+      "title": "魔法原子完成5亿元融资并设立百亿生态基金，加速具身智能产业化",
+      "company": "魔法原子",
+      "url": "https://www.leiphone.com/category/industrynews/I7ftM1HzjADTPOCq.html",
+      "source": "雷锋网",
+      "publishedAt": "Tue, 10 Mar 2026 18:37:00 +0800",
+      "summary": "3月9日，具身智能企业魔法原子宣布完成新一轮5亿元融资，投资方包括天空工场创投基金、拓普集团、金雨茂物等多家机构。同时，该公司与天空工场创投基金及无锡梁溪区共同发起百亿级产业生态基金，重点布局具身智能产业链上下游，整体撬动资金规模超105亿元。本轮融资引入了拓普集团、杰创智能、爱仕达等具备制造与场景资源的战略投资方，以及多家地方国资，旨在为技术研发、产品迭代与产业化落地提供支撑。公司已在核心硬件、控制技术、模型算法三大方向取得系统性技术突破，并拥有覆盖人形与四足机器人的产品线。",
+      "score": 51
     },
     {
       "section": "技术与研究",
-      "title": "GitHub发布年度开源趋势报告：2026年开源生态全球化加速，AI带来新挑战",
-      "company": "GitHub",
-      "url": "https://www.infoq.cn/article/v1pK4PZN44ORoUZr8Fgu?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 10 Mar 2026 10:10:00 GMT",
-      "summary": "GitHub基于Octoverse 2025数据发布年度开源趋势报告，指出开源社区规模空前庞大，但结构性压力加剧。报告显示，2025年约有3600万新开发者加入GitHub，贡献者地域分布和工作方式正在重构，这对项目治理带来巨大影响，缺乏清晰书面治理规范的项目将难以应对规模增长。AI在降低开发者入门门槛的同时，也导致大量低质贡献泛滥，被比作针对人类注意力的拒绝服务攻击，维护者正面临评审负担远超队伍扩张的瓶颈。报告建议项目应减少对个人指导的依赖，转而打造稳健的系统，包括清晰的晋升路径和共治模式，并指出即便不聚焦AI，只要能解决真实需求并提供包容支持，项目依然能实现稳健增长。",
+      "title": "Jeff Dean访谈：未来开发者人均管理50个智能体，写需求成核心技能",
+      "company": "谷歌",
+      "url": "https://www.qbitai.com/2026/03/385569.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 10 Mar 2026 07:27:34 +0000",
+      "summary": "谷歌首席AI科学家Jeff Dean在访谈中预测，未来每个工程师可能管理多达50个智能体来完成并行任务，而“写清楚需求”将成为最重要的核心技能，因为智能体的输出质量取决于问题定义。他揭秘了谷歌遵循的帕累托前沿策略，同时开发高端前沿模型用于复杂任务和高性价比模型用于低延迟场景，并指出蒸馏技术是Gemini Flash模型实现性能突破的关键，能让小模型接近大模型性能。此外，Jeff Dean强调了低延迟对用户体验的改变价值，以及多模态模型应包含非人类模态数据的重要性。",
       "score": 41
     },
     {
-      "section": "技术与研究",
-      "title": "拿火音乐以AI音乐工作站创众筹纪录，年营收达数亿元",
-      "company": "拿火音乐",
-      "url": "https://36kr.com/p/3715521730933127?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-10 09:59:02  +0800",
-      "summary": "拿火音乐从广州起步，以材料创新和智能交互为核心，于2017年推出全球首款一体成型碳纤维智能吉他LAVA ME。2025年，公司推出LAVA STUDIO个人音乐创作平台，在海外众筹金额超过226万美元，刷新了全球乐器类众筹纪录。目前公司全年营收已达数亿元人民币，去年至今营收增速连续突破50%。",
-      "score": 40
+      "section": "产品发布与更新",
+      "title": "Claude推出代码审查服务：单次PR审查收费25美元，大企业年费或达百万",
+      "company": "Anthropic",
+      "url": "https://www.infoq.cn/article/WFMcDd9FOLLLv3jpamv5?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 10 Mar 2026 17:46:02 GMT",
+      "summary": "Anthropic公司于3月9日推出了一款名为Code Review的代码审查产品，该产品旨在利用AI在人工介入前自动检查Pull Request中的问题。这项服务主要面向团队和企业用户，运行在GitHub和CI流程中，而非开发者本地IDE。其收费模式为按token使用量计费，平均每次审查费用在15到25美元之间，具体取决于PR的规模和复杂度。根据开发者测试，审查三个PR（两个约750行代码，一个约100行代码）的平均费用为18.39美元。若按此价格计算，一个每天产生100个PR的中大型企业，年审查成本可能达到70多万美元，规模更大的组织甚至可能超过百万美元。此外，每次审查平均耗时约20分钟，因为系统需要分析整个代码库作为上下文，以确保审查的彻底性。",
+      "score": 39
     },
     {
-      "section": "技术与研究",
-      "title": "国家超算互联网OpenClaw接入飞书企业微信，WPS发布iPadOS原生桌面Office，AI妇产科模型发布",
+      "section": "投融资与并购",
+      "title": "宜宾在长三角推出20亿AI产业基金，布局具身智能等新赛道",
       "company": "",
-      "url": "https://36kr.com/p/3715472798527617?f=rss",
+      "url": "https://36kr.com/p/3717075892778368?f=rss",
       "source": "36氪",
-      "publishedAt": "2026-03-09 19:43:00  +0800",
-      "summary": "国家超算互联网宣布其OpenClaw服务已打通飞书和企业微信，用户可根据任务规模灵活选择多种模型API调用服务，并接入客户端使用，目前该服务已预置MinMax-M2.1、MinMax-M2.5、Qwen-235B等大模型以提供高性能、低成本的推理算力。WPS发布了iPadOS首款原生桌面级Office应用。同时，“红房子・启元”AI妇产科垂直大模型正式发布。此外，菜鸟运营的全国首个跨境电商零售出口“前置监管仓”在山东威海正式启用，服务于速卖通平台，通过与海关协同实现出口货物秒级申报放行。光洋股份与逐际动力签署战略合作协议，致力于一体化关节模组的标准化开发。广东智能机器人产业投资基金合伙企业成立，出资额20亿元人民币。得物在全员会上透露过去一年商家入驻及社区创作者变现增长60%以上，平台整体业务实现双位数增长。抖音电商发布“侵权仿冒”治理专项进展，累计处置侵权仿冒达人账号1.1万个，处置仿冒带货商品超6700个。联想百应携手美团推出独家OpenClaw远程部署服务，并同步推出原生适配OpenClaw的AI终端联想百应NUC。",
-      "score": 38
+      "publishedAt": "2026-03-10 20:10:58  +0800",
+      "summary": "3月10日，宜宾市在上海举行人工智能产业合作推介会，面向长三角地区推出总额20亿元的应用场景机会清单和20亿元的产业基金，并预发布最高1亿元经费支持的研发意向榜单。场景清单涵盖具身智能、AI垂类应用和数据基础设施三大领域共19个具体场景，产业基金将投向具身智能硬件制造、大模型行业应用和算力基础设施。推介会上，宜宾与银河通用、追觅科技、宇树科技、阿加犀智能科技等企业签约，合作模式强调“研发在长三角、转化在宜宾”。业内人士认为，宜宾凭借产业场景、绿色能源和产业化落地能力，为长三角企业提供了技术转化和市场拓展的机会。",
+      "score": 37
     },
     {
       "section": "技术与研究",
-      "title": "首个物理AI数据基座平台“无垠”落户浙江，解决机器人数据难题",
-      "company": "无问智科",
-      "url": "https://www.qbitai.com/2026/03/385066.html",
+      "title": "机器人全程自主收拾客厅，Figure展示端到端新技能获英伟达持续看好",
+      "company": "Figure",
+      "url": "https://www.qbitai.com/2026/03/385126.html",
       "source": "量子位",
-      "publishedAt": "Mon, 09 Mar 2026 10:46:27 +0000",
-      "summary": "无问智科在浙江德清发布了业界首个物理AI数据基座平台“无垠”，旨在解决具身智能领域面临的高质量数据稀缺问题。该平台通过虚实融合的技术路线，整合了真实场景采集数据和高保真合成数据，构建了覆盖家庭、工业、商业场景的生态，并提供了从数据采集到产业落地的全闭环工具链。平台目前已积累超过1000TB规模的数据，并宣布将开源1万小时高质量数据以缓解行业数据困境。",
+      "publishedAt": "Tue, 10 Mar 2026 05:50:05 +0000",
+      "summary": "估值390亿美元的机器人公司Figure展示了其机器人完全自主、端到端整理客厅的能力，包括喷洒消毒液擦拭茶几、拾起杂物归置、摆正抱枕以及用遥控器关机并摆放整齐。这一突破由团队自主研发的具身大脑Helix 02系统支撑，该系统是一个单神经网络系统，能够通过像素直接控制全身，让机器人把感觉、思考和行动统一起来。此次解锁新任务仅通过补充最新场景数据实现，并未新增算法或进行特殊工程适配。英伟达持续看好并投资该公司。",
+      "score": 35
+    },
+    {
+      "section": "技术与研究",
+      "title": "Akamai联合英伟达推出基于DPU的无代理零信任安全方案",
+      "company": "Akamai,英伟达",
+      "url": "https://www.infoq.cn/article/m4lQlXIAK0st0siiQzgk?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 10 Mar 2026 18:15:49 GMT",
+      "summary": "Akamai与英伟达合作推出了一项安全解决方案，通过将Akamai Guardicore Segmentation与NVIDIA BlueField DPU集成，实现了无需在主机安装软件代理的零信任网络分段。该方案将安全策略执行从主机系统卸载到DPU硬件层，旨在解决工业控制系统等关键基础设施领域因无法安装代理而面临的安全与稳定性矛盾。这种硬件卸载架构避免了安全工具对主机性能的影响，并能在不修改原有系统的情况下实现网络流量的监控与控制。",
+      "score": 35
+    },
+    {
+      "section": "技术与研究",
+      "title": "宁德时代日赚近2亿，二手平台现OpenClaw卸载服务，小红书打击AI托管账号",
+      "company": "宁德时代,小红书",
+      "url": "https://36kr.com/p/3717775829776002?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-11 08:01:31  +0800",
+      "summary": "宁德时代2025年年度报告显示，公司全年营收4237.02亿元，净利润722.01亿元，同比增长42.28%，期末货币资金及交易性金融资产合计超3600亿元，相当于日均新增现金储备近2亿元。随着AI智能体OpenClaw的流行，二手平台出现了专门的上门卸载服务，价格从20元到299元不等，服务提供者表示卸载需求主要源于用户对安全风险和费用消耗的担忧。小红书发布公告，明确表示将严格治理利用AI托管模式运营的账号，禁止任何模拟真人进行非真实内容创作或虚假互动的行为，以维护社区真实底色。",
       "score": 34
     },
     {
-      "section": "技术与研究",
-      "title": "谷歌与麻省理工学院研究人员提出多智能体系统扩展预测框架",
-      "company": "谷歌",
-      "url": "https://www.infoq.cn/article/DC0RIBly3IkxTTUMfy6U?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 10 Mar 2026 08:52:20 GMT",
-      "summary": "谷歌与麻省理工学院的研究人员发表论文，提出了一个用于扩展多智能体系统的预测框架。该框架揭示了工具使用与系统协同之间存在权衡关系，可用于为特定任务选择最优的智能体架构，其预测准确率达到87%。研究发现，更智能的基础模型不会取代对多智能体系统的需求，反而会加速其发展，前提是采用正确的架构。",
-      "score": 33
-    },
-    {
       "section": "投融资与并购",
-      "title": "宋紫薇创业公司薇光点亮获红杉蚂蚁投资，转向AI护肤赛道",
-      "company": "薇光点亮",
-      "url": "https://www.qbitai.com/2026/03/384926.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 09 Mar 2026 06:21:16 +0000",
-      "summary": "前vivo产品经理宋紫薇创立的AI智能硬件公司“薇光点亮”完成了新一轮融资，投资方包括红杉中国、蚂蚁集团和蓝驰创投等，具体融资金额未正式披露，有数千万元和超亿元两种说法。该公司创立于2024年，最初定位为以AI Agent为核心的智能硬件创新企业，首款产品方向曾指向AI化妆镜。最新进展显示，公司已将主要赛道明确为“AI+时尚硬件”，产品方向从之前的化妆镜调整为更聚焦于“AI护肤”，旨在私密、高频的生活场景中寻找切口。宋紫薇因其在vivo担任产品经理期间的公开亮相而被称为“最美产品经理”，于2023年底离职后创立了该公司。",
-      "score": 32
-    },
-    {
-      "section": "投融资与并购",
-      "title": "OpenAI收购Promptfoo以加强其AI代理安全性",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/",
+      "title": "AI法律科技公司Legora估值达55.5亿美元",
+      "company": "Legora",
+      "url": "https://techcrunch.com/2026/03/10/legora-reaches-5-55-billion-valuation-as-ai-legaltech-boom-endures/",
       "source": "TechCrunch AI",
-      "publishedAt": "Mon, 09 Mar 2026 17:49:04 +0000",
-      "summary": "OpenAI收购了Promptfoo，此举突显了前沿AI实验室正急于证明其技术能在关键业务运营中安全使用。",
-      "score": 25
-    },
-    {
-      "section": "政策与监管",
-      "title": "下载：模糊的AI监控法律，以及白宫打击违规实验室",
-      "company": "Anthropic",
-      "url": "https://www.technologyreview.com/2026/03/09/1134050/the-download-ai-surveillance-laws-white-house-cracks-down-defiant-labs/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Mon, 09 Mar 2026 13:57:44 +0000",
-      "summary": "这是每日通讯《下载》的今日版，提供每日科技动态。美国国防部是否被允许使用AI监控美国人？国防部与AI公司Anthropic之间持续的公开争执，引发了一个深刻且尚未解答的问题。同时，白宫正在对违规的实验室采取打击行动。",
-      "score": 21
-    },
-    {
-      "section": "技术与研究",
-      "title": "Ztopia：基于Milvus与Claude Code打造企业级Agent系统",
-      "company": "Zilliz",
-      "url": "https://www.infoq.cn/article/DCo7S8AHJiZ0tbks5QIH?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 10 Mar 2026 10:24:00 GMT",
-      "summary": "在QCon北京全球软件开发大会上，Zilliz合伙人栾小凡将分享题为《Ztopia：基于Milvus与Claude Code打造企业级Agent》的主题演讲。该演讲将介绍Ztopia这一企业级Agent系统，它旨在解决企业数据分散在飞书、Google Workspace、GitHub等数十个系统中形成信息孤岛的问题。Ztopia以Milvus向量数据库作为记忆基础，以Claude Code为推理引擎，构建了一个统一的长期记忆体系。演讲内容将涵盖系统的整体架构设计，重点探讨向量数据库在Agent记忆系统中的实践，包括记忆的存储、检索、更新与遗忘策略，以及如何通过MCP协议打通20多种企业工具链。同时，演讲还将分享在实际落地中遇到的记忆一致性、上下文窗口管理、多Agent协同等工程挑战及相应的解决方案。",
-      "score": 26
-    },
-    {
-      "section": "技术与研究",
-      "title": "北大系寒序科技完成数千万元融资，流式推理芯片目标2000 Tokens/s",
-      "company": "寒序科技",
-      "url": "https://www.leiphone.com/category/chips/SMIG5HNXO304w3np.html",
-      "source": "雷锋网",
-      "publishedAt": "Mon, 09 Mar 2026 18:06:00 +0800",
-      "summary": "专注于超快流式推理芯片的创业公司寒序科技宣布完成数千万元融资，投资方包括启高资本和赛意产业基金。该公司首颗芯片样片测试结果理想，其单位面积带宽指标与Groq LPU一致，达到100 GB/s/mm²，这是实现高推理速度的关键。公司下一代芯片已在流片中，目标性能指向2000 Tokens/s以上，其技术路线被认为是最贴近Groq方案的超大带宽流式处理芯片。",
-      "score": 26
+      "publishedAt": "Tue, 10 Mar 2026 14:34:24 +0000",
+      "summary": "AI法律平台Legora在Accel领投的5.5亿美元D轮融资后，估值达到55.5亿美元。本轮融资将用于支持其在美国市场的扩张。",
+      "score": 34
     },
     {
       "section": "产品发布与更新",
-      "title": "千问AI眼镜G1开售3小时登顶全平台热销榜，部分渠道已售罄",
-      "company": "千问",
-      "url": "https://www.leiphone.com/category/industrynews/ZUMbCfjunVUDdGhU.html",
-      "source": "雷锋网",
-      "publishedAt": "Sun, 08 Mar 2026 14:22:00 +0800",
-      "summary": "千问AI眼镜G1于3月8日上午10点正式现货开售，开售仅3小时即登顶全平台智能眼镜热销榜第一名，并且在部分销售渠道已经提前售罄。该产品属于G1系列，官方标价为2899元，在叠加国家补贴和优惠活动后，消费者实际到手价格最低可至1997元起。此次发售覆盖了线上与线下全渠道，用户也可以通过千问APP用一句话完成购买，最快可实现当天收货。",
-      "score": 25
-    },
-    {
-      "section": "技术与研究",
-      "title": "88岁图灵奖得主高德纳惊叹：Claude一小时破解30年数学悬案",
-      "company": "Claude",
-      "url": "https://www.qbitai.com/2026/03/384890.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 09 Mar 2026 04:49:03 +0000",
-      "summary": "88岁的图灵奖得主、计算机科学家高德纳（Donald Knuth）在其短文《Claude’s Cycles》中记录了一件令他震惊的事。他研究数周、根源可追溯至30年前的一个三维图论开放问题，被Claude Opus 4.6模型在一小时内通过31次探索破解。Claude并非使用暴力搜索，而是运用了“纤维分解”、“蛇形构造”等结构性思路，推导出了适用于所有奇数m的通用构造算法，解决了在一个拥有m^3个顶点的三维网格图中，将所有的弧完美拆解成三个互不重叠且经过每个顶点恰好一次的哈密顿循环的问题。高德纳亲自验证了m=3, 5, 7, 9, 11等情况，其朋友甚至测试到m=101，结果均正确，这让他对Claude展现出的逻辑演进和创造性问题解决能力表示惊叹，并称之为“自动演绎与创造性问题解决”的完美示范。",
-      "score": 24
+      "title": "亚马逊在网站和应用中推出医疗AI助手",
+      "company": "Amazon",
+      "url": "https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 10 Mar 2026 20:10:06 +0000",
+      "summary": "亚马逊推出了名为Health AI的医疗人工智能助手，用户可通过其网站和应用访问。该助手能够回答健康相关问题、解释健康记录、管理处方续签以及预约挂号。",
+      "score": 26
     },
     {
       "section": "投融资与并购",
-      "title": "上海交大教授创业AI新材料公司索格智算获超千万元种子轮融资",
-      "company": "索格智算",
-      "url": "https://36kr.com/p/3716450088793732?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-10 09:28:52  +0800",
-      "summary": "AI赋能新材料研发的初创企业索格智算宣布完成超千万元种子轮融资，由启高资本领投，交大菡源资产、紫竹小苗和紫竹科投跟投。该公司由上海交通大学徐振礼教授领衔创立，其核心技术包括新型神经网络描述子SOG-Net和随机分批分子动力学模拟软件RBMD，并推出了软硬件一体化的专用模拟器纳泰（NanoTitan），旨在解决新材料研发周期长、成本高的行业痛点。目前，公司已与天和磁材、宁德时代未来能源研究院及华为等机构在稀土永磁、锂电材料及高性能计算等领域展开合作，融资资金将主要用于AI计算引擎研发、团队扩充及算力建设。",
-      "score": 23
+      "title": "Thinking Machines Lab与英伟达签署大规模算力协议",
+      "company": "Thinking Machines Lab, Nvidia",
+      "url": "https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 10 Mar 2026 15:08:39 +0000",
+      "summary": "Thinking Machines Lab与英伟达达成了一项多年期大规模算力合作协议，涉及至少一千兆瓦的算力资源。该协议还包括英伟达对Thinking Machines Lab的战略投资。",
+      "score": 24
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Adobe为Photoshop推出AI助手",
+      "company": "Adobe",
+      "url": "https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 10 Mar 2026 13:06:51 +0000",
+      "summary": "Adobe正在为Photoshop推出AI助手。同时，该公司也在为Firefly添加新的AI图像编辑功能。",
+      "score": 24
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Gemini深度融入Google Workspace，升级文档创建与编辑功能",
+      "company": "Google",
+      "url": "https://arstechnica.com/ai/2026/03/gemini-burrows-deeper-into-google-workspace-with-revamped-document-creation-and-editing/",
+      "source": "Ars Technica",
+      "publishedAt": "Tue, 10 Mar 2026 16:01:52 +0000",
+      "summary": "Gemini现在能够从用户的文件、电子邮件等来源中提取上下文信息，以协助创建和编辑文档。这一更新标志着Gemini与Google Workspace的集成变得更加深入。新功能旨在利用用户已有的信息来提升文档处理的效率。",
+      "score": 24
+    },
+    {
+      "section": "技术与研究",
+      "title": "优先发展能源智能以实现可持续增长",
+      "company": "Intel",
+      "url": "https://www.technologyreview.com/2026/03/10/1133972/prioritizing-energy-intelligence-for-sustainable-growth/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 10 Mar 2026 13:00:00 +0000",
+      "summary": "弗吉尼亚州劳登县从昔日的田园风光转变为全球数据中心最密集的区域。十年前，这些设施主要支持电子邮件和电子商务，如今则因人工智能需求的激增而面临新的能源挑战。文章探讨了该地区如何通过发展能源智能来应对数据中心扩张带来的可持续增长问题。",
+      "score": 22
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI在伊朗冲突中的作用及升级的法律斗争",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/03/10/1134077/the-download-ai-iran-war-theater-anthropic-sues-us/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 10 Mar 2026 12:55:32 +0000",
+      "summary": "本期《下载》通讯聚焦技术领域动态，探讨了人工智能在伊朗冲突中的角色。文章指出，AI模型如Claude正被用于协助美军进行军事决策，同时相关法律争议也在升级。通讯还涵盖了其他技术新闻。",
+      "score": 21
     }
   ]
 }
