@@ -106,6 +106,80 @@ baidu-cloud/dist/wechat-cfc.zip
 - `output/latest.json` 上传成功
 - `output/news-YYYY-MM-DD.json` 上传成功
 
+## 如果你想让百度云“准时叫醒”GitHub Actions
+
+这也是一个很实用的折中方案：
+
+- `百度云 CFC`：只负责准时触发
+- `GitHub Actions`：继续运行你现在的仓库工作流
+
+这样做的好处是：
+
+- 避开 GitHub 自带 `schedule` 的偶发延迟
+- 不用把主流程完全搬出 GitHub
+- 你现在的仓库结构可以保持不变
+
+仓库里已经准备了一个最小触发函数：
+
+```text
+baidu-cloud/cfc/github-dispatch.js
+```
+
+这个函数会调用 GitHub 官方 `workflow_dispatch` API，触发你仓库里的工作流。当前仓库的工作流文件本来就已经支持手动触发：
+
+```yaml
+on:
+  schedule:
+    - cron: '15 0 * * *'
+  workflow_dispatch:
+```
+
+### GitHub 侧需要准备什么
+
+1. 创建一个 GitHub token
+2. 这个 token 至少需要能触发 Actions 工作流
+3. 目标仓库就是：
+
+```text
+wmwm1ok/wechat-ai-news-page
+```
+
+### CFC 函数建议这样配
+
+- 运行时：`Node.js 22`
+- 入口文件：`github-dispatch.js`
+- Handler：`handler`
+
+### CFC 函数环境变量
+
+```env
+GITHUB_OWNER=wmwm1ok
+GITHUB_REPO=wechat-ai-news-page
+GITHUB_WORKFLOW_ID=daily-news.yml
+GITHUB_REF=main
+GITHUB_TOKEN=你的 GitHub Token
+```
+
+如果你后面想给 `workflow_dispatch` 传 inputs，也可以额外加：
+
+```env
+GITHUB_WORKFLOW_INPUTS_JSON={"example":"value"}
+```
+
+### 定时器怎么配
+
+如果你希望它每天北京时间 `08:15` 触发 GitHub：
+
+- 如果控制台按北京时间解释：`15 8 * * *`
+- 如果控制台按 UTC 解释：`15 0 * * *`
+
+### 这种方案和直接在百度云本地生成的区别
+
+- `直接在百度云生成`：完全不依赖 GitHub 调度
+- `百度云触发 GitHub`：仍然依赖 GitHub 执行，但触发时机更可控
+
+如果你的主要问题只是 GitHub `schedule` 偶发延迟，我更推荐先试这个方案，因为它改动更小。
+
 ## BOS 侧还要做什么
 
 1. 开启静态网站托管
