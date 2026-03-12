@@ -1,6 +1,15 @@
 import axios from 'axios';
 import { CONFIG } from './config.js';
 
+function isCfcFastMode() {
+  return process.env.CFC_FAST_MODE === 'true';
+}
+
+function getEnvNumber(name, fallback) {
+  const value = Number(process.env[name]);
+  return Number.isFinite(value) && value > 0 ? value : fallback;
+}
+
 const KNOWN_AI_ENTITIES = [
   'openai', 'sora', 'runway', 'gen-4', 'gen4', 'seedance', 'google', 'gemini', 'anthropic',
   'claude', 'meta', 'llama', 'mistral', 'perplexity', 'nvidia', 'pika', 'veo', 'midjourney'
@@ -36,6 +45,40 @@ const GENERIC_SUMMARY_PATTERNS = [
 const COMPARISON_CONCLUSION_KEYWORDS = [
   '更快', '更慢', '更便宜', '更贵', '更适合', '优势', '劣势', '高于', '低于', '领先',
   '落后', '胜出', '不占优', '更成熟', '更稳定', '更完整', '更激进', '结论', '原文未给出明确结论'
+];
+
+const STORY_KEYWORDS = [
+  '创业者', '创始人', 'founder', 'profile', '人物', '故事', '靠', '借助', '副业', '创业',
+  '热潮', 'side hustle', 'built with', 'using', '通过'
+];
+
+const ROUNDUP_KEYWORDS = [
+  '简报', 'brief', 'download', 'digest', 'newsletter', 'roundup', 'round-up',
+  '本期', '这期', 'weekly', '周报', '速览', '简讯', '精选'
+];
+
+const GENERIC_ARTICLE_PATTERNS = [
+  /本期.+?(介绍|讨论|提到|聚焦|梳理|盘点)/,
+  /文章(?:主要)?(?:介绍|讨论|提到|讲述|聚焦|梳理|分析)/,
+  /简报(?:介绍|提到|讨论|聚焦)/,
+  /报道(?:讲述|介绍)/,
+  /围绕.+展开/,
+  /探讨了/,
+  /讲述了/,
+  /介绍了.+如何/,
+  /提到了.+竞赛/,
+  /内容聚焦/
+];
+
+const CONCRETE_ACTION_KEYWORDS = [
+  '发布', '推出', '上线', '开源', '收购', '融资', '训练', '采用', '实现', '使用',
+  '比较', '测试', '支持', '接管', '自动完成', '部署', '生成', '改进', '节省',
+  '提供', '搜索', '列出', '带动', '解释', '说明'
+];
+
+const PRODUCT_EXPLANATION_KEYWORDS = [
+  '工具', '模型', '系统', '平台', '项目', '接口', '功能', '工作流', '机器人', '世界模型',
+  '多模态', '嵌入模型', '强化学习', 'AI 工具', '开源工具'
 ];
 
 // 检测摘要是否完整（不以...结尾且以句号/感叹号/问号结尾）
@@ -199,15 +242,48 @@ export function isComparisonArticle(item) {
   return hasKeyword || (entityCount >= 2 && dimensionCount >= 1);
 }
 
+export function detectArticleMode(item) {
+  if (isComparisonArticle(item)) {
+    return 'comparison';
+  }
+
+  const text = `${item?.title || ''} ${item?.snippet || ''}`.toLowerCase();
+
+  if (ROUNDUP_KEYWORDS.some(keyword => text.includes(keyword))) {
+    return 'roundup';
+  }
+
+  if (STORY_KEYWORDS.some(keyword => text.includes(keyword))) {
+    return 'story';
+  }
+
+  return 'default';
+}
+
+function countConcreteSignals(text) {
+  const normalized = String(text || '');
+  const numberCount = (normalized.match(/\d+\.?\d*/g) || []).length;
+  const actionCount = CONCRETE_ACTION_KEYWORDS.filter(keyword => normalized.includes(keyword)).length;
+  const productCount = PRODUCT_EXPLANATION_KEYWORDS.filter(keyword => normalized.includes(keyword)).length;
+
+  return {
+    numberCount,
+    actionCount,
+    productCount
+  };
+}
+
 export function isSpecificEnoughSummary(summary, sourceText = '', options = {}) {
   const normalized = normalizeSummary(summary || '');
   if (!normalized || normalized === '暂无摘要') return false;
 
   const genericHit = GENERIC_SUMMARY_PATTERNS.some(pattern => pattern.test(normalized));
-  const numberCount = (normalized.match(/\d+\.?\d*/g) || []).length;
   const entityCount = countKnownEntities(normalized);
   const dimensionCount = extractComparisonDimensions(`${normalized} ${sourceText}`).length;
   const hasConclusion = COMPARISON_CONCLUSION_KEYWORDS.some(keyword => normalized.includes(keyword));
+  const articleGenericHit = GENERIC_ARTICLE_PATTERNS.some(pattern => pattern.test(normalized));
+  const { numberCount, actionCount, productCount } = countConcreteSignals(normalized);
+  const articleMode = options.articleMode || 'default';
 
   if (options.comparisonMode) {
     const hasEnoughSignals = entityCount >= 2 && dimensionCount >= 2;
@@ -219,6 +295,18 @@ export function isSpecificEnoughSummary(summary, sourceText = '', options = {}) 
 
   if (genericHit && numberCount + entityCount + dimensionCount < 3) {
     return false;
+  }
+
+  if (articleMode === 'story') {
+    const hasEnoughStorySignals = actionCount >= 1 && (productCount >= 1 || entityCount >= 1);
+    if (!hasEnoughStorySignals) return false;
+    if (articleGenericHit && numberCount + actionCount + productCount + entityCount < 4) return false;
+  }
+
+  if (articleMode === 'roundup') {
+    const hasEnoughRoundupSignals = (numberCount >= 1 || entityCount >= 2 || productCount >= 1) && actionCount >= 1;
+    if (!hasEnoughRoundupSignals) return false;
+    if (articleGenericHit) return false;
   }
 
   return true;
@@ -251,14 +339,32 @@ function buildFallbackSummary(item, sourceText, options = {}) {
     return `原文是一篇对比或评测类文章，但当前抓取到的正文信息不足，无法可靠提炼出具体差异和结论，因此这里不做扩展解读。`;
   }
 
+  if (options.articleMode === 'roundup') {
+    return `原文是一篇简报或综述类内容，当前抓取到的片段只显示它涉及${item.title}相关主题，但不足以稳定提炼出其中列举的具体观点，因此这里不做扩展解读。`;
+  }
+
+  if (options.articleMode === 'story') {
+    return `原文围绕${item.title}展开，但当前抓取到的内容不足以稳定说明主角具体使用了什么产品或方法、以及结果如何，因此这里不做扩展解读。`;
+  }
+
   return normalizeSummary(rawText);
+}
+
+function getSelectedRefineLimit(totalItems) {
+  const envLimit = Number(process.env.SELECTED_REFINE_LIMIT);
+  if (Number.isFinite(envLimit) && envLimit >= 0) {
+    return Math.min(envLimit, totalItems);
+  }
+
+  return isCfcFastMode() ? Math.min(6, totalItems) : totalItems;
 }
 
 async function getSummarySourceContent(item, options = {}) {
   let content = item.snippet || '';
   let usedFullContent = false;
+  const fastMode = isCfcFastMode();
 
-  if (options.forceFullContent || !isSummaryComplete(content)) {
+  if ((options.forceFullContent || !isSummaryComplete(content)) && !(fastMode && options.allowFastSkip !== false)) {
     console.log(`   ⚠️ ${options.forceFullContent ? '命中复杂文章，强制抓取全文...' : 'RSS摘要不完整，尝试抓取全文...'}`);
     const fullContent = await fetchFullContent(item.url);
     if (fullContent) {
@@ -275,6 +381,7 @@ async function getSummarySourceContent(item, options = {}) {
 
 function buildSingleSummaryPrompt(item, content, options = {}) {
   const comparisonMode = options.comparisonMode === true;
+  const articleMode = options.articleMode || 'default';
 
   return `为以下新闻写中文标题、摘要和分类。
 
@@ -310,17 +417,28 @@ ${comparisonMode ? `6. 这是对比/评测类文章，摘要必须明确写出�
    - 比较对象是谁
    - 比较维度是什么（如 API、延迟、价格、质量、开发者集成）
    - 原文明确给出的结论；如果原文没有明确结论，要直接写“原文未给出明确结论”
-7. 禁止只写“进行了对比”“涵盖了多个方面”这种空泛表述` : ''}`;
+7. 禁止只写“进行了对比”“涵盖了多个方面”这种空泛表述` : ''}
+${articleMode === 'story' ? `6. 这是人物/创业故事类文章，摘要必须写出：
+   - 主角具体用了什么工具、产品或项目
+   - 这个工具或项目能做什么
+   - 他因此获得了什么结果或机会
+7. 禁止只写“讲述创业故事”“借助热潮创业”这种空话` : ''}
+${articleMode === 'roundup' ? `6. 这是简报/综述类文章，摘要必须写出：
+   - 文章实际列举了哪 2-3 个主题或观点
+   - 每个主题的具体内容是什么
+7. 禁止只写“本期简报介绍了什么”“讨论了多个话题”这种空话` : ''}`;
 }
 
 async function summarizeSingle(item, options = {}) {
   const comparisonMode = options.comparisonMode === true;
+  const articleMode = options.articleMode || detectArticleMode(item);
   const { content, usedFullContent } = await getSummarySourceContent(item, {
     forceFullContent: options.forceFullContent === true || comparisonMode
   });
   
   const prompt = buildSingleSummaryPrompt(item, content, {
     comparisonMode,
+    articleMode,
     usedFullContent
   });
 
@@ -347,12 +465,12 @@ async function summarizeSingle(item, options = {}) {
     }
 
     const normalizedSummary = normalizeSummary(parsed.summary);
-    if (!isSpecificEnoughSummary(normalizedSummary, content, { comparisonMode })) {
+    if (!isSpecificEnoughSummary(normalizedSummary, content, { comparisonMode, articleMode })) {
       console.log(`   ⚠️ 摘要过于空泛，使用保守后备摘要`);
       return {
         ...item,
         title: parsed.title_cn || item.title,
-        summary: buildFallbackSummary(item, content, { comparisonMode }),
+        summary: buildFallbackSummary(item, content, { comparisonMode, articleMode }),
         category: parsed.category || inferCategory(item.title),
         company: parsed.company || extractCompanyFromTitle(item.title)
       };
@@ -368,9 +486,66 @@ async function summarizeSingle(item, options = {}) {
   } catch (error) {
     return {
       ...item,
-      summary: buildFallbackSummary(item, content, { comparisonMode }),
+      summary: buildFallbackSummary(item, content, { comparisonMode, articleMode }),
       category: inferCategory(item.title),
       company: extractCompanyFromTitle(item.title)
+    };
+  }
+}
+
+async function refineSingleSelected(item) {
+  const articleMode = detectArticleMode(item);
+  const comparisonMode = articleMode === 'comparison';
+  const { content } = await getSummarySourceContent(item, {
+    forceFullContent: true,
+    allowFastSkip: false
+  });
+
+  const prompt = `请基于原文内容，重写这条 AI 新闻摘要，让它更具体、更易懂。
+
+【新闻标题】
+${item.title}
+
+【当前摘要】
+${item.summary || '暂无摘要'}
+
+【原文内容】
+${String(content || item.snippet || '').substring(0, 2200)}
+
+输出 JSON：
+{"summary":"更具体的新摘要"}
+
+要求：
+1. 只输出 JSON
+2. 摘要使用中文，120-220 字
+3. 必须写出 2-3 个具体信息点，不能只写泛泛概述
+4. 如果原文讲的是方法/研究，要写出它具体做了什么、解决什么问题
+5. 如果原文讲的是公司/产品，要写出发布了什么、核心变化是什么
+6. 不允许编造原文没有的数字、结论和细节
+7. ${comparisonMode ? '如果是对比/评测文章，必须写出比较对象、比较维度和明确结论；没有结论就直说原文未给出明确结论。' : '如果原文信息有限，就明确说明信息有限，但仍尽量保留已有具体点。'}
+8. ${articleMode === 'story' ? '如果是人物/创业故事类，必须写清楚主角用了什么工具或项目、它能做什么、以及最终带来了什么结果。' : '不是人物/创业故事类就忽略这一条。'}
+9. ${articleMode === 'roundup' ? '如果是简报/综述类，必须写出文中列举的 2-3 个具体主题，不能只写“本期简报介绍了什么”。' : '不是简报/综述类就忽略这一条。'}`;
+
+  try {
+    const response = await callDeepSeek(prompt);
+    const parsed = JSON.parse(response);
+    const refinedSummary = normalizeSummary(parsed.summary);
+
+    if (!isSpecificEnoughSummary(refinedSummary, content, { comparisonMode, articleMode })) {
+      return {
+        ...item,
+        summary: buildFallbackSummary(item, content, { comparisonMode, articleMode })
+      };
+    }
+
+    return {
+      ...item,
+      summary: refinedSummary
+    };
+  } catch (error) {
+    return {
+      ...item,
+      summary: buildFallbackSummary(item, content, { comparisonMode, articleMode })
     };
   }
 }
@@ -378,13 +553,13 @@ async function summarizeSingle(item, options = {}) {
 async function summarizeBatch(items) {
   if (items.length === 0) return [];
   
-  const batchSize = 5;
+  const batchSize = getEnvNumber('SUMMARY_BATCH_SIZE', isCfcFastMode() ? 8 : 5);
   const results = [];
   
   for (let i = 0; i < items.length; i += batchSize) {
     const batch = items.slice(i, i + batchSize);
     const batchPrompt = batch.map((item, idx) => 
-      `[${idx+1}] 标题：${item.title}\n内容：${item.snippet?.substring(0, 600)}`
+      `[${idx+1}] 标题：${item.title}\n内容：${item.snippet?.substring(0, isCfcFastMode() ? 360 : 600)}`
     ).join('\n\n');
     
     const prompt = `为以下${batch.length}条新闻写中文标题和摘要。
@@ -442,7 +617,7 @@ ${batchPrompt}
       }
     }
     
-    await new Promise(r => setTimeout(r, 500));
+    await new Promise(r => setTimeout(r, isCfcFastMode() ? 120 : 500));
   }
   
   return results;
@@ -450,10 +625,23 @@ ${batchPrompt}
 
 export async function summarizeNews({ domestic, overseas }) {
   console.log('\n🤖 AI总结中...');
-  
-  // 限制数量
-  const domesticItems = domestic.slice(0, 25);
-  const overseasItems = overseas.slice(0, 35);
+  const fastMode = isCfcFastMode();
+
+  const domesticItems = domestic.slice(0, getEnvNumber('DOMESTIC_SUMMARY_LIMIT', fastMode ? 8 : 25));
+  const overseasItems = overseas.slice(0, getEnvNumber('OVERSEAS_SUMMARY_LIMIT', fastMode ? 16 : 35));
+
+  if (fastMode) {
+    console.log('   ⚡ CFC 快速模式已启用：批量摘要、减少全文抓取、压缩候选数量');
+    const [domesticSummaries, overseasSummaries] = await Promise.all([
+      summarizeBatch(domesticItems),
+      summarizeBatch(overseasItems)
+    ]);
+
+    console.log(`   国内: ${domesticSummaries.length} 条 (批量)`);
+    console.log(`   海外: ${overseasSummaries.length} 条 (批量)`);
+    return [...domesticSummaries, ...overseasSummaries];
+  }
+
   const overseasComparisonItems = overseasItems.filter(isComparisonArticle);
   const overseasBatchItems = overseasItems.filter(item => !isComparisonArticle(item));
   
@@ -484,4 +672,30 @@ export async function summarizeNews({ domestic, overseas }) {
   console.log(`   海外: ${overseasSummaries.length} 条 (单条 ${overseasComparisonSummaries.length} / 批量 ${overseasBatchSummaries.length})`);
   
   return [...domesticSummaries, ...overseasSummaries];
+}
+
+export async function refineSelectedNews(items) {
+  if (!Array.isArray(items) || items.length === 0) {
+    return [];
+  }
+
+  const refineLimit = getSelectedRefineLimit(items.length);
+  const refined = [];
+
+  console.log(`\n🪄 入选新闻精修中... (${refineLimit}/${items.length})`);
+
+  for (let index = 0; index < items.length; index += 1) {
+    const item = items[index];
+
+    if (index >= refineLimit) {
+      refined.push(item);
+      continue;
+    }
+
+    console.log(`   ✨ 精修: ${item.title.slice(0, 56)}...`);
+    refined.push(await refineSingleSelected(item));
+    await new Promise(resolve => setTimeout(resolve, isCfcFastMode() ? 120 : 250));
+  }
+
+  return refined;
 }

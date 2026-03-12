@@ -5,6 +5,15 @@ import { DOMESTIC_RSS_SOURCES, OVERSEAS_RSS_SOURCES, CONFIG, AI_KEYWORDS_CORE } 
 // 延长至48小时，覆盖跨天发布的情况
 const FRESHNESS_HOURS = 48;
 
+function isCfcFastMode() {
+  return process.env.CFC_FAST_MODE === 'true';
+}
+
+function getEnvNumber(name, fallback) {
+  const value = Number(process.env[name]);
+  return Number.isFinite(value) && value > 0 ? value : fallback;
+}
+
 /**
  * 检查新闻是否与AI行业相关
  */
@@ -128,18 +137,20 @@ async function fetchSerperNews() {
       'Character AI chatbot',
       'Replika AI companion'
     ];
+    const activeQueries = queries.slice(0, getEnvNumber('CFC_SERPER_QUERY_LIMIT', isCfcFastMode() ? 8 : queries.length));
+    const resultLimit = getEnvNumber('CFC_SERPER_RESULT_LIMIT', isCfcFastMode() ? 6 : 10);
     
     const allNews = [];
     const seenUrls = new Set();
     
-    for (const query of queries) {
+    for (const query of activeQueries) {
       try {
         const response = await axios.post('https://google.serper.dev/news', {
           q: query,
           gl: 'us',
           hl: 'en',
           tbs: 'qdr:d',
-          num: 10  // 每查询词最多10条
+          num: resultLimit
         }, {
           headers: {
             'X-API-KEY': CONFIG.serper.apiKey,
@@ -167,7 +178,7 @@ async function fetchSerperNews() {
         }
       } catch (e) {}
       
-      await new Promise(r => setTimeout(r, 200));
+      await new Promise(r => setTimeout(r, isCfcFastMode() ? 80 : 200));
     }
     
     console.log(`   ✓ ${allNews.length} 条`);

@@ -6,15 +6,21 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
+    "build:cfc": "bash baidu-cloud/scripts/build_cfc_package.sh",
     "test": "node tests/deduplication-engine.test.js && node tests/news-scorer.test.js && node tests/ai-summarizer.test.js && node tests/index-date.test.js",
     "test:dedup": "node tests/deduplication-engine.test.js"
   },
-  "keywords": ["AI", "news", "rss"],
+  "keywords": [
+    "AI",
+    "news",
+    "rss"
+  ],
   "license": "MIT",
   "dependencies": {
-    "rss-parser": "^3.13.0",
+    "@baiducloud/sdk": "^1.0.7",
     "axios": "^1.7.9",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "rss-parser": "^3.13.0"
   },
   "engines": {
     "node": ">=18.0.0"

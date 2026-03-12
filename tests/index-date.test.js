@@ -28,9 +28,10 @@ function expect(actual) {
 
 describe('Index date handling', () => {
   it('uses Asia/Shanghai timezone when formatting generated date', () => {
-    const source = readFileSync(new URL('../src/index.js', import.meta.url), 'utf-8');
-    expect(source).toInclude("timeZone: 'Asia/Shanghai'");
-    expect(source).toInclude('generatedAt');
+    const dateUtilsSource = readFileSync(new URL('../src/date-utils.js', import.meta.url), 'utf-8');
+    const runnerSource = readFileSync(new URL('../src/daily-news-runner.js', import.meta.url), 'utf-8');
+    expect(dateUtilsSource).toInclude("timeZone: 'Asia/Shanghai'");
+    expect(runnerSource).toInclude('generatedAt');
   });
 });
 

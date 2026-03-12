@@ -1,0 +1,5 @@
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# 每天北京时间 08:15 执行
+15 8 * * * /opt/wechat-ai-news/current/baidu-cloud/scripts/run_daily_job.sh >> /var/log/wechat-ai-news-cron.log 2>&1

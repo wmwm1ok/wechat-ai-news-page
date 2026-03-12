@@ -46,6 +46,13 @@ function renderNewsCard(item, index) {
   const meta = [item.source, formatDate(item.publishedAt)]
     .filter(Boolean)
     .join(' · ');
+  const sourceLinkHtml = item.url
+    ? `<div style="margin-top:12px;">
+        <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#f8fbff;border:1px solid #dbeafe;border-radius:999px;padding:7px 12px;font-size:12px;color:#1c5cff;text-decoration:none;font-weight:700;">
+          查看原文
+        </a>
+      </div>`
+    : '';
   
   const tagsHtml = Array.isArray(item.tags) && item.tags.length > 0
     ? `<div style="margin-top:10px;">
@@ -70,6 +77,7 @@ function renderNewsCard(item, index) {
       <div style="font-size:14px;color:#374151;line-height:1.85;text-align:justify;">
         ${escapeHtml(item.summary)}
       </div>
+      ${sourceLinkHtml}
       ${tagsHtml}
     </section>
   `;
