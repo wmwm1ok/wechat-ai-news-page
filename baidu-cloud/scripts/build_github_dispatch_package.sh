@@ -21,8 +21,8 @@ JSON
 
 node - <<'NODE' > "$CONFIG_PATH"
 const config = {
-  GITHUB_OWNER: process.env.GITHUB_OWNER || '',
-  GITHUB_REPO: process.env.GITHUB_REPO || '',
+  GITHUB_OWNER: process.env.GITHUB_OWNER || 'wmwm1ok',
+  GITHUB_REPO: process.env.GITHUB_REPO || 'wechat-ai-news-page',
   GITHUB_WORKFLOW_ID: process.env.GITHUB_WORKFLOW_ID || 'daily-news.yml',
   GITHUB_REF: process.env.GITHUB_REF || 'main',
   GITHUB_TOKEN: process.env.GITHUB_TOKEN || '',

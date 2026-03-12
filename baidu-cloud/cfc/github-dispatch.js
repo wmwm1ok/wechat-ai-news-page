@@ -47,8 +47,8 @@ function parseInputs() {
 }
 
 export async function handler() {
-  const owner = getConfig('GITHUB_OWNER');
-  const repo = getConfig('GITHUB_REPO');
+  const owner = process.env.GITHUB_OWNER || runtimeConfig.GITHUB_OWNER || 'wmwm1ok';
+  const repo = process.env.GITHUB_REPO || runtimeConfig.GITHUB_REPO || 'wechat-ai-news-page';
   const workflowId = process.env.GITHUB_WORKFLOW_ID || runtimeConfig.GITHUB_WORKFLOW_ID || 'daily-news.yml';
   const ref = process.env.GITHUB_REF || runtimeConfig.GITHUB_REF || 'main';
   const token = getConfig('GITHUB_TOKEN');
