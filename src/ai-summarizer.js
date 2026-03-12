@@ -321,6 +321,43 @@ function normalizeSummary(summary) {
   return summary;
 }
 
+export function normalizeDisplaySummary(summary, options = {}) {
+  const minLength = options.minLength || 90;
+  const maxLength = options.maxLength || 150;
+  const normalized = normalizeSummary(summary || '');
+
+  if (!normalized || normalized === '暂无摘要') {
+    return normalized;
+  }
+
+  if (normalized.length <= maxLength) {
+    return normalized;
+  }
+
+  const sentences = normalized
+    .split(/(?<=[。！？])/)
+    .map(part => part.trim())
+    .filter(Boolean);
+
+  if (sentences.length <= 1) {
+    return normalized.slice(0, maxLength).replace(/[，,；;：:、\s]+$/u, '') + '。';
+  }
+
+  let result = '';
+  for (const sentence of sentences) {
+    if ((result + sentence).length > maxLength) {
+      break;
+    }
+    result += sentence;
+  }
+
+  if (result.length >= minLength) {
+    return result;
+  }
+
+  return normalized.slice(0, maxLength).replace(/[，,；;：:、\s]+$/u, '') + '。';
+}
+
 function countKnownEntities(text) {
   const lower = String(text || '').toLowerCase();
   return KNOWN_AI_ENTITIES.filter(entity => lower.includes(entity)).length;
@@ -684,7 +721,7 @@ ${String(content || item.snippet || '').substring(0, 2200)}
 
 要求：
 1. 只输出 JSON
-2. 摘要使用中文，120-220 字
+2. 摘要使用中文，110-170 字
 3. 必须写出 2-3 个具体信息点，不能只写泛泛概述
 4. 如果原文讲的是方法/研究，要写出它具体做了什么、解决什么问题
 5. 如果原文讲的是公司/产品，要写出发布了什么、核心变化是什么
@@ -696,7 +733,7 @@ ${String(content || item.snippet || '').substring(0, 2200)}
   try {
     const response = await callDeepSeek(prompt);
     const parsed = JSON.parse(response);
-    const refinedSummary = normalizeSummary(parsed.summary);
+    const refinedSummary = normalizeDisplaySummary(parsed.summary);
 
     if (!isSpecificEnoughSummary(refinedSummary, content, { comparisonMode, articleMode })) {
       return {

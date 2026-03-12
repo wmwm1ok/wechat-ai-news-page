@@ -1,4 +1,4 @@
-import { detectArticleMode, extractMainTextFromHtml, isComparisonArticle, isDisplayReadyNews, isReaderFriendlySummary, isSpecificEnoughSummary } from '../src/ai-summarizer.js';
+import { detectArticleMode, extractMainTextFromHtml, isComparisonArticle, isDisplayReadyNews, isReaderFriendlySummary, isSpecificEnoughSummary, normalizeDisplaySummary } from '../src/ai-summarizer.js';
 
 function describe(name, fn) {
   console.log(`\n📦 ${name}`);
@@ -176,6 +176,14 @@ describe('AI summarizer helpers', () => {
     expect(result.includes('红手指Operator')).toBe(true);
     expect(result.includes('登录 注册')).toBe(false);
     expect(result.includes('Copyright')).toBe(false);
+  });
+
+  it('trims overly long display summaries to a steadier length', () => {
+    const result = normalizeDisplaySummary(
+      'OpenAI 发布了新的学习功能，第一段详细介绍了它的定位和背景。第二段继续展开它如何帮助学生理解数学与科学概念。第三段补充了产品形态、应用场景、发布时间以及更多边角信息，导致整段明显过长，不适合日报统一展示。'
+    );
+
+    expect(result.length <= 150).toBe(true);
   });
 });
 

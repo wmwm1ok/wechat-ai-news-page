@@ -94,6 +94,43 @@ describe('News scorer', () => {
 
     expect(selected.length).toBe(2);
   });
+
+  it('keeps category diversity when enough candidates exist', () => {
+    const now = new Date().toISOString();
+    const makeItem = (title, category, index) => ({
+      title: `${title}-${index}`,
+      summary: `${title} 的摘要包含明确产品动作、公司名称、发布时间和具体变化，适合作为日报展示内容。`,
+      source: index % 2 === 0 ? '机器之心' : 'InfoQ',
+      publishedAt: now,
+      region: index % 2 === 0 ? '国内' : '海外',
+      url: `https://example.com/${category}/${index}`,
+      category
+    });
+
+    const selected = selectTopNews([
+      makeItem('产品更新', '产品发布与更新', 1),
+      makeItem('产品更新', '产品发布与更新', 2),
+      makeItem('产品更新', '产品发布与更新', 3),
+      makeItem('技术突破', '技术与研究', 4),
+      makeItem('技术突破', '技术与研究', 5),
+      makeItem('技术突破', '技术与研究', 6),
+      makeItem('融资并购', '投融资与并购', 7),
+      makeItem('融资并购', '投融资与并购', 8),
+      makeItem('政策监管', '政策与监管', 9),
+      makeItem('补充技术', '技术与研究', 10),
+      makeItem('补充产品', '产品发布与更新', 11),
+      makeItem('补充融资', '投融资与并购', 12)
+    ], 10);
+
+    const categoryCounts = selected.reduce((acc, item) => {
+      acc[item.category] = (acc[item.category] || 0) + 1;
+      return acc;
+    }, {});
+
+    expect(categoryCounts['产品发布与更新'] >= 2).toBe(true);
+    expect(categoryCounts['技术与研究'] >= 2).toBe(true);
+    expect(categoryCounts['投融资与并购'] >= 1).toBe(true);
+  });
 });
 
 console.log('🧪 Running NewsScorer Tests...\n');

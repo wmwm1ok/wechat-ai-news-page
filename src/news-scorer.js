@@ -8,6 +8,81 @@ import { isDisplayReadyNews } from './ai-summarizer.js';
 
 // 全局去重引擎实例
 const dedupEngine = new DeduplicationEngine();
+const CATEGORY_PRIORITY = ['产品发布与更新', '技术与研究', '投融资与并购', '政策与监管'];
+
+function getCategoryQuotaPlan(targetCount) {
+  const basePlan = [
+    { category: '产品发布与更新', quota: 3 },
+    { category: '技术与研究', quota: 3 },
+    { category: '投融资与并购', quota: 2 },
+    { category: '政策与监管', quota: 1 }
+  ];
+
+  if (targetCount >= 14) {
+    return basePlan;
+  }
+
+  const scaledPlan = [
+    { category: '产品发布与更新', quota: Math.max(1, Math.round(targetCount * 0.2)) },
+    { category: '技术与研究', quota: Math.max(1, Math.round(targetCount * 0.2)) },
+    { category: '投融资与并购', quota: Math.max(1, Math.round(targetCount * 0.15)) },
+    { category: '政策与监管', quota: targetCount >= 6 ? 1 : 0 }
+  ];
+
+  let totalQuota = scaledPlan.reduce((sum, item) => sum + item.quota, 0);
+  while (totalQuota > targetCount) {
+    const shrinkable = scaledPlan.findLast(item => item.quota > (item.category === '政策与监管' ? 0 : 1));
+    if (!shrinkable) break;
+    shrinkable.quota -= 1;
+    totalQuota -= 1;
+  }
+
+  return scaledPlan.filter(item => item.quota > 0);
+}
+
+function selectWithCategoryQuota(scored, targetCount) {
+  const selected = [];
+  const selectedKeys = new Set();
+  const sourceCount = {};
+  const plan = getCategoryQuotaPlan(targetCount);
+
+  const trySelect = (news, sourceCap) => {
+    const key = news.url || news.title;
+    if (selectedKeys.has(key)) return false;
+
+    const source = news.source;
+    if ((sourceCount[source] || 0) >= sourceCap) return false;
+
+    selected.push(news);
+    selectedKeys.add(key);
+    sourceCount[source] = (sourceCount[source] || 0) + 1;
+    return true;
+  };
+
+  for (const { category, quota } of plan) {
+    const categoryItems = scored.filter(item => item.category === category);
+    let picked = 0;
+    for (const news of categoryItems) {
+      if (selected.length >= targetCount || picked >= quota) break;
+      if (trySelect(news, 4)) {
+        picked += 1;
+      }
+    }
+  }
+
+  const sortedByPriority = [...scored].sort((a, b) => {
+    const categoryDelta = CATEGORY_PRIORITY.indexOf(a.category) - CATEGORY_PRIORITY.indexOf(b.category);
+    if (categoryDelta !== 0) return categoryDelta;
+    return b.score - a.score;
+  });
+
+  for (const news of sortedByPriority) {
+    if (selected.length >= targetCount) break;
+    trySelect(news, 5);
+  }
+
+  return { selected, sourceCount };
+}
 
 /**
  * 提取文本中的核心实体（公司、产品、技术、人名）
@@ -445,56 +520,20 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
   const domesticAvailable = domesticNews.length;
   const overseasAvailable = overseasNews.length;
   
-  const selected = [];
-  const sourceCount = {};
-  
   const TARGET_TOTAL = targetCount;
-  const TARGET_PER_REGION = Math.floor(targetCount / 2);
+  const { selected, sourceCount } =
+    totalAvailable <= TARGET_TOTAL
+      ? {
+          selected: scored.slice(0, TARGET_TOTAL),
+          sourceCount: Object.fromEntries(
+            scored.slice(0, TARGET_TOTAL).map(news => [news.source, 0])
+          )
+        }
+      : selectWithCategoryQuota(scored, TARGET_TOTAL);
 
-  // 如果候选总数不足目标数量，直接全部选用
   if (totalAvailable <= TARGET_TOTAL) {
-    selected.push(...scored.slice(0, TARGET_TOTAL));
-    // 统计源分布
     for (const news of selected) {
-      const source = news.source;
-      sourceCount[source] = (sourceCount[source] || 0) + 1;
-    }
-  } else {
-    // 候选充足，优先维持 1:1 的国内外比例
-    // 第一步：从国内优先选择一半配额
-    for (const news of domesticNews) {
-      if (selected.filter(n => (n.region || '国内') === '国内').length >= TARGET_PER_REGION) break;
-      if (selected.includes(news)) continue;
-      
-      const source = news.source;
-      if ((sourceCount[source] || 0) >= 4) continue;
-      
-      selected.push(news);
-      sourceCount[source] = (sourceCount[source] || 0) + 1;
-    }
-    
-    // 第二步：从海外优先选择一半配额
-    for (const news of overseasNews) {
-      if (selected.filter(n => n.region === '海外').length >= TARGET_PER_REGION) break;
-      if (selected.includes(news)) continue;
-      
-      const source = news.source;
-      if ((sourceCount[source] || 0) >= 4) continue;
-      
-      selected.push(news);
-      sourceCount[source] = (sourceCount[source] || 0) + 1;
-    }
-    
-    // 第三步：如果总数不够目标数量，再补齐
-    for (const news of scored) {
-      if (selected.length >= TARGET_TOTAL) break;
-      if (selected.includes(news)) continue;
-      
-      const source = news.source;
-      if ((sourceCount[source] || 0) >= 5) continue;
-      
-      selected.push(news);
-      sourceCount[source] = (sourceCount[source] || 0) + 1;
+      sourceCount[news.source] = (sourceCount[news.source] || 0) + 1;
     }
   }
   
@@ -505,6 +544,11 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
   console.log('\n📊 质量评分统计:');
   console.log(`   候选: ${scored.length} 条 (🇨🇳${domesticNews.length}/🇺🇸${overseasNews.length})`);
   console.log(`   入选: ${selected.length} 条 (🇨🇳${domesticCount}/🇺🇸${overseasCount})`);
+  const categoryCount = selected.reduce((acc, item) => {
+    acc[item.category] = (acc[item.category] || 0) + 1;
+    return acc;
+  }, {});
+  console.log(`   分类: ${CATEGORY_PRIORITY.map(category => `${category}:${categoryCount[category] || 0}`).join(', ')}`);
   console.log(`   平均分: ${selected.length > 0 ? (selected.reduce((a, b) => a + b.score, 0) / selected.length).toFixed(1) : '0.0'}`);
   console.log('   源分布:', Object.entries(sourceCount).map(([s, c]) => `${s}:${c}`).join(', '));
   
