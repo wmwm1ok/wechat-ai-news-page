@@ -4,6 +4,28 @@ import { DOMESTIC_RSS_SOURCES, OVERSEAS_RSS_SOURCES, CONFIG, AI_KEYWORDS_CORE } 
 
 // 延长至48小时，覆盖跨天发布的情况
 const FRESHNESS_HOURS = 48;
+const NON_NEWS_URL_PATTERNS = [
+  /\/video\//i,
+  /\/live\//i,
+  /\/podcast\//i,
+  /\/webinar\//i,
+  /\/event\//i,
+  /\/activity\//i,
+  /\/course\//i,
+  /\/topic\//i
+];
+const NON_NEWS_TITLE_PATTERNS = [
+  /视频/,
+  /直播/,
+  /回放/,
+  /播客/,
+  /峰会/,
+  /大会/,
+  /课程/,
+  /公开课/,
+  /训练营/,
+  /活动报名/
+];
 
 function isCfcFastMode() {
   return process.env.CFC_FAST_MODE === 'true';
@@ -83,6 +105,21 @@ function extractSnippet(item) {
   return snippet;
 }
 
+export function isNewsLikeItem(item) {
+  const url = String(item?.url || item?.link || '').trim();
+  const title = String(item?.title || '').trim();
+
+  if (NON_NEWS_URL_PATTERNS.some(pattern => pattern.test(url))) {
+    return false;
+  }
+
+  if (NON_NEWS_TITLE_PATTERNS.some(pattern => pattern.test(title))) {
+    return false;
+  }
+
+  return true;
+}
+
 async function parseRSS(source) {
   try {
     console.log(`📡 ${source.name}`);
@@ -97,6 +134,7 @@ async function parseRSS(source) {
         publishedAt: item.pubDate || item.isoDate || new Date().toISOString(),
         region: DOMESTIC_RSS_SOURCES.includes(source) ? '国内' : '海外'
       }))
+      .filter(item => isNewsLikeItem(item))
       .filter(item => isFreshNews(item.publishedAt))
       .filter(item => isAIRelated(item.title, item.snippet))  // 只保留AI相关新闻
       .slice(0, source.limit || 5);
@@ -175,6 +213,9 @@ async function fetchSerperNews() {
         for (const item of response.data.news || []) {
           // 检查是否AI相关
           if (!isAIRelated(item.title, item.snippet)) {
+            continue;
+          }
+          if (!isNewsLikeItem({ title: item.title, url: item.link })) {
             continue;
           }
           if (item.title && item.link && !seenUrls.has(item.link)) {
