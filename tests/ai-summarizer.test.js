@@ -1,4 +1,4 @@
-import { detectArticleMode, isComparisonArticle, isDisplayReadyNews, isReaderFriendlySummary, isSpecificEnoughSummary } from '../src/ai-summarizer.js';
+import { detectArticleMode, extractMainTextFromHtml, isComparisonArticle, isDisplayReadyNews, isReaderFriendlySummary, isSpecificEnoughSummary } from '../src/ai-summarizer.js';
 
 function describe(name, fn) {
   console.log(`\n📦 ${name}`);
@@ -153,6 +153,29 @@ describe('AI summarizer helpers', () => {
     });
 
     expect(result).toBe(true);
+  });
+
+  it('extracts article-like text instead of whole-page boilerplate', () => {
+    const html = `
+      <html>
+        <body>
+          <header>登录 注册 下载客户端 专题精选</header>
+          <nav>首页 --> AI研究社 --> 雷峰网公开课活动中心</nav>
+          <article>
+            <p>3月12日，百度发布了全球首款手机龙虾应用“红手指Operator”。</p>
+            <p>百度称该应用支持用户一气呵成下单、上线后迅速引爆热议，系统后台资源出现紧缺提示。</p>
+            <p>OpenClaw创始人Peter Steinberger随后在海外社交平台上连发两条回复，称中国AI创新速度“Amazing”。</p>
+          </article>
+          <footer>Copyright © 2011-2026 雷峰网 深圳英鹏信息技术股份有限公司</footer>
+        </body>
+      </html>
+    `;
+
+    const result = extractMainTextFromHtml(html);
+
+    expect(result.includes('红手指Operator')).toBe(true);
+    expect(result.includes('登录 注册')).toBe(false);
+    expect(result.includes('Copyright')).toBe(false);
   });
 });
 

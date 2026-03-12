@@ -107,6 +107,49 @@ const READER_WARNING_PATTERNS = [
   /相关信息较少/
 ];
 
+const HTML_NOISE_BLOCKS = [
+  /<script[^>]*>[\s\S]*?<\/script>/gi,
+  /<style[^>]*>[\s\S]*?<\/style>/gi,
+  /<noscript[^>]*>[\s\S]*?<\/noscript>/gi,
+  /<svg[\s\S]*?<\/svg>/gi,
+  /<nav[\s\S]*?<\/nav>/gi,
+  /<footer[\s\S]*?<\/footer>/gi,
+  /<header[\s\S]*?<\/header>/gi,
+  /<aside[\s\S]*?<\/aside>/gi,
+  /<form[\s\S]*?<\/form>/gi
+];
+
+const TEXT_NOISE_PATTERNS = [
+  /雷峰网.*?您正在使用IE低版本浏览器/,
+  /Copyright\s*[©©]/i,
+  /联系我们/,
+  /意见反馈/,
+  /投稿/,
+  /申请专栏作者/,
+  /客户端下载/,
+  /扫码/,
+  /公众号/,
+  /相关阅读/,
+  /更多\s*>\s*/,
+  /上一篇/,
+  /下一篇/,
+  /热门文章/,
+  /推荐阅读/,
+  /专题精选/,
+  /账号设置/,
+  /登录/,
+  /注册/,
+  /收藏/,
+  /点赞/,
+  /评论/,
+  /分享/,
+  /返回顶部/,
+  /隐私政策/,
+  /未经授权禁止转载/,
+  /本文来源/,
+  /本文作者/
+];
+
 // 检测摘要是否完整（不以...结尾且以句号/感叹号/问号结尾）
 function isSummaryComplete(summary) {
   if (!summary || summary.length < 50) return false;
@@ -122,6 +165,54 @@ function isSummaryComplete(summary) {
 }
 
 // 抓取网页全文
+export function extractMainTextFromHtml(html) {
+  let cleaned = String(html || '');
+  for (const pattern of HTML_NOISE_BLOCKS) {
+    cleaned = cleaned.replace(pattern, ' ');
+  }
+
+  cleaned = cleaned
+    .replace(/<\/(p|div|section|article|h1|h2|h3|li|blockquote)>/gi, '\n')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>');
+
+  let paragraphs = cleaned
+    .split(/\n+/)
+    .map(part => part.replace(/\s+/g, ' ').trim())
+    .filter(Boolean)
+    .filter(part => part.length >= 30);
+
+  paragraphs = paragraphs.filter(part => !TEXT_NOISE_PATTERNS.some(pattern => pattern.test(part)));
+
+  const scored = paragraphs
+    .map(part => {
+      const sentenceCount = (part.match(/[。！？.!?]/g) || []).length;
+      const punctuationCount = (part.match(/[，,；;：:]/g) || []).length;
+      const hasAiKeywords = /(AI|人工智能|模型|工具|系统|平台|OpenAI|Google|百度|量子位|OpenClaw|Gemini|Claude|机器人|世界模型|强化学习)/i.test(part);
+      const penalty =
+        (/(登录|注册|评论|点赞|分享|联系我们|版权|隐私|推荐|更多|专题|扫码|下载客户端|上一篇|下一篇)/.test(part) ? 4 : 0) +
+        (/-->|&nbsp;/.test(part) ? 4 : 0);
+      const score = part.length + sentenceCount * 20 + punctuationCount * 4 + (hasAiKeywords ? 40 : 0) - penalty * 30;
+
+      return { part, score };
+    })
+    .sort((a, b) => b.score - a.score);
+
+  const bestParagraphs = scored
+    .filter(item => item.score > 40)
+    .slice(0, 6)
+    .map(item => item.part);
+
+  const joined = (bestParagraphs.length > 0 ? bestParagraphs : paragraphs.slice(0, 4)).join('\n');
+  return joined.replace(/\s+/g, ' ').trim().substring(0, 2200);
+}
+
 async function fetchFullContent(url) {
   try {
     console.log(`   🔍 抓取全文: ${url.substring(0, 60)}...`);
@@ -139,17 +230,7 @@ async function fetchFullContent(url) {
     });
     
     const html = response.data;
-    
-    // 简单的正文提取：移除script/style标签后提取文本
-    let text = html
-      .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
-      .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
-      .replace(/<[^>]+>/g, ' ')
-      .replace(/\s+/g, ' ')
-      .trim();
-    
-    // 截取前2000字符（足够AI理解全文）
-    text = text.substring(0, 2000);
+    const text = extractMainTextFromHtml(html);
     
     console.log(`   ✅ 抓取成功: ${text.length} 字符`);
     return text;

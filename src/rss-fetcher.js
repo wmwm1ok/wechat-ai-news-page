@@ -14,6 +14,20 @@ function getEnvNumber(name, fallback) {
   return Number.isFinite(value) && value > 0 ? value : fallback;
 }
 
+function getSerperQueryLimit(totalQueries) {
+  return getEnvNumber(
+    'SERPER_QUERY_LIMIT',
+    getEnvNumber('CFC_SERPER_QUERY_LIMIT', isCfcFastMode() ? 8 : Math.min(12, totalQueries))
+  );
+}
+
+function getSerperResultLimit() {
+  return getEnvNumber(
+    'SERPER_RESULT_LIMIT',
+    getEnvNumber('CFC_SERPER_RESULT_LIMIT', isCfcFastMode() ? 6 : 6)
+  );
+}
+
 /**
  * 检查新闻是否与AI行业相关
  */
@@ -109,7 +123,7 @@ async function fetchSerperNews() {
   try {
     console.log('📡 Serper API');
     
-    // 大量查询词确保海外新闻充足
+    // 用核心查询词覆盖主要海外 AI 动态，避免抓得过杂过多
     const queries = [
       'OpenAI GPT news',
       'OpenAI Sora video AI',
@@ -134,11 +148,10 @@ async function fetchSerperNews() {
       'Runway ML video',
       'Hugging Face AI',
       'DeepMind Google AI',
-      'Character AI chatbot',
-      'Replika AI companion'
+      'Character AI chatbot'
     ];
-    const activeQueries = queries.slice(0, getEnvNumber('CFC_SERPER_QUERY_LIMIT', isCfcFastMode() ? 8 : queries.length));
-    const resultLimit = getEnvNumber('CFC_SERPER_RESULT_LIMIT', isCfcFastMode() ? 6 : 10);
+    const activeQueries = queries.slice(0, getSerperQueryLimit(queries.length));
+    const resultLimit = getSerperResultLimit();
     
     const allNews = [];
     const seenUrls = new Set();
@@ -181,7 +194,7 @@ async function fetchSerperNews() {
       await new Promise(r => setTimeout(r, isCfcFastMode() ? 80 : 200));
     }
     
-    console.log(`   ✓ ${allNews.length} 条`);
+    console.log(`   ✓ ${allNews.length} 条 (${activeQueries.length} 个查询，每个最多 ${resultLimit} 条)`);
     return allNews;
   } catch (error) {
     return [];
