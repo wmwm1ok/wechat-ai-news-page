@@ -4,6 +4,7 @@
 
 import { DeduplicationEngine } from './deduplication-engine.js';
 import { AI_KEYWORDS_CORE, QUALITY_THRESHOLD } from './config.js';
+import { isDisplayReadyNews } from './ai-summarizer.js';
 
 // 全局去重引擎实例
 const dedupEngine = new DeduplicationEngine();
@@ -281,6 +282,10 @@ export function scoreNews(news, existingTitles) {
   // 检查重复
   if (isDuplicate(news.title, existingTitles)) {
     return { score: 0, isDuplicate: true, reason: '重复新闻' };
+  }
+
+  if (!isDisplayReadyNews(news)) {
+    return { score: 0, isDuplicate: true, reason: '摘要信息不足' };
   }
   
   // AI行业相关性检查 - 标题或摘要必须包含AI关键词

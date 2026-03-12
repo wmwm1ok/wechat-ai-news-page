@@ -1,4 +1,4 @@
-import { detectArticleMode, isComparisonArticle, isSpecificEnoughSummary } from '../src/ai-summarizer.js';
+import { detectArticleMode, isComparisonArticle, isDisplayReadyNews, isReaderFriendlySummary, isSpecificEnoughSummary } from '../src/ai-summarizer.js';
 
 function describe(name, fn) {
   console.log(`\n📦 ${name}`);
@@ -105,6 +105,52 @@ describe('AI summarizer helpers', () => {
       '简报涉及 Pokemon Go 世界模型、中美寻找外星生命竞赛以及相关研究。',
       { articleMode: 'roundup' }
     );
+
+    expect(result).toBe(true);
+  });
+
+  it('rejects reader-unfriendly fallback summaries', () => {
+    const result = isReaderFriendlySummary(
+      '原文把 Zendesk 收购 Forethought 放在一起比较，重点涉及定价等维度，但公开片段没有披露更完整的差异和最终结论。'
+    );
+
+    expect(result).toBe(false);
+  });
+
+  it('rejects internal downgrade style summaries', () => {
+    const result = isReaderFriendlySummary(
+      '原文围绕 Zendesk 收购 Forethought 展开对比，当前可确认的重点主要集中在定价等维度，因此这里不做扩展解读。'
+    );
+
+    expect(result).toBe(false);
+  });
+
+  it('rejects vague story fallback from final display', () => {
+    const result = isDisplayReadyNews({
+      title: 'OpenClaw：创业者利用中国OpenClaw AI热潮获利',
+      snippet: '一位开发者用 OpenClaw 做副业并接管设备自动完成任务。',
+      summary: '一位27岁的北京软件工程师冯庆阳开始尝试使用流行的开源AI工具OpenClaw。该工具可以接管设备并自主完成任务。他借此机会实现了快速创业的梦想。'
+    });
+
+    expect(result).toBe(false);
+  });
+
+  it('rejects vague roundup fallback from final display', () => {
+    const result = isDisplayReadyNews({
+      title: '《下载》简报：Pokémon Go训练世界模型，以及中美寻找外星人竞赛',
+      snippet: '本期《下载》简报讨论了 Pokemon Go、世界模型和外星生命搜索。',
+      summary: '本期《下载》简报介绍了 Pokémon Go 如何为送货机器人提供精确的世界视图。这款2016年发布的增强现实游戏，其技术正被用于训练世界模型。简报还提到了中美在寻找外星生命方面的竞赛。'
+    });
+
+    expect(result).toBe(false);
+  });
+
+  it('accepts a concrete story summary for final display', () => {
+    const result = isDisplayReadyNews({
+      title: 'OpenClaw：创业者利用中国OpenClaw AI热潮获利',
+      snippet: '一位开发者用 OpenClaw 做副业并接管设备自动完成任务。',
+      summary: '原文写的是北京开发者冯庆阳如何把 OpenClaw 当成接单工具。OpenClaw 是一套可接管手机或电脑界面、自动执行点击和流程任务的开源 AI 工具，他借它承接自动化项目并把副业做成了创业尝试。'
+    });
 
     expect(result).toBe(true);
   });

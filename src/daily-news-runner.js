@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fetchAllNews } from './rss-fetcher.js';
-import { summarizeNews, refineSelectedNews } from './ai-summarizer.js';
+import { summarizeNews, refineSelectedNews, isDisplayReadyNews } from './ai-summarizer.js';
 import { selectTopNews } from './news-scorer.js';
 import { generateHTML, generateWechatHTML } from './html-formatter.js';
 import {
@@ -136,7 +136,12 @@ export async function runDailyNews(options = {}) {
 
   console.log('\n🎯 开始质量评分...');
   const selectedNews = selectTopNews(allNews, targetCount, yesterdayNews);
-  const topNews = await refineSelectedNews(selectedNews);
+  const refinedNews = await refineSelectedNews(selectedNews);
+  const topNews = refinedNews.filter(item => isDisplayReadyNews(item));
+  const removedWeakSummaries = refinedNews.length - topNews.length;
+  if (removedWeakSummaries > 0) {
+    console.log(`\n🧽 摘要净化: 过滤掉 ${removedWeakSummaries} 条不适合直接展示给读者的摘要`);
+  }
   if (topNews.length === 0) {
     throw new Error('没有符合质量标准的新闻');
   }

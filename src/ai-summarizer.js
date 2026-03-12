@@ -81,6 +81,32 @@ const PRODUCT_EXPLANATION_KEYWORDS = [
   '多模态', '嵌入模型', '强化学习', 'AI 工具', '开源工具'
 ];
 
+const STORY_RESULT_KEYWORDS = [
+  '接单', '承接', '副业', '收入', '获利', '赚钱', '项目', '客户', '订单', '变现'
+];
+
+const STORY_GENERIC_PATTERNS = [
+  /借此机会/,
+  /实现了.+梦想/,
+  /开始尝试使用/
+];
+
+const READER_WARNING_PATTERNS = [
+  /当前可确认/,
+  /不做扩展解读/,
+  /无法可靠提炼/,
+  /正文不足/,
+  /信息不足/,
+  /当前抓取到的片段/,
+  /不足以稳定/,
+  /暂时无法生成可靠摘要/,
+  /公开片段(?:显示)?(?:没有|未).*(?:细节|差异|结论|披露|展开|更多)/,
+  /公开片段显示/,
+  /^这期内容主要提到/,
+  /讲的是个人或团队围绕 AI 工具展开实践/,
+  /相关信息较少/
+];
+
 // 检测摘要是否完整（不以...结尾且以句号/感叹号/问号结尾）
 function isSummaryComplete(summary) {
   if (!summary || summary.length < 50) return false;
@@ -273,6 +299,47 @@ function countConcreteSignals(text) {
   };
 }
 
+function extractTopicsFromTitle(title) {
+  const tail = String(title || '')
+    .replace(/^[^:：]+[:：]\s*/, '')
+    .replace(/[《》]/g, '')
+    .trim();
+
+  return tail
+    .split(/[、,，；;]|以及|与|and/gi)
+    .map(part => part.trim())
+    .filter(Boolean)
+    .slice(0, 3);
+}
+
+function makeReaderFriendlySentence(text) {
+  return normalizeSummary(String(text || '').replace(/^本期/, '这期').replace(/^文章/, '原文'));
+}
+
+export function isReaderFriendlySummary(summary) {
+  const normalized = normalizeSummary(summary || '');
+  if (!normalized || normalized === '暂无摘要') {
+    return false;
+  }
+
+  return !READER_WARNING_PATTERNS.some(pattern => pattern.test(normalized));
+}
+
+export function isDisplayReadyNews(item) {
+  if (!item || !item.summary) {
+    return false;
+  }
+
+  const articleMode = detectArticleMode(item);
+  const comparisonMode = articleMode === 'comparison';
+  const sourceContext = `${item.title || ''} ${item.snippet || ''}`.trim();
+
+  return (
+    isReaderFriendlySummary(item.summary) &&
+    isSpecificEnoughSummary(item.summary, sourceContext, { comparisonMode, articleMode })
+  );
+}
+
 export function isSpecificEnoughSummary(summary, sourceText = '', options = {}) {
   const normalized = normalizeSummary(summary || '');
   if (!normalized || normalized === '暂无摘要') return false;
@@ -300,7 +367,10 @@ export function isSpecificEnoughSummary(summary, sourceText = '', options = {}) 
   if (articleMode === 'story') {
     const hasEnoughStorySignals = actionCount >= 1 && (productCount >= 1 || entityCount >= 1);
     if (!hasEnoughStorySignals) return false;
+    const hasConcreteStoryResult = STORY_RESULT_KEYWORDS.some(keyword => normalized.includes(keyword));
+    if (!hasConcreteStoryResult) return false;
     if (articleGenericHit && numberCount + actionCount + productCount + entityCount < 4) return false;
+    if (STORY_GENERIC_PATTERNS.some(pattern => pattern.test(normalized)) && numberCount + actionCount + productCount + entityCount < 5) return false;
   }
 
   if (articleMode === 'roundup') {
@@ -314,7 +384,10 @@ export function isSpecificEnoughSummary(summary, sourceText = '', options = {}) 
 
 function buildFallbackSummary(item, sourceText, options = {}) {
   const rawText = String(sourceText || item.snippet || '').trim();
-  if (!rawText) return '当前抓取到的原文信息不足，暂时无法生成可靠摘要。';
+  const normalizedRawText = makeReaderFriendlySentence(rawText);
+  if (!rawText) {
+    return `${item.title}相关信息较少，当前公开片段未披露更多细节。`;
+  }
 
   if (options.comparisonMode) {
     const dimensions = extractComparisonDimensions(rawText);
@@ -332,22 +405,35 @@ function buildFallbackSummary(item, sourceText, options = {}) {
       .map(dimension => dimensionLabels[dimension] || dimension)
       .slice(0, 4);
 
-    if (readableDimensions.length > 0) {
-      return `原文围绕${item.title}展开对比，当前可确认的重点主要集中在${readableDimensions.join('、')}等维度，但抓取到的正文不足以支持更细的差异和结论，因此这里不做扩展解读。`;
+    if (normalizedRawText && !GENERIC_ARTICLE_PATTERNS.some(pattern => pattern.test(normalizedRawText))) {
+      return normalizedRawText;
     }
 
-    return `原文是一篇对比或评测类文章，但当前抓取到的正文信息不足，无法可靠提炼出具体差异和结论，因此这里不做扩展解读。`;
+    if (readableDimensions.length > 0) {
+      return `原文把${item.title}放在一起比较，重点涉及${readableDimensions.join('、')}等维度，但公开片段没有披露更完整的差异和最终结论。`;
+    }
+
+    return `${item.title}是一篇对比或评测类内容，公开片段显示文章围绕多项能力差异展开，但没有披露更完整的测试结果。`;
   }
 
   if (options.articleMode === 'roundup') {
-    return `原文是一篇简报或综述类内容，当前抓取到的片段只显示它涉及${item.title}相关主题，但不足以稳定提炼出其中列举的具体观点，因此这里不做扩展解读。`;
+    const topics = extractTopicsFromTitle(item.title);
+    if (topics.length > 0) {
+      return `这期内容主要提到${topics.join('、')}。${normalizedRawText && !GENERIC_ARTICLE_PATTERNS.some(pattern => pattern.test(normalizedRawText)) ? normalizedRawText : '公开片段没有展开更多细节。'}`;
+    }
+
+    return normalizedRawText || `${item.title}是一篇简报或综述类内容，公开片段没有展开更多细节。`;
   }
 
   if (options.articleMode === 'story') {
-    return `原文围绕${item.title}展开，但当前抓取到的内容不足以稳定说明主角具体使用了什么产品或方法、以及结果如何，因此这里不做扩展解读。`;
+    if (normalizedRawText && !GENERIC_ARTICLE_PATTERNS.some(pattern => pattern.test(normalizedRawText))) {
+      return normalizedRawText;
+    }
+
+    return `${item.title}讲的是个人或团队围绕 AI 工具展开实践，公开片段显示主角借助相关工具承接任务或尝试创业。`;
   }
 
-  return normalizeSummary(rawText);
+  return normalizedRawText;
 }
 
 function getSelectedRefineLimit(totalItems) {
