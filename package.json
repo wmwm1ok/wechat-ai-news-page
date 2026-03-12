@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node src/index.js",
     "build:cfc": "bash baidu-cloud/scripts/build_cfc_package.sh",
+    "build:github-dispatch": "bash baidu-cloud/scripts/build_github_dispatch_package.sh",
     "test": "node tests/deduplication-engine.test.js && node tests/news-scorer.test.js && node tests/ai-summarizer.test.js && node tests/index-date.test.js",
     "test:dedup": "node tests/deduplication-engine.test.js"
   },

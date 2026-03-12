@@ -125,6 +125,18 @@ baidu-cloud/dist/wechat-cfc.zip
 baidu-cloud/cfc/github-dispatch.js
 ```
 
+本地打包命令：
+
+```bash
+npm run build:github-dispatch
+```
+
+成功后会生成：
+
+```text
+baidu-cloud/dist/github-dispatch.zip
+```
+
 这个函数会调用 GitHub 官方 `workflow_dispatch` API，触发你仓库里的工作流。当前仓库的工作流文件本来就已经支持手动触发：
 
 ```yaml
@@ -150,7 +162,29 @@ wmwm1ok/wechat-ai-news-page
 - 入口文件：`github-dispatch.js`
 - Handler：`handler`
 
-### CFC 函数环境变量
+### GitHub 配置怎么放进去
+
+为了少走控制台弯路，这个 dispatch 函数默认也支持“本地打包时写入配置”。
+
+你先在本地终端里设置：
+
+```bash
+export GITHUB_OWNER=wmwm1ok
+export GITHUB_REPO=wechat-ai-news-page
+export GITHUB_WORKFLOW_ID=daily-news.yml
+export GITHUB_REF=main
+export GITHUB_TOKEN='你的 GitHub Token'
+```
+
+然后运行：
+
+```bash
+npm run build:github-dispatch
+```
+
+这样生成出来的 `github-dispatch.zip` 就已经带好配置了，百度云里直接上传即可。
+
+### 如果你想在 CFC 控制台里单独填环境变量
 
 ```env
 GITHUB_OWNER=wmwm1ok
