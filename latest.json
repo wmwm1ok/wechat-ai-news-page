@@ -1,6 +1,6 @@
 {
   "date": "2026/3/13",
-  "generatedAt": "2026/3/13 10:33",
+  "generatedAt": "2026/3/13 11:01",
   "count": 12,
   "articles": [
     {
@@ -10,7 +10,7 @@
       "url": "https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/",
       "source": "TechCrunch AI",
       "publishedAt": "Thu, 12 Mar 2026 15:12:35 +0000",
-      "summary": "以色列AI客服平台初创公司Wonderful完成1.5亿美元B轮融资，估值达20亿美元，距其上轮1亿美元融资仅四个月。该公司专注于非英语市场，其平台针对电信、金融、医疗和制造等行业，可根据不同市场的语言、文化及法规进行定制，并派遣本地团队协助部署。",
+      "summary": "以色列AI客服平台初创公司Wonderful完成1.5亿美元B轮融资，估值达20亿美元，距其上轮1亿美元融资仅四个月。公司专注于非英语市场，其平台针对电信、金融、医疗和制造等行业，根据当地语言、文化及法规进行定制化部署，并派遣本地团队现场支持。",
       "score": 42
     },
     {
@@ -30,17 +30,17 @@
       "url": "https://www.infoq.cn/article/AyCYbOWywTf6VwGmSvSP?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Fri, 13 Mar 2026 10:03:00 GMT",
-      "summary": "在QCon北京大会上，阿里巴巴OpenSandbox项目负责人陶宇田将分享其AI沙箱运行时与基础设施的创新实践。演讲将具体阐述：1. 如何通过“沙箱执行面”的抽象方法与协议化设计，为AI任务提供安全、隔离的执行环境；2. 介绍面向AI任务的细粒度网络管控策略，以解决AI应用在部署和运行时的安全与资源。",
+      "summary": "点击查看原文>",
       "score": 35
     },
     {
-      "section": "技术与研究",
+      "section": "产品发布与更新",
       "title": "QQ浏览器成唯一入选中国AI浏览器，登上a16z全球AI应用榜单",
       "company": "QQ浏览器",
       "url": "https://www.qbitai.com/2026/03/387068.html",
       "source": "量子位",
       "publishedAt": "Thu, 12 Mar 2026 13:13:50 +0000",
-      "summary": "硅谷风投a16z于3月10日发布全球生成式AI消费应用百强榜，QQ浏览器作为唯一入选的中国AI浏览器登榜。其核心变化在于将AI深度集成至浏览场景，具体功能包括：1. 视频字幕实时生成与翻译；2. 视频内容总结；3. 复杂文件处理与智能订阅。",
+      "summary": "硅谷风投a16z发布全球生成式AI应用百强榜，QQ浏览器作为唯一入选的中国AI浏览器，与ChatGPT等国际应用并列。该榜单依据网页访问量和移动端月活数据排名，是观察AI产品影响力的重要参考。",
       "score": 33
     },
     {
@@ -60,8 +60,18 @@
       "url": "https://www.infoq.cn/article/Szkb4Zld4RplFWYUpfq6?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Fri, 13 Mar 2026 10:10:00 GMT",
-      "summary": "Cloudflare推出两项新功能以优化AI对网页内容的抓取。一是“Markdown for Agents”，AI爬虫可通过请求头获取网页的Markdown精简版本，相比HTML能大幅减少token消耗（例如一篇博客从约16,180个token降至约3,150个）。",
-      "score": 29
+      "summary": "Cloudflare推出两项新功能，旨在让网站所有者能主动引导AI爬虫。具体包括：1. 允许网站创建专门的Markdown页面，直接向AI代理传达信息，例如使用指南或内容说明。2. 提供“内容信号”功能，让网站能向AI爬虫传递关于内容偏好和访问规则的结构化数据。",
+      "score": 26
+    },
+    {
+      "section": "技术与研究",
+      "title": "谷歌与OpenAI提供免费API额度，但存在限制条件",
+      "company": "Google, OpenAI",
+      "url": "https://www.howtogeek.com/google-and-openai-offer-free-api-creditsbut-theres-one-catch/",
+      "source": "How-To Geek",
+      "publishedAt": "12 hours ago",
+      "summary": "谷歌和OpenAI均提供免费API额度，但存在限制。谷歌的免费API获取流程最直接，会明确告知哪些模型免费，但未显著标明免费额度上限，其限制比OpenAI更模糊。作者以自身使用Open WebUI的经历为例，说明该工具能通过自定义系统提示，快速将标记语言大纲转换为Markdown格式的句子结构，解决。",
+      "score": 23
     },
     {
       "section": "投融资与并购",
@@ -70,17 +80,7 @@
       "url": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
       "source": "TechCrunch AI",
       "publishedAt": "Thu, 12 Mar 2026 22:25:50 +0000",
-      "summary": "AI销售自动化初创公司Rox AI估值据称已达120亿美元。该公司提供一种AI原生的CRM替代方案，其核心是一个能集成到Salesforce等现有软件中的智能收入操作系统，该系统部署了数百个AI智能体。",
-      "score": 21
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "谷歌地图推出由Gemini驱动的新界面，增加对话功能",
-      "company": "Google",
-      "url": "https://www.wired.com/story/google-maps-ask-maps-gemini-powered-tool/",
-      "source": "WIRED",
-      "publishedAt": "14 hours ago",
-      "summary": "谷歌地图推出由Gemini驱动的对话功能“询问地图”，专为规划公路旅行设计。它能根据用户偏好（如素食）生成个性化行程，例如为用户规划从大峡谷到珊瑚粉红沙丘州立公园的三天自驾路线，并标注观景点和活动建议。同时，谷歌地图新增了沉浸式导航模式，在美国推出3D效果和车道标记增强的驾驶视图。",
+      "summary": "AI销售自动化初创公司Rox AI估值据称已达120亿美元。该公司由New Relic前高管于2024年创立，其核心产品是一个AI原生的智能收入操作系统。该系统通过部署数百个AI智能体，能无缝接入企业现有的Salesforce或Zendesk等软件，并自动执行监控现有客户、研究潜在客户、更新CRM数。",
       "score": 21
     },
     {
@@ -90,27 +90,27 @@
       "url": "https://www.qbitai.com/2026/03/386615.html",
       "source": "量子位",
       "publishedAt": "Thu, 12 Mar 2026 05:37:08 +0000",
-      "summary": "马斯克宣布特斯拉与xAI联合推出名为“巨硬”的AI白领系统项目，旨在模拟微软等纯软件公司的运作模式。该项目核心是“数字擎天柱”AI员工，将主要运行在特斯拉自研的AI4芯片上，据称其功耗仅为英伟达H100芯片的四分之一，价格约650美元，并计划最小化使用英伟达硬件。",
+      "summary": "马斯克宣布特斯拉与xAI联合推出名为“巨硬”的AI白领系统项目，旨在用AI模拟微软等软件公司。该项目将运行在特斯拉自研的AI4芯片上，其功耗仅为英伟达H100芯片的四分之一，价格约650美元，并计划大幅减少对英伟达硬件的依赖。",
       "score": 20
     },
     {
       "section": "技术与研究",
-      "title": "美国防部官员披露AI聊天机器人或用于目标选择决策",
-      "company": "美国国防部",
+      "title": "国防官员披露AI聊天机器人如何用于目标决策",
+      "company": "无",
       "url": "https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/",
       "source": "MIT Technology Review",
       "publishedAt": "Thu, 12 Mar 2026 22:23:34 +0000",
-      "summary": "美国防部官员透露，美军正测试在机密环境中使用生成式AI（如OpenAI的ChatGPT或xAI的Grok）辅助军事决策。具体而言，系统可能被用于分析输入的目标列表，结合飞机实时位置等因素进行优先级排序，并提出打击建议，但最终审核由人类负责。",
+      "summary": "美国国防部官员透露，军方正测试在机密环境中使用生成式AI辅助目标决策。具体而言，系统可能接收潜在目标列表，并根据飞机实时位置等因素进行优先级排序，最终建议由人类审核。目前，OpenAI的ChatGPT和xAI的Grok已获准用于五角大楼机密场景，而更早的“Maven”项目则使用计算机视觉AI分析无人。",
       "score": 20
     },
     {
       "section": "技术与研究",
-      "title": "美国电池行业遭遇严峻时期",
+      "title": "美国电池行业的艰难时期",
       "company": "",
       "url": "https://www.technologyreview.com/2026/03/12/1134197/us-battery-industry/",
       "source": "MIT Technology Review",
       "publishedAt": "Thu, 12 Mar 2026 10:00:00 +0000",
-      "summary": "美国电池行业正经历严峻调整期。具体表现为：1. 曾获大量融资的初创公司24M Technologies已关闭并计划拍卖资产，其核心创新是一种将材料涂覆在金属片上制造电极的简化生产工艺，旨在改进而非取代锂离子电池。",
+      "summary": "美国电池行业正经历艰难时期，热潮已退。具体表现为：1. 电池公司24M Technologies已关闭并将拍卖资产，其曾致力于改进而非取代锂离子电池，核心创新是一种将材料涂覆在金属片上制造电极的、更简单廉价的生产工艺。",
       "score": 20
     },
     {
@@ -120,7 +120,7 @@
       "url": "https://www.ndtv.com/education/openai-adds-interactive-visual-learning-features-to-chatgpt-for-maths-and-science-11204143",
       "source": "NDTV",
       "publishedAt": "20 hours ago",
-      "summary": "OpenAI在ChatGPT中推出了交互式视觉学习模块，旨在帮助学生动态探索数学和科学概念。该功能的核心变化是为ChatGPT增加了视觉交互能力，使学生能够通过动态方式学习抽象概念。",
+      "summary": "OpenAI在ChatGPT中推出了交互式视觉学习模块，旨在帮助学生动态探索数学和科学概念。该功能通过视觉化方式辅助学习，例如允许学生以图形或动态模型的形式与抽象概念进行互动，从而更直观地理解复杂原理。",
       "score": 20
     }
   ]
