@@ -1,21 +1,97 @@
 {
   "产品发布与更新": [
     {
-      "title": "Bumble将推出AI约会助手'Bee'",
-      "url": "https://techcrunch.com/2026/03/12/bumble-to-launch-an-ai-dating-assistant-bee/",
-      "snippet": "Bumble's new AI assistant Bee will move the dating app beyond the swipe by matching people based on compatibility and goals.",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 12 Mar 2026 16:52:17 +0000",
-      "region": "海外",
-      "summary": "约会应用Bumble推出名为'Bee'的AI助手，旨在成为个人红娘。其核心变化包括：1. 助手将通过私聊学习用户的价值观、关系目标、沟通风格等，据此推荐更相关的匹配对象；2. 应用将试验在部分市场取消滑动匹配机制，转而推出基于生活故事章节的新个人资料，以获取更多数据优化AI；3. 目标是推动用户进行。",
+      "title": "谷歌为Gemini CLI Conductor推出自动化代码评审功能",
+      "url": "https://www.infoq.cn/article/BuXP90QohCudfPX5Q2Zw?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 13 Mar 2026 10:00:00 GMT",
+      "region": "国内",
+      "summary": "谷歌为其Gemini CLI的扩展工具Conductor新增了自动化代码评审功能，使其从仅能规划和执行代码，扩展到能对AI生成的代码进行验证。该功能具体包括：深度检查代码是否符合项目风格指南和规划文档；自动运行测试并报告结果；扫描硬编码API密钥、敏感信息泄露等关键安全问题。",
       "category": "产品发布与更新",
-      "company": "Bumble",
+      "company": "Google",
+      "score": 35,
+      "breakdown": {
+        "substance": 11,
+        "importance": 6,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Cloudflare推出面向AI代理的Markdown页面与Content Signals机制",
+      "url": "https://www.infoq.cn/article/Szkb4Zld4RplFWYUpfq6?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 13 Mar 2026 10:10:00 GMT",
+      "region": "国内",
+      "summary": "Cloudflare推出两项AI相关功能：一是“Markdown for Agents”，允许AI爬虫通过发送特定请求头获取网页的Markdown精简版本，该公司称一篇博客的HTML版本需约16180个token，而Markdown版仅需约3150个，旨在提升AI处理效率；二是提出“Content。",
+      "category": "产品发布与更新",
+      "company": "Cloudflare",
+      "score": 33,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "JetBrains 公开预览 AI IDE Air，定位为 Agent 编排平台",
+      "url": "https://www.infoq.cn/article/feSV9dcs3V8amUQyJYN7?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 13 Mar 2026 09:14:41 GMT",
+      "region": "国内",
+      "summary": "JetBrains 公开预览了其全新 AI IDE 产品 Air，它被定位为一个 AI Agent 调度与编排平台。其核心设计围绕“Task”概念，允许开发者在真实代码上下文中定义任务，并由 AI Agent 在本地或容器环境中执行。",
+      "category": "产品发布与更新",
+      "company": "JetBrains",
+      "score": 29,
+      "breakdown": {
+        "substance": 0,
+        "importance": 11,
+        "timeliness": 10,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌利用Gemini重新构想地图服务",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/",
+      "snippet": "Google Maps has two new AI features: Ask Maps and Immersive Navigation.",
+      "source": "blog.google",
+      "publishedAt": "14 hours ago",
+      "region": "海外",
+      "summary": "谷歌地图推出两项由Gemini模型驱动的新功能。一是“Ask Maps”对话式搜索，可直接回答如“附近哪里能快速给手机充电”等复杂问题，并生成定制地图。二是“沉浸式导航”，利用街景和航拍图像生成生动的3D路线视图，高亮车道、红绿灯等关键细节，并提供更自然的语音引导。",
+      "category": "产品发布与更新",
+      "company": "Google",
       "score": 21,
       "breakdown": {
-        "substance": 5,
-        "importance": 0,
-        "timeliness": 8,
-        "credibility": 8
+        "substance": 8,
+        "importance": 6,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌地图推出由Gemini驱动的新界面，增加对话功能",
+      "url": "https://www.wired.com/story/google-maps-ask-maps-gemini-powered-tool/",
+      "snippet": "There's a new button in Google Maps: “Ask Maps.” Google started rolling out this new generative AI feature today, a conversational, in-app tool that...",
+      "source": "WIRED",
+      "publishedAt": "14 hours ago",
+      "region": "海外",
+      "summary": "谷歌地图推出由Gemini驱动的“询问地图”对话功能，旨在辅助用户规划自驾游行程。例如，它能生成从大峡谷到珊瑚粉红沙丘州立公园的三天行程，并标记沿途观景点和热门停留地，还能根据用户偏好（如素食）个性化推荐餐厅。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 21,
+      "breakdown": {
+        "substance": 8,
+        "importance": 6,
+        "timeliness": 2,
+        "credibility": 5
       },
       "isDuplicate": false
     },
@@ -24,9 +100,9 @@
       "url": "https://www.ndtv.com/education/openai-adds-interactive-visual-learning-features-to-chatgpt-for-maths-and-science-11204143",
       "snippet": "OpenAI has launched interactive visual modules in ChatGPT to help students explore math and science concepts dynamically. Advertisement.",
       "source": "NDTV",
-      "publishedAt": "17 hours ago",
+      "publishedAt": "19 hours ago",
       "region": "海外",
-      "summary": "OpenAI在ChatGPT中推出了交互式视觉模块，旨在帮助学生动态探索数学和科学概念。这一更新使ChatGPT能够通过视觉化工具辅助学习，具体功能包括帮助学生直观理解复杂的数学公式和科学原理。然而，原文信息有限，未详细说明具体支持的学科范围、交互形式以及该功能是否对所有用户开放。",
+      "summary": "OpenAI在ChatGPT中推出了交互式视觉学习模块，旨在帮助学生动态探索数学和科学概念。该功能的核心变化是为ChatGPT增加了可视化交互能力，使学生能够通过动态方式理解抽象概念。具体而言，这些模块专注于数学和科学领域，允许用户进行探索性学习。",
       "category": "产品发布与更新",
       "company": "OpenAI",
       "score": 20,
@@ -41,51 +117,51 @@
   ],
   "技术与研究": [
     {
-      "title": "QQ浏览器成唯一入选中国AI浏览器，登上a16z全球AI应用榜单",
-      "url": "https://www.qbitai.com/2026/03/387068.html",
-      "snippet": "",
-      "source": "量子位",
-      "publishedAt": "Thu, 12 Mar 2026 13:13:50 +0000",
-      "region": "国内",
-      "summary": "硅谷风投a16z于3月10日发布全球生成式AI应用百强榜，QQ浏览器是唯一入选的中国AI浏览器。其核心变化在于将AI深度融入浏览场景，例如能实时生成并翻译视频字幕、总结视频内容，以及处理复杂文件。该榜单依据网页访问量和移动端月活数据排名，是观察AI产品影响力的重要参考。",
+      "title": "美国电池行业遭遇严峻时期",
+      "url": "https://www.technologyreview.com/2026/03/12/1134197/us-battery-industry/",
+      "snippet": "Just a few years ago, the battery industry was hot, hot, hot. There was a seemingly infinite number of companies popping up, with shiny new chemistries and massive fundraising rounds. My biggest problem was sifting through the pile to pick the most exciting news to cover. That tide has turned, and in 2026, what seems…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 12 Mar 2026 10:00:00 +0000",
+      "region": "海外",
+      "summary": "美国电池行业正经历严峻时期，与几年前的火热景象形成鲜明对比。具体表现为：1. 初创公司接连失败，例如成立于2010年的电池公司24M Technologies已宣布关闭并拍卖资产；2. 投资者正在撤资，风险投资公司Volta Energy Technologies指出市场对创新技术的投资意愿大幅降低。",
       "category": "技术与研究",
-      "company": "QQ浏览器",
-      "score": 35,
+      "company": "",
+      "score": 28,
       "breakdown": {
         "substance": 12,
-        "importance": 6,
-        "timeliness": 8,
-        "credibility": 9
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10
       },
       "isDuplicate": false
     },
     {
-      "title": "国内首个国产AI推理千卡集群落地湛江，采用云天励飞自研芯片",
-      "url": "https://www.infoq.cn/article/IPr0osV9pNO48ThJL2ds?utm_source=rss&utm_medium=article",
+      "title": "OpenSandbox：重新思考Agent时代的Runtime｜QCon北京",
+      "url": "https://www.infoq.cn/article/AyCYbOWywTf6VwGmSvSP?utm_source=rss&utm_medium=article",
       "snippet": "点击查看原文>",
       "source": "InfoQ",
-      "publishedAt": "Thu, 12 Mar 2026 11:55:30 GMT",
+      "publishedAt": "Fri, 13 Mar 2026 10:03:00 GMT",
       "region": "国内",
-      "summary": "国内首个国产AI推理千卡集群在广东湛江落地，采用云天励飞自研芯片。该集群通过400G光网络构建统一高速互联架构，实现了节点间高带宽、低延迟通信，简化了系统部署。集群将支撑已在当地政务云上线的DeepSeek-R1大模型，该模型能学习本地产业知识与方言，形成“湛江智慧”，并为国产模型与芯片的协同发展提。",
+      "summary": "在QCon北京大会上，阿里巴巴Sandbox领域负责人陶宇田将分享OpenSandbox开源项目的核心进展。其演讲将具体介绍：1. 如何通过一套“沙箱执行面”的抽象方法与协议化设计，为AI Agent和强化学习（RL）任务构建安全、可复用的执行环境；2. 面向AI任务的细粒度网络管控策略，以实现精准。",
       "category": "技术与研究",
-      "company": "云天励飞",
-      "score": 24,
+      "company": "阿里巴巴",
+      "score": 23,
       "breakdown": {
-        "substance": 10,
-        "importance": 0,
-        "timeliness": 6,
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 10,
         "credibility": 8
       },
       "isDuplicate": false
     },
     {
-      "title": "国防官员透露AI聊天机器人如何用于目标决策",
+      "title": "国防官员披露AI聊天机器人如何用于目标锁定决策",
       "url": "https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/",
       "snippet": "The US military might use generative AI systems to rank lists of targets and make recommendations—which would be vetted by humans—about which to strike first, according to a Defense Department official with knowledge of the matter. The disclosure about how the military may use AI chatbots comes as the Pentagon faces scrutiny over a strike…",
       "source": "MIT Technology Review",
       "publishedAt": "Thu, 12 Mar 2026 22:23:34 +0000",
       "region": "海外",
-      "summary": "美国国防部官员透露，五角大楼正在测试用于机密环境的生成式AI系统。该系统可能用于分析潜在目标清单，并根据飞机当前位置等因素进行优先级排序，最终由人类审核建议。具体信息点包括：1）OpenAI的ChatGPT和xAI的Grok模型已获准用于五角大楼机密环境；2）美军自2017年启动的“Maven”项目。",
+      "summary": "美国国防部官员透露，五角大楼正测试用于机密环境的生成式AI系统。具体而言，该系统可能接收潜在目标列表，并根据飞机实时位置等因素进行分析和优先级排序，为人类决策者提供打击建议。此外，美军长期运行的“专家”项目使用计算机视觉AI分析无人机画面以识别目标，2024年报告显示这能加快目标审批流程。",
       "category": "技术与研究",
       "company": "无",
       "score": 20,
@@ -93,25 +169,6 @@
         "substance": 0,
         "importance": 0,
         "timeliness": 10,
-        "credibility": 10
-      },
-      "isDuplicate": false
-    },
-    {
-      "title": "美国电池行业遭遇艰难时期",
-      "url": "https://www.technologyreview.com/2026/03/12/1134197/us-battery-industry/",
-      "snippet": "Just a few years ago, the battery industry was hot, hot, hot. There was a seemingly infinite number of companies popping up, with shiny new chemistries and massive fundraising rounds. My biggest problem was sifting through the pile to pick the most exciting news to cover. That tide has turned, and in 2026, what seems…",
-      "source": "MIT Technology Review",
-      "publishedAt": "Thu, 12 Mar 2026 10:00:00 +0000",
-      "region": "海外",
-      "summary": "美国电池行业正经历严峻挑战，与几年前的热潮形成鲜明对比。具体表现为：1. 初创公司接连失败，例如成立于2010年的电池公司24M Technologies已宣布关闭并拍卖资产；2. 投资者正在撤资，风险投资公司Volta Energy Technologies指出市场对创新技术的投资意愿大幅降低；3。",
-      "category": "技术与研究",
-      "company": "",
-      "score": 20,
-      "breakdown": {
-        "substance": 4,
-        "importance": 0,
-        "timeliness": 6,
         "credibility": 10
       },
       "isDuplicate": false
@@ -125,12 +182,12 @@
       "source": "TechCrunch AI",
       "publishedAt": "Thu, 12 Mar 2026 15:12:35 +0000",
       "region": "海外",
-      "summary": "以色列AI客服代理初创公司Wonderful完成1.5亿美元B轮融资，估值达20亿美元，距其上轮1亿美元融资仅四个月。本轮由Insight Partners领投。公司专注于非英语市场，其平台针对电信、金融、医疗和制造等行业，根据当地语言、文化及法规进行定制化部署，并派遣本地团队协助客户快速集成AI技。",
+      "summary": "以色列AI客服代理初创公司Wonderful完成1.5亿美元B轮融资，估值达20亿美元，距离其上轮1亿美元融资仅四个月。该公司专注于非英语市场，其平台针对电信、金融、医疗和制造等行业，可根据不同市场的语言、文化及法规进行定制，并通过派遣本地团队协助客户快速部署。",
       "category": "投融资与并购",
       "company": "Wonderful",
-      "score": 41,
+      "score": 42,
       "breakdown": {
-        "substance": 17,
+        "substance": 18,
         "importance": 8,
         "timeliness": 8,
         "credibility": 8
@@ -157,7 +214,7 @@
       "isDuplicate": false
     },
     {
-      "title": "Gumloop获Benchmark领投5000万美元，助力员工构建AI智能体",
+      "title": "Gumloop获Benchmark领投5000万美元，助力企业员工构建AI智能体",
       "url": "https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/",
       "snippet": "As companies race to adopt AI, Benchmark general partner Everett Randle believes the key to success lies in empowering every worker with AI superpowers, and Gumloop’s intuitive agent builder is an example of the kind of tool that will unlock that potential.",
       "source": "TechCrunch AI",
@@ -166,9 +223,9 @@
       "summary": "Gumloop is by no means the only player vying to turn every knowledge worker into an AI agent-builder. The startup faces stiff competition from establi。",
       "category": "投融资与并购",
       "company": "Gumloop",
-      "score": 29,
+      "score": 32,
       "breakdown": {
-        "substance": 8,
+        "substance": 11,
         "importance": 5,
         "timeliness": 8,
         "credibility": 8
@@ -182,57 +239,18 @@
       "source": "TechCrunch AI",
       "publishedAt": "Thu, 12 Mar 2026 22:25:50 +0000",
       "region": "海外",
-      "summary": "由New Relic前高管创立的AI销售自动化公司Rox，其估值据称已达120亿美元。该公司提供AI原生的CRM替代方案，其核心是一个能部署数百个AI智能体的智能收入操作系统。这些智能体可集成到企业现有软件（如Salesforce）中，持续监控客户活动、研究潜在客户并自动更新CRM，旨在整合并简化销。",
+      "summary": "Rox AI是一家成立于2024年的销售自动化初创公司，其核心产品是一个AI原生的CRM替代方案。具体而言，它将自己定位为一个智能收入操作系统，能够接入企业现有的软件（如Salesforce、Zendesk），并部署数百个AI智能体。",
       "category": "投融资与并购",
       "company": "Rox AI",
-      "score": 24,
+      "score": 21,
       "breakdown": {
-        "substance": 6,
+        "substance": 3,
         "importance": 0,
         "timeliness": 10,
         "credibility": 8
       },
       "isDuplicate": false
-    },
-    {
-      "title": "宇迹航天完成千万元天使轮融资，专注卫星通信终端研发",
-      "url": "https://36kr.com/p/3719734856299908?f=rss",
-      "snippet": "文 | 阿至 36氪获悉，卫星通信终端研制企业宇迹航天科技（北京）有限公司（下简称“宇迹航天”）宣布完成逾千万元天使轮融资，投资方包括启迪之星创投、水木清华校友种子基金、无限基金SEE Fund等，所筹资金将主要用于核心产品的研发投入及批量化生产能力建设。 宇迹航天以卫星通信应用终端为市场切入点，专注于航天新一代信息化与智能化产品的研发与制造，公司致力于解决复杂环境下的信号接入与通信抗干扰难题，为卫星互联网的落地应用提供核心硬件及算法支撑。 创始人王浡力是一名连续创业者，拥有近十年体制内航天科研及管理经验，曾参与多型十余颗卫星研制工作。公司核心团队以北航及航天院所技术专家为基石，在航天通信测控及软件无线电领域拥有超20年技术积累和产业化实践经验。 瞄准产业链打通的“最后一公里” 随着低轨卫星星座在全球的密集部署，卫星互联网已从技术概念进入规模化建设前夜。过去一年，行业热度持续攀升，不仅源于其弥补地面网络覆盖不足的连接价值，更在于它能够为航空、航海、能源、科考、气象、农业、林业、海洋、国防、应急等垂直行业与前沿领域（如低空经济、自动驾驶）提供全新的“三维数字底座”。 从国家主导的GW星座到商业公司推动的千帆星座，中国自主可控的天基网络正在加速构建，这将直接催生未来对于高性能、低成本、国产化终端的海量刚需。 星座上天只是第一步，让信号稳定、可靠、经济地触达各类终端用户，才是产业价值变现的“最后一公里”。复杂电磁环境下的抗干扰技术突破、终端小型化与成本控制等一系列工程挑战，也正是地面终端赛道创业的技术门槛与商业机会所在。 瞄准这一核心环节，宇迹航天依托团队过去在通信抗干扰技术、通导一体化接收处理和小型化、低功耗宽带终端设计上的经验积累，构建了多元化产品矩阵。其核心思路是以强抗干扰能力和通导一体化为共性技术基底，针对不同需求和应用场景进行产品化定义，为客户提供整机解决方案与通信抗干扰模块两大类产品。 产品图 产品图 据介绍，现阶段其核心产品矩阵包括高性能/便携式宽带终端、多模态通信终端和超高速信号记录分析仪。 ·高性能/便携式宽带终端覆盖Ka/Ku/L/S等主流卫星频段，适用于各种卫星通信应用场景。其核心突破在于通过射频天线一体化设计，将高性能相控阵终端从“笨重设备”转化为“便携终端”，降低行业用户的准入门槛。 ·多模态融合终端类产品体现其“全域覆盖”思路，兼容通用网络、自组网及卫星网络。 ·超高速信号记录分析仪可广泛应用于有信号收集、分析、记录需求的场景，如卫星地面接收站、飞机场区、大型地面站等。据介绍，其支持GHz级采样率，最高存储速度达7GB/s，填补了国内在卫星地面接收站高速信号捕获记录领域的空白。 宇迹航天创始人、执行董事兼CEO王浡力提到，目前公司产品已在通导融合和多模态两大应用场景落地，产品均已完成原理样机研发，用户端也完成了应用验收，技术可行性和场景适配性得到了验证。后续团队将根据用户反馈和网络建设进度，推进小批量试产和场景深化应用。 技术积累和场景打磨的关键窗口期 在战略路径上，宇迹航天整体遵循行业“先军后民、由B到C” 的发展逻辑。即先服务于对性能要求高、价格敏感度低的军用及特种行业市场，打磨产品、建立口碑；随着规模上量和成本结构的进一步优化，逐步拓展至民航、能源、交通等民用行业市场；最终瞄准大规模消费级市场。 王浡力也提到，由于国内卫星互联网尚未建成，在业务端目前宇迹航天以研发合同为主。 “2025年公司主要以卫星通信模块的研发合同为主，目前业务结构以技术研发服务为主，尚未形成规模化产品销售，预计随着后续项目落地和量产推进，收入结构将逐步多元化。”王浡力表示，2026年公司计划实现上千万级的收入目标。 从行业发展水平来看，目前中国卫星通信市场尚不成熟。这也意味着，对于创业公司来说，其前期竞争力不只在于低价，而是在复杂环境下提供稳定、安全、自主可控连接解决方案的能力，这也需要企业和技术需求方不断磨合，通过研发共建和场景深耕等方式巩固技术壁垒和客户信任。 对宇迹航天而言，其面临的发展窗口期也相对明确，即在国家星座全面组网、应用市场大规模爆发前，完成产品定型、成本优化和行业标杆案例的建立。 “在卫星通信应用领域，市场仍处于早期构建阶段，尚未形成规模化落地场景，尤其是针对具体行业应用，仍需等待卫星网络提供服务后方能快速迭代。”王浡力表示，“当前正是技术积累和场景打磨的关键窗口期，未来通信链路的可靠性与安全性将成为决定用户体验和商业落地的核心要素。公司也因此将更加坚定地在抗干扰通信技术上持续深耕。” 放眼全球，以“星链”及“星盾”为代表的系统，正在重新定义天基基础设施的竞争维度：它不仅是带宽的竞争，更是覆盖、安全性与弹性服务的竞争。中国必须发展自主可控的卫星互联网体系已成共识，而地面终端作为与用户体验直接相关的环节，其自主化、多样化和高性能需求将同步爆发。在未来的产业格局中，能同时吃透顶层标准、深入行业场景、实现成本可控的终端厂商，会具备更强的产业链话语权。 “我们希望在未来的卫星通信网络中，成为不可或缺的技术支撑力量，为行业提供稳定、可信的抗干扰通信解决方案。”王浡力补充道。 投资方观点 本轮领投方启迪之星创投认为，卫星互联网与5G NTN、6G等下一代通信技术已成为当今世界主流发展趋势，我国的低轨通信网络基础设施建设也已迈入黄金加速期，而与之配套的地面端基础设施受制于规模、成本等商业问题，尚未实现规模化放量。“我们看好宇迹航天创始团队的差异化技术优势与深厚商业背景，以及‘由军到民，生态合作，利益共赢’的务实战略规划，相信团队能够在这一波兵家必争的卫星互联网浪潮中充分发挥自身优势，抢占发展先机。” 水木清华校友种子基金合伙人丁昳婷表示：宇迹航天依托自主研发的通信抗干扰技术，融合窄带与宽带通信需求，面向即将爆发的6G空天通信领域，打造了多模态终端等系列产品。团队技术功底扎实，相关技术有多年积累，目前已经在多个行业场景中落地应用。作为通信抗干扰的核心能力平台，可以与各类通信终端深度融合，成为空天安全可信通信的关键基础设施，未来可期。",
-      "source": "36氪",
-      "publishedAt": "2026-03-12 17:19:44  +0800",
-      "region": "国内",
-      "summary": "放眼全球，以“星链”及“星盾”为代表的系统，正在重新定义天基基础设施的竞争维度：它不仅是带宽的竞争，更是覆盖、安全性与弹性服务的竞争。中国必须发展自主可控的卫星互联网体系已成共识，而地面终端作为与用户体验直接相关的环节，其自主化、多样化和高性能需求将同步爆发。",
-      "category": "投融资与并购",
-      "company": "宇迹航天",
-      "score": 22,
-      "breakdown": {
-        "substance": 9,
-        "importance": 0,
-        "timeliness": 6,
-        "credibility": 7
-      },
-      "isDuplicate": false
     }
   ],
-  "政策与监管": [
-    {
-      "title": "政府报告解读：五年AI发展与企业智能化转型的最后一公里",
-      "url": "https://www.infoq.cn/article/Vr1eeLLDCjLk0ZyHI0NE?utm_source=rss&utm_medium=article",
-      "snippet": "点击查看原文>",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 12 Mar 2026 11:19:44 GMT",
-      "region": "国内",
-      "summary": "该新闻解读了一份政府报告，聚焦未来五年人工智能发展与企业智能化转型。报告指出，企业转型的关键在于突破“最后一公里”瓶颈，即从技术试点到全面落地的过程。报告为企业提供了基于政策导向的转型路径参考，但原文未具体说明发布报告的政府部门，也未透露其中包含的具体技术细节或企业案例，信息较为有限。",
-      "category": "政策与监管",
-      "company": "",
-      "score": 28,
-      "breakdown": {
-        "substance": 9,
-        "importance": 5,
-        "timeliness": 6,
-        "credibility": 8
-      },
-      "isDuplicate": false
-    }
-  ]
+  "政策与监管": []
 }
