@@ -1,27 +1,47 @@
 {
   "date": "2026/3/14",
-  "generatedAt": "2026/3/14 08:05",
-  "count": 8,
+  "generatedAt": "2026/3/14 08:26",
+  "count": 9,
   "articles": [
     {
       "section": "投融资与并购",
-      "title": "华人博士创立的斯坦福家务机器人公司Sunday Robotics完成1.65亿美元B轮融资",
+      "title": "斯坦福家务机器人公司Sunday Robotics完成1.65亿美元B轮融资，估值达11.5亿美元",
       "company": "Sunday Robotics",
       "url": "https://www.qbitai.com/2026/03/387072.html",
       "source": "量子位",
       "publishedAt": "Fri, 13 Mar 2026 05:59:51 +0000",
-      "summary": "由斯坦福华人博士赵子豪与迟宬创立的家务机器人公司Sunday Robotics完成1.65亿美元B轮融资，估值达11.5亿美元。其核心产品Memo是一款身高约1.7米、可伸展至2.1米的轮式升降机器人。",
-      "score": 40
+      "summary": "斯坦福具身智能研究人员赵子豪与迟宬创立的Sunday Robotics公司完成1.65亿美元B轮融资，估值达11.5亿美元。其核心产品Memo是一款轮式升降家务机器人，身高约1.7米，最高可伸展至2.1米。",
+      "score": 44
     },
     {
-      "section": "产品发布与更新",
-      "title": "NanoClaw创作者六周狂飙，终与Docker达成合作",
-      "company": "NanoClaw",
+      "section": "技术与研究",
+      "title": "理想汽车研发投入超百亿创历史新高 全新一代L9具身智能SUV二季度上市",
+      "company": "理想汽车",
+      "url": "https://www.leiphone.com/category/industrynews/64g3GmNWm5zdm9qV.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 13 Mar 2026 17:00:00 +0800",
+      "summary": "理想汽车2025年研发投入113亿元，其中一半用于AI，构建了从芯片到线控底盘的完整技术栈。其首款落地产品全新L9 Livis SUV将于二季度上市，核心突破在于：1. 搭载两颗自研5纳米马赫100芯片，算力达2560 TOPS，通过数据流架构让车辆能真正“理解”环境；2. 配备全球首个完全体全线控。",
+      "score": 38
+    },
+    {
+      "section": "技术与研究",
+      "title": "NanoClaw创始人六周内与Docker达成合作",
+      "company": "Docker",
       "url": "https://techcrunch.com/2026/03/13/the-wild-six-weeks-for-nanoclaws-creator-that-led-to-a-deal-with-docker/",
       "source": "TechCrunch AI",
       "publishedAt": "Fri, 13 Mar 2026 17:09:59 +0000",
-      "summary": "开源项目NanoClaw的创作者Gavriel Cohen在项目爆火后，决定全职投入并成立公司NanoCo。其核心变化是：项目从一个个人工具转变为拥有社区支持的产品，GitHub已获2.2万星标和50多名贡献者。",
+      "summary": "开源开发者Gavriel Cohen在六周内将其AI项目NanoClaw与Docker达成合作。他最初为解决OpenClaw体积过大和安全问题，使用Claude Code构建了执行特定任务的AI智能体，但发现缺少预调度和与团队通信工具（如WhatsApp）集成的功能。",
       "score": 32
+    },
+    {
+      "section": "技术与研究",
+      "title": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条AI编程路径",
+      "company": "OpenAI, 华为",
+      "url": "https://www.infoq.cn/article/f6pSw1rxN9DdrEsGrcq1?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 13 Mar 2026 11:14:36 GMT",
+      "summary": "文章对比了AI编程的两条路径。以OpenAI Gemini为代表的模型中心派，通过扩展上下文窗口（如支持200万Token）来载入整个代码库，但面临高成本、推理延迟和长上下文下精准度衰减（如‘大海捞针’问题）的挑战。",
+      "score": 31
     },
     {
       "section": "政策与监管",
@@ -34,44 +54,14 @@
       "score": 31
     },
     {
-      "section": "技术与研究",
-      "title": "理想汽车研发投入超百亿创历史新高，全新一代L9具身智能旗舰SUV二季度上市",
-      "company": "理想汽车",
-      "url": "https://www.leiphone.com/category/industrynews/64g3GmNWm5zdm9qV.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 13 Mar 2026 17:00:00 +0800",
-      "summary": "理想汽车2025年财报显示，其全年研发投入达113亿元，其中一半投向AI，构建了覆盖芯片、模型、操作系统、线控底盘的完整技术栈。这套技术栈的首个应用是二季度上市的全新一代理想L9 Livis，它搭载两颗自研5纳米马赫100芯片，提供2560 TOPS算力，并首次在60万以内车型配备800V全主动悬架。",
-      "score": 29
-    },
-    {
-      "section": "技术与研究",
-      "title": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条AI编程路径",
-      "company": "OpenAI, 华为",
-      "url": "https://www.infoq.cn/article/f6pSw1rxN9DdrEsGrcq1?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 13 Mar 2026 11:14:36 GMT",
-      "summary": "文章对比了AI编程的两条路径。模型中心派（如OpenAI Gemini）通过扩大上下文窗口（如支持200万Token）来载入整个代码库，但面临高成本、推理延迟和长上下文下信息召回率下降的挑战。",
-      "score": 28
-    },
-    {
       "section": "投融资与并购",
-      "title": "父子创立的Nyne为AI智能体注入缺失的人类情境",
+      "title": "父子创立的Nyne为AI智能体注入缺失的人类背景信息",
       "company": "Nyne",
       "url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
       "source": "TechCrunch AI",
       "publishedAt": "Fri, 13 Mar 2026 21:37:01 +0000",
-      "summary": "数据基础设施初创公司Nyne宣布获得530万美元种子轮融资，由Wischoff Ventures和South Park Commons领投。该公司致力于解决AI智能体普遍缺乏的“人类情境”问题，即通过整合用户的多维度信息（如兴趣、爱好、特定思维方式）来深度理解个体，从而帮助智能体做出更精准的决策。",
+      "summary": "数据基础设施初创公司Nyne宣布获得530万美元种子轮融资，由Wischoff Ventures和South Park Commons领投。该公司致力于解决AI智能体缺乏人类背景信息的问题，其核心观点是：尽管谷歌等巨头能通过用户搜索历史和跨平台活动精准定位，但这些数据不会对外共享。",
       "score": 25
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "OpenAI将AI视频工具Sora作为独立应用发布",
-      "company": "OpenAI",
-      "url": "https://www.aol.com/openai-launches-ai-video-tool-172649843.html?utm_source=flipboard&utm_content=AOLcom/magazine/Science+%26+tech",
-      "source": "AOL.com",
-      "publishedAt": "16 hours ago",
-      "summary": "OpenAI于2025年9月30日宣布，将旗下文本生成视频AI模型Sora 2作为独立应用程序，在美国和加拿大正式推出。此次发布的核心变化在于，Sora 2从原先可能集成在其他产品中的模型，转变为可供用户直接使用的独立应用。",
-      "score": 24
     },
     {
       "section": "技术与研究",
@@ -80,8 +70,28 @@
       "url": "https://www.leiphone.com/category/industrynews/tyeDwAnQsUuown70.html",
       "source": "雷锋网",
       "publishedAt": "Fri, 13 Mar 2026 15:51:00 +0800",
-      "summary": "美团创始人王兴在内部沟通会上表示，AI带来的变革将远超互联网，关键在于物理世界的数字化。他以订餐厅为例，指出即使AI模型再聪明，也需要实时、准确的真实世界信息（如餐厅座位情况）作为基础。",
+      "summary": "美团创始人王兴在内部沟通会上表示，AI带来的变革将远超互联网，关键在于物理世界的数字化。他以订餐厅为例，指出即使AI模型再聪明，也需要实时、准确的线下信息（如座位情况）作为决策基础。",
       "score": 23
+    },
+    {
+      "section": "技术与研究",
+      "title": "Meta推迟发布新AI模型，考虑授权谷歌Gemini",
+      "company": "Meta",
+      "url": "https://nypost.com/2026/03/13/business/meta-delays-release-of-new-ai-weighs-licensing-googles-gemini-after-disappointing-trial-runs-report/",
+      "source": "New York Post",
+      "publishedAt": "3 hours ago",
+      "summary": "Meta因内部测试结果不佳，将其代号为'Avocado'的新AI模型发布时间从原定的3月中旬推迟至少两个月。为追赶谷歌、OpenAI等领先者，Meta去年投入720亿美元研发AI，今年预算更增至1350亿美元，并任命Scale AI创始人Alexandr Wang为首席AI官。",
+      "score": 22
+    },
+    {
+      "section": "技术与研究",
+      "title": "用10元成本打造AI编辑部：全自动内容生产工作流详解",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/03/387116.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 13 Mar 2026 06:54:55 +0000",
+      "summary": "本文详细介绍了一个名为“AI编辑部”的全自动内容生产工作流。该工作流通过模拟传统编辑部，设置了六个分工明确的AI角色（如“总编虾”负责提纲、“记者虾”负责资料搜集），并利用飞书多维表格进行任务协同。",
+      "score": 20
     }
   ]
 }
