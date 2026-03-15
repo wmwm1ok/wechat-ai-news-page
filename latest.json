@@ -1,37 +1,37 @@
 {
   "date": "2026/3/15",
-  "generatedAt": "2026/3/15 10:13",
-  "count": 7,
+  "generatedAt": "2026/3/15 11:32",
+  "count": 9,
   "articles": [
     {
+      "section": "技术与研究",
+      "title": "Cloudflare发布AI辅助开发的实验性Next.js替代方案vinext",
+      "company": "Cloudflare",
+      "url": "https://www.infoq.cn/article/9bFq7FJUQSXANWqtf8fQ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 15 Mar 2026 11:00:00 GMT",
+      "summary": "Cloudflare发布实验性项目vinext，作为Next.js的替代方案。该项目由一名工程师在约一周内借助AI辅助开发完成，API成本约1100美元，并生成了大部分代码。其核心变化在于基于Vite构建，而非Next.js的Turbopack，并针对Cloudflare Workers进行了优化。",
+      "score": 43
+    },
+    {
       "section": "产品发布与更新",
-      "title": "360发布安全龙虾系列产品，构建智能体安全体系",
+      "title": "360发布安全龙虾系列产品 构建智能体安全体系",
       "company": "360",
       "url": "https://www.qbitai.com/2026/03/387921.html",
       "source": "量子位",
       "publishedAt": "Sat, 14 Mar 2026 13:32:22 +0000",
-      "summary": "360集团针对开源智能体OpenClaw（俗称“龙虾”）发布“360安全龙虾”系列产品，包括应用客户端、硬件终端及安全防护系统“龙虾卫士”。其核心变化在于以安全模式为核心，通过虚拟化沙箱隔离运行环境，并利用AI引擎拦截恶意技能等攻击，以解决OpenClaw面临的安全风险。",
-      "score": 34
-    },
-    {
-      "section": "技术与研究",
-      "title": "它石智航发布通用具身大模型AWE3.0及数据解决方案SenseHub",
-      "company": "它石智航",
-      "url": "https://www.qbitai.com/2026/03/387860.html",
-      "source": "量子位",
-      "publishedAt": "Sat, 14 Mar 2026 10:32:09 +0000",
-      "summary": "它石智航发布了通用具身大模型AWE3.0及数据解决方案SenseHub。AWE3.0通过三项技术突破解决机器人实际应用难题：全视角通感决策让机器人在未见新视角下的任务成功率提升3倍；高密度触觉感知使其能完成毫米级精细操作；隐空间丝滑动作将抖动降低超45%。",
-      "score": 31
+      "summary": "360集团针对开源智能体OpenClaw（俗称“龙虾”）发布了“360安全龙虾”系列产品，包括应用客户端、硬件终端及安全防护系统“龙虾卫士”。其核心变化在于以“安全模式”为核心设计，通过虚拟化沙箱隔离运行环境，并利用AI安全引擎主动拦截恶意技能和提示词注入等攻击。",
+      "score": 38
     },
     {
       "section": "投融资与并购",
-      "title": "前华为北美高管团队创业AIDC算力电源赛道，获数千万元A轮融资",
+      "title": "前华为北美高管团队创业AIDC算力电源，获数千万元A轮融资",
       "company": "梅威斯Matrix Power",
       "url": "https://36kr.com/p/3722683801909641?f=rss",
       "source": "36氪",
       "publishedAt": "2026-03-14 19:10:52  +0800",
       "summary": "针对这一市场空白，硬氪了解到，「梅威斯」构建了从当前到未来的完整AIDC全栈电源解决方案。其现有及在研产品线全面覆盖54VDC机柜内电源，包括支持5.5kW和12kW的PSU（电源供应单元）、集成锂电池管理的BBU（电池备份单元）、结合超级电容实现500微秒级超快响应的CBU（电容备份单元）以及24。",
-      "score": 30
+      "score": 35
     },
     {
       "section": "产品发布与更新",
@@ -39,29 +39,39 @@
       "company": "Google",
       "url": "http://www.msn.com/en-in/money/topstories/google-expands-gemini-ai-capabilities-for-docs-sheets-slides-and-drive/ar-AA1XUJhf?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1&bundles=feat-display-admon-bundle",
       "source": "MSN",
-      "publishedAt": "5 hours ago",
-      "summary": "Google宣布为其Workspace办公套件中的Docs、Sheets、Slides和Drive应用扩展Gemini AI功能，带来核心升级。具体而言，用户将能在Docs中利用AI辅助写作与内容生成，在Sheets中通过AI进行数据分析与公式创建，在Slides中快速生成演示文稿内容与设计，并在D。",
+      "publishedAt": "7 hours ago",
+      "summary": "Google宣布为其Workspace办公套件中的Docs、Sheets、Slides和Drive应用推出新的Gemini AI功能。此次升级的核心变化是，用户将能直接在文档、表格、演示文稿和云盘中调用AI助手。",
       "score": 26
     },
     {
+      "section": "产品发布与更新",
+      "title": "它石智航发布通用具身大模型AWE3.0及数据解决方案SenseHub",
+      "company": "它石智航",
+      "url": "https://www.qbitai.com/2026/03/387860.html",
+      "source": "量子位",
+      "publishedAt": "Sat, 14 Mar 2026 10:32:09 +0000",
+      "summary": "它石智航发布了通用具身大模型AWE3.0及数据解决方案SenseHub。该模型通过三项核心技术突破解决机器人适应真实复杂环境的难题：一是全视角通感决策技术，让机器人在训练中未见过的新视角下，任务成功率提升3倍；二是高密度触觉感知技术，结合超百万小时数据，使机器人能完成毫米级精细响应，胜任精密装配；三。",
+      "score": 25
+    },
+    {
       "section": "投融资与并购",
-      "title": "Meta据称考虑裁员20%，以抵消AI基础设施支出",
+      "title": "Meta据称考虑裁员，可能影响公司20%员工",
       "company": "Meta",
       "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
       "source": "TechCrunch AI",
       "publishedAt": "Sat, 14 Mar 2026 16:28:42 +0000",
-      "summary": "据报道，Meta正考虑裁员约20%，以应对其在人工智能领域的巨额投入。具体而言，此次裁员旨在抵消公司在AI基础设施、相关收购及招聘方面的激进支出。截至去年底，Meta员工总数近7.9万人，若按此比例裁员，规模将远超2022年11月的1.1万人和2023年3月的1万人。",
+      "summary": "据报道，Facebook母公司Meta正考虑新一轮裁员，可能影响约20%的员工，以抵消其在人工智能基础设施、相关收购和招聘方面的激进支出。具体信息点包括：1. 截至去年底，Meta员工总数近7.9万人，若按20%比例计算，裁员规模将远超2022年11月的1.1万人和2023年3月的1万人。",
       "score": 25
     },
     {
       "section": "技术与研究",
-      "title": "陶哲轩专访：创办AI x Science组织的初衷",
+      "title": "陶哲轩谈创办AI x Science组织及AI在科研中的辅助应用",
       "company": "",
       "url": "https://www.qbitai.com/2026/03/387832.html",
       "source": "量子位",
       "publishedAt": "Sat, 14 Mar 2026 06:34:18 +0000",
-      "summary": "陶哲轩在专访中解释了他创办AI与科学交叉组织SAIR的初衷。他分享了个人使用AI辅助科研的具体场景：一是用于文献检索，例如快速查找特定数学结论或筛选相关论文；二是处理繁琐的可视化与计算任务。",
-      "score": 21
+      "summary": "陶哲轩分享了他在日常科研中如何将AI作为辅助工具。具体应用包括：1. 文献检索，例如当忘记某个数学结论的具体形式或关联时，直接询问AI；2. 快速生成图表和进行简单可视化；3. 在大量论文中筛选相关工作和查找是否有人使用过类似方法。",
+      "score": 22
     },
     {
       "section": "技术与研究",
@@ -69,9 +79,19 @@
       "company": "OpenAI, Google, Anthropic, xAI",
       "url": "https://www.tweaktown.com/articles/11373/frontier-ai-models-face-off-gpt-5-4-vs-gemini-3-1-pro-vs-claude-opus-4-6-vs-grok-4-20/index.html",
       "source": "TweakTown",
-      "publishedAt": "18 hours ago",
-      "summary": "本文对OpenAI的GPT-5.4、Google的Gemini 3.1 Pro、Anthropic的Claude Opus 4.6以及xAI的Grok 4.20这四款前沿AI模型进行了对比测试。",
+      "publishedAt": "19 hours ago",
+      "summary": "我们对OpenAI的GPT-5.4、Google的Gemini 3.1 Pro、Anthropic的Claude Opus 4.6以及xAI的Grok 4.20这四款前沿AI模型进行了测试。",
       "score": 21
+    },
+    {
+      "section": "技术与研究",
+      "title": "GitLab：AI能发现漏洞，但风险治理才是关键",
+      "company": "GitLab",
+      "url": "https://www.infoq.cn/article/SkoHHJPpp6bpctKdbFws?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 15 Mar 2026 10:00:00 GMT",
+      "summary": "GitLab发布博文指出，AI工具能高效发现软件漏洞，但仅靠检测无法管理风险。文章强调，必须将AI检测结果融入基于策略的DevSecOps框架，具体实践包括：在组织层面定义风险容忍阈值、设置与漏洞严重性相关的部署门禁、保留可审计的审批流程。",
+      "score": 20
     }
   ]
 }
