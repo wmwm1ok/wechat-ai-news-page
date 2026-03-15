@@ -1,0 +1,142 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "360发布安全龙虾系列产品，构建智能体安全体系",
+      "url": "https://www.qbitai.com/2026/03/387921.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Sat, 14 Mar 2026 13:32:22 +0000",
+      "region": "国内",
+      "summary": "360集团针对开源智能体OpenClaw（俗称“龙虾”）发布“360安全龙虾”系列产品，包括应用客户端、硬件终端及安全防护系统“龙虾卫士”。其核心变化在于以安全模式为核心，通过虚拟化沙箱隔离运行环境，并利用AI引擎拦截恶意技能等攻击，以解决OpenClaw面临的安全风险。",
+      "category": "产品发布与更新",
+      "company": "360",
+      "score": 34,
+      "breakdown": {
+        "substance": 14,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Google为Docs、Sheets、Slides和Drive扩展Gemini AI功能",
+      "url": "http://www.msn.com/en-in/money/topstories/google-expands-gemini-ai-capabilities-for-docs-sheets-slides-and-drive/ar-AA1XUJhf?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1&bundles=feat-display-admon-bundle",
+      "snippet": "Google is rolling out major upgrades to its Workspace suite by announcing new Gemini AI capabilities for Docs, Sheets, Slides, and Drive.",
+      "source": "MSN",
+      "publishedAt": "5 hours ago",
+      "region": "海外",
+      "summary": "Google宣布为其Workspace办公套件中的Docs、Sheets、Slides和Drive应用扩展Gemini AI功能，带来核心升级。具体而言，用户将能在Docs中利用AI辅助写作与内容生成，在Sheets中通过AI进行数据分析与公式创建，在Slides中快速生成演示文稿内容与设计，并在D。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 26,
+      "breakdown": {
+        "substance": 8,
+        "importance": 11,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "它石智航发布通用具身大模型AWE3.0及数据解决方案SenseHub",
+      "url": "https://www.qbitai.com/2026/03/387860.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Sat, 14 Mar 2026 10:32:09 +0000",
+      "region": "国内",
+      "summary": "它石智航发布了通用具身大模型AWE3.0及数据解决方案SenseHub。AWE3.0通过三项技术突破解决机器人实际应用难题：全视角通感决策让机器人在未见新视角下的任务成功率提升3倍；高密度触觉感知使其能完成毫米级精细操作；隐空间丝滑动作将抖动降低超45%。",
+      "category": "技术与研究",
+      "company": "它石智航",
+      "score": 31,
+      "breakdown": {
+        "substance": 11,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "陶哲轩专访：创办AI x Science组织的初衷",
+      "url": "https://www.qbitai.com/2026/03/387832.html",
+      "snippet": "未来可能会有10000个陶哲轩",
+      "source": "量子位",
+      "publishedAt": "Sat, 14 Mar 2026 06:34:18 +0000",
+      "region": "国内",
+      "summary": "陶哲轩在专访中解释了他创办AI与科学交叉组织SAIR的初衷。他分享了个人使用AI辅助科研的具体场景：一是用于文献检索，例如快速查找特定数学结论或筛选相关论文；二是处理繁琐的可视化与计算任务。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 21,
+      "breakdown": {
+        "substance": 1,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "前沿AI模型对决：GPT-5.4、Gemini 3.1 Pro、Claude Opus 4.6与Grok 4.20同台竞技",
+      "url": "https://www.tweaktown.com/articles/11373/frontier-ai-models-face-off-gpt-5-4-vs-gemini-3-1-pro-vs-claude-opus-4-6-vs-grok-4-20/index.html",
+      "snippet": "We put the latest frontier AI models from OpenAI, Google, Anthropic, and xAI through identical creative coding challenges to see how they stack up.",
+      "source": "TweakTown",
+      "publishedAt": "18 hours ago",
+      "region": "海外",
+      "summary": "本文对OpenAI的GPT-5.4、Google的Gemini 3.1 Pro、Anthropic的Claude Opus 4.6以及xAI的Grok 4.20这四款前沿AI模型进行了对比测试。",
+      "category": "技术与研究",
+      "company": "OpenAI, Google, Anthropic, xAI",
+      "score": 21,
+      "breakdown": {
+        "substance": 3,
+        "importance": 11,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "前华为北美高管团队创业AIDC算力电源赛道，获数千万元A轮融资",
+      "url": "https://36kr.com/p/3722683801909641?f=rss",
+      "snippet": "作者 | 林晴晴 编辑 | 袁斯来 硬氪获悉，AIDC全栈算力电源解决方案提供商「梅威斯Matrix Power」已于近日完成A轮融资，由星星充电独家投资，金额为数千万元，治臻咨询担任其长期独家财务顾问。此前公司曾获某上市公司天使轮、宇杉资本Pre-A轮投资。本轮资金将主要用于AI数据中心电源的持续研发、海外市场拓展及流动资金补充。 梅威斯电气技术（上海）有限公司成立于2020年，是一家专注于AI数据中心（AIDC）算力电源的解决方案商。公司专注于高效、高密度电源产品的研发，产品线覆盖从传统54VDC机柜内供电到下一代±400V/800V HVDC柜外架构，再到固态变压器等前沿技术。 随着AI算力需求的爆发式增长，单机柜功率正从数十千瓦跃升至兆瓦级，传统UPS加铅酸电池的供电架构在空间、能效和动态响应上已难以支撑高密度GPU集群的运转。全球数据中心电力设备市场预计到2028年将接近7000亿人民币。然而，国内外市场呈现出截然不同的节奏。美国市场在技术应用和投资力度上遥遥领先，预计到2030年市场规模将达400亿美金；而中国市场尽管增速迅猛，但由于高端GPU获取受限，市场规模约为美国的四分之一。当前，台达凭借收购的通信电源技术占据全球约80%的份额，光宝紧随其后，但多数厂商或局限于传统UPS领域，或由工业电源匆忙转型，缺乏真正理解AI数据中心高压直流架构的基因。 梅威斯| AIDC算力电源拼图（图源/企业） 针对这一市场空白，硬氪了解到，「梅威斯」构建了从当前到未来的完整AIDC全栈电源解决方案。其现有及在研产品线全面覆盖54VDC机柜内电源，包括支持5.5kW和12kW的PSU（电源供应单元）、集成锂电池管理的BBU（电池备份单元）、结合超级电容实现500微秒级超快响应的CBU（电容备份单元）以及240V DC的BBS（电池备份系统）。面向下一代数据中心，公司计划推出±400V/800V HVDC柜外电源，其HVDC Sidecar模块单柜最大功率可达1.2MW，系统效率在97.3%至97.7%之间，负载动态响应时间为500微秒。更进一步，公司已开始布局固态变压器（SST）技术，旨在未来直接从10kV中压电网转换为800V直流，消除多级转换损耗，为GW级AI工厂提供终极供电方案。 英伟达从415伏交流（上）到800伏直流（下）的配电架构演进（图源/企业） 市场验证方面，「梅威斯」前期通过通信电源业务验证了自身的技术与交付能力，在东南亚市场积累了良好的客户基础。截至目前，公司在手订单近亿元，本轮融资后，将加速推进北美市场的布局。技术迭代与市场速度仍是行业核心挑战，公司将加快AI电源的研发进度，同时推进800V HVDC及固态变压器等前沿技术的产品化，以应对NVIDIA等巨头推动的2027年起800V DC原生服务器大规模商用趋势。 据「梅威斯」战略发展及融资负责人Jackie介绍，公司目前正在积极推进与Google、Meta等北美互联网巨头就算力电源业务的合作；同时，团队也与国内头部算力服务器厂家，就860KW级别的超高算力AIDC服务器的电源设计开展研发合作。 硬氪了解到，「梅威斯」团队为市场少见的华为系电源班底。创始人李小华曾任华为网络能源部北美区副总裁，曾带领华为团队作为OCP组织电源架构的主导方，基于20多年的通信电源经验，为谷歌、Meta设计全球首个基于54V直流和锂电池架构的分布式OCP数据中心电源；CTO为前华为数字能源模块电源子业务、前华为数字能源综合智慧能源子业务高管；技术总监为前台达技术主管，专注电源行业22年。公司核心技术团队成员在华为、台达、艾默生、Eltek、Tyco等企业拥有超过20年的技术积累，是国内少数深度参与OCP电源架构设计的团队之一。 投资方观点 星星充电：作为本轮独家投资方，星星充电对梅威斯在 AIDC 算力电源领域的技术实力和市场前瞻性表示高度认可。我们看到，随着AI算力需求的爆发，传统供电架构已难以满足行业发展，而梅威斯凭借其华为系核心团队的深厚积累，构建了覆盖当前与未来的全栈电源解决方案，尤其在高压直流领域展现出领先优势。此次投资不仅是对梅威斯电源技术路线的肯定，更是星星充电布局未来能源基础设施的重要落子。我们相信，梅威斯将在AIDC数据中心电源市场占据重要地位，并为全球绿色高效算力基础设施建设贡献关键力量。",
+      "source": "36氪",
+      "publishedAt": "2026-03-14 19:10:52  +0800",
+      "region": "国内",
+      "summary": "针对这一市场空白，硬氪了解到，「梅威斯」构建了从当前到未来的完整AIDC全栈电源解决方案。其现有及在研产品线全面覆盖54VDC机柜内电源，包括支持5.5kW和12kW的PSU（电源供应单元）、集成锂电池管理的BBU（电池备份单元）、结合超级电容实现500微秒级超快响应的CBU（电容备份单元）以及24。",
+      "category": "投融资与并购",
+      "company": "梅威斯Matrix Power",
+      "score": 30,
+      "breakdown": {
+        "substance": 12,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 7
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "Meta据称考虑裁员20%，以抵消AI基础设施支出",
+      "url": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/",
+      "snippet": "These layoffs could help Facebook's parent company offset its aggressive spending on AI infrastructure, as well as AI-related acquisitions and hiring.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 14 Mar 2026 16:28:42 +0000",
+      "region": "海外",
+      "summary": "据报道，Meta正考虑裁员约20%，以应对其在人工智能领域的巨额投入。具体而言，此次裁员旨在抵消公司在AI基础设施、相关收购及招聘方面的激进支出。截至去年底，Meta员工总数近7.9万人，若按此比例裁员，规模将远超2022年11月的1.1万人和2023年3月的1万人。",
+      "category": "投融资与并购",
+      "company": "Meta",
+      "score": 25,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    }
+  ],
+  "政策与监管": []
+}
