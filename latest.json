@@ -1,66 +1,153 @@
 {
   "date": "2026/3/16",
-  "generatedAt": "2026/3/16 08:40",
-  "count": 6,
+  "generatedAt": "2026/3/16 10:42",
+  "count": 5,
+  "targetCount": 14,
+  "diagnostics": {
+    "targetCount": 14,
+    "candidateTargetCount": 23,
+    "fetch": {
+      "domesticBeforeDedup": 20,
+      "overseasBeforeDedup": 112,
+      "domesticAfterDedup": 20,
+      "overseasAfterDedup": 109,
+      "domesticSources": [
+        {
+          "source": "机器之心",
+          "ok": false,
+          "count": 0,
+          "error": "Too many redirects"
+        },
+        {
+          "source": "量子位",
+          "ok": true,
+          "count": 6,
+          "error": null
+        },
+        {
+          "source": "36氪",
+          "ok": true,
+          "count": 5,
+          "error": null
+        },
+        {
+          "source": "InfoQ",
+          "ok": true,
+          "count": 4,
+          "error": null
+        },
+        {
+          "source": "雷锋网",
+          "ok": true,
+          "count": 5,
+          "error": null
+        }
+      ],
+      "overseasSources": [
+        {
+          "source": "TechCrunch AI",
+          "ok": true,
+          "count": 4,
+          "error": null
+        },
+        {
+          "source": "MIT Technology Review",
+          "ok": true,
+          "count": 0,
+          "error": null
+        },
+        {
+          "source": "Ars Technica",
+          "ok": true,
+          "count": 0,
+          "error": null
+        }
+      ],
+      "serper": {
+        "enabled": true,
+        "count": 108,
+        "queryCount": 12,
+        "resultLimit": 6,
+        "error": null
+      }
+    },
+    "summarize": {
+      "totalSummarized": 55
+    },
+    "scoring": {
+      "totalInput": 55,
+      "totalScored": 6,
+      "selectedCandidateCount": 6,
+      "duplicateCount": 19,
+      "crossDayDuplicateCount": 8,
+      "lowQualityCount": 14,
+      "domesticAvailable": 3,
+      "overseasAvailable": 3,
+      "sourceCount": {
+        "雷锋网": 1,
+        "InfoQ": 1,
+        "量子位": 1,
+        "AOL.com": 1,
+        "Hypebeast": 1,
+        "BleepingComputer": 1
+      }
+    },
+    "display": {
+      "refinedCount": 6,
+      "displayReadyCount": 5,
+      "removedWeakSummaries": 1,
+      "shortage": 9
+    }
+  },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "360推出国内首个安全龙虾，周鸿祎亲自动手演示安装",
+      "title": "360推出国内首个安全龙虾，周鸿祎演示10分钟安装",
       "company": "360",
       "url": "https://www.infoq.cn/article/XgX3qjd9RZ0aOaFjqbZQ?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Sun, 15 Mar 2026 12:47:57 GMT",
-      "summary": "360集团针对开源智能体OpenClaw（俗称“龙虾”）的安全与易用性问题，推出了“360安全龙虾”客户端及硬件终端，并发布安全防护系统“360龙虾卫士”。该产品核心解决了两个痛点：一是通过虚拟化沙箱隔离和AI引擎，主动拦截技能投毒等安全攻击；二是将原本需要工程师约6小时配置的复杂环境（如安装虚拟机。",
-      "score": 39
+      "summary": "360集团推出国内首个以安全模式为核心的OpenClaw智能体产品“360安全龙虾”，包含应用客户端和硬件终端。其核心安全组件“360龙虾卫士”通过虚拟化沙箱隔离运行环境，并用AI引擎识别拦截恶意技能与攻击。",
+      "score": 40
     },
     {
       "section": "产品发布与更新",
-      "title": "谷歌地图集成Gemini推出新功能，Ask Maps与沉浸式导航陆续上线",
+      "title": "谷歌地图引入Gemini模型，推出Ask Maps与沉浸式导航功能",
       "company": "谷歌",
       "url": "https://www.qbitai.com/2026/03/387867.html",
       "source": "量子位",
       "publishedAt": "Sat, 14 Mar 2026 10:48:10 +0000",
-      "summary": "谷歌地图基于Gemini模型推出两项新功能。一是Ask Maps，用户可用自然语言描述出行计划，Gemini会结合用户过往互动信息提供定制化路线建议，该功能已在美国和印度上线。二是沉浸式导航，它利用Gemini分析街景和航拍图像，为用户生成包含沿途地标等精确信息的3D导航视图，将先在美国上线，并计划。",
+      "summary": "谷歌地图基于Gemini模型推出两项新功能。Ask Maps允许用户用自然语言描述出行计划，模型会结合用户过往互动信息提供个性化路线建议，目前已在美国和印度上线。沉浸式导航功能则利用Gemini分析街景和航拍图像，生成包含沿途地标、中央隔离带等细节的精确3D视图，该功能将先在美国推出，并计划在未来几。",
       "score": 26
     },
     {
       "section": "技术与研究",
-      "title": "OpenAI的GPT-5.3 Codex推动了对“驾驭工程”的需求",
-      "company": "OpenAI",
-      "url": "https://www.chosun.com/english/industry-en/2026/03/16/A4WW6USJ2BGVJEGRIPQ5VOUAYA/",
-      "source": "조선일보",
-      "publishedAt": "4 hours ago",
-      "summary": "OpenAI发布GPT-5.3 Codex模型后，在其官方博客中强调，在AI辅助编程时代，人类的关键技能是“驾驭工程”。具体而言，驾驭工程指的是人类需要学会如何有效地向AI模型（如Codex）提出清晰、具体的指令和问题，以引导其生成高质量、符合需求的代码。",
-      "score": 25
-    },
-    {
-      "section": "技术与研究",
-      "title": "科技CEO利用ChatGPT与基因数据开发定制癌症疫苗，肿瘤缩小50%",
-      "company": "ChatGPT",
-      "url": "https://www.qbitai.com/2026/03/387935.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 15 Mar 2026 06:06:09 +0000",
-      "summary": "一位科技公司CEO为挽救其罹患癌症的宠物狗，利用ChatGPT分析狗的基因数据，并据此设计并制作了一种定制化的癌症疫苗。在应用该疫苗后，其宠物狗的肿瘤体积缩小了50%。这一具体案例展示了人工智能工具在分析复杂生物数据、辅助设计个性化治疗方案方面的潜在应用价值，为未来人类癌症治疗提供了新的思路。",
-      "score": 21
+      "title": "Meta推迟发布新AI，考虑授权谷歌Gemini模型",
+      "company": "Meta, Google",
+      "url": "https://www.aol.com/news/meta-delays-release-ai-weighs-201723630.html",
+      "source": "AOL.com",
+      "publishedAt": "12 hours ago",
+      "summary": "Meta因内部测试显示其新AI模型‘Avocado’性能不及谷歌、OpenAI和Anthropic的竞品，决定将原定3月中旬的发布至少推迟两个月。为加速追赶，Meta去年6月向初创公司Scale AI投资143亿美元，并任命其29岁CEO Alexandr Wang为首席AI官。",
+      "score": 22
     },
     {
       "section": "产品发布与更新",
-      "title": "谷歌地图推出由Gemini驱动的“询问地图”和“沉浸式导航”功能",
+      "title": "谷歌地图推出由Gemini驱动的“询问地图”和“沉浸式导航”",
       "company": "Google",
       "url": "https://hypebeast.com/2026/3/google-maps-introduces-ask-maps-ai-immersive-navigation-powered-by-gemini-conversational-tool",
       "source": "Hypebeast",
-      "publishedAt": "15 hours ago",
-      "summary": "谷歌地图推出由Gemini驱动的两项新功能。其一是“询问地图”，用户可通过自然语言提问（如“附近有带户外座位的意大利餐厅吗？”），AI将直接在地图上高亮显示结果并推荐路线，无需手动筛选。",
+      "publishedAt": "17 hours ago",
+      "summary": "谷歌地图推出由Gemini AI驱动的新功能“询问地图”和“沉浸式导航”。核心变化在于：1. “询问地图”允许用户通过自然语言对话提问，例如“附近有哪些适合孩子的意大利餐厅？”，AI将整合地图信息直接给出推荐和路线。",
       "score": 21
     },
     {
       "section": "产品发布与更新",
-      "title": "微软在Bing应用中推出免费AI视频生成功能，采用OpenAI的Sora技术",
-      "company": "Microsoft",
-      "url": "http://www.msn.com/en-in/money/topstories/microsoft-brings-free-ai-video-generation-to-bing-app-with-openai-s-sora/ar-AA1FYB6J?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
-      "source": "MSN",
-      "publishedAt": "21 hours ago",
-      "summary": "微软在其必应（Bing）移动应用中推出了名为“Bing Video Creator”的新功能，该功能现已面向iOS等平台用户开放。此次更新的核心在于，它集成了OpenAI的Sora视频生成模型，为用户提供免费的AI视频生成服务。",
+      "title": "OpenAI表示ChatGPT广告目前不会在全球范围内推出",
+      "company": "OpenAI",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/",
+      "source": "BleepingComputer",
+      "publishedAt": "3 hours ago",
+      "summary": "OpenAI向BleepingComputer澄清，ChatGPT的广告功能目前仅在美国测试，尚未开始全球推广。尽管有用户注意到更新后的隐私政策提及广告，并因此在Reddit上引发全球推广的猜测，但官方明确表示广告系统与聊天模型是分离的。",
       "score": 20
     }
   ]
