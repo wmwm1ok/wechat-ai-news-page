@@ -93,10 +93,24 @@ function extractCoreEntities(text) {
   
   const entities = [];
   const lowerText = text.toLowerCase();
+  const normalizeEntity = (value) => {
+    const normalized = String(value || '').toLowerCase().trim().replace(/[“”"'`]/g, '');
+    const aliases = {
+      '谷歌': 'google',
+      'google': 'google',
+      '谷歌地图': 'google maps',
+      'google maps': 'google maps',
+      'ask maps': 'ask maps',
+      '询问地图': 'ask maps',
+      '沉浸式导航': 'immersive navigation',
+      'gemini': 'gemini'
+    };
+    return aliases[normalized] || normalized;
+  };
   
   // 公司/组织名
   const companies = [
-    'openai', 'anthropic', 'google', 'meta', 'microsoft', 'nvidia', 'amazon', 'apple', 'intel', 'amd',
+    'openai', 'anthropic', 'google', '谷歌', 'meta', 'microsoft', 'nvidia', 'amazon', 'apple', 'intel', 'amd',
     '字节', '字节跳动', '阿里', '阿里巴巴', '腾讯', '百度', '华为', '小米', '美团', '滴滴', '京东', '网易', '快手', '拼多多',
     '商汤', '旷视', '依图', '云从', '科大讯飞', '讯飞', '智谱', '月之暗面', 'minimax', '零一万物',
     '百川智能', '面壁智能', '深度求索', 'deepseek', '极佳视界', '澜舟科技', '思必驰', '云知声',
@@ -108,7 +122,7 @@ function extractCoreEntities(text) {
     'gpt-4', 'gpt-5', 'gpt-4o', 'claude', 'gemini', 'llama', 'mistral', 'mixtral',
     'gpt', 'dall-e', 'sora', 'whisper', 'qwen', 'baichuan', 'chatglm', 'internlm',
     'yi', 'skywork', 'bluelm', 'deepseek', 'kimi', '豆包', '文心一言', '通义千问',
-    'gigabrain', 'vla', 'moco', 'seedance'
+    'gigabrain', 'vla', 'moco', 'seedance', '谷歌地图', 'google maps', 'ask maps', '询问地图', '沉浸式导航'
   ];
   
   // 技术术语
@@ -126,16 +140,16 @@ function extractCoreEntities(text) {
   
   // 检查匹配
   for (const c of companies) {
-    if (lowerText.includes(c.toLowerCase())) entities.push(c);
+    if (lowerText.includes(c.toLowerCase())) entities.push(normalizeEntity(c));
   }
   for (const p of products) {
-    if (lowerText.includes(p.toLowerCase())) entities.push(p);
+    if (lowerText.includes(p.toLowerCase())) entities.push(normalizeEntity(p));
   }
   for (const t of techTerms) {
-    if (lowerText.includes(t.toLowerCase())) entities.push(t);
+    if (lowerText.includes(t.toLowerCase())) entities.push(normalizeEntity(t));
   }
   for (const p of persons) {
-    if (lowerText.includes(p.toLowerCase())) entities.push(p);
+    if (lowerText.includes(p.toLowerCase())) entities.push(normalizeEntity(p));
   }
   
   return [...new Set(entities)]; // 去重

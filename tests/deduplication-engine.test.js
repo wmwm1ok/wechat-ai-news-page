@@ -108,6 +108,15 @@ describe('DeduplicationEngine', () => {
       console.log(`     Confidence: ${result.confidence}, Reason: ${result.reason}`);
       expect(result.isDuplicate).toBeTrue();
     });
+
+    it('should detect cross-source Google Maps feature duplicates', () => {
+      const engine = new DeduplicationEngine();
+      const existing = ['谷歌地图推出由Gemini驱动的“询问地图”和“沉浸式导航”'];
+      const result = engine.checkDuplicate('谷歌地图集成Gemini推出新功能，Ask Maps与沉浸式导航上线', existing);
+
+      console.log(`     Confidence: ${result.confidence}, Reason: ${result.reason}`);
+      expect(result.isDuplicate).toBeTrue();
+    });
   });
   
   describe('Person + Action matching', () => {

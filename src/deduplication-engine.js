@@ -9,10 +9,10 @@ const ENTITY_PATTERNS = {
   companyEn: /\b(OpenAI|Anthropic|Google|Meta|Microsoft|NVIDIA|Amazon|Apple|Intel|AMD|Salesforce|Adobe|IBM|Oracle|DeepMind|Stability AI|Hugging Face|Midjourney|Runway|Character\.AI|Cohere|Adept|Inflection|xAI|OpenClaw|Perplexity|Scale AI|DataBricks|Snowflake|Pinecone|Weaviate|Chroma|LangChain|LlamaIndex|CrewAI|AutoGPT|BabyAGI)\b/gi,
   
   // 公司/组织名（中文）
-  companyZh: /(字节跳动|字节|阿里巴巴|阿里|腾讯|百度|华为|小米|美团|滴滴|京东|网易|快手|拼多多|商汤|旷视|依图|云从|科大讯飞|讯飞|智谱|月之暗面|MiniMax|零一万物|百川智能|面壁智能|深度求索|DeepSeek|澜舟科技|思必驰|云知声|第四范式|出门问问|循环智能|智源研究院|清华|北大|中科院|MIT|斯坦福|Google|OpenAI|Meta|微软|英伟达|极佳视界)/g,
+  companyZh: /(字节跳动|字节|阿里巴巴|阿里|腾讯|百度|华为|小米|美团|滴滴|京东|网易|快手|拼多多|商汤|旷视|依图|云从|科大讯飞|讯飞|智谱|月之暗面|MiniMax|零一万物|百川智能|面壁智能|深度求索|DeepSeek|澜舟科技|思必驰|云知声|第四范式|出门问问|循环智能|智源研究院|清华|北大|中科院|MIT|斯坦福|Google|谷歌|OpenAI|Meta|微软|英伟达|极佳视界)/g,
   
   // 产品/模型名
-  product: /\b(GPT-[45]|GPT-4o|Claude [34]|Gemini [12]\.5|Gemini Pro|Llama [23]|Mistral|Mixtral|Phi-[34]|Stable Diffusion|Midjourney|DALL-E [23]|Sora|Whisper|Embeddings|GPTs|Assistants API|Function Calling|RAG|LangChain|LlamaIndex|AutoGPT|vLLM|TensorRT|Triton|ONNX|PyTorch|TensorFlow|JAX|Keras|Hugging Face|Transformers|BERT|RoBERTa|T5|GPT-2|GPT-3|PaLM|LaMDA|GLaM|Chinchilla|Gopher|MT-NLG|Jurassic|Bloom|GPT-Neo|GPT-J|OPT|LLaMA|Alpaca|Vicuna|WizardLM|Guanaco|MPT|Falcon|RedPajama|Dolly|StableLM|OpenLLaMA|Qwen|Baichuan|ChatGLM|InternLM|Yi|DeepSeek|Skywork|BlueLM|Chinese-LLaMA|Chinese-Alpaca|ChatYuan|CPM|EVA|Pangu|Ernie|Wudao|GLM)\b/gi,
+  product: /\b(GPT-[45]|GPT-4o|Claude [34]|Gemini(?: [12]\.5| Pro)?|Google Maps|Ask Maps|Llama [23]|Mistral|Mixtral|Phi-[34]|Stable Diffusion|Midjourney|DALL-E [23]|Sora|Whisper|Embeddings|GPTs|Assistants API|Function Calling|RAG|LangChain|LlamaIndex|AutoGPT|vLLM|TensorRT|Triton|ONNX|PyTorch|TensorFlow|JAX|Keras|Hugging Face|Transformers|BERT|RoBERTa|T5|GPT-2|GPT-3|PaLM|LaMDA|GLaM|Chinchilla|Gopher|MT-NLG|Jurassic|Bloom|GPT-Neo|GPT-J|OPT|LLaMA|Alpaca|Vicuna|WizardLM|Guanaco|MPT|Falcon|RedPajama|Dolly|StableLM|OpenLLaMA|Qwen|Baichuan|ChatGLM|InternLM|Yi|DeepSeek|Skywork|BlueLM|Chinese-LLaMA|Chinese-Alpaca|ChatYuan|CPM|EVA|Pangu|Ernie|Wudao|GLM|谷歌地图|询问地图|沉浸式导航)\b/gi,
   
   // 人名（知名AI研究者/创业者）- 支持英文名+空格组合
   person: /\b([A-Z][a-z]+\s[A-Z][a-z]+|Sam\s+Altman|Greg\s+Brockman|Ilya\s+Sutskever|Andrej\s+Karpathy|Demis\s+Hassabis|Shane\s+Legg|Mustafa\s+Suleyman|Yann\s+LeCun|Yoshua\s+Bengio|Geoffrey\s+Hinton|Andrew\s+Ng|Fei-Fei\s+Li|Jeff\s+Dean|Kai-Fu\s+Lee|李飞飞|Karpathy|Altman|Brockman|Sutskever|Hassabis|LeCun|Bengio|Hinton|Musk|Elon\s+Musk|Satya\s+Nadella|Sundar\s+Pichai|Mark\s+Zuckerberg|Larry\s+Page|Sergey\s+Brin|Tim\s+Cook|Jensen\s+Huang|黄仁勋|Bill\s+Gates|Dario\s+Amodei|Daniela\s+Amodei|Emad\s+Mostaque|Noam\s+Shazeer|Aidan\s+Gomez|Lukasz\s+Kaiser|Jakob\s+Uszkoreit|Ashish\s+Vaswani|AlexNet|ResNet|Transformer|BERT|GPT|AlphaGo|AlphaFold)\b/gi,
@@ -51,6 +51,22 @@ const ACTION_SYNONYMS = {
   '突破': 'breakthrough', '创新': 'breakthrough', '完成': 'achieve', '达成': 'achieve', '实现': 'achieve'
 };
 
+const TERM_ALIASES = new Map([
+  ['谷歌', 'google'],
+  ['google', 'google'],
+  ['google maps', 'google maps'],
+  ['谷歌地图', 'google maps'],
+  ['ask maps', 'ask maps'],
+  ['询问地图', 'ask maps'],
+  ['沉浸式导航', 'immersive navigation'],
+  ['gemini', 'gemini']
+]);
+
+function normalizeMatchedTerm(term) {
+  const normalized = String(term || '').toLowerCase().trim().replace(/[“”"'`]/g, '');
+  return TERM_ALIASES.get(normalized) || normalized;
+}
+
 /**
  * 提取事件的语义指纹
  * 指纹 = { 主体, 动作, 对象, 时间 }
@@ -70,7 +86,7 @@ function extractEventFingerprint(title) {
   // 提取各类实体
   for (const [type, pattern] of Object.entries(ENTITY_PATTERNS)) {
     const matches = title.match(pattern) || [];
-    const normalized = matches.map(m => m.toLowerCase().trim());
+    const normalized = matches.map(normalizeMatchedTerm);
     
     switch(type) {
       case 'companyEn':
