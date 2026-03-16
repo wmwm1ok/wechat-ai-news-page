@@ -9,6 +9,7 @@ import { isDisplayReadyNews } from './ai-summarizer.js';
 // 全局去重引擎实例
 const dedupEngine = new DeduplicationEngine();
 const CATEGORY_PRIORITY = ['产品发布与更新', '技术与研究', '投融资与并购', '政策与监管'];
+const RELAXED_QUALITY_THRESHOLD = Math.max(QUALITY_THRESHOLD - 4, 14);
 
 function getCategoryQuotaPlan(targetCount) {
   const basePlan = [
@@ -358,10 +359,6 @@ export function scoreNews(news, existingTitles) {
   if (isDuplicate(news.title, existingTitles)) {
     return { score: 0, isDuplicate: true, reason: '重复新闻' };
   }
-
-  if (!isDisplayReadyNews(news)) {
-    return { score: 0, isDuplicate: true, reason: '摘要信息不足' };
-  }
   
   // AI行业相关性检查 - 标题或摘要必须包含AI关键词
   // 放宽： RSS源已经是AI相关媒体，只过滤明显非AI的
@@ -406,8 +403,9 @@ export function scoreNews(news, existingTitles) {
   const importance = calculateImportanceScore(news.title, news.summary);
   const timeliness = calculateTimeliness(news.publishedAt);
   const credibility = SOURCE_CREDIBILITY[news.source] || 5;
-  
-  const totalScore = substance + importance + timeliness + credibility;
+  const displayReady = isDisplayReadyNews(news);
+  const displayPenalty = displayReady ? 3 : -2;
+  const totalScore = Math.max(0, substance + importance + timeliness + credibility + displayPenalty);
   
   return {
     score: totalScore,
@@ -415,9 +413,11 @@ export function scoreNews(news, existingTitles) {
       substance,
       importance,
       timeliness,
-      credibility
+      credibility,
+      displayPenalty
     },
-    isDuplicate: false
+    isDuplicate: false,
+    isDisplayReady: displayReady
   };
 }
 
@@ -430,9 +430,11 @@ export function scoreNews(news, existingTitles) {
 export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
   const existingNews = []; // 已处理的新闻（包含完整信息）
   const scored = [];
+  const relaxedCandidates = [];
   const duplicates = [];
   const crossDayDuplicates = []; // 跨天重复统计
   const lowQuality = [];
+  let weakSummaryCount = 0;
   
   // 评分
   for (const news of newsList) {
@@ -465,19 +467,33 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
     } else {
       // 当天去重仍使用标题（确保当天不重复）
       const scoring = scoreNews(news, existingNews.map(n => n.title));
-      if (!scoring.isDuplicate && scoring.score >= QUALITY_THRESHOLD) {
-        scored.push({ ...news, ...scoring });
-        existingNews.push({
-          title: news.title,
-          url: news.url,
-          summary: news.summary
-        });
-      } else if (!scoring.isDuplicate) {
-        lowQuality.push({
-          title: news.title,
-          source: news.source,
-          score: scoring.score
-        });
+      if (!scoring.isDuplicate) {
+        if (!scoring.isDisplayReady) {
+          weakSummaryCount += 1;
+        }
+
+        const candidate = { ...news, ...scoring };
+        if (scoring.score >= QUALITY_THRESHOLD) {
+          scored.push(candidate);
+          existingNews.push({
+            title: news.title,
+            url: news.url,
+            summary: news.summary
+          });
+        } else if (scoring.score >= RELAXED_QUALITY_THRESHOLD) {
+          relaxedCandidates.push(candidate);
+          existingNews.push({
+            title: news.title,
+            url: news.url,
+            summary: news.summary
+          });
+        } else {
+          lowQuality.push({
+            title: news.title,
+            source: news.source,
+            score: scoring.score
+          });
+        }
       }
     }
   }
@@ -510,13 +526,20 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
   
   // 按分数排序
   scored.sort((a, b) => b.score - a.score);
+  relaxedCandidates.sort((a, b) => b.score - a.score);
+
+  const candidatePool = scored.length >= targetCount ? scored : [...scored, ...relaxedCandidates].sort((a, b) => b.score - a.score);
+  const relaxedUsedForSelection = scored.length < targetCount;
+  if (relaxedUsedForSelection && relaxedCandidates.length > 0) {
+    console.log(`\n🛟 候选补位: 严格阈值内仅 ${scored.length} 条，追加 ${relaxedCandidates.length} 条宽松候选 (阈值 ${RELAXED_QUALITY_THRESHOLD})`);
+  }
   
   // 分离国内和海外
-  const domesticNews = scored.filter(n => (n.region || '国内') === '国内');
-  const overseasNews = scored.filter(n => n.region === '海外');
+  const domesticNews = candidatePool.filter(n => (n.region || '国内') === '国内');
+  const overseasNews = candidatePool.filter(n => n.region === '海外');
   
   // 检查候选是否足够
-  const totalAvailable = scored.length;
+  const totalAvailable = candidatePool.length;
   const domesticAvailable = domesticNews.length;
   const overseasAvailable = overseasNews.length;
   
@@ -524,12 +547,12 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
   const { selected, sourceCount } =
     totalAvailable <= TARGET_TOTAL
       ? {
-          selected: scored.slice(0, TARGET_TOTAL),
+          selected: candidatePool.slice(0, TARGET_TOTAL),
           sourceCount: Object.fromEntries(
-            scored.slice(0, TARGET_TOTAL).map(news => [news.source, 0])
+            candidatePool.slice(0, TARGET_TOTAL).map(news => [news.source, 0])
           )
         }
-      : selectWithCategoryQuota(scored, TARGET_TOTAL);
+      : selectWithCategoryQuota(candidatePool, TARGET_TOTAL);
 
   if (totalAvailable <= TARGET_TOTAL) {
     for (const news of selected) {
@@ -542,7 +565,8 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
   const overseasCount = selected.filter(n => n.region === '海外').length;
   
   console.log('\n📊 质量评分统计:');
-  console.log(`   候选: ${scored.length} 条 (🇨🇳${domesticNews.length}/🇺🇸${overseasNews.length})`);
+  console.log(`   严格候选: ${scored.length} 条, 宽松补位: ${relaxedCandidates.length} 条`);
+  console.log(`   最终候选: ${candidatePool.length} 条 (🇨🇳${domesticNews.length}/🇺🇸${overseasNews.length})`);
   console.log(`   入选: ${selected.length} 条 (🇨🇳${domesticCount}/🇺🇸${overseasCount})`);
   const categoryCount = selected.reduce((acc, item) => {
     acc[item.category] = (acc[item.category] || 0) + 1;
@@ -555,7 +579,11 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
   selected.diagnostics = {
     targetCount,
     totalInput: newsList.length,
-    totalScored: scored.length,
+    totalScored: candidatePool.length,
+    strictScoredCount: scored.length,
+    relaxedCandidateCount: relaxedCandidates.length,
+    relaxedUsedForSelection,
+    weakSummaryCount,
     selectedCount: selected.length,
     duplicateCount: duplicates.length,
     crossDayDuplicateCount: crossDayDuplicates.length,
@@ -563,7 +591,7 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
     domesticAvailable,
     overseasAvailable,
     sourceCount,
-    alternates: scored.filter(item => !selected.some(selectedItem => (selectedItem.url || selectedItem.title) === (item.url || item.title)))
+    alternates: candidatePool.filter(item => !selected.some(selectedItem => (selectedItem.url || selectedItem.title) === (item.url || item.title)))
   };
 
   return selected;

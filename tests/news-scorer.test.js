@@ -1,4 +1,4 @@
-import { selectTopNews } from '../src/news-scorer.js';
+import { scoreNews, selectTopNews } from '../src/news-scorer.js';
 
 function describe(name, fn) {
   console.log(`\n📦 ${name}`);
@@ -93,6 +93,21 @@ describe('News scorer', () => {
     ], 2);
 
     expect(selected.length).toBe(2);
+  });
+
+  it('does not hard-drop strong news with generic summaries during scoring', () => {
+    const now = new Date().toISOString();
+    const scoring = scoreNews({
+      title: 'OpenAI发布企业搜索工具并开放知识库接入',
+      summary: '文章介绍了 OpenAI 一项面向企业搜索的新工具更新，围绕知识库接入和使用体验展开。',
+      source: 'InfoQ',
+      publishedAt: now,
+      region: '国内',
+      url: 'https://example.com/relaxed'
+    }, []);
+
+    expect(scoring.isDuplicate).toBe(false);
+    expect(scoring.score >= 0).toBe(true);
   });
 
   it('keeps category diversity when enough candidates exist', () => {

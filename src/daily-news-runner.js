@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fetchAllNews } from './rss-fetcher.js';
-import { summarizeNews, refineSelectedNews, isDisplayReadyNews, normalizeDisplaySummary } from './ai-summarizer.js';
+import { summarizeNews, refineSelectedNews, isDisplayReadyNews, isReaderFriendlySummary, normalizeDisplaySummary } from './ai-summarizer.js';
 import { selectTopNews } from './news-scorer.js';
 import { generateHTML, generateWechatHTML } from './html-formatter.js';
 import {
@@ -138,16 +138,23 @@ export async function runDailyNews(options = {}) {
   console.log('\n🎯 开始质量评分...');
   const selectedNews = selectTopNews(allNews, candidateTargetCount, yesterdayNews);
   const refinedNews = await refineSelectedNews(selectedNews);
-  const displayReadyNews = refinedNews
-    .filter(item => isDisplayReadyNews(item))
-    .map(item => ({
-      ...item,
-      summary: normalizeDisplaySummary(item.summary)
-    }));
-  const topNews = displayReadyNews.slice(0, targetCount);
+  const normalizedRefinedNews = refinedNews.map(item => ({
+    ...item,
+    summary: normalizeDisplaySummary(item.summary)
+  }));
+  const displayReadyNews = normalizedRefinedNews.filter(item => isDisplayReadyNews(item));
+  const fallbackDisplayNews = normalizedRefinedNews.filter(item =>
+    !displayReadyNews.some(readyItem => (readyItem.url || readyItem.title) === (item.url || item.title)) &&
+    isReaderFriendlySummary(item.summary)
+  );
+  const topNews = [...displayReadyNews, ...fallbackDisplayNews].slice(0, targetCount);
   const removedWeakSummaries = refinedNews.length - displayReadyNews.length;
+  const fallbackDisplayCount = Math.max(0, topNews.length - displayReadyNews.length);
   if (removedWeakSummaries > 0) {
     console.log(`\n🧽 摘要净化: 过滤掉 ${removedWeakSummaries} 条不适合直接展示给读者的摘要`);
+  }
+  if (fallbackDisplayCount > 0) {
+    console.log(`\n🩹 展示补位: 使用 ${fallbackDisplayCount} 条较弱但可读的摘要补足版面`);
   }
   if (topNews.length === 0) {
     throw new Error('没有符合质量标准的新闻');
@@ -180,6 +187,10 @@ export async function runDailyNews(options = {}) {
       scoring: {
         totalInput: selectedNews.diagnostics?.totalInput || allNews.length,
         totalScored: selectedNews.diagnostics?.totalScored || 0,
+        strictScoredCount: selectedNews.diagnostics?.strictScoredCount || 0,
+        relaxedCandidateCount: selectedNews.diagnostics?.relaxedCandidateCount || 0,
+        relaxedUsedForSelection: selectedNews.diagnostics?.relaxedUsedForSelection || false,
+        weakSummaryCount: selectedNews.diagnostics?.weakSummaryCount || 0,
         selectedCandidateCount: selectedNews.length,
         duplicateCount: selectedNews.diagnostics?.duplicateCount || 0,
         crossDayDuplicateCount: selectedNews.diagnostics?.crossDayDuplicateCount || 0,
@@ -191,6 +202,7 @@ export async function runDailyNews(options = {}) {
       display: {
         refinedCount: refinedNews.length,
         displayReadyCount: displayReadyNews.length,
+        fallbackDisplayCount,
         removedWeakSummaries,
         shortage: Math.max(0, targetCount - topNews.length)
       }
