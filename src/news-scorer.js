@@ -551,6 +551,20 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
   console.log(`   分类: ${CATEGORY_PRIORITY.map(category => `${category}:${categoryCount[category] || 0}`).join(', ')}`);
   console.log(`   平均分: ${selected.length > 0 ? (selected.reduce((a, b) => a + b.score, 0) / selected.length).toFixed(1) : '0.0'}`);
   console.log('   源分布:', Object.entries(sourceCount).map(([s, c]) => `${s}:${c}`).join(', '));
-  
+
+  selected.diagnostics = {
+    targetCount,
+    totalInput: newsList.length,
+    totalScored: scored.length,
+    selectedCount: selected.length,
+    duplicateCount: duplicates.length,
+    crossDayDuplicateCount: crossDayDuplicates.length,
+    lowQualityCount: lowQuality.length,
+    domesticAvailable,
+    overseasAvailable,
+    sourceCount,
+    alternates: scored.filter(item => !selected.some(selectedItem => (selectedItem.url || selectedItem.title) === (item.url || item.title)))
+  };
+
   return selected;
 }

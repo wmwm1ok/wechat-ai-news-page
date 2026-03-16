@@ -184,6 +184,38 @@
             color: #666;
         }
         .tips strong { color: #d48806; }
+        .warning-panel {
+            background: #fff1f0;
+            border: 1px solid #ffa39e;
+            padding: 12px 15px;
+            margin: 15px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #7a271a;
+            display: none;
+        }
+        .warning-panel strong { color: #cf1322; }
+        .diagnostics-panel {
+            background: white;
+            margin: 0 15px 15px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            overflow: hidden;
+            display: none;
+        }
+        .diagnostics-header {
+            padding: 12px 15px;
+            font-size: 13px;
+            color: #666;
+            background: #f8f9fa;
+            border-bottom: 1px solid #eee;
+        }
+        .diagnostics-body {
+            padding: 14px 15px;
+            font-size: 13px;
+            color: #475569;
+            line-height: 1.8;
+        }
         .links-panel {
             background: white;
             margin: 0 15px 15px;
@@ -256,7 +288,9 @@
         3. 若浏览器提示剪贴板权限，请选择允许<br>
         4. 切换到公众号编辑器粘贴即可
     </div>
-    
+
+    <div class="warning-panel" id="warning-panel"></div>
+
     <div class="editor-container">
         <div class="editor-toolbar">
             📄 编辑区（可直接修改内容）
@@ -269,6 +303,11 @@
     <div class="links-panel" id="links-panel">
         <div class="links-header">🔗 原文链接面板（仅供查看/复制，不会进入公众号正文）</div>
         <div class="links-list" id="links-list"></div>
+    </div>
+
+    <div class="diagnostics-panel" id="diagnostics-panel">
+        <div class="diagnostics-header">🩺 生成诊断</div>
+        <div class="diagnostics-body" id="diagnostics-body"></div>
     </div>
     
     <div class="footer">
@@ -327,10 +366,12 @@
                 currentData = data;
                 renderContent(data);
                 renderSourceLinks(data);
+                renderDiagnostics(data);
                 hasLocalEdits = false;
                 document.getElementById('action-bar').style.display = 'block';
                 document.getElementById('tips').style.display = 'block';
                 document.getElementById('links-panel').style.display = 'block';
+                document.getElementById('diagnostics-panel').style.display = data.diagnostics ? 'block' : 'none';
             } catch (error) {
                 console.error('加载失败:', error);
                 document.getElementById('rich-editor').innerHTML = `
@@ -346,18 +387,29 @@
         function renderContent(data) {
             const beijingToday = formatBeijingToday();
             document.getElementById('current-date').textContent = beijingToday;
-            document.getElementById('article-count').textContent = data.generatedAt
-                ? `内容更新于 ${escapeHtml(data.generatedAt)}`
-                : `共 ${data.count} 条精选资讯`;
+            const countLabel = data.targetCount && data.count < data.targetCount
+                ? `内容更新于 ${escapeHtml(data.generatedAt)} · 本期 ${data.count}/${data.targetCount} 条`
+                : (data.generatedAt ? `内容更新于 ${escapeHtml(data.generatedAt)}` : `共 ${data.count} 条精选资讯`);
+            document.getElementById('article-count').textContent = countLabel;
 
             const editor = document.getElementById('rich-editor');
             const sections = {};
+            const warningPanel = document.getElementById('warning-panel');
 
             data.articles.forEach(article => {
                 const section = article.section || '其他';
                 if (!sections[section]) sections[section] = [];
                 sections[section].push(article);
             });
+
+            if (data.targetCount && data.count < data.targetCount) {
+                const shortage = data.targetCount - data.count;
+                warningPanel.style.display = 'block';
+                warningPanel.innerHTML = `<strong>⚠️ 本期内容偏少：</strong> 当前只生成了 ${data.count} 条，距离目标 ${data.targetCount} 条还差 ${shortage} 条。通常意味着抓取源偏少、搜索源未生效，或候选在质量/摘要过滤中被淘汰较多。`;
+            } else {
+                warningPanel.style.display = 'none';
+                warningPanel.innerHTML = '';
+            }
 
             let html = `
 <section style="max-width:677px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;line-height:1.8;color:#333;">
@@ -384,6 +436,29 @@
 </section>`;
 
             editor.innerHTML = html;
+        }
+
+        function renderDiagnostics(data) {
+            const container = document.getElementById('diagnostics-body');
+            const diagnostics = data.diagnostics;
+
+            if (!diagnostics) {
+                container.innerHTML = '<div>暂无诊断信息。</div>';
+                return;
+            }
+
+            const fetchInfo = diagnostics.fetch || {};
+            const serper = fetchInfo.serper || {};
+            const scoring = diagnostics.scoring || {};
+            const display = diagnostics.display || {};
+
+            container.innerHTML = `
+                <div>抓取后候选：国内 ${fetchInfo.domesticAfterDedup ?? '-'} 条，海外 ${fetchInfo.overseasAfterDedup ?? '-'} 条</div>
+                <div>Serper：${serper.enabled ? `已启用，补充 ${serper.count ?? 0} 条（${serper.queryCount ?? 0} 个查询）` : '未启用或未配置'}</div>
+                <div>评分后候选：${scoring.totalScored ?? '-'} 条；过滤重复 ${scoring.duplicateCount ?? 0} 条，低质量 ${scoring.lowQualityCount ?? 0} 条</div>
+                <div>精修后可展示：${display.displayReadyCount ?? '-'} 条；过滤掉不适合展示的摘要 ${display.removedWeakSummaries ?? 0} 条</div>
+                <div>最终输出：${data.count} / ${data.targetCount || data.count} 条</div>
+            `;
         }
 
         function renderSection(section, items, color) {

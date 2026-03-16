@@ -145,17 +145,34 @@ async function parseRSS(source) {
     } else {
       console.log(`   ✓ ${items.length} 条`);
     }
-    return items;
+    return {
+      source: source.name,
+      ok: true,
+      count: items.length,
+      items
+    };
   } catch (error) {
     console.error(`   ✗ 失败: ${error.message}`);
-    return [];
+    return {
+      source: source.name,
+      ok: false,
+      count: 0,
+      error: error.message,
+      items: []
+    };
   }
 }
 
 async function fetchSerperNews() {
   if (!CONFIG.serper.apiKey) {
     console.log('📡 Serper API: ⚠️ 未配置 API Key');
-    return [];
+    return {
+      enabled: false,
+      count: 0,
+      queryCount: 0,
+      resultLimit: 0,
+      items: []
+    };
   }
   
   try {
@@ -236,9 +253,23 @@ async function fetchSerperNews() {
     }
     
     console.log(`   ✓ ${allNews.length} 条 (${activeQueries.length} 个查询，每个最多 ${resultLimit} 条)`);
-    return allNews;
+    return {
+      enabled: true,
+      count: allNews.length,
+      queryCount: activeQueries.length,
+      resultLimit,
+      items: allNews
+    };
   } catch (error) {
-    return [];
+    console.log(`   ✗ Serper 失败: ${error.message}`);
+    return {
+      enabled: true,
+      count: 0,
+      queryCount: 0,
+      resultLimit: 0,
+      error: error.message,
+      items: []
+    };
   }
 }
 
@@ -261,19 +292,33 @@ export async function fetchAllNews() {
   console.log('📰 抓取新闻中...\n');
   
   const domestic = [];
+  const domesticSourceStats = [];
   for (const source of DOMESTIC_RSS_SOURCES) {
-    const items = await parseRSS(source);
-    domestic.push(...items);
+    const result = await parseRSS(source);
+    domesticSourceStats.push({
+      source: result.source,
+      ok: result.ok,
+      count: result.count,
+      error: result.error || null
+    });
+    domestic.push(...result.items);
   }
   
   const overseas = [];
+  const overseasSourceStats = [];
   for (const source of OVERSEAS_RSS_SOURCES) {
-    const items = await parseRSS(source);
-    overseas.push(...items);
+    const result = await parseRSS(source);
+    overseasSourceStats.push({
+      source: result.source,
+      ok: result.ok,
+      count: result.count,
+      error: result.error || null
+    });
+    overseas.push(...result.items);
   }
   
-  const serperNews = await fetchSerperNews();
-  overseas.push(...serperNews);
+  const serperResult = await fetchSerperNews();
+  overseas.push(...serperResult.items);
   
   const uniqueDomestic = deduplicate(domestic);
   const uniqueOverseas = deduplicate(overseas);
@@ -282,6 +327,21 @@ export async function fetchAllNews() {
   
   return {
     domestic: uniqueDomestic,
-    overseas: uniqueOverseas
+    overseas: uniqueOverseas,
+    stats: {
+      domesticBeforeDedup: domestic.length,
+      overseasBeforeDedup: overseas.length,
+      domesticAfterDedup: uniqueDomestic.length,
+      overseasAfterDedup: uniqueOverseas.length,
+      domesticSources: domesticSourceStats,
+      overseasSources: overseasSourceStats,
+      serper: {
+        enabled: serperResult.enabled,
+        count: serperResult.count,
+        queryCount: serperResult.queryCount,
+        resultLimit: serperResult.resultLimit,
+        error: serperResult.error || null
+      }
+    }
   };
 }

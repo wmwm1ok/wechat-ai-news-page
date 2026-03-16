@@ -133,22 +133,28 @@ export async function runDailyNews(options = {}) {
   console.log(`\n📝 AI总结完成: ${allNews.length} 条新闻`);
 
   const yesterdayNews = await loadYesterdayNews(baseDir, now);
+  const candidateTargetCount = Math.max(targetCount + 8, Math.ceil(targetCount * 1.6));
 
   console.log('\n🎯 开始质量评分...');
-  const selectedNews = selectTopNews(allNews, targetCount, yesterdayNews);
+  const selectedNews = selectTopNews(allNews, candidateTargetCount, yesterdayNews);
   const refinedNews = await refineSelectedNews(selectedNews);
-  const topNews = refinedNews
+  const displayReadyNews = refinedNews
     .filter(item => isDisplayReadyNews(item))
     .map(item => ({
       ...item,
       summary: normalizeDisplaySummary(item.summary)
     }));
-  const removedWeakSummaries = refinedNews.length - topNews.length;
+  const topNews = displayReadyNews.slice(0, targetCount);
+  const removedWeakSummaries = refinedNews.length - displayReadyNews.length;
   if (removedWeakSummaries > 0) {
     console.log(`\n🧽 摘要净化: 过滤掉 ${removedWeakSummaries} 条不适合直接展示给读者的摘要`);
   }
   if (topNews.length === 0) {
     throw new Error('没有符合质量标准的新闻');
+  }
+
+  if (topNews.length < targetCount) {
+    console.log(`\n⚠️ 最终展示条数不足: 目标 ${targetCount} 条，实际 ${topNews.length} 条`);
   }
 
   const grouped = normalizeCategories(topNews);
@@ -163,6 +169,32 @@ export async function runDailyNews(options = {}) {
     date: getBeijingDisplayDate(now),
     generatedAt: getBeijingDisplayDateTime(now),
     count: topNews.length,
+    targetCount,
+    diagnostics: {
+      targetCount,
+      candidateTargetCount,
+      fetch: news.stats,
+      summarize: {
+        totalSummarized: allNews.length
+      },
+      scoring: {
+        totalInput: selectedNews.diagnostics?.totalInput || allNews.length,
+        totalScored: selectedNews.diagnostics?.totalScored || 0,
+        selectedCandidateCount: selectedNews.length,
+        duplicateCount: selectedNews.diagnostics?.duplicateCount || 0,
+        crossDayDuplicateCount: selectedNews.diagnostics?.crossDayDuplicateCount || 0,
+        lowQualityCount: selectedNews.diagnostics?.lowQualityCount || 0,
+        domesticAvailable: selectedNews.diagnostics?.domesticAvailable || 0,
+        overseasAvailable: selectedNews.diagnostics?.overseasAvailable || 0,
+        sourceCount: selectedNews.diagnostics?.sourceCount || {}
+      },
+      display: {
+        refinedCount: refinedNews.length,
+        displayReadyCount: displayReadyNews.length,
+        removedWeakSummaries,
+        shortage: Math.max(0, targetCount - topNews.length)
+      }
+    },
     articles: topNews.map(item => ({
       section: item.category,
       title: item.title,
