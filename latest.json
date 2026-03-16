@@ -1,16 +1,16 @@
 {
   "date": "2026/3/16",
-  "generatedAt": "2026/3/16 11:51",
+  "generatedAt": "2026/3/16 12:15",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 20,
-      "overseasBeforeDedup": 102,
-      "domesticAfterDedup": 20,
-      "overseasAfterDedup": 99,
+      "domesticBeforeDedup": 24,
+      "overseasBeforeDedup": 106,
+      "domesticAfterDedup": 24,
+      "overseasAfterDedup": 104,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -39,7 +39,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 4,
+          "count": 8,
           "error": null
         }
       ],
@@ -65,47 +65,46 @@
       ],
       "serper": {
         "enabled": true,
-        "count": 98,
+        "count": 102,
         "queryCount": 12,
         "resultLimit": 6,
         "error": null
       }
     },
     "summarize": {
-      "totalSummarized": 55
+      "totalSummarized": 59
     },
     "scoring": {
-      "totalInput": 55,
+      "totalInput": 59,
       "totalScored": 20,
-      "strictScoredCount": 16,
-      "relaxedCandidateCount": 4,
+      "strictScoredCount": 15,
+      "relaxedCandidateCount": 5,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 13,
+      "weakSummaryCount": 18,
       "selectedCandidateCount": 20,
-      "duplicateCount": 24,
-      "crossDayDuplicateCount": 12,
-      "lowQualityCount": 11,
-      "domesticAvailable": 11,
-      "overseasAvailable": 9,
+      "duplicateCount": 23,
+      "crossDayDuplicateCount": 13,
+      "lowQualityCount": 16,
+      "domesticAvailable": 13,
+      "overseasAvailable": 7,
       "sourceCount": {
-        "雷锋网": 2,
+        "雷锋网": 5,
         "InfoQ": 3,
-        "36氪": 4,
         "StartupHub.ai": 1,
+        "36氪": 3,
         "量子位": 2,
         "TechCrunch AI": 2,
-        "MSN": 2,
-        "PCMag UK": 1,
-        "Tech Times": 1,
-        "PCMag Australia": 1,
-        "The Tech Buzz": 1
+        "PCMag": 1,
+        "The Tech Buzz": 1,
+        "Pulse 2.0": 1,
+        "MSN": 1
       }
     },
     "display": {
       "refinedCount": 20,
-      "displayReadyCount": 11,
-      "fallbackDisplayCount": 3,
-      "removedWeakSummaries": 9,
+      "displayReadyCount": 8,
+      "fallbackDisplayCount": 6,
+      "removedWeakSummaries": 12,
       "shortage": 0
     }
   },
@@ -117,8 +116,8 @@
       "url": "https://www.infoq.cn/article/XgX3qjd9RZ0aOaFjqbZQ?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Sun, 15 Mar 2026 12:47:57 GMT",
-      "summary": "360集团针对开源智能体OpenClaw（俗称“龙虾”）的安全与易用性问题，推出了“360安全龙虾”客户端及硬件终端，并发布原生安全防护系统“360龙虾卫士”。该产品核心解决了两个痛点：一是通过虚拟化沙箱隔离运行环境和AI安全引擎，主动拦截技能投毒等攻击，保障安全；二是将原本需要工程师约6小时配置的。",
-      "score": 40
+      "summary": "360集团针对开源智能体OpenClaw（俗称“龙虾”）的安全与易用性问题，推出了“360安全龙虾”客户端及硬件终端，并发布安全防护系统“360龙虾卫士”。该系统通过虚拟化沙箱隔离运行环境，并利用AI引擎拦截恶意攻击，以解决智能体面临的安全风险。",
+      "score": 37
     },
     {
       "section": "产品发布与更新",
@@ -127,78 +126,48 @@
       "url": "https://www.infoq.cn/article/aRIzpes04v3QqyrYbzBB?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Mon, 16 Mar 2026 11:00:00 GMT",
-      "summary": "Uno Platform 发布了跨平台开发框架的 6.5 版本，核心变化包括：新增对 Google Antigravity 智能体开发环境的支持，使 AI 智能体能与运行的 Uno 应用实时交互；其 Studio 工具的 Hot Design 功能新增引导式入门体验，自动介绍智能体、设计和交互三种模。",
+      "summary": "Uno Platform 6.5版本发布，核心变化是新增了对Google Antigravity开发环境的支持，使AI智能体能够与正在运行的Uno应用程序实时交互。其Studio工具的Hot Design功能新增了引导式入门体验，自动引导用户了解智能体、设计和交互三种模式。",
       "score": 33
     },
     {
       "section": "技术与研究",
       "title": "AI模型概览：ChatGPT、Claude、Gemini及其他",
-      "company": "无",
+      "company": "未提及",
       "url": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/ai-models-chatgpt-claude-gemini-and-beyond",
       "source": "StartupHub.ai",
-      "publishedAt": "37 minutes ago",
-      "summary": "本文对比了当前主流AI模型的核心功能与特点。具体信息点包括：1. ChatGPT作为基础大模型，以其广泛的适用性著称，覆盖写作、编程、网页搜索和问答，并新增了图像生成和PDF文件处理能力。",
+      "publishedAt": "1 hour ago",
+      "summary": "文章对比了当前主流AI模型的核心功能与特点。具体信息点包括：1. ChatGPT以其广泛适用性著称，支持写作、编程、网页搜索和问答，并新增了图像生成和PDF文件处理能力。2. Claude在编程和写作方面表现出色，擅长处理复杂任务和分析大型数据集，且支持工具集成和自定义技能开发。",
       "score": 31
     },
     {
       "section": "技术与研究",
-      "title": "科技CEO利用ChatGPT与基因数据为宠物犬定制癌症疫苗，肿瘤缩小50%",
+      "title": "科技CEO利用ChatGPT与基因数据定制癌症疫苗，使犬类肿瘤缩小50%",
       "company": "ChatGPT",
       "url": "https://www.qbitai.com/2026/03/387935.html",
       "source": "量子位",
       "publishedAt": "Sun, 15 Mar 2026 06:06:09 +0000",
-      "summary": "一位科技公司CEO利用ChatGPT分析其患癌宠物犬的基因数据，开发出个性化癌症疫苗。该疫苗使犬只肿瘤缩小了50%，OpenAI总裁Greg Brockman确认这是首例专为犬类设计的个性化癌症疫苗。此案例展示了AI在分析基因数据、辅助定制医疗方案方面的潜力，为解决宠物癌症治疗提供了新思路。",
+      "summary": "一位科技公司CEO利用ChatGPT分析其宠物狗的基因数据，开发出全球首款专为犬类设计的个性化癌症疫苗。该疫苗针对狗的特定肿瘤进行定制，成功使肿瘤体积缩小了50%。OpenAI总裁Greg Brockman证实了这是首次将AI技术应用于犬类癌症治疗的个性化疫苗开发案例，展示了AI在精准医疗领域的潜在。",
       "score": 29
     },
     {
       "section": "产品发布与更新",
-      "title": "谷歌地图引入Gemini模型，推出Ask Maps与沉浸式导航功能",
+      "title": "谷歌地图集成Gemini推出新功能，Ask Maps与沉浸式导航上线",
       "company": "谷歌",
       "url": "https://www.qbitai.com/2026/03/387867.html",
       "source": "量子位",
       "publishedAt": "Sat, 14 Mar 2026 10:48:10 +0000",
-      "summary": "谷歌地图基于其Gemini大模型推出了两项新功能。其一是“Ask Maps”，用户可用自然语言描述出行计划，Gemini会结合用户过往的互动信息提供个性化建议，该功能已在美国和印度上线。",
+      "summary": "谷歌地图基于Gemini模型推出两项新功能。一是Ask Maps，用户可用自然语言描述出行计划，Gemini会结合用户过往互动信息提供定制化路线建议，该功能已在美国和印度上线。二是沉浸式导航，模型通过分析街景和航拍图像，生成包含沿途地标等细节的精确3D视图，该功能将先在美国推出，并计划未来几个月扩展。",
       "score": 29
     },
     {
-      "section": "产品发布与更新",
-      "title": "OpenAI发布GPT-5，带来五项变革性功能",
-      "company": "OpenAI",
-      "url": "http://www.msn.com/en-in/money/news/openai-s-gpt-5-is-here-5-game-changing-features-you-should-try/ar-AA1K7KxC?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
-      "source": "MSN",
-      "publishedAt": "5 hours ago",
-      "summary": "OpenAI于周四通过直播正式发布了其最新人工智能模型GPT-5，该模型将作为ChatGPT的新一代核心驱动。根据发布信息，GPT-5带来了多项变革性功能，用户应重点关注并尝试。然而，原文内容仅提供了发布的基本事实，并未具体说明这五项功能的具体内容或模型的核心技术变化，因此关于其具体性能提升、应用场。",
-      "score": 25
-    },
-    {
       "section": "政策与监管",
-      "title": "美国参议院助手获准使用Gemini、ChatGPT等AI工具辅助办公",
+      "title": "美国参议院允许助手使用谷歌Gemini、OpenAI ChatGPT等AI工具处理公务",
       "company": "Google, OpenAI, Microsoft",
-      "url": "https://uk.pcmag.com/ai/163810/googles-gemini-openais-chatgpt-or-microsoft-copilot-are-coming-to-the-senate",
-      "source": "PCMag UK",
+      "url": "https://www.pcmag.com/news/googles-gemini-openais-chatgpt-or-microsoft-copilot-are-coming-to-the-senate",
+      "source": "PCMag",
       "publishedAt": "16 hours ago",
-      "summary": "美国参议院已正式批准其助手使用Google Gemini、OpenAI ChatGPT和Microsoft Copilot等AI工具，用于起草编辑文件、信息摘要等日常办公任务。但备忘录未提及同样流行的Anthropic Claude，且明确规定禁止使用AI处理敏感数据或起草演讲稿。",
+      "summary": "美国参议院正式允许助手使用谷歌Gemini、OpenAI ChatGPT和微软Copilot等AI工具处理公务，具体可用于起草编辑文件、总结信息、准备发言要点和简报材料等常规工作。但备忘录未提及同样流行的Anthropic Claude，且明确禁止用AI处理敏感数据或起草演讲稿。",
       "score": 21
-    },
-    {
-      "section": "技术与研究",
-      "title": "印度Sarvam AI如何与谷歌Gemini和ChatGPT激烈竞争",
-      "company": "Sarvam AI, Google",
-      "url": "https://www.msn.com/en-in/sports/other/how-indias-sarvam-ai-gives-a-tough-fight-to-google-gemini-chatgpt/ar-AA1WnIBA?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
-      "source": "MSN",
-      "publishedAt": "11 hours ago",
-      "summary": "在全球人工智能投资热潮中，印度班加罗尔的初创公司Sarvam AI正与谷歌Gemini和ChatGPT展开竞争。原文信息有限，但明确指出该公司专注于基础设施领域的投资，并处于激烈的行业竞争环境中。其具体产品细节、技术路径或市场策略未在提供内容中详述。",
-      "score": 20
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Anthropic为Claude推出两周非高峰时段双倍使用限制，覆盖多个服务层级",
-      "company": "Anthropic",
-      "url": "https://www.techtimes.com/articles/315184/20260315/anthropic-claude-brings-2x-usage-limits-off-peak-hours-two-weeks-available-various-tiers.htm",
-      "source": "Tech Times",
-      "publishedAt": "1 hour ago",
-      "summary": "Anthropic宣布为旗下AI助手Claude推出为期两周的限时促销活动。核心变化是：在非高峰时段（美国东部时间上午8点至下午2点，即格林尼治时间12点至18点），所有服务层级的用户均可获得双倍的使用额度。",
-      "score": 20
     },
     {
       "section": "政策与监管",
@@ -207,48 +176,78 @@
       "url": "https://techcrunch.com/2026/03/15/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
       "source": "TechCrunch AI",
       "publishedAt": "Sun, 15 Mar 2026 18:49:32 +0000",
-      "summary": "律师警告AI聊天机器人安全漏洞已引发真实伤亡。具体案例包括：1. 加拿大18岁少女Jesse Van Rootselaar在ChatGPT协助下策划校园枪击，造成包括其家人在内8人死亡；2. 36岁男子Jonathan Gavalas受Gemini指示，携带刀具前往机场货运站企图制造“灾难性事故”。",
+      "summary": "律师警告AI聊天机器人正被用于策划暴力事件，安全防护存在严重漏洞。具体案例包括：加拿大校园枪击案中，ChatGPT为18岁用户提供了武器选择建议和过往案例参考；另一起案件中，Gemini曾指示用户携带刀具拦截运输车以销毁证据。",
       "score": 19
+    },
+    {
+      "section": "技术与研究",
+      "title": "Meta因AI模型发布推迟股价下跌",
+      "company": "Meta",
+      "url": "https://www.msn.com/en-us/money/companies/meta-stock-slips-after-report-of-delayed-launch-for-revamped-ai-model/ar-AA1YyJH4?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+      "source": "MSN",
+      "publishedAt": "22 hours ago",
+      "summary": "据媒体报道，科技巨头Meta推迟了其代号为“Avocado”的人工智能模型的发布计划，这一消息直接导致了公司股价下跌。原文明确指出，股价下跌是发生在相关报道发布之后。然而，原文信息有限，未提及“Avocado”模型的具体功能、推迟发布的确切原因，以及股价下跌的具体幅度。",
+      "score": 17
     },
     {
       "section": "产品发布与更新",
-      "title": "TikTok母公司暂停AI视频生成工具发布",
-      "company": "ByteDance",
-      "url": "https://au.pcmag.com/ai/116554/tiktok-owner-puts-launch-of-ai-video-gen-tool-on-ice",
-      "source": "PCMag Australia",
-      "publishedAt": "17 hours ago",
-      "summary": "TikTok母公司字节跳动已暂停其AI视频生成模型Seedance 2.0的发布，该模型原计划在三月中旬推出，旨在与OpenAI的Sora等工具竞争。暂停的直接原因是收到了迪士尼和派拉蒙等好莱坞巨头的法律警告函，指控其工具生成了涉及《星球大战》、《星际迷航》等受版权保护角色的内容。",
-      "score": 19
-    },
-    {
-      "section": "投融资与并购",
-      "title": "魔法原子获百亿级融资，资本为何青睐其具身智能体系化方案？",
-      "company": "魔法原子",
-      "url": "https://www.leiphone.com/category/robot/OfqiY0BCJkaqI67h.html",
+      "title": "追觅戒指Glow全球首发：首创指尖AI心电监测，开启AI指尖健康管理新时代",
+      "company": "追觅科技",
+      "url": "https://www.leiphone.com/category/industrynews/HNZJ4wk7xEI68TI3.html",
       "source": "雷锋网",
-      "publishedAt": "Sun, 15 Mar 2026 11:14:00 +0800",
-      "summary": "当然，每一项令人瞩目的技术成果，都离不开背后为其提供支持的技术专家。而魔法原子的技术管理团队可以用豪华来形容：CTO陈春玉师从国内第一代人形机器人科研人员，见证并参与了国产人形机器人从0到1的完整技术演进；具身模型负责人张涛在学术研究与工程实践方面有着深厚积累，曾发表SCI、EI论文10余篇，拥有2。",
-      "score": 52
+      "publishedAt": "Mon, 16 Mar 2026 10:25:00 +0800",
+      "summary": "发布会上，追觅全球AI硬件事业群总裁潘志东发表主题演讲，与现场媒体、合作伙伴及消费者共同见证AI智能穿戴赛道的全新里程碑，同时深度解读了追觅在智能穿戴领域的研发理念与产品核心优势。",
+      "score": 48
     },
     {
       "section": "投融资与并购",
-      "title": "清华校友创业项目Ropedia获千万美元种子轮融资，欲将机器人数据采集成本降50倍",
+      "title": "清华校友创业项目Ropedia获千万美元融资，欲将机器人数据采集成本降低50倍",
       "company": "Ropedia",
       "url": "https://36kr.com/p/3724929366571399?f=rss",
       "source": "36氪",
       "publishedAt": "2026-03-16 09:14:28  +0800",
       "summary": "基于这一思路，Ropedia推出了 头戴式便携采集系统HOMIE 。该系统以轻量化硬件作为入口，采集第一视角下的人体运动、场景变化、物体交互等多模态信号，并结合自研4D重建与对齐算法，恢复带有真实尺度信息的动态世界表示。",
-      "score": 33
+      "score": 30
+    },
+    {
+      "section": "投融资与并购",
+      "title": "谷歌与Accel印度AI加速器选出5家初创企业，均非“AI包装”类",
+      "company": "Google, Accel",
+      "url": "https://techcrunch.com/2026/03/15/google-and-accel-cut-through-wrappers-in-4000-ai-startup-pitches-to-pick-five-tied-to-india/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 16 Mar 2026 00:30:00 +0000",
+      "summary": "India&#8217;s growing AI ecosystem remains largely focused on enterprise applications and Swaroop said the applications reflected that. About 62% of t。",
+      "score": 27
     },
     {
       "section": "技术与研究",
-      "title": "腾讯龙虾团队回应：龙虾热度高于能力，但为普通人拥抱AI提供第一步",
+      "title": "Datadog通过移除依赖项将其Agent的Go二进制文件缩减77%",
+      "company": "Datadog",
+      "url": "https://www.infoq.cn/article/47GZpwrTxtLp7409put5?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 16 Mar 2026 10:00:00 GMT",
+      "summary": "Datadog 工程师设计了两种实用的方法来移除不必要的依赖项：使用构建标签（//go:build feature_x）来排除可选代码，并将代码移到单独的包中，从而使非可选包尽可能保持小巧。这两种技术都需要系统地审计导入项，以便确定哪些文件或包可以从给定的构建中排除。",
+      "score": 26
+    },
+    {
+      "section": "技术与研究",
+      "title": "腾讯龙虾团队回应：龙虾热度高于能力，但为普通人拥抱AI提供入口",
       "company": "腾讯",
       "url": "https://36kr.com/p/3721355722684804?f=rss",
       "source": "36氪",
       "publishedAt": "2026-03-14 19:19:44  +0800",
       "summary": "钟宇澄：焦虑因素或多或少会有，目前它确实也还做不到“一人公司”那种程度。但从我们上周五在腾讯大厦做的线下装机活动来看，情况很不一样。现场有 60 多岁的退休工程师，也有推着婴儿车的妈妈。虽然有人嘲讽他们不懂龙虾是在浪费时间，但我觉得他们能走出这一步去真正上手接触 AI，就已经比大部分人进步了。",
-      "score": 27
+      "score": 24
+    },
+    {
+      "section": "政策与监管",
+      "title": "胖东来回应鸡蛋角黄素检测，理想MEGA电池召回近完成，哈啰租车致歉3·15曝光",
+      "company": "Kimi",
+      "url": "https://36kr.com/p/3724860285319556?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-16 08:07:10  +0800",
+      "summary": "36氪获悉，胖东来3月15日发布关于“王海测评”发布胖东来销售鲜鸡蛋检出角黄素的情况说明。其中提到，角黄素属于天然或合成的类胡萝卜素，广泛存在于藻类、菌菇类、鱼类等动植物中，可作为饲料添加剂使用，目前国家没有关于鲜鸡蛋产品角黄素限值的相关规定和要求。",
+      "score": 22
     }
   ]
 }
