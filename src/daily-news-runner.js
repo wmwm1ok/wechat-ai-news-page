@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fetchAllNews } from './rss-fetcher.js';
-import { summarizeNews, refineSelectedNews, isDisplayReadyNews, isReaderFriendlySummary, normalizeDisplaySummary } from './ai-summarizer.js';
+import { summarizeNews, refineSelectedNews, isDisplayReadyNews, isReaderFriendlySummary, isSummaryComplete, normalizeDisplaySummary } from './ai-summarizer.js';
 import { selectTopNews } from './news-scorer.js';
 import { generateHTML, generateWechatHTML } from './html-formatter.js';
 import {
@@ -145,6 +145,7 @@ export async function runDailyNews(options = {}) {
   const displayReadyNews = normalizedRefinedNews.filter(item => isDisplayReadyNews(item));
   const fallbackDisplayNews = normalizedRefinedNews.filter(item =>
     !displayReadyNews.some(readyItem => (readyItem.url || readyItem.title) === (item.url || item.title)) &&
+    isSummaryComplete(item.summary) &&
     isReaderFriendlySummary(item.summary)
   );
   const topNews = [...displayReadyNews, ...fallbackDisplayNews].slice(0, targetCount);

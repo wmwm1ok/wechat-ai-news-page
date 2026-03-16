@@ -150,14 +150,26 @@ const TEXT_NOISE_PATTERNS = [
   /本文作者/
 ];
 
+const TRUNCATED_ENDING_PATTERNS = [
+  /(?:拥有|发表|融资|募资|估值|达到|约|近|超|超过|新增|覆盖|支持|减少|增长|下降)\d+[。！？]$/u,
+  /[0-9一二三四五六七八九十百千万两]+(?:余|多)?[。！？]$/u,
+  /(?:以及|并|和|等|其中|包括|还有|分别为)[。！？]$/u
+];
+
+function hasTruncatedEnding(summary) {
+  const trimmed = String(summary || '').trim();
+  return TRUNCATED_ENDING_PATTERNS.some(pattern => pattern.test(trimmed));
+}
+
 // 检测摘要是否完整（不以...结尾且以句号/感叹号/问号结尾）
-function isSummaryComplete(summary) {
+export function isSummaryComplete(summary) {
   if (!summary || summary.length < 50) return false;
   
   const trimmed = summary.trim();
   
   // 如果以...或…结尾，说明被截断了
   if (trimmed.endsWith('...') || trimmed.endsWith('…')) return false;
+  if (hasTruncatedEnding(trimmed)) return false;
   
   // 如果以句子结束符结尾，认为是完整的
   const sentenceEndings = /[。！？]$/;
@@ -299,23 +311,37 @@ function extractCompanyFromTitle(title) {
 function normalizeSummary(summary) {
   if (!summary) return '暂无摘要';
   summary = summary.trim();
+  const truncatedEnding = hasTruncatedEnding(summary);
   
   // 检查是否以完整句子结尾（。！？）
   const sentenceEndings = /[。！？]$/;
   
-  if (!sentenceEndings.test(summary)) {
-    // 尝试在最后一个句子结束处截断（而不是在中间截断）
-    const lastPeriod = Math.max(
-      summary.lastIndexOf('。'),
-      summary.lastIndexOf('！'),
-      summary.lastIndexOf('？')
+  if (!sentenceEndings.test(summary) || truncatedEnding) {
+    const trimmingTarget = truncatedEnding ? summary.slice(0, -1) : summary;
+    // 先尝试在强停顿处截断（句号/问号/感叹号/分号）
+    const lastStrongBreak = Math.max(
+      trimmingTarget.lastIndexOf('。'),
+      trimmingTarget.lastIndexOf('！'),
+      trimmingTarget.lastIndexOf('？'),
+      trimmingTarget.lastIndexOf('；'),
+      trimmingTarget.lastIndexOf(';')
     );
     
-    if (lastPeriod > 0) {
-      // 保留到最后一个完整句子
-      summary = summary.substring(0, lastPeriod + 1);
+    if (lastStrongBreak > 0) {
+      summary = trimmingTarget.substring(0, lastStrongBreak + 1).replace(/[；;]$/u, '。');
+    } else {
+      const lastClauseBreak = Math.max(
+        trimmingTarget.lastIndexOf('，'),
+        trimmingTarget.lastIndexOf(','),
+        trimmingTarget.lastIndexOf('、'),
+        trimmingTarget.lastIndexOf('：'),
+        trimmingTarget.lastIndexOf(':')
+      );
+
+      if (lastClauseBreak > Math.floor(summary.length * 0.55)) {
+        summary = trimmingTarget.substring(0, lastClauseBreak).replace(/[，,、：:\s]+$/u, '') + '。';
+      }
     }
-    // 如果没有找到句子结束符，保留原文（可能是AI生成不完整，但不强行截断）
   }
   
   return summary;
@@ -453,6 +479,7 @@ export function isDisplayReadyNews(item) {
   const sourceContext = `${item.title || ''} ${item.snippet || ''}`.trim();
 
   return (
+    isSummaryComplete(item.summary) &&
     isReaderFriendlySummary(item.summary) &&
     isSpecificEnoughSummary(item.summary, sourceContext, { comparisonMode, articleMode })
   );

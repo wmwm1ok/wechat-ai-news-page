@@ -155,6 +155,25 @@ describe('AI summarizer helpers', () => {
     expect(result).toBe(true);
   });
 
+  it('trims semicolon-ended summaries back to a full sentence', () => {
+    const result = normalizeDisplaySummary(
+      '当然，每一项令人瞩目的技术成果，都离不开背后为其提供支持的技术专家。而魔法原子的技术管理团队可以用豪华来形容：CTO陈春玉师从国内第一代人形机器人科研人员，见证并参与了国产人形机器人从0到1的完整技术演进；具身模型负责人张涛在学术研究与工程实践方面有着深厚积累，曾发表SCI、EI论文10余篇，拥有2。'
+    );
+
+    expect(result.endsWith('。')).toBe(true);
+    expect(result.includes('拥有2。')).toBe(false);
+  });
+
+  it('rejects incomplete summaries from final display', () => {
+    const result = isDisplayReadyNews({
+      title: '魔法原子获百亿级融资，资本为何青睐其具身智能体系化方案？',
+      snippet: '文章介绍了魔法原子的融资背景和核心技术团队。',
+      summary: '当然，每一项令人瞩目的技术成果，都离不开背后为其提供支持的技术专家。而魔法原子的技术管理团队可以用豪华来形容：CTO陈春玉师从国内第一代人形机器人科研人员，见证并参与了国产人形机器人从0到1的完整技术演进；具身模型负责人张涛在学术研究与工程实践方面有着深厚积累，曾发表SCI、EI论文10余篇，拥有2。'
+    });
+
+    expect(result).toBe(false);
+  });
+
   it('extracts article-like text instead of whole-page boilerplate', () => {
     const html = `
       <html>
