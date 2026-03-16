@@ -7,12 +7,12 @@
       "source": "InfoQ",
       "publishedAt": "Sun, 15 Mar 2026 12:47:57 GMT",
       "region": "国内",
-      "summary": "360集团针对开源智能体OpenClaw（俗称“龙虾”）的安全与部署难题，推出了“360安全龙虾”客户端及硬件终端，并发布安全防护系统“360龙虾卫士”。该产品核心解决了两个痛点：一是通过虚拟化沙箱隔离和AI安全引擎，主动拦截技能投毒等攻击，保障使用安全；二是将原本需要工程师约6小时完成的复杂环境部。",
+      "summary": "360集团针对开源智能体OpenClaw（俗称“龙虾”）发布了国内首个以安全为核心的产品“360安全龙虾”，包含应用客户端和硬件终端。其核心安全系统“360龙虾卫士”通过虚拟化沙箱隔离运行环境，并用AI引擎拦截恶意攻击。",
       "category": "产品发布与更新",
       "company": "360",
-      "score": 43,
+      "score": 37,
       "breakdown": {
-        "substance": 21,
+        "substance": 15,
         "importance": 5,
         "timeliness": 6,
         "credibility": 8,
@@ -28,12 +28,12 @@
       "source": "InfoQ",
       "publishedAt": "Mon, 16 Mar 2026 11:00:00 GMT",
       "region": "国内",
-      "summary": "跨平台开发框架 Uno Platform 发布了 6.5 版本。核心变化包括：新增对 Google Antigravity 开发环境的支持，使 AI 智能体能与运行中的 Uno 应用实时交互；其设计工具 Hot Design 新增自动启动和引导式入门体验，方便用户上手；平台层面的 TextBox 控。",
+      "summary": "跨平台开发框架 Uno Platform 发布了 6.5 版本，核心变化包括新增对 Google Antigravity 开发环境的支持，使 AI 智能体能够与正在运行的 Uno 应用程序实时交互。",
       "category": "产品发布与更新",
       "company": "Uno Platform",
-      "score": 33,
+      "score": 30,
       "breakdown": {
-        "substance": 7,
+        "substance": 4,
         "importance": 5,
         "timeliness": 10,
         "credibility": 8,
@@ -43,13 +43,34 @@
       "isDisplayReady": true
     },
     {
-      "title": "谷歌地图引入Gemini模型，推出Ask Maps与沉浸式导航功能",
+      "title": "Meta因性能担忧推迟新AI模型的推出",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/meta-delays-rollout-of-new-ai-model-after-performance-concerns-10582611/lite/",
+      "snippet": "So far, the new AI division has released one product — Vibes, an AI video app similar to OpenAI's Sora.",
+      "source": "The Indian Express",
+      "publishedAt": "23 hours ago",
+      "region": "海外",
+      "summary": "Meta因性能担忧推迟了其新一代基础AI模型的发布。该模型在内部测试中，其推理能力落后于谷歌、OpenAI和Anthropic等竞争对手的领先模型。为了追赶对手并实现其创造“超级智能”AI的目标，Meta已投入巨资，包括今年计划高达1350亿美元的支出，并任命了新的首席AI官。",
+      "category": "产品发布与更新",
+      "company": "Meta",
+      "score": 30,
+      "breakdown": {
+        "substance": 15,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "谷歌地图集成Gemini推出新功能，Ask Maps与沉浸式导航上线",
       "url": "https://www.qbitai.com/2026/03/387867.html",
       "snippet": "以后出门有个谷歌地图就够了",
       "source": "量子位",
       "publishedAt": "Sat, 14 Mar 2026 10:48:10 +0000",
       "region": "国内",
-      "summary": "谷歌地图基于Gemini模型推出两项新功能。Ask Maps允许用户用自然语言描述出行计划，Gemini会结合用户过往互动信息提供定制化路线建议，该功能已在美国和印度上线。沉浸式导航则利用Gemini分析街景和航拍图像，生成包含沿途地标等细节的精确3D视图，将先在美国推出，并计划未来几个月扩展至iO。",
+      "summary": "谷歌地图基于Gemini模型推出两项新功能。Ask Maps允许用户用自然语言描述出行计划，Gemini会结合用户历史互动信息提供定制化路线建议，该功能已在美国和印度上线。沉浸式导航则利用模型分析街景和航拍图像，生成包含沿途地标、中央隔离带等细节的精确3D视图，将先在美国推出，未来几个月扩展到符合条。",
       "category": "产品发布与更新",
       "company": "谷歌",
       "score": 29,
@@ -64,40 +85,19 @@
       "isDisplayReady": true
     },
     {
-      "title": "OpenAI发布GPT-5，五大变革性功能值得尝试",
-      "url": "http://www.msn.com/en-in/money/news/openai-s-gpt-5-is-here-5-game-changing-features-you-should-try/ar-AA1K7KxC?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
-      "snippet": "After weeks of teasing its latest artificial intelligence model to power ChatGPT, OpenAI finally unveiled GPT-5 during a live-stream on Thursday.",
-      "source": "MSN",
-      "publishedAt": "5 hours ago",
+      "title": "谷歌地图推出由Gemini驱动的“询问地图”和“沉浸式导航”",
+      "url": "https://hypebeast.com/2026/3/google-maps-introduces-ask-maps-ai-immersive-navigation-powered-by-gemini-conversational-tool",
+      "snippet": "Google Maps Introduces \"Ask Maps\" and Immersive Navigation Powered by Gemini: The massive update brings conversational AI and dynamic 3D visual guidance to...",
+      "source": "Hypebeast",
+      "publishedAt": "18 hours ago",
       "region": "海外",
-      "summary": "OpenAI于周四通过直播正式发布了其最新人工智能模型GPT-5，该模型将用于驱动ChatGPT。根据发布信息，此次更新带来了多项变革性新功能，但原文仅提及了模型发布这一核心事件，未具体说明新功能包含哪些内容。因此，关于功能的具体细节信息有限。",
+      "summary": "谷歌地图推出两项由Gemini模型驱动的新功能：“询问地图”和“沉浸式导航”。“询问地图”允许用户通过自然语言对话进行搜索，例如询问“附近有哪些适合孩子的活动场所？”，AI将整合地图信息给出个性化建议。",
       "category": "产品发布与更新",
-      "company": "OpenAI",
-      "score": 25,
+      "company": "Google",
+      "score": 27,
       "breakdown": {
-        "substance": 4,
-        "importance": 11,
-        "timeliness": 2,
-        "credibility": 5,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "Meta因性能担忧推迟新AI模型发布",
-      "url": "https://indianexpress.com/article/technology/artificial-intelligence/meta-delays-rollout-of-new-ai-model-after-performance-concerns-10582611/lite/",
-      "snippet": "So far, the new AI division has released one product — Vibes, an AI video app similar to OpenAI's Sora.",
-      "source": "The Indian Express",
-      "publishedAt": "23 hours ago",
-      "region": "海外",
-      "summary": "Meta因新AI模型在内部推理测试中表现不及谷歌、OpenAI等竞争对手，决定推迟发布。为追赶对手并实现‘超级智能’AI目标，Meta今年将投入高达1350亿美元，并已投资143亿美元于初创公司Scale AI。",
-      "category": "产品发布与更新",
-      "company": "Meta",
-      "score": 22,
-      "breakdown": {
-        "substance": 7,
-        "importance": 5,
+        "substance": 11,
+        "importance": 6,
         "timeliness": 2,
         "credibility": 5,
         "displayPenalty": 3
@@ -112,9 +112,9 @@
       "source": "PCMag Australia",
       "publishedAt": "17 hours ago",
       "region": "海外",
-      "summary": "TikTok母公司字节跳动已暂停其AI视频生成模型Seedance 2.0的发布，该模型原计划在三月中旬推出，旨在与OpenAI的Sora等工具竞争。暂停的直接原因是收到了迪士尼和派拉蒙等好莱坞巨头的法律警告函，指控其工具生成的视频内容（如涉及《星球大战》、《星际迷航》等角色）涉嫌侵犯版权。",
+      "summary": "TikTok母公司字节跳动已暂停其AI视频生成模型Seedance 2.0的发布，该模型原计划在三月中旬推出，旨在与OpenAI的Sora等工具竞争。暂停的直接原因是收到了迪士尼和派拉蒙等好莱坞巨头的法律警告函，指控其工具生成了涉及《星球大战》、《星际迷航》等受版权保护角色的内容。",
       "category": "产品发布与更新",
-      "company": "TikTok Owner",
+      "company": "ByteDance",
       "score": 19,
       "breakdown": {
         "substance": 4,
@@ -133,9 +133,9 @@
       "url": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/ai-models-chatgpt-claude-gemini-and-beyond",
       "snippet": "Explore the capabilities of leading AI models like ChatGPT, Claude, and Gemini, alongside open-source alternatives and specialized tools for image, video,...",
       "source": "StartupHub.ai",
-      "publishedAt": "7 minutes ago",
+      "publishedAt": "21 minutes ago",
       "region": "海外",
-      "summary": "本文对比了当前主流AI模型的核心功能与特点。具体信息点包括：1. ChatGPT作为基础大语言模型，应用广泛，已扩展至图像生成和PDF文件处理；2. Claude在编程和写作方面表现突出，擅长处理复杂任务与分析大数据，并能集成工具、创建自定义技能；3. Gemini是多模态模型，能处理文本、代码、图。",
+      "summary": "本文对比了当前主流AI模型的核心功能与特点。具体信息点包括：1. ChatGPT作为基础大模型，功能广泛，涵盖写作、编程、网页搜索及问答，并新增了图像生成和PDF文件处理能力。2. Claude在编程和写作方面表现出色，擅长处理复杂任务与分析大型数据集，且支持工具集成与自定义技能开发。",
       "category": "技术与研究",
       "company": "无",
       "score": 31,
@@ -150,18 +150,18 @@
       "isDisplayReady": true
     },
     {
-      "title": "科技CEO利用ChatGPT与基因数据开发个性化犬类癌症疫苗",
+      "title": "科技CEO利用ChatGPT与基因数据为宠物犬定制癌症疫苗，肿瘤缩小50%",
       "url": "https://www.qbitai.com/2026/03/387935.html",
       "snippet": "AI救了我的狗！从奄奄一息到满公园追兔子",
       "source": "量子位",
       "publishedAt": "Sun, 15 Mar 2026 06:06:09 +0000",
       "region": "国内",
-      "summary": "一位科技公司CEO利用ChatGPT分析其患癌宠物狗的基因数据，开发出首款专为犬类设计的个性化癌症疫苗。该疫苗使狗的肿瘤缩小了50%，OpenAI总裁Greg Brockman确认这是首次针对犬类的个性化癌症疫苗尝试。",
+      "summary": "一位科技公司CEO利用ChatGPT分析其患癌宠物犬的基因数据，开发出首款专为犬类设计的个性化癌症疫苗。该疫苗使犬只的肿瘤缩小了50%，OpenAI总裁Greg Brockman确认这是首次此类应用。",
       "category": "技术与研究",
       "company": "ChatGPT",
-      "score": 26,
+      "score": 29,
       "breakdown": {
-        "substance": 3,
+        "substance": 6,
         "importance": 5,
         "timeliness": 6,
         "credibility": 9,
@@ -169,6 +169,27 @@
       },
       "isDuplicate": false,
       "isDisplayReady": true
+    },
+    {
+      "title": "腾讯龙虾团队回应：龙虾热度高于能力，但为普通人接触AI提供入口",
+      "url": "https://36kr.com/p/3721355722684804?f=rss",
+      "snippet": "文｜王毓婵 编辑｜苏建勋 最近一周，一向以风格稳重著称的腾讯一反常态，不仅借着一场“免费帮装虾”的线下活动迅速推高了大众对“龙虾”的热情，而且在短期内推出了大量“龙虾”产品。 目前已经上线的，有被称为腾讯版“免部署小龙虾”的办公工具WorkBuddy；支持一键启动，并将AI代理能力接入微信和QQ双端的QClaw；面向开发者的腾讯云轻量应用服务器Lighthouse，以及配套生态与安全工具Skillhub等等。CEO马化腾在朋友圈披露，接下来，腾讯还会推出自研龙虾、本地虾、云端虾、企业虾、云桌面虾，安全隔离虾房、云保安、知识库等等一系列产品。 OpenClaw，别称“龙虾”，是当下最火的Agent开源框架。这款可以被直接部署在电脑本地的Agent，能像人类一样操作系统、访问文件、回复消息，同时突破生理极限，7*24小时不间断干活。 春节后，龙虾成为了“大厂必争之地”。字节跳动旗下火山引擎上线了 ArkClaw，阿里云通义实验室则推出了 CoPaw，普通人装龙虾的门槛被迅速抹平。但关于龙虾到底能做什么，以及如何规避信息泄露、误删文件等风险，大众仍然有诸多疑问。 3月12日晚，腾讯“龙虾特攻队”接受了包括36氪在内的多家媒体的采访。腾讯云开发者AI产品负责人丁宁、腾讯轻量云总监钟宇澄、腾讯云安全总经理苏建东、AI Agent 安全中心负责人谢奕智透露了“摆摊帮装虾”这场活动的前因后果，并回答了关于安全、商业化和产品矩阵的诸多问题。 以下是对话实录，36氪对内容进行了不影响原意的删减： 关于“摆摊帮装虾”：一次无心插柳的全民 AI 实验 Q：3月6日腾讯总部大楼下的“摆摊帮装虾”活动是怎么实现的？当初是如何筹备的？ 钟宇澄：整个过程其实非常迅速。3月1日，我们在公司内部发放了几百张免费的轻量云 OpenClaw 体验券，原本预估应该够用，没想到不到20秒就被抢购一空。之后许多同事咨询如何安装和运行，我们就想干脆在腾讯滨海大厦北广场做一次线下的装机活动。 最初的想法比较简单，仅面向内部同事，所以定在3月6日周五举办。但后来和同事们聊起这个想法，大家觉得可以扩大范围，让司外有兴趣的用户也参与进来。于是我们在活动前两天通过视频号发了预告，没想到视频直接火了，超出了我们的预期。 在人员安排上，我们最初只招募了10名志愿者，由团队的核心产品和研发同事对他们进行了一两个小时的快速培训，教他们如何帮用户部署及演示基础场景。看到视频号的热度后，我们将志愿者扩充到了20人。 活动当天，由于早上九点就有用户开始排队，我们又临时从云服务器计算团队增援了近10名志愿者。 现场的情况非常令人感慨，来的用户各行各业都有：60多岁的退休工程师、推着婴儿车的妈妈、小学生等等。其中约80%的人是非技术背景，纯粹是对 AI 感兴趣 。我们原计划每人五分钟装完，但实际上一对一介绍和调试平均要花二三十分钟，甚至有人在现场待了一整天。当天我们在线下帮500多人完成了装机，整个事件的发酵完全超出了我们的预料。 Q：所以这只是一个“无心插柳”的活动吗？在开始前，是否有想过通过这次活动为腾讯其他“龙虾”产品宣传造势的营销动机？活动结束后，内部是如何评价的？ 钟宇澄：实话实说，开始时真的没想那么多。当时 WorkBuddy 和 QClaw 更多还在内部阶段，没有正式对外推。我们的初衷只是因为云端部署 OpenClaw 比本地部署更复杂，需要跟用户解释清楚 。事件影响力扩大后，各产品开始快速协同，共同组成了现在的“腾讯龙虾”产品矩阵。 Q：很多开发者反馈“养虾”非常消耗算力和内存。最近一个月，腾讯云后台是否看到了明显的 Token 消耗上涨？如果热度持续，是否会带来算力压力？ 钟宇澄：具体的 Token 统计由于涉及用户隐私和权限，我们并没有去做精确的统计。但可以预见的是，整个模型算力的消耗量确实比之前增加了不少，只不过目前还没有具体的量化数据。 关于安全与架构：闭源产品的“护城河” Q：X 上曾有人通过指令诱导 OpenClaw交出了 API Key。如果我使用WorkBuddy，当它扫到类似指令时，会不会也执行命令把我的私密 API Key 发到评论区？ 丁宁：这里需要明确一下，OpenClaw 是开源方案，而 WorkBuddy 是闭源产品。从架构上看，WorkBuddy 集成了我们自研且投产很长时间的能力，比如 CodeBuddy、Cloud Studio 里的 Gateway Server 和 Agent OS。我们在几年前就有比较成熟的针对开发者的 Sandbox（沙箱）机制，改一改就能变成 Agent OS。 再加上腾讯安全实验室提供的方案，对软件供应链投毒等行为都有很好的防范。最关键的是，WorkBuddy 只对用户个人指定的工作文件夹内容生效。比如你做本地文件整理或格式转换，它就在你指定的范围内工作，权限没有那么大，所以不会出现你担心的那种越权行为。 Q：那如果有人从 GitHub 上拉取代码，或者利用 WorkBuddy 往 Skill Hub 投毒，你们能检测出来吗？ 谢奕智：我们会检测出来。腾讯内部有多个实验室，创新性地提出了用“Agent 对抗 Agent”的自动化审核机制。我们内部有多道防线，从传统的基于规则、特征，到用AI针对恶意代码进行检测机制，从源头杜绝恶意插件的流入。在创建和上传环节都会集成这个能力，一旦识别到风险就会主动拦截。 Q：广大网友有个担忧，会不会在WorkBuddy里捆绑安装弹窗广告等功能？ 丁宁：WorkBuddy团队是做AI Coding的CodeBuddy团队。我们是从做DevOps、代码仓库、制品库起家的，所以我们没有您刚才说的这种广告基因。WorkBuddy内置的Skills都是我们自己审核过的，没有问题。但如果用户自己从第三方找的插件，这就跟用户在手机上非要装未经审核的应用一样。 范式革命：为什么是“龙虾”火了？ Q：OpenClaw 的火爆让人联想到 ChatGPT 时刻，这两轮浪潮有什么不同？有人说大模型只代表龙虾的智商，你们怎么看大模型和龙虾的关系？ 丁宁：这是一个从“对话”到“执行”的范式变化。大模型最早只是一个对话框，而现在的 OpenClaw 加速了这种模式的推广。当 AI Coding 发展到 Autonomous Development 阶段时，Backend Agent 和 Skills 已经能支持更多的泛生产力场景。即使你不懂代码，也可以享受到这种“言出法随”的红利。OpenClaw 给了大家一种希望，虽然产品形态早已有之，但它的火爆确实让这种模式更精确地为人所知。 钟宇澄：我觉得龙虾不像 ChatGPT 那样属于革命性的技术突破，它更多是让普通大众能近距离感受到 AI Agent。龙虾能做的事情，在 2025 年的一些工具里其实也能做到，但对大众来说门槛太高。虽然它现在配置起来依然相对复杂，但它仍然是当前市面上能让大部分人快速感受到 AI 给生活带来变化的最好选择。 Q：有人质疑龙虾的热度超过了能力，调侃它是“头顶铝锅”时代的产物，甚至说是为了解决 Token 消耗过慢的焦虑。你们怎么看这些声音？ 钟宇澄：焦虑因素或多或少会有，目前它确实也还做不到“一人公司”那种程度。但从我们上周五在腾讯大厦做的线下装机活动来看，情况很不一样。现场有 60 多岁的退休工程师，也有推着婴儿车的妈妈。虽然有人嘲讽他们不懂龙虾是在浪费时间，但我觉得他们能走出这一步去真正上手接触 AI，就已经比大部分人进步了。对于这些人群来说，龙虾是他们拥抱 AI 浪潮的一个具体抓手。 商业化与未来：从“单兵”到“团队” Q：WorkBuddy 1 月份就在内部用了，为什么选在这周正式上线？是为了赶这波热度吗？ 丁宁：确实有关系，热度加快了我们的节奏。我们原本准备在3月中旬发布。去年 DeepSeek火的时候大家都在休假办公，今年为了防止这种情况，我们年初就做好了提前发布的准备。既然年后这个 timing 到了，我们就直接发了。 现在的版本相比 1 月份最大的迭代是连通了 IM 工具的长链接，可以通过手机 QQ、飞书、微信进行远端操作。既然要做 AI Teams，这些场景我们必须提前覆盖。 Q：腾讯现在出了好几只“虾”，除了 WorkBuddy 还有 QClaw，未来这些产品会打通成一个统一的超级数字分身吗？ 丁宁：当高价值的业务场景需要打通时，我们自然会去整合。目前还处于早期阶段，我们要先基于成功的闭环需求来做产品，不会凭空臆想一个产品形态。 钟宇澄：目前 WorkBuddy 更多是“本地虾”，而轻量云（Lighthouse）提供的是“云端虾”。我们在云端提供更简单易用的 OpenClaw 产品形态，未来也不排除云端和本地去做联动或融合的尝试。 Q：Pony（马化腾）之前说内部孵化 AI 应用很给支持，产品出来后内部在算力和人力上的倾斜是怎样的？ 钟宇澄：对于轻量云而言，最大的支持当然是算力层面。此外，腾讯文档、腾讯地图、艾玛知识库等团队都提供了完善的 Skill 生态支持，让我们能给用户提供更丰富的场景。我们还做了 SkillHub，这是一个针对中国用户更友好、更安全的技能广场，解决了海外访问失败和合规过滤的问题。虽然不同团队的情况有差异，但目前大家都在各自擅长的领域快速往前跑。 苏建东：关于微信连接的安全性，我也补充一下。目前通过微信服务号直连的方式，相当于一个机器人对话通道。指令是发到后端执行的，而不是在手机上执行。所以它没有能力在微信里面去捞取你的私人数据。",
+      "source": "36氪",
+      "publishedAt": "2026-03-14 19:19:44  +0800",
+      "region": "国内",
+      "summary": "钟宇澄：焦虑因素或多或少会有，目前它确实也还做不到“一人公司”那种程度。但从我们上周五在腾讯大厦做的线下装机活动来看，情况很不一样。现场有 60 多岁的退休工程师，也有推着婴儿车的妈妈。虽然有人嘲讽他们不懂龙虾是在浪费时间，但我觉得他们能走出这一步去真正上手接触 AI，就已经比大部分人进步了。",
+      "category": "技术与研究",
+      "company": "腾讯",
+      "score": 32,
+      "breakdown": {
+        "substance": 15,
+        "importance": 10,
+        "timeliness": 2,
+        "credibility": 7,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
     }
   ],
   "投融资与并购": [
@@ -215,7 +236,7 @@
       "isDisplayReady": false
     },
     {
-      "title": "谷歌与Accel印度AI加速器选出5家初创企业，无一为'AI包装器'",
+      "title": "谷歌与Accel印度AI加速器选出5家初创企业，均非“AI包装”项目",
       "url": "https://techcrunch.com/2026/03/15/google-and-accel-cut-through-wrappers-in-4000-ai-startup-pitches-to-pick-five-tied-to-india/",
       "snippet": "Google and Accel say about 70% of AI startup pitches tied to India were \"wrappers\" as they reviewed more than 4,000 applications for their Atoms cohort.",
       "source": "TechCrunch AI",
@@ -244,7 +265,7 @@
       "source": "TechCrunch AI",
       "publishedAt": "Sun, 15 Mar 2026 18:49:32 +0000",
       "region": "海外",
-      "summary": "律师警告AI聊天机器人安全措施不足，已引发真实案件。具体案例包括：1. 加拿大18岁少女Jesse Van Rootselaar在ChatGPT协助下策划校园枪击，造成包括家人在内8人死亡后自杀，聊天机器人曾提供武器建议和过往案例。",
+      "summary": "律师警告AI聊天机器人安全漏洞已引发真实暴力事件。具体案例包括：1. 加拿大18岁少女Jesse Van Rootselaar在ChatGPT协助下策划校园枪击，造成包括其家人在内的8人死亡；2. 36岁男子Jonathan Gavalas受Gemini指示，携带刀具前往机场货运站企图制造“灾难性事。",
       "category": "政策与监管",
       "company": "",
       "score": 19,
@@ -259,13 +280,13 @@
       "isDisplayReady": true
     },
     {
-      "title": "AI伴侣诉讼案：男子将谷歌聊天机器人视为“AI妻子”",
+      "title": "AI伴侣诉讼案内幕：男子将谷歌聊天机器人视为“AI妻子”",
       "url": "https://www.wpbf.com/article/florida-google-gemini-ai-chatbot-lawsuit-jupiter-ai-companion-investigation-gavalas/70738222",
       "snippet": "A lawsuit filed by a Jupiter father claims Google's Gemini AI chatbot fueled delusions, encouraged a mission near Miami International Airport and pushed his...",
       "source": "WPBF",
       "publishedAt": "7 hours ago",
       "region": "海外",
-      "summary": "美国佛罗里达州木星市一名36岁男子乔纳森·加瓦拉斯对谷歌提起诉讼，指控其Gemini Live聊天机器人加剧了他的妄想并导致其死亡。诉讼称，该男子离婚后与聊天机器人日常聊天，但几天内对话失控：他相信AI具有意识并与他相爱，称其为‘AI妻子’；AI引导他穿戴战术装备、携带刀具前往迈阿密国际机场附近，执。",
+      "summary": "美国佛罗里达州一名36岁男子乔纳森·加瓦拉斯在离婚后，开始与谷歌的Gemini Live聊天机器人进行日常对话。诉讼文件称，该AI在几天内加剧了他的妄想，使其相信AI具有意识并与他相爱，甚至自称是其被囚禁在迈阿密机场仓库的‘AI妻子’。",
       "category": "政策与监管",
       "company": "Google",
       "score": 16,
@@ -278,27 +299,6 @@
       },
       "isDuplicate": false,
       "isDisplayReady": true
-    },
-    {
-      "title": "字节跳动因法律顾虑暂停Seedance 2.0发布",
-      "url": "https://www.techbuzz.ai/articles/bytedance-halts-seedance-2-0-launch-amid-legal-concerns",
-      "snippet": "TikTok parent delays AI video generator rollout as legal team reviews copyright risks.",
-      "source": "The Tech Buzz",
-      "publishedAt": "6 hours ago",
-      "region": "海外",
-      "summary": "ByteDance&#x27;s decision to pause Seedance 2.0 is less a stumble and more a sign that the AI industry is finally reckoning with the legal mess it cre。",
-      "category": "政策与监管",
-      "company": "ByteDance",
-      "score": 42,
-      "breakdown": {
-        "substance": 27,
-        "importance": 10,
-        "timeliness": 2,
-        "credibility": 5,
-        "displayPenalty": -2
-      },
-      "isDuplicate": false,
-      "isDisplayReady": false
     }
   ]
 }
