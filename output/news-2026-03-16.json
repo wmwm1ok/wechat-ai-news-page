@@ -1,0 +1,122 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "360推出国内首个安全龙虾，周鸿祎亲自动手演示安装",
+      "url": "https://www.infoq.cn/article/XgX3qjd9RZ0aOaFjqbZQ?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 15 Mar 2026 12:47:57 GMT",
+      "region": "国内",
+      "summary": "360集团针对开源智能体OpenClaw（俗称“龙虾”）的安全与易用性问题，推出了“360安全龙虾”客户端及硬件终端，并发布安全防护系统“360龙虾卫士”。该产品核心解决了两个痛点：一是通过虚拟化沙箱隔离运行环境和AI安全引擎，主动拦截技能投毒等攻击，保障安全；二是将原本需要约6小时、涉及虚拟机与多。",
+      "category": "产品发布与更新",
+      "company": "360",
+      "score": 39,
+      "breakdown": {
+        "substance": 18,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌地图集成Gemini推出新功能，Ask Maps与沉浸式导航陆续上线",
+      "url": "https://www.qbitai.com/2026/03/387867.html",
+      "snippet": "以后出门有个谷歌地图就够了",
+      "source": "量子位",
+      "publishedAt": "Sat, 14 Mar 2026 10:48:10 +0000",
+      "region": "国内",
+      "summary": "谷歌地图基于Gemini模型推出两项新功能。其一是Ask Maps，用户可用自然语言描述出行计划，Gemini会结合用户过往互动信息提供定制化回复，该功能已在美国和印度上线。其二是沉浸式导航，模型通过分析街景和航拍图像，为用户生成包含沿途地标等精确信息的3D视图，将先在美国上线，并计划未来几个月扩展。",
+      "category": "产品发布与更新",
+      "company": "谷歌",
+      "score": 31,
+      "breakdown": {
+        "substance": 9,
+        "importance": 11,
+        "timeliness": 2,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "谷歌地图推出由Gemini驱动的“询问地图”和“沉浸式导航”",
+      "url": "https://hypebeast.com/2026/3/google-maps-introduces-ask-maps-ai-immersive-navigation-powered-by-gemini-conversational-tool",
+      "snippet": "Google Maps Introduces \"Ask Maps\" and Immersive Navigation Powered by Gemini: The massive update brings conversational AI and dynamic 3D visual guidance to...",
+      "source": "Hypebeast",
+      "publishedAt": "14 hours ago",
+      "region": "海外",
+      "summary": "谷歌地图推出由Gemini AI驱动的两项新功能：一是“询问地图”，用户可通过自然语言对话查询地点信息，如“附近有哪些适合家庭的意大利餐厅？”；二是“沉浸式导航”，提供动态3D视觉引导，在复杂路口或立交桥处生成更直观的路线指示。这两项更新将传统地图服务升级为具备对话交互和增强视觉指引的智能导航工具。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 21,
+      "breakdown": {
+        "substance": 8,
+        "importance": 6,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "OpenAI表示ChatGPT广告目前不会在全球范围内推出",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/",
+      "snippet": "OpenAI told BleepingComputer that ChatGPT ads are not yet rolling out outside the US, even though some users noticed references to ads in the updated...",
+      "source": "BleepingComputer",
+      "publishedAt": "1 hour ago",
+      "region": "海外",
+      "summary": "OpenAI向BleepingComputer澄清，ChatGPT的广告功能目前仅在美国推出，尚未扩展到全球其他地区。尽管有用户注意到更新后的隐私政策中提及了广告，并因此在Reddit上引发了全球推广的猜测，但公司明确表示广告投放仍仅限于美国。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 20,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "Meta推迟发布新AI，考虑授权谷歌Gemini模型",
+      "url": "https://www.aol.com/news/meta-delays-release-ai-weighs-201723630.html",
+      "snippet": "The leaders of Meta's AI division have also discussed temporarily licensing Google's Gemini model to power its products.",
+      "source": "AOL.com",
+      "publishedAt": "9 hours ago",
+      "region": "海外",
+      "summary": "Meta因内部测试显示其新AI模型‘Avocado’性能不及谷歌、OpenAI等竞争对手，决定将原定3月中旬的发布时间至少推迟两个月。为追赶对手，Meta去年6月向初创公司Scale AI投资了143亿美元，并任命其29岁CEO Alexandr Wang为首席AI官。",
+      "category": "技术与研究",
+      "company": "Meta, Google",
+      "score": 22,
+      "breakdown": {
+        "substance": 4,
+        "importance": 11,
+        "timeliness": 2,
+        "credibility": 5
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "科技CEO利用ChatGPT与基因数据定制癌症疫苗，肿瘤缩小50%",
+      "url": "https://www.qbitai.com/2026/03/387935.html",
+      "snippet": "AI救了我的狗！从奄奄一息到满公园追兔子",
+      "source": "量子位",
+      "publishedAt": "Sun, 15 Mar 2026 06:06:09 +0000",
+      "region": "国内",
+      "summary": "一位科技公司CEO为挽救其罹患癌症的宠物狗，利用ChatGPT分析狗的基因测序数据，并据此设计了一种定制化的癌症疫苗。据报道，这种个性化治疗方案使得狗的肿瘤缩小了50%。该案例展示了将大型语言模型与生物信息学结合，为个体化医疗提供新思路的潜力。",
+      "category": "技术与研究",
+      "company": "ChatGPT",
+      "score": 21,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9
+      },
+      "isDuplicate": false
+    }
+  ],
+  "投融资与并购": [],
+  "政策与监管": []
+}
