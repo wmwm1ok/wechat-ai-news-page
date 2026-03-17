@@ -1,6 +1,6 @@
 {
   "date": "2026/3/17",
-  "generatedAt": "2026/3/17 08:02",
+  "generatedAt": "2026/3/17 11:14",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -8,9 +8,9 @@
     "candidateTargetCount": 23,
     "fetch": {
       "domesticBeforeDedup": 23,
-      "overseasBeforeDedup": 129,
+      "overseasBeforeDedup": 131,
       "domesticAfterDedup": 23,
-      "overseasAfterDedup": 127,
+      "overseasAfterDedup": 128,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -65,7 +65,7 @@
       ],
       "serper": {
         "enabled": true,
-        "count": 115,
+        "count": 117,
         "queryCount": 12,
         "resultLimit": 6,
         "error": null
@@ -76,64 +76,54 @@
     },
     "scoring": {
       "totalInput": 58,
-      "totalScored": 26,
-      "strictScoredCount": 26,
-      "relaxedCandidateCount": 4,
+      "totalScored": 23,
+      "strictScoredCount": 23,
+      "relaxedCandidateCount": 5,
       "relaxedUsedForSelection": false,
-      "weakSummaryCount": 19,
-      "selectedCandidateCount": 22,
-      "duplicateCount": 22,
-      "crossDayDuplicateCount": 16,
-      "lowQualityCount": 6,
-      "domesticAvailable": 16,
-      "overseasAvailable": 10,
+      "weakSummaryCount": 18,
+      "selectedCandidateCount": 23,
+      "duplicateCount": 21,
+      "crossDayDuplicateCount": 15,
+      "lowQualityCount": 9,
+      "domesticAvailable": 17,
+      "overseasAvailable": 6,
       "sourceCount": {
+        "InfoQ": 5,
+        "量子位": 4,
+        "36氪": 3,
         "雷锋网": 5,
-        "36氪": 4,
-        "量子位": 3,
-        "InfoQ": 4,
         "TechCrunch AI": 5,
-        "MIT Technology Review": 1
+        "AOL.com": 1
       }
     },
     "display": {
-      "refinedCount": 22,
-      "displayReadyCount": 12,
-      "fallbackDisplayCount": 2,
-      "removedWeakSummaries": 10,
+      "refinedCount": 23,
+      "displayReadyCount": 14,
+      "fallbackDisplayCount": 0,
+      "removedWeakSummaries": 9,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "清越科技发布双品牌战略，拓展服务机器人核心部件领域",
-      "company": "清越科技",
-      "url": "https://36kr.com/p/3725098876140164?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-16 13:11:31  +0800",
-      "summary": "3月13日，清越科技宣布两大品牌战略升级。其一，原家电品牌“配盾”升级为清洁电器全生态供应商，业务延伸至蒸汽小锅炉、水泵、精密齿轮等全产业链环节，并设定了2026年冲刺清洁电器电化学模块全球第一的目标。",
-      "score": 25
-    },
-    {
-      "section": "技术与研究",
-      "title": "1.4亿《宝可梦Go》玩家为AI贡献300亿张训练图像",
-      "company": "Niantic",
-      "url": "https://www.qbitai.com/2026/03/387958.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 16 Mar 2026 05:55:05 +0000",
-      "summary": "《宝可梦Go》的1.4亿玩家在十年间无意中贡献了超过300亿张实景照片，这些图像数据被游戏开发商Niantic直接用于训练其VPS视觉定位系统，以提升机器人的环境感知能力。与此同时，Coco Robotics公司推出了新款配送机器人Coco 2，其核心变化是能在街道和自行车道上以每小时13英里的速度。",
-      "score": 42
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI领导力：像管理团队一样管理AI",
-      "company": "",
-      "url": "https://www.infoq.cn/article/DCc9GWuL9MVlgvDpRJWg?utm_source=rss&utm_medium=article",
+      "title": "Claude Opus 4.6发布，引入自适应推理与上下文压缩特性",
+      "company": "Anthropic",
+      "url": "https://www.infoq.cn/article/WJRPWcSugWQgC7coY49h?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Mon, 16 Mar 2026 17:16:54 GMT",
-      "summary": "作者分享了如何通过AI编程重获“心流”体验。他提到，成为团队领导后因管理流程漫长而失去心流，但借助Vibe Coding与AI协作，指令与反馈的闭环时间极短，使其在管理层面重获心流。",
-      "score": 37
+      "publishedAt": "Tue, 17 Mar 2026 11:00:00 GMT",
+      "summary": "Anthropic发布Claude Opus 4.6，核心变化是从静态推理转向动态编排，引入了自适应思考力度控制和上下文压缩两项新特性，旨在解决AI智能体在长时间工作流中出现的“过度思考”和记忆退化问题。",
+      "score": 64
+    },
+    {
+      "section": "技术与研究",
+      "title": "Karpathy开源autoresearch项目：AI Agent自主优化神经网络，两天内提升模型性能11%",
+      "company": "",
+      "url": "https://www.infoq.cn/article/hioSraQHDw53VwP9glyq?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 17 Mar 2026 10:01:27 GMT",
+      "summary": "前特斯拉AI总监Karpathy开源了一个仅630行代码的AI研究助手项目autoresearch。其核心是一个能自主修改代码、进行短期训练并评估效果的AI Agent，可替代研究者通宵进行实验迭代。",
+      "score": 53
     },
     {
       "section": "投融资与并购",
@@ -142,18 +132,48 @@
       "url": "https://www.qbitai.com/2026/03/388381.html",
       "source": "量子位",
       "publishedAt": "Mon, 16 Mar 2026 11:22:49 +0000",
-      "summary": "地瓜机器人近日完成1.2亿美元B1轮融资，两轮融资总额达2.2亿美元。该公司专注于为机器人提供从芯片、算法到软件的完整技术体系，其产品算力覆盖5至560 TOPS，已与头部客户合作推出多个标杆产品，例如助力云鲸扫地机实现AI双目感知、助力影石打造全球首款全景无人机。",
+      "summary": "地瓜机器人近日完成1.2亿美元B1轮融资，两轮融资总额达2.2亿美元。该公司专注于为机器人提供芯片、算法和软件解决方案，其产品算力覆盖5到560 TOPS，已与云鲸、影石Insta360等头部客户合作，推出了搭载AI双目感知的扫地机、全球首款全景无人机等标杆产品。",
       "score": 51
     },
     {
-      "section": "产品发布与更新",
-      "title": "英伟达DLSS 5利用生成式AI提升游戏真实感，并计划拓展至游戏外领域",
-      "company": "Nvidia",
-      "url": "https://techcrunch.com/2026/03/16/nvidias-dlss-5-uses-generative-ai-to-boost-photo-realism-in-video-games-with-ambitions-beyond-gaming/",
+      "section": "技术与研究",
+      "title": "1.4亿《精灵宝可梦Go》玩家为AI贡献300亿张训练图像",
+      "company": "Niantic",
+      "url": "https://www.qbitai.com/2026/03/387958.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 16 Mar 2026 05:55:05 +0000",
+      "summary": "《精灵宝可梦Go》的1.4亿玩家在十年间拍摄的照片，无意中为AI贡献了约300亿张实景图像。游戏开发商Niantic将这些数据直接用于训练其VPS视觉定位系统，以提升环境感知能力。",
+      "score": 39
+    },
+    {
+      "section": "技术与研究",
+      "title": "不卷速度卷验证，陈天桥MiroMind精准预测15天后黄金价格",
+      "company": "MiroMind",
+      "url": "https://www.qbitai.com/2026/03/387990.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 16 Mar 2026 06:50:10 +0000",
+      "summary": "陈天桥旗下MiroMind公司发布了MiroThinker-1.7系列模型，其中H1版本在深度研究任务中超越了GPT-5.4-Thinking等顶尖闭源模型。其核心创新在于“局部验证”机制，即在推理的每一步进行自我审查，以打破传统AI的概率偏执，寻找更优路径。",
+      "score": 37
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Fuse融资2500万美元，旨在颠覆美国信用合作社使用的陈旧贷款发放系统",
+      "company": "Fuse",
+      "url": "https://techcrunch.com/2026/03/16/fuse-raises-25m-to-disrupt-aging-loan-origination-systems-used-by-u-s-credit-unions/",
       "source": "TechCrunch AI",
-      "publishedAt": "Mon, 16 Mar 2026 19:12:19 +0000",
-      "summary": "英伟达发布DLSS 5技术，其核心是将可控的3D图形（虚拟世界的“真实”结构化数据）与生成式AI的概率计算相结合，以生成更逼真的游戏画面。CEO黄仁勋指出，这种融合了确定性预测与高真实感概率生成的方法，代表了更广泛的计算机图形学范式转变。",
-      "score": 21
+      "publishedAt": "Mon, 16 Mar 2026 17:43:27 +0000",
+      "summary": "AI金融科技初创公司Fuse获得2500万美元融资，旨在用其AI原生贷款发放系统（LOS）取代美国信用合作社使用的陈旧系统。其核心举措包括：第一，设立500万美元“救助基金”，为前50家符合条件的机构提供免费平台接入，直至其现有遗留系统合同到期；第二，其AI平台承诺能相对快速地部署，以解决传统LOS。",
+      "score": 32
+    },
+    {
+      "section": "技术与研究",
+      "title": "快手AI大前端性能稳定性实践：亿级DAU下的智能诊断与排障",
+      "company": "快手",
+      "url": "https://www.infoq.cn/article/idzEW0gbCfaAusraiXbu?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 16 Mar 2026 17:38:48 GMT",
+      "summary": "快手为应对亿级日活下的大前端性能问题，推出了“柯南AI”智能诊断平台。该平台通过可扩展的Agent架构，将复杂问题拆解给单一职责的Agent处理，例如UI视图Agent能结合截图和源码自动分析崩溃原因。",
+      "score": 31
     },
     {
       "section": "技术与研究",
@@ -162,8 +182,28 @@
       "url": "https://www.infoq.cn/article/HS2jaSrSCcIz0ev22ZqX?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Mon, 16 Mar 2026 18:48:36 GMT",
-      "summary": "Meta据传将裁员20%以上，涉及超1.6万人，这将是其自2022年‘效率之年’以来最大规模裁员。传闻起因是管理层发现，在部署AI工具后，部分资深工程师每周实际生产时间不足10小时，因此正秘密进行知识提取，考虑用AI智能体取代工程团队。",
-      "score": 32
+      "summary": "Meta可能将裁员超过1.6万人，这是自2022年“效率之年”以来最大规模裁员。传闻称，公司发现AI工具大幅提升效率后，正秘密进行知识提取，计划用AI智能体取代工程团队，具体措施包括24小时录制工程师屏幕以捕捉其决策逻辑。",
+      "score": 30
+    },
+    {
+      "section": "投融资与并购",
+      "title": "又一家深度科技芯片初创公司成为独角兽：Frore估值达16.4亿美元",
+      "company": "Frore",
+      "url": "https://techcrunch.com/2026/03/16/another-deep-tech-chip-startup-becomes-a-unicorn-frore-hits-1-64b/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 16 Mar 2026 17:47:32 +0000",
+      "summary": "芯片散热初创公司Frore Systems宣布完成1.43亿美元D轮融资，估值达16.4亿美元，成为新晋独角兽。其核心转变在于：受英伟达CEO黄仁勋启发，公司从最初为手机等小型无风扇设备提供空气冷却技术，转向开发用于AI芯片和系统的液体冷却方案。",
+      "score": 28
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "OpenAI发布新版ChatGPT模型，AI竞争加剧",
+      "company": "OpenAI",
+      "url": "https://www.aol.com/articles/openai-launches-chatgpt-model-ai-210915209.html",
+      "source": "AOL.com",
+      "publishedAt": "11 hours ago",
+      "summary": "OpenAI于周四发布了新版GPT-5.2模型，旨在为用户解锁更多经济价值。该模型在生成电子表格、制作演示文稿、编写代码、理解图像和长文本等方面能力更强，并在特定任务上达到或超过人类专家水平。新模型提供“即时”、“思考”和“专业”三种版本，以满足不同复杂度和质量的需求，并将首先向付费用户逐步推出。",
+      "score": 28
     },
     {
       "section": "技术与研究",
@@ -172,7 +212,7 @@
       "url": "https://www.qbitai.com/2026/03/388387.html",
       "source": "量子位",
       "publishedAt": "Mon, 16 Mar 2026 11:48:07 +0000",
-      "summary": "文章揭示了AI投毒攻击的三种具体手法：一是伪造看似真实的详细负面评价，使AI在回答品牌相关问题时引用；二是通过语义优化调整文章表达，使其在AI的向量检索排序中更靠前；三是制作虚假的产品对比评测，在评价维度和数据来源上做手脚，误导AI将其当作客观分析。",
+      "summary": "文章揭示了AI投毒攻击的隐蔽原理：攻击者通过向大模型训练数据中注入错误信息，利用模型训练的滞后性，使错误通过梯度下降等算法固化到参数中，形成认知偏差，导致模型持续输出错误内容。具体手段包括：1. 批量伪造看似真实的负面评价，详细描述使用体验和具体问题，以影响AI在回答品牌相关问题时引用；2. 进行语。",
       "score": 27
     },
     {
@@ -182,68 +222,28 @@
       "url": "https://www.infoq.cn/article/gKOHwNErbptx92BQWZmQ?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Mon, 16 Mar 2026 18:06:30 GMT",
-      "summary": "该方案结合Amazon Quick Suite、Bedrock AgentCore和Snowflake Cortex AI，构建了一个多Agent协同的对话式分析中台。其核心在于：1. 业务人员可通过统一自然语言界面完成从提问到行动的全链路操作；2. 后台由多个专职Agent分工处理理解意图、访问数。",
-      "score": 25
-    },
-    {
-      "section": "技术与研究",
-      "title": "Memories.ai正为可穿戴设备和机器人构建视觉记忆层",
-      "company": "Memories.ai",
-      "url": "https://techcrunch.com/2026/03/16/memories-ai-is-building-the-visual-memory-layer-for-wearables-and-robotics/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Mon, 16 Mar 2026 20:30:00 +0000",
-      "summary": "Memories.ai公司正在开发一个大型视觉记忆模型，旨在为可穿戴设备和机器人提供视觉记忆能力。具体而言：1. 公司开发了名为LUCI的专用硬件设备来收集训练视频数据，因其对市面录像机的高耗电和高清格式不满意；2. 已与英伟达达成合作，将使用其Cosmos-Reason 2视觉推理模型和Metro。",
-      "score": 24
-    },
-    {
-      "section": "技术与研究",
-      "title": "快手AI大前端性能稳定性实践：亿级DAU下的智能诊断与排障",
-      "company": "快手",
-      "url": "https://www.infoq.cn/article/idzEW0gbCfaAusraiXbu?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 16 Mar 2026 17:38:48 GMT",
-      "summary": "快手介绍了其AI排障平台“柯南AI”的具体实践。该平台通过可扩展的Agent架构，将复杂问题拆解给多个单一职责的AI助手处理，例如专门分析UI视图问题的Agent会结合截图、ViewTree和点击事件来精准定位崩溃按钮。",
+      "summary": "文章介绍了一套结合Amazon Quick Suite、Bedrock AgentCore和Snowflake Cortex AI的多Agent对话式分析方案。该方案旨在不改变企业原有数据仓库、BI报表和治理体系的前提下，通过后台一组专职Agent的分工协同，将简单的“对话问数”升级为可在生产环境长。",
       "score": 23
     },
     {
       "section": "技术与研究",
+      "title": "Memories.ai正为可穿戴设备和机器人构建视觉记忆层",
+      "company": "Memories AI",
+      "url": "https://techcrunch.com/2026/03/16/memories-ai-is-building-the-visual-memory-layer-for-wearables-and-robotics/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 16 Mar 2026 20:30:00 +0000",
+      "summary": "Memories.ai公司正在开发一个大型视觉记忆模型，旨在为可穿戴设备和机器人提供“记忆”能力。具体而言，该公司与英伟达合作，利用其Cosmos-Reason 2视觉语言推理模型和Metropolis视频搜索应用来开发技术。",
+      "score": 22
+    },
+    {
+      "section": "产品发布与更新",
       "title": "如何观看黄仁勋的英伟达GTC 2026主题演讲及其内容前瞻",
       "company": "Nvidia",
       "url": "https://techcrunch.com/2026/03/16/nvidia-gtc-how-to-watch-jensen-huang-2026-keynote/",
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 16 Mar 2026 17:51:46 +0000",
-      "summary": "英伟达GTC 2026大会将于3月16日至19日举行，黄仁勋将发表主题演讲。据传，英伟达将发布一款专为加速AI推理（即模型应用所学知识生成响应）而设计的新芯片，旨在突破AI应用规模化瓶颈，并巩固其在AI训练与推理市场的领先地位。",
+      "summary": "英伟达GTC 2026大会将于3月16日至19日举行，黄仁勋将发表主题演讲。据传，英伟达将发布一款专为加速AI推理（即模型应用所学知识生成响应）而设计的新芯片，旨在突破AI应用规模化瓶颈，并巩固其在AI训练和推理市场的领先地位。",
       "score": 20
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Fuse融资2500万美元，旨在颠覆美国信用合作社使用的陈旧贷款发放系统",
-      "company": "Fuse",
-      "url": "https://techcrunch.com/2026/03/16/fuse-raises-25m-to-disrupt-aging-loan-origination-systems-used-by-u-s-credit-unions/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Mon, 16 Mar 2026 17:43:27 +0000",
-      "summary": "AI贷款平台Fuse在获得2500万美元融资后，宣布设立500万美元“救助基金”，旨在帮助美国信用合作社替换陈旧的贷款发放系统。具体措施包括：第一，为前50家符合条件的机构提供免费平台接入，直至其现有遗留系统合同到期；第二，其AI平台承诺能相对快速地完成部署，而传统系统集成通常需耗时一年且合同昂贵。",
-      "score": 29
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "英伟达CES同款机器人Reachy Mini登陆速卖通全球发售",
-      "company": "英伟达",
-      "url": "https://www.leiphone.com/category/industrynews/b5Mhdk1NyuY3HbNY.html",
-      "source": "雷锋网",
-      "publishedAt": "Mon, 16 Mar 2026 15:50:00 +0800",
-      "summary": "速卖通品牌出海计划又迎来一位重磅嘉宾。英伟达黄教主亲自“带货”的桌面机器人Reachy Mini在CES 2026爆火后，也选择了阿里旗下跨境平台速卖通AliExpress作为其全球发售的主要平台，优先于亚马逊、独立站，且均为现货。",
-      "score": 37
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "奇安信发布龙虾安全伴侣应对OpenClaw生态安全风险",
-      "company": "奇安信",
-      "url": "https://www.leiphone.com/category/industrynews/db2Bf5DrsyKrwFYm.html",
-      "source": "雷锋网",
-      "publishedAt": "Mon, 16 Mar 2026 15:57:00 +0800",
-      "summary": "奇安信董事长齐向东表示，在此基础上，奇安信还推出了“龙虾安全伴侣”产品，通过全景可视、细粒度策略管控及运行优化等能力，实现对AI智能体资产、行为和数据访问的可视化与精细化管理，帮助政企用户在安全可控的环境下规模化应用AI智能体，解决“想用不敢用”的痛点。",
-      "score": 32
     }
   ]
 }
