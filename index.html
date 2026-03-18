@@ -461,7 +461,7 @@
                 <div>抓取后候选：国内 ${fetchInfo.domesticAfterDedup ?? '-'} 条，海外 ${fetchInfo.overseasAfterDedup ?? '-'} 条</div>
                 <div>Serper：${serper.enabled ? `已启用，补充 ${serper.count ?? 0} 条（${serper.queryCount ?? 0} 个查询）` : '未启用或未配置'}</div>
                 <div>评分后候选：${scoring.totalScored ?? '-'} 条；过滤重复 ${scoring.duplicateCount ?? 0} 条，低质量 ${scoring.lowQualityCount ?? 0} 条</div>
-                <div>跨版次再过滤：${display.previousEditionRemovedCount ?? 0} 条；精修后剩余 ${display.postEditionFilterCount ?? '-'} 条</div>
+                <div>跨版次再过滤：${display.previousEditionRemovedCount ?? 0} 条；一致性再过滤：${display.integrityRemovedCount ?? 0} 条；精修后剩余 ${display.postEditionFilterCount ?? '-'} 条</div>
                 <div>精修后可展示：${display.displayReadyCount ?? '-'} 条；过滤掉不适合展示的摘要 ${display.removedWeakSummaries ?? 0} 条</div>
                 <div>最终输出：${data.count} / ${data.targetCount || data.count} 条</div>
             `;

@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fetchAllNews } from './rss-fetcher.js';
 import { summarizeNews, refineSelectedNews, isDisplayReadyNews, isReaderFriendlySummary, isSummaryComplete, normalizeDisplaySummary } from './ai-summarizer.js';
-import { checkSemanticDuplicate, selectTopNews } from './news-scorer.js';
+import { checkSemanticDuplicate, scoreNews, selectTopNews } from './news-scorer.js';
 import { generateHTML, generateWechatHTML } from './html-formatter.js';
 import {
   getBeijingDateString,
@@ -122,6 +122,34 @@ function filterAgainstPreviousEdition(items, previousNews) {
   return { kept, removed };
 }
 
+function filterFinalIntegrity(items) {
+  if (!Array.isArray(items) || items.length === 0) {
+    return {
+      kept: items || [],
+      removed: []
+    };
+  }
+
+  const kept = [];
+  const removed = [];
+
+  for (const item of items) {
+    const integrityCheck = scoreNews(item, []);
+    if (integrityCheck.isDuplicate) {
+      removed.push({
+        title: item.title,
+        source: item.source,
+        reason: integrityCheck.reason || '最终展示前一致性校验未通过'
+      });
+      continue;
+    }
+
+    kept.push(item);
+  }
+
+  return { kept, removed };
+}
+
 async function loadYesterdayNews(baseDir, referenceDate = new Date()) {
   try {
     const yesterday = new Date(referenceDate);
@@ -228,7 +256,11 @@ export async function runDailyNews(options = {}) {
   if (previousEditionFiltered.removed.length > 0) {
     console.log(`\n🧱 跨版次去重: 额外过滤 ${previousEditionFiltered.removed.length} 条与上一版重复的候选`);
   }
-  const filteredRefinedNews = previousEditionFiltered.kept;
+  const integrityFiltered = filterFinalIntegrity(previousEditionFiltered.kept);
+  if (integrityFiltered.removed.length > 0) {
+    console.log(`\n🧪 最终一致性过滤: 额外过滤 ${integrityFiltered.removed.length} 条标题与摘要不一致或相关性不足的候选`);
+  }
+  const filteredRefinedNews = integrityFiltered.kept;
   const displayReadyNews = filteredRefinedNews.filter(item => isDisplayReadyNews(item));
   const fallbackDisplayNews = filteredRefinedNews.filter(item =>
     !displayReadyNews.some(readyItem => (readyItem.url || readyItem.title) === (item.url || item.title)) &&
@@ -298,6 +330,7 @@ export async function runDailyNews(options = {}) {
       display: {
         refinedCount: refinedNews.length,
         previousEditionRemovedCount: previousEditionFiltered.removed.length,
+        integrityRemovedCount: integrityFiltered.removed.length,
         postEditionFilterCount: filteredRefinedNews.length,
         displayReadyCount: displayReadyNews.length,
         fallbackDisplayCount,
