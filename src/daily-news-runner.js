@@ -209,6 +209,81 @@ function normalizeCategories(topNews) {
   return grouped;
 }
 
+function getFinalCategoryPlan(targetCount) {
+  const basePlan = [
+    { category: '产品发布与更新', quota: 3 },
+    { category: '技术与研究', quota: 3 },
+    { category: '投融资与并购', quota: 2 },
+    { category: '政策与监管', quota: 1 }
+  ];
+
+  if (targetCount >= 14) {
+    return basePlan;
+  }
+
+  const scaledPlan = [
+    { category: '产品发布与更新', quota: Math.max(1, Math.round(targetCount * 0.2)) },
+    { category: '技术与研究', quota: Math.max(1, Math.round(targetCount * 0.2)) },
+    { category: '投融资与并购', quota: Math.max(1, Math.round(targetCount * 0.15)) },
+    { category: '政策与监管', quota: targetCount >= 6 ? 1 : 0 }
+  ];
+
+  let totalQuota = scaledPlan.reduce((sum, item) => sum + item.quota, 0);
+  while (totalQuota > targetCount) {
+    const shrinkable = [...scaledPlan].reverse().find(item => item.quota > (item.category === '政策与监管' ? 0 : 1));
+    if (!shrinkable) break;
+    shrinkable.quota -= 1;
+    totalQuota -= 1;
+  }
+
+  return scaledPlan.filter(item => item.quota > 0);
+}
+
+export function selectBalancedFinalNews(candidates, targetCount) {
+  if (!Array.isArray(candidates) || candidates.length <= targetCount) {
+    return candidates || [];
+  }
+
+  const selected = [];
+  const selectedKeys = new Set();
+  const plan = getFinalCategoryPlan(targetCount);
+
+  const trySelect = (item) => {
+    const key = item.url || item.title;
+    if (selectedKeys.has(key)) {
+      return false;
+    }
+
+    selected.push(item);
+    selectedKeys.add(key);
+    return true;
+  };
+
+  for (const { category, quota } of plan) {
+    let picked = 0;
+    for (const item of candidates) {
+      if (selected.length >= targetCount || picked >= quota) {
+        break;
+      }
+      if (item.category !== category) {
+        continue;
+      }
+      if (trySelect(item)) {
+        picked += 1;
+      }
+    }
+  }
+
+  for (const item of candidates) {
+    if (selected.length >= targetCount) {
+      break;
+    }
+    trySelect(item);
+  }
+
+  return selected;
+}
+
 export async function runDailyNews(options = {}) {
   const {
     baseDir = process.cwd(),
@@ -267,9 +342,12 @@ export async function runDailyNews(options = {}) {
     isSummaryComplete(item.summary) &&
     isReaderFriendlySummary(item.summary)
   );
-  const topNews = [...displayReadyNews, ...fallbackDisplayNews].slice(0, targetCount);
+  const eligibleDisplayNews = [...displayReadyNews, ...fallbackDisplayNews];
+  const topNews = selectBalancedFinalNews(eligibleDisplayNews, targetCount);
   const removedWeakSummaries = filteredRefinedNews.length - displayReadyNews.length;
-  const fallbackDisplayCount = Math.max(0, topNews.length - displayReadyNews.length);
+  const fallbackDisplayCount = topNews.filter(item =>
+    !displayReadyNews.some(readyItem => (readyItem.url || readyItem.title) === (item.url || item.title))
+  ).length;
   if (removedWeakSummaries > 0) {
     console.log(`\n🧽 摘要净化: 过滤掉 ${removedWeakSummaries} 条不适合直接展示给读者的摘要`);
   }
