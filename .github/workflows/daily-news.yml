@@ -2,8 +2,10 @@ name: AI Daily News
 
 on:
   schedule:
-    # 北京时间每天早上 8:15（UTC 00:15）
-    - cron: '15 0 * * *'
+    # 北京时间每天早上 08:00（UTC 00:00）
+    - cron: '0 0 * * *'
+    # 北京时间每天下午 16:00（UTC 08:00）
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -59,7 +61,9 @@ jobs:
           git add -f latest.json output/*.json
 
           if ! git diff --cached --quiet; then
-            git commit -m "Update AI news: $(date -u +'%Y-%m-%d')"
+            EDITION=$(node --input-type=module -e "import latest from './latest.json' with { type: 'json' }; console.log(latest.edition || 'daily');")
+            DATE=$(TZ=Asia/Shanghai date +'%Y-%m-%d')
+            git commit -m "Update AI ${EDITION} news: ${DATE}"
             git push
           else
             echo "No generated file changes"

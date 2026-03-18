@@ -7,7 +7,10 @@ import { generateHTML, generateWechatHTML } from './html-formatter.js';
 import {
   getBeijingDateString,
   getBeijingDisplayDate,
-  getBeijingDisplayDateTime
+  getBeijingDisplayDateTime,
+  getEditionMeta,
+  getPreviousEditionInfo,
+  normalizeNewsEdition
 } from './date-utils.js';
 
 async function saveOutput(baseDir, filename, content) {
@@ -27,6 +30,70 @@ async function saveOutput(baseDir, filename, content) {
   return filepath;
 }
 
+function flattenNewsItems(data) {
+  const news = [];
+
+  for (const category of Object.values(data)) {
+    if (!Array.isArray(category)) {
+      continue;
+    }
+
+    for (const item of category) {
+      if (!item.title) {
+        continue;
+      }
+
+      news.push({
+        title: item.title,
+        url: item.url || '',
+        summary: item.summary || '',
+        source: item.source || ''
+      });
+    }
+  }
+
+  return news;
+}
+
+async function loadPreviousEditionNews(baseDir, referenceDate = new Date(), edition = 'morning') {
+  const primaryPrevious = getPreviousEditionInfo(referenceDate, edition);
+  const fallbackDate = primaryPrevious.edition === 'afternoon'
+    ? getPreviousEditionInfo(primaryPrevious.date, 'morning')
+    : primaryPrevious;
+  const candidateFiles = [
+    path.join(baseDir, 'output', `news-${primaryPrevious.dateString}-${primaryPrevious.edition}.json`),
+    path.join(baseDir, 'output', `news-${primaryPrevious.dateString}.json`),
+    path.join(baseDir, 'output', `news-${fallbackDate.dateString}-${fallbackDate.edition}.json`),
+    path.join(baseDir, 'output', `news-${fallbackDate.dateString}.json`)
+  ];
+
+  for (const filepath of candidateFiles) {
+    try {
+      const content = await fs.readFile(filepath, 'utf-8');
+      const data = JSON.parse(content);
+      const news = flattenNewsItems(data);
+      const filename = path.basename(filepath);
+      console.log(`📅 加载上一版新闻: ${news.length} 条（${filename}）`);
+      return {
+        news,
+        sourceFile: filename
+      };
+    } catch {
+      // continue
+    }
+  }
+
+  console.log('⚠️  未找到上一版新闻文件，跨版次去重功能未生效');
+  return {
+    news: [],
+    sourceFile: ''
+  };
+}
+
+function buildEditionOutputName(prefix, date, edition, extension) {
+  return `${prefix}-${date}-${edition}.${extension}`;
+}
+
 async function loadYesterdayNews(baseDir, referenceDate = new Date()) {
   try {
     const yesterday = new Date(referenceDate);
@@ -35,26 +102,7 @@ async function loadYesterdayNews(baseDir, referenceDate = new Date()) {
     const filepath = path.join(baseDir, 'output', `news-${dateStr}.json`);
     const content = await fs.readFile(filepath, 'utf-8');
     const data = JSON.parse(content);
-
-    const news = [];
-    for (const category of Object.values(data)) {
-      if (!Array.isArray(category)) {
-        continue;
-      }
-
-      for (const item of category) {
-        if (!item.title) {
-          continue;
-        }
-
-        news.push({
-          title: item.title,
-          url: item.url || '',
-          summary: item.summary || '',
-          source: item.source || ''
-        });
-      }
-    }
+    const news = flattenNewsItems(data);
 
     console.log(`📅 加载昨日新闻: ${news.length} 条（${dateStr}）`);
     return news;
@@ -109,11 +157,14 @@ export async function runDailyNews(options = {}) {
   const {
     baseDir = process.cwd(),
     now = new Date(),
-    targetCount = 14
+    targetCount = 14,
+    edition: requestedEdition
   } = options;
+  const edition = normalizeNewsEdition(requestedEdition || process.env.NEWS_EDITION, now);
+  const editionMeta = getEditionMeta(edition, now);
 
   console.log('\n' + '='.repeat(60));
-  console.log('🚀 AI 新闻智能筛选系统 (专业版)');
+  console.log(`🚀 AI 新闻智能筛选系统 (专业版 · ${editionMeta.label})`);
   console.log('='.repeat(60) + '\n');
 
   if (!process.env.DEEPSEEK_API_KEY) {
@@ -132,11 +183,14 @@ export async function runDailyNews(options = {}) {
   const allNews = await summarizeNews(news);
   console.log(`\n📝 AI总结完成: ${allNews.length} 条新闻`);
 
-  const yesterdayNews = await loadYesterdayNews(baseDir, now);
+  const previousEditionData = await loadPreviousEditionNews(baseDir, now, edition);
+  const previousEditionNews = previousEditionData.news.length > 0
+    ? previousEditionData.news
+    : await loadYesterdayNews(baseDir, now);
   const candidateTargetCount = Math.max(targetCount + 8, Math.ceil(targetCount * 1.6));
 
   console.log('\n🎯 开始质量评分...');
-  const selectedNews = selectTopNews(allNews, candidateTargetCount, yesterdayNews);
+  const selectedNews = selectTopNews(allNews, candidateTargetCount, previousEditionNews);
   const refinedNews = await refineSelectedNews(selectedNews);
   const normalizedRefinedNews = refinedNews.map(item => ({
     ...item,
@@ -166,19 +220,27 @@ export async function runDailyNews(options = {}) {
   }
 
   const grouped = normalizeCategories(topNews);
-  const html = generateHTML(grouped);
-  const wechatHtml = generateWechatHTML(grouped);
   const date = getBeijingDateString(now);
+  const displayDate = getBeijingDisplayDate(now);
+  const displayTitle = `${editionMeta.title}（${editionMeta.englishLabel}）`;
+  const subtitle = `${displayDate} · 北京时间 ${editionMeta.releaseTime} 版`;
+  const footerText = `${displayTitle} · ${displayDate}`;
+  const html = generateHTML(grouped, { title: displayTitle, subtitle, footerText });
+  const wechatHtml = generateWechatHTML(grouped, { title: displayTitle, subtitle, footerText });
 
-  const newsletterPath = await saveOutput(baseDir, `newsletter-${date}.html`, html);
-  const wechatPath = await saveOutput(baseDir, `wechat-${date}.html`, wechatHtml);
+  const newsletterPath = await saveOutput(baseDir, buildEditionOutputName('newsletter', date, edition, 'html'), html);
+  const wechatPath = await saveOutput(baseDir, buildEditionOutputName('wechat', date, edition, 'html'), wechatHtml);
 
   const jsonData = {
-    date: getBeijingDisplayDate(now),
+    date: displayDate,
+    edition,
+    editionLabel: editionMeta.label,
+    title: displayTitle,
     generatedAt: getBeijingDisplayDateTime(now),
     count: topNews.length,
     targetCount,
     diagnostics: {
+      previousEditionFile: previousEditionData.sourceFile || '',
       targetCount,
       candidateTargetCount,
       fetch: news.stats,
@@ -221,8 +283,9 @@ export async function runDailyNews(options = {}) {
     }))
   };
 
+  const latestEditionOutputJsonPath = await saveOutput(baseDir, `latest-${edition}.json`, JSON.stringify(jsonData, null, 2));
   const latestOutputJsonPath = await saveOutput(baseDir, 'latest.json', JSON.stringify(jsonData, null, 2));
-  const historyJsonPath = await saveOutput(baseDir, `news-${date}.json`, JSON.stringify(grouped, null, 2));
+  const historyJsonPath = await saveOutput(baseDir, buildEditionOutputName('news', date, edition, 'json'), JSON.stringify(grouped, null, 2));
 
   console.log(`\n${'='.repeat(60)}`);
   console.log('📊 最终输出统计');
@@ -250,6 +313,7 @@ export async function runDailyNews(options = {}) {
     files: {
       latestJsonPath: path.join(baseDir, 'latest.json'),
       latestOutputJsonPath,
+      latestEditionOutputJsonPath,
       historyJsonPath,
       newsletterPath,
       wechatPath

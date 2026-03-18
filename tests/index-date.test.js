@@ -1,4 +1,5 @@
 import { readFileSync } from 'fs';
+import { getEditionMeta, getPreviousEditionInfo, inferNewsEdition } from '../src/date-utils.js';
 
 function describe(name, fn) {
   console.log(`\n📦 ${name}`);
@@ -18,6 +19,11 @@ function it(name, fn) {
 
 function expect(actual) {
   return {
+    toBe(expected) {
+      if (actual !== expected) {
+        throw new Error(`Expected ${expected} but got ${actual}`);
+      }
+    },
     toInclude(expected) {
       if (!String(actual).includes(expected)) {
         throw new Error(`Expected content to include ${expected}`);
@@ -32,6 +38,29 @@ describe('Index date handling', () => {
     const runnerSource = readFileSync(new URL('../src/daily-news-runner.js', import.meta.url), 'utf-8');
     expect(dateUtilsSource).toInclude("timeZone: 'Asia/Shanghai'");
     expect(runnerSource).toInclude('generatedAt');
+  });
+
+  it('maps Beijing time to morning and afternoon editions', () => {
+    expect(inferNewsEdition(new Date('2026-03-18T03:59:00Z'))).toBe('morning');
+    expect(inferNewsEdition(new Date('2026-03-18T04:00:00Z'))).toBe('afternoon');
+    expect(getEditionMeta('afternoon').label).toBe('下午版');
+  });
+
+  it('uses the immediately previous edition for dedupe lookups', () => {
+    const morningPrevious = getPreviousEditionInfo(new Date('2026-03-18T00:00:00Z'), 'morning');
+    const afternoonPrevious = getPreviousEditionInfo(new Date('2026-03-18T08:00:00Z'), 'afternoon');
+
+    expect(morningPrevious.edition).toBe('afternoon');
+    expect(morningPrevious.dateString).toBe('2026-03-17');
+    expect(afternoonPrevious.edition).toBe('morning');
+    expect(afternoonPrevious.dateString).toBe('2026-03-18');
+  });
+
+  it('stores edition-specific history filenames in the runner', () => {
+    const runnerSource = readFileSync(new URL('../src/daily-news-runner.js', import.meta.url), 'utf-8');
+    expect(runnerSource).toInclude("buildEditionOutputName('news', date, edition, 'json')");
+    expect(runnerSource).toInclude('latest-${edition}.json');
+    expect(runnerSource).toInclude('loadPreviousEditionNews');
   });
 });
 

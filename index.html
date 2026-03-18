@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>AI日报 - 在线编辑器</title>
+    <title>AI 快报 - 在线编辑器</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -271,7 +271,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>🤖 AI 每日快报</h1>
+        <h1 id="page-title">🤖 AI 快报</h1>
         <div class="date" id="current-date">加载中...</div>
         <div class="count" id="article-count"></div>
     </div>
@@ -311,8 +311,8 @@
     </div>
     
     <div class="footer">
-        <p>AI 每日快报 · 自动生成</p>
-        <p style="margin-top: 8px; opacity: 0.7;">每天 8:00 更新</p>
+        <p id="footer-title">AI 快报 · 自动生成</p>
+        <p style="margin-top: 8px; opacity: 0.7;">北京时间每天 08:00、16:00 更新</p>
     </div>
     
     <div class="toast" id="toast"></div>
@@ -386,10 +386,14 @@
 
         function renderContent(data) {
             const beijingToday = formatBeijingToday();
+            const pageTitle = data.title || 'AI 快报';
+            const editionSuffix = data.editionLabel ? ` · ${escapeHtml(data.editionLabel)}` : '';
             document.getElementById('current-date').textContent = beijingToday;
+            document.getElementById('page-title').textContent = `🤖 ${pageTitle}`;
+            document.getElementById('footer-title').textContent = `${pageTitle} · 自动生成`;
             const countLabel = data.targetCount && data.count < data.targetCount
-                ? `内容更新于 ${escapeHtml(data.generatedAt)} · 本期 ${data.count}/${data.targetCount} 条`
-                : (data.generatedAt ? `内容更新于 ${escapeHtml(data.generatedAt)}` : `共 ${data.count} 条精选资讯`);
+                ? `内容更新于 ${escapeHtml(data.generatedAt)}${editionSuffix} · 本期 ${data.count}/${data.targetCount} 条`
+                : (data.generatedAt ? `内容更新于 ${escapeHtml(data.generatedAt)}${editionSuffix}` : `共 ${data.count} 条精选资讯`);
             document.getElementById('article-count').textContent = countLabel;
 
             const editor = document.getElementById('rich-editor');
@@ -414,8 +418,8 @@
             let html = `
 <section style="max-width:677px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;line-height:1.8;color:#333;">
     <div style="text-align:center;padding:14px 0 22px;border-bottom:2px solid #1c5cff;margin-bottom:22px;">
-        <h1 style="color:#1c5cff;margin:0 0 8px;font-size:26px;line-height:1.4;font-weight:900;">AI 每日快报</h1>
-        <p style="color:#94a3b8;margin:0;font-size:13px;">${escapeHtml(data.date)}</p>
+        <h1 style="color:#1c5cff;margin:0 0 8px;font-size:26px;line-height:1.4;font-weight:900;">${escapeHtml(pageTitle)}</h1>
+        <p style="color:#94a3b8;margin:0;font-size:13px;">${escapeHtml(data.date)}${data.editionLabel ? ` · ${escapeHtml(data.editionLabel)}` : ''}</p>
     </div>
 `;
 
@@ -431,7 +435,7 @@
 
             html += `
     <p style="text-align:center;color:#94a3b8;font-size:12px;margin-top:30px;padding-top:20px;border-top:1px solid #e5e7eb;">
-        AI 每日快报 · ${escapeHtml(data.date)}
+        ${escapeHtml(pageTitle)} · ${escapeHtml(data.date)}
     </p>
 </section>`;
 
@@ -453,6 +457,7 @@
             const display = diagnostics.display || {};
 
             container.innerHTML = `
+                <div>版次：${data.editionLabel || '-'}${diagnostics.previousEditionFile ? `；去重对照 ${escapeHtml(diagnostics.previousEditionFile)}` : ''}</div>
                 <div>抓取后候选：国内 ${fetchInfo.domesticAfterDedup ?? '-'} 条，海外 ${fetchInfo.overseasAfterDedup ?? '-'} 条</div>
                 <div>Serper：${serper.enabled ? `已启用，补充 ${serper.count ?? 0} 条（${serper.queryCount ?? 0} 个查询）` : '未启用或未配置'}</div>
                 <div>评分后候选：${scoring.totalScored ?? '-'} 条；过滤重复 ${scoring.duplicateCount ?? 0} 条，低质量 ${scoring.lowQualityCount ?? 0} 条</div>

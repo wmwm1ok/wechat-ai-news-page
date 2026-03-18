@@ -129,6 +129,7 @@ export function generateHTML(groupedNews, options = {}) {
   const date = formatDate(new Date());
   const title = options.title || `AI 每日快报（${date}）`;
   const subtitle = options.subtitle || '今日精选 AI 资讯';
+  const footerText = options.footerText || `AI 每日快报 · ${date}`;
   
   const content = renderContent(groupedNews);
   const coveredSections = SECTION_ORDER
@@ -164,8 +165,8 @@ export function generateHTML(groupedNews, options = {}) {
     
     <!-- 底部 -->
     <div style="margin-top:32px;padding-top:20px;border-top:1px solid #e5e7eb;text-align:center;color:#94a3b8;font-size:12px;">
-      <div>AI 每日快报 · 每日 8:00 自动更新</div>
-      <div style="margin-top:8px;">${date}</div>
+      <div>${escapeHtml(footerText)}</div>
+      <div style="margin-top:8px;">北京时间自动更新</div>
     </div>
     
   </div>
@@ -182,6 +183,8 @@ export function generateHTML(groupedNews, options = {}) {
 export function generateWechatHTML(groupedNews, options = {}) {
   const date = formatDate(new Date());
   const title = options.title || `AI 每日快报（${date}）`;
+  const subtitle = options.subtitle || '今日精选 AI 行业资讯';
+  const footerText = options.footerText || `AI 每日快报 · ${date}`;
   
   let content = '';
   
@@ -226,7 +229,7 @@ export function generateWechatHTML(groupedNews, options = {}) {
   
   return `<section style="font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;line-height:1.8;color:#333;max-width:677px;margin:0 auto;padding:0 2px;">
     <h1 style="text-align:center;color:#1c5cff;font-size:24px;line-height:1.45;margin:0 0 8px;font-weight:900;">${escapeHtml(title)}</h1>
-    <p style="text-align:center;color:#94a3b8;font-size:13px;margin:0 0 22px;">今日精选 AI 行业资讯</p>
+    <p style="text-align:center;color:#94a3b8;font-size:13px;margin:0 0 22px;">${escapeHtml(subtitle)}</p>
     
     <p style="background:#f8fbff;border:1px solid #dbeafe;border-left:4px solid #1c5cff;padding:12px 14px;margin:0 0 24px;font-size:13px;color:#475569;line-height:1.8;border-radius:8px;">
       📌 本期精选 AI 行业资讯。
@@ -235,7 +238,7 @@ export function generateWechatHTML(groupedNews, options = {}) {
     ${content}
     
     <p style="text-align:center;color:#94a3b8;font-size:12px;margin-top:30px;padding-top:20px;border-top:1px solid #e5e7eb;">
-      AI 每日快报 · ${date}
+      ${escapeHtml(footerText)}
     </p>
   </section>`;
 }
