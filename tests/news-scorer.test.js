@@ -110,6 +110,34 @@ describe('News scorer', () => {
     expect(scoring.score >= 0).toBe(true);
   });
 
+  it('rejects low-trust sources even when the title looks strong', () => {
+    const now = new Date().toISOString();
+    const scoring = scoreNews({
+      title: 'OpenAI Sora视频平台采用创意优先算法，拒绝社交媒体套路',
+      summary: 'OpenAI正式推出Sora视频平台，其核心是新的推荐系统，鼓励用户创作而非被动浏览。',
+      source: 'MEXC',
+      publishedAt: now,
+      region: '海外',
+      url: 'https://example.com/mexc'
+    }, []);
+
+    expect(scoring.isDuplicate).toBe(true);
+  });
+
+  it('rejects title-summary mismatch content', () => {
+    const now = new Date().toISOString();
+    const scoring = scoreNews({
+      title: 'OpenAI技术在伊朗可能的应用场景',
+      summary: 'OpenAI与五角大楼达成协议，允许其AI技术用于机密军事任务，但具体部署时间未定。',
+      source: 'MIT Technology Review',
+      publishedAt: now,
+      region: '海外',
+      url: 'https://example.com/iran'
+    }, []);
+
+    expect(scoring.isDuplicate).toBe(true);
+  });
+
   it('keeps category diversity when enough candidates exist', () => {
     const now = new Date().toISOString();
     const makeItem = (title, category, index) => ({

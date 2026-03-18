@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fetchAllNews } from './rss-fetcher.js';
 import { summarizeNews, refineSelectedNews, isDisplayReadyNews, isReaderFriendlySummary, isSummaryComplete, normalizeDisplaySummary } from './ai-summarizer.js';
-import { selectTopNews } from './news-scorer.js';
+import { checkSemanticDuplicate, selectTopNews } from './news-scorer.js';
 import { generateHTML, generateWechatHTML } from './html-formatter.js';
 import {
   getBeijingDateString,
@@ -21,10 +21,10 @@ async function saveOutput(baseDir, filename, content) {
   await fs.writeFile(filepath, content, 'utf-8');
   console.log(`💾 已保存: ${filepath}`);
 
-  if (filename === 'latest.json') {
-    const latestPath = path.join(baseDir, filename);
-    await fs.writeFile(latestPath, content, 'utf-8');
-    console.log(`💾 已保存: ${latestPath}`);
+  if (filename === 'latest.json' || filename.startsWith('latest-')) {
+    const rootPath = path.join(baseDir, filename);
+    await fs.writeFile(rootPath, content, 'utf-8');
+    console.log(`💾 已保存: ${rootPath}`);
   }
 
   return filepath;
@@ -92,6 +92,34 @@ async function loadPreviousEditionNews(baseDir, referenceDate = new Date(), edit
 
 function buildEditionOutputName(prefix, date, edition, extension) {
   return `${prefix}-${date}-${edition}.${extension}`;
+}
+
+function filterAgainstPreviousEdition(items, previousNews) {
+  if (!Array.isArray(items) || items.length === 0 || !Array.isArray(previousNews) || previousNews.length === 0) {
+    return {
+      kept: items || [],
+      removed: []
+    };
+  }
+
+  const removed = [];
+  const kept = [];
+
+  for (const item of items) {
+    const duplicateCheck = checkSemanticDuplicate(item, previousNews);
+    if (duplicateCheck.isDuplicate) {
+      removed.push({
+        title: item.title,
+        source: item.source,
+        reason: duplicateCheck.reason,
+        matchedWith: duplicateCheck.matchedWith || ''
+      });
+    } else {
+      kept.push(item);
+    }
+  }
+
+  return { kept, removed };
 }
 
 async function loadYesterdayNews(baseDir, referenceDate = new Date()) {
@@ -196,14 +224,19 @@ export async function runDailyNews(options = {}) {
     ...item,
     summary: normalizeDisplaySummary(item.summary)
   }));
-  const displayReadyNews = normalizedRefinedNews.filter(item => isDisplayReadyNews(item));
-  const fallbackDisplayNews = normalizedRefinedNews.filter(item =>
+  const previousEditionFiltered = filterAgainstPreviousEdition(normalizedRefinedNews, previousEditionNews);
+  if (previousEditionFiltered.removed.length > 0) {
+    console.log(`\n🧱 跨版次去重: 额外过滤 ${previousEditionFiltered.removed.length} 条与上一版重复的候选`);
+  }
+  const filteredRefinedNews = previousEditionFiltered.kept;
+  const displayReadyNews = filteredRefinedNews.filter(item => isDisplayReadyNews(item));
+  const fallbackDisplayNews = filteredRefinedNews.filter(item =>
     !displayReadyNews.some(readyItem => (readyItem.url || readyItem.title) === (item.url || item.title)) &&
     isSummaryComplete(item.summary) &&
     isReaderFriendlySummary(item.summary)
   );
   const topNews = [...displayReadyNews, ...fallbackDisplayNews].slice(0, targetCount);
-  const removedWeakSummaries = refinedNews.length - displayReadyNews.length;
+  const removedWeakSummaries = filteredRefinedNews.length - displayReadyNews.length;
   const fallbackDisplayCount = Math.max(0, topNews.length - displayReadyNews.length);
   if (removedWeakSummaries > 0) {
     console.log(`\n🧽 摘要净化: 过滤掉 ${removedWeakSummaries} 条不适合直接展示给读者的摘要`);
@@ -264,6 +297,8 @@ export async function runDailyNews(options = {}) {
       },
       display: {
         refinedCount: refinedNews.length,
+        previousEditionRemovedCount: previousEditionFiltered.removed.length,
+        postEditionFilterCount: filteredRefinedNews.length,
         displayReadyCount: displayReadyNews.length,
         fallbackDisplayCount,
         removedWeakSummaries,

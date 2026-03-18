@@ -58,9 +58,11 @@ describe('Index date handling', () => {
 
   it('stores edition-specific history filenames in the runner', () => {
     const runnerSource = readFileSync(new URL('../src/daily-news-runner.js', import.meta.url), 'utf-8');
+    const workflowSource = readFileSync(new URL('../.github/workflows/daily-news.yml', import.meta.url), 'utf-8');
     expect(runnerSource).toInclude("buildEditionOutputName('news', date, edition, 'json')");
     expect(runnerSource).toInclude('latest-${edition}.json');
     expect(runnerSource).toInclude('loadPreviousEditionNews');
+    expect(workflowSource).toInclude('latest-*.json');
   });
 });
 

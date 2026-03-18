@@ -10,6 +10,11 @@ import { isDisplayReadyNews } from './ai-summarizer.js';
 const dedupEngine = new DeduplicationEngine();
 const CATEGORY_PRIORITY = ['产品发布与更新', '技术与研究', '投融资与并购', '政策与监管'];
 const RELAXED_QUALITY_THRESHOLD = Math.max(QUALITY_THRESHOLD - 4, 14);
+const LOW_TRUST_SOURCES = new Set(['MEXC', 'WPBF']);
+const SOURCE_ALIASES = {
+  '36 Kr': '36氪'
+};
+const LOCATION_KEYWORDS = ['伊朗', '美国', '中国', '印度', '欧洲', '乌克兰', '俄罗斯', '以色列', '中东', '日本', '韩国'];
 
 function getCategoryQuotaPlan(targetCount) {
   const basePlan = [
@@ -131,6 +136,7 @@ function extractCoreEntities(text) {
     '多模态', 'transformer', 'diffusion', '强化学习', 'rlhf', 'rag',
     '具身智能', '生成式ai', 'ag'
   ];
+  const locations = LOCATION_KEYWORDS;
   
   // 人名
   const persons = [
@@ -151,8 +157,39 @@ function extractCoreEntities(text) {
   for (const p of persons) {
     if (lowerText.includes(p.toLowerCase())) entities.push(normalizeEntity(p));
   }
+  for (const location of locations) {
+    if (lowerText.includes(location.toLowerCase())) entities.push(normalizeEntity(location));
+  }
   
   return [...new Set(entities)]; // 去重
+}
+
+function normalizeSourceName(source) {
+  return SOURCE_ALIASES[source] || source;
+}
+
+function hasBlockedSource(source) {
+  return LOW_TRUST_SOURCES.has(normalizeSourceName(source));
+}
+
+function hasTitleSummaryConsistency(title, summary = '') {
+  if (!title || !summary) return true;
+
+  const titleEntities = extractCoreEntities(title);
+  const summaryEntities = extractCoreEntities(summary);
+
+  for (const location of LOCATION_KEYWORDS) {
+    if (title.includes(location) && !summary.includes(location)) {
+      return false;
+    }
+  }
+
+  if (titleEntities.length === 0) {
+    return true;
+  }
+
+  const overlap = titleEntities.filter(entity => summaryEntities.includes(entity));
+  return overlap.length >= Math.max(1, Math.min(2, titleEntities.length));
 }
 
 /**
@@ -373,6 +410,10 @@ export function scoreNews(news, existingTitles) {
   if (isDuplicate(news.title, existingTitles)) {
     return { score: 0, isDuplicate: true, reason: '重复新闻' };
   }
+
+  if (hasBlockedSource(news.source)) {
+    return { score: 0, isDuplicate: true, reason: '低可信来源' };
+  }
   
   // AI行业相关性检查 - 标题或摘要必须包含AI关键词
   // 放宽： RSS源已经是AI相关媒体，只过滤明显非AI的
@@ -412,11 +453,16 @@ export function scoreNews(news, existingTitles) {
       }
     }
   }
+
+  if (!hasTitleSummaryConsistency(news.title, news.summary)) {
+    return { score: 0, isDuplicate: true, reason: '标题与摘要不一致' };
+  }
   
   const substance = calculateSubstanceScore(news.title, news.summary);
   const importance = calculateImportanceScore(news.title, news.summary);
   const timeliness = calculateTimeliness(news.publishedAt);
-  const credibility = SOURCE_CREDIBILITY[news.source] || 5;
+  const normalizedSource = normalizeSourceName(news.source);
+  const credibility = SOURCE_CREDIBILITY[normalizedSource] || 4;
   const displayReady = isDisplayReadyNews(news);
   const displayPenalty = displayReady ? 3 : -2;
   const totalScore = Math.max(0, substance + importance + timeliness + credibility + displayPenalty);
