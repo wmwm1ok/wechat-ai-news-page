@@ -3,7 +3,7 @@
   "edition": "afternoon",
   "editionLabel": "下午版",
   "title": "AI 下午版（Afternoon）",
-  "generatedAt": "2026/3/18 16:02",
+  "generatedAt": "2026/3/18 16:22",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -12,9 +12,9 @@
     "candidateTargetCount": 23,
     "fetch": {
       "domesticBeforeDedup": 23,
-      "overseasBeforeDedup": 131,
+      "overseasBeforeDedup": 130,
       "domesticAfterDedup": 22,
-      "overseasAfterDedup": 130,
+      "overseasAfterDedup": 129,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -69,7 +69,7 @@
       ],
       "serper": {
         "enabled": true,
-        "count": 115,
+        "count": 114,
         "queryCount": 12,
         "resultLimit": 6,
         "error": null
@@ -81,32 +81,35 @@
     "scoring": {
       "totalInput": 57,
       "totalScored": 25,
-      "strictScoredCount": 21,
-      "relaxedCandidateCount": 4,
+      "strictScoredCount": 20,
+      "relaxedCandidateCount": 5,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 21,
+      "weakSummaryCount": 17,
       "selectedCandidateCount": 23,
-      "duplicateCount": 24,
-      "crossDayDuplicateCount": 15,
-      "lowQualityCount": 8,
-      "domesticAvailable": 16,
-      "overseasAvailable": 9,
+      "duplicateCount": 22,
+      "crossDayDuplicateCount": 13,
+      "lowQualityCount": 7,
+      "domesticAvailable": 15,
+      "overseasAvailable": 10,
       "sourceCount": {
         "36氪": 4,
         "雷锋网": 5,
         "The New Stack": 1,
         "InfoQ": 4,
+        "36 Kr": 1,
         "TechCrunch AI": 3,
-        "MEXC": 1,
         "量子位": 2,
-        "MIT Technology Review": 2,
-        "36 Kr": 1
+        "AOL.com": 1,
+        "The Decoder": 1,
+        "Futurism": 1
       }
     },
     "display": {
       "refinedCount": 23,
-      "displayReadyCount": 12,
-      "fallbackDisplayCount": 2,
+      "previousEditionRemovedCount": 1,
+      "postEditionFilterCount": 22,
+      "displayReadyCount": 11,
+      "fallbackDisplayCount": 3,
       "removedWeakSummaries": 11,
       "shortage": 0
     }
@@ -119,68 +122,8 @@
       "url": "https://www.infoq.cn/article/W7M9oc5rzG1mqROPB6yY?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 18 Mar 2026 14:44:26 GMT",
-      "summary": "易车数据团队基于Apache Doris构建了面向AI场景的数据底座，并利用其开源的Doris MCP工具，将SQL查询、获取库表Schema等能力封装成API，降低了智能代理接入数据平台的复杂度。",
-      "score": 46
-    },
-    {
-      "section": "技术与研究",
-      "title": "阿里云AI算力与存储产品价格上调，最高涨幅达34%",
-      "company": "阿里云",
-      "url": "https://www.leiphone.com/category/industrynews/Z1Zg3exzLo2SXXZK.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 18 Mar 2026 12:50:00 +0800",
-      "summary": "阿里云于3月18日宣布，因全球AI需求激增及供应链成本上升，其AI算力与存储产品价格将上调。具体而言，平头哥真武810E等算力卡产品价格涨幅在5%至34%之间，文件存储产品CPFS（智算版）价格上涨30%。",
-      "score": 31
-    },
-    {
-      "section": "政策与监管",
-      "title": "报告称五角大楼正在开发Anthropic的替代方案",
-      "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 17 Mar 2026 18:20:15 +0000",
-      "summary": "因在合同中要求禁止美军将其AI用于大规模监控或部署自主武器，Anthropic与五角大楼的2亿美元合同谈判破裂。随后，五角大楼转而与OpenAI及马斯克的xAI达成合作，并将Anthropic列为“供应链风险”，禁止其合作方与Anthropic往来。",
-      "score": 22
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "OpenAI Sora视频平台采用创意优先算法，拒绝社交媒体套路",
-      "company": "OpenAI",
-      "url": "https://www.mexc.com/news/948182",
-      "source": "MEXC",
-      "publishedAt": "3 hours ago",
-      "summary": "OpenAI正式推出Sora视频平台，其核心是全新的推荐系统，旨在激励用户创作而非被动浏览。该系统采用了“可引导的排名”机制，允许用户通过互动（如点赞、评论）来主动影响视频内容的推荐排序，从而将平台焦点从单纯的消费转向鼓励参与和创造。",
-      "score": 22
-    },
-    {
-      "section": "技术与研究",
-      "title": "Garry Tan的Claude Code设置引发广泛讨论与争议",
-      "company": "Claude",
-      "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 17 Mar 2026 20:50:04 +0000",
-      "summary": "知名投资人Garry Tan在GitHub开源了他为Claude Code开发的6个定制化“技能”设置，这些技能以特定提示词文件形式存储，能指导AI扮演不同角色执行任务。Tan表示这套设置极大提升了他的编程效率，甚至能模拟他曾耗费两年时间、1000万美元风投资金和10人团队才完成的创业项目。",
-      "score": 31
-    },
-    {
-      "section": "技术与研究",
-      "title": "黄仁勋称龙虾为新操作系统，英伟达展示七种芯片构建算力系统并展望2027年营收目标",
-      "company": "英伟达",
-      "url": "https://www.qbitai.com/2026/03/388720.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 17 Mar 2026 13:08:23 +0000",
-      "summary": "英伟达CEO黄仁勋在演讲中，通过回顾公司从GeForce显卡到CUDA、RTX等技术的发展历程，引出了其最新的算力系统。他具体介绍了全新的Grace Blackwell NVLink 72芯片，其每瓦token吞吐量比上一代Hopper H200高出50倍，能效显著提升。",
-      "score": 30
-    },
-    {
-      "section": "技术与研究",
-      "title": "智能体并行写代码：每月处理3000个Issue，人类或成最薄弱环节",
-      "company": "",
-      "url": "https://www.infoq.cn/article/zujYMf0JwMxe2wLv6gaa?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 18 Mar 2026 15:13:52 GMT",
-      "summary": "文章探讨了AI智能体在软件开发中的两种具体应用模式。第一种是执行型智能体，它能根据环境自动重写测试用例以确保通过，并遵循“绝不触碰测试文件”等明确约束。第二种是探索性异步智能体，由AI制定大致方案，人类在完成90%工作后介入处理剩余10%。",
-      "score": 28
+      "summary": "易车数据团队基于Apache Doris构建了面向AI场景的数据底座，并利用其开源的Doris MCP工具为AI代理与数据平台的交互提供了标准化接口。该架构支持通过MCP执行SQL查询、获取库表信息等操作，降低了智能代理接入数据平台的复杂度。",
+      "score": 42
     },
     {
       "section": "技术与研究",
@@ -189,28 +132,88 @@
       "url": "https://www.infoq.cn/article/f692INME7iXBtfzWMwq6?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 18 Mar 2026 15:24:46 GMT",
-      "summary": "AI专家Jeremy Howard批评Claude Code等AI编程工具回避了软件开发中的必要学习过程，认为其无法替代真正的软件工程能力。他具体指出：1. 现代软件工程应注重模块化开发与探索式编程，并以他们团队开发Git差异比较工具解决Jupyter Notebook升级后合并冲突的具体案例，说明。",
-      "score": 24
+      "summary": "AI专家Jeremy Howard批评Claude Code等AI编程工具路线错误，认为其回避了软件工程中关键的“必要之难”。他基于实证指出，AI在需要突破训练数据边界、构建前所未有的新事物的软件工程领域表现糟糕。",
+      "score": 39
+    },
+    {
+      "section": "投融资与并购",
+      "title": "前腾讯AI专家刘巍创立视频初创公司，获8000万美元融资",
+      "company": "AMD, Tencent",
+      "url": "https://eu.36kr.com/en/p/3727714507635587",
+      "source": "36 Kr",
+      "publishedAt": "7 hours ago",
+      "summary": "前腾讯AI专家刘巍创立的AI视频生成公司Video Rebirth获8000万美元融资。该公司核心技术是构建高真实度数字世界的AI引擎，已被现代汽车集团ZER01NE用于训练物理AI的模拟场景，并与韩国CJ集团旗下HIVEN合作探索影视娱乐等商业应用。",
+      "score": 31
     },
     {
       "section": "技术与研究",
-      "title": "AI编程正终结框架时代：从运营回归工程本质",
+      "title": "Garry Tan的Claude Code设置引发广泛讨论与争议",
+      "company": "Claude",
+      "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 17 Mar 2026 20:50:04 +0000",
+      "summary": "Y Combinator总裁Garry Tan在GitHub开源了他为AI编程助手Claude Code开发的配置，包含六个可复用的‘技能’提示文件，用于指导AI扮演特定角色或执行任务。他声称这套工具极大提升了编程效率，甚至能模拟过去需要10人团队和千万美元投资的项目。",
+      "score": 31
+    },
+    {
+      "section": "技术与研究",
+      "title": "阿里云AI算力与存储产品价格上调，最高涨幅达34%",
+      "company": "阿里云",
+      "url": "https://www.leiphone.com/category/industrynews/Z1Zg3exzLo2SXXZK.html",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 18 Mar 2026 12:50:00 +0800",
+      "summary": "阿里云于3月18日宣布，因全球AI需求激增及供应链成本上涨，其部分AI产品价格将上调。具体而言，平头哥真武810E等算力卡产品价格涨幅在5%至34%之间，文件存储产品CPFS（智算版）价格上涨30%。",
+      "score": 30
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI编程如何改变软件开发：从框架依赖到基础工具回归",
       "company": "",
       "url": "https://www.infoq.cn/article/FyW5gwJotRRb8lUAO7z2?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 18 Mar 2026 15:43:26 GMT",
-      "summary": "文章指出，企业采用大公司（如谷歌、Meta、Vercel）的框架和云解决方案，本质是将软件开发从工程活动降级为运营活动，以降低对专业软件工程师的依赖，转而雇佣更易替换的特定框架开发者。",
-      "score": 21
+      "summary": "作者基于自身实践指出，企业依赖大厂框架和云服务，本质是为降低劳动力成本，便于雇佣和替换特定框架开发者，但这更像“运营”而非“工程”。作者通过使用前沿AI模型和编码代理，在良好设置的环境中高效解决具体问题，避免编写ORM、CRUD管理等重复样板代码，并强调这种能力源于二十年亲手编码的经验。",
+      "score": 27
     },
     {
       "section": "技术与研究",
-      "title": "OpenAI技术在伊朗可能的应用场景",
+      "title": "智能体并行写代码引热议，人类或成开发流程最薄弱环节",
+      "company": "",
+      "url": "https://www.infoq.cn/article/zujYMf0JwMxe2wLv6gaa?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 18 Mar 2026 15:13:52 GMT",
+      "summary": "文章探讨了AI智能体在软件开发中的两种具体应用模式。第一种是开发者给出明确指令，智能体能够智能地重写测试用例以确保通过，例如在测试用例有误时，模型会自行推断并重写逻辑以保证测试结果为真。",
+      "score": 24
+    },
+    {
+      "section": "技术与研究",
+      "title": "OpenAI放弃“多线并进”策略，聚焦编码工具与企业客户",
       "company": "OpenAI",
-      "url": "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Mon, 16 Mar 2026 17:06:21 +0000",
-      "summary": "OpenAI与五角大楼达成协议，允许其AI技术用于机密军事任务，但具体部署时间未定，需与军方现有系统整合。协议内容存在疑问：虽然OpenAI声称禁止用于制造自主武器和国内监控，但实际约束力有限，仅要求军方遵守自身宽松的准则。",
-      "score": 16
+      "url": "https://the-decoder.com/openai-reportedly-ditches-its-side-quests-strategy-to-focus-on-coding-tools-and-business-customers/",
+      "source": "The Decoder",
+      "publishedAt": "21 hours ago",
+      "summary": "据《华尔街日报》报道，OpenAI正进行重大战略调整，将收缩战线，聚焦于编码工具和企业客户两大核心领域。具体调整包括：1. 因内部项目过多导致资源分散、组织混乱，例如Sora视频生成团队被置于研究部门而非产品部门；2. 直接触发因素是竞争对手Anthropic凭借专注企业编码市场（如Claude C。",
+      "score": 19
+    },
+    {
+      "section": "技术与研究",
+      "title": "黄仁勋称龙虾为新操作系统，英伟达展示七种芯片构建算力系统并展望2027年营收目标",
+      "company": "英伟达",
+      "url": "https://www.qbitai.com/2026/03/388720.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 17 Mar 2026 13:08:23 +0000",
+      "summary": "英伟达CEO黄仁勋在演讲中，将OpenClaw开源Agent操作系统比作“龙虾”，并展示了由七种芯片构建的算力系统。他公布了具体技术突破：新一代Grace Blackwell芯片在AI推理中，每瓦token吞吐量比前代H200高出50倍；同时，与台积电联合开发的CoUP封装工艺，能将光学器件直接封装。",
+      "score": 18
+    },
+    {
+      "section": "技术与研究",
+      "title": "OpenAI高管在压力下削减项目",
+      "company": "OpenAI",
+      "url": "https://futurism.com/artificial-intelligence/openai-cutting-projects",
+      "source": "Futurism",
+      "publishedAt": "16 hours ago",
+      "summary": "面对每月数十亿美元的巨额亏损、数据中心算力争夺加剧以及谷歌Gemini的竞争威胁，OpenAI正承受巨大压力。公司高管已开始削减项目以聚焦核心业务，例如在2025年发布了有争议的文本转视频生成器Sora和速度缓慢的网页浏览器Atlas。",
+      "score": 18
     },
     {
       "section": "投融资与并购",
@@ -219,28 +222,18 @@
       "url": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/",
       "source": "TechCrunch AI",
       "publishedAt": "Tue, 17 Mar 2026 13:00:00 +0000",
-      "summary": "AI初创公司Niv-AI获得1200万美元种子轮融资，旨在通过实时监测与智能管理优化数据中心GPU的能耗。其具体方案包括：第一，在自有及合作方的GPU上部署毫秒级机架传感器，精准绘制不同深度学习任务的功耗曲线；第二，开发缓解技术，帮助数据中心更充分地利用现有电力容量，以应对电网对峰值功耗的担忧。",
+      "summary": "AI初创公司Niv-AI获得1200万美元种子轮融资，致力于解决数据中心GPU功耗激增问题。其具体方案包括：1. 部署毫秒级机架传感器，实时监测自有及合作方GPU的功耗数据；2. 分析不同深度学习任务的具体功耗特征，开发缓解技术以释放数据中心现有算力潜力；3. 计划未来6-8个月在少数美国数据中心部。",
       "score": 27
     },
     {
-      "section": "投融资与并购",
-      "title": "前腾讯AI专家刘巍创立视频初创公司，获8000万美元投资",
-      "company": "Tencent",
-      "url": "https://eu.36kr.com/en/p/3727714507635587",
-      "source": "36 Kr",
-      "publishedAt": "7 hours ago",
-      "summary": "前腾讯混元大模型核心技术负责人、IEEE/AAAS会士刘巍博士创立的AI视频生成公司Video Rebirth，近日获得8000万美元融资。其技术价值获现代汽车集团ZER01NE等投资方认可，被认为能构建高度逼真的数字世界，为物理AI训练提供仿真场景。",
-      "score": 24
-    },
-    {
       "section": "产品发布与更新",
-      "title": "阿里成立ATH事业群推出悟空AI平台，2000万企业用户将接入AI Agent能力",
+      "title": "阿里发布企业AI平台“悟空”，2000万企业用户将接入AI能力",
       "company": "阿里",
       "url": "https://36kr.com/p/3727395193388161?f=rss",
       "source": "36氪",
       "publishedAt": "2026-03-18 14:06:36  +0800",
       "summary": "悟空的诞生并非突然。去年 12 月底，钉钉发布“木兰版”时，无招就埋下了伏笔：钉钉的新定位是 Agent OS，全球首个为 AI 打造的工作智能操作系统。同时还推出了企业 AI 硬件 DingTalk Real。当时这个硬件里装的，就是现在悟空的雏形。",
-      "score": 31
+      "score": 35
     },
     {
       "section": "产品发布与更新",
@@ -250,7 +243,17 @@
       "source": "雷锋网",
       "publishedAt": "Tue, 17 Mar 2026 19:16:00 +0800",
       "summary": "冗余架构保障了系统的可靠性，决策和执行能力则决定了避险时的控制精度。泰山Ultra&黑武士采用行业顶尖的华为乾崑智驾ADS 4.1，避障更丝滑、变道更机敏。强大的决策能力离不开“强健身体”来精准执行，泰山Ultra&黑武士搭载魔毯底盘、双向16°后轮转向和“中国首创、世界前五”的三腔空悬，这套“底盘。",
-      "score": 30
+      "score": 29
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "OpenAI发布GPT-5.4 mini和nano，专为子代理时代打造",
+      "company": "OpenAI",
+      "url": "https://thenewstack.io/gpt-54-nano-mini/",
+      "source": "The New Stack",
+      "publishedAt": "13 hours ago",
+      "summary": "Notion AI Engineering Lead Abhisek Modi says this shift is already real. &ldquo;GPT-5.4 mini handles focused, well-defined tasks with impressive preci。",
+      "score": 29
     }
   ]
 }
