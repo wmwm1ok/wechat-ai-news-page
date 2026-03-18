@@ -1,0 +1,304 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "OpenAI Sora视频平台采用创意优先算法，拒绝社交媒体套路",
+      "url": "https://www.mexc.com/news/948182",
+      "snippet": "OpenAI's Sora video platform launches with recommendation system designed to inspire creation over passive scrolling, featuring steerable ranking and...",
+      "source": "MEXC",
+      "publishedAt": "3 hours ago",
+      "region": "海外",
+      "summary": "OpenAI正式推出Sora视频平台，其核心是全新的推荐系统，旨在激励用户创作而非被动浏览。该系统采用了“可引导的排名”机制，允许用户通过互动（如点赞、评论）来主动影响视频内容的推荐排序，从而将平台焦点从单纯的消费转向鼓励参与和创造。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 22,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "阿里成立ATH事业群推出悟空AI平台，2000万企业用户将接入AI Agent能力",
+      "url": "https://36kr.com/p/3727395193388161?f=rss",
+      "snippet": "对钉钉创始人无招而言，在 AI 时代顿悟的瞬间并不是 ChatGPT 横空出世，而是早在 2020 年。第一次离开钉钉时，他游历了大半个中国，调研了许许多多不同的城市，之后所想通的事。 “我想明白，AI 时代最颠覆性的变化不是其他，而是使用主体变了。”他看到，在二三线甚至更远的城市，因为互联网使用主体的变化，导致出现了各种各样不一样的应用供给——类似拼多多等应用崛起，就是这个逻辑。 而在大模型来了之后，这个判断更加清晰：在 AI 时代，互联网执行主体从人变成了 AI。 这个判断也贯穿了钉钉在 3 月 17 日举办的新品发布会。 几乎同一时间，阿里在 3 月 16 日宣布几乎是大模型时代以来最重要的战略调整——宣布正式成立 Alibaba Token Hub（ATH）事业群，千问事业部。钉钉事业部也被归在 ATH 事业群中，负责打造 B 端 AI 应用入口，将模型能力深度融入企业工作流。 3 月 16 日，阿里巴巴宣布正式成立 Alibaba Token Hub（ATH）事业群，千问事业部、悟空事业部等归入 ATH 事业群。其中悟空事业部定位为“打造 B 端 AI 应用入口，将模型能力深度融入企业工作流”。 来源：钉钉 这次发布会发生在阿里在完成关键战略重组之际，也是 ATH 事业群的第一次正式发布。 这次钉钉最重要的变化，就是推出了全新的 AI 原生工作平台“悟空”。颇具象征性的是，钉钉所在的事业群正式改名为“悟空事业部”。 悟空独立于钉钉，又以一种紧密的方式和钉钉共存——钉钉里的 Agent 能力，由悟空提供。这意味着所有 2000 万存量的企业用户，未来也可以在钉钉里用上悟空带来的能力。 从最初的来往、到钉钉，再到如今的“悟空事业群”。这是某种程度的“革自己的命吗”？ 悟空的诞生并非突然。去年 12 月底，钉钉发布“木兰版”时，无招就埋下了伏笔：钉钉的新定位是 Agent OS，全球首个为 AI 打造的工作智能操作系统。同时还推出了企业 AI 硬件 DingTalk Real。当时这个硬件里装的，就是现在悟空的雏形。 曾经的无招全身心推广钉钉，甚至自己都不用微信，和亲朋好友联系都只用钉钉；但现在的无招说自己“破除了我执”，“新时代，无论叫钉钉还是悟空都不重要了。”他说。 他解释说，这是因为，新时代的 AI work platform 不依赖于钉钉本体。“至于你是用钉钉还是不用钉钉，你用 Slack 还是 teams，还是用飞书还是企业微信？无所谓，悟空都可以接。” 在使用体验上，悟空是个比钉钉激进得多的产品。钉钉完成了全面 CLI（命令行界面）化改造，让悟空 Agent 能够原生操作钉钉上千项能力，而非模拟人类点击图形界面。 这意味着，过去需要人在钉钉上点击操作的功能，现在 AI 可以直接调用。用户在路上收到客户邮件，可以直接让悟空远程操作公司电脑下载文件，按照之前处理过的报关格式整理好发回来。整个过程不需要人工介入，AI 自己完成文件下载、格式整理、发送到手机的全部流程。 从“个人玩具”到企业生产力，悟空主打企业级安全 来源：钉钉 当前市面上的 AI Agent，大多还只能做些写文案、搜资料的工作。一旦要接入企业真实业务，问题就来了：谁有权限调用哪些数据？AI 做了什么操作能不能追溯？每天烧了多少 token 成本怎么算？这些问题都没解决。 悟空的设计逻辑完全不同。它直接继承企业的权限体系，员工能看什么数据，AI 就能看什么数据；所有操作都在沙箱里跑，留痕可查；token 消耗实时统计，像管预算一样管 AI 开支。 “这是悟空与其他 AI Agent 的根本区别：别人解决的是让 AI 能干活，悟空解决的是让 AI 在企业里安全、可控、算得清账地干活。”无招在发布会上表示。 这个差异背后，是钉钉团队近 10 个月的技术攻坚。无招在会后采访中坦言，要把企业级安全做到位，这并不容易。“光是文件读写，AI 可以一秒钟上千次，要做版本管理、做回退，这不是很多家公司可以做得到。” OpenClaw 爆火的同时，安全问题也在发酵。国家互联网应急中心在3月专门发了风险提示，核心问题是默认安全配置太弱，容易被攻击者拿到系统控制权；在国外，Meta、Google 都已经在公司设备上禁用或限制 OpenClaw。 钉钉的态度也很明确。OpenClaw爆火后，有不少国内企业咨询“能不能用 OpenClaw”，钉钉客服的回复是：没有专业人员做安全措施，不建议直接用在办公环境。 阿里系 B 端能力将陆续接入，目标“全球最大 toB Skill 市场” 按照规划，淘宝、天猫、1688、支付宝、阿里云这些阿里系的 B 端能力，都会以 Skill 的形式陆续接入悟空。 拿1688选品作为例子，以前商家要自己一个个看供应商资质、比价格、谈条件。现在悟空可以帮用户做背景调查，自动筛掉不靠谱的供应商，全网比价后给出推荐。整个采购效率能提升不少。 悟空还同步上线了 AI 能力市场，从开发、审核、上架到分发，提供全套体系。悟空兼容开源 Skill，目标是做成“全球最大的 toB Skill 市场”。 来源：钉钉 此外，悟空这次还发布了 OPT（One Person Team，一人团队）解决方案，首批上线 10 个行业版本：电商、跨境电商、知识类博主、开发、门店、设计、制造、法律、财税、猎头。 和大多数通用 Agent 框架不一样，悟空 OPT 给的不是空架子，而是打包好的“Skill 套件+工作流+行业数据”。用户只管做决策和验收，执行的工作 AI 来完成。 跨境电商就是个典型场景。以前，用户得自己刷亚马逊热榜、1688 比价、找供应商确认库存物流、优化商品标题、做多语言视频。现在悟空的“选品雷达—物料制作—卖点测试”一套流程下来，原本一周的活儿，一个下午就能搞定。 无招对36氪表示，未来，中国Agent真正的竞争力不在于拼原生大模型，“模型层，中国现在暂时拼不过，还需要时间追赶”。真正的强势在于模型和行业的结合，用行业数据产生的模型和经验。 “你让 AI 看懂一个制造业的翻修工图纸，如果能看懂，中国生产的指数级变革就开始了。”他说，“这才是我们应该关注的东西。” 来源：钉钉 悟空的野心不止于国内。按照规划，后续会支持接入微信、Slack 等全球主流 IM 平台，电脑端、手机端都能用。对钉钉的 2000 万企业用户来说，升级到 AI 2.0 版本就能直接用上悟空，原有的钉钉付费客户目前可以免费使用悟空。 悟空的发布，也标志着钉钉从协同办公工具正式进化为 AI 原生工作平台。“过去 11 年，钉钉改变了我们的工作方式，今天，悟空正在尝试定义 AI 时代全新的工作方式。”无招说。",
+      "source": "36氪",
+      "publishedAt": "2026-03-18 14:06:36  +0800",
+      "region": "国内",
+      "summary": "悟空的诞生并非突然。去年 12 月底，钉钉发布“木兰版”时，无招就埋下了伏笔：钉钉的新定位是 Agent OS，全球首个为 AI 打造的工作智能操作系统。同时还推出了企业 AI 硬件 DingTalk Real。当时这个硬件里装的，就是现在悟空的雏形。",
+      "category": "产品发布与更新",
+      "company": "阿里",
+      "score": 31,
+      "breakdown": {
+        "substance": 11,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    },
+    {
+      "title": "岚图泰山Ultra及黑武士上市，搭载896线激光雷达实现L3级自动驾驶",
+      "url": "https://www.leiphone.com/category/industrynews/ttp3X0P8LC0TW1Hs.html",
+      "snippet": "【2026年3月17日】在央视新闻的全程见证下，定位为“全新一代896线激光雷达旗舰SUV”的岚图泰山Ultra和岚图泰山黑武士迎来重要时刻。完成L3级道路实测与极限挑战的岚图泰山Ultra下线交付，官方售价45.99万元；极具东方侠客风骨的岚图泰山黑武士同步上市，售价50.99万元。岚图泰山Ultra及黑武士不仅代表着央国企按L3级架构设计的产品量产落地，更以全栈自研架构与顶级合作伙伴方案的深度融合，推动中国智能驾驶迈向新时代。 34颗感知硬件 织成“无处不察”的守护网 与L2级辅助驾驶相比，L3级有条件自动驾驶的核心理念从“人开车、车帮忙”进阶为“人+车+车备份”，这是一次根本的角色重构，也是自动驾驶进化的关键一步，它不是简单的功能叠加，而是从底层架构到软件算法的全栈体系能力跃迁，感知能力正是其中的基石。 岚图泰山Ultra及黑武士拥有一套行业领先的感知硬件矩阵，全车共搭载34个感知智慧传感器，包括4颗激光雷达、5颗4D毫米波雷达等，构建起360°无死角、全天候、全场景的感知网络。其中，全球量产最高规格的896线双光路图像级激光雷达，分辨率比目前主流的192线激光雷达提升4倍，能在120米外稳定识别仅14厘米高的小目标，并为系统留出3秒以上的反应时间。针对夜间黑色的轮胎、横倒的锥桶等低反射率与异型障碍物，其感知识别距离分别提升190%和77%。岚图泰山Ultra&黑武士率先将这一顶级感知硬件量产装车，让896线激光雷达不再是实验室参数，而是用户可触达的真实体验。目前，搭载该激光雷达的岚图泰山Ultra试驾车已到店，用户可亲身感受“超视距”感知带来的安全底气。 在真实道路的压力测试中，这套感知体系的实力浮出水面。针对城市道路的日常博弈，如前车加塞、洒水车挡路、施工路段绕行，34颗传感器协同工作，平顺通过。高速行驶状态下，面对前车突然掉落的不规则障碍物，896线激光雷达超视距精准识别，让车辆从容完成避让。在自动泊车测试中，面对后方两米高落差的“悬崖车位”和悬空障碍物，车尾的DTOF补盲雷达发挥关键作用，以厘米级精度构建环境模型，轻松泊入。“驾驶员失能测试”中，系统通过DMS驾驶员状态监测判断驾驶员“失能”后，自动开启双闪、平稳变道至路边安全刹停，并主动拨打SOS救援电话。岚图泰山Ultra&黑武士用这套感知体系提前“看见”危险，将行车安全提升到新高度。 五大冗余与顶尖底盘 铸就“稳如泰山”的底气 感知能力的飞跃只是第一步，L3时代需要构建一套以冗余为基石的安全体系。泰山Ultra&黑武士在转向、制动、电源、通讯、感知五大关键系统上实现全冗余，为L3级有条件自动驾驶打好坚实地基，为用户提供双倍安全。在“泡沫车遮挡测试”中，即使前向感知硬件被大面积遮挡，车辆也能准确完成自主靠边停车，这不仅是技术的跨越，更是对“安全至上”的坚守。 冗余架构保障了系统的可靠性，决策和执行能力则决定了避险时的控制精度。泰山Ultra&黑武士采用行业顶尖的华为乾崑智驾ADS 4.1，避障更丝滑、变道更机敏。强大的决策能力离不开“强健身体”来精准执行，泰山Ultra&黑武士搭载魔毯底盘、双向16°后轮转向和“中国首创、世界前五”的三腔空悬，这套“底盘王炸”不仅能从容应对泥泞碎石、实现“稳如泰山”的舒适，更能在紧急避险瞬间提供强大支撑。道路测试中，在前车加塞时，系统并非简单粗暴急刹，而是通过轨迹预测与路径规划，小幅减速并微调车道，平顺通过；遇到洒水车挡路、施工路段和两侧大车，减速避让和加速通过的动作精准连贯。华为顶尖的智驾能力与岚图深厚的整车功底深度融合，让感知、决策、执行形成完整的技术闭环。 “藏锋”美学与极致工艺 泰山黑武士为中国当代侠者而来 如果说泰山Ultra代表了中国智驾的科技“远见”，那么泰山黑武士则以材料科学与制造工艺的极致追求，展现出独属东方的审美底蕴。它以“藏锋”为设计哲学，将锋芒敛于细节，气场蕴于车身，以极致工艺将中式风骨与硬核技术融为一体。 以首创的“天地星芒轮毂”为例，历经预处理、底粉、PVD、透明粉等10道工序，在高真空环境中沉积出深邃的黑铬金属膜，实现了阳光下层次丰富的深邃黑色和镜面亮光效果。这种“五彩斑斓的黑”，是PVD工艺与多层喷涂共同作用的结果。此外，大面积应用的航空级碳纤维套件，不仅带来轻量化收益，更以独有纹理传递顶级豪车的基因密码。定制开发的甲胄绗缝座椅、黑红撞色内饰，将力量与热血融为一体，让每次落座都唤醒心中的侠客豪情。 更值得关注的，是岚图泰山黑武士对功能性与工程美学的细节打磨，配备的智能调光玻璃，可实现从全透到极致隐私的10档精细化调节，秒级响应、场景联动，透光率调控精度与响应速度均达到行业领先水平；高端夹层玻璃工艺保障安全，给用户带来“百万级的豪华排面”。此外，从手工编织的598颗灯珠星空顶，到每一次按下墨晶璀璨按键时万道剑光的绽放，岚图泰山黑武士用看得见的匠心，回应着用户对“藏得住锋芒，镇得住全场”的渴望。 当前，L3级有条件自动驾驶正处在政策与商业化的关键窗口期。岚图泰山Ultra&黑武士完成了从定义到量产的全栈能力验证，除上述的感知、冗余与架构，在动力与补能维度，两款车型搭载岚海智能超混系统，配备65度大电池和5C超充技术，补能速度快，配合专属混合热泵系统，在零下40℃极寒环境中依然稳定运行，兑现了“纵横全地形，通行全场景”的承诺。两款产品不仅证明中国品牌有能力打造面向L3时代的顶级智能座驾，更以技术落地与审美表达的完整闭环，成为推动中国智能驾驶迈向新阶段的里程碑之作。这份底气，正是中国汽车走向全球最坚实的通行证。",
+      "source": "雷锋网",
+      "publishedAt": "Tue, 17 Mar 2026 19:16:00 +0800",
+      "region": "国内",
+      "summary": "冗余架构保障了系统的可靠性，决策和执行能力则决定了避险时的控制精度。泰山Ultra&黑武士采用行业顶尖的华为乾崑智驾ADS 4.1，避障更丝滑、变道更机敏。强大的决策能力离不开“强健身体”来精准执行，泰山Ultra&黑武士搭载魔毯底盘、双向16°后轮转向和“中国首创、世界前五”的三腔空悬，这套“底盘。",
+      "category": "产品发布与更新",
+      "company": "岚图",
+      "score": 30,
+      "breakdown": {
+        "substance": 21,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 5,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "Apache Doris在易车AI与实时湖仓架构中的落地实践",
+      "url": "https://www.infoq.cn/article/W7M9oc5rzG1mqROPB6yY?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 18 Mar 2026 14:44:26 GMT",
+      "region": "国内",
+      "summary": "易车数据团队基于Apache Doris构建了面向AI场景的数据底座，并利用其开源的Doris MCP工具，将SQL查询、获取库表Schema等能力封装成API，降低了智能代理接入数据平台的复杂度。",
+      "category": "技术与研究",
+      "company": "易车",
+      "score": 46,
+      "breakdown": {
+        "substance": 20,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "阿里云AI算力与存储产品价格上调，最高涨幅达34%",
+      "url": "https://www.leiphone.com/category/industrynews/Z1Zg3exzLo2SXXZK.html",
+      "snippet": "3月18日消息，阿里云官网发布公告：因全球AI需求爆发、供应链涨价，阿里云AI算力、存储等产品最高涨价34％。其中，平头哥真武810E等算力卡产品上涨5%-34%，文件存储产品CPFS（智算版）上涨30%。据知情人士透露，此轮涨价另一个重要原因是“Token调用量暴涨”。阿里云的MaaS业务百炼在今年1-3月创下了历史最高增速。阿里云正在将紧缺的AI算力资源向Token业务倾斜。 雷峰网",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 18 Mar 2026 12:50:00 +0800",
+      "region": "国内",
+      "summary": "阿里云于3月18日宣布，因全球AI需求激增及供应链成本上升，其AI算力与存储产品价格将上调。具体而言，平头哥真武810E等算力卡产品价格涨幅在5%至34%之间，文件存储产品CPFS（智算版）价格上涨30%。",
+      "category": "技术与研究",
+      "company": "阿里云",
+      "score": 31,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 5,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Garry Tan的Claude Code设置引发广泛讨论与争议",
+      "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
+      "snippet": "Thousands of people are trying Garry Tan's Claude Code setup, which was shared on GitHub. And everyone has an opinion: even Claude, ChatGPT, and Gemini.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 17 Mar 2026 20:50:04 +0000",
+      "region": "海外",
+      "summary": "知名投资人Garry Tan在GitHub开源了他为Claude Code开发的6个定制化“技能”设置，这些技能以特定提示词文件形式存储，能指导AI扮演不同角色执行任务。Tan表示这套设置极大提升了他的编程效率，甚至能模拟他曾耗费两年时间、1000万美元风投资金和10人团队才完成的创业项目。",
+      "category": "技术与研究",
+      "company": "Claude",
+      "score": 31,
+      "breakdown": {
+        "substance": 6,
+        "importance": 6,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "黄仁勋称龙虾为新操作系统，英伟达展示七种芯片构建算力系统并展望2027年营收目标",
+      "url": "https://www.qbitai.com/2026/03/388720.html",
+      "snippet": "所有人都在等老黄掏出新芯片，但他没有掏，先用一小时教全世界CEO看一张图",
+      "source": "量子位",
+      "publishedAt": "Tue, 17 Mar 2026 13:08:23 +0000",
+      "region": "国内",
+      "summary": "英伟达CEO黄仁勋在演讲中，通过回顾公司从GeForce显卡到CUDA、RTX等技术的发展历程，引出了其最新的算力系统。他具体介绍了全新的Grace Blackwell NVLink 72芯片，其每瓦token吞吐量比上一代Hopper H200高出50倍，能效显著提升。",
+      "category": "技术与研究",
+      "company": "英伟达",
+      "score": 30,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "智能体并行写代码：每月处理3000个Issue，人类或成最薄弱环节",
+      "url": "https://www.infoq.cn/article/zujYMf0JwMxe2wLv6gaa?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 18 Mar 2026 15:13:52 GMT",
+      "region": "国内",
+      "summary": "文章探讨了AI智能体在软件开发中的两种具体应用模式。第一种是执行型智能体，它能根据环境自动重写测试用例以确保通过，并遵循“绝不触碰测试文件”等明确约束。第二种是探索性异步智能体，由AI制定大致方案，人类在完成90%工作后介入处理剩余10%。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 28,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI专家Jeremy Howard批评Claude Code路线错误，认为AI在软件工程领域表现糟糕",
+      "url": "https://www.infoq.cn/article/f692INME7iXBtfzWMwq6?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 18 Mar 2026 15:24:46 GMT",
+      "region": "国内",
+      "summary": "AI专家Jeremy Howard批评Claude Code等AI编程工具回避了软件开发中的必要学习过程，认为其无法替代真正的软件工程能力。他具体指出：1. 现代软件工程应注重模块化开发与探索式编程，并以他们团队开发Git差异比较工具解决Jupyter Notebook升级后合并冲突的具体案例，说明。",
+      "category": "技术与研究",
+      "company": "Claude",
+      "score": 24,
+      "breakdown": {
+        "substance": 3,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI编程正终结框架时代：从运营回归工程本质",
+      "url": "https://www.infoq.cn/article/FyW5gwJotRRb8lUAO7z2?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 18 Mar 2026 15:43:26 GMT",
+      "region": "国内",
+      "summary": "文章指出，企业采用大公司（如谷歌、Meta、Vercel）的框架和云解决方案，本质是将软件开发从工程活动降级为运营活动，以降低对专业软件工程师的依赖，转而雇佣更易替换的特定框架开发者。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI技术在伊朗可能的应用场景",
+      "url": "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/",
+      "snippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. It’s been just over two weeks since OpenAI reached a controversial agreement to allow the Pentagon to use its AI in classified environments. There are still pressing questions about what exactly OpenAI’s…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 16 Mar 2026 17:06:21 +0000",
+      "region": "海外",
+      "summary": "OpenAI与五角大楼达成协议，允许其AI技术用于机密军事任务，但具体部署时间未定，需与军方现有系统整合。协议内容存在疑问：虽然OpenAI声称禁止用于制造自主武器和国内监控，但实际约束力有限，仅要求军方遵守自身宽松的准则。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 16,
+      "breakdown": {
+        "substance": 1,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 10,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "Niv-AI获1200万美元种子轮融资以优化GPU功耗",
+      "url": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/",
+      "snippet": "The company raised $12 million in seed funding to measure and manage GPU power surges.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 17 Mar 2026 13:00:00 +0000",
+      "region": "海外",
+      "summary": "AI初创公司Niv-AI获得1200万美元种子轮融资，旨在通过实时监测与智能管理优化数据中心GPU的能耗。其具体方案包括：第一，在自有及合作方的GPU上部署毫秒级机架传感器，精准绘制不同深度学习任务的功耗曲线；第二，开发缓解技术，帮助数据中心更充分地利用现有电力容量，以应对电网对峰值功耗的担忧。",
+      "category": "投融资与并购",
+      "company": "Niv-AI",
+      "score": 27,
+      "breakdown": {
+        "substance": 10,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "前腾讯AI专家刘巍创立视频初创公司，获8000万美元投资",
+      "url": "https://eu.36kr.com/en/p/3727714507635587",
+      "snippet": "QbitAI has learned that there is new progress in the startup project of Liu Wei, a former top AI expert at Tencent. Just now, the AI video startup Video...",
+      "source": "36 Kr",
+      "publishedAt": "7 hours ago",
+      "region": "海外",
+      "summary": "前腾讯混元大模型核心技术负责人、IEEE/AAAS会士刘巍博士创立的AI视频生成公司Video Rebirth，近日获得8000万美元融资。其技术价值获现代汽车集团ZER01NE等投资方认可，被认为能构建高度逼真的数字世界，为物理AI训练提供仿真场景。",
+      "category": "投融资与并购",
+      "company": "Tencent",
+      "score": 24,
+      "breakdown": {
+        "substance": 14,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 5,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "报告称五角大楼正在开发Anthropic的替代方案",
+      "url": "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/",
+      "snippet": "After their dramatic falling-out, it doesn't seem as though Anthropic and the Pentagon are getting back together.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 17 Mar 2026 18:20:15 +0000",
+      "region": "海外",
+      "summary": "因在合同中要求禁止美军将其AI用于大规模监控或部署自主武器，Anthropic与五角大楼的2亿美元合同谈判破裂。随后，五角大楼转而与OpenAI及马斯克的xAI达成合作，并将Anthropic列为“供应链风险”，禁止其合作方与Anthropic往来。",
+      "category": "政策与监管",
+      "company": "Anthropic",
+      "score": 22,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
