@@ -3,7 +3,7 @@
   "edition": "afternoon",
   "editionLabel": "午后版",
   "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/18 18:43",
+  "generatedAt": "2026/3/18 18:56",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -12,9 +12,9 @@
     "candidateTargetCount": 23,
     "fetch": {
       "domesticBeforeDedup": 23,
-      "overseasBeforeDedup": 130,
+      "overseasBeforeDedup": 131,
       "domesticAfterDedup": 22,
-      "overseasAfterDedup": 128,
+      "overseasAfterDedup": 131,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -69,7 +69,7 @@
       ],
       "serper": {
         "enabled": true,
-        "count": 113,
+        "count": 114,
         "queryCount": 12,
         "resultLimit": 6,
         "error": null
@@ -80,37 +80,38 @@
     },
     "scoring": {
       "totalInput": 57,
-      "totalScored": 25,
-      "strictScoredCount": 17,
+      "totalScored": 26,
+      "strictScoredCount": 18,
       "relaxedCandidateCount": 8,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 14,
+      "weakSummaryCount": 13,
       "selectedCandidateCount": 23,
-      "duplicateCount": 20,
+      "duplicateCount": 21,
       "crossDayDuplicateCount": 13,
-      "lowQualityCount": 6,
+      "lowQualityCount": 4,
       "domesticAvailable": 14,
-      "overseasAvailable": 11,
+      "overseasAvailable": 12,
       "sourceCount": {
         "36氪": 3,
         "雷锋网": 4,
+        "The Neuron": 1,
         "InfoQ": 5,
         "量子位": 2,
-        "TechCrunch AI": 3,
-        "The Neuron": 1,
+        "36 Kr": 1,
+        "AOL.com": 1,
         "The New Stack": 1,
+        "TechCrunch AI": 2,
         "The Decoder": 1,
         "MIT Technology Review": 1,
-        "Futurism": 1,
-        "36 Kr": 1
+        "Futurism": 1
       }
     },
     "display": {
       "refinedCount": 23,
-      "previousEditionRemovedCount": 0,
+      "previousEditionRemovedCount": 1,
       "integrityRemovedCount": 3,
-      "postEditionFilterCount": 20,
-      "displayReadyCount": 14,
+      "postEditionFilterCount": 19,
+      "displayReadyCount": 13,
       "fallbackDisplayCount": 1,
       "removedWeakSummaries": 6,
       "shortage": 0
@@ -124,22 +125,22 @@
       "url": "https://www.leiphone.com/category/industrynews/tV77lutdcOoeTvje.html",
       "source": "雷锋网",
       "publishedAt": "Wed, 18 Mar 2026 15:11:00 +0800",
-      "summary": "阿里云于3月18日宣布，因全球AI需求激增及供应链成本上升，将对旗下AI算力、存储等产品进行涨价。具体来看，涨幅最高的是其自研的平头哥真武810E算力卡，价格上调达34%，这一涨幅超过了同期英伟达系列算力卡产品的调价幅度。",
+      "summary": "阿里云于3月18日宣布，因全球AI需求激增及供应链成本上涨，将对旗下AI算力、存储等产品进行价格上调。本次调价中，涨幅最高的是平头哥真武810E算力卡，价格提升达34%，其涨幅超过了英伟达系列算力卡产品。",
       "score": 29
     },
     {
       "section": "产品发布与更新",
-      "title": "TDSQL Boundless：AI时代的多模态数据库技术解析",
-      "company": "",
-      "url": "https://www.infoq.cn/article/foslK73gb4vm9PmKdezs?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 18 Mar 2026 16:51:51 GMT",
-      "summary": "TDSQL Boundless是一款面向AI时代的多模态数据库，其核心在于通过统一的分布式存储层和智能的多模态计算引擎层，解决传统架构中数据孤岛与实时分析困难的问题。具体而言，它通过统一的查询协调器，将SQL等查询智能分解并下推到最合适的OLTP、OLAP或专用引擎执行，提供单一数据库体验。",
-      "score": 28
+      "title": "OpenAI GPT-5.4 Mini和Nano：子代理功能详解",
+      "company": "OpenAI",
+      "url": "https://www.theneurondaily.com/p/openai-gave-gpt-5-4-mini-its-own-interns",
+      "source": "The Neuron",
+      "publishedAt": "1 hour ago",
+      "summary": "OpenAI发布了GPT-5.4 Mini和Nano两款新模型，其核心定位是作为“子代理”，旨在为更复杂的AI工作流程提供支持。具体而言，这两款模型的设计目标是实现更便宜、更快速的AI任务处理。",
+      "score": 27
     },
     {
       "section": "产品发布与更新",
-      "title": "阿里发布企业AI平台“悟空”，2000万企业用户将接入Agent能力",
+      "title": "阿里推出企业AI平台“悟空”，2000万企业用户将接入Agent能力",
       "company": "阿里",
       "url": "https://36kr.com/p/3727395193388161?f=rss",
       "source": "36氪",
@@ -154,18 +155,18 @@
       "url": "https://www.infoq.cn/article/W7M9oc5rzG1mqROPB6yY?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 18 Mar 2026 14:44:26 GMT",
-      "summary": "易车数据团队基于Apache Doris构建了面向AI场景的数据底座，具体实践包括：1. 利用开源的Doris MCP工具，封装了执行SQL查询、获取库表Schema等操作的API，降低了智能代理接入数据平台的复杂度。",
-      "score": 46
+      "summary": "易车数据团队基于Apache Doris构建了面向AI场景的数据底座，具体包括：1. 利用开源的Doris MCP工具，封装出支持SQL查询、获取库表Schema等操作的API，降低了智能代理接入数据平台的复杂度。",
+      "score": 43
     },
     {
       "section": "技术与研究",
-      "title": "淘天集团启动2027届实习生招聘，技术岗超九成并新增三类AI岗位",
+      "title": "淘天集团启动2027届实习生招聘，新增三类AI岗位并全面拥抱AI",
       "company": "淘天",
       "url": "https://www.qbitai.com/2026/03/388972.html",
       "source": "量子位",
       "publishedAt": "Wed, 18 Mar 2026 08:55:43 +0000",
-      "summary": "淘天集团于3月18日启动2027届实习生招聘，技术岗占比超90%，并新增AI应用研发、AI Agent优化及AI应用算法三类岗位，旨在将大模型能力转化为可上线、可迭代的产品。集团将从3月31日起在华中科技大学、浙江大学等十余所高校进行宣讲。",
-      "score": 40
+      "summary": "淘天集团于3月18日启动2027届实习生招聘，技术岗位占比超九成，并新增三类AI岗位：AI应用研发工程师负责端到端解决复杂问题；AI Agent优化工程师旨在将AI变为业务增长引擎；AI应用算法工程师则专注于将大模型能力转化为可上线、可迭代且成本可控的产品。",
+      "score": 37
     },
     {
       "section": "技术与研究",
@@ -174,58 +175,68 @@
       "url": "https://www.qbitai.com/2026/03/388720.html",
       "source": "量子位",
       "publishedAt": "Tue, 17 Mar 2026 13:08:23 +0000",
-      "summary": "英伟达CEO黄仁勋在演讲中展示了由七种芯片构建的新算力系统。其核心芯片Grace Blackwell NVLink 72在AI推理基准测试中，每瓦token吞吐量比上一代H200高出50倍，旨在以更低能耗处理AI任务。",
-      "score": 30
+      "summary": "英伟达CEO黄仁勋在演讲中回顾了公司从游戏显卡到AI芯片的发展历程。他重点介绍了新一代Grace Blackwell NVLink 72芯片，其AI推理性能大幅提升：在基准测试中，每瓦电力产生的token吞吐量比上一代H200高出50倍。",
+      "score": 36
     },
     {
       "section": "投融资与并购",
-      "title": "Niv-AI获1200万美元种子轮融资以优化GPU能效",
+      "title": "前腾讯AI专家刘威创办视频初创公司，获8000万美元融资",
+      "company": "Tencent",
+      "url": "https://eu.36kr.com/en/p/3727714507635587",
+      "source": "36 Kr",
+      "publishedAt": "10 hours ago",
+      "summary": "前腾讯混元大模型核心技术负责人、IEEE/AAAS会士刘威博士于2024年底离职创业，专注于AI视频生成领域。其创立的公司Video Rebirth近日完成8000万美元融资，投资方包括现代汽车集团的ZER01NE和韩国CJ集团的HIVEN。",
+      "score": 31
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Niv-AI获1200万美元种子轮融资以优化GPU功耗",
       "company": "Niv-AI",
       "url": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/",
       "source": "TechCrunch AI",
       "publishedAt": "Tue, 17 Mar 2026 13:00:00 +0000",
-      "summary": "AI初创公司Niv-AI获得1200万美元种子轮融资，旨在解决数据中心GPU能耗波动问题。其具体方案包括：第一，部署毫秒级机架传感器，实时监测自有及合作方GPU的功耗，以分析不同深度学习任务的具体能耗特征。",
+      "summary": "AI初创公司Niv-AI获得1200万美元种子轮融资，专注于解决数据中心GPU的功耗峰值问题。其具体方案包括：第一，部署毫秒级机架传感器，实时监测自有及合作GPU的功耗数据，以分析不同深度学习任务的具体功耗特征；第二，旨在开发缓解技术，帮助数据中心更充分地利用现有电力容量，从而提升GPU性能与能效。",
       "score": 27
     },
     {
-      "section": "投融资与并购",
-      "title": "AI投资性别失衡或加剧女性财富差距",
-      "company": "未提及具体公司",
-      "url": "https://techcrunch.com/2026/03/17/ais-boys-club-could-widen-the-wealth-gap-for-women-says-rana-el-kaliouby/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 17 Mar 2026 15:16:21 +0000",
-      "summary": "AI科学家兼投资者Rana el Kaliouby在SXSW会议上警告，当前AI领域存在严重的性别失衡，正演变为一个‘男孩俱乐部’。她指出，这种失衡具体体现在：女性创始人难以获得融资，女性投资者在AI投资基金中占比不足，女性在领导职位中被边缘化。",
-      "score": 17
-    },
-    {
-      "section": "政策与监管",
-      "title": "OpenAI GPT-5.4 Mini和Nano：子代理功能详解",
-      "company": "OpenAI",
-      "url": "https://www.theneurondaily.com/p/openai-gave-gpt-5-4-mini-its-own-interns",
-      "source": "The Neuron",
-      "publishedAt": "1 hour ago",
-      "summary": "OpenAI发布了GPT-5.4 Mini和Nano两款模型，其核心变化是作为“子代理”角色，旨在构建更廉价、更快速的AI工作流程。与此同时，美国国防部（五角大楼）正在开发自己的大语言模型，目的是为了替代目前使用的Anthropic公司的模型。",
-      "score": 28
+      "section": "技术与研究",
+      "title": "AI大师Jeremy Howard批评Claude Code路线错误，认为AI在软件工程领域表现糟糕",
+      "company": "Claude",
+      "url": "https://www.infoq.cn/article/f692INME7iXBtfzWMwq6?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 18 Mar 2026 15:24:46 GMT",
+      "summary": "AI专家Jeremy Howard批评Claude Code等工具回避了软件开发中的“必要之难”，导致开发者无法构建深刻理解。他提出具体方法：1. 应专注中等规模模块化开发，确保组件可控可设计，并以探索式编程深化认知。",
+      "score": 36
     },
     {
       "section": "技术与研究",
-      "title": "Garry Tan的Claude Code设置为何引发广泛爱恨反应",
+      "title": "Garry Tan的Claude Code设置引发广泛讨论与争议",
       "company": "Claude",
       "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
       "source": "TechCrunch AI",
       "publishedAt": "Tue, 17 Mar 2026 20:50:04 +0000",
-      "summary": "Y Combinator总裁Garry Tan近日在GitHub开源了他为AI编程助手Claude Code开发的个性化设置，引发了开发者社区的广泛讨论。该设置包含六个他编写的“技能”文件，这些文件本质上是可复用的提示词，用于指导Claude在特定编程任务中扮演不同角色。",
+      "summary": "Y Combinator总裁Garry Tan在GitHub开源了他为AI编程助手Claude Code开发的配置，包含6个他自创的、用于特定角色或任务的“技能”提示文件。他声称这套工具极大提升了编程效率，甚至能模拟他曾耗费两年、1000万美元风投和10人团队才完成的创业项目。",
       "score": 29
     },
     {
       "section": "技术与研究",
-      "title": "智能体并行写代码引热议，人类或成开发流程最薄弱环节",
+      "title": "TDSQL Boundless：AI时代的多模态数据库技术解析",
+      "company": "",
+      "url": "https://www.infoq.cn/article/foslK73gb4vm9PmKdezs?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 18 Mar 2026 16:51:51 GMT",
+      "summary": "TDSQL Boundless是一款面向AI时代的多模态数据库，其核心在于通过统一的分布式存储层和智能的多模态计算引擎层，将OLTP、OLAP及专用引擎（如向量搜索）协同工作，为用户提供单一数据库体验。",
+      "score": 28
+    },
+    {
+      "section": "技术与研究",
+      "title": "智能体并行写代码引关注，人类或成开发流程最薄弱环节",
       "company": "",
       "url": "https://www.infoq.cn/article/zujYMf0JwMxe2wLv6gaa?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 18 Mar 2026 15:13:52 GMT",
-      "summary": "文章探讨了AI智能体在软件开发中的两种具体应用模式。第一种是开发者给出明确指令，智能体能够智能地重写测试用例以确保通过，例如在测试用例有误时，模型会重写它们来保证结果为真。第二种是开发者仅设定大致目标，由多个探索性异步智能体制定具体方案，开发者后期再介入完成剩余部分。",
-      "score": 28
+      "summary": "文章探讨了AI智能体在软件开发中的两种具体应用模式。第一种是智能体能自行推断并执行任务，例如主动重写有误的测试用例以确保测试通过，其核心逻辑明确但实现方式可能晦涩。第二种是运行多个探索性异步智能体，它们根据大致目标制定具体方案，通常需要人工在后期介入处理剩余部分。",
+      "score": 25
     },
     {
       "section": "技术与研究",
@@ -234,27 +245,17 @@
       "url": "https://www.infoq.cn/article/FyW5gwJotRRb8lUAO7z2?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 18 Mar 2026 15:43:26 GMT",
-      "summary": "作者指出，AI编程正促使企业转向大公司框架和云方案，以降低对传统软件工程师的依赖，转而雇佣更易替换的特定框架开发者。编码代理能高效处理自动化、样板代码等繁琐工作，让开发者专注于解决手头具体问题，而非预先构建复杂系统。",
-      "score": 24
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI元老Jeremy Howard批评Claude Code路线错误，称马斯克和Dario不懂现代软件工程",
-      "company": "Claude",
-      "url": "https://www.infoq.cn/article/f692INME7iXBtfzWMwq6?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 18 Mar 2026 15:24:46 GMT",
-      "summary": "AI元老Jeremy Howard批评Claude Code等工具回避了编程中的“必要摩擦”，导致开发者无法通过犯错和更新模型来真正学习。他提出应专注于中等规模的模块化开发，并以自身实践为例：为解决Jupyter Notebook升级后组件失效的问题。",
+      "summary": "文章指出，AI编程正促使企业转向采用大公司（如谷歌、Meta、Vercel）的框架和云解决方案，从而降低对传统软件工程师的依赖，转而雇佣更易替换的特定框架（如React）开发者。",
       "score": 21
     },
     {
       "section": "技术与研究",
-      "title": "OpenAI据称放弃“多线并进”策略，专注编码工具与商业客户",
+      "title": "据报道OpenAI放弃“多线并行”策略，专注编码工具和商业客户",
       "company": "OpenAI",
       "url": "https://the-decoder.com/openai-reportedly-ditches-its-side-quests-strategy-to-focus-on-coding-tools-and-business-customers/",
       "source": "The Decoder",
       "publishedAt": "23 hours ago",
-      "summary": "据《华尔街日报》报道，OpenAI正进行重大战略调整，从“多线并进”转向聚焦两大核心领域：编码工具与商业客户。具体变化包括：1. 将缩减非核心项目，例如计划把独立的Sora视频生成应用整合进主ChatGPT应用，因其初期火爆后使用量迅速停滞。",
+      "summary": "据《华尔街日报》报道，OpenAI正进行重大战略调整，将收缩战线，从同时推进多个产品转向聚焦于两大核心领域：编码工具和商业客户。具体变化包括：1. 公司将重新评估并缩减部分项目，例如计划将独立的视频生成应用Sora整合进主产品ChatGPT中。",
       "score": 19
     }
   ]
