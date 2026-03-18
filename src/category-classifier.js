@@ -1,8 +1,8 @@
 const CATEGORY_SET = new Set(['产品发布与更新', '技术与研究', '投融资与并购', '政策与监管']);
 
 const FINANCE_KEYWORDS = [
-  '融资', '募资', '投资', '并购', '收购', '种子轮', '天使轮', 'pre-a', 'pre-b',
-  'a轮', 'b轮', 'c轮', 'd轮', 'ipo', '估值', '基金', '注资', '领投', '跟投', '财报', '业绩'
+  '融资', '募资', '并购', '收购', '种子轮', '天使轮', 'pre-a', 'pre-b',
+  'a轮', 'b轮', 'c轮', 'd轮', 'ipo', '估值', '注资', '领投', '跟投', '财报', '业绩'
 ];
 
 const POLICY_KEYWORDS = [
@@ -55,20 +55,19 @@ export function classifyNewsCategory(item = {}) {
   const fullText = normalizeText(title, summary);
 
   const financeHits = countMatches(fullText, FINANCE_KEYWORDS);
+  const titleFinanceHits = countMatches(titleText, FINANCE_KEYWORDS);
   const policyHits = countMatches(fullText, POLICY_KEYWORDS);
+  const titlePolicyHits = countMatches(titleText, POLICY_KEYWORDS);
   const researchHits = countMatches(fullText, RESEARCH_KEYWORDS);
+  const titleResearchHits = countMatches(titleText, RESEARCH_KEYWORDS);
   const productActionHits = countMatches(titleText, PRODUCT_ACTION_KEYWORDS);
   const productActionContextHits = countMatches(fullText, PRODUCT_ACTION_KEYWORDS);
   const productObjectHits = countMatches(fullText, PRODUCT_OBJECT_KEYWORDS);
   const titleProductObjectHits = countMatches(titleText, PRODUCT_OBJECT_KEYWORDS);
   const businessDynamicsHits = countMatches(fullText, BUSINESS_DYNAMICS_KEYWORDS);
 
-  if (financeHits >= 1) {
+  if (titleFinanceHits >= 1 || financeHits >= 2) {
     return '投融资与并购';
-  }
-
-  if (policyHits >= 1) {
-    return '政策与监管';
   }
 
   const strongProductSignal =
@@ -76,11 +75,16 @@ export function classifyNewsCategory(item = {}) {
       (productActionHits >= 1 && productObjectHits >= 1) ||
       (productActionContextHits >= 1 && titleProductObjectHits >= 1)
     ) &&
+    titleResearchHits === 0 &&
     businessDynamicsHits === 0 &&
     financeHits === 0;
 
-  if (strongProductSignal) {
+  if (strongProductSignal && titlePolicyHits === 0) {
     return '产品发布与更新';
+  }
+
+  if (policyHits >= 1) {
+    return '政策与监管';
   }
 
   if (researchHits >= 1 || businessDynamicsHits >= 1) {

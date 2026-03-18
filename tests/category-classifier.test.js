@@ -62,6 +62,24 @@ describe('Category classifier', () => {
 
     expect(category).toBe('技术与研究');
   });
+
+  it('keeps technical explainers out of product updates', () => {
+    const category = classifyNewsCategory({
+      title: 'TDSQL Boundless：AI时代的多模态数据库技术解析',
+      summary: '这是一篇数据库架构解析，重点介绍多引擎协同、HTAP能力和向量检索设计。'
+    });
+
+    expect(category).toBe('技术与研究');
+  });
+
+  it('does not treat generic investment discussion as financing news', () => {
+    const category = classifyNewsCategory({
+      title: 'AI投资性别失衡或加剧女性财富差距',
+      summary: '文章讨论AI行业中的性别失衡问题，以及女性在创业、融资和投资机会上的结构性困难。'
+    });
+
+    expect(category).toBe('技术与研究');
+  });
 });
 
 console.log('🧪 Running CategoryClassifier Tests...\n');
