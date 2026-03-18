@@ -204,6 +204,25 @@ describe('AI summarizer helpers', () => {
 
     expect(result.length <= 150).toBe(true);
   });
+
+  it('cuts long single-sentence summaries at a natural boundary instead of mid-word', () => {
+    const result = normalizeDisplaySummary(
+      'AI初创公司Niv-AI近日获得1200万美元种子轮融资，正式从隐身模式走出。该公司专注于解决数据中心GPU能耗波动问题，其核心方案是在数据中心与电网之间构建一个智能层，具体而言正在部署机架级传感器，以毫秒级精度监测自有及合作方GPU的实时功耗，目标是分析不同深度学习任务的具体能耗特征并优化调度。'
+    );
+
+    expect(result.includes('能耗特。')).toBe(false);
+    expect(result.endsWith('。')).toBe(true);
+  });
+
+  it('rejects mostly English summaries from final display', () => {
+    const result = isDisplayReadyNews({
+      title: 'OpenAI发布GPT-5.4 mini和nano，专为子代理时代打造',
+      snippet: 'The New Stack discusses GPT-5.4 mini and nano for agentic workloads.',
+      summary: 'Notion AI Engineering Lead Abhisek Modi says this shift is already real. &ldquo;GPT-5.4 mini handles focused, well-defined tasks with impressive precision across agentic workflows.&rdquo;'
+    });
+
+    expect(result).toBe(false);
+  });
 });
 
 console.log('🧪 Running AISummarizer Helper Tests...\n');

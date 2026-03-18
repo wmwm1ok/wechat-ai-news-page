@@ -43,7 +43,8 @@ describe('Index date handling', () => {
   it('maps Beijing time to morning and afternoon editions', () => {
     expect(inferNewsEdition(new Date('2026-03-18T03:59:00Z'))).toBe('morning');
     expect(inferNewsEdition(new Date('2026-03-18T04:00:00Z'))).toBe('afternoon');
-    expect(getEditionMeta('afternoon').label).toBe('下午版');
+    expect(getEditionMeta('afternoon').label).toBe('午后版');
+    expect(getEditionMeta('afternoon').title).toBe('AI 日报·午后版');
   });
 
   it('uses the immediately previous edition for dedupe lookups', () => {

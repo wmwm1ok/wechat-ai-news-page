@@ -2,14 +2,14 @@ export const NEWS_EDITIONS = {
   morning: {
     slug: 'morning',
     label: '早报',
-    title: 'AI 早报',
+    title: 'AI 日报·早报',
     englishLabel: 'Morning',
     releaseTime: '08:00'
   },
   afternoon: {
     slug: 'afternoon',
-    label: '下午版',
-    title: 'AI 下午版',
+    label: '午后版',
+    title: 'AI 日报·午后版',
     englishLabel: 'Afternoon',
     releaseTime: '16:00'
   }

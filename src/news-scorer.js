@@ -15,6 +15,17 @@ const SOURCE_ALIASES = {
   '36 Kr': '36氪'
 };
 const LOCATION_KEYWORDS = ['伊朗', '美国', '中国', '印度', '欧洲', '乌克兰', '俄罗斯', '以色列', '中东', '日本', '韩国'];
+const AUTOMOTIVE_TERMS = [
+  '汽车', '新车', '车型', 'SUV', '轿车', '智驾', '自动驾驶', '辅助驾驶', '激光雷达', '底盘',
+  '座舱', '后轮转向', '上市', '续航', '电动车', '整车', '车企', '岚图', '比亚迪', '小鹏', '理想', '蔚来', '特斯拉'
+];
+const AUTOMOTIVE_LAUNCH_TERMS = [
+  '上市', '发布', '新车', '车型', '底盘', '激光雷达', '后轮转向', '续航', '售价', '交付', '魔毯底盘', '黑武士', 'Ultra'
+];
+const CORE_AI_SIGNAL_TERMS = [
+  'ai', '人工智能', '大模型', '模型', '算法', '训练', '推理', '多模态', '智能体', 'agent',
+  'llm', '世界模型', '端到端', 'vla', 'robotaxi', '数据集', '生成式', '具身智能', 'mcp'
+];
 
 function getCategoryQuotaPlan(targetCount) {
   const basePlan = [
@@ -190,6 +201,24 @@ function hasTitleSummaryConsistency(title, summary = '') {
 
   const overlap = titleEntities.filter(entity => summaryEntities.includes(entity));
   return overlap.length >= Math.max(1, Math.min(2, titleEntities.length));
+}
+
+function isLowSignalAutomotiveNews(news) {
+  const title = String(news?.title || '');
+  const summary = String(news?.summary || '');
+  const combined = `${title} ${summary}`.toLowerCase();
+  const hasAutomotiveSignal = AUTOMOTIVE_TERMS.some(term => combined.includes(term.toLowerCase()));
+
+  if (!hasAutomotiveSignal) {
+    return false;
+  }
+
+  const hasLaunchSignal = AUTOMOTIVE_LAUNCH_TERMS.some(term =>
+    title.includes(term) || summary.includes(term)
+  );
+  const aiSignalCount = CORE_AI_SIGNAL_TERMS.filter(term => combined.includes(term.toLowerCase())).length;
+
+  return hasLaunchSignal && aiSignalCount < 2;
 }
 
 /**
@@ -413,6 +442,10 @@ export function scoreNews(news, existingTitles) {
 
   if (hasBlockedSource(news.source)) {
     return { score: 0, isDuplicate: true, reason: '低可信来源' };
+  }
+
+  if (isLowSignalAutomotiveNews(news)) {
+    return { score: 0, isDuplicate: true, reason: '汽车发布但AI相关性不足' };
   }
   
   // AI行业相关性检查 - 标题或摘要必须包含AI关键词

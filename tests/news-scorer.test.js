@@ -138,6 +138,20 @@ describe('News scorer', () => {
     expect(scoring.isDuplicate).toBe(true);
   });
 
+  it('rejects consumer automotive launches with weak AI relevance', () => {
+    const now = new Date().toISOString();
+    const scoring = scoreNews({
+      title: '岚图泰山Ultra及黑武士上市，搭载896线激光雷达实现L3级自动驾驶',
+      summary: '该车型重点介绍了激光雷达、底盘、后轮转向和空悬配置，并强调上市与交付节奏。',
+      source: '雷锋网',
+      publishedAt: now,
+      region: '国内',
+      url: 'https://example.com/car'
+    }, []);
+
+    expect(scoring.isDuplicate).toBe(true);
+  });
+
   it('keeps category diversity when enough candidates exist', () => {
     const now = new Date().toISOString();
     const makeItem = (title, category, index) => ({

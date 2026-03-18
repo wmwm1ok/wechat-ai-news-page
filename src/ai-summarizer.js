@@ -161,11 +161,76 @@ function hasTruncatedEnding(summary) {
   return TRUNCATED_ENDING_PATTERNS.some(pattern => pattern.test(trimmed));
 }
 
+function decodeHtmlEntities(text) {
+  return String(text || '')
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/&ldquo;|&rdquo;/gi, '"')
+    .replace(/&lsquo;|&rsquo;/gi, "'")
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>');
+}
+
+function countChineseChars(text) {
+  return (String(text || '').match(/[\u4e00-\u9fff]/g) || []).length;
+}
+
+function countLatinChars(text) {
+  return (String(text || '').match(/[A-Za-z]/g) || []).length;
+}
+
+function isMostlyChineseSummary(summary) {
+  const normalized = decodeHtmlEntities(summary);
+  const chineseCount = countChineseChars(normalized);
+  const latinCount = countLatinChars(normalized);
+
+  if (chineseCount < 18) {
+    return false;
+  }
+
+  if (latinCount === 0) {
+    return true;
+  }
+
+  return chineseCount >= latinCount * 0.8;
+}
+
+function trimAtNaturalBoundary(text, maxLength) {
+  const normalized = String(text || '').trim();
+  if (!normalized || normalized.length <= maxLength) {
+    return normalized;
+  }
+
+  const candidate = normalized.slice(0, maxLength + 1);
+  const strongBreaks = ['。', '！', '？', '；', ';'];
+  const clauseBreaks = ['，', ',', '、', '：', ':'];
+  const minBoundaryIndex = Math.floor(maxLength * 0.55);
+
+  const lastStrongBreak = Math.max(...strongBreaks.map(char => candidate.lastIndexOf(char)));
+  if (lastStrongBreak >= minBoundaryIndex) {
+    return candidate.slice(0, lastStrongBreak + 1).trim().replace(/[；;]$/u, '。');
+  }
+
+  const lastClauseBreak = Math.max(...clauseBreaks.map(char => candidate.lastIndexOf(char)));
+  if (lastClauseBreak >= minBoundaryIndex) {
+    return candidate.slice(0, lastClauseBreak).trim().replace(/[，,、：:\s]+$/u, '') + '。';
+  }
+
+  const lastSpace = candidate.lastIndexOf(' ');
+  if (lastSpace >= Math.floor(maxLength * 0.7)) {
+    return candidate.slice(0, lastSpace).trim().replace(/[A-Za-z0-9-]+$/u, '').trim().replace(/[，,；;：:、\s]+$/u, '') + '。';
+  }
+
+  return candidate.slice(0, maxLength).trim().replace(/[A-Za-z0-9-]+$/u, '').trim().replace(/[，,；;：:、\s]+$/u, '') + '。';
+}
+
 // 检测摘要是否完整（不以...结尾且以句号/感叹号/问号结尾）
 export function isSummaryComplete(summary) {
   if (!summary || summary.length < 50) return false;
   
-  const trimmed = summary.trim();
+  const trimmed = decodeHtmlEntities(summary).trim();
   
   // 如果以...或…结尾，说明被截断了
   if (trimmed.endsWith('...') || trimmed.endsWith('…')) return false;
@@ -310,7 +375,7 @@ function extractCompanyFromTitle(title) {
 
 function normalizeSummary(summary) {
   if (!summary) return '暂无摘要';
-  summary = summary.trim();
+  summary = decodeHtmlEntities(summary).replace(/\s+/g, ' ').trim();
   const truncatedEnding = hasTruncatedEnding(summary);
   
   // 检查是否以完整句子结尾（。！？）
@@ -366,7 +431,7 @@ export function normalizeDisplaySummary(summary, options = {}) {
     .filter(Boolean);
 
   if (sentences.length <= 1) {
-    return normalized.slice(0, maxLength).replace(/[，,；;：:、\s]+$/u, '') + '。';
+    return trimAtNaturalBoundary(normalized, maxLength);
   }
 
   let result = '';
@@ -381,7 +446,7 @@ export function normalizeDisplaySummary(summary, options = {}) {
     return result;
   }
 
-  return normalized.slice(0, maxLength).replace(/[，,；;：:、\s]+$/u, '') + '。';
+  return trimAtNaturalBoundary(normalized, maxLength);
 }
 
 function countKnownEntities(text) {
@@ -466,7 +531,7 @@ export function isReaderFriendlySummary(summary) {
     return false;
   }
 
-  return !READER_WARNING_PATTERNS.some(pattern => pattern.test(normalized));
+  return !READER_WARNING_PATTERNS.some(pattern => pattern.test(normalized)) && isMostlyChineseSummary(normalized);
 }
 
 export function isDisplayReadyNews(item) {
