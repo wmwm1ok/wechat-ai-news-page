@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { CONFIG } from './config.js';
+import { classifyNewsCategory } from './category-classifier.js';
 
 function isCfcFastMode() {
   return process.env.CFC_FAST_MODE === 'true';
@@ -347,18 +348,8 @@ async function callDeepSeek(prompt) {
   }
 }
 
-function inferCategory(title) {
-  const t = title.toLowerCase();
-  if (t.includes('发布') || t.includes('上线') || t.includes('推出') || t.includes('更新') || t.includes('launch') || t.includes('release')) {
-    return '产品发布与更新';
-  }
-  if (t.includes('融资') || t.includes('投资') || t.includes('并购') || t.includes('收购') || t.includes('fund') || t.includes('invest')) {
-    return '投融资与并购';
-  }
-  if (t.includes('政策') || t.includes('监管') || t.includes('法规') || t.includes('版权') || t.includes('policy') || t.includes('regulation')) {
-    return '政策与监管';
-  }
-  return '技术与研究';
+function inferCategory(title, summary = '', category = '') {
+  return classifyNewsCategory({ title, summary, category });
 }
 
 function extractCompanyFromTitle(title) {
@@ -755,7 +746,7 @@ async function summarizeSingle(item, options = {}) {
         ...item,
         title: parsed.title_cn || item.title,
         summary: buildFallbackSummary(item, item.snippet || content, { comparisonMode }),
-        category: parsed.category || inferCategory(item.title),
+        category: inferCategory(parsed.title_cn || item.title, buildFallbackSummary(item, item.snippet || content, { comparisonMode }), parsed.category),
         company: parsed.company || extractCompanyFromTitle(item.title)
       };
     }
@@ -767,7 +758,7 @@ async function summarizeSingle(item, options = {}) {
         ...item,
         title: parsed.title_cn || item.title,
         summary: buildFallbackSummary(item, content, { comparisonMode, articleMode }),
-        category: parsed.category || inferCategory(item.title),
+        category: inferCategory(parsed.title_cn || item.title, buildFallbackSummary(item, content, { comparisonMode, articleMode }), parsed.category),
         company: parsed.company || extractCompanyFromTitle(item.title)
       };
     }
@@ -776,14 +767,15 @@ async function summarizeSingle(item, options = {}) {
       ...item,
       title: parsed.title_cn || item.title,
       summary: normalizedSummary,
-      category: parsed.category || inferCategory(item.title),
+      category: inferCategory(parsed.title_cn || item.title, normalizedSummary, parsed.category),
       company: parsed.company || extractCompanyFromTitle(item.title)
     };
   } catch (error) {
+    const fallbackSummary = buildFallbackSummary(item, content, { comparisonMode, articleMode });
     return {
       ...item,
-      summary: buildFallbackSummary(item, content, { comparisonMode, articleMode }),
-      category: inferCategory(item.title),
+      summary: fallbackSummary,
+      category: inferCategory(item.title, fallbackSummary),
       company: extractCompanyFromTitle(item.title)
     };
   }
@@ -890,24 +882,26 @@ ${batchPrompt}
         for (let j = 0; j < batch.length; j++) {
           const origItem = batch[j];
           const aiItem = parsed[j] || {};
+          const summary = isSpecificEnoughSummary(aiItem.summary, origItem.snippet)
+            ? normalizeSummary(aiItem.summary)
+            : buildFallbackSummary(origItem, origItem.snippet);
           
           results.push({
             ...origItem,
             title: aiItem.title_cn || origItem.title,
-            summary: isSpecificEnoughSummary(aiItem.summary, origItem.snippet)
-              ? normalizeSummary(aiItem.summary)
-              : buildFallbackSummary(origItem, origItem.snippet),
-            category: aiItem.category || inferCategory(origItem.title),
+            summary,
+            category: inferCategory(aiItem.title_cn || origItem.title, summary, aiItem.category),
             company: aiItem.company || extractCompanyFromTitle(origItem.title)
           });
         }
       }
     } catch (error) {
       for (const item of batch) {
+        const summary = normalizeSummary(item.snippet);
         results.push({
           ...item,
-          summary: normalizeSummary(item.snippet),
-          category: inferCategory(item.title),
+          summary,
+          category: inferCategory(item.title, summary),
           company: extractCompanyFromTitle(item.title)
         });
       }

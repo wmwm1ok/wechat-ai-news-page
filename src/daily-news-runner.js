@@ -3,6 +3,7 @@ import path from 'path';
 import { fetchAllNews } from './rss-fetcher.js';
 import { summarizeNews, refineSelectedNews, isDisplayReadyNews, isReaderFriendlySummary, isSummaryComplete, normalizeDisplaySummary } from './ai-summarizer.js';
 import { checkSemanticDuplicate, scoreNews, selectTopNews } from './news-scorer.js';
+import { classifyNewsCategory } from './category-classifier.js';
 import { generateHTML, generateWechatHTML } from './html-formatter.js';
 import {
   getBeijingDateString,
@@ -184,21 +185,7 @@ function normalizeCategories(topNews) {
         continue;
       }
     }
-
-    if (standardCategories.includes(news.category)) {
-      continue;
-    }
-
-    const title = news.title.toLowerCase();
-    if (title.includes('发布') || title.includes('上线') || title.includes('推出') || title.includes('更新')) {
-      news.category = '产品发布与更新';
-    } else if (title.includes('融资') || title.includes('投资') || title.includes('收购') || title.includes('并购')) {
-      news.category = '投融资与并购';
-    } else if (title.includes('政策') || title.includes('监管') || title.includes('法规') || title.includes('合规')) {
-      news.category = '政策与监管';
-    } else {
-      news.category = '技术与研究';
-    }
+    news.category = classifyNewsCategory(news);
   }
 
   const grouped = {};
@@ -325,7 +312,11 @@ export async function runDailyNews(options = {}) {
   const refinedNews = await refineSelectedNews(selectedNews);
   const normalizedRefinedNews = refinedNews.map(item => ({
     ...item,
-    summary: normalizeDisplaySummary(item.summary)
+    summary: normalizeDisplaySummary(item.summary),
+    category: classifyNewsCategory({
+      ...item,
+      summary: normalizeDisplaySummary(item.summary)
+    })
   }));
   const previousEditionFiltered = filterAgainstPreviousEdition(normalizedRefinedNews, previousEditionNews);
   if (previousEditionFiltered.removed.length > 0) {
