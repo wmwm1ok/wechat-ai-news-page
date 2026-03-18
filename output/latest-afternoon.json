@@ -3,7 +3,7 @@
   "edition": "afternoon",
   "editionLabel": "下午版",
   "title": "AI 下午版（Afternoon）",
-  "generatedAt": "2026/3/18 16:22",
+  "generatedAt": "2026/3/18 16:35",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -12,7 +12,7 @@
     "candidateTargetCount": 23,
     "fetch": {
       "domesticBeforeDedup": 23,
-      "overseasBeforeDedup": 130,
+      "overseasBeforeDedup": 131,
       "domesticAfterDedup": 22,
       "overseasAfterDedup": 129,
       "domesticSources": [
@@ -69,7 +69,7 @@
       ],
       "serper": {
         "enabled": true,
-        "count": 114,
+        "count": 115,
         "queryCount": 12,
         "resultLimit": 6,
         "error": null
@@ -80,37 +80,37 @@
     },
     "scoring": {
       "totalInput": 57,
-      "totalScored": 25,
+      "totalScored": 26,
       "strictScoredCount": 20,
-      "relaxedCandidateCount": 5,
+      "relaxedCandidateCount": 6,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 17,
+      "weakSummaryCount": 19,
       "selectedCandidateCount": 23,
-      "duplicateCount": 22,
-      "crossDayDuplicateCount": 13,
-      "lowQualityCount": 7,
-      "domesticAvailable": 15,
+      "duplicateCount": 21,
+      "crossDayDuplicateCount": 12,
+      "lowQualityCount": 8,
+      "domesticAvailable": 16,
       "overseasAvailable": 10,
       "sourceCount": {
         "36氪": 4,
         "雷锋网": 5,
         "The New Stack": 1,
         "InfoQ": 4,
-        "36 Kr": 1,
-        "TechCrunch AI": 3,
         "量子位": 2,
+        "TechCrunch AI": 3,
+        "Futurism": 1,
         "AOL.com": 1,
         "The Decoder": 1,
-        "Futurism": 1
+        "MIT Technology Review": 1
       }
     },
     "display": {
       "refinedCount": 23,
-      "previousEditionRemovedCount": 1,
-      "postEditionFilterCount": 22,
-      "displayReadyCount": 11,
-      "fallbackDisplayCount": 3,
-      "removedWeakSummaries": 11,
+      "previousEditionRemovedCount": 2,
+      "postEditionFilterCount": 21,
+      "displayReadyCount": 9,
+      "fallbackDisplayCount": 5,
+      "removedWeakSummaries": 12,
       "shortage": 0
     }
   },
@@ -122,28 +122,28 @@
       "url": "https://www.infoq.cn/article/W7M9oc5rzG1mqROPB6yY?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 18 Mar 2026 14:44:26 GMT",
-      "summary": "易车数据团队基于Apache Doris构建了面向AI场景的数据底座，并利用其开源的Doris MCP工具为AI代理与数据平台的交互提供了标准化接口。该架构支持通过MCP执行SQL查询、获取库表信息等操作，降低了智能代理接入数据平台的复杂度。",
-      "score": 42
+      "summary": "易车数据团队基于Apache Doris构建了面向AI场景的数据底座，具体实践包括：1. 利用其开源的MCP工具，封装了执行SQL查询、获取库表Schema等操作的API，降低了智能代理接入数据平台的复杂度；2. 利用Doris的多源联邦查询能力，统一访问数仓内的离线历史数据、实时增量数据及业务库维。",
+      "score": 46
     },
     {
       "section": "技术与研究",
-      "title": "AI专家Jeremy Howard批评Claude Code路线错误，认为AI在软件工程领域表现糟糕",
+      "title": "黄仁勋称龙虾为新操作系统，英伟达展示七种芯片构建算力系统并展望2027年营收目标",
+      "company": "英伟达",
+      "url": "https://www.qbitai.com/2026/03/388720.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 17 Mar 2026 13:08:23 +0000",
+      "summary": "英伟达CEO黄仁勋在演讲中展示了公司最新的算力系统，该系统由七种芯片构建。具体信息点包括：1. 最新的Grace Blackwell NVLink 72芯片在AI推理基准测试中，其每瓦token吞吐量比上一代Hopper H200高出50倍，旨在在固定功率下降低token成本。",
+      "score": 37
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI大师Jeremy Howard批评Claude Code路线错误，认为AI在软件工程领域表现糟糕",
       "company": "Claude",
       "url": "https://www.infoq.cn/article/f692INME7iXBtfzWMwq6?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 18 Mar 2026 15:24:46 GMT",
-      "summary": "AI专家Jeremy Howard批评Claude Code等AI编程工具路线错误，认为其回避了软件工程中关键的“必要之难”。他基于实证指出，AI在需要突破训练数据边界、构建前所未有的新事物的软件工程领域表现糟糕。",
-      "score": 39
-    },
-    {
-      "section": "投融资与并购",
-      "title": "前腾讯AI专家刘巍创立视频初创公司，获8000万美元融资",
-      "company": "AMD, Tencent",
-      "url": "https://eu.36kr.com/en/p/3727714507635587",
-      "source": "36 Kr",
-      "publishedAt": "7 hours ago",
-      "summary": "前腾讯AI专家刘巍创立的AI视频生成公司Video Rebirth获8000万美元融资。该公司核心技术是构建高真实度数字世界的AI引擎，已被现代汽车集团ZER01NE用于训练物理AI的模拟场景，并与韩国CJ集团旗下HIVEN合作探索影视娱乐等商业应用。",
-      "score": 31
+      "summary": "AI专家Jeremy Howard批评Claude Code等AI编程工具回避了软件开发中的必要学习过程，认为这导致开发者无法构建深刻的问题理解。他提出应注重模块化开发和探索式编程，并以自身实践为例：为解决Jupyter Notebook升级后组件失效的问题，其团队开发了merge驱动工具，实现了单。",
+      "score": 36
     },
     {
       "section": "技术与研究",
@@ -152,7 +152,7 @@
       "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
       "source": "TechCrunch AI",
       "publishedAt": "Tue, 17 Mar 2026 20:50:04 +0000",
-      "summary": "Y Combinator总裁Garry Tan在GitHub开源了他为AI编程助手Claude Code开发的配置，包含六个可复用的‘技能’提示文件，用于指导AI扮演特定角色或执行任务。他声称这套工具极大提升了编程效率，甚至能模拟过去需要10人团队和千万美元投资的项目。",
+      "summary": "Y Combinator总裁Garry Tan在GitHub开源分享了他为AI编程助手Claude Code开发的设置，包含6个他自创的“技能”文件，这些文件是指导AI扮演特定角色或执行任务的提示词模板。",
       "score": 31
     },
     {
@@ -162,67 +162,47 @@
       "url": "https://www.leiphone.com/category/industrynews/Z1Zg3exzLo2SXXZK.html",
       "source": "雷锋网",
       "publishedAt": "Wed, 18 Mar 2026 12:50:00 +0800",
-      "summary": "阿里云于3月18日宣布，因全球AI需求激增及供应链成本上涨，其部分AI产品价格将上调。具体而言，平头哥真武810E等算力卡产品价格涨幅在5%至34%之间，文件存储产品CPFS（智算版）价格上涨30%。",
+      "summary": "阿里云于3月18日宣布，因全球AI需求激增及供应链成本上涨，对部分AI产品进行价格上调。具体调整包括：平头哥真武810E等算力卡产品价格上涨5%至34%，文件存储产品CPFS（智算版）价格上涨30%。",
       "score": 30
     },
     {
       "section": "技术与研究",
-      "title": "AI编程如何改变软件开发：从框架依赖到基础工具回归",
+      "title": "AI编程或将终结框架时代",
       "company": "",
       "url": "https://www.infoq.cn/article/FyW5gwJotRRb8lUAO7z2?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 18 Mar 2026 15:43:26 GMT",
-      "summary": "作者基于自身实践指出，企业依赖大厂框架和云服务，本质是为降低劳动力成本，便于雇佣和替换特定框架开发者，但这更像“运营”而非“工程”。作者通过使用前沿AI模型和编码代理，在良好设置的环境中高效解决具体问题，避免编写ORM、CRUD管理等重复样板代码，并强调这种能力源于二十年亲手编码的经验。",
-      "score": 27
+      "summary": "作者指出，企业采用大公司框架（如谷歌、Meta、Vercel的解决方案）将软件开发从“工程”降级为“运营”，从而能用更易替换的特定框架开发者取代高成本的软件工程师。同时，AI编码代理能高效处理自动化与样板代码（如ORM、CRUD管理），让开发者能专注于解决手头具体问题，而非预先设计复杂架构。",
+      "score": 21
     },
     {
       "section": "技术与研究",
-      "title": "智能体并行写代码引热议，人类或成开发流程最薄弱环节",
+      "title": "智能体并行写代码引关注，人类或成开发流程最薄弱环节",
       "company": "",
       "url": "https://www.infoq.cn/article/zujYMf0JwMxe2wLv6gaa?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 18 Mar 2026 15:13:52 GMT",
-      "summary": "文章探讨了AI智能体在软件开发中的两种具体应用模式。第一种是开发者给出明确指令，智能体能够智能地重写测试用例以确保通过，例如在测试用例有误时，模型会自行推断并重写逻辑以保证测试结果为真。",
-      "score": 24
+      "summary": "文章探讨了AI智能体在软件开发中的两种具体应用模式。第一种是智能体能够理解开发环境并自动执行测试，甚至能重写测试用例以确保测试通过，开发者只需设定明确规则。第二种是使用多个探索性异步智能体来制定方案，开发者主要在后期介入处理剩余部分。",
+      "score": 21
     },
     {
       "section": "技术与研究",
-      "title": "OpenAI放弃“多线并进”策略，聚焦编码工具与企业客户",
+      "title": "OpenAI放弃“多线并进”策略，专注编码工具与商业客户",
       "company": "OpenAI",
       "url": "https://the-decoder.com/openai-reportedly-ditches-its-side-quests-strategy-to-focus-on-coding-tools-and-business-customers/",
       "source": "The Decoder",
       "publishedAt": "21 hours ago",
-      "summary": "据《华尔街日报》报道，OpenAI正进行重大战略调整，将收缩战线，聚焦于编码工具和企业客户两大核心领域。具体调整包括：1. 因内部项目过多导致资源分散、组织混乱，例如Sora视频生成团队被置于研究部门而非产品部门；2. 直接触发因素是竞争对手Anthropic凭借专注企业编码市场（如Claude C。",
+      "summary": "据《华尔街日报》报道，OpenAI正进行重大战略调整，将资源从分散的多个产品线集中到两大核心领域：编码工具和商业客户。具体变化包括：1. 公司将缩减或整合去年推出的多个产品，如Sora视频生成器、Atlas浏览器等，并计划将Sora的视频生成功能并入主ChatGPT应用。",
       "score": 19
     },
     {
-      "section": "技术与研究",
-      "title": "黄仁勋称龙虾为新操作系统，英伟达展示七种芯片构建算力系统并展望2027年营收目标",
-      "company": "英伟达",
-      "url": "https://www.qbitai.com/2026/03/388720.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 17 Mar 2026 13:08:23 +0000",
-      "summary": "英伟达CEO黄仁勋在演讲中，将OpenClaw开源Agent操作系统比作“龙虾”，并展示了由七种芯片构建的算力系统。他公布了具体技术突破：新一代Grace Blackwell芯片在AI推理中，每瓦token吞吐量比前代H200高出50倍；同时，与台积电联合开发的CoUP封装工艺，能将光学器件直接封装。",
-      "score": 18
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI高管在压力下削减项目",
-      "company": "OpenAI",
-      "url": "https://futurism.com/artificial-intelligence/openai-cutting-projects",
-      "source": "Futurism",
-      "publishedAt": "16 hours ago",
-      "summary": "面对每月数十亿美元的巨额亏损、数据中心算力争夺加剧以及谷歌Gemini的竞争威胁，OpenAI正承受巨大压力。公司高管已开始削减项目以聚焦核心业务，例如在2025年发布了有争议的文本转视频生成器Sora和速度缓慢的网页浏览器Atlas。",
-      "score": 18
-    },
-    {
       "section": "投融资与并购",
-      "title": "Niv-AI获1200万美元种子轮融资以优化GPU功耗",
+      "title": "Niv-AI获1200万美元种子轮融资以优化GPU能效",
       "company": "Niv-AI",
       "url": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/",
       "source": "TechCrunch AI",
       "publishedAt": "Tue, 17 Mar 2026 13:00:00 +0000",
-      "summary": "AI初创公司Niv-AI获得1200万美元种子轮融资，致力于解决数据中心GPU功耗激增问题。其具体方案包括：1. 部署毫秒级机架传感器，实时监测自有及合作方GPU的功耗数据；2. 分析不同深度学习任务的具体功耗特征，开发缓解技术以释放数据中心现有算力潜力；3. 计划未来6-8个月在少数美国数据中心部。",
+      "summary": "AI初创公司Niv-AI近日获得1200万美元种子轮融资，正式从隐身模式走出。该公司专注于解决数据中心GPU能耗波动问题，其核心方案是在数据中心与电网之间构建一个“智能层”。具体而言，Niv-AI正部署机架级传感器，以毫秒级精度监测自有及合作方GPU的实时功耗，目标是分析不同深度学习任务的具体能耗特。",
       "score": 27
     },
     {
@@ -251,8 +231,28 @@
       "company": "OpenAI",
       "url": "https://thenewstack.io/gpt-54-nano-mini/",
       "source": "The New Stack",
-      "publishedAt": "13 hours ago",
+      "publishedAt": "14 hours ago",
       "summary": "Notion AI Engineering Lead Abhisek Modi says this shift is already real. &ldquo;GPT-5.4 mini handles focused, well-defined tasks with impressive preci。",
+      "score": 29
+    },
+    {
+      "section": "投融资与并购",
+      "title": "章鱼动力获数亿元种子轮融资，地平线与头部美元基金入局",
+      "company": "章鱼动力",
+      "url": "https://www.leiphone.com/category/robot/vh4LFptBssKVEMEj.html",
+      "source": "雷锋网",
+      "publishedAt": "Tue, 17 Mar 2026 16:54:00 +0800",
+      "summary": "从已公开的联创背景来看，章鱼动力的班底颇具分量。创始人兼CEO都大龙，为地平线第6号员工、鉴智机器人联合创始人，也是鉴智的灵魂人物。早在百度时期，他就是 AI 体系内颇具代表性的天才型选手，并曾获得两次百度百万美金最高奖。",
+      "score": 38
+    },
+    {
+      "section": "投融资与并购",
+      "title": "腾讯音乐2025年Q4及全年财报发布，全年总收入329亿元",
+      "company": "腾讯音乐",
+      "url": "https://36kr.com/p/3727701336833157?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-18 08:16:21  +0800",
+      "summary": "36氪获悉，腾讯音乐发布截至2025年12月31日止第四季度及全年的未经审计财务业绩。腾讯音乐第四季度总收入86.4亿元，同比增长15.9%，调整后净利润25.8亿元，同比增长7.6%；全年总收入329亿元，同比增长15.8%，调整后净利润99.2亿元，同比增长22.0%。",
       "score": 29
     }
   ]
