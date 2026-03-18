@@ -1,9 +1,9 @@
 {
   "date": "2026/3/18",
   "edition": "afternoon",
-  "editionLabel": "下午版",
-  "title": "AI 下午版（Afternoon）",
-  "generatedAt": "2026/3/18 16:35",
+  "editionLabel": "午后版",
+  "title": "AI 日报·午后版（Afternoon）",
+  "generatedAt": "2026/3/18 17:02",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -14,7 +14,7 @@
       "domesticBeforeDedup": 23,
       "overseasBeforeDedup": 131,
       "domesticAfterDedup": 22,
-      "overseasAfterDedup": 129,
+      "overseasAfterDedup": 130,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -80,27 +80,27 @@
     },
     "scoring": {
       "totalInput": 57,
-      "totalScored": 26,
+      "totalScored": 25,
       "strictScoredCount": 20,
-      "relaxedCandidateCount": 6,
+      "relaxedCandidateCount": 5,
       "relaxedUsedForSelection": true,
       "weakSummaryCount": 19,
       "selectedCandidateCount": 23,
-      "duplicateCount": 21,
+      "duplicateCount": 20,
       "crossDayDuplicateCount": 12,
       "lowQualityCount": 8,
       "domesticAvailable": 16,
-      "overseasAvailable": 10,
+      "overseasAvailable": 9,
       "sourceCount": {
-        "36氪": 4,
         "雷锋网": 5,
-        "The New Stack": 1,
-        "InfoQ": 4,
+        "36氪": 4,
         "量子位": 2,
-        "TechCrunch AI": 3,
-        "Futurism": 1,
-        "AOL.com": 1,
+        "InfoQ": 5,
+        "36 Kr": 1,
+        "TechCrunch AI": 2,
+        "The New Stack": 1,
         "The Decoder": 1,
+        "Futurism": 1,
         "MIT Technology Review": 1
       }
     },
@@ -108,13 +108,33 @@
       "refinedCount": 23,
       "previousEditionRemovedCount": 2,
       "postEditionFilterCount": 21,
-      "displayReadyCount": 9,
-      "fallbackDisplayCount": 5,
-      "removedWeakSummaries": 12,
+      "displayReadyCount": 10,
+      "fallbackDisplayCount": 4,
+      "removedWeakSummaries": 11,
       "shortage": 0
     }
   },
   "articles": [
+    {
+      "section": "产品发布与更新",
+      "title": "阿里云AI算力与存储产品价格上调，最高涨幅达34%",
+      "company": "阿里云",
+      "url": "https://www.leiphone.com/category/industrynews/Z1Zg3exzLo2SXXZK.html",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 18 Mar 2026 12:50:00 +0800",
+      "summary": "阿里云于3月18日宣布，因全球AI需求激增及供应链成本上涨，其AI算力与存储产品价格将上调，最高涨幅达34%。具体而言，平头哥真武810E等算力卡产品价格上调5%至34%，文件存储产品CPFS（智算版）价格上涨30%。",
+      "score": 37
+    },
+    {
+      "section": "技术与研究",
+      "title": "黄仁勋称龙虾为新操作系统，英伟达展示七种芯片构建算力系统并展望2027年万亿美元营收",
+      "company": "英伟达",
+      "url": "https://www.qbitai.com/2026/03/388720.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 17 Mar 2026 13:08:23 +0000",
+      "summary": "英伟达CEO黄仁勋在演讲中，通过回顾公司从游戏显卡到AI芯片的发展，引出了其最新技术。他重点介绍了Grace Blackwell NVLink 72芯片，其AI推理性能（每瓦token吞吐量）比上一代H200高出50倍。",
+      "score": 40
+    },
     {
       "section": "技术与研究",
       "title": "Apache Doris在易车AI与实时湖仓架构中的落地实践",
@@ -122,28 +142,18 @@
       "url": "https://www.infoq.cn/article/W7M9oc5rzG1mqROPB6yY?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 18 Mar 2026 14:44:26 GMT",
-      "summary": "易车数据团队基于Apache Doris构建了面向AI场景的数据底座，具体实践包括：1. 利用其开源的MCP工具，封装了执行SQL查询、获取库表Schema等操作的API，降低了智能代理接入数据平台的复杂度；2. 利用Doris的多源联邦查询能力，统一访问数仓内的离线历史数据、实时增量数据及业务库维。",
-      "score": 46
+      "summary": "易车数据团队基于Apache Doris MCP工具构建了面向智能代理的数据服务层，通过标准化API支持AI应用以自然语言等方式快速获取数据上下文，降低了接入复杂度。",
+      "score": 34
     },
     {
       "section": "技术与研究",
-      "title": "黄仁勋称龙虾为新操作系统，英伟达展示七种芯片构建算力系统并展望2027年营收目标",
-      "company": "英伟达",
-      "url": "https://www.qbitai.com/2026/03/388720.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 17 Mar 2026 13:08:23 +0000",
-      "summary": "英伟达CEO黄仁勋在演讲中展示了公司最新的算力系统，该系统由七种芯片构建。具体信息点包括：1. 最新的Grace Blackwell NVLink 72芯片在AI推理基准测试中，其每瓦token吞吐量比上一代Hopper H200高出50倍，旨在在固定功率下降低token成本。",
-      "score": 37
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI大师Jeremy Howard批评Claude Code路线错误，认为AI在软件工程领域表现糟糕",
-      "company": "Claude",
-      "url": "https://www.infoq.cn/article/f692INME7iXBtfzWMwq6?utm_source=rss&utm_medium=article",
+      "title": "智能体并行写代码引热议，人类或成开发流程最薄弱环节",
+      "company": "",
+      "url": "https://www.infoq.cn/article/zujYMf0JwMxe2wLv6gaa?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Wed, 18 Mar 2026 15:24:46 GMT",
-      "summary": "AI专家Jeremy Howard批评Claude Code等AI编程工具回避了软件开发中的必要学习过程，认为这导致开发者无法构建深刻的问题理解。他提出应注重模块化开发和探索式编程，并以自身实践为例：为解决Jupyter Notebook升级后组件失效的问题，其团队开发了merge驱动工具，实现了单。",
-      "score": 36
+      "publishedAt": "Wed, 18 Mar 2026 15:13:52 GMT",
+      "summary": "文章探讨了AI智能体在软件开发中的两种具体应用模式。第一种是开发者给出明确指令，智能体能够智能地重写测试用例以确保通过，甚至能自行推断需求。第二种是开发者仅设定大致目标，由多个探索性异步智能体制定具体方案，开发者后期再介入完成剩余部分。",
+      "score": 32
     },
     {
       "section": "技术与研究",
@@ -152,58 +162,58 @@
       "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
       "source": "TechCrunch AI",
       "publishedAt": "Tue, 17 Mar 2026 20:50:04 +0000",
-      "summary": "Y Combinator总裁Garry Tan在GitHub开源分享了他为AI编程助手Claude Code开发的设置，包含6个他自创的“技能”文件，这些文件是指导AI扮演特定角色或执行任务的提示词模板。",
-      "score": 31
+      "summary": "知名投资人Garry Tan在GitHub开源了他为AI编程助手Claude Code开发的配置方案，引发广泛讨论。该方案包含6个他自创的“技能”文件，这些是预设的提示词，能指导AI扮演特定角色或执行特定编程任务。Tan表示，这套工具极大提升了他的编程效率，甚至让他兴奋到每天只睡4小时。",
+      "score": 29
     },
     {
       "section": "技术与研究",
-      "title": "阿里云AI算力与存储产品价格上调，最高涨幅达34%",
-      "company": "阿里云",
-      "url": "https://www.leiphone.com/category/industrynews/Z1Zg3exzLo2SXXZK.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 18 Mar 2026 12:50:00 +0800",
-      "summary": "阿里云于3月18日宣布，因全球AI需求激增及供应链成本上涨，对部分AI产品进行价格上调。具体调整包括：平头哥真武810E等算力卡产品价格上涨5%至34%，文件存储产品CPFS（智算版）价格上涨30%。",
-      "score": 30
+      "title": "TDSQL Boundless：AI时代的多模态数据库",
+      "company": "",
+      "url": "https://www.infoq.cn/article/foslK73gb4vm9PmKdezs?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 18 Mar 2026 16:51:51 GMT",
+      "summary": "腾讯云发布多模态数据库TDSQL Boundless，旨在解决AI时代多模态数据实时分析中的数据孤岛与架构复杂问题。其核心在于：第一，通过统一的分布式存储层和智能查询协调器，将SQL查询自动分解并下推至OLTP、OLAP及向量搜索等专用引擎执行，提供单一数据库体验。",
+      "score": 25
     },
     {
       "section": "技术与研究",
-      "title": "AI编程或将终结框架时代",
+      "title": "AI编程如何改变软件开发：从框架依赖到基础工具回归",
       "company": "",
       "url": "https://www.infoq.cn/article/FyW5gwJotRRb8lUAO7z2?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 18 Mar 2026 15:43:26 GMT",
-      "summary": "作者指出，企业采用大公司框架（如谷歌、Meta、Vercel的解决方案）将软件开发从“工程”降级为“运营”，从而能用更易替换的特定框架开发者取代高成本的软件工程师。同时，AI编码代理能高效处理自动化与样板代码（如ORM、CRUD管理），让开发者能专注于解决手头具体问题，而非预先设计复杂架构。",
-      "score": 21
+      "summary": "文章指出，企业采用大公司框架和云方案，本质是将软件开发从工程活动转变为运营活动，以降低对专业软件工程师的依赖和劳动力成本。作者结合自身使用前沿AI模型和编码代理从头构建产品的经验，认为这些工具能高效自动化编写样板代码，让开发者专注于解决具体问题，而非预先构建复杂系统。",
+      "score": 24
     },
     {
       "section": "技术与研究",
-      "title": "智能体并行写代码引关注，人类或成开发流程最薄弱环节",
-      "company": "",
-      "url": "https://www.infoq.cn/article/zujYMf0JwMxe2wLv6gaa?utm_source=rss&utm_medium=article",
+      "title": "AI专家Jeremy Howard批评Claude Code路线错误，认为AI在软件工程领域表现糟糕",
+      "company": "Claude",
+      "url": "https://www.infoq.cn/article/f692INME7iXBtfzWMwq6?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Wed, 18 Mar 2026 15:13:52 GMT",
-      "summary": "文章探讨了AI智能体在软件开发中的两种具体应用模式。第一种是智能体能够理解开发环境并自动执行测试，甚至能重写测试用例以确保测试通过，开发者只需设定明确规则。第二种是使用多个探索性异步智能体来制定方案，开发者主要在后期介入处理剩余部分。",
+      "publishedAt": "Wed, 18 Mar 2026 15:24:46 GMT",
+      "summary": "AI专家Jeremy Howard批评Claude Code等工具回避了软件开发中的“必要摩擦”，导致开发者无法通过亲身试错来构建深刻理解。他以自身实践为例，为解决Jupyter Notebook组件升级导致的故障，开发了能在单元格级别进行Git差异比较的驱动工具，确保Notebook可复现和可探索。",
       "score": 21
     },
     {
       "section": "技术与研究",
-      "title": "OpenAI放弃“多线并进”策略，专注编码工具与商业客户",
+      "title": "OpenAI放弃“多线并进”策略，专注编码工具与企业客户",
       "company": "OpenAI",
       "url": "https://the-decoder.com/openai-reportedly-ditches-its-side-quests-strategy-to-focus-on-coding-tools-and-business-customers/",
       "source": "The Decoder",
       "publishedAt": "21 hours ago",
-      "summary": "据《华尔街日报》报道，OpenAI正进行重大战略调整，将资源从分散的多个产品线集中到两大核心领域：编码工具和商业客户。具体变化包括：1. 公司将缩减或整合去年推出的多个产品，如Sora视频生成器、Atlas浏览器等，并计划将Sora的视频生成功能并入主ChatGPT应用。",
+      "summary": "据《华尔街日报》报道，OpenAI正进行重大战略调整，将收缩战线，从“多线并进”转向聚焦两大核心领域：编码工具和企业客户。此次调整的直接导火索是竞争对手Anthropic凭借其专注企业及编码市场的产品（如Claude Code和Cowork）迅速崛起。",
       "score": 19
     },
     {
-      "section": "投融资与并购",
-      "title": "Niv-AI获1200万美元种子轮融资以优化GPU能效",
-      "company": "Niv-AI",
-      "url": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 17 Mar 2026 13:00:00 +0000",
-      "summary": "AI初创公司Niv-AI近日获得1200万美元种子轮融资，正式从隐身模式走出。该公司专注于解决数据中心GPU能耗波动问题，其核心方案是在数据中心与电网之间构建一个“智能层”。具体而言，Niv-AI正部署机架级传感器，以毫秒级精度监测自有及合作方GPU的实时功耗，目标是分析不同深度学习任务的具体能耗特。",
-      "score": 27
+      "section": "技术与研究",
+      "title": "OpenAI技术在伊朗可能的应用场景",
+      "company": "OpenAI",
+      "url": "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 16 Mar 2026 17:06:21 +0000",
+      "summary": "OpenAI与五角大楼达成协议，允许其AI技术用于机密军事领域，但具体部署时间未定，需与军方现有系统整合。协议内容存在疑问：虽然OpenAI声称禁止用于制造自主武器和国内监控，但这主要依赖军方自身（较为宽松的）准则约束。",
+      "score": 16
     },
     {
       "section": "产品发布与更新",
@@ -217,33 +227,13 @@
     },
     {
       "section": "产品发布与更新",
-      "title": "岚图泰山Ultra及黑武士上市，搭载896线激光雷达实现L3级自动驾驶",
-      "company": "岚图",
-      "url": "https://www.leiphone.com/category/industrynews/ttp3X0P8LC0TW1Hs.html",
+      "title": "吉利携手千里科技与阶跃星辰发布“超级Eva+G-ASD 4.0”，极氪8X将率先搭载",
+      "company": "千里科技",
+      "url": "https://www.leiphone.com/category/industrynews/18CNWqBj1xWtulC8.html",
       "source": "雷锋网",
-      "publishedAt": "Tue, 17 Mar 2026 19:16:00 +0800",
-      "summary": "冗余架构保障了系统的可靠性，决策和执行能力则决定了避险时的控制精度。泰山Ultra&黑武士采用行业顶尖的华为乾崑智驾ADS 4.1，避障更丝滑、变道更机敏。强大的决策能力离不开“强健身体”来精准执行，泰山Ultra&黑武士搭载魔毯底盘、双向16°后轮转向和“中国首创、世界前五”的三腔空悬，这套“底盘。",
-      "score": 29
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "OpenAI发布GPT-5.4 mini和nano，专为子代理时代打造",
-      "company": "OpenAI",
-      "url": "https://thenewstack.io/gpt-54-nano-mini/",
-      "source": "The New Stack",
-      "publishedAt": "14 hours ago",
-      "summary": "Notion AI Engineering Lead Abhisek Modi says this shift is already real. &ldquo;GPT-5.4 mini handles focused, well-defined tasks with impressive preci。",
-      "score": 29
-    },
-    {
-      "section": "投融资与并购",
-      "title": "章鱼动力获数亿元种子轮融资，地平线与头部美元基金入局",
-      "company": "章鱼动力",
-      "url": "https://www.leiphone.com/category/robot/vh4LFptBssKVEMEj.html",
-      "source": "雷锋网",
-      "publishedAt": "Tue, 17 Mar 2026 16:54:00 +0800",
-      "summary": "从已公开的联创背景来看，章鱼动力的班底颇具分量。创始人兼CEO都大龙，为地平线第6号员工、鉴智机器人联合创始人，也是鉴智的灵魂人物。早在百度时期，他就是 AI 体系内颇具代表性的天才型选手，并曾获得两次百度百万美金最高奖。",
-      "score": 38
+      "publishedAt": "Tue, 17 Mar 2026 21:42:00 +0800",
+      "summary": "千里浩瀚G-ASD 4.0坚持高含模量路线，模型驱动让辅助驾驶更安全、更丝滑，如同经验丰富的“AI老司机”在开车。首先，横纵一体模型带来了更拟人化的控车体验。窄路绕行时，能精准识别对向来车与障碍物，实时调整车速与轨迹；豁口掉头、辅路进主路等场景下，行车轨迹线稳定流畅，几乎没有多余的方向盘修正动作。",
+      "score": 24
     },
     {
       "section": "投融资与并购",
@@ -254,6 +244,16 @@
       "publishedAt": "2026-03-18 08:16:21  +0800",
       "summary": "36氪获悉，腾讯音乐发布截至2025年12月31日止第四季度及全年的未经审计财务业绩。腾讯音乐第四季度总收入86.4亿元，同比增长15.9%，调整后净利润25.8亿元，同比增长7.6%；全年总收入329亿元，同比增长15.8%，调整后净利润99.2亿元，同比增长22.0%。",
       "score": 29
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "滴滴AI出行助手小滴正式上线，通过AI标签匹配优化出行服务",
+      "company": "滴滴",
+      "url": "https://www.qbitai.com/2026/03/388608.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 17 Mar 2026 11:02:20 +0000",
+      "summary": "小滴会把用户的话翻译成平台能执行的标签，比如识别到“身体不舒服”“晕车”，会启动“驾驶平稳”“油车”等标签，识别到“孕妇”，会启动“驾驶平稳”“车内宽敞”等标签，再结合实时路况、时间、车辆位置、司机状态等条件，在调度池里快速筛选，最后用候选卡片发给用户确认。",
+      "score": 21
     }
   ]
 }
