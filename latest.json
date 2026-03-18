@@ -1,6 +1,6 @@
 {
   "date": "2026/3/18",
-  "generatedAt": "2026/3/18 08:00",
+  "generatedAt": "2026/3/18 11:21",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -8,9 +8,9 @@
     "candidateTargetCount": 23,
     "fetch": {
       "domesticBeforeDedup": 23,
-      "overseasBeforeDedup": 103,
+      "overseasBeforeDedup": 131,
       "domesticAfterDedup": 22,
-      "overseasAfterDedup": 102,
+      "overseasAfterDedup": 128,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -65,7 +65,7 @@
       ],
       "serper": {
         "enabled": true,
-        "count": 87,
+        "count": 115,
         "queryCount": 12,
         "resultLimit": 6,
         "error": null
@@ -76,94 +76,105 @@
     },
     "scoring": {
       "totalInput": 57,
-      "totalScored": 26,
-      "strictScoredCount": 26,
+      "totalScored": 25,
+      "strictScoredCount": 25,
       "relaxedCandidateCount": 3,
       "relaxedUsedForSelection": false,
-      "weakSummaryCount": 17,
-      "selectedCandidateCount": 23,
-      "duplicateCount": 21,
+      "weakSummaryCount": 15,
+      "selectedCandidateCount": 22,
+      "duplicateCount": 23,
       "crossDayDuplicateCount": 14,
-      "lowQualityCount": 7,
-      "domesticAvailable": 15,
-      "overseasAvailable": 11,
+      "lowQualityCount": 6,
+      "domesticAvailable": 13,
+      "overseasAvailable": 12,
       "sourceCount": {
-        "36氪": 5,
-        "雷锋网": 3,
         "量子位": 4,
-        "InfoQ": 3,
+        "36氪": 3,
+        "雷锋网": 3,
         "TechCrunch AI": 5,
+        "InfoQ": 3,
         "NewsBytes": 1,
-        "MIT Technology Review": 2
+        "MIT Technology Review": 2,
+        "36 Kr": 1
       }
     },
     "display": {
-      "refinedCount": 23,
-      "displayReadyCount": 12,
-      "fallbackDisplayCount": 2,
-      "removedWeakSummaries": 11,
+      "refinedCount": 22,
+      "displayReadyCount": 13,
+      "fallbackDisplayCount": 1,
+      "removedWeakSummaries": 9,
       "shortage": 0
     }
   },
   "articles": [
     {
-      "section": "技术与研究",
-      "title": "高中生开发Kimi新架构获马斯克赞赏，线性注意力模型展现效率优势",
-      "company": "Kimi",
-      "url": "https://www.qbitai.com/2026/03/388493.html",
+      "section": "产品发布与更新",
+      "title": "小牛电动发布2026科技新品，联合多家技术伙伴打造AI两轮车",
+      "company": "小牛电动",
+      "url": "https://www.qbitai.com/2026/03/388959.html",
       "source": "量子位",
-      "publishedAt": "Tue, 17 Mar 2026 06:51:58 +0000",
-      "summary": "一位17岁高中生开发了名为Kimi Linear的新型大模型架构。该架构采用线性注意力机制，是一个总参数480亿、激活参数30亿的混合专家模型。团队测试发现该模型存在“PreNorm稀释问题”，即早期信息难以检索，且大量网络层可被剪枝而性能损失很小。",
-      "score": 74
+      "publishedAt": "Wed, 18 Mar 2026 02:45:10 +0000",
+      "summary": "小牛电动发布全球首款AI新国标电动自行车NXT2，并推出“小牛同学Beta版”AI语音系统。新车整合了多项AI技术：通过接入Qwen3.5大模型打造智能驾舱，实现全车语音控制与自然对话；移植汽车级L2智驾同源技术，利用三摄与激光雷达进行视觉识别，提升复杂路况下的安全性；同时采用高通芯片作为“智慧大脑。",
+      "score": 42
     },
     {
       "section": "技术与研究",
-      "title": "矩阵起源在GTC 2026开源Memoria项目，推出业内首个“Git for Memory” Agent可信记忆框架",
-      "company": "矩阵起源",
-      "url": "https://www.infoq.cn/article/NqADgMKW7KUgBBWO3eQ9?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 17 Mar 2026 16:30:39 GMT",
-      "summary": "在2026年NVIDIA GTC大会上，矩阵起源公司开源了名为Memoria的Agent记忆服务器项目。",
-      "score": 47
-    },
-    {
-      "section": "技术与研究",
-      "title": "黄仁勋称龙虾为新操作系统，英伟达展示七种芯片构建算力系统并展望2027年营收目标",
-      "company": "英伟达",
-      "url": "https://www.qbitai.com/2026/03/388720.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 17 Mar 2026 13:08:23 +0000",
-      "summary": "英伟达CEO黄仁勋在演讲中，将公司新开源的OpenClaw项目比作“为个人AI智能体（Agent）打造的操作系统”，旨在为AI智能体提供类似Windows之于PC的基础环境。他重点介绍了最新的Grace Blackwell NVLink 72芯片，其每瓦token吞吐量比上一代H200高出50倍，能。",
+      "title": "Mistral押注'自建AI'模式，在企业市场挑战OpenAI和Anthropic",
+      "company": "Mistral",
+      "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 17 Mar 2026 21:00:00 +0000",
+      "summary": "法国AI初创公司Mistral在英伟达GTC大会上发布Mistral Forge平台，允许企业使用自有数据从头训练定制化AI模型。其核心变化是提供从零开始的训练方案，而非行业常见的微调或检索增强方法，旨在解决特定领域数据（如非英语、金融合规、制造定制）处理难题，并让企业能通过强化学习训练智能体系统。",
       "score": 38
     },
     {
+      "section": "技术与研究",
+      "title": "AI架构中的上下文限制与经济考量",
+      "company": "",
+      "url": "https://www.infoq.cn/article/A58DUs46jfEI6KEAGIYV?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 18 Mar 2026 10:00:00 GMT",
+      "summary": "文章以GPT-4 Turbo为例，指出其128000个token的上下文窗口（约9-10万单词）需在系统提示、用户问题、检索文档、模型回复等环节共享。单次查询就可能消耗大量token，直接影响成本、延迟和模型表现。",
+      "score": 36
+    },
+    {
+      "section": "技术与研究",
+      "title": "普林斯顿团队提升英伟达B200算力利用率至71%",
+      "company": "英伟达",
+      "url": "https://www.qbitai.com/2026/03/388815.html",
+      "source": "量子位",
+      "publishedAt": "Wed, 18 Mar 2026 00:31:26 +0000",
+      "summary": "普林斯顿团队开发了名为FlashAttention-4的新框架，旨在提升英伟达最新B200 GPU的算力利用率至71%。该框架完全基于Python的CuTe-DSL编写，无需C++代码，使得注意力计算性能比英伟达官方cuDNN快1.1-1.3倍，比常用Triton框架快2.1-2.7倍。",
+      "score": 32
+    },
+    {
       "section": "投融资与并购",
-      "title": "Niv-AI结束隐身模式，旨在提升GPU能效表现",
-      "company": "Niv-AI",
-      "url": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 17 Mar 2026 13:00:00 +0000",
-      "summary": "AI初创公司Niv-AI结束隐身模式，获得1200万美元种子融资，专注于解决数据中心GPU能耗问题。该公司通过部署毫秒级机架传感器监测GPU功耗波动，旨在分析不同深度学习任务的具体能耗特征，开发优化技术以释放数据中心现有算力。",
-      "score": 26
+      "title": "茉莉语境获百万美元融资，推出AI智能体管理工具「龙虾军团」",
+      "company": "茉莉语境",
+      "url": "https://36kr.com/p/3727752358919305?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-18 09:06:09  +0800",
+      "summary": "自媒体博主阿鱼使用茉莉语境的AI智能体管理工具「龙虾军团」，通过批量创建和管理扮演不同人格的AI智能体（小龙虾），实现了32个账号的自动化内容发布，使其月收入翻四倍。该工具的核心创新在于，用户只需修改四个Markdown文件（分别定义智能体的人格、行为准则、对主人的认知和工具原则）中的文本规则，即可。",
+      "score": 40
     },
     {
       "section": "政策与监管",
-      "title": "报道称五角大楼正在开发Anthropic的替代方案",
-      "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/",
+      "title": "OpenAI与AWS合作扩大政府业务版图",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/",
       "source": "TechCrunch AI",
-      "publishedAt": "Tue, 17 Mar 2026 18:20:15 +0000",
-      "summary": "五角大楼因与Anthropic在AI使用条款上存在根本分歧，正积极开发替代方案以取代其技术。具体而言，双方谈判破裂的关键在于Anthropic要求禁止军方将其AI用于大规模监控或自主武器，但五角大楼未予接受。",
-      "score": 26
+      "publishedAt": "Tue, 17 Mar 2026 15:37:03 +0000",
+      "summary": "OpenAI与AWS达成合作协议，将通过AWS的政府云平台（如AWS GovCloud和AWS Classified Regions）向美国联邦机构提供其AI模型。具体而言：1. OpenAI将保留对技术的控制权，自主决定通过AWS提供哪些模型；2. AWS在向情报机构等高度敏感部门提供服务前需提前。",
+      "score": 25
     },
     {
       "section": "产品发布与更新",
-      "title": "BuzzFeed在SXSW推出AI社交应用以寻求新收入",
+      "title": "BuzzFeed推出AI社交应用以寻求新收入来源",
       "company": "BuzzFeed",
       "url": "https://techcrunch.com/2026/03/17/buzzfeed-ai-slop-apps-sxsw-bf-island-conjure/",
       "source": "TechCrunch AI",
       "publishedAt": "Tue, 17 Mar 2026 17:17:15 +0000",
-      "summary": "在SXSW大会上，BuzzFeed推出了一款名为Conjure的AI社交应用。该应用模仿BeReal，但引导用户每日拍摄指定主题（如“树与月亮之间有什么？”）的照片，而非自拍。其核心并非AI工具，而是由编辑团队创建的、包含网络流行趋势和梗图的素材库，旨在激发用户创作与热点相关的AI图片。",
+      "summary": "BuzzFeed在SXSW大会上推出了一款名为Conjure的AI社交应用，旨在通过每日主题引导用户拍摄AI生成照片，以寻求新的收入来源。该应用的核心并非AI工具本身，而是其编辑团队创建的在线趋势和梗图库，旨在激发用户创作与当下流行文化相关的AI图片。",
       "score": 27
     },
     {
@@ -173,28 +184,38 @@
       "url": "https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/",
       "source": "TechCrunch AI",
       "publishedAt": "Tue, 17 Mar 2026 16:00:00 +0000",
-      "summary": "谷歌宣布其“个人智能”功能现已向所有美国用户免费开放，此前该功能仅限付费用户使用。该功能允许AI助手（在搜索的AI模式、Gemini应用及Chrome浏览器中）连接用户的Gmail和Google Photos等谷歌生态数据，以提供高度个性化的响应。",
+      "summary": "谷歌宣布，其“个人智能”功能现已向所有美国用户免费开放，此前仅为付费用户提供。该功能允许AI助手（在搜索的AI模式、Gemini应用及Chrome浏览器中）连接用户的Gmail和Google Photos等谷歌生态数据，以提供高度个性化的响应。",
       "score": 24
     },
     {
-      "section": "技术与研究",
-      "title": "Garry Tan的Claude Code设置引发广泛讨论与争议",
-      "company": "Claude",
-      "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
+      "section": "产品发布与更新",
+      "title": "World公司推出验证工具应对AI购物代理",
+      "company": "World",
+      "url": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/",
       "source": "TechCrunch AI",
-      "publishedAt": "Tue, 17 Mar 2026 20:50:04 +0000",
-      "summary": "知名投资人Garry Tan在GitHub上开源了他为AI编程助手Claude Code开发的配置，引发了广泛讨论。该配置包含6个他自创的、具有特定导向的“技能”文件，这些文件本质上是可复用的提示词，用于指导AI扮演特定角色或执行特定任务。",
-      "score": 33
+      "publishedAt": "Tue, 17 Mar 2026 15:00:00 +0000",
+      "summary": "由Sam Altman联合创立的World公司推出名为AgentKit的工具，旨在为AI购物代理提供身份验证。该工具的核心是让用户将其World ID与AI代理绑定，并通过由Coinbase和Cloudflare开发的x402区块链支付协议，向电商网站证明该代理的购买决策已获得一个真实、独特人类的授。",
+      "score": 22
     },
     {
       "section": "技术与研究",
-      "title": "OpenViking与OpenClaw结合：解决AI Agent长期记忆难题",
-      "company": "",
-      "url": "https://www.infoq.cn/article/ctgNSzTYmLhsRaUVZESe?utm_source=rss&utm_medium=article",
+      "title": "eBay支付风控团队Agent记忆系统的探索与实践",
+      "company": "eBay",
+      "url": "https://www.infoq.cn/article/hcWge7FHKmRMBN2NVyD5?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Tue, 17 Mar 2026 17:50:59 GMT",
-      "summary": "开源项目OpenViking为AI智能体OpenClaw引入了经验记忆机制，解决了长期使用中的记忆难题。具体来说：1. 它能自动总结工具使用经验（如API参数格式要求），存储为专属上下文，实现一次性精准调用，降低错误率。",
-      "score": 26
+      "publishedAt": "Wed, 18 Mar 2026 10:04:00 GMT",
+      "summary": "AI Agent系统架构师施凯分享了其在eBay构建支付风控Agent记忆系统的实践。该系统解决了多AI Agent协作时知识难以持久化和更新的问题，通过实现知识持久化、记忆演化和冲突管理，提升了风控决策效率。",
+      "score": 28
+    },
+    {
+      "section": "技术与研究",
+      "title": "谷歌研究人员提出面向大语言模型的贝叶斯教学方法",
+      "company": "谷歌",
+      "url": "https://www.infoq.cn/article/43imr1JkekkQUGVPI70k?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 18 Mar 2026 11:00:00 GMT",
+      "summary": "谷歌研究人员提出一种名为“贝叶斯教学”的新方法，旨在解决大语言模型难以根据用户反馈更新内部信念的问题。研究通过模拟航班推荐任务进行实验：模型需在五轮交互中，根据用户对航班属性（如时间、价格）的隐藏偏好和每次的选择反馈来优化推荐。",
+      "score": 27
     },
     {
       "section": "技术与研究",
@@ -203,48 +224,28 @@
       "url": "https://www.qbitai.com/2026/03/388701.html",
       "source": "量子位",
       "publishedAt": "Tue, 17 Mar 2026 12:12:51 +0000",
-      "summary": "商汤科技在2026年AWE展会上展示了其元萝卜机器人结合OpenClaw技能接口的新能力。核心变化在于，用户可通过自然语言指令，驱动机器人的机械臂完成抓取、摆放物体等真实物理动作，实现了从虚拟指令到实体执行的闭环。",
-      "score": 22
-    },
-    {
-      "section": "技术与研究",
-      "title": "Uber联创卡兰尼克创立Atoms公司，专注工业机器人领域",
-      "company": "Atoms",
-      "url": "https://www.infoq.cn/article/gLh05AkaRBPERf66qBFJ?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 17 Mar 2026 18:14:13 GMT",
-      "summary": "Uber联合创始人特拉维斯·卡兰尼克将其公司City Storage Systems更名为Atoms，并宣布聚焦食品、矿业和交通三大领域，通过开发“专用机器人”（而非人形机器人）来推动“物理人工智能”。他认为下一轮生产力革命将发生在需要处理材料和移动物体的物理系统领域。",
-      "score": 21
+      "summary": "商汤科技在2026年AWE展会上展示了其元萝卜机器人结合OpenClaw技能接口的新能力。核心变化是AI指令能驱动机械臂完成真实物理动作，例如抓取、摆放物体乃至组合图形，实现了从虚拟指令到物理执行的闭环。",
+      "score": 20
     },
     {
       "section": "政策与监管",
-      "title": "OpenAI与美国军方达成协议，Grok面临CSAM诉讼",
+      "title": "OpenAI与五角大楼达成军事协议，Grok面临CSAM诉讼",
       "company": "OpenAI, Grok",
       "url": "https://www.technologyreview.com/2026/03/17/1134322/the-download-openi-us-military-deal-grok-xai-csam-lawsuit/",
       "source": "MIT Technology Review",
       "publishedAt": "Tue, 17 Mar 2026 12:26:48 +0000",
-      "summary": "OpenAI与美国国防部达成协议，允许五角大楼在机密环境中使用其AI技术，具体应用可能包括与无人机公司Anduril合作开发反无人机技术，甚至协助选择打击目标。同时，马斯克旗下AI聊天机器人Grok正面临与儿童性虐待材料（CSAM）相关的诉讼。",
-      "score": 25
+      "summary": "OpenAI已与五角大楼达成协议，允许其在机密环境中使用AI技术。具体应用可能包括：1. 与无人机公司Anduril合作，暗示其技术将用于无人机及反无人机领域；2. 一位美国防部官员透露，该技术甚至可能协助选择打击目标。",
+      "score": 23
     },
     {
       "section": "产品发布与更新",
-      "title": "OPPO Find N6全球发布，以钛合金铰链与记忆玻璃实现折叠屏平整突破",
+      "title": "OPPO Find N6全球发布，以钛合金铰链与记忆玻璃实现全球最平整折叠屏",
       "company": "OPPO",
       "url": "https://36kr.com/p/3727140263410825?f=rss",
       "source": "36氪",
       "publishedAt": "2026-03-17 23:15:33  +0800",
       "summary": "影像能力上，OPPO Find N6 带来折叠唯一「哈苏 2 亿超清四摄」影像系统。哈苏 2 亿超清主摄配合 OPPO 自研 LUMO 超像素引擎，带来极致清晰的画质表现，即便是在折叠大屏上进行放大或者二次裁切构图，局部细节依旧清晰可见。",
-      "score": 33
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "岚图泰山Ultra及黑武士上市，搭载896线激光雷达实现L3级自动驾驶",
-      "company": "岚图",
-      "url": "https://www.leiphone.com/category/industrynews/ttp3X0P8LC0TW1Hs.html",
-      "source": "雷锋网",
-      "publishedAt": "Tue, 17 Mar 2026 19:16:00 +0800",
-      "summary": "冗余架构保障了系统的可靠性，决策和执行能力则决定了避险时的控制精度。泰山Ultra&黑武士采用行业顶尖的华为乾崑智驾ADS 4.1，避障更丝滑、变道更机敏。强大的决策能力离不开“强健身体”来精准执行，泰山Ultra&黑武士搭载魔毯底盘、双向16°后轮转向和“中国首创、世界前五”的三腔空悬，这套“底盘。",
-      "score": 30
+      "score": 31
     }
   ]
 }
