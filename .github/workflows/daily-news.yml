@@ -1,11 +1,6 @@
 name: AI Daily News
 
 on:
-  schedule:
-    # 北京时间每天早上 08:00（UTC 00:00）
-    - cron: '0 0 * * *'
-    # 北京时间每天下午 16:00（UTC 08:00）
-    - cron: '0 8 * * *'
   workflow_dispatch:
 
 concurrency:
