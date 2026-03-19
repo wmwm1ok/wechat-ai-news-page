@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/18",
+  "date": "2026/3/19",
   "edition": "afternoon",
   "editionLabel": "午后版",
   "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/18 18:56",
-  "count": 14,
+  "generatedAt": "2026/3/19 16:00",
+  "count": 10,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-18.json",
+    "previousEditionFile": "news-2026-03-19-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
       "domesticBeforeDedup": 23,
-      "overseasBeforeDedup": 131,
+      "overseasBeforeDedup": 129,
       "domesticAfterDedup": 22,
-      "overseasAfterDedup": 131,
+      "overseasAfterDedup": 127,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -57,13 +57,13 @@
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 7,
+          "count": 4,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         }
       ],
@@ -80,44 +80,68 @@
     },
     "scoring": {
       "totalInput": 57,
-      "totalScored": 26,
-      "strictScoredCount": 18,
-      "relaxedCandidateCount": 8,
+      "totalScored": 17,
+      "strictScoredCount": 14,
+      "relaxedCandidateCount": 3,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 13,
-      "selectedCandidateCount": 23,
+      "weakSummaryCount": 10,
+      "selectedCandidateCount": 17,
       "duplicateCount": 21,
-      "crossDayDuplicateCount": 13,
-      "lowQualityCount": 4,
-      "domesticAvailable": 14,
-      "overseasAvailable": 12,
+      "crossDayDuplicateCount": 12,
+      "lowQualityCount": 12,
+      "domesticAvailable": 13,
+      "overseasAvailable": 4,
       "sourceCount": {
-        "36氪": 3,
-        "雷锋网": 4,
-        "The Neuron": 1,
-        "InfoQ": 5,
-        "量子位": 2,
-        "36 Kr": 1,
-        "AOL.com": 1,
-        "The New Stack": 1,
+        "InfoQ": 3,
         "TechCrunch AI": 2,
-        "The Decoder": 1,
-        "MIT Technology Review": 1,
-        "Futurism": 1
+        "量子位": 2,
+        "36氪": 5,
+        "雷锋网": 3,
+        "MSN": 2
       }
     },
     "display": {
-      "refinedCount": 23,
-      "previousEditionRemovedCount": 1,
-      "integrityRemovedCount": 3,
-      "postEditionFilterCount": 19,
-      "displayReadyCount": 13,
-      "fallbackDisplayCount": 1,
-      "removedWeakSummaries": 6,
-      "shortage": 0
+      "refinedCount": 17,
+      "previousEditionRemovedCount": 0,
+      "integrityRemovedCount": 4,
+      "postEditionFilterCount": 13,
+      "displayReadyCount": 5,
+      "fallbackDisplayCount": 5,
+      "removedWeakSummaries": 8,
+      "shortage": 4
     }
   },
   "articles": [
+    {
+      "section": "技术与研究",
+      "title": "淘天集团启动2027届实习生招聘，技术岗超九成并新增三类AI岗位",
+      "company": "淘天",
+      "url": "https://www.qbitai.com/2026/03/388972.html",
+      "source": "量子位",
+      "publishedAt": "Wed, 18 Mar 2026 08:55:43 +0000",
+      "summary": "淘天集团于3月18日启动2027届实习生招聘，技术岗占比超九成，并新增AI应用研发、AI Agent优化及AI应用算法三类AI岗位，旨在将大模型能力转化为可上线、成本可控的产品。招聘提供具有竞争力的薪酬，算法、AI研发及AI产品岗日薪500元，顶尖人才T-Star计划日薪达2000元。",
+      "score": 40
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "联想拯救者Y700五代AI平板发布，搭载AI智控系统与顶级硬件",
+      "company": "联想",
+      "url": "https://www.qbitai.com/2026/03/389089.html",
+      "source": "量子位",
+      "publishedAt": "Wed, 18 Mar 2026 10:56:09 +0000",
+      "summary": "联想发布拯救者Y700五代AI平板，核心是全新AI智控系统。其AI战场感知系统2.0能增强游戏脚步声（幅度提升10dB，索敌距离从30米提升至48米）并过滤手持微抖，提升操控精度；AI智能调度支持边高画质游戏、边直播等多任务流畅运行，并具备网络加速能力。",
+      "score": 28
+    },
+    {
+      "section": "投融资与并购",
+      "title": "三星前专家创业研发机器人端侧通信小脑，获千万级融资",
+      "company": "乾径科技",
+      "url": "https://36kr.com/p/3729251466542728?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-19 10:31:49  +0800",
+      "summary": "团队方面，乾径科技创始人、CTO于俊逸曾任北京三星通信技术研究有限公司资深产品专家，参与并主导过5G系统级仿真平台、频谱共享算法及MAC层优化工具等多个通信技术项目。CEO郝君儒曾任Burton Investment Family Office投资顾问委员会成员，具备多年数字化产业与投融资经验。",
+      "score": 26
+    },
     {
       "section": "产品发布与更新",
       "title": "阿里云因AI需求与供应链成本上调产品价格，平头哥真武芯片涨幅最高达34%",
@@ -125,138 +149,68 @@
       "url": "https://www.leiphone.com/category/industrynews/tV77lutdcOoeTvje.html",
       "source": "雷锋网",
       "publishedAt": "Wed, 18 Mar 2026 15:11:00 +0800",
-      "summary": "阿里云于3月18日宣布，因全球AI需求激增及供应链成本上涨，将对旗下AI算力、存储等产品进行价格上调。本次调价中，涨幅最高的是平头哥真武810E算力卡，价格提升达34%，其涨幅超过了英伟达系列算力卡产品。",
-      "score": 29
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "OpenAI GPT-5.4 Mini和Nano：子代理功能详解",
-      "company": "OpenAI",
-      "url": "https://www.theneurondaily.com/p/openai-gave-gpt-5-4-mini-its-own-interns",
-      "source": "The Neuron",
-      "publishedAt": "1 hour ago",
-      "summary": "OpenAI发布了GPT-5.4 Mini和Nano两款新模型，其核心定位是作为“子代理”，旨在为更复杂的AI工作流程提供支持。具体而言，这两款模型的设计目标是实现更便宜、更快速的AI任务处理。",
-      "score": 27
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "阿里推出企业AI平台“悟空”，2000万企业用户将接入Agent能力",
-      "company": "阿里",
-      "url": "https://36kr.com/p/3727395193388161?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-18 14:06:36  +0800",
-      "summary": "悟空的诞生并非突然。去年 12 月底，钉钉发布“木兰版”时，无招就埋下了伏笔：钉钉的新定位是 Agent OS，全球首个为 AI 打造的工作智能操作系统。同时还推出了企业 AI 硬件 DingTalk Real。当时这个硬件里装的，就是现在悟空的雏形。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "Apache Doris在易车AI与实时湖仓架构中的落地实践",
-      "company": "易车",
-      "url": "https://www.infoq.cn/article/W7M9oc5rzG1mqROPB6yY?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 18 Mar 2026 14:44:26 GMT",
-      "summary": "易车数据团队基于Apache Doris构建了面向AI场景的数据底座，具体包括：1. 利用开源的Doris MCP工具，封装出支持SQL查询、获取库表Schema等操作的API，降低了智能代理接入数据平台的复杂度。",
-      "score": 43
-    },
-    {
-      "section": "技术与研究",
-      "title": "淘天集团启动2027届实习生招聘，新增三类AI岗位并全面拥抱AI",
-      "company": "淘天",
-      "url": "https://www.qbitai.com/2026/03/388972.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 18 Mar 2026 08:55:43 +0000",
-      "summary": "淘天集团于3月18日启动2027届实习生招聘，技术岗位占比超九成，并新增三类AI岗位：AI应用研发工程师负责端到端解决复杂问题；AI Agent优化工程师旨在将AI变为业务增长引擎；AI应用算法工程师则专注于将大模型能力转化为可上线、可迭代且成本可控的产品。",
-      "score": 37
-    },
-    {
-      "section": "技术与研究",
-      "title": "黄仁勋称龙虾为新操作系统，英伟达展示七种芯片构建算力系统并展望2027年营收目标",
-      "company": "英伟达",
-      "url": "https://www.qbitai.com/2026/03/388720.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 17 Mar 2026 13:08:23 +0000",
-      "summary": "英伟达CEO黄仁勋在演讲中回顾了公司从游戏显卡到AI芯片的发展历程。他重点介绍了新一代Grace Blackwell NVLink 72芯片，其AI推理性能大幅提升：在基准测试中，每瓦电力产生的token吞吐量比上一代H200高出50倍。",
-      "score": 36
+      "summary": "阿里云于3月18日宣布，因全球AI需求激增及供应链成本上升，将对旗下AI算力、存储等产品进行涨价。具体来看，涨幅最高的产品是平头哥真武810E算力卡，价格上调达34%，其涨幅超过了英伟达同类产品。",
+      "score": 23
     },
     {
       "section": "投融资与并购",
-      "title": "前腾讯AI专家刘威创办视频初创公司，获8000万美元融资",
-      "company": "Tencent",
-      "url": "https://eu.36kr.com/en/p/3727714507635587",
-      "source": "36 Kr",
-      "publishedAt": "10 hours ago",
-      "summary": "前腾讯混元大模型核心技术负责人、IEEE/AAAS会士刘威博士于2024年底离职创业，专注于AI视频生成领域。其创立的公司Video Rebirth近日完成8000万美元融资，投资方包括现代汽车集团的ZER01NE和韩国CJ集团的HIVEN。",
-      "score": 31
+      "title": "科技巨头斥资数十亿美元投入AI基础设施建设",
+      "company": "OpenAI, Nvidia",
+      "url": "https://www.msn.com/en-in/money/news/from-openai-to-nvidia-firms-channel-billions-into-ai-infrastructure-as-demand-booms/ar-AA1XmKd9",
+      "source": "MSN",
+      "publishedAt": "14 hours ago",
+      "summary": "为应对AI需求激增，OpenAI、英伟达等科技巨头正斥资数十亿美元强化AI基础设施。投资主要聚焦于三个具体领域：一是人工智能技术本身的研发与部署，二是支撑AI运行的云计算能力扩容，三是包括芯片制造在内的核心硬件供应链。",
+      "score": 18
     },
     {
-      "section": "投融资与并购",
-      "title": "Niv-AI获1200万美元种子轮融资以优化GPU功耗",
-      "company": "Niv-AI",
-      "url": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 17 Mar 2026 13:00:00 +0000",
-      "summary": "AI初创公司Niv-AI获得1200万美元种子轮融资，专注于解决数据中心GPU的功耗峰值问题。其具体方案包括：第一，部署毫秒级机架传感器，实时监测自有及合作GPU的功耗数据，以分析不同深度学习任务的具体功耗特征；第二，旨在开发缓解技术，帮助数据中心更充分地利用现有电力容量，从而提升GPU性能与能效。",
-      "score": 27
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI大师Jeremy Howard批评Claude Code路线错误，认为AI在软件工程领域表现糟糕",
-      "company": "Claude",
-      "url": "https://www.infoq.cn/article/f692INME7iXBtfzWMwq6?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 18 Mar 2026 15:24:46 GMT",
-      "summary": "AI专家Jeremy Howard批评Claude Code等工具回避了软件开发中的“必要之难”，导致开发者无法构建深刻理解。他提出具体方法：1. 应专注中等规模模块化开发，确保组件可控可设计，并以探索式编程深化认知。",
-      "score": 36
-    },
-    {
-      "section": "技术与研究",
-      "title": "Garry Tan的Claude Code设置引发广泛讨论与争议",
-      "company": "Claude",
-      "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 17 Mar 2026 20:50:04 +0000",
-      "summary": "Y Combinator总裁Garry Tan在GitHub开源了他为AI编程助手Claude Code开发的配置，包含6个他自创的、用于特定角色或任务的“技能”提示文件。他声称这套工具极大提升了编程效率，甚至能模拟他曾耗费两年、1000万美元风投和10人团队才完成的创业项目。",
-      "score": 29
-    },
-    {
-      "section": "技术与研究",
-      "title": "TDSQL Boundless：AI时代的多模态数据库技术解析",
+      "section": "政策与监管",
+      "title": "超级创业者时代：AI赋能个人拥有组织级能力",
       "company": "",
-      "url": "https://www.infoq.cn/article/foslK73gb4vm9PmKdezs?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 18 Mar 2026 16:51:51 GMT",
-      "summary": "TDSQL Boundless是一款面向AI时代的多模态数据库，其核心在于通过统一的分布式存储层和智能的多模态计算引擎层，将OLTP、OLAP及专用引擎（如向量搜索）协同工作，为用户提供单一数据库体验。",
+      "url": "https://36kr.com/p/3729545296559749?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-19 15:45:41  +0800",
+      "summary": "模速空间，全国首个大模型孵化生态社区，到2025年末已经吸引超200家大模型企业入驻，带动所在徐汇区集聚超1500家AI企业，其中约800家为大模型企业，大模型备案数量占全市60%。“上下楼即上下游”，在这里不只是口号。",
+      "score": 39
+    },
+    {
+      "section": "技术与研究",
+      "title": "元戎启行以基座模型重构自动驾驶系统，加速行业迭代",
+      "company": "元戎启行",
+      "url": "https://www.leiphone.com/category/industrynews/6EKBBIHoW4kdGCAe.html",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 18 Mar 2026 18:47:00 +0800",
+      "summary": "这背后的矛盾在于，城市场景复杂度远超预期，长尾问题几乎没有边界，依赖人工的数据闭环，开始跟不上车队规模。换句话说，自动驾驶正在从一个工程问题，变成一个AI问题。40B参数模型的训练，本质上是重资产游戏。即便通过蒸馏压缩后部署到车端，对算力和成本的要求依然不低。",
+      "score": 32
+    },
+    {
+      "section": "投融资与并购",
+      "title": "星煜空天完成数千万Pre-A轮融资，核心动力系统计划年底试飞",
+      "company": "星煜空天",
+      "url": "https://36kr.com/p/3729273935920520?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-19 10:54:52  +0800",
+      "summary": "因此，在长周期的研发投入与短期的经营需求之间， 星煜空天也规划了“三步走”的商业化路径： 以自有风洞测试与工程服务创造持续性的现金流收入；以自研3D打印技术保障核心材料供给、良率提升和成本优化，并适时开放输出供应链能力。",
       "score": 28
     },
     {
-      "section": "技术与研究",
-      "title": "智能体并行写代码引关注，人类或成开发流程最薄弱环节",
-      "company": "",
-      "url": "https://www.infoq.cn/article/zujYMf0JwMxe2wLv6gaa?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 18 Mar 2026 15:13:52 GMT",
-      "summary": "文章探讨了AI智能体在软件开发中的两种具体应用模式。第一种是智能体能自行推断并执行任务，例如主动重写有误的测试用例以确保测试通过，其核心逻辑明确但实现方式可能晦涩。第二种是运行多个探索性异步智能体，它们根据大致目标制定具体方案，通常需要人工在后期介入处理剩余部分。",
-      "score": 25
+      "section": "产品发布与更新",
+      "title": "蔚来芯片分拆合作细节曝光，正与多家头部车企接触",
+      "company": "蔚来",
+      "url": "https://36kr.com/p/3729446000967304?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-19 13:49:13  +0800",
+      "summary": "据了解，蔚来神玑与爱芯元智的合作，“是在去年年中谈定的”。去年9月，神玑芯片的支持团队（负责软件硬件适配），包括部分产品团队成员，已入驻爱芯元智的钉钉系统。“设计团队还在蔚来子公司神玑”。有一知情人士告诉36氪，蔚来通过这一合作，获得了数亿元技术授权费。",
+      "score": 20
     },
     {
-      "section": "技术与研究",
-      "title": "AI编程正在终结框架时代",
-      "company": "",
-      "url": "https://www.infoq.cn/article/FyW5gwJotRRb8lUAO7z2?utm_source=rss&utm_medium=article",
+      "section": "政策与监管",
+      "title": "极客部落“OPC创业者招募计划”正式启动，携手朝阳区赋能AI时代独角兽",
+      "company": "北京极客邦科技有限公司",
+      "url": "https://www.infoq.cn/article/LbxEy5EyhN3e4CW05IIw?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Wed, 18 Mar 2026 15:43:26 GMT",
-      "summary": "文章指出，AI编程正促使企业转向采用大公司（如谷歌、Meta、Vercel）的框架和云解决方案，从而降低对传统软件工程师的依赖，转而雇佣更易替换的特定框架（如React）开发者。",
-      "score": 21
-    },
-    {
-      "section": "技术与研究",
-      "title": "据报道OpenAI放弃“多线并行”策略，专注编码工具和商业客户",
-      "company": "OpenAI",
-      "url": "https://the-decoder.com/openai-reportedly-ditches-its-side-quests-strategy-to-focus-on-coding-tools-and-business-customers/",
-      "source": "The Decoder",
-      "publishedAt": "23 hours ago",
-      "summary": "据《华尔街日报》报道，OpenAI正进行重大战略调整，将收缩战线，从同时推进多个产品转向聚焦于两大核心领域：编码工具和商业客户。具体变化包括：1. 公司将重新评估并缩减部分项目，例如计划将独立的视频生成应用Sora整合进主产品ChatGPT中。",
-      "score": 19
+      "publishedAt": "Thu, 19 Mar 2026 14:39:48 GMT",
+      "summary": "在人工智能浪潮席卷全球的今天，创新模式正在被重新定义。北京市朝阳区人才工作局、中国共产主义青年团北京市朝阳区委员会、北京市朝阳区人民政府望京街道办事处及北京极客邦科技有限公司，共同发起推进“极客部落· AI 应用生态园”落地，并发起 “OPC 创业者招募计划”，旨在为 AI 时代的独立开发者。",
+      "score": 17
     }
   ]
 }
