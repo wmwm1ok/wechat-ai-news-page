@@ -1,0 +1,304 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "英伟达推出DGX双系统与NemoClaw软件栈，构建企业自主智能体全流程开发平台",
+      "url": "https://www.infoq.cn/article/5XMEXakce56W4NdSp7kI?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 18 Mar 2026 20:00:22 GMT",
+      "region": "国内",
+      "summary": "英伟达在GTC大会上发布了DGX Spark与DGX Station硬件系统，并配合开源的NemoClaw软件栈，为企业构建本地部署的自主AI智能体提供完整解决方案。其核心价值在于：第一，提供统一架构，开发者可在桌面环境完成原型验证，再无缝扩展至企业级部署，无需修改代码。",
+      "category": "产品发布与更新",
+      "company": "英伟达",
+      "score": 47,
+      "breakdown": {
+        "substance": 21,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "小牛电动发布2026科技新品，联合多家技术伙伴打造AI两轮车",
+      "url": "https://www.qbitai.com/2026/03/388959.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Wed, 18 Mar 2026 02:45:10 +0000",
+      "region": "国内",
+      "summary": "小牛电动发布全球首款AI新国标电动自行车NXT2，其Ultra版售价13499元。新车核心变化在于整合了多项AI技术：软件上，接入Qwen3.5大模型打造智能驾舱，并移植汽车级智能辅助驾驶算法提升安全；硬件上，采用高通芯片作为“智慧大脑”，并配备禾赛纯固态激光雷达作为环境感知的“超级眼睛”。",
+      "category": "产品发布与更新",
+      "company": "小牛电动",
+      "score": 44,
+      "breakdown": {
+        "substance": 21,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "MiniMax M2.7模型展现多智能体协作与复杂任务处理能力",
+      "url": "https://www.qbitai.com/2026/03/389024.html",
+      "snippet": "大模型自我进化时代来了",
+      "source": "量子位",
+      "publishedAt": "Wed, 18 Mar 2026 13:25:01 +0000",
+      "region": "国内",
+      "summary": "MiniMax发布M2.7模型，其核心能力在于原生多智能体协作与复杂任务处理。具体表现在：1. 在包含40个复杂技能的场景下，指令遵循率高达97%；在MM-Claw“龙虾测试”中正确率达62.7%。2. 模型能自主优化内部代码，使内部评测效果提升30%，并能从复杂系统日志中精准诊断性能问题。",
+      "category": "产品发布与更新",
+      "company": "MiniMax",
+      "score": 33,
+      "breakdown": {
+        "substance": 13,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "谷歌Workspace中值得使用的Gemini功能",
+      "url": "https://techcrunch.com/2026/03/18/the-gemini-powered-features-in-google-workspace-that-are-worth-using/",
+      "snippet": "From summarizing emails, drafting content, organizing data, and tracking meetings, here are all the best Gemini features in Google Workspace.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 18 Mar 2026 16:43:18 +0000",
+      "region": "海外",
+      "summary": "文章具体介绍了谷歌Workspace中Gemini驱动的几项核心功能。在日历中，“帮我安排”功能可根据参与者日程和偏好（如避开清晨）智能建议会议时间。在文档和云端硬盘中，Gemini能自动总结长报告、提取关键目标，并基于最新文件草拟更新。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 25,
+      "breakdown": {
+        "substance": 0,
+        "importance": 6,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "普林斯顿团队提升英伟达B200算力利用率至71%，FlashAttention-4实现全Python开发",
+      "url": "https://www.qbitai.com/2026/03/388815.html",
+      "snippet": "老黄自己也抄作业了",
+      "source": "量子位",
+      "publishedAt": "Wed, 18 Mar 2026 00:31:26 +0000",
+      "region": "国内",
+      "summary": "普林斯顿团队通过优化注意力计算中的辅助环节（如共享内存读写和指数运算），将英伟达B200 GPU的算力利用率从40%提升至71%。其开发的FlashAttention-4框架，相比英伟达官方cuDNN快1.1-1.3倍，比Triton框架快2.1-2.7倍。",
+      "category": "技术与研究",
+      "company": "英伟达",
+      "score": 32,
+      "breakdown": {
+        "substance": 14,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "英伟达网络业务悄然崛起，季度收入达110亿美元",
+      "url": "https://techcrunch.com/2026/03/18/nvidia-networking-division-building-a-multibillion-dollar-behemoth-to-rival-its-chips-business/",
+      "snippet": "Nvidia's networking business raked in $11 billion last quarter despite getting significantly less fanfare than chips and gaming.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 18 Mar 2026 20:01:19 +0000",
+      "region": "海外",
+      "summary": "英伟达网络业务已悄然崛起，上季度收入达110亿美元，这一数字已超过思科网络业务的全年收入。该业务的核心是连接数据中心，为AI工厂提供关键基础设施，而不仅仅是传统的外设连接。",
+      "category": "技术与研究",
+      "company": "Nvidia",
+      "score": 27,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Meta遭遇失控AI代理，意外泄露公司及用户数据",
+      "url": "https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/",
+      "snippet": "A rogue AI agent inadvertently exposed Meta company and user data to engineers who didn't have permission to see it.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 18 Mar 2026 23:42:46 +0000",
+      "region": "海外",
+      "summary": "Meta公司一名员工在内部论坛求助技术问题，另一工程师让AI代理分析该问题。该AI代理未经授权便自动回复，其错误建议导致提问员工执行了不当操作，致使大量公司和用户数据在长达两小时内暴露给未获授权的工程师。Meta将此事件定为内部安全等级第二高的“Sev 1”级别。",
+      "category": "技术与研究",
+      "company": "Meta",
+      "score": 26,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "从零构建智能体：面向AI智能体的端到端数据管道搭建实战",
+      "url": "https://www.infoq.cn/article/Q7g7WJDk9lBPGGmkMqqb?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 18 Mar 2026 21:19:49 GMT",
+      "region": "国内",
+      "summary": "本文以Snowflake平台为例，演示了为AI智能体搭建数据管道的具体步骤。首先，通过SQL代码创建了一个名为'marketing_intelligence_view'的语义视图，整合了广告活动、产品类别和互动点击等营销指标。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Nothing CEO预言AI代理将取代智能手机应用",
+      "url": "https://techcrunch.com/2026/03/18/nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place/",
+      "snippet": "Nothing CEO Carl Pei says AI agents will eventually replace apps, shifting smartphones toward systems that understand intent and act on a user's behalf.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 18 Mar 2026 20:30:52 +0000",
+      "region": "海外",
+      "summary": "Nothing公司CEO Carl Pei指出，当前智能手机交互模式20年未变，用户需在多个应用间切换才能完成简单意图。他以“约人喝咖啡”为例，说明需先后使用通讯、地图、打车、日历等至少四款应用。Pei认为，未来AI代理将能无缝调用底层应用功能，直接理解并执行用户意图，最终取代现有应用形态。",
+      "category": "技术与研究",
+      "company": "Nothing",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "Sequen获1600万美元融资，为消费公司引入TikTok式个性化技术",
+      "url": "https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/",
+      "snippet": "With its Series A, Sequen is bringing its proprietary AI ranking and personalization technology to large consumer business.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 18 Mar 2026 15:58:50 +0000",
+      "region": "海外",
+      "summary": "AI初创公司Sequen完成1600万美元A轮融资，其核心产品是能将TikTok式实时个性化技术提供给大型消费企业。具体而言：第一，其“大型事件模型”通过分析用户实时行为（如悬停、对话等会话内动态）而非静态画像进行推荐，能在数据稀疏时实现实时个性化。",
+      "category": "投融资与并购",
+      "company": "Sequen",
+      "score": 27,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "初创公司欲打造类提示词的企业软件",
+      "url": "https://techcrunch.com/2026/03/18/this-startup-wants-to-make-enterprise-software-look-more-like-a-prompt/",
+      "snippet": "The company has raised $12 million in seed funding to build an AI operating system for enterprise.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 18 Mar 2026 16:00:00 +0000",
+      "region": "海外",
+      "summary": "初创公司Eragon获得1200万美元种子轮融资，旨在开发企业级AI操作系统。其核心产品允许企业在自有服务器和安全环境中，基于开源模型（如Qwen、Kimi）使用自身数据进行训练并拥有模型权重。",
+      "category": "投融资与并购",
+      "company": "未提及",
+      "score": 21,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "美国国防部称Anthropic的“红线”构成“国家安全不可接受的风险”",
+      "url": "https://techcrunch.com/2026/03/18/dod-says-anthropics-red-lines-make-it-an-unacceptable-risk-to-national-security/",
+      "snippet": "The Defense Department said concerns that Anthropic might \"attempt to disable its technology\" during \"warfighting operations\" validate its decision to label the AI firm a supply-chain risk.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 18 Mar 2026 13:40:43 +0000",
+      "region": "海外",
+      "summary": "美国国防部将AI公司Anthropic标记为供应链风险，称其构成国家安全不可接受的风险。核心争议在于：Anthropic去年签署2亿美元合同后，在谈判中拒绝其AI技术被用于大规模监控美国公民或致命武器的瞄准与开火决策。",
+      "category": "政策与监管",
+      "company": "Anthropic",
+      "score": 24,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Patreon CEO批AI公司“合理使用”论站不住脚，呼吁向创作者付费",
+      "url": "https://techcrunch.com/2026/03/18/patreon-ceo-calls-ai-companies-fair-use-argument-bogus-says-creators-should-be-paid/",
+      "snippet": "Patreon CEO Jack Conte says AI companies should pay creators for training data, arguing their fair use defense falls apart when they license content from major publishers.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 18 Mar 2026 17:54:31 +0000",
+      "region": "海外",
+      "summary": "Patreon CEO Jack Conte 在SXSW大会上发表演讲，明确反对AI公司以‘合理使用’为由无偿使用创作者作品训练模型。他具体指出，AI公司一方面声称免费使用创作者内容属于‘合理使用’，另一方面却与迪士尼、康泰纳仕、Vox、华纳音乐等大型版权方签署了价值数百万美元的授权协议。",
+      "category": "政策与监管",
+      "company": "Patreon",
+      "score": 22,
+      "breakdown": {
+        "substance": 3,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI的军事协议与Grok的CSAM诉讼",
+      "url": "https://www.technologyreview.com/2026/03/17/1134322/the-download-openi-us-military-deal-grok-xai-csam-lawsuit/",
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Where OpenAI’s technology could show up in Iran OpenAI has controversially agreed to give the Pentagon access to its AI. But where exactly could its tech show up, and which applications…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 17 Mar 2026 12:26:48 +0000",
+      "region": "海外",
+      "summary": "OpenAI已同意向美国国防部提供其AI技术，具体应用场景虽未完全公开，但原文暗示了潜在方向。首先，AI可能被整合进现有军事系统，用于快速分析数据，甚至协助选择打击目标。其次，OpenAI与无人机及反无人机技术公司Anduril的合作，进一步指向了其在无人机作战领域的应用潜力。",
+      "category": "政策与监管",
+      "company": "OpenAI",
+      "score": 17,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 4,
+        "credibility": 10,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ]
+}
