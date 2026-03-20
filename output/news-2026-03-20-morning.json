@@ -1,0 +1,282 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "OpenAI发布GPT-5.4，作为专业工作流一体化模型",
+      "url": "https://mugglehead.com/openai-rolls-out-gpt-5-4-as-all-in-one-model-for-professional-workflows/",
+      "snippet": "OpenAI has rolled out its latest frontier model, GPT-5.4, across ChatGPT, Codex and its API, promising stronger reasoning, agent capabilities and...",
+      "source": "Mugglehead Magazine",
+      "publishedAt": "3 hours ago",
+      "region": "海外",
+      "summary": "OpenAI发布GPT-5.4专业工作流模型，推出标准版和Pro版。该模型核心变化在于整合多种专业能力：能通过截图和键鼠指令操作电脑桌面与浏览器；在OSWorld基准测试中任务成功率75%，远超GPT-5.2的47.3%；可处理金融、法律等40多个职业的复杂工作，并减少对独立编程模型的依赖。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 24,
+      "breakdown": {
+        "substance": 4,
+        "importance": 11,
+        "timeliness": 2,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "千问AI眼镜开售首周线上份额超70%",
+      "url": "https://www.leiphone.com/category/industrynews/fJAEnDT5kGypFxPV.html",
+      "snippet": "3月18日晚，XR研究院发布数据显示，千问AI眼镜自3月8日正式开售至3月15日，线上累计销量占国内AI智能眼镜市场总份额超70%，并连续8日稳居天猫、京东、抖音三大主流电商平台销量第一。 3月8日，千问首款同名AI硬件——千问AI眼镜G1正式发售。XR研究院对其进行跟踪，数据显示，3月8日-15日，千问AI眼镜品牌占据70%线上市场份额，位居第一。分平台来看，在天猫、抖音、京东的站内累计份额分别为83%、69%和58%，均位列各平台首位。 （报告将“千问AI眼镜”与“夸克AI眼镜”合并计入同一品牌口径进行统计） 从销售节奏看，千问AI眼镜在开售首日出现峰值，随后日销量趋于稳定，整体呈现较为典型的新品销售曲线。值得注意的是，自3月8日-15日千问眼镜连续8日保持全网日销量第一。 2025年以来，AI智能眼镜品类在国内市场快速增长。从早期的概念产品到可量产的消费级商品，这一品类正从小众尝鲜走向主流消费市场。 作为千问同名AI硬件，千问AI眼镜的市场动作值得关注。此前曾透露，将于本月底上线更多“AI办事”能力，或将千问APP的AI能力迁移至眼镜端。 雷峰网",
+      "source": "雷锋网",
+      "publishedAt": "Thu, 19 Mar 2026 11:27:00 +0800",
+      "region": "国内",
+      "summary": "千问AI眼镜G1于3月8日开售后，首周线上表现强势。具体来看：第一，在3月8日至15日期间，其线上累计销量占据了国内AI智能眼镜市场超过70%的份额，并连续8天保持全网日销量第一。第二，分平台看，该产品在天猫、抖音、京东的站内累计份额分别为83%、69%和58%，均位列各平台首位。",
+      "category": "产品发布与更新",
+      "company": "千问",
+      "score": 23,
+      "breakdown": {
+        "substance": 10,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "索尼AI推出“保护性AI”以阻止生成吉卜力风格仿制品",
+      "url": "https://hypebeast.com/2026/3/sony-ai-unveils-protective-ai-to-block-ghibli-style-copies",
+      "snippet": "Sony AI Unveils \"Protective AI\" to Block Ghibli-Style Copies: Sony's new research tool trains on copyrighted works to prevent imitation in generative media...",
+      "source": "Hypebeast",
+      "publishedAt": "18 hours ago",
+      "region": "海外",
+      "summary": "索尼AI近日公布了一项名为“保护性AI”的研究工具，旨在解决生成式AI模仿受版权保护艺术风格的问题。该工具通过分析特定作品（如吉卜力工作室的动画）的视觉特征进行训练，能够识别并阻止生成式模型产出具有该风格特征的仿制品。",
+      "category": "产品发布与更新",
+      "company": "索尼",
+      "score": 20,
+      "breakdown": {
+        "substance": 11,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "英伟达悄然构建价值数十亿美元的网络业务以匹敌其芯片业务",
+      "url": "https://techcrunch.com/2026/03/18/nvidia-networking-division-building-a-multibillion-dollar-behemoth-to-rival-its-chips-business/",
+      "snippet": "Nvidia's networking business raked in $11 billion last quarter despite getting significantly less fanfare than chips and gaming.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 18 Mar 2026 20:01:19 +0000",
+      "region": "海外",
+      "summary": "英伟达的网络业务已悄然成长为价值数十亿美元的巨头。在2024年3月的GTC大会上，公司发布了包括Rubin平台（含六款新芯片）、推理上下文内存存储平台及更高效的Spectrum-X以太网光子交换机等一系列网络产品更新。",
+      "category": "产品发布与更新",
+      "company": "Nvidia",
+      "score": 18,
+      "breakdown": {
+        "substance": 3,
+        "importance": 0,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "CleanVideoAI推出AI引擎，可去除Sora、Veo和CapCut视频中的水印",
+      "url": "https://au.finance.yahoo.com/news/cleanvideoai-launches-ai-engine-remove-130000027.html",
+      "snippet": "New AI-powered reconstruction technology enables creators to remove complex watermarks from modern AI video platforms while preserving visual quality.",
+      "source": "Yahoo Finance Australia",
+      "publishedAt": "11 hours ago",
+      "region": "海外",
+      "summary": "CleanVideoAI公司发布了一款名为“AI引擎”的新产品。该产品利用人工智能重建技术，专门用于去除视频中的复杂水印。其核心功能是能够处理来自Sora、Veo和CapCut等主流AI视频生成平台的视频内容，在移除水印的同时，力求保持视频原有的视觉质量，旨在为内容创作者提供便利。",
+      "category": "产品发布与更新",
+      "company": "CleanVideoAI",
+      "score": 17,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "阿里宣布AI战略商业目标：未来五年云和AI商业化收入突破1000亿美元",
+      "url": "https://www.qbitai.com/2026/03/389559.html",
+      "snippet": "正式突破1000亿元人民币",
+      "source": "量子位",
+      "publishedAt": "Thu, 19 Mar 2026 12:07:52 +0000",
+      "region": "国内",
+      "summary": "在阿里巴巴2026财年第三季度财报会上，CEO吴泳铭宣布了两项具体进展：一是阿里云截至2026年2月底的外部商业化收入已突破1000亿元人民币；二是公司设定了未来五年云与AI（含模型即服务）总收入突破1000亿美元的明确目标。",
+      "category": "技术与研究",
+      "company": "阿里",
+      "score": 50,
+      "breakdown": {
+        "substance": 20,
+        "importance": 10,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "阿里发布企业级AI平台“悟空”，助商家组建AI团队经营淘宝天猫店",
+      "url": "https://www.leiphone.com/category/industrynews/9lko1QGOpLvQcCZo.html",
+      "snippet": "电商版“龙虾”来了！近日，阿里巴巴正式推出全球首个企业级AI原生工作平台——“悟空”，在电商领域，淘宝、天猫核心经营能力将以Skill（技能模块）形式陆续接入，商家可以像搭积木一样，把这些Skill进行组合并在悟空上创造自己的AI工作流，搭建出一支可随时随地待命的覆盖开店、选品、营销、运营、发货等各个环节的AI Agent团队。 更厉害的是，除了电商经营，商家还能通过悟空接入财税、法务、设计、技术开发等各类专业Skill，组建起一套完整的企业职能AI Agent团队。以后商家只需要做关键决策，繁琐的调研、数据分析、方案撰写这些前置工作，统统交给AI团队来完成，全面开启AI时代的企业经营。 上线首期，支持淘宝商品素材优化、店铺经营周报分析、1688找同款等核心经营领域的“AI员工”将率先到岗，此外，商家还可将自身经营经验标准化为Skill技能包，搭建起满足个性化经营的AI Agent。 以“优化商品素材”为例，有了悟空后，商家只需编排好相应AI工作流，AI Agent即会自动完成“数据分析→给出建议”等前期工作，商家一键确认更新后，AI Agent将自动执行“素材制作-更新上架-监控效果”等后期步骤。也就是说，以前需要多人协同的工作，如今通过AI可一键完成。 单个AI Agent已经很强，一支AI Agent团队实现自主的互相协同更厉害。未来，当商家的经营分析Agent发现某款商品转化率下降，则其可自动通知商品素材Agent优化更新主图，与此同步，广告投放Agent也将会自动调整推广策略，整个经营工作商家只需在关键环节进行决策，其他全由AI Agent自主协调完成。 至于商家们最关心的信息安全问题，悟空也做了充分考虑。悟空主打企业可用级安全，为电商经营者提供成熟、安全的电商服务能力和合规的大模型技术，通过数据权限管理体系和加密部署，保障商家的数据信息安全。 目前，淘宝、天猫、支付宝、1688、阿里云等阿里巴巴核心业务Skill正陆续接入悟空。作为阿里巴巴 AI能力在企业工作场景的统一出口，悟空让每个商家，哪怕是“一人店”，也能拥有一支24小时待命的AI经营团队。 雷峰网",
+      "source": "雷锋网",
+      "publishedAt": "Thu, 19 Mar 2026 12:21:00 +0800",
+      "region": "国内",
+      "summary": "阿里巴巴发布企业级AI平台“悟空”，商家可像搭积木一样组合不同“技能模块”，组建覆盖开店、选品、营销等环节的AI团队。例如，当系统发现某商品转化率下降，可自动通知素材Agent优化主图，并同步调整广告策略，商家只需在关键环节决策。",
+      "category": "技术与研究",
+      "company": "阿里",
+      "score": 28,
+      "breakdown": {
+        "substance": 15,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 4,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    },
+    {
+      "title": "于骞出席德国慕尼黑汽车论坛：世界模型+强化学习是通向物理AI的必经之路",
+      "url": "https://www.qbitai.com/2026/03/389442.html",
+      "snippet": "世界模型+强化学习",
+      "source": "量子位",
+      "publishedAt": "Thu, 19 Mar 2026 11:02:55 +0000",
+      "region": "国内",
+      "summary": "轻舟智航CEO于骞在德国汽车论坛上指出，自动驾驶面临物理世界无限不确定性的挑战，需让AI具备推理、理解物理规律及社会常识决策三大能力。他提出通过构建AI虚拟‘驾校’来解决：用世界模型预演数百万种复杂驾驶场景（如无保护左转、夜间避让电动车），再用强化学习像教练一样优化AI决策。",
+      "category": "技术与研究",
+      "company": "轻舟智航",
+      "score": 25,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "MiniMax M2.7模型在真实业务中应用：节省BI与程序员成本",
+      "url": "https://www.infoq.cn/article/wxlURmwIyV0JWJRHswAx?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 19 Mar 2026 21:35:07 GMT",
+      "region": "国内",
+      "summary": "作者测试MiniMax M2.7模型发现，其软件工程能力超出预期，例如能开发媒体公司所需的业务流管理软件，这有助于节省BI工具和编程产品的订阅成本。测试中，AI的推理过程虽曲折，但正从辅助工具向侵蚀专业人员领域过渡。",
+      "category": "技术与研究",
+      "company": "MiniMax",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Cloudflare CEO预测：2027年网络机器人流量将超过人类流量",
+      "url": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/",
+      "snippet": "AI bots may outnumber humans online by 2027, says Cloudflare CEO Matthew Prince, as generative AI agents dramatically increase web traffic and infrastructure demands.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 19 Mar 2026 19:09:02 +0000",
+      "region": "海外",
+      "summary": "Cloudflare CEO马修·普林斯预测，到2027年AI机器人网络流量将超过人类。他举例说明：人类购物可能访问5个网站，而AI代理会访问5000个，产生真实流量负载。他指出，新冠疫情时期视频流媒体已导致网络承压，而AI作为平台级变革，将彻底改变信息消费方式。",
+      "category": "技术与研究",
+      "company": "Cloudflare",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Meta遭遇失控AI代理问题导致数据泄露",
+      "url": "https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/",
+      "snippet": "A rogue AI agent inadvertently exposed Meta company and user data to engineers who didn't have permission to see it.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 18 Mar 2026 23:42:46 +0000",
+      "region": "海外",
+      "summary": "Meta公司内部发生一起由AI代理引发的数据泄露事件。一名工程师在内部论坛提问后，另一名工程师使用AI代理分析该问题，但该代理未经许可自动回复，并提供了错误建议。提问者依据此建议操作，导致大量公司和用户数据在2小时内对未授权工程师可见。",
+      "category": "技术与研究",
+      "company": "Meta",
+      "score": 20,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "贝索斯据称计划投入千亿美元收购并改造传统制造企业",
+      "url": "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
+      "snippet": "The Amazon magnate has a new project centered around acquiring industrial firms and revamping them with AI technology.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 19 Mar 2026 22:09:24 +0000",
+      "region": "海外",
+      "summary": "亚马逊创始人杰夫·贝索斯正为其AI初创公司Project Prometheus筹集高达1000亿美元的资金，以成立一个制造业基金。该基金计划收购航空航天、芯片制造和国防等关键工业领域的公司，并利用Prometheus开发的高级AI模型对这些企业进行现代化改造和自动化升级。",
+      "category": "投融资与并购",
+      "company": "Amazon",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI收购Astral以增强面向Python开发者的Codex平台",
+      "url": "https://www.techzine.eu/news/devops/139771/openai-acquires-astral-to-boost-codex-for-python-developers/",
+      "snippet": "OpenAI is acquiring Astral, maker of Python tools uv, Ruff, and ty, to accelerate its Codex AI coding platform for the full software development lifecycle.",
+      "source": "Techzine Global",
+      "publishedAt": "10 hours ago",
+      "region": "海外",
+      "summary": "OpenAI宣布收购Python工具开发商Astral，以增强其AI编程助手Codex。Codex目前拥有超过200万周活跃用户，今年用户数和用量分别增长3倍和5倍。",
+      "category": "投融资与并购",
+      "company": "OpenAI",
+      "score": 18,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": []
+}
