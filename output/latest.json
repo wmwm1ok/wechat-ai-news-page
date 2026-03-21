@@ -1,19 +1,19 @@
 {
   "date": "2026/3/21",
-  "edition": "morning",
-  "editionLabel": "早报",
-  "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/3/21 08:00",
-  "count": 8,
+  "edition": "afternoon",
+  "editionLabel": "午后版",
+  "title": "AI 日报·午后版（Afternoon）",
+  "generatedAt": "2026/3/21 16:00",
+  "count": 10,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-20-afternoon.json",
+    "previousEditionFile": "news-2026-03-21-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 14,
+      "domesticBeforeDedup": 21,
       "overseasBeforeDedup": 14,
-      "domesticAfterDedup": 14,
+      "domesticAfterDedup": 21,
       "overseasAfterDedup": 14,
       "domesticSources": [
         {
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 4,
+          "count": 3,
           "error": null
         },
         {
@@ -42,9 +42,9 @@
         },
         {
           "source": "雷锋网",
-          "ok": false,
-          "count": 0,
-          "error": "Request timed out after 10000ms"
+          "ok": true,
+          "count": 8,
+          "error": null
         }
       ],
       "overseasSources": [
@@ -76,120 +76,139 @@
       }
     },
     "summarize": {
-      "totalSummarized": 28
+      "totalSummarized": 35
     },
     "scoring": {
-      "totalInput": 28,
-      "totalScored": 10,
-      "strictScoredCount": 7,
-      "relaxedCandidateCount": 3,
+      "totalInput": 35,
+      "totalScored": 13,
+      "strictScoredCount": 12,
+      "relaxedCandidateCount": 1,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 7,
-      "selectedCandidateCount": 10,
-      "duplicateCount": 7,
-      "crossDayDuplicateCount": 5,
-      "lowQualityCount": 4,
-      "domesticAvailable": 6,
-      "overseasAvailable": 4,
+      "weakSummaryCount": 10,
+      "selectedCandidateCount": 13,
+      "duplicateCount": 12,
+      "crossDayDuplicateCount": 12,
+      "lowQualityCount": 5,
+      "domesticAvailable": 10,
+      "overseasAvailable": 3,
       "sourceCount": {
-        "量子位": 2,
-        "36氪": 2,
+        "雷锋网": 7,
         "InfoQ": 2,
-        "TechCrunch AI": 2,
-        "MIT Technology Review": 2
+        "量子位": 1,
+        "TechCrunch AI": 3
       }
     },
     "display": {
-      "refinedCount": 10,
+      "refinedCount": 13,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 8,
+      "integrityRemovedCount": 3,
+      "postEditionFilterCount": 10,
       "displayReadyCount": 7,
-      "fallbackDisplayCount": 1,
-      "removedWeakSummaries": 1,
-      "shortage": 6
+      "fallbackDisplayCount": 3,
+      "removedWeakSummaries": 3,
+      "shortage": 4
     }
   },
   "articles": [
     {
       "section": "技术与研究",
-      "title": "谷歌AI设计工具冲击Figma，后者股价受挫",
-      "company": "谷歌",
-      "url": "https://www.qbitai.com/2026/03/390235.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 20 Mar 2026 07:40:16 +0000",
-      "summary": "谷歌推出名为“Stitch”的AI设计工具，对刚于2025年7月完成IPO的设计软件公司Figma构成直接竞争，导致后者股价下跌。Stitch的核心功能与Figma高度重叠，但其具备两项关键优势：一是采用了基于节点的AI原生画布界面，提供无限画布。",
-      "score": 39
-    },
-    {
-      "section": "技术与研究",
-      "title": "前荣耀AI实验室主任带队研发农业AI系统，实现农场24小时自主作业",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/03/389609.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 20 Mar 2026 05:37:12 +0000",
-      "summary": "前荣耀AI实验室主任汤泳团队研发的AlphaFarm农业AI系统，能实现农场24小时自主作业。其核心在于：第一，系统内置IDRCO进化引擎，能根据每次作业后的产量、效率等数据反馈进行增量学习，实现自主进化。",
-      "score": 31
-    },
-    {
-      "section": "技术与研究",
-      "title": "Claude Code与Cursor面临代码重构挑战，OpenCode或成例外",
-      "company": "Claude",
-      "url": "https://www.infoq.cn/article/mpTLQz7Oj5lfLIoZiBhE?utm_source=rss&utm_medium=article",
+      "title": "火山Mem0记忆中间件架构解析与AI Agent落地实践",
+      "company": "火山",
+      "url": "https://www.infoq.cn/article/VGTtEPwPCd101Iwm9wQi?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Fri, 20 Mar 2026 17:55:35 GMT",
-      "summary": "文章指出当前AI编程工具面临具体技术挑战：1. Claude Code因底层模型非确定性及代码快速堆叠，导致产品稳定性下降，出现崩溃、报错增多和速度变慢，甚至考虑收购Bun来改善底层runtime。",
-      "score": 23
+      "publishedAt": "Sat, 21 Mar 2026 09:54:00 GMT",
+      "summary": "字节跳动季旭博士在QCon大会上分享了火山Mem0记忆中间件如何解决AI Agent的实际问题。Mem0通过提供托管化记忆层API，解决了大模型上下文窗口有限且成本高、难以长期跟踪用户历史与偏好的痛点。该方案已成功落地于字节内部多个AI业务，降低了自建记忆系统的成本。",
+      "score": 29
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "MOVA AtomForm将在硅谷发布首款智能12喷嘴3D打印机Palette 300",
+      "company": "MOVA AtomForm",
+      "url": "https://www.leiphone.com/category/industrynews/3FHQR1MzEHVVTpOk.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 20 Mar 2026 21:09:00 +0800",
+      "summary": "MOVA AtomForm公司将于3月24日在硅谷发布其首款桌面级3D打印机Palette 300。该产品的核心是搭载了OmniElement™全自动喷嘴切换系统，配备了12个独立喷嘴，能同时处理最多12种材料或36种颜色，旨在解决多色打印时换料慢、材料浪费多和易串色的问题。",
+      "score": 29
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "华为WATCH Ultimate 2旷野绿开启预售，售价7999元",
+      "company": "华为",
+      "url": "https://www.leiphone.com/category/industrynews/snhk2BkvuGtfBfGU.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 20 Mar 2026 11:54:00 +0800",
+      "summary": "华为于3月20日宣布其旗舰智能手表WATCH Ultimate 2旷野绿开启预售，售价7999元。该产品此前已在AWE 2026展会上完成国内首秀，重点展示了其全新升级的高尔夫练习场模式与“击球动作监测”功能，旨在为高尔夫爱好者提供智能辅助。",
+      "score": 28
     },
     {
       "section": "技术与研究",
-      "title": "微软缩减Windows系统中Copilot的入口点",
-      "company": "Microsoft",
-      "url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
+      "title": "AKS利用DRA与vGPU技术优化AI成本，云厂商加速转向动态GPU调度",
+      "company": "AKS",
+      "url": "https://www.infoq.cn/article/QhXW1UCVYwHtx7W9EdDp?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 21 Mar 2026 08:00:00 GMT",
+      "summary": "微软Azure AKS团队提出结合动态资源分配（DRA）与虚拟GPU（vGPU）技术来优化AI成本。具体方案包括：在Kubernetes 1.34+中，使用特定A10实例创建节点池并打标签。",
+      "score": 26
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "WordPress.com推出AI代理，可自动撰写和发布文章",
+      "company": "WordPress.com",
+      "url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
       "source": "TechCrunch AI",
-      "publishedAt": "Fri, 20 Mar 2026 20:53:09 +0000",
-      "summary": "微软正在减少Windows系统中Copilot人工智能助手的入口点，以简化界面并回应消费者对AI功能泛滥的担忧。具体调整包括：首批从照片、小组件、记事本等应用程序中移除Copilot入口；同时，公司已搁置在Windows 11系统设置、文件资源管理器等处集成Copilot品牌的计划。",
-      "score": 21
+      "publishedAt": "Fri, 20 Mar 2026 16:43:09 +0000",
+      "summary": "WordPress.com正式推出AI代理功能，允许AI助手在用户网站上执行多项内容管理任务。具体而言，AI代理不仅能根据用户描述自动撰写草稿并发布文章，还能管理评论、优化SEO元数据（如修复图片替代文本和标题），以及通过标签和分类来组织内容。",
+      "score": 26
     },
     {
-      "section": "技术与研究",
-      "title": "OpenAI正构建全自动AI研究员",
-      "company": "OpenAI",
-      "url": "https://www.technologyreview.com/2026/03/20/1134448/the-download-openai-building-fully-automated-researcher-psychedelic-drug-trial/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Fri, 20 Mar 2026 13:15:45 +0000",
-      "summary": "OpenAI宣布了一项新的宏大挑战：构建一个全自动的、基于智能体的AI研究员系统，旨在独立解决大型复杂研究问题。该公司计划在今年9月首先推出一个“自主AI研究实习生”，作为该全自动多智能体系统的前身，后者预计在2028年正式亮相。这一目标将成为OpenAI未来几年的“北极星”。",
-      "score": 21
+      "section": "产品发布与更新",
+      "title": "Meta推出新的AI内容执行系统并减少对第三方供应商的依赖",
+      "company": "Meta",
+      "url": "https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 19 Mar 2026 17:24:13 +0000",
+      "summary": "Meta宣布推出更先进的AI内容执行系统，旨在减少对第三方供应商的依赖。新系统在早期测试中表现突出，能检测出比人工审核团队多一倍的成人色情诱导内容，并将错误率降低超过60%。此外，该系统还能更有效地识别和阻止涉及名人等高知名度用户的冒充账户，并通过监测新地点登录、密码更改等信号来防止账户被接管。",
+      "score": 26
     },
     {
       "section": "政策与监管",
-      "title": "特朗普AI框架主张联邦优先于州法律，将儿童安全责任转移给父母",
-      "company": "无",
-      "url": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/",
+      "title": "五角大楼文件显示与Anthropic立场接近，公司反驳国家安全风险指控",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
       "source": "TechCrunch AI",
-      "publishedAt": "Fri, 20 Mar 2026 16:14:04 +0000",
-      "summary": "特朗普政府提出的AI治理框架主张联邦法律优先于各州法律，旨在建立一个‘负担最小’的国家标准以加速AI在各行业应用。框架将保护儿童安全的主要责任转移给父母，仅要求AI平台‘商业上合理地’实施防性剥削功能，而未设定明确强制标准。",
-      "score": 19
+      "publishedAt": "Sat, 21 Mar 2026 01:40:28 +0000",
+      "summary": "Anthropic向法院提交声明，从技术层面反驳五角大楼的安全指控。其首席科学家指出，部署在政府安全隔离系统中的Claude模型没有远程“后门”或“紧急停止开关”，公司无法单方面干预其运行，任何模型更新都需国防部明确批准并手动安装。",
+      "score": 24
     },
     {
-      "section": "技术与研究",
-      "title": "致幻剂在临床试验中（仍然）未达预期",
-      "company": "",
-      "url": "https://www.technologyreview.com/2026/03/20/1134419/psychedelics-overhyped-psilocybin-depression-placebo/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Fri, 20 Mar 2026 09:00:00 +0000",
-      "summary": "文章指出，致幻剂（如神奇蘑菇中的裸盖菇素）正从反文化领域转向临床研究，被探索用于治疗抑郁症、创伤后应激障碍等多种疾病。然而，近期一项由加州大学旧金山分校团队主导的“开放标签”研究显示，服用裸盖菇素的志愿者虽有改善，但其效果与服用安慰剂的组别相比，并未显著更优，导致研究结论尚不明确。",
-      "score": 19
+      "section": "产品发布与更新",
+      "title": "Cursor被指套壳Kimi模型，创始人回应忘记署名",
+      "company": "Cursor",
+      "url": "https://www.qbitai.com/2026/03/390619.html",
+      "source": "量子位",
+      "publishedAt": "Sat, 21 Mar 2026 05:27:42 +0000",
+      "summary": "我们很高兴看到Kimi-k2.5成为其基础模型。看到我们的模型通过 Cursor 的持续预训练和高算力强化学习训练被有效整合，这正是我们所支持的开放模型生态。补充说明：Cursor是通过FireworksAI提供的托管强化学习与推理平台来访问Kimi-k2.5的，这是一个经过授权的商业合作关系。",
+      "score": 27
     },
     {
       "section": "投融资与并购",
-      "title": "万物云2025年业绩：关联交易占比降至6%，业务独立性增强",
-      "company": "万物云",
-      "url": "https://36kr.com/p/3731378273828868?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-20 22:35:18  +0800",
-      "summary": "朱保全表示，“今天有可能每承接一个新的住宅物业，都有可能会带来30%甚至以上的一个空置率。空置来自开发商没有卖掉的房子，也有业主买过之后没有居住的房子，空置的房子的物业费收缴率比居住房屋的空置费收缴率差不多要少17.7个百分点。",
-      "score": 31
+      "title": "淘宝闪购与美团外卖竞争回顾：从追平亏损到提质增效",
+      "company": "淘宝,美团",
+      "url": "https://www.leiphone.com/category/smartretailing/Ml2046cRBKHbWWvZ.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 20 Mar 2026 10:51:00 +0800",
+      "summary": "从饮品到正餐再到非餐品牌零售的三级跳，有利于平台提升客单价，减少UE亏损（即平均每单的亏损）。高盛的测算显示，淘宝闪购与美团的单均亏损差，从去年二季度的3.4元缩小到三季度的2.5元，四季度进一步降至1.5元，后续还将进一步缩窄。美团也注意到维持高单价核心客群的重要性。",
+      "score": 25
+    },
+    {
+      "section": "技术与研究",
+      "title": "港大赵恒爽团队论文：让扩散模型既拿高分又不「作弊」",
+      "company": "",
+      "url": "https://www.leiphone.com/category/ai/PeZobc6lj3nOuDWZ.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 20 Mar 2026 16:33:00 +0800",
+      "summary": "在 OCR 任务中，一些强化学习方法（例如 Flow - GRPO ）在训练过程中会采取某些极端策略来提高 OCR 评分，例如把目标文字做得非常大，将文字放在图像中央位置，同时减少图像中的背景内容。这样 OCR 系统更容易识别文字，因此评分会很高。",
+      "score": 17
     }
   ]
 }
