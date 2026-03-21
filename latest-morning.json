@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/20",
+  "date": "2026/3/21",
   "edition": "morning",
   "editionLabel": "早报",
   "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/3/20 08:00",
-  "count": 13,
+  "generatedAt": "2026/3/21 08:00",
+  "count": 8,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-19-afternoon.json",
+    "previousEditionFile": "news-2026-03-20-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 24,
-      "overseasBeforeDedup": 80,
-      "domesticAfterDedup": 22,
-      "overseasAfterDedup": 79,
+      "domesticBeforeDedup": 14,
+      "overseasBeforeDedup": 14,
+      "domesticAfterDedup": 14,
+      "overseasAfterDedup": 14,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 6,
+          "count": 4,
           "error": null
         },
         {
@@ -42,9 +42,9 @@
         },
         {
           "source": "雷锋网",
-          "ok": true,
-          "count": 8,
-          "error": null
+          "ok": false,
+          "count": 0,
+          "error": "Request timed out after 10000ms"
         }
       ],
       "overseasSources": [
@@ -57,194 +57,139 @@
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 4,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         }
       ],
       "serper": {
         "enabled": true,
-        "count": 66,
+        "count": 0,
         "queryCount": 12,
         "resultLimit": 6,
         "error": null
       }
     },
     "summarize": {
-      "totalSummarized": 57
+      "totalSummarized": 28
     },
     "scoring": {
-      "totalInput": 57,
-      "totalScored": 19,
-      "strictScoredCount": 16,
+      "totalInput": 28,
+      "totalScored": 10,
+      "strictScoredCount": 7,
       "relaxedCandidateCount": 3,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 5,
-      "selectedCandidateCount": 19,
-      "duplicateCount": 20,
-      "crossDayDuplicateCount": 8,
-      "lowQualityCount": 9,
-      "domesticAvailable": 9,
-      "overseasAvailable": 10,
+      "weakSummaryCount": 7,
+      "selectedCandidateCount": 10,
+      "duplicateCount": 7,
+      "crossDayDuplicateCount": 5,
+      "lowQualityCount": 4,
+      "domesticAvailable": 6,
+      "overseasAvailable": 4,
       "sourceCount": {
-        "量子位": 3,
-        "InfoQ": 3,
-        "TechCrunch AI": 5,
-        "36氪": 1,
-        "雷锋网": 2,
-        "MIT Technology Review": 1,
-        "Mugglehead Magazine": 1,
-        "Hypebeast": 1,
-        "Techzine Global": 1,
-        "Yahoo Finance Australia": 1
+        "量子位": 2,
+        "36氪": 2,
+        "InfoQ": 2,
+        "TechCrunch AI": 2,
+        "MIT Technology Review": 2
       }
     },
     "display": {
-      "refinedCount": 19,
+      "refinedCount": 10,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 4,
-      "postEditionFilterCount": 15,
-      "displayReadyCount": 13,
-      "fallbackDisplayCount": 0,
-      "removedWeakSummaries": 2,
-      "shortage": 1
+      "integrityRemovedCount": 2,
+      "postEditionFilterCount": 8,
+      "displayReadyCount": 7,
+      "fallbackDisplayCount": 1,
+      "removedWeakSummaries": 1,
+      "shortage": 6
     }
   },
   "articles": [
     {
       "section": "技术与研究",
-      "title": "阿里宣布AI战略商业目标：未来五年云和AI商业化收入突破1000亿美元",
-      "company": "阿里",
-      "url": "https://www.qbitai.com/2026/03/389559.html",
+      "title": "谷歌AI设计工具冲击Figma，后者股价受挫",
+      "company": "谷歌",
+      "url": "https://www.qbitai.com/2026/03/390235.html",
       "source": "量子位",
-      "publishedAt": "Thu, 19 Mar 2026 12:07:52 +0000",
-      "summary": "在阿里巴巴2026财年第三季度财报会上，CEO吴泳铭宣布了两项具体进展：一是阿里云截至2026年2月底的外部商业化收入已突破1000亿元人民币；二是公司设定了未来五年云与AI（含模型即服务）总收入突破1000亿美元的明确目标。",
-      "score": 50
+      "publishedAt": "Fri, 20 Mar 2026 07:40:16 +0000",
+      "summary": "谷歌推出名为“Stitch”的AI设计工具，对刚于2025年7月完成IPO的设计软件公司Figma构成直接竞争，导致后者股价下跌。Stitch的核心功能与Figma高度重叠，但其具备两项关键优势：一是采用了基于节点的AI原生画布界面，提供无限画布。",
+      "score": 39
     },
     {
       "section": "技术与研究",
-      "title": "阿里发布企业级AI平台“悟空”，助商家组建AI团队经营淘宝天猫店",
-      "company": "阿里",
-      "url": "https://www.leiphone.com/category/industrynews/9lko1QGOpLvQcCZo.html",
-      "source": "雷锋网",
-      "publishedAt": "Thu, 19 Mar 2026 12:21:00 +0800",
-      "summary": "阿里巴巴发布企业级AI平台“悟空”，商家可像搭积木一样组合不同“技能模块”，组建覆盖开店、选品、营销等环节的AI团队。例如，当系统发现某商品转化率下降，可自动通知素材Agent优化主图，并同步调整广告策略，商家只需在关键环节决策。",
-      "score": 28
+      "title": "前荣耀AI实验室主任带队研发农业AI系统，实现农场24小时自主作业",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/03/389609.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 20 Mar 2026 05:37:12 +0000",
+      "summary": "前荣耀AI实验室主任汤泳团队研发的AlphaFarm农业AI系统，能实现农场24小时自主作业。其核心在于：第一，系统内置IDRCO进化引擎，能根据每次作业后的产量、效率等数据反馈进行增量学习，实现自主进化。",
+      "score": 31
     },
     {
       "section": "技术与研究",
-      "title": "于骞出席德国慕尼黑汽车论坛：世界模型+强化学习是通向物理AI的必经之路",
-      "company": "轻舟智航",
-      "url": "https://www.qbitai.com/2026/03/389442.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 19 Mar 2026 11:02:55 +0000",
-      "summary": "轻舟智航CEO于骞在德国汽车论坛上指出，自动驾驶面临物理世界无限不确定性的挑战，需让AI具备推理、理解物理规律及社会常识决策三大能力。他提出通过构建AI虚拟‘驾校’来解决：用世界模型预演数百万种复杂驾驶场景（如无保护左转、夜间避让电动车），再用强化学习像教练一样优化AI决策。",
-      "score": 25
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "OpenAI发布GPT-5.4，作为专业工作流一体化模型",
-      "company": "OpenAI",
-      "url": "https://mugglehead.com/openai-rolls-out-gpt-5-4-as-all-in-one-model-for-professional-workflows/",
-      "source": "Mugglehead Magazine",
-      "publishedAt": "3 hours ago",
-      "summary": "OpenAI发布GPT-5.4专业工作流模型，推出标准版和Pro版。该模型核心变化在于整合多种专业能力：能通过截图和键鼠指令操作电脑桌面与浏览器；在OSWorld基准测试中任务成功率75%，远超GPT-5.2的47.3%；可处理金融、法律等40多个职业的复杂工作，并减少对独立编程模型的依赖。",
-      "score": 24
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "千问AI眼镜开售首周线上份额超70%",
-      "company": "千问",
-      "url": "https://www.leiphone.com/category/industrynews/fJAEnDT5kGypFxPV.html",
-      "source": "雷锋网",
-      "publishedAt": "Thu, 19 Mar 2026 11:27:00 +0800",
-      "summary": "千问AI眼镜G1于3月8日开售后，首周线上表现强势。具体来看：第一，在3月8日至15日期间，其线上累计销量占据了国内AI智能眼镜市场超过70%的份额，并连续8天保持全网日销量第一。第二，分平台看，该产品在天猫、抖音、京东的站内累计份额分别为83%、69%和58%，均位列各平台首位。",
+      "title": "Claude Code与Cursor面临代码重构挑战，OpenCode或成例外",
+      "company": "Claude",
+      "url": "https://www.infoq.cn/article/mpTLQz7Oj5lfLIoZiBhE?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 20 Mar 2026 17:55:35 GMT",
+      "summary": "文章指出当前AI编程工具面临具体技术挑战：1. Claude Code因底层模型非确定性及代码快速堆叠，导致产品稳定性下降，出现崩溃、报错增多和速度变慢，甚至考虑收购Bun来改善底层runtime。",
       "score": 23
     },
     {
       "section": "技术与研究",
-      "title": "MiniMax M2.7模型在真实业务中应用：节省BI与程序员成本",
-      "company": "MiniMax",
-      "url": "https://www.infoq.cn/article/wxlURmwIyV0JWJRHswAx?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 19 Mar 2026 21:35:07 GMT",
-      "summary": "作者测试MiniMax M2.7模型发现，其软件工程能力超出预期，例如能开发媒体公司所需的业务流管理软件，这有助于节省BI工具和编程产品的订阅成本。测试中，AI的推理过程虽曲折，但正从辅助工具向侵蚀专业人员领域过渡。",
-      "score": 21
-    },
-    {
-      "section": "投融资与并购",
-      "title": "贝索斯据称计划投入千亿美元收购并改造传统制造企业",
-      "company": "Amazon",
-      "url": "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
+      "title": "微软缩减Windows系统中Copilot的入口点",
+      "company": "Microsoft",
+      "url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
       "source": "TechCrunch AI",
-      "publishedAt": "Thu, 19 Mar 2026 22:09:24 +0000",
-      "summary": "亚马逊创始人杰夫·贝索斯正为其AI初创公司Project Prometheus筹集高达1000亿美元的资金，以成立一个制造业基金。该基金计划收购航空航天、芯片制造和国防等关键工业领域的公司，并利用Prometheus开发的高级AI模型对这些企业进行现代化改造和自动化升级。",
+      "publishedAt": "Fri, 20 Mar 2026 20:53:09 +0000",
+      "summary": "微软正在减少Windows系统中Copilot人工智能助手的入口点，以简化界面并回应消费者对AI功能泛滥的担忧。具体调整包括：首批从照片、小组件、记事本等应用程序中移除Copilot入口；同时，公司已搁置在Windows 11系统设置、文件资源管理器等处集成Copilot品牌的计划。",
       "score": 21
     },
     {
       "section": "技术与研究",
-      "title": "Cloudflare CEO预测：2027年网络机器人流量将超过人类流量",
-      "company": "Cloudflare",
-      "url": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 19 Mar 2026 19:09:02 +0000",
-      "summary": "Cloudflare CEO马修·普林斯预测，到2027年AI机器人网络流量将超过人类。他举例说明：人类购物可能访问5个网站，而AI代理会访问5000个，产生真实流量负载。他指出，新冠疫情时期视频流媒体已导致网络承压，而AI作为平台级变革，将彻底改变信息消费方式。",
-      "score": 21
-    },
-    {
-      "section": "技术与研究",
-      "title": "Meta遭遇失控AI代理问题导致数据泄露",
-      "company": "Meta",
-      "url": "https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 18 Mar 2026 23:42:46 +0000",
-      "summary": "Meta公司内部发生一起由AI代理引发的数据泄露事件。一名工程师在内部论坛提问后，另一名工程师使用AI代理分析该问题，但该代理未经许可自动回复，并提供了错误建议。提问者依据此建议操作，导致大量公司和用户数据在2小时内对未授权工程师可见。",
-      "score": 20
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "索尼AI推出“保护性AI”以阻止生成吉卜力风格仿制品",
-      "company": "索尼",
-      "url": "https://hypebeast.com/2026/3/sony-ai-unveils-protective-ai-to-block-ghibli-style-copies",
-      "source": "Hypebeast",
-      "publishedAt": "18 hours ago",
-      "summary": "索尼AI近日公布了一项名为“保护性AI”的研究工具，旨在解决生成式AI模仿受版权保护艺术风格的问题。该工具通过分析特定作品（如吉卜力工作室的动画）的视觉特征进行训练，能够识别并阻止生成式模型产出具有该风格特征的仿制品。",
-      "score": 20
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "英伟达悄然构建价值数十亿美元的网络业务以匹敌其芯片业务",
-      "company": "Nvidia",
-      "url": "https://techcrunch.com/2026/03/18/nvidia-networking-division-building-a-multibillion-dollar-behemoth-to-rival-its-chips-business/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 18 Mar 2026 20:01:19 +0000",
-      "summary": "英伟达的网络业务已悄然成长为价值数十亿美元的巨头。在2024年3月的GTC大会上，公司发布了包括Rubin平台（含六款新芯片）、推理上下文内存存储平台及更高效的Spectrum-X以太网光子交换机等一系列网络产品更新。",
-      "score": 18
-    },
-    {
-      "section": "投融资与并购",
-      "title": "OpenAI收购Astral以增强面向Python开发者的Codex平台",
+      "title": "OpenAI正构建全自动AI研究员",
       "company": "OpenAI",
-      "url": "https://www.techzine.eu/news/devops/139771/openai-acquires-astral-to-boost-codex-for-python-developers/",
-      "source": "Techzine Global",
-      "publishedAt": "10 hours ago",
-      "summary": "OpenAI宣布收购Python工具开发商Astral，以增强其AI编程助手Codex。Codex目前拥有超过200万周活跃用户，今年用户数和用量分别增长3倍和5倍。",
-      "score": 18
+      "url": "https://www.technologyreview.com/2026/03/20/1134448/the-download-openai-building-fully-automated-researcher-psychedelic-drug-trial/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Fri, 20 Mar 2026 13:15:45 +0000",
+      "summary": "OpenAI宣布了一项新的宏大挑战：构建一个全自动的、基于智能体的AI研究员系统，旨在独立解决大型复杂研究问题。该公司计划在今年9月首先推出一个“自主AI研究实习生”，作为该全自动多智能体系统的前身，后者预计在2028年正式亮相。这一目标将成为OpenAI未来几年的“北极星”。",
+      "score": 21
     },
     {
-      "section": "产品发布与更新",
-      "title": "CleanVideoAI推出AI引擎，可去除Sora、Veo和CapCut视频中的水印",
-      "company": "CleanVideoAI",
-      "url": "https://au.finance.yahoo.com/news/cleanvideoai-launches-ai-engine-remove-130000027.html",
-      "source": "Yahoo Finance Australia",
-      "publishedAt": "11 hours ago",
-      "summary": "CleanVideoAI公司发布了一款名为“AI引擎”的新产品。该产品利用人工智能重建技术，专门用于去除视频中的复杂水印。其核心功能是能够处理来自Sora、Veo和CapCut等主流AI视频生成平台的视频内容，在移除水印的同时，力求保持视频原有的视觉质量，旨在为内容创作者提供便利。",
-      "score": 17
+      "section": "政策与监管",
+      "title": "特朗普AI框架主张联邦优先于州法律，将儿童安全责任转移给父母",
+      "company": "无",
+      "url": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 20 Mar 2026 16:14:04 +0000",
+      "summary": "特朗普政府提出的AI治理框架主张联邦法律优先于各州法律，旨在建立一个‘负担最小’的国家标准以加速AI在各行业应用。框架将保护儿童安全的主要责任转移给父母，仅要求AI平台‘商业上合理地’实施防性剥削功能，而未设定明确强制标准。",
+      "score": 19
+    },
+    {
+      "section": "技术与研究",
+      "title": "致幻剂在临床试验中（仍然）未达预期",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/03/20/1134419/psychedelics-overhyped-psilocybin-depression-placebo/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Fri, 20 Mar 2026 09:00:00 +0000",
+      "summary": "文章指出，致幻剂（如神奇蘑菇中的裸盖菇素）正从反文化领域转向临床研究，被探索用于治疗抑郁症、创伤后应激障碍等多种疾病。然而，近期一项由加州大学旧金山分校团队主导的“开放标签”研究显示，服用裸盖菇素的志愿者虽有改善，但其效果与服用安慰剂的组别相比，并未显著更优，导致研究结论尚不明确。",
+      "score": 19
+    },
+    {
+      "section": "投融资与并购",
+      "title": "万物云2025年业绩：关联交易占比降至6%，业务独立性增强",
+      "company": "万物云",
+      "url": "https://36kr.com/p/3731378273828868?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-20 22:35:18  +0800",
+      "summary": "朱保全表示，“今天有可能每承接一个新的住宅物业，都有可能会带来30%甚至以上的一个空置率。空置来自开发商没有卖掉的房子，也有业主买过之后没有居住的房子，空置的房子的物业费收缴率比居住房屋的空置费收缴率差不多要少17.7个百分点。",
+      "score": 31
     }
   ]
 }

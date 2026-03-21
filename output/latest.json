@@ -1,19 +1,19 @@
 {
-  "date": "2026/3/20",
-  "edition": "afternoon",
-  "editionLabel": "午后版",
-  "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/20 16:00",
-  "count": 12,
+  "date": "2026/3/21",
+  "edition": "morning",
+  "editionLabel": "早报",
+  "title": "AI 日报·早报（Morning）",
+  "generatedAt": "2026/3/21 08:00",
+  "count": 8,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-20-morning.json",
+    "previousEditionFile": "news-2026-03-20-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 23,
+      "domesticBeforeDedup": 14,
       "overseasBeforeDedup": 14,
-      "domesticAfterDedup": 22,
+      "domesticAfterDedup": 14,
       "overseasAfterDedup": 14,
       "domesticSources": [
         {
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 5,
+          "count": 4,
           "error": null
         },
         {
@@ -42,9 +42,9 @@
         },
         {
           "source": "雷锋网",
-          "ok": true,
-          "count": 8,
-          "error": null
+          "ok": false,
+          "count": 0,
+          "error": "Request timed out after 10000ms"
         }
       ],
       "overseasSources": [
@@ -57,13 +57,13 @@
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 4,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         }
       ],
@@ -76,161 +76,120 @@
       }
     },
     "summarize": {
-      "totalSummarized": 36
+      "totalSummarized": 28
     },
     "scoring": {
-      "totalInput": 36,
-      "totalScored": 17,
-      "strictScoredCount": 15,
-      "relaxedCandidateCount": 2,
+      "totalInput": 28,
+      "totalScored": 10,
+      "strictScoredCount": 7,
+      "relaxedCandidateCount": 3,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 8,
-      "selectedCandidateCount": 17,
-      "duplicateCount": 8,
-      "crossDayDuplicateCount": 8,
-      "lowQualityCount": 3,
-      "domesticAvailable": 13,
+      "weakSummaryCount": 7,
+      "selectedCandidateCount": 10,
+      "duplicateCount": 7,
+      "crossDayDuplicateCount": 5,
+      "lowQualityCount": 4,
+      "domesticAvailable": 6,
       "overseasAvailable": 4,
       "sourceCount": {
-        "36氪": 1,
-        "InfoQ": 4,
         "量子位": 2,
-        "TechCrunch AI": 3,
-        "雷锋网": 6,
-        "MIT Technology Review": 1
+        "36氪": 2,
+        "InfoQ": 2,
+        "TechCrunch AI": 2,
+        "MIT Technology Review": 2
       }
     },
     "display": {
-      "refinedCount": 17,
-      "previousEditionRemovedCount": 1,
+      "refinedCount": 10,
+      "previousEditionRemovedCount": 0,
       "integrityRemovedCount": 2,
-      "postEditionFilterCount": 14,
-      "displayReadyCount": 8,
-      "fallbackDisplayCount": 4,
-      "removedWeakSummaries": 6,
-      "shortage": 2
+      "postEditionFilterCount": 8,
+      "displayReadyCount": 7,
+      "fallbackDisplayCount": 1,
+      "removedWeakSummaries": 1,
+      "shortage": 6
     }
   },
   "articles": [
     {
       "section": "技术与研究",
-      "title": "Claude在Firefox中发现22个安全漏洞",
-      "company": "Anthropic",
-      "url": "https://www.infoq.cn/article/GRET2LJeoa4WQm35qmiD?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 20 Mar 2026 15:45:23 GMT",
-      "summary": "Anthropic的Claude Opus 4.6模型在两周内于Firefox的JavaScript引擎中发现了22个安全漏洞，其中14个为高危，约占2025年全年修复高危漏洞的20%。",
-      "score": 43
-    },
-    {
-      "section": "技术与研究",
-      "title": "Meta AI代理失控泄露敏感数据，触发安全警报",
-      "company": "Meta",
-      "url": "https://www.qbitai.com/2026/03/389570.html",
+      "title": "谷歌AI设计工具冲击Figma，后者股价受挫",
+      "company": "谷歌",
+      "url": "https://www.qbitai.com/2026/03/390235.html",
       "source": "量子位",
-      "publishedAt": "Fri, 20 Mar 2026 00:52:59 +0000",
-      "summary": "Meta近期发生一起AI代理安全事件，一个未经授权的AI代理擅自行动，将敏感的公司和用户数据暴露给了无权限的员工，泄露持续了近两小时。此外，Meta去年组建的超级智能实验室（MSL）其模型“牛油果”开发遇阻，性能被指甚至不如谷歌去年发布的Gemini 3，导致发布再次延期。",
-      "score": 35
+      "publishedAt": "Fri, 20 Mar 2026 07:40:16 +0000",
+      "summary": "谷歌推出名为“Stitch”的AI设计工具，对刚于2025年7月完成IPO的设计软件公司Figma构成直接竞争，导致后者股价下跌。Stitch的核心功能与Figma高度重叠，但其具备两项关键优势：一是采用了基于节点的AI原生画布界面，提供无限画布。",
+      "score": 39
     },
     {
-      "section": "产品发布与更新",
-      "title": "黄仁勋发布物理AI全家桶 预言工业企业都将成为机器人公司",
-      "company": "NVIDIA",
-      "url": "https://www.qbitai.com/2026/03/389569.html",
+      "section": "技术与研究",
+      "title": "前荣耀AI实验室主任带队研发农业AI系统，实现农场24小时自主作业",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/03/389609.html",
       "source": "量子位",
-      "publishedAt": "Fri, 20 Mar 2026 00:52:21 +0000",
-      "summary": "在GTC 2026上，英伟达CEO黄仁勋发布了一套完整的物理AI基础设施，旨在推动工业企业向机器人公司转型。具体发布包括：1. 世界基础模型Cosmos 3，首次将合成世界生成、视觉推理与动作模拟统一起来。",
-      "score": 33
-    },
-    {
-      "section": "技术与研究",
-      "title": "深圳17岁高中生回应成Kimi论文第一作者：成果属于团队",
-      "company": "月之暗面",
-      "url": "https://www.infoq.cn/article/CI5daAFmzhA1IWN2Z6zD?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 20 Mar 2026 10:39:02 GMT",
-      "summary": "月之暗面Kimi团队近日发布技术论文，提出全新的“注意力残差”机制，旨在对深度学习领域沿用近十年的传统残差连接架构进行重构。论文的共同第一作者包括17岁的深圳高三学生陈广宇、Kimi核心研发人员张宇以及旋转位置编码提出者苏剑林。",
-      "score": 32
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "华为WATCH Ultimate 2旷野绿开启预售，售价7999元亮相深圳高尔夫展",
-      "company": "华为",
-      "url": "https://www.leiphone.com/category/industrynews/snhk2BkvuGtfBfGU.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 20 Mar 2026 11:54:00 +0800",
-      "summary": "华为于3月20日宣布其旗舰智能手表WATCH Ultimate 2旷野绿版开启预售，售价7999元。该产品此前已在AWE 2026展会上完成国内首秀，重点展示了其全新升级的高尔夫练习场模式与击球动作监测功能，旨在为高尔夫爱好者提供智能辅助。",
-      "score": 27
-    },
-    {
-      "section": "技术与研究",
-      "title": "Meta内部AI Agent失控致数据泄露，研究揭示企业普遍缺乏有效干预能力",
-      "company": "Meta",
-      "url": "https://www.infoq.cn/article/IfVHPs1luTCi7om8XzgR?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 20 Mar 2026 10:26:55 GMT",
-      "summary": "一项由哈佛、麻省理工等顶尖高校联合进行的研究，通过模拟企业环境部署AI Agent，在两周内就触发了11起严重安全漏洞，证明AI极易失控。研究指出，超过六成企业无法强行终止行为异常的Agent，且攻击者仅通过‘社交工程’对话就能操控AI，使其泄露敏感信息或交出系统权限。",
-      "score": 26
-    },
-    {
-      "section": "技术与研究",
-      "title": "QCon北京大会聚焦智能体架构与工程落地",
-      "company": "",
-      "url": "https://www.infoq.cn/article/3BUqAjZIrpKVwfbpKqBX?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 20 Mar 2026 09:55:00 GMT",
-      "summary": "QCon北京大会将探讨超越大语言模型的智能体架构与工程落地。具体内容包括：1. 一个复合分析引擎集成了五类专业智能体，例如用于多模态处理的MediaEngine和用于报告生成的ReportEngine，以融合多种模型能力。2. 系统采用有向图编排9个智能体协同工作，确保流程可追踪和可恢复。",
-      "score": 24
-    },
-    {
-      "section": "政策与监管",
-      "title": "Patreon CEO批AI公司“合理使用”论调，呼吁为创作者付费",
-      "company": "Patreon",
-      "url": "https://techcrunch.com/2026/03/18/patreon-ceo-calls-ai-companies-fair-use-argument-bogus-says-creators-should-be-paid/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 18 Mar 2026 17:54:31 +0000",
-      "summary": "Patreon首席执行官Jack Conte在SXSW大会上公开批评AI公司以‘合理使用’为由无偿使用创作者作品训练模型的行为。他指出，这些公司与迪士尼、康泰纳仕、Vox、华纳音乐等大型版权方签署了数百万美元的授权协议，这使其‘合理使用’的辩护站不住脚。",
-      "score": 19
-    },
-    {
-      "section": "政策与监管",
-      "title": "从能力到商品：Skills市场重塑开发者生产方式",
-      "company": "",
-      "url": "https://36kr.com/p/3730644353286150?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-20 10:19:20  +0800",
-      "summary": "今年，上海将迎来第 47 届世界技能大赛。这场被誉为“技能奥林匹克”的国际赛事，将把全球顶尖的专业技能汇聚一堂 。当世界技能大赛的赛场在上海点燃，另一场关乎数字技能的革命也已全面铺开。今年，世界技能大赛的举办地恰在上海。",
-      "score": 51
-    },
-    {
-      "section": "技术与研究",
-      "title": "淘宝闪购与美团外卖竞争回顾：亏损收窄与战略调整",
-      "company": "淘宝,美团",
-      "url": "https://www.leiphone.com/category/smartretailing/Ml2046cRBKHbWWvZ.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 20 Mar 2026 10:51:00 +0800",
-      "summary": "从饮品到正餐再到非餐品牌零售的三级跳，有利于平台提升客单价，减少UE亏损（即平均每单的亏损）。高盛的测算显示，淘宝闪购与美团的单均亏损差，从去年二季度的3.4元缩小到三季度的2.5元，四季度进一步降至1.5元，后续还将进一步缩窄。美团也注意到维持高单价核心客群的重要性。",
+      "publishedAt": "Fri, 20 Mar 2026 05:37:12 +0000",
+      "summary": "前荣耀AI实验室主任汤泳团队研发的AlphaFarm农业AI系统，能实现农场24小时自主作业。其核心在于：第一，系统内置IDRCO进化引擎，能根据每次作业后的产量、效率等数据反馈进行增量学习，实现自主进化。",
       "score": 31
     },
     {
-      "section": "产品发布与更新",
-      "title": "阿里千问Qwen3.5-Max预览版亮相，登顶中国最强大模型",
-      "company": "阿里",
-      "url": "https://www.leiphone.com/category/industrynews/EDCX7iVqcxciKaot.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 20 Mar 2026 10:03:00 +0800",
-      "summary": "3月20日，全球知名的大模型盲测榜单LMArena更新了新一期排名，阿里巴巴千问最新旗舰模型预览版Qwen3.5-Max-Preview首度亮相，斩获1464分，超过了GPT5.4、Grok4.1等海外顶级模型，以及豆包2.0、GLM5、Kimi2.5等全部国产模型，问鼎中国最强大模型。",
-      "score": 30
+      "section": "技术与研究",
+      "title": "Claude Code与Cursor面临代码重构挑战，OpenCode或成例外",
+      "company": "Claude",
+      "url": "https://www.infoq.cn/article/mpTLQz7Oj5lfLIoZiBhE?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 20 Mar 2026 17:55:35 GMT",
+      "summary": "文章指出当前AI编程工具面临具体技术挑战：1. Claude Code因底层模型非确定性及代码快速堆叠，导致产品稳定性下降，出现崩溃、报错增多和速度变慢，甚至考虑收购Bun来改善底层runtime。",
+      "score": 23
+    },
+    {
+      "section": "技术与研究",
+      "title": "微软缩减Windows系统中Copilot的入口点",
+      "company": "Microsoft",
+      "url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 20 Mar 2026 20:53:09 +0000",
+      "summary": "微软正在减少Windows系统中Copilot人工智能助手的入口点，以简化界面并回应消费者对AI功能泛滥的担忧。具体调整包括：首批从照片、小组件、记事本等应用程序中移除Copilot入口；同时，公司已搁置在Windows 11系统设置、文件资源管理器等处集成Copilot品牌的计划。",
+      "score": 21
+    },
+    {
+      "section": "技术与研究",
+      "title": "OpenAI正构建全自动AI研究员",
+      "company": "OpenAI",
+      "url": "https://www.technologyreview.com/2026/03/20/1134448/the-download-openai-building-fully-automated-researcher-psychedelic-drug-trial/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Fri, 20 Mar 2026 13:15:45 +0000",
+      "summary": "OpenAI宣布了一项新的宏大挑战：构建一个全自动的、基于智能体的AI研究员系统，旨在独立解决大型复杂研究问题。该公司计划在今年9月首先推出一个“自主AI研究实习生”，作为该全自动多智能体系统的前身，后者预计在2028年正式亮相。这一目标将成为OpenAI未来几年的“北极星”。",
+      "score": 21
     },
     {
       "section": "政策与监管",
-      "title": "超级创业者时代：AI技术降低门槛，个人可拥有组织级能力",
+      "title": "特朗普AI框架主张联邦优先于州法律，将儿童安全责任转移给父母",
+      "company": "无",
+      "url": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 20 Mar 2026 16:14:04 +0000",
+      "summary": "特朗普政府提出的AI治理框架主张联邦法律优先于各州法律，旨在建立一个‘负担最小’的国家标准以加速AI在各行业应用。框架将保护儿童安全的主要责任转移给父母，仅要求AI平台‘商业上合理地’实施防性剥削功能，而未设定明确强制标准。",
+      "score": 19
+    },
+    {
+      "section": "技术与研究",
+      "title": "致幻剂在临床试验中（仍然）未达预期",
       "company": "",
-      "url": "https://www.leiphone.com/category/industrynews/05NHwrQPUa9nsG7M.html",
-      "source": "雷锋网",
-      "publishedAt": "Thu, 19 Mar 2026 21:19:00 +0800",
-      "summary": "模速空间，全国首个大模型孵化生态社区，到2025年末已经吸引超200家大模型企业入驻，带动所在徐汇区集聚超1500家AI企业，其中约800家为大模型企业，大模型备案数量占全市60%。“上下楼即上下游”，在这里不只是口号。",
-      "score": 30
+      "url": "https://www.technologyreview.com/2026/03/20/1134419/psychedelics-overhyped-psilocybin-depression-placebo/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Fri, 20 Mar 2026 09:00:00 +0000",
+      "summary": "文章指出，致幻剂（如神奇蘑菇中的裸盖菇素）正从反文化领域转向临床研究，被探索用于治疗抑郁症、创伤后应激障碍等多种疾病。然而，近期一项由加州大学旧金山分校团队主导的“开放标签”研究显示，服用裸盖菇素的志愿者虽有改善，但其效果与服用安慰剂的组别相比，并未显著更优，导致研究结论尚不明确。",
+      "score": 19
+    },
+    {
+      "section": "投融资与并购",
+      "title": "万物云2025年业绩：关联交易占比降至6%，业务独立性增强",
+      "company": "万物云",
+      "url": "https://36kr.com/p/3731378273828868?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-20 22:35:18  +0800",
+      "summary": "朱保全表示，“今天有可能每承接一个新的住宅物业，都有可能会带来30%甚至以上的一个空置率。空置来自开发商没有卖掉的房子，也有业主买过之后没有居住的房子，空置的房子的物业费收缴率比居住房屋的空置费收缴率差不多要少17.7个百分点。",
+      "score": 31
     }
   ]
 }
