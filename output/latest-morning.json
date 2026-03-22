@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/21",
+  "date": "2026/3/22",
   "edition": "morning",
   "editionLabel": "早报",
   "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/3/21 08:00",
-  "count": 8,
+  "generatedAt": "2026/3/22 08:00",
+  "count": 4,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-20-afternoon.json",
+    "previousEditionFile": "news-2026-03-21-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 14,
-      "overseasBeforeDedup": 14,
-      "domesticAfterDedup": 14,
-      "overseasAfterDedup": 14,
+      "domesticBeforeDedup": 23,
+      "overseasBeforeDedup": 11,
+      "domesticAfterDedup": 23,
+      "overseasAfterDedup": 11,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 4,
+          "count": 5,
           "error": null
         },
         {
@@ -42,22 +42,22 @@
         },
         {
           "source": "雷锋网",
-          "ok": false,
-          "count": 0,
-          "error": "Request timed out after 10000ms"
+          "ok": true,
+          "count": 8,
+          "error": null
         }
       ],
       "overseasSources": [
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 10,
+          "count": 8,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 4,
+          "count": 3,
           "error": null
         },
         {
@@ -76,50 +76,50 @@
       }
     },
     "summarize": {
-      "totalSummarized": 28
+      "totalSummarized": 34
     },
     "scoring": {
-      "totalInput": 28,
-      "totalScored": 10,
-      "strictScoredCount": 7,
-      "relaxedCandidateCount": 3,
+      "totalInput": 34,
+      "totalScored": 7,
+      "strictScoredCount": 5,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 7,
-      "selectedCandidateCount": 10,
-      "duplicateCount": 7,
-      "crossDayDuplicateCount": 5,
-      "lowQualityCount": 4,
+      "weakSummaryCount": 10,
+      "selectedCandidateCount": 7,
+      "duplicateCount": 10,
+      "crossDayDuplicateCount": 9,
+      "lowQualityCount": 8,
       "domesticAvailable": 6,
-      "overseasAvailable": 4,
+      "overseasAvailable": 1,
       "sourceCount": {
+        "雷锋网": 2,
         "量子位": 2,
-        "36氪": 2,
-        "InfoQ": 2,
-        "TechCrunch AI": 2,
-        "MIT Technology Review": 2
+        "36氪": 1,
+        "InfoQ": 1,
+        "MIT Technology Review": 1
       }
     },
     "display": {
-      "refinedCount": 10,
+      "refinedCount": 7,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 8,
-      "displayReadyCount": 7,
+      "integrityRemovedCount": 3,
+      "postEditionFilterCount": 4,
+      "displayReadyCount": 3,
       "fallbackDisplayCount": 1,
       "removedWeakSummaries": 1,
-      "shortage": 6
+      "shortage": 10
     }
   },
   "articles": [
     {
       "section": "技术与研究",
-      "title": "谷歌AI设计工具冲击Figma，后者股价受挫",
-      "company": "谷歌",
-      "url": "https://www.qbitai.com/2026/03/390235.html",
+      "title": "英伟达GTC现场的隐形AI巨头：光轮智能的Physical AI基础设施",
+      "company": "光轮",
+      "url": "https://www.qbitai.com/2026/03/390924.html",
       "source": "量子位",
-      "publishedAt": "Fri, 20 Mar 2026 07:40:16 +0000",
-      "summary": "谷歌推出名为“Stitch”的AI设计工具，对刚于2025年7月完成IPO的设计软件公司Figma构成直接竞争，导致后者股价下跌。Stitch的核心功能与Figma高度重叠，但其具备两项关键优势：一是采用了基于节点的AI原生画布界面，提供无限画布。",
-      "score": 39
+      "publishedAt": "Sat, 21 Mar 2026 09:39:22 +0000",
+      "summary": "在英伟达GTC大会核心展区，光轮智能展示了其Physical AI基础设施方案。其核心是推动AI从“理解世界”迈向“进入世界”，具体解决人形机器人在现实工厂中试错成本高、风险大的难题。",
+      "score": 35
     },
     {
       "section": "技术与研究",
@@ -128,68 +128,28 @@
       "url": "https://www.qbitai.com/2026/03/389609.html",
       "source": "量子位",
       "publishedAt": "Fri, 20 Mar 2026 05:37:12 +0000",
-      "summary": "前荣耀AI实验室主任汤泳团队研发的AlphaFarm农业AI系统，能实现农场24小时自主作业。其核心在于：第一，系统内置IDRCO进化引擎，能根据每次作业后的产量、效率等数据反馈进行增量学习，实现自主进化。",
-      "score": 31
+      "summary": "前荣耀AI实验室主任汤泳团队研发的AlphaFarm农业AI系统，其核心是能自主决策的“AlphaFarm智脑”。该系统基于自研的AgriLLM大模型，接入了海量农业知识库，可直接驱动农机执行浇水、调度等作业指令，无需人工确认。",
+      "score": 27
     },
     {
       "section": "技术与研究",
-      "title": "Claude Code与Cursor面临代码重构挑战，OpenCode或成例外",
-      "company": "Claude",
-      "url": "https://www.infoq.cn/article/mpTLQz7Oj5lfLIoZiBhE?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 20 Mar 2026 17:55:35 GMT",
-      "summary": "文章指出当前AI编程工具面临具体技术挑战：1. Claude Code因底层模型非确定性及代码快速堆叠，导致产品稳定性下降，出现崩溃、报错增多和速度变慢，甚至考虑收购Bun来改善底层runtime。",
-      "score": 23
-    },
-    {
-      "section": "技术与研究",
-      "title": "微软缩减Windows系统中Copilot的入口点",
-      "company": "Microsoft",
-      "url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 20 Mar 2026 20:53:09 +0000",
-      "summary": "微软正在减少Windows系统中Copilot人工智能助手的入口点，以简化界面并回应消费者对AI功能泛滥的担忧。具体调整包括：首批从照片、小组件、记事本等应用程序中移除Copilot入口；同时，公司已搁置在Windows 11系统设置、文件资源管理器等处集成Copilot品牌的计划。",
-      "score": 21
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI正构建全自动AI研究员",
+      "title": "OpenAI正全力构建全自动AI研究员",
       "company": "OpenAI",
       "url": "https://www.technologyreview.com/2026/03/20/1134448/the-download-openai-building-fully-automated-researcher-psychedelic-drug-trial/",
       "source": "MIT Technology Review",
       "publishedAt": "Fri, 20 Mar 2026 13:15:45 +0000",
-      "summary": "OpenAI宣布了一项新的宏大挑战：构建一个全自动的、基于智能体的AI研究员系统，旨在独立解决大型复杂研究问题。该公司计划在今年9月首先推出一个“自主AI研究实习生”，作为该全自动多智能体系统的前身，后者预计在2028年正式亮相。这一目标将成为OpenAI未来几年的“北极星”。",
-      "score": 21
-    },
-    {
-      "section": "政策与监管",
-      "title": "特朗普AI框架主张联邦优先于州法律，将儿童安全责任转移给父母",
-      "company": "无",
-      "url": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 20 Mar 2026 16:14:04 +0000",
-      "summary": "特朗普政府提出的AI治理框架主张联邦法律优先于各州法律，旨在建立一个‘负担最小’的国家标准以加速AI在各行业应用。框架将保护儿童安全的主要责任转移给父母，仅要求AI平台‘商业上合理地’实施防性剥削功能，而未设定明确强制标准。",
-      "score": 19
-    },
-    {
-      "section": "技术与研究",
-      "title": "致幻剂在临床试验中（仍然）未达预期",
-      "company": "",
-      "url": "https://www.technologyreview.com/2026/03/20/1134419/psychedelics-overhyped-psilocybin-depression-placebo/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Fri, 20 Mar 2026 09:00:00 +0000",
-      "summary": "文章指出，致幻剂（如神奇蘑菇中的裸盖菇素）正从反文化领域转向临床研究，被探索用于治疗抑郁症、创伤后应激障碍等多种疾病。然而，近期一项由加州大学旧金山分校团队主导的“开放标签”研究显示，服用裸盖菇素的志愿者虽有改善，但其效果与服用安慰剂的组别相比，并未显著更优，导致研究结论尚不明确。",
-      "score": 19
+      "summary": "OpenAI宣布了一项新的核心挑战：构建一个全自动的、基于智能体的AI研究员系统，目标是让AI能独立处理大型复杂问题。公司计划分两步走：首先在今年9月前推出一个能处理少量特定研究问题的“自主AI研究实习生”，作为前期版本；最终目标是在2028年推出功能完备的、完全自动化的多智能体系统。",
+      "score": 17
     },
     {
       "section": "投融资与并购",
-      "title": "万物云2025年业绩：关联交易占比降至6%，业务独立性增强",
+      "title": "万物云2025年业绩报告：关联应收账款降至20.6亿，业务独立性增强",
       "company": "万物云",
       "url": "https://36kr.com/p/3731378273828868?f=rss",
       "source": "36氪",
       "publishedAt": "2026-03-20 22:35:18  +0800",
       "summary": "朱保全表示，“今天有可能每承接一个新的住宅物业，都有可能会带来30%甚至以上的一个空置率。空置来自开发商没有卖掉的房子，也有业主买过之后没有居住的房子，空置的房子的物业费收缴率比居住房屋的空置费收缴率差不多要少17.7个百分点。",
-      "score": 31
+      "score": 27
     }
   ]
 }
