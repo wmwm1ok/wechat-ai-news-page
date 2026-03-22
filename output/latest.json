@@ -1,20 +1,20 @@
 {
   "date": "2026/3/22",
-  "edition": "morning",
-  "editionLabel": "早报",
-  "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/3/22 09:40",
-  "count": 7,
+  "edition": "afternoon",
+  "editionLabel": "午后版",
+  "title": "AI 日报·午后版（Afternoon）",
+  "generatedAt": "2026/3/22 16:00",
+  "count": 9,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-21-afternoon.json",
+    "previousEditionFile": "news-2026-03-22-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 23,
-      "overseasBeforeDedup": 11,
-      "domesticAfterDedup": 23,
-      "overseasAfterDedup": 11,
+      "domesticBeforeDedup": 20,
+      "overseasBeforeDedup": 12,
+      "domesticAfterDedup": 20,
+      "overseasAfterDedup": 12,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 5,
+          "count": 3,
           "error": null
         },
         {
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 8,
+          "count": 7,
           "error": null
         }
       ],
@@ -51,7 +51,7 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 8,
+          "count": 9,
           "error": null
         },
         {
@@ -76,110 +76,129 @@
       }
     },
     "summarize": {
-      "totalSummarized": 34
+      "totalSummarized": 32
     },
     "scoring": {
-      "totalInput": 34,
-      "totalScored": 10,
-      "strictScoredCount": 8,
-      "relaxedCandidateCount": 2,
+      "totalInput": 32,
+      "totalScored": 14,
+      "strictScoredCount": 11,
+      "relaxedCandidateCount": 3,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 10,
-      "selectedCandidateCount": 10,
-      "duplicateCount": 11,
-      "crossDayDuplicateCount": 9,
-      "lowQualityCount": 9,
-      "domesticAvailable": 9,
-      "overseasAvailable": 1,
+      "weakSummaryCount": 12,
+      "selectedCandidateCount": 14,
+      "duplicateCount": 4,
+      "crossDayDuplicateCount": 4,
+      "lowQualityCount": 8,
+      "domesticAvailable": 11,
+      "overseasAvailable": 3,
       "sourceCount": {
-        "雷锋网": 3,
-        "量子位": 3,
-        "36氪": 1,
-        "InfoQ": 2,
-        "TechCrunch AI": 1
+        "雷锋网": 6,
+        "InfoQ": 4,
+        "TechCrunch AI": 3,
+        "量子位": 1
       }
     },
     "display": {
-      "refinedCount": 10,
+      "refinedCount": 14,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 3,
-      "postEditionFilterCount": 7,
-      "displayReadyCount": 6,
+      "integrityRemovedCount": 5,
+      "postEditionFilterCount": 9,
+      "displayReadyCount": 8,
       "fallbackDisplayCount": 1,
       "removedWeakSummaries": 1,
-      "shortage": 7
+      "shortage": 5
     }
   },
   "articles": [
     {
-      "section": "技术与研究",
-      "title": "前荣耀AI实验室主任带队研发农业“超级大脑”，实现农场24小时自主作业",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/03/389609.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 20 Mar 2026 05:37:12 +0000",
-      "summary": "前荣耀AI实验室主任汤泳带领团队研发的农业AI系统AlphaFarm，实现了农场24小时自主作业。其核心在于：1. 系统内置IDRCO进化引擎，能根据每次作业后的产量、效率等数据反馈进行增量学习，实现自主进化。",
+      "section": "产品发布与更新",
+      "title": "Cursor新模型被指基于Kimi K2.5，联创承认并承诺未来将说明",
+      "company": "Cursor",
+      "url": "https://www.infoq.cn/article/Uo9qDPlcoExt95xUG8N4?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 21 Mar 2026 18:00:00 GMT",
+      "summary": "AI编程工具Cursor发布新模型Composer 2后，被质疑其核心基础模型是Kimi的K2.5模型。Cursor联合创始人Aman Sanger承认此事，并解释Composer 2在K2.5基础上进行了持续预训练和计算量扩大4倍的高强度强化学习，最终模型的计算量仅有约四分之一来自开源部分。",
       "score": 36
     },
     {
       "section": "技术与研究",
-      "title": "英伟达GTC现场的隐形AI巨头：光轮智能的Physical AI基础设施",
-      "company": "光轮",
-      "url": "https://www.qbitai.com/2026/03/390924.html",
-      "source": "量子位",
-      "publishedAt": "Sat, 21 Mar 2026 09:39:22 +0000",
-      "summary": "在英伟达GTC大会核心展区，光轮智能提出了其Physical AI基础设施方案。该方案旨在解决AI在现实世界中执行物理任务（如机器人学习拧螺丝）时试错成本高、风险大的难题。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "谷歌AI设计工具冲击Figma，后者股价受挫",
-      "company": "谷歌",
-      "url": "https://www.qbitai.com/2026/03/390235.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 20 Mar 2026 07:40:16 +0000",
-      "summary": "2025年7月，UI/UX设计工具公司Figma在纽交所完成IPO，代码为FIG。该公司2025年全年收入达10.6亿美元，同比增长41%。然而，谷歌推出的AI设计工具Stitch对其构成直接竞争，核心功能高度重叠。Stitch的核心变化在于其AI原生画布，采用了基于节点的无限画布界面。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "Java生态近期动态：Apache Solr 10、Grails 7.0.8、JobRunr 8.5.0、Gradle 9.4.0等发布",
-      "company": "",
-      "url": "https://www.infoq.cn/article/ia7cifkMwDqYjd1FsdEQ?utm_source=rss&utm_medium=article",
+      "title": "火山Mem0记忆中间件架构解析与AI Agent落地实践",
+      "company": "火山",
+      "url": "https://www.infoq.cn/article/VGTtEPwPCd101Iwm9wQi?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Sun, 22 Mar 2026 08:00:00 GMT",
-      "summary": "Java生态多个重要项目发布更新：Apache Solr 10推出实验性现代化管理界面，并新增支持标量和二进制量化稠密向量以提升向量搜索性能、降低内存占用；Grails 7.0.8新增@DatabaseCleanup注解，可在每次测试后自动清理数据库表数据，并优化了构建流程以降低内存使用。",
+      "publishedAt": "Sat, 21 Mar 2026 09:54:00 GMT",
+      "summary": "在QCon北京大会上，字节跳动高级技术专家季旭博士分享了火山记忆中间件mem0如何支持其AI Agent产品。他具体介绍了：1. 针对大模型上下文窗口有限且成本高的问题，mem0提供了托管化记忆层，通过API Key鉴权、限流等功能，几行代码即可接入，降低了自建成本。",
+      "score": 25
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "MOVA AtomForm将在硅谷发布首款智能12喷嘴3D打印机Palette 300",
+      "company": "MOVA AtomForm",
+      "url": "https://www.leiphone.com/category/industrynews/3FHQR1MzEHVVTpOk.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 20 Mar 2026 21:09:00 +0800",
+      "summary": "MOVA AtomForm公司将于3月24日在硅谷发布其首款桌面级3D打印机Palette 300。该产品的核心是搭载了OmniElement™全自动喷嘴切换系统，配备了12个独立喷嘴，最高可支持36种颜色与12种材料的一体化打印，据称能将换料速度提升50%，材料浪费减少90%。",
+      "score": 25
+    },
+    {
+      "section": "政策与监管",
+      "title": "新法庭文件揭示五角大楼曾告知Anthropic双方近乎达成一致",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 21 Mar 2026 01:40:28 +0000",
+      "summary": "Anthropic在法庭文件中详细反驳五角大楼的安全指控，提出三个具体论点：第一，其Claude模型部署在政府‘气隙隔离’系统后，公司无法远程访问或控制，不存在‘远程终止开关’或后门；第二，公司员工已通过美国政府安全审查，是唯一由获授权人员为涉密环境构建AI模型的AI公司。",
+      "score": 24
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "WordPress.com推出AI代理，可自动撰写和发布文章",
+      "company": "WordPress.com",
+      "url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 20 Mar 2026 16:43:09 +0000",
+      "summary": "WordPress.com宣布其AI代理功能现已正式上线，用户可授权AI代理在其网站上执行多项内容管理任务。具体而言，AI代理能够根据用户指令或草稿，自动撰写、编辑并发布文章与页面，同时还能管理评论、优化SEO元数据（如修复图片替代文本和标题），以及通过标签和分类来组织内容。",
       "score": 22
     },
     {
-      "section": "技术与研究",
-      "title": "arXiv脱离康奈尔大学独立运营以应对AI生成论文激增",
-      "company": "康奈尔大学",
-      "url": "https://www.infoq.cn/article/Z791iXT2AhuA0Fiz0pcs?utm_source=rss&utm_medium=article",
+      "section": "产品发布与更新",
+      "title": "MCP Gateway：构建下一代AI Agent的“中枢网关”｜QCon北京",
+      "company": "小米",
+      "url": "https://www.infoq.cn/article/wwu9ccjyS00J9YMgKHI7?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Fri, 20 Mar 2026 18:30:58 GMT",
-      "summary": "预印本平台arXiv因运营成本上升和AI生成论文激增带来的压力，决定脱离康奈尔大学独立运营。具体而言：1. 过去两年arXiv已出现运营赤字，预计2025年赤字将达29.7万美元，而康奈尔大学不仅填补了超支部分，还提供了约81.9万美元的实物支持。",
+      "publishedAt": "Sun, 22 Mar 2026 10:02:00 GMT",
+      "summary": "小米资深架构师张平将在QCon北京分享MCP Gateway，这是一个旨在构建下一代AI Agent的“中枢网关”。其核心作用是解决传统AI编码助手难以接入企业内部工具（如需求平台、GitLab、CICD平台）的痛点，通过将这些工具统一封装为MCP工具并经由网关暴露，使Agent能自动组合调用。",
       "score": 21
     },
     {
       "section": "技术与研究",
-      "title": "英伟达大会为何未能赢得华尔街青睐",
-      "company": "Nvidia",
-      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
+      "title": "AI代币是新的签约奖金还是业务成本？",
+      "company": "",
+      "url": "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/",
       "source": "TechCrunch AI",
-      "publishedAt": "Sat, 21 Mar 2026 16:28:00 +0000",
-      "summary": "在英伟达GTC大会上，创始人黄仁勋发布了多项创新，包括与Groq合作设计用于Vera Rubin系统的新AI推理芯片、新的游戏图形技术和更新的网络基础设施。他预测AI代理生态系统和物理AI/机器人产业将分别达到35万亿和50万亿美元的市场规模。",
+      "publishedAt": "Sun, 22 Mar 2026 06:20:43 +0000",
+      "summary": "文章探讨了硅谷热议的将AI代币作为工程师薪酬第四支柱的提议。具体信息点包括：1. 风投Tomasz Tunguz指出，顶级软件工程师年薪约37.5万美元，若加入10万美元的AI代币预算，总薪酬达47.5万美元，其中约五分之一是计算资源成本。",
+      "score": 21
+    },
+    {
+      "section": "技术与研究",
+      "title": "AKS利用DRA与vGPU技术优化AI成本，云厂商加速转向动态GPU调度",
+      "company": "AKS",
+      "url": "https://www.infoq.cn/article/QhXW1UCVYwHtx7W9EdDp?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 21 Mar 2026 08:00:00 GMT",
+      "summary": "微软Azure的AKS服务通过整合Kubernetes动态资源分配（DRA）与NVIDIA虚拟GPU（vGPU）技术，优化AI工作负载的GPU资源管理。具体操作包括：需使用Kubernetes 1.34及以上版本，在特定NVadsA10_v5节点池上部署NVIDIA DRA驱动。",
       "score": 20
     },
     {
-      "section": "投融资与并购",
-      "title": "万物云2025年业绩报告：关联应收账款降至20.6亿，业务独立性持续增强",
-      "company": "万物云",
-      "url": "https://36kr.com/p/3731378273828868?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-20 22:35:18  +0800",
-      "summary": "朱保全表示，“今天有可能每承接一个新的住宅物业，都有可能会带来30%甚至以上的一个空置率。空置来自开发商没有卖掉的房子，也有业主买过之后没有居住的房子，空置的房子的物业费收缴率比居住房屋的空置费收缴率差不多要少17.7个百分点。",
-      "score": 27
+      "section": "产品发布与更新",
+      "title": "Cursor被指套壳Kimi模型，创始人回应忘记署名",
+      "company": "Cursor",
+      "url": "https://www.qbitai.com/2026/03/390619.html",
+      "source": "量子位",
+      "publishedAt": "Sat, 21 Mar 2026 05:27:42 +0000",
+      "summary": "我们很高兴看到Kimi-k2.5成为其基础模型。看到我们的模型通过 Cursor 的持续预训练和高算力强化学习训练被有效整合，这正是我们所支持的开放模型生态。补充说明：Cursor是通过FireworksAI提供的托管强化学习与推理平台来访问Kimi-k2.5的，这是一个经过授权的商业合作关系。",
+      "score": 21
     }
   ]
 }

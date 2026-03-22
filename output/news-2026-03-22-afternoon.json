@@ -1,0 +1,198 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "Cursor新模型被指基于Kimi K2.5，联创承认并承诺未来将说明",
+      "url": "https://www.infoq.cn/article/Uo9qDPlcoExt95xUG8N4?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 21 Mar 2026 18:00:00 GMT",
+      "region": "国内",
+      "summary": "AI编程工具Cursor发布新模型Composer 2后，被质疑其核心基础模型是Kimi的K2.5模型。Cursor联合创始人Aman Sanger承认此事，并解释Composer 2在K2.5基础上进行了持续预训练和计算量扩大4倍的高强度强化学习，最终模型的计算量仅有约四分之一来自开源部分。",
+      "category": "产品发布与更新",
+      "company": "Cursor",
+      "score": 36,
+      "breakdown": {
+        "substance": 14,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "MOVA AtomForm将在硅谷发布首款智能12喷嘴3D打印机Palette 300",
+      "url": "https://www.leiphone.com/category/industrynews/3FHQR1MzEHVVTpOk.html",
+      "snippet": "雷峰网获悉，MOVA AtomForm宣布将于美国圣何塞时间3月24日13时（北京时间3月25日凌晨4时）在美国硅谷举行产品发布会，正式推出首款拥有智能12喷嘴的桌面级3D打印机Palette 300。 据MOVA AtomForm此前透露，该3D打印机搭载OmniElement™全自动喷嘴切换系统，创纪录地配备12个独立喷嘴，最高支持36种颜色与12种材料的一体打印，使换料速度提升50%，材料浪费减少90%，旨在解决当前产品普遍存在的多色打印换料慢、浪费多、易串色等痛点。 据悉，Palette 300将内置50余个传感器及4颗AI摄像头，并由MOVA的自研芯片统一处理视觉与材料数据，实现全流程智能管控。该产品已获美国MUSE设计奖金奖与2026德国iF设计奖。",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 20 Mar 2026 21:09:00 +0800",
+      "region": "国内",
+      "summary": "MOVA AtomForm公司将于3月24日在硅谷发布其首款桌面级3D打印机Palette 300。该产品的核心是搭载了OmniElement™全自动喷嘴切换系统，配备了12个独立喷嘴，最高可支持36种颜色与12种材料的一体化打印，据称能将换料速度提升50%，材料浪费减少90%。",
+      "category": "产品发布与更新",
+      "company": "MOVA AtomForm",
+      "score": 25,
+      "breakdown": {
+        "substance": 16,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "WordPress.com推出AI代理，可自动撰写和发布文章",
+      "url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
+      "snippet": "New AI agents on WordPress.com could lower barriers to publishing while increasing machine-generated content across the web.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 20 Mar 2026 16:43:09 +0000",
+      "region": "海外",
+      "summary": "WordPress.com宣布其AI代理功能现已正式上线，用户可授权AI代理在其网站上执行多项内容管理任务。具体而言，AI代理能够根据用户指令或草稿，自动撰写、编辑并发布文章与页面，同时还能管理评论、优化SEO元数据（如修复图片替代文本和标题），以及通过标签和分类来组织内容。",
+      "category": "产品发布与更新",
+      "company": "WordPress.com",
+      "score": 22,
+      "breakdown": {
+        "substance": 9,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "MCP Gateway：构建下一代AI Agent的“中枢网关”｜QCon北京",
+      "url": "https://www.infoq.cn/article/wwu9ccjyS00J9YMgKHI7?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 22 Mar 2026 10:02:00 GMT",
+      "region": "国内",
+      "summary": "小米资深架构师张平将在QCon北京分享MCP Gateway，这是一个旨在构建下一代AI Agent的“中枢网关”。其核心作用是解决传统AI编码助手难以接入企业内部工具（如需求平台、GitLab、CICD平台）的痛点，通过将这些工具统一封装为MCP工具并经由网关暴露，使Agent能自动组合调用。",
+      "category": "产品发布与更新",
+      "company": "小米",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Cursor被指套壳Kimi模型，创始人回应忘记署名",
+      "url": "https://www.qbitai.com/2026/03/390619.html",
+      "snippet": "Kimi直接开喷了",
+      "source": "量子位",
+      "publishedAt": "Sat, 21 Mar 2026 05:27:42 +0000",
+      "region": "国内",
+      "summary": "我们很高兴看到Kimi-k2.5成为其基础模型。看到我们的模型通过 Cursor 的持续预训练和高算力强化学习训练被有效整合，这正是我们所支持的开放模型生态。补充说明：Cursor是通过FireworksAI提供的托管强化学习与推理平台来访问Kimi-k2.5的，这是一个经过授权的商业合作关系。",
+      "category": "产品发布与更新",
+      "company": "Cursor",
+      "score": 21,
+      "breakdown": {
+        "substance": 10,
+        "importance": 0,
+        "timeliness": 4,
+        "credibility": 9,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "火山Mem0记忆中间件架构解析与AI Agent落地实践",
+      "url": "https://www.infoq.cn/article/VGTtEPwPCd101Iwm9wQi?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 21 Mar 2026 09:54:00 GMT",
+      "region": "国内",
+      "summary": "在QCon北京大会上，字节跳动高级技术专家季旭博士分享了火山记忆中间件mem0如何支持其AI Agent产品。他具体介绍了：1. 针对大模型上下文窗口有限且成本高的问题，mem0提供了托管化记忆层，通过API Key鉴权、限流等功能，几行代码即可接入，降低了自建成本。",
+      "category": "技术与研究",
+      "company": "火山",
+      "score": 25,
+      "breakdown": {
+        "substance": 3,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI代币是新的签约奖金还是业务成本？",
+      "url": "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/",
+      "snippet": "Maybe tokens really will become the fourth pillar of engineering compensation. But engineers might want to hold the line before embracing this as a straightforward win.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sun, 22 Mar 2026 06:20:43 +0000",
+      "region": "海外",
+      "summary": "文章探讨了硅谷热议的将AI代币作为工程师薪酬第四支柱的提议。具体信息点包括：1. 风投Tomasz Tunguz指出，顶级软件工程师年薪约37.5万美元，若加入10万美元的AI代币预算，总薪酬达47.5万美元，其中约五分之一是计算资源成本。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AKS利用DRA与vGPU技术优化AI成本，云厂商加速转向动态GPU调度",
+      "url": "https://www.infoq.cn/article/QhXW1UCVYwHtx7W9EdDp?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 21 Mar 2026 08:00:00 GMT",
+      "region": "国内",
+      "summary": "微软Azure的AKS服务通过整合Kubernetes动态资源分配（DRA）与NVIDIA虚拟GPU（vGPU）技术，优化AI工作负载的GPU资源管理。具体操作包括：需使用Kubernetes 1.34及以上版本，在特定NVadsA10_v5节点池上部署NVIDIA DRA驱动。",
+      "category": "技术与研究",
+      "company": "AKS",
+      "score": 20,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [],
+  "政策与监管": [
+    {
+      "title": "新法庭文件揭示五角大楼曾告知Anthropic双方近乎达成一致",
+      "url": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
+      "snippet": "Anthropic submitted two sworn declarations to a California federal court late Friday afternoon, pushing back on the Pentagon's assertion that the AI company poses an \"unacceptable risk to national security\" and arguing that the government's case relies on technical misunderstandings and claims that were never actually raised during the months of negotiations.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 21 Mar 2026 01:40:28 +0000",
+      "region": "海外",
+      "summary": "Anthropic在法庭文件中详细反驳五角大楼的安全指控，提出三个具体论点：第一，其Claude模型部署在政府‘气隙隔离’系统后，公司无法远程访问或控制，不存在‘远程终止开关’或后门；第二，公司员工已通过美国政府安全审查，是唯一由获授权人员为涉密环境构建AI模型的AI公司。",
+      "category": "政策与监管",
+      "company": "Anthropic",
+      "score": 24,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}

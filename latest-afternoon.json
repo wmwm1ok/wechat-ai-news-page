@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/21",
+  "date": "2026/3/22",
   "edition": "afternoon",
   "editionLabel": "午后版",
   "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/21 16:00",
-  "count": 10,
+  "generatedAt": "2026/3/22 16:00",
+  "count": 9,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-21-morning.json",
+    "previousEditionFile": "news-2026-03-22-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 21,
-      "overseasBeforeDedup": 14,
-      "domesticAfterDedup": 21,
-      "overseasAfterDedup": 14,
+      "domesticBeforeDedup": 20,
+      "overseasBeforeDedup": 12,
+      "domesticAfterDedup": 20,
+      "overseasAfterDedup": 12,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 8,
+          "count": 7,
           "error": null
         }
       ],
@@ -51,13 +51,13 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 10,
+          "count": 9,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 4,
+          "count": 3,
           "error": null
         },
         {
@@ -76,40 +76,50 @@
       }
     },
     "summarize": {
-      "totalSummarized": 35
+      "totalSummarized": 32
     },
     "scoring": {
-      "totalInput": 35,
-      "totalScored": 13,
-      "strictScoredCount": 12,
-      "relaxedCandidateCount": 1,
+      "totalInput": 32,
+      "totalScored": 14,
+      "strictScoredCount": 11,
+      "relaxedCandidateCount": 3,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 10,
-      "selectedCandidateCount": 13,
-      "duplicateCount": 12,
-      "crossDayDuplicateCount": 12,
-      "lowQualityCount": 5,
-      "domesticAvailable": 10,
+      "weakSummaryCount": 12,
+      "selectedCandidateCount": 14,
+      "duplicateCount": 4,
+      "crossDayDuplicateCount": 4,
+      "lowQualityCount": 8,
+      "domesticAvailable": 11,
       "overseasAvailable": 3,
       "sourceCount": {
-        "雷锋网": 7,
-        "InfoQ": 2,
-        "量子位": 1,
-        "TechCrunch AI": 3
+        "雷锋网": 6,
+        "InfoQ": 4,
+        "TechCrunch AI": 3,
+        "量子位": 1
       }
     },
     "display": {
-      "refinedCount": 13,
+      "refinedCount": 14,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 3,
-      "postEditionFilterCount": 10,
-      "displayReadyCount": 7,
-      "fallbackDisplayCount": 3,
-      "removedWeakSummaries": 3,
-      "shortage": 4
+      "integrityRemovedCount": 5,
+      "postEditionFilterCount": 9,
+      "displayReadyCount": 8,
+      "fallbackDisplayCount": 1,
+      "removedWeakSummaries": 1,
+      "shortage": 5
     }
   },
   "articles": [
+    {
+      "section": "产品发布与更新",
+      "title": "Cursor新模型被指基于Kimi K2.5，联创承认并承诺未来将说明",
+      "company": "Cursor",
+      "url": "https://www.infoq.cn/article/Uo9qDPlcoExt95xUG8N4?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 21 Mar 2026 18:00:00 GMT",
+      "summary": "AI编程工具Cursor发布新模型Composer 2后，被质疑其核心基础模型是Kimi的K2.5模型。Cursor联合创始人Aman Sanger承认此事，并解释Composer 2在K2.5基础上进行了持续预训练和计算量扩大4倍的高强度强化学习，最终模型的计算量仅有约四分之一来自开源部分。",
+      "score": 36
+    },
     {
       "section": "技术与研究",
       "title": "火山Mem0记忆中间件架构解析与AI Agent落地实践",
@@ -117,8 +127,8 @@
       "url": "https://www.infoq.cn/article/VGTtEPwPCd101Iwm9wQi?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Sat, 21 Mar 2026 09:54:00 GMT",
-      "summary": "字节跳动季旭博士在QCon大会上分享了火山Mem0记忆中间件如何解决AI Agent的实际问题。Mem0通过提供托管化记忆层API，解决了大模型上下文窗口有限且成本高、难以长期跟踪用户历史与偏好的痛点。该方案已成功落地于字节内部多个AI业务，降低了自建记忆系统的成本。",
-      "score": 29
+      "summary": "在QCon北京大会上，字节跳动高级技术专家季旭博士分享了火山记忆中间件mem0如何支持其AI Agent产品。他具体介绍了：1. 针对大模型上下文窗口有限且成本高的问题，mem0提供了托管化记忆层，通过API Key鉴权、限流等功能，几行代码即可接入，降低了自建成本。",
+      "score": 25
     },
     {
       "section": "产品发布与更新",
@@ -127,28 +137,18 @@
       "url": "https://www.leiphone.com/category/industrynews/3FHQR1MzEHVVTpOk.html",
       "source": "雷锋网",
       "publishedAt": "Fri, 20 Mar 2026 21:09:00 +0800",
-      "summary": "MOVA AtomForm公司将于3月24日在硅谷发布其首款桌面级3D打印机Palette 300。该产品的核心是搭载了OmniElement™全自动喷嘴切换系统，配备了12个独立喷嘴，能同时处理最多12种材料或36种颜色，旨在解决多色打印时换料慢、材料浪费多和易串色的问题。",
-      "score": 29
+      "summary": "MOVA AtomForm公司将于3月24日在硅谷发布其首款桌面级3D打印机Palette 300。该产品的核心是搭载了OmniElement™全自动喷嘴切换系统，配备了12个独立喷嘴，最高可支持36种颜色与12种材料的一体化打印，据称能将换料速度提升50%，材料浪费减少90%。",
+      "score": 25
     },
     {
-      "section": "产品发布与更新",
-      "title": "华为WATCH Ultimate 2旷野绿开启预售，售价7999元",
-      "company": "华为",
-      "url": "https://www.leiphone.com/category/industrynews/snhk2BkvuGtfBfGU.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 20 Mar 2026 11:54:00 +0800",
-      "summary": "华为于3月20日宣布其旗舰智能手表WATCH Ultimate 2旷野绿开启预售，售价7999元。该产品此前已在AWE 2026展会上完成国内首秀，重点展示了其全新升级的高尔夫练习场模式与“击球动作监测”功能，旨在为高尔夫爱好者提供智能辅助。",
-      "score": 28
-    },
-    {
-      "section": "技术与研究",
-      "title": "AKS利用DRA与vGPU技术优化AI成本，云厂商加速转向动态GPU调度",
-      "company": "AKS",
-      "url": "https://www.infoq.cn/article/QhXW1UCVYwHtx7W9EdDp?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sat, 21 Mar 2026 08:00:00 GMT",
-      "summary": "微软Azure AKS团队提出结合动态资源分配（DRA）与虚拟GPU（vGPU）技术来优化AI成本。具体方案包括：在Kubernetes 1.34+中，使用特定A10实例创建节点池并打标签。",
-      "score": 26
+      "section": "政策与监管",
+      "title": "新法庭文件揭示五角大楼曾告知Anthropic双方近乎达成一致",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 21 Mar 2026 01:40:28 +0000",
+      "summary": "Anthropic在法庭文件中详细反驳五角大楼的安全指控，提出三个具体论点：第一，其Claude模型部署在政府‘气隙隔离’系统后，公司无法远程访问或控制，不存在‘远程终止开关’或后门；第二，公司员工已通过美国政府安全审查，是唯一由获授权人员为涉密环境构建AI模型的AI公司。",
+      "score": 24
     },
     {
       "section": "产品发布与更新",
@@ -157,28 +157,38 @@
       "url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
       "source": "TechCrunch AI",
       "publishedAt": "Fri, 20 Mar 2026 16:43:09 +0000",
-      "summary": "WordPress.com正式推出AI代理功能，允许AI助手在用户网站上执行多项内容管理任务。具体而言，AI代理不仅能根据用户描述自动撰写草稿并发布文章，还能管理评论、优化SEO元数据（如修复图片替代文本和标题），以及通过标签和分类来组织内容。",
-      "score": 26
+      "summary": "WordPress.com宣布其AI代理功能现已正式上线，用户可授权AI代理在其网站上执行多项内容管理任务。具体而言，AI代理能够根据用户指令或草稿，自动撰写、编辑并发布文章与页面，同时还能管理评论、优化SEO元数据（如修复图片替代文本和标题），以及通过标签和分类来组织内容。",
+      "score": 22
     },
     {
       "section": "产品发布与更新",
-      "title": "Meta推出新的AI内容执行系统并减少对第三方供应商的依赖",
-      "company": "Meta",
-      "url": "https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 19 Mar 2026 17:24:13 +0000",
-      "summary": "Meta宣布推出更先进的AI内容执行系统，旨在减少对第三方供应商的依赖。新系统在早期测试中表现突出，能检测出比人工审核团队多一倍的成人色情诱导内容，并将错误率降低超过60%。此外，该系统还能更有效地识别和阻止涉及名人等高知名度用户的冒充账户，并通过监测新地点登录、密码更改等信号来防止账户被接管。",
-      "score": 26
+      "title": "MCP Gateway：构建下一代AI Agent的“中枢网关”｜QCon北京",
+      "company": "小米",
+      "url": "https://www.infoq.cn/article/wwu9ccjyS00J9YMgKHI7?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 22 Mar 2026 10:02:00 GMT",
+      "summary": "小米资深架构师张平将在QCon北京分享MCP Gateway，这是一个旨在构建下一代AI Agent的“中枢网关”。其核心作用是解决传统AI编码助手难以接入企业内部工具（如需求平台、GitLab、CICD平台）的痛点，通过将这些工具统一封装为MCP工具并经由网关暴露，使Agent能自动组合调用。",
+      "score": 21
     },
     {
-      "section": "政策与监管",
-      "title": "五角大楼文件显示与Anthropic立场接近，公司反驳国家安全风险指控",
-      "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
+      "section": "技术与研究",
+      "title": "AI代币是新的签约奖金还是业务成本？",
+      "company": "",
+      "url": "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/",
       "source": "TechCrunch AI",
-      "publishedAt": "Sat, 21 Mar 2026 01:40:28 +0000",
-      "summary": "Anthropic向法院提交声明，从技术层面反驳五角大楼的安全指控。其首席科学家指出，部署在政府安全隔离系统中的Claude模型没有远程“后门”或“紧急停止开关”，公司无法单方面干预其运行，任何模型更新都需国防部明确批准并手动安装。",
-      "score": 24
+      "publishedAt": "Sun, 22 Mar 2026 06:20:43 +0000",
+      "summary": "文章探讨了硅谷热议的将AI代币作为工程师薪酬第四支柱的提议。具体信息点包括：1. 风投Tomasz Tunguz指出，顶级软件工程师年薪约37.5万美元，若加入10万美元的AI代币预算，总薪酬达47.5万美元，其中约五分之一是计算资源成本。",
+      "score": 21
+    },
+    {
+      "section": "技术与研究",
+      "title": "AKS利用DRA与vGPU技术优化AI成本，云厂商加速转向动态GPU调度",
+      "company": "AKS",
+      "url": "https://www.infoq.cn/article/QhXW1UCVYwHtx7W9EdDp?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 21 Mar 2026 08:00:00 GMT",
+      "summary": "微软Azure的AKS服务通过整合Kubernetes动态资源分配（DRA）与NVIDIA虚拟GPU（vGPU）技术，优化AI工作负载的GPU资源管理。具体操作包括：需使用Kubernetes 1.34及以上版本，在特定NVadsA10_v5节点池上部署NVIDIA DRA驱动。",
+      "score": 20
     },
     {
       "section": "产品发布与更新",
@@ -188,27 +198,7 @@
       "source": "量子位",
       "publishedAt": "Sat, 21 Mar 2026 05:27:42 +0000",
       "summary": "我们很高兴看到Kimi-k2.5成为其基础模型。看到我们的模型通过 Cursor 的持续预训练和高算力强化学习训练被有效整合，这正是我们所支持的开放模型生态。补充说明：Cursor是通过FireworksAI提供的托管强化学习与推理平台来访问Kimi-k2.5的，这是一个经过授权的商业合作关系。",
-      "score": 27
-    },
-    {
-      "section": "投融资与并购",
-      "title": "淘宝闪购与美团外卖竞争回顾：从追平亏损到提质增效",
-      "company": "淘宝,美团",
-      "url": "https://www.leiphone.com/category/smartretailing/Ml2046cRBKHbWWvZ.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 20 Mar 2026 10:51:00 +0800",
-      "summary": "从饮品到正餐再到非餐品牌零售的三级跳，有利于平台提升客单价，减少UE亏损（即平均每单的亏损）。高盛的测算显示，淘宝闪购与美团的单均亏损差，从去年二季度的3.4元缩小到三季度的2.5元，四季度进一步降至1.5元，后续还将进一步缩窄。美团也注意到维持高单价核心客群的重要性。",
-      "score": 25
-    },
-    {
-      "section": "技术与研究",
-      "title": "港大赵恒爽团队论文：让扩散模型既拿高分又不「作弊」",
-      "company": "",
-      "url": "https://www.leiphone.com/category/ai/PeZobc6lj3nOuDWZ.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 20 Mar 2026 16:33:00 +0800",
-      "summary": "在 OCR 任务中，一些强化学习方法（例如 Flow - GRPO ）在训练过程中会采取某些极端策略来提高 OCR 评分，例如把目标文字做得非常大，将文字放在图像中央位置，同时减少图像中的背景内容。这样 OCR 系统更容易识别文字，因此评分会很高。",
-      "score": 17
+      "score": 21
     }
   ]
 }
