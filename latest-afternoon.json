@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/22",
+  "date": "2026/3/23",
   "edition": "afternoon",
   "editionLabel": "午后版",
   "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/22 16:00",
-  "count": 9,
+  "generatedAt": "2026/3/23 16:00",
+  "count": 11,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-22-morning.json",
+    "previousEditionFile": "news-2026-03-23-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 20,
-      "overseasBeforeDedup": 12,
-      "domesticAfterDedup": 20,
-      "overseasAfterDedup": 12,
+      "domesticBeforeDedup": 21,
+      "overseasBeforeDedup": 6,
+      "domesticAfterDedup": 21,
+      "overseasAfterDedup": 6,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 3,
+          "count": 6,
           "error": null
         },
         {
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 7,
+          "count": 5,
           "error": null
         }
       ],
@@ -51,13 +51,13 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 9,
+          "count": 6,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 0,
           "error": null
         },
         {
@@ -76,128 +76,149 @@
       }
     },
     "summarize": {
-      "totalSummarized": 32
+      "totalSummarized": 27
     },
     "scoring": {
-      "totalInput": 32,
-      "totalScored": 14,
-      "strictScoredCount": 11,
-      "relaxedCandidateCount": 3,
+      "totalInput": 27,
+      "totalScored": 18,
+      "strictScoredCount": 14,
+      "relaxedCandidateCount": 4,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 12,
-      "selectedCandidateCount": 14,
+      "weakSummaryCount": 8,
+      "selectedCandidateCount": 18,
       "duplicateCount": 4,
       "crossDayDuplicateCount": 4,
-      "lowQualityCount": 8,
-      "domesticAvailable": 11,
-      "overseasAvailable": 3,
+      "lowQualityCount": 1,
+      "domesticAvailable": 17,
+      "overseasAvailable": 1,
       "sourceCount": {
-        "雷锋网": 6,
-        "InfoQ": 4,
-        "TechCrunch AI": 3,
-        "量子位": 1
+        "36氪": 5,
+        "InfoQ": 3,
+        "雷锋网": 5,
+        "量子位": 4,
+        "TechCrunch AI": 1
       }
     },
     "display": {
-      "refinedCount": 14,
+      "refinedCount": 18,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 5,
-      "postEditionFilterCount": 9,
-      "displayReadyCount": 8,
-      "fallbackDisplayCount": 1,
-      "removedWeakSummaries": 1,
-      "shortage": 5
+      "integrityRemovedCount": 6,
+      "postEditionFilterCount": 12,
+      "displayReadyCount": 7,
+      "fallbackDisplayCount": 4,
+      "removedWeakSummaries": 5,
+      "shortage": 3
     }
   },
   "articles": [
     {
-      "section": "产品发布与更新",
-      "title": "Cursor新模型被指基于Kimi K2.5，联创承认并承诺未来将说明",
-      "company": "Cursor",
-      "url": "https://www.infoq.cn/article/Uo9qDPlcoExt95xUG8N4?utm_source=rss&utm_medium=article",
+      "section": "技术与研究",
+      "title": "AI机器人攻击微软、DataDog及CNCF项目的GitHub Actions工作流",
+      "company": "微软、DataDog",
+      "url": "https://www.infoq.cn/article/qj2aLodCUPuLu83qkeVx?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Sat, 21 Mar 2026 18:00:00 GMT",
-      "summary": "AI编程工具Cursor发布新模型Composer 2后，被质疑其核心基础模型是Kimi的K2.5模型。Cursor联合创始人Aman Sanger承认此事，并解释Composer 2在K2.5基础上进行了持续预训练和计算量扩大4倍的高强度强化学习，最终模型的计算量仅有约四分之一来自开源部分。",
-      "score": 36
+      "publishedAt": "Mon, 23 Mar 2026 11:00:00 GMT",
+      "summary": "2026年2月21日至28日，一个自称由Claude驱动的AI机器人攻击了多个知名开源项目的GitHub Actions工作流。攻击者使用了多种技术，例如在微软项目中利用分支名注入bash命令，在DataDog项目中利用Base64编码的文件名，成功在七个目标中的五个实现了远程代码执行并窃取写入凭证。",
+      "score": 40
     },
     {
       "section": "技术与研究",
-      "title": "火山Mem0记忆中间件架构解析与AI Agent落地实践",
-      "company": "火山",
-      "url": "https://www.infoq.cn/article/VGTtEPwPCd101Iwm9wQi?utm_source=rss&utm_medium=article",
+      "title": "Karpathy访谈：开源模型落后闭源模型6个月是健康状态，自述陷入AI精神病状态",
+      "company": "",
+      "url": "https://www.infoq.cn/article/fI0rYFpZJEU10AMgeikf?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Sat, 21 Mar 2026 09:54:00 GMT",
-      "summary": "在QCon北京大会上，字节跳动高级技术专家季旭博士分享了火山记忆中间件mem0如何支持其AI Agent产品。他具体介绍了：1. 针对大模型上下文窗口有限且成本高的问题，mem0提供了托管化记忆层，通过API Key鉴权、限流等功能，几行代码即可接入，降低了自建成本。",
-      "score": 25
+      "publishedAt": "Mon, 23 Mar 2026 09:29:35 GMT",
+      "summary": "Karpathy在访谈中称自己陷入一种对AI可能性的‘精神错乱’状态，具体表现为：自去年12月起，他编写代码的方式发生根本转变，从八成靠自己变为几乎完全委托给AI智能体，自己一行代码都不再亲手敲。他指出当前AI模型存在‘能力不均匀’问题，例如在复杂任务中表现强劲，却可能反复犯基础错误或陷入循环。",
+      "score": 40
     },
     {
       "section": "产品发布与更新",
-      "title": "MOVA AtomForm将在硅谷发布首款智能12喷嘴3D打印机Palette 300",
-      "company": "MOVA AtomForm",
-      "url": "https://www.leiphone.com/category/industrynews/3FHQR1MzEHVVTpOk.html",
+      "title": "阶跃星辰推出Step Plan包月订阅方案，主打OpenClaw场景且开发者社区享半价",
+      "company": "阶跃星辰",
+      "url": "https://www.leiphone.com/category/industrynews/69TcSsm0DfnOiBxY.html",
       "source": "雷锋网",
-      "publishedAt": "Fri, 20 Mar 2026 21:09:00 +0800",
-      "summary": "MOVA AtomForm公司将于3月24日在硅谷发布其首款桌面级3D打印机Palette 300。该产品的核心是搭载了OmniElement™全自动喷嘴切换系统，配备了12个独立喷嘴，最高可支持36种颜色与12种材料的一体化打印，据称能将换料速度提升50%，材料浪费减少90%。",
-      "score": 25
+      "publishedAt": "Mon, 23 Mar 2026 12:50:00 +0800",
+      "summary": "阶跃星辰于3月23日推出名为Step Plan的月度token订阅方案，主要针对OpenClaw等AI Agent开发场景。该方案包含Flash Mini、Flash Plus、Flash Pro、Flash Max四个档位，起步价49元/月，并为开发者社区提供限时半价优惠，最低至25元/月。",
+      "score": 35
     },
     {
-      "section": "政策与监管",
-      "title": "新法庭文件揭示五角大楼曾告知Anthropic双方近乎达成一致",
-      "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Sat, 21 Mar 2026 01:40:28 +0000",
-      "summary": "Anthropic在法庭文件中详细反驳五角大楼的安全指控，提出三个具体论点：第一，其Claude模型部署在政府‘气隙隔离’系统后，公司无法远程访问或控制，不存在‘远程终止开关’或后门；第二，公司员工已通过美国政府安全审查，是唯一由获授权人员为涉密环境构建AI模型的AI公司。",
+      "section": "技术与研究",
+      "title": "趋境科技获院士与教授加盟，领跑高效能AI Token生产新生态",
+      "company": "趋境科技",
+      "url": "https://www.qbitai.com/2026/03/391339.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 23 Mar 2026 05:53:03 +0000",
+      "summary": "趋境科技宣布中国工程院院士、清华大学教授郑纬民正式加盟，以加强其高效能AI Token生产的技术实力。公司通过其首创的“全系统异构协同”和“以存换算”技术，旨在统一各类算力与模型的底层差异，解决算力碎片化、推理效率低等行业痛点，从而提升算力效率、降低AI应用成本。",
+      "score": 34
+    },
+    {
+      "section": "技术与研究",
+      "title": "马斯克公布太空AI芯片宏图：年产能目标超1太瓦算力，80%部署太空",
+      "company": "SpaceX",
+      "url": "https://www.qbitai.com/2026/03/391045.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 23 Mar 2026 01:50:35 +0000",
+      "summary": "马斯克公布名为Terafab的太空AI芯片制造计划，其核心目标是每年生产超过1太瓦的算力，这相当于当前全球AI算力年产出的50倍。该计划具体规划将80%的算力部署至太空，20%用于地面。",
       "score": 24
     },
     {
-      "section": "产品发布与更新",
-      "title": "WordPress.com推出AI代理，可自动撰写和发布文章",
-      "company": "WordPress.com",
-      "url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 20 Mar 2026 16:43:09 +0000",
-      "summary": "WordPress.com宣布其AI代理功能现已正式上线，用户可授权AI代理在其网站上执行多项内容管理任务。具体而言，AI代理能够根据用户指令或草稿，自动撰写、编辑并发布文章与页面，同时还能管理评论、优化SEO元数据（如修复图片替代文本和标题），以及通过标签和分类来组织内容。",
+      "section": "技术与研究",
+      "title": "中关村北纬龙虾大赛落幕，14岁少年获‘虾王’称号",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/03/391078.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 23 Mar 2026 03:56:36 +0000",
+      "summary": "2026年3月22日，聚焦开源AI智能体框架OpenClaw的‘中关村北纬龙虾大赛’落幕。大赛共收到全球近500份作品，最终由14岁少年姜睦然凭借项目‘ClawFounder’获得‘虾王’称号。",
       "score": 22
     },
     {
       "section": "产品发布与更新",
       "title": "MCP Gateway：构建下一代AI Agent的“中枢网关”｜QCon北京",
-      "company": "小米",
+      "company": "",
       "url": "https://www.infoq.cn/article/wwu9ccjyS00J9YMgKHI7?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Sun, 22 Mar 2026 10:02:00 GMT",
-      "summary": "小米资深架构师张平将在QCon北京分享MCP Gateway，这是一个旨在构建下一代AI Agent的“中枢网关”。其核心作用是解决传统AI编码助手难以接入企业内部工具（如需求平台、GitLab、CICD平台）的痛点，通过将这些工具统一封装为MCP工具并经由网关暴露，使Agent能自动组合调用。",
-      "score": 21
+      "summary": "小米资深架构师张平将在QCon北京分享MCP Gateway，这是一个旨在构建下一代AI Agent的“中枢网关”。具体而言，该网关解决了传统AI编码助手难以接入企业内部工具（如需求库、代码库、构建流水线）的痛点，通过将内部平台API统一封装为MCP工具并暴露给AI Agent。",
+      "score": 17
     },
     {
-      "section": "技术与研究",
-      "title": "AI代币是新的签约奖金还是业务成本？",
-      "company": "",
-      "url": "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Sun, 22 Mar 2026 06:20:43 +0000",
-      "summary": "文章探讨了硅谷热议的将AI代币作为工程师薪酬第四支柱的提议。具体信息点包括：1. 风投Tomasz Tunguz指出，顶级软件工程师年薪约37.5万美元，若加入10万美元的AI代币预算，总薪酬达47.5万美元，其中约五分之一是计算资源成本。",
-      "score": 21
+      "section": "投融资与并购",
+      "title": "轻舟智航完成1亿美元D轮融资，发力世界模型与通用物理AI",
+      "company": "轻舟智航",
+      "url": "https://36kr.com/p/3734094940504073?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-23 09:00:00  +0800",
+      "summary": "轻舟判断，2026年将成为无人驾驶未来黄金十年新周期的起点。轻舟将战略重心大幅向L4自动驾驶及通用物理AI倾斜，并加速海外布局。同时加码世界模型+强化学习技术研发，以技术驱动未来，坚定向通用物理AI迈进。轻舟的产品演进路线也逐渐清晰。",
+      "score": 48
     },
     {
-      "section": "技术与研究",
-      "title": "AKS利用DRA与vGPU技术优化AI成本，云厂商加速转向动态GPU调度",
-      "company": "AKS",
-      "url": "https://www.infoq.cn/article/QhXW1UCVYwHtx7W9EdDp?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sat, 21 Mar 2026 08:00:00 GMT",
-      "summary": "微软Azure的AKS服务通过整合Kubernetes动态资源分配（DRA）与NVIDIA虚拟GPU（vGPU）技术，优化AI工作负载的GPU资源管理。具体操作包括：需使用Kubernetes 1.34及以上版本，在特定NVadsA10_v5节点池上部署NVIDIA DRA驱动。",
-      "score": 20
+      "section": "投融资与并购",
+      "title": "竹马创新获峰瑞资本领投数千万天使轮融资，专注消费级三维重建与空间智能产品",
+      "company": "竹马创新",
+      "url": "https://36kr.com/p/3734855815184390?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-23 09:32:16  +0800",
+      "summary": "竹马创新成立于2025年11月，专注于消费级三维重建与空间智能产品。公司创始人兼CEO张吉，毕业于西安交通大学计算机系，拥有20余年3D图形行业经验。他曾任群核科技副总裁，负责推动公司从大家居向全空间战略转型，是群核科技首位同时负责产品与业务的高管，期间与蜜雪冰城、茶颜悦色。",
+      "score": 27
     },
     {
       "section": "产品发布与更新",
-      "title": "Cursor被指套壳Kimi模型，创始人回应忘记署名",
-      "company": "Cursor",
-      "url": "https://www.qbitai.com/2026/03/390619.html",
+      "title": "OpenClaw创始人确认360独家发现漏洞 智能体安全风险引关注",
+      "company": "360",
+      "url": "https://www.qbitai.com/2026/03/391303.html",
       "source": "量子位",
-      "publishedAt": "Sat, 21 Mar 2026 05:27:42 +0000",
-      "summary": "我们很高兴看到Kimi-k2.5成为其基础模型。看到我们的模型通过 Cursor 的持续预训练和高算力强化学习训练被有效整合，这正是我们所支持的开放模型生态。补充说明：Cursor是通过FireworksAI提供的托管强化学习与推理平台来访问Kimi-k2.5的，这是一个经过授权的商业合作关系。",
+      "publishedAt": "Mon, 23 Mar 2026 03:57:51 +0000",
+      "summary": "围绕上述风险，360确立了“用AI监督AI、以Skill治理Skill”的核心策略，并已面向企业与开发者推出智能体部署安全检测与风险排查能力（即“360安全云·龙虾保”），对运行环境暴露面、高危漏洞及恶意Skill引入风险进行精准识别。",
+      "score": 23
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "千问上线打车功能，可理解复杂需求并匹配车辆",
+      "company": "千问",
+      "url": "https://www.leiphone.com/category/industrynews/qLBVknTHk5oRmhvM.html",
+      "source": "雷锋网",
+      "publishedAt": "Mon, 23 Mar 2026 09:49:00 +0800",
+      "summary": "千问还让“打车”具备了记忆与预约能力。用户只需告诉千问家庭和公司地址，即可直接让千问“帮我打车回家”或“打车去公司”；说一句“下午6点半下班，帮我约车回家”，系统即可自动理解时间并完成预约。随着这些能力的逐步加强，千问将为用户带来更符合个人偏好的出行服务。",
       "score": 21
     }
   ]
