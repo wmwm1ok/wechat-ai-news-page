@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/22",
+  "date": "2026/3/23",
   "edition": "morning",
   "editionLabel": "早报",
   "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/3/22 09:40",
-  "count": 7,
+  "generatedAt": "2026/3/23 08:00",
+  "count": 5,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-21-afternoon.json",
+    "previousEditionFile": "news-2026-03-22-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 23,
-      "overseasBeforeDedup": 11,
-      "domesticAfterDedup": 23,
-      "overseasAfterDedup": 11,
+      "domesticBeforeDedup": 15,
+      "overseasBeforeDedup": 7,
+      "domesticAfterDedup": 15,
+      "overseasAfterDedup": 7,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 5,
+          "count": 4,
           "error": null
         },
         {
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 8,
+          "count": 1,
           "error": null
         }
       ],
@@ -51,13 +51,13 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 8,
+          "count": 7,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 0,
           "error": null
         },
         {
@@ -76,51 +76,40 @@
       }
     },
     "summarize": {
-      "totalSummarized": 34
+      "totalSummarized": 22
     },
     "scoring": {
-      "totalInput": 34,
-      "totalScored": 10,
-      "strictScoredCount": 8,
+      "totalInput": 22,
+      "totalScored": 8,
+      "strictScoredCount": 6,
       "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 10,
-      "selectedCandidateCount": 10,
-      "duplicateCount": 11,
-      "crossDayDuplicateCount": 9,
-      "lowQualityCount": 9,
-      "domesticAvailable": 9,
-      "overseasAvailable": 1,
+      "weakSummaryCount": 4,
+      "selectedCandidateCount": 8,
+      "duplicateCount": 7,
+      "crossDayDuplicateCount": 7,
+      "lowQualityCount": 3,
+      "domesticAvailable": 5,
+      "overseasAvailable": 3,
       "sourceCount": {
-        "雷锋网": 3,
-        "量子位": 3,
-        "36氪": 1,
-        "InfoQ": 2,
-        "TechCrunch AI": 1
+        "量子位": 2,
+        "36氪": 2,
+        "TechCrunch AI": 3,
+        "InfoQ": 1
       }
     },
     "display": {
-      "refinedCount": 10,
+      "refinedCount": 8,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 3,
-      "postEditionFilterCount": 7,
-      "displayReadyCount": 6,
-      "fallbackDisplayCount": 1,
+      "integrityRemovedCount": 2,
+      "postEditionFilterCount": 6,
+      "displayReadyCount": 5,
+      "fallbackDisplayCount": 0,
       "removedWeakSummaries": 1,
-      "shortage": 7
+      "shortage": 9
     }
   },
   "articles": [
-    {
-      "section": "技术与研究",
-      "title": "前荣耀AI实验室主任带队研发农业“超级大脑”，实现农场24小时自主作业",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/03/389609.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 20 Mar 2026 05:37:12 +0000",
-      "summary": "前荣耀AI实验室主任汤泳带领团队研发的农业AI系统AlphaFarm，实现了农场24小时自主作业。其核心在于：1. 系统内置IDRCO进化引擎，能根据每次作业后的产量、效率等数据反馈进行增量学习，实现自主进化。",
-      "score": 36
-    },
     {
       "section": "技术与研究",
       "title": "英伟达GTC现场的隐形AI巨头：光轮智能的Physical AI基础设施",
@@ -128,58 +117,48 @@
       "url": "https://www.qbitai.com/2026/03/390924.html",
       "source": "量子位",
       "publishedAt": "Sat, 21 Mar 2026 09:39:22 +0000",
-      "summary": "在英伟达GTC大会核心展区，光轮智能提出了其Physical AI基础设施方案。该方案旨在解决AI在现实世界中执行物理任务（如机器人学习拧螺丝）时试错成本高、风险大的难题。",
-      "score": 35
+      "summary": "在英伟达GTC大会核心展区，光轮智能阐述了其Physical AI基础设施愿景。该方案旨在解决AI从“理解世界”到“进入世界”执行实际任务的难题，例如通过高保真仿真训练人形机器人完成工厂拧螺丝等作业，从而规避现实试错的高成本与高风险。",
+      "score": 38
     },
     {
       "section": "技术与研究",
-      "title": "谷歌AI设计工具冲击Figma，后者股价受挫",
-      "company": "谷歌",
-      "url": "https://www.qbitai.com/2026/03/390235.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 20 Mar 2026 07:40:16 +0000",
-      "summary": "2025年7月，UI/UX设计工具公司Figma在纽交所完成IPO，代码为FIG。该公司2025年全年收入达10.6亿美元，同比增长41%。然而，谷歌推出的AI设计工具Stitch对其构成直接竞争，核心功能高度重叠。Stitch的核心变化在于其AI原生画布，采用了基于节点的无限画布界面。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "Java生态近期动态：Apache Solr 10、Grails 7.0.8、JobRunr 8.5.0、Gradle 9.4.0等发布",
+      "title": "浙大团队破解多模态模型盲目自信：先校准置信度再分配算力，CVPR'26收录",
       "company": "",
-      "url": "https://www.infoq.cn/article/ia7cifkMwDqYjd1FsdEQ?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 22 Mar 2026 08:00:00 GMT",
-      "summary": "Java生态多个重要项目发布更新：Apache Solr 10推出实验性现代化管理界面，并新增支持标量和二进制量化稠密向量以提升向量搜索性能、降低内存占用；Grails 7.0.8新增@DatabaseCleanup注解，可在每次测试后自动清理数据库表数据，并优化了构建流程以降低内存使用。",
-      "score": 22
+      "url": "https://www.qbitai.com/2026/03/391014.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 22 Mar 2026 07:17:19 +0000",
+      "summary": "浙江大学等机构的研究团队提出CA-TTS框架，以解决多模态大模型在视觉推理中“看不懂图却自信回答”的问题。该方法通过校准模型置信度并动态分配算力，建立多阶段验证闭环，即使前序步骤出错也能后续纠正。",
+      "score": 37
     },
     {
       "section": "技术与研究",
-      "title": "arXiv脱离康奈尔大学独立运营以应对AI生成论文激增",
-      "company": "康奈尔大学",
-      "url": "https://www.infoq.cn/article/Z791iXT2AhuA0Fiz0pcs?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 20 Mar 2026 18:30:58 GMT",
-      "summary": "预印本平台arXiv因运营成本上升和AI生成论文激增带来的压力，决定脱离康奈尔大学独立运营。具体而言：1. 过去两年arXiv已出现运营赤字，预计2025年赤字将达29.7万美元，而康奈尔大学不仅填补了超支部分，还提供了约81.9万美元的实物支持。",
+      "title": "Cursor承认其新编码模型基于月之暗面的Kimi构建",
+      "company": "Moonshot AI",
+      "url": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sun, 22 Mar 2026 18:41:09 +0000",
+      "summary": "美国AI编程工具Cursor承认其新模型Composer 2基于中国月之暗面公司的开源模型Kimi 2.5构建，但强调其自身训练计算量占四分之三，导致性能与Kimi“非常不同”。这一披露令人意外，因为Cursor是一家估值293亿美元的美国初创公司，且其官方公告未提及月之暗面。",
+      "score": 24
+    },
+    {
+      "section": "技术与研究",
+      "title": "你想造一个机器人雪人吗？",
+      "company": "Nvidia",
+      "url": "https://techcrunch.com/2026/03/22/do-you-want-to-build-a-robot-snowman/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sun, 22 Mar 2026 19:45:07 +0000",
+      "summary": "在Equity播客的讨论中，主持人解读了英伟达CEO黄仁勋关于企业需制定“OpenClaw战略”的呼吁，实则是英伟达为自身构建企业解决方案的策略，旨在通过参与众多公司项目来巩固其行业地位。",
       "score": 21
     },
     {
       "section": "技术与研究",
-      "title": "英伟达大会为何未能赢得华尔街青睐",
-      "company": "Nvidia",
-      "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Sat, 21 Mar 2026 16:28:00 +0000",
-      "summary": "在英伟达GTC大会上，创始人黄仁勋发布了多项创新，包括与Groq合作设计用于Vera Rubin系统的新AI推理芯片、新的游戏图形技术和更新的网络基础设施。他预测AI代理生态系统和物理AI/机器人产业将分别达到35万亿和50万亿美元的市场规模。",
-      "score": 20
-    },
-    {
-      "section": "投融资与并购",
-      "title": "万物云2025年业绩报告：关联应收账款降至20.6亿，业务独立性持续增强",
-      "company": "万物云",
-      "url": "https://36kr.com/p/3731378273828868?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-20 22:35:18  +0800",
-      "summary": "朱保全表示，“今天有可能每承接一个新的住宅物业，都有可能会带来30%甚至以上的一个空置率。空置来自开发商没有卖掉的房子，也有业主买过之后没有居住的房子，空置的房子的物业费收缴率比居住房屋的空置费收缴率差不多要少17.7个百分点。",
-      "score": 27
+      "title": "Java生态近期动态：Apache Solr 10、Grails 7.0.8、JobRunr 8.5.0、Gradle 9.4.0等发布更新",
+      "company": "",
+      "url": "https://www.infoq.cn/article/ia7cifkMwDqYjd1FsdEQ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 22 Mar 2026 08:00:00 GMT",
+      "summary": "Java生态多个重要项目发布更新：Apache Solr 10推出实验性现代化管理界面，并新增支持标量和二进制量化稠密向量，以提升向量搜索性能并降低内存占用；Grails 7.0.8新增@DatabaseCleanup注解，可在每次测试后自动清理数据库表数据，同时优化了CI流程以降低内存使用。",
+      "score": 18
     }
   ]
 }
