@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/23",
-  "edition": "afternoon",
-  "editionLabel": "午后版",
-  "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/23 16:00",
-  "count": 11,
+  "date": "2026/3/24",
+  "edition": "morning",
+  "editionLabel": "早报",
+  "title": "AI 日报·早报（Morning）",
+  "generatedAt": "2026/3/24 08:00",
+  "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-23-morning.json",
+    "previousEditionFile": "news-2026-03-23-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
       "domesticBeforeDedup": 21,
-      "overseasBeforeDedup": 6,
+      "overseasBeforeDedup": 13,
       "domesticAfterDedup": 21,
-      "overseasAfterDedup": 6,
+      "overseasAfterDedup": 13,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 6,
+          "count": 4,
           "error": null
         },
         {
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 5,
+          "count": 7,
           "error": null
         }
       ],
@@ -51,13 +51,13 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 6,
+          "count": 10,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 0,
+          "count": 3,
           "error": null
         },
         {
@@ -76,150 +76,181 @@
       }
     },
     "summarize": {
-      "totalSummarized": 27
+      "totalSummarized": 34
     },
     "scoring": {
-      "totalInput": 27,
-      "totalScored": 18,
-      "strictScoredCount": 14,
-      "relaxedCandidateCount": 4,
+      "totalInput": 34,
+      "totalScored": 20,
+      "strictScoredCount": 13,
+      "relaxedCandidateCount": 7,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 8,
-      "selectedCandidateCount": 18,
-      "duplicateCount": 4,
-      "crossDayDuplicateCount": 4,
-      "lowQualityCount": 1,
-      "domesticAvailable": 17,
-      "overseasAvailable": 1,
+      "weakSummaryCount": 7,
+      "selectedCandidateCount": 20,
+      "duplicateCount": 6,
+      "crossDayDuplicateCount": 5,
+      "lowQualityCount": 2,
+      "domesticAvailable": 11,
+      "overseasAvailable": 9,
       "sourceCount": {
-        "36氪": 5,
+        "36氪": 3,
+        "TechCrunch AI": 8,
+        "量子位": 1,
         "InfoQ": 3,
-        "雷锋网": 5,
-        "量子位": 4,
-        "TechCrunch AI": 1
+        "雷锋网": 4,
+        "MIT Technology Review": 1
       }
     },
     "display": {
-      "refinedCount": 18,
+      "refinedCount": 20,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 6,
-      "postEditionFilterCount": 12,
-      "displayReadyCount": 7,
-      "fallbackDisplayCount": 4,
-      "removedWeakSummaries": 5,
-      "shortage": 3
+      "integrityRemovedCount": 4,
+      "postEditionFilterCount": 16,
+      "displayReadyCount": 12,
+      "fallbackDisplayCount": 2,
+      "removedWeakSummaries": 4,
+      "shortage": 0
     }
   },
   "articles": [
     {
-      "section": "技术与研究",
-      "title": "AI机器人攻击微软、DataDog及CNCF项目的GitHub Actions工作流",
-      "company": "微软、DataDog",
-      "url": "https://www.infoq.cn/article/qj2aLodCUPuLu83qkeVx?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 23 Mar 2026 11:00:00 GMT",
-      "summary": "2026年2月21日至28日，一个自称由Claude驱动的AI机器人攻击了多个知名开源项目的GitHub Actions工作流。攻击者使用了多种技术，例如在微软项目中利用分支名注入bash命令，在DataDog项目中利用Base64编码的文件名，成功在七个目标中的五个实现了远程代码执行并窃取写入凭证。",
-      "score": 40
+      "section": "投融资与并购",
+      "title": "初创公司Gimlet Labs以优雅方式解决AI推理瓶颈",
+      "company": "Gimlet Labs",
+      "url": "https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 23 Mar 2026 16:00:00 +0000",
+      "summary": "AI初创公司Gimlet Labs完成8000万美元A轮融资，其核心产品是首个“多芯片推理云”软件。该技术能同时将AI工作负载拆分运行在英伟达、AMD、英特尔等多种芯片上，包括传统CPU和AI专用GPU，解决了硬件兼容性导致的AI推理瓶颈问题。",
+      "score": 33
+    },
+    {
+      "section": "政策与监管",
+      "title": "智元主办AGIBOT WORLD CHALLENGE @ICRA 2026赛事开启报名",
+      "company": "智元",
+      "url": "https://www.qbitai.com/2026/03/391359.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 23 Mar 2026 08:02:10 +0000",
+      "summary": "智元公司主办的AGIBOT WORLD CHALLENGE @ICRA 2026机器人赛事已开放报名。该赛事与全球顶级机器人会议IEEE ICRA合作，为参赛者提供与5000多名顶尖学者交流的曝光机会。",
+      "score": 32
     },
     {
       "section": "技术与研究",
-      "title": "Karpathy访谈：开源模型落后闭源模型6个月是健康状态，自述陷入AI精神病状态",
+      "title": "博世集团首席AI科学家阎栋将出席QCon北京站，探讨AI大模型是否会吞噬软件世界",
+      "company": "Bosch",
+      "url": "https://www.infoq.cn/article/g29j1RVFBqGg1t4BQExV?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 23 Mar 2026 18:15:12 GMT",
+      "summary": "博世集团首席AI科学家阎栋将在QCon北京站探讨AI大模型是否会取代传统软件。演讲将具体分析大模型作为条件概率发生器，因依赖上下文输入而存在记忆与持久化能力缺陷，并引用基于人类智商测试理论的研究对比人机智能差异。阎栋还将探讨World Model如何通过维护世界状态来突破现有模型局限。",
+      "score": 30
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Littlebird获1100万美元融资，开发实时读取屏幕的AI助手",
+      "company": "Littlebird",
+      "url": "https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 23 Mar 2026 16:00:00 +0000",
+      "summary": "AI助手公司Littlebird获1100万美元融资，其核心产品是一款能实时读取用户屏幕的AI工具，无需截图即可捕捉上下文、回答问题并自动化任务。具体功能包括：内置类似Granola的笔记工具，利用系统音频在后台记录会议转录并生成笔记和行动项。",
+      "score": 29
+    },
+    {
+      "section": "技术与研究",
+      "title": "中美300家企业定义全球具身智能产业",
       "company": "",
-      "url": "https://www.infoq.cn/article/fI0rYFpZJEU10AMgeikf?utm_source=rss&utm_medium=article",
+      "url": "https://36kr.com/p/3735344485744905?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-23 17:49:35  +0800",
+      "summary": "具身智能产业正从研发走向产业化，其产业链条清晰：上游聚焦机器人“大脑”模型与核心硬件研发，中游形成具体产品与解决方案，下游在各类场景中实现商业价值落地。文章梳理了中美两国该领域的代表性企业，并指出技术正从‘感知世界’迈向‘行动于世界’，推动一场融合软硬件与数据的产业变革。",
+      "score": 28
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Air Street Capital 成为欧洲最大独立风投之一，新基金规模达2.32亿美元",
+      "company": "Air Street Capital",
+      "url": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 23 Mar 2026 22:36:39 +0000",
+      "summary": "伦敦风投机构Air Street Capital宣布完成第三期基金2.32亿美元的募资，使其成为欧洲最大的独立风投之一。该基金将专注于投资欧美早期人工智能公司，单笔投资额在50万至1500万美元之间，部分成长型投资可达2500万美元。",
+      "score": 28
+    },
+    {
+      "section": "技术与研究",
+      "title": "AICon 2026上海站启动：聚焦OpenClaw与AI落地挑战",
+      "company": "",
+      "url": "https://www.infoq.cn/article/C2WQHsZF6ruKr61USuSa?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Mon, 23 Mar 2026 09:29:35 GMT",
-      "summary": "Karpathy在访谈中称自己陷入一种对AI可能性的‘精神错乱’状态，具体表现为：自去年12月起，他编写代码的方式发生根本转变，从八成靠自己变为几乎完全委托给AI智能体，自己一行代码都不再亲手敲。他指出当前AI模型存在‘能力不均匀’问题，例如在复杂任务中表现强劲，却可能反复犯基础错误或陷入循环。",
-      "score": 40
+      "publishedAt": "Mon, 23 Mar 2026 17:39:27 GMT",
+      "summary": "AICon 2026上海站启动，聚焦企业AI从演示到规模化生产的落地挑战。会议将分享具体实战经验，例如解决AI智能体上线后出现的死循环、幻觉和成本失控等问题，并探讨如何通过算法优化在智力提升与成本控制间取得平衡。",
+      "score": 27
     },
     {
-      "section": "产品发布与更新",
-      "title": "阶跃星辰推出Step Plan包月订阅方案，主打OpenClaw场景且开发者社区享半价",
-      "company": "阶跃星辰",
-      "url": "https://www.leiphone.com/category/industrynews/69TcSsm0DfnOiBxY.html",
-      "source": "雷锋网",
-      "publishedAt": "Mon, 23 Mar 2026 12:50:00 +0800",
-      "summary": "阶跃星辰于3月23日推出名为Step Plan的月度token订阅方案，主要针对OpenClaw等AI Agent开发场景。该方案包含Flash Mini、Flash Plus、Flash Pro、Flash Max四个档位，起步价49元/月，并为开发者社区提供限时半价优惠，最低至25元/月。",
-      "score": 35
+      "section": "政策与监管",
+      "title": "伯尼·桑德斯的AI‘陷阱’视频反响平平，但相关梗图却火了",
+      "company": "Claude",
+      "url": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 23 Mar 2026 20:15:59 +0000",
+      "summary": "美国参议员伯尼·桑德斯发布视频，试图通过引导性提问（如询问AI公司如何利用个人信息牟利）让AI助手Claude揭露行业隐私威胁。然而，视频并未成功‘揭露’新问题，反而凸显了聊天机器人倾向于迎合用户预设、强化其既有观点的特性。这一现象与之前‘AI精神病’案例类似，即AI可能强化用户的不理性信念。",
+      "score": 25
     },
     {
-      "section": "技术与研究",
-      "title": "趋境科技获院士与教授加盟，领跑高效能AI Token生产新生态",
-      "company": "趋境科技",
-      "url": "https://www.qbitai.com/2026/03/391339.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 23 Mar 2026 05:53:03 +0000",
-      "summary": "趋境科技宣布中国工程院院士、清华大学教授郑纬民正式加盟，以加强其高效能AI Token生产的技术实力。公司通过其首创的“全系统异构协同”和“以存换算”技术，旨在统一各类算力与模型的底层差异，解决算力碎片化、推理效率低等行业痛点，从而提升算力效率、降低AI应用成本。",
-      "score": 34
-    },
-    {
-      "section": "技术与研究",
-      "title": "马斯克公布太空AI芯片宏图：年产能目标超1太瓦算力，80%部署太空",
-      "company": "SpaceX",
-      "url": "https://www.qbitai.com/2026/03/391045.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 23 Mar 2026 01:50:35 +0000",
-      "summary": "马斯克公布名为Terafab的太空AI芯片制造计划，其核心目标是每年生产超过1太瓦的算力，这相当于当前全球AI算力年产出的50倍。该计划具体规划将80%的算力部署至太空，20%用于地面。",
+      "section": "政策与监管",
+      "title": "伊丽莎白·沃伦称五角大楼将Anthropic列为供应链风险是“报复”",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/03/23/elizabeth-warren-anthropic-pentagon-defense-supply-chain-risk-retaliation/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 23 Mar 2026 15:22:57 +0000",
+      "summary": "美国参议员伊丽莎白·沃伦致信国防部长，指责五角大楼将AI公司Anthropic列为“供应链风险”是报复行为。此事起因于Anthropic拒绝其AI技术被用于对美国民众的大规模监控，以及在没有人工干预的致命性自主武器瞄准或开火决策中。",
       "score": 24
     },
     {
       "section": "技术与研究",
-      "title": "中关村北纬龙虾大赛落幕，14岁少年获‘虾王’称号",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/03/391078.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 23 Mar 2026 03:56:36 +0000",
-      "summary": "2026年3月22日，聚焦开源AI智能体框架OpenClaw的‘中关村北纬龙虾大赛’落幕。大赛共收到全球近500份作品，最终由14岁少年姜睦然凭借项目‘ClawFounder’获得‘虾王’称号。",
+      "title": "奥特曼支持的核聚变初创公司Helion拟向OpenAI出售电力",
+      "company": "Helion",
+      "url": "https://techcrunch.com/2026/03/23/sam-altman-openai-fusion-energy-board-helion/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 23 Mar 2026 15:03:36 +0000",
+      "summary": "OpenAI首席执行官萨姆·奥特曼已辞去核聚变初创公司Helion的董事会主席职务，此举旨在为两家公司未来可能的合作铺平道路。有报道称双方正谈判一项协议，Helion计划向OpenAI出售其总电力输出的12.5%。",
+      "score": 24
+    },
+    {
+      "section": "技术与研究",
+      "title": "腾讯云AI业务调整：CTO王慧星分管云产品三部，吴运声转岗企业中台",
+      "company": "腾讯",
+      "url": "https://www.leiphone.com/category/industrycloud/eFze2ICe2llWPGtl.html",
+      "source": "雷锋网",
+      "publishedAt": "Mon, 23 Mar 2026 18:09:00 +0800",
+      "summary": "腾讯云近期调整AI业务架构，将旗下“AI色彩最浓”的云产品三部（负责智能体开发平台、AI SaaS、知识引擎等）从原负责人吴运声处划出，改由腾讯云CTO王慧星直接分管。吴运声则转岗负责企业中台产品部。此外，部分算力训练平台相关业务和人员也将陆续转入负责基础计算资源的IaaS团队。",
+      "score": 18
+    },
+    {
+      "section": "技术与研究",
+      "title": "Cursor承认其新编程模型基于月之暗面的Kimi构建",
+      "company": "Cursor",
+      "url": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sun, 22 Mar 2026 18:41:09 +0000",
+      "summary": "美国AI编程工具Cursor承认其新模型Composer 2是基于中国月之暗面公司开源的Kimi 2.5模型构建的。Cursor副总裁表示，虽然模型起步于此，但最终模型仅有约四分之一的计算量来自基础模型，其余来自自身训练，导致其性能基准与Kimi“非常不同”。",
+      "score": 18
+    },
+    {
+      "section": "投融资与并购",
+      "title": "擎羽科技连续完成两轮数千万元融资，专注仿生柔性机器人平台",
+      "company": "擎羽科技",
+      "url": "https://www.leiphone.com/category/robot/hxOjW3WsUIXvWXhs.html",
+      "source": "雷锋网",
+      "publishedAt": "Mon, 23 Mar 2026 17:21:00 +0800",
+      "summary": "对于此次投资逻辑，东方富海合伙人高剑光表示，擎羽科技打动他们的核心，在于真实明确的市场需求、兼具技术与产品化能力的团队，以及清晰可验证的平台型技术路径。东方富海看好其以仿生柔性机器人为基础，逐步形成面向复杂场景的通用操作平台，并成长为具身智能时代的重要基础设施。",
       "score": 22
     },
     {
-      "section": "产品发布与更新",
-      "title": "MCP Gateway：构建下一代AI Agent的“中枢网关”｜QCon北京",
-      "company": "",
-      "url": "https://www.infoq.cn/article/wwu9ccjyS00J9YMgKHI7?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 22 Mar 2026 10:02:00 GMT",
-      "summary": "小米资深架构师张平将在QCon北京分享MCP Gateway，这是一个旨在构建下一代AI Agent的“中枢网关”。具体而言，该网关解决了传统AI编码助手难以接入企业内部工具（如需求库、代码库、构建流水线）的痛点，通过将内部平台API统一封装为MCP工具并暴露给AI Agent。",
-      "score": 17
-    },
-    {
       "section": "投融资与并购",
-      "title": "轻舟智航完成1亿美元D轮融资，发力世界模型与通用物理AI",
-      "company": "轻舟智航",
-      "url": "https://36kr.com/p/3734094940504073?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-23 09:00:00  +0800",
-      "summary": "轻舟判断，2026年将成为无人驾驶未来黄金十年新周期的起点。轻舟将战略重心大幅向L4自动驾驶及通用物理AI倾斜，并加速海外布局。同时加码世界模型+强化学习技术研发，以技术驱动未来，坚定向通用物理AI迈进。轻舟的产品演进路线也逐渐清晰。",
-      "score": 48
-    },
-    {
-      "section": "投融资与并购",
-      "title": "竹马创新获峰瑞资本领投数千万天使轮融资，专注消费级三维重建与空间智能产品",
-      "company": "竹马创新",
-      "url": "https://36kr.com/p/3734855815184390?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-23 09:32:16  +0800",
-      "summary": "竹马创新成立于2025年11月，专注于消费级三维重建与空间智能产品。公司创始人兼CEO张吉，毕业于西安交通大学计算机系，拥有20余年3D图形行业经验。他曾任群核科技副总裁，负责推动公司从大家居向全空间战略转型，是群核科技首位同时负责产品与业务的高管，期间与蜜雪冰城、茶颜悦色。",
-      "score": 27
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "OpenClaw创始人确认360独家发现漏洞 智能体安全风险引关注",
-      "company": "360",
-      "url": "https://www.qbitai.com/2026/03/391303.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 23 Mar 2026 03:57:51 +0000",
-      "summary": "围绕上述风险，360确立了“用AI监督AI、以Skill治理Skill”的核心策略，并已面向企业与开发者推出智能体部署安全检测与风险排查能力（即“360安全云·龙虾保”），对运行环境暴露面、高危漏洞及恶意Skill引入风险进行精准识别。",
-      "score": 23
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "千问上线打车功能，可理解复杂需求并匹配车辆",
-      "company": "千问",
-      "url": "https://www.leiphone.com/category/industrynews/qLBVknTHk5oRmhvM.html",
+      "title": "宇树科技科创板IPO申请获受理，拟募资42亿元重点研发智能机器人大模型",
+      "company": "宇树科技",
+      "url": "https://www.leiphone.com/category/zaobao/Nf63Jxdl5BO3461P.html",
       "source": "雷锋网",
-      "publishedAt": "Mon, 23 Mar 2026 09:49:00 +0800",
-      "summary": "千问还让“打车”具备了记忆与预约能力。用户只需告诉千问家庭和公司地址，即可直接让千问“帮我打车回家”或“打车去公司”；说一句“下午6点半下班，帮我约车回家”，系统即可自动理解时间并完成预约。随着这些能力的逐步加强，千问将为用户带来更符合个人偏好的出行服务。",
-      "score": 21
+      "publishedAt": "Mon, 23 Mar 2026 10:18:00 +0800",
+      "summary": "3月20日，据上交所官网，上交所受理宇树科技股份有限公司科创板IPO申请。据悉，宇树科技此次IPO拟募资42.02亿元，募资投向聚焦核心技术攻坚与长期战略布局，其中85%的募投资金将专项用于研发投入，重点布局智能机器人大模型研发领域。",
+      "score": 17
     }
   ]
 }
