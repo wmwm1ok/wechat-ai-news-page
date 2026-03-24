@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/23",
+  "date": "2026/3/24",
   "edition": "afternoon",
   "editionLabel": "午后版",
   "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/23 16:00",
-  "count": 11,
+  "generatedAt": "2026/3/24 16:00",
+  "count": 10,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-23-morning.json",
+    "previousEditionFile": "news-2026-03-24-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
       "domesticBeforeDedup": 21,
-      "overseasBeforeDedup": 6,
+      "overseasBeforeDedup": 13,
       "domesticAfterDedup": 21,
-      "overseasAfterDedup": 6,
+      "overseasAfterDedup": 13,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 6,
+          "count": 3,
           "error": null
         },
         {
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 5,
+          "count": 8,
           "error": null
         }
       ],
@@ -51,13 +51,13 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 6,
+          "count": 10,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 0,
+          "count": 3,
           "error": null
         },
         {
@@ -76,150 +76,141 @@
       }
     },
     "summarize": {
-      "totalSummarized": 27
+      "totalSummarized": 34
     },
     "scoring": {
-      "totalInput": 27,
-      "totalScored": 18,
-      "strictScoredCount": 14,
+      "totalInput": 34,
+      "totalScored": 17,
+      "strictScoredCount": 13,
       "relaxedCandidateCount": 4,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 8,
-      "selectedCandidateCount": 18,
-      "duplicateCount": 4,
-      "crossDayDuplicateCount": 4,
-      "lowQualityCount": 1,
-      "domesticAvailable": 17,
-      "overseasAvailable": 1,
+      "weakSummaryCount": 10,
+      "selectedCandidateCount": 17,
+      "duplicateCount": 8,
+      "crossDayDuplicateCount": 8,
+      "lowQualityCount": 5,
+      "domesticAvailable": 14,
+      "overseasAvailable": 3,
       "sourceCount": {
-        "36氪": 5,
-        "InfoQ": 3,
-        "雷锋网": 5,
-        "量子位": 4,
+        "雷锋网": 4,
+        "InfoQ": 4,
+        "36氪": 4,
+        "量子位": 2,
+        "MIT Technology Review": 2,
         "TechCrunch AI": 1
       }
     },
     "display": {
-      "refinedCount": 18,
-      "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 6,
-      "postEditionFilterCount": 12,
+      "refinedCount": 17,
+      "previousEditionRemovedCount": 1,
+      "integrityRemovedCount": 5,
+      "postEditionFilterCount": 11,
       "displayReadyCount": 7,
-      "fallbackDisplayCount": 4,
-      "removedWeakSummaries": 5,
-      "shortage": 3
+      "fallbackDisplayCount": 3,
+      "removedWeakSummaries": 4,
+      "shortage": 4
     }
   },
   "articles": [
     {
-      "section": "技术与研究",
-      "title": "AI机器人攻击微软、DataDog及CNCF项目的GitHub Actions工作流",
-      "company": "微软、DataDog",
-      "url": "https://www.infoq.cn/article/qj2aLodCUPuLu83qkeVx?utm_source=rss&utm_medium=article",
+      "section": "政策与监管",
+      "title": "HubSpot推出AI代码审查工具Sidekick，反馈速度提升90%且工程师认可率达80%",
+      "company": "HubSpot",
+      "url": "https://www.infoq.cn/article/0yPYTaTgSzlDbwXiZeuK?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Mon, 23 Mar 2026 11:00:00 GMT",
-      "summary": "2026年2月21日至28日，一个自称由Claude驱动的AI机器人攻击了多个知名开源项目的GitHub Actions工作流。攻击者使用了多种技术，例如在微软项目中利用分支名注入bash命令，在DataDog项目中利用Base64编码的文件名，成功在七个目标中的五个实现了远程代码执行并窃取写入凭证。",
-      "score": 40
-    },
-    {
-      "section": "技术与研究",
-      "title": "Karpathy访谈：开源模型落后闭源模型6个月是健康状态，自述陷入AI精神病状态",
-      "company": "",
-      "url": "https://www.infoq.cn/article/fI0rYFpZJEU10AMgeikf?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 23 Mar 2026 09:29:35 GMT",
-      "summary": "Karpathy在访谈中称自己陷入一种对AI可能性的‘精神错乱’状态，具体表现为：自去年12月起，他编写代码的方式发生根本转变，从八成靠自己变为几乎完全委托给AI智能体，自己一行代码都不再亲手敲。他指出当前AI模型存在‘能力不均匀’问题，例如在复杂任务中表现强劲，却可能反复犯基础错误或陷入循环。",
-      "score": 40
+      "publishedAt": "Tue, 24 Mar 2026 15:00:00 GMT",
+      "summary": "HubSpot发布多模型AI代码审查工具Sidekick，旨在解决因审查者时间不足导致的代码审查延迟问题。该工具提供即时拉取请求反馈，使人类审查者能专注于架构和高级设计，从而提升效率。",
+      "score": 45
     },
     {
       "section": "产品发布与更新",
-      "title": "阶跃星辰推出Step Plan包月订阅方案，主打OpenClaw场景且开发者社区享半价",
-      "company": "阶跃星辰",
-      "url": "https://www.leiphone.com/category/industrynews/69TcSsm0DfnOiBxY.html",
-      "source": "雷锋网",
-      "publishedAt": "Mon, 23 Mar 2026 12:50:00 +0800",
-      "summary": "阶跃星辰于3月23日推出名为Step Plan的月度token订阅方案，主要针对OpenClaw等AI Agent开发场景。该方案包含Flash Mini、Flash Plus、Flash Pro、Flash Max四个档位，起步价49元/月，并为开发者社区提供限时半价优惠，最低至25元/月。",
-      "score": 35
+      "title": "英伟达与Akamai合作推出全球首个NVIDIA AI Grid实施方案",
+      "company": "英伟达, Akamai",
+      "url": "https://www.infoq.cn/article/cBqdxzzI0YOXSUAbsaxz?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 24 Mar 2026 11:15:34 GMT",
+      "summary": "2026年3月18日，Akamai宣布推出全球首个NVIDIA AI Grid实施方案，旨在将AI推理从中心化数据中心扩展到其全球4400多个边缘站点。该方案通过部署数千台搭载NVIDIA RTX PRO 6000 Blackwell GPU的服务器，并利用智能工作负载编排技术。",
+      "score": 38
     },
     {
       "section": "技术与研究",
-      "title": "趋境科技获院士与教授加盟，领跑高效能AI Token生产新生态",
-      "company": "趋境科技",
-      "url": "https://www.qbitai.com/2026/03/391339.html",
+      "title": "OpenClaw激发Claude最强反击，GUI操控电脑与真人无差别",
+      "company": "Anthropic",
+      "url": "https://www.qbitai.com/2026/03/391567.html",
       "source": "量子位",
-      "publishedAt": "Mon, 23 Mar 2026 05:53:03 +0000",
-      "summary": "趋境科技宣布中国工程院院士、清华大学教授郑纬民正式加盟，以加强其高效能AI Token生产的技术实力。公司通过其首创的“全系统异构协同”和“以存换算”技术，旨在统一各类算力与模型的底层差异，解决算力碎片化、推理效率低等行业痛点，从而提升算力效率、降低AI应用成本。",
-      "score": 34
+      "publishedAt": "Tue, 24 Mar 2026 02:20:26 +0000",
+      "summary": "Anthropic公司为AI助手Claude推出了名为“Claude for Desktop”的电脑桌面操控功能。该功能目前仅支持macOS系统，其核心安全机制是分层设计：Claude会优先调用已获授权的第三方应用连接器（如Slack、日历），仅在工具无对应连接器时才会申请直接操作桌面的权限。",
+      "score": 33
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "LeCun世界模型实现单GPU可运行",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/03/391698.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 24 Mar 2026 07:00:47 +0000",
+      "summary": "LeCun团队提出的世界模型LeWM，通过将视频画面转化为潜在数字表示，并接入小型探测器，仅凭这些数字就能预测机器人或方块的位置、角度及机械臂指尖坐标。该模型解决了复杂世界状态预测的难题，其优势在于：1. 性能超越之前的端到端JEPA方法，与依赖大模型预训练的DINO-WM模型相当甚至更优。",
+      "score": 26
     },
     {
       "section": "技术与研究",
-      "title": "马斯克公布太空AI芯片宏图：年产能目标超1太瓦算力，80%部署太空",
-      "company": "SpaceX",
-      "url": "https://www.qbitai.com/2026/03/391045.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 23 Mar 2026 01:50:35 +0000",
-      "summary": "马斯克公布名为Terafab的太空AI芯片制造计划，其核心目标是每年生产超过1太瓦的算力，这相当于当前全球AI算力年产出的50倍。该计划具体规划将80%的算力部署至太空，20%用于地面。",
+      "title": "QCon北京2026将探讨Agentic AI时代软件工程重塑",
+      "company": "",
+      "url": "https://www.infoq.cn/article/oWDM8y5ozWwrNdyUdhc1?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 24 Mar 2026 12:38:15 GMT",
+      "summary": "QCon北京2026大会将于4月16日开幕，聚焦AI从“辅助工具”向具备规划与执行能力的“行动主体”（Agent）转变。会议将探讨两大具体议题：一是TiDB黄东旭将分析自主系统架构如何演变，并讨论多Agent协作重塑软件系统及所需的基础设施。",
       "score": 24
     },
     {
-      "section": "技术与研究",
-      "title": "中关村北纬龙虾大赛落幕，14岁少年获‘虾王’称号",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/03/391078.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 23 Mar 2026 03:56:36 +0000",
-      "summary": "2026年3月22日，聚焦开源AI智能体框架OpenClaw的‘中关村北纬龙虾大赛’落幕。大赛共收到全球近500份作品，最终由14岁少年姜睦然凭借项目‘ClawFounder’获得‘虾王’称号。",
+      "section": "产品发布与更新",
+      "title": "西门子核心工业仿真软件上云阿里，将探索与千问大模型结合",
+      "company": "西门子",
+      "url": "https://www.leiphone.com/category/industrynews/3ka12q61qefteK9V.html",
+      "source": "雷锋网",
+      "publishedAt": "Tue, 24 Mar 2026 10:54:00 +0800",
+      "summary": "西门子将其核心工业仿真软件组合Altair One及虚拟仿真设备部署至阿里云，以IaaS模式为中国客户提供CAE能力。双方计划探索将阿里云千问大模型与西门子PLM等软件结合，推动工业软件智能化。",
       "score": 22
     },
     {
       "section": "产品发布与更新",
-      "title": "MCP Gateway：构建下一代AI Agent的“中枢网关”｜QCon北京",
-      "company": "",
-      "url": "https://www.infoq.cn/article/wwu9ccjyS00J9YMgKHI7?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 22 Mar 2026 10:02:00 GMT",
-      "summary": "小米资深架构师张平将在QCon北京分享MCP Gateway，这是一个旨在构建下一代AI Agent的“中枢网关”。具体而言，该网关解决了传统AI编码助手难以接入企业内部工具（如需求库、代码库、构建流水线）的痛点，通过将内部平台API统一封装为MCP工具并暴露给AI Agent。",
+      "title": "苹果宣布WWDC 2026于6月举行，预告‘AI进展’",
+      "company": "Apple",
+      "url": "https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 23 Mar 2026 18:00:45 +0000",
+      "summary": "苹果宣布WWDC 2026开发者大会将于6月8日当周举行，主题聚焦“AI进展”。本次大会预计将发布多项具体更新：一是推出经过重大革新的Siri，其AI能力将得到增强，可能具备更好的个人情境理解和屏幕内容感知能力。",
       "score": 17
     },
     {
       "section": "投融资与并购",
-      "title": "轻舟智航完成1亿美元D轮融资，发力世界模型与通用物理AI",
-      "company": "轻舟智航",
-      "url": "https://36kr.com/p/3734094940504073?f=rss",
+      "title": "珀乐互动完成数千万元天使轮融资，以AI+IP重塑数字内容生态",
+      "company": "珀乐互动",
+      "url": "https://36kr.com/p/3735324365094918?f=rss",
       "source": "36氪",
-      "publishedAt": "2026-03-23 09:00:00  +0800",
-      "summary": "轻舟判断，2026年将成为无人驾驶未来黄金十年新周期的起点。轻舟将战略重心大幅向L4自动驾驶及通用物理AI倾斜，并加速海外布局。同时加码世界模型+强化学习技术研发，以技术驱动未来，坚定向通用物理AI迈进。轻舟的产品演进路线也逐渐清晰。",
-      "score": 48
+      "publishedAt": "2026-03-24 10:00:00  +0800",
+      "summary": "星连资本合伙人李文珏表示： AI图像/视频生成应用赛道，表面看是在做内容工具，本质是在争夺下一代IP生产权、运营权和分发权。AI正在重塑内容产业的每一个环节，而“IP”是其中最具延展性和长期价值的数字资产。珀乐互动团队兼具深厚的产业认知与前沿技术落地能力。",
+      "score": 40
     },
     {
-      "section": "投融资与并购",
-      "title": "竹马创新获峰瑞资本领投数千万天使轮融资，专注消费级三维重建与空间智能产品",
-      "company": "竹马创新",
-      "url": "https://36kr.com/p/3734855815184390?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-23 09:32:16  +0800",
-      "summary": "竹马创新成立于2025年11月，专注于消费级三维重建与空间智能产品。公司创始人兼CEO张吉，毕业于西安交通大学计算机系，拥有20余年3D图形行业经验。他曾任群核科技副总裁，负责推动公司从大家居向全空间战略转型，是群核科技首位同时负责产品与业务的高管，期间与蜜雪冰城、茶颜悦色。",
-      "score": 27
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "OpenClaw创始人确认360独家发现漏洞 智能体安全风险引关注",
-      "company": "360",
-      "url": "https://www.qbitai.com/2026/03/391303.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 23 Mar 2026 03:57:51 +0000",
-      "summary": "围绕上述风险，360确立了“用AI监督AI、以Skill治理Skill”的核心策略，并已面向企业与开发者推出智能体部署安全检测与风险排查能力（即“360安全云·龙虾保”），对运行环境暴露面、高危漏洞及恶意Skill引入风险进行精准识别。",
-      "score": 23
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "千问上线打车功能，可理解复杂需求并匹配车辆",
-      "company": "千问",
-      "url": "https://www.leiphone.com/category/industrynews/qLBVknTHk5oRmhvM.html",
+      "section": "技术与研究",
+      "title": "西湖大学研究团队提出机器人时序建模新方法，在CVPR 2026展示成果",
+      "company": "西湖大学",
+      "url": "https://www.leiphone.com/category/ai/i2qav3Kf2zuMNscH.html",
       "source": "雷锋网",
-      "publishedAt": "Mon, 23 Mar 2026 09:49:00 +0800",
-      "summary": "千问还让“打车”具备了记忆与预约能力。用户只需告诉千问家庭和公司地址，即可直接让千问“帮我打车回家”或“打车去公司”；说一句“下午6点半下班，帮我约车回家”，系统即可自动理解时间并完成预约。随着这些能力的逐步加强，千问将为用户带来更符合个人偏好的出行服务。",
-      "score": 21
+      "publishedAt": "Tue, 24 Mar 2026 11:39:00 +0800",
+      "summary": "在效率与计算成本方面，研究进一步分析了性能提升是否以计算开销为代价。结果显示，当引入基于图像的未来子目标预测时，成功率为 91.8%，但延迟增加到 115.9 毫秒，比基线慢 1.59 倍。",
+      "score": 25
+    },
+    {
+      "section": "技术与研究",
+      "title": "高盛上调美国衰退概率至30%，影石回应大疆专利诉讼，国内油价临时调控",
+      "company": "",
+      "url": "https://36kr.com/p/3736178996658435?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-24 08:01:22  +0800",
+      "summary": "金十数据3月24日讯，高盛表示，由于石油和天然气价格飙升，美国经济在未来12个月内陷入衰退的概率升至30%，较此前预期提高了5个百分点。能源价格冲击，加上中东冲突导致的金融状况收紧，以及特朗普总统去年夏天通过的重大税法效应逐渐消退，促使高盛首席经济学家哈祖斯将其对年底失业率的基准预测上调至4.6%。",
+      "score": 16
     }
   ]
 }
