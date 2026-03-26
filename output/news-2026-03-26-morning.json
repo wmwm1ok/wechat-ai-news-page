@@ -1,0 +1,303 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "昆仑万维AI音乐模型登顶全球榜单，中国AI展现发展优势",
+      "url": "https://www.qbitai.com/2026/03/391839.html",
+      "snippet": "还是人声、器乐双料第一",
+      "source": "量子位",
+      "publishedAt": "Wed, 25 Mar 2026 06:36:11 +0000",
+      "region": "国内",
+      "summary": "昆仑万维的AI音乐模型Mureka V8在Artificial Analysis榜单上超越Suno V4.5和Udio v1.5 Allegro，成为全球第一。其成功得益于中国庞大的用户群体和复杂的内容生态，为模型提供了快速试错和优化的环境。",
+      "category": "产品发布与更新",
+      "company": "昆仑万维",
+      "score": 33,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "睿尔曼茶艺机器人亮相2026中关村论坛，远程呈现非遗茶艺",
+      "url": "https://www.qbitai.com/2026/03/392121.html",
+      "snippet": "让“能干活的机器人”走进现实",
+      "source": "量子位",
+      "publishedAt": "Wed, 25 Mar 2026 11:31:27 +0000",
+      "region": "国内",
+      "summary": "在2026中关村论坛上，睿尔曼集团与品品香公司联合展示了远程操控的“机器人茶艺师”。具体演示中，操作员在北京数据中心远程操控，论坛现场的轮式人形机器人精准复现了福鼎白茶的温杯、投茶、注水、出汤等全套工序，毫秒级延迟让远程操作如临现场。",
+      "category": "产品发布与更新",
+      "company": "睿尔曼",
+      "score": 19,
+      "breakdown": {
+        "substance": 1,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "腾讯元宝派推出电脑版，支持多端同步与AI协作",
+      "url": "https://www.leiphone.com/category/industrynews/M0vDwj6hiSpM3Fnp.html",
+      "snippet": "3月25日 腾讯宣布，旗下AI原生应用元宝，正式推出“元宝派”电脑版。在电脑端的大屏环境中，用户可以边参与共享屏幕，边在单独窗口与派友或元宝聊天互动。同时，元宝派电脑版还支持多端消息同步、文件拖拽、截图等功能，用户可以轻松在元宝派电脑版中完成信息流转。 不只是大屏带来的体验优势，电脑版同步支持一键创建“龙虾”和关联已有的“龙虾”。3月25日至4月1日，每天12:00和20:00，用户在元宝派点击「我的Bot」-「一键创建」，即可抢限时免费龙虾。用户也可通过运行命令、手动配置和扫码等方式，将自己的专属Bot引入派中，实现更广范围的AI智能体调用。无论是深度调研、撰写报告，还是与派里的其他Bot和元宝AI协同完成创意任务，接入OpenClaw的元宝派电脑版，都能通过AI原生IM的形式，为用户提供更丰富的AI支持。 此前已激活“元宝派”入口的用户，在元宝官网下载安装即可使用。未激活“元宝派”入口的用户，点击任意元宝派邀请链接，或在元宝客户端【我们】-【派邀请码】验证邀请码，即可激活元宝派入口。 自上线以来，元宝派保持高速迭代，此次电脑版的推出，进一步拓展了元宝派的应用场景。用户现在可以享受电脑端和App多端消息同步，确保在不同设备间切换时，跨端操作更加省心高效，并且通过大屏体验、「一键创建」龙虾等功能，让元宝派成为高效的AI协作空间。 雷峰网",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 25 Mar 2026 14:11:00 +0800",
+      "region": "国内",
+      "summary": "3月25日 腾讯宣布，旗下AI原生应用元宝，正式推出“元宝派”电脑版。在电脑端的大屏环境中，用户可以边参与共享屏幕，边在单独窗口与派友或元宝聊天互动。同时，元宝派电脑版还支持多端消息同步、文件拖拽、截图等功能，用户可以轻松在元宝派电脑版中完成信息流转。",
+      "category": "产品发布与更新",
+      "company": "腾讯",
+      "score": 30,
+      "breakdown": {
+        "substance": 12,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "谷歌发布TurboQuant AI内存压缩算法，被网友戏称为“Pied Piper”",
+      "url": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
+      "snippet": "Google’s TurboQuant has the internet joking about Pied Piper from HBO's \"Silicon Valley.\" The compression algorithm promises to shrink AI’s “working memory” by up to 6x, but it’s still just a lab experiment for now.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 25 Mar 2026 20:38:45 +0000",
+      "region": "海外",
+      "summary": "谷歌研究团队发布名为TurboQuant的新型AI内存压缩算法，因其追求极致无损压缩的目标，被网友戏称为美剧《硅谷》中的“Pied Piper”。该算法采用向量量化的方法，旨在解决AI推理过程中的缓存瓶颈问题，其核心是压缩AI的“工作记忆”，从而在保持准确性的前提下，让AI占用更少内存空间。",
+      "category": "技术与研究",
+      "company": "Google",
+      "score": 36,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "这家初创公司想改变数学家做数学的方式",
+      "url": "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/",
+      "snippet": "Axiom Math, a startup based in Palo Alto, California, has released a free new AI tool for mathematicians, designed to discover mathematical patterns that could unlock solutions to long-standing problems. The tool, called Axplorer, is a redesign of an existing one called PatternBoost that François Charton, now a research scientist at Axiom, co-developed in 2024…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Wed, 25 Mar 2026 13:59:17 +0000",
+      "region": "海外",
+      "summary": "加州初创公司Axiom Math发布了免费AI工具Axplorer，旨在帮助数学家发现解决难题的数学模式。该工具是PatternBoost的升级版，其前身曾解决图论中的Turán四环问题（即如何在点之间画线避免形成四点的环）。Axplorer的核心特点是无需数学家自行训练神经网络，而是提供逐步引导。",
+      "category": "技术与研究",
+      "company": "Axiom Math",
+      "score": 22,
+      "breakdown": {
+        "substance": 1,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "圆桌讨论：太空探索的新时代",
+      "url": "https://www.technologyreview.com/2026/03/25/1134664/roundtables-the-next-era-of-space-exploration/",
+      "snippet": "Listen to the session or watch below Whether it’s the race to find life on Mars, the campaign to outsmart killer asteroids, or the quest to make the moon a permanent home to astronauts, scientists’ efforts in space can tell us more about where humanity is headed. This subscriber-only discussion examines the progress and possibilities…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Wed, 25 Mar 2026 17:26:26 +0000",
+      "region": "海外",
+      "summary": "本次仅限订阅者参与的圆桌讨论聚焦太空探索的未来方向。讨论提出了三个具体议题：一是寻找火星生命的竞赛，二是应对具有威胁性的小行星的挑战，三是将月球建设为宇航员永久家园的探索。科学家们认为，这些在太空领域的努力能够揭示人类未来的发展轨迹。",
+      "category": "技术与研究",
+      "company": "无",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "智能体商务运行于真相与情境之上",
+      "url": "https://www.technologyreview.com/2026/03/25/1134516/agentic-commerce-runs-on-truth-and-context/",
+      "snippet": "Imagine telling a digital agent, “Use my points and book a family trip to Italy. Keep it within budget, pick hotels we’ve liked before, and handle the details.” Instead of returning a list of links, the agent assembles an itinerary and executes the purchase. That shift, from assistance to execution, is what makes agentic AI…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Wed, 25 Mar 2026 11:48:13 +0000",
+      "region": "海外",
+      "summary": "智能体AI的核心是从辅助转向执行，能自主完成发现、比价、决策、授权等支付前的全流程，极大加速商业运行。其规模化应用面临两大关键挑战：一是需要主数据管理（MDM）作为信任基础，清晰界定智能体的身份、权限和责任归属；二是情境信息必须在整个价值链中高速、无歧义地传递，避免因系统误判而破坏信任或拖慢速度。",
+      "category": "技术与研究",
+      "company": "无",
+      "score": 19,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "独家电子书：我们准备好将钥匙交给AI智能体了吗？",
+      "url": "https://www.technologyreview.com/2026/03/24/1134531/exclusive-ebook-are-we-ready-to-hand-ai-agents-the-keys/",
+      "snippet": "We’re starting to give AI agents real autonomy, but are we prepared for what could happen next? This subscriber-only eBook explores this and angles from experts, such as “If we continue on the current path … we are basically playing Russian roulette with humanity.” by Grace Huckins June 12, 2025 Related Stories: Access all subscriber-only…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 24 Mar 2026 18:17:13 +0000",
+      "region": "海外",
+      "summary": "Niantic的AI子公司正在利用从玩家处众包的300亿张城市地标图像，训练一个新的世界模型。这本仅供订阅者阅读的电子书探讨了赋予AI智能体真正自主权所引发的担忧，并引用了专家警告，例如“如果我们继续当前的道路……我们基本上是在用人类玩俄罗斯轮盘赌”。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 17,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 4,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "梅拉尼娅·特朗普认为机器人将在未来教育中扮演重要角色",
+      "url": "https://techcrunch.com/2026/03/25/melania-trump-wants-a-robot-to-homeschool-your-child/",
+      "snippet": "The first lady sees AI and robotics playing a prominent role in the future of American education.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 25 Mar 2026 18:55:41 +0000",
+      "region": "海外",
+      "summary": "美国前第一夫人梅拉尼娅·特朗普在活动中提出，未来名为‘柏拉图’的人形机器人可成为终极教育者，能即时提供文学、科学等全学科知识，并根据学生需求提供个性化、耐心的教学。她与机器人公司Figure AI开发的人形机器人共同亮相，该机器人表示其目标是‘用技术和教育赋能儿童’。",
+      "category": "技术与研究",
+      "company": "无",
+      "score": 16,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "傲意科技完成1.5亿元C轮融资，海外业务增速反超国内",
+      "url": "https://36kr.com/p/3738341704270083?f=rss",
+      "snippet": "36氪获悉，傲意科技近期已完成1.5亿元C轮融资。本轮融资由中金资本旗下深圳市脑科学与类脑智能产业投资基金（下称\"中金脑科学基金\"）领投，另有多家老股东持续跟投。 傲意科技成立于2015年，专注于非侵入式神经信号传感与AI解析技术，并已自主研发肌电/脑电传感器、智能仿生手、神经康复外骨骼及具身智能灵巧手等产品，拥有百余项自主知识产权。 作为新一代科技革命的核心前沿赛道，脑机接口和具身智能领域均获得政策层面的密集赋能：国家“十五五”规划中，“脑机接口”和“具身智能”均被列为六大未来产业之一，各地也相继开始设立脑机接口、脑科学专项基金。 据了解，傲意科技本轮融资的领投方中金脑科学基金，就是由深圳市引导基金、微创脑科学（02172.HK）旗下微创神通和中金资本共同出资设立，也是深圳\"20+8\"产业集群战略中唯一完全专注脑科学与类脑智能产业的专项基金；此前，公司还曾获得来自三博脑科集团实控人、天津合盈资本等机构的投资。当前，傲意科技已形成“专业脑科学基金+医疗上市公司产业方”的股东阵容。 产品维度，傲意科技搭建了“脑（EEG）-肌（EMG）-机（ROBAT）”三位一体的技术路径。依托该技术路径，傲意科技正加速推进非侵入脑机接口在神经康复场景的规模化落地。其中，ORF系列康复外骨骼已应用于脑卒中、臂丛神经损伤等患者的运动功能重建，形成从神经信号采集、AI算法解析到康复机器人执行的完整解决方案，为神经康复领域提供高性能、低成本的神经交互基础设施。 在具身智能领域，面向工业自动化场景的ROHand系列灵巧手出货量实现5倍增长，已覆盖下游近百家人形机器人客户，成为智能交互关键零部件的核心供应商。 傲意科技（OYMotion）ROHand灵巧手家族（图源：傲意科技） 傲意科技提供的数据显示，当前，公司旗下面向医疗康复板块的产品已落地全国多家三甲医院、具身智能灵巧手已批量交付给头部人形机器人厂商；过去3年间，公司整体业绩“均实现翻倍增长”。若按区域划分，傲意科技的“海外业务体量和收入增速均已超过国内板块”，覆盖欧洲、美国、中东、东南亚等国家和地区。 谈及海外各国家和地区医疗体系差异很大，如何适配本土化需求的问题，傲意科技CEO倪华良认为，这需要对产品、服务等多个维度进行改进和调整。“比如，在产品维度，欧美市场用户对产品外观仿真度和隐私保护的需求较高，因此需要对假肢手的肤色还原度和穿戴隐蔽性进行优化；在印度、越南等新兴市场，则更强调产品的耐用性，以及和高温、潮湿环境的适配能力。”",
+      "source": "36氪",
+      "publishedAt": "2026-03-26 08:00:00  +0800",
+      "region": "国内",
+      "summary": "傲意科技完成1.5亿元C轮融资，由中金脑科学基金领投。公司专注于非侵入式脑机接口技术，其核心是‘脑-肌-机’三位一体技术路径，已推出ORF系列康复外骨骼用于脑卒中患者运动功能重建，以及ROHand系列灵巧手用于工业自动化。",
+      "category": "投融资与并购",
+      "company": "傲意科技",
+      "score": 43,
+      "breakdown": {
+        "substance": 15,
+        "importance": 8,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Granola融资1.25亿美元，估值达15亿美元，从会议记录工具扩展为企业AI应用",
+      "url": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/",
+      "snippet": "Granola's valuation jumped from $250 million to $1.5 billion with this round, and it has added more support for AI agents after users previously complained.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 25 Mar 2026 14:48:40 +0000",
+      "region": "海外",
+      "summary": "AI会议笔记工具Granola完成1.25亿美元C轮融资，估值从2.5亿美元飙升至15亿美元。本轮融资由Index Ventures领投。其核心转变是从个人转录工具扩展为企业AI应用，具体包括：1. 为回应早期用户（包括a16z合伙人）对本地数据访问受限的批评，公司承诺并推出了批量数据访问API。",
+      "category": "投融资与并购",
+      "company": "Granola",
+      "score": 41,
+      "breakdown": {
+        "substance": 14,
+        "importance": 8,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Harvey确认110亿美元估值：红杉资本持续加码",
+      "url": "https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/",
+      "snippet": "Investors like Sequoia, Andreessen Horowitz, Kleiner Perkins, and Elad Gil can't get enough of AI legal tech startup Harvey.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 25 Mar 2026 15:27:15 +0000",
+      "region": "海外",
+      "summary": "AI法律科技初创公司Harvey确认完成新一轮2亿美元融资，估值达110亿美元，由新加坡GIC和红杉资本共同领投，现有投资者Andreessen Horowitz等跟投。本轮融资使公司总融资额超过10亿美元，其估值在一年内增长了超过3.5倍。",
+      "category": "投融资与并购",
+      "company": "Harvey",
+      "score": 29,
+      "breakdown": {
+        "substance": 10,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Lucid Bots融资2000万美元以满足其擦窗无人机需求",
+      "url": "https://techcrunch.com/2026/03/25/lucid-bots-raises-20m-to-keep-up-with-demand-for-its-window-washing-drones/",
+      "snippet": "Lucid Bots has seen demand accelerate over the last year for its window-cleaning drones and power-washing robots.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 25 Mar 2026 11:00:00 +0000",
+      "region": "海外",
+      "summary": "美国机器人公司Lucid Bots近日完成2000万美元B轮融资，累计融资额达3400万美元。该公司专注于研发用于建筑维护的清洁机器人，其核心产品包括擦窗无人机Sherpa和高压清洗机器人Lavo。",
+      "category": "投融资与并购",
+      "company": "Lucid Bots",
+      "score": 27,
+      "breakdown": {
+        "substance": 10,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "轻舟智航完成D轮融资1亿美元，加速布局物理AI与自动驾驶",
+      "url": "https://www.leiphone.com/category/transportation/Sq9ZaNJzFRf6cFfv.html",
+      "snippet": "作者 | 郑浩钧 编辑 | 王瑞昊 战略重心迈向物理AI的轻舟智航又获一笔融资。 3月23日，轻舟智航宣布完成D轮新一轮融资1亿美元，投资方不仅包括投资机构，还有产业投资方——某国内头部主机厂、宁波宁海兴泰合基金、梁溪科创产业母基金（博华资本管理）、华德科创、某头部汽车电子零部件公司。 拿到这一亿美元后，轻舟会加大世界模型+强化学习等前沿物理AI技术研发、加大公司组织人才建设。 关于公司对物理AI的转向，轻舟智航联合创始人、董事长兼CEO于骞早有预告，他在3月18日的德国慕尼黑“智能汽车与智能制造论坛”上表示：“轻舟不仅要做自动驾驶，还要做通用物理世界的AI。” PART 1 自动驾驶是物理AI的最佳入口 AI作为当今科技界的第一大关键词，大致可分为处理比特信息的数字AI、操控原子实体的物理AI。自从2022年11月ChatGPT横空出世后，AI在数字世界的发展如火如荼，对话、写作、编程、绘图等功能快速迭代，如今几乎能辅助所有“处理信息”的工作。AI带来的效率提升，一定程度上甚至影响了亚马逊、Meta等互联网巨头裁员上万人。 可以说，数字AI已趋于成熟，但物理AI仍处于蓬勃发展的早期阶段——不仅L4级自动驾驶仍未普及，具身智能创业公司更是层出不穷。 英伟达CEO黄仁勋明确指出，自动驾驶将成为物理AI最先实现规模化落地的应用场景，更是面向主流市场的第一个大规模物理AI系统。为此，英伟达布局全栈能力，不仅发布开源自动驾驶物理AI模型Alpamayo及配套工具链，还推出Cosmos AI世界模型，打通虚拟仿真到现实应用的关键链路，依托DRIVE芯片构建起车载计算与云端训练的完整生态。 而在国内，理想、小鹏等企业也早已在人型机器人、Robotaxi等业务上开展布局。 近期，轻舟智航CEO于骞在内部会上就表示，人类正处于AI发展的关键分水岭上，物理AI是未来5-10年最大机遇，自动驾驶是通向物理AI的最佳入口。同时，只有通过物理AI的方法论（如世界模型、强化学习），才能真正回头做好自动驾驶。 于骞在德国慕尼黑智能汽车与智能制造论坛 简单来说，自动驾驶就是AI操控汽车在一个二维平面上与道路、行人、障碍物等进行物理交互，而通用物理AI则更进一步，需要增加高度这一维度，在三维空间中与物体交互。 自动驾驶的优势在于数据。于骞分析道，自动驾驶领域的数据（特别是世界模型所需的结构化数据）非常充分，比非结构化的通用机器人领域更有机会率先突破。 回顾过去，轻舟将近20年的AI发展分为三个阶段——2004年到2025年，行业经历了机器智能的模仿与类人智能的探索，而2026年，行业将迈入超人智能阶段。 这一阶段最大的改变在于：AI不再仅仅复刻人类驾驶行为，而是依托世界模型与强化学习，开始真正理解物理世界的规律、意图与社会常识。 以往，自动驾驶进化面临一个重要难题——在无限不确定性的物理世界中，安全红线决定AI系统无法像AlphaGo那样完全在虚拟环境中迭代，必须通过实车测试验证，这严重制约了演进速度。 “世界模型+强化学习”则是解决这一难题的核心路径。于骞将其比喻为一座AI虚拟“驾校”——世界模型负责预演现实世界，如模拟出复杂路口博弈、极端天气干扰、突发路况变化等数百万种长尾场景；强化学习则像一个教练，持续优化AI的决策路径，让系统在虚拟试错中从模仿人类到超越人类。 这样的技术架构，让自动驾驶系统从“被动记忆”转向“主动思考”，真正具备了应对未知的能力。 整个智驾行业几乎都有类似的判断。今年3月下旬推送的小鹏第二代VLA，便结合强化学习和世界模型；长期使用世界模型的蔚来，2026年初在世界模型2.0中引入强化学习；极氪也宣布将在今年上半年推出具备自我反思和进化能力的WAM世界行为模型。 基于对AI技术路线的预演，轻舟决定将战略重心大幅向L4自动驾驶及通用物理AI倾斜，而那100万台搭载轻舟辅助驾驶系统的智能汽车，就是物理AI技术最宝贵的真实训练场。 PART 2 百万量产，跻身“华舟魔”智驾三强 如今，在年销2000余万辆的中国乘用车市场，L2级功能新车渗透率已超60%，城市NOA功能渗透率也已突破15%。 当边际成本极低的智能辅助驾驶系统逐渐走向大众，在评价一家智驾公司时，量产规模的重要性也逐渐提升——智驾公司是商业公司，而不是研究机构。李想在内部有一句常说的话：技术要服务产品，产品要服务商业。而商业成功与否，销量是一个重要指标。 从量产交付规模以及适配平台看，辅助驾驶搭载量突破100万辆的轻舟智航，已与华为、Momenta共同构成中国智驾行业的“量产第一梯队”——“华舟魔”。 目前，搭载轻舟辅助驾驶系统的已上市车型有近30款，覆盖理想、奇瑞等近10家主机厂。按照计划，2026年轻舟还将新增超过50款量产车型，且绝大部分支持城市NOA。 规模快速扩张的关键，在于轻舟的一次关键判断：2025年4月，他们宣布单颗地平线征程6M芯片（算力128TOPS）即可实现城市NOA。 这在当时几乎没人相信，包括不少合作伙伴。但2026年1月，基于该方案的城市NOA在理想L系列智能焕新版上通过OTA推送上车，轻舟成为行业里第一个将其量产的公司。内部测评显示，该方案与一些采用单颗甚至双颗英伟达Orin-X芯片的方案体验接近。 “首先，意识到‘单芯就能实现城市NOA’的可能性本身就不易，当初就像马斯克提出不用激光雷达一样备受质疑。”于骞曾对雷峰网《新智驾》表示，“但我们是第一个将其发现并量产的中国公司。这没有捷径，靠的是实打实的创新。” 2026年，基于单地平线征程6M芯片的高性价比方案，轻舟甚至计划将城市NOA功能下探至10万元级车型上。同时，轻舟也在持续发力高阶方案，今年即将发布算力大于500TOPS的城市智驾方案。 华为、轻舟、Momenta的智驾量产三极，各有各的打法。华为走的是高端路线，以高配置和高冗余换取的定价权，来触达20-50万左右的中高端人群；Momenta以群狼策略深入市场，覆盖的车型种类、价位更为广泛。 而轻舟则是在单芯片上做到极致。2025 年乘联会测算显示，10-20万价格带新能源乘用车占比达43.4%，显著高于10万以下的 28.6%和20-30万的16.6%，是中国新能源市场规模最大的细分区间。 随着轻舟在这一主力价格带的深耕与渗透，其规模效应已从验证期步入爆发期。依托已突破百万台的量产搭载基数与平台化工程能力，轻舟正将高阶城市NOA等核心技术下探至国民车型。这不仅是对市场主流需求的精准回应，更通过与多家主流车企的深度合作，持续巩固在该价格带的技术与交付优势。 可以预见，伴随 10-20 万区间用户渗透率的稳步提升，轻舟的销量规模将水涨船高，营收与商业变现能力也将随之实现阶梯式增长。 PART 3 从L2、L4到物理AI的厚积薄发 轻舟能凭借百万量产跻身行业第一梯队，还能同步推进中阶、高阶城市智驾方案的研发，其坚实的技术积累与标准化的交付思维是重要推动力。 轻舟核心团队源自L4自动驾驶先驱Waymo，技术底蕴深厚。但在技术路线方面，轻舟更多学习特斯拉——一方面追求工程标准化，另一方面“L2+L4”双线并行。 从具体实践来看，特斯拉长期坚持精简车型阵容，以 Model 3/Y、Model S/X 等核心车型构建高度统一的硬件生态，这一策略并非局限于产品层面的降本增效，而是通过跨车型长期冻结传感器方案（如 HW3/HW4 平台长达 4-6 年的标准化布局），避免了行业常见的 “改款陷阱”—— 摄像头位置微调、传感器规格更换等行为都会造成数据分布紊乱，导致数据积累重置。 这种统一的感知系统，让全球数百万辆特斯拉成为输出完全一致视觉数据的“露天实验室”，每一辆车都在为 FSD 神经网络提供高质量、可复用的训练样本。这些数据，也成为特斯拉Robotaxi业务的核心护城河。当其他车企仍在为多车型、多传感器方案解决数据对齐与融合难题时，特斯拉已通过单一数据源实现了算法的高效迭代。 轻舟想要做的正是和特斯拉一样的事情。技术统一与工程标准化，是轻舟能快速覆盖多价位、多车型的重要原因。 基于同一套技术架构，轻舟完成了在高通、英伟达、地平线三大主流芯片平台上的城市 NOA 适配。在工程交付上，轻舟也做了大量平台化工作，将可变与不可变的部分拆解，大幅压缩了不同车型的适配周期。 于骞曾对新智驾表示，轻舟的方案已具备很强的泛化能力：无论是7颗或11颗摄像头，是否搭载激光雷达，车型大小如何，都无需大幅调整即可适配。“很多同行曾因传感器布局的微小变动，就要重新采集数据和训练模型，但我们依靠底层工具与模型解决了这个问题。” 轻舟CTO李栋认为，轻舟自首次量产起便推动交付标准化，将固定流程平台化，并压缩可变部分的开发周期，这使团队规模未大幅增长，却能支持车型从1款扩至23款。 关于L2与L4的关系，轻舟从创业初期就认为二者底层技术架构本质相同。两者共享AI模型底座，差异主要在产品逻辑层面。 产品逻辑上，L4需要传感器冗余、计算冗余、软件兜底策略甚至远程辅助；L2则需考虑成本，明确ODD范围。但底层都需要提升驾驶能力，追求安全、舒适、便捷。技术演进的方向都是数据驱动——从早期深度学习到BEV、VLA、世界模型，再到未来技术，L2和L4都走在这条路上。 如今，轻舟的L4无人物流车完全采用L2量产思路设计，车顶不再有旋转式机械雷达。于骞说，“今年将启动小范围试点的Robotaxi也会为量产而生，不会顶着夸张的激光雷达，外观会和普通量产车一样。” 除技术架构外，数据的兼容性也是L4与L2业务能相互促进的关键。李栋曾对新智驾透露，公司从创立起就注重数据前后兼容。“做L2时我们用了大量L4数据，因为此前有Robotaxi业务；现在做无人物流等L4产品，也可以复用L2数据，甚至直接使用L2模型。” 兼容性源于提前规划——轻舟规模量产L4产品的传感器布置、选型会与L2产品高度一致，数据标注规范也前后统一。这种技术、数据上的传承，使得轻舟将战略重心迈向L4自动驾驶及通用物理AI时，能很快拿出成果。 2026年4月，轻舟将在北京车展上发布最新的技术产品进展。不久，我们就能看到一家深耕技术突破的公司，是如何从L2辅助驾驶到L4自动驾驶，再到通用物理AI的清晰路径。",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 25 Mar 2026 18:57:00 +0800",
+      "region": "国内",
+      "summary": "AI作为当今科技界的第一大关键词，大致可分为处理比特信息的数字AI、操控原子实体的物理AI。自从2022年11月ChatGPT横空出世后，AI在数字世界的发展如火如荼，对话、写作、编程、绘图等功能快速迭代，如今几乎能辅助所有“处理信息”的工作。",
+      "category": "投融资与并购",
+      "company": "轻舟智航",
+      "score": 37,
+      "breakdown": {
+        "substance": 21,
+        "importance": 8,
+        "timeliness": 6,
+        "credibility": 4,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "政策与监管": []
+}
