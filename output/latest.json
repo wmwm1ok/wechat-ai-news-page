@@ -1,13 +1,13 @@
 {
   "date": "2026/3/26",
-  "edition": "morning",
-  "editionLabel": "早报",
-  "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/3/26 08:02",
-  "count": 14,
+  "edition": "afternoon",
+  "editionLabel": "午后版",
+  "title": "AI 日报·午后版（Afternoon）",
+  "generatedAt": "2026/3/26 16:00",
+  "count": 11,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-25-afternoon.json",
+    "previousEditionFile": "news-2026-03-26-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
@@ -80,176 +80,146 @@
     },
     "scoring": {
       "totalInput": 44,
-      "totalScored": 20,
-      "strictScoredCount": 14,
-      "relaxedCandidateCount": 6,
+      "totalScored": 19,
+      "strictScoredCount": 16,
+      "relaxedCandidateCount": 3,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 7,
-      "selectedCandidateCount": 20,
-      "duplicateCount": 10,
-      "crossDayDuplicateCount": 8,
+      "weakSummaryCount": 6,
+      "selectedCandidateCount": 19,
+      "duplicateCount": 18,
+      "crossDayDuplicateCount": 16,
       "lowQualityCount": 1,
-      "domesticAvailable": 9,
-      "overseasAvailable": 11,
+      "domesticAvailable": 16,
+      "overseasAvailable": 3,
       "sourceCount": {
-        "36氪": 3,
-        "TechCrunch AI": 7,
-        "雷锋网": 3,
+        "36氪": 4,
+        "InfoQ": 4,
+        "雷锋网": 5,
         "量子位": 3,
-        "MIT Technology Review": 4
+        "TechCrunch AI": 3
       }
     },
     "display": {
-      "refinedCount": 20,
-      "previousEditionRemovedCount": 1,
-      "integrityRemovedCount": 4,
-      "postEditionFilterCount": 15,
-      "displayReadyCount": 12,
-      "fallbackDisplayCount": 2,
-      "removedWeakSummaries": 3,
-      "shortage": 0
+      "refinedCount": 19,
+      "previousEditionRemovedCount": 2,
+      "integrityRemovedCount": 5,
+      "postEditionFilterCount": 12,
+      "displayReadyCount": 7,
+      "fallbackDisplayCount": 4,
+      "removedWeakSummaries": 5,
+      "shortage": 3
     }
   },
   "articles": [
     {
-      "section": "投融资与并购",
-      "title": "傲意科技完成1.5亿元C轮融资，海外业务增速反超国内",
-      "company": "傲意科技",
-      "url": "https://36kr.com/p/3738341704270083?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-26 08:00:00  +0800",
-      "summary": "傲意科技完成1.5亿元C轮融资，由中金脑科学基金领投。公司专注于非侵入式脑机接口技术，其核心是‘脑-肌-机’三位一体技术路径，已推出ORF系列康复外骨骼用于脑卒中患者运动功能重建，以及ROHand系列灵巧手用于工业自动化。",
-      "score": 43
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Granola融资1.25亿美元，估值达15亿美元，从会议记录工具扩展为企业AI应用",
-      "company": "Granola",
-      "url": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 25 Mar 2026 14:48:40 +0000",
-      "summary": "AI会议笔记工具Granola完成1.25亿美元C轮融资，估值从2.5亿美元飙升至15亿美元。本轮融资由Index Ventures领投。其核心转变是从个人转录工具扩展为企业AI应用，具体包括：1. 为回应早期用户（包括a16z合伙人）对本地数据访问受限的批评，公司承诺并推出了批量数据访问API。",
-      "score": 41
-    },
-    {
-      "section": "技术与研究",
-      "title": "谷歌发布TurboQuant AI内存压缩算法，被网友戏称为“Pied Piper”",
-      "company": "Google",
-      "url": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 25 Mar 2026 20:38:45 +0000",
-      "summary": "谷歌研究团队发布名为TurboQuant的新型AI内存压缩算法，因其追求极致无损压缩的目标，被网友戏称为美剧《硅谷》中的“Pied Piper”。该算法采用向量量化的方法，旨在解决AI推理过程中的缓存瓶颈问题，其核心是压缩AI的“工作记忆”，从而在保持准确性的前提下，让AI占用更少内存空间。",
-      "score": 36
-    },
-    {
       "section": "产品发布与更新",
-      "title": "昆仑万维AI音乐模型登顶全球榜单，中国AI展现发展优势",
-      "company": "昆仑万维",
-      "url": "https://www.qbitai.com/2026/03/391839.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 25 Mar 2026 06:36:11 +0000",
-      "summary": "昆仑万维的AI音乐模型Mureka V8在Artificial Analysis榜单上超越Suno V4.5和Udio v1.5 Allegro，成为全球第一。其成功得益于中国庞大的用户群体和复杂的内容生态，为模型提供了快速试错和优化的环境。",
-      "score": 33
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Harvey确认110亿美元估值：红杉资本持续加码",
-      "company": "Harvey",
-      "url": "https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 25 Mar 2026 15:27:15 +0000",
-      "summary": "AI法律科技初创公司Harvey确认完成新一轮2亿美元融资，估值达110亿美元，由新加坡GIC和红杉资本共同领投，现有投资者Andreessen Horowitz等跟投。本轮融资使公司总融资额超过10亿美元，其估值在一年内增长了超过3.5倍。",
-      "score": 29
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Lucid Bots融资2000万美元以满足其擦窗无人机需求",
-      "company": "Lucid Bots",
-      "url": "https://techcrunch.com/2026/03/25/lucid-bots-raises-20m-to-keep-up-with-demand-for-its-window-washing-drones/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 25 Mar 2026 11:00:00 +0000",
-      "summary": "美国机器人公司Lucid Bots近日完成2000万美元B轮融资，累计融资额达3400万美元。该公司专注于研发用于建筑维护的清洁机器人，其核心产品包括擦窗无人机Sherpa和高压清洗机器人Lavo。",
-      "score": 27
-    },
-    {
-      "section": "技术与研究",
-      "title": "这家初创公司想改变数学家做数学的方式",
-      "company": "Axiom Math",
-      "url": "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Wed, 25 Mar 2026 13:59:17 +0000",
-      "summary": "加州初创公司Axiom Math发布了免费AI工具Axplorer，旨在帮助数学家发现解决难题的数学模式。该工具是PatternBoost的升级版，其前身曾解决图论中的Turán四环问题（即如何在点之间画线避免形成四点的环）。Axplorer的核心特点是无需数学家自行训练神经网络，而是提供逐步引导。",
-      "score": 22
-    },
-    {
-      "section": "技术与研究",
-      "title": "圆桌讨论：太空探索的新时代",
-      "company": "无",
-      "url": "https://www.technologyreview.com/2026/03/25/1134664/roundtables-the-next-era-of-space-exploration/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Wed, 25 Mar 2026 17:26:26 +0000",
-      "summary": "本次仅限订阅者参与的圆桌讨论聚焦太空探索的未来方向。讨论提出了三个具体议题：一是寻找火星生命的竞赛，二是应对具有威胁性的小行星的挑战，三是将月球建设为宇航员永久家园的探索。科学家们认为，这些在太空领域的努力能够揭示人类未来的发展轨迹。",
-      "score": 21
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "睿尔曼茶艺机器人亮相2026中关村论坛，远程呈现非遗茶艺",
-      "company": "睿尔曼",
-      "url": "https://www.qbitai.com/2026/03/392121.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 25 Mar 2026 11:31:27 +0000",
-      "summary": "在2026中关村论坛上，睿尔曼集团与品品香公司联合展示了远程操控的“机器人茶艺师”。具体演示中，操作员在北京数据中心远程操控，论坛现场的轮式人形机器人精准复现了福鼎白茶的温杯、投茶、注水、出汤等全套工序，毫秒级延迟让远程操作如临现场。",
-      "score": 19
-    },
-    {
-      "section": "技术与研究",
-      "title": "智能体商务运行于真相与情境之上",
-      "company": "无",
-      "url": "https://www.technologyreview.com/2026/03/25/1134516/agentic-commerce-runs-on-truth-and-context/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Wed, 25 Mar 2026 11:48:13 +0000",
-      "summary": "智能体AI的核心是从辅助转向执行，能自主完成发现、比价、决策、授权等支付前的全流程，极大加速商业运行。其规模化应用面临两大关键挑战：一是需要主数据管理（MDM）作为信任基础，清晰界定智能体的身份、权限和责任归属；二是情境信息必须在整个价值链中高速、无歧义地传递，避免因系统误判而破坏信任或拖慢速度。",
-      "score": 19
-    },
-    {
-      "section": "技术与研究",
-      "title": "独家电子书：我们准备好将钥匙交给AI智能体了吗？",
-      "company": "",
-      "url": "https://www.technologyreview.com/2026/03/24/1134531/exclusive-ebook-are-we-ready-to-hand-ai-agents-the-keys/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Tue, 24 Mar 2026 18:17:13 +0000",
-      "summary": "Niantic的AI子公司正在利用从玩家处众包的300亿张城市地标图像，训练一个新的世界模型。这本仅供订阅者阅读的电子书探讨了赋予AI智能体真正自主权所引发的担忧，并引用了专家警告，例如“如果我们继续当前的道路……我们基本上是在用人类玩俄罗斯轮盘赌”。",
-      "score": 17
-    },
-    {
-      "section": "技术与研究",
-      "title": "梅拉尼娅·特朗普认为机器人将在未来教育中扮演重要角色",
-      "company": "无",
-      "url": "https://techcrunch.com/2026/03/25/melania-trump-wants-a-robot-to-homeschool-your-child/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 25 Mar 2026 18:55:41 +0000",
-      "summary": "美国前第一夫人梅拉尼娅·特朗普在活动中提出，未来名为‘柏拉图’的人形机器人可成为终极教育者，能即时提供文学、科学等全学科知识，并根据学生需求提供个性化、耐心的教学。她与机器人公司Figure AI开发的人形机器人共同亮相，该机器人表示其目标是‘用技术和教育赋能儿童’。",
-      "score": 16
-    },
-    {
-      "section": "投融资与并购",
-      "title": "轻舟智航完成D轮融资1亿美元，加速布局物理AI与自动驾驶",
-      "company": "轻舟智航",
-      "url": "https://www.leiphone.com/category/transportation/Sq9ZaNJzFRf6cFfv.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 25 Mar 2026 18:57:00 +0800",
-      "summary": "AI作为当今科技界的第一大关键词，大致可分为处理比特信息的数字AI、操控原子实体的物理AI。自从2022年11月ChatGPT横空出世后，AI在数字世界的发展如火如荼，对话、写作、编程、绘图等功能快速迭代，如今几乎能辅助所有“处理信息”的工作。",
+      "title": "Stripe工程师部署自主智能体Minions，每周生成数千个拉取请求",
+      "company": "Stripe",
+      "url": "https://www.infoq.cn/article/PqlJ5b0GKCC9771Eby8G?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 26 Mar 2026 10:00:00 GMT",
+      "summary": "Stripe工程师部署了名为Minions的自主编程智能体，它能根据来自Slack或缺陷报告的单条指令，端到端地完成软件开发任务。该系统每周生成超过1300个可直接用于生产环境的拉取请求，所有变更均需人工审核。",
       "score": 37
     },
     {
       "section": "产品发布与更新",
-      "title": "腾讯元宝派推出电脑版，支持多端同步与AI协作",
-      "company": "腾讯",
-      "url": "https://www.leiphone.com/category/industrynews/M0vDwj6hiSpM3Fnp.html",
+      "title": "DeepSeek急招Agent方向人才，放出17个岗位并强调重度Vibe Coding优先",
+      "company": "DeepSeek",
+      "url": "https://www.qbitai.com/2026/03/392024.html",
+      "source": "量子位",
+      "publishedAt": "Wed, 25 Mar 2026 06:39:13 +0000",
+      "summary": "DeepSeek近期发布17个Agent方向岗位，招聘重点从基础模型研究转向Agent产品化。具体信息点包括：1）岗位要求熟悉Claude Code、OpenClaw等工具，需洞察高价值应用场景如个人助理、自动化工作流。",
+      "score": 29
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "WorkBuddy：微信里的AI专家团队助你管理社交媒体内容",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/03/391894.html",
+      "source": "量子位",
+      "publishedAt": "Wed, 25 Mar 2026 06:25:23 +0000",
+      "summary": "WorkBuddy是一个集成在微信中的AI内容管理平台，用户无需自行配置API，即可直接使用Credits调用平台内置的DeepSeek、GLM、KIMI等主流大模型，并支持接入GPT、Claude等其他模型。",
+      "score": 29
+    },
+    {
+      "section": "技术与研究",
+      "title": "大模型推理端到端Token级可观测工程实践在QCon北京分享",
+      "company": "蚂蚁",
+      "url": "https://www.infoq.cn/article/UsmUkC9hH5FDdmkofO1b?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 26 Mar 2026 10:00:00 GMT",
+      "summary": "蚂蚁集团技术专家刘杨在QCon北京大会上，分享了其团队在大模型可观测性领域的工程实践。他们构建了业界首个覆盖多引擎、Token级的深度可观测Trace系统，将观测粒度从宏观请求细化到每个Token的生成过程，实现了对推理引擎内部工作的白盒化透视。",
+      "score": 28
+    },
+    {
+      "section": "技术与研究",
+      "title": "QuestMobile：闲鱼活跃用户数首次超过小红书",
+      "company": "闲鱼",
+      "url": "https://www.leiphone.com/category/industrynews/yMRIRIJWZT3zdcOj.html",
       "source": "雷锋网",
-      "publishedAt": "Wed, 25 Mar 2026 14:11:00 +0800",
-      "summary": "3月25日 腾讯宣布，旗下AI原生应用元宝，正式推出“元宝派”电脑版。在电脑端的大屏环境中，用户可以边参与共享屏幕，边在单独窗口与派友或元宝聊天互动。同时，元宝派电脑版还支持多端消息同步、文件拖拽、截图等功能，用户可以轻松在元宝派电脑版中完成信息流转。",
-      "score": 30
+      "publishedAt": "Thu, 26 Mar 2026 11:14:00 +0800",
+      "summary": "根据QuestMobile数据，闲鱼在3月份的活跃用户数首次并连续两周超过小红书，其用户增幅在互联网行业中排名第一。这一增长主要得益于闲鱼新上线的AI相机功能，该功能能快速识别并生成商品描述，将商品发布流程缩短至约5秒，显著降低了用户发布闲置物品的门槛，从而有效推动了平台用户活跃度的提升。",
+      "score": 25
+    },
+    {
+      "section": "技术与研究",
+      "title": "Anthropic警告AI技能差距显现，资深用户优势扩大",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 25 Mar 2026 21:44:13 +0000",
+      "summary": "Anthropic最新研究指出，AI尚未显著取代工作岗位，但已显现不平等影响。具体表现为：1. 年轻职场新人更易受冲击；2. 高收入国家和知识工作者密集地区对AI工具Claude的使用更密集。",
+      "score": 24
+    },
+    {
+      "section": "技术与研究",
+      "title": "华为分享AI软件工程实践：基于30年经验构建企业级高质量软件体系",
+      "company": "华为",
+      "url": "https://www.infoq.cn/article/IPk1UBNeqdj88ZlEWFsk?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 26 Mar 2026 15:50:12 GMT",
+      "summary": "华为分享了其AI软件工程实践，旨在解决通用大模型在软件开发中缺乏领域知识的问题。具体方法包括：1. 构建端到端双向可追溯的领域知识图谱，将需求、设计、代码、用例和缺陷关联起来，使AI能精准分析需求变更或缺陷修复的影响。",
+      "score": 22
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "玄铁C950定义RISC-V高性能标杆，首次在服务器CPU市场正面对标x86与Arm",
+      "company": "",
+      "url": "https://www.leiphone.com/category/chipdesign/V7ghyTABJF7CHXQ4.html",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 25 Mar 2026 17:05:00 +0800",
+      "summary": "凭借AI原生的Vector加速引擎和Matrix加速引擎，玄铁C950的单核FP4算力突破 8TFLOP，加上配置4096-bit超大位宽Tensor Cache，通用高性能算力与AI算力融合，强力提升矩阵算力兑付率。",
+      "score": 27
+    },
+    {
+      "section": "投融资与并购",
+      "title": "泡泡玛特跨界家电产品下月发布，2025年营收同比增长184.7%",
+      "company": "泡泡玛特",
+      "url": "https://www.leiphone.com/category/zaobao/CYXt4UzSrfKg3Irq.html",
+      "source": "雷锋网",
+      "publishedAt": "Thu, 26 Mar 2026 09:28:00 +0800",
+      "summary": "3月25日消息，泡泡玛特 COO 司德在2025年业绩发布会上表示，公司首款家电产品将于下月正式发布。同时，泡泡玛特甜品业务在乐园、泰国旗舰店及多个快闪店试点后，将于今年上半年落地线下常规门店。同日，泡泡玛特发布2025年财报，2025年营收371.2亿元，同比增长184.7%。",
+      "score": 21
+    },
+    {
+      "section": "投融资与并购",
+      "title": "魔迈获高瓴等千万美元融资，前九号高管创业研发智能电动全地形车",
+      "company": "魔迈（ModMax）",
+      "url": "https://36kr.com/p/3738426692567046?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-26 09:00:54  +0800",
+      "summary": "云时资本投资人李想表示： 我们相信依托于中国的基础设施和人才优势，每一波新的驱动力、场景和商业模式的交叉下都有全球化创新科技产品的大机会。智能化让机械解耦、模块化设计成为可能，带来一系列出行和户外产品的新机会。ModMax团队Day 1从第一性出发并坚定地投入下一代户外娱乐产品的研发。",
+      "score": 19
+    },
+    {
+      "section": "投融资与并购",
+      "title": "马斯克xAI联合创始人大量离职，仅剩特斯拉嫡系留守",
+      "company": "xAI",
+      "url": "https://www.qbitai.com/2026/03/392245.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 26 Mar 2026 05:44:52 +0000",
+      "summary": "SpaceX与xAI的合并重组也是关键因素。SpaceX计划最早于2026年6月启动IPO，募资规模可能高达500亿美元，目标估值超过1.75万亿美元。 [1]https。",
+      "score": 17
     }
   ]
 }

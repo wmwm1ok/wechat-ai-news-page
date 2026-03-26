@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/25",
+  "date": "2026/3/26",
   "edition": "afternoon",
   "editionLabel": "午后版",
   "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/25 16:00",
-  "count": 14,
+  "generatedAt": "2026/3/26 16:00",
+  "count": 11,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-25-morning.json",
+    "previousEditionFile": "news-2026-03-26-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
       "domesticBeforeDedup": 24,
-      "overseasBeforeDedup": 17,
+      "overseasBeforeDedup": 20,
       "domesticAfterDedup": 24,
-      "overseasAfterDedup": 17,
+      "overseasAfterDedup": 20,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -57,13 +57,13 @@
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 6,
+          "count": 8,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 1,
+          "count": 2,
           "error": null
         }
       ],
@@ -76,181 +76,150 @@
       }
     },
     "summarize": {
-      "totalSummarized": 41
+      "totalSummarized": 44
     },
     "scoring": {
-      "totalInput": 41,
-      "totalScored": 17,
-      "strictScoredCount": 14,
+      "totalInput": 44,
+      "totalScored": 19,
+      "strictScoredCount": 16,
       "relaxedCandidateCount": 3,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 10,
-      "selectedCandidateCount": 17,
-      "duplicateCount": 12,
-      "crossDayDuplicateCount": 10,
-      "lowQualityCount": 5,
-      "domesticAvailable": 14,
+      "weakSummaryCount": 6,
+      "selectedCandidateCount": 19,
+      "duplicateCount": 18,
+      "crossDayDuplicateCount": 16,
+      "lowQualityCount": 1,
+      "domesticAvailable": 16,
       "overseasAvailable": 3,
       "sourceCount": {
+        "36氪": 4,
         "InfoQ": 4,
         "雷锋网": 5,
         "量子位": 3,
-        "TechCrunch AI": 2,
-        "36氪": 2,
-        "MIT Technology Review": 1
+        "TechCrunch AI": 3
       }
     },
     "display": {
-      "refinedCount": 17,
-      "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 15,
-      "displayReadyCount": 10,
+      "refinedCount": 19,
+      "previousEditionRemovedCount": 2,
+      "integrityRemovedCount": 5,
+      "postEditionFilterCount": 12,
+      "displayReadyCount": 7,
       "fallbackDisplayCount": 4,
       "removedWeakSummaries": 5,
-      "shortage": 0
+      "shortage": 3
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "Sonatype推出Guide工具，加强AI辅助代码生成安全性",
-      "company": "Sonatype",
-      "url": "https://www.infoq.cn/article/OTLD9IW3zMZdXMHsWD99?utm_source=rss&utm_medium=article",
+      "title": "Stripe工程师部署自主智能体Minions，每周生成数千个拉取请求",
+      "company": "Stripe",
+      "url": "https://www.infoq.cn/article/PqlJ5b0GKCC9771Eby8G?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Wed, 25 Mar 2026 15:00:00 GMT",
-      "summary": "Sonatype公司发布了一款名为Guide的AI代码生成安全工具。该工具的核心是作为一个“防护栏”，部署在AI编程工具（如GitHub Copilot）和开源组件仓库之间，确保AI生成的代码所使用的第三方依赖项是安全、合规且易于维护的。",
-      "score": 44
+      "publishedAt": "Thu, 26 Mar 2026 10:00:00 GMT",
+      "summary": "Stripe工程师部署了名为Minions的自主编程智能体，它能根据来自Slack或缺陷报告的单条指令，端到端地完成软件开发任务。该系统每周生成超过1300个可直接用于生产环境的拉取请求，所有变更均需人工审核。",
+      "score": 37
     },
     {
       "section": "产品发布与更新",
-      "title": "WorkBuddy：微信中的AI专家团队助力多平台内容创作",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/03/391894.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 25 Mar 2026 06:25:23 +0000",
-      "summary": "WorkBuddy是一款集成在微信中的AI内容创作平台，其核心是提供针对不同社交媒体平台的垂类AI专家。具体而言：1. 平台内置了DeepSeek、GLM、KIMI等大模型，用户无需配置API，通过Credits即可直接调用，也支持接入GPT、Claude等其他模型。",
-      "score": 39
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "DeepSeek急招Agent方向人才，放出17个岗位",
+      "title": "DeepSeek急招Agent方向人才，放出17个岗位并强调重度Vibe Coding优先",
       "company": "DeepSeek",
       "url": "https://www.qbitai.com/2026/03/392024.html",
       "source": "量子位",
       "publishedAt": "Wed, 25 Mar 2026 06:39:13 +0000",
-      "summary": "DeepSeek近期集中发布了17个与AI智能体（Agent）相关的岗位，招聘方向明显从基础模型研究向Agent产品化倾斜。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "人才留言板第一期：20家AI明星公司招募顶尖技术人才",
-      "company": "",
-      "url": "https://36kr.com/p/3738023110230272?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-25 15:23:01  +0800",
-      "summary": "36氪推出“人才留言板”栏目，旨在为AI与机器人领域的顶尖人才和优质公司搭建高效直连通道。其核心在于：一、基于十年行业观察，筛选资金充沛、尊重技术的公司（如技术领先的机器人公司“璇玑动力”），不做简单简历搬运；二、每周精选覆盖AI、硬科技等领域的30多个优质岗位。",
-      "score": 31
-    },
-    {
-      "section": "技术与研究",
-      "title": "大规模Agent的可观测与质量保障体系探讨",
-      "company": "",
-      "url": "https://www.infoq.cn/article/7aAHoPVD5XlR7oVxO4el?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 25 Mar 2026 10:00:00 GMT",
-      "summary": "QCon北京大会将探讨如何让复杂的AI智能体（Agent）变得透明可控。具体方法包括：1. 建立全栈可观测门户，将服务端、客户端、AI应用等各类观测数据整合在一个界面，并预置看板和告警规则，降低新团队使用门槛。",
-      "score": 22
-    },
-    {
-      "section": "技术与研究",
-      "title": "Spring生态系统发布多个里程碑版本更新",
-      "company": "",
-      "url": "https://www.infoq.cn/article/JE6EFe8RxQAbGMkf2CFq?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 25 Mar 2026 12:12:01 GMT",
-      "summary": "Spring生态系统近期发布了多个项目的里程碑版本更新。其中，Spring Data Redis新增了@EnableRedisListeners注解，用于启用发布订阅的监听端点。",
-      "score": 20
-    },
-    {
-      "section": "政策与监管",
-      "title": "Anthropic为Claude Code增加更多自主权但仍保持约束",
-      "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 24 Mar 2026 21:00:30 +0000",
-      "summary": "Anthropic为其AI编程助手Claude Code推出新的“自动模式”，目前处于研究预览阶段。该模式允许AI在更少人工审批下自主执行任务，核心变化是AI会通过内置安全措施（如检查用户未请求的风险行为和提示注入攻击）预先审查每个操作，仅自动执行安全操作，而拦截风险行为。",
-      "score": 32
+      "summary": "DeepSeek近期发布17个Agent方向岗位，招聘重点从基础模型研究转向Agent产品化。具体信息点包括：1）岗位要求熟悉Claude Code、OpenClaw等工具，需洞察高价值应用场景如个人助理、自动化工作流。",
+      "score": 29
     },
     {
       "section": "产品发布与更新",
-      "title": "谷歌电视将新增三项Gemini AI功能，包括体育简报",
-      "company": "Google",
-      "url": "https://techcrunch.com/2026/03/24/google-tv-new-gemini-features-keep-fans-updated-on-sports-teams-deep-dives-visual-answers/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 24 Mar 2026 19:12:11 +0000",
-      "summary": "谷歌电视正为美国与加拿大用户推出三项Gemini AI新功能。核心变化包括：1. 体育简报：用户可通过语音请求获取NBA、NHL、MLB等联赛的赛事集锦与重要更新，无需观看全程直播。2. 深度探索：提供健康、经济、科技等复杂主题的视觉化讲解，例如可询问“冷水浴有何效果？”并获详细解析。",
+      "title": "WorkBuddy：微信里的AI专家团队助你管理社交媒体内容",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/03/391894.html",
+      "source": "量子位",
+      "publishedAt": "Wed, 25 Mar 2026 06:25:23 +0000",
+      "summary": "WorkBuddy是一个集成在微信中的AI内容管理平台，用户无需自行配置API，即可直接使用Credits调用平台内置的DeepSeek、GLM、KIMI等主流大模型，并支持接入GPT、Claude等其他模型。",
+      "score": 29
+    },
+    {
+      "section": "技术与研究",
+      "title": "大模型推理端到端Token级可观测工程实践在QCon北京分享",
+      "company": "蚂蚁",
+      "url": "https://www.infoq.cn/article/UsmUkC9hH5FDdmkofO1b?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 26 Mar 2026 10:00:00 GMT",
+      "summary": "蚂蚁集团技术专家刘杨在QCon北京大会上，分享了其团队在大模型可观测性领域的工程实践。他们构建了业界首个覆盖多引擎、Token级的深度可观测Trace系统，将观测粒度从宏观请求细化到每个Token的生成过程，实现了对推理引擎内部工作的白盒化透视。",
       "score": 28
     },
     {
-      "section": "产品发布与更新",
-      "title": "2026年中国企业AI应用场景报告发布",
-      "company": "极客时间",
-      "url": "https://www.infoq.cn/minibook/4c1lsTMm8kO4XAJuYpfz?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 25 Mar 2026 14:32:42 GMT",
-      "summary": "极客时间企业版发布的《2026中国企业AI应用场景报告》聚焦生成式AI。报告通过调研与分析，旨在揭示AI技术如何具体融入企业运营以创造价值。报告具体探讨了生成式AI在智能客服、自动化内容生成以及辅助代码编程等核心场景中的应用实践，为企业部署AI提供了场景化的参考路径。",
+      "section": "技术与研究",
+      "title": "QuestMobile：闲鱼活跃用户数首次超过小红书",
+      "company": "闲鱼",
+      "url": "https://www.leiphone.com/category/industrynews/yMRIRIJWZT3zdcOj.html",
+      "source": "雷锋网",
+      "publishedAt": "Thu, 26 Mar 2026 11:14:00 +0800",
+      "summary": "根据QuestMobile数据，闲鱼在3月份的活跃用户数首次并连续两周超过小红书，其用户增幅在互联网行业中排名第一。这一增长主要得益于闲鱼新上线的AI相机功能，该功能能快速识别并生成商品描述，将商品发布流程缩短至约5秒，显著降低了用户发布闲置物品的门槛，从而有效推动了平台用户活跃度的提升。",
       "score": 25
     },
     {
       "section": "技术与研究",
-      "title": "科学家复温并研究其朋友被冷冻保存的脑组织",
+      "title": "Anthropic警告AI技能差距显现，资深用户优势扩大",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 25 Mar 2026 21:44:13 +0000",
+      "summary": "Anthropic最新研究指出，AI尚未显著取代工作岗位，但已显现不平等影响。具体表现为：1. 年轻职场新人更易受冲击；2. 高收入国家和知识工作者密集地区对AI工具Claude的使用更密集。",
+      "score": 24
+    },
+    {
+      "section": "技术与研究",
+      "title": "华为分享AI软件工程实践：基于30年经验构建企业级高质量软件体系",
+      "company": "华为",
+      "url": "https://www.infoq.cn/article/IPk1UBNeqdj88ZlEWFsk?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 26 Mar 2026 15:50:12 GMT",
+      "summary": "华为分享了其AI软件工程实践，旨在解决通用大模型在软件开发中缺乏领域知识的问题。具体方法包括：1. 构建端到端双向可追溯的领域知识图谱，将需求、设计、代码、用例和缺陷关联起来，使AI能精准分析需求变更或缺陷修复的影响。",
+      "score": 22
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "玄铁C950定义RISC-V高性能标杆，首次在服务器CPU市场正面对标x86与Arm",
       "company": "",
-      "url": "https://www.technologyreview.com/2026/03/24/1134562/cryopreservation-brain-cryonics-organ-transplantation/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Tue, 24 Mar 2026 16:43:36 +0000",
-      "summary": "研究衰老的科学家L. Stephen Coles生前委托低温生物学家Greg Fahy研究其被冷冻保存的大脑。该大脑在亚利桑那州约零下146摄氏度的环境中存放了超过十年。",
+      "url": "https://www.leiphone.com/category/chipdesign/V7ghyTABJF7CHXQ4.html",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 25 Mar 2026 17:05:00 +0800",
+      "summary": "凭借AI原生的Vector加速引擎和Matrix加速引擎，玄铁C950的单核FP4算力突破 8TFLOP，加上配置4096-bit超大位宽Tensor Cache，通用高性能算力与AI算力融合，强力提升矩阵算力兑付率。",
+      "score": 27
+    },
+    {
+      "section": "投融资与并购",
+      "title": "泡泡玛特跨界家电产品下月发布，2025年营收同比增长184.7%",
+      "company": "泡泡玛特",
+      "url": "https://www.leiphone.com/category/zaobao/CYXt4UzSrfKg3Irq.html",
+      "source": "雷锋网",
+      "publishedAt": "Thu, 26 Mar 2026 09:28:00 +0800",
+      "summary": "3月25日消息，泡泡玛特 COO 司德在2025年业绩发布会上表示，公司首款家电产品将于下月正式发布。同时，泡泡玛特甜品业务在乐园、泰国旗舰店及多个快闪店试点后，将于今年上半年落地线下常规门店。同日，泡泡玛特发布2025年财报，2025年营收371.2亿元，同比增长184.7%。",
+      "score": 21
+    },
+    {
+      "section": "投融资与并购",
+      "title": "魔迈获高瓴等千万美元融资，前九号高管创业研发智能电动全地形车",
+      "company": "魔迈（ModMax）",
+      "url": "https://36kr.com/p/3738426692567046?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-26 09:00:54  +0800",
+      "summary": "云时资本投资人李想表示： 我们相信依托于中国的基础设施和人才优势，每一波新的驱动力、场景和商业模式的交叉下都有全球化创新科技产品的大机会。智能化让机械解耦、模块化设计成为可能，带来一系列出行和户外产品的新机会。ModMax团队Day 1从第一性出发并坚定地投入下一代户外娱乐产品的研发。",
       "score": 19
     },
     {
-      "section": "产品发布与更新",
-      "title": "闲鱼发布AI相机新功能：5秒完成商品发布，AI辅助定价",
-      "company": "闲鱼",
-      "url": "https://www.leiphone.com/category/industrynews/Yix1MlagTs9plPry.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 25 Mar 2026 10:54:00 +0800",
-      "summary": "3月25日，闲鱼正式发布重磅新产品——闲鱼AI相机。打开闲鱼AI相机，用户只需简单拍照，即可5秒实现对商品的一键上架；闲鱼还将通过AI对商品进行辅助定价，促成用户合理高效成交。一直以来，闲置商品描述难、定价难，是影响用户发布商品的主要痛点。",
-      "score": 44
-    },
-    {
-      "section": "技术与研究",
-      "title": "华为发布Mate 80 Pro Max风驰版，搭载多项黑科技实现性能跃升",
-      "company": "华为",
-      "url": "https://www.leiphone.com/category/industrynews/WHvWFjBdmoeaIctn.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 25 Mar 2026 09:56:00 +0800",
-      "summary": "3月23日，华为终端正式推出了备受瞩目的华为Mate 80 Pro Max 风驰版。这不仅是华为Mate 80系列面向高端性能市场打造的全新旗舰力作，更是品牌对“全能旗舰”性能维度的极致探索与突破。",
-      "score": 43
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "上汽大众与Momenta合作推出R7世界模型，ID. ERA 9X将首发搭载",
-      "company": "上汽大众",
-      "url": "https://www.leiphone.com/category/transportation/91jfmuT0DxCNLHkf.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 25 Mar 2026 12:51:00 +0800",
-      "summary": "谈及R7大模型，陶海龙笑称，当初试驾搭载R7大模型的实车后，他立刻给曹旭东打电话：“这个功能必须由我们首发，我们要加快测试进度，尽快推向市场，让用户用上。”之所以如此急迫，是因为陶海龙意识到，R7大模型的上车对ID. ERA 9X的销售、对上汽大众品牌，乃至对Momenta的品牌建设。",
-      "score": 41
-    },
-    {
-      "section": "技术与研究",
-      "title": "国内云厂商价格策略分化：成本压力传导至服务层，AI算力需求推高成本",
-      "company": "",
-      "url": "https://www.leiphone.com/category/industrynews/3nb7YvrZ18oM6AuU.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 25 Mar 2026 11:59:00 +0800",
-      "summary": "可以看到，这一轮涨价，并非同步动作，而是不同厂商在各自位置上的策略选择。有人谨慎试探，有人全面出手，也有人按兵不动。在同样的成本压力与AI机遇之下，路径已经开始分化。涨价只是开始，真正的竞争，才刚刚换了一种方式。",
-      "score": 23
+      "section": "投融资与并购",
+      "title": "马斯克xAI联合创始人大量离职，仅剩特斯拉嫡系留守",
+      "company": "xAI",
+      "url": "https://www.qbitai.com/2026/03/392245.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 26 Mar 2026 05:44:52 +0000",
+      "summary": "SpaceX与xAI的合并重组也是关键因素。SpaceX计划最早于2026年6月启动IPO，募资规模可能高达500亿美元，目标估值超过1.75万亿美元。 [1]https。",
+      "score": 17
     }
   ]
 }
