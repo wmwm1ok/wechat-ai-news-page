@@ -1,31 +1,31 @@
 {
-  "date": "2026/3/26",
+  "date": "2026/3/27",
   "edition": "morning",
   "editionLabel": "早报",
   "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/3/26 08:02",
-  "count": 14,
+  "generatedAt": "2026/3/27 08:04",
+  "count": 11,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-25-afternoon.json",
+    "previousEditionFile": "news-2026-03-26-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 24,
+      "domesticBeforeDedup": 23,
       "overseasBeforeDedup": 20,
-      "domesticAfterDedup": 24,
+      "domesticAfterDedup": 23,
       "overseasAfterDedup": 20,
       "domesticSources": [
         {
           "source": "机器之心",
           "ok": false,
           "count": 0,
-          "error": "Too many redirects"
+          "error": "Status code 500"
         },
         {
           "source": "量子位",
           "ok": true,
-          "count": 6,
+          "count": 5,
           "error": null
         },
         {
@@ -76,180 +76,151 @@
       }
     },
     "summarize": {
-      "totalSummarized": 44
+      "totalSummarized": 43
     },
     "scoring": {
-      "totalInput": 44,
-      "totalScored": 20,
-      "strictScoredCount": 14,
-      "relaxedCandidateCount": 6,
-      "relaxedUsedForSelection": true,
-      "weakSummaryCount": 7,
-      "selectedCandidateCount": 20,
-      "duplicateCount": 10,
-      "crossDayDuplicateCount": 8,
-      "lowQualityCount": 1,
-      "domesticAvailable": 9,
-      "overseasAvailable": 11,
+      "totalInput": 43,
+      "totalScored": 25,
+      "strictScoredCount": 25,
+      "relaxedCandidateCount": 3,
+      "relaxedUsedForSelection": false,
+      "weakSummaryCount": 11,
+      "selectedCandidateCount": 21,
+      "duplicateCount": 8,
+      "crossDayDuplicateCount": 3,
+      "lowQualityCount": 2,
+      "domesticAvailable": 16,
+      "overseasAvailable": 9,
       "sourceCount": {
-        "36氪": 3,
-        "TechCrunch AI": 7,
-        "雷锋网": 3,
-        "量子位": 3,
-        "MIT Technology Review": 4
+        "量子位": 1,
+        "雷锋网": 5,
+        "InfoQ": 5,
+        "36氪": 4,
+        "TechCrunch AI": 5,
+        "MIT Technology Review": 1
       }
     },
     "display": {
-      "refinedCount": 20,
-      "previousEditionRemovedCount": 1,
-      "integrityRemovedCount": 4,
-      "postEditionFilterCount": 15,
-      "displayReadyCount": 12,
-      "fallbackDisplayCount": 2,
-      "removedWeakSummaries": 3,
-      "shortage": 0
+      "refinedCount": 21,
+      "previousEditionRemovedCount": 0,
+      "integrityRemovedCount": 9,
+      "postEditionFilterCount": 12,
+      "displayReadyCount": 8,
+      "fallbackDisplayCount": 3,
+      "removedWeakSummaries": 4,
+      "shortage": 3
     }
   },
   "articles": [
     {
-      "section": "投融资与并购",
-      "title": "傲意科技完成1.5亿元C轮融资，海外业务增速反超国内",
-      "company": "傲意科技",
-      "url": "https://36kr.com/p/3738341704270083?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-26 08:00:00  +0800",
-      "summary": "傲意科技完成1.5亿元C轮融资，由中金脑科学基金领投。公司专注于非侵入式脑机接口技术，其核心是‘脑-肌-机’三位一体技术路径，已推出ORF系列康复外骨骼用于脑卒中患者运动功能重建，以及ROHand系列灵巧手用于工业自动化。",
-      "score": 43
+      "section": "产品发布与更新",
+      "title": "阿里Qoder专家团模式提升代码质量，多智能体协同编程成趋势",
+      "company": "阿里",
+      "url": "https://www.qbitai.com/2026/03/392281.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 26 Mar 2026 07:48:45 +0000",
+      "summary": "阿里Qoder推出的“专家团模式”采用多智能体协同编程，以解决单智能体在处理复杂任务时上下文长度不足、逻辑链条零散导致的代码质量问题。该模式在内部测试中，代码质量得分较自身单智能体模式提升了67%，并领先Claude Code Agent Teams 16%。",
+      "score": 34
     },
     {
-      "section": "投融资与并购",
-      "title": "Granola融资1.25亿美元，估值达15亿美元，从会议记录工具扩展为企业AI应用",
-      "company": "Granola",
-      "url": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/",
+      "section": "技术与研究",
+      "title": "Cohere发布专用于转录的开源语音模型",
+      "company": "Cohere",
+      "url": "https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/",
       "source": "TechCrunch AI",
-      "publishedAt": "Wed, 25 Mar 2026 14:48:40 +0000",
-      "summary": "AI会议笔记工具Granola完成1.25亿美元C轮融资，估值从2.5亿美元飙升至15亿美元。本轮融资由Index Ventures领投。其核心转变是从个人转录工具扩展为企业AI应用，具体包括：1. 为回应早期用户（包括a16z合伙人）对本地数据访问受限的批评，公司承诺并推出了批量数据访问API。",
+      "publishedAt": "Thu, 26 Mar 2026 13:30:00 +0000",
+      "summary": "Cohere公司发布了一款名为Transcribe的开源语音转录模型。该模型相对轻量，仅包含20亿参数，旨在让用户能够在消费级GPU上自行托管使用，并支持包括中文在内的14种语言。",
+      "score": 41
+    },
+    {
+      "section": "政策与监管",
+      "title": "字节跳动AI视频生成模型Dreamina Seedance 2.0登陆CapCut",
+      "company": "ByteDance",
+      "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 26 Mar 2026 15:25:13 +0000",
+      "summary": "字节跳动将其AI视频生成模型Dreamina Seedance 2.0集成至视频编辑应用CapCut。该模型无需参考图像，仅凭文字描述即可生成视频，并能渲染逼真的纹理、动作和光影。为应对版权争议，模型内置了安全限制：禁止使用含真人脸的图像或视频生成内容，并阻止未经授权的知识产权内容生成。",
+      "score": 24
+    },
+    {
+      "section": "技术与研究",
+      "title": "Mistral发布用于语音生成的新开源模型",
+      "company": "Mistral",
+      "url": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 26 Mar 2026 11:30:00 +0000",
+      "summary": "法国AI公司Mistral发布了一款新的开源文本转语音模型。该模型基于Ministral 3B架构，核心特点包括：仅需不到5秒的语音样本即可克隆定制声音，并能捕捉细微口音和语调；能够轻松在不同语言间切换，同时保持声音特征，适用于配音和实时翻译场景。",
       "score": 41
     },
     {
       "section": "技术与研究",
-      "title": "谷歌发布TurboQuant AI内存压缩算法，被网友戏称为“Pied Piper”",
-      "company": "Google",
-      "url": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 25 Mar 2026 20:38:45 +0000",
-      "summary": "谷歌研究团队发布名为TurboQuant的新型AI内存压缩算法，因其追求极致无损压缩的目标，被网友戏称为美剧《硅谷》中的“Pied Piper”。该算法采用向量量化的方法，旨在解决AI推理过程中的缓存瓶颈问题，其核心是压缩AI的“工作记忆”，从而在保持准确性的前提下，让AI占用更少内存空间。",
-      "score": 36
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "昆仑万维AI音乐模型登顶全球榜单，中国AI展现发展优势",
-      "company": "昆仑万维",
-      "url": "https://www.qbitai.com/2026/03/391839.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 25 Mar 2026 06:36:11 +0000",
-      "summary": "昆仑万维的AI音乐模型Mureka V8在Artificial Analysis榜单上超越Suno V4.5和Udio v1.5 Allegro，成为全球第一。其成功得益于中国庞大的用户群体和复杂的内容生态，为模型提供了快速试错和优化的环境。",
-      "score": 33
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Harvey确认110亿美元估值：红杉资本持续加码",
-      "company": "Harvey",
-      "url": "https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 25 Mar 2026 15:27:15 +0000",
-      "summary": "AI法律科技初创公司Harvey确认完成新一轮2亿美元融资，估值达110亿美元，由新加坡GIC和红杉资本共同领投，现有投资者Andreessen Horowitz等跟投。本轮融资使公司总融资额超过10亿美元，其估值在一年内增长了超过3.5倍。",
-      "score": 29
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Lucid Bots融资2000万美元以满足其擦窗无人机需求",
-      "company": "Lucid Bots",
-      "url": "https://techcrunch.com/2026/03/25/lucid-bots-raises-20m-to-keep-up-with-demand-for-its-window-washing-drones/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 25 Mar 2026 11:00:00 +0000",
-      "summary": "美国机器人公司Lucid Bots近日完成2000万美元B轮融资，累计融资额达3400万美元。该公司专注于研发用于建筑维护的清洁机器人，其核心产品包括擦窗无人机Sherpa和高压清洗机器人Lavo。",
-      "score": 27
+      "title": "在Snowflake中利用RelationalAI原生应用实现图分析与社区检测的技术实践",
+      "company": "Snowflake, RelationalAI",
+      "url": "https://www.infoq.cn/article/qBiJSCPWbKlXfLaUKqNW?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 26 Mar 2026 17:48:34 GMT",
+      "summary": "本文介绍了在Snowflake数据云平台中，使用其市场提供的原生应用RelationalAI进行图分析和社区检测的具体方法。该方法以食品卡车订单数据为例，通过构建顾客社交关系图谱，识别可能具有社交关联的顾客群体，从而帮助商家进行精准互动。",
+      "score": 24
     },
     {
       "section": "技术与研究",
-      "title": "这家初创公司想改变数学家做数学的方式",
-      "company": "Axiom Math",
-      "url": "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Wed, 25 Mar 2026 13:59:17 +0000",
-      "summary": "加州初创公司Axiom Math发布了免费AI工具Axplorer，旨在帮助数学家发现解决难题的数学模式。该工具是PatternBoost的升级版，其前身曾解决图论中的Turán四环问题（即如何在点之间画线避免形成四点的环）。Axplorer的核心特点是无需数学家自行训练神经网络，而是提供逐步引导。",
+      "title": "飞猪CTO陈烨谈AI范式转移：找准生态位，工程化与业务理解是关键",
+      "company": "飞猪",
+      "url": "https://www.infoq.cn/article/lwk5AQiWPSRPAxRPpM3W?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 26 Mar 2026 17:41:11 GMT",
+      "summary": "飞猪CTO陈烨指出，AI是范式转移而非效率工具，企业需明确自身在AI生态中的定位。他结合飞猪实践强调，AI成功的关键在于构建可靠的工程化机制、深刻理解业务本质，并将创新沉淀为可复用的平台能力。",
       "score": 22
     },
     {
       "section": "技术与研究",
-      "title": "圆桌讨论：太空探索的新时代",
-      "company": "无",
-      "url": "https://www.technologyreview.com/2026/03/25/1134664/roundtables-the-next-era-of-space-exploration/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Wed, 25 Mar 2026 17:26:26 +0000",
-      "summary": "本次仅限订阅者参与的圆桌讨论聚焦太空探索的未来方向。讨论提出了三个具体议题：一是寻找火星生命的竞赛，二是应对具有威胁性的小行星的挑战，三是将月球建设为宇航员永久家园的探索。科学家们认为，这些在太空领域的努力能够揭示人类未来的发展轨迹。",
+      "title": "OpenAI再次放弃副业项目，取消ChatGPT情色模式",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 26 Mar 2026 18:34:02 +0000",
+      "summary": "OpenAI在一周内接连取消了多个副业项目以聚焦核心业务。具体包括：1. 周二宣布降低优先级的是ChatGPT内置的“即时结账”功能，该功能旨在将聊天机器人变为电商购物门户；2. 周三意外宣布关闭其AI视频生成器Sora，该产品自2024年发布后因催生大量低质AI内容而受到批评。",
       "score": 21
     },
     {
-      "section": "产品发布与更新",
-      "title": "睿尔曼茶艺机器人亮相2026中关村论坛，远程呈现非遗茶艺",
-      "company": "睿尔曼",
-      "url": "https://www.qbitai.com/2026/03/392121.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 25 Mar 2026 11:31:27 +0000",
-      "summary": "在2026中关村论坛上，睿尔曼集团与品品香公司联合展示了远程操控的“机器人茶艺师”。具体演示中，操作员在北京数据中心远程操控，论坛现场的轮式人形机器人精准复现了福鼎白茶的温杯、投茶、注水、出汤等全套工序，毫秒级延迟让远程操作如临现场。",
-      "score": 19
-    },
-    {
-      "section": "技术与研究",
-      "title": "智能体商务运行于真相与情境之上",
-      "company": "无",
-      "url": "https://www.technologyreview.com/2026/03/25/1134516/agentic-commerce-runs-on-truth-and-context/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Wed, 25 Mar 2026 11:48:13 +0000",
-      "summary": "智能体AI的核心是从辅助转向执行，能自主完成发现、比价、决策、授权等支付前的全流程，极大加速商业运行。其规模化应用面临两大关键挑战：一是需要主数据管理（MDM）作为信任基础，清晰界定智能体的身份、权限和责任归属；二是情境信息必须在整个价值链中高速、无歧义地传递，避免因系统误判而破坏信任或拖慢速度。",
-      "score": 19
-    },
-    {
-      "section": "技术与研究",
-      "title": "独家电子书：我们准备好将钥匙交给AI智能体了吗？",
+      "section": "政策与监管",
+      "title": "高油价对电动汽车是利好吗？情况复杂",
       "company": "",
-      "url": "https://www.technologyreview.com/2026/03/24/1134531/exclusive-ebook-are-we-ready-to-hand-ai-agents-the-keys/",
+      "url": "https://www.technologyreview.com/2026/03/26/1134677/gas-prices-electric-vehicles/",
       "source": "MIT Technology Review",
-      "publishedAt": "Tue, 24 Mar 2026 18:17:13 +0000",
-      "summary": "Niantic的AI子公司正在利用从玩家处众包的300亿张城市地标图像，训练一个新的世界模型。这本仅供订阅者阅读的电子书探讨了赋予AI智能体真正自主权所引发的担忧，并引用了专家警告，例如“如果我们继续当前的道路……我们基本上是在用人类玩俄罗斯轮盘赌”。",
-      "score": 17
-    },
-    {
-      "section": "技术与研究",
-      "title": "梅拉尼娅·特朗普认为机器人将在未来教育中扮演重要角色",
-      "company": "无",
-      "url": "https://techcrunch.com/2026/03/25/melania-trump-wants-a-robot-to-homeschool-your-child/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 25 Mar 2026 18:55:41 +0000",
-      "summary": "美国前第一夫人梅拉尼娅·特朗普在活动中提出，未来名为‘柏拉图’的人形机器人可成为终极教育者，能即时提供文学、科学等全学科知识，并根据学生需求提供个性化、耐心的教学。她与机器人公司Figure AI开发的人形机器人共同亮相，该机器人表示其目标是‘用技术和教育赋能儿童’。",
-      "score": 16
+      "publishedAt": "Thu, 26 Mar 2026 10:00:00 +0000",
+      "summary": "高油价对电动汽车的影响复杂。一方面，美国因《通胀削减法案》的租赁激励到期，今年将有约30万辆二手电动汽车涌入市场，增加平价选择。能源咨询公司BloombergNEF数据显示，当油价接近每加仑4美元时，即使电价上涨，电动车的总拥有成本仍明显低于燃油车。",
+      "score": 20
     },
     {
       "section": "投融资与并购",
-      "title": "轻舟智航完成D轮融资1亿美元，加速布局物理AI与自动驾驶",
-      "company": "轻舟智航",
-      "url": "https://www.leiphone.com/category/transportation/Sq9ZaNJzFRf6cFfv.html",
+      "title": "傲意科技完成C1轮1.5亿元融资，由中金脑科学基金领投",
+      "company": "傲意科技",
+      "url": "https://www.leiphone.com/category/industrynews/KlwYh9dMxCW8zBRR.html",
       "source": "雷锋网",
-      "publishedAt": "Wed, 25 Mar 2026 18:57:00 +0800",
-      "summary": "AI作为当今科技界的第一大关键词，大致可分为处理比特信息的数字AI、操控原子实体的物理AI。自从2022年11月ChatGPT横空出世后，AI在数字世界的发展如火如荼，对话、写作、编程、绘图等功能快速迭代，如今几乎能辅助所有“处理信息”的工作。",
-      "score": 37
+      "publishedAt": "Thu, 26 Mar 2026 15:14:00 +0800",
+      "summary": "上海傲意信息科技有限公司（以下简称\"傲意科技\"）今日宣布完成C1轮融资，本轮融资由中金资本旗下深圳市脑科学与类脑智能产业投资基金（以下简称\"中金脑科学基金\"）领投，多家老股东持续跟投。",
+      "score": 39
     },
     {
-      "section": "产品发布与更新",
-      "title": "腾讯元宝派推出电脑版，支持多端同步与AI协作",
-      "company": "腾讯",
-      "url": "https://www.leiphone.com/category/industrynews/M0vDwj6hiSpM3Fnp.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 25 Mar 2026 14:11:00 +0800",
-      "summary": "3月25日 腾讯宣布，旗下AI原生应用元宝，正式推出“元宝派”电脑版。在电脑端的大屏环境中，用户可以边参与共享屏幕，边在单独窗口与派友或元宝聊天互动。同时，元宝派电脑版还支持多端消息同步、文件拖拽、截图等功能，用户可以轻松在元宝派电脑版中完成信息流转。",
-      "score": 30
+      "section": "投融资与并购",
+      "title": "StoReel获3400万美元融资：以AI重构故事生产，打造工具社区与平台双轮驱动的内容生态",
+      "company": "StoReel",
+      "url": "https://36kr.com/p/3739636054999040?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-26 20:14:29  +0800",
+      "summary": "Seedance 2.0给行业带来了比较明显的效率提升，相比于第一代模型，Seedance 2.0在视频生成质量和稳定性方面有明显进步，这对AI短剧生产非常重要。不过从我们的角度来看，AI模型迭代速度非常快，如何把模型能力整合进内容生产工作流程里更为重要，而非依赖某一个模型。",
+      "score": 25
+    },
+    {
+      "section": "技术与研究",
+      "title": "浙大博士团队专注机器人硬件极限，打造速度破纪录的足式机器人",
+      "company": "镜识科技",
+      "url": "https://36kr.com/p/3739769424593154?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-26 22:33:08  +0800",
+      "summary": "纵观整个行业，长得好看的机器人，性能相对差，性能好的就更偏科幻风，\"钢铁巨兽\"那种。怎么在两大派技术路线之间做一个融合，好像不是有特别多团队去考虑这件事，但我个人不是很能接受这种状态。所以从一开始就想： 有没有可能既美观，同时还能够性能很强？有一点自己的技术洁癖。",
+      "score": 29
     }
   ]
 }
