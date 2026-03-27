@@ -1,13 +1,13 @@
 {
-  "date": "2026/3/26",
+  "date": "2026/3/27",
   "edition": "afternoon",
   "editionLabel": "午后版",
   "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/26 16:00",
-  "count": 11,
+  "generatedAt": "2026/3/27 16:03",
+  "count": 12,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-26-morning.json",
+    "previousEditionFile": "news-2026-03-27-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
@@ -20,7 +20,7 @@
           "source": "机器之心",
           "ok": false,
           "count": 0,
-          "error": "Too many redirects"
+          "error": "Status code 500"
         },
         {
           "source": "量子位",
@@ -80,145 +80,157 @@
     },
     "scoring": {
       "totalInput": 44,
-      "totalScored": 19,
-      "strictScoredCount": 16,
-      "relaxedCandidateCount": 3,
+      "totalScored": 25,
+      "strictScoredCount": 17,
+      "relaxedCandidateCount": 8,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 6,
-      "selectedCandidateCount": 19,
-      "duplicateCount": 18,
-      "crossDayDuplicateCount": 16,
-      "lowQualityCount": 1,
-      "domesticAvailable": 16,
-      "overseasAvailable": 3,
+      "weakSummaryCount": 8,
+      "selectedCandidateCount": 23,
+      "duplicateCount": 8,
+      "crossDayDuplicateCount": 6,
+      "lowQualityCount": 3,
+      "domesticAvailable": 17,
+      "overseasAvailable": 8,
       "sourceCount": {
-        "36氪": 4,
-        "InfoQ": 4,
+        "InfoQ": 5,
         "雷锋网": 5,
-        "量子位": 3,
-        "TechCrunch AI": 3
+        "36氪": 4,
+        "TechCrunch AI": 2,
+        "Ars Technica": 2,
+        "MIT Technology Review": 2,
+        "量子位": 3
       }
     },
     "display": {
-      "refinedCount": 19,
-      "previousEditionRemovedCount": 2,
-      "integrityRemovedCount": 5,
-      "postEditionFilterCount": 12,
-      "displayReadyCount": 7,
-      "fallbackDisplayCount": 4,
-      "removedWeakSummaries": 5,
-      "shortage": 3
+      "refinedCount": 23,
+      "previousEditionRemovedCount": 0,
+      "integrityRemovedCount": 10,
+      "postEditionFilterCount": 13,
+      "displayReadyCount": 10,
+      "fallbackDisplayCount": 2,
+      "removedWeakSummaries": 3,
+      "shortage": 2
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "Stripe工程师部署自主智能体Minions，每周生成数千个拉取请求",
-      "company": "Stripe",
-      "url": "https://www.infoq.cn/article/PqlJ5b0GKCC9771Eby8G?utm_source=rss&utm_medium=article",
+      "title": "Uber利用AI智能体系统实现设计文档自动化",
+      "company": "Uber",
+      "url": "https://www.infoq.cn/article/ByY97HEFsSdPTMIVzJuP?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Thu, 26 Mar 2026 10:00:00 GMT",
-      "summary": "Stripe工程师部署了名为Minions的自主编程智能体，它能根据来自Slack或缺陷报告的单条指令，端到端地完成软件开发任务。该系统每周生成超过1300个可直接用于生产环境的拉取请求，所有变更均需人工审核。",
-      "score": 37
+      "publishedAt": "Fri, 27 Mar 2026 15:00:00 GMT",
+      "summary": "Uber发布了一个名为uSpec的AI智能体系统，用于将Figma设计图自动转化为详细的技术规范文档。该系统通过AI代理连接Figma，自动提取设计组件数据，解决了跨七个技术栈和三个无障碍框架手动编写规范耗时数周的问题，将流程缩短至几分钟。",
+      "score": 45
     },
     {
-      "section": "产品发布与更新",
-      "title": "DeepSeek急招Agent方向人才，放出17个岗位并强调重度Vibe Coding优先",
-      "company": "DeepSeek",
-      "url": "https://www.qbitai.com/2026/03/392024.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 25 Mar 2026 06:39:13 +0000",
-      "summary": "DeepSeek近期发布17个Agent方向岗位，招聘重点从基础模型研究转向Agent产品化。具体信息点包括：1）岗位要求熟悉Claude Code、OpenClaw等工具，需洞察高价值应用场景如个人助理、自动化工作流。",
-      "score": 29
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "WorkBuddy：微信里的AI专家团队助你管理社交媒体内容",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/03/391894.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 25 Mar 2026 06:25:23 +0000",
-      "summary": "WorkBuddy是一个集成在微信中的AI内容管理平台，用户无需自行配置API，即可直接使用Credits调用平台内置的DeepSeek、GLM、KIMI等主流大模型，并支持接入GPT、Claude等其他模型。",
-      "score": 29
-    },
-    {
-      "section": "技术与研究",
-      "title": "大模型推理端到端Token级可观测工程实践在QCon北京分享",
-      "company": "蚂蚁",
-      "url": "https://www.infoq.cn/article/UsmUkC9hH5FDdmkofO1b?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 26 Mar 2026 10:00:00 GMT",
-      "summary": "蚂蚁集团技术专家刘杨在QCon北京大会上，分享了其团队在大模型可观测性领域的工程实践。他们构建了业界首个覆盖多引擎、Token级的深度可观测Trace系统，将观测粒度从宏观请求细化到每个Token的生成过程，实现了对推理引擎内部工作的白盒化透视。",
-      "score": 28
-    },
-    {
-      "section": "技术与研究",
-      "title": "QuestMobile：闲鱼活跃用户数首次超过小红书",
-      "company": "闲鱼",
-      "url": "https://www.leiphone.com/category/industrynews/yMRIRIJWZT3zdcOj.html",
-      "source": "雷锋网",
-      "publishedAt": "Thu, 26 Mar 2026 11:14:00 +0800",
-      "summary": "根据QuestMobile数据，闲鱼在3月份的活跃用户数首次并连续两周超过小红书，其用户增幅在互联网行业中排名第一。这一增长主要得益于闲鱼新上线的AI相机功能，该功能能快速识别并生成商品描述，将商品发布流程缩短至约5秒，显著降低了用户发布闲置物品的门槛，从而有效推动了平台用户活跃度的提升。",
-      "score": 25
-    },
-    {
-      "section": "技术与研究",
-      "title": "Anthropic警告AI技能差距显现，资深用户优势扩大",
-      "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
+      "section": "政策与监管",
+      "title": "维基百科收紧政策，限制在文章撰写中使用AI",
+      "company": "Wikipedia",
+      "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/",
       "source": "TechCrunch AI",
-      "publishedAt": "Wed, 25 Mar 2026 21:44:13 +0000",
-      "summary": "Anthropic最新研究指出，AI尚未显著取代工作岗位，但已显现不平等影响。具体表现为：1. 年轻职场新人更易受冲击；2. 高收入国家和知识工作者密集地区对AI工具Claude的使用更密集。",
-      "score": 24
-    },
-    {
-      "section": "技术与研究",
-      "title": "华为分享AI软件工程实践：基于30年经验构建企业级高质量软件体系",
-      "company": "华为",
-      "url": "https://www.infoq.cn/article/IPk1UBNeqdj88ZlEWFsk?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 26 Mar 2026 15:50:12 GMT",
-      "summary": "华为分享了其AI软件工程实践，旨在解决通用大模型在软件开发中缺乏领域知识的问题。具体方法包括：1. 构建端到端双向可追溯的领域知识图谱，将需求、设计、代码、用例和缺陷关联起来，使AI能精准分析需求变更或缺陷修复的影响。",
-      "score": 22
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "玄铁C950定义RISC-V高性能标杆，首次在服务器CPU市场正面对标x86与Arm",
-      "company": "",
-      "url": "https://www.leiphone.com/category/chipdesign/V7ghyTABJF7CHXQ4.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 25 Mar 2026 17:05:00 +0800",
-      "summary": "凭借AI原生的Vector加速引擎和Matrix加速引擎，玄铁C950的单核FP4算力突破 8TFLOP，加上配置4096-bit超大位宽Tensor Cache，通用高性能算力与AI算力融合，强力提升矩阵算力兑付率。",
-      "score": 27
-    },
-    {
-      "section": "投融资与并购",
-      "title": "泡泡玛特跨界家电产品下月发布，2025年营收同比增长184.7%",
-      "company": "泡泡玛特",
-      "url": "https://www.leiphone.com/category/zaobao/CYXt4UzSrfKg3Irq.html",
-      "source": "雷锋网",
-      "publishedAt": "Thu, 26 Mar 2026 09:28:00 +0800",
-      "summary": "3月25日消息，泡泡玛特 COO 司德在2025年业绩发布会上表示，公司首款家电产品将于下月正式发布。同时，泡泡玛特甜品业务在乐园、泰国旗舰店及多个快闪店试点后，将于今年上半年落地线下常规门店。同日，泡泡玛特发布2025年财报，2025年营收371.2亿元，同比增长184.7%。",
-      "score": 21
-    },
-    {
-      "section": "投融资与并购",
-      "title": "魔迈获高瓴等千万美元融资，前九号高管创业研发智能电动全地形车",
-      "company": "魔迈（ModMax）",
-      "url": "https://36kr.com/p/3738426692567046?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-26 09:00:54  +0800",
-      "summary": "云时资本投资人李想表示： 我们相信依托于中国的基础设施和人才优势，每一波新的驱动力、场景和商业模式的交叉下都有全球化创新科技产品的大机会。智能化让机械解耦、模块化设计成为可能，带来一系列出行和户外产品的新机会。ModMax团队Day 1从第一性出发并坚定地投入下一代户外娱乐产品的研发。",
+      "publishedAt": "Thu, 26 Mar 2026 21:50:10 +0000",
+      "summary": "维基百科更新了关于AI使用的政策，明确禁止编辑使用大型语言模型（LLM）来生成或重写文章内容。新政策澄清了此前模糊的规定，但允许编辑在人工审核后，使用LLM对自己的文字进行基础性的语法或措辞修改，前提是AI不能自行添加新内容。",
       "score": 19
     },
     {
-      "section": "投融资与并购",
-      "title": "马斯克xAI联合创始人大量离职，仅剩特斯拉嫡系留守",
-      "company": "xAI",
-      "url": "https://www.qbitai.com/2026/03/392245.html",
+      "section": "产品发布与更新",
+      "title": "智能体商务运行于真实与情境之上",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/03/25/1134516/agentic-commerce-runs-on-truth-and-context/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Wed, 25 Mar 2026 11:48:13 +0000",
+      "summary": "文章指出，智能体AI的核心转变是从辅助人类转向自主执行任务，这将重塑商业运行速度。其关键挑战在于构建机器速度下的信任体系，这需要主数据管理（MDM）作为交换层，来明确界定智能体的身份、权限和责任归属，以避免因权属模糊导致市场失灵。",
+      "score": 16
+    },
+    {
+      "section": "技术与研究",
+      "title": "林俊旸复盘AI发展：强调整合推理与工具赋能思维",
+      "company": "Anthropic",
+      "url": "https://www.qbitai.com/2026/03/392770.html",
       "source": "量子位",
-      "publishedAt": "Thu, 26 Mar 2026 05:44:52 +0000",
-      "summary": "SpaceX与xAI的合并重组也是关键因素。SpaceX计划最早于2026年6月启动IPO，募资规模可能高达500亿美元，目标估值超过1.75万亿美元。 [1]https。",
+      "publishedAt": "Fri, 27 Mar 2026 06:19:01 +0000",
+      "summary": "文章以Anthropic公司的AI模型发展为例，阐述了AI发展的新方向。具体信息点包括：1. Claude 3.7作为混合推理模型，允许用户选择普通回复或扩展思考，并可设置思维预算，旨在平衡效率与深度。2. Claude 4进一步允许推理过程与外部工具使用交替进行，增强了处理复杂任务的能力。",
+      "score": 33
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI编程易部署难：卡帕西遭遇API过时与工程链路障碍",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/03/392720.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 27 Mar 2026 04:07:19 +0000",
+      "summary": "作者在尝试部署AI辅助编程项目时，遭遇了具体的技术障碍。首先，使用的Claude模型提供了过时的API、模型名称和调用方法，导致反复出错。其次，API密钥的配置出现问题，需要手动在Vercel后台补充环境变量。此外，API的返回格式从JSON变为难以理解的流式对象，而相关文档未能及时更新。",
+      "score": 29
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI编码工具未能显著提升项目交付速度，因编码非主要瓶颈",
+      "company": "Agoda",
+      "url": "https://www.infoq.cn/article/jZgYXoUQ01pRrKODUgeT?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 27 Mar 2026 14:00:00 GMT",
+      "summary": "Agoda观察文章指出，AI编码工具虽提升个人效率，但项目整体交付速度未显著加快，因为编码并非主要瓶颈。具体表现为：1. 开发瓶颈已上移至需求定义与验证环节，这些环节更依赖人工判断；2. Faros AI研究数据显示，高度采用AI的团队任务量增加21%，合并拉取请求增加98%，但评审时间也激增91%。",
+      "score": 22
+    },
+    {
+      "section": "技术与研究",
+      "title": "动态化与参数化RAG技术探索：让外部知识融入模型前馈网络",
+      "company": "",
+      "url": "https://www.infoq.cn/article/bdHrWhvKqigAAd3ldh53?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 27 Mar 2026 13:36:29 GMT",
+      "summary": "文章提出了一种新的RAG技术，旨在解决传统方法仅通过注意力机制注入外部知识的局限性。具体包括：1. 引入轻量级monitor模块，通过监测模型生成token时的概率分布变化（如熵值升高），实时判断是否需要触发检索。",
+      "score": 21
+    },
+    {
+      "section": "技术与研究",
+      "title": "从“盲目调优”到“数据驱动”：大规模Agent评估工程实践在QCon北京分享",
+      "company": "亚马逊云科技",
+      "url": "https://www.infoq.cn/article/0rWvlDuuA5kN06q5raNR?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 27 Mar 2026 10:52:53 GMT",
+      "summary": "亚马逊云科技专家章平将在QCon北京大会上分享大规模Agent评估的工程实践。其演讲将介绍如何通过数据驱动的方法，改变过去“盲目调优”的困境，并以客服退款场景为例，展示如何设计真实、高质量的任务并进行评估器校准。",
+      "score": 21
+    },
+    {
+      "section": "技术与研究",
+      "title": "谷歌TurboQuant AI压缩算法可将大语言模型内存使用减少6倍",
+      "company": "Google",
+      "url": "https://arstechnica.com/ai/2026/03/google-says-new-turboquant-compression-can-lower-ai-memory-usage-without-sacrificing-quality/",
+      "source": "Ars Technica",
+      "publishedAt": "Wed, 25 Mar 2026 17:59:12 +0000",
+      "summary": "谷歌发布TurboQuant AI压缩算法，旨在解决大语言模型运行时内存占用过高的问题。该算法采用两步压缩：先通过PolarQuant进行主要压缩，再使用量化Johnson-Lindenstrauss（QJL）技术进行1比特纠错，以平滑残留误差，从而在压缩后保持模型输出质量不下降。",
+      "score": 19
+    },
+    {
+      "section": "技术与研究",
+      "title": "初创公司欲改变数学家的工作方式",
+      "company": "Axiom Math",
+      "url": "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Wed, 25 Mar 2026 13:59:17 +0000",
+      "summary": "加州初创公司Axiom Math发布了免费AI工具Axplorer，旨在帮助数学家发现解决长期难题的数学模式。该工具是现有工具PatternBoost的重新设计版，其核心优势在于无需用户自行训练神经网络，而是提供逐步引导。",
+      "score": 16
+    },
+    {
+      "section": "技术与研究",
+      "title": "龙虾硬件热潮兴起：华强北成风向标，10个新项目涌现",
+      "company": "",
+      "url": "https://36kr.com/p/3740888543412228?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-27 15:50:56  +0800",
+      "summary": "最典型的案例之一，是成立于2025年初的AI Infra公司Tiiny AI。2026年3月，他们的产品Tiiny AI Pocket Lab——一个封装大模型（最高支持120B（int4））、体积仅iPhone 17 Pro Max大小的盒子，在北美众筹平台Kickstarter上线5小时。",
+      "score": 44
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "阿里QoderWork打通三大IM平台，手机端可远程调度桌面AI助手",
+      "company": "阿里",
+      "url": "https://www.leiphone.com/category/industrynews/N2WTrd3mcXTQDy6e.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 27 Mar 2026 11:14:00 +0800",
+      "summary": "3月27日消息，阿里桌面Agent应用QoderWork全面打通钉钉、微信和飞书三大主流IM，用户可直接在手机上与QoderWork对话，随时随地调度桌面AI助手的全部能力，远程完成文件整理、数据处理、文档生成等任务。",
       "score": 17
     }
   ]

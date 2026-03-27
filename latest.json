@@ -1,19 +1,19 @@
 {
   "date": "2026/3/27",
-  "edition": "morning",
-  "editionLabel": "早报",
-  "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/3/27 08:04",
-  "count": 11,
+  "edition": "afternoon",
+  "editionLabel": "午后版",
+  "title": "AI 日报·午后版（Afternoon）",
+  "generatedAt": "2026/3/27 16:03",
+  "count": 12,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-26-afternoon.json",
+    "previousEditionFile": "news-2026-03-27-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 23,
+      "domesticBeforeDedup": 24,
       "overseasBeforeDedup": 20,
-      "domesticAfterDedup": 23,
+      "domesticAfterDedup": 24,
       "overseasAfterDedup": 20,
       "domesticSources": [
         {
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 5,
+          "count": 6,
           "error": null
         },
         {
@@ -76,151 +76,162 @@
       }
     },
     "summarize": {
-      "totalSummarized": 43
+      "totalSummarized": 44
     },
     "scoring": {
-      "totalInput": 43,
+      "totalInput": 44,
       "totalScored": 25,
-      "strictScoredCount": 25,
-      "relaxedCandidateCount": 3,
-      "relaxedUsedForSelection": false,
-      "weakSummaryCount": 11,
-      "selectedCandidateCount": 21,
+      "strictScoredCount": 17,
+      "relaxedCandidateCount": 8,
+      "relaxedUsedForSelection": true,
+      "weakSummaryCount": 8,
+      "selectedCandidateCount": 23,
       "duplicateCount": 8,
-      "crossDayDuplicateCount": 3,
-      "lowQualityCount": 2,
-      "domesticAvailable": 16,
-      "overseasAvailable": 9,
+      "crossDayDuplicateCount": 6,
+      "lowQualityCount": 3,
+      "domesticAvailable": 17,
+      "overseasAvailable": 8,
       "sourceCount": {
-        "量子位": 1,
-        "雷锋网": 5,
         "InfoQ": 5,
+        "雷锋网": 5,
         "36氪": 4,
-        "TechCrunch AI": 5,
-        "MIT Technology Review": 1
+        "TechCrunch AI": 2,
+        "Ars Technica": 2,
+        "MIT Technology Review": 2,
+        "量子位": 3
       }
     },
     "display": {
-      "refinedCount": 21,
+      "refinedCount": 23,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 9,
-      "postEditionFilterCount": 12,
-      "displayReadyCount": 8,
-      "fallbackDisplayCount": 3,
-      "removedWeakSummaries": 4,
-      "shortage": 3
+      "integrityRemovedCount": 10,
+      "postEditionFilterCount": 13,
+      "displayReadyCount": 10,
+      "fallbackDisplayCount": 2,
+      "removedWeakSummaries": 3,
+      "shortage": 2
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "阿里Qoder专家团模式提升代码质量，多智能体协同编程成趋势",
-      "company": "阿里",
-      "url": "https://www.qbitai.com/2026/03/392281.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 26 Mar 2026 07:48:45 +0000",
-      "summary": "阿里Qoder推出的“专家团模式”采用多智能体协同编程，以解决单智能体在处理复杂任务时上下文长度不足、逻辑链条零散导致的代码质量问题。该模式在内部测试中，代码质量得分较自身单智能体模式提升了67%，并领先Claude Code Agent Teams 16%。",
-      "score": 34
-    },
-    {
-      "section": "技术与研究",
-      "title": "Cohere发布专用于转录的开源语音模型",
-      "company": "Cohere",
-      "url": "https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 26 Mar 2026 13:30:00 +0000",
-      "summary": "Cohere公司发布了一款名为Transcribe的开源语音转录模型。该模型相对轻量，仅包含20亿参数，旨在让用户能够在消费级GPU上自行托管使用，并支持包括中文在内的14种语言。",
-      "score": 41
+      "title": "Uber利用AI智能体系统实现设计文档自动化",
+      "company": "Uber",
+      "url": "https://www.infoq.cn/article/ByY97HEFsSdPTMIVzJuP?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 27 Mar 2026 15:00:00 GMT",
+      "summary": "Uber发布了一个名为uSpec的AI智能体系统，用于将Figma设计图自动转化为详细的技术规范文档。该系统通过AI代理连接Figma，自动提取设计组件数据，解决了跨七个技术栈和三个无障碍框架手动编写规范耗时数周的问题，将流程缩短至几分钟。",
+      "score": 45
     },
     {
       "section": "政策与监管",
-      "title": "字节跳动AI视频生成模型Dreamina Seedance 2.0登陆CapCut",
-      "company": "ByteDance",
-      "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
+      "title": "维基百科收紧政策，限制在文章撰写中使用AI",
+      "company": "Wikipedia",
+      "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/",
       "source": "TechCrunch AI",
-      "publishedAt": "Thu, 26 Mar 2026 15:25:13 +0000",
-      "summary": "字节跳动将其AI视频生成模型Dreamina Seedance 2.0集成至视频编辑应用CapCut。该模型无需参考图像，仅凭文字描述即可生成视频，并能渲染逼真的纹理、动作和光影。为应对版权争议，模型内置了安全限制：禁止使用含真人脸的图像或视频生成内容，并阻止未经授权的知识产权内容生成。",
-      "score": 24
+      "publishedAt": "Thu, 26 Mar 2026 21:50:10 +0000",
+      "summary": "维基百科更新了关于AI使用的政策，明确禁止编辑使用大型语言模型（LLM）来生成或重写文章内容。新政策澄清了此前模糊的规定，但允许编辑在人工审核后，使用LLM对自己的文字进行基础性的语法或措辞修改，前提是AI不能自行添加新内容。",
+      "score": 19
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "智能体商务运行于真实与情境之上",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/03/25/1134516/agentic-commerce-runs-on-truth-and-context/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Wed, 25 Mar 2026 11:48:13 +0000",
+      "summary": "文章指出，智能体AI的核心转变是从辅助人类转向自主执行任务，这将重塑商业运行速度。其关键挑战在于构建机器速度下的信任体系，这需要主数据管理（MDM）作为交换层，来明确界定智能体的身份、权限和责任归属，以避免因权属模糊导致市场失灵。",
+      "score": 16
     },
     {
       "section": "技术与研究",
-      "title": "Mistral发布用于语音生成的新开源模型",
-      "company": "Mistral",
-      "url": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 26 Mar 2026 11:30:00 +0000",
-      "summary": "法国AI公司Mistral发布了一款新的开源文本转语音模型。该模型基于Ministral 3B架构，核心特点包括：仅需不到5秒的语音样本即可克隆定制声音，并能捕捉细微口音和语调；能够轻松在不同语言间切换，同时保持声音特征，适用于配音和实时翻译场景。",
-      "score": 41
+      "title": "林俊旸复盘AI发展：强调整合推理与工具赋能思维",
+      "company": "Anthropic",
+      "url": "https://www.qbitai.com/2026/03/392770.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 27 Mar 2026 06:19:01 +0000",
+      "summary": "文章以Anthropic公司的AI模型发展为例，阐述了AI发展的新方向。具体信息点包括：1. Claude 3.7作为混合推理模型，允许用户选择普通回复或扩展思考，并可设置思维预算，旨在平衡效率与深度。2. Claude 4进一步允许推理过程与外部工具使用交替进行，增强了处理复杂任务的能力。",
+      "score": 33
     },
     {
       "section": "技术与研究",
-      "title": "在Snowflake中利用RelationalAI原生应用实现图分析与社区检测的技术实践",
-      "company": "Snowflake, RelationalAI",
-      "url": "https://www.infoq.cn/article/qBiJSCPWbKlXfLaUKqNW?utm_source=rss&utm_medium=article",
+      "title": "AI编程易部署难：卡帕西遭遇API过时与工程链路障碍",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/03/392720.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 27 Mar 2026 04:07:19 +0000",
+      "summary": "作者在尝试部署AI辅助编程项目时，遭遇了具体的技术障碍。首先，使用的Claude模型提供了过时的API、模型名称和调用方法，导致反复出错。其次，API密钥的配置出现问题，需要手动在Vercel后台补充环境变量。此外，API的返回格式从JSON变为难以理解的流式对象，而相关文档未能及时更新。",
+      "score": 29
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI编码工具未能显著提升项目交付速度，因编码非主要瓶颈",
+      "company": "Agoda",
+      "url": "https://www.infoq.cn/article/jZgYXoUQ01pRrKODUgeT?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Thu, 26 Mar 2026 17:48:34 GMT",
-      "summary": "本文介绍了在Snowflake数据云平台中，使用其市场提供的原生应用RelationalAI进行图分析和社区检测的具体方法。该方法以食品卡车订单数据为例，通过构建顾客社交关系图谱，识别可能具有社交关联的顾客群体，从而帮助商家进行精准互动。",
-      "score": 24
-    },
-    {
-      "section": "技术与研究",
-      "title": "飞猪CTO陈烨谈AI范式转移：找准生态位，工程化与业务理解是关键",
-      "company": "飞猪",
-      "url": "https://www.infoq.cn/article/lwk5AQiWPSRPAxRPpM3W?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 26 Mar 2026 17:41:11 GMT",
-      "summary": "飞猪CTO陈烨指出，AI是范式转移而非效率工具，企业需明确自身在AI生态中的定位。他结合飞猪实践强调，AI成功的关键在于构建可靠的工程化机制、深刻理解业务本质，并将创新沉淀为可复用的平台能力。",
+      "publishedAt": "Fri, 27 Mar 2026 14:00:00 GMT",
+      "summary": "Agoda观察文章指出，AI编码工具虽提升个人效率，但项目整体交付速度未显著加快，因为编码并非主要瓶颈。具体表现为：1. 开发瓶颈已上移至需求定义与验证环节，这些环节更依赖人工判断；2. Faros AI研究数据显示，高度采用AI的团队任务量增加21%，合并拉取请求增加98%，但评审时间也激增91%。",
       "score": 22
     },
     {
       "section": "技术与研究",
-      "title": "OpenAI再次放弃副业项目，取消ChatGPT情色模式",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 26 Mar 2026 18:34:02 +0000",
-      "summary": "OpenAI在一周内接连取消了多个副业项目以聚焦核心业务。具体包括：1. 周二宣布降低优先级的是ChatGPT内置的“即时结账”功能，该功能旨在将聊天机器人变为电商购物门户；2. 周三意外宣布关闭其AI视频生成器Sora，该产品自2024年发布后因催生大量低质AI内容而受到批评。",
+      "title": "动态化与参数化RAG技术探索：让外部知识融入模型前馈网络",
+      "company": "",
+      "url": "https://www.infoq.cn/article/bdHrWhvKqigAAd3ldh53?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 27 Mar 2026 13:36:29 GMT",
+      "summary": "文章提出了一种新的RAG技术，旨在解决传统方法仅通过注意力机制注入外部知识的局限性。具体包括：1. 引入轻量级monitor模块，通过监测模型生成token时的概率分布变化（如熵值升高），实时判断是否需要触发检索。",
       "score": 21
     },
     {
-      "section": "政策与监管",
-      "title": "高油价对电动汽车是利好吗？情况复杂",
-      "company": "",
-      "url": "https://www.technologyreview.com/2026/03/26/1134677/gas-prices-electric-vehicles/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Thu, 26 Mar 2026 10:00:00 +0000",
-      "summary": "高油价对电动汽车的影响复杂。一方面，美国因《通胀削减法案》的租赁激励到期，今年将有约30万辆二手电动汽车涌入市场，增加平价选择。能源咨询公司BloombergNEF数据显示，当油价接近每加仑4美元时，即使电价上涨，电动车的总拥有成本仍明显低于燃油车。",
-      "score": 20
-    },
-    {
-      "section": "投融资与并购",
-      "title": "傲意科技完成C1轮1.5亿元融资，由中金脑科学基金领投",
-      "company": "傲意科技",
-      "url": "https://www.leiphone.com/category/industrynews/KlwYh9dMxCW8zBRR.html",
-      "source": "雷锋网",
-      "publishedAt": "Thu, 26 Mar 2026 15:14:00 +0800",
-      "summary": "上海傲意信息科技有限公司（以下简称\"傲意科技\"）今日宣布完成C1轮融资，本轮融资由中金资本旗下深圳市脑科学与类脑智能产业投资基金（以下简称\"中金脑科学基金\"）领投，多家老股东持续跟投。",
-      "score": 39
-    },
-    {
-      "section": "投融资与并购",
-      "title": "StoReel获3400万美元融资：以AI重构故事生产，打造工具社区与平台双轮驱动的内容生态",
-      "company": "StoReel",
-      "url": "https://36kr.com/p/3739636054999040?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-26 20:14:29  +0800",
-      "summary": "Seedance 2.0给行业带来了比较明显的效率提升，相比于第一代模型，Seedance 2.0在视频生成质量和稳定性方面有明显进步，这对AI短剧生产非常重要。不过从我们的角度来看，AI模型迭代速度非常快，如何把模型能力整合进内容生产工作流程里更为重要，而非依赖某一个模型。",
-      "score": 25
+      "section": "技术与研究",
+      "title": "从“盲目调优”到“数据驱动”：大规模Agent评估工程实践在QCon北京分享",
+      "company": "亚马逊云科技",
+      "url": "https://www.infoq.cn/article/0rWvlDuuA5kN06q5raNR?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 27 Mar 2026 10:52:53 GMT",
+      "summary": "亚马逊云科技专家章平将在QCon北京大会上分享大规模Agent评估的工程实践。其演讲将介绍如何通过数据驱动的方法，改变过去“盲目调优”的困境，并以客服退款场景为例，展示如何设计真实、高质量的任务并进行评估器校准。",
+      "score": 21
     },
     {
       "section": "技术与研究",
-      "title": "浙大博士团队专注机器人硬件极限，打造速度破纪录的足式机器人",
-      "company": "镜识科技",
-      "url": "https://36kr.com/p/3739769424593154?f=rss",
+      "title": "谷歌TurboQuant AI压缩算法可将大语言模型内存使用减少6倍",
+      "company": "Google",
+      "url": "https://arstechnica.com/ai/2026/03/google-says-new-turboquant-compression-can-lower-ai-memory-usage-without-sacrificing-quality/",
+      "source": "Ars Technica",
+      "publishedAt": "Wed, 25 Mar 2026 17:59:12 +0000",
+      "summary": "谷歌发布TurboQuant AI压缩算法，旨在解决大语言模型运行时内存占用过高的问题。该算法采用两步压缩：先通过PolarQuant进行主要压缩，再使用量化Johnson-Lindenstrauss（QJL）技术进行1比特纠错，以平滑残留误差，从而在压缩后保持模型输出质量不下降。",
+      "score": 19
+    },
+    {
+      "section": "技术与研究",
+      "title": "初创公司欲改变数学家的工作方式",
+      "company": "Axiom Math",
+      "url": "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Wed, 25 Mar 2026 13:59:17 +0000",
+      "summary": "加州初创公司Axiom Math发布了免费AI工具Axplorer，旨在帮助数学家发现解决长期难题的数学模式。该工具是现有工具PatternBoost的重新设计版，其核心优势在于无需用户自行训练神经网络，而是提供逐步引导。",
+      "score": 16
+    },
+    {
+      "section": "技术与研究",
+      "title": "龙虾硬件热潮兴起：华强北成风向标，10个新项目涌现",
+      "company": "",
+      "url": "https://36kr.com/p/3740888543412228?f=rss",
       "source": "36氪",
-      "publishedAt": "2026-03-26 22:33:08  +0800",
-      "summary": "纵观整个行业，长得好看的机器人，性能相对差，性能好的就更偏科幻风，\"钢铁巨兽\"那种。怎么在两大派技术路线之间做一个融合，好像不是有特别多团队去考虑这件事，但我个人不是很能接受这种状态。所以从一开始就想： 有没有可能既美观，同时还能够性能很强？有一点自己的技术洁癖。",
-      "score": 29
+      "publishedAt": "2026-03-27 15:50:56  +0800",
+      "summary": "最典型的案例之一，是成立于2025年初的AI Infra公司Tiiny AI。2026年3月，他们的产品Tiiny AI Pocket Lab——一个封装大模型（最高支持120B（int4））、体积仅iPhone 17 Pro Max大小的盒子，在北美众筹平台Kickstarter上线5小时。",
+      "score": 44
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "阿里QoderWork打通三大IM平台，手机端可远程调度桌面AI助手",
+      "company": "阿里",
+      "url": "https://www.leiphone.com/category/industrynews/N2WTrd3mcXTQDy6e.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 27 Mar 2026 11:14:00 +0800",
+      "summary": "3月27日消息，阿里桌面Agent应用QoderWork全面打通钉钉、微信和飞书三大主流IM，用户可直接在手机上与QoderWork对话，随时随地调度桌面AI助手的全部能力，远程完成文件整理、数据处理、文档生成等任务。",
+      "score": 17
     }
   ]
 }
