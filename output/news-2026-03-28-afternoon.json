@@ -1,165 +1,113 @@
 {
-  "date": "2026/3/28",
-  "edition": "afternoon",
-  "editionLabel": "午后版",
-  "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/28 16:04",
-  "count": 5,
-  "targetCount": 14,
-  "diagnostics": {
-    "previousEditionFile": "news-2026-03-28-morning.json",
-    "targetCount": 14,
-    "candidateTargetCount": 23,
-    "fetch": {
-      "domesticBeforeDedup": 15,
-      "overseasBeforeDedup": 17,
-      "domesticAfterDedup": 15,
-      "overseasAfterDedup": 17,
-      "domesticSources": [
-        {
-          "source": "机器之心",
-          "ok": false,
-          "count": 0,
-          "error": "Status code 500"
-        },
-        {
-          "source": "量子位",
-          "ok": true,
-          "count": 5,
-          "error": null
-        },
-        {
-          "source": "36氪",
-          "ok": true,
-          "count": 5,
-          "error": null
-        },
-        {
-          "source": "InfoQ",
-          "ok": true,
-          "count": 5,
-          "error": null
-        },
-        {
-          "source": "雷锋网",
-          "ok": false,
-          "count": 0,
-          "error": "Request timed out after 10000ms"
-        }
-      ],
-      "overseasSources": [
-        {
-          "source": "TechCrunch AI",
-          "ok": true,
-          "count": 10,
-          "error": null
-        },
-        {
-          "source": "MIT Technology Review",
-          "ok": true,
-          "count": 5,
-          "error": null
-        },
-        {
-          "source": "Ars Technica",
-          "ok": true,
-          "count": 2,
-          "error": null
-        }
-      ],
-      "serper": {
-        "enabled": true,
-        "count": 0,
-        "queryCount": 12,
-        "resultLimit": 6,
-        "error": null
-      }
-    },
-    "summarize": {
-      "totalSummarized": 32
-    },
-    "scoring": {
-      "totalInput": 32,
-      "totalScored": 10,
-      "strictScoredCount": 7,
-      "relaxedCandidateCount": 3,
-      "relaxedUsedForSelection": true,
-      "weakSummaryCount": 6,
-      "selectedCandidateCount": 10,
-      "duplicateCount": 15,
-      "crossDayDuplicateCount": 13,
-      "lowQualityCount": 3,
-      "domesticAvailable": 7,
-      "overseasAvailable": 3,
-      "sourceCount": {
-        "InfoQ": 3,
-        "量子位": 2,
-        "36氪": 2,
-        "TechCrunch AI": 2,
-        "MIT Technology Review": 1
-      }
-    },
-    "display": {
-      "refinedCount": 10,
-      "previousEditionRemovedCount": 1,
-      "integrityRemovedCount": 4,
-      "postEditionFilterCount": 5,
-      "displayReadyCount": 5,
-      "fallbackDisplayCount": 0,
-      "removedWeakSummaries": 0,
-      "shortage": 9
-    }
-  },
-  "articles": [
+  "产品发布与更新": [],
+  "技术与研究": [
     {
-      "section": "技术与研究",
       "title": "Agent生产落地基石：可观测透视与评估飞轮的一体化建设实践",
-      "company": "阿里云",
       "url": "https://www.infoq.cn/article/59OoAMNcs0oUDFTqevSI?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
       "source": "InfoQ",
       "publishedAt": "Sat, 28 Mar 2026 10:00:00 GMT",
+      "region": "国内",
       "summary": "阿里云专家蔡健在QCon北京大会上分享了Agent可观测性与评估工程的实践。他提出，由于AI框架（如LangChain、LlamaIndex）快速演进，导致传统软件测试方法在评估AI智能体（Agent）时失效，出现评估结果与用户反馈脱节、无法覆盖长尾意图等问题。",
-      "score": 38
+      "category": "技术与研究",
+      "company": "阿里云",
+      "score": 38,
+      "breakdown": {
+        "substance": 7,
+        "importance": 10,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
     },
     {
-      "section": "技术与研究",
       "title": "钉钉CLI开源项目上线，首批开放10项核心产品能力",
-      "company": "钉钉",
       "url": "https://www.qbitai.com/2026/03/392828.html",
+      "snippet": "国内首个CLI开源的国民级应用",
       "source": "量子位",
       "publishedAt": "Fri, 27 Mar 2026 11:50:29 +0000",
+      "region": "国内",
       "summary": "钉钉于3月27日将其CLI工具开源，旨在降低AI Agent调用企业功能的门槛。具体而言：1. 首批开放了AI表格、日历、机器人等10项核心能力，例如AI表格可让Agent自动录入业务数据，日历能力可查询空闲时段并预约会议。",
-      "score": 31
-    },
+      "category": "技术与研究",
+      "company": "钉钉",
+      "score": 31,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [],
+  "政策与监管": [
     {
-      "section": "政策与监管",
       "title": "绿色IT：如何减轻AI对环境的影响",
-      "company": "Bpifrance",
       "url": "https://www.infoq.cn/article/T0iH5X6AzL5jSe12ktdk?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
       "source": "InfoQ",
       "publishedAt": "Sat, 28 Mar 2026 15:00:00 GMT",
+      "region": "国内",
       "summary": "AI发展面临高能耗、GPU寿命短及成本不透明等环境挑战。专家Ludi Akue在QCon London大会上指出，现有监管如欧盟AI法案执行不足，并提出模型压缩、量化及新型架构等技术方案，可将推理效率提升2-4倍。",
-      "score": 21
+      "category": "政策与监管",
+      "company": "Bpifrance",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
     },
     {
-      "section": "政策与监管",
       "title": "字节跳动的新AI视频生成模型Dreamina Seedance 2.0登陆CapCut",
-      "company": "ByteDance",
       "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
+      "snippet": "The new model in CapCut will have built-in protections for making video from real faces or unauthorized intellectual property.",
       "source": "TechCrunch AI",
       "publishedAt": "Thu, 26 Mar 2026 15:25:13 +0000",
+      "region": "海外",
       "summary": "字节跳动将其AI视频生成模型Dreamina Seedance 2.0集成到视频编辑应用CapCut中。该模型无需参考图片，仅凭文字描述即可生成视频，并能逼真渲染纹理、动作和光影。为应对版权争议，模型内置了严格的安全限制：禁止使用包含真人脸的图像或视频生成内容，并会阻止未经授权的知识产权内容生成。",
-      "score": 18
+      "category": "政策与监管",
+      "company": "ByteDance",
+      "score": 18,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
     },
     {
-      "section": "政策与监管",
       "title": "高油价对电动汽车是利好吗？情况复杂",
-      "company": "",
       "url": "https://www.technologyreview.com/2026/03/26/1134677/gas-prices-electric-vehicles/",
+      "snippet": "I live in a dense city with plentiful public transportation options and limited parking, so I don’t own a car. I’m often utterly clueless about the current price of gasoline. But as the conflict in Iran has escalated, fossil-fuel prices have been on a roller-coaster, and I’ve started paying attention. In the US, average gas…",
       "source": "MIT Technology Review",
       "publishedAt": "Thu, 26 Mar 2026 10:00:00 +0000",
+      "region": "海外",
       "summary": "高油价对电动汽车的影响复杂。一方面，美国因《通胀削减法案》的租赁激励政策到期，今年将有约30万辆二手电动汽车涌入市场，增加平价选择。能源咨询公司BloombergNEF数据显示，当油价接近每加仑4美元时，即使电价上涨，电动车的总拥有成本仍明显低于燃油车。",
-      "score": 16
+      "category": "政策与监管",
+      "company": "",
+      "score": 16,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 10,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
     }
   ]
 }
