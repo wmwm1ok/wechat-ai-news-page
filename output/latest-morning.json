@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/27",
+  "date": "2026/3/28",
   "edition": "morning",
   "editionLabel": "早报",
   "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/3/27 08:04",
-  "count": 11,
+  "generatedAt": "2026/3/28 08:02",
+  "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-26-afternoon.json",
+    "previousEditionFile": "news-2026-03-27-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 23,
-      "overseasBeforeDedup": 20,
-      "domesticAfterDedup": 23,
-      "overseasAfterDedup": 20,
+      "domesticBeforeDedup": 16,
+      "overseasBeforeDedup": 17,
+      "domesticAfterDedup": 16,
+      "overseasAfterDedup": 17,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 5,
+          "count": 6,
           "error": null
         },
         {
@@ -42,9 +42,9 @@
         },
         {
           "source": "雷锋网",
-          "ok": true,
-          "count": 8,
-          "error": null
+          "ok": false,
+          "count": 0,
+          "error": "Request timed out after 10000ms"
         }
       ],
       "overseasSources": [
@@ -57,7 +57,7 @@
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 8,
+          "count": 5,
           "error": null
         },
         {
@@ -76,151 +76,181 @@
       }
     },
     "summarize": {
-      "totalSummarized": 43
+      "totalSummarized": 33
     },
     "scoring": {
-      "totalInput": 43,
-      "totalScored": 25,
-      "strictScoredCount": 25,
-      "relaxedCandidateCount": 3,
-      "relaxedUsedForSelection": false,
-      "weakSummaryCount": 11,
+      "totalInput": 33,
+      "totalScored": 21,
+      "strictScoredCount": 17,
+      "relaxedCandidateCount": 4,
+      "relaxedUsedForSelection": true,
+      "weakSummaryCount": 5,
       "selectedCandidateCount": 21,
-      "duplicateCount": 8,
+      "duplicateCount": 5,
       "crossDayDuplicateCount": 3,
-      "lowQualityCount": 2,
-      "domesticAvailable": 16,
-      "overseasAvailable": 9,
+      "lowQualityCount": 1,
+      "domesticAvailable": 13,
+      "overseasAvailable": 8,
       "sourceCount": {
-        "量子位": 1,
-        "雷锋网": 5,
-        "InfoQ": 5,
         "36氪": 4,
-        "TechCrunch AI": 5,
-        "MIT Technology Review": 1
+        "量子位": 5,
+        "InfoQ": 4,
+        "TechCrunch AI": 4,
+        "Ars Technica": 2,
+        "MIT Technology Review": 2
       }
     },
     "display": {
       "refinedCount": 21,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 9,
-      "postEditionFilterCount": 12,
-      "displayReadyCount": 8,
-      "fallbackDisplayCount": 3,
-      "removedWeakSummaries": 4,
-      "shortage": 3
+      "integrityRemovedCount": 6,
+      "postEditionFilterCount": 15,
+      "displayReadyCount": 14,
+      "fallbackDisplayCount": 1,
+      "removedWeakSummaries": 1,
+      "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "阿里Qoder专家团模式提升代码质量，多智能体协同编程成趋势",
-      "company": "阿里",
-      "url": "https://www.qbitai.com/2026/03/392281.html",
+      "title": "云知声大模型收入暴涨1076% 全年营收12亿转型AGI公司",
+      "company": "云知声",
+      "url": "https://www.qbitai.com/2026/03/392789.html",
       "source": "量子位",
-      "publishedAt": "Thu, 26 Mar 2026 07:48:45 +0000",
-      "summary": "阿里Qoder推出的“专家团模式”采用多智能体协同编程，以解决单智能体在处理复杂任务时上下文长度不足、逻辑链条零散导致的代码质量问题。该模式在内部测试中，代码质量得分较自身单智能体模式提升了67%，并领先Claude Code Agent Teams 16%。",
-      "score": 34
+      "publishedAt": "Fri, 27 Mar 2026 08:48:53 +0000",
+      "summary": "云知声2025年财报显示，其大模型业务收入同比暴涨1076%，成为公司转型为AGI公司的核心驱动力。",
+      "score": 45
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "趋境科技发布ATaaS：全球领先的高效能AI Token生产服务平台",
+      "company": "趋境科技",
+      "url": "https://www.qbitai.com/2026/03/392896.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 27 Mar 2026 19:14:16 +0000",
+      "summary": "趋境科技发布全新AI推理平台“趋境ATaaS”，旨在解决AI应用规模扩大后算力成本高但Token产出效率低的问题。该平台通过深度融合CPU与GPU、国产与非国产算力，并基于任务特征智能分流（如CPU处理低密度任务，国产卡处理Prefill阶段），以优化资源调度。",
+      "score": 29
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "趣冲健身推出多款自研AI智能健身设备，构建多品牌生态",
+      "company": "趣冲健身",
+      "url": "https://36kr.com/p/3740892215623942?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-27 16:28:46  +0800",
+      "summary": "一个庞大的万亿级健康消费市场正加速形成。根据国际健身协会（IFAI）等报告显示，近年来，数字健身市场增速高达41.4%，全球健身行业规模预计2030年达1.5万亿美元。其中，中国健康产业规模在2025年已突破10万亿元规模，健康生活服务赛道以每年超15%增速增长。但硬件只是入口。",
+      "score": 46
     },
     {
       "section": "技术与研究",
-      "title": "Cohere发布专用于转录的开源语音模型",
-      "company": "Cohere",
-      "url": "https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/",
+      "title": "非营利组织推出首个AI失业补助计划：每月1000美元持续一年",
+      "company": "",
+      "url": "https://www.infoq.cn/article/cuHaMeYSqw3dOYHW1P8A?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 27 Mar 2026 18:52:19 GMT",
+      "summary": "非营利组织AI Commons Project与What We Will推出了首个针对AI失业的“AI红利”基本收入试验计划，旨在为受生成式AI冲击的失业者提供经济支持与职业转型帮助。该计划已开始发放补助，首波25至50名参与者每月无条件获得1000美元，持续一年，总预算约30万美元。",
+      "score": 40
+    },
+    {
+      "section": "技术与研究",
+      "title": "天工AI开源Matrix-Game 3.0世界模型，实现全模态交互",
+      "company": "天工AI",
+      "url": "https://www.qbitai.com/2026/03/392835.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 27 Mar 2026 14:08:24 +0000",
+      "summary": "天工AI开源了Matrix-Game 3.0世界模型，其核心是学习状态转移参数，能根据当前状态和动作预测下一时刻状态，具备动态性、可交互性和物理一致性。该模型实现了从生成视频到生成可交互环境、从离线生成到实时交互的关键跃迁。",
+      "score": 39
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI已能写80%代码但Agent存短板，OpenAI技术总监谈开发工具挑战",
+      "company": "OpenAI",
+      "url": "https://www.infoq.cn/article/bycqtv38Ng71KoUjC0bH?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 27 Mar 2026 16:37:20 GMT",
+      "summary": "OpenAI Codex技术总监Michael Bolin在访谈中指出，AI虽能完成80%的代码编写，但存在关键短板：AI代理（Agent）若‘问错问题’比不会写代码更麻烦。他以自身经历举例，如在Facebook尝试优化Web加载速度时，因不熟悉该领域而遇到挑战。",
+      "score": 37
+    },
+    {
+      "section": "投融资与并购",
+      "title": "知乎首次实现全年Non-GAAP盈利，AI赋能驱动估值重估",
+      "company": "知乎",
+      "url": "https://36kr.com/p/3740850993037312?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-27 16:02:11  +0800",
+      "summary": "知乎发布2025年财报，首次实现全年Non-GAAP盈利，经调整净利润为3790万元。具体来看，AI赋能是核心驱动力：公司将“知乎直答”升级为智能助手并置于APP一级入口，提升了内容生产与分发效率。同时，付费阅读业务表现亮眼，其IP版权收入在2025年第四季度同比增长超5倍。",
+      "score": 27
+    },
+    {
+      "section": "投融资与并购",
+      "title": "软银获400亿美元贷款，或为OpenAI 2026年IPO铺路",
+      "company": "SoftBank, OpenAI",
+      "url": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
       "source": "TechCrunch AI",
-      "publishedAt": "Thu, 26 Mar 2026 13:30:00 +0000",
-      "summary": "Cohere公司发布了一款名为Transcribe的开源语音转录模型。该模型相对轻量，仅包含20亿参数，旨在让用户能够在消费级GPU上自行托管使用，并支持包括中文在内的14种语言。",
-      "score": 41
+      "publishedAt": "Fri, 27 Mar 2026 21:44:45 +0000",
+      "summary": "软银集团周五宣布，已获得摩根大通、高盛及四家日本银行提供的400亿美元无抵押贷款，期限仅为12个月。这笔贷款的主要用途是帮助软银履行其对OpenAI的300亿美元投资承诺，该承诺是OpenAI上月创纪录的1100亿美元融资的一部分。",
+      "score": 26
     },
     {
       "section": "政策与监管",
-      "title": "字节跳动AI视频生成模型Dreamina Seedance 2.0登陆CapCut",
-      "company": "ByteDance",
-      "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
+      "title": "Anthropic赢得针对特朗普政府的禁令，国防部限制被撤销",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
       "source": "TechCrunch AI",
-      "publishedAt": "Thu, 26 Mar 2026 15:25:13 +0000",
-      "summary": "字节跳动将其AI视频生成模型Dreamina Seedance 2.0集成至视频编辑应用CapCut。该模型无需参考图像，仅凭文字描述即可生成视频，并能渲染逼真的纹理、动作和光影。为应对版权争议，模型内置了安全限制：禁止使用含真人脸的图像或视频生成内容，并阻止未经授权的知识产权内容生成。",
-      "score": 24
-    },
-    {
-      "section": "技术与研究",
-      "title": "Mistral发布用于语音生成的新开源模型",
-      "company": "Mistral",
-      "url": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 26 Mar 2026 11:30:00 +0000",
-      "summary": "法国AI公司Mistral发布了一款新的开源文本转语音模型。该模型基于Ministral 3B架构，核心特点包括：仅需不到5秒的语音样本即可克隆定制声音，并能捕捉细微口音和语调；能够轻松在不同语言间切换，同时保持声音特征，适用于配音和实时翻译场景。",
-      "score": 41
-    },
-    {
-      "section": "技术与研究",
-      "title": "在Snowflake中利用RelationalAI原生应用实现图分析与社区检测的技术实践",
-      "company": "Snowflake, RelationalAI",
-      "url": "https://www.infoq.cn/article/qBiJSCPWbKlXfLaUKqNW?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 26 Mar 2026 17:48:34 GMT",
-      "summary": "本文介绍了在Snowflake数据云平台中，使用其市场提供的原生应用RelationalAI进行图分析和社区检测的具体方法。该方法以食品卡车订单数据为例，通过构建顾客社交关系图谱，识别可能具有社交关联的顾客群体，从而帮助商家进行精准互动。",
-      "score": 24
-    },
-    {
-      "section": "技术与研究",
-      "title": "飞猪CTO陈烨谈AI范式转移：找准生态位，工程化与业务理解是关键",
-      "company": "飞猪",
-      "url": "https://www.infoq.cn/article/lwk5AQiWPSRPAxRPpM3W?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 26 Mar 2026 17:41:11 GMT",
-      "summary": "飞猪CTO陈烨指出，AI是范式转移而非效率工具，企业需明确自身在AI生态中的定位。他结合飞猪实践强调，AI成功的关键在于构建可靠的工程化机制、深刻理解业务本质，并将创新沉淀为可复用的平台能力。",
+      "publishedAt": "Fri, 27 Mar 2026 01:18:38 +0000",
+      "summary": "联邦法官裁定支持AI公司Anthropic，撤销了特朗普政府将其列为“供应链风险”并切断合作关系的命令。具体信息点包括：1. 争议源于Anthropic试图限制政府使用其AI模型的方式，例如禁止用于自主武器系统或大规模监控。",
       "score": 22
     },
     {
       "section": "技术与研究",
-      "title": "OpenAI再次放弃副业项目，取消ChatGPT情色模式",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 26 Mar 2026 18:34:02 +0000",
-      "summary": "OpenAI在一周内接连取消了多个副业项目以聚焦核心业务。具体包括：1. 周二宣布降低优先级的是ChatGPT内置的“即时结账”功能，该功能旨在将聊天机器人变为电商购物门户；2. 周三意外宣布关闭其AI视频生成器Sora，该产品自2024年发布后因催生大量低质AI内容而受到批评。",
-      "score": 21
-    },
-    {
-      "section": "政策与监管",
-      "title": "高油价对电动汽车是利好吗？情况复杂",
+      "title": "AI Agent场景下的数据库架构实践：从数据存储到记忆机制",
       "company": "",
-      "url": "https://www.technologyreview.com/2026/03/26/1134677/gas-prices-electric-vehicles/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Thu, 26 Mar 2026 10:00:00 +0000",
-      "summary": "高油价对电动汽车的影响复杂。一方面，美国因《通胀削减法案》的租赁激励到期，今年将有约30万辆二手电动汽车涌入市场，增加平价选择。能源咨询公司BloombergNEF数据显示，当油价接近每加仑4美元时，即使电价上涨，电动车的总拥有成本仍明显低于燃油车。",
-      "score": 20
-    },
-    {
-      "section": "投融资与并购",
-      "title": "傲意科技完成C1轮1.5亿元融资，由中金脑科学基金领投",
-      "company": "傲意科技",
-      "url": "https://www.leiphone.com/category/industrynews/KlwYh9dMxCW8zBRR.html",
-      "source": "雷锋网",
-      "publishedAt": "Thu, 26 Mar 2026 15:14:00 +0800",
-      "summary": "上海傲意信息科技有限公司（以下简称\"傲意科技\"）今日宣布完成C1轮融资，本轮融资由中金资本旗下深圳市脑科学与类脑智能产业投资基金（以下简称\"中金脑科学基金\"）领投，多家老股东持续跟投。",
-      "score": 39
-    },
-    {
-      "section": "投融资与并购",
-      "title": "StoReel获3400万美元融资：以AI重构故事生产，打造工具社区与平台双轮驱动的内容生态",
-      "company": "StoReel",
-      "url": "https://36kr.com/p/3739636054999040?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-26 20:14:29  +0800",
-      "summary": "Seedance 2.0给行业带来了比较明显的效率提升，相比于第一代模型，Seedance 2.0在视频生成质量和稳定性方面有明显进步，这对AI短剧生产非常重要。不过从我们的角度来看，AI模型迭代速度非常快，如何把模型能力整合进内容生产工作流程里更为重要，而非依赖某一个模型。",
-      "score": 25
+      "url": "https://www.infoq.cn/article/9OKvpT7uHXxYJBkKYyrf?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 27 Mar 2026 16:14:09 GMT",
+      "summary": "文章指出，AI Agent需要超越传统数据库的简单存储，构建能实现跨会话、跨任务连续工作的“记忆机制”。文中以数据分析任务为例，说明将数据存入数据库并用SQL进行确定性处理，可避免依赖大模型的幻觉，使分析可工程化。",
+      "score": 33
     },
     {
       "section": "技术与研究",
-      "title": "浙大博士团队专注机器人硬件极限，打造速度破纪录的足式机器人",
-      "company": "镜识科技",
-      "url": "https://36kr.com/p/3739769424593154?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-26 22:33:08  +0800",
-      "summary": "纵观整个行业，长得好看的机器人，性能相对差，性能好的就更偏科幻风，\"钢铁巨兽\"那种。怎么在两大派技术路线之间做一个融合，好像不是有特别多团队去考虑这件事，但我个人不是很能接受这种状态。所以从一开始就想： 有没有可能既美观，同时还能够性能很强？有一点自己的技术洁癖。",
-      "score": 29
+      "title": "AI生成代码泛滥冲击开源社区：从协作圣地到垃圾洪水，维护者士气受挫",
+      "company": "",
+      "url": "https://www.infoq.cn/article/xic3EKabhq6RYYa9mNIP?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 27 Mar 2026 16:20:05 GMT",
+      "summary": "开源社区正被AI生成的‘垃圾代码’（AI Slop）淹没，这类代码看似合理但常包含错误或修复不存在的漏洞，严重增加了维护者的审核负担。具体表现为：cURL项目因AI提交占比达20%且有效率从往年水平骤降至5%，最终终止了运行六年的漏洞悬赏计划。",
+      "score": 28
+    },
+    {
+      "section": "政策与监管",
+      "title": "法官裁定特朗普无权将Anthropic列入黑名单",
+      "company": "Anthropic",
+      "url": "https://arstechnica.com/tech-policy/2026/03/hegseth-trump-had-no-authority-to-order-anthropic-to-be-blacklisted-judge-says/",
+      "source": "Ars Technica",
+      "publishedAt": "Fri, 27 Mar 2026 19:49:18 +0000",
+      "summary": "法官裁定特朗普政府无权将AI公司Anthropic列入黑名单，理由是其战争部未能提供合理依据。具体而言，法官认为任何IT供应商都可能带来类似风险，且Anthropic已提供证据表明无法强制更新或控制政府系统，国家安全风险可通过终止合同来规避。",
+      "score": 22
+    },
+    {
+      "section": "技术与研究",
+      "title": "为何有人选择死后冷冻保存身体和大脑",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/03/27/1134705/cryonics-store-bodies-brains-after-death/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Fri, 27 Mar 2026 09:00:00 +0000",
+      "summary": "文章探讨了人们选择人体冷冻技术的原因。具体信息点包括：1. 首例冷冻者是1967年因肾癌去世的心理学教授James Bedford，由非专业机构操作；2. 老年学家L. Stephen Coles在2014年因胰腺癌去世后，其大脑被保存在-146°C的设施中。",
+      "score": 19
+    },
+    {
+      "section": "政策与监管",
+      "title": "大卫·萨克斯卸任AI事务负责人，将远离华盛顿权力中心",
+      "company": "无",
+      "url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 27 Mar 2026 01:26:40 +0000",
+      "summary": "大卫·萨克斯卸任AI事务负责人，将远离华盛顿权力中心。他近期在播客中公开呼吁政府从美国支持的伊朗战争中抽身，这可能影响了其职位变动。卸任后，他所在的委员会将专注于推动特朗普政府上周发布的全国性AI框架，旨在统一各州混乱的监管规则。",
+      "score": 17
     }
   ]
 }
