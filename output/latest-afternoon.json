@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/28",
+  "date": "2026/3/29",
   "edition": "afternoon",
   "editionLabel": "午后版",
   "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/28 16:04",
-  "count": 5,
+  "generatedAt": "2026/3/29 16:02",
+  "count": 6,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-28-morning.json",
+    "previousEditionFile": "news-2026-03-29-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 15,
-      "overseasBeforeDedup": 17,
-      "domesticAfterDedup": 15,
-      "overseasAfterDedup": 17,
+      "domesticBeforeDedup": 23,
+      "overseasBeforeDedup": 10,
+      "domesticAfterDedup": 22,
+      "overseasAfterDedup": 10,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 5,
+          "count": 6,
           "error": null
         },
         {
@@ -42,28 +42,28 @@
         },
         {
           "source": "雷锋网",
-          "ok": false,
-          "count": 0,
-          "error": "Request timed out after 10000ms"
+          "ok": true,
+          "count": 7,
+          "error": null
         }
       ],
       "overseasSources": [
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 10,
+          "count": 6,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 5,
+          "count": 3,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 2,
+          "count": 1,
           "error": null
         }
       ],
@@ -80,86 +80,94 @@
     },
     "scoring": {
       "totalInput": 32,
-      "totalScored": 10,
-      "strictScoredCount": 7,
-      "relaxedCandidateCount": 3,
+      "totalScored": 8,
+      "strictScoredCount": 8,
+      "relaxedCandidateCount": 0,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 6,
-      "selectedCandidateCount": 10,
-      "duplicateCount": 15,
-      "crossDayDuplicateCount": 13,
-      "lowQualityCount": 3,
-      "domesticAvailable": 7,
-      "overseasAvailable": 3,
+      "weakSummaryCount": 7,
+      "selectedCandidateCount": 8,
+      "duplicateCount": 12,
+      "crossDayDuplicateCount": 10,
+      "lowQualityCount": 8,
+      "domesticAvailable": 8,
+      "overseasAvailable": 0,
       "sourceCount": {
-        "InfoQ": 3,
-        "量子位": 2,
+        "InfoQ": 4,
         "36氪": 2,
-        "TechCrunch AI": 2,
-        "MIT Technology Review": 1
+        "量子位": 2
       }
     },
     "display": {
-      "refinedCount": 10,
-      "previousEditionRemovedCount": 1,
-      "integrityRemovedCount": 4,
-      "postEditionFilterCount": 5,
+      "refinedCount": 8,
+      "previousEditionRemovedCount": 0,
+      "integrityRemovedCount": 2,
+      "postEditionFilterCount": 6,
       "displayReadyCount": 5,
-      "fallbackDisplayCount": 0,
-      "removedWeakSummaries": 0,
-      "shortage": 9
+      "fallbackDisplayCount": 1,
+      "removedWeakSummaries": 1,
+      "shortage": 8
     }
   },
   "articles": [
     {
       "section": "技术与研究",
-      "title": "Agent生产落地基石：可观测透视与评估飞轮的一体化建设实践",
-      "company": "阿里云",
-      "url": "https://www.infoq.cn/article/59OoAMNcs0oUDFTqevSI?utm_source=rss&utm_medium=article",
+      "title": "Vercel 开源生成式 UI 框架 JSON-Render，支持多前端框架",
+      "company": "Vercel",
+      "url": "https://www.infoq.cn/article/oUFPIuuKIsT8UFEYVkTG?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Sat, 28 Mar 2026 10:00:00 GMT",
-      "summary": "阿里云专家蔡健在QCon北京大会上分享了Agent可观测性与评估工程的实践。他提出，由于AI框架（如LangChain、LlamaIndex）快速演进，导致传统软件测试方法在评估AI智能体（Agent）时失效，出现评估结果与用户反馈脱节、无法覆盖长尾意图等问题。",
-      "score": 38
+      "publishedAt": "Sun, 29 Mar 2026 15:00:00 GMT",
+      "summary": "Vercel开源了生成式UI框架JSON-Render，允许AI根据自然语言提示生成结构化界面。其核心方法是：开发者先用Zod schema定义可用的组件目录，然后大语言模型生成受此目录约束的JSON规范，框架在模型流式输出时就能逐步渲染出最终界面。",
+      "score": 41
     },
     {
       "section": "技术与研究",
-      "title": "钉钉CLI开源项目上线，首批开放10项核心产品能力",
-      "company": "钉钉",
-      "url": "https://www.qbitai.com/2026/03/392828.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 27 Mar 2026 11:50:29 +0000",
-      "summary": "钉钉于3月27日将其CLI工具开源，旨在降低AI Agent调用企业功能的门槛。具体而言：1. 首批开放了AI表格、日历、机器人等10项核心能力，例如AI表格可让Agent自动录入业务数据，日历能力可查询空闲时段并预约会议。",
-      "score": 31
+      "title": "Rust 的独特之处不只内存安全：来自自主机器人的启示",
+      "company": "",
+      "url": "https://www.infoq.cn/article/Ru7tUbogi8Rek26YPeGN?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 29 Mar 2026 11:00:00 GMT",
+      "summary": "文章以自主机器人开发为例，展示了Rust语言如何利用其类型系统和所有权模型，在编译时强制保证程序逻辑的正确性。具体体现在：第一，通过泛型状态（如Robot<Uninit>和Robot<Init>）确保机器人必须按“初始化→分配任务”的顺序执行操作，防止状态错误。",
+      "score": 24
     },
     {
-      "section": "政策与监管",
+      "section": "产品发布与更新",
+      "title": "趋境科技发布ATaaS：全球领先的高效能AI Token生产服务平台",
+      "company": "趋境科技",
+      "url": "https://www.qbitai.com/2026/03/392896.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 27 Mar 2026 19:14:16 +0000",
+      "summary": "趋境科技发布全新AI推理平台“趋境ATaaS”，旨在解决AI应用扩展导致Token需求激增，而算力成本高昂、投入与产出不匹配的行业难题。该平台通过提升算力调度效率、优化推理过程，并深度融合CPU+GPU及国产与非国产算力异构技术，将计算任务智能分流（如CPU处理低密度任务。",
+      "score": 21
+    },
+    {
+      "section": "技术与研究",
+      "title": "小红书在QCon北京分享面向生产的AgentOps：AI Agent应用工程化实践",
+      "company": "小红书",
+      "url": "https://www.infoq.cn/article/dl0kKEXKi8PSDB6xP53B?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 29 Mar 2026 10:00:00 GMT",
+      "summary": "小红书可观测团队负责人王亚普将在QCon北京大会上，分享其团队如何将AI Agent应用工程化的实践经验。具体内容包括：构建以AI Trace为核心的数据底座，实现在线与离线的双轨评估机制，从而形成AI Agent迭代的工程闭环，旨在解决AI Agent在生产环境中的可观测性与高效迭代问题。",
+      "score": 21
+    },
+    {
+      "section": "技术与研究",
       "title": "绿色IT：如何减轻AI对环境的影响",
       "company": "Bpifrance",
       "url": "https://www.infoq.cn/article/T0iH5X6AzL5jSe12ktdk?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Sat, 28 Mar 2026 15:00:00 GMT",
-      "summary": "AI发展面临高能耗、GPU寿命短及成本不透明等环境挑战。专家Ludi Akue在QCon London大会上指出，现有监管如欧盟AI法案执行不足，并提出模型压缩、量化及新型架构等技术方案，可将推理效率提升2-4倍。",
-      "score": 21
+      "summary": "AI的高能耗与硬件快速淘汰对绿色IT构成挑战。专家Ludi Akue指出，大规模AI服务的推理能耗可能在部署后数月内超过训练成本，而现有技术如模型压缩和量化虽能提升2-4倍推理效率，但能耗总量仍在增长。",
+      "score": 20
     },
     {
-      "section": "政策与监管",
-      "title": "字节跳动的新AI视频生成模型Dreamina Seedance 2.0登陆CapCut",
-      "company": "ByteDance",
-      "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 26 Mar 2026 15:25:13 +0000",
-      "summary": "字节跳动将其AI视频生成模型Dreamina Seedance 2.0集成到视频编辑应用CapCut中。该模型无需参考图片，仅凭文字描述即可生成视频，并能逼真渲染纹理、动作和光影。为应对版权争议，模型内置了严格的安全限制：禁止使用包含真人脸的图像或视频生成内容，并会阻止未经授权的知识产权内容生成。",
-      "score": 18
-    },
-    {
-      "section": "政策与监管",
-      "title": "高油价对电动汽车是利好吗？情况复杂",
-      "company": "",
-      "url": "https://www.technologyreview.com/2026/03/26/1134677/gas-prices-electric-vehicles/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Thu, 26 Mar 2026 10:00:00 +0000",
-      "summary": "高油价对电动汽车的影响复杂。一方面，美国因《通胀削减法案》的租赁激励政策到期，今年将有约30万辆二手电动汽车涌入市场，增加平价选择。能源咨询公司BloombergNEF数据显示，当油价接近每加仑4美元时，即使电价上涨，电动车的总拥有成本仍明显低于燃油车。",
-      "score": 16
+      "section": "技术与研究",
+      "title": "海淀AI人才规模全球领先，多元生态推动创新热潮",
+      "company": "心影随形",
+      "url": "https://www.qbitai.com/2026/03/392996.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 29 Mar 2026 01:09:41 +0000",
+      "summary": "目前，海淀AI人才总量已达到9万人，而硅谷AI人才为7.4万，上海7.2万，杭州大概3.4万。不难看出， 海淀的AI人才集聚规模、人才密集度，在全国乃至全球都处于领先水平。“国外是在某些方向上非常深入，相对聚焦。",
+      "score": 22
     }
   ]
 }

@@ -1,0 +1,134 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "趋境科技发布ATaaS：全球领先的高效能AI Token生产服务平台",
+      "url": "https://www.qbitai.com/2026/03/392896.html",
+      "snippet": "揭秘硬件高投入≠高效 Token 产出",
+      "source": "量子位",
+      "publishedAt": "Fri, 27 Mar 2026 19:14:16 +0000",
+      "region": "国内",
+      "summary": "趋境科技发布全新AI推理平台“趋境ATaaS”，旨在解决AI应用扩展导致Token需求激增，而算力成本高昂、投入与产出不匹配的行业难题。该平台通过提升算力调度效率、优化推理过程，并深度融合CPU+GPU及国产与非国产算力异构技术，将计算任务智能分流（如CPU处理低密度任务。",
+      "category": "产品发布与更新",
+      "company": "趋境科技",
+      "score": 21,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "Vercel 开源生成式 UI 框架 JSON-Render，支持多前端框架",
+      "url": "https://www.infoq.cn/article/oUFPIuuKIsT8UFEYVkTG?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 29 Mar 2026 15:00:00 GMT",
+      "region": "国内",
+      "summary": "Vercel开源了生成式UI框架JSON-Render，允许AI根据自然语言提示生成结构化界面。其核心方法是：开发者先用Zod schema定义可用的组件目录，然后大语言模型生成受此目录约束的JSON规范，框架在模型流式输出时就能逐步渲染出最终界面。",
+      "category": "技术与研究",
+      "company": "Vercel",
+      "score": 41,
+      "breakdown": {
+        "substance": 15,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Rust 的独特之处不只内存安全：来自自主机器人的启示",
+      "url": "https://www.infoq.cn/article/Ru7tUbogi8Rek26YPeGN?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 29 Mar 2026 11:00:00 GMT",
+      "region": "国内",
+      "summary": "文章以自主机器人开发为例，展示了Rust语言如何利用其类型系统和所有权模型，在编译时强制保证程序逻辑的正确性。具体体现在：第一，通过泛型状态（如Robot<Uninit>和Robot<Init>）确保机器人必须按“初始化→分配任务”的顺序执行操作，防止状态错误。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 24,
+      "breakdown": {
+        "substance": 3,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "小红书在QCon北京分享面向生产的AgentOps：AI Agent应用工程化实践",
+      "url": "https://www.infoq.cn/article/dl0kKEXKi8PSDB6xP53B?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 29 Mar 2026 10:00:00 GMT",
+      "region": "国内",
+      "summary": "小红书可观测团队负责人王亚普将在QCon北京大会上，分享其团队如何将AI Agent应用工程化的实践经验。具体内容包括：构建以AI Trace为核心的数据底座，实现在线与离线的双轨评估机制，从而形成AI Agent迭代的工程闭环，旨在解决AI Agent在生产环境中的可观测性与高效迭代问题。",
+      "category": "技术与研究",
+      "company": "小红书",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "绿色IT：如何减轻AI对环境的影响",
+      "url": "https://www.infoq.cn/article/T0iH5X6AzL5jSe12ktdk?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 28 Mar 2026 15:00:00 GMT",
+      "region": "国内",
+      "summary": "AI的高能耗与硬件快速淘汰对绿色IT构成挑战。专家Ludi Akue指出，大规模AI服务的推理能耗可能在部署后数月内超过训练成本，而现有技术如模型压缩和量化虽能提升2-4倍推理效率，但能耗总量仍在增长。",
+      "category": "技术与研究",
+      "company": "Bpifrance",
+      "score": 20,
+      "breakdown": {
+        "substance": 3,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "海淀AI人才规模全球领先，多元生态推动创新热潮",
+      "url": "https://www.qbitai.com/2026/03/392996.html",
+      "snippet": "最强大脑，海淀集结",
+      "source": "量子位",
+      "publishedAt": "Sun, 29 Mar 2026 01:09:41 +0000",
+      "region": "国内",
+      "summary": "目前，海淀AI人才总量已达到9万人，而硅谷AI人才为7.4万，上海7.2万，杭州大概3.4万。不难看出， 海淀的AI人才集聚规模、人才密集度，在全国乃至全球都处于领先水平。“国外是在某些方向上非常深入，相对聚焦。",
+      "category": "技术与研究",
+      "company": "心影随形",
+      "score": 22,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "投融资与并购": [],
+  "政策与监管": []
+}
