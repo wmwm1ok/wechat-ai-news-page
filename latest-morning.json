@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/28",
+  "date": "2026/3/29",
   "edition": "morning",
   "editionLabel": "早报",
   "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/3/28 08:02",
+  "generatedAt": "2026/3/29 08:04",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-27-afternoon.json",
+    "previousEditionFile": "news-2026-03-28-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 16,
-      "overseasBeforeDedup": 17,
-      "domesticAfterDedup": 16,
-      "overseasAfterDedup": 17,
+      "domesticBeforeDedup": 24,
+      "overseasBeforeDedup": 12,
+      "domesticAfterDedup": 23,
+      "overseasAfterDedup": 12,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -42,28 +42,28 @@
         },
         {
           "source": "雷锋网",
-          "ok": false,
-          "count": 0,
-          "error": "Request timed out after 10000ms"
+          "ok": true,
+          "count": 8,
+          "error": null
         }
       ],
       "overseasSources": [
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 10,
+          "count": 8,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 5,
+          "count": 3,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 2,
+          "count": 1,
           "error": null
         }
       ],
@@ -76,71 +76,51 @@
       }
     },
     "summarize": {
-      "totalSummarized": 33
+      "totalSummarized": 35
     },
     "scoring": {
-      "totalInput": 33,
-      "totalScored": 21,
-      "strictScoredCount": 17,
-      "relaxedCandidateCount": 4,
+      "totalInput": 35,
+      "totalScored": 15,
+      "strictScoredCount": 12,
+      "relaxedCandidateCount": 3,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 5,
-      "selectedCandidateCount": 21,
-      "duplicateCount": 5,
-      "crossDayDuplicateCount": 3,
-      "lowQualityCount": 1,
-      "domesticAvailable": 13,
-      "overseasAvailable": 8,
+      "weakSummaryCount": 6,
+      "selectedCandidateCount": 15,
+      "duplicateCount": 12,
+      "crossDayDuplicateCount": 5,
+      "lowQualityCount": 5,
+      "domesticAvailable": 10,
+      "overseasAvailable": 5,
       "sourceCount": {
-        "36氪": 4,
-        "量子位": 5,
-        "InfoQ": 4,
+        "36氪": 2,
+        "量子位": 3,
+        "InfoQ": 3,
+        "雷锋网": 2,
         "TechCrunch AI": 4,
-        "Ars Technica": 2,
-        "MIT Technology Review": 2
+        "MIT Technology Review": 1
       }
     },
     "display": {
-      "refinedCount": 21,
+      "refinedCount": 15,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 6,
-      "postEditionFilterCount": 15,
-      "displayReadyCount": 14,
-      "fallbackDisplayCount": 1,
-      "removedWeakSummaries": 1,
+      "integrityRemovedCount": 1,
+      "postEditionFilterCount": 14,
+      "displayReadyCount": 10,
+      "fallbackDisplayCount": 4,
+      "removedWeakSummaries": 4,
       "shortage": 0
     }
   },
   "articles": [
     {
-      "section": "产品发布与更新",
-      "title": "云知声大模型收入暴涨1076% 全年营收12亿转型AGI公司",
-      "company": "云知声",
-      "url": "https://www.qbitai.com/2026/03/392789.html",
+      "section": "技术与研究",
+      "title": "天工AI开源Matrix-Game 3.0世界模型，实现全模态交互",
+      "company": "天工AI",
+      "url": "https://www.qbitai.com/2026/03/392835.html",
       "source": "量子位",
-      "publishedAt": "Fri, 27 Mar 2026 08:48:53 +0000",
-      "summary": "云知声2025年财报显示，其大模型业务收入同比暴涨1076%，成为公司转型为AGI公司的核心驱动力。",
-      "score": 45
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "趋境科技发布ATaaS：全球领先的高效能AI Token生产服务平台",
-      "company": "趋境科技",
-      "url": "https://www.qbitai.com/2026/03/392896.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 27 Mar 2026 19:14:16 +0000",
-      "summary": "趋境科技发布全新AI推理平台“趋境ATaaS”，旨在解决AI应用规模扩大后算力成本高但Token产出效率低的问题。该平台通过深度融合CPU与GPU、国产与非国产算力，并基于任务特征智能分流（如CPU处理低密度任务，国产卡处理Prefill阶段），以优化资源调度。",
-      "score": 29
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "趣冲健身推出多款自研AI智能健身设备，构建多品牌生态",
-      "company": "趣冲健身",
-      "url": "https://36kr.com/p/3740892215623942?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-27 16:28:46  +0800",
-      "summary": "一个庞大的万亿级健康消费市场正加速形成。根据国际健身协会（IFAI）等报告显示，近年来，数字健身市场增速高达41.4%，全球健身行业规模预计2030年达1.5万亿美元。其中，中国健康产业规模在2025年已突破10万亿元规模，健康生活服务赛道以每年超15%增速增长。但硬件只是入口。",
-      "score": 46
+      "publishedAt": "Fri, 27 Mar 2026 14:08:24 +0000",
+      "summary": "天工AI开源了Matrix-Game 3.0世界模型，其核心是学习状态转移参数，能根据当前状态和动作预测下一时刻状态，具备动态性、可交互性和物理一致性。该模型实现了从生成视频到生成可交互环境、从离线生成到实时交互等关键跃迁。",
+      "score": 41
     },
     {
       "section": "技术与研究",
@@ -149,48 +129,78 @@
       "url": "https://www.infoq.cn/article/cuHaMeYSqw3dOYHW1P8A?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Fri, 27 Mar 2026 18:52:19 GMT",
-      "summary": "非营利组织AI Commons Project与What We Will推出了首个针对AI失业的“AI红利”基本收入试验计划，旨在为受生成式AI冲击的失业者提供经济支持与职业转型帮助。该计划已开始发放补助，首波25至50名参与者每月无条件获得1000美元，持续一年，总预算约30万美元。",
-      "score": 40
+      "summary": "非营利组织AI Commons Project与What We Will联合启动了首个针对AI失业的“AI红利”基本收入试验计划。该计划已开始向首批25至50名受助者发放补助，每人每月1000美元，持续一年，总预算约30万美元。",
+      "score": 34
     },
     {
       "section": "技术与研究",
-      "title": "天工AI开源Matrix-Game 3.0世界模型，实现全模态交互",
-      "company": "天工AI",
-      "url": "https://www.qbitai.com/2026/03/392835.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 27 Mar 2026 14:08:24 +0000",
-      "summary": "天工AI开源了Matrix-Game 3.0世界模型，其核心是学习状态转移参数，能根据当前状态和动作预测下一时刻状态，具备动态性、可交互性和物理一致性。该模型实现了从生成视频到生成可交互环境、从离线生成到实时交互的关键跃迁。",
-      "score": 39
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI已能写80%代码但Agent存短板，OpenAI技术总监谈开发工具挑战",
+      "title": "AI已能写80%代码但Agent有短板，OpenAI技术总监谈开发工具与工程师能力",
       "company": "OpenAI",
       "url": "https://www.infoq.cn/article/bycqtv38Ng71KoUjC0bH?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Fri, 27 Mar 2026 16:37:20 GMT",
-      "summary": "OpenAI Codex技术总监Michael Bolin在访谈中指出，AI虽能完成80%的代码编写，但存在关键短板：AI代理（Agent）若‘问错问题’比不会写代码更麻烦。他以自身经历举例，如在Facebook尝试优化Web加载速度时，因不熟悉该领域而遇到挑战。",
-      "score": 37
+      "summary": "OpenAI Codex技术总监Michael Bolin在访谈中指出，AI虽能完成大量代码编写，但存在‘问错问题比不会写代码更麻烦’的Agent短板。他以自身在FAANG公司的经验为例，强调工程师需培养影响力，并分享了具体项目挑战：在Harness项目中，若底层模型不佳，上层优化意义有限。",
+      "score": 30
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Anthropic旗下Claude在付费消费者中人气飙升",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 28 Mar 2026 14:15:00 +0000",
+      "summary": "Anthropic公司旗下AI助手Claude的付费订阅量在今年已增长一倍以上，这主要得益于其新功能的推动。具体而言，今年1月发布的开发者工具Claude Code和生产力工具Claude Cowork是增长的重要驱动力。",
+      "score": 24
+    },
+    {
+      "section": "政策与监管",
+      "title": "1.9万行AI生成代码进入Node.js核心库引发社区争议",
+      "company": "Claude",
+      "url": "https://www.infoq.cn/article/WryxXgBQWKB29rkoxuLo?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 27 Mar 2026 18:30:30 GMT",
+      "summary": "一位贡献者利用Claude Code AI工具生成了约1.9万行代码，提交至Node.js核心库以实现虚拟文件系统功能。该贡献者表示，AI负责生成了同步、回调、Promise等不同方法变体、配置测试以及文档，而自己专注于架构设计和代码审查，使项目在假期完成。",
+      "score": 23
+    },
+    {
+      "section": "技术与研究",
+      "title": "斯坦福研究揭示向AI聊天机器人寻求个人建议的风险",
+      "company": "Stanford",
+      "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 28 Mar 2026 20:45:54 +0000",
+      "summary": "斯坦福大学的研究通过两部分实验揭示了AI聊天机器人倾向于讨好用户的风险。首先，研究人员测试了包括ChatGPT、Claude在内的11个大模型，发现AI在回答基于人际关系建议、有害或非法行为以及Reddit争议帖的查询时，平均比人类多49%的概率认可用户行为，甚至在Reddit案例中认可率高达51%。",
+      "score": 21
     },
     {
       "section": "投融资与并购",
-      "title": "知乎首次实现全年Non-GAAP盈利，AI赋能驱动估值重估",
-      "company": "知乎",
-      "url": "https://36kr.com/p/3740850993037312?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-27 16:02:11  +0800",
-      "summary": "知乎发布2025年财报，首次实现全年Non-GAAP盈利，经调整净利润为3790万元。具体来看，AI赋能是核心驱动力：公司将“知乎直答”升级为智能助手并置于APP一级入口，提升了内容生产与分发效率。同时，付费阅读业务表现亮眼，其IP版权收入在2025年第四季度同比增长超5倍。",
-      "score": 27
-    },
-    {
-      "section": "投融资与并购",
-      "title": "软银获400亿美元贷款，或为OpenAI 2026年IPO铺路",
-      "company": "SoftBank, OpenAI",
+      "title": "软银新获400亿美元贷款，或指向OpenAI 2026年IPO",
+      "company": "SoftBank",
       "url": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
       "source": "TechCrunch AI",
       "publishedAt": "Fri, 27 Mar 2026 21:44:45 +0000",
-      "summary": "软银集团周五宣布，已获得摩根大通、高盛及四家日本银行提供的400亿美元无抵押贷款，期限仅为12个月。这笔贷款的主要用途是帮助软银履行其对OpenAI的300亿美元投资承诺，该承诺是OpenAI上月创纪录的1100亿美元融资的一部分。",
-      "score": 26
+      "summary": "软银集团周五宣布，已获得摩根大通、高盛及四家日本银行提供的400亿美元无担保贷款，期限仅为12个月。这笔贷款旨在帮助软银履行其对OpenAI的300亿美元投资承诺，该承诺是OpenAI上月创纪录的110亿美元融资的一部分。",
+      "score": 20
+    },
+    {
+      "section": "技术与研究",
+      "title": "科学家首次实现人体子宫在体外存活",
+      "company": "无",
+      "url": "https://www.technologyreview.com/2026/03/28/1134766/womans-uterus-kept-alive-outside-the-body-first/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Sat, 28 Mar 2026 09:00:00 +0000",
+      "summary": "西班牙研究团队首次成功将人类子宫在体外维持存活24小时。该研究通过一个带轮子的金属箱装置，将子宫血管连接到柔性塑料管，并用人造血液持续灌注，同时监测血糖、氧气水平并过滤废物。这项技术旨在解决子宫移植手术中器官保存时间短的难题，未来有望帮助研究子宫疾病、胚胎着床机制，甚至可能支持完整的人类胎儿体外发育。",
+      "score": 20
+    },
+    {
+      "section": "技术与研究",
+      "title": "中关村论坛举办AI2026闭门会 探讨人机共生与组织重构",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/03/392981.html",
+      "source": "量子位",
+      "publishedAt": "Sat, 28 Mar 2026 10:51:46 +0000",
+      "summary": "3月27日，中关村论坛举办AI闭门会，探讨AI如何重塑组织。中欧国际工商学院方跃教授指出，AI正从对话工具变为‘数字劳动力’，竞争焦点转向认知校准与落地深耕。他强调应将AI当作‘人才’培养，通过设立首席AI官等机制完善治理，以实现人机共生与组织‘超级智体’进化。",
+      "score": 19
     },
     {
       "section": "政策与监管",
@@ -199,58 +209,48 @@
       "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
       "source": "TechCrunch AI",
       "publishedAt": "Fri, 27 Mar 2026 01:18:38 +0000",
-      "summary": "联邦法官裁定支持AI公司Anthropic，撤销了特朗普政府将其列为“供应链风险”并切断合作关系的命令。具体信息点包括：1. 争议源于Anthropic试图限制政府使用其AI模型的方式，例如禁止用于自主武器系统或大规模监控。",
-      "score": 22
+      "summary": "一家联邦法院法官裁决支持AI公司Anthropic，撤销了特朗普政府将其列为‘供应链风险’并切断联邦机构联系的命令。事件起因是Anthropic试图限制政府对其AI模型的使用方式，例如禁止用于自主武器系统或大规模监控，而政府拒绝接受这些限制。",
+      "score": 18
+    },
+    {
+      "section": "投融资与并购",
+      "title": "曹操出行2025年业绩：Q4首次实现调整后盈利，毛利率提升至9.4%",
+      "company": "曹操出行",
+      "url": "https://36kr.com/p/3741142695117059?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-28 08:19:02  +0800",
+      "summary": "这在当前流量内卷的“聚合平台”模式下展现出明显优势。由于前端流量入口高度集中，后端的履约质量却成了最大的“黑盒”。在海量同质化的运力供给中，曹操出行凭借定制车与标准化服务的强管控，提供了稀缺的“履约确定性”，从而在聚合生态中形成了极强的品牌辨识度， 成功抢占用户心智，无形中影响用户的选择。",
+      "score": 43
     },
     {
       "section": "技术与研究",
-      "title": "AI Agent场景下的数据库架构实践：从数据存储到记忆机制",
-      "company": "",
-      "url": "https://www.infoq.cn/article/9OKvpT7uHXxYJBkKYyrf?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 27 Mar 2026 16:14:09 GMT",
-      "summary": "文章指出，AI Agent需要超越传统数据库的简单存储，构建能实现跨会话、跨任务连续工作的“记忆机制”。文中以数据分析任务为例，说明将数据存入数据库并用SQL进行确定性处理，可避免依赖大模型的幻觉，使分析可工程化。",
-      "score": 33
+      "title": "vivo胡柏山谈AI时代战略：以感知理解为核心差异化",
+      "company": "vivo",
+      "url": "https://www.leiphone.com/category/transportation/bwopMLHjQzO59aB5.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 27 Mar 2026 19:15:00 +0800",
+      "summary": "第三层是感知理解——场景识别、语义分割、空间建模、情绪感知等AI能力，决定了\"看得懂\"的深度。这是vivo感知战略的核心差异化所在。在这一层，vivo的蓝心大模型矩阵发挥着关键作用。",
+      "score": 26
+    },
+    {
+      "section": "投融资与并购",
+      "title": "美团加速减亏，外卖利润有望改善，AI投入持续",
+      "company": "美团",
+      "url": "https://www.leiphone.com/category/industrynews/JulyEDdDobCgMAl0.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 27 Mar 2026 19:50:00 +0800",
+      "summary": "在具备自研模型能力后，美团尝试与第三方模型合作，率先将主APP升级为AI驱动型应用。“在我们看来，所谓‘超级入口’之争，本质上是精准理解用户需求，高效执行服务的能力之争。”王兴补充，这远非一个智能聊天机器人那么简单。尤其本地生活场景高度复杂，中小商家实时经营数据繁多，大量商家尚未完成全面数字化。",
+      "score": 24
     },
     {
       "section": "技术与研究",
-      "title": "AI生成代码泛滥冲击开源社区：从协作圣地到垃圾洪水，维护者士气受挫",
-      "company": "",
-      "url": "https://www.infoq.cn/article/xic3EKabhq6RYYa9mNIP?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 27 Mar 2026 16:20:05 GMT",
-      "summary": "开源社区正被AI生成的‘垃圾代码’（AI Slop）淹没，这类代码看似合理但常包含错误或修复不存在的漏洞，严重增加了维护者的审核负担。具体表现为：cURL项目因AI提交占比达20%且有效率从往年水平骤降至5%，最终终止了运行六年的漏洞悬赏计划。",
-      "score": 28
-    },
-    {
-      "section": "政策与监管",
-      "title": "法官裁定特朗普无权将Anthropic列入黑名单",
-      "company": "Anthropic",
-      "url": "https://arstechnica.com/tech-policy/2026/03/hegseth-trump-had-no-authority-to-order-anthropic-to-be-blacklisted-judge-says/",
-      "source": "Ars Technica",
-      "publishedAt": "Fri, 27 Mar 2026 19:49:18 +0000",
-      "summary": "法官裁定特朗普政府无权将AI公司Anthropic列入黑名单，理由是其战争部未能提供合理依据。具体而言，法官认为任何IT供应商都可能带来类似风险，且Anthropic已提供证据表明无法强制更新或控制政府系统，国家安全风险可通过终止合同来规避。",
-      "score": 22
-    },
-    {
-      "section": "技术与研究",
-      "title": "为何有人选择死后冷冻保存身体和大脑",
-      "company": "",
-      "url": "https://www.technologyreview.com/2026/03/27/1134705/cryonics-store-bodies-brains-after-death/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Fri, 27 Mar 2026 09:00:00 +0000",
-      "summary": "文章探讨了人们选择人体冷冻技术的原因。具体信息点包括：1. 首例冷冻者是1967年因肾癌去世的心理学教授James Bedford，由非专业机构操作；2. 老年学家L. Stephen Coles在2014年因胰腺癌去世后，其大脑被保存在-146°C的设施中。",
+      "title": "华为盘古大模型负责人王云鹤离职，投身AI Agent创业",
+      "company": "华为",
+      "url": "https://www.qbitai.com/2026/03/392903.html",
+      "source": "量子位",
+      "publishedAt": "Sat, 28 Mar 2026 06:01:23 +0000",
+      "summary": "而进入华为之后，王云鹤的升职路径也可以说十分顺遂。2021年任算法应用部部长前，基本上是每年一升。2025年，在原诺亚方舟实验室主任姚骏内部调岗之后，王云鹤这位“90后”接任诺亚方舟实验室主任一职，成为盘古大模型负责人。",
       "score": 19
-    },
-    {
-      "section": "政策与监管",
-      "title": "大卫·萨克斯卸任AI事务负责人，将远离华盛顿权力中心",
-      "company": "无",
-      "url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 27 Mar 2026 01:26:40 +0000",
-      "summary": "大卫·萨克斯卸任AI事务负责人，将远离华盛顿权力中心。他近期在播客中公开呼吁政府从美国支持的伊朗战争中抽身，这可能影响了其职位变动。卸任后，他所在的委员会将专注于推动特朗普政府上周发布的全国性AI框架，旨在统一各州混乱的监管规则。",
-      "score": 17
     }
   ]
 }
