@@ -1,0 +1,176 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "Claude 90分钟发现20年漏洞，5万星安全系统被攻破",
+      "url": "https://www.qbitai.com/2026/03/393186.html",
+      "snippet": "相关能力已远超人们预期，且正在指数级增长",
+      "source": "量子位",
+      "publishedAt": "Sun, 29 Mar 2026 16:17:28 +0000",
+      "region": "国内",
+      "summary": "Anthropic公司最新发布的Claude Opus 4.6模型在90分钟内，于一个拥有5万GitHub星标、已有20年历史的开源软件库中，自主识别并验证了超过500个此前从未被社区或专业工具发现的高危安全漏洞。",
+      "category": "产品发布与更新",
+      "company": "Claude",
+      "score": 42,
+      "breakdown": {
+        "substance": 17,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "何同学展示ArkClaw：跨平台AI数字分身可指挥3D打印",
+      "url": "https://www.qbitai.com/2026/03/393085.html",
+      "snippet": "属于全民Agent的时代，才算真正拉开了序幕",
+      "source": "量子位",
+      "publishedAt": "Sun, 29 Mar 2026 15:21:42 +0000",
+      "region": "国内",
+      "summary": "何同学展示的ArkClaw AI数字分身，核心变化是打破了应用孤岛，能作为统一助手在微信、飞书、微博等多个平台执行任务，并能通过IoT端口直接指挥3D打印机。其能力基于火山引擎豆包大模型，具体包括用于视频理解的Seedance 2.0、语音播客模型等，确保准确执行。",
+      "category": "产品发布与更新",
+      "company": "火山引擎",
+      "score": 30,
+      "breakdown": {
+        "substance": 10,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Anthropic的Claude付费用户数量激增",
+      "url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+      "snippet": "Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch that Claude paid subscriptions have more than doubled this year.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 28 Mar 2026 14:15:00 +0000",
+      "region": "海外",
+      "summary": "Anthropic未公布Claude总用户数，但发言人证实其付费订阅量今年已增长超一倍。增长主要得益于今年1月发布的开发者工具Claude Code和生产力工具Claude Cowork，以及本周推出的、允许Claude独立操作电脑的“计算机使用”功能。",
+      "category": "产品发布与更新",
+      "company": "Anthropic",
+      "score": 26,
+      "breakdown": {
+        "substance": 6,
+        "importance": 5,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "亮亮视野与智谱AI推出全球首创AR+AI会议翻译系统，部署于中关村论坛",
+      "url": "https://36kr.com/p/3743855989587971?f=rss",
+      "snippet": "在2026中关村论坛主会场，亮亮视野联合智谱AI推出并部署了全球首创的AR+AI会议翻译系统，为主论坛及多场平行论坛提供大会翻译保障。这套系统深度融合亮亮视野AR眼镜与智谱AI大模型能力，可支持54种语言实时翻译，延迟小于1秒，单次续航8小时，并可7×24小时稳定运行。这标志着国际会议翻译从传统设备和人工依赖，迈向更高效率、更低成本、更强普惠性的 AR+AI 新阶段。 长期以来，国际会议翻译领域始终受困于部署繁琐、成本高昂、语种覆盖有限、实时传递滞后等核心痛点。尤其在大型论坛、专业峰会等高端跨语言交流场景中，传统同传模式更受限于包厢搭建、接收设备调试、专业人工译员稀缺及会场信号不稳定等多重因素，既大幅增加活动组织方的筹备压力，也难以保障信息传递的准确性与一致性，制约跨语言沟通的效率与质量。 外籍嘉宾佩戴亮亮视野AR翻译眼镜接受媒体采访 自2025年起，亮亮视野聚焦国际会议翻译领域的效率升级，持续深耕更具可行性的创新解决方案，先后为IASP世界大会、北京文化论坛、中国高层发展论坛等一系列高规格国际盛会，提供专业AR翻译服务。本次与智谱AI联合打造的这套翻译系统，正是精准破解行业核心痛点，在大幅压缩部署成本的同时，显著提升翻译效率与使用体验的突破性创新解法。 据介绍，该系统通过AR眼镜直接呈现实时字幕，参会者无需额外耳机和复杂配对，即可佩戴即用、开机4秒即进入工作状态。系统最高支持上万台设备统一接入与管理，适用于百人、千人级乃至更大规模的国际会议场景。与此同时，系统通过麦克风直传与高精度拾音技术，尽可能消除远距离收音带来的衰减，确保会场前后排获取到一致、清晰的信息，显著提升了大型会议的信息平权能力。 在翻译能力上，该系统将大模型翻译深度引入会议翻译场景，不仅支持54种语言实时转换，还可预录专业术语、嘉宾名单及专有名词，并具备动态纠错能力，进一步提升专业表达的准确度与稳定性。对于科技、外事、产业等高专业度场景而言，这意味着系统不再只是“翻译工具”，而是面向复杂国际沟通场景的智能基础设施。 《连线》杂志创始主编凯文·凯利体验亮亮视野AR翻译眼镜 亮亮视野创始人兼 CEO 吴斐表示，此次 AR+AI 会议翻译系统于中关村论坛主会场的正式部署，不仅实现了全球范围内技术路径与产品模式的双重首创，更有望重新定义全球国际会议翻译服务的行业标准范式。从先行先试的创新土壤到领跑全球的科创高地，北京之所以能持续坐稳全球科技创新中心的核心席位，离不开北京市政府对本土创新的包容托举、敢闯敢试的决心与实打实的推进力度。 未来，亮亮视野将与智谱 AI 持续深化协同，深耕 AR 显示、实时翻译与大模型能力的深度融合创新，推动国际会议、公共服务、专业交流等多元场景实现沟通效率与体验的双重升级，打造更高效、更包容、更智能的无障碍沟通生态，以自主科技创新为锚，以开放合作为桥，助力全球深度交流与世界文明互鉴。",
+      "source": "36氪",
+      "publishedAt": "2026-03-29 18:07:47  +0800",
+      "region": "国内",
+      "summary": "在2026中关村论坛主会场，亮亮视野联合智谱AI推出并部署了全球首创的AR+AI会议翻译系统，为主论坛及多场平行论坛提供大会翻译保障。这套系统深度融合亮亮视野AR眼镜与智谱AI大模型能力，可支持54种语言实时翻译，延迟小于1秒，单次续航8小时，并可7×24小时稳定运行。",
+      "category": "产品发布与更新",
+      "company": "亮亮视野",
+      "score": 29,
+      "breakdown": {
+        "substance": 13,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 7,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "MicroCoder突破代码大模型训练瓶颈：算法数据框架训练经验升级",
+      "url": "https://www.qbitai.com/2026/03/393164.html",
+      "snippet": "用34条经验破解现代代码模型训练瓶颈",
+      "source": "量子位",
+      "publishedAt": "Sun, 29 Mar 2026 16:11:35 +0000",
+      "region": "国内",
+      "summary": "剑桥大学李宗谦团队提出的MicroCoder框架，显著提升了代码大模型的训练效率。具体而言：1. 其数据集在相同训练条件下，性能增益是主流数据集DeepCoder的3倍，在LeetCode测试中带来约6.0个百分点的整体性能提升，且题目越难提升越明显。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 50,
+      "breakdown": {
+        "substance": 25,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Agent生产落地基石：可观测透视与评估飞轮的一体化建设实践",
+      "url": "https://www.infoq.cn/article/59OoAMNcs0oUDFTqevSI?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 28 Mar 2026 10:00:00 GMT",
+      "region": "国内",
+      "summary": "阿里云专家蔡健将在QCon北京大会分享Agent（智能体）可观测性与评估工程的实践。他提出，传统软件测试方法在评估AI Agent时面临质量验证失效、评估与用户反馈脱节、无法覆盖长尾意图等问题。",
+      "category": "技术与研究",
+      "company": "阿里云",
+      "score": 33,
+      "breakdown": {
+        "substance": 10,
+        "importance": 10,
+        "timeliness": 2,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Claude手搓3D建筑编辑器火爆GitHub，专业软件面临挑战",
+      "url": "https://www.qbitai.com/2026/03/393125.html",
+      "snippet": "还能2D、3D无缝联动",
+      "source": "量子位",
+      "publishedAt": "Sun, 29 Mar 2026 16:08:53 +0000",
+      "region": "国内",
+      "summary": "一款基于Claude开发的3D建筑编辑器在GitHub上引发关注。其核心特点是采用“套娃式”工具栏设计，将功能整合在主工具栏中，点击后可进一步选择精细的子功能，方便用户操作。编辑器支持直接点击切换多种视角，包括俯视、左右视角和360度全景，并提供了透视效果。",
+      "category": "技术与研究",
+      "company": "Claude",
+      "score": 27,
+      "breakdown": {
+        "substance": 1,
+        "importance": 6,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "周鸿祎中关村论坛演讲：智能体重塑产业格局 六大方向孕育新独角兽",
+      "url": "https://www.leiphone.com/category/industrynews/iA2xSIN36y7WQaJ4.html",
+      "snippet": "在日前举办的2026中关村论坛年会全球独角兽企业大会上，360集团创始人周鸿祎发表主题演讲，围绕以“龙虾”（OpenClaw）为代表的新一代智能体技术，系统阐述了人工智能加速演进所带来的产业变革机遇。他指出，2026年“龙虾”的走红，标志着智能体技术完成从极客圈层向社会大众的成功“破圈”。这不仅完成了智能体的大众普及，更将推动整个互联网基础设施、软件行业乃至各实体产业的全面重构，其中蕴藏着孕育新一代独角兽的海量机会。 一是AI原生基础设施的重构。周鸿祎指出，当前互联网体系主要围绕“人”的交互习惯构建，而在智能体时代，浏览器、搜索引擎、数据库乃至账号体系，都需要向“服务智能体”转型。这一全面重写和重塑底层基础框架的过程，本身就将孕育出新的平台型企业。二是软件产业向“原子化”演进。传统软件固守原有模式将难以为继，正从完整产品形态向底层化、模块化转变，成为供智能体灵活调用的“技能组件”。在这一模式下，软件如同“原材料”，智能体则是“厨师”和调度者，能够根据需求动态组合甚至重写功能。无需企业重做软件即可实现服务升级，彻底改变了软件的销售和使用逻辑，由此重塑企业服务形态并催生新一代软件巨头。三是垂直领域“定制智能体”的兴起。面对企业工作对稳定性、一致性与确定性的严苛要求，当前的通用智能体（如通用“龙虾”）仍偏向极客工具，难以直接满足复杂的标准化、流程化业务场景。同时，企业普遍缺乏打造专属智能体的能力，这让专业智能体、垂直行业智能体的定制业务拥有了巨大市场。这一趋势将推动智能体在金融、制造、政务等领域加速落地。 四是“一人公司（OPC）”等新型组织模式的出现。随着智能体作为“硅基伙伴”和“数字员工”的普及，将推动“一人公司”模式繁荣。创业者可以通过指挥由多个智能体组成的“数字团队”完成复杂任务，实现以更少人力达成更高效率。未来独角兽企业的人数或较现在减少10倍，围绕这一轻量化、高人效组织模式的商业创新，将重塑创新创业的基本逻辑。五是智能体驱动的“机器经济”生态形成。周鸿祎表示，未来智能体将作为互联网上的“新物种”，逐步具备独立的账号、通信乃至支付体系，能够代替人类自动完成信息处理与商业决策、交易履约。随着大量智能体相互协同，一个专属的智能体经济生态圈有望加速成型。 六是算力与能源等底层产业的联动升级。全天候运转的智能体应用将引发算力消耗呈百倍级增长，这将推动推理算力与训练算力分离，直接催生“推理芯片”产业的独立发展。同时，海量的算力需求将进一步传导至电力与能源体系，从而撬动电力配套，以及绿电、核电等上下游领域的万亿级市场，形成新的增长动能。周鸿祎表示，人工智能正从单点突破迈向系统性重构，智能体将成为连接技术创新与产业升级的重要载体。未来，360将继续加大对中关村人工智能赛道的投资力度，深度布局人形机器人研发及人工智能服务等细分领域。推动技术与产业深度融合，以开放共赢的心态培育创新生态，全面赋能个体与组织，携手孵化更多智能时代的超级企业，推动新一轮独角兽加速涌现。",
+      "source": "雷锋网",
+      "publishedAt": "Sun, 29 Mar 2026 17:38:00 +0800",
+      "region": "国内",
+      "summary": "一是AI原生基础设施的重构。周鸿祎指出，当前互联网体系主要围绕“人”的交互习惯构建，而在智能体时代，浏览器、搜索引擎、数据库乃至账号体系，都需要向“服务智能体”转型。这一全面重写和重塑底层基础框架的过程，本身就将孕育出新的平台型企业。二是软件产业向“原子化”演进。",
+      "category": "技术与研究",
+      "company": "360集团",
+      "score": 19,
+      "breakdown": {
+        "substance": 6,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 4,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "投融资与并购": [],
+  "政策与监管": []
+}

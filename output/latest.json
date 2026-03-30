@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/29",
-  "edition": "afternoon",
-  "editionLabel": "午后版",
-  "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/29 16:02",
-  "count": 6,
+  "date": "2026/3/30",
+  "edition": "morning",
+  "editionLabel": "早报",
+  "title": "AI 日报·早报（Morning）",
+  "generatedAt": "2026/3/30 08:03",
+  "count": 8,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-29-morning.json",
+    "previousEditionFile": "news-2026-03-29-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 23,
-      "overseasBeforeDedup": 10,
-      "domesticAfterDedup": 22,
-      "overseasAfterDedup": 10,
+      "domesticBeforeDedup": 18,
+      "overseasBeforeDedup": 6,
+      "domesticAfterDedup": 18,
+      "overseasAfterDedup": 6,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 7,
+          "count": 2,
           "error": null
         }
       ],
@@ -51,19 +51,19 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 6,
+          "count": 5,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 1,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         }
       ],
@@ -76,98 +76,120 @@
       }
     },
     "summarize": {
-      "totalSummarized": 32
+      "totalSummarized": 24
     },
     "scoring": {
-      "totalInput": 32,
-      "totalScored": 8,
+      "totalInput": 24,
+      "totalScored": 10,
       "strictScoredCount": 8,
-      "relaxedCandidateCount": 0,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
       "weakSummaryCount": 7,
-      "selectedCandidateCount": 8,
-      "duplicateCount": 12,
-      "crossDayDuplicateCount": 10,
-      "lowQualityCount": 8,
-      "domesticAvailable": 8,
-      "overseasAvailable": 0,
+      "selectedCandidateCount": 10,
+      "duplicateCount": 5,
+      "crossDayDuplicateCount": 4,
+      "lowQualityCount": 6,
+      "domesticAvailable": 9,
+      "overseasAvailable": 1,
       "sourceCount": {
-        "InfoQ": 4,
+        "量子位": 5,
         "36氪": 2,
-        "量子位": 2
+        "InfoQ": 1,
+        "TechCrunch AI": 1,
+        "雷锋网": 1
       }
     },
     "display": {
-      "refinedCount": 8,
-      "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 6,
-      "displayReadyCount": 5,
-      "fallbackDisplayCount": 1,
-      "removedWeakSummaries": 1,
-      "shortage": 8
+      "refinedCount": 10,
+      "previousEditionRemovedCount": 1,
+      "integrityRemovedCount": 1,
+      "postEditionFilterCount": 8,
+      "displayReadyCount": 6,
+      "fallbackDisplayCount": 2,
+      "removedWeakSummaries": 2,
+      "shortage": 6
     }
   },
   "articles": [
     {
       "section": "技术与研究",
-      "title": "Vercel 开源生成式 UI 框架 JSON-Render，支持多前端框架",
-      "company": "Vercel",
-      "url": "https://www.infoq.cn/article/oUFPIuuKIsT8UFEYVkTG?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 29 Mar 2026 15:00:00 GMT",
-      "summary": "Vercel开源了生成式UI框架JSON-Render，允许AI根据自然语言提示生成结构化界面。其核心方法是：开发者先用Zod schema定义可用的组件目录，然后大语言模型生成受此目录约束的JSON规范，框架在模型流式输出时就能逐步渲染出最终界面。",
-      "score": 41
-    },
-    {
-      "section": "技术与研究",
-      "title": "Rust 的独特之处不只内存安全：来自自主机器人的启示",
+      "title": "MicroCoder突破代码大模型训练瓶颈：算法数据框架训练经验升级",
       "company": "",
-      "url": "https://www.infoq.cn/article/Ru7tUbogi8Rek26YPeGN?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 29 Mar 2026 11:00:00 GMT",
-      "summary": "文章以自主机器人开发为例，展示了Rust语言如何利用其类型系统和所有权模型，在编译时强制保证程序逻辑的正确性。具体体现在：第一，通过泛型状态（如Robot<Uninit>和Robot<Init>）确保机器人必须按“初始化→分配任务”的顺序执行操作，防止状态错误。",
-      "score": 24
+      "url": "https://www.qbitai.com/2026/03/393164.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 29 Mar 2026 16:11:35 +0000",
+      "summary": "剑桥大学李宗谦团队提出的MicroCoder框架，显著提升了代码大模型的训练效率。具体而言：1. 其数据集在相同训练条件下，性能增益是主流数据集DeepCoder的3倍，在LeetCode测试中带来约6.0个百分点的整体性能提升，且题目越难提升越明显。",
+      "score": 50
     },
     {
       "section": "产品发布与更新",
-      "title": "趋境科技发布ATaaS：全球领先的高效能AI Token生产服务平台",
-      "company": "趋境科技",
-      "url": "https://www.qbitai.com/2026/03/392896.html",
+      "title": "Claude 90分钟发现20年漏洞，5万星安全系统被攻破",
+      "company": "Claude",
+      "url": "https://www.qbitai.com/2026/03/393186.html",
       "source": "量子位",
-      "publishedAt": "Fri, 27 Mar 2026 19:14:16 +0000",
-      "summary": "趋境科技发布全新AI推理平台“趋境ATaaS”，旨在解决AI应用扩展导致Token需求激增，而算力成本高昂、投入与产出不匹配的行业难题。该平台通过提升算力调度效率、优化推理过程，并深度融合CPU+GPU及国产与非国产算力异构技术，将计算任务智能分流（如CPU处理低密度任务。",
-      "score": 21
+      "publishedAt": "Sun, 29 Mar 2026 16:17:28 +0000",
+      "summary": "Anthropic公司最新发布的Claude Opus 4.6模型在90分钟内，于一个拥有5万GitHub星标、已有20年历史的开源软件库中，自主识别并验证了超过500个此前从未被社区或专业工具发现的高危安全漏洞。",
+      "score": 42
     },
     {
       "section": "技术与研究",
-      "title": "小红书在QCon北京分享面向生产的AgentOps：AI Agent应用工程化实践",
-      "company": "小红书",
-      "url": "https://www.infoq.cn/article/dl0kKEXKi8PSDB6xP53B?utm_source=rss&utm_medium=article",
+      "title": "Agent生产落地基石：可观测透视与评估飞轮的一体化建设实践",
+      "company": "阿里云",
+      "url": "https://www.infoq.cn/article/59OoAMNcs0oUDFTqevSI?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Sun, 29 Mar 2026 10:00:00 GMT",
-      "summary": "小红书可观测团队负责人王亚普将在QCon北京大会上，分享其团队如何将AI Agent应用工程化的实践经验。具体内容包括：构建以AI Trace为核心的数据底座，实现在线与离线的双轨评估机制，从而形成AI Agent迭代的工程闭环，旨在解决AI Agent在生产环境中的可观测性与高效迭代问题。",
-      "score": 21
+      "publishedAt": "Sat, 28 Mar 2026 10:00:00 GMT",
+      "summary": "阿里云专家蔡健将在QCon北京大会分享Agent（智能体）可观测性与评估工程的实践。他提出，传统软件测试方法在评估AI Agent时面临质量验证失效、评估与用户反馈脱节、无法覆盖长尾意图等问题。",
+      "score": 33
     },
     {
-      "section": "技术与研究",
-      "title": "绿色IT：如何减轻AI对环境的影响",
-      "company": "Bpifrance",
-      "url": "https://www.infoq.cn/article/T0iH5X6AzL5jSe12ktdk?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sat, 28 Mar 2026 15:00:00 GMT",
-      "summary": "AI的高能耗与硬件快速淘汰对绿色IT构成挑战。专家Ludi Akue指出，大规模AI服务的推理能耗可能在部署后数月内超过训练成本，而现有技术如模型压缩和量化虽能提升2-4倍推理效率，但能耗总量仍在增长。",
-      "score": 20
-    },
-    {
-      "section": "技术与研究",
-      "title": "海淀AI人才规模全球领先，多元生态推动创新热潮",
-      "company": "心影随形",
-      "url": "https://www.qbitai.com/2026/03/392996.html",
+      "section": "产品发布与更新",
+      "title": "何同学展示ArkClaw：跨平台AI数字分身可指挥3D打印",
+      "company": "火山引擎",
+      "url": "https://www.qbitai.com/2026/03/393085.html",
       "source": "量子位",
-      "publishedAt": "Sun, 29 Mar 2026 01:09:41 +0000",
-      "summary": "目前，海淀AI人才总量已达到9万人，而硅谷AI人才为7.4万，上海7.2万，杭州大概3.4万。不难看出， 海淀的AI人才集聚规模、人才密集度，在全国乃至全球都处于领先水平。“国外是在某些方向上非常深入，相对聚焦。",
-      "score": 22
+      "publishedAt": "Sun, 29 Mar 2026 15:21:42 +0000",
+      "summary": "何同学展示的ArkClaw AI数字分身，核心变化是打破了应用孤岛，能作为统一助手在微信、飞书、微博等多个平台执行任务，并能通过IoT端口直接指挥3D打印机。其能力基于火山引擎豆包大模型，具体包括用于视频理解的Seedance 2.0、语音播客模型等，确保准确执行。",
+      "score": 30
+    },
+    {
+      "section": "技术与研究",
+      "title": "Claude手搓3D建筑编辑器火爆GitHub，专业软件面临挑战",
+      "company": "Claude",
+      "url": "https://www.qbitai.com/2026/03/393125.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 29 Mar 2026 16:08:53 +0000",
+      "summary": "一款基于Claude开发的3D建筑编辑器在GitHub上引发关注。其核心特点是采用“套娃式”工具栏设计，将功能整合在主工具栏中，点击后可进一步选择精细的子功能，方便用户操作。编辑器支持直接点击切换多种视角，包括俯视、左右视角和360度全景，并提供了透视效果。",
+      "score": 27
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Anthropic的Claude付费用户数量激增",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 28 Mar 2026 14:15:00 +0000",
+      "summary": "Anthropic未公布Claude总用户数，但发言人证实其付费订阅量今年已增长超一倍。增长主要得益于今年1月发布的开发者工具Claude Code和生产力工具Claude Cowork，以及本周推出的、允许Claude独立操作电脑的“计算机使用”功能。",
+      "score": 26
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "亮亮视野与智谱AI推出全球首创AR+AI会议翻译系统，部署于中关村论坛",
+      "company": "亮亮视野",
+      "url": "https://36kr.com/p/3743855989587971?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-29 18:07:47  +0800",
+      "summary": "在2026中关村论坛主会场，亮亮视野联合智谱AI推出并部署了全球首创的AR+AI会议翻译系统，为主论坛及多场平行论坛提供大会翻译保障。这套系统深度融合亮亮视野AR眼镜与智谱AI大模型能力，可支持54种语言实时翻译，延迟小于1秒，单次续航8小时，并可7×24小时稳定运行。",
+      "score": 29
+    },
+    {
+      "section": "技术与研究",
+      "title": "周鸿祎中关村论坛演讲：智能体重塑产业格局 六大方向孕育新独角兽",
+      "company": "360集团",
+      "url": "https://www.leiphone.com/category/industrynews/iA2xSIN36y7WQaJ4.html",
+      "source": "雷锋网",
+      "publishedAt": "Sun, 29 Mar 2026 17:38:00 +0800",
+      "summary": "一是AI原生基础设施的重构。周鸿祎指出，当前互联网体系主要围绕“人”的交互习惯构建，而在智能体时代，浏览器、搜索引擎、数据库乃至账号体系，都需要向“服务智能体”转型。这一全面重写和重塑底层基础框架的过程，本身就将孕育出新的平台型企业。二是软件产业向“原子化”演进。",
+      "score": 19
     }
   ]
 }

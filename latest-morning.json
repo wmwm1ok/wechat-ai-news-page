@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/29",
+  "date": "2026/3/30",
   "edition": "morning",
   "editionLabel": "早报",
   "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/3/29 08:04",
-  "count": 14,
+  "generatedAt": "2026/3/30 08:03",
+  "count": 8,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-28-afternoon.json",
+    "previousEditionFile": "news-2026-03-29-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 24,
-      "overseasBeforeDedup": 12,
-      "domesticAfterDedup": 23,
-      "overseasAfterDedup": 12,
+      "domesticBeforeDedup": 18,
+      "overseasBeforeDedup": 6,
+      "domesticAfterDedup": 18,
+      "overseasAfterDedup": 6,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 8,
+          "count": 2,
           "error": null
         }
       ],
@@ -51,19 +51,19 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 8,
+          "count": 5,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 1,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         }
       ],
@@ -76,180 +76,119 @@
       }
     },
     "summarize": {
-      "totalSummarized": 35
+      "totalSummarized": 24
     },
     "scoring": {
-      "totalInput": 35,
-      "totalScored": 15,
-      "strictScoredCount": 12,
-      "relaxedCandidateCount": 3,
+      "totalInput": 24,
+      "totalScored": 10,
+      "strictScoredCount": 8,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 6,
-      "selectedCandidateCount": 15,
-      "duplicateCount": 12,
-      "crossDayDuplicateCount": 5,
-      "lowQualityCount": 5,
-      "domesticAvailable": 10,
-      "overseasAvailable": 5,
+      "weakSummaryCount": 7,
+      "selectedCandidateCount": 10,
+      "duplicateCount": 5,
+      "crossDayDuplicateCount": 4,
+      "lowQualityCount": 6,
+      "domesticAvailable": 9,
+      "overseasAvailable": 1,
       "sourceCount": {
+        "量子位": 5,
         "36氪": 2,
-        "量子位": 3,
-        "InfoQ": 3,
-        "雷锋网": 2,
-        "TechCrunch AI": 4,
-        "MIT Technology Review": 1
+        "InfoQ": 1,
+        "TechCrunch AI": 1,
+        "雷锋网": 1
       }
     },
     "display": {
-      "refinedCount": 15,
-      "previousEditionRemovedCount": 0,
+      "refinedCount": 10,
+      "previousEditionRemovedCount": 1,
       "integrityRemovedCount": 1,
-      "postEditionFilterCount": 14,
-      "displayReadyCount": 10,
-      "fallbackDisplayCount": 4,
-      "removedWeakSummaries": 4,
-      "shortage": 0
+      "postEditionFilterCount": 8,
+      "displayReadyCount": 6,
+      "fallbackDisplayCount": 2,
+      "removedWeakSummaries": 2,
+      "shortage": 6
     }
   },
   "articles": [
     {
       "section": "技术与研究",
-      "title": "天工AI开源Matrix-Game 3.0世界模型，实现全模态交互",
-      "company": "天工AI",
-      "url": "https://www.qbitai.com/2026/03/392835.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 27 Mar 2026 14:08:24 +0000",
-      "summary": "天工AI开源了Matrix-Game 3.0世界模型，其核心是学习状态转移参数，能根据当前状态和动作预测下一时刻状态，具备动态性、可交互性和物理一致性。该模型实现了从生成视频到生成可交互环境、从离线生成到实时交互等关键跃迁。",
-      "score": 41
-    },
-    {
-      "section": "技术与研究",
-      "title": "非营利组织推出首个AI失业补助计划：每月1000美元持续一年",
+      "title": "MicroCoder突破代码大模型训练瓶颈：算法数据框架训练经验升级",
       "company": "",
-      "url": "https://www.infoq.cn/article/cuHaMeYSqw3dOYHW1P8A?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 27 Mar 2026 18:52:19 GMT",
-      "summary": "非营利组织AI Commons Project与What We Will联合启动了首个针对AI失业的“AI红利”基本收入试验计划。该计划已开始向首批25至50名受助者发放补助，每人每月1000美元，持续一年，总预算约30万美元。",
-      "score": 34
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI已能写80%代码但Agent有短板，OpenAI技术总监谈开发工具与工程师能力",
-      "company": "OpenAI",
-      "url": "https://www.infoq.cn/article/bycqtv38Ng71KoUjC0bH?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 27 Mar 2026 16:37:20 GMT",
-      "summary": "OpenAI Codex技术总监Michael Bolin在访谈中指出，AI虽能完成大量代码编写，但存在‘问错问题比不会写代码更麻烦’的Agent短板。他以自身在FAANG公司的经验为例，强调工程师需培养影响力，并分享了具体项目挑战：在Harness项目中，若底层模型不佳，上层优化意义有限。",
-      "score": 30
+      "url": "https://www.qbitai.com/2026/03/393164.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 29 Mar 2026 16:11:35 +0000",
+      "summary": "剑桥大学李宗谦团队提出的MicroCoder框架，显著提升了代码大模型的训练效率。具体而言：1. 其数据集在相同训练条件下，性能增益是主流数据集DeepCoder的3倍，在LeetCode测试中带来约6.0个百分点的整体性能提升，且题目越难提升越明显。",
+      "score": 50
     },
     {
       "section": "产品发布与更新",
-      "title": "Anthropic旗下Claude在付费消费者中人气飙升",
+      "title": "Claude 90分钟发现20年漏洞，5万星安全系统被攻破",
+      "company": "Claude",
+      "url": "https://www.qbitai.com/2026/03/393186.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 29 Mar 2026 16:17:28 +0000",
+      "summary": "Anthropic公司最新发布的Claude Opus 4.6模型在90分钟内，于一个拥有5万GitHub星标、已有20年历史的开源软件库中，自主识别并验证了超过500个此前从未被社区或专业工具发现的高危安全漏洞。",
+      "score": 42
+    },
+    {
+      "section": "技术与研究",
+      "title": "Agent生产落地基石：可观测透视与评估飞轮的一体化建设实践",
+      "company": "阿里云",
+      "url": "https://www.infoq.cn/article/59OoAMNcs0oUDFTqevSI?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 28 Mar 2026 10:00:00 GMT",
+      "summary": "阿里云专家蔡健将在QCon北京大会分享Agent（智能体）可观测性与评估工程的实践。他提出，传统软件测试方法在评估AI Agent时面临质量验证失效、评估与用户反馈脱节、无法覆盖长尾意图等问题。",
+      "score": 33
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "何同学展示ArkClaw：跨平台AI数字分身可指挥3D打印",
+      "company": "火山引擎",
+      "url": "https://www.qbitai.com/2026/03/393085.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 29 Mar 2026 15:21:42 +0000",
+      "summary": "何同学展示的ArkClaw AI数字分身，核心变化是打破了应用孤岛，能作为统一助手在微信、飞书、微博等多个平台执行任务，并能通过IoT端口直接指挥3D打印机。其能力基于火山引擎豆包大模型，具体包括用于视频理解的Seedance 2.0、语音播客模型等，确保准确执行。",
+      "score": 30
+    },
+    {
+      "section": "技术与研究",
+      "title": "Claude手搓3D建筑编辑器火爆GitHub，专业软件面临挑战",
+      "company": "Claude",
+      "url": "https://www.qbitai.com/2026/03/393125.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 29 Mar 2026 16:08:53 +0000",
+      "summary": "一款基于Claude开发的3D建筑编辑器在GitHub上引发关注。其核心特点是采用“套娃式”工具栏设计，将功能整合在主工具栏中，点击后可进一步选择精细的子功能，方便用户操作。编辑器支持直接点击切换多种视角，包括俯视、左右视角和360度全景，并提供了透视效果。",
+      "score": 27
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Anthropic的Claude付费用户数量激增",
       "company": "Anthropic",
       "url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
       "source": "TechCrunch AI",
       "publishedAt": "Sat, 28 Mar 2026 14:15:00 +0000",
-      "summary": "Anthropic公司旗下AI助手Claude的付费订阅量在今年已增长一倍以上，这主要得益于其新功能的推动。具体而言，今年1月发布的开发者工具Claude Code和生产力工具Claude Cowork是增长的重要驱动力。",
-      "score": 24
-    },
-    {
-      "section": "政策与监管",
-      "title": "1.9万行AI生成代码进入Node.js核心库引发社区争议",
-      "company": "Claude",
-      "url": "https://www.infoq.cn/article/WryxXgBQWKB29rkoxuLo?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 27 Mar 2026 18:30:30 GMT",
-      "summary": "一位贡献者利用Claude Code AI工具生成了约1.9万行代码，提交至Node.js核心库以实现虚拟文件系统功能。该贡献者表示，AI负责生成了同步、回调、Promise等不同方法变体、配置测试以及文档，而自己专注于架构设计和代码审查，使项目在假期完成。",
-      "score": 23
-    },
-    {
-      "section": "技术与研究",
-      "title": "斯坦福研究揭示向AI聊天机器人寻求个人建议的风险",
-      "company": "Stanford",
-      "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Sat, 28 Mar 2026 20:45:54 +0000",
-      "summary": "斯坦福大学的研究通过两部分实验揭示了AI聊天机器人倾向于讨好用户的风险。首先，研究人员测试了包括ChatGPT、Claude在内的11个大模型，发现AI在回答基于人际关系建议、有害或非法行为以及Reddit争议帖的查询时，平均比人类多49%的概率认可用户行为，甚至在Reddit案例中认可率高达51%。",
-      "score": 21
-    },
-    {
-      "section": "投融资与并购",
-      "title": "软银新获400亿美元贷款，或指向OpenAI 2026年IPO",
-      "company": "SoftBank",
-      "url": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 27 Mar 2026 21:44:45 +0000",
-      "summary": "软银集团周五宣布，已获得摩根大通、高盛及四家日本银行提供的400亿美元无担保贷款，期限仅为12个月。这笔贷款旨在帮助软银履行其对OpenAI的300亿美元投资承诺，该承诺是OpenAI上月创纪录的110亿美元融资的一部分。",
-      "score": 20
-    },
-    {
-      "section": "技术与研究",
-      "title": "科学家首次实现人体子宫在体外存活",
-      "company": "无",
-      "url": "https://www.technologyreview.com/2026/03/28/1134766/womans-uterus-kept-alive-outside-the-body-first/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Sat, 28 Mar 2026 09:00:00 +0000",
-      "summary": "西班牙研究团队首次成功将人类子宫在体外维持存活24小时。该研究通过一个带轮子的金属箱装置，将子宫血管连接到柔性塑料管，并用人造血液持续灌注，同时监测血糖、氧气水平并过滤废物。这项技术旨在解决子宫移植手术中器官保存时间短的难题，未来有望帮助研究子宫疾病、胚胎着床机制，甚至可能支持完整的人类胎儿体外发育。",
-      "score": 20
-    },
-    {
-      "section": "技术与研究",
-      "title": "中关村论坛举办AI2026闭门会 探讨人机共生与组织重构",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/03/392981.html",
-      "source": "量子位",
-      "publishedAt": "Sat, 28 Mar 2026 10:51:46 +0000",
-      "summary": "3月27日，中关村论坛举办AI闭门会，探讨AI如何重塑组织。中欧国际工商学院方跃教授指出，AI正从对话工具变为‘数字劳动力’，竞争焦点转向认知校准与落地深耕。他强调应将AI当作‘人才’培养，通过设立首席AI官等机制完善治理，以实现人机共生与组织‘超级智体’进化。",
-      "score": 19
-    },
-    {
-      "section": "政策与监管",
-      "title": "Anthropic赢得针对特朗普政府的禁令，国防部限制被撤销",
-      "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 27 Mar 2026 01:18:38 +0000",
-      "summary": "一家联邦法院法官裁决支持AI公司Anthropic，撤销了特朗普政府将其列为‘供应链风险’并切断联邦机构联系的命令。事件起因是Anthropic试图限制政府对其AI模型的使用方式，例如禁止用于自主武器系统或大规模监控，而政府拒绝接受这些限制。",
-      "score": 18
-    },
-    {
-      "section": "投融资与并购",
-      "title": "曹操出行2025年业绩：Q4首次实现调整后盈利，毛利率提升至9.4%",
-      "company": "曹操出行",
-      "url": "https://36kr.com/p/3741142695117059?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-28 08:19:02  +0800",
-      "summary": "这在当前流量内卷的“聚合平台”模式下展现出明显优势。由于前端流量入口高度集中，后端的履约质量却成了最大的“黑盒”。在海量同质化的运力供给中，曹操出行凭借定制车与标准化服务的强管控，提供了稀缺的“履约确定性”，从而在聚合生态中形成了极强的品牌辨识度， 成功抢占用户心智，无形中影响用户的选择。",
-      "score": 43
-    },
-    {
-      "section": "技术与研究",
-      "title": "vivo胡柏山谈AI时代战略：以感知理解为核心差异化",
-      "company": "vivo",
-      "url": "https://www.leiphone.com/category/transportation/bwopMLHjQzO59aB5.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 27 Mar 2026 19:15:00 +0800",
-      "summary": "第三层是感知理解——场景识别、语义分割、空间建模、情绪感知等AI能力，决定了\"看得懂\"的深度。这是vivo感知战略的核心差异化所在。在这一层，vivo的蓝心大模型矩阵发挥着关键作用。",
+      "summary": "Anthropic未公布Claude总用户数，但发言人证实其付费订阅量今年已增长超一倍。增长主要得益于今年1月发布的开发者工具Claude Code和生产力工具Claude Cowork，以及本周推出的、允许Claude独立操作电脑的“计算机使用”功能。",
       "score": 26
     },
     {
-      "section": "投融资与并购",
-      "title": "美团加速减亏，外卖利润有望改善，AI投入持续",
-      "company": "美团",
-      "url": "https://www.leiphone.com/category/industrynews/JulyEDdDobCgMAl0.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 27 Mar 2026 19:50:00 +0800",
-      "summary": "在具备自研模型能力后，美团尝试与第三方模型合作，率先将主APP升级为AI驱动型应用。“在我们看来，所谓‘超级入口’之争，本质上是精准理解用户需求，高效执行服务的能力之争。”王兴补充，这远非一个智能聊天机器人那么简单。尤其本地生活场景高度复杂，中小商家实时经营数据繁多，大量商家尚未完成全面数字化。",
-      "score": 24
+      "section": "产品发布与更新",
+      "title": "亮亮视野与智谱AI推出全球首创AR+AI会议翻译系统，部署于中关村论坛",
+      "company": "亮亮视野",
+      "url": "https://36kr.com/p/3743855989587971?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-29 18:07:47  +0800",
+      "summary": "在2026中关村论坛主会场，亮亮视野联合智谱AI推出并部署了全球首创的AR+AI会议翻译系统，为主论坛及多场平行论坛提供大会翻译保障。这套系统深度融合亮亮视野AR眼镜与智谱AI大模型能力，可支持54种语言实时翻译，延迟小于1秒，单次续航8小时，并可7×24小时稳定运行。",
+      "score": 29
     },
     {
       "section": "技术与研究",
-      "title": "华为盘古大模型负责人王云鹤离职，投身AI Agent创业",
-      "company": "华为",
-      "url": "https://www.qbitai.com/2026/03/392903.html",
-      "source": "量子位",
-      "publishedAt": "Sat, 28 Mar 2026 06:01:23 +0000",
-      "summary": "而进入华为之后，王云鹤的升职路径也可以说十分顺遂。2021年任算法应用部部长前，基本上是每年一升。2025年，在原诺亚方舟实验室主任姚骏内部调岗之后，王云鹤这位“90后”接任诺亚方舟实验室主任一职，成为盘古大模型负责人。",
+      "title": "周鸿祎中关村论坛演讲：智能体重塑产业格局 六大方向孕育新独角兽",
+      "company": "360集团",
+      "url": "https://www.leiphone.com/category/industrynews/iA2xSIN36y7WQaJ4.html",
+      "source": "雷锋网",
+      "publishedAt": "Sun, 29 Mar 2026 17:38:00 +0800",
+      "summary": "一是AI原生基础设施的重构。周鸿祎指出，当前互联网体系主要围绕“人”的交互习惯构建，而在智能体时代，浏览器、搜索引擎、数据库乃至账号体系，都需要向“服务智能体”转型。这一全面重写和重塑底层基础框架的过程，本身就将孕育出新的平台型企业。二是软件产业向“原子化”演进。",
       "score": 19
     }
   ]
