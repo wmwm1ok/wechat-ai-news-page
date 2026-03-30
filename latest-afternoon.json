@@ -1,20 +1,20 @@
 {
-  "date": "2026/3/29",
+  "date": "2026/3/30",
   "edition": "afternoon",
   "editionLabel": "午后版",
   "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/29 16:02",
-  "count": 6,
+  "generatedAt": "2026/3/30 16:02",
+  "count": 12,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-03-29-morning.json",
+    "previousEditionFile": "news-2026-03-30-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 23,
     "fetch": {
-      "domesticBeforeDedup": 23,
-      "overseasBeforeDedup": 10,
+      "domesticBeforeDedup": 22,
+      "overseasBeforeDedup": 7,
       "domesticAfterDedup": 22,
-      "overseasAfterDedup": 10,
+      "overseasAfterDedup": 7,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 7,
+          "count": 6,
           "error": null
         }
       ],
@@ -57,13 +57,13 @@
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 1,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         }
       ],
@@ -76,39 +76,72 @@
       }
     },
     "summarize": {
-      "totalSummarized": 32
+      "totalSummarized": 29
     },
     "scoring": {
-      "totalInput": 32,
-      "totalScored": 8,
-      "strictScoredCount": 8,
-      "relaxedCandidateCount": 0,
+      "totalInput": 29,
+      "totalScored": 15,
+      "strictScoredCount": 13,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
       "weakSummaryCount": 7,
-      "selectedCandidateCount": 8,
-      "duplicateCount": 12,
-      "crossDayDuplicateCount": 10,
-      "lowQualityCount": 8,
-      "domesticAvailable": 8,
-      "overseasAvailable": 0,
+      "selectedCandidateCount": 15,
+      "duplicateCount": 6,
+      "crossDayDuplicateCount": 4,
+      "lowQualityCount": 3,
+      "domesticAvailable": 13,
+      "overseasAvailable": 2,
       "sourceCount": {
+        "36氪": 3,
+        "量子位": 3,
+        "雷锋网": 3,
         "InfoQ": 4,
-        "36氪": 2,
-        "量子位": 2
+        "TechCrunch AI": 1,
+        "MIT Technology Review": 1
       }
     },
     "display": {
-      "refinedCount": 8,
+      "refinedCount": 15,
       "previousEditionRemovedCount": 0,
       "integrityRemovedCount": 2,
-      "postEditionFilterCount": 6,
-      "displayReadyCount": 5,
-      "fallbackDisplayCount": 1,
-      "removedWeakSummaries": 1,
-      "shortage": 8
+      "postEditionFilterCount": 13,
+      "displayReadyCount": 9,
+      "fallbackDisplayCount": 3,
+      "removedWeakSummaries": 4,
+      "shortage": 2
     }
   },
   "articles": [
+    {
+      "section": "技术与研究",
+      "title": "上海AI实验室发布AGI4S珠穆朗玛计划，构建科学智能创新中枢",
+      "company": "上海AI实验室",
+      "url": "https://www.qbitai.com/2026/03/393344.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 30 Mar 2026 07:24:15 +0000",
+      "summary": "上海AI实验室发布“AGI4S珠穆朗玛计划”，旨在构建科学智能创新中枢。具体举措包括：1. 构建超大规模科学智能数据库Sciverse，已开放2500万篇文献，覆盖自然科学10余个核心学科，为AI模型提供数据支撑。",
+      "score": 45
+    },
+    {
+      "section": "技术与研究",
+      "title": "aiX-apply-4B小模型单卡推理速度提升15倍，加速企业AI研发落地",
+      "company": "aiXcoder",
+      "url": "https://www.qbitai.com/2026/03/392787.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 30 Mar 2026 00:41:45 +0000",
+      "summary": "aiXcoder发布aiX-apply-4B代码模型，其核心优势在于高精度与低成本。具体表现在：1. 在覆盖20多种编程语言的测试中，其93.8%的平均准确率超越了同量级的Qwen3-4B模型，并与参数规模大百倍的DeepSeek-V3.2模型相当。",
+      "score": 42
+    },
+    {
+      "section": "投融资与并购",
+      "title": "世航海洋具身机器人获科技进步一等奖，引领海洋科技自主创新",
+      "company": "世航",
+      "url": "https://36kr.com/p/3744821877342217?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-30 10:31:17  +0800",
+      "summary": "世航海洋凭借其全栈自研的海洋具身机器人技术，荣获2025年度中国航海学会科学技术进步一等奖，成为该奖项中唯一的民营企业牵头单位。其最新产品“虎鲸Pro”已实现水下全自由度移动、无缆作业、自主导航及多机器人编队，并已交付客户用于真实场景作业。",
+      "score": 42
+    },
     {
       "section": "技术与研究",
       "title": "Vercel 开源生成式 UI 框架 JSON-Render，支持多前端框架",
@@ -116,58 +149,88 @@
       "url": "https://www.infoq.cn/article/oUFPIuuKIsT8UFEYVkTG?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Sun, 29 Mar 2026 15:00:00 GMT",
-      "summary": "Vercel开源了生成式UI框架JSON-Render，允许AI根据自然语言提示生成结构化界面。其核心方法是：开发者先用Zod schema定义可用的组件目录，然后大语言模型生成受此目录约束的JSON规范，框架在模型流式输出时就能逐步渲染出最终界面。",
-      "score": 41
-    },
-    {
-      "section": "技术与研究",
-      "title": "Rust 的独特之处不只内存安全：来自自主机器人的启示",
-      "company": "",
-      "url": "https://www.infoq.cn/article/Ru7tUbogi8Rek26YPeGN?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 29 Mar 2026 11:00:00 GMT",
-      "summary": "文章以自主机器人开发为例，展示了Rust语言如何利用其类型系统和所有权模型，在编译时强制保证程序逻辑的正确性。具体体现在：第一，通过泛型状态（如Robot<Uninit>和Robot<Init>）确保机器人必须按“初始化→分配任务”的顺序执行操作，防止状态错误。",
-      "score": 24
+      "summary": "Vercel 开源了名为 json-render 的生成式 UI 框架，它允许 AI 模型根据自然语言提示生成结构化的用户界面。其核心方法是：开发者先用 Zod schema 定义好可用的组件和操作目录，然后由大语言模型生成受此目录约束的 JSON 规范，框架在模型流式输出时就能逐步渲染出界面。",
+      "score": 37
     },
     {
       "section": "产品发布与更新",
-      "title": "趋境科技发布ATaaS：全球领先的高效能AI Token生产服务平台",
+      "title": "Revenium发布工具注册中心，揭示AI智能体真实成本",
+      "company": "Revenium",
+      "url": "https://www.infoq.cn/article/PwHSMp0gMz4DVVwA1bC8?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 30 Mar 2026 10:00:00 GMT",
+      "summary": "Revenium公司发布了一个工具注册中心，旨在从“AI可观测性”转向“AI财务归因”，以解决企业难以衡量AI智能体真实总成本的问题。其核心变化是，不再仅追踪大语言模型的Token消耗，而是将调用外部服务（如征信查询、身份验证）产生的交易费用也纳入核算。",
+      "score": 32
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "OpenAI扩展Responses API，为自主智能体提供基础设施支持",
+      "company": "OpenAI",
+      "url": "https://www.infoq.cn/article/lrjJhCF8qHoQ1VbsacNz?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 30 Mar 2026 15:00:00 GMT",
+      "summary": "OpenAI升级Responses API，为自主智能体开发提供内置基础设施。核心变化包括：1. 新增容器化执行环境，可安全存放文件与数据库，并通过策略管控实现网络隔离，减少开发者将全部内容塞入提示词的需求；2. 引入智能体执行循环机制，模型通过“提议-执行”的迭代方式完成任务，而非直接输出答案。",
+      "score": 31
+    },
+    {
+      "section": "技术与研究",
+      "title": "OpenAI为何关闭Sora？",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 30 Mar 2026 03:09:38 +0000",
+      "summary": "OpenAI上周突然关闭了仅发布6个月的AI视频生成工具Sora。据《华尔街日报》调查，关闭主因并非外界猜测的数据收集，而是两个具体问题：一是用户量从峰值约100万暴跌至不足50万，使用率低。",
+      "score": 26
+    },
+    {
+      "section": "技术与研究",
+      "title": "易点天下分享记忆驱动DevOps Agent工程实践：从经验沉淀到自动化技能进化",
+      "company": "易点天下",
+      "url": "https://www.infoq.cn/article/sxxIEeo332F2st6I1RwC?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 30 Mar 2026 11:56:30 GMT",
+      "summary": "易点天下分享了其AI Agent在CI/CD平台中处理构建分析与K8s运维的两次架构升级实践。第一版架构因Agent无法积累经验、工具调用在多集群下产生幻觉等问题，导致相同构建失败反复发生。",
+      "score": 24
+    },
+    {
+      "section": "技术与研究",
+      "title": "科学家首次实现人体子宫在体外存活",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/03/28/1134766/womans-uterus-kept-alive-outside-the-body-first/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Sat, 28 Mar 2026 09:00:00 +0000",
+      "summary": "西班牙研究团队首次成功将人类子宫在体外维持存活24小时。该实验使用一个带轮子的金属箱装置，通过柔性塑料管连接子宫血管，并持续泵入来自血库的人体血液以模拟体内环境。这项技术旨在为子宫移植手术提供更长的器官保存时间，并帮助科学家在活体器官上直接研究胚胎着床过程，以提升试管婴儿的成功率。",
+      "score": 16
+    },
+    {
+      "section": "政策与监管",
+      "title": "Vocci AI笔记戒指亮相CES 2026：以戒指形态实现无感AI交互",
+      "company": "Gyges Labs",
+      "url": "https://www.leiphone.com/category/ai/OTeosUEC6EQxOQk2.html",
+      "source": "雷锋网",
+      "publishedAt": "Mon, 30 Mar 2026 12:57:00 +0800",
+      "summary": "可穿戴AI设备形态之争已持续多年。耳机、眼镜、手表、戒指各有拥趸，但Vocci Ring的选择逻辑值得深究。基于Halliday智能眼镜超15,000台交付的真实用户洞察，Gyges Labs团队发现了一个被忽视的趋势：用户对AI可穿戴设备的核心诉求，早已不止于事后的笔记记录，而是更低摩擦。",
+      "score": 27
+    },
+    {
+      "section": "技术与研究",
+      "title": "对话原力灵机唐文斌：聚焦本质与迭代，二次创业更务实",
+      "company": "原力灵机",
+      "url": "https://36kr.com/p/3745064614494211?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-30 14:40:27  +0800",
+      "summary": "从旷视时期，我就形成了一套朴素的观念，叫做“技术信仰，价值务实。简单来说，我们没有创造新需求，如果创造一个居家做情感陪伴的机器人，这相当于创造了一个新需求。但我们目前在做的事情，而是用更好的工具解决已有问题，比如让机器人去解决、替换原来工业场景里人类做起来繁杂、危险的工作。",
+      "score": 21
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "趋境科技发布ATaaS平台，破解算力利用率不足20%难题",
       "company": "趋境科技",
-      "url": "https://www.qbitai.com/2026/03/392896.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 27 Mar 2026 19:14:16 +0000",
-      "summary": "趋境科技发布全新AI推理平台“趋境ATaaS”，旨在解决AI应用扩展导致Token需求激增，而算力成本高昂、投入与产出不匹配的行业难题。该平台通过提升算力调度效率、优化推理过程，并深度融合CPU+GPU及国产与非国产算力异构技术，将计算任务智能分流（如CPU处理低密度任务。",
-      "score": 21
-    },
-    {
-      "section": "技术与研究",
-      "title": "小红书在QCon北京分享面向生产的AgentOps：AI Agent应用工程化实践",
-      "company": "小红书",
-      "url": "https://www.infoq.cn/article/dl0kKEXKi8PSDB6xP53B?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 29 Mar 2026 10:00:00 GMT",
-      "summary": "小红书可观测团队负责人王亚普将在QCon北京大会上，分享其团队如何将AI Agent应用工程化的实践经验。具体内容包括：构建以AI Trace为核心的数据底座，实现在线与离线的双轨评估机制，从而形成AI Agent迭代的工程闭环，旨在解决AI Agent在生产环境中的可观测性与高效迭代问题。",
-      "score": 21
-    },
-    {
-      "section": "技术与研究",
-      "title": "绿色IT：如何减轻AI对环境的影响",
-      "company": "Bpifrance",
-      "url": "https://www.infoq.cn/article/T0iH5X6AzL5jSe12ktdk?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sat, 28 Mar 2026 15:00:00 GMT",
-      "summary": "AI的高能耗与硬件快速淘汰对绿色IT构成挑战。专家Ludi Akue指出，大规模AI服务的推理能耗可能在部署后数月内超过训练成本，而现有技术如模型压缩和量化虽能提升2-4倍推理效率，但能耗总量仍在增长。",
-      "score": 20
-    },
-    {
-      "section": "技术与研究",
-      "title": "海淀AI人才规模全球领先，多元生态推动创新热潮",
-      "company": "心影随形",
-      "url": "https://www.qbitai.com/2026/03/392996.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 29 Mar 2026 01:09:41 +0000",
-      "summary": "目前，海淀AI人才总量已达到9万人，而硅谷AI人才为7.4万，上海7.2万，杭州大概3.4万。不难看出， 海淀的AI人才集聚规模、人才密集度，在全国乃至全球都处于领先水平。“国外是在某些方向上非常深入，相对聚焦。",
-      "score": 22
+      "url": "https://www.leiphone.com/category/chips/dSiqvFsJueRhXA5C.html",
+      "source": "雷锋网",
+      "publishedAt": "Mon, 30 Mar 2026 10:46:00 +0800",
+      "summary": "对此，郑纬民院士锚定产业趋势， 明确了TaaS落地演进的三大核心技术底座： 一是全系统异构协同，通过将不同计算任务合理分配至GPU、CPU、内存和SSD，打破算力瓶颈；二是存算协同实现“以存换算”，通过前置KV Cache等技术，大幅降低重复计算量，提升推理效率。",
+      "score": 19
     }
   ]
 }
