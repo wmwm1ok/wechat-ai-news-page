@@ -349,6 +349,7 @@ const SOURCE_CREDIBILITY = {
   'The Verge AI': 7,
   'VentureBeat AI': 7,
   'Wired AI': 7,
+  'Tech Xplore': 7,
   'Serper': 6
 };
 

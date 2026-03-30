@@ -47,7 +47,7 @@ export const DOMESTIC_RSS_SOURCES = [
 ];
 
 // 海外 RSS 源（精选高质）
-// 注：大部分海外源在国内网络环境下不稳定，主要依赖 Serper API 补充海外新闻
+// 注：海外源稳定性会有波动，因此同时保留 RSS 多源和 Serper 补充
 export const OVERSEAS_RSS_SOURCES = [
   {
     name: 'TechCrunch AI',
@@ -63,6 +63,21 @@ export const OVERSEAS_RSS_SOURCES = [
     name: 'Ars Technica',
     url: 'https://arstechnica.com/tag/artificial-intelligence/feed/',
     limit: 8
+  },
+  {
+    name: 'The Verge AI',
+    url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml',
+    limit: 6
+  },
+  {
+    name: 'Wired AI',
+    url: 'https://www.wired.com/feed/tag/ai/latest/rss',
+    limit: 6
+  },
+  {
+    name: 'Tech Xplore',
+    url: 'https://techxplore.com/rss-feed/breaking/machine-learning-ai-news/',
+    limit: 6
   }
 ];
 
