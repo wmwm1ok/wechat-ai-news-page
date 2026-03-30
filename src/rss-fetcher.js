@@ -39,14 +39,14 @@ function getEnvNumber(name, fallback) {
 function getSerperQueryLimit(totalQueries) {
   return getEnvNumber(
     'SERPER_QUERY_LIMIT',
-    getEnvNumber('CFC_SERPER_QUERY_LIMIT', isCfcFastMode() ? 8 : Math.min(12, totalQueries))
+    getEnvNumber('CFC_SERPER_QUERY_LIMIT', isCfcFastMode() ? 8 : Math.min(18, totalQueries))
   );
 }
 
 function getSerperResultLimit() {
   return getEnvNumber(
     'SERPER_RESULT_LIMIT',
-    getEnvNumber('CFC_SERPER_RESULT_LIMIT', isCfcFastMode() ? 6 : 6)
+    getEnvNumber('CFC_SERPER_RESULT_LIMIT', isCfcFastMode() ? 6 : 8)
   );
 }
 
@@ -203,7 +203,11 @@ async function fetchSerperNews() {
       'Runway ML video',
       'Hugging Face AI',
       'DeepMind Google AI',
-      'Character AI chatbot'
+      'Character AI chatbot',
+      'AI agent enterprise software',
+      'open source AI model release',
+      'robotics foundation model',
+      'AI semiconductor accelerator'
     ];
     const activeQueries = queries.slice(0, getSerperQueryLimit(queries.length));
     const resultLimit = getSerperResultLimit();

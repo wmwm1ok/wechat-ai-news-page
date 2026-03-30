@@ -1,4 +1,4 @@
-import { detectArticleMode, extractMainTextFromHtml, isComparisonArticle, isDisplayReadyNews, isReaderFriendlySummary, isSpecificEnoughSummary, normalizeDisplaySummary } from '../src/ai-summarizer.js';
+import { detectArticleMode, extractMainTextFromHtml, isComparisonArticle, isDisplayReadyNews, isReaderFriendlySummary, isReserveDisplayNews, isSpecificEnoughSummary, normalizeDisplaySummary } from '../src/ai-summarizer.js';
 
 function describe(name, fn) {
   console.log(`\n📦 ${name}`);
@@ -153,6 +153,26 @@ describe('AI summarizer helpers', () => {
     });
 
     expect(result).toBe(true);
+  });
+
+  it('keeps concrete Chinese summaries as reserve display candidates', () => {
+    const result = isReserveDisplayNews({
+      title: 'OpenAI 推出面向企业的 Agent 工具链',
+      snippet: 'OpenAI 发布了一套新的企业 Agent 开发工具，强调流程编排和审计能力。',
+      summary: 'OpenAI 面向企业推出了一套 Agent 工具链，重点补上流程编排、权限管理和审计能力。原文提到它希望让企业把客服、销售和内部知识库流程接到统一工作流里，并降低上线门槛。'
+    });
+
+    expect(result).toBe(true);
+  });
+
+  it('rejects vague reserve candidates without enough concrete signals', () => {
+    const result = isReserveDisplayNews({
+      title: 'AI 行业迎来新变化',
+      snippet: '报道提到行业出现了一些新的趋势。',
+      summary: '这篇文章介绍了 AI 行业的一些变化，并讨论了未来发展的可能方向。'
+    });
+
+    expect(result).toBe(false);
   });
 
   it('trims semicolon-ended summaries back to a full sentence', () => {

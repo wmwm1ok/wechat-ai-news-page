@@ -541,6 +541,36 @@ export function isDisplayReadyNews(item) {
   );
 }
 
+export function isReserveDisplayNews(item) {
+  if (!item || !item.summary) {
+    return false;
+  }
+
+  const normalized = normalizeDisplaySummary(item.summary, {
+    minLength: 70,
+    maxLength: 160
+  });
+
+  if (!normalized || normalized === '暂无摘要' || !isMostlyChineseSummary(normalized)) {
+    return false;
+  }
+
+  const sourceContext = `${item.title || ''} ${item.snippet || ''}`.trim();
+  const entityCount = countKnownEntities(`${item.title || ''} ${normalized}`);
+  const { numberCount, actionCount, productCount } = countConcreteSignals(normalized);
+  const articleMode = detectArticleMode(item);
+  const comparisonMode = articleMode === 'comparison';
+  const signalScore = entityCount + numberCount + actionCount + productCount;
+
+  return (
+    signalScore >= 3 &&
+    (
+      isSummaryComplete(normalized) ||
+      isSpecificEnoughSummary(normalized, sourceContext, { comparisonMode, articleMode })
+    )
+  );
+}
+
 export function isSpecificEnoughSummary(summary, sourceText = '', options = {}) {
   const normalized = normalizeSummary(summary || '');
   if (!normalized || normalized === '暂无摘要') return false;
@@ -917,8 +947,8 @@ export async function summarizeNews({ domestic, overseas }) {
   console.log('\n🤖 AI总结中...');
   const fastMode = isCfcFastMode();
 
-  const domesticItems = domestic.slice(0, getEnvNumber('DOMESTIC_SUMMARY_LIMIT', fastMode ? 8 : 25));
-  const overseasItems = overseas.slice(0, getEnvNumber('OVERSEAS_SUMMARY_LIMIT', fastMode ? 16 : 35));
+  const domesticItems = domestic.slice(0, getEnvNumber('DOMESTIC_SUMMARY_LIMIT', fastMode ? 8 : 36));
+  const overseasItems = overseas.slice(0, getEnvNumber('OVERSEAS_SUMMARY_LIMIT', fastMode ? 16 : 60));
 
   if (fastMode) {
     console.log('   ⚡ CFC 快速模式已启用：批量摘要、减少全文抓取、压缩候选数量');
