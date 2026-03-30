@@ -41,6 +41,15 @@ describe('AI summarizer helpers', () => {
     expect(result).toBe(true);
   });
 
+  it('does not misclassify ordinary company news as comparison articles', () => {
+    const result = detectArticleMode({
+      title: 'Why OpenAI killed Sora',
+      snippet: 'OpenAI is shutting down the app and shifting teams toward its broader video roadmap.'
+    });
+
+    expect(result).toBe('default');
+  });
+
   it('rejects vague summaries for comparison articles', () => {
     const result = isSpecificEnoughSummary(
       '文章对 Seedance 2.0、Sora 和 Runway Gen-4 进行了深入对比，内容涵盖 API 架构、延迟和定价等方面。',

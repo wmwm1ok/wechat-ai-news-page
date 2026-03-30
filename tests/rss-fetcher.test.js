@@ -1,4 +1,4 @@
-import { isNewsLikeItem } from '../src/rss-fetcher.js';
+import { isNewsLikeItem, isSourceQualifiedNewsItem } from '../src/rss-fetcher.js';
 
 function describe(name, fn) {
   console.log(`\n📦 ${name}`);
@@ -41,6 +41,26 @@ describe('RSS fetcher filters', () => {
       title: '百度发布全球首款手机龙虾应用',
       url: 'https://www.infoq.cn/article/abcd1234'
     });
+
+    expect(result).toBe(true);
+  });
+
+  it('rejects entertainment-style AI roundup stories from broad overseas feeds', () => {
+    const result = isSourceQualifiedNewsItem({
+      title: 'All the latest in AI music',
+      snippet: 'A roundup of artists, copyright fights, and creator reactions to AI music tools.',
+      url: 'https://www.theverge.com/entertainment/903196/ai-music-roundup'
+    }, 'The Verge AI');
+
+    expect(result).toBe(false);
+  });
+
+  it('keeps concrete robotics research from broad overseas feeds', () => {
+    const result = isSourceQualifiedNewsItem({
+      title: 'AI benchmark helps robots plan and complete their chores in the real world',
+      snippet: 'Researchers built a benchmark for household robots and evaluated planning accuracy and task completion.',
+      url: 'https://techxplore.com/news/2026-03-ai-benchmark-robots-chores.html'
+    }, 'Tech Xplore');
 
     expect(result).toBe(true);
   });

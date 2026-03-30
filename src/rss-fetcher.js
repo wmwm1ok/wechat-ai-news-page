@@ -26,6 +26,29 @@ const NON_NEWS_TITLE_PATTERNS = [
   /训练营/,
   /活动报名/
 ];
+const BROAD_OVERSEAS_SOURCES = new Set(['TechCrunch AI', 'The Verge AI', 'Wired AI', 'Tech Xplore']);
+const BROAD_SOURCE_BLOCK_PATTERNS = [
+  /all the latest in/i,
+  /\bthe latest in\b/i,
+  /\b(?:newsletter|digest|roundup|brief|podcast|documentary)\b/i,
+  /\b(?:music|artist|artists|advertising|ads?|porn|adult|viral)\b/i,
+  /\b(?:literature|literary|therapy|dating|romance|celebrity)\b/i,
+  /\bpersonal advice\b/i,
+  /\btech reporters?\b.*\bwrite\b/i
+];
+const INDUSTRY_ENTITY_PATTERNS = [
+  /\b(?:openai|anthropic|google|gemini|meta|microsoft|nvidia|apple|xai|softbank|sora|claude|suno|bluesky|openclaw|tiktok|siri)\b/i,
+  /\b(?:pentagon|white house)\b/i
+];
+const INDUSTRY_ACTION_PATTERNS = [
+  /\b(?:app|api|sdk|model|models|agent|agents|chatbot|chatbots)\b/i,
+  /\b(?:launch|release|released|update|updated|open source|shutdown|shut down|killed|killing)\b/i,
+  /\b(?:funding|fundraise|loan|ipo|startup|enterprise|developer|developers)\b/i,
+  /\b(?:judge|court|lawsuit|ban|blocked|policy|policies|regulation|regulatory|senators?)\b/i,
+  /\b(?:robot|robots|robotics|benchmark|hardware|chip|chips|gpu|data centers?|energy)\b/i,
+  /\b(?:autonomous|warehouse|throughput|neural network|memristor|research|geopolitics)\b/i,
+  /\b(?:founder|co-founder|ceo|executive|leadership|resigns?|resigned|leaves?|left)\b/i
+];
 
 function isCfcFastMode() {
   return process.env.CFC_FAST_MODE === 'true';
@@ -120,6 +143,38 @@ export function isNewsLikeItem(item) {
   return true;
 }
 
+function countPatternMatches(patterns, text) {
+  return patterns.reduce((count, pattern) => count + (pattern.test(text) ? 1 : 0), 0);
+}
+
+export function isSourceQualifiedNewsItem(item, sourceName = '') {
+  if (!BROAD_OVERSEAS_SOURCES.has(sourceName)) {
+    return true;
+  }
+
+  const text = `${item?.title || ''} ${item?.snippet || ''} ${item?.url || item?.link || ''}`.toLowerCase();
+  if (BROAD_SOURCE_BLOCK_PATTERNS.some(pattern => pattern.test(text))) {
+    return false;
+  }
+
+  const entityHits = countPatternMatches(INDUSTRY_ENTITY_PATTERNS, text);
+  const actionHits = countPatternMatches(INDUSTRY_ACTION_PATTERNS, text);
+
+  if (sourceName === 'Tech Xplore') {
+    return actionHits >= 1;
+  }
+
+  if (sourceName === 'TechCrunch AI') {
+    return entityHits + actionHits >= 2;
+  }
+
+  if (sourceName === 'Wired AI') {
+    return actionHits >= 2 || (entityHits >= 1 && actionHits >= 1);
+  }
+
+  return entityHits >= 1 && actionHits >= 1;
+}
+
 async function parseRSS(source) {
   try {
     console.log(`📡 ${source.name}`);
@@ -136,6 +191,7 @@ async function parseRSS(source) {
       }))
       .filter(item => isNewsLikeItem(item))
       .filter(item => isFreshNews(item.publishedAt))
+      .filter(item => isSourceQualifiedNewsItem(item, source.name))
       .filter(item => isAIRelated(item.title, item.snippet))  // 只保留AI相关新闻
       .slice(0, source.limit || 5);
     
@@ -237,6 +293,9 @@ async function fetchSerperNews() {
             continue;
           }
           if (!isNewsLikeItem({ title: item.title, url: item.link })) {
+            continue;
+          }
+          if (!isSourceQualifiedNewsItem({ title: item.title, snippet: item.snippet, url: item.link }, item.source || 'Serper')) {
             continue;
           }
           if (item.title && item.link && !seenUrls.has(item.link)) {

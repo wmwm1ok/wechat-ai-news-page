@@ -465,7 +465,7 @@ export function isComparisonArticle(item) {
   const entityCount = countKnownEntities(text);
   const dimensionCount = extractComparisonDimensions(text).length;
 
-  return hasKeyword || (entityCount >= 2 && dimensionCount >= 1);
+  return (hasKeyword && dimensionCount >= 1) || (entityCount >= 3 && dimensionCount >= 2);
 }
 
 export function detectArticleMode(item) {

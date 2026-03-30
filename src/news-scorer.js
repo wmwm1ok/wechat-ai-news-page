@@ -309,7 +309,7 @@ const SUBSTANCE_INDICATORS = {
   
   // 具体行动词（已完成，不是计划）
   actionWords: (text) => {
-    const actions = ['发布', '上线', '开源', '推出', '推出', '完成', '实现', '突破', '收购', '投资', '融资', '达成'];
+    const actions = ['发布', '上线', '开源', '推出', '更新', '完成', '实现', '突破', '收购', '投资', '融资', '达成', '扩展', '终止', '关闭', '离职', '裁定', '判决', '允许', '接入', '叫停'];
     let score = 0;
     for (const word of actions) {
       if (text.includes(word)) score += 4;
@@ -376,7 +376,7 @@ function calculateImportanceScore(title, summary) {
   let score = 0;
   
   // 头部公司动态
-  const topCompanies = ['openai', 'google', 'meta', 'anthropic', 'microsoft', 'nvidia', '字节', '阿里', '腾讯', '百度'];
+  const topCompanies = ['openai', 'google', 'meta', 'anthropic', 'microsoft', 'nvidia', 'apple', 'xai', 'softbank', '字节', '阿里', '腾讯', '百度'];
   for (const company of topCompanies) {
     if (text.includes(company.toLowerCase())) {
       score += 5;
