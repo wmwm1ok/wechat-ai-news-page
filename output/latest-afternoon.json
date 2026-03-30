@@ -3,8 +3,8 @@
   "edition": "afternoon",
   "editionLabel": "午后版",
   "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/30 16:02",
-  "count": 12,
+  "generatedAt": "2026/3/30 16:31",
+  "count": 11,
   "targetCount": 14,
   "diagnostics": {
     "previousEditionFile": "news-2026-03-30-morning.json",
@@ -80,38 +80,67 @@
     },
     "scoring": {
       "totalInput": 29,
-      "totalScored": 15,
-      "strictScoredCount": 13,
-      "relaxedCandidateCount": 2,
+      "totalScored": 13,
+      "strictScoredCount": 12,
+      "relaxedCandidateCount": 1,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 7,
-      "selectedCandidateCount": 15,
-      "duplicateCount": 6,
-      "crossDayDuplicateCount": 4,
-      "lowQualityCount": 3,
-      "domesticAvailable": 13,
-      "overseasAvailable": 2,
+      "weakSummaryCount": 6,
+      "selectedCandidateCount": 13,
+      "duplicateCount": 8,
+      "crossDayDuplicateCount": 5,
+      "lowQualityCount": 4,
+      "domesticAvailable": 12,
+      "overseasAvailable": 1,
       "sourceCount": {
         "36氪": 3,
         "量子位": 3,
-        "雷锋网": 3,
         "InfoQ": 4,
-        "TechCrunch AI": 1,
-        "MIT Technology Review": 1
+        "雷锋网": 2,
+        "TechCrunch AI": 1
       }
     },
     "display": {
-      "refinedCount": 15,
+      "refinedCount": 13,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 13,
-      "displayReadyCount": 9,
+      "integrityRemovedCount": 1,
+      "postEditionFilterCount": 12,
+      "displayReadyCount": 8,
       "fallbackDisplayCount": 3,
       "removedWeakSummaries": 4,
-      "shortage": 2
+      "shortage": 3
     }
   },
   "articles": [
+    {
+      "section": "技术与研究",
+      "title": "aiX-apply-4B小模型单张显卡实现15倍推理加速，助力企业AI研发",
+      "company": "aiXcoder",
+      "url": "https://www.qbitai.com/2026/03/392787.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 30 Mar 2026 00:41:45 +0000",
+      "summary": "aiXcoder发布aiX-apply-4B代码模型，其核心优势在于高性价比与高准确率。具体表现在：1. 在覆盖20多种编程语言的测试中，其93.8%的平均准确率超越了同量级模型，并与参数规模大百倍的DeepSeek-V3.2模型相当。",
+      "score": 46
+    },
+    {
+      "section": "技术与研究",
+      "title": "Vercel 开源生成式 UI 框架 JSON-Render，AI 可根据提示生成结构化界面",
+      "company": "Vercel",
+      "url": "https://www.infoq.cn/article/oUFPIuuKIsT8UFEYVkTG?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 29 Mar 2026 15:00:00 GMT",
+      "summary": "Vercel 开源了名为 JSON-Render 的生成式 UI 框架，允许 AI 根据自然语言提示生成结构化界面。其核心方法是：开发者先用 Zod schema 定义好可用的组件和操作目录，然后大语言模型（LLM）会生成受此目录约束的 JSON 规范，框架在模型流式输出时就能逐步渲染出最终界面。",
+      "score": 46
+    },
+    {
+      "section": "技术与研究",
+      "title": "世航海洋具身机器人获科技进步一等奖，引领海洋科技自立自强",
+      "company": "世航",
+      "url": "https://36kr.com/p/3744821877342217?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-30 10:31:17  +0800",
+      "summary": "我们看到，世航旗下最新“虎鲸Pro”产品，已可在水下三维空间实现全自由度移动，灵活实现前进、后退、左右、翻滚等不同动作，无缆、实时精准定位、自主导航及作业、水下无线充电、多机器人编队作业等，具备极强的通用性和作业能力，真是把科幻照进现实。而且这不是停留在实验室，而是已经交付给客户真实场景作业。",
+      "score": 40
+    },
     {
       "section": "技术与研究",
       "title": "上海AI实验室发布AGI4S珠穆朗玛计划，构建科学智能创新中枢",
@@ -119,68 +148,18 @@
       "url": "https://www.qbitai.com/2026/03/393344.html",
       "source": "量子位",
       "publishedAt": "Mon, 30 Mar 2026 07:24:15 +0000",
-      "summary": "上海AI实验室发布“AGI4S珠穆朗玛计划”，旨在构建科学智能创新中枢。具体举措包括：1. 构建超大规模科学智能数据库Sciverse，已开放2500万篇文献，覆盖自然科学10余个核心学科，为AI模型提供数据支撑。",
-      "score": 45
-    },
-    {
-      "section": "技术与研究",
-      "title": "aiX-apply-4B小模型单卡推理速度提升15倍，加速企业AI研发落地",
-      "company": "aiXcoder",
-      "url": "https://www.qbitai.com/2026/03/392787.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 30 Mar 2026 00:41:45 +0000",
-      "summary": "aiXcoder发布aiX-apply-4B代码模型，其核心优势在于高精度与低成本。具体表现在：1. 在覆盖20多种编程语言的测试中，其93.8%的平均准确率超越了同量级的Qwen3-4B模型，并与参数规模大百倍的DeepSeek-V3.2模型相当。",
-      "score": 42
-    },
-    {
-      "section": "投融资与并购",
-      "title": "世航海洋具身机器人获科技进步一等奖，引领海洋科技自主创新",
-      "company": "世航",
-      "url": "https://36kr.com/p/3744821877342217?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-30 10:31:17  +0800",
-      "summary": "世航海洋凭借其全栈自研的海洋具身机器人技术，荣获2025年度中国航海学会科学技术进步一等奖，成为该奖项中唯一的民营企业牵头单位。其最新产品“虎鲸Pro”已实现水下全自由度移动、无缆作业、自主导航及多机器人编队，并已交付客户用于真实场景作业。",
-      "score": 42
-    },
-    {
-      "section": "技术与研究",
-      "title": "Vercel 开源生成式 UI 框架 JSON-Render，支持多前端框架",
-      "company": "Vercel",
-      "url": "https://www.infoq.cn/article/oUFPIuuKIsT8UFEYVkTG?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 29 Mar 2026 15:00:00 GMT",
-      "summary": "Vercel 开源了名为 json-render 的生成式 UI 框架，它允许 AI 模型根据自然语言提示生成结构化的用户界面。其核心方法是：开发者先用 Zod schema 定义好可用的组件和操作目录，然后由大语言模型生成受此目录约束的 JSON 规范，框架在模型流式输出时就能逐步渲染出界面。",
-      "score": 37
+      "summary": "上海AI实验室发布“AGI4S珠穆朗玛计划”，旨在构建科学智能创新中枢。该计划具体包含：1. 构建超大规模科学智能数据库Sciverse，已开放2500万篇文献、沉淀6000亿词元，为模型训练提供数据支撑。",
+      "score": 34
     },
     {
       "section": "产品发布与更新",
-      "title": "Revenium发布工具注册中心，揭示AI智能体真实成本",
-      "company": "Revenium",
-      "url": "https://www.infoq.cn/article/PwHSMp0gMz4DVVwA1bC8?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 30 Mar 2026 10:00:00 GMT",
-      "summary": "Revenium公司发布了一个工具注册中心，旨在从“AI可观测性”转向“AI财务归因”，以解决企业难以衡量AI智能体真实总成本的问题。其核心变化是，不再仅追踪大语言模型的Token消耗，而是将调用外部服务（如征信查询、身份验证）产生的交易费用也纳入核算。",
-      "score": 32
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "OpenAI扩展Responses API，为自主智能体提供基础设施支持",
+      "title": "OpenAI扩展Responses API，为自主智能体提供基础设施",
       "company": "OpenAI",
       "url": "https://www.infoq.cn/article/lrjJhCF8qHoQ1VbsacNz?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Mon, 30 Mar 2026 15:00:00 GMT",
-      "summary": "OpenAI升级Responses API，为自主智能体开发提供内置基础设施。核心变化包括：1. 新增容器化执行环境，可安全存放文件与数据库，并通过策略管控实现网络隔离，减少开发者将全部内容塞入提示词的需求；2. 引入智能体执行循环机制，模型通过“提议-执行”的迭代方式完成任务，而非直接输出答案。",
-      "score": 31
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI为何关闭Sora？",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Mon, 30 Mar 2026 03:09:38 +0000",
-      "summary": "OpenAI上周突然关闭了仅发布6个月的AI视频生成工具Sora。据《华尔街日报》调查，关闭主因并非外界猜测的数据收集，而是两个具体问题：一是用户量从峰值约100万暴跌至不足50万，使用率低。",
-      "score": 26
+      "summary": "OpenAI扩展了Responses API，为开发者构建自主智能体提供了一套内置基础设施。其核心是一个智能体执行循环：模型先提议下一步动作（如运行命令或联网），动作在安全的容器化环境中执行后，结果返回给模型进行迭代，直至任务完成。",
+      "score": 34
     },
     {
       "section": "技术与研究",
@@ -189,18 +168,28 @@
       "url": "https://www.infoq.cn/article/sxxIEeo332F2st6I1RwC?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Mon, 30 Mar 2026 11:56:30 GMT",
-      "summary": "易点天下分享了其AI Agent在CI/CD平台中处理构建分析与K8s运维的两次架构升级实践。第一版架构因Agent无法积累经验、工具调用在多集群下产生幻觉等问题，导致相同构建失败反复发生。",
-      "score": 24
+      "summary": "易点天下分享了其AI Agent在CI/CD平台中的两次架构升级实践。第一版架构因Agent无法积累经验、工具调用出现幻觉及错误会沿推理链放大而被重构。第二版架构通过四层记忆设计让历史经验主动参与决策，高频修复模式可自动升级为技能；采用配置驱动的Guard机制从系统层保障工具调用可控。",
+      "score": 32
     },
     {
-      "section": "技术与研究",
-      "title": "科学家首次实现人体子宫在体外存活",
-      "company": "",
-      "url": "https://www.technologyreview.com/2026/03/28/1134766/womans-uterus-kept-alive-outside-the-body-first/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Sat, 28 Mar 2026 09:00:00 +0000",
-      "summary": "西班牙研究团队首次成功将人类子宫在体外维持存活24小时。该实验使用一个带轮子的金属箱装置，通过柔性塑料管连接子宫血管，并持续泵入来自血库的人体血液以模拟体内环境。这项技术旨在为子宫移植手术提供更长的器官保存时间，并帮助科学家在活体器官上直接研究胚胎着床过程，以提升试管婴儿的成功率。",
-      "score": 16
+      "section": "产品发布与更新",
+      "title": "Revenium发布工具注册中心，揭示AI智能体真实成本结构",
+      "company": "Revenium",
+      "url": "https://www.infoq.cn/article/PwHSMp0gMz4DVVwA1bC8?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 30 Mar 2026 10:00:00 GMT",
+      "summary": "Revenium公司发布了一个工具注册中心，旨在解决企业难以衡量AI智能体真实总成本的问题。其核心变化是从“AI可观测性”转向“AI财务归因”，不仅追踪模型调用成本，更将外部服务（如信用报告查询、身份验证等）和人工干预的费用归因到单次决策中。",
+      "score": 31
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "OpenAI为何关闭Sora？",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 30 Mar 2026 03:09:38 +0000",
+      "summary": "OpenAI上周突然关闭了仅发布六个月、曾允许用户上传面部生成视频的AI工具Sora。据《华尔街日报》调查，关闭核心原因并非数据收集，而是其高昂成本与用户流失：Sora全球用户数从峰值约100万暴跌至不足50万，且每日运行成本高达约100万美元，严重消耗了公司有限的AI芯片算力资源。",
+      "score": 27
     },
     {
       "section": "政策与监管",
@@ -214,13 +203,13 @@
     },
     {
       "section": "技术与研究",
-      "title": "对话原力灵机唐文斌：聚焦本质与迭代，二次创业更务实",
+      "title": "对话原力灵机唐文斌：二次创业聚焦迭代效率，坦言“无法成为不想成为的人”",
       "company": "原力灵机",
       "url": "https://36kr.com/p/3745064614494211?f=rss",
       "source": "36氪",
       "publishedAt": "2026-03-30 14:40:27  +0800",
       "summary": "从旷视时期，我就形成了一套朴素的观念，叫做“技术信仰，价值务实。简单来说，我们没有创造新需求，如果创造一个居家做情感陪伴的机器人，这相当于创造了一个新需求。但我们目前在做的事情，而是用更好的工具解决已有问题，比如让机器人去解决、替换原来工业场景里人类做起来繁杂、危险的工作。",
-      "score": 21
+      "score": 20
     },
     {
       "section": "产品发布与更新",
