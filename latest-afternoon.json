@@ -3,18 +3,18 @@
   "edition": "afternoon",
   "editionLabel": "午后版",
   "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/30 16:40",
-  "count": 12,
+  "generatedAt": "2026/3/30 16:53",
+  "count": 10,
   "targetCount": 14,
   "diagnostics": {
     "previousEditionFile": "news-2026-03-30-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 22,
-      "overseasBeforeDedup": 7,
-      "domesticAfterDedup": 22,
-      "overseasAfterDedup": 7,
+      "domesticBeforeDedup": 24,
+      "overseasBeforeDedup": 14,
+      "domesticAfterDedup": 24,
+      "overseasAfterDedup": 14,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 6,
+          "count": 8,
           "error": null
         }
       ],
@@ -65,6 +65,24 @@
           "ok": true,
           "count": 0,
           "error": null
+        },
+        {
+          "source": "The Verge AI",
+          "ok": true,
+          "count": 5,
+          "error": null
+        },
+        {
+          "source": "Wired AI",
+          "ok": true,
+          "count": 0,
+          "error": null
+        },
+        {
+          "source": "Tech Xplore",
+          "ok": true,
+          "count": 2,
+          "error": null
         }
       ],
       "serper": {
@@ -76,39 +94,39 @@
       }
     },
     "summarize": {
-      "totalSummarized": 29
+      "totalSummarized": 38
     },
     "scoring": {
-      "totalInput": 29,
+      "totalInput": 38,
       "totalScored": 15,
       "strictScoredCount": 13,
       "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 6,
+      "weakSummaryCount": 11,
       "selectedCandidateCount": 15,
-      "duplicateCount": 5,
+      "duplicateCount": 9,
       "crossDayDuplicateCount": 4,
-      "lowQualityCount": 4,
-      "domesticAvailable": 13,
-      "overseasAvailable": 2,
+      "lowQualityCount": 8,
+      "domesticAvailable": 12,
+      "overseasAvailable": 3,
       "sourceCount": {
-        "36氪": 3,
+        "36氪": 2,
         "量子位": 3,
         "InfoQ": 4,
         "雷锋网": 3,
-        "TechCrunch AI": 2
+        "The Verge AI": 3
       }
     },
     "display": {
       "refinedCount": 15,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 13,
-      "displayReadyCount": 9,
-      "fallbackDisplayCount": 3,
+      "integrityRemovedCount": 4,
+      "postEditionFilterCount": 11,
+      "displayReadyCount": 8,
+      "fallbackDisplayCount": 2,
       "reserveDisplayCount": 0,
-      "removedWeakSummaries": 4,
-      "shortage": 2
+      "removedWeakSummaries": 3,
+      "shortage": 4
     }
   },
   "articles": [
@@ -119,17 +137,7 @@
       "url": "https://www.qbitai.com/2026/03/392787.html",
       "source": "量子位",
       "publishedAt": "Mon, 30 Mar 2026 00:41:45 +0000",
-      "summary": "aiXcoder发布了aiX-apply-4B代码模型。该模型在覆盖20多种编程语言的测试中，平均准确率达93.8%，超越了同量级的Qwen3-4B，并与参数大百倍的DeepSeek-V3.2模型准确率相当。",
-      "score": 46
-    },
-    {
-      "section": "技术与研究",
-      "title": "Vercel 开源生成式 UI 框架 JSON-Render，支持多前端框架",
-      "company": "Vercel",
-      "url": "https://www.infoq.cn/article/oUFPIuuKIsT8UFEYVkTG?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 29 Mar 2026 15:00:00 GMT",
-      "summary": "Vercel 开源了名为 JSON-Render 的生成式 UI 框架，它允许 AI 模型根据自然语言提示生成结构化的用户界面。其核心工作流程是：开发者先用 Zod schema 定义好可用的组件目录，然后大型语言模型（LLM）会生成受此目录约束的 JSON 规范。",
+      "summary": "aiXcoder发布了aiX-apply-4B代码模型，其核心优势在于高性价比与高性能。具体而言：1. 在覆盖20多种编程语言的测试中，其平均准确率达93.8%，超越了同量级的Qwen3-4B模型，并与参数规模大百倍的DeepSeek-V3.2模型准确率相当。",
       "score": 46
     },
     {
@@ -139,28 +147,38 @@
       "url": "https://www.qbitai.com/2026/03/393344.html",
       "source": "量子位",
       "publishedAt": "Mon, 30 Mar 2026 07:24:15 +0000",
-      "summary": "上海AI实验室发布“AGI4S珠穆朗玛计划”，旨在构建科学智能创新中枢。具体举措包括：1. 构建超大规模科学数据库Sciverse，已开放2500万篇文献，覆盖10余个自然科学核心学科，为AI模型提供数据支撑。",
-      "score": 44
+      "summary": "上海AI实验室发布“AGI4S珠穆朗玛计划”，旨在构建科学智能创新中枢。具体举措包括：1. 构建超大规模科学智能数据库Sciverse，已开放2500万篇文献，覆盖自然科学10余个核心学科；2. 通过DeepLink平台打通超算与智算壁垒，实现多元异构算力资源的智能调度。",
+      "score": 45
     },
     {
-      "section": "投融资与并购",
-      "title": "世航海洋具身机器人获科技进步一等奖，引领中国海洋科技自主创新",
+      "section": "技术与研究",
+      "title": "世航海洋具身机器人获科技进步一等奖，引领海洋科技自主创新",
       "company": "世航",
       "url": "https://36kr.com/p/3744821877342217?f=rss",
       "source": "36氪",
       "publishedAt": "2026-03-30 10:31:17  +0800",
-      "summary": "世航海洋具身机器人凭借全栈自研技术，荣获2025年度中国航海学会科技进步一等奖，成为该奖项中唯一的民营企业牵头单位。其最新产品“虎鲸Pro”已实现水下全自由度移动、无缆作业、自主导航及多机器人编队，并已交付客户用于真实场景作业。",
+      "summary": "世航海洋的具身机器人技术获得2025年度中国航海学会科技进步一等奖，成为该奖项中唯一的民营企业牵头单位。其最新产品“虎鲸Pro”已实现水下全自由度移动、无缆作业、自主导航及多机器人编队，并已交付客户用于真实场景。公司近期完成数亿元战略融资，将加速在船舶清洗、海上风电、深海探测等多元场景的业务布局。",
       "score": 40
     },
     {
+      "section": "技术与研究",
+      "title": "Vercel 开源生成式 UI 框架 JSON-Render，支持多前端框架",
+      "company": "Vercel",
+      "url": "https://www.infoq.cn/article/oUFPIuuKIsT8UFEYVkTG?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 29 Mar 2026 15:00:00 GMT",
+      "summary": "Vercel开源了生成式UI框架JSON-Render，它允许AI模型根据自然语言提示生成结构化界面。该框架的核心方法是：开发者先用Zod schema定义好可用的组件和操作目录，然后大语言模型（LLM）会生成受此目录约束的JSON规范，框架在模型流式输出时就能逐步渲染出最终UI。",
+      "score": 37
+    },
+    {
       "section": "产品发布与更新",
-      "title": "OpenAI扩展Responses API，为自主智能体提供基础设施支持",
+      "title": "OpenAI扩展Responses API，为自主智能体提供基础设施",
       "company": "OpenAI",
       "url": "https://www.infoq.cn/article/lrjJhCF8qHoQ1VbsacNz?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Mon, 30 Mar 2026 15:00:00 GMT",
-      "summary": "OpenAI升级Responses API，为构建自主智能体提供内置基础设施。核心变化包括：1. 新增容器化执行环境，可安全存放文件与数据库，并通过策略管控实现网络隔离，减少开发者将大量内容塞入提示词的需要。",
-      "score": 31
+      "summary": "OpenAI升级Responses API，为自主智能体开发提供内置基础设施。核心是一个智能体执行循环：模型先提议动作（如运行命令或联网），动作在安全的容器化环境中执行后，结果返回模型进行迭代，直至任务完成。",
+      "score": 30
     },
     {
       "section": "技术与研究",
@@ -169,18 +187,8 @@
       "url": "https://www.infoq.cn/article/sxxIEeo332F2st6I1RwC?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Mon, 30 Mar 2026 11:56:30 GMT",
-      "summary": "易点天下分享了其AI Agent在CI/CD平台中处理构建分析与K8s运维的两次架构升级实践。针对v1版本中Agent无法积累经验、工具调用在多集群下出现幻觉、错误会沿推理链放大等问题，v2版本通过设计四层记忆架构（如实时缓存、经验学习层）主动注入历史经验，让高频修复模式能自动升级为可执行技能。",
+      "summary": "易点天下分享了其AI Agent在CI/CD平台中处理构建分析与K8s运维的两次架构升级实践。v1版本因Agent无法积累经验、工具调用在多集群下产生幻觉等问题而失败。v2版本通过设计四层记忆架构（如实时缓存、经验学习层）主动注入历史经验，让高频修复模式能自动升级为技能。",
       "score": 28
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI为何关闭Sora？数据收集引发猜测",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Mon, 30 Mar 2026 03:09:38 +0000",
-      "summary": "OpenAI上周突然关闭了仅发布六个月、曾邀请用户上传面部信息的AI视频生成工具Sora。据《华尔街日报》调查，关闭的真实原因并非数据收集，而是高昂的运营成本和低迷的用户量。",
-      "score": 27
     },
     {
       "section": "产品发布与更新",
@@ -189,18 +197,18 @@
       "url": "https://www.infoq.cn/article/PwHSMp0gMz4DVVwA1bC8?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Mon, 30 Mar 2026 10:00:00 GMT",
-      "summary": "Revenium公司发布了一个名为“工具注册中心”的新产品，旨在解决企业难以追踪AI智能体真实总成本的问题。其核心变化是从仅监控模型Token成本，转向对整个决策流程进行“财务归因”。",
+      "summary": "Revenium公司发布了一个AI工具注册中心，旨在解决企业难以追踪AI智能体真实总成本的问题。其核心变化是从追踪模型Token消耗转向“AI财务归因”，以衡量包含外部服务在内的完整成本。",
       "score": 25
     },
     {
-      "section": "技术与研究",
-      "title": "Sora关闭或为AI视频领域敲响警钟",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Sun, 29 Mar 2026 16:30:00 +0000",
-      "summary": "OpenAI关闭其AI视频生成模型Sora，并缩减视频业务，这被视为公司战略调整。具体信息点包括：1. 此举发生在Fidji Simo开始负责日常运营之后，标志着公司内部动态的重大变化。2. 公司正将重心转向企业级和编程产品，为潜在的公开上市做准备，而消费级社交应用和视频业务已非当前优先事项。",
-      "score": 17
+      "section": "产品发布与更新",
+      "title": "Suno发布v5.5更新，重点增强用户自定义功能",
+      "company": "Suno",
+      "url": "https://www.theverge.com/entertainment/903056/suno-ai-music-v5-5-model",
+      "source": "The Verge AI",
+      "publishedAt": "2026-03-28T18:33:10.000Z",
+      "summary": "AI音乐平台Suno发布了其模型v5.5重大更新，核心变化是从提升音质转向增强用户自定义控制。此次更新包含三个具体新功能：1. “Voices”功能，作为最受期待的功能，允许用户通过上传清唱、完整曲目或直接录音来训练属于自己声音的人声模型，为防止盗用还需朗读验证短语。",
+      "score": 22
     },
     {
       "section": "政策与监管",
@@ -214,23 +222,13 @@
     },
     {
       "section": "技术与研究",
-      "title": "对话原力灵机唐文斌：聚焦本质与迭代，二次创业更务实",
-      "company": "原力灵机",
-      "url": "https://36kr.com/p/3745064614494211?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-30 14:40:27  +0800",
-      "summary": "从旷视时期，我就形成了一套朴素的观念，叫做“技术信仰，价值务实。简单来说，我们没有创造新需求，如果创造一个居家做情感陪伴的机器人，这相当于创造了一个新需求。但我们目前在做的事情，而是用更好的工具解决已有问题，比如让机器人去解决、替换原来工业场景里人类做起来繁杂、危险的工作。",
-      "score": 20
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "趋境科技发布ATaaS平台，破解算力利用率不足20%难题",
-      "company": "趋境科技",
-      "url": "https://www.leiphone.com/category/chips/dSiqvFsJueRhXA5C.html",
-      "source": "雷锋网",
-      "publishedAt": "Mon, 30 Mar 2026 10:46:00 +0800",
-      "summary": "对此，郑纬民院士锚定产业趋势， 明确了TaaS落地演进的三大核心技术底座： 一是全系统异构协同，通过将不同计算任务合理分配至GPU、CPU、内存和SSD，打破算力瓶颈；二是存算协同实现“以存换算”，通过前置KV Cache等技术，大幅降低重复计算量，提升推理效率。",
-      "score": 19
+      "title": "OpenAI终止Sora应用与迪士尼合作告吹",
+      "company": "OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902368/openai-sora-dead-ai-video-generation-competition",
+      "source": "The Verge AI",
+      "publishedAt": "2026-03-28T12:00:00.000Z",
+      "summary": "OpenAI终止与迪士尼的合作并计划停用Sora应用。具体信息点包括：1. 合作原计划为期三年，迪士尼承诺10亿美元股权投资并成为OpenAI主要客户，Sora可生成迪士尼旗下数百个角色的AI视频在Disney+播放，但合作仅三个月后意外终止。",
+      "score": 17
     }
   ]
 }
