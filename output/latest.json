@@ -3,13 +3,13 @@
   "edition": "afternoon",
   "editionLabel": "午后版",
   "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/3/30 16:31",
-  "count": 11,
+  "generatedAt": "2026/3/30 16:40",
+  "count": 12,
   "targetCount": 14,
   "diagnostics": {
     "previousEditionFile": "news-2026-03-30-morning.json",
     "targetCount": 14,
-    "candidateTargetCount": 23,
+    "candidateTargetCount": 31,
     "fetch": {
       "domesticBeforeDedup": 22,
       "overseasBeforeDedup": 7,
@@ -70,8 +70,8 @@
       "serper": {
         "enabled": true,
         "count": 0,
-        "queryCount": 12,
-        "resultLimit": 6,
+        "queryCount": 18,
+        "resultLimit": 8,
         "error": null
       }
     },
@@ -80,34 +80,35 @@
     },
     "scoring": {
       "totalInput": 29,
-      "totalScored": 13,
-      "strictScoredCount": 12,
-      "relaxedCandidateCount": 1,
+      "totalScored": 15,
+      "strictScoredCount": 13,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
       "weakSummaryCount": 6,
-      "selectedCandidateCount": 13,
-      "duplicateCount": 8,
-      "crossDayDuplicateCount": 5,
+      "selectedCandidateCount": 15,
+      "duplicateCount": 5,
+      "crossDayDuplicateCount": 4,
       "lowQualityCount": 4,
-      "domesticAvailable": 12,
-      "overseasAvailable": 1,
+      "domesticAvailable": 13,
+      "overseasAvailable": 2,
       "sourceCount": {
         "36氪": 3,
         "量子位": 3,
         "InfoQ": 4,
-        "雷锋网": 2,
-        "TechCrunch AI": 1
+        "雷锋网": 3,
+        "TechCrunch AI": 2
       }
     },
     "display": {
-      "refinedCount": 13,
+      "refinedCount": 15,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 1,
-      "postEditionFilterCount": 12,
-      "displayReadyCount": 8,
+      "integrityRemovedCount": 2,
+      "postEditionFilterCount": 13,
+      "displayReadyCount": 9,
       "fallbackDisplayCount": 3,
+      "reserveDisplayCount": 0,
       "removedWeakSummaries": 4,
-      "shortage": 3
+      "shortage": 2
     }
   },
   "articles": [
@@ -118,28 +119,18 @@
       "url": "https://www.qbitai.com/2026/03/392787.html",
       "source": "量子位",
       "publishedAt": "Mon, 30 Mar 2026 00:41:45 +0000",
-      "summary": "aiXcoder发布aiX-apply-4B代码模型，其核心优势在于高性价比与高准确率。具体表现在：1. 在覆盖20多种编程语言的测试中，其93.8%的平均准确率超越了同量级模型，并与参数规模大百倍的DeepSeek-V3.2模型相当。",
+      "summary": "aiXcoder发布了aiX-apply-4B代码模型。该模型在覆盖20多种编程语言的测试中，平均准确率达93.8%，超越了同量级的Qwen3-4B，并与参数大百倍的DeepSeek-V3.2模型准确率相当。",
       "score": 46
     },
     {
       "section": "技术与研究",
-      "title": "Vercel 开源生成式 UI 框架 JSON-Render，AI 可根据提示生成结构化界面",
+      "title": "Vercel 开源生成式 UI 框架 JSON-Render，支持多前端框架",
       "company": "Vercel",
       "url": "https://www.infoq.cn/article/oUFPIuuKIsT8UFEYVkTG?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Sun, 29 Mar 2026 15:00:00 GMT",
-      "summary": "Vercel 开源了名为 JSON-Render 的生成式 UI 框架，允许 AI 根据自然语言提示生成结构化界面。其核心方法是：开发者先用 Zod schema 定义好可用的组件和操作目录，然后大语言模型（LLM）会生成受此目录约束的 JSON 规范，框架在模型流式输出时就能逐步渲染出最终界面。",
+      "summary": "Vercel 开源了名为 JSON-Render 的生成式 UI 框架，它允许 AI 模型根据自然语言提示生成结构化的用户界面。其核心工作流程是：开发者先用 Zod schema 定义好可用的组件目录，然后大型语言模型（LLM）会生成受此目录约束的 JSON 规范。",
       "score": 46
-    },
-    {
-      "section": "技术与研究",
-      "title": "世航海洋具身机器人获科技进步一等奖，引领海洋科技自立自强",
-      "company": "世航",
-      "url": "https://36kr.com/p/3744821877342217?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-30 10:31:17  +0800",
-      "summary": "我们看到，世航旗下最新“虎鲸Pro”产品，已可在水下三维空间实现全自由度移动，灵活实现前进、后退、左右、翻滚等不同动作，无缆、实时精准定位、自主导航及作业、水下无线充电、多机器人编队作业等，具备极强的通用性和作业能力，真是把科幻照进现实。而且这不是停留在实验室，而是已经交付给客户真实场景作业。",
-      "score": 40
     },
     {
       "section": "技术与研究",
@@ -148,18 +139,28 @@
       "url": "https://www.qbitai.com/2026/03/393344.html",
       "source": "量子位",
       "publishedAt": "Mon, 30 Mar 2026 07:24:15 +0000",
-      "summary": "上海AI实验室发布“AGI4S珠穆朗玛计划”，旨在构建科学智能创新中枢。该计划具体包含：1. 构建超大规模科学智能数据库Sciverse，已开放2500万篇文献、沉淀6000亿词元，为模型训练提供数据支撑。",
-      "score": 34
+      "summary": "上海AI实验室发布“AGI4S珠穆朗玛计划”，旨在构建科学智能创新中枢。具体举措包括：1. 构建超大规模科学数据库Sciverse，已开放2500万篇文献，覆盖10余个自然科学核心学科，为AI模型提供数据支撑。",
+      "score": 44
+    },
+    {
+      "section": "投融资与并购",
+      "title": "世航海洋具身机器人获科技进步一等奖，引领中国海洋科技自主创新",
+      "company": "世航",
+      "url": "https://36kr.com/p/3744821877342217?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-03-30 10:31:17  +0800",
+      "summary": "世航海洋具身机器人凭借全栈自研技术，荣获2025年度中国航海学会科技进步一等奖，成为该奖项中唯一的民营企业牵头单位。其最新产品“虎鲸Pro”已实现水下全自由度移动、无缆作业、自主导航及多机器人编队，并已交付客户用于真实场景作业。",
+      "score": 40
     },
     {
       "section": "产品发布与更新",
-      "title": "OpenAI扩展Responses API，为自主智能体提供基础设施",
+      "title": "OpenAI扩展Responses API，为自主智能体提供基础设施支持",
       "company": "OpenAI",
       "url": "https://www.infoq.cn/article/lrjJhCF8qHoQ1VbsacNz?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Mon, 30 Mar 2026 15:00:00 GMT",
-      "summary": "OpenAI扩展了Responses API，为开发者构建自主智能体提供了一套内置基础设施。其核心是一个智能体执行循环：模型先提议下一步动作（如运行命令或联网），动作在安全的容器化环境中执行后，结果返回给模型进行迭代，直至任务完成。",
-      "score": 34
+      "summary": "OpenAI升级Responses API，为构建自主智能体提供内置基础设施。核心变化包括：1. 新增容器化执行环境，可安全存放文件与数据库，并通过策略管控实现网络隔离，减少开发者将大量内容塞入提示词的需要。",
+      "score": 31
     },
     {
       "section": "技术与研究",
@@ -168,28 +169,38 @@
       "url": "https://www.infoq.cn/article/sxxIEeo332F2st6I1RwC?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Mon, 30 Mar 2026 11:56:30 GMT",
-      "summary": "易点天下分享了其AI Agent在CI/CD平台中的两次架构升级实践。第一版架构因Agent无法积累经验、工具调用出现幻觉及错误会沿推理链放大而被重构。第二版架构通过四层记忆设计让历史经验主动参与决策，高频修复模式可自动升级为技能；采用配置驱动的Guard机制从系统层保障工具调用可控。",
-      "score": 32
+      "summary": "易点天下分享了其AI Agent在CI/CD平台中处理构建分析与K8s运维的两次架构升级实践。针对v1版本中Agent无法积累经验、工具调用在多集群下出现幻觉、错误会沿推理链放大等问题，v2版本通过设计四层记忆架构（如实时缓存、经验学习层）主动注入历史经验，让高频修复模式能自动升级为可执行技能。",
+      "score": 28
     },
     {
-      "section": "产品发布与更新",
-      "title": "Revenium发布工具注册中心，揭示AI智能体真实成本结构",
-      "company": "Revenium",
-      "url": "https://www.infoq.cn/article/PwHSMp0gMz4DVVwA1bC8?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 30 Mar 2026 10:00:00 GMT",
-      "summary": "Revenium公司发布了一个工具注册中心，旨在解决企业难以衡量AI智能体真实总成本的问题。其核心变化是从“AI可观测性”转向“AI财务归因”，不仅追踪模型调用成本，更将外部服务（如信用报告查询、身份验证等）和人工干预的费用归因到单次决策中。",
-      "score": 31
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "OpenAI为何关闭Sora？",
+      "section": "技术与研究",
+      "title": "OpenAI为何关闭Sora？数据收集引发猜测",
       "company": "OpenAI",
       "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 30 Mar 2026 03:09:38 +0000",
-      "summary": "OpenAI上周突然关闭了仅发布六个月、曾允许用户上传面部生成视频的AI工具Sora。据《华尔街日报》调查，关闭核心原因并非数据收集，而是其高昂成本与用户流失：Sora全球用户数从峰值约100万暴跌至不足50万，且每日运行成本高达约100万美元，严重消耗了公司有限的AI芯片算力资源。",
+      "summary": "OpenAI上周突然关闭了仅发布六个月、曾邀请用户上传面部信息的AI视频生成工具Sora。据《华尔街日报》调查，关闭的真实原因并非数据收集，而是高昂的运营成本和低迷的用户量。",
       "score": 27
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Revenium发布工具注册中心，揭示AI智能体真实成本",
+      "company": "Revenium",
+      "url": "https://www.infoq.cn/article/PwHSMp0gMz4DVVwA1bC8?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 30 Mar 2026 10:00:00 GMT",
+      "summary": "Revenium公司发布了一个名为“工具注册中心”的新产品，旨在解决企业难以追踪AI智能体真实总成本的问题。其核心变化是从仅监控模型Token成本，转向对整个决策流程进行“财务归因”。",
+      "score": 25
+    },
+    {
+      "section": "技术与研究",
+      "title": "Sora关闭或为AI视频领域敲响警钟",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sun, 29 Mar 2026 16:30:00 +0000",
+      "summary": "OpenAI关闭其AI视频生成模型Sora，并缩减视频业务，这被视为公司战略调整。具体信息点包括：1. 此举发生在Fidji Simo开始负责日常运营之后，标志着公司内部动态的重大变化。2. 公司正将重心转向企业级和编程产品，为潜在的公开上市做准备，而消费级社交应用和视频业务已非当前优先事项。",
+      "score": 17
     },
     {
       "section": "政策与监管",
@@ -203,7 +214,7 @@
     },
     {
       "section": "技术与研究",
-      "title": "对话原力灵机唐文斌：二次创业聚焦迭代效率，坦言“无法成为不想成为的人”",
+      "title": "对话原力灵机唐文斌：聚焦本质与迭代，二次创业更务实",
       "company": "原力灵机",
       "url": "https://36kr.com/p/3745064614494211?f=rss",
       "source": "36氪",
