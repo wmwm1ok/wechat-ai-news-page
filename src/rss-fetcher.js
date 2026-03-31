@@ -49,6 +49,15 @@ const INDUSTRY_ACTION_PATTERNS = [
   /\b(?:autonomous|warehouse|throughput|neural network|memristor|research|geopolitics)\b/i,
   /\b(?:founder|co-founder|ceo|executive|leadership|resigns?|resigned|leaves?|left)\b/i
 ];
+const KR36_ROUNDUP_TITLE_PATTERNS = [
+  /(?:8点|9点)\s*1氪/,
+  /[，,].*[，,].*[，,]/
+];
+const KR36_ROUNDUP_SECTION_PATTERNS = [
+  /今日热点导览/,
+  /(?:大公司|新产品|投融资|今日观点|AI最前沿|酷产品|上市进行时|其他值得关注的新闻)\s*[：:]/
+];
+const KR36_ROUNDUP_SECTION_REGEX = /(?:大公司|新产品|投融资|今日观点|AI最前沿|酷产品|上市进行时|其他值得关注的新闻)\s*[：:]/g;
 
 function isCfcFastMode() {
   return process.env.CFC_FAST_MODE === 'true';
@@ -148,6 +157,24 @@ function countPatternMatches(patterns, text) {
 }
 
 export function isSourceQualifiedNewsItem(item, sourceName = '') {
+  if (sourceName === '36氪') {
+    const title = `${item?.title || ''}`;
+    const snippet = `${item?.snippet || ''}`;
+    const roundupSectionHits = countPatternMatches(KR36_ROUNDUP_SECTION_PATTERNS, snippet)
+      + (snippet.match(KR36_ROUNDUP_SECTION_REGEX) || []).length;
+
+    if (
+      KR36_ROUNDUP_TITLE_PATTERNS.some(pattern => pattern.test(title)) &&
+      (roundupSectionHits >= 1 || title.split(/[，,]/).filter(Boolean).length >= 3)
+    ) {
+      return false;
+    }
+
+    if (roundupSectionHits >= 2) {
+      return false;
+    }
+  }
+
   if (!BROAD_OVERSEAS_SOURCES.has(sourceName)) {
     return true;
   }

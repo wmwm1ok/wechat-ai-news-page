@@ -45,6 +45,24 @@ describe('RSS fetcher filters', () => {
     expect(result).toBe(true);
   });
 
+  it('rejects 36kr roundup-style multi-topic briefs', () => {
+    const result = isSourceQualifiedNewsItem({
+      title: '全国首个万卡级自主可控智算集群点亮，泡泡玛特乐园门票将涨价，蚂蚁发现OpenClaw高危漏洞',
+      snippet: '大公司：全国首个万卡级全栈自主可控智算集群点亮。新产品：爱奇艺发布专业影视制作智能体。投融资：“灵猴机器人”宣布完成数亿元B轮融资。'
+    }, '36氪');
+
+    expect(result).toBe(false);
+  });
+
+  it('keeps regular single-topic 36kr articles', () => {
+    const result = isSourceQualifiedNewsItem({
+      title: 'EnerVenue完成3亿美元B轮追加融资，将升级常州吉瓦级生产线',
+      snippet: '36氪独家获悉，新型镍氢气电池技术公司 EnerVenue 已完成 3 亿美元 B 轮优先股追加融资，本轮资金将用于常州工厂产能升级与扩充。'
+    }, '36氪');
+
+    expect(result).toBe(true);
+  });
+
   it('rejects entertainment-style AI roundup stories from broad overseas feeds', () => {
     const result = isSourceQualifiedNewsItem({
       title: 'All the latest in AI music',
