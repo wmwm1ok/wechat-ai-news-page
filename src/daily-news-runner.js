@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fetchAllNews } from './rss-fetcher.js';
-import { summarizeNews, refineSelectedNews, isDisplayReadyNews, isReaderFriendlySummary, isReserveDisplayNews, isSummaryComplete, normalizeDisplaySummary } from './ai-summarizer.js';
+import { summarizeNews, refineSelectedNews, isDisplayReadyNews, isReaderFriendlySummary, isReserveDisplayNews, isLastChanceDisplayNews, isSummaryComplete, normalizeDisplaySummary } from './ai-summarizer.js';
 import { checkSemanticDuplicate, scoreNews, selectTopNews } from './news-scorer.js';
 import { classifyNewsCategory } from './category-classifier.js';
 import { generateHTML, generateWechatHTML } from './html-formatter.js';
@@ -338,7 +338,13 @@ export async function runDailyNews(options = {}) {
     !fallbackDisplayNews.some(fallbackItem => (fallbackItem.url || fallbackItem.title) === (item.url || item.title)) &&
     isReserveDisplayNews(item)
   );
-  const eligibleDisplayNews = [...displayReadyNews, ...fallbackDisplayNews, ...reserveDisplayNews];
+  const lastChanceDisplayNews = filteredRefinedNews.filter(item =>
+    !displayReadyNews.some(readyItem => (readyItem.url || readyItem.title) === (item.url || item.title)) &&
+    !fallbackDisplayNews.some(fallbackItem => (fallbackItem.url || fallbackItem.title) === (item.url || item.title)) &&
+    !reserveDisplayNews.some(reserveItem => (reserveItem.url || reserveItem.title) === (item.url || item.title)) &&
+    isLastChanceDisplayNews(item)
+  );
+  const eligibleDisplayNews = [...displayReadyNews, ...fallbackDisplayNews, ...reserveDisplayNews, ...lastChanceDisplayNews];
   const topNews = selectBalancedFinalNews(eligibleDisplayNews, targetCount);
   const removedWeakSummaries = filteredRefinedNews.length - displayReadyNews.length;
   const fallbackDisplayCount = topNews.filter(item =>
@@ -348,6 +354,9 @@ export async function runDailyNews(options = {}) {
   const reserveDisplayCount = topNews.filter(item =>
     reserveDisplayNews.some(reserveItem => (reserveItem.url || reserveItem.title) === (item.url || item.title))
   ).length;
+  const lastChanceDisplayCount = topNews.filter(item =>
+    lastChanceDisplayNews.some(lastChanceItem => (lastChanceItem.url || lastChanceItem.title) === (item.url || item.title))
+  ).length;
   if (removedWeakSummaries > 0) {
     console.log(`\n🧽 摘要净化: 过滤掉 ${removedWeakSummaries} 条不适合直接展示给读者的摘要`);
   }
@@ -356,6 +365,9 @@ export async function runDailyNews(options = {}) {
   }
   if (reserveDisplayCount > 0) {
     console.log(`\n🪜 保底补位: 使用 ${reserveDisplayCount} 条候补摘要尽量凑满版面`);
+  }
+  if (lastChanceDisplayCount > 0) {
+    console.log(`\n🧰 最终补位: 使用 ${lastChanceDisplayCount} 条边缘候选补足版面`);
   }
   if (topNews.length === 0) {
     throw new Error('没有符合质量标准的新闻');
@@ -416,6 +428,7 @@ export async function runDailyNews(options = {}) {
         displayReadyCount: displayReadyNews.length,
         fallbackDisplayCount,
         reserveDisplayCount,
+        lastChanceDisplayCount,
         removedWeakSummaries,
         shortage: Math.max(0, targetCount - topNews.length)
       }

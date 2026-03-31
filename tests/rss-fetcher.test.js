@@ -63,6 +63,15 @@ describe('RSS fetcher filters', () => {
     expect(result).toBe(true);
   });
 
+  it('rejects MIT Technology Review download roundups', () => {
+    const result = isSourceQualifiedNewsItem({
+      title: 'The Download: brainless human clones, and a uterus kept alive outside the body',
+      snippet: 'This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what is going on in the world of technology.'
+    }, 'MIT Technology Review');
+
+    expect(result).toBe(false);
+  });
+
   it('rejects entertainment-style AI roundup stories from broad overseas feeds', () => {
     const result = isSourceQualifiedNewsItem({
       title: 'All the latest in AI music',

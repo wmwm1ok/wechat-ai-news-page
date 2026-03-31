@@ -1,4 +1,4 @@
-import { detectArticleMode, extractMainTextFromHtml, isComparisonArticle, isDisplayReadyNews, isReaderFriendlySummary, isReserveDisplayNews, isSpecificEnoughSummary, normalizeDisplaySummary } from '../src/ai-summarizer.js';
+import { detectArticleMode, extractMainTextFromHtml, isComparisonArticle, isDisplayReadyNews, isLastChanceDisplayNews, isReaderFriendlySummary, isReserveDisplayNews, isSpecificEnoughSummary, normalizeDisplaySummary } from '../src/ai-summarizer.js';
 
 function describe(name, fn) {
   console.log(`\n📦 ${name}`);
@@ -182,6 +182,16 @@ describe('AI summarizer helpers', () => {
     });
 
     expect(result).toBe(false);
+  });
+
+  it('keeps concise but readable Chinese summaries as last-chance candidates', () => {
+    const result = isLastChanceDisplayNews({
+      title: '国内首条年产能万台级人形机器人产线建成',
+      summary: '该产线年产能突破一万台，可实现每30分钟下线一台人形机器人。产线上24道精密组装工序已实现数字化，效率较传统提升50%以上。77项检测流程用于保障量产后的交付稳定性。',
+      score: 18
+    });
+
+    expect(result).toBe(true);
   });
 
   it('trims semicolon-ended summaries back to a full sentence', () => {

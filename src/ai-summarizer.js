@@ -571,6 +571,31 @@ export function isReserveDisplayNews(item) {
   );
 }
 
+export function isLastChanceDisplayNews(item) {
+  if (!item || !item.summary) {
+    return false;
+  }
+
+  const normalized = normalizeDisplaySummary(item.summary, {
+    minLength: 55,
+    maxLength: 160
+  });
+
+  if (!normalized || normalized === '暂无摘要' || normalized.length < 55) {
+    return false;
+  }
+
+  if (!isReaderFriendlySummary(normalized)) {
+    return false;
+  }
+
+  const entityCount = countKnownEntities(`${item.title || ''} ${normalized}`);
+  const { numberCount, actionCount, productCount } = countConcreteSignals(normalized);
+  const signalScore = entityCount + numberCount + actionCount + productCount;
+
+  return signalScore >= 2 || Number(item.score || 0) >= 18;
+}
+
 export function isSpecificEnoughSummary(summary, sourceText = '', options = {}) {
   const normalized = normalizeSummary(summary || '');
   if (!normalized || normalized === '暂无摘要') return false;

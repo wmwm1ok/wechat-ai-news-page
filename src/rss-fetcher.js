@@ -58,6 +58,10 @@ const KR36_ROUNDUP_SECTION_PATTERNS = [
   /(?:大公司|新产品|投融资|今日观点|AI最前沿|酷产品|上市进行时|其他值得关注的新闻)\s*[：:]/
 ];
 const KR36_ROUNDUP_SECTION_REGEX = /(?:大公司|新产品|投融资|今日观点|AI最前沿|酷产品|上市进行时|其他值得关注的新闻)\s*[：:]/g;
+const MIT_DOWNLOAD_PATTERNS = [
+  /\bthe download\b/i,
+  /this is today['’]s edition of the download/i
+];
 
 function isCfcFastMode() {
   return process.env.CFC_FAST_MODE === 'true';
@@ -171,6 +175,13 @@ export function isSourceQualifiedNewsItem(item, sourceName = '') {
     }
 
     if (roundupSectionHits >= 2) {
+      return false;
+    }
+  }
+
+  if (sourceName === 'MIT Technology Review') {
+    const text = `${item?.title || ''} ${item?.snippet || ''}`;
+    if (MIT_DOWNLOAD_PATTERNS.some(pattern => pattern.test(text))) {
       return false;
     }
   }
