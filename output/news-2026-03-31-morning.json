@@ -1,0 +1,304 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "阿里发布Qwen3.5-Omni全模态大模型，多模态能力超越Gemini-3.1 Pro",
+      "url": "https://www.qbitai.com/2026/03/393460.html",
+      "snippet": "每百万Tokens输入不到0.8元，比Gemini-3.1 Pro的1/10还低。",
+      "source": "量子位",
+      "publishedAt": "Mon, 30 Mar 2026 14:21:45 +0000",
+      "region": "国内",
+      "summary": "阿里巴巴发布新一代全模态大模型Qwen3.5-Omni，其核心变化在于原生融合了文本、图像、音频和视频处理能力。该模型在215项第三方测试中超越Gemini-3.1 Pro，具体表现在：1. 能精准识别113种语言及方言，包括使用人数不足百万的毛利语和海南方言。",
+      "category": "产品发布与更新",
+      "company": "阿里",
+      "score": 50,
+      "breakdown": {
+        "substance": 19,
+        "importance": 11,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "智能体安全挑战与治理：从设计转向发现",
+      "url": "https://www.infoq.cn/article/64irlwhbFtLW8IkPFrNa?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 30 Mar 2026 17:51:58 GMT",
+      "region": "国内",
+      "summary": "蚂蚁集团副总裁韦韬指出，随着AI向自主式智能体演进，安全治理模式必须从传统设计转向以发现为核心。支付宝为此推出AHA解决方案，旨在连接手机、车机等多端智能体，实现跨终端服务。智能体面临Prompt注入、工具滥用、目标劫持等新型安全威胁，成为制约其落地的关键因素。",
+      "category": "产品发布与更新",
+      "company": "蚂蚁集团",
+      "score": 42,
+      "breakdown": {
+        "substance": 18,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI健康工具激增，但实际效果如何？",
+      "url": "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/",
+      "snippet": "Earlier this month, Microsoft launched Copilot Health, a new space within its Copilot app where users will be able to connect their medical records and ask specific questions about their health. A couple of days earlier, Amazon had announced that Health AI, an LLM-based tool previously restricted to members of its One Medical service, would…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 30 Mar 2026 16:00:00 +0000",
+      "region": "海外",
+      "summary": "微软推出Copilot Health，允许用户连接医疗记录并询问健康问题；亚马逊也宣布其基于大语言模型的Health AI工具将扩大使用范围，不再仅限于One Medical会员。",
+      "category": "产品发布与更新",
+      "company": "微软, 亚马逊",
+      "score": 29,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "全国首个万卡级自主可控智算集群点亮，泡泡玛特乐园门票将涨价，蚂蚁发现OpenClaw高危漏洞",
+      "url": "https://36kr.com/p/3745267391103239?f=rss",
+      "snippet": "大公司： 全国首个万卡级全栈自主可控智算集群点亮 深圳人工智能高质量发展迎来新突破：3月26日，深圳市投建的11000P 智能算力集群正式点亮，加上去年先期点亮的3000P，目前该集群已全面建成14000P智能算力。这是全国首个使用全国产先进芯片构建的万卡级全栈自主可控智算集群。 特斯拉：TERAFAB项目正式发布，预计将实现每年超1太瓦算力产出 36氪获悉，据TeslaAI微博消息，TERAFAB项目正式发布，预计将实现每年超过1太瓦（1TW）的算力产出。马斯克预测，未来人形机器人行业的潜在年产量或将达到10亿至100亿台。随着机器人进入更大规模应用阶段，对高性能芯片的需求将进一步提升。TERAFAB将为特斯拉人形机器人生产芯片。 泡泡玛特乐园门票将涨价 36氪获悉，3月30日，泡泡玛特城市乐园发布调价公告称，将于2026年4月30日迎来部分新区域的开放，到时将启用新的门票方案，并于4月16日起开售。该乐园预计7月30日将实现全面开放，并整体上调门票价格。 蚂蚁集团安全团队发现OpenClaw多个高危漏洞并协助快速修复 36氪获悉，3月30日，据GitHub社区最新消息，蚂蚁AI安全实验室近期对开源自主智能体框架OpenClaw进行了专项安全审计。在为期三天的深度检测中，团队共提交了33个安全漏洞报告。其中，OpenClaw已在最新发布的2026.3.28版本中确认并修复了8个漏洞，包括1个严重级别漏洞、4个高危漏洞和3个中危漏洞。蚂蚁集团表示，将持续关注OpenClaw的安全风险，为产业界安全、稳健地应用AI智能体提供支持。 雷军：小米AI人才招聘专项正式启动 36氪获悉，雷军发文表示，小米今年在AI领域研发及资本开支高达160亿，已经在基座大模型、具身智能机器人、手机龙虾等项目上取得了非常大的进展。现在，AI人才招聘专项正式启动。 神州租车：2026清明租车预订同比翻倍，预计将创历年同期出行最高峰 36氪获悉，神州租车发布的2026年清明预订数据显示，受多地中小学“春假”与清明假期衔接的利好驱动，今年清明自驾市场正迎来史上最强“追春”热潮，呈现出显著的“黄金周”特征。自神州租车平台提前一周开放预订以来，预订量与用户数双双实现同比翻倍增长，预计将刷新历年清明出行的历史峰值。 Kimi K2.5发布一个月，月之暗面ARR突破1亿美金 从知情人士处获悉，3月初，在Kimi K2.5模型发布一个月之后，月之暗面ARR（年度经常性收入）突破1亿美金。知情人士还表示，K2.5模型上线后，API供应的TPM（Tokens Per Minute，每分钟令牌数）配额迅速趋紧，有客户开出千万美元级别的消费承诺及预付担保，以期获得优先供应。 三星电子开始量产236层NAND闪存 三星电子已完成西安工厂工艺升级的第一阶段，逐步淘汰了传统的128层（V6）NAND闪存，并已开始量产236层（V8）产品。目前，三星电子正在筹划进一步的升级，预计将于今年完成向286层（V9）NAND闪存的过渡。 新产品： 爱奇艺发布专业影视制作智能体“纳逗Pro” 36氪获悉，3月30日，爱奇艺宣布旗下AI智能体平台 “纳逗Pro”正式对外开放，进入预商用阶段。 投融资： “瑞云冷链”完成新一轮亿元人民币融资 36氪获悉，国内数字化冷链综合服务平台“瑞云冷链”宣布完成新一轮亿元人民币融资，距离上一轮融资仅三个月。本轮融资由无锡高新区新铁基金领投，宁波甬涌股权投资基金、天津博正泰达投资基金、广东盛德企业投资跟投，此次融资将主要用于数字化能力提升和供应链业务延伸。 “灵猴机器人”宣布完成数亿元B轮融资 36氪获悉，“灵猴机器人”正式宣布完成数亿元B轮融资。本轮投资方包括中芯聚源、厚为资本、红杉中国、国泰君安创新投资、合肥建投资金等多家机构；同时，上海智元、博原资本、金鼎资本以及中车资本旗下华舆转型升级基金等老股东也继续追加投资。 今日观点： 日本央行行长植田和男：未来几个月可能会考虑提高利率 日本央行行长植田和男周一在日本国会公开表示，日本央行将密切关注日元的走势，因为这会影响经济和物价。他暗示，由于中东冲突加大日本国内通胀压力，且日元持续疲软导致进口成本上升，未来几个月可能会考虑提高利率。此番言论发布之际，日元兑美元汇率走势较为疲软，汇价已经跌破1美元兑160日元，创下自2024年7月以来的最低点。 马士基宣布收取美国内陆燃油附加费 马士基3月30日宣布收取美国内陆燃油附加费：鉴于近期燃油供应波动和配送成本上涨，将对由马士基负责陆路卡车运输的货物实施临时内陆燃油附加费，对于4月18日及之后预订的货物，附加费为140美元，具体费用将根据适用法律法规执行。 其他值得关注的新闻： 世界数据组织成立 世界数据组织3月30日在北京成立。从世界数据组织筹委会获悉，组织英文名为World Data Organization，简称WDO，是由全球数据领域相关单位及个人自愿结成的专业性、非政府、非营利性国际团体，旨在“弥合数据鸿沟、释放数据价值、繁荣数字经济”。据了解，组织将致力于推动全球数据合作与治理实践，积极探索数据在合规、安全、可信基础上的高效交流与合理利用路径，为全球数字经济发展提供坚实支撑。",
+      "source": "36氪",
+      "publishedAt": "2026-03-30 18:05:42  +0800",
+      "region": "国内",
+      "summary": "蚂蚁集团安全实验室对开源AI框架OpenClaw进行了为期三天的安全审计，提交了33个漏洞报告，其中8个已被修复，包括1个严重漏洞和4个高危漏洞。月之暗面在发布Kimi K2.5模型一个月后，其年度经常性收入突破1亿美元，且模型API需求旺盛，有客户开出千万美元级别的预付承诺以获取优先供应。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 45,
+      "breakdown": {
+        "substance": 16,
+        "importance": 13,
+        "timeliness": 6,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "EchoZ-1.0在预测排行榜领先，其Map-Reduce架构与评估方法展现优势",
+      "url": "https://www.qbitai.com/2026/03/393353.html",
+      "snippet": "Elo 1034.2分霸榜，领先Gemini-3.1-Pro、Claude-Opus-4.6",
+      "source": "量子位",
+      "publishedAt": "Mon, 30 Mar 2026 08:34:49 +0000",
+      "region": "国内",
+      "summary": "在2026年3月的通用AI预测排行榜上，EchoZ-1.0以1034.2的Elo分数位列第一，领先于谷歌和Anthropic的模型。其核心优势在于独特的Map-Reduce推理架构：它将复杂预测问题拆解为多个子任务并行处理，再整合信息进行多轮迭代，直至推理稳定。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 35,
+      "breakdown": {
+        "substance": 12,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "不同形态的机器人现可共享技能：基于意图的学习带来改变",
+      "url": "https://techxplore.com/news/2026-03-robots-bodies-skills-intention-based.html",
+      "snippet": "Robots are increasingly being used in manufacturing, agriculture and health care. But programming a team of robots to carry out individual tasks raises a question: How can robots learn from other robots if they are built differently? A multi-institutional team including Chongjie Zhang, an associate professor of computer science and engineering at WashU McKelvey Engineering, have developed a new method that enables robots to achieve intentions shown by their peers.",
+      "source": "Tech Xplore",
+      "publishedAt": "Mon, 30 Mar 2026 13:20:04 EDT",
+      "region": "海外",
+      "summary": "华盛顿大学等机构的研究团队开发了一种新方法，旨在解决异构机器人团队中的技能共享难题。该方法的核心是让机器人能够理解并模仿同伴展示的“意图”，而非简单地复制动作。这解决了因物理构造不同而难以直接学习的问题，使得不同形态的机器人（例如机械臂与轮式机器人）能够相互传授技能，有望提升在制造。",
+      "category": "技术与研究",
+      "company": "未提及具体公司",
+      "score": 22,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "国内首条年产能万台级人形机器人产线建成",
+      "url": "https://www.leiphone.com/category/industrynews/kFvS2aKYK2QdMRwI.html",
+      "snippet": "3月29日，国内首条年产能万台级的人形机器人自动化产线在广东正式投入使用，人形机器人规模化量产能力取得重大突破。 该产线年产能突破一万台，可实现每30分钟下线一台人形机器人，高效满足市场规模化交付需求。产线上24道精密组装工序均实现数字化，效率较传统提升50%以上，77项检验检测确保下线产品稳定可靠。 同时，产线具备高弹性装配特性，可灵活调整工位与产线长度，支持多型号、多产品混线生产，将有力推动人形机器人产业规模化发展。 据悉，该产线由东方精工与乐聚机器人联合打造。",
+      "source": "雷锋网",
+      "publishedAt": "Mon, 30 Mar 2026 18:37:00 +0800",
+      "region": "国内",
+      "summary": "该产线年产能突破一万台，可实现每30分钟下线一台人形机器人，高效满足市场规模化交付需求。产线上24道精密组装工序均实现数字化，效率较传统提升50%以上，77项检验检测确保下线产品稳定可靠。",
+      "category": "技术与研究",
+      "company": "乐聚",
+      "score": 18,
+      "breakdown": {
+        "substance": 5,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 4,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "AI芯片初创公司Rebellions以23亿美元估值完成4亿美元融资",
+      "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
+      "snippet": "The startup, which is planning to go public later this year, designs chips specifically for AI inference, another challenger to Nvidia's dominance.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 30 Mar 2026 13:00:00 +0000",
+      "region": "海外",
+      "summary": "韩国AI芯片初创公司Rebellions在上市前完成4亿美元融资，估值达23.4亿美元，总融资额已达8.5亿美元。公司同时发布两款新产品：用于AI推理的即用型计算单元RebelPOD，以及可扩展为集群的AI基础设施平台RebelRack。",
+      "category": "投融资与并购",
+      "company": "Rebellions",
+      "score": 42,
+      "breakdown": {
+        "substance": 15,
+        "importance": 8,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Starcloud完成1.7亿美元A轮融资以在太空建设数据中心",
+      "url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
+      "snippet": "Starcloud becomes the fastest Y Combinator startup to reach unicorn status, just 17 months after demo day.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 30 Mar 2026 11:00:00 +0000",
+      "region": "海外",
+      "summary": "Starcloud公司完成1.7亿美元A轮融资，用于建设太空数据中心。该公司已成为Y Combinator孵化项目中从演示日到成为独角兽（估值超10亿美元）最快的初创公司，仅用时17个月。其首个在轨GPU已成功用于训练AI模型并运行Gemini版本，这使其在获取太空运行高性能芯片的关键数据方面领先。",
+      "category": "投融资与并购",
+      "company": "Starcloud",
+      "score": 42,
+      "breakdown": {
+        "substance": 17,
+        "importance": 8,
+        "timeliness": 6,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "ScaleOps融资1.3亿美元以提升AI需求下的计算效率",
+      "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
+      "snippet": "ScaleOps just raised $130M to tackle GPU shortages and soaring AI cloud costs by automating infrastructure in real time.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 30 Mar 2026 13:52:02 +0000",
+      "region": "海外",
+      "summary": "ScaleOps是一家专注于实时自动化管理AI计算资源的初创公司，其软件能动态调整GPU、内存、存储和网络资源，以应对AI推理负载激增带来的挑战。该公司近日完成1.3亿美元C轮融资，估值达8亿美元，由Insight Partners领投。",
+      "category": "投融资与并购",
+      "company": "ScaleOps",
+      "score": 37,
+      "breakdown": {
+        "substance": 10,
+        "importance": 8,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "越疆2025年业绩报告：协作机器人全球第一，具身智能收入数倍增长",
+      "url": "https://www.leiphone.com/category/industrynews/9GYQTxZGKWi4HlQm.html",
+      "snippet": "3月30日，越疆发布2025年业绩报告。作为协作机器人领军企业和全形态具身智能机器人企业，越疆2025年收入达到4.92亿元，同比增长31.7%，协作机器人出货量跃居全球第一；研发总投入同比增加约60%，增加部分主要投向具身智能，未来将持续加大具身智能研发投入，打造了“一脑多体”的“协作臂+人形+多足”的具身智能产品矩阵，2025年具身智能收入实现数倍增长。越疆不是追逐风口的“概念型选手”，而是从高端制造土壤中自然生长出的“产业型平台”，协作机器人全球第一的基本盘提供了稳健的现金流与业绩确定性，具身智能的数倍增长打开了第二增长曲线的想象空间，这种“既有当下、又有未来”的稀缺结构，构成了越疆长期价值的核心逻辑。",
+      "source": "雷锋网",
+      "publishedAt": "Mon, 30 Mar 2026 19:32:00 +0800",
+      "region": "国内",
+      "summary": "越疆发布2025年业绩报告，总收入4.92亿元，同比增长31.7%。其协作机器人出货量已位居全球第一，成为公司稳健的业绩基本盘。同时，公司研发投入同比大增约60%，重点投向具身智能领域，并打造了“一脑多体”的“协作臂+人形+多足”产品矩阵，推动该业务收入在2025年实现数倍增长。",
+      "category": "投融资与并购",
+      "company": "越疆",
+      "score": 30,
+      "breakdown": {
+        "substance": 17,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "利用Snowflake Cortex AI构建高效IPO研究智能体的技术实践",
+      "url": "https://www.infoq.cn/article/MesTUMq8XAB0Ip3ZTlSw?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 30 Mar 2026 19:30:01 GMT",
+      "region": "国内",
+      "summary": "本文详细介绍了利用Snowflake Cortex AI构建IPO研究智能体的三步技术实践。首先，创建MARKET_REPORTS表存储解析后的PDF内容。其次，使用AI_PARSE_DOCUMENT函数自动解析PDF文件，并按页面提取文本存入表中。",
+      "category": "投融资与并购",
+      "company": "Snowflake",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "EnerVenue完成3亿美元B轮追加融资，将升级常州吉瓦级生产线",
+      "url": "https://36kr.com/p/3745335802790147?f=rss",
+      "snippet": "36氪独家获悉，新型镍氢气电池技术公司EnerVenue已完成3亿美元的B轮优先股追加融资，本轮融资由赋生资本领投，新引入香港投资管理有限公司为战略股东。据悉，本轮资金将用于常州工厂产能升级与扩充。 至此，公司已完成3轮融资，总金额已超8亿美元。 EnerVenue成立于2020年，由斯坦福大学材料科学与工程系教授崔屹创立，专注于镍氢气电池技术的研发和商业化。目前，公司已在中国江苏常州与美国肯塔基州等城市建有生产工厂。 本轮融资后，EnerVenue公司同步进行了公司人事与架构调整：委任Henning Rath为新的全球行政总裁，及在香港新设立地区总部和创新研发中心。 新CEO Henning Rath，此前曾在多家国际知名科技企业担任高管，拥有多家市值超十亿美元企业的管理和运营经验。 Henning Rath出任首席执行官 EnerVenue的核心产品，是一款基于镍氢技术开发的水性金属电池，这是一款以水溶液为电解质、金属化合物为正极的电池，具备高安全性、长寿命、宽温域运行、储能灵活及免维护等特点，可广泛应用于可再生能源配储、电网调峰调频服务和建筑储能一体化等储能应用场景。 新任全球行政总裁Henning Rath向36氪表示，这款产品已经取得安全性和可靠性方面的重要进展。不仅通过国家级认可测试实验室SGS按照国际安全标准的测试，也同步获得了UL1973和IEC63115-2标准的认证，公司还根据UL9540A的标准程序进行了内部测试。 “尤其值得一提的是，AMC在加热和过充实验中的表现。它在热失控测试中没有发生火灾，这是我们产品与锂离子电池的关键区别”。 Henning Rath表示，EnerVenue的技术核心，是其自主研发的电池结构，以及代替铂金使用的专有催化剂。这两项技术，使得EnerVenue第四代AMC产品能够在超30000次充放电循环后，拥有微弱衰减的良好性能表现。 目前，EnerVenue的核心产品已经步入生产制造与商业化阶段。 EnerVenue在中国江苏的常州布局有生产基地。本轮融资后，公司的业务重点便是推进常州工厂高容量生产线的落实与生产，该生产线一期工程设计年产能为250兆瓦时。 Henning Rath向36氪表示，镍氢电池在生产制造端的挑战一直是成本，而非性能。 “镍氢电池从前应用在航空领域，需要用特殊材料以及手工组装，成本极其高昂。EnerVenue的优势在于，我们自主研发设计了电池结构，让其实现了自动化、高容量的生产”。 EnerVenue 储能产品图 EnerVenue如今在中国、澳大利亚、美国和欧盟地区都拥有客户试点项目。其客户群体主要为公用事业公司、独立发电商、能源项目开发商、以及储能有更复杂需求的的大型商业和工业实体。 近期，AI数据中心对电力的需求引发社会热议。Henning Rath告诉36氪，这也许将是EnerVenue未来落地的重要方向之一。但当下，公司的主要目标还是成功提升常州工厂的产能，“我们的试点项目，非常有望在未来数月直接转换成销售订单”。 关于EnerVenue水性金属电池的市场现状，Henning Rath表示，其在市场上的最大竞争对手，依然是锂离子行业，“尤其是在固定式储能市场占主导地位的磷酸铁锂电池”。 但EnerVenue的机会也恰恰源自于此。 锂离子电池虽为主流，但产品属性决定了其使用过程中需要大量维护，这为使用客户带来了额外的风险和成本。在储能市场上，客户们渴望一个具备30年寿命、衰减程度小、安全性高且维护需求极低的资产。 “EnerVenue便是在这个维度上发力，并且市场上还没有和我们同等规模、相同或类似的技术”。",
+      "source": "36氪",
+      "publishedAt": "2026-03-31 07:30:00  +0800",
+      "region": "国内",
+      "summary": "近期，AI数据中心对电力的需求引发社会热议。Henning Rath告诉36氪，这也许将是EnerVenue未来落地的重要方向之一。但当下，公司的主要目标还是成功提升常州工厂的产能，“我们的试点项目，非常有望在未来数月直接转换成销售订单”。",
+      "category": "投融资与并购",
+      "company": "EnerVenue",
+      "score": 41,
+      "breakdown": {
+        "substance": 13,
+        "importance": 8,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "五角大楼针对Anthropic的文化战策略适得其反",
+      "url": "https://www.technologyreview.com/2026/03/30/1134881/the-pentagons-culture-war-tactic-against-anthropic-has-backfired/",
+      "snippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Thursday, a California judge temporarily blocked the Pentagon from labeling Anthropic a supply chain risk and ordering government agencies to stop using its AI. It’s the latest development in the month-long…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 30 Mar 2026 15:42:50 +0000",
+      "region": "海外",
+      "summary": "加州法官上周四裁定，五角大楼将AI公司Anthropic标记为‘供应链风险’的做法缺乏证据，并下令暂停该认定。判决指出，政府此前已长期使用Anthropic的Claude模型且无异议，其指控该公司可能植入‘紧急关闭开关’也未能提供证据。争议始于政府试图与Anthropic直接签约，但未完成法定程序。",
+      "category": "政策与监管",
+      "company": "Anthropic",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 10,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ]
+}
