@@ -7,7 +7,7 @@
       "source": "量子位",
       "publishedAt": "Mon, 30 Mar 2026 14:21:45 +0000",
       "region": "国内",
-      "summary": "阿里巴巴3月30日发布全模态大模型Qwen3.5-Omni，其核心变化在于原生多模态能力大幅提升，在215项第三方测试中超越Gemini-3.1 Pro。具体信息点包括：1. 支持113种语言/方言的语音识别和36种的语音生成，并能高情商理解对话意图。",
+      "summary": "阿里巴巴于3月30日发布全模态大模型Qwen3.5-Omni，其核心变化在于原生多模态能力大幅提升，在215项第三方测试中超越Gemini-3.1 Pro。具体信息点包括：1. 支持113种语言及方言的语音识别，并能通过口述需求自主生成应用代码（Vibe Coding）。",
       "category": "产品发布与更新",
       "company": "阿里",
       "score": 52,
@@ -22,13 +22,13 @@
       "isDisplayReady": true
     },
     {
-      "title": "AI健康工具激增，但效果如何？",
+      "title": "AI健康工具激增，但实际效果如何？",
       "url": "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/",
       "snippet": "Earlier this month, Microsoft launched Copilot Health, a new space within its Copilot app where users will be able to connect their medical records and ask specific questions about their health. A couple of days earlier, Amazon had announced that Health AI, an LLM-based tool previously restricted to members of its One Medical service, would…",
       "source": "MIT Technology Review",
       "publishedAt": "Mon, 30 Mar 2026 16:00:00 +0000",
       "region": "海外",
-      "summary": "近期，微软在其Copilot应用中推出“Copilot Health”，允许用户连接医疗记录并咨询健康问题。亚马逊也宣布，其基于大语言模型的工具“Health AI”将扩大使用范围，不再仅限于其One Medical服务的成员。",
+      "summary": "微软本月在Copilot应用中推出Copilot Health，允许用户连接医疗记录并咨询健康问题。亚马逊也宣布，其基于大语言模型的工具Health AI将扩大使用范围，此前该工具仅限于其One Medical服务的会员。",
       "category": "产品发布与更新",
       "company": "微软、亚马逊",
       "score": 25,
@@ -45,57 +45,15 @@
   ],
   "技术与研究": [
     {
-      "title": "EchoZ-1.0在通用AI预测排行榜上领先，其Map-Reduce架构与评估方法展现优势",
-      "url": "https://www.qbitai.com/2026/03/393353.html",
-      "snippet": "Elo 1034.2分霸榜，领先Gemini-3.1-Pro、Claude-Opus-4.6",
-      "source": "量子位",
-      "publishedAt": "Mon, 30 Mar 2026 08:34:49 +0000",
-      "region": "国内",
-      "summary": "在2026年3月的通用AI预测排行榜上，EchoZ-1.0以1034.2的Elo分数位列第一，领先于谷歌和Anthropic的模型。其核心优势在于独特的Map-Reduce智能体架构：它将复杂预测问题分解为多个子任务并行处理，再聚合信息进行多轮迭代推理，以提升准确性。",
-      "category": "技术与研究",
-      "company": "",
-      "score": 41,
-      "breakdown": {
-        "substance": 12,
-        "importance": 11,
-        "timeliness": 6,
-        "credibility": 9,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "AI工具正全面接管广告投放全链路",
-      "url": "https://www.qbitai.com/2026/03/393471.html",
-      "snippet": "从行业中来，到行业中去",
-      "source": "量子位",
-      "publishedAt": "Tue, 31 Mar 2026 01:03:38 +0000",
-      "region": "国内",
-      "summary": "在快手的商业AI体系中，AI已全面接管广告投放全流程。具体而言，AI在投前能规模化生产素材并制定策略；在投中能实时读取互动率、转化率等数据，自动触发追投、调价或素材切换；在投后则负责诊断复盘。整个过程无需人工干预，实现了从经验判断到系统化执行的转变。",
-      "category": "技术与研究",
-      "company": "快手",
-      "score": 25,
-      "breakdown": {
-        "substance": 3,
-        "importance": 0,
-        "timeliness": 10,
-        "credibility": 9,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "不同身体的机器人现在可以共享技能：基于意图的学习改变了什么",
+      "title": "不同形态的机器人现可共享技能：基于意图的学习带来改变",
       "url": "https://techxplore.com/news/2026-03-robots-bodies-skills-intention-based.html",
       "snippet": "Robots are increasingly being used in manufacturing, agriculture and health care. But programming a team of robots to carry out individual tasks raises a question: How can robots learn from other robots if they are built differently? A multi-institutional team including Chongjie Zhang, an associate professor of computer science and engineering at WashU McKelvey Engineering, have developed a new method that enables robots to achieve intentions shown by their peers.",
       "source": "Tech Xplore",
       "publishedAt": "Mon, 30 Mar 2026 13:20:04 EDT",
       "region": "海外",
-      "summary": "华盛顿大学等机构的研究团队开发了一种基于意图学习的新方法，旨在解决异构机器人团队间的技能共享难题。该方法的核心是让机器人通过观察同伴演示来理解其行动意图，而非单纯模仿动作，从而克服因机械结构差异导致的学习障碍。这一进展有望提升制造、农业及医疗等领域中多机器人系统的协作效率与自适应能力。",
+      "summary": "华盛顿大学等机构的研究团队开发了一种基于意图学习的新方法，解决了不同构造的机器人之间难以相互学习的难题。该方法使机器人能够通过观察同伴展示的意图来掌握新技能，无需依赖相同的物理结构。这项技术有望应用于制造业、农业和医疗等多个领域，提升机器人团队的协作效率。",
       "category": "技术与研究",
-      "company": "无",
+      "company": "未提及",
       "score": 22,
       "breakdown": {
         "substance": 4,
@@ -116,7 +74,7 @@
       "region": "国内",
       "summary": "该产线年产能突破一万台，可实现每30分钟下线一台人形机器人，高效满足市场规模化交付需求。产线上24道精密组装工序均实现数字化，效率较传统提升50%以上，77项检验检测确保下线产品稳定可靠。",
       "category": "技术与研究",
-      "company": "乐聚",
+      "company": "乐聚机器人",
       "score": 18,
       "breakdown": {
         "substance": 5,
@@ -137,7 +95,7 @@
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 30 Mar 2026 11:00:00 +0000",
       "region": "海外",
-      "summary": "太空数据中心初创公司Starcloud在完成1.7亿美元A轮融资后，披露了其具体技术路径与挑战。其首个在轨GPU已成功完成AI模型训练并运行了Gemini版本，积累了太空运行高性能芯片的宝贵数据。",
+      "summary": "太空数据中心初创公司Starcloud在完成1.7亿美元A轮融资后，披露了其具体技术路径与挑战。其核心业务模式之一是向在轨的其他航天器出售算力，例如其首颗卫星已用于分析Capella Space雷达卫星的数据。公司宣称已率先在轨部署了GPU，并完成了首次在轨AI模型训练及运行Gemini版本。",
       "category": "投融资与并购",
       "company": "Starcloud",
       "score": 36,
@@ -158,7 +116,7 @@
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 30 Mar 2026 13:52:02 +0000",
       "region": "海外",
-      "summary": "ScaleOps是一家专注于实时自动化管理云基础设施的初创公司，其软件能动态调整计算、内存、存储和网络资源，以应对AI推理等动态工作负载。该公司近日完成1.3亿美元C轮融资，估值达8亿美元，由Insight Partners领投。",
+      "summary": "ScaleOps公司宣布完成1.3亿美元C轮融资，估值达8亿美元，由Insight Partners领投。该公司开发的核心软件能实时自动管理和重新分配计算资源，旨在解决AI时代因Kubernetes等工具依赖静态配置而导致的GPU利用率低、性能问题和成本飙升。",
       "category": "投融资与并购",
       "company": "ScaleOps",
       "score": 35,
@@ -179,12 +137,12 @@
       "source": "雷锋网",
       "publishedAt": "Mon, 30 Mar 2026 19:32:00 +0800",
       "region": "国内",
-      "summary": "越疆发布2025年业绩报告，全年收入4.92亿元，同比增长31.7%。其协作机器人出货量已位居全球第一，为公司提供了稳定的现金流。同时，公司研发投入同比大增约60%，重点投向具身智能领域，并打造了“一脑多体”产品矩阵（涵盖协作臂、人形和多足机器人），推动该业务收入在2025年实现了数倍增长。",
+      "summary": "越疆发布2025年业绩报告，全年收入4.92亿元，同比增长31.7%。其核心亮点有二：一是协作机器人出货量已位居全球第一，为公司提供了稳定的现金流；二是公司大幅增加研发投入，重点布局具身智能领域，打造了“一脑多体”的“协作臂+人形+多足”产品矩阵，推动该业务收入在2025年实现了数倍增长。",
       "category": "投融资与并购",
       "company": "越疆",
-      "score": 27,
+      "score": 30,
       "breakdown": {
-        "substance": 14,
+        "substance": 17,
         "importance": 0,
         "timeliness": 6,
         "credibility": 4,
@@ -200,7 +158,7 @@
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 30 Mar 2026 13:00:00 +0000",
       "region": "海外",
-      "summary": "韩国AI芯片初创公司Rebellions在IPO前完成4亿美元融资，估值达23亿美元。公司专注于设计用于AI推理的芯片，并同时发布了两款新产品：RebelPOD（生产就绪的推理计算单元）和RebelRack（可扩展集群平台）。",
+      "summary": "韩国AI芯片初创公司Rebellions在计划今年晚些时候IPO前，完成了4亿美元融资，估值达23亿美元。该公司专注于设计用于AI推理的芯片，并同时发布了两款新产品：用于推理计算的RebelPOD和用于大规模AI部署的集群平台RebelRack。",
       "category": "投融资与并购",
       "company": "Rebellions",
       "score": 27,
@@ -221,12 +179,12 @@
       "source": "InfoQ",
       "publishedAt": "Mon, 30 Mar 2026 19:30:01 GMT",
       "region": "国内",
-      "summary": "本文详细介绍了利用Snowflake Cortex AI构建IPO研究智能体的三步技术实践。首先，创建表格存储解析后的PDF内容，包括文件名、路径、页码和文本。其次，使用AI_PARSE_DOCUMENT函数自动解析市场报告PDF文件，并将数据加载到表中。",
+      "summary": "本文详细介绍了在Snowflake平台上构建IPO研究智能体的三步技术方案。首先，创建MARKET_REPORTS表，并使用AI_PARSE_DOCUMENT函数解析PDF报告，将每页内容按文件名、路径和页码存储。",
       "category": "投融资与并购",
       "company": "Snowflake",
-      "score": 22,
+      "score": 19,
       "breakdown": {
-        "substance": 3,
+        "substance": 0,
         "importance": 0,
         "timeliness": 8,
         "credibility": 8,
@@ -265,7 +223,7 @@
       "region": "国内",
       "summary": "这期内容主要提到Token成职场内卷新指标、月之暗面或赴港IPO、谷歌推TurboQuant算法。这股风气也蔓延到国内企业，腾讯、阿里纷纷将 Token 作为员工福利，鼓励员工多用 AI 工具。阿里为员工提供大量 Token 额度，办公和研发中使用悟空、Qoder 等付费 AI 工具可随意报销。",
       "category": "投融资与并购",
-      "company": "谷歌，腾讯，字节，月之暗面",
+      "company": "谷歌、腾讯、字节",
       "score": 46,
       "breakdown": {
         "substance": 22,
@@ -278,5 +236,48 @@
       "isDisplayReady": false
     }
   ],
-  "政策与监管": []
+  "政策与监管": [
+    {
+      "title": "阶跃星辰安全专家李昌昊将出席QCon北京站，分享AI Agent可观测体系构建",
+      "url": "https://www.infoq.cn/article/aY5ud3jSqH1U8cvCCW13?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 31 Mar 2026 10:00:00 GMT",
+      "region": "国内",
+      "summary": "阶跃星辰安全专家李昌昊将在QCon北京站分享如何构建AI Agent的无侵入可观测体系。其核心方法是利用eBPF技术，在LLM层透明解密TLS流量以监控每次对话的Prompt、响应和延迟，并在沙箱平台层关联K8s审计日志与运行时事件，从而实现对AI Agent从推理到执行的全链路追踪。",
+      "category": "政策与监管",
+      "company": "阶跃星辰",
+      "score": 36,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "五角大楼针对Anthropic的文化战争策略适得其反",
+      "url": "https://www.technologyreview.com/2026/03/30/1134881/the-pentagons-culture-war-tactic-against-anthropic-has-backfired/",
+      "snippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Thursday, a California judge temporarily blocked the Pentagon from labeling Anthropic a supply chain risk and ordering government agencies to stop using its AI. It’s the latest development in the month-long…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 30 Mar 2026 15:42:50 +0000",
+      "region": "海外",
+      "summary": "加州法官上周四裁定，五角大楼将AI公司Anthropic标记为‘供应链风险’缺乏证据，并下令暂停该认定。具体信息点包括：1) 法官认为政府未能证明Anthropic是‘破坏者’，且其律师承认没有证据支持该公司可能植入‘终止开关’的指控。",
+      "category": "政策与监管",
+      "company": "Anthropic",
+      "score": 19,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 10,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ]
 }
