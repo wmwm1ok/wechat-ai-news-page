@@ -3,8 +3,8 @@
   "edition": "morning",
   "editionLabel": "早报",
   "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/3/31 08:02",
-  "count": 14,
+  "generatedAt": "2026/3/31 11:19",
+  "count": 13,
   "targetCount": 14,
   "diagnostics": {
     "previousEditionFile": "news-2026-03-30-afternoon.json",
@@ -98,20 +98,20 @@
     },
     "scoring": {
       "totalInput": 34,
-      "totalScored": 17,
-      "strictScoredCount": 16,
-      "relaxedCandidateCount": 1,
+      "totalScored": 19,
+      "strictScoredCount": 17,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 3,
-      "selectedCandidateCount": 17,
-      "duplicateCount": 13,
-      "crossDayDuplicateCount": 12,
-      "lowQualityCount": 0,
-      "domesticAvailable": 10,
+      "weakSummaryCount": 6,
+      "selectedCandidateCount": 19,
+      "duplicateCount": 10,
+      "crossDayDuplicateCount": 8,
+      "lowQualityCount": 1,
+      "domesticAvailable": 12,
       "overseasAvailable": 7,
       "sourceCount": {
-        "量子位": 2,
-        "InfoQ": 3,
+        "量子位": 3,
+        "InfoQ": 4,
         "36氪": 2,
         "TechCrunch AI": 3,
         "雷锋网": 3,
@@ -120,15 +120,15 @@
       }
     },
     "display": {
-      "refinedCount": 17,
-      "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 1,
-      "postEditionFilterCount": 16,
-      "displayReadyCount": 12,
+      "refinedCount": 19,
+      "previousEditionRemovedCount": 2,
+      "integrityRemovedCount": 2,
+      "postEditionFilterCount": 15,
+      "displayReadyCount": 10,
       "fallbackDisplayCount": 2,
-      "reserveDisplayCount": 0,
-      "removedWeakSummaries": 4,
-      "shortage": 0
+      "reserveDisplayCount": 1,
+      "removedWeakSummaries": 5,
+      "shortage": 1
     }
   },
   "articles": [
@@ -139,88 +139,28 @@
       "url": "https://www.qbitai.com/2026/03/393460.html",
       "source": "量子位",
       "publishedAt": "Mon, 30 Mar 2026 14:21:45 +0000",
-      "summary": "阿里巴巴发布新一代全模态大模型Qwen3.5-Omni，其核心变化在于原生融合了文本、图像、音频和视频处理能力。该模型在215项第三方测试中超越Gemini-3.1 Pro，具体表现在：1. 能精准识别113种语言及方言，包括使用人数不足百万的毛利语和海南方言。",
-      "score": 50
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "智能体安全挑战与治理：从设计转向发现",
-      "company": "蚂蚁集团",
-      "url": "https://www.infoq.cn/article/64irlwhbFtLW8IkPFrNa?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 30 Mar 2026 17:51:58 GMT",
-      "summary": "蚂蚁集团副总裁韦韬指出，随着AI向自主式智能体演进，安全治理模式必须从传统设计转向以发现为核心。支付宝为此推出AHA解决方案，旨在连接手机、车机等多端智能体，实现跨终端服务。智能体面临Prompt注入、工具滥用、目标劫持等新型安全威胁，成为制约其落地的关键因素。",
-      "score": 42
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "AI健康工具激增，但实际效果如何？",
-      "company": "微软, 亚马逊",
-      "url": "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Mon, 30 Mar 2026 16:00:00 +0000",
-      "summary": "微软推出Copilot Health，允许用户连接医疗记录并询问健康问题；亚马逊也宣布其基于大语言模型的Health AI工具将扩大使用范围，不再仅限于One Medical会员。",
-      "score": 29
+      "summary": "阿里巴巴3月30日发布全模态大模型Qwen3.5-Omni，其核心变化在于原生多模态能力大幅提升，在215项第三方测试中超越Gemini-3.1 Pro。具体信息点包括：1. 支持113种语言/方言的语音识别和36种的语音生成，并能高情商理解对话意图。",
+      "score": 52
     },
     {
       "section": "技术与研究",
-      "title": "全国首个万卡级自主可控智算集群点亮，泡泡玛特乐园门票将涨价，蚂蚁发现OpenClaw高危漏洞",
-      "company": "",
-      "url": "https://36kr.com/p/3745267391103239?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-30 18:05:42  +0800",
-      "summary": "蚂蚁集团安全实验室对开源AI框架OpenClaw进行了为期三天的安全审计，提交了33个漏洞报告，其中8个已被修复，包括1个严重漏洞和4个高危漏洞。月之暗面在发布Kimi K2.5模型一个月后，其年度经常性收入突破1亿美元，且模型API需求旺盛，有客户开出千万美元级别的预付承诺以获取优先供应。",
-      "score": 45
-    },
-    {
-      "section": "技术与研究",
-      "title": "EchoZ-1.0在预测排行榜领先，其Map-Reduce架构与评估方法展现优势",
+      "title": "EchoZ-1.0在通用AI预测排行榜上领先，其Map-Reduce架构与评估方法展现优势",
       "company": "",
       "url": "https://www.qbitai.com/2026/03/393353.html",
       "source": "量子位",
       "publishedAt": "Mon, 30 Mar 2026 08:34:49 +0000",
-      "summary": "在2026年3月的通用AI预测排行榜上，EchoZ-1.0以1034.2的Elo分数位列第一，领先于谷歌和Anthropic的模型。其核心优势在于独特的Map-Reduce推理架构：它将复杂预测问题拆解为多个子任务并行处理，再整合信息进行多轮迭代，直至推理稳定。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "不同形态的机器人现可共享技能：基于意图的学习带来改变",
-      "company": "未提及具体公司",
-      "url": "https://techxplore.com/news/2026-03-robots-bodies-skills-intention-based.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Mon, 30 Mar 2026 13:20:04 EDT",
-      "summary": "华盛顿大学等机构的研究团队开发了一种新方法，旨在解决异构机器人团队中的技能共享难题。该方法的核心是让机器人能够理解并模仿同伴展示的“意图”，而非简单地复制动作。这解决了因物理构造不同而难以直接学习的问题，使得不同形态的机器人（例如机械臂与轮式机器人）能够相互传授技能，有望提升在制造。",
-      "score": 22
+      "summary": "在2026年3月的通用AI预测排行榜上，EchoZ-1.0以1034.2的Elo分数位列第一，领先于谷歌和Anthropic的模型。其核心优势在于独特的Map-Reduce智能体架构：它将复杂预测问题分解为多个子任务并行处理，再聚合信息进行多轮迭代推理，以提升准确性。",
+      "score": 41
     },
     {
       "section": "投融资与并购",
-      "title": "AI芯片初创公司Rebellions以23亿美元估值完成4亿美元融资",
-      "company": "Rebellions",
-      "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Mon, 30 Mar 2026 13:00:00 +0000",
-      "summary": "韩国AI芯片初创公司Rebellions在上市前完成4亿美元融资，估值达23.4亿美元，总融资额已达8.5亿美元。公司同时发布两款新产品：用于AI推理的即用型计算单元RebelPOD，以及可扩展为集群的AI基础设施平台RebelRack。",
-      "score": 42
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Starcloud完成1.7亿美元A轮融资以在太空建设数据中心",
+      "title": "Starcloud完成1.7亿美元A轮融资，计划在太空建设数据中心",
       "company": "Starcloud",
       "url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 30 Mar 2026 11:00:00 +0000",
-      "summary": "Starcloud公司完成1.7亿美元A轮融资，用于建设太空数据中心。该公司已成为Y Combinator孵化项目中从演示日到成为独角兽（估值超10亿美元）最快的初创公司，仅用时17个月。其首个在轨GPU已成功用于训练AI模型并运行Gemini版本，这使其在获取太空运行高性能芯片的关键数据方面领先。",
-      "score": 42
-    },
-    {
-      "section": "政策与监管",
-      "title": "五角大楼针对Anthropic的文化战策略适得其反",
-      "company": "Anthropic",
-      "url": "https://www.technologyreview.com/2026/03/30/1134881/the-pentagons-culture-war-tactic-against-anthropic-has-backfired/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Mon, 30 Mar 2026 15:42:50 +0000",
-      "summary": "加州法官上周四裁定，五角大楼将AI公司Anthropic标记为‘供应链风险’的做法缺乏证据，并下令暂停该认定。判决指出，政府此前已长期使用Anthropic的Claude模型且无异议，其指控该公司可能植入‘紧急关闭开关’也未能提供证据。争议始于政府试图与Anthropic直接签约，但未完成法定程序。",
-      "score": 21
+      "summary": "太空数据中心初创公司Starcloud在完成1.7亿美元A轮融资后，披露了其具体技术路径与挑战。其首个在轨GPU已成功完成AI模型训练并运行了Gemini版本，积累了太空运行高性能芯片的宝贵数据。",
+      "score": 36
     },
     {
       "section": "投融资与并购",
@@ -229,8 +169,8 @@
       "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 30 Mar 2026 13:52:02 +0000",
-      "summary": "ScaleOps是一家专注于实时自动化管理AI计算资源的初创公司，其软件能动态调整GPU、内存、存储和网络资源，以应对AI推理负载激增带来的挑战。该公司近日完成1.3亿美元C轮融资，估值达8亿美元，由Insight Partners领投。",
-      "score": 37
+      "summary": "ScaleOps是一家专注于实时自动化管理云基础设施的初创公司，其软件能动态调整计算、内存、存储和网络资源，以应对AI推理等动态工作负载。该公司近日完成1.3亿美元C轮融资，估值达8亿美元，由Insight Partners领投。",
+      "score": 35
     },
     {
       "section": "投融资与并购",
@@ -239,8 +179,38 @@
       "url": "https://www.leiphone.com/category/industrynews/9GYQTxZGKWi4HlQm.html",
       "source": "雷锋网",
       "publishedAt": "Mon, 30 Mar 2026 19:32:00 +0800",
-      "summary": "越疆发布2025年业绩报告，总收入4.92亿元，同比增长31.7%。其协作机器人出货量已位居全球第一，成为公司稳健的业绩基本盘。同时，公司研发投入同比大增约60%，重点投向具身智能领域，并打造了“一脑多体”的“协作臂+人形+多足”产品矩阵，推动该业务收入在2025年实现数倍增长。",
-      "score": 30
+      "summary": "越疆发布2025年业绩报告，全年收入4.92亿元，同比增长31.7%。其协作机器人出货量已位居全球第一，为公司提供了稳定的现金流。同时，公司研发投入同比大增约60%，重点投向具身智能领域，并打造了“一脑多体”产品矩阵（涵盖协作臂、人形和多足机器人），推动该业务收入在2025年实现了数倍增长。",
+      "score": 27
+    },
+    {
+      "section": "投融资与并购",
+      "title": "AI芯片初创公司Rebellions在IPO前融资4亿美元，估值达23亿美元",
+      "company": "Rebellions",
+      "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 30 Mar 2026 13:00:00 +0000",
+      "summary": "韩国AI芯片初创公司Rebellions在IPO前完成4亿美元融资，估值达23亿美元。公司专注于设计用于AI推理的芯片，并同时发布了两款新产品：RebelPOD（生产就绪的推理计算单元）和RebelRack（可扩展集群平台）。",
+      "score": 27
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI工具正全面接管广告投放全链路",
+      "company": "快手",
+      "url": "https://www.qbitai.com/2026/03/393471.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 31 Mar 2026 01:03:38 +0000",
+      "summary": "在快手的商业AI体系中，AI已全面接管广告投放全流程。具体而言，AI在投前能规模化生产素材并制定策略；在投中能实时读取互动率、转化率等数据，自动触发追投、调价或素材切换；在投后则负责诊断复盘。整个过程无需人工干预，实现了从经验判断到系统化执行的转变。",
+      "score": 25
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "AI健康工具激增，但效果如何？",
+      "company": "微软、亚马逊",
+      "url": "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 30 Mar 2026 16:00:00 +0000",
+      "summary": "近期，微软在其Copilot应用中推出“Copilot Health”，允许用户连接医疗记录并咨询健康问题。亚马逊也宣布，其基于大语言模型的工具“Health AI”将扩大使用范围，不再仅限于其One Medical服务的成员。",
+      "score": 25
     },
     {
       "section": "投融资与并购",
@@ -249,8 +219,18 @@
       "url": "https://www.infoq.cn/article/MesTUMq8XAB0Ip3ZTlSw?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Mon, 30 Mar 2026 19:30:01 GMT",
-      "summary": "本文详细介绍了利用Snowflake Cortex AI构建IPO研究智能体的三步技术实践。首先，创建MARKET_REPORTS表存储解析后的PDF内容。其次，使用AI_PARSE_DOCUMENT函数自动解析PDF文件，并按页面提取文本存入表中。",
-      "score": 21
+      "summary": "本文详细介绍了利用Snowflake Cortex AI构建IPO研究智能体的三步技术实践。首先，创建表格存储解析后的PDF内容，包括文件名、路径、页码和文本。其次，使用AI_PARSE_DOCUMENT函数自动解析市场报告PDF文件，并将数据加载到表中。",
+      "score": 22
+    },
+    {
+      "section": "技术与研究",
+      "title": "不同身体的机器人现在可以共享技能：基于意图的学习改变了什么",
+      "company": "无",
+      "url": "https://techxplore.com/news/2026-03-robots-bodies-skills-intention-based.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Mon, 30 Mar 2026 13:20:04 EDT",
+      "summary": "华盛顿大学等机构的研究团队开发了一种基于意图学习的新方法，旨在解决异构机器人团队间的技能共享难题。该方法的核心是让机器人通过观察同伴演示来理解其行动意图，而非单纯模仿动作，从而克服因机械结构差异导致的学习障碍。这一进展有望提升制造、农业及医疗等领域中多机器人系统的协作效率与自适应能力。",
+      "score": 22
     },
     {
       "section": "投融资与并购",
@@ -271,6 +251,16 @@
       "publishedAt": "Mon, 30 Mar 2026 18:37:00 +0800",
       "summary": "该产线年产能突破一万台，可实现每30分钟下线一台人形机器人，高效满足市场规模化交付需求。产线上24道精密组装工序均实现数字化，效率较传统提升50%以上，77项检验检测确保下线产品稳定可靠。",
       "score": 18
+    },
+    {
+      "section": "投融资与并购",
+      "title": "AI周报：Token成职场内卷新指标，月之暗面或赴港IPO，谷歌推TurboQuant算法",
+      "company": "谷歌，腾讯，字节，月之暗面",
+      "url": "https://www.infoq.cn/article/q4fu9Y9KU9MsKtIA1QKv?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 30 Mar 2026 17:39:35 GMT",
+      "summary": "这期内容主要提到Token成职场内卷新指标、月之暗面或赴港IPO、谷歌推TurboQuant算法。这股风气也蔓延到国内企业，腾讯、阿里纷纷将 Token 作为员工福利，鼓励员工多用 AI 工具。阿里为员工提供大量 Token 额度，办公和研发中使用悟空、Qoder 等付费 AI 工具可随意报销。",
+      "score": 46
     }
   ]
 }
