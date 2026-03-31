@@ -62,6 +62,10 @@ const MIT_DOWNLOAD_PATTERNS = [
   /\bthe download\b/i,
   /this is today['’]s edition of the download/i
 ];
+const INFOQ_ROUNDUP_PATTERNS = [
+  /AI周报/,
+  /本周AI领域的重要进展包括/
+];
 
 function isCfcFastMode() {
   return process.env.CFC_FAST_MODE === 'true';
@@ -182,6 +186,17 @@ export function isSourceQualifiedNewsItem(item, sourceName = '') {
   if (sourceName === 'MIT Technology Review') {
     const text = `${item?.title || ''} ${item?.snippet || ''}`;
     if (MIT_DOWNLOAD_PATTERNS.some(pattern => pattern.test(text))) {
+      return false;
+    }
+  }
+
+  if (sourceName === 'InfoQ') {
+    const title = `${item?.title || ''}`;
+    const snippet = `${item?.snippet || ''}`;
+    if (
+      INFOQ_ROUNDUP_PATTERNS.some(pattern => pattern.test(`${title} ${snippet}`)) &&
+      title.split(/[，,]/).filter(Boolean).length >= 3
+    ) {
       return false;
     }
   }

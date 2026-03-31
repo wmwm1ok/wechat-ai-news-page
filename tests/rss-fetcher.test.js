@@ -72,6 +72,15 @@ describe('RSS fetcher filters', () => {
     expect(result).toBe(false);
   });
 
+  it('rejects InfoQ multi-topic weekly AI roundups', () => {
+    const result = isSourceQualifiedNewsItem({
+      title: 'AI周报：Token成职场内卷新指标，月之暗面或赴港IPO，谷歌推TurboQuant算法',
+      snippet: '本周AI领域的重要进展包括：Token消耗成为企业评估AI效率的新指标，月之暗面或赴港IPO，谷歌推出TurboQuant算法。'
+    }, 'InfoQ');
+
+    expect(result).toBe(false);
+  });
+
   it('rejects entertainment-style AI roundup stories from broad overseas feeds', () => {
     const result = isSourceQualifiedNewsItem({
       title: 'All the latest in AI music',

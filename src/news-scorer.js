@@ -9,7 +9,7 @@ import { isDisplayReadyNews } from './ai-summarizer.js';
 // 全局去重引擎实例
 const dedupEngine = new DeduplicationEngine();
 const CATEGORY_PRIORITY = ['产品发布与更新', '技术与研究', '投融资与并购', '政策与监管'];
-const RELAXED_QUALITY_THRESHOLD = Math.max(QUALITY_THRESHOLD - 4, 14);
+const RELAXED_QUALITY_THRESHOLD = Math.max(QUALITY_THRESHOLD - 5, 14);
 const LOW_TRUST_SOURCES = new Set(['MEXC', 'WPBF']);
 const SOURCE_ALIASES = {
   '36 Kr': '36氪'
