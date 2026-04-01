@@ -1,9 +1,9 @@
 {
-  "date": "2026/3/31",
+  "date": "2026/4/1",
   "edition": "morning",
   "editionLabel": "早报",
   "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/3/31 11:51",
+  "generatedAt": "2026/4/1 08:00",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -12,9 +12,9 @@
     "candidateTargetCount": 31,
     "fetch": {
       "domesticBeforeDedup": 24,
-      "overseasBeforeDedup": 10,
-      "domesticAfterDedup": 23,
-      "overseasAfterDedup": 10,
+      "overseasBeforeDedup": 19,
+      "domesticAfterDedup": 24,
+      "overseasAfterDedup": 19,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -51,25 +51,25 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 5,
+          "count": 8,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 5,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 0,
+          "count": 3,
           "error": null
         },
         {
@@ -94,184 +94,185 @@
       }
     },
     "summarize": {
-      "totalSummarized": 33
+      "totalSummarized": 43
     },
     "scoring": {
-      "totalInput": 33,
-      "totalScored": 19,
-      "strictScoredCount": 15,
+      "totalInput": 43,
+      "totalScored": 26,
+      "strictScoredCount": 22,
       "relaxedCandidateCount": 4,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 5,
-      "selectedCandidateCount": 19,
-      "duplicateCount": 10,
-      "crossDayDuplicateCount": 8,
-      "lowQualityCount": 0,
-      "domesticAvailable": 13,
-      "overseasAvailable": 6,
+      "weakSummaryCount": 6,
+      "selectedCandidateCount": 26,
+      "duplicateCount": 8,
+      "crossDayDuplicateCount": 4,
+      "lowQualityCount": 2,
+      "domesticAvailable": 14,
+      "overseasAvailable": 12,
       "sourceCount": {
-        "量子位": 4,
-        "InfoQ": 4,
-        "36氪": 2,
-        "TechCrunch AI": 3,
-        "雷锋网": 3,
-        "MIT Technology Review": 2,
+        "雷锋网": 2,
+        "36氪": 4,
+        "量子位": 5,
+        "TechCrunch AI": 6,
+        "InfoQ": 3,
+        "MIT Technology Review": 3,
+        "The Verge AI": 2,
         "Tech Xplore": 1
       }
     },
     "display": {
-      "refinedCount": 19,
-      "previousEditionRemovedCount": 1,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 16,
-      "displayReadyCount": 13,
-      "fallbackDisplayCount": 1,
+      "refinedCount": 26,
+      "previousEditionRemovedCount": 0,
+      "integrityRemovedCount": 0,
+      "postEditionFilterCount": 26,
+      "displayReadyCount": 20,
+      "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 3,
+      "removedWeakSummaries": 6,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "阿里发布Qwen3.5-Omni全模态大模型，多模态能力超越Gemini-3.1 Pro",
-      "company": "阿里",
-      "url": "https://www.qbitai.com/2026/03/393460.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 30 Mar 2026 14:21:45 +0000",
-      "summary": "阿里巴巴于3月30日发布全模态大模型Qwen3.5-Omni，其核心变化在于原生多模态能力大幅提升。具体而言，该模型在215项第三方测试中超越Gemini-3.1 Pro，例如在嘈杂环境语音识别（WenetSpeech测试）中错误率更低。",
-      "score": 55
+      "title": "独家：Runway推出1000万美元基金及Builders计划，支持早期AI初创公司",
+      "company": "Runway",
+      "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 31 Mar 2026 14:00:00 +0000",
+      "summary": "AI视频生成公司Runway宣布成立1000万美元风险基金，并启动Builders计划，以支持早期AI初创公司。具体举措包括：1. 基金将投资于AI、媒体和世界模拟领域的早期公司，例如已投资的AI应用数据库公司LanceDB和AI蛋白质设计公司Tamarind Bio。",
+      "score": 33
     },
     {
       "section": "产品发布与更新",
-      "title": "AI健康工具激增，但效果如何？",
-      "company": "微软，亚马逊",
+      "title": "京东科技首发AI智能体专属支付方案ClawTip",
+      "company": "京东科技",
+      "url": "https://www.qbitai.com/2026/03/394011.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 31 Mar 2026 09:12:58 +0000",
+      "summary": "京东科技3月31日发布AI智能体专属支付方案ClawTip，旨在解决AI自主交易中的支付与变现难题。其核心创新在于：一是为AI智能体设计了专属钱包，通过预设小额零钱、额度与频次双重授权来确保支付安全，不触碰用户核心账户。",
+      "score": 30
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "AI健康工具激增，但实际效果如何？",
+      "company": "微软, 亚马逊",
       "url": "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/",
       "source": "MIT Technology Review",
       "publishedAt": "Mon, 30 Mar 2026 16:00:00 +0000",
-      "summary": "微软在Copilot应用中推出Copilot Health，允许用户连接医疗记录并咨询健康问题。亚马逊则将其基于大语言模型的工具Health AI从仅限于One Medical会员扩展至广泛可用。然而，斯坦福大学教授指出，现有评估仅针对单次聊天回复，无法衡量复杂的多轮医疗对话，且独立测试缺失。",
-      "score": 25
+      "summary": "微软本月推出Copilot Health，用户可连接医疗记录并咨询健康问题；亚马逊也宣布扩大其基于大语言模型的Health AI工具使用范围，此前该工具仅限One Medical会员使用。然而，专家指出这些工具在发布前缺乏独立测试，存在风险。",
+      "score": 21
     },
     {
       "section": "技术与研究",
-      "title": "美国开源AI旗帜倒下，中国开源模型实力获侧面证实",
+      "title": "具身智能开源生态发展引业界关注，机器人真机评测成焦点",
       "company": "",
-      "url": "https://www.qbitai.com/2026/03/393395.html",
+      "url": "https://www.qbitai.com/2026/03/393887.html",
       "source": "量子位",
-      "publishedAt": "Mon, 30 Mar 2026 08:47:29 +0000",
-      "summary": "近期，美国AI开源领域出现两起事件，侧面印证了中国开源模型的技术实力。具体而言，Cursor发布的新模型Composer 2被曝套壳中国模型Kimi K2.5；另一家初创公司Deep Cogito发布的Cogito v2.1，其基础模型也被指是中国的DeepSeek。",
-      "score": 49
+      "publishedAt": "Tue, 31 Mar 2026 06:41:49 +0000",
+      "summary": "业界聚焦具身智能开源生态，认为开源能凝聚合力并提升行业集中度。针对国内开源模型同质化问题，专家呼吁学界与产业界联动以实现自主创新。活动中展示了Pi0.5、Dream Zero、WALL-OSS等多个机器人基础模型，自变量机器人还提供了从数据采集到现场评测的全流程教程以降低开发门槛。",
+      "score": 42
     },
     {
       "section": "技术与研究",
-      "title": "EchoZ-1.0在预测排行榜领先，其Map-Reduce架构与评估方法受关注",
+      "title": "Qwen3.5-Omni实测：摄像头开启即可现场讲解论文与编程，获215项SOTA",
       "company": "",
-      "url": "https://www.qbitai.com/2026/03/393353.html",
+      "url": "https://www.qbitai.com/2026/03/393941.html",
       "source": "量子位",
-      "publishedAt": "Mon, 30 Mar 2026 08:34:49 +0000",
-      "summary": "在2026年3月的通用AI预测排行榜上，EchoZ-1.0模型以1034.2的Elo分数位列第一，超越了谷歌和Anthropic的模型。其核心创新在于：第一，采用Map-Reduce智能体架构进行推理，通过将宏观问题分解为多个子任务并行处理，再聚合信息进行多轮迭代，以提升分析深度。",
-      "score": 41
+      "publishedAt": "Tue, 31 Mar 2026 08:22:36 +0000",
+      "summary": "阿里通义千问团队发布了Qwen3.5-Omni模型，该模型在多项基准测试中获得了215项最佳性能成绩，整体表现与谷歌的Gemini 3.1 Pro相当。其核心亮点在于采用了“边输入、边处理、边生成”的流式设计，能够实现实时理解与响应，例如用户开启摄像头即可现场讲解论文或编程。",
+      "score": 39
     },
     {
       "section": "技术与研究",
-      "title": "AI工具正全面接管广告投放全链路",
-      "company": "快手",
-      "url": "https://www.qbitai.com/2026/03/393471.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 31 Mar 2026 01:03:38 +0000",
-      "summary": "在快手的商业AI体系中，AI已全面应用于广告投放全链路。具体而言，它首先将人工经验转化为系统可调用的规则，实现了广告素材的规模化生产与优化。其次，在投放过程中，AI能实时读取互动率、转化率等数据流，自动触发追投、调价或素材切换等动作，无需人工干预。",
-      "score": 25
+      "title": "理想智驾核心夏中谱加盟无界动力任联席CTO，投身具身智能领域",
+      "company": "无界动力",
+      "url": "https://www.infoq.cn/article/JiCrwYbL9x7yJ6p37t44?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 31 Mar 2026 17:38:34 GMT",
+      "summary": "具身智能公司无界动力宣布，前理想汽车智驾端到端技术负责人夏中谱加入，担任联合创始人兼联席CTO。他将负责基于世界模型的原生具身智能多模态大模型研发，以及数据闭环、云端仿真等核心技术设施建设。夏中谱是中科院博士，曾在理想主导国内首个智驾端到端方案的规模化量产。",
+      "score": 38
     },
     {
       "section": "投融资与并购",
-      "title": "Starcloud完成1.7亿美元A轮融资，计划在太空建设数据中心",
+      "title": "优必选2025年业绩报告：全尺寸具身智能人形机器人收入销量全球第一",
+      "company": "优必选",
+      "url": "https://www.leiphone.com/category/industrynews/jaF9J09x7q4qwLOZ.html",
+      "source": "雷锋网",
+      "publishedAt": "Tue, 31 Mar 2026 20:28:00 +0800",
+      "summary": "优必选2025年业绩报告显示，其核心产品——身高超160厘米的全尺寸具身智能人形机器人业务爆发式增长，收入达8.2亿元，同比增长超2200%，销量1079台，成为公司第一大收入来源。在应用层面，其Walker系列机器人已批量进入汽车制造、智慧物流等工业场景，服务多家世界500强企业。",
+      "score": 48
+    },
+    {
+      "section": "投融资与并购",
+      "title": "众包AI模型反馈初创公司Yupp在获得3300万美元融资后关闭",
+      "company": "Yupp",
+      "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 31 Mar 2026 20:01:07 +0000",
+      "summary": "众包AI模型反馈平台Yupp在运营不到一年后宣布关闭。该公司曾提供免费服务，让用户测试和比较来自800个AI模型（包括OpenAI、Google等顶尖模型）的回复，并收集用户对最佳模型的反馈。",
+      "score": 42
+    },
+    {
+      "section": "政策与监管",
+      "title": "Claude推出计算机操作功能，OpenAI发布对抗性代码审查插件",
+      "company": "Anthropic, OpenAI",
+      "url": "https://www.infoq.cn/article/5PyUjNXpqHs9Zd3kB67m?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 31 Mar 2026 17:14:25 GMT",
+      "summary": "Anthropic公司为Claude Code推出“Computer Use”功能，目前以研究预览形式在macOS上线，允许AI通过命令行直接操控计算机，实现从代码编写到应用验证的闭环。",
+      "score": 36
+    },
+    {
+      "section": "技术与研究",
+      "title": "通义实验室推出办公智能体CoPaw，内置安全机制与长期记忆功能",
+      "company": "通义实验室",
+      "url": "https://www.infoq.cn/article/Z8OmAd2YjFBlxaA0yfij?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 31 Mar 2026 20:49:03 GMT",
+      "summary": "通义实验室推出办公智能体CoPaw，旨在提升办公自动化效率。其核心功能包括：内置Tool Guard安全模块，能通过正则规则库扫描并拦截如命令注入等危险操作；采用向量与全文混合检索模式管理长期记忆，能同时理解模糊意图和精准关键词查找。",
+      "score": 35
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Starcloud完成1.7亿美元A轮融资以在太空建设数据中心",
       "company": "Starcloud",
       "url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 30 Mar 2026 11:00:00 +0000",
-      "summary": "太空数据中心初创公司Starcloud在完成1.7亿美元A轮融资后，披露了其具体技术路径与挑战。其核心业务包括为在轨卫星（如Capella Space的雷达卫星）提供数据处理服务，并已成功在太空部署GPU，完成了首次在轨AI模型训练并运行了Gemini版本。",
-      "score": 36
-    },
-    {
-      "section": "投融资与并购",
-      "title": "ScaleOps融资1.3亿美元以提升AI需求下的计算效率",
-      "company": "ScaleOps",
-      "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Mon, 30 Mar 2026 13:52:02 +0000",
-      "summary": "ScaleOps是一家专注于实时自动化管理AI计算资源的初创公司，其软件能动态调整GPU、内存、存储和网络资源，以应对AI推理负载激增导致的资源管理难题。该公司近日完成1.3亿美元C轮融资，估值达8亿美元，由Insight Partners领投。",
+      "summary": "Starcloud完成1.7亿美元A轮融资，用于建设太空数据中心。该公司已率先在轨道上部署了首个地面GPU，并完成了首次在轨AI模型训练和运行Gemini版本的任务，积累了在太空运行高性能芯片的宝贵数据。其商业模式之一是向轨道上的其他航天器出售算力，例如分析Capella Space雷达卫星的数据。",
       "score": 35
     },
     {
-      "section": "政策与监管",
-      "title": "阶跃星辰安全专家李昌昊将出席QCon北京站，分享AI Agent可观测体系构建",
-      "company": "阶跃星辰",
-      "url": "https://www.infoq.cn/article/aY5ud3jSqH1U8cvCCW13?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 31 Mar 2026 10:00:00 GMT",
-      "summary": "阶跃星辰安全专家李昌昊将在QCon北京站分享如何构建AI Agent的无侵入可观测体系。其演讲将具体介绍：1. 在LLM层，利用eBPF技术透明解密TLS流量，以监控每次对话的Prompt/Response、Token用量及延迟等关键指标。",
-      "score": 36
-    },
-    {
       "section": "投融资与并购",
-      "title": "越疆2025年业绩报告：协作机器人全球第一，具身智能收入数倍增长",
-      "company": "越疆",
-      "url": "https://www.leiphone.com/category/industrynews/9GYQTxZGKWi4HlQm.html",
-      "source": "雷锋网",
-      "publishedAt": "Mon, 30 Mar 2026 19:32:00 +0800",
-      "summary": "越疆发布2025年业绩报告，全年收入4.92亿元，同比增长31.7%。其协作机器人出货量已位居全球第一，为公司提供稳健现金流。同时，公司研发投入同比大增约60%，重点投向具身智能领域，打造了“一脑多体”的“协作臂+人形+多足”产品矩阵，推动该业务收入在2025年实现数倍增长，成为公司第二增长曲线。",
-      "score": 27
-    },
-    {
-      "section": "投融资与并购",
-      "title": "AI芯片初创公司Rebellions在IPO前融资4亿美元，估值达23亿美元",
+      "title": "AI芯片初创公司Rebellions以23亿美元估值融资4亿美元",
       "company": "Rebellions",
       "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 30 Mar 2026 13:00:00 +0000",
-      "summary": "韩国AI芯片初创公司Rebellions在计划于今年晚些时候IPO前，完成了4亿美元融资，估值达到23.4亿美元。该公司专注于设计用于AI推理的芯片，以挑战英伟达的主导地位。具体而言，公司近期发布了两个新产品：用于推理计算的RebelPOD和用于大规模AI部署的可扩展集群RebelRack。",
-      "score": 27
-    },
-    {
-      "section": "技术与研究",
-      "title": "不同形态的机器人现可共享技能：基于意图的学习带来改变",
-      "company": "未提及具体公司",
-      "url": "https://techxplore.com/news/2026-03-robots-bodies-skills-intention-based.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Mon, 30 Mar 2026 13:20:04 EDT",
-      "summary": "由华盛顿大学副教授张崇杰等人组成的多机构研究团队，开发了一种基于意图学习的新方法，旨在解决机器人协作中的关键难题。该方法使不同形态和构造的机器人能够通过观察同伴的意图来相互学习技能，从而克服了因硬件差异导致的学习障碍。这项研究有望应用于制造业、农业和医疗保健等多个领域，提升异构机器人团队的协作效率。",
-      "score": 22
+      "summary": "韩国AI芯片初创公司Rebellions在上市前融资4亿美元，估值达23亿美元，其总融资额已达8.5亿美元。公司专注于设计用于AI推理的芯片，以挑战英伟达的市场地位，并同时发布了两款新产品：用于推理计算的RebelPOD和用于大规模AI部署的集群解决方案RebelRack。",
+      "score": 34
     },
     {
       "section": "投融资与并购",
-      "title": "利用Snowflake Cortex AI构建高效IPO研究智能体的技术实践",
-      "company": "Snowflake",
-      "url": "https://www.infoq.cn/article/MesTUMq8XAB0Ip3ZTlSw?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 30 Mar 2026 19:30:01 GMT",
-      "summary": "本文详细介绍了在Snowflake数据云中，利用其内置的Cortex AI服务构建一个用于IPO研究的智能代理的具体技术步骤。该方法首先创建数据库表来存储解析后的PDF报告内容，并使用AI_PARSE_DOCUMENT函数自动解析PDF文件，将文本按页存入表中。",
-      "score": 19
-    },
-    {
-      "section": "政策与监管",
-      "title": "五角大楼针对Anthropic的文化战策略适得其反",
-      "company": "Anthropic",
-      "url": "https://www.technologyreview.com/2026/03/30/1134881/the-pentagons-culture-war-tactic-against-anthropic-has-backfired/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Mon, 30 Mar 2026 15:42:50 +0000",
-      "summary": "法官上周四下令暂停五角大楼将Anthropic标记为供应链风险的决定，并禁止政府执行该认定。判决基于几个关键事实：政府自2025年起广泛使用Anthropic的Claude AI并无投诉；政府声称Anthropic可能植入“紧急停止开关”，但法庭上承认无证据；国防部在启动此程序时未完成法定必要步骤。",
-      "score": 19
+      "title": "ScaleOps融资1.3亿美元，旨在AI需求激增下提升计算效率",
+      "company": "ScaleOps",
+      "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 30 Mar 2026 13:52:02 +0000",
+      "summary": "ScaleOps是一家专注于实时自动化管理AI计算资源的初创公司，其软件能动态调整GPU、内存、存储和网络资源，以应对AI推理等动态工作负载。该公司近日完成1.3亿美元C轮融资，估值达8亿美元，由Insight Partners领投。",
+      "score": 33
     },
     {
       "section": "投融资与并购",
-      "title": "EnerVenue完成3亿美元B轮追加融资，将升级常州吉瓦级生产线",
-      "company": "EnerVenue",
-      "url": "https://36kr.com/p/3745335802790147?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-03-31 07:30:00  +0800",
-      "summary": "近期，AI数据中心对电力的需求引发社会热议。Henning Rath告诉36氪，这也许将是EnerVenue未来落地的重要方向之一。但当下，公司的主要目标还是成功提升常州工厂的产能，“我们的试点项目，非常有望在未来数月直接转换成销售订单”。",
-      "score": 41
+      "title": "Nomadic融资840万美元，致力于处理自动驾驶车辆产生的海量数据",
+      "company": "Nomadic",
+      "url": "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 31 Mar 2026 15:00:00 +0000",
+      "summary": "自动驾驶数据公司Nomadic完成840万美元融资。其核心产品是一个AI平台，能将自动驾驶车辆摄像头等传感器采集的原始视频，转化为结构化、可搜索的数据集。具体而言，该平台能理解视频中的物理行为（如车辆变道），并精确定位机器部件（如机械臂抓手），帮助客户如Zoox、三菱电机等更快地开发智能机器。",
+      "score": 32
     }
   ]
 }
