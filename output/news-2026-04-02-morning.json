@@ -1,0 +1,304 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "Elgato推出Stream Deck软件更新，支持AI助手控制设备按钮",
+      "url": "https://www.theverge.com/tech/905021/elgato-stream-deck-mcp-ai-agent-update",
+      "snippet": "If you're tired of controlling Stream Deck devices by manually pushing buttons, then good news: Elgato will now let you delegate that task to a chatbot instead. The Stream Deck 7.4 software update released today introduces Model Context Protocol (MCP) support, allowing AI assistants like Claude, ChatGPT, and Nvidia G-Assist to find and activate Stream Deck actions on your behalf. \"You still set up actions in Stream Deck app the same way you always have. MCP adds a new way to trigger them,\" Elgato said in its announcement. \"Once everything is connected, you can type or speak requests and your AI tool will trigger the matching Stream Deck act … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-01T12:38:58.000Z",
+      "region": "海外",
+      "summary": "Elgato发布的Stream Deck 7.4软件更新，通过引入模型上下文协议（MCP）支持，让用户能用AI助手语音或打字控制设备按钮。核心变化是：用户仍需在Stream Deck应用中像往常一样设置操作，但更新后，连接好的Claude、ChatGPT等AI工具能根据指令触发对应操作。",
+      "category": "产品发布与更新",
+      "company": "Elgato",
+      "score": 35,
+      "breakdown": {
+        "substance": 12,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "驯服Agent不可预测性：可观测性与工程化策略助力生产环境部署",
+      "url": "https://www.infoq.cn/article/NuNH2aN2qGfdm2s2TlMd?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 01 Apr 2026 15:39:06 GMT",
+      "region": "国内",
+      "summary": "专家指出，为降低AI Agent的生产部署成本，可采用组合策略：将70%的确定性任务交由规则处理，30%的主观评估由大模型完成，并叠加10%的采样机制，这样每月成本可从数万美元降至1000-3000美元。",
+      "category": "产品发布与更新",
+      "company": "",
+      "score": 23,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "三星Galaxy S26照片应用引入AI编辑功能，可大幅修改图像",
+      "url": "https://www.theverge.com/tech/904176/samsung-galaxy-s26-ai-photo-assist-slop",
+      "snippet": "Love to see the BACKSST BOYS at the Sphere. The Google Pixel 9 walked so that the Samsung Galaxy S26 could run. Google introduced AI editing tools to Photos slowly. It started with changes to the background - make the sky more blue, or remove crowds of tourists. Things got weird once the company added natural language requests and let you ask for basically any change. There were some guardrails, but in many cases it was easy to prompt your way around them into creating a potentially harmful image of something that never happened - helicopter crashes, smoking bombs on street corners, that kind of thing. That's the world Samsung's updated Photo Assist steps into. At Unpacked in Febru … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-03-31T18:15:00.000Z",
+      "region": "海外",
+      "summary": "三星在Galaxy S26的相册应用中引入了名为Photo Assist的AI编辑套件，支持自然语言指令进行图像修改，例如更换衣物或添加宠物。与谷歌Pixel的AI工具相比，三星的防护措施更严格，能有效阻止生成涉及尸体、毒品或犯罪现场等有害内容。",
+      "category": "产品发布与更新",
+      "company": "Samsung",
+      "score": 15,
+      "breakdown": {
+        "substance": 1,
+        "importance": 0,
+        "timeliness": 4,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "阿里云智能运维Agent评测体系实践：突破泛化瓶颈",
+      "url": "https://www.infoq.cn/article/9qgbqQFhMvJmTkPoFG8l?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 01 Apr 2026 15:20:13 GMT",
+      "region": "国内",
+      "summary": "阿里云分享了其智能运维Agent评测体系的构建实践，旨在解决AIOps评测中真实性与泛化能力的难题。具体方法包括：接入开源系统、内部演练环境和线上生产系统三类数据源，并利用混沌工程工具注入故障来构建评测集。",
+      "category": "技术与研究",
+      "company": "阿里云",
+      "score": 53,
+      "breakdown": {
+        "substance": 24,
+        "importance": 10,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "深化AI与开源协同，构建开放共赢生态——太湖共识发布",
+      "url": "https://www.infoq.cn/article/rBHMv1NbHASpMK2akGr8?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 01 Apr 2026 20:14:35 GMT",
+      "region": "国内",
+      "summary": "大模型显著提升了代码生成效率，推动软件生产转向“人机协同、工具驱动、算力支撑”的新模式。这降低了开源项目创建成本，使技术价值重心向行业知识、数据积累和服务能力迁移。同时，AI正从数字空间走向工业制造、城市治理等现实场景，开源社区、数据集和工具链成为智能经济的重要基础设施。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 46,
+      "breakdown": {
+        "substance": 20,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI训练成本飙升，OpenAI面临竞争格局转变与战略抉择",
+      "url": "https://www.infoq.cn/article/0gETwo2o5fFsUQxotf1J?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 01 Apr 2026 18:00:00 GMT",
+      "region": "国内",
+      "summary": "研究表明，AI训练成本正以每年2.4倍的速度飙升，预计到2027年，最大规模训练成本将超10亿美元，使前沿模型开发仅限巨头。面对竞争，OpenAI正与博通合作开发定制AI加速器，以摆脱对英伟达的依赖，并计划于2026年开始部署。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 36,
+      "breakdown": {
+        "substance": 7,
+        "importance": 10,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Claude Code被指过度设计？Pi分享OpenClaw背后的极简理念",
+      "url": "https://www.infoq.cn/article/KyLqAEKpkvrH3tJwMgiw?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 01 Apr 2026 14:47:50 GMT",
+      "region": "国内",
+      "summary": "作者分享了他利用Claude生成OpenSCAD模型，仅用5分钟就成功制作出难安装的IKEA老款灯带支架，这让他体验到AI能将用户带入新领域。他提出让AI代理自主维护和压缩文件以实现“记忆”，并指出当前模型在信息压缩方面表现越来越强。",
+      "category": "技术与研究",
+      "company": "Claude",
+      "score": 32,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI招聘初创公司Mercor遭网络攻击，与开源项目LiteLLM漏洞有关",
+      "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
+      "snippet": "The AI recruiting startup confirmed a security incident after an extortion hacking crew took credit for stealing data from the company's systems.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 01 Apr 2026 01:42:59 +0000",
+      "region": "海外",
+      "summary": "AI招聘初创公司Mercor确认其系统因开源项目LiteLLM的漏洞而遭黑客攻击。勒索组织Lapsus$声称对此负责，并在其泄露网站上分享了据称从Mercor窃取的数据样本，其中包括Slack通信记录、工单数据以及两段展示其AI系统与平台承包商对话的视频。",
+      "category": "技术与研究",
+      "company": "Mercor",
+      "score": 29,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "结合机器人操作系统与大型语言模型实现自然语言控制",
+      "url": "https://techxplore.com/news/2026-03-combining-robot-llms-natural-language.html",
+      "snippet": "Over the past few decades, robotics researchers have developed a wide range of increasingly advanced robots that can autonomously complete various real-world tasks. To be successfully deployed in real-world settings, such as in public spaces, homes and office environments, these robots should be able to make sense of instructions provided by human users and adapt their actions accordingly.",
+      "source": "Tech Xplore",
+      "publishedAt": "Wed, 01 Apr 2026 08:10:01 EDT",
+      "region": "海外",
+      "summary": "过去几十年，机器人技术已能开发出多种先进机器人，使其能在公共场所、家庭和办公室等现实环境中自主完成各类任务。为了成功部署，这些机器人需要理解人类用户的指令并相应调整行动。具体而言，研究旨在结合机器人操作系统与大型语言模型，以实现通过自然语言直接控制机器人，解决人机交互中指令理解与动作适配的关键问题。",
+      "category": "技术与研究",
+      "company": "未提及",
+      "score": 29,
+      "breakdown": {
+        "substance": 11,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Meta新建AI数据中心将依赖10座天然气发电厂供电",
+      "url": "https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/",
+      "snippet": "Meta's upcoming Hyperion AI data center will be powered by 10 new natural gas plants.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 01 Apr 2026 18:35:36 +0000",
+      "region": "海外",
+      "summary": "Meta宣布将新建10座天然气发电厂，为其耗资270亿美元的Hyperion AI数据中心供电。这些位于路易斯安那州的发电厂总发电量约7.5吉瓦，超过整个南达科他州的发电容量。此举引发争议，因为天然气主要成分甲烷的温室效应是二氧化碳的84倍，且美国天然气供应链的甲烷泄漏率高达约3%。",
+      "category": "技术与研究",
+      "company": "Meta",
+      "score": 26,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "OpenAI最新融资估值达8520亿美元，亚马逊、英伟达和软银领投",
+      "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
+      "snippet": "OpenAI's latest funding round, led by Amazon, Nvidia, and SoftBank, values the AI lab at $852 billion as it nears an IPO.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 31 Mar 2026 21:25:04 +0000",
+      "region": "海外",
+      "summary": "OpenAI最新融资由亚马逊、英伟达和软银领投，估值达8520亿美元，融资总额1220亿美元，为IPO铺路。公司披露了具体运营数据：每周活跃用户超9亿，付费订阅用户超5000万，月收入达20亿美元，其中企业业务收入占比已提升至40%。",
+      "category": "投融资与并购",
+      "company": "OpenAI",
+      "score": 41,
+      "breakdown": {
+        "substance": 13,
+        "importance": 13,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "众包AI模型反馈初创公司Yupp在获得3300万美元融资后关闭业务",
+      "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
+      "snippet": "Less than a year after launching, with checks from some of the biggest names in Silicon Valley, crowdsourced AI model feedback startup Yupp is closing its business, the company said Tuesday.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 31 Mar 2026 20:01:07 +0000",
+      "region": "海外",
+      "summary": "众包AI模型反馈平台Yupp在运营不到一年后宣布关闭。该公司曾提供免费服务，让用户测试和比较来自800个AI模型（包括OpenAI、Google等顶尖模型）的回复，并收集用户对最佳模型的反馈。",
+      "category": "投融资与并购",
+      "company": "Yupp",
+      "score": 36,
+      "breakdown": {
+        "substance": 21,
+        "importance": 0,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "独家：Runway推出1000万美元基金及初创企业计划，支持AI视频初创公司",
+      "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
+      "snippet": "Runway is launching a $10 million fund and startup program to back companies building with its AI video models, as it pushes toward interactive, real-time “video intelligence” applications.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 31 Mar 2026 14:00:00 +0000",
+      "region": "海外",
+      "summary": "AI视频生成公司Runway宣布启动一项1000万美元的风险基金和一个名为'Builders'的初创企业支持计划。该基金将投资于AI、媒体和世界模拟领域的早期公司，而支持计划则为种子轮到C轮的初创公司提供免费的API额度。",
+      "category": "投融资与并购",
+      "company": "Runway",
+      "score": 25,
+      "breakdown": {
+        "substance": 10,
+        "importance": 0,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "AI基准测试已失效，我们需要什么来替代",
+      "url": "https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead/",
+      "snippet": "For decades, artificial intelligence has been evaluated through the question of whether machines outperform humans. From chess to advanced math, from coding to essay writing, the performance of AI models and applications is tested against that of individual humans completing tasks. This framing is seductive: An AI vs. human comparison on isolated problems with clear…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 31 Mar 2026 12:01:08 +0000",
+      "region": "海外",
+      "summary": "文章指出，当前AI基准测试在医疗领域已失效。例如，即使FDA批准的AI读片模型在测试中比放射科专家更快更准，但在真实医院中，医护人员需额外时间将AI输出与医院报告标准、国家法规结合，反而可能延误流程。",
+      "category": "政策与监管",
+      "company": "无",
+      "score": 28,
+      "breakdown": {
+        "substance": 13,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
