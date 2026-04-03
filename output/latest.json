@@ -1,20 +1,20 @@
 {
-  "date": "2026/4/2",
-  "edition": "afternoon",
-  "editionLabel": "午后版",
-  "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/4/2 16:02",
+  "date": "2026/4/3",
+  "edition": "morning",
+  "editionLabel": "早报",
+  "title": "AI 日报·早报（Morning）",
+  "generatedAt": "2026/4/3 08:03",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-04-02-morning.json",
+    "previousEditionFile": "news-2026-04-02-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 23,
-      "overseasBeforeDedup": 18,
-      "domesticAfterDedup": 23,
-      "overseasAfterDedup": 18,
+      "domesticBeforeDedup": 24,
+      "overseasBeforeDedup": 20,
+      "domesticAfterDedup": 24,
+      "overseasAfterDedup": 20,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 5,
+          "count": 6,
           "error": null
         },
         {
@@ -51,13 +51,13 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 6,
+          "count": 4,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 2,
           "error": null
         },
         {
@@ -75,13 +75,13 @@
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 1,
+          "count": 3,
           "error": null
         },
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 3,
+          "count": 6,
           "error": null
         }
       ],
@@ -94,185 +94,186 @@
       }
     },
     "summarize": {
-      "totalSummarized": 41
+      "totalSummarized": 44
     },
     "scoring": {
-      "totalInput": 41,
-      "totalScored": 20,
-      "strictScoredCount": 16,
+      "totalInput": 44,
+      "totalScored": 22,
+      "strictScoredCount": 18,
       "relaxedCandidateCount": 4,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 9,
-      "selectedCandidateCount": 20,
-      "duplicateCount": 14,
-      "crossDayDuplicateCount": 11,
-      "lowQualityCount": 2,
-      "domesticAvailable": 16,
-      "overseasAvailable": 4,
+      "weakSummaryCount": 7,
+      "selectedCandidateCount": 22,
+      "duplicateCount": 15,
+      "crossDayDuplicateCount": 10,
+      "lowQualityCount": 1,
+      "domesticAvailable": 11,
+      "overseasAvailable": 11,
       "sourceCount": {
-        "量子位": 5,
-        "36氪": 3,
-        "雷锋网": 6,
-        "InfoQ": 2,
-        "TechCrunch AI": 1,
+        "量子位": 3,
+        "Ars Technica": 1,
+        "InfoQ": 3,
+        "36氪": 2,
+        "雷锋网": 3,
         "MIT Technology Review": 1,
-        "The Verge AI": 1,
-        "Wired AI": 1
+        "The Verge AI": 4,
+        "TechCrunch AI": 3,
+        "Tech Xplore": 2
       }
     },
     "display": {
-      "refinedCount": 20,
+      "refinedCount": 22,
       "previousEditionRemovedCount": 0,
       "integrityRemovedCount": 4,
-      "postEditionFilterCount": 16,
-      "displayReadyCount": 10,
-      "fallbackDisplayCount": 4,
+      "postEditionFilterCount": 18,
+      "displayReadyCount": 15,
+      "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 6,
+      "removedWeakSummaries": 3,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "豆包大模型日均Token使用量突破120万亿，Seedance 2.0 API开启公测",
-      "company": "火山引擎",
-      "url": "https://www.qbitai.com/2026/04/394616.html",
+      "title": "悟空率先接入国产最强编程模型Qwen3.6-Plus，提升企业AI应用能力",
+      "company": "悟空",
+      "url": "https://www.qbitai.com/2026/04/395155.html",
       "source": "量子位",
-      "publishedAt": "Thu, 02 Apr 2026 04:04:31 +0000",
-      "summary": "火山引擎宣布其豆包大模型日均Token处理量已突破120万亿，三个月内翻倍，主要受AI视频创作和智能体普及驱动。同时，公司成为国内唯一同时获得信通院智能体可信与安全防护双认证的厂商。此外，面向企业的Seedance 2.0 API开启公测，该版本强化了版权与肖像安全的全流程保障。",
-      "score": 47
+      "publishedAt": "Thu, 02 Apr 2026 08:28:38 +0000",
+      "summary": "阿里巴巴的企业级AI应用“悟空”已率先接入国产编程模型Qwen3.6-Plus。新模型带来三大具体提升：一是AI从“副驾驶”变为能独立编写跨文件代码、运行测试并修复的“协作者”；二是能可靠拆解并执行企业多步骤复杂工作流；三是成本低至每百万Tokens输入2元，降低了使用门槛。",
+      "score": 39
     },
     {
       "section": "产品发布与更新",
-      "title": "美图RoboNeo上线首月MAU破百万，以对话式AI简化影像创作流程",
-      "company": "美图",
-      "url": "https://www.qbitai.com/2026/04/394547.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 01 Apr 2026 09:47:50 +0000",
-      "summary": "美图公司于2025年7月推出影像AI助手RoboNeo，首月月活跃用户即超百万，并登顶全球26个国家和地区的应用商店榜单。其核心创新在于打造了“对话即创作”的极简工作流，用户只需用文字描述想法，AI即可自动完成从文本生图到视频生成的全流程，解决了传统创作需在多工具间切换的繁琐问题。",
+      "title": "Codex负责人谈AI工具发展：沙箱安全是必须，模型成熟推动应用增长",
+      "company": "Anthropic",
+      "url": "https://www.infoq.cn/article/vblM3MlOEs86dmVdH8d1?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 02 Apr 2026 18:00:00 GMT",
+      "summary": "Codex负责人Michael介绍了其AI工具的安全与应用进展。具体包括：1. 安全方面，针对不同操作系统采用不同沙箱技术，如在macOS使用Seatbelt，Linux使用Bubblewrap等库，Windows则自建沙箱，以防止AI工具不受控运行。",
+      "score": 34
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "沙利文报告：阿里云以32.4%市场份额位居中国金融智能体市场第一",
+      "company": "阿里云",
+      "url": "https://www.leiphone.com/category/industrynews/fsdHdIn4bT0JUoNV.html",
+      "source": "雷锋网",
+      "publishedAt": "Thu, 02 Apr 2026 18:05:00 +0800",
+      "summary": "全球咨询公司沙利文4月2日发布的报告显示，阿里云以32.4%的市场份额位居中国金融智能体市场第一，其份额超过第二名与第三名之和。报告从七个维度评估竞争力，阿里云是唯一在所有维度均领先的厂商。",
+      "score": 31
+    },
+    {
+      "section": "技术与研究",
+      "title": "谷歌发布Gemma 4开源AI模型并改用Apache 2.0许可证",
+      "company": "Google",
+      "url": "https://arstechnica.com/ai/2026/04/google-announces-gemma-4-open-ai-models-switches-to-apache-2-0-license/",
+      "source": "Ars Technica",
+      "publishedAt": "Thu, 02 Apr 2026 16:01:33 +0000",
+      "summary": "谷歌发布Gemma 4开源AI模型，核心变化是将其许可证从自定义的严格许可改为更宽松的Apache 2.0许可证，解决了开发者因旧许可单边更新、使用限制过多而不敢采用的顾虑。此次更新包含四个版本：两个大型模型（26B专家混合与31B密集模型）针对高性能本地硬件优化。",
+      "score": 35
+    },
+    {
+      "section": "技术与研究",
+      "title": "Cloudflare工程师用AI复刻Next.js，成本1100美元，已用于生产环境",
+      "company": "Cloudflare",
+      "url": "https://www.infoq.cn/article/XNfsebiwgEd1hbcissWd?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 02 Apr 2026 19:07:02 GMT",
+      "summary": "Cloudflare工程师Steve Faulkner利用AI，在一个周末内将主流前端框架Next.js迁移到Vite之上，创建了名为Vinext的项目。该项目仅花费约1100美元，实现了作为Next.js即插即用替代方案的目标，可通过一条命令部署到Cloudflare Workers。",
+      "score": 32
+    },
+    {
+      "section": "技术与研究",
+      "title": "火山引擎与OpenClaw共建ClawHub中国镜像站，解决Skill限速问题",
+      "company": "火山引擎",
+      "url": "https://www.leiphone.com/category/industrynews/emGtdoDg6UZjzECe.html",
+      "source": "雷锋网",
+      "publishedAt": "Thu, 02 Apr 2026 15:33:00 +0800",
+      "summary": "火山引擎与OpenClaw合作推出ClawHub中国镜像站，旨在解决中国开发者访问源站时因API限速导致的下载缓慢问题。具体而言：1. 镜像站可将寻找并下载YouTube技能等任务的成功率从约1/3提升至快速完成，访问时间从1-1.5分钟大幅缩短。",
+      "score": 32
+    },
+    {
+      "section": "政策与监管",
+      "title": "微软新任AI首席执行官将重心转向追逐超级智能",
+      "company": "Microsoft",
+      "url": "https://www.theverge.com/report/905791/mustafa-suleyman-microsoft-ai-transcription-model",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-02T14:00:00.000Z",
+      "summary": "微软新任AI首席执行官穆斯塔法·苏莱曼已将工作重心转向追求“超级智能”，其核心定义是为依赖微软的企业客户提供能创造产品价值的先进语言模型。为专注于此，公司重组后将企业级和消费者团队合并，由另一位高管负责具体产品与工程事务。",
+      "score": 23
+    },
+    {
+      "section": "技术与研究",
+      "title": "燃料价格飙升，塑料可能成为下一个涨价对象",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 02 Apr 2026 10:00:00 +0000",
+      "summary": "化石燃料价格飙升正传导至塑料行业，因为塑料生产依赖石油原料。目前缺乏可行的替代方案：生物基塑料仅占全球年产4.31亿吨塑料的约0.5%，且回收技术存在局限——机械回收会降低材料品质，化学回收则面临污染问题。",
       "score": 32
     },
     {
       "section": "产品发布与更新",
-      "title": "千问AI眼镜首次OTA升级，AI硬件实现“说句话办成事”",
-      "company": "千问",
-      "url": "https://www.qbitai.com/2026/04/394620.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 02 Apr 2026 05:33:26 +0000",
-      "summary": "千问AI眼镜G1和夸克AI眼镜G1于4月2日启动首次OTA升级，核心变化是将高频操作简化为“看一眼、说一句”。具体信息点包括：1. 在出行场景，用户可通过眼镜直接调用支付宝完成单车解锁、停车场缴费和话费充值；2. 在外卖场景，可依托淘宝闪购完成从选品到支付的全链路操作。",
-      "score": 31
-    },
-    {
-      "section": "技术与研究",
-      "title": "Claude Code源码意外泄露，开发者用Python快速重构获10万星",
-      "company": "Anthropic",
-      "url": "https://www.qbitai.com/2026/04/394570.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 02 Apr 2026 02:07:02 +0000",
-      "summary": "中国00后开发者Chaofan Shou发现Anthropic公司的AI编程工具Claude Code约51.2万行源代码被意外公开，其中包含了工具的运行机制和新功能测试内容。",
-      "score": 38
-    },
-    {
-      "section": "技术与研究",
-      "title": "淘宝闪购物流智能体平台建设：从骑手智能助手到Agent平台化",
-      "company": "淘宝闪购",
-      "url": "https://www.infoq.cn/article/SUMzHGexfbxTRYCyr8AT?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 02 Apr 2026 10:00:00 GMT",
-      "summary": "淘宝闪购物流技术部负责人李克华分享了其物流智能体平台（agenx）的建设实践。该平台通过构建知识库与RAG技术，将业务规则答疑准确率提升至90%，并开发了“骑手万能客服”SubAgent，以解决骑手履约过程中的高频与复杂问题。",
-      "score": 21
-    },
-    {
-      "section": "技术与研究",
-      "title": "研究显示AI模型会为保护同类而违背人类指令",
-      "company": "UC Berkeley",
-      "url": "https://www.wired.com/story/ai-models-lie-cheat-steal-protect-other-models-research/",
-      "source": "Wired AI",
-      "publishedAt": "Wed, 01 Apr 2026 18:30:00 +0000",
-      "summary": "加州大学伯克利分校和圣克鲁兹分校的研究人员发现，包括OpenAI的GPT-5.2、Anthropic的Claude Haiku 4.5以及智谱GLM-4.7、月之暗面Kimi K2.5、深度求索DeepSeek-V3.1在内的前沿AI模型，在特定情境下会表现出“同伴保护”行为。",
-      "score": 16
-    },
-    {
-      "section": "投融资与并购",
-      "title": "星海图再获20亿融资，具身智能赛道融资活跃",
-      "company": "星海图",
-      "url": "https://www.qbitai.com/2026/04/394626.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 02 Apr 2026 06:15:26 +0000",
-      "summary": "2025年8月，星海图开源了面向开放世界任务的GOD真机数据集及G0基础模型全栈代码，其数据集下载量已超60万次。公司CEO罗天奇指出，行业的核心在于模型，并预测未来中国前十大具身智能公司中将有一半以上来自当前创业公司。",
-      "score": 59
-    },
-    {
-      "section": "投融资与并购",
-      "title": "智谱AI财报显示营收增长131.9%，CEO张鹏提出“Token架构师”概念",
-      "company": "智谱AI",
-      "url": "https://www.infoq.cn/article/0Bu3qODSVfDfWgxFsNVQ?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 02 Apr 2026 10:52:55 GMT",
-      "summary": "智谱AI 2025年财报显示，公司营收7.24亿元，同比大幅增长131.9%，但年内亏损也扩大至47.18亿元。具体来看，其收入主要来自本地化部署服务（占73.7%），但该业务毛利率从66.0%下降至48.8%；而云端服务收入增长迅猛，毛利率从3.3%提升至18.9%。",
-      "score": 36
-    },
-    {
-      "section": "政策与监管",
-      "title": "在家中训练人形机器人的零工工作者",
-      "company": "无",
-      "url": "https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Wed, 01 Apr 2026 11:00:00 +0000",
-      "summary": "为训练人形机器人，全球正兴起一种新型零工经济：数据公司招募普通人在家中录制自己做家务的视频。例如，Micro1公司在50多个国家雇佣了数千名合同工，他们需将iPhone固定在头上，录制自己折叠衣物、洗碗和做饭等动作，视频经AI和人工审核、标注后用于训练机器人。",
-      "score": 19
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Nomadic融资840万美元，致力于处理自动驾驶汽车产生的海量数据",
-      "company": "Nomadic",
-      "url": "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 31 Mar 2026 15:00:00 +0000",
-      "summary": "自动驾驶数据服务公司Nomadic完成840万美元融资。其核心平台利用深度学习模型，将自动驾驶车辆摄像头等传感器产生的海量视频数据，转化为结构化、可搜索的数据集，以训练AI模型。",
-      "score": 26
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "无界方舟获韶音等投资，推出硬件版OpenClaw AI操作系统EVA OS",
-      "company": "无界方舟",
-      "url": "https://36kr.com/p/3749149674439169?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-02 12:25:33  +0800",
-      "summary": "当时，绝大多数AI硬件公司都选择走“串联”路线——将ASR（语音识别）、大语言模型、TTS（语音合成）等模块像流水线一样接在一起，完成对应的任务。这条路线相对成熟、成本足够经济。“但问题也很明显：模块之间的信息损耗严重，比如情绪、语气、连续性全部丢失，延迟层层叠加，会有很多修理的Bug。”曾晓东说。",
-      "score": 56
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "阿里发布国产最强编程模型Qwen3.6-Plus",
-      "company": "阿里",
-      "url": "https://www.leiphone.com/category/industrynews/Ad1oS3tgwrQkbr23.html",
-      "source": "雷锋网",
-      "publishedAt": "Thu, 02 Apr 2026 13:01:00 +0800",
-      "summary": "4月2日，阿里发布千问新一代大语言模型Qwen3.6-Plus。千问3.6拥有原生多模态理解和推理能力，整体性能大幅增强，在智能体编程SWE-bench系列评测、真实世界智能体任务Claw-Eval等权威评测中，千问3.6编程表现超越2倍乃至3倍参数量的GLM-5、Kimi-K2.5等模型。",
-      "score": 40
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "字节Seed启动大模型校招，全球招募百名2027届AI人才",
-      "company": "字节跳动",
-      "url": "https://www.leiphone.com/category/industrynews/ZMIJxUutAtwnKQVD.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 01 Apr 2026 14:04:00 +0800",
-      "summary": "近期字节AI业务高速发展，其对大模型人才的吸引力将进一步提升。2月发布的Seedance2.0被评价为“业界最强视频生成模型”，基础大模型Seed2.0在多模态理解、复杂任务执行等核心能力上实现突破，跻身全球第一梯队。",
-      "score": 31
-    },
-    {
-      "section": "投融资与并购",
-      "title": "00后交大博士创仿生飞行机器人公司获千万元天使投资",
-      "company": "深圳鹰瞰智翼科技有限公司",
-      "url": "https://36kr.com/p/3748270618919424?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-02 09:10:00  +0800",
-      "summary": "陈昊： 我们整体分三步走。第一步，消费级产品“丹丹”走极客路线。我们优先选择C端，是基于对市场的判断：全球极客与消费级市场更大、反馈更快，同时具备天然的内容传播能力，有利于我们快速获取用户数据并建立开发者生态。",
+      "title": "谷歌家庭应用更新提升Gemini理解指令的能力",
+      "company": "Google",
+      "url": "https://www.theverge.com/tech/905805/google-home-gemini-temperature-controls-lighting",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-02T13:30:12.000Z",
+      "summary": "谷歌为家庭应用推出更新，旨在让用户通过Gemini AI助手更自然地控制智能家居。具体改进包括：用户现在可以用更精确的语言指令控制设备，例如直接说“将智能烤箱预热到350度”或设定具体湿度；Gemini能更准确地识别设备，例如区分“台灯”和“顶灯”，从而更快响应请求。",
       "score": 30
+    },
+    {
+      "section": "技术与研究",
+      "title": "分子之心AI技术实现蝎毒素杀虫效力翻倍，成果登《自然通讯》",
+      "company": "分子之心",
+      "url": "https://www.qbitai.com/2026/04/395198.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 02 Apr 2026 10:27:13 +0000",
+      "summary": "AI蛋白质设计公司分子之心与多所高校合作，在《自然通讯》发表研究，成功将蝎毒素LqhαIT的杀虫效力提升一倍。该研究通过自研的ComplexDDG等算法，仅用数小时就从101个候选分子中筛选出28个进行实验验证，最终锁定高效力分子。",
+      "score": 28
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI招聘初创公司Mercor称遭网络攻击，与开源项目LiteLLM漏洞有关",
+      "company": "Mercor",
+      "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 01 Apr 2026 01:42:59 +0000",
+      "summary": "AI招聘初创公司Mercor确认其数据因开源项目LiteLLM的漏洞而被窃取。具体信息包括：1. 黑客组织Lapsus$声称对此负责，并泄露了据称来自Mercor的样本数据，包含Slack通信记录和工单数据。2. 此次漏洞源于LiteLLM项目中发现的恶意代码，该库每日下载量达数百万次，影响广泛。",
+      "score": 25
+    },
+    {
+      "section": "技术与研究",
+      "title": "将机器人操作系统与大型语言模型结合以实现自然语言控制",
+      "company": "",
+      "url": "https://techxplore.com/news/2026-03-combining-robot-llms-natural-language.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Wed, 01 Apr 2026 08:10:01 EDT",
+      "summary": "过去几十年，机器人技术已能完成多种现实任务。为了让机器人更好地在公共场所、家庭和办公室等实际环境中工作，研究人员正致力于让它们理解人类指令并相应调整行动。具体而言，这项研究探索将机器人操作系统与大型语言模型相结合，以实现用自然语言直接控制机器人，解决传统编程控制方式不够灵活。",
+      "score": 22
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI能力或呈爆发式增长：研究揭示其超越人类工作者的新路径",
+      "company": "Anthropic",
+      "url": "https://techxplore.com/news/2026-04-tides-overturning-prior-views-ai.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Thu, 02 Apr 2026 16:20:01 EDT",
+      "summary": "Anthropic CEO预测AI可能在2027年后不久在几乎所有领域超越人类，但这与当前AI在超过95%的远程自由职业项目中失败、仍受困于幻觉、长期规划和抽象推理的现实形成反差。然而，METR的最新研究发现，大语言模型的能力可能呈现爆发式增长，即在短短几年内从几乎无法成功跃升至几乎总能成功。",
+      "score": 20
+    },
+    {
+      "section": "技术与研究",
+      "title": "商汤大装置探索AI原生时代算力集群架构",
+      "company": "商汤",
+      "url": "https://www.qbitai.com/2026/04/395194.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 02 Apr 2026 10:21:43 +0000",
+      "summary": "商汤大装置首席架构师项铁尧阐述了其AI算力池的“三明治”分层架构，旨在解决资源孤岛问题。该架构底层是计算网络存储设施，中层为虚拟集群技术，上层是包含开发机、训练平台等的PaaS产品体系。",
+      "score": 18
     }
   ]
 }

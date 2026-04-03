@@ -1,20 +1,20 @@
 {
-  "date": "2026/4/2",
+  "date": "2026/4/3",
   "edition": "morning",
   "editionLabel": "早报",
   "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/4/2 08:04",
+  "generatedAt": "2026/4/3 08:03",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "",
+    "previousEditionFile": "news-2026-04-02-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 10,
-      "overseasBeforeDedup": 18,
-      "domesticAfterDedup": 10,
-      "overseasAfterDedup": 18,
+      "domesticBeforeDedup": 24,
+      "overseasBeforeDedup": 20,
+      "domesticAfterDedup": 24,
+      "overseasAfterDedup": 20,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -24,9 +24,9 @@
         },
         {
           "source": "量子位",
-          "ok": false,
-          "count": 0,
-          "error": "Request timed out after 10000ms"
+          "ok": true,
+          "count": 6,
+          "error": null
         },
         {
           "source": "36氪",
@@ -42,22 +42,22 @@
         },
         {
           "source": "雷锋网",
-          "ok": false,
-          "count": 0,
-          "error": "Request timed out after 10000ms"
+          "ok": true,
+          "count": 8,
+          "error": null
         }
       ],
       "overseasSources": [
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 6,
+          "count": 4,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 2,
           "error": null
         },
         {
@@ -75,13 +75,13 @@
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 1,
+          "count": 3,
           "error": null
         },
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 3,
+          "count": 6,
           "error": null
         }
       ],
@@ -94,184 +94,186 @@
       }
     },
     "summarize": {
-      "totalSummarized": 28
+      "totalSummarized": 44
     },
     "scoring": {
-      "totalInput": 28,
-      "totalScored": 23,
+      "totalInput": 44,
+      "totalScored": 22,
       "strictScoredCount": 18,
-      "relaxedCandidateCount": 5,
+      "relaxedCandidateCount": 4,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 5,
-      "selectedCandidateCount": 23,
-      "duplicateCount": 3,
-      "crossDayDuplicateCount": 0,
+      "weakSummaryCount": 7,
+      "selectedCandidateCount": 22,
+      "duplicateCount": 15,
+      "crossDayDuplicateCount": 10,
       "lowQualityCount": 1,
-      "domesticAvailable": 9,
-      "overseasAvailable": 14,
+      "domesticAvailable": 11,
+      "overseasAvailable": 11,
       "sourceCount": {
-        "InfoQ": 5,
-        "TechCrunch AI": 6,
-        "36氪": 4,
-        "The Verge AI": 3,
-        "Tech Xplore": 1,
-        "MIT Technology Review": 3,
-        "Wired AI": 1
+        "量子位": 3,
+        "Ars Technica": 1,
+        "InfoQ": 3,
+        "36氪": 2,
+        "雷锋网": 3,
+        "MIT Technology Review": 1,
+        "The Verge AI": 4,
+        "TechCrunch AI": 3,
+        "Tech Xplore": 2
       }
     },
     "display": {
-      "refinedCount": 23,
+      "refinedCount": 22,
       "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 21,
-      "displayReadyCount": 17,
+      "integrityRemovedCount": 4,
+      "postEditionFilterCount": 18,
+      "displayReadyCount": 15,
       "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 4,
+      "removedWeakSummaries": 3,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "Elgato推出Stream Deck软件更新，支持AI助手控制设备按钮",
-      "company": "Elgato",
-      "url": "https://www.theverge.com/tech/905021/elgato-stream-deck-mcp-ai-agent-update",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-01T12:38:58.000Z",
-      "summary": "Elgato发布的Stream Deck 7.4软件更新，通过引入模型上下文协议（MCP）支持，让用户能用AI助手语音或打字控制设备按钮。核心变化是：用户仍需在Stream Deck应用中像往常一样设置操作，但更新后，连接好的Claude、ChatGPT等AI工具能根据指令触发对应操作。",
+      "title": "悟空率先接入国产最强编程模型Qwen3.6-Plus，提升企业AI应用能力",
+      "company": "悟空",
+      "url": "https://www.qbitai.com/2026/04/395155.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 02 Apr 2026 08:28:38 +0000",
+      "summary": "阿里巴巴的企业级AI应用“悟空”已率先接入国产编程模型Qwen3.6-Plus。新模型带来三大具体提升：一是AI从“副驾驶”变为能独立编写跨文件代码、运行测试并修复的“协作者”；二是能可靠拆解并执行企业多步骤复杂工作流；三是成本低至每百万Tokens输入2元，降低了使用门槛。",
+      "score": 39
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Codex负责人谈AI工具发展：沙箱安全是必须，模型成熟推动应用增长",
+      "company": "Anthropic",
+      "url": "https://www.infoq.cn/article/vblM3MlOEs86dmVdH8d1?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 02 Apr 2026 18:00:00 GMT",
+      "summary": "Codex负责人Michael介绍了其AI工具的安全与应用进展。具体包括：1. 安全方面，针对不同操作系统采用不同沙箱技术，如在macOS使用Seatbelt，Linux使用Bubblewrap等库，Windows则自建沙箱，以防止AI工具不受控运行。",
+      "score": 34
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "沙利文报告：阿里云以32.4%市场份额位居中国金融智能体市场第一",
+      "company": "阿里云",
+      "url": "https://www.leiphone.com/category/industrynews/fsdHdIn4bT0JUoNV.html",
+      "source": "雷锋网",
+      "publishedAt": "Thu, 02 Apr 2026 18:05:00 +0800",
+      "summary": "全球咨询公司沙利文4月2日发布的报告显示，阿里云以32.4%的市场份额位居中国金融智能体市场第一，其份额超过第二名与第三名之和。报告从七个维度评估竞争力，阿里云是唯一在所有维度均领先的厂商。",
+      "score": 31
+    },
+    {
+      "section": "技术与研究",
+      "title": "谷歌发布Gemma 4开源AI模型并改用Apache 2.0许可证",
+      "company": "Google",
+      "url": "https://arstechnica.com/ai/2026/04/google-announces-gemma-4-open-ai-models-switches-to-apache-2-0-license/",
+      "source": "Ars Technica",
+      "publishedAt": "Thu, 02 Apr 2026 16:01:33 +0000",
+      "summary": "谷歌发布Gemma 4开源AI模型，核心变化是将其许可证从自定义的严格许可改为更宽松的Apache 2.0许可证，解决了开发者因旧许可单边更新、使用限制过多而不敢采用的顾虑。此次更新包含四个版本：两个大型模型（26B专家混合与31B密集模型）针对高性能本地硬件优化。",
       "score": 35
     },
     {
-      "section": "产品发布与更新",
-      "title": "驯服Agent不可预测性：可观测性与工程化策略助力生产环境部署",
-      "company": "",
-      "url": "https://www.infoq.cn/article/NuNH2aN2qGfdm2s2TlMd?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 01 Apr 2026 15:39:06 GMT",
-      "summary": "专家指出，为降低AI Agent的生产部署成本，可采用组合策略：将70%的确定性任务交由规则处理，30%的主观评估由大模型完成，并叠加10%的采样机制，这样每月成本可从数万美元降至1000-3000美元。",
-      "score": 23
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "三星Galaxy S26照片应用引入AI编辑功能，可大幅修改图像",
-      "company": "Samsung",
-      "url": "https://www.theverge.com/tech/904176/samsung-galaxy-s26-ai-photo-assist-slop",
-      "source": "The Verge AI",
-      "publishedAt": "2026-03-31T18:15:00.000Z",
-      "summary": "三星在Galaxy S26的相册应用中引入了名为Photo Assist的AI编辑套件，支持自然语言指令进行图像修改，例如更换衣物或添加宠物。与谷歌Pixel的AI工具相比，三星的防护措施更严格，能有效阻止生成涉及尸体、毒品或犯罪现场等有害内容。",
-      "score": 15
-    },
-    {
       "section": "技术与研究",
-      "title": "阿里云智能运维Agent评测体系实践：突破泛化瓶颈",
-      "company": "阿里云",
-      "url": "https://www.infoq.cn/article/9qgbqQFhMvJmTkPoFG8l?utm_source=rss&utm_medium=article",
+      "title": "Cloudflare工程师用AI复刻Next.js，成本1100美元，已用于生产环境",
+      "company": "Cloudflare",
+      "url": "https://www.infoq.cn/article/XNfsebiwgEd1hbcissWd?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Wed, 01 Apr 2026 15:20:13 GMT",
-      "summary": "阿里云分享了其智能运维Agent评测体系的构建实践，旨在解决AIOps评测中真实性与泛化能力的难题。具体方法包括：接入开源系统、内部演练环境和线上生产系统三类数据源，并利用混沌工程工具注入故障来构建评测集。",
-      "score": 53
-    },
-    {
-      "section": "技术与研究",
-      "title": "深化AI与开源协同，构建开放共赢生态——太湖共识发布",
-      "company": "",
-      "url": "https://www.infoq.cn/article/rBHMv1NbHASpMK2akGr8?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 01 Apr 2026 20:14:35 GMT",
-      "summary": "大模型显著提升了代码生成效率，推动软件生产转向“人机协同、工具驱动、算力支撑”的新模式。这降低了开源项目创建成本，使技术价值重心向行业知识、数据积累和服务能力迁移。同时，AI正从数字空间走向工业制造、城市治理等现实场景，开源社区、数据集和工具链成为智能经济的重要基础设施。",
-      "score": 46
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI训练成本飙升，OpenAI面临竞争格局转变与战略抉择",
-      "company": "OpenAI",
-      "url": "https://www.infoq.cn/article/0gETwo2o5fFsUQxotf1J?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 01 Apr 2026 18:00:00 GMT",
-      "summary": "研究表明，AI训练成本正以每年2.4倍的速度飙升，预计到2027年，最大规模训练成本将超10亿美元，使前沿模型开发仅限巨头。面对竞争，OpenAI正与博通合作开发定制AI加速器，以摆脱对英伟达的依赖，并计划于2026年开始部署。",
-      "score": 36
-    },
-    {
-      "section": "投融资与并购",
-      "title": "OpenAI最新融资估值达8520亿美元，亚马逊、英伟达和软银领投",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 31 Mar 2026 21:25:04 +0000",
-      "summary": "OpenAI最新融资由亚马逊、英伟达和软银领投，估值达8520亿美元，融资总额1220亿美元，为IPO铺路。公司披露了具体运营数据：每周活跃用户超9亿，付费订阅用户超5000万，月收入达20亿美元，其中企业业务收入占比已提升至40%。",
-      "score": 41
-    },
-    {
-      "section": "投融资与并购",
-      "title": "众包AI模型反馈初创公司Yupp在获得3300万美元融资后关闭业务",
-      "company": "Yupp",
-      "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 31 Mar 2026 20:01:07 +0000",
-      "summary": "众包AI模型反馈平台Yupp在运营不到一年后宣布关闭。该公司曾提供免费服务，让用户测试和比较来自800个AI模型（包括OpenAI、Google等顶尖模型）的回复，并收集用户对最佳模型的反馈。",
-      "score": 36
-    },
-    {
-      "section": "政策与监管",
-      "title": "AI基准测试已失效，我们需要什么来替代",
-      "company": "无",
-      "url": "https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Tue, 31 Mar 2026 12:01:08 +0000",
-      "summary": "文章指出，当前AI基准测试在医疗领域已失效。例如，即使FDA批准的AI读片模型在测试中比放射科专家更快更准，但在真实医院中，医护人员需额外时间将AI输出与医院报告标准、国家法规结合，反而可能延误流程。",
-      "score": 28
-    },
-    {
-      "section": "技术与研究",
-      "title": "Claude Code被指过度设计？Pi分享OpenClaw背后的极简理念",
-      "company": "Claude",
-      "url": "https://www.infoq.cn/article/KyLqAEKpkvrH3tJwMgiw?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 01 Apr 2026 14:47:50 GMT",
-      "summary": "作者分享了他利用Claude生成OpenSCAD模型，仅用5分钟就成功制作出难安装的IKEA老款灯带支架，这让他体验到AI能将用户带入新领域。他提出让AI代理自主维护和压缩文件以实现“记忆”，并指出当前模型在信息压缩方面表现越来越强。",
+      "publishedAt": "Thu, 02 Apr 2026 19:07:02 GMT",
+      "summary": "Cloudflare工程师Steve Faulkner利用AI，在一个周末内将主流前端框架Next.js迁移到Vite之上，创建了名为Vinext的项目。该项目仅花费约1100美元，实现了作为Next.js即插即用替代方案的目标，可通过一条命令部署到Cloudflare Workers。",
       "score": 32
     },
     {
       "section": "技术与研究",
-      "title": "AI招聘初创公司Mercor遭网络攻击，与开源项目LiteLLM漏洞有关",
+      "title": "火山引擎与OpenClaw共建ClawHub中国镜像站，解决Skill限速问题",
+      "company": "火山引擎",
+      "url": "https://www.leiphone.com/category/industrynews/emGtdoDg6UZjzECe.html",
+      "source": "雷锋网",
+      "publishedAt": "Thu, 02 Apr 2026 15:33:00 +0800",
+      "summary": "火山引擎与OpenClaw合作推出ClawHub中国镜像站，旨在解决中国开发者访问源站时因API限速导致的下载缓慢问题。具体而言：1. 镜像站可将寻找并下载YouTube技能等任务的成功率从约1/3提升至快速完成，访问时间从1-1.5分钟大幅缩短。",
+      "score": 32
+    },
+    {
+      "section": "政策与监管",
+      "title": "微软新任AI首席执行官将重心转向追逐超级智能",
+      "company": "Microsoft",
+      "url": "https://www.theverge.com/report/905791/mustafa-suleyman-microsoft-ai-transcription-model",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-02T14:00:00.000Z",
+      "summary": "微软新任AI首席执行官穆斯塔法·苏莱曼已将工作重心转向追求“超级智能”，其核心定义是为依赖微软的企业客户提供能创造产品价值的先进语言模型。为专注于此，公司重组后将企业级和消费者团队合并，由另一位高管负责具体产品与工程事务。",
+      "score": 23
+    },
+    {
+      "section": "技术与研究",
+      "title": "燃料价格飙升，塑料可能成为下一个涨价对象",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 02 Apr 2026 10:00:00 +0000",
+      "summary": "化石燃料价格飙升正传导至塑料行业，因为塑料生产依赖石油原料。目前缺乏可行的替代方案：生物基塑料仅占全球年产4.31亿吨塑料的约0.5%，且回收技术存在局限——机械回收会降低材料品质，化学回收则面临污染问题。",
+      "score": 32
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "谷歌家庭应用更新提升Gemini理解指令的能力",
+      "company": "Google",
+      "url": "https://www.theverge.com/tech/905805/google-home-gemini-temperature-controls-lighting",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-02T13:30:12.000Z",
+      "summary": "谷歌为家庭应用推出更新，旨在让用户通过Gemini AI助手更自然地控制智能家居。具体改进包括：用户现在可以用更精确的语言指令控制设备，例如直接说“将智能烤箱预热到350度”或设定具体湿度；Gemini能更准确地识别设备，例如区分“台灯”和“顶灯”，从而更快响应请求。",
+      "score": 30
+    },
+    {
+      "section": "技术与研究",
+      "title": "分子之心AI技术实现蝎毒素杀虫效力翻倍，成果登《自然通讯》",
+      "company": "分子之心",
+      "url": "https://www.qbitai.com/2026/04/395198.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 02 Apr 2026 10:27:13 +0000",
+      "summary": "AI蛋白质设计公司分子之心与多所高校合作，在《自然通讯》发表研究，成功将蝎毒素LqhαIT的杀虫效力提升一倍。该研究通过自研的ComplexDDG等算法，仅用数小时就从101个候选分子中筛选出28个进行实验验证，最终锁定高效力分子。",
+      "score": 28
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI招聘初创公司Mercor称遭网络攻击，与开源项目LiteLLM漏洞有关",
       "company": "Mercor",
       "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
       "source": "TechCrunch AI",
       "publishedAt": "Wed, 01 Apr 2026 01:42:59 +0000",
-      "summary": "AI招聘初创公司Mercor确认其系统因开源项目LiteLLM的漏洞而遭黑客攻击。勒索组织Lapsus$声称对此负责，并在其泄露网站上分享了据称从Mercor窃取的数据样本，其中包括Slack通信记录、工单数据以及两段展示其AI系统与平台承包商对话的视频。",
-      "score": 29
+      "summary": "AI招聘初创公司Mercor确认其数据因开源项目LiteLLM的漏洞而被窃取。具体信息包括：1. 黑客组织Lapsus$声称对此负责，并泄露了据称来自Mercor的样本数据，包含Slack通信记录和工单数据。2. 此次漏洞源于LiteLLM项目中发现的恶意代码，该库每日下载量达数百万次，影响广泛。",
+      "score": 25
     },
     {
       "section": "技术与研究",
-      "title": "结合机器人操作系统与大型语言模型实现自然语言控制",
-      "company": "未提及",
+      "title": "将机器人操作系统与大型语言模型结合以实现自然语言控制",
+      "company": "",
       "url": "https://techxplore.com/news/2026-03-combining-robot-llms-natural-language.html",
       "source": "Tech Xplore",
       "publishedAt": "Wed, 01 Apr 2026 08:10:01 EDT",
-      "summary": "过去几十年，机器人技术已能开发出多种先进机器人，使其能在公共场所、家庭和办公室等现实环境中自主完成各类任务。为了成功部署，这些机器人需要理解人类用户的指令并相应调整行动。具体而言，研究旨在结合机器人操作系统与大型语言模型，以实现通过自然语言直接控制机器人，解决人机交互中指令理解与动作适配的关键问题。",
-      "score": 29
+      "summary": "过去几十年，机器人技术已能完成多种现实任务。为了让机器人更好地在公共场所、家庭和办公室等实际环境中工作，研究人员正致力于让它们理解人类指令并相应调整行动。具体而言，这项研究探索将机器人操作系统与大型语言模型相结合，以实现用自然语言直接控制机器人，解决传统编程控制方式不够灵活。",
+      "score": 22
     },
     {
       "section": "技术与研究",
-      "title": "Meta新建AI数据中心将依赖10座天然气发电厂供电",
-      "company": "Meta",
-      "url": "https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 01 Apr 2026 18:35:36 +0000",
-      "summary": "Meta宣布将新建10座天然气发电厂，为其耗资270亿美元的Hyperion AI数据中心供电。这些位于路易斯安那州的发电厂总发电量约7.5吉瓦，超过整个南达科他州的发电容量。此举引发争议，因为天然气主要成分甲烷的温室效应是二氧化碳的84倍，且美国天然气供应链的甲烷泄漏率高达约3%。",
-      "score": 26
+      "title": "AI能力或呈爆发式增长：研究揭示其超越人类工作者的新路径",
+      "company": "Anthropic",
+      "url": "https://techxplore.com/news/2026-04-tides-overturning-prior-views-ai.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Thu, 02 Apr 2026 16:20:01 EDT",
+      "summary": "Anthropic CEO预测AI可能在2027年后不久在几乎所有领域超越人类，但这与当前AI在超过95%的远程自由职业项目中失败、仍受困于幻觉、长期规划和抽象推理的现实形成反差。然而，METR的最新研究发现，大语言模型的能力可能呈现爆发式增长，即在短短几年内从几乎无法成功跃升至几乎总能成功。",
+      "score": 20
     },
     {
-      "section": "投融资与并购",
-      "title": "独家：Runway推出1000万美元基金及初创企业计划，支持AI视频初创公司",
-      "company": "Runway",
-      "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 31 Mar 2026 14:00:00 +0000",
-      "summary": "AI视频生成公司Runway宣布启动一项1000万美元的风险基金和一个名为'Builders'的初创企业支持计划。该基金将投资于AI、媒体和世界模拟领域的早期公司，而支持计划则为种子轮到C轮的初创公司提供免费的API额度。",
-      "score": 25
+      "section": "技术与研究",
+      "title": "商汤大装置探索AI原生时代算力集群架构",
+      "company": "商汤",
+      "url": "https://www.qbitai.com/2026/04/395194.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 02 Apr 2026 10:21:43 +0000",
+      "summary": "商汤大装置首席架构师项铁尧阐述了其AI算力池的“三明治”分层架构，旨在解决资源孤岛问题。该架构底层是计算网络存储设施，中层为虚拟集群技术，上层是包含开发机、训练平台等的PaaS产品体系。",
+      "score": 18
     }
   ]
 }
