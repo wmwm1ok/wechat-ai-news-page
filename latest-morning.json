@@ -1,20 +1,20 @@
 {
-  "date": "2026/4/3",
+  "date": "2026/4/4",
   "edition": "morning",
   "editionLabel": "早报",
   "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/4/3 08:03",
+  "generatedAt": "2026/4/4 08:00",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-04-02-afternoon.json",
+    "previousEditionFile": "news-2026-04-03-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
       "domesticBeforeDedup": 24,
-      "overseasBeforeDedup": 20,
+      "overseasBeforeDedup": 24,
       "domesticAfterDedup": 24,
-      "overseasAfterDedup": 20,
+      "overseasAfterDedup": 24,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -51,7 +51,7 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 4,
+          "count": 7,
           "error": null
         },
         {
@@ -69,19 +69,19 @@
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 4,
+          "count": 5,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 3,
+          "count": 4,
           "error": null
         },
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 6,
+          "count": 5,
           "error": null
         }
       ],
@@ -94,67 +94,47 @@
       }
     },
     "summarize": {
-      "totalSummarized": 44
+      "totalSummarized": 48
     },
     "scoring": {
-      "totalInput": 44,
-      "totalScored": 22,
-      "strictScoredCount": 18,
-      "relaxedCandidateCount": 4,
+      "totalInput": 48,
+      "totalScored": 23,
+      "strictScoredCount": 21,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 7,
-      "selectedCandidateCount": 22,
-      "duplicateCount": 15,
-      "crossDayDuplicateCount": 10,
-      "lowQualityCount": 1,
-      "domesticAvailable": 11,
-      "overseasAvailable": 11,
+      "weakSummaryCount": 8,
+      "selectedCandidateCount": 23,
+      "duplicateCount": 20,
+      "crossDayDuplicateCount": 12,
+      "lowQualityCount": 5,
+      "domesticAvailable": 13,
+      "overseasAvailable": 10,
       "sourceCount": {
+        "雷锋网": 6,
         "量子位": 3,
-        "Ars Technica": 1,
         "InfoQ": 3,
-        "36氪": 2,
-        "雷锋网": 3,
-        "MIT Technology Review": 1,
-        "The Verge AI": 4,
-        "TechCrunch AI": 3,
-        "Tech Xplore": 2
+        "TechCrunch AI": 4,
+        "The Verge AI": 2,
+        "MIT Technology Review": 2,
+        "Wired AI": 1,
+        "Tech Xplore": 1,
+        "36氪": 1
       }
     },
     "display": {
-      "refinedCount": 22,
+      "refinedCount": 23,
       "previousEditionRemovedCount": 0,
       "integrityRemovedCount": 4,
-      "postEditionFilterCount": 18,
-      "displayReadyCount": 15,
+      "postEditionFilterCount": 19,
+      "displayReadyCount": 14,
       "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 3,
+      "removedWeakSummaries": 5,
       "shortage": 0
     }
   },
   "articles": [
-    {
-      "section": "产品发布与更新",
-      "title": "悟空率先接入国产最强编程模型Qwen3.6-Plus，提升企业AI应用能力",
-      "company": "悟空",
-      "url": "https://www.qbitai.com/2026/04/395155.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 02 Apr 2026 08:28:38 +0000",
-      "summary": "阿里巴巴的企业级AI应用“悟空”已率先接入国产编程模型Qwen3.6-Plus。新模型带来三大具体提升：一是AI从“副驾驶”变为能独立编写跨文件代码、运行测试并修复的“协作者”；二是能可靠拆解并执行企业多步骤复杂工作流；三是成本低至每百万Tokens输入2元，降低了使用门槛。",
-      "score": 39
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Codex负责人谈AI工具发展：沙箱安全是必须，模型成熟推动应用增长",
-      "company": "Anthropic",
-      "url": "https://www.infoq.cn/article/vblM3MlOEs86dmVdH8d1?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 02 Apr 2026 18:00:00 GMT",
-      "summary": "Codex负责人Michael介绍了其AI工具的安全与应用进展。具体包括：1. 安全方面，针对不同操作系统采用不同沙箱技术，如在macOS使用Seatbelt，Linux使用Bubblewrap等库，Windows则自建沙箱，以防止AI工具不受控运行。",
-      "score": 34
-    },
     {
       "section": "产品发布与更新",
       "title": "沙利文报告：阿里云以32.4%市场份额位居中国金融智能体市场第一",
@@ -162,118 +142,138 @@
       "url": "https://www.leiphone.com/category/industrynews/fsdHdIn4bT0JUoNV.html",
       "source": "雷锋网",
       "publishedAt": "Thu, 02 Apr 2026 18:05:00 +0800",
-      "summary": "全球咨询公司沙利文4月2日发布的报告显示，阿里云以32.4%的市场份额位居中国金融智能体市场第一，其份额超过第二名与第三名之和。报告从七个维度评估竞争力，阿里云是唯一在所有维度均领先的厂商。",
-      "score": 31
-    },
-    {
-      "section": "技术与研究",
-      "title": "谷歌发布Gemma 4开源AI模型并改用Apache 2.0许可证",
-      "company": "Google",
-      "url": "https://arstechnica.com/ai/2026/04/google-announces-gemma-4-open-ai-models-switches-to-apache-2-0-license/",
-      "source": "Ars Technica",
-      "publishedAt": "Thu, 02 Apr 2026 16:01:33 +0000",
-      "summary": "谷歌发布Gemma 4开源AI模型，核心变化是将其许可证从自定义的严格许可改为更宽松的Apache 2.0许可证，解决了开发者因旧许可单边更新、使用限制过多而不敢采用的顾虑。此次更新包含四个版本：两个大型模型（26B专家混合与31B密集模型）针对高性能本地硬件优化。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "Cloudflare工程师用AI复刻Next.js，成本1100美元，已用于生产环境",
-      "company": "Cloudflare",
-      "url": "https://www.infoq.cn/article/XNfsebiwgEd1hbcissWd?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 02 Apr 2026 19:07:02 GMT",
-      "summary": "Cloudflare工程师Steve Faulkner利用AI，在一个周末内将主流前端框架Next.js迁移到Vite之上，创建了名为Vinext的项目。该项目仅花费约1100美元，实现了作为Next.js即插即用替代方案的目标，可通过一条命令部署到Cloudflare Workers。",
-      "score": 32
-    },
-    {
-      "section": "技术与研究",
-      "title": "火山引擎与OpenClaw共建ClawHub中国镜像站，解决Skill限速问题",
-      "company": "火山引擎",
-      "url": "https://www.leiphone.com/category/industrynews/emGtdoDg6UZjzECe.html",
-      "source": "雷锋网",
-      "publishedAt": "Thu, 02 Apr 2026 15:33:00 +0800",
-      "summary": "火山引擎与OpenClaw合作推出ClawHub中国镜像站，旨在解决中国开发者访问源站时因API限速导致的下载缓慢问题。具体而言：1. 镜像站可将寻找并下载YouTube技能等任务的成功率从约1/3提升至快速完成，访问时间从1-1.5分钟大幅缩短。",
-      "score": 32
-    },
-    {
-      "section": "政策与监管",
-      "title": "微软新任AI首席执行官将重心转向追逐超级智能",
-      "company": "Microsoft",
-      "url": "https://www.theverge.com/report/905791/mustafa-suleyman-microsoft-ai-transcription-model",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-02T14:00:00.000Z",
-      "summary": "微软新任AI首席执行官穆斯塔法·苏莱曼已将工作重心转向追求“超级智能”，其核心定义是为依赖微软的企业客户提供能创造产品价值的先进语言模型。为专注于此，公司重组后将企业级和消费者团队合并，由另一位高管负责具体产品与工程事务。",
-      "score": 23
-    },
-    {
-      "section": "技术与研究",
-      "title": "燃料价格飙升，塑料可能成为下一个涨价对象",
-      "company": "",
-      "url": "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Thu, 02 Apr 2026 10:00:00 +0000",
-      "summary": "化石燃料价格飙升正传导至塑料行业，因为塑料生产依赖石油原料。目前缺乏可行的替代方案：生物基塑料仅占全球年产4.31亿吨塑料的约0.5%，且回收技术存在局限——机械回收会降低材料品质，化学回收则面临污染问题。",
-      "score": 32
+      "summary": "沙利文报告显示，阿里云以32.4%的市场份额位居中国金融智能体市场第一，其份额超过第二名与第三名总和。在平台全栈、多智能体协同等七大维度的竞争力评估中，阿里云是唯一在所有维度均领先的厂商。",
+      "score": 30
     },
     {
       "section": "产品发布与更新",
-      "title": "谷歌家庭应用更新提升Gemini理解指令的能力",
-      "company": "Google",
-      "url": "https://www.theverge.com/tech/905805/google-home-gemini-temperature-controls-lighting",
+      "title": "阿里千问APP推出全能演技派模型Wan2.7-Image",
+      "company": "阿里",
+      "url": "https://www.qbitai.com/2026/04/395477.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 03 Apr 2026 12:54:24 +0000",
+      "summary": "阿里在千问APP中推出了图像生成模型Wan2.7-Image。该模型在人类偏好盲测中位列国内第一，性能超过GPT Image 1.5。其具体能力包括：能生成赛博朋克等风格的创意图像，支持专业平面与影视制作；能准确渲染中英双语文字，无乱码问题。",
+      "score": 29
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "AMD锐龙AI智能体创新应用大赛启动，推动端侧AI发展",
+      "company": "AMD",
+      "url": "https://www.infoq.cn/article/Z18OTUTFlmqbQb5Ia4Fp?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 03 Apr 2026 16:34:12 GMT",
+      "summary": "AMD启动锐龙AI智能体创新应用大赛，旨在鼓励开发者基于其硬件平台进行AI应用创新。大赛依托搭载AMD锐龙AI系列处理器的笔记本产品，该产品采用“Zen 5” CPU、RDNA 3.5 GPU与XDNA 2 NPU的异构架构，并借助统一内存架构等技术，可支持GPT OSS-120B。",
+      "score": 29
+    },
+    {
+      "section": "技术与研究",
+      "title": "腾讯云发布Agent Runtime基础设施，解决大规模Agent训练存储瓶颈",
+      "company": "腾讯云",
+      "url": "https://www.qbitai.com/2026/04/395307.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 03 Apr 2026 08:54:42 +0000",
+      "summary": "腾讯云发布了名为Agent Runtime的基础设施，旨在解决大规模Agent训练中的存储瓶颈。其核心是两项自研技术：一是基于Cube平台的加速存储方案，通过块级去重、多级缓存等技术，实现磁盘瞬间挂载，可分钟级拉起数十万训练沙箱。",
+      "score": 38
+    },
+    {
+      "section": "技术与研究",
+      "title": "OpenAI AGI部署负责人因病暂时休假",
+      "company": "OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/906965/openais-agi-boss-is-taking-a-leave-of-absence",
       "source": "The Verge AI",
-      "publishedAt": "2026-04-02T13:30:12.000Z",
-      "summary": "谷歌为家庭应用推出更新，旨在让用户通过Gemini AI助手更自然地控制智能家居。具体改进包括：用户现在可以用更精确的语言指令控制设备，例如直接说“将智能烤箱预热到350度”或设定具体湿度；Gemini能更准确地识别设备，例如区分“台灯”和“顶灯”，从而更快响应请求。",
+      "publishedAt": "2026-04-03T20:22:59.000Z",
+      "summary": "OpenAI AGI部署负责人Fidji Simo因神经免疫系统疾病复发，将休数周病假以尝试新疗法稳定健康。在她休假期间，公司总裁Greg Brockman将接管产品事务，包括领导超级应用项目。",
       "score": 30
     },
     {
       "section": "技术与研究",
-      "title": "分子之心AI技术实现蝎毒素杀虫效力翻倍，成果登《自然通讯》",
-      "company": "分子之心",
-      "url": "https://www.qbitai.com/2026/04/395198.html",
+      "title": "OpenAI高管变动：首席运营官布拉德·莱特卡普将领导“特殊项目”",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 03 Apr 2026 20:35:34 +0000",
+      "summary": "OpenAI首席运营官布拉德·莱特卡普将转任新职，直接向CEO萨姆·阿尔特曼汇报，负责领导涉及“复杂交易和公司投资”的“特殊项目”。同时，公司首席营销官凯特·劳奇将暂时离职以专注于癌症康复，公司计划寻找新的CMO接替，并称劳奇未来在健康状况允许时可能回归担任一个“范围更窄”的职位。",
+      "score": 28
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Anthropic以4亿美元股票交易收购生物科技初创公司Coefficient Bio",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 03 Apr 2026 20:28:40 +0000",
+      "summary": "根据The Information和埃隆·纽科默的报道，AI公司Anthropic已通过价值4亿美元的股票交易，收购了处于隐秘状态的生物科技AI初创公司Coefficient Bio。",
+      "score": 36
+    },
+    {
+      "section": "投融资与并购",
+      "title": "OpenAI收购脱口秀公司引发关注",
+      "company": "OpenAI",
+      "url": "https://www.qbitai.com/2026/04/395316.html",
       "source": "量子位",
-      "publishedAt": "Thu, 02 Apr 2026 10:27:13 +0000",
-      "summary": "AI蛋白质设计公司分子之心与多所高校合作，在《自然通讯》发表研究，成功将蝎毒素LqhαIT的杀虫效力提升一倍。该研究通过自研的ComplexDDG等算法，仅用数小时就从101个候选分子中筛选出28个进行实验验证，最终锁定高效力分子。",
+      "publishedAt": "Fri, 03 Apr 2026 09:25:12 +0000",
+      "summary": "OpenAI近期收购了视频播客公司TBPN，此举引发外界对其战略方向的疑问，尤其是在公司刚宣布调整Sora项目并完成融资、声称要聚焦核心业务之后。具体信息点包括：1. 收购后，TBPN将向OpenAI首席全球事务官Chris Lehane汇报，负责展会之外的沟通与营销工作。",
+      "score": 28
+    },
+    {
+      "section": "政策与监管",
+      "title": "燃料价格飙升，塑料可能成为下一个",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 02 Apr 2026 10:00:00 +0000",
+      "summary": "化石燃料价格飙升正引发连锁反应，塑料行业面临同样冲击，但替代方案稀缺。具体而言：1. 生物基塑料（如植物糖制成）目前仅占全球年产4.31亿吨塑料的约0.5%，预计2030年才可能达1%；2. 回收利用存在瓶颈——机械回收会降解材料，化学回收设施污染严重且多数废塑料未真正转化为新塑料。",
       "score": 28
     },
     {
       "section": "技术与研究",
-      "title": "AI招聘初创公司Mercor称遭网络攻击，与开源项目LiteLLM漏洞有关",
-      "company": "Mercor",
-      "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
+      "title": "AI公司正建设大型天然气发电厂为数据中心供电",
+      "company": "Meta, Microsoft, Google",
+      "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
       "source": "TechCrunch AI",
-      "publishedAt": "Wed, 01 Apr 2026 01:42:59 +0000",
-      "summary": "AI招聘初创公司Mercor确认其数据因开源项目LiteLLM的漏洞而被窃取。具体信息包括：1. 黑客组织Lapsus$声称对此负责，并泄露了据称来自Mercor的样本数据，包含Slack通信记录和工单数据。2. 此次漏洞源于LiteLLM项目中发现的恶意代码，该库每日下载量达数百万次，影响广泛。",
-      "score": 25
+      "publishedAt": "Fri, 03 Apr 2026 19:48:22 +0000",
+      "summary": "为满足AI数据中心激增的电力需求，Meta、微软和谷歌正直接建设大型天然气发电厂，绕过公共电网为其数据中心直接供电。具体项目包括：微软与雪佛龙等在德克萨斯州西部建设最高可达5吉瓦的发电厂；谷歌在德克萨斯州北部建设933兆瓦的发电厂。",
+      "score": 27
     },
     {
       "section": "技术与研究",
-      "title": "将机器人操作系统与大型语言模型结合以实现自然语言控制",
+      "title": "活体脑细胞可实现机器学习计算",
+      "company": "Tohoku University, Future University Hakodate",
+      "url": "https://techxplore.com/news/2026-04-brain-cells-enable-machine.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Fri, 03 Apr 2026 09:20:01 EDT",
+      "summary": "日本东北大学与函馆未来大学的研究团队成功将培养的活体神经元网络整合进机器学习框架，实现了生物神经元对时间序列模式的学习。具体而言，该研究让活体脑细胞学会了执行一项原本由人工系统完成的监督式时间模式学习任务，并能生成复杂的时间序列信号。",
+      "score": 26
+    },
+    {
+      "section": "技术与研究",
+      "title": "金融企业分层分级开展AI人才培训的课程体系构建",
       "company": "",
-      "url": "https://techxplore.com/news/2026-03-combining-robot-llms-natural-language.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Wed, 01 Apr 2026 08:10:01 EDT",
-      "summary": "过去几十年，机器人技术已能完成多种现实任务。为了让机器人更好地在公共场所、家庭和办公室等实际环境中工作，研究人员正致力于让它们理解人类指令并相应调整行动。具体而言，这项研究探索将机器人操作系统与大型语言模型相结合，以实现用自然语言直接控制机器人，解决传统编程控制方式不够灵活。",
-      "score": 22
+      "url": "https://www.infoq.cn/article/b6XkgAcvz9hjrpmX6OGr?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 03 Apr 2026 16:58:07 GMT",
+      "summary": "该课程体系为金融企业提供分层AI培训，覆盖从一线到决策层。具体课程包括：一线员工可学习《数字人无痕短视频制作技巧》等课程快速生成营销素材；运营人员通过《智能体在知识库与客服的深度应用实践》等课程搭建智能客服系统；决策层则学习《AI革命与金融科技新范式》等课程以制定AI战略。",
+      "score": 23
     },
     {
       "section": "技术与研究",
-      "title": "AI能力或呈爆发式增长：研究揭示其超越人类工作者的新路径",
-      "company": "Anthropic",
-      "url": "https://techxplore.com/news/2026-04-tides-overturning-prior-views-ai.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Thu, 02 Apr 2026 16:20:01 EDT",
-      "summary": "Anthropic CEO预测AI可能在2027年后不久在几乎所有领域超越人类，但这与当前AI在超过95%的远程自由职业项目中失败、仍受困于幻觉、长期规划和抽象推理的现实形成反差。然而，METR的最新研究发现，大语言模型的能力可能呈现爆发式增长，即在短短几年内从几乎无法成功跃升至几乎总能成功。",
-      "score": 20
+      "title": "将数据中心送入太空所需的四个条件",
+      "company": "SpaceX",
+      "url": "https://www.technologyreview.com/2026/04/03/1135073/four-things-wed-need-to-put-data-centers-in-space/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Fri, 03 Apr 2026 17:03:19 +0000",
+      "summary": "文章探讨了在太空部署数据中心需解决的四个关键条件。支持者认为，太阳同步轨道可提供不间断太阳能，太空真空环境便于散热，且随着SpaceX星舰等火箭降低发射成本，太空数据中心可能具备商业可行性。",
+      "score": 21
     },
     {
-      "section": "技术与研究",
-      "title": "商汤大装置探索AI原生时代算力集群架构",
-      "company": "商汤",
-      "url": "https://www.qbitai.com/2026/04/395194.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 02 Apr 2026 10:21:43 +0000",
-      "summary": "商汤大装置首席架构师项铁尧阐述了其AI算力池的“三明治”分层架构，旨在解决资源孤岛问题。该架构底层是计算网络存储设施，中层为虚拟集群技术，上层是包含开发机、训练平台等的PaaS产品体系。",
-      "score": 18
+      "section": "产品发布与更新",
+      "title": "Facebook前员工创立公司，为AI时代构建内容审核工具",
+      "company": "Moonbounce",
+      "url": "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 03 Apr 2026 14:00:15 +0000",
+      "summary": "由Facebook前员工创立的Moonbounce公司，已筹集1200万美元开发AI内容审核工具。其核心是“迭代引导”技术，能在用户与AI聊天涉及有害话题时，实时拦截并引导对话转向更积极支持的方向，而非生硬拒绝。",
+      "score": 19
     }
   ]
 }
