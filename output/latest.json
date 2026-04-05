@@ -1,19 +1,19 @@
 {
   "date": "2026/4/5",
-  "edition": "morning",
-  "editionLabel": "早报",
-  "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/4/5 08:03",
-  "count": 14,
+  "edition": "afternoon",
+  "editionLabel": "午后版",
+  "title": "AI 日报·午后版（Afternoon）",
+  "generatedAt": "2026/4/5 16:02",
+  "count": 11,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-04-04-afternoon.json",
+    "previousEditionFile": "news-2026-04-05-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 24,
+      "domesticBeforeDedup": 22,
       "overseasBeforeDedup": 13,
-      "domesticAfterDedup": 24,
+      "domesticAfterDedup": 22,
       "overseasAfterDedup": 13,
       "domesticSources": [
         {
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 8,
+          "count": 6,
           "error": null
         }
       ],
@@ -94,186 +94,153 @@
       }
     },
     "summarize": {
-      "totalSummarized": 37
+      "totalSummarized": 35
     },
     "scoring": {
-      "totalInput": 37,
-      "totalScored": 23,
-      "strictScoredCount": 18,
-      "relaxedCandidateCount": 5,
+      "totalInput": 35,
+      "totalScored": 15,
+      "strictScoredCount": 15,
+      "relaxedCandidateCount": 0,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 7,
-      "selectedCandidateCount": 23,
-      "duplicateCount": 9,
-      "crossDayDuplicateCount": 7,
-      "lowQualityCount": 3,
-      "domesticAvailable": 15,
-      "overseasAvailable": 8,
+      "weakSummaryCount": 4,
+      "selectedCandidateCount": 15,
+      "duplicateCount": 16,
+      "crossDayDuplicateCount": 12,
+      "lowQualityCount": 2,
+      "domesticAvailable": 13,
+      "overseasAvailable": 2,
       "sourceCount": {
-        "InfoQ": 4,
-        "雷锋网": 7,
+        "36氪": 5,
         "量子位": 3,
-        "TechCrunch AI": 4,
-        "The Verge AI": 1,
+        "雷锋网": 4,
+        "InfoQ": 1,
         "Wired AI": 1,
-        "36氪": 1,
-        "Tech Xplore": 1,
-        "MIT Technology Review": 1
+        "TechCrunch AI": 1
       }
     },
     "display": {
-      "refinedCount": 23,
-      "previousEditionRemovedCount": 1,
-      "integrityRemovedCount": 3,
-      "postEditionFilterCount": 19,
-      "displayReadyCount": 14,
-      "fallbackDisplayCount": 0,
+      "refinedCount": 15,
+      "previousEditionRemovedCount": 0,
+      "integrityRemovedCount": 4,
+      "postEditionFilterCount": 11,
+      "displayReadyCount": 7,
+      "fallbackDisplayCount": 4,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 5,
-      "shortage": 0
+      "removedWeakSummaries": 4,
+      "shortage": 3
     }
   },
   "articles": [
     {
-      "section": "产品发布与更新",
-      "title": "微软发布三款自研AI模型，团队规模不足10人，与OpenAI合作持续至2032年",
-      "company": "微软",
-      "url": "https://www.infoq.cn/article/zUMeCNaChlTHDoa7pFVX?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 03 Apr 2026 18:00:00 GMT",
-      "summary": "微软发布三款自研AI模型，核心是语音转文本模型MAI-Transcribe-1，其在25种语言上的平均词错误率低至3.8%，性能超越OpenAI Whisper等竞品。另一款视频生成模型MAI-Image-2可将图像生成速度提升至少2倍。值得注意的是，每个模型的研发团队均不足10人。",
-      "score": 51
+      "section": "技术与研究",
+      "title": "GPT-6曝光与AI行业动态",
+      "company": "阿里",
+      "url": "https://www.qbitai.com/2026/04/396366.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 05 Apr 2026 04:49:33 +0000",
+      "summary": "OpenAI披露GPT-6定价为每百万Token输入2.5美元、输出12美元，与GPT-5.4相比变化不大。公司承认因过度关注榜单排名，在编程领域被Anthropic超越并导致用户流失，同时Sora项目取消也影响了与迪士尼的潜在合作。",
+      "score": 46
+    },
+    {
+      "section": "投融资与并购",
+      "title": "AWOL Vision获近亿元B轮融资，新品众筹近2000万美元",
+      "company": "AWOL Vision",
+      "url": "https://36kr.com/p/3752260051616512?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-05 09:10:00  +0800",
+      "summary": "高端智能投影品牌AWOL Vision近日完成近亿元B轮融资，资金将用于研发超短焦与长焦激光显示技术，并构建“家庭AI智能娱乐平台”。其核心策略是将专业影院的三色激光技术用于消费级产品：主品牌AWOL的超短焦投影适合客厅明亮环境，子品牌Valerion的长焦投影专注影音室等暗光场景。",
+      "score": 44
     },
     {
       "section": "产品发布与更新",
-      "title": "阿里千问APP推出全能演技派模型Wan2.7-Image",
-      "company": "阿里",
-      "url": "https://www.qbitai.com/2026/04/395477.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 03 Apr 2026 12:54:24 +0000",
-      "summary": "阿里在千问APP中推出了图像生成模型Wan2.7-Image。该模型在人类偏好盲测中位列国内第一，性能超过GPT Image 1.5并逼近Nano Banana Pro。其核心能力包括：能精准生成包含中英双语文字（如“未来之城”与“Neo Metropolis”）的创意图像且无乱码。",
+      "title": "Pinterest部署生产级模型上下文协议生态系统，赋能AI智能体工作流",
+      "company": "Pinterest",
+      "url": "https://www.infoq.cn/article/04DleCzUztGhKgo26Mmk?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 05 Apr 2026 10:00:00 GMT",
+      "summary": "Pinterest构建了一个生产就绪的模型上下文协议（MCP）生态系统，以支持AI智能体工作流。其核心是部署一组云托管的MCP服务器，每个服务器专注于特定领域（如Presto、Spark），而非单一服务，这能有效抑制上下文膨胀、实现工具隔离并支持细粒度访问控制。",
+      "score": 31
+    },
+    {
+      "section": "技术与研究",
+      "title": "富士康3月营收8037.4亿新台币，同比增长45.6%",
+      "company": "富士康",
+      "url": "https://36kr.com/newsflashes/3753639574848256?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-05 15:59:37  +0800",
+      "summary": "富士康公布2024年3月营收为8037.4亿新台币，同比大幅增长45.6%。整个第一季度营收也实现了29.7%的同比增长。公司基于当前市场前景判断，预计第二季度运营业绩将实现环比和同比的双重增长。此外，富士康特别指出，其人工智能服务器机架业务预计将保持持续增长的态势。",
       "score": 28
     },
     {
       "section": "产品发布与更新",
-      "title": "OpenAI AGI部署负责人因健康原因暂时休假",
-      "company": "OpenAI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/906965/openais-agi-boss-is-taking-a-leave-of-absence",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-03T20:22:59.000Z",
-      "summary": "OpenAI AGI部署负责人Fidji Simo因神经免疫系统疾病复发，将休假数周以尝试新疗法稳定健康状况。休假期间，总裁Greg Brockman将接管产品事务，包括领导超级应用的开发。",
-      "score": 24
-    },
-    {
-      "section": "技术与研究",
-      "title": "智能体AI模式强化软件工程规范性",
-      "company": "",
-      "url": "https://www.infoq.cn/article/UdLhY0p8iDDIbtLtfV35?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sat, 04 Apr 2026 14:00:00 GMT",
-      "summary": "专家在播客中探讨了如何通过具体方法让AI智能体更规范地辅助软件开发。例如，一个开源项目采用“remixing”模式，让AI按项目标准重构拉取请求，而非直接合并。专家们强调，为避免AI生成代码的随机性，需采用结构化提示词、规范驱动开发等清晰规范，例如在意图定义阶段就明确角色、上下文和约束。",
-      "score": 37
-    },
-    {
-      "section": "技术与研究",
-      "title": "腾讯云推出Agent Runtime基础设施解决Agentic RL训练存储瓶颈",
-      "company": "腾讯云",
-      "url": "https://www.qbitai.com/2026/04/395307.html",
+      "title": "吾云创新将推出无键盘鼠标屏幕的Agent Computer，专为AI代理设计",
+      "company": "吾云创新",
+      "url": "https://www.qbitai.com/2026/04/396351.html",
       "source": "量子位",
-      "publishedAt": "Fri, 03 Apr 2026 08:54:42 +0000",
-      "summary": "腾讯云推出Agent Runtime基础设施，旨在解决大规模Agentic强化学习训练中的存储瓶颈。其核心方案包括：1. 基于Cube平台自研加速存储，通过块级去重、多级缓存和按需加载技术，实现磁盘瞬间挂载，可分钟级拉起数十万沙箱。",
-      "score": 34
+      "publishedAt": "Sun, 05 Apr 2026 02:14:36 +0000",
+      "summary": "吾云创新将推出一款名为Agent Computer的硬件，其最大特点是去除了键盘、鼠标和屏幕，因为它搭载的Context操作系统主要供AI代理使用，而非人类直接操作。该产品已研发7个月，其部分核心技术已在公司另一产品Zettlab AI NAS上得到商业化验证。",
+      "score": 23
     },
     {
       "section": "技术与研究",
-      "title": "OpenAI高管变动：首席运营官Brad Lightcap将领导‘特殊项目’",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 03 Apr 2026 20:35:34 +0000",
-      "summary": "OpenAI宣布两项高管变动。首席运营官Brad Lightcap将转任新设立的‘特殊项目’负责人，直接向CEO Sam Altman汇报，其新职责将专注于处理公司内‘复杂的交易与投资’。",
+      "title": "Linux内核维护者面临AI挑战：每日接收大量漏洞报告，需理性应对",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/04/396358.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 05 Apr 2026 02:24:23 +0000",
+      "summary": "Linux内核负责人Greg Kroah-Hartman透露，团队近期开始收到大量由AI工具生成的安全漏洞报告。这些报告虽然质量参差不齐，但大部分内容准确，给维护工作带来了持续压力。他观察到，已有部分提交到内核的补丁确实是由AI生成的。",
       "score": 22
     },
     {
       "section": "投融资与并购",
-      "title": "报道称Anthropic以4亿美元股票交易收购生物科技初创公司Coefficient Bio",
-      "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+      "title": "私募市场Anthropic风头正劲，SpaceX或将搅局",
+      "company": "Anthropic, SpaceX",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
       "source": "TechCrunch AI",
-      "publishedAt": "Fri, 03 Apr 2026 20:28:40 +0000",
-      "summary": "据The Information等媒体报道，AI公司Anthropic以价值约4亿美元的股票交易，收购了处于隐秘状态的生物科技AI初创公司Coefficient Bio。",
+      "publishedAt": "Sat, 04 Apr 2026 01:31:00 +0000",
+      "summary": "私募二级市场对Anthropic的股票需求极为旺盛，据称有20亿美元资金准备投入，而投资者试图出售的约6亿美元OpenAI股票却无人问津，显示市场势头正从OpenAI转向Anthropic。",
+      "score": 20
+    },
+    {
+      "section": "技术与研究",
+      "title": "神州数码2025年营收超1400亿元，AI业务增长近五成",
+      "company": "神州数码",
+      "url": "https://36kr.com/p/3751046517129735?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-03 20:08:53  +0800",
+      "summary": "具体到业务板块，高价值战略业务呈现爆发式增长。以神州问学为核心的AI软件及服务业务营收1.1亿元，同比增长了165.4%，企业级Agent中台进入商业化变现阶段；数云服务及软件业务营收35.6亿元，同比增长22%。",
+      "score": 42
+    },
+    {
+      "section": "技术与研究",
+      "title": "泉智博高爆发关节自动化产线投产，加速人形机器人商业化",
+      "company": "泉智博",
+      "url": "https://www.leiphone.com/category/industrynews/TKvC6lx8Q7TzO0NN.html",
+      "source": "雷锋网",
+      "publishedAt": "Sat, 04 Apr 2026 09:53:00 +0800",
+      "summary": "产线自动化率突破85%，核心工序实现全自主可控。在装配端，定子、转子、减速机、编码器等核心部件，全部由高精度机器人完成微米级装配；在检测端，集成动态性能测试、扭矩标定、温升监测等全流程设备，数据实时上传、全程可追溯；在物流端，AGV小车实现物料自动配送，达成生产节拍与物流节拍的精准协同。",
+      "score": 30
+    },
+    {
+      "section": "技术与研究",
+      "title": "瀚博半导体通过UALink互联测试，GPU将兼容新一代超节点",
+      "company": "瀚博",
+      "url": "https://www.leiphone.com/category/chips/sE5cqHvFMRGCmZ1V.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 03 Apr 2026 17:24:00 +0800",
+      "summary": "从UALink协议解读和超节点实践应用，到联合UALink联盟发布测试验证服务，ODCC春季全会期间的UALink系列活动展现了中国公司在UALink生态中的重要地位。阿里云和AMD作为联盟董事成员单位，联手ODCC推动国内产业界在UALink协议理解和实践上不断突破。",
       "score": 25
     },
     {
-      "section": "投融资与并购",
-      "title": "OpenAI收购脱口秀公司引发网友不解",
-      "company": "OpenAI",
-      "url": "https://www.qbitai.com/2026/04/395316.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 03 Apr 2026 09:25:12 +0000",
-      "summary": "OpenAI在宣布获得融资并聚焦核心业务后，收购了脱口秀公司TBPN，引发网友对其战略意图的困惑。具体信息点包括：1. 收购后TBPN将向OpenAI首席全球事务官Chris Lehane汇报，负责展会外的沟通与营销工作。",
-      "score": 24
-    },
-    {
-      "section": "政策与监管",
-      "title": "金融企业分层分级开展AI人才培训的课程体系构建",
-      "company": "",
-      "url": "https://www.infoq.cn/article/b6XkgAcvz9hjrpmX6OGr?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 03 Apr 2026 16:58:07 GMT",
-      "summary": "极客时间企业版为金融企业构建了一套分层级AI培训课程体系。课程针对不同岗位：一线员工学习用AI制作营销短视频和精准触达客户；运营人员掌握用AI管理客户生命周期和搭建智能客服；职能部门学习用AI提升HR、财务、PPT制作等办公效率。",
-      "score": 15
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Moonbounce融资1200万美元，开发AI内容审核引擎",
-      "company": "Moonbounce",
-      "url": "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 03 Apr 2026 14:00:15 +0000",
-      "summary": "AI内容审核公司Moonbounce融资1200万美元，开发名为“迭代引导”的AI审核引擎。该引擎旨在解决现有审核的痛点：一是能实时拦截有害对话并引导至积极方向，而非简单拒绝，以应对类似青少年因AI聊天机器人诱导而自杀的悲剧。",
-      "score": 22
-    },
-    {
       "section": "技术与研究",
-      "title": "AMD锐龙AI智能体创新应用大赛启动，推动端侧AI发展",
-      "company": "AMD",
-      "url": "https://www.infoq.cn/article/Z18OTUTFlmqbQb5Ia4Fp?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 03 Apr 2026 16:34:12 GMT",
-      "summary": "AMD启动锐龙AI智能体创新应用大赛，旨在推动端侧AI应用开发。大赛依托搭载锐龙AI系列处理器的笔记本作为算力基础，该处理器采用‘Zen 5’ CPU、RDNA 3.5 GPU与XDNA 2 NPU的异构架构，并借助统一内存架构和可变显存技术，可在本地流畅运行百亿至千亿参数的大模型。",
-      "score": 21
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI公司正建设大型天然气发电厂为数据中心供电，潜在风险引关注",
-      "company": "Meta, Microsoft, Google",
-      "url": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 03 Apr 2026 19:48:22 +0000",
-      "summary": "为满足AI数据中心激增的电力需求，Meta、微软和谷歌正直接建设大型天然气发电厂。微软与雪佛龙等合作在德州西部建设最高5吉瓦的发电厂；谷歌在德州北部建设933兆瓦的发电厂；Meta则在路易斯安那州的数据中心新增7座天然气电厂，总容量达7.46吉瓦，足以供应整个南达科他州。",
-      "score": 21
-    },
-    {
-      "section": "技术与研究",
-      "title": "活体脑细胞成功执行机器学习计算任务",
-      "company": "Tohoku University, Future University Hakodate",
-      "url": "https://techxplore.com/news/2026-04-brain-cells-enable-machine.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Fri, 03 Apr 2026 09:20:01 EDT",
-      "summary": "日本东北大学与函馆未来大学的研究团队成功将培养的活体神经元网络整合到机器学习框架中，训练其执行一项监督式时间模式学习任务。具体而言，该研究展示了生物神经元能够生成复杂的时间序列信号，完成了此前仅由人工系统实现的计算功能。",
-      "score": 18
-    },
-    {
-      "section": "技术与研究",
-      "title": "将数据中心送入太空需解决的四个问题",
-      "company": "SpaceX",
-      "url": "https://www.technologyreview.com/2026/04/03/1135073/four-things-wed-need-to-put-data-centers-in-space/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Fri, 03 Apr 2026 17:03:19 +0000",
-      "summary": "《麻省理工科技评论》指出，将数据中心送入太空面临多重挑战。支持者认为，在太阳同步轨道上，数据中心可获得不间断太阳能，并易于向太空真空散热。然而，太空高辐射环境是主要障碍：传统太空级电子设备昂贵且性能落后，而发射常规芯片存在风险。",
-      "score": 17
+      "title": "00后极客与机器人公司共度72小时，挑战具身智能开发极限",
+      "company": "自变量机器人",
+      "url": "https://36kr.com/p/3752115857638145?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-04 14:11:10  +0800",
+      "summary": "“之前我们叫全球首届，还担心太大了，后来看了看，确实不管国内还是国外，都不曾有过这样规模的比赛。”作为主办方，自变量机器人创始人&CEO王潜在决赛日的发言中说。 和开发应用/软件的黑客松不同，在这场具身智能开发者大会上，看得见的，有近百台高性能六轴机械臂。",
+      "score": 23
     }
   ]
 }
