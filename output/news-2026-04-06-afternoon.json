@@ -1,0 +1,199 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "Pinterest部署生产级模型上下文协议生态系统，赋能AI智能体工作流",
+      "url": "https://www.infoq.cn/article/04DleCzUztGhKgo26Mmk?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 05 Apr 2026 10:00:00 GMT",
+      "region": "国内",
+      "summary": "Pinterest构建了一套生产就绪的模型上下文协议（MCP）生态系统，以支持AI智能体工作流。其核心是部署一组云托管、按领域（如Presto、Spark）划分的专用MCP服务器，而非单一服务，旨在抑制上下文膨胀、实现工具隔离并支持细粒度访问控制。",
+      "category": "产品发布与更新",
+      "company": "Pinterest",
+      "score": 27,
+      "breakdown": {
+        "substance": 10,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "GPT-6定价曝光及行业动态",
+      "url": "https://www.qbitai.com/2026/04/396366.html",
+      "snippet": "彻底奔着AGI去的模型",
+      "source": "量子位",
+      "publishedAt": "Sun, 05 Apr 2026 04:49:33 +0000",
+      "region": "国内",
+      "summary": "GPT-6定价曝光，每百万Token输入2.5美元、输出12美元，与GPT-5.4相比价格变化不大。OpenAI承认因过度关注榜单排名，在编程领域被Anthropic超越并导致用户流失，同时其重要视频生成项目Sora被取消，影响了与迪士尼的潜在合作。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 41,
+      "breakdown": {
+        "substance": 14,
+        "importance": 11,
+        "timeliness": 4,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "具身Scaling Law验证成功：机器人新品1小时学会新任务，重复1800次成功率99%",
+      "url": "https://www.qbitai.com/2026/04/396694.html",
+      "snippet": "机器人模型卷出新高度",
+      "source": "量子位",
+      "publishedAt": "Mon, 06 Apr 2026 05:17:06 +0000",
+      "region": "国内",
+      "summary": "一款名为GEN-1的机器人新品展现出类似人类的直觉，例如在物品塞不进袋子时会自发晃动袋子。其核心技术包括：1. Paged Attention系统，通过高效调度计算资源，确保动作指令毫秒级响应，使AI能跟上现实物理节奏。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 39,
+      "breakdown": {
+        "substance": 17,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "有道龙虾LobsterAI的养成与实践｜QCon北京技术分享",
+      "url": "https://www.infoq.cn/article/yS2ckf9u8eUVflGIjdcF?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 06 Apr 2026 10:00:00 GMT",
+      "region": "国内",
+      "summary": "网易有道技术专家刘刚将在QCon北京分享有道龙虾LobsterAI的研发实践。他负责有道智能硬件服务端技术，并主导了词典笔、答疑笔等硬件上小P老师、视频答疑等AI教育产品的落地。",
+      "category": "技术与研究",
+      "company": "有道",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "太初元碁向员工发放百亿算力token并共建高校AI科教融合学院",
+      "url": "https://www.qbitai.com/2026/04/396533.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Sun, 05 Apr 2026 08:53:12 +0000",
+      "region": "国内",
+      "summary": "太初元碁在五周年大会上宣布两项具体举措。其一，向20位员工发放了总价值约100万元、来自国产智算中心的百亿算力token，作为“算力福利”以鼓励员工自主进行AI Agent的创新尝试。",
+      "category": "技术与研究",
+      "company": "太初元碁",
+      "score": 18,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "众筹近300万美元的Tiiny AI Pocket Lab：本地运行大模型的Agent盒子",
+      "url": "https://36kr.com/p/3754812277998083?f=rss",
+      "snippet": "作者 | 张子怡 编辑 | 袁斯来 AI硬件赛道，似乎一夜之间跨入新世界。 上一个月，投资人还在打听硬件大厂高P创始人，这一个月，他们已经开始寻觅“下一个Mac mini”。 狂欢的起点，来自开源智能体框架OpenClaw（圈子里称为：龙虾）。从抢购大内存的Mac mini到各类软硬大厂的联名主机，FOMO恐惧症席卷着所有人。承载AI的硬件，如今成了不可错失的入口。 此前更多在极客圈子里风行的Agent Box忽然被推到前台。简单说，Agent Box就是⼀台面向个人用户的AI专用设备，其存在的唯⼀目的是在本地运行大模型和自主代理。 市面上已经有数家推出Agent Box的公司，包括Pamir、Violoop、Tiiny等等。Pamir估值超过2500万美元，而Tiiny AI推出的首款产品Tiiny AI Pocket Lab，在Kickstarter上众筹金额已达280万美金。有行业人士预计其最终众筹金额可能会超400万美金。 Tiiny AI Pocket Lab重量约300克，尺寸约一部手机大小，早鸟众筹价为1399美元，支持一键部署大模型（最高支持120B）不依赖云端、服务器或高端GPU，也不产生额外的Token消耗费用。 Tiiny AI无疑踩中风口，毕竟用户只需要花单次硬件的钱，便能无限量地使用“龙虾”。 不过，Tiiny AI副总裁兼商业化负责人Eco Lee在采访中曾反复强调：Tiiny AI Pocket Lab不是专门为Open claw设计，它是为个人设计的AI基础设施设备。 这听起来很迷人，甚至有些难以置信。人们必须展开新的想象，agent原生意味着什么，要实现什么？当制约我们使用AI的只剩下高昂的Token费用，我们又如何冲破这一限制？ Tiiny AI尝试给出一个答案。 01 何谓Agent Box 在理解Tiiny AI之前，需要厘清一个新的产品概念——到底什么是Agent Box（智能体盒子）？ 在过去一年里，为了在本地运行开源大模型，人们们尝试过各种方案：有人用淘汰的旧电脑，有人抢购顶配的Mac mini。 这笔硬投入相当高昂。倘若用户想在本地端运行超过120B的大模型，购买PC电脑要凑近80GB的显存，整机成本超过5万元；即便选择苹果的Mac Studio（选配96GB统一内存版），也要花费超过2万元。 “你是否愿意买台电脑，只用来跑大模型？现在很多几万元的AI电脑，一旦启动本地大模型的时候，内存与算力就被过度占用，你甚至连一个网页都打不开。更别提打游戏或者看视频。”Eco说到。 除了设备本身开销之外，随着Token价格水涨船高，高昂的持续使用成本，也让“本地化部署”成为行业刚需。 因此，在Tiiny AI的产品构想里，其产品必须是台专门的AI设备，能够支持本地大模型和智能体7×24小时后台运行。其设计逻辑并非替代用户的个人电脑，而是作为外接独立设备，供手机、PC、平板或机器人等终端设备接入调用。系统默认将用户数据、凭证和工作流保存在本地，敏感操作无需上传云端，除非明确要求调用更强的云端模型。 在软件生态方面，设备将内置Agent Store，目前已适配OpenAI OSS、Qwen、GLM 等50余款开源大模型，以及 OpenClaw、n8n 等超百款智能体开发工具。 为构建丰富的端侧生态，Tiiny AI计划于今年7月推出模型格式转换工具，除了Tiiny官方支持的SOTA开源模型外，用户也可自行从Hugging Face等开源社区下载、转换并导入其他开源模型和用户自己的微调模型，并能上传分享给其他Tiiny用户。 “我经常给用户打个比方，云端的大模型就像瓶装矿泉水，好喝也要喝，但普通用户有大量高频、重复、贴近个人习惯、又不需要顶级智力的AI需求，就像用矿泉水洗手洗澡就太奢侈了。Tiiny的存在就像属于用户的‘AI水龙头’，你可以随意使用、token边际成本为0。”Eco告诉硬氪。 在Eco看来，云端大模型专注处理高智力、高精度、关键性任务，本地大模型则聚焦日常高频、个性化、带用户长期记忆的持续交互场景——这种“端云协同”模式，正是Tiiny AI，也是Agent Box最核心的价值所在。 在期待、掌声与纷至沓来的投资人邀约中，Tiiny AI难免要面对质疑。它必须回答的第一个问题，就是以并不昂贵的售价，如何实现前沿的产品理念，以及120B的参数模型？ 02 是玩具还是工具 在海外reddit论坛上，对Tiiny AI Pocket Lab的评价两极分化。有人说这只会是玩具，甚至有人通过宣传照逆向工程了Tiiny AI的产品，认为其所宣称的功能很难真正实现。 他们质疑的点在于，Tiiny AI并未公布其所用的SoC（系统芯片）品牌，也没有使用高端的GPU，却能在本地运行120B的大模型。 这令人觉得不可思议。 “我们是一家AI Infra公司，核心是通过系统性底层优化，把有限硬件的每一分算力与资源，全部聚焦于LLM推理与Agent运行，这与其他做硬件的思路有本质不同。”Eco表示。 Tiiny AI Pocket Lab里使用的芯片是一颗SoC外加一颗dNPU，并通过Tiiny AI最核心的技术PowerInfer来实现媲美Nvidia、AMD等高端GPU芯片的本地模型推理能力。 PowerInfer是用于端侧的异构算力推理加速技术，Tiiny AI团队通过大量的数据测算和语料训练发现，大模型推理过程中，参数激活模式分为两类：“热激活参数”（每次与模型交互都会调用的核心参数，约占20%）和“冷激活参数”（仅在用户问到医学、法律等特定领域问题时激活，约占80%）。这种冷热激活的特性，恰好适合在端侧异构算力架构下优化分配。团队开源过PowerInfer的示例：用单个NVIDIA RTX 4090 GPU，运行参数量175B的大模型，速度能达到传统方案的11倍。 这些都属于AI Infra层面的技术积累。从芯片层到Agent调度层，再到模型训练层，都需要深厚的knowhow支撑。 在具体的落地场景中，Tiinny AI团队从Kickstarter的留言区中发现，其用户主要是使用如OpenClaw一类开源应用的普通用户、对数据隐私有刚需的专业人士和AI极客。即使在断网的离线环境下，该设备依然可以运行多步推理、Agent工作流、内容生成以及针对敏感数据的安全计算。“傻瓜式”的开箱即用、0token费的24/7 Agent和完全的自主控制权是这些人选择Tiiny的核心理由。 并且，该设备在系统内引入了长期记忆功能。用户的交互偏好、历史文件与对话记录，均能通过加密形式直接存储在本地硬件中。 “隐私是Agent Box的加分项，但核心在于本地模型的部署，它能够结合你的长期记忆主动做事情，这件事最重要。”Eco告诉硬氪。 Tiiny AI的产品预计在2026年8月交付。需要注意，Tiiny是AI Agent出身的团队，其最终产品呈现仍然是硬件。他们有合作供应商，但也需要应对量产中的突发情况。 硬件生产有太多需要趟过的河流，考验团队的并非融资，而是真正兑现诱人的承诺：在一个300克的盒子上，实现本地算力自由、不受Token价格束缚、完全私密。",
+      "source": "36氪",
+      "publishedAt": "2026-04-06 11:53:43  +0800",
+      "region": "国内",
+      "summary": "PowerInfer是用于端侧的异构算力推理加速技术，Tiiny AI团队通过大量的数据测算和语料训练发现，大模型推理过程中，参数激活模式分为两类：“热激活参数”（每次与模型交互都会调用的核心参数，约占20%）和“冷激活参数”（仅在用户问到医学、法律等特定领域问题时激活，约占80%）。",
+      "category": "技术与研究",
+      "company": "Tiiny AI",
+      "score": 44,
+      "breakdown": {
+        "substance": 19,
+        "importance": 10,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "AWOL Vision获近亿元B轮融资，新品众筹近2000万美元",
+      "url": "https://36kr.com/p/3752260051616512?f=rss",
+      "snippet": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，高端智能投影品牌AWOL Vision近日完成近亿元B轮融资，投资方包括天堂硅谷、会畅科技及金鹏佳等机构。资金将主要用于核心技术研发，持续迭代超短焦与长焦激光显示能力，并推进“家庭AI智能娱乐平台”生态构建；同时加快全球渠道与品牌拓展，强化供应链协同，并引入顶尖人才以夯实全球化运营基础。 AWOL Vision成立于2020年，长期专注RGB激光投影与家庭视听体验创新，并以深圳海高特科技有限公司作为其研发与设计中枢，为全球视听领域用户提供更具沉浸感的解决方案，重塑家庭娱乐体验。 3月31日，AWOL Vision新款超短焦4K三色激光投影产品Aetherion在Kickstarter上结束众筹，募得近2000万美元；加上2024年其子品牌Valerion的千万美元级项目，AWOL累计众筹金额已超2亿元，是首个立足中国、完成“双千万美元级验证”的消费电子品牌。 超短焦4K三色激光投影产品Aetherion（图源/企业） 从CRT到液晶，从单色激光到三色激光，家庭显示行业经历了持续的技术跃迁。市场竞争日趋成熟，但大多数品牌仍沿着一条从电视时代延续至今的硬件参数竞赛路径，不断追求更大尺寸、更高分辨率和更低价格。 在欧美等成熟市场，家庭影院正走向刚需。但一套传统高端系统的部署成本高达5万至6万美元，且一旦安装便几乎固定，迁移成本极高。同时，传统投影品牌智能化迭代滞后，缺乏无线投屏、自动对焦等基础体验。当硬件参数逼近极限，真正的差异化开始向交互体验迁移。 这正是AWOL Vision所切入的断层。海高特将原本用于专业影院的三色激光技术下放至消费级产品，并在两大品牌中AWOL Vision与Valerion形成了清晰的场景分工。AWOL主打超短焦技术，适用于明亮环境的客厅场景，支持开灯观看；Valerion则专注于长焦投影，服务于影音室、后院户外等暗��环境，强调影院级画质与氛围感。 适用于明亮环境的客厅场景（图源/企业） 公司在产品定义阶段便将“开箱即用”作为核心设计原则，其产品外形采用金属骨架与轻量化设计，便于用户在客厅、卧室、庭院等不同场景间移动；所有接口隐藏在盖板或凹槽内，避免线材外露。 使用过程中，设备支持自动对焦、自动梯形校正、自动画面避障和幕布对齐，即使用户挪动设备，画面也能实时保持最佳状态。 软件层面，预装Netflix、Disney+、HBO Max等主流流媒体平台，支持语音控制和一键投屏——这些在国内智能投影市场已成标配的功能，在海外高端投影赛道中仍是稀缺能力。 可以看到，凭借独特的“美国品牌 +中国设计中心”模式，海高特依托中国成熟的智能硬件研发与供应链优势，瞄准欧美传统投影市场，提供更完整的使用体验与场景化解决方案，显著降低了高端家庭影院的实际使用门槛。 而随着设备进入越来越多家庭，一个更核心的问题浮现：如何让投影从“被动显示工具”进化为“主动理解用户的娱乐伙伴”？ 家庭娱乐的竞争正在从“屏的竞争”转向“入口的竞争”。电视、投影、AR/VR设备都在争夺用户家庭中的核心交互位置。然而，当前市场上大部分投影设备仍停留在被动显示阶段，即用户选择内容、设备播放，交互止步于遥控器或语音指令。 构建家庭AI智能娱乐平台（图源/企业） 家庭娱乐的需求正在深化：用户不再满足于单次观影，而是希望设备能够理解使用习惯、预测内容偏好、自动适配不同场景。周末晚上自动切换为电影模式并调暗环境光，游戏模式下自动优化延迟与音效联动等，这些能力的背后，需要一个持续学习用户行为的AI引擎。 这正是AWOL Vision的差异化所在。它并非从零搭建一个操作系统，而是基于用户最高频的观影和游戏场景，逐步叠加环境感知、多设备协同、个性化推荐等AI能力。这种“硬件+场景+AI”的渐进式路径，更易被用户感知和接受。 到这时，智能投影设备将不再只是一块负责播放的终端，更成为连接内容、环境、设备与用户习惯的AI智能娱乐入口，在下一代智能生态竞争中成为建立长期壁垒的关键。 投资方观点： 天堂硅谷表示，AWOL Vision在全球最挑剔的消费市场持续验证了产品力，两次众筹破纪录是真实市场需求最有力的证明。我们看好其从高端硬件向平台生态延伸的战略路径，这是一家有潜力在全球家庭娱乐赛道诞生世界级品牌的企业。 会畅科技表示，作为产业投资方，我们与AWOL Vision在视听技术与内容生态层面有高度互补的战略协同空间。作为合作伙伴，我们期待与AWOL共同定义下一代家庭沉浸式娱乐的标准。",
+      "source": "36氪",
+      "publishedAt": "2026-04-05 09:10:00  +0800",
+      "region": "国内",
+      "summary": "高端智能投影品牌AWOL Vision近日完成近亿元B轮融资，资金将用于研发超短焦与长焦激光显示技术，并构建能理解用户习惯的“家庭AI智能娱乐平台”。其新款超短焦4K三色激光投影Aetherion在Kickstarter众筹近2000万美元，加上子品牌Valerion的项目，累计众筹超2亿元。",
+      "category": "投融资与并购",
+      "company": "AWOL Vision",
+      "score": 40,
+      "breakdown": {
+        "substance": 18,
+        "importance": 8,
+        "timeliness": 4,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "红果短剧专项治理AI短剧素材违规使用，处置违规作品670部",
+      "url": "https://36kr.com/newsflashes/3754835385614848?f=rss",
+      "snippet": "36氪获悉，红果短剧官方账号4月6日发布《关于持续治理AI短剧素材违规使用行为的公告》：今年第一季度，平台已累计下架违反平台治理规范的漫剧1718部。其中针对近期AI短剧素材违规使用问题频发的情况，平台专项开展集中治理。目前已完成1.5万部作品的全面核查，依规处置违规作品670部。",
+      "source": "36氪",
+      "publishedAt": "2026-04-06 12:24:58  +0800",
+      "region": "国内",
+      "summary": "红果短剧平台于4月6日发布专项治理公告，针对近期AI短剧素材违规使用问题频发的情况，已对平台内容展开集中核查与处置。具体行动包括：第一，已完成对1.5万部作品的全面核查；第二，依据平台规范，累计下架了670部违规作品。",
+      "category": "政策与监管",
+      "company": "红果短剧",
+      "score": 31,
+      "breakdown": {
+        "substance": 11,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI时代下的架构治理：从人工监督到声明式自动化",
+      "url": "https://www.infoq.cn/article/VFRyL5oDK269xIcp8SDi?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 06 Apr 2026 10:00:00 GMT",
+      "region": "国内",
+      "summary": "文章提出用声明式自动化解决AI时代架构治理难题。具体方法包括：1. 将架构规则（如服务间必须用Kafka异步通信、API需先定义OpenAPI规范）写入机器可读文件（如architecture.md），并集成到开发工具中自动校验，使合规成为默认路径。",
+      "category": "政策与监管",
+      "company": "",
+      "score": 22,
+      "breakdown": {
+        "substance": 1,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}

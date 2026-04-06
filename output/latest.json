@@ -1,20 +1,20 @@
 {
   "date": "2026/4/6",
-  "edition": "morning",
-  "editionLabel": "早报",
-  "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/4/6 08:28",
-  "count": 5,
+  "edition": "afternoon",
+  "editionLabel": "午后版",
+  "title": "AI 日报·午后版（Afternoon）",
+  "generatedAt": "2026/4/6 16:02",
+  "count": 9,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-04-05-afternoon.json",
+    "previousEditionFile": "news-2026-04-06-morning.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 17,
-      "overseasBeforeDedup": 3,
-      "domesticAfterDedup": 17,
-      "overseasAfterDedup": 3,
+      "domesticBeforeDedup": 16,
+      "overseasBeforeDedup": 2,
+      "domesticAfterDedup": 16,
+      "overseasAfterDedup": 2,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -31,7 +31,7 @@
         {
           "source": "36氪",
           "ok": true,
-          "count": 4,
+          "count": 5,
           "error": null
         },
         {
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         }
       ],
@@ -51,7 +51,7 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 2,
+          "count": 1,
           "error": null
         },
         {
@@ -94,91 +94,130 @@
       }
     },
     "summarize": {
-      "totalSummarized": 20
+      "totalSummarized": 18
     },
     "scoring": {
-      "totalInput": 20,
-      "totalScored": 7,
-      "strictScoredCount": 4,
-      "relaxedCandidateCount": 3,
+      "totalInput": 18,
+      "totalScored": 12,
+      "strictScoredCount": 10,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 1,
-      "selectedCandidateCount": 7,
-      "duplicateCount": 10,
-      "crossDayDuplicateCount": 10,
-      "lowQualityCount": 0,
-      "domesticAvailable": 7,
+      "weakSummaryCount": 2,
+      "selectedCandidateCount": 12,
+      "duplicateCount": 3,
+      "crossDayDuplicateCount": 2,
+      "lowQualityCount": 1,
+      "domesticAvailable": 12,
       "overseasAvailable": 0,
       "sourceCount": {
-        "36氪": 1,
-        "雷锋网": 1,
-        "量子位": 2,
+        "36氪": 4,
+        "量子位": 5,
         "InfoQ": 3
       }
     },
     "display": {
-      "refinedCount": 7,
-      "previousEditionRemovedCount": 1,
-      "integrityRemovedCount": 1,
-      "postEditionFilterCount": 5,
-      "displayReadyCount": 4,
+      "refinedCount": 12,
+      "previousEditionRemovedCount": 0,
+      "integrityRemovedCount": 2,
+      "postEditionFilterCount": 10,
+      "displayReadyCount": 8,
       "fallbackDisplayCount": 1,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 1,
-      "shortage": 9
+      "removedWeakSummaries": 2,
+      "shortage": 5
     }
   },
   "articles": [
     {
       "section": "技术与研究",
-      "title": "OpenAI新模型并非GPTX，全新预训练“土豆”曝光，Sora成弃子原因揭示",
+      "title": "GPT-6定价曝光及行业动态",
       "company": "OpenAI",
-      "url": "https://www.qbitai.com/2026/04/396535.html",
+      "url": "https://www.qbitai.com/2026/04/396366.html",
       "source": "量子位",
-      "publishedAt": "Sun, 05 Apr 2026 09:06:59 +0000",
-      "summary": "OpenAI高管Greg透露，AI正从底层系统工程层面提供更深入协助，例如在5.3版本中，AI已能直接完成系统设计、实现、性能分析与持续优化。未来几个月将分步推进Codex应用，它作为通用智能体框架，擅长写软件并调用工具，可接入电子表格等处理知识工作，第一步是使其对普通知识工作更友好。",
-      "score": 35
+      "publishedAt": "Sun, 05 Apr 2026 04:49:33 +0000",
+      "summary": "GPT-6定价曝光，每百万Token输入2.5美元、输出12美元，与GPT-5.4相比价格变化不大。OpenAI承认因过度关注榜单排名，在编程领域被Anthropic超越并导致用户流失，同时其重要视频生成项目Sora被取消，影响了与迪士尼的潜在合作。",
+      "score": 41
+    },
+    {
+      "section": "投融资与并购",
+      "title": "AWOL Vision获近亿元B轮融资，新品众筹近2000万美元",
+      "company": "AWOL Vision",
+      "url": "https://36kr.com/p/3752260051616512?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-05 09:10:00  +0800",
+      "summary": "高端智能投影品牌AWOL Vision近日完成近亿元B轮融资，资金将用于研发超短焦与长焦激光显示技术，并构建能理解用户习惯的“家庭AI智能娱乐平台”。其新款超短焦4K三色激光投影Aetherion在Kickstarter众筹近2000万美元，加上子品牌Valerion的项目，累计众筹超2亿元。",
+      "score": 40
     },
     {
       "section": "技术与研究",
-      "title": "智能体AI模式强化软件工程规范性",
+      "title": "具身Scaling Law验证成功：机器人新品1小时学会新任务，重复1800次成功率99%",
       "company": "",
-      "url": "https://www.infoq.cn/article/UdLhY0p8iDDIbtLtfV35?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sat, 04 Apr 2026 14:00:00 GMT",
-      "summary": "专家在播客中探讨了如何用智能体AI提升软件工程规范性。具体方法包括：1. 采用“remixing”模式，让AI按项目标准重构拉取请求，而非直接合并；2. 通过结构化提示词、规范驱动开发和基于行为的验收测试，解决AI因意图模糊导致结果不一致的问题。",
-      "score": 33
+      "url": "https://www.qbitai.com/2026/04/396694.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 06 Apr 2026 05:17:06 +0000",
+      "summary": "一款名为GEN-1的机器人新品展现出类似人类的直觉，例如在物品塞不进袋子时会自发晃动袋子。其核心技术包括：1. Paged Attention系统，通过高效调度计算资源，确保动作指令毫秒级响应，使AI能跟上现实物理节奏。",
+      "score": 39
     },
     {
-      "section": "技术与研究",
-      "title": "Evomap如何让Agent从单体智能到群体进化｜QCon北京",
-      "company": "",
-      "url": "https://www.infoq.cn/article/sDj8K6IhNzNQgMKhOGKr?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 05 Apr 2026 10:00:00 GMT",
-      "summary": "在QCon北京大会上，前《和平精英》技术策划、GameGPT作者张昊阳分享了其团队在AI原生游戏领域的经验，探讨了如何让智能体（Agent）从单体智能进化到群体智能。他提出，智能提升的关键并非简单堆砌模型，而在于实现经验的可遗传、可复用和可进化。",
-      "score": 17
-    },
-    {
-      "section": "技术与研究",
-      "title": "从ChatBI到DataAgent：企业级智能数据分析平台的技术演进与实践",
-      "company": "",
-      "url": "https://www.infoq.cn/article/JPqgmdcQJRRWprIqQo7X?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sat, 04 Apr 2026 10:00:00 GMT",
-      "summary": "演讲者李卓豪分享了企业级智能数据分析平台的技术实践。具体包括：1. 引入RAG技术与多级评分机制，当用户查询意图模糊时，系统会主动发起澄清交互（如指标二选一），以解决“查无此数”等行业问题。2. 针对不同业务场景（如财务与产品运营）对准确率要求不同的情况，构建了分层评估体系。",
-      "score": 16
+      "section": "政策与监管",
+      "title": "红果短剧专项治理AI短剧素材违规使用，处置违规作品670部",
+      "company": "红果短剧",
+      "url": "https://36kr.com/newsflashes/3754835385614848?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-06 12:24:58  +0800",
+      "summary": "红果短剧平台于4月6日发布专项治理公告，针对近期AI短剧素材违规使用问题频发的情况，已对平台内容展开集中核查与处置。具体行动包括：第一，已完成对1.5万部作品的全面核查；第二，依据平台规范，累计下架了670部违规作品。",
+      "score": 31
     },
     {
       "section": "产品发布与更新",
-      "title": "阿里千问3.6Plus模型登顶全球API调用榜榜首",
-      "company": "阿里",
-      "url": "https://www.leiphone.com/category/industrynews/pWoHJBvmcpwoaqRM.html",
-      "source": "雷锋网",
-      "publishedAt": "Sat, 04 Apr 2026 13:56:00 +0800",
-      "summary": "过去一周，阿里接连发布全模态模型Qwen3.5-Omni、文生图模型Wan2.7-Image以及新一代大语言模型Qwen3.6-Plus，覆盖多模态、视觉生成、编程和智能体等多领域，掀起“千问旋风”。消息称，千问很快还将发布3.6系列的旗舰模型Qwen-3.6-Max。",
-      "score": 36
+      "title": "Pinterest部署生产级模型上下文协议生态系统，赋能AI智能体工作流",
+      "company": "Pinterest",
+      "url": "https://www.infoq.cn/article/04DleCzUztGhKgo26Mmk?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 05 Apr 2026 10:00:00 GMT",
+      "summary": "Pinterest构建了一套生产就绪的模型上下文协议（MCP）生态系统，以支持AI智能体工作流。其核心是部署一组云托管、按领域（如Presto、Spark）划分的专用MCP服务器，而非单一服务，旨在抑制上下文膨胀、实现工具隔离并支持细粒度访问控制。",
+      "score": 27
+    },
+    {
+      "section": "政策与监管",
+      "title": "AI时代下的架构治理：从人工监督到声明式自动化",
+      "company": "",
+      "url": "https://www.infoq.cn/article/VFRyL5oDK269xIcp8SDi?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 06 Apr 2026 10:00:00 GMT",
+      "summary": "文章提出用声明式自动化解决AI时代架构治理难题。具体方法包括：1. 将架构规则（如服务间必须用Kafka异步通信、API需先定义OpenAPI规范）写入机器可读文件（如architecture.md），并集成到开发工具中自动校验，使合规成为默认路径。",
+      "score": 22
+    },
+    {
+      "section": "技术与研究",
+      "title": "有道龙虾LobsterAI的养成与实践｜QCon北京技术分享",
+      "company": "有道",
+      "url": "https://www.infoq.cn/article/yS2ckf9u8eUVflGIjdcF?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 06 Apr 2026 10:00:00 GMT",
+      "summary": "网易有道技术专家刘刚将在QCon北京分享有道龙虾LobsterAI的研发实践。他负责有道智能硬件服务端技术，并主导了词典笔、答疑笔等硬件上小P老师、视频答疑等AI教育产品的落地。",
+      "score": 21
+    },
+    {
+      "section": "技术与研究",
+      "title": "太初元碁向员工发放百亿算力token并共建高校AI科教融合学院",
+      "company": "太初元碁",
+      "url": "https://www.qbitai.com/2026/04/396533.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 05 Apr 2026 08:53:12 +0000",
+      "summary": "太初元碁在五周年大会上宣布两项具体举措。其一，向20位员工发放了总价值约100万元、来自国产智算中心的百亿算力token，作为“算力福利”以鼓励员工自主进行AI Agent的创新尝试。",
+      "score": 18
+    },
+    {
+      "section": "技术与研究",
+      "title": "众筹近300万美元的Tiiny AI Pocket Lab：本地运行大模型的Agent盒子",
+      "company": "Tiiny AI",
+      "url": "https://36kr.com/p/3754812277998083?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-06 11:53:43  +0800",
+      "summary": "PowerInfer是用于端侧的异构算力推理加速技术，Tiiny AI团队通过大量的数据测算和语料训练发现，大模型推理过程中，参数激活模式分为两类：“热激活参数”（每次与模型交互都会调用的核心参数，约占20%）和“冷激活参数”（仅在用户问到医学、法律等特定领域问题时激活，约占80%）。",
+      "score": 44
     }
   ]
 }
