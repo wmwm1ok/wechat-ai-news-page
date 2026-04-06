@@ -1,0 +1,70 @@
+{
+  "产品发布与更新": [],
+  "技术与研究": [
+    {
+      "title": "智能体AI模式强化软件工程规范性",
+      "url": "https://www.infoq.cn/article/UdLhY0p8iDDIbtLtfV35?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 04 Apr 2026 14:00:00 GMT",
+      "region": "国内",
+      "summary": "在近期播客中，多位技术专家探讨了如何通过更清晰的规范来引导AI智能体，以提升软件工程的质量与一致性。具体方法包括：1. 采用包含角色、上下文与约束的结构化提示词来明确AI的意图，避免因模糊输入导致结果不一致；2. 推行规范驱动开发和基于行为定义的验收测试，确保AI生成的代码符合预期。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 36,
+      "breakdown": {
+        "substance": 16,
+        "importance": 5,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI新模型并非GPTX，内部推进通用智能体框架",
+      "url": "https://www.qbitai.com/2026/04/396535.html",
+      "snippet": "正面回应了和Anthropic的竞争",
+      "source": "量子位",
+      "publishedAt": "Sun, 05 Apr 2026 09:06:59 +0000",
+      "region": "国内",
+      "summary": "OpenAI正从多个维度推进技术，例如其AI模型已能从版本5.2升级到5.3，协助工程师完成底层系统任务，包括直接设计方案、实现和性能优化。公司计划以Codex应用为起点分步推进，该框架既是通用智能体，能调用工具并擅长编写软件，也可接入电子表格和Word文档来辅助知识工作。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 35,
+      "breakdown": {
+        "substance": 12,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "从ChatBI到DataAgent：企业级智能数据分析平台的技术演进与实践",
+      "url": "https://www.infoq.cn/article/JPqgmdcQJRRWprIqQo7X?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 04 Apr 2026 10:00:00 GMT",
+      "region": "国内",
+      "summary": "演讲介绍了企业级智能数据分析平台的两项关键技术：一是通过RAG和多级评分机制精准匹配用户意图，并在结果置信度低时主动发起澄清交互，以解决“查无此数”等问题；二是构建分层分级的评估体系，以应对不同业务场景和用户角色对准确性的差异化要求，保障系统稳定性。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 16,
+      "breakdown": {
+        "substance": 3,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [],
+  "政策与监管": []
+}

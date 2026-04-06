@@ -1,20 +1,20 @@
 {
-  "date": "2026/4/5",
-  "edition": "afternoon",
-  "editionLabel": "午后版",
-  "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/4/5 16:02",
-  "count": 11,
+  "date": "2026/4/6",
+  "edition": "morning",
+  "editionLabel": "早报",
+  "title": "AI 日报·早报（Morning）",
+  "generatedAt": "2026/4/6 08:03",
+  "count": 3,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-04-05-morning.json",
+    "previousEditionFile": "news-2026-04-05-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 22,
-      "overseasBeforeDedup": 13,
-      "domesticAfterDedup": 22,
-      "overseasAfterDedup": 13,
+      "domesticBeforeDedup": 17,
+      "overseasBeforeDedup": 3,
+      "domesticAfterDedup": 17,
+      "overseasAfterDedup": 3,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -31,7 +31,7 @@
         {
           "source": "36氪",
           "ok": true,
-          "count": 5,
+          "count": 4,
           "error": null
         },
         {
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 6,
+          "count": 2,
           "error": null
         }
       ],
@@ -51,13 +51,13 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 6,
+          "count": 2,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
@@ -69,19 +69,19 @@
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         },
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 2,
+          "count": 1,
           "error": null
         }
       ],
@@ -94,153 +94,71 @@
       }
     },
     "summarize": {
-      "totalSummarized": 35
+      "totalSummarized": 20
     },
     "scoring": {
-      "totalInput": 35,
-      "totalScored": 15,
-      "strictScoredCount": 15,
-      "relaxedCandidateCount": 0,
+      "totalInput": 20,
+      "totalScored": 7,
+      "strictScoredCount": 5,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 4,
-      "selectedCandidateCount": 15,
-      "duplicateCount": 16,
-      "crossDayDuplicateCount": 12,
-      "lowQualityCount": 2,
-      "domesticAvailable": 13,
-      "overseasAvailable": 2,
+      "weakSummaryCount": 1,
+      "selectedCandidateCount": 7,
+      "duplicateCount": 10,
+      "crossDayDuplicateCount": 10,
+      "lowQualityCount": 0,
+      "domesticAvailable": 7,
+      "overseasAvailable": 0,
       "sourceCount": {
-        "36氪": 5,
-        "量子位": 3,
-        "雷锋网": 4,
-        "InfoQ": 1,
-        "Wired AI": 1,
-        "TechCrunch AI": 1
+        "36氪": 1,
+        "InfoQ": 3,
+        "雷锋网": 1,
+        "量子位": 2
       }
     },
     "display": {
-      "refinedCount": 15,
-      "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 4,
-      "postEditionFilterCount": 11,
-      "displayReadyCount": 7,
-      "fallbackDisplayCount": 4,
+      "refinedCount": 7,
+      "previousEditionRemovedCount": 2,
+      "integrityRemovedCount": 2,
+      "postEditionFilterCount": 3,
+      "displayReadyCount": 3,
+      "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 4,
-      "shortage": 3
+      "removedWeakSummaries": 0,
+      "shortage": 11
     }
   },
   "articles": [
     {
       "section": "技术与研究",
-      "title": "GPT-6曝光与AI行业动态",
-      "company": "阿里",
-      "url": "https://www.qbitai.com/2026/04/396366.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 05 Apr 2026 04:49:33 +0000",
-      "summary": "OpenAI披露GPT-6定价为每百万Token输入2.5美元、输出12美元，与GPT-5.4相比变化不大。公司承认因过度关注榜单排名，在编程领域被Anthropic超越并导致用户流失，同时Sora项目取消也影响了与迪士尼的潜在合作。",
-      "score": 46
-    },
-    {
-      "section": "投融资与并购",
-      "title": "AWOL Vision获近亿元B轮融资，新品众筹近2000万美元",
-      "company": "AWOL Vision",
-      "url": "https://36kr.com/p/3752260051616512?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-05 09:10:00  +0800",
-      "summary": "高端智能投影品牌AWOL Vision近日完成近亿元B轮融资，资金将用于研发超短焦与长焦激光显示技术，并构建“家庭AI智能娱乐平台”。其核心策略是将专业影院的三色激光技术用于消费级产品：主品牌AWOL的超短焦投影适合客厅明亮环境，子品牌Valerion的长焦投影专注影音室等暗光场景。",
-      "score": 44
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Pinterest部署生产级模型上下文协议生态系统，赋能AI智能体工作流",
-      "company": "Pinterest",
-      "url": "https://www.infoq.cn/article/04DleCzUztGhKgo26Mmk?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 05 Apr 2026 10:00:00 GMT",
-      "summary": "Pinterest构建了一个生产就绪的模型上下文协议（MCP）生态系统，以支持AI智能体工作流。其核心是部署一组云托管的MCP服务器，每个服务器专注于特定领域（如Presto、Spark），而非单一服务，这能有效抑制上下文膨胀、实现工具隔离并支持细粒度访问控制。",
-      "score": 31
-    },
-    {
-      "section": "技术与研究",
-      "title": "富士康3月营收8037.4亿新台币，同比增长45.6%",
-      "company": "富士康",
-      "url": "https://36kr.com/newsflashes/3753639574848256?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-05 15:59:37  +0800",
-      "summary": "富士康公布2024年3月营收为8037.4亿新台币，同比大幅增长45.6%。整个第一季度营收也实现了29.7%的同比增长。公司基于当前市场前景判断，预计第二季度运营业绩将实现环比和同比的双重增长。此外，富士康特别指出，其人工智能服务器机架业务预计将保持持续增长的态势。",
-      "score": 28
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "吾云创新将推出无键盘鼠标屏幕的Agent Computer，专为AI代理设计",
-      "company": "吾云创新",
-      "url": "https://www.qbitai.com/2026/04/396351.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 05 Apr 2026 02:14:36 +0000",
-      "summary": "吾云创新将推出一款名为Agent Computer的硬件，其最大特点是去除了键盘、鼠标和屏幕，因为它搭载的Context操作系统主要供AI代理使用，而非人类直接操作。该产品已研发7个月，其部分核心技术已在公司另一产品Zettlab AI NAS上得到商业化验证。",
-      "score": 23
-    },
-    {
-      "section": "技术与研究",
-      "title": "Linux内核维护者面临AI挑战：每日接收大量漏洞报告，需理性应对",
+      "title": "智能体AI模式强化软件工程规范性",
       "company": "",
-      "url": "https://www.qbitai.com/2026/04/396358.html",
+      "url": "https://www.infoq.cn/article/UdLhY0p8iDDIbtLtfV35?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 04 Apr 2026 14:00:00 GMT",
+      "summary": "在近期播客中，多位技术专家探讨了如何通过更清晰的规范来引导AI智能体，以提升软件工程的质量与一致性。具体方法包括：1. 采用包含角色、上下文与约束的结构化提示词来明确AI的意图，避免因模糊输入导致结果不一致；2. 推行规范驱动开发和基于行为定义的验收测试，确保AI生成的代码符合预期。",
+      "score": 36
+    },
+    {
+      "section": "技术与研究",
+      "title": "OpenAI新模型并非GPTX，内部推进通用智能体框架",
+      "company": "OpenAI",
+      "url": "https://www.qbitai.com/2026/04/396535.html",
       "source": "量子位",
-      "publishedAt": "Sun, 05 Apr 2026 02:24:23 +0000",
-      "summary": "Linux内核负责人Greg Kroah-Hartman透露，团队近期开始收到大量由AI工具生成的安全漏洞报告。这些报告虽然质量参差不齐，但大部分内容准确，给维护工作带来了持续压力。他观察到，已有部分提交到内核的补丁确实是由AI生成的。",
-      "score": 22
-    },
-    {
-      "section": "投融资与并购",
-      "title": "私募市场Anthropic风头正劲，SpaceX或将搅局",
-      "company": "Anthropic, SpaceX",
-      "url": "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Sat, 04 Apr 2026 01:31:00 +0000",
-      "summary": "私募二级市场对Anthropic的股票需求极为旺盛，据称有20亿美元资金准备投入，而投资者试图出售的约6亿美元OpenAI股票却无人问津，显示市场势头正从OpenAI转向Anthropic。",
-      "score": 20
+      "publishedAt": "Sun, 05 Apr 2026 09:06:59 +0000",
+      "summary": "OpenAI正从多个维度推进技术，例如其AI模型已能从版本5.2升级到5.3，协助工程师完成底层系统任务，包括直接设计方案、实现和性能优化。公司计划以Codex应用为起点分步推进，该框架既是通用智能体，能调用工具并擅长编写软件，也可接入电子表格和Word文档来辅助知识工作。",
+      "score": 35
     },
     {
       "section": "技术与研究",
-      "title": "神州数码2025年营收超1400亿元，AI业务增长近五成",
-      "company": "神州数码",
-      "url": "https://36kr.com/p/3751046517129735?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-03 20:08:53  +0800",
-      "summary": "具体到业务板块，高价值战略业务呈现爆发式增长。以神州问学为核心的AI软件及服务业务营收1.1亿元，同比增长了165.4%，企业级Agent中台进入商业化变现阶段；数云服务及软件业务营收35.6亿元，同比增长22%。",
-      "score": 42
-    },
-    {
-      "section": "技术与研究",
-      "title": "泉智博高爆发关节自动化产线投产，加速人形机器人商业化",
-      "company": "泉智博",
-      "url": "https://www.leiphone.com/category/industrynews/TKvC6lx8Q7TzO0NN.html",
-      "source": "雷锋网",
-      "publishedAt": "Sat, 04 Apr 2026 09:53:00 +0800",
-      "summary": "产线自动化率突破85%，核心工序实现全自主可控。在装配端，定子、转子、减速机、编码器等核心部件，全部由高精度机器人完成微米级装配；在检测端，集成动态性能测试、扭矩标定、温升监测等全流程设备，数据实时上传、全程可追溯；在物流端，AGV小车实现物料自动配送，达成生产节拍与物流节拍的精准协同。",
-      "score": 30
-    },
-    {
-      "section": "技术与研究",
-      "title": "瀚博半导体通过UALink互联测试，GPU将兼容新一代超节点",
-      "company": "瀚博",
-      "url": "https://www.leiphone.com/category/chips/sE5cqHvFMRGCmZ1V.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 03 Apr 2026 17:24:00 +0800",
-      "summary": "从UALink协议解读和超节点实践应用，到联合UALink联盟发布测试验证服务，ODCC春季全会期间的UALink系列活动展现了中国公司在UALink生态中的重要地位。阿里云和AMD作为联盟董事成员单位，联手ODCC推动国内产业界在UALink协议理解和实践上不断突破。",
-      "score": 25
-    },
-    {
-      "section": "技术与研究",
-      "title": "00后极客与机器人公司共度72小时，挑战具身智能开发极限",
-      "company": "自变量机器人",
-      "url": "https://36kr.com/p/3752115857638145?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-04 14:11:10  +0800",
-      "summary": "“之前我们叫全球首届，还担心太大了，后来看了看，确实不管国内还是国外，都不曾有过这样规模的比赛。”作为主办方，自变量机器人创始人&CEO王潜在决赛日的发言中说。 和开发应用/软件的黑客松不同，在这场具身智能开发者大会上，看得见的，有近百台高性能六轴机械臂。",
-      "score": 23
+      "title": "从ChatBI到DataAgent：企业级智能数据分析平台的技术演进与实践",
+      "company": "",
+      "url": "https://www.infoq.cn/article/JPqgmdcQJRRWprIqQo7X?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 04 Apr 2026 10:00:00 GMT",
+      "summary": "演讲介绍了企业级智能数据分析平台的两项关键技术：一是通过RAG和多级评分机制精准匹配用户意图，并在结果置信度低时主动发起澄清交互，以解决“查无此数”等问题；二是构建分层分级的评估体系，以应对不同业务场景和用户角色对准确性的差异化要求，保障系统稳定性。",
+      "score": 16
     }
   ]
 }
