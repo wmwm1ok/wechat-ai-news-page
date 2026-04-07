@@ -188,6 +188,43 @@ describe('News scorer', () => {
     expect(categoryCounts['技术与研究'] >= 2).toBe(true);
     expect(categoryCounts['投融资与并购'] >= 1).toBe(true);
   });
+
+  it('reuses cross-day duplicates as controlled fallback when the pool is too small', () => {
+    const now = new Date().toISOString();
+    const previousNews = [
+      {
+        title: 'OpenAI发布企业搜索工具并开放知识库接入',
+        summary: 'OpenAI 发布企业搜索工具，并开放知识库接入与管理员控制。',
+        source: 'InfoQ',
+        url: 'https://example.com/openai-search'
+      }
+    ];
+
+    const selected = selectTopNews([
+      {
+        title: 'OpenAI发布企业搜索工具并开放知识库接入',
+        summary: 'OpenAI 发布企业搜索工具，并开放知识库接入与管理员控制，面向企业客户上线。',
+        source: 'InfoQ',
+        publishedAt: now,
+        region: '海外',
+        url: 'https://example.com/openai-search'
+      },
+      {
+        title: 'Google发布Gemini 3研究更新',
+        summary: 'Google 发布 Gemini 3 研究更新，包含模型能力提升、新 benchmark 与企业接入计划。',
+        source: 'MIT Technology Review',
+        publishedAt: now,
+        region: '海外',
+        url: 'https://example.com/gemini-3-update'
+      }
+    ], 2, previousNews);
+
+    const reused = selected.find(item => item.selectionMode === 'crossDayFallback');
+
+    expect(selected.length).toBe(2);
+    expect(Boolean(reused)).toBe(true);
+    expect(selected.diagnostics.crossDayFallbackUsedCount).toBe(1);
+  });
 });
 
 console.log('🧪 Running NewsScorer Tests...\n');

@@ -1,4 +1,4 @@
-import { selectBalancedFinalNews } from '../src/daily-news-runner.js';
+import { filterAgainstPreviousEdition, selectBalancedFinalNews } from '../src/daily-news-runner.js';
 
 function describe(name, fn) {
   console.log(`\n📦 ${name}`);
@@ -21,6 +21,16 @@ function expect(actual) {
     toBe(expected) {
       if (actual !== expected) {
         throw new Error(`Expected ${expected} but got ${actual}`);
+      }
+    },
+    toInclude(expected) {
+      if (!Array.isArray(actual) || !actual.includes(expected)) {
+        throw new Error(`Expected array to include ${expected}`);
+      }
+    },
+    notToInclude(expected) {
+      if (Array.isArray(actual) && actual.includes(expected)) {
+        throw new Error(`Expected array not to include ${expected}`);
       }
     },
     toBeTruthy() {
@@ -57,6 +67,49 @@ describe('Daily news runner', () => {
 
     expect(selected.length).toBe(6);
     expect(hasProduct).toBeTruthy();
+  });
+
+  it('restores cross-day fallback candidates only when the final pool is short', () => {
+    const previousNews = [
+      {
+        title: 'OpenAI发布企业搜索工具并开放知识库接入',
+        summary: 'OpenAI 发布企业搜索工具，并开放知识库接入与管理员控制。',
+        source: 'InfoQ',
+        url: 'https://example.com/openai-search'
+      }
+    ];
+    const items = [
+      {
+        title: 'Anthropic发布Claude金融行业模板',
+        summary: 'Anthropic 发布金融行业模板，覆盖审批流、知识库接入和审计能力。',
+        source: 'MIT Technology Review',
+        url: 'https://example.com/claude-finance'
+      },
+      {
+        title: 'OpenAI发布企业搜索工具并开放知识库接入',
+        summary: 'OpenAI 发布企业搜索工具，并开放知识库接入与管理员控制，面向企业客户上线。',
+        source: 'InfoQ',
+        url: 'https://example.com/openai-search',
+        selectionMode: 'crossDayFallback'
+      },
+      {
+        title: 'Google发布Gemini代码助手更新',
+        summary: 'Google 发布 Gemini 代码助手更新，补充仓库上下文与审计日志能力。',
+        source: 'The Verge AI',
+        url: 'https://example.com/gemini-code'
+      }
+    ];
+
+    const restored = filterAgainstPreviousEdition(items, previousNews, 3);
+    const strict = filterAgainstPreviousEdition(items, previousNews, 2);
+    const restoredTitles = restored.kept.map(item => item.title);
+    const strictTitles = strict.kept.map(item => item.title);
+
+    expect(restored.kept.length).toBe(3);
+    expect(restored.restored.length).toBe(1);
+    expect(restoredTitles).toInclude('OpenAI发布企业搜索工具并开放知识库接入');
+    expect(strict.restored.length).toBe(0);
+    expect(strictTitles).notToInclude('OpenAI发布企业搜索工具并开放知识库接入');
   });
 });
 

@@ -10,6 +10,8 @@ import { isDisplayReadyNews } from './ai-summarizer.js';
 const dedupEngine = new DeduplicationEngine();
 const CATEGORY_PRIORITY = ['产品发布与更新', '技术与研究', '投融资与并购', '政策与监管'];
 const RELAXED_QUALITY_THRESHOLD = Math.max(QUALITY_THRESHOLD - 5, 14);
+const CROSS_DAY_FALLBACK_PENALTY = 4;
+const CROSS_DAY_FALLBACK_MAX = 8;
 const LOW_TRUST_SOURCES = new Set(['MEXC', 'WPBF']);
 const SOURCE_ALIASES = {
   '36 Kr': '36氪'
@@ -525,6 +527,7 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
   const existingNews = []; // 已处理的新闻（包含完整信息）
   const scored = [];
   const relaxedCandidates = [];
+  const crossDayFallbackCandidates = [];
   const duplicates = [];
   const crossDayDuplicates = []; // 跨天重复统计
   const lowQuality = [];
@@ -537,9 +540,10 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
     
     // 检查是否是跨天重复
     let isCrossDayDup = false;
+    let yesterdayCheck = null;
     if (previousNews.length > 0 && duplicateCheck.isDuplicate) {
       // 检查是否匹配到昨天的新闻
-      const yesterdayCheck = checkSemanticDuplicate(news, previousNews);
+      yesterdayCheck = checkSemanticDuplicate(news, previousNews);
       if (yesterdayCheck.isDuplicate) {
         isCrossDayDup = true;
         crossDayDuplicates.push({
@@ -558,6 +562,31 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
         reason: duplicateCheck.reason,
         isCrossDay: isCrossDayDup
       });
+      if (isCrossDayDup) {
+        const scoring = scoreNews(news, existingNews.map(n => n.title));
+        if (!scoring.isDuplicate) {
+          if (!scoring.isDisplayReady) {
+            weakSummaryCount += 1;
+          }
+
+          const fallbackScore = Math.max(0, scoring.score - CROSS_DAY_FALLBACK_PENALTY);
+          if (fallbackScore >= RELAXED_QUALITY_THRESHOLD) {
+            crossDayFallbackCandidates.push({
+              ...news,
+              ...scoring,
+              score: fallbackScore,
+              selectionMode: 'crossDayFallback',
+              crossDayReuseReason: yesterdayCheck?.reason || duplicateCheck.reason,
+              crossDayMatchedWith: yesterdayCheck?.matchedWith || duplicateCheck.matchedWith || '上一版新闻'
+            });
+            existingNews.push({
+              title: news.title,
+              url: news.url,
+              summary: news.summary
+            });
+          }
+        }
+      }
     } else {
       // 当天去重仍使用标题（确保当天不重复）
       const scoring = scoreNews(news, existingNews.map(n => n.title));
@@ -621,11 +650,23 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
   // 按分数排序
   scored.sort((a, b) => b.score - a.score);
   relaxedCandidates.sort((a, b) => b.score - a.score);
+  crossDayFallbackCandidates.sort((a, b) => b.score - a.score);
 
-  const candidatePool = scored.length >= targetCount ? scored : [...scored, ...relaxedCandidates].sort((a, b) => b.score - a.score);
+  const strictAndRelaxedPool = scored.length >= targetCount
+    ? [...scored]
+    : [...scored, ...relaxedCandidates].sort((a, b) => b.score - a.score);
+  let candidatePool = strictAndRelaxedPool;
+  let crossDayFallbackUsed = [];
   const relaxedUsedForSelection = scored.length < targetCount;
   if (relaxedUsedForSelection && relaxedCandidates.length > 0) {
     console.log(`\n🛟 候选补位: 严格阈值内仅 ${scored.length} 条，追加 ${relaxedCandidates.length} 条宽松候选 (阈值 ${RELAXED_QUALITY_THRESHOLD})`);
+  }
+  if (candidatePool.length < targetCount && crossDayFallbackCandidates.length > 0) {
+    const shortage = targetCount - candidatePool.length;
+    const fallbackCount = Math.min(shortage, crossDayFallbackCandidates.length, CROSS_DAY_FALLBACK_MAX);
+    crossDayFallbackUsed = crossDayFallbackCandidates.slice(0, fallbackCount);
+    candidatePool = [...candidatePool, ...crossDayFallbackUsed].sort((a, b) => b.score - a.score);
+    console.log(`\n🧩 跨版补位: 候选仍缺 ${shortage} 条，回补 ${crossDayFallbackUsed.length} 条上一版重复但仍具时效的候选`);
   }
   
   // 分离国内和海外
@@ -660,6 +701,9 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
   
   console.log('\n📊 质量评分统计:');
   console.log(`   严格候选: ${scored.length} 条, 宽松补位: ${relaxedCandidates.length} 条`);
+  if (crossDayFallbackCandidates.length > 0) {
+    console.log(`   跨版候补: ${crossDayFallbackCandidates.length} 条, 实际回补: ${crossDayFallbackUsed.length} 条`);
+  }
   console.log(`   最终候选: ${candidatePool.length} 条 (🇨🇳${domesticNews.length}/🇺🇸${overseasNews.length})`);
   console.log(`   入选: ${selected.length} 条 (🇨🇳${domesticCount}/🇺🇸${overseasCount})`);
   const categoryCount = selected.reduce((acc, item) => {
@@ -677,6 +721,8 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
     strictScoredCount: scored.length,
     relaxedCandidateCount: relaxedCandidates.length,
     relaxedUsedForSelection,
+    crossDayFallbackCandidateCount: crossDayFallbackCandidates.length,
+    crossDayFallbackUsedCount: crossDayFallbackUsed.length,
     weakSummaryCount,
     selectedCount: selected.length,
     duplicateCount: duplicates.length,

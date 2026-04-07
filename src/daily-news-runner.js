@@ -95,32 +95,66 @@ function buildEditionOutputName(prefix, date, edition, extension) {
   return `${prefix}-${date}-${edition}.${extension}`;
 }
 
-function filterAgainstPreviousEdition(items, previousNews) {
+export function filterAgainstPreviousEdition(items, previousNews, targetCount = Array.isArray(items) ? items.length : 0) {
   if (!Array.isArray(items) || items.length === 0 || !Array.isArray(previousNews) || previousNews.length === 0) {
     return {
       kept: items || [],
-      removed: []
+      removed: [],
+      restored: []
     };
   }
 
   const removed = [];
-  const kept = [];
+  const reusableRemoved = [];
+  const keptIndexes = new Set();
 
-  for (const item of items) {
+  for (const [index, item] of items.entries()) {
     const duplicateCheck = checkSemanticDuplicate(item, previousNews);
     if (duplicateCheck.isDuplicate) {
-      removed.push({
+      const removal = {
+        index,
+        item,
         title: item.title,
         source: item.source,
         reason: duplicateCheck.reason,
-        matchedWith: duplicateCheck.matchedWith || ''
-      });
+        matchedWith: duplicateCheck.matchedWith || '',
+        reusable: item.selectionMode === 'crossDayFallback'
+      };
+      removed.push(removal);
+      if (removal.reusable) {
+        reusableRemoved.push(removal);
+      }
     } else {
-      kept.push(item);
+      keptIndexes.add(index);
     }
   }
 
-  return { kept, removed };
+  const shortage = Math.max(0, targetCount - keptIndexes.size);
+  if (shortage > 0 && reusableRemoved.length > 0) {
+    for (const removal of reusableRemoved.slice(0, shortage)) {
+      keptIndexes.add(removal.index);
+    }
+  }
+
+  const kept = items.filter((_, index) => keptIndexes.has(index));
+  const restored = reusableRemoved
+    .filter(removal => keptIndexes.has(removal.index))
+    .map(removal => ({
+      title: removal.title,
+      source: removal.source,
+      reason: removal.reason,
+      matchedWith: removal.matchedWith
+    }));
+  const finalRemoved = removed
+    .filter(removal => !keptIndexes.has(removal.index))
+    .map(removal => ({
+      title: removal.title,
+      source: removal.source,
+      reason: removal.reason,
+      matchedWith: removal.matchedWith
+    }));
+
+  return { kept, removed: finalRemoved, restored };
 }
 
 function filterFinalIntegrity(items) {
@@ -318,9 +352,12 @@ export async function runDailyNews(options = {}) {
       summary: normalizeDisplaySummary(item.summary)
     })
   }));
-  const previousEditionFiltered = filterAgainstPreviousEdition(normalizedRefinedNews, previousEditionNews);
+  const previousEditionFiltered = filterAgainstPreviousEdition(normalizedRefinedNews, previousEditionNews, targetCount);
   if (previousEditionFiltered.removed.length > 0) {
     console.log(`\n🧱 跨版次去重: 额外过滤 ${previousEditionFiltered.removed.length} 条与上一版重复的候选`);
+  }
+  if (previousEditionFiltered.restored.length > 0) {
+    console.log(`\n🪜 跨版回补: 在版面不足时恢复 ${previousEditionFiltered.restored.length} 条上一版重复候选`);
   }
   const integrityFiltered = filterFinalIntegrity(previousEditionFiltered.kept);
   if (integrityFiltered.removed.length > 0) {
@@ -423,6 +460,7 @@ export async function runDailyNews(options = {}) {
       display: {
         refinedCount: refinedNews.length,
         previousEditionRemovedCount: previousEditionFiltered.removed.length,
+        previousEditionRestoredCount: previousEditionFiltered.restored.length,
         integrityRemovedCount: integrityFiltered.removed.length,
         postEditionFilterCount: filteredRefinedNews.length,
         displayReadyCount: displayReadyNews.length,
