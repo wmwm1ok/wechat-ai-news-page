@@ -97,7 +97,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🤖 AI 每日快报</h1>
+            <h1>🤖 AI资讯每日精选</h1>
             <div class="date" id="current-date"></div>
         </div>
         
@@ -167,7 +167,7 @@
             
             // 创建临时 textarea 来复制
             const textarea = document.createElement('textarea');
-            textarea.value = `AI 每日快报｜${new Date().toLocaleDateString('zh-CN')}\n\n${content}`;
+            textarea.value = `AI资讯每日精选-${new Date().toLocaleDateString('zh-CN')}\n\n${content}`;
             textarea.style.position = 'fixed';
             textarea.style.opacity = '0';
             document.body.appendChild(textarea);

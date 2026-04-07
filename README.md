@@ -1,4 +1,4 @@
-# AI 新闻抓取与微信公众号助手发布页
+# AI资讯每日精选 - 微信公众号助手发布页
 
 从多个信息源抓取 AI 新闻，使用 DeepSeek 做摘要与分类，生成一份适合粘贴到微信公众号助手的 HTML 内容页。
 
@@ -65,10 +65,10 @@ npm start
 
 生成后会输出：
 
-- `output/news-YYYY-MM-DD.json`
+- `output/news-YYYY-MM-DD-daily.json`
 - `output/latest.json`
-- `output/newsletter-YYYY-MM-DD.html`
-- `output/wechat-YYYY-MM-DD.html`
+- `output/newsletter-YYYY-MM-DD-daily.html`
+- `output/wechat-YYYY-MM-DD-daily.html`
 - 根目录 `latest.json`
 
 ### 4. 本地查看和复制
@@ -89,10 +89,10 @@ npm start
 
 作用：
 
-- 每天定时运行两次
+- 每天北京时间 15:00 定时运行一次
 - 执行 `npm start`
 - 上传 `output/` 产物
-- 提交最新 JSON 回仓库，供跨天去重和页面读取
+- 提交最新 JSON 回仓库，供前一天去重和页面读取
 
 ### `Deploy static content to Pages`
 

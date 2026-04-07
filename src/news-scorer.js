@@ -577,7 +577,7 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
               score: fallbackScore,
               selectionMode: 'crossDayFallback',
               crossDayReuseReason: yesterdayCheck?.reason || duplicateCheck.reason,
-              crossDayMatchedWith: yesterdayCheck?.matchedWith || duplicateCheck.matchedWith || '上一版新闻'
+              crossDayMatchedWith: yesterdayCheck?.matchedWith || duplicateCheck.matchedWith || '前一天新闻'
             });
             existingNews.push({
               title: news.title,
@@ -666,7 +666,7 @@ export function selectTopNews(newsList, targetCount = 14, previousNews = []) {
     const fallbackCount = Math.min(shortage, crossDayFallbackCandidates.length, CROSS_DAY_FALLBACK_MAX);
     crossDayFallbackUsed = crossDayFallbackCandidates.slice(0, fallbackCount);
     candidatePool = [...candidatePool, ...crossDayFallbackUsed].sort((a, b) => b.score - a.score);
-    console.log(`\n🧩 跨版补位: 候选仍缺 ${shortage} 条，回补 ${crossDayFallbackUsed.length} 条上一版重复但仍具时效的候选`);
+    console.log(`\n🧩 前一天补位: 候选仍缺 ${shortage} 条，回补 ${crossDayFallbackUsed.length} 条前一天重复但仍具时效的候选`);
   }
   
   // 分离国内和海外

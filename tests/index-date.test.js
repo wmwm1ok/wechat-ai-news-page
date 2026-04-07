@@ -40,21 +40,18 @@ describe('Index date handling', () => {
     expect(runnerSource).toInclude('generatedAt');
   });
 
-  it('maps Beijing time to morning and afternoon editions', () => {
-    expect(inferNewsEdition(new Date('2026-03-18T03:59:00Z'))).toBe('morning');
-    expect(inferNewsEdition(new Date('2026-03-18T04:00:00Z'))).toBe('afternoon');
-    expect(getEditionMeta('afternoon').label).toBe('午后版');
-    expect(getEditionMeta('afternoon').title).toBe('AI 日报·午后版');
+  it('defaults to a single daily edition', () => {
+    expect(inferNewsEdition(new Date('2026-03-18T03:59:00Z'))).toBe('daily');
+    expect(inferNewsEdition(new Date('2026-03-18T04:00:00Z'))).toBe('daily');
+    expect(getEditionMeta('daily').label).toBe('每日精选');
+    expect(getEditionMeta('daily').title).toBe('AI资讯每日精选');
   });
 
-  it('uses the immediately previous edition for dedupe lookups', () => {
-    const morningPrevious = getPreviousEditionInfo(new Date('2026-03-18T00:00:00Z'), 'morning');
-    const afternoonPrevious = getPreviousEditionInfo(new Date('2026-03-18T08:00:00Z'), 'afternoon');
+  it('only looks back one day for dedupe', () => {
+    const previousDaily = getPreviousEditionInfo(new Date('2026-03-18T08:00:00Z'), 'daily');
 
-    expect(morningPrevious.edition).toBe('afternoon');
-    expect(morningPrevious.dateString).toBe('2026-03-17');
-    expect(afternoonPrevious.edition).toBe('morning');
-    expect(afternoonPrevious.dateString).toBe('2026-03-18');
+    expect(previousDaily.edition).toBe('daily');
+    expect(previousDaily.dateString).toBe('2026-03-17');
   });
 
   it('stores edition-specific history filenames in the runner', () => {

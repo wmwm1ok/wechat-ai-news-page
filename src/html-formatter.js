@@ -127,9 +127,9 @@ function renderContent(groupedNews) {
  */
 export function generateHTML(groupedNews, options = {}) {
   const date = formatDate(new Date());
-  const title = options.title || `AI 每日快报（${date}）`;
+  const title = options.title || `AI资讯每日精选-${date}`;
   const subtitle = options.subtitle || '今日精选 AI 资讯';
-  const footerText = options.footerText || `AI 每日快报 · ${date}`;
+  const footerText = options.footerText || `AI资讯每日精选-${date}`;
   
   const content = renderContent(groupedNews);
   const coveredSections = SECTION_ORDER
@@ -182,9 +182,9 @@ export function generateHTML(groupedNews, options = {}) {
  */
 export function generateWechatHTML(groupedNews, options = {}) {
   const date = formatDate(new Date());
-  const title = options.title || `AI 每日快报（${date}）`;
+  const title = options.title || `AI资讯每日精选-${date}`;
   const subtitle = options.subtitle || '今日精选 AI 行业资讯';
-  const footerText = options.footerText || `AI 每日快报 · ${date}`;
+  const footerText = options.footerText || `AI资讯每日精选-${date}`;
   
   let content = '';
   

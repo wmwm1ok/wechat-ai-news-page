@@ -58,15 +58,33 @@ function flattenNewsItems(data) {
 
 async function loadPreviousEditionNews(baseDir, referenceDate = new Date(), edition = 'morning') {
   const primaryPrevious = getPreviousEditionInfo(referenceDate, edition);
-  const fallbackDate = primaryPrevious.edition === 'afternoon'
-    ? getPreviousEditionInfo(primaryPrevious.date, 'morning')
-    : primaryPrevious;
-  const candidateFiles = [
-    path.join(baseDir, 'output', `news-${primaryPrevious.dateString}-${primaryPrevious.edition}.json`),
-    path.join(baseDir, 'output', `news-${primaryPrevious.dateString}.json`),
-    path.join(baseDir, 'output', `news-${fallbackDate.dateString}-${fallbackDate.edition}.json`),
-    path.join(baseDir, 'output', `news-${fallbackDate.dateString}.json`)
-  ];
+  const candidateFiles = [];
+  const seenFiles = new Set();
+  const addCandidate = (dateString, editionSlug) => {
+    const editionPath = path.join(baseDir, 'output', `news-${dateString}-${editionSlug}.json`);
+    const legacyPath = path.join(baseDir, 'output', `news-${dateString}.json`);
+    if (!seenFiles.has(editionPath)) {
+      candidateFiles.push(editionPath);
+      seenFiles.add(editionPath);
+    }
+    if (!seenFiles.has(legacyPath)) {
+      candidateFiles.push(legacyPath);
+      seenFiles.add(legacyPath);
+    }
+  };
+
+  addCandidate(primaryPrevious.dateString, primaryPrevious.edition);
+
+  if (primaryPrevious.edition === 'daily') {
+    addCandidate(primaryPrevious.dateString, 'afternoon');
+    addCandidate(primaryPrevious.dateString, 'morning');
+  } else if (primaryPrevious.edition === 'afternoon') {
+    addCandidate(primaryPrevious.dateString, 'daily');
+    const fallbackDate = getPreviousEditionInfo(primaryPrevious.date, 'morning');
+    addCandidate(fallbackDate.dateString, fallbackDate.edition);
+  } else if (primaryPrevious.edition === 'morning') {
+    addCandidate(primaryPrevious.dateString, 'daily');
+  }
 
   for (const filepath of candidateFiles) {
     try {
@@ -74,7 +92,7 @@ async function loadPreviousEditionNews(baseDir, referenceDate = new Date(), edit
       const data = JSON.parse(content);
       const news = flattenNewsItems(data);
       const filename = path.basename(filepath);
-      console.log(`📅 加载上一版新闻: ${news.length} 条（${filename}）`);
+      console.log(`📅 加载前一天新闻: ${news.length} 条（${filename}）`);
       return {
         news,
         sourceFile: filename
@@ -84,7 +102,7 @@ async function loadPreviousEditionNews(baseDir, referenceDate = new Date(), edit
     }
   }
 
-  console.log('⚠️  未找到上一版新闻文件，跨版次去重功能未生效');
+  console.log('⚠️  未找到前一天新闻文件，前一天去重功能未生效');
   return {
     news: [],
     sourceFile: ''
@@ -354,10 +372,10 @@ export async function runDailyNews(options = {}) {
   }));
   const previousEditionFiltered = filterAgainstPreviousEdition(normalizedRefinedNews, previousEditionNews, targetCount);
   if (previousEditionFiltered.removed.length > 0) {
-    console.log(`\n🧱 跨版次去重: 额外过滤 ${previousEditionFiltered.removed.length} 条与上一版重复的候选`);
+    console.log(`\n🧱 前一天去重: 额外过滤 ${previousEditionFiltered.removed.length} 条与前一天重复的候选`);
   }
   if (previousEditionFiltered.restored.length > 0) {
-    console.log(`\n🪜 跨版回补: 在版面不足时恢复 ${previousEditionFiltered.restored.length} 条上一版重复候选`);
+    console.log(`\n🪜 前一天回补: 在版面不足时恢复 ${previousEditionFiltered.restored.length} 条前一天重复候选`);
   }
   const integrityFiltered = filterFinalIntegrity(previousEditionFiltered.kept);
   if (integrityFiltered.removed.length > 0) {
@@ -417,8 +435,12 @@ export async function runDailyNews(options = {}) {
   const grouped = normalizeCategories(topNews);
   const date = getBeijingDateString(now);
   const displayDate = getBeijingDisplayDate(now);
-  const displayTitle = `${editionMeta.title}（${editionMeta.englishLabel}）`;
-  const subtitle = `${displayDate} · 北京时间 ${editionMeta.releaseTime} 版`;
+  const displayTitle = edition === 'daily'
+    ? `${editionMeta.title}-${displayDate}`
+    : (editionMeta.englishLabel ? `${editionMeta.title}（${editionMeta.englishLabel}）` : editionMeta.title);
+  const subtitle = edition === 'daily'
+    ? `${displayDate} · 北京时间 ${editionMeta.releaseTime} 更新`
+    : `${displayDate} · 北京时间 ${editionMeta.releaseTime} 版`;
   const footerText = `${displayTitle} · ${displayDate}`;
   const html = generateHTML(grouped, { title: displayTitle, subtitle, footerText });
   const wechatHtml = generateWechatHTML(grouped, { title: displayTitle, subtitle, footerText });
@@ -435,6 +457,7 @@ export async function runDailyNews(options = {}) {
     count: topNews.length,
     targetCount,
     diagnostics: {
+      previousDayFile: previousEditionData.sourceFile || '',
       previousEditionFile: previousEditionData.sourceFile || '',
       targetCount,
       candidateTargetCount,

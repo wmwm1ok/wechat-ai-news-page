@@ -1,15 +1,24 @@
+export const BRAND_NAME = 'AI资讯每日精选';
+
 export const NEWS_EDITIONS = {
+  daily: {
+    slug: 'daily',
+    label: '每日精选',
+    title: BRAND_NAME,
+    englishLabel: '',
+    releaseTime: '15:00'
+  },
   morning: {
     slug: 'morning',
     label: '早报',
-    title: 'AI 日报·早报',
+    title: `${BRAND_NAME}·早报`,
     englishLabel: 'Morning',
     releaseTime: '08:00'
   },
   afternoon: {
     slug: 'afternoon',
     label: '午后版',
-    title: 'AI 日报·午后版',
+    title: `${BRAND_NAME}·午后版`,
     englishLabel: 'Afternoon',
     releaseTime: '16:00'
   }
@@ -75,8 +84,7 @@ export function getBeijingDisplayDateTime(date = new Date()) {
 }
 
 export function inferNewsEdition(date = new Date()) {
-  const hour = Number(getBeijingDateTimeParts(date).hour);
-  return hour < 12 ? 'morning' : 'afternoon';
+  return 'daily';
 }
 
 export function normalizeNewsEdition(edition, referenceDate = new Date()) {
@@ -98,6 +106,15 @@ export function shiftDateByDays(date = new Date(), offsetDays = 0) {
 
 export function getPreviousEditionInfo(date = new Date(), edition) {
   const normalizedEdition = normalizeNewsEdition(edition, date);
+
+  if (normalizedEdition === 'daily') {
+    const previousDate = shiftDateByDays(date, -1);
+    return {
+      edition: 'daily',
+      date: previousDate,
+      dateString: getBeijingDateString(previousDate)
+    };
+  }
 
   if (normalizedEdition === 'afternoon') {
     return {
