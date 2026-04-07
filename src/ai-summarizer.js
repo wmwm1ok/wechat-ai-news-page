@@ -555,6 +555,10 @@ export function isReserveDisplayNews(item) {
     return false;
   }
 
+  if (!isReaderFriendlySummary(normalized)) {
+    return false;
+  }
+
   const sourceContext = `${item.title || ''} ${item.snippet || ''}`.trim();
   const entityCount = countKnownEntities(`${item.title || ''} ${normalized}`);
   const { numberCount, actionCount, productCount } = countConcreteSignals(normalized);
@@ -699,6 +703,51 @@ function getSelectedRefineLimit(totalItems) {
   }
 
   return isCfcFastMode() ? Math.min(6, totalItems) : totalItems;
+}
+
+function evaluateSummaryCandidate(item, summary, sourceText, options = {}) {
+  const normalized = normalizeDisplaySummary(summary);
+  if (!normalized || normalized === '暂无摘要') {
+    return {
+      normalized,
+      score: -1
+    };
+  }
+
+  const articleMode = options.articleMode || detectArticleMode(item);
+  const comparisonMode = options.comparisonMode === true || articleMode === 'comparison';
+  const friendly = isReaderFriendlySummary(normalized);
+  const complete = isSummaryComplete(normalized);
+  const specific = isSpecificEnoughSummary(normalized, sourceText, { comparisonMode, articleMode });
+  const reserve = isReserveDisplayNews({ ...item, summary: normalized });
+  const concrete = countConcreteSignals(normalized);
+  const signalScore = concrete.numberCount + concrete.actionCount + concrete.productCount;
+
+  return {
+    normalized,
+    score: (friendly ? 3 : 0) + (complete ? 2 : 0) + (specific ? 3 : 0) + (reserve ? 1 : 0) + Math.min(signalScore, 3)
+  };
+}
+
+export function choosePreferredSummary(item, originalSummary, candidateSummary, sourceText, options = {}) {
+  const articleMode = options.articleMode || detectArticleMode(item);
+  const comparisonMode = options.comparisonMode === true || articleMode === 'comparison';
+  const originalEval = evaluateSummaryCandidate(item, originalSummary, sourceText, { comparisonMode, articleMode });
+  const candidateEval = evaluateSummaryCandidate(item, candidateSummary, sourceText, { comparisonMode, articleMode });
+
+  if (candidateEval.score > originalEval.score) {
+    return candidateEval.normalized;
+  }
+
+  if (originalEval.score >= 0) {
+    return originalEval.normalized;
+  }
+
+  if (candidateEval.score >= 0) {
+    return candidateEval.normalized;
+  }
+
+  return buildFallbackSummary(item, sourceText, { comparisonMode, articleMode });
 }
 
 async function getSummarySourceContent(item, options = {}) {
@@ -873,22 +922,23 @@ ${String(content || item.snippet || '').substring(0, 2200)}
     const response = await callDeepSeek(prompt);
     const parsed = JSON.parse(response);
     const refinedSummary = normalizeDisplaySummary(parsed.summary);
-
-    if (!isSpecificEnoughSummary(refinedSummary, content, { comparisonMode, articleMode })) {
-      return {
-        ...item,
-        summary: buildFallbackSummary(item, content, { comparisonMode, articleMode })
-      };
-    }
+    const preferredSummary = choosePreferredSummary(item, item.summary, refinedSummary, content, { comparisonMode, articleMode });
 
     return {
       ...item,
-      summary: refinedSummary
+      summary: preferredSummary
     };
   } catch (error) {
+    const preferredSummary = choosePreferredSummary(
+      item,
+      item.summary,
+      buildFallbackSummary(item, content, { comparisonMode, articleMode }),
+      content,
+      { comparisonMode, articleMode }
+    );
     return {
       ...item,
-      summary: buildFallbackSummary(item, content, { comparisonMode, articleMode })
+      summary: preferredSummary
     };
   }
 }

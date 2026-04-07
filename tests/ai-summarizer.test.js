@@ -1,4 +1,4 @@
-import { detectArticleMode, extractMainTextFromHtml, isComparisonArticle, isDisplayReadyNews, isLastChanceDisplayNews, isReaderFriendlySummary, isReserveDisplayNews, isSpecificEnoughSummary, normalizeDisplaySummary } from '../src/ai-summarizer.js';
+import { choosePreferredSummary, detectArticleMode, extractMainTextFromHtml, isComparisonArticle, isDisplayReadyNews, isLastChanceDisplayNews, isReaderFriendlySummary, isReserveDisplayNews, isSpecificEnoughSummary, normalizeDisplaySummary } from '../src/ai-summarizer.js';
 
 function describe(name, fn) {
   console.log(`\n📦 ${name}`);
@@ -182,6 +182,29 @@ describe('AI summarizer helpers', () => {
     });
 
     expect(result).toBe(false);
+  });
+
+  it('rejects reserve candidates polluted by story fallback text', () => {
+    const result = isReserveDisplayNews({
+      title: '荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作',
+      summary: '荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作讲的是个人或团队围绕 AI 工具展开实践，公开片段显示主角借助相关工具承接任务或尝试创业。'
+    });
+
+    expect(result).toBe(false);
+  });
+
+  it('prefers the original summary when refinement introduces polluted fallback text', () => {
+    const preferred = choosePreferredSummary(
+      {
+        title: '荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作',
+        summary: '荣耀与京东签订战略合作协议，双方将围绕 AI、机器人和 C2M 共创场景推进供应链、渠道和产品层面的合作。'
+      },
+      '荣耀与京东签订战略合作协议，双方将围绕 AI、机器人和 C2M 共创场景推进供应链、渠道和产品层面的合作。',
+      '荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作讲的是个人或团队围绕 AI 工具展开实践，公开片段显示主角借助相关工具承接任务或尝试创业。',
+      '荣耀与京东签订战略合作协议，双方将围绕 AI、机器人和 C2M 共创场景推进供应链、渠道和产品层面的合作。'
+    );
+
+    expect(preferred).toBe('荣耀与京东签订战略合作协议，双方将围绕 AI、机器人和 C2M 共创场景推进供应链、渠道和产品层面的合作。');
   });
 
   it('keeps concise but readable Chinese summaries as last-chance candidates', () => {
