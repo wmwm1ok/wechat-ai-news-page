@@ -3,8 +3,8 @@
   "edition": "daily",
   "editionLabel": "每日精选",
   "title": "AI资讯每日精选-2026/4/7",
-  "generatedAt": "2026/4/7 10:55",
-  "count": 12,
+  "generatedAt": "2026/4/7 11:05",
+  "count": 14,
   "targetCount": 14,
   "diagnostics": {
     "previousDayFile": "news-2026-04-06-afternoon.json",
@@ -100,20 +100,20 @@
     "scoring": {
       "totalInput": 26,
       "totalScored": 17,
-      "strictScoredCount": 13,
-      "relaxedCandidateCount": 1,
+      "strictScoredCount": 11,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 5,
+      "weakSummaryCount": 6,
       "selectedCandidateCount": 17,
-      "duplicateCount": 4,
-      "crossDayDuplicateCount": 4,
+      "duplicateCount": 5,
+      "crossDayDuplicateCount": 5,
       "lowQualityCount": 1,
       "domesticAvailable": 12,
       "overseasAvailable": 5,
       "sourceCount": {
-        "InfoQ": 3,
         "36氪": 4,
-        "量子位": 4,
+        "InfoQ": 4,
+        "量子位": 3,
         "雷锋网": 1,
         "TechCrunch AI": 2,
         "The Verge AI": 1,
@@ -125,18 +125,48 @@
       "refinedCount": 17,
       "previousEditionRemovedCount": 3,
       "previousEditionRestoredCount": 1,
-      "previousEditionLateRestoredCount": 2,
-      "integrityRemovedCount": 4,
-      "postEditionFilterCount": 12,
-      "displayReadyCount": 9,
-      "fallbackDisplayCount": 2,
-      "reserveDisplayCount": 1,
+      "previousEditionLateRestoredCount": 3,
+      "integrityRemovedCount": 3,
+      "postEditionFilterCount": 14,
+      "displayReadyCount": 10,
+      "fallbackDisplayCount": 4,
+      "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 3,
-      "shortage": 2
+      "removedWeakSummaries": 4,
+      "shortage": 0
     }
   },
   "articles": [
+    {
+      "section": "技术与研究",
+      "title": "OpenAI新模型并非GPTX，全新预训练模型“土豆”曝光，Sora成弃子原因揭示",
+      "company": "OpenAI",
+      "url": "https://www.qbitai.com/2026/04/396535.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 05 Apr 2026 09:06:59 +0000",
+      "summary": "OpenAI正在多个维度推进技术进步，例如从5.2到5.3版本，AI已能完成底层系统工程任务，包括设计方案、实现、性能分析和持续优化。未来几个月将分步推进，起点是Codex应用，它既是通用智能体框架，能调用各种工具并擅长写软件，也可接入电子表格和Word文档以辅助知识工作。",
+      "score": 31
+    },
+    {
+      "section": "投融资与并购",
+      "title": "OpenAI高层变动引发内讧猜测，IPO前夜面临巨额算力支出压力",
+      "company": "OpenAI",
+      "url": "https://www.qbitai.com/2026/04/396704.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 06 Apr 2026 05:23:28 +0000",
+      "summary": "OpenAI在IPO前夕出现高层人事变动，一位曾在Meta工作十年并负责Facebook App、后担任Instacart CEO的高管离职。公司已与甲骨文、微软及亚马逊签署了总额约6650亿美元、有效期至2030年的长期服务器租赁协议，这些支出主要用于算力。",
+      "score": 27
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "谷歌悄然推出可离线运行的AI听写应用",
+      "company": "Google",
+      "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 06 Apr 2026 18:54:33 +0000",
+      "summary": "谷歌新推出了一款优先离线运行的听写应用。该应用采用了Gemma AI模型，旨在与Wispr Flow等同类应用竞争。",
+      "score": 26
+    },
     {
       "section": "技术与研究",
       "title": "机器人黑客松揭示具身智能差距与机遇",
@@ -144,37 +174,7 @@
       "url": "https://www.infoq.cn/article/0T9Kw9O0obj0wV2NizC7?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Tue, 07 Apr 2026 10:30:32 GMT",
-      "summary": "自变量公司CTO王昊指出，公司核心是持续迭代基模，反对为快速落地而堆砌针对性模型和工程补丁，认为这会损害基模长期发展。他强调，具身智能需融合语言宏观意图与视频模型像素级细节，以处理厘米级空间和秒级时间的连续动作变化，避免过去训练中牺牲视觉能力的误区。",
-      "score": 32
-    },
-    {
-      "section": "技术与研究",
-      "title": "Ilya曝光70页OpenAI绝密文件",
-      "company": "OpenAI",
-      "url": "https://www.qbitai.com/2026/04/396880.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 07 Apr 2026 02:15:57 +0000",
-      "summary": "OpenAI联合创始人Ilya Sutskever泄露了一份70页的内部文件，内容包含Slack聊天记录和内部文件。他通过避开公司设备、用手机拍摄关键内容，并使用会自动消失的消息发送给董事会的方式完成泄露，此事被内部员工称为“The Blip”。",
-      "score": 31
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "谷歌悄然推出可离线使用的AI听写应用",
-      "company": "Google",
-      "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Mon, 06 Apr 2026 18:54:33 +0000",
-      "summary": "谷歌在iOS平台推出名为“AI Edge Eloquent”的AI听写应用，主打离线优先，核心功能是智能过滤口语中的“嗯”、“啊”等填充词和自我修正，输出干净文本。应用可设置为安卓默认键盘实现全局调用，并支持从Gmail导入专有名词。",
-      "score": 26
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI新模型并非GPTX，全新预训练“土豆”曝光，Sora成弃子原因揭示",
-      "company": "OpenAI",
-      "url": "https://www.qbitai.com/2026/04/396535.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 05 Apr 2026 09:06:59 +0000",
-      "summary": "OpenAI正从多个维度持续提升AI能力，而非从零开始。例如，其Codex应用已作为通用智能体框架在内部被员工自发用于处理电子表格、文档等知识工作，未来将分步优化以更友好地支持此类任务。",
+      "summary": "自变量公司CTO王昊在交流中表示，公司核心方向是保持基模持续迭代，并强调应避免为追求垂直场景快速落地而堆砌针对性模型和工程补丁，认为这长期会损害基模提升。他指出过去训练中存在模态数据分别训练再对齐的误区，这种方式可能牺牲视觉能力，而具身智能需要融合语言宏观意图与视频模型像素级细节。",
       "score": 25
     },
     {
@@ -184,17 +184,17 @@
       "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 06 Apr 2026 15:55:55 +0000",
-      "summary": "OpenAI发布一系列应对AI经济影响的政策建议，具体包括：1. 提议向AI利润征税并设立公共财富基金，以应对失业和不平等问题；2. 建议企业承担更多社会责任，如补贴四天工作制、提高医保和退休金比例，但未直接覆盖最可能被AI取代的岗位。",
+      "summary": "OpenAI提出多项应对AI经济影响的政策建议，具体包括：1. 建议企业承担更多社会责任，如补贴四天工作周、提高退休金匹配和分担更多医疗费用，以改善员工福利；2. 提议对AI利润或机器人征税，并将税收用于建立公共财富基金，以缓解失业和不平等问题。",
       "score": 24
     },
     {
       "section": "政策与监管",
-      "title": "伊朗威胁将攻击OpenAI在阿布扎比的Stargate数据中心",
+      "title": "伊朗威胁OpenAI在阿布扎比的Stargate数据中心",
       "company": "OpenAI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
       "source": "The Verge AI",
       "publishedAt": "2026-04-06T15:54:19.000Z",
-      "summary": "伊朗伊斯兰革命卫队于4月3日发布视频，明确威胁若美国攻击伊朗发电厂，将摧毁该地区与美国相关的能源和科技公司。视频中特别展示了OpenAI计划在阿联酋建造的、价值300亿美元的Stargate数据中心图片，该数据中心是OpenAI总投资500亿美元项目的一部分，并已获得甲骨文、英伟达等公司投资。",
+      "summary": "伊朗伊斯兰革命卫队发布视频，威胁如果美国实施攻击伊朗发电厂的计划，将摧毁OpenAI计划在阿布扎比建设的价值300亿美元的数据中心。该视频于4月3日发布在伊朗官方支持的新闻媒体X账户上，展示了OpenAI数据中心的效果图。",
       "score": 24
     },
     {
@@ -204,7 +204,7 @@
       "url": "https://techxplore.com/news/2026-04-older-adults-ai.html",
       "source": "Tech Xplore",
       "publishedAt": "Mon, 06 Apr 2026 11:20:03 EDT",
-      "summary": "AI Caring的一项研究聚焦于老年人对可解释人工智能的期望。研究发现，语音激活的对话式AI助手必须为其建议提供清晰的解释，这是获得老年人信任的关键。该研究具体探讨了老年人对AI解释性的需求，旨在解决老年人因不理解AI决策逻辑而可能产生不信任的问题，从而提升AI助老服务的接受度。",
+      "summary": "AI Caring的一项研究发现，语音激活的对话式人工智能助手必须为其建议提供清晰的解释，否则老年人不太可能信任它们。这项研究主要探讨了老年人对可解释人工智能的期望。",
       "score": 18
     },
     {
@@ -214,27 +214,47 @@
       "url": "https://www.qbitai.com/2026/04/396694.html",
       "source": "量子位",
       "publishedAt": "Mon, 06 Apr 2026 05:17:06 +0000",
-      "summary": "GEN-1机器人系统通过低成本穿戴设备捕捉数百万项人类活动记录进行训练，而非依赖昂贵的遥操作数据。其核心技术包括：采用Paged Attention技术高效调度计算资源，实现毫秒级动作指令响应；运用Harmonic Reasoning系统进行多路径推理，改变以往单一路径预测的死板模式。",
+      "summary": "一款新型机器人展现出类人灵活性，能在遇到未预见的障碍时自主尝试新方法，例如晃动袋子放入物品。其核心技术包括：1) Paged Attention系统，通过高效调度计算资源实现毫秒级动作指令发射，使AI反应速度匹配物理世界节奏。",
+      "score": 30
+    },
+    {
+      "section": "技术与研究",
+      "title": "有道龙虾LobsterAI的养成与实践｜QCon北京技术分享",
+      "company": "有道",
+      "url": "https://www.infoq.cn/article/yS2ckf9u8eUVflGIjdcF?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 06 Apr 2026 10:00:00 GMT",
+      "summary": "网易有道智能硬件事业部技术专家刘刚在QCon北京大会上分享了有道龙虾LobsterAI的研发与实践经验。刘刚负责有道智能硬件业务服务端技术研发与管理，参与完成了词典笔、答疑笔、听力宝等硬件研发，并落地了小P老师、视频答疑、错题本等多款AI教育产品。",
       "score": 26
     },
     {
       "section": "技术与研究",
-      "title": "AI时代的架构治理：可执行架构清单与声明式方法",
+      "title": "AI时代的架构治理：声明式架构与自动化实践",
       "company": "",
       "url": "https://www.infoq.cn/article/VFRyL5oDK269xIcp8SDi?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Mon, 06 Apr 2026 10:00:00 GMT",
-      "summary": "文章提出了一种用机器可读的声明式文件（如architecture.md）和自动化工具链来治理AI时代软件架构的方法，以解决传统人工治理模式效率低下、难以跟上AI开发速度的问题。该方法具体包括：1. 将架构规则（如服务间必须用Kafka异步通信、API需先定义OpenAPI规范）写入可执行清单。",
+      "summary": "本文探讨了在AI时代如何通过声明式架构和自动化工具进行有效的架构治理。文章指出，传统依赖人工流程和中心化权威决策的治理模式，在生成式AI加速开发速度的背景下，难以快速识别架构偏差，导致效率与一致性难以兼顾。",
       "score": 17
     },
     {
+      "section": "投融资与并购",
+      "title": "赛富乐斯完成3亿元C轮融资，加速全彩AR微显示屏量产交付",
+      "company": "赛富乐斯",
+      "url": "https://36kr.com/p/3756111263384071?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-07 09:57:48  +0800",
+      "summary": "AR显示技术企业赛富乐斯近日完成3亿元C轮融资，资金将用于加速其全彩AR微显示屏的量产交付。公司基于自研的NPQD等全链条技术，其首条6英寸硅基Micro-LED产线已实现量产，并正推动12英寸产线建设。",
+      "score": 38
+    },
+    {
       "section": "产品发布与更新",
-      "title": "众筹近300万美元的Tiiny AI Pocket Lab：本地运行大模型的Agent Box",
+      "title": "众筹近300万美元的Tiiny AI Pocket Lab：本地运行大模型的Agent盒子",
       "company": "Tiiny AI",
       "url": "https://36kr.com/p/3754812277998083?f=rss",
       "source": "36氪",
       "publishedAt": "2026-04-06 11:53:43  +0800",
-      "summary": "PowerInfer是用于端侧的异构算力推理加速技术，Tiiny AI团队通过大量的数据测算和语料训练发现，大模型推理过程中，参数激活模式分为两类：“热激活参数”（每次与模型交互都会调用的核心参数，约占20%）和“冷激活参数”（仅在用户问到医学、法律等特定领域问题时激活，约占80%）。",
+      "summary": "Tiiny AI推出的首款产品Tiiny AI Pocket Lab是一款AI专用硬件设备，在Kickstarter上已众筹近300万美元。其核心是解决本地运行大模型成本高昂和隐私问题：1. 作为独立外接设备，支持本地部署最高120B参数的大模型，实现7x24小时后台运行。",
       "score": 36
     },
     {
@@ -244,18 +264,18 @@
       "url": "https://www.leiphone.com/category/zaobao/OSd4ovZLTC2e5W4M.html",
       "source": "雷锋网",
       "publishedAt": "Tue, 07 Apr 2026 08:30:00 +0800",
-      "summary": "3月31日，人形机器人第一股优必选发布2025年全年业绩报告。2025年，优必选总营收达到20.01亿元，同比增长53.3%。优必选2025年毛利为7.538亿，相比2024年的3.74亿元增长101.6%；毛利率为37.7%，相比2024年的28.7%提升了九个百分点。",
+      "summary": "人形机器人公司优必选发布2025年全年业绩报告，总营收达到20.01亿元，同比增长53.3%。公司毛利为7.538亿元，同比增长101.6%，毛利率提升至37.7%。2025年净亏损为7.89亿元，相比2024年的11.59亿元降低了32.0%。",
       "score": 26
     },
     {
-      "section": "技术与研究",
-      "title": "荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作",
-      "company": "荣耀,京东",
-      "url": "https://36kr.com/p/3755161993675523?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-06 17:48:30  +0800",
-      "summary": "荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作讲的是个人或团队围绕 AI 工具展开实践，公开片段显示主角借助相关工具承接任务或尝试创业。",
-      "score": 23
+      "section": "政策与监管",
+      "title": "一份可能揭示你工作与AI关系的关键数据",
+      "company": "Anthropic",
+      "url": "https://www.technologyreview.com/2026/04/06/1135187/the-one-piece-of-data-that-could-actually-shed-light-on-your-job-and-ai/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 06 Apr 2026 16:33:35 +0000",
+      "summary": "研究人员利用美国政府自1998年起维护的职业任务数据库，评估了AI对具体工作的影响。例如，他们发现房地产经纪人28%的工作任务可能被AI替代。Anthropic公司进一步分析了数百万次用户与AI的对话，以了解人们实际用AI完成了哪些任务。",
+      "score": 21
     }
   ]
 }

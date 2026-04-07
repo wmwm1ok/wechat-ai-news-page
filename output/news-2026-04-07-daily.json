@@ -1,13 +1,13 @@
 {
   "产品发布与更新": [
     {
-      "title": "谷歌悄然推出可离线使用的AI听写应用",
+      "title": "谷歌悄然推出可离线运行的AI听写应用",
       "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
       "snippet": "Google's new offline-first dictation app uses Gemma AI models to take on the apps like Wispr Flow.",
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 06 Apr 2026 18:54:33 +0000",
       "region": "海外",
-      "summary": "谷歌在iOS平台推出名为“AI Edge Eloquent”的AI听写应用，主打离线优先，核心功能是智能过滤口语中的“嗯”、“啊”等填充词和自我修正，输出干净文本。应用可设置为安卓默认键盘实现全局调用，并支持从Gmail导入专有名词。",
+      "summary": "谷歌新推出了一款优先离线运行的听写应用。该应用采用了Gemma AI模型，旨在与Wispr Flow等同类应用竞争。",
       "category": "产品发布与更新",
       "company": "Google",
       "score": 26,
@@ -22,13 +22,13 @@
       "isDisplayReady": true
     },
     {
-      "title": "众筹近300万美元的Tiiny AI Pocket Lab：本地运行大模型的Agent Box",
+      "title": "众筹近300万美元的Tiiny AI Pocket Lab：本地运行大模型的Agent盒子",
       "url": "https://36kr.com/p/3754812277998083?f=rss",
       "snippet": "作者 | 张子怡 编辑 | 袁斯来 AI硬件赛道，似乎一夜之间跨入新世界。 上一个月，投资人还在打听硬件大厂高P创始人，这一个月，他们已经开始寻觅“下一个Mac mini”。 狂欢的起点，来自开源智能体框架OpenClaw（圈子里称为：龙虾）。从抢购大内存的Mac mini到各类软硬大厂的联名主机，FOMO恐惧症席卷着所有人。承载AI的硬件，如今成了不可错失的入口。 此前更多在极客圈子里风行的Agent Box忽然被推到前台。简单说，Agent Box就是⼀台面向个人用户的AI专用设备，其存在的唯⼀目的是在本地运行大模型和自主代理。 市面上已经有数家推出Agent Box的公司，包括Pamir、Violoop、Tiiny等等。Pamir估值超过2500万美元，而Tiiny AI推出的首款产品Tiiny AI Pocket Lab，在Kickstarter上众筹金额已达280万美金。有行业人士预计其最终众筹金额可能会超400万美金。 Tiiny AI Pocket Lab重量约300克，尺寸约一部手机大小，早鸟众筹价为1399美元，支持一键部署大模型（最高支持120B）不依赖云端、服务器或高端GPU，也不产生额外的Token消耗费用。 Tiiny AI无疑踩中风口，毕竟用户只需要花单次硬件的钱，便能无限量地使用“龙虾”。 不过，Tiiny AI副总裁兼商业化负责人Eco Lee在采访中曾反复强调：Tiiny AI Pocket Lab不是专门为Open claw设计，它是为个人设计的AI基础设施设备。 这听起来很迷人，甚至有些难以置信。人们必须展开新的想象，agent原生意味着什么，要实现什么？当制约我们使用AI的只剩下高昂的Token费用，我们又如何冲破这一限制？ Tiiny AI尝试给出一个答案。 01 何谓Agent Box 在理解Tiiny AI之前，需要厘清一个新的产品概念——到底什么是Agent Box（智能体盒子）？ 在过去一年里，为了在本地运行开源大模型，人们们尝试过各种方案：有人用淘汰的旧电脑，有人抢购顶配的Mac mini。 这笔硬投入相当高昂。倘若用户想在本地端运行超过120B的大模型，购买PC电脑要凑近80GB的显存，整机成本超过5万元；即便选择苹果的Mac Studio（选配96GB统一内存版），也要花费超过2万元。 “你是否愿意买台电脑，只用来跑大模型？现在很多几万元的AI电脑，一旦启动本地大模型的时候，内存与算力就被过度占用，你甚至连一个网页都打不开。更别提打游戏或者看视频。”Eco说到。 除了设备本身开销之外，随着Token价格水涨船高，高昂的持续使用成本，也让“本地化部署”成为行业刚需。 因此，在Tiiny AI的产品构想里，其产品必须是台专门的AI设备，能够支持本地大模型和智能体7×24小时后台运行。其设计逻辑并非替代用户的个人电脑，而是作为外接独立设备，供手机、PC、平板或机器人等终端设备接入调用。系统默认将用户数据、凭证和工作流保存在本地，敏感操作无需上传云端，除非明确要求调用更强的云端模型。 在软件生态方面，设备将内置Agent Store，目前已适配OpenAI OSS、Qwen、GLM 等50余款开源大模型，以及 OpenClaw、n8n 等超百款智能体开发工具。 为构建丰富的端侧生态，Tiiny AI计划于今年7月推出模型格式转换工具，除了Tiiny官方支持的SOTA开源模型外，用户也可自行从Hugging Face等开源社区下载、转换并导入其他开源模型和用户自己的微调模型，并能上传分享给其他Tiiny用户。 “我经常给用户打个比方，云端的大模型就像瓶装矿泉水，好喝也要喝，但普通用户有大量高频、重复、贴近个人习惯、又不需要顶级智力的AI需求，就像用矿泉水洗手洗澡就太奢侈了。Tiiny的存在就像属于用户的‘AI水龙头’，你可以随意使用、token边际成本为0。”Eco告诉硬氪。 在Eco看来，云端大模型专注处理高智力、高精度、关键性任务，本地大模型则聚焦日常高频、个性化、带用户长期记忆的持续交互场景——这种“端云协同”模式，正是Tiiny AI，也是Agent Box最核心的价值所在。 在期待、掌声与纷至沓来的投资人邀约中，Tiiny AI难免要面对质疑。它必须回答的第一个问题，就是以并不昂贵的售价，如何实现前沿的产品理念，以及120B的参数模型？ 02 是玩具还是工具 在海外reddit论坛上，对Tiiny AI Pocket Lab的评价两极分化。有人说这只会是玩具，甚至有人通过宣传照逆向工程了Tiiny AI的产品，认为其所宣称的功能很难真正实现。 他们质疑的点在于，Tiiny AI并未公布其所用的SoC（系统芯片）品牌，也没有使用高端的GPU，却能在本地运行120B的大模型。 这令人觉得不可思议。 “我们是一家AI Infra公司，核心是通过系统性底层优化，把有限硬件的每一分算力与资源，全部聚焦于LLM推理与Agent运行，这与其他做硬件的思路有本质不同。”Eco表示。 Tiiny AI Pocket Lab里使用的芯片是一颗SoC外加一颗dNPU，并通过Tiiny AI最核心的技术PowerInfer来实现媲美Nvidia、AMD等高端GPU芯片的本地模型推理能力。 PowerInfer是用于端侧的异构算力推理加速技术，Tiiny AI团队通过大量的数据测算和语料训练发现，大模型推理过程中，参数激活模式分为两类：“热激活参数”（每次与模型交互都会调用的核心参数，约占20%）和“冷激活参数”（仅在用户问到医学、法律等特定领域问题时激活，约占80%）。这种冷热激活的特性，恰好适合在端侧异构算力架构下优化分配。团队开源过PowerInfer的示例：用单个NVIDIA RTX 4090 GPU，运行参数量175B的大模型，速度能达到传统方案的11倍。 这些都属于AI Infra层面的技术积累。从芯片层到Agent调度层，再到模型训练层，都需要深厚的knowhow支撑。 在具体的落地场景中，Tiinny AI团队从Kickstarter的留言区中发现，其用户主要是使用如OpenClaw一类开源应用的普通用户、对数据隐私有刚需的专业人士和AI极客。即使在断网的离线环境下，该设备依然可以运行多步推理、Agent工作流、内容生成以及针对敏感数据的安全计算。“傻瓜式”的开箱即用、0token费的24/7 Agent和完全的自主控制权是这些人选择Tiiny的核心理由。 并且，该设备在系统内引入了长期记忆功能。用户的交互偏好、历史文件与对话记录，均能通过加密形式直接存储在本地硬件中。 “隐私是Agent Box的加分项，但核心在于本地模型的部署，它能够结合你的长期记忆主动做事情，这件事最重要。”Eco告诉硬氪。 Tiiny AI的产品预计在2026年8月交付。需要注意，Tiiny是AI Agent出身的团队，其最终产品呈现仍然是硬件。他们有合作供应商，但也需要应对量产中的突发情况。 硬件生产有太多需要趟过的河流，考验团队的并非融资，而是真正兑现诱人的承诺：在一个300克的盒子上，实现本地算力自由、不受Token价格束缚、完全私密。",
       "source": "36氪",
       "publishedAt": "2026-04-06 11:53:43  +0800",
       "region": "国内",
-      "summary": "PowerInfer是用于端侧的异构算力推理加速技术，Tiiny AI团队通过大量的数据测算和语料训练发现，大模型推理过程中，参数激活模式分为两类：“热激活参数”（每次与模型交互都会调用的核心参数，约占20%）和“冷激活参数”（仅在用户问到医学、法律等特定领域问题时激活，约占80%）。",
+      "summary": "Tiiny AI推出的首款产品Tiiny AI Pocket Lab是一款AI专用硬件设备，在Kickstarter上已众筹近300万美元。其核心是解决本地运行大模型成本高昂和隐私问题：1. 作为独立外接设备，支持本地部署最高120B参数的大模型，实现7x24小时后台运行。",
       "category": "产品发布与更新",
       "company": "Tiiny AI",
       "score": 36,
@@ -48,63 +48,42 @@
   ],
   "技术与研究": [
     {
+      "title": "OpenAI新模型并非GPTX，全新预训练模型“土豆”曝光，Sora成弃子原因揭示",
+      "url": "https://www.qbitai.com/2026/04/396535.html",
+      "snippet": "正面回应了和Anthropic的竞争",
+      "source": "量子位",
+      "publishedAt": "Sun, 05 Apr 2026 09:06:59 +0000",
+      "region": "国内",
+      "summary": "OpenAI正在多个维度推进技术进步，例如从5.2到5.3版本，AI已能完成底层系统工程任务，包括设计方案、实现、性能分析和持续优化。未来几个月将分步推进，起点是Codex应用，它既是通用智能体框架，能调用各种工具并擅长写软件，也可接入电子表格和Word文档以辅助知识工作。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 31,
+      "breakdown": {
+        "substance": 12,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
       "title": "机器人黑客松揭示具身智能差距与机遇",
       "url": "https://www.infoq.cn/article/0T9Kw9O0obj0wV2NizC7?utm_source=rss&utm_medium=article",
       "snippet": "点击查看原文>",
       "source": "InfoQ",
       "publishedAt": "Tue, 07 Apr 2026 10:30:32 GMT",
       "region": "国内",
-      "summary": "自变量公司CTO王昊指出，公司核心是持续迭代基模，反对为快速落地而堆砌针对性模型和工程补丁，认为这会损害基模长期发展。他强调，具身智能需融合语言宏观意图与视频模型像素级细节，以处理厘米级空间和秒级时间的连续动作变化，避免过去训练中牺牲视觉能力的误区。",
+      "summary": "自变量公司CTO王昊在交流中表示，公司核心方向是保持基模持续迭代，并强调应避免为追求垂直场景快速落地而堆砌针对性模型和工程补丁，认为这长期会损害基模提升。他指出过去训练中存在模态数据分别训练再对齐的误区，这种方式可能牺牲视觉能力，而具身智能需要融合语言宏观意图与视频模型像素级细节。",
       "category": "技术与研究",
       "company": "自变量",
-      "score": 32,
+      "score": 25,
       "breakdown": {
-        "substance": 11,
+        "substance": 4,
         "importance": 0,
         "timeliness": 10,
         "credibility": 8,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "Ilya曝光70页OpenAI绝密文件",
-      "url": "https://www.qbitai.com/2026/04/396880.html",
-      "snippet": "llya：奥特曼这人撒谎成性",
-      "source": "量子位",
-      "publishedAt": "Tue, 07 Apr 2026 02:15:57 +0000",
-      "region": "国内",
-      "summary": "OpenAI联合创始人Ilya Sutskever泄露了一份70页的内部文件，内容包含Slack聊天记录和内部文件。他通过避开公司设备、用手机拍摄关键内容，并使用会自动消失的消息发送给董事会的方式完成泄露，此事被内部员工称为“The Blip”。",
-      "category": "技术与研究",
-      "company": "OpenAI",
-      "score": 31,
-      "breakdown": {
-        "substance": 4,
-        "importance": 5,
-        "timeliness": 10,
-        "credibility": 9,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "OpenAI新模型并非GPTX，全新预训练“土豆”曝光，Sora成弃子原因揭示",
-      "url": "https://www.qbitai.com/2026/04/396535.html",
-      "snippet": "正面回应了和Anthropic的竞争",
-      "source": "量子位",
-      "publishedAt": "Sun, 05 Apr 2026 09:06:59 +0000",
-      "region": "国内",
-      "summary": "OpenAI正从多个维度持续提升AI能力，而非从零开始。例如，其Codex应用已作为通用智能体框架在内部被员工自发用于处理电子表格、文档等知识工作，未来将分步优化以更友好地支持此类任务。",
-      "category": "技术与研究",
-      "company": "OpenAI",
-      "score": 25,
-      "breakdown": {
-        "substance": 6,
-        "importance": 5,
-        "timeliness": 2,
-        "credibility": 9,
         "displayPenalty": 3
       },
       "isDuplicate": false,
@@ -117,7 +96,7 @@
       "source": "Tech Xplore",
       "publishedAt": "Mon, 06 Apr 2026 11:20:03 EDT",
       "region": "海外",
-      "summary": "AI Caring的一项研究聚焦于老年人对可解释人工智能的期望。研究发现，语音激活的对话式AI助手必须为其建议提供清晰的解释，这是获得老年人信任的关键。该研究具体探讨了老年人对AI解释性的需求，旨在解决老年人因不理解AI决策逻辑而可能产生不信任的问题，从而提升AI助老服务的接受度。",
+      "summary": "AI Caring的一项研究发现，语音激活的对话式人工智能助手必须为其建议提供清晰的解释，否则老年人不太可能信任它们。这项研究主要探讨了老年人对可解释人工智能的期望。",
       "category": "技术与研究",
       "company": "AI Caring",
       "score": 18,
@@ -138,12 +117,12 @@
       "source": "量子位",
       "publishedAt": "Mon, 06 Apr 2026 05:17:06 +0000",
       "region": "国内",
-      "summary": "GEN-1机器人系统通过低成本穿戴设备捕捉数百万项人类活动记录进行训练，而非依赖昂贵的遥操作数据。其核心技术包括：采用Paged Attention技术高效调度计算资源，实现毫秒级动作指令响应；运用Harmonic Reasoning系统进行多路径推理，改变以往单一路径预测的死板模式。",
+      "summary": "一款新型机器人展现出类人灵活性，能在遇到未预见的障碍时自主尝试新方法，例如晃动袋子放入物品。其核心技术包括：1) Paged Attention系统，通过高效调度计算资源实现毫秒级动作指令发射，使AI反应速度匹配物理世界节奏。",
       "category": "技术与研究",
       "company": "",
-      "score": 26,
+      "score": 30,
       "breakdown": {
-        "substance": 12,
+        "substance": 16,
         "importance": 0,
         "timeliness": 6,
         "credibility": 9,
@@ -156,13 +135,37 @@
       "crossDayMatchedWith": "具身Scaling Law验证成功：机器人新品1小时学会新任务，重复1800次成功率99%"
     },
     {
-      "title": "AI时代的架构治理：可执行架构清单与声明式方法",
+      "title": "有道龙虾LobsterAI的养成与实践｜QCon北京技术分享",
+      "url": "https://www.infoq.cn/article/yS2ckf9u8eUVflGIjdcF?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 06 Apr 2026 10:00:00 GMT",
+      "region": "国内",
+      "summary": "网易有道智能硬件事业部技术专家刘刚在QCon北京大会上分享了有道龙虾LobsterAI的研发与实践经验。刘刚负责有道智能硬件业务服务端技术研发与管理，参与完成了词典笔、答疑笔、听力宝等硬件研发，并落地了小P老师、视频答疑、错题本等多款AI教育产品。",
+      "category": "技术与研究",
+      "company": "有道",
+      "score": 26,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true,
+      "selectionMode": "crossDayFallback",
+      "crossDayReuseReason": "URL相同",
+      "crossDayMatchedWith": "有道龙虾LobsterAI的养成与实践｜QCon北京技术分享"
+    },
+    {
+      "title": "AI时代的架构治理：声明式架构与自动化实践",
       "url": "https://www.infoq.cn/article/VFRyL5oDK269xIcp8SDi?utm_source=rss&utm_medium=article",
       "snippet": "点击查看原文>",
       "source": "InfoQ",
       "publishedAt": "Mon, 06 Apr 2026 10:00:00 GMT",
       "region": "国内",
-      "summary": "文章提出了一种用机器可读的声明式文件（如architecture.md）和自动化工具链来治理AI时代软件架构的方法，以解决传统人工治理模式效率低下、难以跟上AI开发速度的问题。该方法具体包括：1. 将架构规则（如服务间必须用Kafka异步通信、API需先定义OpenAPI规范）写入可执行清单。",
+      "summary": "本文探讨了在AI时代如何通过声明式架构和自动化工具进行有效的架构治理。文章指出，传统依赖人工流程和中心化权威决策的治理模式，在生成式AI加速开发速度的背景下，难以快速识别架构偏差，导致效率与一致性难以兼顾。",
       "category": "技术与研究",
       "company": "",
       "score": 17,
@@ -178,30 +181,51 @@
       "selectionMode": "crossDayFallback",
       "crossDayReuseReason": "URL相同",
       "crossDayMatchedWith": "AI时代下的架构治理：从人工监督到声明式自动化"
-    },
+    }
+  ],
+  "投融资与并购": [
     {
-      "title": "荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作",
-      "url": "https://36kr.com/p/3755161993675523?f=rss",
-      "snippet": "4月2日，荣耀与京东签订战略合作协议，正式建立全方位战略合作伙伴关系，双方将围绕产品共创、用户共营、生态共享三大核心领域，构建全面覆盖、深度融合、价值共生的新型合作体系，致力于实现三年累计规模超1000亿元的全领域合作目标。 官方图片 产品共创方面，荣耀与京东将围绕手机、全场景、AIoT、机器人等各领域产品的全生命周期进行深度协作。双方将推进战略新品首发合作，共同打造行业爆品，基于各自优势，联合开展IP与C2M定制项目，推动行业级创新。双方将针对外卖骑手、快递员、游戏玩家等特定用户人群进行产品共创，将荣耀的软硬件定制能力与京东的用户洞察有机结合，打造更多基于场景的产品亮点，同时，双方将协同进行产品的生命周期管理，不断提升合作规模。 用户共营方面，荣耀与京东将整合全链路营销能力与资源，通过联合会员运营、精准人群触达等，为用户提供超预期的焕新体验。同时，双方将在电竞、运动健康等核心场景展开深度合作，探索数据赋能与广告创新的更多可能。 生态共享方面，荣耀与京东将在更广阔的生态领域加深战略合作，共同探索新增长曲线。双方将携手推动AI合作共创与用户体验提升，基于荣耀领先的端侧大模型能力与京东的高质量AI服务、JoyAI大模型和JoyInside等AI生态，共同打造商品导购、生活服务、金融理财等场景的创新体验，并围绕机器人和智能硬件生态领域展开合作，例如，京东线下门店将试点部署荣耀机器人用于引流导购。双方还将深化全渠道与O2O协作，共同提升即时零售业务，依托荣耀终端产品和京东Joybuy平台，携手拓展海外市场，促进国内外物流仓储合作，并在科技、金融、保险等领域进一步加强合作。 作为全球领先的AI终端生态公司，荣耀致力于通过开放、共创、共享不断拓展产业边界，与合作伙伴携手构筑智慧生态，共建智慧世界。此次战略合作中，荣耀与京东将锚定关键业务领域，突破固有限制与瓶颈，共同推动双方业务的实质性、跨越式增长，为全球消费者打造更加极致的产品与服务。",
-      "source": "36氪",
-      "publishedAt": "2026-04-06 17:48:30  +0800",
+      "title": "OpenAI高层变动引发内讧猜测，IPO前夜面临巨额算力支出压力",
+      "url": "https://www.qbitai.com/2026/04/396704.html",
+      "snippet": "网友：感觉他们今年不可能上市了",
+      "source": "量子位",
+      "publishedAt": "Mon, 06 Apr 2026 05:23:28 +0000",
       "region": "国内",
-      "summary": "荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作讲的是个人或团队围绕 AI 工具展开实践，公开片段显示主角借助相关工具承接任务或尝试创业。",
-      "category": "技术与研究",
-      "company": "荣耀,京东",
-      "score": 23,
+      "summary": "OpenAI在IPO前夕出现高层人事变动，一位曾在Meta工作十年并负责Facebook App、后担任Instacart CEO的高管离职。公司已与甲骨文、微软及亚马逊签署了总额约6650亿美元、有效期至2030年的长期服务器租赁协议，这些支出主要用于算力。",
+      "category": "投融资与并购",
+      "company": "OpenAI",
+      "score": 27,
       "breakdown": {
-        "substance": 7,
-        "importance": 0,
+        "substance": 4,
+        "importance": 5,
         "timeliness": 6,
-        "credibility": 7,
+        "credibility": 9,
         "displayPenalty": 3
       },
       "isDuplicate": false,
       "isDisplayReady": true
-    }
-  ],
-  "投融资与并购": [
+    },
+    {
+      "title": "赛富乐斯完成3亿元C轮融资，加速全彩AR微显示屏量产交付",
+      "url": "https://36kr.com/p/3756111263384071?f=rss",
+      "snippet": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，AR显示技术企业——赛富乐斯近日已完成3亿元C轮融资。本轮投资方包括西安西高投繁星投资基金、无锡市梁溪科创产业投资二期基金、安徽金安产业引导基金、上海吉六零山海松金创业投资基金、西安财金龙门成长股权投资合伙企业、西安市人才发展基金等多家机构。资金将主要用于加速AR用全彩微显示屏的量产交付。 赛富乐斯成立于2017年，是一家从耶鲁大学实验室走出的光电半导体企业。公司基于多项原创技术，聚焦Micro-LED显示赛道，构建了覆盖AR微显示与XR大屏两大场景的产品矩阵，并持续推进规模商业化。 团队方面，公司创始人兼CEO陈辰拥有清华机械工程本科、哈佛博士后及耶鲁MBA，曾在全球最大的油田技术服务公司Schlumberger主导0到1产品开发；联合创始人兼CTO宋杰长期专注化合物半导体材料及器件工艺，拥有近20年研发经验。 区别于行业普遍依赖的单点技术突破路径，赛富乐斯构建了从外延材料、芯片制造到光电集成的全链条技术体系。公司依托自研的大尺寸硅基键合、外延生长、量子点色转换等支柱技术，形成了完整的技术平台和产业化能力。目前，公司首条6英寸硅基Micro-LED产线已实现量产，并同步推动12英寸产线建设。 在AR应用端，当前市场上主流AR眼镜仍以单色为主，全彩化一直是行业的核心挑战——将红、绿、蓝三色集成于单片芯片，是制约AR眼镜发展的关键瓶颈之一。 赛富乐斯基于原创技术，在大尺寸硅基Micro-LED上实现原位量子点色彩转换，从根本上规避了传统方案中红光效率低、一致性差、良率低等难题。结合全彩反射式光学方案，其单片全彩屏在体积、性能、成本、量产性上均具备显著优势。 公司CEO陈辰表示：“随着Meta Ray-ban Display全彩眼镜推动反射式光学方案规模化落地，全彩波导的效率已从约1000nits/lm的水平提高至5000 nits/lm。这一变化显著降低了AR微显示屏的亮度需求，从原来的百万尼特降低到二十万尼特以内。终端产品开始加速导入，甚至已出现多款搭配全彩Micro-OLED的波导AR眼镜产品。” “这一趋势极大地推动了单片全彩Micro-LED微显示屏的普及。”据介绍，赛富乐斯的T3-0.13产品对比全彩Micro-OLED，效率提升约5倍，亮度提升10倍以上。将实际使用亮度从不足1000nits提升至约5000nits，满足了户外便携AR眼镜的需求。 T3全彩屏画面实拍（图源/企业） 在XR大屏显示领域，赛富乐斯首创的量子点COB直显屏，并牵头制定了首个光致发光量子点直显行业标准。公司产品已批量出货，服务全球近40家企业。 QD-COB显示屏示意图（图源/企业） 在制造模式上，赛富乐斯采用“核心自研+代工”的较轻资产模式，依托自有产线进行研发及小规模生产，同时与化合物半导体晶圆代工厂合作实现规模化制造。公司目前在西安拥有6寸硅基微显示屏产线及合作代工厂，综合年产能超过500万颗微显示屏。 业绩层面，赛富乐斯在2025年迎来商业化拐点。公司自当年4月开始批量出货，5月单月销售额突破千万元，全年接近1亿元。预计2026年整体营收将达3亿元左右，增长主要来自AR微显示屏的客户导入及量产放量。 接下来，陈辰透露，公司将重点推进三方面工作：一是持续提升全彩微显示屏的色彩、刷新率、分辨率，优化全彩AR眼镜的显示表现；二是推动Micro-LED在光通信领域的应用，依托其高速光源材料的特性，在AI数据中心传输中有望将功耗降低至5%以内；三是持续加强AR微显示屏的交付能力，匹配终端客户不断增长的需求。 “原创技术的落地虽然周期长、难度大，但一旦跑通，爆发力极强。”陈辰表示，赛富乐斯希望用自身实践，鼓励更多企业坚持原创，啃硬骨头，实现从0到1的突破。 投资方观点： 纪源资本认为：随着显示技术不断向近眼、高清两个趋势演进，Micro-LED作为显示领域的新兴技术路线，未来在XR、大屏等领域都有非常大的潜力。赛富乐斯凭借独创的NPQD技术，在Micro-LED商业化的路上取得了显著突破。相信在创始团队的带领下，赛富乐斯有望持续引领行业创新，期待公司在未来取得更大的突破。 博华资本认为：显示技术持续轻薄化、高分辨率化发展，Micro-LED是终极显示路线；目前Micro-LED在大屏领域商业化放量迅速，在微显示领域也是AR/VR的最优解决方案，未来爆发性极强，整体投资价值突出。赛富乐斯拥有具备稀缺技术能力背景的研发团队，兼具研发、规模量产、商业运营经验，在Micro-LED多条技术路径中，其独创高差异化高稀缺性的大尺寸硅基键合及量子点技术，无需复杂堆叠结构可实现单屏幕全彩，在大屏及微显示的商业化已得到验证，目前客户进展迅猛。伴随本次AI带来的端侧硬件爆发式增长浪潮，公司进入业绩放量拐点，博华坚定看好赛富乐斯充分享受新一代显示终端发展机遇，成长为下一代显示巨头。",
+      "source": "36氪",
+      "publishedAt": "2026-04-07 09:57:48  +0800",
+      "region": "国内",
+      "summary": "AR显示技术企业赛富乐斯近日完成3亿元C轮融资，资金将用于加速其全彩AR微显示屏的量产交付。公司基于自研的NPQD等全链条技术，其首条6英寸硅基Micro-LED产线已实现量产，并正推动12英寸产线建设。",
+      "category": "投融资与并购",
+      "company": "赛富乐斯",
+      "score": 38,
+      "breakdown": {
+        "substance": 15,
+        "importance": 8,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    },
     {
       "title": "优必选2025年营收增长53.3%至20.01亿元，净亏损收窄至7.89亿元",
       "url": "https://www.leiphone.com/category/zaobao/OSd4ovZLTC2e5W4M.html",
@@ -209,7 +233,7 @@
       "source": "雷锋网",
       "publishedAt": "Tue, 07 Apr 2026 08:30:00 +0800",
       "region": "国内",
-      "summary": "3月31日，人形机器人第一股优必选发布2025年全年业绩报告。2025年，优必选总营收达到20.01亿元，同比增长53.3%。优必选2025年毛利为7.538亿，相比2024年的3.74亿元增长101.6%；毛利率为37.7%，相比2024年的28.7%提升了九个百分点。",
+      "summary": "人形机器人公司优必选发布2025年全年业绩报告，总营收达到20.01亿元，同比增长53.3%。公司毛利为7.538亿元，同比增长101.6%，毛利率提升至37.7%。2025年净亏损为7.89亿元，相比2024年的11.59亿元降低了32.0%。",
       "category": "投融资与并购",
       "company": "优必选",
       "score": 26,
@@ -232,7 +256,7 @@
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 06 Apr 2026 15:55:55 +0000",
       "region": "海外",
-      "summary": "OpenAI发布一系列应对AI经济影响的政策建议，具体包括：1. 提议向AI利润征税并设立公共财富基金，以应对失业和不平等问题；2. 建议企业承担更多社会责任，如补贴四天工作制、提高医保和退休金比例，但未直接覆盖最可能被AI取代的岗位。",
+      "summary": "OpenAI提出多项应对AI经济影响的政策建议，具体包括：1. 建议企业承担更多社会责任，如补贴四天工作周、提高退休金匹配和分担更多医疗费用，以改善员工福利；2. 提议对AI利润或机器人征税，并将税收用于建立公共财富基金，以缓解失业和不平等问题。",
       "category": "政策与监管",
       "company": "OpenAI",
       "score": 24,
@@ -247,13 +271,13 @@
       "isDisplayReady": true
     },
     {
-      "title": "伊朗威胁将攻击OpenAI在阿布扎比的Stargate数据中心",
+      "title": "伊朗威胁OpenAI在阿布扎比的Stargate数据中心",
       "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
       "snippet": "An October 2025 image of OpenAI’s UAE Stargate data center under construction. | Image: G42 Iran's Islamic Revolutionary Guard Corps (IRGC) has published a video threatening OpenAI's planned Abu Dhabi data center if the US follows through on threats to attack the country's power plants, as reported earlier by Tom's Hardware. The video, which was published to an Iranian state-backed news outlet's X account on April 3rd, says the IRGC will carry out the \"complete and utter annihilation\" of US-linked energy and technology companies in the region, before showing an image of OpenAI's $30 billion in-progress Stargate facility in the United Arab Emirates. OpenAI's overarching $500 billion Stargate project includes investments from Oracle … Read the full story at The Verge.",
       "source": "The Verge AI",
       "publishedAt": "2026-04-06T15:54:19.000Z",
       "region": "海外",
-      "summary": "伊朗伊斯兰革命卫队于4月3日发布视频，明确威胁若美国攻击伊朗发电厂，将摧毁该地区与美国相关的能源和科技公司。视频中特别展示了OpenAI计划在阿联酋建造的、价值300亿美元的Stargate数据中心图片，该数据中心是OpenAI总投资500亿美元项目的一部分，并已获得甲骨文、英伟达等公司投资。",
+      "summary": "伊朗伊斯兰革命卫队发布视频，威胁如果美国实施攻击伊朗发电厂的计划，将摧毁OpenAI计划在阿布扎比建设的价值300亿美元的数据中心。该视频于4月3日发布在伊朗官方支持的新闻媒体X账户上，展示了OpenAI数据中心的效果图。",
       "category": "政策与监管",
       "company": "OpenAI",
       "score": 24,
@@ -266,6 +290,27 @@
       },
       "isDuplicate": false,
       "isDisplayReady": true
+    },
+    {
+      "title": "一份可能揭示你工作与AI关系的关键数据",
+      "url": "https://www.technologyreview.com/2026/04/06/1135187/the-one-piece-of-data-that-could-actually-shed-light-on-your-job-and-ai/",
+      "snippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Within Silicon Valley’s orbit, an AI-fueled jobs apocalypse is spoken about as a given. The mood is so grim that a societal impacts researcher at Anthropic, responding Wednesday to a call for…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 06 Apr 2026 16:33:35 +0000",
+      "region": "海外",
+      "summary": "研究人员利用美国政府自1998年起维护的职业任务数据库，评估了AI对具体工作的影响。例如，他们发现房地产经纪人28%的工作任务可能被AI替代。Anthropic公司进一步分析了数百万次用户与AI的对话，以了解人们实际用AI完成了哪些任务。",
+      "category": "政策与监管",
+      "company": "Anthropic",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 10,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
     }
   ]
 }
