@@ -1,19 +1,20 @@
 {
   "date": "2026/4/7",
-  "edition": "morning",
-  "editionLabel": "早报",
-  "title": "AI 日报·早报（Morning）",
-  "generatedAt": "2026/4/7 10:36",
-  "count": 13,
+  "edition": "daily",
+  "editionLabel": "每日精选",
+  "title": "AI资讯每日精选-2026/4/7",
+  "generatedAt": "2026/4/7 10:43",
+  "count": 12,
   "targetCount": 14,
   "diagnostics": {
+    "previousDayFile": "news-2026-04-06-afternoon.json",
     "previousEditionFile": "news-2026-04-06-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 19,
+      "domesticBeforeDedup": 17,
       "overseasBeforeDedup": 8,
-      "domesticAfterDedup": 19,
+      "domesticAfterDedup": 17,
       "overseasAfterDedup": 8,
       "domesticSources": [
         {
@@ -43,7 +44,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 3,
+          "count": 1,
           "error": null
         }
       ],
@@ -94,24 +95,24 @@
       }
     },
     "summarize": {
-      "totalSummarized": 27
+      "totalSummarized": 25
     },
     "scoring": {
-      "totalInput": 27,
-      "totalScored": 17,
+      "totalInput": 25,
+      "totalScored": 18,
       "strictScoredCount": 13,
       "relaxedCandidateCount": 1,
       "relaxedUsedForSelection": true,
       "weakSummaryCount": 6,
-      "selectedCandidateCount": 17,
-      "duplicateCount": 6,
+      "selectedCandidateCount": 18,
+      "duplicateCount": 5,
       "crossDayDuplicateCount": 5,
       "lowQualityCount": 1,
-      "domesticAvailable": 11,
+      "domesticAvailable": 12,
       "overseasAvailable": 6,
       "sourceCount": {
-        "InfoQ": 3,
         "36氪": 4,
+        "InfoQ": 4,
         "量子位": 3,
         "雷锋网": 1,
         "TechCrunch AI": 2,
@@ -122,48 +123,38 @@
       }
     },
     "display": {
-      "refinedCount": 17,
-      "previousEditionRemovedCount": 3,
+      "refinedCount": 18,
+      "previousEditionRemovedCount": 4,
       "previousEditionRestoredCount": 1,
-      "integrityRemovedCount": 1,
-      "postEditionFilterCount": 13,
+      "integrityRemovedCount": 2,
+      "postEditionFilterCount": 12,
       "displayReadyCount": 8,
-      "fallbackDisplayCount": 4,
+      "fallbackDisplayCount": 3,
       "reserveDisplayCount": 1,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 5,
-      "shortage": 1
+      "removedWeakSummaries": 4,
+      "shortage": 2
     }
   },
   "articles": [
     {
       "section": "投融资与并购",
-      "title": "阿里发布Qwen3.5-Omni与Qwen3.6-Plus，微软商用自研AI模型，OpenAI完成巨额融资",
+      "title": "阿里发布Qwen3.5-Omni与Qwen3.6-Plus，微软商用自研AI模型，OpenAI完成大规模融资",
       "company": "月之暗面",
       "url": "https://www.infoq.cn/article/MJmMrcJzh7vo6egI3Bbz?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Tue, 07 Apr 2026 10:29:51 GMT",
-      "summary": "阿里发布两款AI模型：Qwen3.5-Omni在215项音视频任务中超越Gemini-3.1 Pro，支持113种语言识别，并能通过摄像头语音输入生成App代码，API调用成本低于每百万tokens 0.8元；Qwen3.6-Plus则定位为编程能力最强的国产模型，具备自主拆解复杂任务的能力。",
+      "summary": "阿里发布两款AI模型：Qwen3.5-Omni在215项音视频任务中超越Gemini-3.1 Pro，支持113种语言识别，并能通过摄像头语音交互生成代码；Qwen3.6-Plus则定位为中国编程能力最强的模型，可自主拆解并完成复杂编程任务。",
       "score": 48
     },
     {
       "section": "技术与研究",
-      "title": "机器人黑客松揭示具身智能的差距与机遇",
+      "title": "机器人黑客松揭示具身智能差距与机遇",
       "company": "自变量",
       "url": "https://www.infoq.cn/article/0T9Kw9O0obj0wV2NizC7?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Tue, 07 Apr 2026 10:30:33 GMT",
-      "summary": "自变量公司CTO王昊指出，当前具身智能训练存在误区，例如将视觉与语言模型分开训练再对齐，会牺牲视觉能力，因为语言难以描述厘米级空间的连续动作。他强调，应避免为快速落地而堆砌针对性模型，这会损害基模长期提升。如今，将模型快速调整至完成特定任务已不再遥远，这改变了机器人进入工厂的预期。",
-      "score": 32
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI新模型并非GPTX，全新预训练模型“土豆”曝光，Sora成弃子原因揭晓",
-      "company": "OpenAI",
-      "url": "https://www.qbitai.com/2026/04/396535.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 05 Apr 2026 09:06:59 +0000",
-      "summary": "OpenAI正以Codex为核心构建通用智能体框架，该框架擅长编写软件，并能接入电子表格、Word文档等工具以辅助知识工作。公司计划在未来几个月内分步推进，首先让Codex对普通知识工作更友好。随着模型能力提升，AI将能解决更开放、时间跨度更长的问题，并减少用户重复解释的困扰。",
+      "publishedAt": "Tue, 07 Apr 2026 10:30:32 GMT",
+      "summary": "自变量公司CTO王昊指出，公司核心是持续迭代基模，并警告不应为追求机器人快速落地而堆砌过多针对性模型和工程补丁，以免长期损害基模能力。他分析当前具身智能训练误区，认为过去将不同模态数据分开训练再对齐的方式可能牺牲视觉能力，而具身场景需要语言、视觉与动作在信息尺度上自然融合。",
       "score": 26
     },
     {
@@ -173,28 +164,38 @@
       "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 06 Apr 2026 18:54:33 +0000",
-      "summary": "谷歌推出名为“AI Edge Eloquent”的AI听写应用，核心变化是优先支持离线使用，并采用Gemma模型进行本地处理。具体信息点包括：1. 应用能自动过滤“嗯”、“啊”等口头语和中间修正，输出简洁文本；2. 可设置为安卓默认键盘，或使用类似Wispr Flow的悬浮按钮，实现系统级快捷听写。",
+      "summary": "谷歌推出名为“AI Edge Eloquent”的AI听写应用，核心变化是优先支持离线使用，并采用Gemma模型进行本地处理。具体信息点包括：1. 应用能自动过滤“嗯”、“啊”等口头语和中间修正，输出简洁文本；2. 可设置为安卓默认键盘，通过悬浮按钮随时听写，类似竞品Wispr Flow。",
       "score": 26
     },
     {
+      "section": "技术与研究",
+      "title": "OpenAI新模型并非GPTX，全新预训练“土豆”曝光，Sora成弃子原因揭示",
+      "company": "OpenAI",
+      "url": "https://www.qbitai.com/2026/04/396535.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 05 Apr 2026 09:06:59 +0000",
+      "summary": "OpenAI正从多个维度持续提升AI能力，而非从零开始。例如，其Codex应用已作为通用智能体框架在内部被员工自发用于处理电子表格、文档等知识工作，并擅长编写软件。随着模型变得更聪明，用户将感觉AI更懂意图，减少重复解释，并能解决更开放、长期的问题。",
+      "score": 25
+    },
+    {
       "section": "政策与监管",
-      "title": "OpenAI描绘AI经济蓝图：公共财富基金、机器人税与四天工作制",
+      "title": "OpenAI描绘AI经济愿景：公共财富基金、机器人税与四天工作周",
       "company": "OpenAI",
       "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 06 Apr 2026 15:55:55 +0000",
-      "summary": "OpenAI发布应对AI经济影响的系列政策建议，具体包括：1. 建议企业承担更多社会责任，如补贴四天工作制、提高退休金匹配和分担更多医疗费用，以改善员工福利；2. 提出对AI利润或机器人征税，并将税收用于建立公共财富基金，以缓解失业和不平等问题。",
+      "summary": "OpenAI发布应对AI经济影响的政策建议，包含多个具体措施：一是提议企业资助员工实现不减薪的四天工作周，并承担更多医疗、养老及育儿/养老护理补贴，但将其定位为企业责任而非政府义务；二是建议对AI利润、企业高收入或资本利得增税，并探讨向替代人类的机器人征税。",
       "score": 24
     },
     {
-      "section": "技术与研究",
-      "title": "伊朗威胁攻击OpenAI在阿布扎比的Stargate数据中心",
+      "section": "政策与监管",
+      "title": "伊朗威胁OpenAI在阿布扎比的Stargate数据中心",
       "company": "OpenAI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
       "source": "The Verge AI",
       "publishedAt": "2026-04-06T15:54:19.000Z",
-      "summary": "伊朗伊斯兰革命卫队（IRGC）于4月3日发布威胁视频，称若美国攻击伊朗发电厂，将彻底摧毁该地区与美国相关的能源和科技公司。视频中特别展示了OpenAI计划在阿联酋阿布扎比建造的价值300亿美元的Stargate数据中心图像，该设施是OpenAI总投资500亿美元项目的一部分，并已获得甲骨文。",
-      "score": 24
+      "summary": "伊朗伊斯兰革命卫队于4月3日发布视频，威胁若美国攻击伊朗发电厂，将摧毁OpenAI计划在阿联酋阿布扎比建设的价值300亿美元的Stargate数据中心。该视频展示了据称来自谷歌地图的卫星图像，并错误地将思科高管识别为微软CEO。",
+      "score": 23
     },
     {
       "section": "政策与监管",
@@ -203,28 +204,18 @@
       "url": "https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/",
       "source": "Ars Technica",
       "publishedAt": "Mon, 06 Apr 2026 21:23:36 +0000",
-      "summary": "OpenAI为应对公众对AI的负面舆论，发布了一系列政策建议，具体包括：提议对自动化劳动力征税，以资助社会保障等核心项目；鼓励雇主和工会试行32小时/四天工作周且不降薪的试点计划；设立最高100万美元的研究资助，以推动相关政策的探索。",
+      "summary": "OpenAI为应对公众对AI的负面看法，提出了一系列具体政策建议。其中包括：推动试行每周32小时/四天工作制且薪酬不变；建议对自动化劳动力征税，以资助社会保障等核心项目；设立高达100万美元的API信用额度，资助基于其政策理念的研究。",
       "score": 22
     },
     {
       "section": "技术与研究",
-      "title": "研究显示：可解释性是老年人信任AI的必要条件",
+      "title": "研究表明可解释性是老年人信任AI的必要条件",
       "company": "AI Caring",
       "url": "https://techxplore.com/news/2026-04-older-adults-ai.html",
       "source": "Tech Xplore",
       "publishedAt": "Mon, 06 Apr 2026 11:20:03 EDT",
       "summary": "AI Caring的一项研究聚焦于老年人对可解释人工智能的期望。研究发现，对于语音激活的对话式AI助手，老年人是否信任其建议，关键在于AI能否为其建议提供清晰的解释。这项研究旨在解决老年人因不理解AI决策逻辑而可能产生不信任的问题，强调了在面向老年群体的AI应用中，可解释性设计是建立信任的必要条件。",
       "score": 18
-    },
-    {
-      "section": "投融资与并购",
-      "title": "红熊AI完成2.1亿元A轮融资，切入物理AI赛道",
-      "company": "红熊AI",
-      "url": "https://36kr.com/p/3750675963904513?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-07 10:00:00  +0800",
-      "summary": "36氪获悉，企业级AI解决方案供应商「红熊AI」已于近日完成 2.1亿元A轮融资，投后估值超15亿元。本轮由华禹创投领投，老股东格睿丰投资、稼沃资本跟投，徐汇资本、上汽美元基金、嘉铭浩春、誉华资产等多家机构参与投资，三位创始团队成员也以本轮估值跟投约3000万元。",
-      "score": 46
     },
     {
       "section": "投融资与并购",
@@ -238,7 +229,7 @@
     },
     {
       "section": "技术与研究",
-      "title": "众筹近300万美元的Tiiny AI Pocket Lab：本地运行大模型的Agent Box",
+      "title": "众筹近300万美元的Tiiny AI Pocket Lab：本地运行大模型的Agent盒子",
       "company": "Tiiny AI",
       "url": "https://36kr.com/p/3754812277998083?f=rss",
       "source": "36氪",
@@ -248,7 +239,7 @@
     },
     {
       "section": "技术与研究",
-      "title": "优必选2025年营收增长53.3%至20.01亿元，净亏损收窄",
+      "title": "优必选2025年营收增长53.3%至20.01亿元，净亏损收窄至7.89亿元",
       "company": "优必选",
       "url": "https://www.leiphone.com/category/zaobao/OSd4ovZLTC2e5W4M.html",
       "source": "雷锋网",
@@ -258,12 +249,12 @@
     },
     {
       "section": "技术与研究",
-      "title": "荣耀与京东签订战略合作协议 推进AI、机器人及C2M共创合作",
+      "title": "荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作",
       "company": "荣耀,京东",
       "url": "https://36kr.com/p/3755161993675523?f=rss",
       "source": "36氪",
       "publishedAt": "2026-04-06 17:48:30  +0800",
-      "summary": "荣耀与京东签订战略合作协议 推进AI、机器人及C2M共创合作讲的是个人或团队围绕 AI 工具展开实践，公开片段显示主角借助相关工具承接任务或尝试创业。",
+      "summary": "荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作讲的是个人或团队围绕 AI 工具展开实践，公开片段显示主角借助相关工具承接任务或尝试创业。",
       "score": 23
     }
   ]
