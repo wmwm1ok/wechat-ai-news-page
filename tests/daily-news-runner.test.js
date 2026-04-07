@@ -111,6 +111,37 @@ describe('Daily news runner', () => {
     expect(strict.restored.length).toBe(0);
     expect(strictTitles).notToInclude('OpenAI发布企业搜索工具并开放知识库接入');
   });
+
+  it('keeps reusable previous-day candidates available for later replenishment', () => {
+    const previousNews = [
+      {
+        title: 'OpenAI发布企业搜索工具并开放知识库接入',
+        summary: 'OpenAI 发布企业搜索工具，并开放知识库接入与管理员控制。',
+        source: 'InfoQ',
+        url: 'https://example.com/openai-search'
+      }
+    ];
+    const items = [
+      {
+        title: 'Anthropic发布Claude金融行业模板',
+        summary: 'Anthropic 发布金融行业模板，覆盖审批流、知识库接入和审计能力。',
+        source: 'MIT Technology Review',
+        url: 'https://example.com/claude-finance'
+      },
+      {
+        title: 'OpenAI发布企业搜索工具并开放知识库接入',
+        summary: 'OpenAI 发布企业搜索工具，并开放知识库接入与管理员控制，面向企业客户上线。',
+        source: 'InfoQ',
+        url: 'https://example.com/openai-search',
+        selectionMode: 'crossDayFallback'
+      }
+    ];
+
+    const result = filterAgainstPreviousEdition(items, previousNews, 1);
+
+    expect(result.kept.length).toBe(1);
+    expect(result.reusableRemovedItems.length).toBe(1);
+  });
 });
 
 console.log('🧪 Running DailyNewsRunner Tests...\n');

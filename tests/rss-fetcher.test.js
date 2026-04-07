@@ -81,6 +81,15 @@ describe('RSS fetcher filters', () => {
     expect(result).toBe(false);
   });
 
+  it('rejects InfoQ multi-company daily roundup titles even without weekly markers', () => {
+    const result = isSourceQualifiedNewsItem({
+      title: '阿里发布Qwen3.5-Omni与Qwen3.6-Plus，微软商用自研AI模型，OpenAI完成大规模融资',
+      snippet: 'InfoQ 编辑整理了当天值得关注的 AI 动态，涉及阿里、微软和 OpenAI 的多项进展。'
+    }, 'InfoQ');
+
+    expect(result).toBe(false);
+  });
+
   it('rejects entertainment-style AI roundup stories from broad overseas feeds', () => {
     const result = isSourceQualifiedNewsItem({
       title: 'All the latest in AI music',

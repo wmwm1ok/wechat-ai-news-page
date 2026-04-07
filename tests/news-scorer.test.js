@@ -138,6 +138,20 @@ describe('News scorer', () => {
     expect(scoring.isDuplicate).toBe(true);
   });
 
+  it('rejects governance titles whose summaries drift to unrelated policy content', () => {
+    const now = new Date().toISOString();
+    const scoring = scoreNews({
+      title: 'OpenAI内部员工不信任CEO萨姆·奥尔特曼',
+      summary: 'OpenAI 为应对 AI 经济影响提出政策建议，包括四天工作制、自动化征税和 API 信用资助研究。',
+      source: 'Ars Technica',
+      publishedAt: now,
+      region: '海外',
+      url: 'https://example.com/openai-governance-mismatch'
+    }, []);
+
+    expect(scoring.isDuplicate).toBe(true);
+  });
+
   it('rejects consumer automotive launches with weak AI relevance', () => {
     const now = new Date().toISOString();
     const scoring = scoreNews({

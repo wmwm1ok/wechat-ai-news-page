@@ -80,6 +80,33 @@ describe('Category classifier', () => {
 
     expect(category).toBe('技术与研究');
   });
+
+  it('classifies crowdfunding hardware launches as product updates', () => {
+    const category = classifyNewsCategory({
+      title: '众筹近300万美元的Tiiny AI Pocket Lab：本地运行大模型的Agent盒子',
+      summary: 'Tiiny AI Pocket Lab 面向本地运行大模型场景推出 Agent 盒子，众筹金额接近 300 万美元。'
+    });
+
+    expect(category).toBe('产品发布与更新');
+  });
+
+  it('classifies earnings updates as financing news', () => {
+    const category = classifyNewsCategory({
+      title: '优必选2025年营收增长53.3%至20.01亿元，净亏损收窄至7.89亿元',
+      summary: '优必选披露最新财报，营收增长，亏损收窄，并继续推进人形机器人量产和商业化。'
+    });
+
+    expect(category).toBe('投融资与并购');
+  });
+
+  it('keeps internal governance turmoil out of policy bucket', () => {
+    const category = classifyNewsCategory({
+      title: 'OpenAI内部员工不信任CEO萨姆·奥尔特曼',
+      summary: '围绕管理层决策和组织信任问题，OpenAI 内部员工对 CEO 与公司治理走向产生明显分歧。'
+    });
+
+    expect(category).toBe('技术与研究');
+  });
 });
 
 console.log('🧪 Running CategoryClassifier Tests...\n');

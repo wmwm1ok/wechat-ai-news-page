@@ -28,6 +28,16 @@ const CORE_AI_SIGNAL_TERMS = [
   'ai', '人工智能', '大模型', '模型', '算法', '训练', '推理', '多模态', '智能体', 'agent',
   'llm', '世界模型', '端到端', 'vla', 'robotaxi', '数据集', '生成式', '具身智能', 'mcp'
 ];
+const TITLE_SUMMARY_CRITICAL_GROUPS = [
+  ['员工', '雇员'],
+  ['高管', 'ceo', '首席执行官', '管理层', '董事会'],
+  ['不信任', '质疑', '分歧', '内斗'],
+  ['离职', '辞职', '解雇', '罢免'],
+  ['威胁', '攻击', '摧毁'],
+  ['融资', '募资', '领投', '跟投'],
+  ['收购', '并购'],
+  ['发布', '推出', '上线', '开放', '更新', '接入']
+];
 
 function getCategoryQuotaPlan(targetCount) {
   const basePlan = [
@@ -193,6 +203,20 @@ function hasTitleSummaryConsistency(title, summary = '') {
 
   for (const location of LOCATION_KEYWORDS) {
     if (title.includes(location) && !summary.includes(location)) {
+      return false;
+    }
+  }
+
+  const lowerTitle = title.toLowerCase();
+  const lowerSummary = summary.toLowerCase();
+  for (const group of TITLE_SUMMARY_CRITICAL_GROUPS) {
+    const titleMatched = group.some(term => lowerTitle.includes(term.toLowerCase()));
+    if (!titleMatched) {
+      continue;
+    }
+
+    const summaryMatched = group.some(term => lowerSummary.includes(term.toLowerCase()));
+    if (!summaryMatched) {
       return false;
     }
   }

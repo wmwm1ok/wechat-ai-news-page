@@ -66,6 +66,34 @@ const INFOQ_ROUNDUP_PATTERNS = [
   /AI周报/,
   /本周AI领域的重要进展包括/
 ];
+const MULTI_TOPIC_ACTION_PATTERNS = [
+  /发布/,
+  /推出/,
+  /上线/,
+  /更新/,
+  /完成/,
+  /融资/,
+  /收购/,
+  /签订/,
+  /签署/,
+  /达成/,
+  /商用/,
+  /开源/,
+  /曝光/
+];
+const ROUNDUP_ENTITY_PATTERNS = [
+  { label: 'openai', pattern: /openai/i },
+  { label: 'microsoft', pattern: /微软|microsoft/i },
+  { label: 'google', pattern: /谷歌|google/i },
+  { label: 'meta', pattern: /meta/i },
+  { label: 'anthropic', pattern: /anthropic/i },
+  { label: '阿里', pattern: /阿里|qwen/i },
+  { label: '字节', pattern: /字节|豆包/i },
+  { label: '百度', pattern: /百度|文心/i },
+  { label: '腾讯', pattern: /腾讯|混元/i },
+  { label: '荣耀', pattern: /荣耀/ },
+  { label: '京东', pattern: /京东/ }
+];
 
 function isCfcFastMode() {
   return process.env.CFC_FAST_MODE === 'true';
@@ -164,6 +192,26 @@ function countPatternMatches(patterns, text) {
   return patterns.reduce((count, pattern) => count + (pattern.test(text) ? 1 : 0), 0);
 }
 
+function countDistinctEntities(text) {
+  const normalized = String(text || '');
+  const matched = ROUNDUP_ENTITY_PATTERNS
+    .filter(item => item.pattern.test(normalized))
+    .map(item => item.label);
+  return new Set(matched).size;
+}
+
+function isMultiTopicRoundupTitle(title = '') {
+  const normalizedTitle = String(title || '').trim();
+  const clauses = normalizedTitle.split(/[，,；;]/).map(part => part.trim()).filter(Boolean);
+  if (clauses.length < 3) {
+    return false;
+  }
+
+  const actionHits = countPatternMatches(MULTI_TOPIC_ACTION_PATTERNS, normalizedTitle);
+  const entityCount = countDistinctEntities(normalizedTitle);
+  return actionHits >= 2 && entityCount >= 2;
+}
+
 export function isSourceQualifiedNewsItem(item, sourceName = '') {
   if (sourceName === '36氪') {
     const title = `${item?.title || ''}`;
@@ -197,6 +245,10 @@ export function isSourceQualifiedNewsItem(item, sourceName = '') {
       INFOQ_ROUNDUP_PATTERNS.some(pattern => pattern.test(`${title} ${snippet}`)) &&
       title.split(/[，,]/).filter(Boolean).length >= 3
     ) {
+      return false;
+    }
+
+    if (isMultiTopicRoundupTitle(title)) {
       return false;
     }
   }

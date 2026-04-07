@@ -118,7 +118,8 @@ export function filterAgainstPreviousEdition(items, previousNews, targetCount = 
     return {
       kept: items || [],
       removed: [],
-      restored: []
+      restored: [],
+      reusableRemovedItems: []
     };
   }
 
@@ -172,7 +173,14 @@ export function filterAgainstPreviousEdition(items, previousNews, targetCount = 
       matchedWith: removal.matchedWith
     }));
 
-  return { kept, removed: finalRemoved, restored };
+  return {
+    kept,
+    removed: finalRemoved,
+    restored,
+    reusableRemovedItems: reusableRemoved
+      .filter(removal => !keptIndexes.has(removal.index))
+      .map(removal => removal.item)
+  };
 }
 
 function filterFinalIntegrity(items) {
@@ -201,6 +209,33 @@ function filterFinalIntegrity(items) {
   }
 
   return { kept, removed };
+}
+
+function restoreReusablePreviousDayItems(items, reusableRemovedItems, targetCount) {
+  if (!Array.isArray(items) || !Array.isArray(reusableRemovedItems) || items.length >= targetCount || reusableRemovedItems.length === 0) {
+    return {
+      kept: items || [],
+      restored: []
+    };
+  }
+
+  const keptKeys = new Set(items.map(item => item.url || item.title));
+  const candidates = reusableRemovedItems.filter(item => !keptKeys.has(item.url || item.title));
+  if (candidates.length === 0) {
+    return {
+      kept: items,
+      restored: []
+    };
+  }
+
+  const shortage = Math.max(0, targetCount - items.length);
+  const integrityChecked = filterFinalIntegrity(candidates);
+  const restored = integrityChecked.kept.slice(0, shortage);
+
+  return {
+    kept: [...items, ...restored],
+    restored
+  };
 }
 
 async function loadYesterdayNews(baseDir, referenceDate = new Date()) {
@@ -381,7 +416,15 @@ export async function runDailyNews(options = {}) {
   if (integrityFiltered.removed.length > 0) {
     console.log(`\n🧪 最终一致性过滤: 额外过滤 ${integrityFiltered.removed.length} 条标题与摘要不一致或相关性不足的候选`);
   }
-  const filteredRefinedNews = integrityFiltered.kept;
+  const latePreviousDayRestore = restoreReusablePreviousDayItems(
+    integrityFiltered.kept,
+    previousEditionFiltered.reusableRemovedItems,
+    targetCount
+  );
+  if (latePreviousDayRestore.restored.length > 0) {
+    console.log(`\n🪫 末端回补: 在最终候选仍不足时，额外恢复 ${latePreviousDayRestore.restored.length} 条前一天候补`);
+  }
+  const filteredRefinedNews = latePreviousDayRestore.kept;
   const displayReadyNews = filteredRefinedNews.filter(item => isDisplayReadyNews(item));
   const fallbackDisplayNews = filteredRefinedNews.filter(item =>
     !displayReadyNews.some(readyItem => (readyItem.url || readyItem.title) === (item.url || item.title)) &&
@@ -484,6 +527,7 @@ export async function runDailyNews(options = {}) {
         refinedCount: refinedNews.length,
         previousEditionRemovedCount: previousEditionFiltered.removed.length,
         previousEditionRestoredCount: previousEditionFiltered.restored.length,
+        previousEditionLateRestoredCount: latePreviousDayRestore.restored.length,
         integrityRemovedCount: integrityFiltered.removed.length,
         postEditionFilterCount: filteredRefinedNews.length,
         displayReadyCount: displayReadyNews.length,
