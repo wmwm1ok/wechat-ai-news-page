@@ -3,7 +3,7 @@
   "edition": "daily",
   "editionLabel": "每日精选",
   "title": "AI资讯每日精选-2026/4/7",
-  "generatedAt": "2026/4/7 10:43",
+  "generatedAt": "2026/4/7 10:55",
   "count": 12,
   "targetCount": 14,
   "diagnostics": {
@@ -12,9 +12,9 @@
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 17,
+      "domesticBeforeDedup": 18,
       "overseasBeforeDedup": 8,
-      "domesticAfterDedup": 17,
+      "domesticAfterDedup": 18,
       "overseasAfterDedup": 8,
       "domesticSources": [
         {
@@ -44,7 +44,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 1,
+          "count": 2,
           "error": null
         }
       ],
@@ -95,58 +95,48 @@
       }
     },
     "summarize": {
-      "totalSummarized": 25
+      "totalSummarized": 26
     },
     "scoring": {
-      "totalInput": 25,
-      "totalScored": 18,
+      "totalInput": 26,
+      "totalScored": 17,
       "strictScoredCount": 13,
       "relaxedCandidateCount": 1,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 6,
-      "selectedCandidateCount": 18,
-      "duplicateCount": 5,
-      "crossDayDuplicateCount": 5,
+      "weakSummaryCount": 5,
+      "selectedCandidateCount": 17,
+      "duplicateCount": 4,
+      "crossDayDuplicateCount": 4,
       "lowQualityCount": 1,
       "domesticAvailable": 12,
-      "overseasAvailable": 6,
+      "overseasAvailable": 5,
       "sourceCount": {
+        "InfoQ": 3,
         "36氪": 4,
-        "InfoQ": 4,
-        "量子位": 3,
+        "量子位": 4,
         "雷锋网": 1,
         "TechCrunch AI": 2,
         "The Verge AI": 1,
-        "Ars Technica": 1,
         "MIT Technology Review": 1,
         "Tech Xplore": 1
       }
     },
     "display": {
-      "refinedCount": 18,
-      "previousEditionRemovedCount": 4,
+      "refinedCount": 17,
+      "previousEditionRemovedCount": 3,
       "previousEditionRestoredCount": 1,
-      "integrityRemovedCount": 2,
+      "previousEditionLateRestoredCount": 2,
+      "integrityRemovedCount": 4,
       "postEditionFilterCount": 12,
-      "displayReadyCount": 8,
-      "fallbackDisplayCount": 3,
+      "displayReadyCount": 9,
+      "fallbackDisplayCount": 2,
       "reserveDisplayCount": 1,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 4,
+      "removedWeakSummaries": 3,
       "shortage": 2
     }
   },
   "articles": [
-    {
-      "section": "投融资与并购",
-      "title": "阿里发布Qwen3.5-Omni与Qwen3.6-Plus，微软商用自研AI模型，OpenAI完成大规模融资",
-      "company": "月之暗面",
-      "url": "https://www.infoq.cn/article/MJmMrcJzh7vo6egI3Bbz?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 07 Apr 2026 10:29:51 GMT",
-      "summary": "阿里发布两款AI模型：Qwen3.5-Omni在215项音视频任务中超越Gemini-3.1 Pro，支持113种语言识别，并能通过摄像头语音交互生成代码；Qwen3.6-Plus则定位为中国编程能力最强的模型，可自主拆解并完成复杂编程任务。",
-      "score": 48
-    },
     {
       "section": "技术与研究",
       "title": "机器人黑客松揭示具身智能差距与机遇",
@@ -154,17 +144,27 @@
       "url": "https://www.infoq.cn/article/0T9Kw9O0obj0wV2NizC7?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Tue, 07 Apr 2026 10:30:32 GMT",
-      "summary": "自变量公司CTO王昊指出，公司核心是持续迭代基模，并警告不应为追求机器人快速落地而堆砌过多针对性模型和工程补丁，以免长期损害基模能力。他分析当前具身智能训练误区，认为过去将不同模态数据分开训练再对齐的方式可能牺牲视觉能力，而具身场景需要语言、视觉与动作在信息尺度上自然融合。",
-      "score": 26
+      "summary": "自变量公司CTO王昊指出，公司核心是持续迭代基模，反对为快速落地而堆砌针对性模型和工程补丁，认为这会损害基模长期发展。他强调，具身智能需融合语言宏观意图与视频模型像素级细节，以处理厘米级空间和秒级时间的连续动作变化，避免过去训练中牺牲视觉能力的误区。",
+      "score": 32
+    },
+    {
+      "section": "技术与研究",
+      "title": "Ilya曝光70页OpenAI绝密文件",
+      "company": "OpenAI",
+      "url": "https://www.qbitai.com/2026/04/396880.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 07 Apr 2026 02:15:57 +0000",
+      "summary": "OpenAI联合创始人Ilya Sutskever泄露了一份70页的内部文件，内容包含Slack聊天记录和内部文件。他通过避开公司设备、用手机拍摄关键内容，并使用会自动消失的消息发送给董事会的方式完成泄露，此事被内部员工称为“The Blip”。",
+      "score": 31
     },
     {
       "section": "产品发布与更新",
-      "title": "谷歌悄然推出支持离线的AI听写应用",
+      "title": "谷歌悄然推出可离线使用的AI听写应用",
       "company": "Google",
       "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 06 Apr 2026 18:54:33 +0000",
-      "summary": "谷歌推出名为“AI Edge Eloquent”的AI听写应用，核心变化是优先支持离线使用，并采用Gemma模型进行本地处理。具体信息点包括：1. 应用能自动过滤“嗯”、“啊”等口头语和中间修正，输出简洁文本；2. 可设置为安卓默认键盘，通过悬浮按钮随时听写，类似竞品Wispr Flow。",
+      "summary": "谷歌在iOS平台推出名为“AI Edge Eloquent”的AI听写应用，主打离线优先，核心功能是智能过滤口语中的“嗯”、“啊”等填充词和自我修正，输出干净文本。应用可设置为安卓默认键盘实现全局调用，并支持从Gmail导入专有名词。",
       "score": 26
     },
     {
@@ -174,7 +174,7 @@
       "url": "https://www.qbitai.com/2026/04/396535.html",
       "source": "量子位",
       "publishedAt": "Sun, 05 Apr 2026 09:06:59 +0000",
-      "summary": "OpenAI正从多个维度持续提升AI能力，而非从零开始。例如，其Codex应用已作为通用智能体框架在内部被员工自发用于处理电子表格、文档等知识工作，并擅长编写软件。随着模型变得更聪明，用户将感觉AI更懂意图，减少重复解释，并能解决更开放、长期的问题。",
+      "summary": "OpenAI正从多个维度持续提升AI能力，而非从零开始。例如，其Codex应用已作为通用智能体框架在内部被员工自发用于处理电子表格、文档等知识工作，未来将分步优化以更友好地支持此类任务。",
       "score": 25
     },
     {
@@ -184,52 +184,52 @@
       "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
       "source": "TechCrunch AI",
       "publishedAt": "Mon, 06 Apr 2026 15:55:55 +0000",
-      "summary": "OpenAI发布应对AI经济影响的政策建议，包含多个具体措施：一是提议企业资助员工实现不减薪的四天工作周，并承担更多医疗、养老及育儿/养老护理补贴，但将其定位为企业责任而非政府义务；二是建议对AI利润、企业高收入或资本利得增税，并探讨向替代人类的机器人征税。",
+      "summary": "OpenAI发布一系列应对AI经济影响的政策建议，具体包括：1. 提议向AI利润征税并设立公共财富基金，以应对失业和不平等问题；2. 建议企业承担更多社会责任，如补贴四天工作制、提高医保和退休金比例，但未直接覆盖最可能被AI取代的岗位。",
       "score": 24
     },
     {
       "section": "政策与监管",
-      "title": "伊朗威胁OpenAI在阿布扎比的Stargate数据中心",
+      "title": "伊朗威胁将攻击OpenAI在阿布扎比的Stargate数据中心",
       "company": "OpenAI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
       "source": "The Verge AI",
       "publishedAt": "2026-04-06T15:54:19.000Z",
-      "summary": "伊朗伊斯兰革命卫队于4月3日发布视频，威胁若美国攻击伊朗发电厂，将摧毁OpenAI计划在阿联酋阿布扎比建设的价值300亿美元的Stargate数据中心。该视频展示了据称来自谷歌地图的卫星图像，并错误地将思科高管识别为微软CEO。",
-      "score": 23
-    },
-    {
-      "section": "政策与监管",
-      "title": "OpenAI内部员工不信任CEO萨姆·奥尔特曼",
-      "company": "OpenAI",
-      "url": "https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/",
-      "source": "Ars Technica",
-      "publishedAt": "Mon, 06 Apr 2026 21:23:36 +0000",
-      "summary": "OpenAI为应对公众对AI的负面看法，提出了一系列具体政策建议。其中包括：推动试行每周32小时/四天工作制且薪酬不变；建议对自动化劳动力征税，以资助社会保障等核心项目；设立高达100万美元的API信用额度，资助基于其政策理念的研究。",
-      "score": 22
+      "summary": "伊朗伊斯兰革命卫队于4月3日发布视频，明确威胁若美国攻击伊朗发电厂，将摧毁该地区与美国相关的能源和科技公司。视频中特别展示了OpenAI计划在阿联酋建造的、价值300亿美元的Stargate数据中心图片，该数据中心是OpenAI总投资500亿美元项目的一部分，并已获得甲骨文、英伟达等公司投资。",
+      "score": 24
     },
     {
       "section": "技术与研究",
-      "title": "研究表明可解释性是老年人信任AI的必要条件",
+      "title": "研究显示：可解释性是老年人信任AI的必要条件",
       "company": "AI Caring",
       "url": "https://techxplore.com/news/2026-04-older-adults-ai.html",
       "source": "Tech Xplore",
       "publishedAt": "Mon, 06 Apr 2026 11:20:03 EDT",
-      "summary": "AI Caring的一项研究聚焦于老年人对可解释人工智能的期望。研究发现，对于语音激活的对话式AI助手，老年人是否信任其建议，关键在于AI能否为其建议提供清晰的解释。这项研究旨在解决老年人因不理解AI决策逻辑而可能产生不信任的问题，强调了在面向老年群体的AI应用中，可解释性设计是建立信任的必要条件。",
+      "summary": "AI Caring的一项研究聚焦于老年人对可解释人工智能的期望。研究发现，语音激活的对话式AI助手必须为其建议提供清晰的解释，这是获得老年人信任的关键。该研究具体探讨了老年人对AI解释性的需求，旨在解决老年人因不理解AI决策逻辑而可能产生不信任的问题，从而提升AI助老服务的接受度。",
       "score": 18
     },
     {
-      "section": "投融资与并购",
-      "title": "赛富乐斯完成3亿元C轮融资，加速全彩AR微显示屏量产交付",
-      "company": "赛富乐斯",
-      "url": "https://36kr.com/p/3756111263384071?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-07 09:57:48  +0800",
-      "summary": "区别于行业普遍依赖的单点技术突破路径，赛富乐斯构建了从外延材料、芯片制造到光电集成的全链条技术体系。公司依托自研的大尺寸硅基键合、外延生长、量子点色转换等支柱技术，形成了完整的技术平台和产业化能力。目前，公司首条6英寸硅基Micro-LED产线已实现量产，并同步推动12英寸产线建设。",
-      "score": 38
+      "section": "技术与研究",
+      "title": "具身Scaling Law押对方向，机器人新品1小时学会新任务成功率99%",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/04/396694.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 06 Apr 2026 05:17:06 +0000",
+      "summary": "GEN-1机器人系统通过低成本穿戴设备捕捉数百万项人类活动记录进行训练，而非依赖昂贵的遥操作数据。其核心技术包括：采用Paged Attention技术高效调度计算资源，实现毫秒级动作指令响应；运用Harmonic Reasoning系统进行多路径推理，改变以往单一路径预测的死板模式。",
+      "score": 26
     },
     {
       "section": "技术与研究",
-      "title": "众筹近300万美元的Tiiny AI Pocket Lab：本地运行大模型的Agent盒子",
+      "title": "AI时代的架构治理：可执行架构清单与声明式方法",
+      "company": "",
+      "url": "https://www.infoq.cn/article/VFRyL5oDK269xIcp8SDi?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 06 Apr 2026 10:00:00 GMT",
+      "summary": "文章提出了一种用机器可读的声明式文件（如architecture.md）和自动化工具链来治理AI时代软件架构的方法，以解决传统人工治理模式效率低下、难以跟上AI开发速度的问题。该方法具体包括：1. 将架构规则（如服务间必须用Kafka异步通信、API需先定义OpenAPI规范）写入可执行清单。",
+      "score": 17
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "众筹近300万美元的Tiiny AI Pocket Lab：本地运行大模型的Agent Box",
       "company": "Tiiny AI",
       "url": "https://36kr.com/p/3754812277998083?f=rss",
       "source": "36氪",
@@ -238,7 +238,7 @@
       "score": 36
     },
     {
-      "section": "技术与研究",
+      "section": "投融资与并购",
       "title": "优必选2025年营收增长53.3%至20.01亿元，净亏损收窄至7.89亿元",
       "company": "优必选",
       "url": "https://www.leiphone.com/category/zaobao/OSd4ovZLTC2e5W4M.html",
