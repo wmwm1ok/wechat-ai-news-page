@@ -1,20 +1,20 @@
 {
-  "date": "2026/4/6",
-  "edition": "afternoon",
-  "editionLabel": "午后版",
-  "title": "AI 日报·午后版（Afternoon）",
-  "generatedAt": "2026/4/6 16:02",
-  "count": 9,
+  "date": "2026/4/7",
+  "edition": "morning",
+  "editionLabel": "早报",
+  "title": "AI 日报·早报（Morning）",
+  "generatedAt": "2026/4/7 08:00",
+  "count": 8,
   "targetCount": 14,
   "diagnostics": {
-    "previousEditionFile": "news-2026-04-06-morning.json",
+    "previousEditionFile": "news-2026-04-06-afternoon.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
       "domesticBeforeDedup": 16,
-      "overseasBeforeDedup": 2,
+      "overseasBeforeDedup": 8,
       "domesticAfterDedup": 16,
-      "overseasAfterDedup": 2,
+      "overseasAfterDedup": 8,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -51,25 +51,25 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 1,
+          "count": 3,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 0,
+          "count": 2,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
@@ -94,130 +94,124 @@
       }
     },
     "summarize": {
-      "totalSummarized": 18
+      "totalSummarized": 24
     },
     "scoring": {
-      "totalInput": 18,
-      "totalScored": 12,
-      "strictScoredCount": 10,
-      "relaxedCandidateCount": 2,
+      "totalInput": 24,
+      "totalScored": 10,
+      "strictScoredCount": 9,
+      "relaxedCandidateCount": 1,
       "relaxedUsedForSelection": true,
       "weakSummaryCount": 2,
-      "selectedCandidateCount": 12,
-      "duplicateCount": 3,
-      "crossDayDuplicateCount": 2,
+      "selectedCandidateCount": 10,
+      "duplicateCount": 8,
+      "crossDayDuplicateCount": 8,
       "lowQualityCount": 1,
-      "domesticAvailable": 12,
-      "overseasAvailable": 0,
+      "domesticAvailable": 4,
+      "overseasAvailable": 6,
       "sourceCount": {
-        "36氪": 4,
-        "量子位": 5,
-        "InfoQ": 3
+        "36氪": 3,
+        "量子位": 1,
+        "TechCrunch AI": 2,
+        "The Verge AI": 1,
+        "Ars Technica": 1,
+        "MIT Technology Review": 1,
+        "Tech Xplore": 1
       }
     },
     "display": {
-      "refinedCount": 12,
-      "previousEditionRemovedCount": 0,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 10,
-      "displayReadyCount": 8,
-      "fallbackDisplayCount": 1,
-      "reserveDisplayCount": 0,
+      "refinedCount": 10,
+      "previousEditionRemovedCount": 1,
+      "integrityRemovedCount": 1,
+      "postEditionFilterCount": 8,
+      "displayReadyCount": 7,
+      "fallbackDisplayCount": 0,
+      "reserveDisplayCount": 1,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 2,
-      "shortage": 5
+      "removedWeakSummaries": 1,
+      "shortage": 6
     }
   },
   "articles": [
     {
-      "section": "技术与研究",
-      "title": "GPT-6定价曝光及行业动态",
-      "company": "OpenAI",
-      "url": "https://www.qbitai.com/2026/04/396366.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 05 Apr 2026 04:49:33 +0000",
-      "summary": "GPT-6定价曝光，每百万Token输入2.5美元、输出12美元，与GPT-5.4相比价格变化不大。OpenAI承认因过度关注榜单排名，在编程领域被Anthropic超越并导致用户流失，同时其重要视频生成项目Sora被取消，影响了与迪士尼的潜在合作。",
-      "score": 41
-    },
-    {
-      "section": "投融资与并购",
-      "title": "AWOL Vision获近亿元B轮融资，新品众筹近2000万美元",
-      "company": "AWOL Vision",
-      "url": "https://36kr.com/p/3752260051616512?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-05 09:10:00  +0800",
-      "summary": "高端智能投影品牌AWOL Vision近日完成近亿元B轮融资，资金将用于研发超短焦与长焦激光显示技术，并构建能理解用户习惯的“家庭AI智能娱乐平台”。其新款超短焦4K三色激光投影Aetherion在Kickstarter众筹近2000万美元，加上子品牌Valerion的项目，累计众筹超2亿元。",
-      "score": 40
-    },
-    {
-      "section": "技术与研究",
-      "title": "具身Scaling Law验证成功：机器人新品1小时学会新任务，重复1800次成功率99%",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/04/396694.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 06 Apr 2026 05:17:06 +0000",
-      "summary": "一款名为GEN-1的机器人新品展现出类似人类的直觉，例如在物品塞不进袋子时会自发晃动袋子。其核心技术包括：1. Paged Attention系统，通过高效调度计算资源，确保动作指令毫秒级响应，使AI能跟上现实物理节奏。",
-      "score": 39
-    },
-    {
       "section": "政策与监管",
-      "title": "红果短剧专项治理AI短剧素材违规使用，处置违规作品670部",
-      "company": "红果短剧",
-      "url": "https://36kr.com/newsflashes/3754835385614848?f=rss",
+      "title": "Anthropic宣布年化收入超300亿美元并与谷歌博通签署新算力协议",
+      "company": "Anthropic",
+      "url": "https://36kr.com/newsflashes/3755986449105415?f=rss",
       "source": "36氪",
-      "publishedAt": "2026-04-06 12:24:58  +0800",
-      "summary": "红果短剧平台于4月6日发布专项治理公告，针对近期AI短剧素材违规使用问题频发的情况，已对平台内容展开集中核查与处置。具体行动包括：第一，已完成对1.5万部作品的全面核查；第二，依据平台规范，累计下架了670部违规作品。",
+      "publishedAt": "2026-04-07 07:52:55  +0800",
+      "summary": "人工智能公司Anthropic于4月6日宣布两项关键进展。第一，公司与谷歌和博通签署新协议，将采购数吉瓦的下一代TPU算力以增强其基础设施。第二，由于旗下AI助手Claude的客户需求加速增长，公司年化收入已超过300亿美元，远高于2025年底约90亿美元的水平。",
+      "score": 32
+    },
+    {
+      "section": "技术与研究",
+      "title": "OpenAI新模型并非GPTX，内部推进通用智能体框架",
+      "company": "OpenAI",
+      "url": "https://www.qbitai.com/2026/04/396535.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 05 Apr 2026 09:06:59 +0000",
+      "summary": "OpenAI正分步推进其通用智能体框架，起点是Codex应用。该框架不仅能调用工具和编写软件，还能接入电子表格等处理知识工作，目前内部已有许多自发使用案例。具体进展包括：AI已能从版本5.2升级到5.3，协助工程师完成从设计方案到实现、优化等底层系统工程任务。",
       "score": 31
     },
     {
       "section": "产品发布与更新",
-      "title": "Pinterest部署生产级模型上下文协议生态系统，赋能AI智能体工作流",
-      "company": "Pinterest",
-      "url": "https://www.infoq.cn/article/04DleCzUztGhKgo26Mmk?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 05 Apr 2026 10:00:00 GMT",
-      "summary": "Pinterest构建了一套生产就绪的模型上下文协议（MCP）生态系统，以支持AI智能体工作流。其核心是部署一组云托管、按领域（如Presto、Spark）划分的专用MCP服务器，而非单一服务，旨在抑制上下文膨胀、实现工具隔离并支持细粒度访问控制。",
-      "score": 27
+      "title": "谷歌悄然推出支持离线的AI听写应用",
+      "company": "Google",
+      "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 06 Apr 2026 18:54:33 +0000",
+      "summary": "谷歌在iOS平台推出了一款名为“Google AI Edge Eloquent”的AI听写应用，其核心特点是支持完全离线处理，并利用Gemma模型自动过滤“嗯”、“啊”等口头语和中间自我修正，输出干净文本。",
+      "score": 28
     },
     {
       "section": "政策与监管",
-      "title": "AI时代下的架构治理：从人工监督到声明式自动化",
-      "company": "",
-      "url": "https://www.infoq.cn/article/VFRyL5oDK269xIcp8SDi?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 06 Apr 2026 10:00:00 GMT",
-      "summary": "文章提出用声明式自动化解决AI时代架构治理难题。具体方法包括：1. 将架构规则（如服务间必须用Kafka异步通信、API需先定义OpenAPI规范）写入机器可读文件（如architecture.md），并集成到开发工具中自动校验，使合规成为默认路径。",
+      "title": "OpenAI描绘AI经济愿景：公共财富基金、机器人税与四天工作周",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 06 Apr 2026 15:55:55 +0000",
+      "summary": "OpenAI发布应对AI经济影响的具体政策建议，包括：1. 向企业征收AI利润税或机器人税，以建立公共财富基金并扩大社会安全网；2. 建议企业承担更多社会责任，如补贴四天工作周、提高医保和退休金比例，但未直接覆盖最可能被AI取代的失业人群。",
+      "score": 24
+    },
+    {
+      "section": "政策与监管",
+      "title": "伊朗威胁将攻击OpenAI在阿布扎比的Stargate数据中心",
+      "company": "OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-06T15:54:19.000Z",
+      "summary": "伊朗伊斯兰革命卫队（IRGC）于4月3日发布视频，威胁若美国攻击伊朗发电厂，将彻底摧毁该地区与美国相关的能源和科技公司。视频中明确展示了OpenAI计划在阿联酋建造的价值300亿美元的Stargate数据中心图片，并错误地将思科高管标注为微软CEO。",
+      "score": 24
+    },
+    {
+      "section": "政策与监管",
+      "title": "OpenAI内部员工不信任CEO萨姆·奥尔特曼",
+      "company": "OpenAI",
+      "url": "https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/",
+      "source": "Ars Technica",
+      "publishedAt": "Mon, 06 Apr 2026 21:23:36 +0000",
+      "summary": "OpenAI为应对公众对AI的负面看法，提出了一系列具体政策建议。其中包括：推动试行每周32小时、四天工作制且薪酬不变；建议对自动化劳动力征税，以资助社会保障等核心项目；设立最高100万美元的研究资助计划，以支持相关政策研究。公司承认需警惕AI失控或政府滥用等极端风险，并承诺保持透明以建立信任。",
       "score": 22
     },
     {
       "section": "技术与研究",
-      "title": "有道龙虾LobsterAI的养成与实践｜QCon北京技术分享",
-      "company": "有道",
-      "url": "https://www.infoq.cn/article/yS2ckf9u8eUVflGIjdcF?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 06 Apr 2026 10:00:00 GMT",
-      "summary": "网易有道技术专家刘刚将在QCon北京分享有道龙虾LobsterAI的研发实践。他负责有道智能硬件服务端技术，并主导了词典笔、答疑笔等硬件上小P老师、视频答疑等AI教育产品的落地。",
-      "score": 21
-    },
-    {
-      "section": "技术与研究",
-      "title": "太初元碁向员工发放百亿算力token并共建高校AI科教融合学院",
-      "company": "太初元碁",
-      "url": "https://www.qbitai.com/2026/04/396533.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 05 Apr 2026 08:53:12 +0000",
-      "summary": "太初元碁在五周年大会上宣布两项具体举措。其一，向20位员工发放了总价值约100万元、来自国产智算中心的百亿算力token，作为“算力福利”以鼓励员工自主进行AI Agent的创新尝试。",
+      "title": "研究显示：可解释性是老年人信任AI的必要条件",
+      "company": "AI Caring",
+      "url": "https://techxplore.com/news/2026-04-older-adults-ai.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Mon, 06 Apr 2026 11:20:03 EDT",
+      "summary": "AI Caring的一项研究聚焦于老年人对可解释人工智能（XAI）的期望。研究发现，语音激活的对话式AI助手必须为其建议提供清晰的解释，否则老年人不太可能信任它们。该研究具体探讨了老年人对AI解释内容的需求，旨在解决AI在老年护理等场景中因缺乏透明度而导致的信任问题。",
       "score": 18
     },
     {
       "section": "技术与研究",
-      "title": "众筹近300万美元的Tiiny AI Pocket Lab：本地运行大模型的Agent盒子",
-      "company": "Tiiny AI",
-      "url": "https://36kr.com/p/3754812277998083?f=rss",
+      "title": "荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作",
+      "company": "荣耀,京东",
+      "url": "https://36kr.com/p/3755161993675523?f=rss",
       "source": "36氪",
-      "publishedAt": "2026-04-06 11:53:43  +0800",
-      "summary": "PowerInfer是用于端侧的异构算力推理加速技术，Tiiny AI团队通过大量的数据测算和语料训练发现，大模型推理过程中，参数激活模式分为两类：“热激活参数”（每次与模型交互都会调用的核心参数，约占20%）和“冷激活参数”（仅在用户问到医学、法律等特定领域问题时激活，约占80%）。",
-      "score": 44
+      "publishedAt": "2026-04-06 17:48:30  +0800",
+      "summary": "荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作讲的是个人或团队围绕 AI 工具展开实践，公开片段显示主角借助相关工具承接任务或尝试创业。",
+      "score": 23
     }
   ]
 }

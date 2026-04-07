@@ -1,0 +1,177 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "谷歌悄然推出支持离线的AI听写应用",
+      "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+      "snippet": "Google's new offline-first dictation app uses Gemma AI models to take on the apps like Wispr Flow.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 06 Apr 2026 18:54:33 +0000",
+      "region": "海外",
+      "summary": "谷歌在iOS平台推出了一款名为“Google AI Edge Eloquent”的AI听写应用，其核心特点是支持完全离线处理，并利用Gemma模型自动过滤“嗯”、“啊”等口头语和中间自我修正，输出干净文本。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 28,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "OpenAI新模型并非GPTX，内部推进通用智能体框架",
+      "url": "https://www.qbitai.com/2026/04/396535.html",
+      "snippet": "正面回应了和Anthropic的竞争",
+      "source": "量子位",
+      "publishedAt": "Sun, 05 Apr 2026 09:06:59 +0000",
+      "region": "国内",
+      "summary": "OpenAI正分步推进其通用智能体框架，起点是Codex应用。该框架不仅能调用工具和编写软件，还能接入电子表格等处理知识工作，目前内部已有许多自发使用案例。具体进展包括：AI已能从版本5.2升级到5.3，协助工程师完成从设计方案到实现、优化等底层系统工程任务。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 31,
+      "breakdown": {
+        "substance": 12,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "研究显示：可解释性是老年人信任AI的必要条件",
+      "url": "https://techxplore.com/news/2026-04-older-adults-ai.html",
+      "snippet": "Voice-activated, conversational artificial intelligence (AI) agents must provide clear explanations for their suggestions, or older adults aren't likely to trust them. That's one of the main findings from a study by AI Caring on what older adults expect from explainable AI (XAI).",
+      "source": "Tech Xplore",
+      "publishedAt": "Mon, 06 Apr 2026 11:20:03 EDT",
+      "region": "海外",
+      "summary": "AI Caring的一项研究聚焦于老年人对可解释人工智能（XAI）的期望。研究发现，语音激活的对话式AI助手必须为其建议提供清晰的解释，否则老年人不太可能信任它们。该研究具体探讨了老年人对AI解释内容的需求，旨在解决AI在老年护理等场景中因缺乏透明度而导致的信任问题。",
+      "category": "技术与研究",
+      "company": "AI Caring",
+      "score": 18,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作",
+      "url": "https://36kr.com/p/3755161993675523?f=rss",
+      "snippet": "4月2日，荣耀与京东签订战略合作协议，正式建立全方位战略合作伙伴关系，双方将围绕产品共创、用户共营、生态共享三大核心领域，构建全面覆盖、深度融合、价值共生的新型合作体系，致力于实现三年累计规模超1000亿元的全领域合作目标。 官方图片 产品共创方面，荣耀与京东将围绕手机、全场景、AIoT、机器人等各领域产品的全生命周期进行深度协作。双方将推进战略新品首发合作，共同打造行业爆品，基于各自优势，联合开展IP与C2M定制项目，推动行业级创新。双方将针对外卖骑手、快递员、游戏玩家等特定用户人群进行产品共创，将荣耀的软硬件定制能力与京东的用户洞察有机结合，打造更多基于场景的产品亮点，同时，双方将协同进行产品的生命周期管理，不断提升合作规模。 用户共营方面，荣耀与京东将整合全链路营销能力与资源，通过联合会员运营、精准人群触达等，为用户提供超预期的焕新体验。同时，双方将在电竞、运动健康等核心场景展开深度合作，探索数据赋能与广告创新的更多可能。 生态共享方面，荣耀与京东将在更广阔的生态领域加深战略合作，共同探索新增长曲线。双方将携手推动AI合作共创与用户体验提升，基于荣耀领先的端侧大模型能力与京东的高质量AI服务、JoyAI大模型和JoyInside等AI生态，共同打造商品导购、生活服务、金融理财等场景的创新体验，并围绕机器人和智能硬件生态领域展开合作，例如，京东线下门店将试点部署荣耀机器人用于引流导购。双方还将深化全渠道与O2O协作，共同提升即时零售业务，依托荣耀终端产品和京东Joybuy平台，携手拓展海外市场，促进国内外物流仓储合作，并在科技、金融、保险等领域进一步加强合作。 作为全球领先的AI终端生态公司，荣耀致力于通过开放、共创、共享不断拓展产业边界，与合作伙伴携手构筑智慧生态，共建智慧世界。此次战略合作中，荣耀与京东将锚定关键业务领域，突破固有限制与瓶颈，共同推动双方业务的实质性、跨越式增长，为全球消费者打造更加极致的产品与服务。",
+      "source": "36氪",
+      "publishedAt": "2026-04-06 17:48:30  +0800",
+      "region": "国内",
+      "summary": "荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作讲的是个人或团队围绕 AI 工具展开实践，公开片段显示主角借助相关工具承接任务或尝试创业。",
+      "category": "技术与研究",
+      "company": "荣耀,京东",
+      "score": 23,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [],
+  "政策与监管": [
+    {
+      "title": "Anthropic宣布年化收入超300亿美元并与谷歌博通签署新算力协议",
+      "url": "https://36kr.com/newsflashes/3755986449105415?f=rss",
+      "snippet": "Anthropic当地时间4月6日宣布与谷歌和博通签署新协议，将采购数吉瓦的下一代TPU算力。Anthropic称，今年Claude客户的需求加速增长，公司年化收入已超300亿美元，高于2025年底的约90亿美元。（界面）",
+      "source": "36氪",
+      "publishedAt": "2026-04-07 07:52:55  +0800",
+      "region": "国内",
+      "summary": "人工智能公司Anthropic于4月6日宣布两项关键进展。第一，公司与谷歌和博通签署新协议，将采购数吉瓦的下一代TPU算力以增强其基础设施。第二，由于旗下AI助手Claude的客户需求加速增长，公司年化收入已超过300亿美元，远高于2025年底约90亿美元的水平。",
+      "category": "政策与监管",
+      "company": "Anthropic",
+      "score": 32,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI描绘AI经济愿景：公共财富基金、机器人税与四天工作周",
+      "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+      "snippet": "OpenAI proposes taxes on AI profits, public wealth funds, and expanded safety nets to address job loss and inequality, blending redistribution with capitalism as policymakers debate AI’s economic impact.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 06 Apr 2026 15:55:55 +0000",
+      "region": "海外",
+      "summary": "OpenAI发布应对AI经济影响的具体政策建议，包括：1. 向企业征收AI利润税或机器人税，以建立公共财富基金并扩大社会安全网；2. 建议企业承担更多社会责任，如补贴四天工作周、提高医保和退休金比例，但未直接覆盖最可能被AI取代的失业人群。",
+      "category": "政策与监管",
+      "company": "OpenAI",
+      "score": 24,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "伊朗威胁将攻击OpenAI在阿布扎比的Stargate数据中心",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
+      "snippet": "An October 2025 image of OpenAI’s UAE Stargate data center under construction. | Image: G42 Iran's Islamic Revolutionary Guard Corps (IRGC) has published a video threatening OpenAI's planned Abu Dhabi data center if the US follows through on threats to attack the country's power plants, as reported earlier by Tom's Hardware. The video, which was published to an Iranian state-backed news outlet's X account on April 3rd, says the IRGC will carry out the \"complete and utter annihilation\" of US-linked energy and technology companies in the region, before showing an image of OpenAI's $30 billion in-progress Stargate facility in the United Arab Emirates. OpenAI's overarching $500 billion Stargate project includes investments from Oracle … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-06T15:54:19.000Z",
+      "region": "海外",
+      "summary": "伊朗伊斯兰革命卫队（IRGC）于4月3日发布视频，威胁若美国攻击伊朗发电厂，将彻底摧毁该地区与美国相关的能源和科技公司。视频中明确展示了OpenAI计划在阿联酋建造的价值300亿美元的Stargate数据中心图片，并错误地将思科高管标注为微软CEO。",
+      "category": "政策与监管",
+      "company": "OpenAI",
+      "score": 24,
+      "breakdown": {
+        "substance": 1,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI内部员工不信任CEO萨姆·奥尔特曼",
+      "url": "https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/",
+      "snippet": "OpenAI brainstorms ways AI can benefit humanity in effort to counter bad vibes.",
+      "source": "Ars Technica",
+      "publishedAt": "Mon, 06 Apr 2026 21:23:36 +0000",
+      "region": "海外",
+      "summary": "OpenAI为应对公众对AI的负面看法，提出了一系列具体政策建议。其中包括：推动试行每周32小时、四天工作制且薪酬不变；建议对自动化劳动力征税，以资助社会保障等核心项目；设立最高100万美元的研究资助计划，以支持相关政策研究。公司承认需警惕AI失控或政府滥用等极端风险，并承诺保持透明以建立信任。",
+      "category": "政策与监管",
+      "company": "OpenAI",
+      "score": 22,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
