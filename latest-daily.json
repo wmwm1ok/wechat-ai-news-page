@@ -1,21 +1,21 @@
 {
-  "date": "2026/4/7",
+  "date": "2026/4/8",
   "edition": "daily",
   "editionLabel": "每日精选",
-  "title": "AI资讯每日精选-2026/4/7",
-  "generatedAt": "2026/4/7 16:02",
+  "title": "AI资讯每日精选-2026/4/8",
+  "generatedAt": "2026/4/8 08:03",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-04-06-afternoon.json",
-    "previousEditionFile": "news-2026-04-06-afternoon.json",
+    "previousDayFile": "news-2026-04-07-daily.json",
+    "previousEditionFile": "news-2026-04-07-daily.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 21,
-      "overseasBeforeDedup": 8,
-      "domesticAfterDedup": 20,
-      "overseasAfterDedup": 8,
+      "domesticBeforeDedup": 24,
+      "overseasBeforeDedup": 18,
+      "domesticAfterDedup": 23,
+      "overseasAfterDedup": 18,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -44,7 +44,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 5,
+          "count": 8,
           "error": null
         }
       ],
@@ -52,37 +52,37 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 3,
+          "count": 6,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 2,
+          "count": 4,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 1,
+          "count": 2,
           "error": null
         },
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 1,
+          "count": 3,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 1,
+          "count": 2,
           "error": null
         }
       ],
@@ -95,108 +95,177 @@
       }
     },
     "summarize": {
-      "totalSummarized": 28
+      "totalSummarized": 41
     },
     "scoring": {
-      "totalInput": 28,
-      "totalScored": 22,
-      "strictScoredCount": 18,
-      "relaxedCandidateCount": 3,
+      "totalInput": 41,
+      "totalScored": 24,
+      "strictScoredCount": 12,
+      "relaxedCandidateCount": 4,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 8,
-      "selectedCandidateCount": 22,
-      "duplicateCount": 1,
-      "crossDayDuplicateCount": 1,
-      "lowQualityCount": 1,
-      "domesticAvailable": 16,
+      "weakSummaryCount": 12,
+      "selectedCandidateCount": 24,
+      "duplicateCount": 18,
+      "crossDayDuplicateCount": 14,
+      "lowQualityCount": 4,
+      "domesticAvailable": 18,
       "overseasAvailable": 6,
       "sourceCount": {
-        "36氪": 4,
+        "36氪": 3,
         "InfoQ": 5,
         "量子位": 5,
-        "雷锋网": 2,
+        "雷锋网": 5,
         "TechCrunch AI": 2,
+        "MIT Technology Review": 2,
         "The Verge AI": 1,
-        "Ars Technica": 1,
-        "MIT Technology Review": 1,
-        "Tech Xplore": 1
+        "Ars Technica": 1
       }
     },
     "display": {
-      "refinedCount": 22,
-      "previousEditionRemovedCount": 2,
+      "refinedCount": 24,
+      "previousEditionRemovedCount": 9,
       "previousEditionRestoredCount": 0,
-      "previousEditionLateRestoredCount": 0,
-      "integrityRemovedCount": 3,
-      "postEditionFilterCount": 17,
-      "displayReadyCount": 14,
-      "fallbackDisplayCount": 2,
+      "previousEditionLateRestoredCount": 3,
+      "integrityRemovedCount": 4,
+      "postEditionFilterCount": 14,
+      "displayReadyCount": 8,
+      "fallbackDisplayCount": 6,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 3,
+      "removedWeakSummaries": 6,
       "shortage": 0
     }
   },
   "articles": [
     {
+      "section": "技术与研究",
+      "title": "Claude情绪研究漏引华人团队成果，已道歉",
+      "company": "Anthropic",
+      "url": "https://www.qbitai.com/2026/04/397576.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 07 Apr 2026 09:09:48 +0000",
+      "summary": "Anthropic公司于4月2日发布了一篇关于Claude内部“情绪机制”的新论文，在Sonnet 4.5模型中发现了171种“情绪向量”。通过直接调节相关回路，该研究使AI生成指定情绪的准确率达到99.65%，远超此前的提示词引导和向量操控方法。",
+      "score": 39
+    },
+    {
+      "section": "技术与研究",
+      "title": "Meta员工为刷榜勋章空转AI消耗Token，日均达2万亿",
+      "company": "Meta",
+      "url": "https://www.qbitai.com/2026/04/397610.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 07 Apr 2026 09:13:40 +0000",
+      "summary": "Meta内部存在名为Claudeonomics的排行榜，实时追踪8.5万名员工的AI Token消耗量，员工为争夺“Token Legend”等勋章展开刷榜竞争。具体表现为：1. 员工专门构建循环运行的机器人来空转消耗Token，日均消耗量高达2万亿。",
+      "score": 36
+    },
+    {
+      "section": "投融资与并购",
+      "title": "英伟达支持的Firmus估值达55亿美元",
+      "company": "Firmus",
+      "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 07 Apr 2026 18:46:55 +0000",
+      "summary": "亚洲AI数据中心提供商Firmus获得了英伟达的支持。该公司在六个月内筹集了13.5亿美元资金，目前估值已达到55亿美元。",
+      "score": 30
+    },
+    {
+      "section": "技术与研究",
+      "title": "前苹果员工打造AI肩上宠物，获奇绩创坛投资，瞄准年轻人潮玩与社交市场",
+      "company": "Blinkko",
+      "url": "https://36kr.com/p/3756484693967619?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-07 16:14:49  +0800",
+      "summary": "前苹果员工沈彤欣创立的Blinkko项目，推出了一款可磁吸在肩膀上的AI毛绒宠物。该产品旨在成为年轻人线下社交的“许可信号”，其核心功能包括：通过内置轻量化AI模型感知用户情绪并做出肢体回应；配套App构建基于地理位置和兴趣的社交机制，鼓励用户线下相遇。",
+      "score": 24
+    },
+    {
+      "section": "政策与监管",
+      "title": "中东海水淡化厂日益脆弱",
+      "company": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/04/07/1135235/desalination-technology-water/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 07 Apr 2026 14:54:06 +0000",
+      "summary": "中东海水淡化厂因地区冲突升级而面临严重威胁。具体表现为：首先，该地区约四分之三的海水淡化厂毗邻发电厂，而发电厂已成为军事威胁目标，例如美国曾威胁打击伊朗电厂。其次，海湾六国（如巴林、卡塔尔、科威特）超过90%的饮用水依赖海水淡化，一旦大型设施受损将影响数百万人供水。",
+      "score": 21
+    },
+    {
+      "section": "投融资与并购",
+      "title": "英特尔将帮助建造埃隆·马斯克的Terafab AI芯片工厂",
+      "company": "Intel",
+      "url": "https://www.theverge.com/transportation/907976/elon-musk-terafab-intel-ai-chip-spacex-tesla",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-07T15:43:17.000Z",
+      "summary": "英特尔宣布将帮助设计和建造埃隆·马斯克在德克萨斯州奥斯汀的Terafab AI芯片工厂。该工厂将为马斯克的两家公司SpaceX和特斯拉供应AI芯片。马斯克需要AI芯片来推动其建造包括自动驾驶汽车和人形机器人在内的“机器人军团”的计划，以及用于他计划发射到太空的数据中心。",
+      "score": 18
+    },
+    {
       "section": "产品发布与更新",
-      "title": "阿里千问3.6Plus登顶全球大模型调用周榜冠军",
+      "title": "阿里千问3.6Plus问鼎全球大模型调用周榜冠军",
       "company": "阿里",
       "url": "https://www.qbitai.com/2026/04/396950.html",
       "source": "量子位",
       "publishedAt": "Tue, 07 Apr 2026 04:00:52 +0000",
-      "summary": "阿里发布的Qwen3.6-Plus模型在全球权威大模型竞技场Arena的编程能力子榜单中排名中国第一，使阿里成为全球编程能力排名第二的AI机构。该模型自4月3日起连续霸占OpenRouter日榜，并于4月7日凭借连续四天日榜冠军的成绩，问鼎OpenRouter全球大模型周调用量冠军。",
-      "score": 46
+      "summary": "阿里发布的编程模型Qwen3.6-Plus在全球权威大模型竞技场Arena的编程能力子榜单中排名中国第一，使阿里成为编程能力全球排名第二的AI机构。该模型在OpenRouter平台上连续四天霸占日榜榜首，并凭借此表现成功登顶该平台最新公布的全球大模型周调用量冠军。",
+      "score": 35
     },
     {
-      "section": "产品发布与更新",
-      "title": "Cursor 3发布引发IDE变革讨论，多家公司推出不同智能体编程方案",
+      "section": "技术与研究",
+      "title": "Cursor 3发布引发编程工具变革：IDE重要性下降，智能体控制台成为新焦点",
       "company": "Cursor",
       "url": "https://www.infoq.cn/article/t2evtKXuwXOUo9woSQyX?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Tue, 07 Apr 2026 11:41:00 GMT",
-      "summary": "Cursor 3的发布被视为编程工具从管理单一服务器向通过控制平面管理集群的重大转变，其智能体处理方式也迎来革新，IDE角色类似SSH，而Glass则相当于控制平面。",
+      "summary": "Cursor 3的发布标志着编程工具从管理单一服务器向通过控制平面管理服务器集群的重大转变，其中IDE的作用类似于SSH，而Glass则相当于控制平面。与此同时，Anthropic公司推出的终端优先编程智能体Claude Code在一年多时间内将年化收入提升至250亿美元，吸引了超过30万家企业客户。",
+      "score": 30
+    },
+    {
+      "section": "投融资与并购",
+      "title": "红熊AI完成2.1亿元A轮融资，切入物理AI赛道",
+      "company": "红熊AI",
+      "url": "https://36kr.com/p/3750675963904513?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-07 10:00:00  +0800",
+      "summary": "36氪获悉，企业级AI解决方案供应商「红熊AI」已于近日完成 2.1亿元A轮融资，投后估值超15亿元。本轮由华禹创投领投，老股东格睿丰投资、稼沃资本跟投，徐汇资本、上汽美元基金、嘉铭浩春、誉华资产等多家机构参与投资，三位创始团队成员也以本轮估值跟投约3000万元。",
+      "score": 47
+    },
+    {
+      "section": "投融资与并购",
+      "title": "雷军马云罕见同框投资，千寻智能30天完成30亿元融资",
+      "company": "千寻智能",
+      "url": "https://www.leiphone.com/category/ai/ipevOwCEqpoqypW9.html",
+      "source": "雷锋网",
+      "publishedAt": "Tue, 07 Apr 2026 15:12:00 +0800",
+      "summary": "2026年4月7日，千寻智能完成新一轮10亿元融资，由雷军创办的顺为资本和马云参与创立的云锋基金联合领投。这是该公司继2月份完成近20亿元融资后，30天内完成的第二轮融资，累计金额达30亿元。",
       "score": 38
     },
     {
       "section": "产品发布与更新",
-      "title": "下一代OpenClaw将率先支持阿里千问大模型",
-      "company": "阿里",
-      "url": "https://www.leiphone.com/category/industrynews/LdBwQx50zbI4HZud.html",
+      "title": "Anthropic推出新AI模型Mythos用于网络安全",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 07 Apr 2026 18:00:00 +0000",
+      "summary": "Anthropic公司发布了名为Mythos的新AI模型预览版，该模型是其迄今为止开发的最强大模型，比Opus模型更大更智能。Mythos将用于名为“Project Glasswing”的网络安全计划，亚马逊、苹果、微软等12家合作伙伴将使用它进行防御性安全工作和保护关键软件。",
+      "score": 24
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "实现以智能体为先的流程重新设计",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/04/07/1134966/enabling-agent-first-process-redesign/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 07 Apr 2026 14:00:00 +0000",
+      "summary": "文章指出，企业若想通过生成式AI驱动的智能体实现超越传统自动化的根本性变革，必须围绕智能体重新设计流程，而非将其简单嵌入旧有工作流。具体而言，企业需要为智能体提供机器可读的流程定义、明确的策略约束和结构化的数据流，以支持其自主运行。",
+      "score": 17
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "深度机智发布全球首个基于人类学习范式的具身基座模型，第一视角效率超真机",
+      "company": "深度机智",
+      "url": "https://www.leiphone.com/category/ai/BLS2oRfBOj5bwGyP.html",
       "source": "雷锋网",
-      "publishedAt": "Tue, 07 Apr 2026 11:24:00 +0800",
-      "summary": "“龙虾之父”彼得·斯坦伯格在社交媒体透露，下一代OpenClaw产品将融入视频生成功能，并率先提供阿里千问大模型的官方支持。近期，阿里连续发布了包括Qwen3.6-Plus、Qwen3.5-Omni在内的多款新模型，覆盖编程、Agent、全模态、文生图及视频生成等多个领域。",
-      "score": 38
-    },
-    {
-      "section": "技术与研究",
-      "title": "Claude Code更新引发热议：思考深度下降67%，难以胜任复杂工程任务",
-      "company": "Claude",
-      "url": "https://www.qbitai.com/2026/04/396958.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 07 Apr 2026 06:13:01 +0000",
-      "summary": "一份基于Claude Opus 4.6分析自身会话日志的报告显示，Claude Code在更新后性能出现显著下滑。报告分析了约6852个会话文件，覆盖17871个思考块和234760次工具调用，时间跨度为2026年1月底至4月初。",
-      "score": 36
-    },
-    {
-      "section": "技术与研究",
-      "title": "Ilya曝光70页OpenAI绝密文件",
-      "company": "OpenAI",
-      "url": "https://www.qbitai.com/2026/04/396880.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 07 Apr 2026 02:15:57 +0000",
-      "summary": "一份70页的OpenAI内部绝密文件被曝光，内容包含Slack记录与内部文件。文件由Ilya通过避开公司设备、用手机拍摄关键内容，再通过会自动消失的消息发送给董事会的方式泄露。OpenAI内部员工将这场事件称为“The Blip”，意为“小插曲”或“短暂失常”。",
-      "score": 28
-    },
-    {
-      "section": "技术与研究",
-      "title": "机器人黑客松揭示具身智能差距与机遇",
-      "company": "自变量",
-      "url": "https://www.infoq.cn/article/0T9Kw9O0obj0wV2NizC7?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 07 Apr 2026 10:30:32 GMT",
-      "summary": "自变量公司CTO王昊在与媒体交流时指出，公司核心方向是保持基模持续迭代，并强调应避免为追求垂直场景快速落地而堆砌针对性模型和工程补丁，认为这长期会损害基模提升。他分析了当前具身智能训练路径的误区，指出过去不同模态数据分别训练再对齐的方式常牺牲视觉能力，而语言与视频模型在信息尺度上存在差异。",
-      "score": 28
+      "publishedAt": "Tue, 07 Apr 2026 15:04:00 +0800",
+      "summary": "在2026年具身智能行业技术路线尚不明确的背景下，深度机智公司创始人陈凯发布了其PhysBrain 1.0模型。该模型仅使用1000小时人类第一视角数据，未使用任何真机数据，却在多个国际权威榜单上超越了依赖数万小时真机数据的竞争对手，取得了SOTA结果。",
+      "score": 15
     },
     {
       "section": "投融资与并购",
@@ -205,78 +274,8 @@
       "url": "https://36kr.com/p/3756111263384071?f=rss",
       "source": "36氪",
       "publishedAt": "2026-04-07 09:57:48  +0800",
-      "summary": "AR显示技术企业赛富乐斯近日完成3亿元C轮融资，资金将用于加速其全彩AR微显示屏的量产交付。公司基于自研的大尺寸硅基键合、量子点色转换等技术，构建了从材料到集成的全链条技术体系，其首条6英寸硅基Micro-LED产线已实现量产。",
-      "score": 36
-    },
-    {
-      "section": "投融资与并购",
-      "title": "优必选2025年营收20亿元增53%，净亏损收窄至7.89亿元",
-      "company": "优必选",
-      "url": "https://www.leiphone.com/category/zaobao/OSd4ovZLTC2e5W4M.html",
-      "source": "雷锋网",
-      "publishedAt": "Tue, 07 Apr 2026 08:30:00 +0800",
-      "summary": "3月31日，优必选发布2025年全年业绩报告，总营收达到20.01亿元，同比增长53.3%。公司毛利为7.538亿元，同比增长101.6%，毛利率提升至37.7%。2025年净亏损为7.89亿元，相比2024年的11.59亿元降低了32.0%。",
-      "score": 24
-    },
-    {
-      "section": "政策与监管",
-      "title": "OpenAI描绘AI经济蓝图：公共财富基金、机器人税与四天工作周",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Mon, 06 Apr 2026 15:55:55 +0000",
-      "summary": "OpenAI发布一系列应对AI经济影响的政策建议，具体包括：1. 提出向AI利润或机器人征税，并将资金用于建立公共财富基金以应对失业和不平等；2. 建议企业承担更多社会责任，如补贴四天工作制、提高医保和退休金比例，但未直接解决被AI取代员工的保障问题。",
-      "score": 22
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "像素蛋糕9.0发布：集成AI工具箱与专业级修图智能体，降低AIGC使用门槛",
-      "company": "像素蛋糕",
-      "url": "https://www.qbitai.com/2026/04/397517.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 07 Apr 2026 07:34:26 +0000",
-      "summary": "像素蛋糕9.0通过与行业专家合作，将专业级AIGC能力封装为易用的“AI工具箱”，降低了图像修复、光影塑造及风格化创作等后期技术的使用门槛。该版本在技术上实现了突破，推出了AI追色2.0功能，能深度分析照片结构并智能融入光照、色彩等元素，重构了“样片还原”的商业场景。",
-      "score": 36
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Teleport报告：AI系统过度授权导致安全事件激增",
-      "company": "Teleport",
-      "url": "https://www.infoq.cn/article/iVJbFCtkDxMSgw9KoRV0?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 07 Apr 2026 15:00:00 GMT",
-      "summary": "Teleport发布的《2026年企业基础设施安全AI现状报告》指出，为AI系统授予过度访问权限的企业，其安全事件发生率是权限管控合规企业的4.5倍。报告调研了205位安全负责人，发现67%的企业仍为AI使用静态凭证，这会提升20%的安全事件概率，而仅有3%的企业具备机器级自动化管控能力。",
-      "score": 35
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "谷歌悄然推出离线AI听写应用",
-      "company": "Google",
-      "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Mon, 06 Apr 2026 18:54:33 +0000",
-      "summary": "谷歌新推出的离线优先听写应用采用了Gemma AI模型。该应用旨在与Wispr Flow等同类应用展开竞争。",
-      "score": 24
-    },
-    {
-      "section": "技术与研究",
-      "title": "荣耀与京东签订战略合作协议，推进AI、机器人及C2M共创合作",
-      "company": "荣耀,京东",
-      "url": "https://36kr.com/p/3755161993675523?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-06 17:48:30  +0800",
-      "summary": "4月2日，荣耀与京东正式签订全方位战略合作协议，双方将在产品共创、用户共营、生态共享三大核心领域展开深度合作，目标实现三年累计合作规模超1000亿元。在产品共创方面，双方将围绕手机、全场景、AIoT、机器人等产品的全生命周期进行协作，包括战略新品首发、IP与C2M定制项目，并为外卖骑手。",
-      "score": 23
-    },
-    {
-      "section": "政策与监管",
-      "title": "伊朗威胁OpenAI在阿布扎比的Stargate数据中心",
-      "company": "OpenAI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-06T15:54:19.000Z",
-      "summary": "伊朗伊斯兰革命卫队发布视频，威胁如果美国兑现攻击伊朗发电厂的警告，将摧毁OpenAI计划在阿布扎比建设的价值300亿美元的数据中心。该视频于4月3日发布在一个伊朗官方背景的新闻媒体X账户上，展示了OpenAI数据中心于2025年10月在建的图像。",
-      "score": 22
+      "summary": "AR显示技术企业赛富乐斯近日完成3亿元C轮融资，资金将加速其全彩AR微显示屏的量产交付。该公司基于自研的全链条技术，其首条6英寸硅基Micro-LED产线已量产，并正建设12英寸产线。",
+      "score": 30
     }
   ]
 }
