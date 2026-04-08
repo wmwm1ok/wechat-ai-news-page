@@ -3,7 +3,7 @@
   "edition": "daily",
   "editionLabel": "每日精选",
   "title": "AI资讯每日精选-2026/4/8",
-  "generatedAt": "2026/4/8 08:03",
+  "generatedAt": "2026/4/8 16:02",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -12,7 +12,7 @@
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 24,
+      "domesticBeforeDedup": 23,
       "overseasBeforeDedup": 18,
       "domesticAfterDedup": 23,
       "overseasAfterDedup": 18,
@@ -26,7 +26,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 6,
+          "count": 5,
           "error": null
         },
         {
@@ -99,53 +99,62 @@
     },
     "scoring": {
       "totalInput": 41,
-      "totalScored": 24,
-      "strictScoredCount": 12,
-      "relaxedCandidateCount": 4,
+      "totalScored": 27,
+      "strictScoredCount": 20,
+      "relaxedCandidateCount": 5,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 12,
-      "selectedCandidateCount": 24,
-      "duplicateCount": 18,
-      "crossDayDuplicateCount": 14,
-      "lowQualityCount": 4,
-      "domesticAvailable": 18,
-      "overseasAvailable": 6,
+      "weakSummaryCount": 10,
+      "selectedCandidateCount": 27,
+      "duplicateCount": 11,
+      "crossDayDuplicateCount": 7,
+      "lowQualityCount": 2,
+      "domesticAvailable": 20,
+      "overseasAvailable": 7,
       "sourceCount": {
-        "36氪": 3,
-        "InfoQ": 5,
         "量子位": 5,
-        "雷锋网": 5,
+        "36氪": 5,
+        "InfoQ": 4,
+        "雷锋网": 6,
         "TechCrunch AI": 2,
-        "MIT Technology Review": 2,
-        "The Verge AI": 1,
-        "Ars Technica": 1
+        "The Verge AI": 2,
+        "MIT Technology Review": 3
       }
     },
     "display": {
-      "refinedCount": 24,
-      "previousEditionRemovedCount": 9,
+      "refinedCount": 27,
+      "previousEditionRemovedCount": 3,
       "previousEditionRestoredCount": 0,
-      "previousEditionLateRestoredCount": 3,
-      "integrityRemovedCount": 4,
-      "postEditionFilterCount": 14,
-      "displayReadyCount": 8,
-      "fallbackDisplayCount": 6,
+      "previousEditionLateRestoredCount": 0,
+      "integrityRemovedCount": 7,
+      "postEditionFilterCount": 17,
+      "displayReadyCount": 10,
+      "fallbackDisplayCount": 4,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 6,
+      "removedWeakSummaries": 7,
       "shortage": 0
     }
   },
   "articles": [
     {
+      "section": "产品发布与更新",
+      "title": "海尔Hybrid混动多联机亮相制冷展，主打会思考、能算账、懂省电",
+      "company": "海尔",
+      "url": "https://www.leiphone.com/category/industrynews/OAKrGcxTtVaWcaOU.html",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 08 Apr 2026 13:37:00 +0800",
+      "summary": "海尔在北京制冷展发布了行业首创的Hybrid混动多联机，旨在解决商用空调体感差、能耗不透明的问题。其核心变化在于：一是系统采用水氟混动，出风更柔和且实现‘氟不入户’，杜绝冷媒泄漏风险；二是内置AI智慧电表，能实时拆分并显示主机、内机等各部分的用电量，让能耗一目了然。",
+      "score": 39
+    },
+    {
       "section": "技术与研究",
-      "title": "Claude情绪研究漏引华人团队成果，已道歉",
+      "title": "Claude研究漏引华人团队成果，已道歉",
       "company": "Anthropic",
       "url": "https://www.qbitai.com/2026/04/397576.html",
       "source": "量子位",
       "publishedAt": "Tue, 07 Apr 2026 09:09:48 +0000",
-      "summary": "Anthropic公司于4月2日发布了一篇关于Claude内部“情绪机制”的新论文，在Sonnet 4.5模型中发现了171种“情绪向量”。通过直接调节相关回路，该研究使AI生成指定情绪的准确率达到99.65%，远超此前的提示词引导和向量操控方法。",
-      "score": 39
+      "summary": "Anthropic公司于4月2日发布了一篇关于Claude内部“情绪机制”的新论文，在Sonnet 4.5模型中发现了171种“情绪向量”，通过直接调节相关回路，使AI生成指定情绪的准确率达到99.65%，远超以往的提示词引导和向量操控方法。",
+      "score": 42
     },
     {
       "section": "技术与研究",
@@ -154,28 +163,38 @@
       "url": "https://www.qbitai.com/2026/04/397610.html",
       "source": "量子位",
       "publishedAt": "Tue, 07 Apr 2026 09:13:40 +0000",
-      "summary": "Meta内部存在名为Claudeonomics的排行榜，实时追踪8.5万名员工的AI Token消耗量，员工为争夺“Token Legend”等勋章展开刷榜竞争。具体表现为：1. 员工专门构建循环运行的机器人来空转消耗Token，日均消耗量高达2万亿。",
+      "summary": "Meta内部存在名为Claudeonomics的排行榜，实时追踪8.5万名员工的AI Token消耗量，员工为争夺“Token Legend”等勋章展开刷榜竞争，甚至有员工专门构建循环运行的机器人来消耗Token，日均消耗量高达2万亿。",
       "score": 36
     },
     {
+      "section": "技术与研究",
+      "title": "Toco AI提出建模驱动AI编程实践，解决代码维护难题",
+      "company": "Toco",
+      "url": "https://www.infoq.cn/article/32Cv9YDKevt9BZlFsRzM?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 08 Apr 2026 10:00:00 GMT",
+      "summary": "Toco创始人曹偲在QCon北京大会上分享了建模驱动AI编程的实践方案。该方案通过将架构规范固化在工具中，统一生成代码的风格，避免AI发散导致的不易维护问题。同时采用模型驱动方式，使需求变更时只需修改模型，引擎会自动更新所有相关代码，从而解决AI代码“只管生、不管养”的维护难题。",
+      "score": 31
+    },
+    {
       "section": "投融资与并购",
-      "title": "英伟达支持的Firmus估值达55亿美元",
+      "title": "地瓜机器人完成1.5亿美元B2轮融资，B轮累计融资额达2.7亿美元",
+      "company": "地瓜机器人",
+      "url": "https://www.qbitai.com/2026/04/397912.html",
+      "source": "量子位",
+      "publishedAt": "Wed, 08 Apr 2026 06:39:06 +0000",
+      "summary": "2026年4月8日，地瓜机器人宣布完成1.5亿美元B2轮融资，其B轮累计融资额已达到2.7亿美元。本轮融资由多家战略及财务投资机构参与，老股东也持续跟投，资金将用于加速其商业和开发者生态的全球化布局。",
+      "score": 54
+    },
+    {
+      "section": "投融资与并购",
+      "title": "英伟达支持的AI数据中心建造商Firmus估值达55亿美元",
       "company": "Firmus",
       "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
       "source": "TechCrunch AI",
       "publishedAt": "Tue, 07 Apr 2026 18:46:55 +0000",
-      "summary": "亚洲AI数据中心提供商Firmus获得了英伟达的支持。该公司在六个月内筹集了13.5亿美元资金，目前估值已达到55亿美元。",
-      "score": 30
-    },
-    {
-      "section": "技术与研究",
-      "title": "前苹果员工打造AI肩上宠物，获奇绩创坛投资，瞄准年轻人潮玩与社交市场",
-      "company": "Blinkko",
-      "url": "https://36kr.com/p/3756484693967619?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-07 16:14:49  +0800",
-      "summary": "前苹果员工沈彤欣创立的Blinkko项目，推出了一款可磁吸在肩膀上的AI毛绒宠物。该产品旨在成为年轻人线下社交的“许可信号”，其核心功能包括：通过内置轻量化AI模型感知用户情绪并做出肢体回应；配套App构建基于地理位置和兴趣的社交机制，鼓励用户线下相遇。",
-      "score": 24
+      "summary": "英伟达支持的亚洲AI数据中心提供商Firmus在六个月内筹集了13.5亿美元。该公司目前的估值已达到55亿美元。",
+      "score": 26
     },
     {
       "section": "政策与监管",
@@ -184,38 +203,58 @@
       "url": "https://www.technologyreview.com/2026/04/07/1135235/desalination-technology-water/",
       "source": "MIT Technology Review",
       "publishedAt": "Tue, 07 Apr 2026 14:54:06 +0000",
-      "summary": "中东海水淡化厂因地区冲突升级而面临严重威胁。具体表现为：首先，该地区约四分之三的海水淡化厂毗邻发电厂，而发电厂已成为军事威胁目标，例如美国曾威胁打击伊朗电厂。其次，海湾六国（如巴林、卡塔尔、科威特）超过90%的饮用水依赖海水淡化，一旦大型设施受损将影响数百万人供水。",
-      "score": 21
+      "summary": "随着伊朗冲突升级，中东关键的海水淡化设施正面临直接军事威胁。这些设施通常毗邻发电厂（约75%），使其成为连带攻击目标。例如，卡什姆岛的海水淡化厂曾遭袭击，影响近30个村庄供水。",
+      "score": 19
+    },
+    {
+      "section": "技术与研究",
+      "title": "Anthropic新模型发现各大操作系统和网络浏览器均存在安全问题",
+      "company": "Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/908114/anthropic-project-glasswing-cybersecurity",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-07T18:00:00.000Z",
+      "summary": "Anthropic推出了一款名为Claude Mythos Preview的新AI模型，该模型发现了“每个主要操作系统和网络浏览器”都存在安全问题。该模型是名为Project Glasswing的网络安全合作项目的一部分，合作伙伴包括英伟达、谷歌、亚马逊网络服务、苹果、微软等公司。",
+      "score": 26
+    },
+    {
+      "section": "技术与研究",
+      "title": "前苹果员工打造AI肩上宠物，获奇绩创坛投资，瞄准年轻人社交潮玩市场",
+      "company": "Blinkko",
+      "url": "https://36kr.com/p/3756484693967619?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-07 16:14:49  +0800",
+      "summary": "前苹果员工沈彤欣创立的Blinkko项目，推出了一款可磁吸在肩膀上的AI毛绒宠物。其核心设计是作为年轻人的“社交信号”：当用户佩戴它进入公园等真实场景时，它能自然地吸引同样佩戴者，从而开启陌生人社交，解决Z世代“缺乏走向彼此勇气”的痛点。",
+      "score": 24
     },
     {
       "section": "投融资与并购",
-      "title": "英特尔将帮助建造埃隆·马斯克的Terafab AI芯片工厂",
+      "title": "英特尔将帮助埃隆·马斯克建造Terafab AI芯片工厂",
       "company": "Intel",
       "url": "https://www.theverge.com/transportation/907976/elon-musk-terafab-intel-ai-chip-spacex-tesla",
       "source": "The Verge AI",
       "publishedAt": "2026-04-07T15:43:17.000Z",
-      "summary": "英特尔宣布将帮助设计和建造埃隆·马斯克在德克萨斯州奥斯汀的Terafab AI芯片工厂。该工厂将为马斯克的两家公司SpaceX和特斯拉供应AI芯片。马斯克需要AI芯片来推动其建造包括自动驾驶汽车和人形机器人在内的“机器人军团”的计划，以及用于他计划发射到太空的数据中心。",
-      "score": 18
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "阿里千问3.6Plus问鼎全球大模型调用周榜冠军",
-      "company": "阿里",
-      "url": "https://www.qbitai.com/2026/04/396950.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 07 Apr 2026 04:00:52 +0000",
-      "summary": "阿里发布的编程模型Qwen3.6-Plus在全球权威大模型竞技场Arena的编程能力子榜单中排名中国第一，使阿里成为编程能力全球排名第二的AI机构。该模型在OpenRouter平台上连续四天霸占日榜榜首，并凭借此表现成功登顶该平台最新公布的全球大模型周调用量冠军。",
-      "score": 35
+      "summary": "英特尔宣布将帮助设计和建造埃隆·马斯克位于德克萨斯州奥斯汀的Terafab AI芯片工厂。该工厂将为马斯克的两家公司SpaceX（新近与xAI合并）和特斯拉供应AI芯片。马斯克需要AI芯片来推动其建造“机器人军队”的计划，该计划包括自动驾驶汽车和人形机器人，以及他计划发射到太空的数据中心。",
+      "score": 21
     },
     {
       "section": "技术与研究",
-      "title": "Cursor 3发布引发编程工具变革：IDE重要性下降，智能体控制台成为新焦点",
-      "company": "Cursor",
-      "url": "https://www.infoq.cn/article/t2evtKXuwXOUo9woSQyX?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 07 Apr 2026 11:41:00 GMT",
-      "summary": "Cursor 3的发布标志着编程工具从管理单一服务器向通过控制平面管理服务器集群的重大转变，其中IDE的作用类似于SSH，而Glass则相当于控制平面。与此同时，Anthropic公司推出的终端优先编程智能体Claude Code在一年多时间内将年化收入提升至250亿美元，吸引了超过30万家企业客户。",
-      "score": 30
+      "title": "美团李树斌：AI内容爆炸时代，“真人真评价”对餐饮业将更珍贵",
+      "company": "美团",
+      "url": "https://www.leiphone.com/category/industrynews/yRnQMywX3bISa7vb.html",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 08 Apr 2026 12:45:00 +0800",
+      "summary": "2026年4月8日，在2026中国餐饮连锁峰会上，美团高级副总裁李树斌发表了观点。他认为，随着AI生成的内容越来越多，人们反而会更加渴望看到真人创作的内容。因此，大众点评平台上那些由真实用户撰写的、表达可能并不完美的“真人真评价”，对于餐饮行业而言将变得更为珍贵和具有价值。",
+      "score": 17
+    },
+    {
+      "section": "投融资与并购",
+      "title": "追觅旗下希瑞智能床垫3个月估值达10亿，AI技术重塑睡眠体验",
+      "company": "追觅",
+      "url": "https://36kr.com/p/3757587705873158?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-08 10:56:54  +0800",
+      "summary": "新一代智能床垫正通过AI技术解决传统床垫无法动态适应睡姿的痛点。例如，追觅旗下希瑞智能床垫内置AI芯片，能实时感知人体压力分布和睡姿变化，并驱动多个独立单元动态调节支撑，使床垫贴合身体曲线。同时，其智能床架调节系统运行噪音仅约20分贝，实现无感调节。",
+      "score": 47
     },
     {
       "section": "投融资与并购",
@@ -225,7 +264,7 @@
       "source": "36氪",
       "publishedAt": "2026-04-07 10:00:00  +0800",
       "summary": "36氪获悉，企业级AI解决方案供应商「红熊AI」已于近日完成 2.1亿元A轮融资，投后估值超15亿元。本轮由华禹创投领投，老股东格睿丰投资、稼沃资本跟投，徐汇资本、上汽美元基金、嘉铭浩春、誉华资产等多家机构参与投资，三位创始团队成员也以本轮估值跟投约3000万元。",
-      "score": 47
+      "score": 45
     },
     {
       "section": "投融资与并购",
@@ -235,47 +274,7 @@
       "source": "雷锋网",
       "publishedAt": "Tue, 07 Apr 2026 15:12:00 +0800",
       "summary": "2026年4月7日，千寻智能完成新一轮10亿元融资，由雷军创办的顺为资本和马云参与创立的云锋基金联合领投。这是该公司继2月份完成近20亿元融资后，30天内完成的第二轮融资，累计金额达30亿元。",
-      "score": 38
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Anthropic推出新AI模型Mythos用于网络安全",
-      "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 07 Apr 2026 18:00:00 +0000",
-      "summary": "Anthropic公司发布了名为Mythos的新AI模型预览版，该模型是其迄今为止开发的最强大模型，比Opus模型更大更智能。Mythos将用于名为“Project Glasswing”的网络安全计划，亚马逊、苹果、微软等12家合作伙伴将使用它进行防御性安全工作和保护关键软件。",
-      "score": 24
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "实现以智能体为先的流程重新设计",
-      "company": "",
-      "url": "https://www.technologyreview.com/2026/04/07/1134966/enabling-agent-first-process-redesign/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Tue, 07 Apr 2026 14:00:00 +0000",
-      "summary": "文章指出，企业若想通过生成式AI驱动的智能体实现超越传统自动化的根本性变革，必须围绕智能体重新设计流程，而非将其简单嵌入旧有工作流。具体而言，企业需要为智能体提供机器可读的流程定义、明确的策略约束和结构化的数据流，以支持其自主运行。",
-      "score": 17
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "深度机智发布全球首个基于人类学习范式的具身基座模型，第一视角效率超真机",
-      "company": "深度机智",
-      "url": "https://www.leiphone.com/category/ai/BLS2oRfBOj5bwGyP.html",
-      "source": "雷锋网",
-      "publishedAt": "Tue, 07 Apr 2026 15:04:00 +0800",
-      "summary": "在2026年具身智能行业技术路线尚不明确的背景下，深度机智公司创始人陈凯发布了其PhysBrain 1.0模型。该模型仅使用1000小时人类第一视角数据，未使用任何真机数据，却在多个国际权威榜单上超越了依赖数万小时真机数据的竞争对手，取得了SOTA结果。",
-      "score": 15
-    },
-    {
-      "section": "投融资与并购",
-      "title": "赛富乐斯完成3亿元C轮融资，加速全彩AR微显示屏量产交付",
-      "company": "赛富乐斯",
-      "url": "https://36kr.com/p/3756111263384071?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-07 09:57:48  +0800",
-      "summary": "AR显示技术企业赛富乐斯近日完成3亿元C轮融资，资金将加速其全彩AR微显示屏的量产交付。该公司基于自研的全链条技术，其首条6英寸硅基Micro-LED产线已量产，并正建设12英寸产线。",
-      "score": 30
+      "score": 36
     }
   ]
 }
