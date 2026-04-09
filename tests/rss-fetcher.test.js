@@ -1,4 +1,4 @@
-import { isNewsLikeItem, isSourceQualifiedNewsItem } from '../src/rss-fetcher.js';
+import { isNewsLikeItem, isSourceQualifiedNewsItem, normalizeJiqizhixinArticle } from '../src/rss-fetcher.js';
 
 function describe(name, fn) {
   console.log(`\n📦 ${name}`);
@@ -108,6 +108,19 @@ describe('RSS fetcher filters', () => {
     }, 'Tech Xplore');
 
     expect(result).toBe(true);
+  });
+
+  it('normalizes Jiqizhixin article library items into project news format', () => {
+    const result = normalizeJiqizhixinArticle({
+      title: '全球最强开源模型智谱GLM-5.1「Day0」上线华为云，可免费体验',
+      slug: '2026-04-08-14',
+      publishedAt: '2026/04/08 15:27',
+      content: '4 月 8 日，智谱正式发布新一代旗舰模型 GLM-5.1，发布当天已上线华为云。'
+    }, { name: '机器之心' });
+
+    expect(result.url).toBe('https://www.jiqizhixin.com/articles/2026-04-08-14');
+    expect(result.publishedAt).toBe('2026-04-08T15:27:00+08:00');
+    expect(result.source).toBe('机器之心');
   });
 });
 

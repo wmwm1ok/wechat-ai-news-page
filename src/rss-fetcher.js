@@ -139,6 +139,11 @@ const rssParser = new Parser({
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
   }
 });
+const JIQIZHIXIN_HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
+  'Accept': 'application/json,text/plain,*/*',
+  'Referer': 'https://www.jiqizhixin.com/articles'
+};
 
 function isFreshNews(publishedAt) {
   if (!publishedAt) return true;
@@ -171,6 +176,28 @@ function extractSnippet(item) {
   snippet = snippet.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
   
   return snippet;
+}
+
+function parseJiqizhixinPublishedAt(publishedAt) {
+  const normalized = String(publishedAt || '').trim();
+  const match = normalized.match(/^(\d{4})\/(\d{2})\/(\d{2})\s+(\d{2}):(\d{2})$/);
+  if (!match) {
+    return normalized || new Date().toISOString();
+  }
+
+  const [, year, month, day, hour, minute] = match;
+  return `${year}-${month}-${day}T${hour}:${minute}:00+08:00`;
+}
+
+export function normalizeJiqizhixinArticle(article, source) {
+  return {
+    title: article.title || '',
+    url: `https://www.jiqizhixin.com/articles/${article.slug || article.id || ''}`,
+    snippet: String(article.content || '').replace(/\s+/g, ' ').trim(),
+    source: source.name,
+    publishedAt: parseJiqizhixinPublishedAt(article.publishedAt),
+    region: '国内'
+  };
 }
 
 export function isNewsLikeItem(item) {
@@ -280,8 +307,50 @@ export function isSourceQualifiedNewsItem(item, sourceName = '') {
   return entityHits >= 1 && actionHits >= 1;
 }
 
+async function fetchJiqizhixinArticles(source) {
+  console.log(`📡 ${source.name}`);
+
+  const per = Math.max((source.limit || 5) * 4, 12);
+  const response = await axios.get(source.url, {
+    headers: JIQIZHIXIN_HEADERS,
+    params: {
+      sort: 'time',
+      page: 1,
+      per
+    },
+    timeout: 20000
+  });
+
+  const rawArticles = Array.isArray(response.data?.articles) ? response.data.articles : [];
+  const items = rawArticles
+    .map(article => normalizeJiqizhixinArticle(article, source))
+    .filter(item => isNewsLikeItem(item))
+    .filter(item => isFreshNews(item.publishedAt))
+    .filter(item => isSourceQualifiedNewsItem(item, source.name))
+    .filter(item => isAIRelated(item.title, item.snippet))
+    .slice(0, source.limit || 5);
+
+  const filteredCount = rawArticles.length - items.length;
+  if (filteredCount > 0) {
+    console.log(`   ✓ ${items.length} 条 (过滤掉 ${filteredCount} 条非AI或不合格新闻)`);
+  } else {
+    console.log(`   ✓ ${items.length} 条`);
+  }
+
+  return {
+    source: source.name,
+    ok: true,
+    count: items.length,
+    items
+  };
+}
+
 async function parseRSS(source) {
   try {
+    if (source.name === '机器之心') {
+      return await fetchJiqizhixinArticles(source);
+    }
+
     console.log(`📡 ${source.name}`);
     const feed = await rssParser.parseURL(source.url);
     

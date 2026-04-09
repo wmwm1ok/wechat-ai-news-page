@@ -21,7 +21,7 @@ export const AI_KEYWORDS_CORE = [
 export const DOMESTIC_RSS_SOURCES = [
   {
     name: '机器之心',
-    url: 'https://www.jiqizhixin.com/rss',
+    url: 'https://www.jiqizhixin.com/api/article_library/articles.json',
     limit: 6
   },
   {
