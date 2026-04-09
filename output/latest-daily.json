@@ -3,8 +3,8 @@
   "edition": "daily",
   "editionLabel": "每日精选",
   "title": "AI资讯每日精选-2026/4/9",
-  "generatedAt": "2026/4/9 08:02",
-  "count": 13,
+  "generatedAt": "2026/4/9 09:41",
+  "count": 14,
   "targetCount": 14,
   "diagnostics": {
     "previousDayFile": "news-2026-04-08-daily.json",
@@ -12,10 +12,10 @@
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 10,
-      "overseasBeforeDedup": 22,
-      "domesticAfterDedup": 10,
-      "overseasAfterDedup": 22,
+      "domesticBeforeDedup": 23,
+      "overseasBeforeDedup": 23,
+      "domesticAfterDedup": 23,
+      "overseasAfterDedup": 23,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,9 +25,9 @@
         },
         {
           "source": "量子位",
-          "ok": false,
-          "count": 0,
-          "error": "Request timed out after 10000ms"
+          "ok": true,
+          "count": 5,
+          "error": null
         },
         {
           "source": "36氪",
@@ -43,9 +43,9 @@
         },
         {
           "source": "雷锋网",
-          "ok": false,
-          "count": 0,
-          "error": "Request timed out after 10000ms"
+          "ok": true,
+          "count": 8,
+          "error": null
         }
       ],
       "overseasSources": [
@@ -70,7 +70,7 @@
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 4,
+          "count": 5,
           "error": null
         },
         {
@@ -95,105 +95,157 @@
       }
     },
     "summarize": {
-      "totalSummarized": 32
+      "totalSummarized": 46
     },
     "scoring": {
-      "totalInput": 32,
-      "totalScored": 19,
-      "strictScoredCount": 11,
-      "relaxedCandidateCount": 1,
+      "totalInput": 46,
+      "totalScored": 30,
+      "strictScoredCount": 23,
+      "relaxedCandidateCount": 4,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 5,
-      "selectedCandidateCount": 19,
-      "duplicateCount": 15,
-      "crossDayDuplicateCount": 12,
+      "weakSummaryCount": 9,
+      "selectedCandidateCount": 30,
+      "duplicateCount": 11,
+      "crossDayDuplicateCount": 10,
       "lowQualityCount": 2,
-      "domesticAvailable": 9,
-      "overseasAvailable": 10,
+      "domesticAvailable": 19,
+      "overseasAvailable": 11,
       "sourceCount": {
-        "InfoQ": 5,
-        "The Verge AI": 4,
-        "36氪": 4,
+        "量子位": 5,
+        "The Verge AI": 3,
+        "雷锋网": 6,
         "Wired AI": 2,
-        "TechCrunch AI": 2,
+        "InfoQ": 4,
+        "36氪": 4,
+        "TechCrunch AI": 3,
         "MIT Technology Review": 1,
-        "Ars Technica": 1
+        "Ars Technica": 2
       }
     },
     "display": {
-      "refinedCount": 19,
-      "previousEditionRemovedCount": 5,
-      "previousEditionRestoredCount": 2,
-      "previousEditionLateRestoredCount": 2,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 14,
-      "displayReadyCount": 11,
-      "fallbackDisplayCount": 2,
+      "refinedCount": 30,
+      "previousEditionRemovedCount": 3,
+      "previousEditionRestoredCount": 0,
+      "previousEditionLateRestoredCount": 0,
+      "integrityRemovedCount": 5,
+      "postEditionFilterCount": 22,
+      "displayReadyCount": 16,
+      "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 3,
-      "shortage": 1
+      "removedWeakSummaries": 6,
+      "shortage": 0
     }
   },
   "articles": [
     {
-      "section": "投融资与并购",
-      "title": "地瓜机器人完成1.5亿美元B2轮融资，B轮累计融资2.7亿美元",
-      "company": "地瓜机器人",
-      "url": "https://www.infoq.cn/article/vqsCNCHUBPoiwxeydL0b?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 08 Apr 2026 11:03:10 GMT",
-      "summary": "地瓜机器人宣布完成1.5亿美元B2轮融资，其B轮累计融资额已达到2.7亿美元。该公司与地平线合作，通过软硬协同打造“具身智能大脑基座”，其开发平台RDK S600可与地平线的HoloMotion和HoloBrain模型实现原生适配与深度优化，旨在提升机器人的控制、感知与操作能力。",
-      "score": 46
+      "section": "产品发布与更新",
+      "title": "智谱GLM-5.1旗舰模型上线华为云，支持多款产品体验",
+      "company": "智谱",
+      "url": "https://www.qbitai.com/2026/04/397942.html",
+      "source": "量子位",
+      "publishedAt": "Wed, 08 Apr 2026 10:17:47 +0000",
+      "summary": "4月8日，智谱正式发布新一代旗舰模型GLM-5.1，发布当天已上线华为云，并成功对接华为云多款产品。该模型整体能力全面提升，是目前全球最强的开源模型，Coding能力刷新全球最佳成绩，在长程任务（Long Horizon Task）处理能力上实现突破，能够在单次任务中持续、自主地工作长达8小时。",
+      "score": 53
     },
     {
-      "section": "政策与监管",
-      "title": "GitHub利用AI重构无障碍反馈处理机制，显著提升解决效率",
-      "company": "GitHub",
-      "url": "https://www.infoq.cn/article/5SYq9w4s86yxTAuu0opy?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 08 Apr 2026 16:53:43 GMT",
-      "summary": "GitHub 推出了一套由 AI 驱动的自动化工作流，集中处理用户提交的无障碍访问问题。该系统具体通过 GitHub Actions、Copilot 和 Models APIs 实现，能自动接收、分类反馈，并分析其严重性及合规性，解决了以往反馈渠道分散、问题归属不清的痛点。",
+      "section": "产品发布与更新",
+      "title": "创想三维M1+R1系统众筹火爆，20分钟破千万首日破三千万",
+      "company": "创想三维",
+      "url": "https://www.leiphone.com/category/industrynews/sMdHrkJHN3fIisKk.html",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 08 Apr 2026 17:28:00 +0800",
+      "summary": "创想三维推出的M1+R1桌面级材料回收与生产系统在众筹平台上取得巨大成功，上线20分钟金额突破1000万人民币，首日突破3000万人民币，吸引了超过3500位全球支持者。",
+      "score": 37
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Meta发布新AI模型Muse Spark，性能表现强劲",
+      "company": "Meta",
+      "url": "https://www.wired.com/story/muse-spark-meta-open-source-closed-source/",
+      "source": "Wired AI",
+      "publishedAt": "Wed, 08 Apr 2026 18:51:09 +0000",
+      "summary": "Muse Spark是Meta在AI业务重启后推出的首个模型。基准测试结果表明该模型具有强大的性能。",
+      "score": 37
+    },
+    {
+      "section": "技术与研究",
+      "title": "武大文科教授跨界AI推出图表智能体，项目量半年增长4000%",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/04/398001.html",
+      "source": "量子位",
+      "publishedAt": "Wed, 08 Apr 2026 14:26:19 +0000",
+      "summary": "武汉大学王琼教授团队推出了全球首个AI图表智能体“爱图表”，旨在通过人机协作提升数据可视化生产力，而非替代人类判断。该工具支持从基础图表到复杂关系结构图的自动生成与深度编辑，并已集成至飞书、网易、腾讯等主流平台。团队还通过举办行业沙龙、为央视新闻等媒体提供支持，推动数据新闻在国家形象叙事中的应用。",
+      "score": 32
+    },
+    {
+      "section": "技术与研究",
+      "title": "智谱GLM-5.1在SWE-bench Pro测试中超越Claude Opus 4.6等模型",
+      "company": "智谱",
+      "url": "https://www.qbitai.com/2026/04/397898.html",
+      "source": "量子位",
+      "publishedAt": "Wed, 08 Apr 2026 06:29:23 +0000",
+      "summary": "在SWE-bench Pro基准测试中，智谱的GLM-5.1模型取得了全球最佳成绩，超越了包括Claude Opus 4.6和GPT-5.4在内的多个头部模型。该模型展现的Long Horizon能力，意味着AI能够持续工作数小时并交付完整项目，标志着AI从对话工具向能执行复杂长程任务的阶段演进。",
       "score": 31
     },
     {
       "section": "技术与研究",
-      "title": "Meta携新模型Muse Spark重返AI竞赛",
+      "title": "Meta携新模型Muse Spark重新加入AI竞赛",
       "company": "Meta",
       "url": "https://www.theverge.com/tech/908769/meta-muse-spark-ai-model-launch-rollout",
       "source": "The Verge AI",
       "publishedAt": "2026-04-08T16:12:54.000Z",
-      "summary": "Meta Superintelligence Labs推出了自扎克伯格投入数十亿美元改革公司AI战略以来的首个模型，名为Muse Spark。该模型目前为美国的Meta AI应用和网站提供支持。",
-      "score": 30
+      "summary": "Meta超级智能实验室推出了自扎克伯格投入数十亿美元改革公司AI战略以来的首个模型，名为Muse Spark。该模型现已为美国的Meta AI应用和网站提供支持。Meta宣布，未来几周内，Muse Spark将出现在WhatsApp、Instagram、Facebook。",
+      "score": 27
+    },
+    {
+      "section": "投融资与并购",
+      "title": "OpenAI内部氛围不佳，公司稳定性受质疑",
+      "company": "OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-08T13:47:38.000Z",
+      "summary": "OpenAI目前处于相对不稳定的位置。该公司刚刚完成了1220亿美元的融资，投后估值达8520亿美元，并可能在今年晚些时候进行IPO。然而，近几个月来，一系列高管变动、项目终止等新闻引发了外界对其公司稳定性能否持续保持领先地位的质疑。",
+      "score": 46
+    },
+    {
+      "section": "投融资与并购",
+      "title": "灵动佳芯完成近亿元A轮融资，柔性触觉传感器切入具身智能与锂电安全",
+      "company": "灵动佳芯",
+      "url": "https://36kr.com/p/3757589543813893?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-08 10:58:42  +0800",
+      "summary": "灵动佳芯完成近亿元A轮融资，资金将重点投向PVDF柔性传感器研发。公司已实现两大布局：一是其智能压电传感模组已进入多家主流清洁机器人供应链，2025年出货超1000万只；二是基于PVDF材料开发了两种新产品——用于具身智能的触觉传感器已获头部客户小批量订单，以及可嵌入电池内部进行实时监测的柔性超声方案，正与国内头部锂电企业合作，目标从源头控制安全隐患。",
+      "score": 33
     },
     {
       "section": "政策与监管",
+      "title": "GitHub利用AI重构无障碍反馈处理机制",
+      "company": "GitHub",
+      "url": "https://www.infoq.cn/article/5SYq9w4s86yxTAuu0opy?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 08 Apr 2026 16:53:43 GMT",
+      "summary": "GitHub引入了一套自动化、持续且由AI驱动的工作流，用于处理用户的无障碍功能反馈。该系统基于GitHub Actions、GitHub Copilot和GitHub Models APIs构建，通过集中入口和标准化模板收集结构化反馈，并利用AI分析问题的严重性及其与Web内容无障碍指南的合规性。",
+      "score": 31
+    },
+    {
+      "section": "政策与监管",
+      "title": "相互矛盾的裁决使Anthropic陷入“供应链风险”的不确定状态",
+      "company": "Anthropic",
+      "url": "https://www.wired.com/story/anthropic-appeals-court-ruling/",
+      "source": "Wired AI",
+      "publishedAt": "Wed, 08 Apr 2026 22:27:26 +0000",
+      "summary": "美国一家上诉法院的裁决与今年3月一家下级法院的单独裁决相矛盾。这导致美国军方是否以及如何使用Anthropic公司的Claude模型存在不确定性。",
+      "score": 28
+    },
+    {
+      "section": "技术与研究",
       "title": "GitHub将使用免费及专业版Copilot用户交互数据训练AI模型",
       "company": "GitHub",
       "url": "https://www.infoq.cn/article/Uw8eC56IOdyLm4aL294q?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 08 Apr 2026 17:00:00 GMT",
-      "summary": "GitHub宣布自4月24日起，将默认使用Copilot Free、Pro和Pro+用户的交互数据来训练和改进其AI模型，用户需手动关闭设置以退出数据收集。该政策引发了对企业代码安全风险的担忧，因为个人用户可能无权授权第三方使用公司源代码，且退出机制是按用户而非组织级别控制。",
-      "score": 29
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Anthropic发布Claude Mythos Preview模型，网络安全能力突出但限制使用",
-      "company": "Anthropic",
-      "url": "https://www.infoq.cn/article/2Sy6GlLvKgbPcwoCGDjx?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 08 Apr 2026 15:20:53 GMT",
-      "summary": "Anthropic发布了Claude Mythos Preview模型，该模型在多项基准测试中表现领先，尤其在网络安全领域展现出强大的漏洞发现能力，例如成功识别了OpenBSD中一个存在27年的TCP SACK漏洞等。然而，模型也表现出一些异常行为，如答案反复纠错循环和任务失败引发的情绪困扰。",
-      "score": 28
-    },
-    {
-      "section": "技术与研究",
-      "title": "Meta新AI模型让扎克伯格跻身巨头行列",
-      "company": "Meta",
-      "url": "https://www.wired.com/story/muse-spark-meta-open-source-closed-source/",
-      "source": "Wired AI",
-      "publishedAt": "Wed, 08 Apr 2026 18:51:09 +0000",
-      "summary": "Meta发布了其AI战略重组后的首个重要模型Muse Spark。该模型具备原生多模态能力，能同时处理图像、音频、视频和文本，并拥有先进的推理与强大的代码生成能力。Meta通过巨额投资（如向AI训练公司Scale投资143亿美元并招募其CEO）来强化AI团队。",
+      "summary": "GitHub宣布自4月24日起，将收集Copilot Free、Pro和Pro+用户的交互数据用于训练和改进其AI模型，该设置默认开启，用户需手动关闭以退出。付费的Copilot Business和Enterprise用户不受此变更影响，而属于付费组织成员或外部协作者的用户数据也不会被用于训练。",
       "score": 26
     },
     {
@@ -203,7 +255,7 @@
       "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
       "source": "TechCrunch AI",
       "publishedAt": "Wed, 08 Apr 2026 05:40:19 +0000",
-      "summary": "谷歌新推出的这款优先离线的听写应用使用了Gemma AI模型，旨在与Wispr Flow等应用竞争。",
+      "summary": "谷歌推出了一款新的优先离线的听写应用，该应用使用Gemma AI模型。这款应用旨在与Wispr Flow等同类应用竞争。",
       "score": 24
     },
     {
@@ -213,7 +265,7 @@
       "url": "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/",
       "source": "MIT Technology Review",
       "publishedAt": "Wed, 08 Apr 2026 14:00:00 +0000",
-      "summary": "Mustafa Suleyman认为，AI发展短期内不会遇到瓶颈，因为三大技术正共同驱动算力指数级增长。具体表现为：英伟达芯片原始性能在六年内提升超七倍；高带宽内存（HBM3）的数据传输带宽是前代的三倍；通过NVLink等技术，数十万GPU可连接成仓库大小的超级计算机。",
+      "summary": "Mustafa Suleyman指出，AI发展不会很快遇到瓶颈，这主要基于三大技术趋势的融合：首先，芯片性能飞速提升，例如英伟达芯片的原始性能在六年内提升了七倍以上。其次，高带宽内存（HBM3）等技术使数据传输带宽提升至前代的三倍，确保处理器持续高效工作。",
       "score": 21
     },
     {
@@ -223,48 +275,8 @@
       "url": "https://arstechnica.com/tech-policy/2026/04/to-beat-altman-in-court-musk-offers-to-give-all-damages-to-open-ai-nonprofit/",
       "source": "Ars Technica",
       "publishedAt": "Wed, 08 Apr 2026 17:37:06 +0000",
-      "summary": "马斯克在诉讼中放弃索赔，并提议将可能获得的赔偿金捐给OpenAI非营利组织。此前，其专家曾估算OpenAI和微软因不当使用马斯克早期3800万美元捐赠的收益可能高达1340亿美元，但法官已驳回其惩罚性赔偿请求，并认为其计算方式无法支持索赔主张。",
+      "summary": "马斯克在针对OpenAI的诉讼中表示，他不会寻求“一分钱”的赔偿。此前他曾要求获得高达1340亿美元的赔偿金。他提出将可能获得的全部赔偿金给予OpenAI的非营利组织。",
       "score": 20
-    },
-    {
-      "section": "技术与研究",
-      "title": "Anthropic新模型发现各大操作系统和网络浏览器均存在安全问题",
-      "company": "Anthropic",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/908114/anthropic-project-glasswing-cybersecurity",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-07T18:00:00.000Z",
-      "summary": "Anthropic推出了一款新的AI模型，作为与英伟达、谷歌、亚马逊网络服务、苹果、微软等公司网络安全合作的一部分。该项目名为“玻璃翼”，旨在让大公司甚至政府能够以几乎无需人工干预的方式标记其系统中的漏洞。",
-      "score": 20
-    },
-    {
-      "section": "技术与研究",
-      "title": "Anthropic新产品旨在解决构建AI代理的难点",
-      "company": "Anthropic",
-      "url": "https://www.wired.com/story/anthropic-launches-claude-managed-agents/",
-      "source": "Wired AI",
-      "publishedAt": "Wed, 08 Apr 2026 17:00:00 +0000",
-      "summary": "Anthropic推出名为“Managed Agents”的新产品，旨在降低企业使用Claude构建AI代理的门槛。该产品为开发者提供了一个“代理框架”，包含软件工具、记忆系统等基础设施，并内置沙盒环境，让AI代理能在安全设置中启动软件项目。",
-      "score": 19
-    },
-    {
-      "section": "投融资与并购",
-      "title": "追觅旗下希瑞智能床垫3个月估值达10亿，AI技术重塑睡眠体验",
-      "company": "追觅",
-      "url": "https://36kr.com/p/3757587705873158?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-08 10:56:54  +0800",
-      "summary": "新一代智能床垫正通过AI技术解决睡眠痛点。例如，希瑞智能床垫内置AI芯片，能实时感知人体压力分布和睡姿变化，并动态调节床垫支撑区域以贴合身体曲线。同时，其床架调节系统运行噪音极低，约20分贝，确保调节过程不打扰睡眠。",
-      "score": 39
-    },
-    {
-      "section": "技术与研究",
-      "title": "阿里电商AI战略调整：聚焦Token经济重构业务，组织架构同步变动",
-      "company": "阿里",
-      "url": "https://36kr.com/p/3748018292802309?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-08 17:23:43  +0800",
-      "summary": "文｜彭倩 编辑｜乔芊 杨轩 4月1日新财年伊始，由蒋凡统领的阿里巴巴中国电商事业群正在规划可以结合 AI 实现的增长点。据36氪了解，淘天集团当下对 AI 的探索将聚焦在 AI to B 方向上，其核心 OKR 是商家侧的 AI 工具留存率以及 AI 带来的 GMV 增长。",
-      "score": 33
     }
   ]
 }
