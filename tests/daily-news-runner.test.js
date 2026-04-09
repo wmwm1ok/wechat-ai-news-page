@@ -69,6 +69,43 @@ describe('Daily news runner', () => {
     expect(hasProduct).toBeTruthy();
   });
 
+  it('skips same-topic launch variants when another candidate can fill the slot', () => {
+    const candidates = [
+      {
+        title: 'Meta发布新AI模型Muse Spark，性能表现强劲',
+        category: '产品发布与更新',
+        summary: 'Muse Spark是Meta推出的新模型，已经接入Meta AI应用与网站。',
+        source: 'Wired AI',
+        url: 'https://example.com/muse-spark-1',
+        score: 42
+      },
+      {
+        title: 'Meta携新模型Muse Spark重新加入AI竞赛',
+        category: '产品发布与更新',
+        summary: 'Meta超级智能实验室推出Muse Spark，并将在WhatsApp、Instagram和Facebook落地。',
+        source: 'The Verge AI',
+        url: 'https://example.com/muse-spark-2',
+        score: 39
+      },
+      {
+        title: '谷歌悄然推出可离线工作的AI听写应用',
+        category: '产品发布与更新',
+        summary: '谷歌推出优先离线的AI听写应用，使用Gemma模型并瞄准会议纪要等场景。',
+        source: 'TechCrunch AI',
+        url: 'https://example.com/google-dictation',
+        score: 38
+      }
+    ];
+
+    const selected = selectBalancedFinalNews(candidates, 2);
+    const titles = selected.map(item => item.title);
+
+    expect(selected.length).toBe(2);
+    expect(titles).toInclude('Meta发布新AI模型Muse Spark，性能表现强劲');
+    expect(titles).notToInclude('Meta携新模型Muse Spark重新加入AI竞赛');
+    expect(titles).toInclude('谷歌悄然推出可离线工作的AI听写应用');
+  });
+
   it('restores cross-day fallback candidates only when the final pool is short', () => {
     const previousNews = [
       {

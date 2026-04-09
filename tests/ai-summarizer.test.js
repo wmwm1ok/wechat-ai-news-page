@@ -214,6 +214,20 @@ describe('AI summarizer helpers', () => {
 
     expect(summary.includes('一是')).toBe(true);
     expect(summary.includes('二是')).toBe(true);
+    expect(summary.includes('三是')).toBe(true);
+  });
+
+  it('prefers the original summary when a refined version drops one of the promised points', () => {
+    const original = 'Mustafa Suleyman指出，AI发展不会很快遇到瓶颈，这主要基于三大技术趋势的融合：首先，芯片性能飞速提升，例如英伟达芯片的原始性能在六年内提升了七倍以上。其次，高带宽内存（HBM3）等技术使数据传输带宽提升至前代的三倍。再次，NVLink等互连技术让数十万GPU可以连接成超大规模计算集群。';
+    const refined = 'Mustafa Suleyman指出，AI发展不会很快遇到瓶颈，这主要基于三大技术趋势的融合：首先，芯片性能飞速提升。其次，高带宽内存让数据传输带宽显著增加。';
+    const preferred = choosePreferredSummary(
+      { title: 'Mustafa Suleyman：AI发展不会很快遇到瓶颈', summary: original },
+      original,
+      refined,
+      original
+    );
+
+    expect(preferred.includes('再次')).toBe(true);
   });
 
   it('keeps concise but readable Chinese summaries as last-chance candidates', () => {

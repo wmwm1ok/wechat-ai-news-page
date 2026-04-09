@@ -233,6 +233,9 @@ function hasMultiPointStructure(text) {
     /一是/u,
     /二是/u,
     /三是/u,
+    /首先/u,
+    /其次/u,
+    /再次/u,
     /1[、.．]/u,
     /2[、.．]/u,
     /3[、.．]/u,
@@ -242,7 +245,92 @@ function hasMultiPointStructure(text) {
   ];
 
   const hitCount = markers.filter(pattern => pattern.test(normalized)).length;
-  return hitCount >= 2 || (/具体表现为/u.test(normalized) && /；|。|，/u.test(normalized));
+  return hitCount >= 2 || countStructuredPoints(normalized) >= 2 || extractPromisedPointCount(normalized) >= 2 || (/具体表现为/u.test(normalized) && /；|。|，/u.test(normalized));
+}
+
+function toPointNumber(raw) {
+  const mapping = {
+    '两': 2,
+    '二': 2,
+    '三': 3,
+    '四': 4,
+    '2': 2,
+    '3': 3,
+    '4': 4
+  };
+
+  return mapping[String(raw || '')] || 0;
+}
+
+function extractPromisedPointCount(text) {
+  const normalized = String(text || '');
+  const match = normalized.match(/([两二三四2-4])[大个项种类条]?(?:技术趋势|趋势|方面|原因|重点|主题|布局|变化|亮点|能力|动作|结论|路径|信号|要点)/u);
+  return toPointNumber(match?.[1]);
+}
+
+function countStructuredPoints(text) {
+  const normalized = String(text || '');
+  const counters = [
+    ['一是', '二是', '三是', '四是'],
+    ['首先', '其次', '再次', '最后'],
+    ['1、', '2、', '3、', '4、'],
+    ['1.', '2.', '3.', '4.'],
+    ['1．', '2．', '3．', '4．']
+  ];
+
+  return counters.reduce((max, group) => {
+    const hitCount = group.filter(marker => normalized.includes(marker)).length;
+    return Math.max(max, hitCount);
+  }, 0);
+}
+
+function hasIncompleteStructuredPoints(text) {
+  const normalized = String(text || '');
+  const promisedPointCount = extractPromisedPointCount(normalized);
+  const actualPointCount = countStructuredPoints(normalized);
+
+  if (promisedPointCount >= 2 && actualPointCount > 0 && actualPointCount < promisedPointCount) {
+    return true;
+  }
+
+  if (/具体表现为|主要包括|具体包括|可归纳为|可以归纳为/u.test(normalized)) {
+    if (normalized.includes('一是') && !normalized.includes('二是')) {
+      return true;
+    }
+    if (normalized.includes('首先') && !normalized.includes('其次')) {
+      return true;
+    }
+    if ((normalized.includes('二是') || normalized.includes('其次')) && promisedPointCount >= 3) {
+      return !/三是|再次|第三/u.test(normalized);
+    }
+  }
+
+  return false;
+}
+
+function trimDisplaySummary(normalized, maxLength, minLength) {
+  const sentences = normalized
+    .split(/(?<=[。！？])/)
+    .map(part => part.trim())
+    .filter(Boolean);
+
+  if (sentences.length <= 1) {
+    return trimAtNaturalBoundary(normalized, maxLength);
+  }
+
+  let result = '';
+  for (const sentence of sentences) {
+    if ((result + sentence).length > maxLength) {
+      break;
+    }
+    result += sentence;
+  }
+
+  if (result.length >= minLength) {
+    return result;
+  }
+
+  return trimAtNaturalBoundary(normalized, maxLength);
 }
 
 // 检测摘要是否完整（不以...结尾且以句号/感叹号/问号结尾）
@@ -425,8 +513,11 @@ export function normalizeDisplaySummary(summary, options = {}) {
   const minLength = options.minLength || 90;
   const maxLength = options.maxLength || 150;
   const normalized = normalizeSummary(summary || '');
+  const structuredPointCount = countStructuredPoints(normalized);
+  const promisedPointCount = extractPromisedPointCount(normalized);
+  const expectedPointCount = Math.max(structuredPointCount, promisedPointCount);
   const effectiveMaxLength = hasMultiPointStructure(normalized)
-    ? Math.max(maxLength, 185)
+    ? Math.min(240, Math.max(maxLength, 170 + expectedPointCount * 22, promisedPointCount >= 3 ? 220 : 185))
     : maxLength;
   const effectiveMinLength = hasMultiPointStructure(normalized)
     ? Math.max(minLength, 120)
@@ -440,28 +531,17 @@ export function normalizeDisplaySummary(summary, options = {}) {
     return normalized;
   }
 
-  const sentences = normalized
-    .split(/(?<=[。！？])/)
-    .map(part => part.trim())
-    .filter(Boolean);
+  let result = trimDisplaySummary(normalized, effectiveMaxLength, effectiveMinLength);
 
-  if (sentences.length <= 1) {
-    return trimAtNaturalBoundary(normalized, effectiveMaxLength);
-  }
-
-  let result = '';
-  for (const sentence of sentences) {
-    if ((result + sentence).length > effectiveMaxLength) {
-      break;
+  if (hasIncompleteStructuredPoints(result) && hasMultiPointStructure(normalized)) {
+    const expandedMaxLength = Math.min(Math.max(effectiveMaxLength + 40, 220), Math.max(effectiveMaxLength, normalized.length));
+    const expandedResult = trimDisplaySummary(normalized, expandedMaxLength, effectiveMinLength);
+    if (!hasIncompleteStructuredPoints(expandedResult)) {
+      result = expandedResult;
     }
-    result += sentence;
   }
 
-  if (result.length >= effectiveMinLength) {
-    return result;
-  }
-
-  return trimAtNaturalBoundary(normalized, effectiveMaxLength);
+  return result;
 }
 
 function countKnownEntities(text) {
@@ -746,10 +826,11 @@ function evaluateSummaryCandidate(item, summary, sourceText, options = {}) {
   const reserve = isReserveDisplayNews({ ...item, summary: normalized });
   const concrete = countConcreteSignals(normalized);
   const signalScore = concrete.numberCount + concrete.actionCount + concrete.productCount;
+  const unfinishedPoints = hasIncompleteStructuredPoints(normalized);
 
   return {
     normalized,
-    score: (friendly ? 3 : 0) + (complete ? 2 : 0) + (specific ? 3 : 0) + (reserve ? 1 : 0) + Math.min(signalScore, 3)
+    score: (friendly ? 3 : 0) + (complete ? 2 : 0) + (specific ? 3 : 0) + (reserve ? 1 : 0) + Math.min(signalScore, 3) - (unfinishedPoints ? 3 : 0)
   };
 }
 

@@ -302,6 +302,50 @@ function normalizeCategories(topNews) {
   return grouped;
 }
 
+const FINAL_TOPIC_STOPWORDS = new Set([
+  '发布', '推出', '上线', '更新', '开放', '新增', '宣布', '首个', '新版', '模型', '功能', '产品',
+  '系统', '平台', '应用', '服务', '工具', '能力', '方案', 'ai', '人工智能', 'meta', 'google',
+  'openai', 'anthropic', 'microsoft', 'github', 'copilot'
+]);
+const FINAL_TOPIC_ACTION_GROUPS = [
+  ['发布', '推出', '上线', '更新', '开放'],
+  ['融资', '募资', '领投', '跟投'],
+  ['收购', '并购'],
+  ['起诉', '诉讼', '索赔']
+];
+
+function extractFinalTopicSignals(title = '') {
+  const normalized = String(title || '').toLowerCase();
+  const matches = normalized.match(/[a-z0-9+-]+|[\u4e00-\u9fff]{2,8}/g) || [];
+  return [...new Set(matches.filter(token => !FINAL_TOPIC_STOPWORDS.has(token) && token.length >= 2))];
+}
+
+function hasFinalTopicActionOverlap(itemA, itemB) {
+  const textA = `${itemA?.title || ''} ${itemA?.summary || ''}`.toLowerCase();
+  const textB = `${itemB?.title || ''} ${itemB?.summary || ''}`.toLowerCase();
+
+  return FINAL_TOPIC_ACTION_GROUPS.some(group =>
+    group.some(term => textA.includes(term.toLowerCase())) &&
+    group.some(term => textB.includes(term.toLowerCase()))
+  );
+}
+
+function isFinalTopicVariant(item, selectedItem) {
+  if (!item || !selectedItem || item.category !== selectedItem.category) {
+    return false;
+  }
+
+  const itemSignals = extractFinalTopicSignals(item.title);
+  const selectedSignals = extractFinalTopicSignals(selectedItem.title);
+  const sharedSignals = itemSignals.filter(signal => selectedSignals.includes(signal));
+
+  if (sharedSignals.length < 2) {
+    return false;
+  }
+
+  return hasFinalTopicActionOverlap(item, selectedItem);
+}
+
 function getFinalCategoryPlan(targetCount) {
   const basePlan = [
     { category: '产品发布与更新', quota: 3 },
@@ -344,6 +388,10 @@ export function selectBalancedFinalNews(candidates, targetCount) {
   const trySelect = (item) => {
     const key = item.url || item.title;
     if (selectedKeys.has(key)) {
+      return false;
+    }
+
+    if (selected.some(selectedItem => isFinalTopicVariant(item, selectedItem))) {
       return false;
     }
 
