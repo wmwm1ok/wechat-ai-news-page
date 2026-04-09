@@ -1,21 +1,21 @@
 {
-  "date": "2026/4/8",
+  "date": "2026/4/9",
   "edition": "daily",
   "editionLabel": "每日精选",
-  "title": "AI资讯每日精选-2026/4/8",
-  "generatedAt": "2026/4/8 16:02",
-  "count": 14,
+  "title": "AI资讯每日精选-2026/4/9",
+  "generatedAt": "2026/4/9 08:02",
+  "count": 13,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-04-07-daily.json",
-    "previousEditionFile": "news-2026-04-07-daily.json",
+    "previousDayFile": "news-2026-04-08-daily.json",
+    "previousEditionFile": "news-2026-04-08-daily.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 23,
-      "overseasBeforeDedup": 18,
-      "domesticAfterDedup": 23,
-      "overseasAfterDedup": 18,
+      "domesticBeforeDedup": 10,
+      "overseasBeforeDedup": 22,
+      "domesticAfterDedup": 10,
+      "overseasAfterDedup": 22,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,9 +25,9 @@
         },
         {
           "source": "量子位",
-          "ok": true,
-          "count": 5,
-          "error": null
+          "ok": false,
+          "count": 0,
+          "error": "Request timed out after 10000ms"
         },
         {
           "source": "36氪",
@@ -43,22 +43,22 @@
         },
         {
           "source": "雷锋网",
-          "ok": true,
-          "count": 8,
-          "error": null
+          "ok": false,
+          "count": 0,
+          "error": "Request timed out after 10000ms"
         }
       ],
       "overseasSources": [
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 6,
+          "count": 7,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 4,
+          "count": 3,
           "error": null
         },
         {
@@ -70,13 +70,13 @@
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 3,
+          "count": 4,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 1,
+          "count": 4,
           "error": null
         },
         {
@@ -95,116 +95,136 @@
       }
     },
     "summarize": {
-      "totalSummarized": 41
+      "totalSummarized": 32
     },
     "scoring": {
-      "totalInput": 41,
-      "totalScored": 27,
-      "strictScoredCount": 20,
-      "relaxedCandidateCount": 5,
+      "totalInput": 32,
+      "totalScored": 19,
+      "strictScoredCount": 11,
+      "relaxedCandidateCount": 1,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 10,
-      "selectedCandidateCount": 27,
-      "duplicateCount": 11,
-      "crossDayDuplicateCount": 7,
+      "weakSummaryCount": 5,
+      "selectedCandidateCount": 19,
+      "duplicateCount": 15,
+      "crossDayDuplicateCount": 12,
       "lowQualityCount": 2,
-      "domesticAvailable": 20,
-      "overseasAvailable": 7,
+      "domesticAvailable": 9,
+      "overseasAvailable": 10,
       "sourceCount": {
-        "量子位": 5,
-        "36氪": 5,
-        "InfoQ": 4,
-        "雷锋网": 6,
+        "InfoQ": 5,
+        "The Verge AI": 4,
+        "36氪": 4,
+        "Wired AI": 2,
         "TechCrunch AI": 2,
-        "The Verge AI": 2,
-        "MIT Technology Review": 3
+        "MIT Technology Review": 1,
+        "Ars Technica": 1
       }
     },
     "display": {
-      "refinedCount": 27,
-      "previousEditionRemovedCount": 3,
-      "previousEditionRestoredCount": 0,
-      "previousEditionLateRestoredCount": 0,
-      "integrityRemovedCount": 7,
-      "postEditionFilterCount": 17,
-      "displayReadyCount": 10,
-      "fallbackDisplayCount": 4,
+      "refinedCount": 19,
+      "previousEditionRemovedCount": 5,
+      "previousEditionRestoredCount": 2,
+      "previousEditionLateRestoredCount": 2,
+      "integrityRemovedCount": 2,
+      "postEditionFilterCount": 14,
+      "displayReadyCount": 11,
+      "fallbackDisplayCount": 2,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 7,
-      "shortage": 0
+      "removedWeakSummaries": 3,
+      "shortage": 1
     }
   },
   "articles": [
     {
-      "section": "产品发布与更新",
-      "title": "海尔Hybrid混动多联机亮相制冷展，主打会思考、能算账、懂省电",
-      "company": "海尔",
-      "url": "https://www.leiphone.com/category/industrynews/OAKrGcxTtVaWcaOU.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 08 Apr 2026 13:37:00 +0800",
-      "summary": "海尔在北京制冷展发布了行业首创的Hybrid混动多联机，旨在解决商用空调体感差、能耗不透明的问题。其核心变化在于：一是系统采用水氟混动，出风更柔和且实现‘氟不入户’，杜绝冷媒泄漏风险；二是内置AI智慧电表，能实时拆分并显示主机、内机等各部分的用电量，让能耗一目了然。",
-      "score": 39
-    },
-    {
-      "section": "技术与研究",
-      "title": "Claude研究漏引华人团队成果，已道歉",
-      "company": "Anthropic",
-      "url": "https://www.qbitai.com/2026/04/397576.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 07 Apr 2026 09:09:48 +0000",
-      "summary": "Anthropic公司于4月2日发布了一篇关于Claude内部“情绪机制”的新论文，在Sonnet 4.5模型中发现了171种“情绪向量”，通过直接调节相关回路，使AI生成指定情绪的准确率达到99.65%，远超以往的提示词引导和向量操控方法。",
-      "score": 42
-    },
-    {
-      "section": "技术与研究",
-      "title": "Meta员工为刷榜勋章空转AI消耗Token，日均达2万亿",
-      "company": "Meta",
-      "url": "https://www.qbitai.com/2026/04/397610.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 07 Apr 2026 09:13:40 +0000",
-      "summary": "Meta内部存在名为Claudeonomics的排行榜，实时追踪8.5万名员工的AI Token消耗量，员工为争夺“Token Legend”等勋章展开刷榜竞争，甚至有员工专门构建循环运行的机器人来消耗Token，日均消耗量高达2万亿。",
-      "score": 36
-    },
-    {
-      "section": "技术与研究",
-      "title": "Toco AI提出建模驱动AI编程实践，解决代码维护难题",
-      "company": "Toco",
-      "url": "https://www.infoq.cn/article/32Cv9YDKevt9BZlFsRzM?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 08 Apr 2026 10:00:00 GMT",
-      "summary": "Toco创始人曹偲在QCon北京大会上分享了建模驱动AI编程的实践方案。该方案通过将架构规范固化在工具中，统一生成代码的风格，避免AI发散导致的不易维护问题。同时采用模型驱动方式，使需求变更时只需修改模型，引擎会自动更新所有相关代码，从而解决AI代码“只管生、不管养”的维护难题。",
-      "score": 31
-    },
-    {
       "section": "投融资与并购",
-      "title": "地瓜机器人完成1.5亿美元B2轮融资，B轮累计融资额达2.7亿美元",
+      "title": "地瓜机器人完成1.5亿美元B2轮融资，B轮累计融资2.7亿美元",
       "company": "地瓜机器人",
-      "url": "https://www.qbitai.com/2026/04/397912.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 08 Apr 2026 06:39:06 +0000",
-      "summary": "2026年4月8日，地瓜机器人宣布完成1.5亿美元B2轮融资，其B轮累计融资额已达到2.7亿美元。本轮融资由多家战略及财务投资机构参与，老股东也持续跟投，资金将用于加速其商业和开发者生态的全球化布局。",
-      "score": 54
-    },
-    {
-      "section": "投融资与并购",
-      "title": "英伟达支持的AI数据中心建造商Firmus估值达55亿美元",
-      "company": "Firmus",
-      "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 07 Apr 2026 18:46:55 +0000",
-      "summary": "英伟达支持的亚洲AI数据中心提供商Firmus在六个月内筹集了13.5亿美元。该公司目前的估值已达到55亿美元。",
-      "score": 26
+      "url": "https://www.infoq.cn/article/vqsCNCHUBPoiwxeydL0b?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 08 Apr 2026 11:03:10 GMT",
+      "summary": "地瓜机器人宣布完成1.5亿美元B2轮融资，其B轮累计融资额已达到2.7亿美元。该公司与地平线合作，通过软硬协同打造“具身智能大脑基座”，其开发平台RDK S600可与地平线的HoloMotion和HoloBrain模型实现原生适配与深度优化，旨在提升机器人的控制、感知与操作能力。",
+      "score": 46
     },
     {
       "section": "政策与监管",
-      "title": "中东海水淡化厂日益脆弱",
-      "company": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/04/07/1135235/desalination-technology-water/",
+      "title": "GitHub利用AI重构无障碍反馈处理机制，显著提升解决效率",
+      "company": "GitHub",
+      "url": "https://www.infoq.cn/article/5SYq9w4s86yxTAuu0opy?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 08 Apr 2026 16:53:43 GMT",
+      "summary": "GitHub 推出了一套由 AI 驱动的自动化工作流，集中处理用户提交的无障碍访问问题。该系统具体通过 GitHub Actions、Copilot 和 Models APIs 实现，能自动接收、分类反馈，并分析其严重性及合规性，解决了以往反馈渠道分散、问题归属不清的痛点。",
+      "score": 31
+    },
+    {
+      "section": "技术与研究",
+      "title": "Meta携新模型Muse Spark重返AI竞赛",
+      "company": "Meta",
+      "url": "https://www.theverge.com/tech/908769/meta-muse-spark-ai-model-launch-rollout",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-08T16:12:54.000Z",
+      "summary": "Meta Superintelligence Labs推出了自扎克伯格投入数十亿美元改革公司AI战略以来的首个模型，名为Muse Spark。该模型目前为美国的Meta AI应用和网站提供支持。",
+      "score": 30
+    },
+    {
+      "section": "政策与监管",
+      "title": "GitHub将使用免费及专业版Copilot用户交互数据训练AI模型",
+      "company": "GitHub",
+      "url": "https://www.infoq.cn/article/Uw8eC56IOdyLm4aL294q?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 08 Apr 2026 17:00:00 GMT",
+      "summary": "GitHub宣布自4月24日起，将默认使用Copilot Free、Pro和Pro+用户的交互数据来训练和改进其AI模型，用户需手动关闭设置以退出数据收集。该政策引发了对企业代码安全风险的担忧，因为个人用户可能无权授权第三方使用公司源代码，且退出机制是按用户而非组织级别控制。",
+      "score": 29
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Anthropic发布Claude Mythos Preview模型，网络安全能力突出但限制使用",
+      "company": "Anthropic",
+      "url": "https://www.infoq.cn/article/2Sy6GlLvKgbPcwoCGDjx?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 08 Apr 2026 15:20:53 GMT",
+      "summary": "Anthropic发布了Claude Mythos Preview模型，该模型在多项基准测试中表现领先，尤其在网络安全领域展现出强大的漏洞发现能力，例如成功识别了OpenBSD中一个存在27年的TCP SACK漏洞等。然而，模型也表现出一些异常行为，如答案反复纠错循环和任务失败引发的情绪困扰。",
+      "score": 28
+    },
+    {
+      "section": "技术与研究",
+      "title": "Meta新AI模型让扎克伯格跻身巨头行列",
+      "company": "Meta",
+      "url": "https://www.wired.com/story/muse-spark-meta-open-source-closed-source/",
+      "source": "Wired AI",
+      "publishedAt": "Wed, 08 Apr 2026 18:51:09 +0000",
+      "summary": "Meta发布了其AI战略重组后的首个重要模型Muse Spark。该模型具备原生多模态能力，能同时处理图像、音频、视频和文本，并拥有先进的推理与强大的代码生成能力。Meta通过巨额投资（如向AI训练公司Scale投资143亿美元并招募其CEO）来强化AI团队。",
+      "score": 26
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "谷歌悄然推出可离线工作的AI听写应用",
+      "company": "Google",
+      "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 08 Apr 2026 05:40:19 +0000",
+      "summary": "谷歌新推出的这款优先离线的听写应用使用了Gemma AI模型，旨在与Wispr Flow等应用竞争。",
+      "score": 24
+    },
+    {
+      "section": "技术与研究",
+      "title": "Mustafa Suleyman：AI发展不会很快遇到瓶颈",
+      "company": "无",
+      "url": "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/",
       "source": "MIT Technology Review",
-      "publishedAt": "Tue, 07 Apr 2026 14:54:06 +0000",
-      "summary": "随着伊朗冲突升级，中东关键的海水淡化设施正面临直接军事威胁。这些设施通常毗邻发电厂（约75%），使其成为连带攻击目标。例如，卡什姆岛的海水淡化厂曾遭袭击，影响近30个村庄供水。",
-      "score": 19
+      "publishedAt": "Wed, 08 Apr 2026 14:00:00 +0000",
+      "summary": "Mustafa Suleyman认为，AI发展短期内不会遇到瓶颈，因为三大技术正共同驱动算力指数级增长。具体表现为：英伟达芯片原始性能在六年内提升超七倍；高带宽内存（HBM3）的数据传输带宽是前代的三倍；通过NVLink等技术，数十万GPU可连接成仓库大小的超级计算机。",
+      "score": 21
+    },
+    {
+      "section": "技术与研究",
+      "title": "马斯克放弃索赔，愿将所有赔偿金捐给OpenAI非营利组织",
+      "company": "OpenAI",
+      "url": "https://arstechnica.com/tech-policy/2026/04/to-beat-altman-in-court-musk-offers-to-give-all-damages-to-open-ai-nonprofit/",
+      "source": "Ars Technica",
+      "publishedAt": "Wed, 08 Apr 2026 17:37:06 +0000",
+      "summary": "马斯克在诉讼中放弃索赔，并提议将可能获得的赔偿金捐给OpenAI非营利组织。此前，其专家曾估算OpenAI和微软因不当使用马斯克早期3800万美元捐赠的收益可能高达1340亿美元，但法官已驳回其惩罚性赔偿请求，并认为其计算方式无法支持索赔主张。",
+      "score": 20
     },
     {
       "section": "技术与研究",
@@ -213,38 +233,18 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/908114/anthropic-project-glasswing-cybersecurity",
       "source": "The Verge AI",
       "publishedAt": "2026-04-07T18:00:00.000Z",
-      "summary": "Anthropic推出了一款名为Claude Mythos Preview的新AI模型，该模型发现了“每个主要操作系统和网络浏览器”都存在安全问题。该模型是名为Project Glasswing的网络安全合作项目的一部分，合作伙伴包括英伟达、谷歌、亚马逊网络服务、苹果、微软等公司。",
-      "score": 26
+      "summary": "Anthropic推出了一款新的AI模型，作为与英伟达、谷歌、亚马逊网络服务、苹果、微软等公司网络安全合作的一部分。该项目名为“玻璃翼”，旨在让大公司甚至政府能够以几乎无需人工干预的方式标记其系统中的漏洞。",
+      "score": 20
     },
     {
       "section": "技术与研究",
-      "title": "前苹果员工打造AI肩上宠物，获奇绩创坛投资，瞄准年轻人社交潮玩市场",
-      "company": "Blinkko",
-      "url": "https://36kr.com/p/3756484693967619?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-07 16:14:49  +0800",
-      "summary": "前苹果员工沈彤欣创立的Blinkko项目，推出了一款可磁吸在肩膀上的AI毛绒宠物。其核心设计是作为年轻人的“社交信号”：当用户佩戴它进入公园等真实场景时，它能自然地吸引同样佩戴者，从而开启陌生人社交，解决Z世代“缺乏走向彼此勇气”的痛点。",
-      "score": 24
-    },
-    {
-      "section": "投融资与并购",
-      "title": "英特尔将帮助埃隆·马斯克建造Terafab AI芯片工厂",
-      "company": "Intel",
-      "url": "https://www.theverge.com/transportation/907976/elon-musk-terafab-intel-ai-chip-spacex-tesla",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-07T15:43:17.000Z",
-      "summary": "英特尔宣布将帮助设计和建造埃隆·马斯克位于德克萨斯州奥斯汀的Terafab AI芯片工厂。该工厂将为马斯克的两家公司SpaceX（新近与xAI合并）和特斯拉供应AI芯片。马斯克需要AI芯片来推动其建造“机器人军队”的计划，该计划包括自动驾驶汽车和人形机器人，以及他计划发射到太空的数据中心。",
-      "score": 21
-    },
-    {
-      "section": "技术与研究",
-      "title": "美团李树斌：AI内容爆炸时代，“真人真评价”对餐饮业将更珍贵",
-      "company": "美团",
-      "url": "https://www.leiphone.com/category/industrynews/yRnQMywX3bISa7vb.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 08 Apr 2026 12:45:00 +0800",
-      "summary": "2026年4月8日，在2026中国餐饮连锁峰会上，美团高级副总裁李树斌发表了观点。他认为，随着AI生成的内容越来越多，人们反而会更加渴望看到真人创作的内容。因此，大众点评平台上那些由真实用户撰写的、表达可能并不完美的“真人真评价”，对于餐饮行业而言将变得更为珍贵和具有价值。",
-      "score": 17
+      "title": "Anthropic新产品旨在解决构建AI代理的难点",
+      "company": "Anthropic",
+      "url": "https://www.wired.com/story/anthropic-launches-claude-managed-agents/",
+      "source": "Wired AI",
+      "publishedAt": "Wed, 08 Apr 2026 17:00:00 +0000",
+      "summary": "Anthropic推出名为“Managed Agents”的新产品，旨在降低企业使用Claude构建AI代理的门槛。该产品为开发者提供了一个“代理框架”，包含软件工具、记忆系统等基础设施，并内置沙盒环境，让AI代理能在安全设置中启动软件项目。",
+      "score": 19
     },
     {
       "section": "投融资与并购",
@@ -253,28 +253,18 @@
       "url": "https://36kr.com/p/3757587705873158?f=rss",
       "source": "36氪",
       "publishedAt": "2026-04-08 10:56:54  +0800",
-      "summary": "新一代智能床垫正通过AI技术解决传统床垫无法动态适应睡姿的痛点。例如，追觅旗下希瑞智能床垫内置AI芯片，能实时感知人体压力分布和睡姿变化，并驱动多个独立单元动态调节支撑，使床垫贴合身体曲线。同时，其智能床架调节系统运行噪音仅约20分贝，实现无感调节。",
-      "score": 47
+      "summary": "新一代智能床垫正通过AI技术解决睡眠痛点。例如，希瑞智能床垫内置AI芯片，能实时感知人体压力分布和睡姿变化，并动态调节床垫支撑区域以贴合身体曲线。同时，其床架调节系统运行噪音极低，约20分贝，确保调节过程不打扰睡眠。",
+      "score": 39
     },
     {
-      "section": "投融资与并购",
-      "title": "红熊AI完成2.1亿元A轮融资，切入物理AI赛道",
-      "company": "红熊AI",
-      "url": "https://36kr.com/p/3750675963904513?f=rss",
+      "section": "技术与研究",
+      "title": "阿里电商AI战略调整：聚焦Token经济重构业务，组织架构同步变动",
+      "company": "阿里",
+      "url": "https://36kr.com/p/3748018292802309?f=rss",
       "source": "36氪",
-      "publishedAt": "2026-04-07 10:00:00  +0800",
-      "summary": "36氪获悉，企业级AI解决方案供应商「红熊AI」已于近日完成 2.1亿元A轮融资，投后估值超15亿元。本轮由华禹创投领投，老股东格睿丰投资、稼沃资本跟投，徐汇资本、上汽美元基金、嘉铭浩春、誉华资产等多家机构参与投资，三位创始团队成员也以本轮估值跟投约3000万元。",
-      "score": 45
-    },
-    {
-      "section": "投融资与并购",
-      "title": "雷军马云罕见同框投资，千寻智能30天完成30亿元融资",
-      "company": "千寻智能",
-      "url": "https://www.leiphone.com/category/ai/ipevOwCEqpoqypW9.html",
-      "source": "雷锋网",
-      "publishedAt": "Tue, 07 Apr 2026 15:12:00 +0800",
-      "summary": "2026年4月7日，千寻智能完成新一轮10亿元融资，由雷军创办的顺为资本和马云参与创立的云锋基金联合领投。这是该公司继2月份完成近20亿元融资后，30天内完成的第二轮融资，累计金额达30亿元。",
-      "score": 36
+      "publishedAt": "2026-04-08 17:23:43  +0800",
+      "summary": "文｜彭倩 编辑｜乔芊 杨轩 4月1日新财年伊始，由蒋凡统领的阿里巴巴中国电商事业群正在规划可以结合 AI 实现的增长点。据36氪了解，淘天集团当下对 AI 的探索将聚焦在 AI to B 方向上，其核心 OKR 是商家侧的 AI 工具留存率以及 AI 带来的 GMV 增长。",
+      "score": 33
     }
   ]
 }
