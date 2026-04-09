@@ -113,6 +113,25 @@ function buildEditionOutputName(prefix, date, edition, extension) {
   return `${prefix}-${date}-${edition}.${extension}`;
 }
 
+function isReusablePreviousDayDuplicate(duplicateCheck, item) {
+  if (!item || item.selectionMode !== 'crossDayFallback' || !duplicateCheck?.isDuplicate) {
+    return false;
+  }
+
+  const reason = String(duplicateCheck.reason || '');
+  const confidence = Number(duplicateCheck.confidence || 0);
+
+  if (reason === 'URL相同' || reason === '标题完全相同') {
+    return false;
+  }
+
+  if (reason.startsWith('标题语义相似') && confidence >= 0.88) {
+    return false;
+  }
+
+  return confidence < 0.88;
+}
+
 export function filterAgainstPreviousEdition(items, previousNews, targetCount = Array.isArray(items) ? items.length : 0) {
   if (!Array.isArray(items) || items.length === 0 || !Array.isArray(previousNews) || previousNews.length === 0) {
     return {
@@ -137,7 +156,7 @@ export function filterAgainstPreviousEdition(items, previousNews, targetCount = 
         source: item.source,
         reason: duplicateCheck.reason,
         matchedWith: duplicateCheck.matchedWith || '',
-        reusable: item.selectionMode === 'crossDayFallback'
+        reusable: isReusablePreviousDayDuplicate(duplicateCheck, item)
       };
       removed.push(removal);
       if (removal.reusable) {

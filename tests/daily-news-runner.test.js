@@ -72,10 +72,10 @@ describe('Daily news runner', () => {
   it('restores cross-day fallback candidates only when the final pool is short', () => {
     const previousNews = [
       {
-        title: 'OpenAI发布企业搜索工具并开放知识库接入',
-        summary: 'OpenAI 发布企业搜索工具，并开放知识库接入与管理员控制。',
-        source: 'InfoQ',
-        url: 'https://example.com/openai-search'
+        title: 'Google发布Gemini Live可视化更新',
+        summary: 'Google 发布 Gemini Live 更新，支持摄像头输入和屏幕共享。',
+        source: 'TechCrunch AI',
+        url: 'https://example.com/gemini-live'
       }
     ];
     const items = [
@@ -86,10 +86,10 @@ describe('Daily news runner', () => {
         url: 'https://example.com/claude-finance'
       },
       {
-        title: 'OpenAI发布企业搜索工具并开放知识库接入',
-        summary: 'OpenAI 发布企业搜索工具，并开放知识库接入与管理员控制，面向企业客户上线。',
-        source: 'InfoQ',
-        url: 'https://example.com/openai-search',
+        title: '谷歌给Gemini Live补上视频理解能力',
+        summary: '谷歌为 Gemini Live 增加摄像头输入和屏幕共享能力。',
+        source: 'The Verge AI',
+        url: 'https://example.com/gemini-live-2',
         selectionMode: 'crossDayFallback'
       },
       {
@@ -107,18 +107,18 @@ describe('Daily news runner', () => {
 
     expect(restored.kept.length).toBe(3);
     expect(restored.restored.length).toBe(1);
-    expect(restoredTitles).toInclude('OpenAI发布企业搜索工具并开放知识库接入');
+    expect(restoredTitles).toInclude('谷歌给Gemini Live补上视频理解能力');
     expect(strict.restored.length).toBe(0);
-    expect(strictTitles).notToInclude('OpenAI发布企业搜索工具并开放知识库接入');
+    expect(strictTitles).notToInclude('谷歌给Gemini Live补上视频理解能力');
   });
 
   it('keeps reusable previous-day candidates available for later replenishment', () => {
     const previousNews = [
       {
-        title: 'OpenAI发布企业搜索工具并开放知识库接入',
-        summary: 'OpenAI 发布企业搜索工具，并开放知识库接入与管理员控制。',
-        source: 'InfoQ',
-        url: 'https://example.com/openai-search'
+        title: 'Google发布Gemini Live可视化更新',
+        summary: 'Google 发布 Gemini Live 更新，支持摄像头输入和屏幕共享。',
+        source: 'TechCrunch AI',
+        url: 'https://example.com/gemini-live'
       }
     ];
     const items = [
@@ -129,10 +129,10 @@ describe('Daily news runner', () => {
         url: 'https://example.com/claude-finance'
       },
       {
-        title: 'OpenAI发布企业搜索工具并开放知识库接入',
-        summary: 'OpenAI 发布企业搜索工具，并开放知识库接入与管理员控制，面向企业客户上线。',
-        source: 'InfoQ',
-        url: 'https://example.com/openai-search',
+        title: '谷歌给Gemini Live补上视频理解能力',
+        summary: '谷歌为 Gemini Live 增加摄像头输入和屏幕共享能力。',
+        source: 'The Verge AI',
+        url: 'https://example.com/gemini-live-2',
         selectionMode: 'crossDayFallback'
       }
     ];
@@ -141,6 +141,32 @@ describe('Daily news runner', () => {
 
     expect(result.kept.length).toBe(1);
     expect(result.reusableRemovedItems.length).toBe(1);
+  });
+
+  it('does not reuse exact previous-day URL duplicates', () => {
+    const previousNews = [
+      {
+        title: '地瓜机器人完成1.5亿美元B2轮融资，B轮累计融资额达2.7亿美元',
+        summary: '地瓜机器人宣布完成1.5亿美元B2轮融资。',
+        source: '量子位',
+        url: 'https://example.com/funding'
+      }
+    ];
+    const items = [
+      {
+        title: '地瓜机器人完成1.5亿美元B2轮融资，B轮累计融资2.7亿美元',
+        summary: '地瓜机器人宣布完成1.5亿美元B2轮融资，并披露与地平线合作推进具身智能平台。',
+        source: 'InfoQ',
+        url: 'https://example.com/funding',
+        selectionMode: 'crossDayFallback'
+      }
+    ];
+
+    const result = filterAgainstPreviousEdition(items, previousNews, 1);
+
+    expect(result.kept.length).toBe(0);
+    expect(result.restored.length).toBe(0);
+    expect(result.reusableRemovedItems.length).toBe(0);
   });
 });
 

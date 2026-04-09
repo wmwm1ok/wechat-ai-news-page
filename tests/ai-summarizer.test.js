@@ -207,6 +207,15 @@ describe('AI summarizer helpers', () => {
     expect(preferred).toBe('荣耀与京东签订战略合作协议，双方将围绕 AI、机器人和 C2M 共创场景推进供应链、渠道和产品层面的合作。');
   });
 
+  it('keeps more than one point for multi-part summaries when trimming for display', () => {
+    const summary = normalizeDisplaySummary(
+      'Mustafa Suleyman认为，AI发展短期内不会遇到瓶颈，因为三大技术正共同驱动算力指数级增长。具体表现为：一是英伟达芯片原始性能在六年内提升超七倍；二是高带宽内存HBM3的数据传输带宽达到前代三倍；三是通过NVLink等技术，数十万GPU可以连接成仓库大小的超级计算机。'
+    );
+
+    expect(summary.includes('一是')).toBe(true);
+    expect(summary.includes('二是')).toBe(true);
+  });
+
   it('keeps concise but readable Chinese summaries as last-chance candidates', () => {
     const result = isLastChanceDisplayNews({
       title: '国内首条年产能万台级人形机器人产线建成',

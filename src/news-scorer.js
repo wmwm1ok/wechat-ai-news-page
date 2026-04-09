@@ -28,6 +28,22 @@ const CORE_AI_SIGNAL_TERMS = [
   'ai', '人工智能', '大模型', '模型', '算法', '训练', '推理', '多模态', '智能体', 'agent',
   'llm', '世界模型', '端到端', 'vla', 'robotaxi', '数据集', '生成式', '具身智能', 'mcp'
 ];
+const DEDUPE_ACTION_GROUPS = [
+  ['发布', '推出', '上线', '开放', '更新'],
+  ['融资', '募资', '领投', '跟投'],
+  ['收购', '并购'],
+  ['起诉', '诉讼', '索赔'],
+  ['道歉', '致歉'],
+  ['威胁', '攻击', '摧毁'],
+  ['训练', '微调', '预训练'],
+  ['集成', '接入', '适配'],
+  ['裁员', '离职', '解雇', '罢免']
+];
+const TITLE_SIGNAL_STOPWORDS = new Set([
+  '发布', '推出', '上线', '更新', '开放', '新增', '继续', '宣布', '推出了', '模型', '产品', '功能',
+  '系统', '平台', '服务', '应用', '工具', '能力', '方案', '公司', 'ai', '人工智能', '谷歌', 'google',
+  'openai', 'anthropic', 'meta', 'microsoft', 'muse', 'spark', 'gemini', 'claude', 'gpt'
+]);
 const TITLE_SUMMARY_CRITICAL_GROUPS = [
   ['员工', '雇员'],
   ['高管', 'ceo', '首席执行官', '管理层', '董事会'],
@@ -191,6 +207,12 @@ function normalizeSourceName(source) {
   return SOURCE_ALIASES[source] || source;
 }
 
+function extractDistinctiveTitleSignals(title = '') {
+  const normalized = String(title || '').toLowerCase();
+  const matches = normalized.match(/[a-z0-9+-]+|[\u4e00-\u9fff]{2,8}/g) || [];
+  return [...new Set(matches.filter(token => !TITLE_SIGNAL_STOPWORDS.has(token) && token.length >= 2))];
+}
+
 function hasBlockedSource(source) {
   return LOW_TRUST_SOURCES.has(normalizeSourceName(source));
 }
@@ -290,6 +312,19 @@ export function checkSemanticDuplicate(news, existingNews) {
     // 3. 标题语义指纹匹配
     const titleResult = dedupEngine.checkDuplicate(currentTitle, [existingTitle]);
     if (titleResult.isDuplicate) {
+      const currentSignals = extractDistinctiveTitleSignals(currentTitle);
+      const existingSignals = extractDistinctiveTitleSignals(existingTitle);
+      const sharedSignals = currentSignals.filter(signal => existingSignals.includes(signal));
+
+      if (
+        titleResult.confidence < 0.95 &&
+        currentSignals.length > 0 &&
+        existingSignals.length > 0 &&
+        sharedSignals.length === 0
+      ) {
+        continue;
+      }
+
       return { 
         isDuplicate: true, 
         reason: `标题语义相似 (${titleResult.reason})`, 
@@ -307,10 +342,15 @@ export function checkSemanticDuplicate(news, existingNews) {
       // 计算实体重叠度
       const commonEntities = currentEntities.filter(e => existingEntities.includes(e));
       const entityOverlap = commonEntities.length / Math.max(currentEntities.length, existingEntities.length);
+      const currentText = `${currentTitle} ${currentSummary}`.toLowerCase();
+      const existingText = `${existingTitle} ${existingSummary}`.toLowerCase();
+      const actionOverlap = DEDUPE_ACTION_GROUPS.filter(group =>
+        group.some(term => currentText.includes(term.toLowerCase())) &&
+        group.some(term => existingText.includes(term.toLowerCase()))
+      ).length;
       
       // 如果实体重叠度高且涉及相同公司/产品，认为是重复
-      // 提高阈值到 0.75 以减少误判
-      if (entityOverlap >= 0.75 && commonEntities.length >= 2) {
+      if (entityOverlap >= 0.75 && commonEntities.length >= 2 && actionOverlap >= 1) {
         return { 
           isDuplicate: true, 
           reason: '内容实体高度重叠', 

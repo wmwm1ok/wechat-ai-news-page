@@ -227,6 +227,24 @@ function trimAtNaturalBoundary(text, maxLength) {
   return candidate.slice(0, maxLength).trim().replace(/[A-Za-z0-9-]+$/u, '').trim().replace(/[，,；;：:、\s]+$/u, '') + '。';
 }
 
+function hasMultiPointStructure(text) {
+  const normalized = String(text || '');
+  const markers = [
+    /一是/u,
+    /二是/u,
+    /三是/u,
+    /1[、.．]/u,
+    /2[、.．]/u,
+    /3[、.．]/u,
+    /具体表现为/u,
+    /主要包括/u,
+    /具体包括/u
+  ];
+
+  const hitCount = markers.filter(pattern => pattern.test(normalized)).length;
+  return hitCount >= 2 || (/具体表现为/u.test(normalized) && /；|。|，/u.test(normalized));
+}
+
 // 检测摘要是否完整（不以...结尾且以句号/感叹号/问号结尾）
 export function isSummaryComplete(summary) {
   if (!summary || summary.length < 50) return false;
@@ -407,12 +425,18 @@ export function normalizeDisplaySummary(summary, options = {}) {
   const minLength = options.minLength || 90;
   const maxLength = options.maxLength || 150;
   const normalized = normalizeSummary(summary || '');
+  const effectiveMaxLength = hasMultiPointStructure(normalized)
+    ? Math.max(maxLength, 185)
+    : maxLength;
+  const effectiveMinLength = hasMultiPointStructure(normalized)
+    ? Math.max(minLength, 120)
+    : minLength;
 
   if (!normalized || normalized === '暂无摘要') {
     return normalized;
   }
 
-  if (normalized.length <= maxLength) {
+  if (normalized.length <= effectiveMaxLength) {
     return normalized;
   }
 
@@ -422,22 +446,22 @@ export function normalizeDisplaySummary(summary, options = {}) {
     .filter(Boolean);
 
   if (sentences.length <= 1) {
-    return trimAtNaturalBoundary(normalized, maxLength);
+    return trimAtNaturalBoundary(normalized, effectiveMaxLength);
   }
 
   let result = '';
   for (const sentence of sentences) {
-    if ((result + sentence).length > maxLength) {
+    if ((result + sentence).length > effectiveMaxLength) {
       break;
     }
     result += sentence;
   }
 
-  if (result.length >= minLength) {
+  if (result.length >= effectiveMinLength) {
     return result;
   }
 
-  return trimAtNaturalBoundary(normalized, maxLength);
+  return trimAtNaturalBoundary(normalized, effectiveMaxLength);
 }
 
 function countKnownEntities(text) {

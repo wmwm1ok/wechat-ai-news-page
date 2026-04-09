@@ -1,4 +1,4 @@
-import { scoreNews, selectTopNews } from '../src/news-scorer.js';
+import { checkSemanticDuplicate, scoreNews, selectTopNews } from '../src/news-scorer.js';
 
 function describe(name, fn) {
   console.log(`\n📦 ${name}`);
@@ -150,6 +150,40 @@ describe('News scorer', () => {
     }, []);
 
     expect(scoring.isDuplicate).toBe(true);
+  });
+
+  it('does not treat different Anthropic stories as duplicates just because entities overlap', () => {
+    const duplicate = checkSemanticDuplicate(
+      {
+        title: 'Anthropic新产品旨在解决构建AI代理的难点',
+        summary: 'Anthropic推出名为Managed Agents的新产品，旨在降低企业使用Claude构建AI代理的门槛。'
+      },
+      [
+        {
+          title: 'Claude研究漏引华人团队成果，已道歉',
+          summary: 'Anthropic发布论文后因遗漏引用华人团队研究成果而公开道歉。'
+        }
+      ]
+    );
+
+    expect(duplicate.isDuplicate).toBe(false);
+  });
+
+  it('does not treat different Gemini product lines as duplicates', () => {
+    const duplicate = checkSemanticDuplicate(
+      {
+        title: 'Google发布Gemini代码助手更新',
+        summary: 'Google 发布 Gemini 代码助手更新，补充仓库上下文与审计日志能力。'
+      },
+      [
+        {
+          title: 'Google发布Gemini Live可视化更新',
+          summary: 'Google 发布 Gemini Live 更新，支持摄像头输入和屏幕共享。'
+        }
+      ]
+    );
+
+    expect(duplicate.isDuplicate).toBe(false);
   });
 
   it('rejects consumer automotive launches with weak AI relevance', () => {
