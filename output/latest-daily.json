@@ -3,7 +3,7 @@
   "edition": "daily",
   "editionLabel": "每日精选",
   "title": "AI资讯每日精选-2026/4/9",
-  "generatedAt": "2026/4/9 10:01",
+  "generatedAt": "2026/4/9 15:12",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -12,21 +12,21 @@
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 23,
+      "domesticBeforeDedup": 30,
       "overseasBeforeDedup": 23,
-      "domesticAfterDedup": 23,
+      "domesticAfterDedup": 30,
       "overseasAfterDedup": 23,
       "domesticSources": [
         {
           "source": "机器之心",
-          "ok": false,
-          "count": 0,
-          "error": "Status code 500"
+          "ok": true,
+          "count": 6,
+          "error": null
         },
         {
           "source": "量子位",
           "ok": true,
-          "count": 5,
+          "count": 6,
           "error": null
         },
         {
@@ -95,46 +95,46 @@
       }
     },
     "summarize": {
-      "totalSummarized": 46
+      "totalSummarized": 53
     },
     "scoring": {
-      "totalInput": 46,
-      "totalScored": 31,
-      "strictScoredCount": 22,
-      "relaxedCandidateCount": 6,
+      "totalInput": 53,
+      "totalScored": 33,
+      "strictScoredCount": 28,
+      "relaxedCandidateCount": 5,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 10,
+      "weakSummaryCount": 14,
       "selectedCandidateCount": 31,
-      "duplicateCount": 10,
-      "crossDayDuplicateCount": 9,
-      "lowQualityCount": 2,
-      "domesticAvailable": 19,
-      "overseasAvailable": 12,
+      "duplicateCount": 7,
+      "crossDayDuplicateCount": 7,
+      "lowQualityCount": 3,
+      "domesticAvailable": 25,
+      "overseasAvailable": 8,
       "sourceCount": {
+        "雷锋网": 5,
         "量子位": 5,
-        "The Verge AI": 3,
-        "雷锋网": 6,
-        "Wired AI": 3,
-        "36氪": 4,
         "InfoQ": 4,
-        "Tech Xplore": 1,
-        "Ars Technica": 2,
+        "机器之心": 4,
+        "The Verge AI": 2,
+        "36氪": 5,
         "TechCrunch AI": 2,
-        "MIT Technology Review": 1
+        "MIT Technology Review": 1,
+        "Wired AI": 2,
+        "Ars Technica": 1
       }
     },
     "display": {
       "refinedCount": 31,
-      "previousEditionRemovedCount": 3,
+      "previousEditionRemovedCount": 0,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 26,
-      "displayReadyCount": 20,
-      "fallbackDisplayCount": 0,
+      "integrityRemovedCount": 7,
+      "postEditionFilterCount": 24,
+      "displayReadyCount": 16,
+      "fallbackDisplayCount": 1,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 6,
+      "removedWeakSummaries": 8,
       "shortage": 0
     }
   },
@@ -151,133 +151,133 @@
     },
     {
       "section": "产品发布与更新",
-      "title": "创想三维M1+R1系统众筹火爆，20分钟破千万首日破三千万",
+      "title": "创想三维M1+R1系统众筹20分钟破千万，首日超三千万",
       "company": "创想三维",
       "url": "https://www.leiphone.com/category/industrynews/sMdHrkJHN3fIisKk.html",
       "source": "雷锋网",
       "publishedAt": "Wed, 08 Apr 2026 17:28:00 +0800",
-      "summary": "创想三维推出的桌面级材料回收与生产系统M1+R1在众筹平台上取得巨大成功，上线20分钟金额突破1000万人民币，首日突破3000万人民币，吸引了超过3500位全球支持者。",
+      "summary": "创想三维推出的桌面级材料回收与生产系统M1+R1在众筹平台上线后，仅20分钟金额突破1000万人民币，首日超过3000万人民币，吸引了3500多位全球支持者。该系统由耗材生成机M1和粉碎机R1组成，可将塑料颗粒挤出为标准打印线材，并处理打印废料实现循环利用，支持用户自定义耗材属性。",
       "score": 37
     },
     {
       "section": "产品发布与更新",
-      "title": "Meta以新模型Muse Spark重新加入AI竞赛",
+      "title": "Meta携新模型Muse Spark重新加入AI竞赛",
       "company": "Meta",
       "url": "https://www.theverge.com/tech/908769/meta-muse-spark-ai-model-launch-rollout",
       "source": "The Verge AI",
       "publishedAt": "2026-04-08T16:12:54.000Z",
       "summary": "Meta超级智能实验室推出了自扎克伯格投入数十亿美元改革公司AI业务以来的首个模型，名为Muse Spark。该模型现已为美国的Meta AI应用和网站提供支持。Meta宣布，未来几周内，Muse Spark将出现在WhatsApp、Instagram、Facebook。",
-      "score": 27
-    },
-    {
-      "section": "技术与研究",
-      "title": "武大文科教授跨界AI推出图表智能体，半年项目量增长4000%",
-      "company": "爱图表",
-      "url": "https://www.qbitai.com/2026/04/398001.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 08 Apr 2026 14:26:19 +0000",
-      "summary": "武汉大学王琼教授团队推出了全球首个AI图表智能体“爱图表”，旨在通过人机协作提升数据可视化生产力，而非替代人类判断。该工具支持从基础图表到复杂关系结构图的自动生成与深度编辑，并已集成至飞书、网易、腾讯等主流平台。",
-      "score": 32
-    },
-    {
-      "section": "技术与研究",
-      "title": "智谱GLM-5.1在SWE-bench Pro测试中超越Claude Opus 4.6等模型",
-      "company": "智谱",
-      "url": "https://www.qbitai.com/2026/04/397898.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 08 Apr 2026 06:29:23 +0000",
-      "summary": "在SWE-bench Pro基准测试中，智谱的GLM-5.1模型刷新了全球最佳成绩，超越了包括Claude Opus 4.6和GPT-5.4在内的多个头部模型。该模型展现的Long Horizon能力，标志着AI能够持续工作数小时并交付完整项目，将AI从对话工具推向能实际执行长程任务的阶段。",
-      "score": 31
-    },
-    {
-      "section": "技术与研究",
-      "title": "GitHub将使用Copilot免费及专业版用户交互数据训练AI模型",
-      "company": "GitHub",
-      "url": "https://www.infoq.cn/article/Uw8eC56IOdyLm4aL294q?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 08 Apr 2026 17:00:00 GMT",
-      "summary": "GitHub宣布自4月24日起，将使用Copilot Free、Pro和Pro+用户的交互数据来训练和改进其AI模型，该设置默认开启，用户需手动关闭以退出。Copilot Business和Enterprise用户不受影响，而付费组织成员或外部协作者的用户数据以及来自付费组织仓库的数据不会被用于训练。",
-      "score": 26
-    },
-    {
-      "section": "投融资与并购",
-      "title": "OpenAI内部氛围不佳，稳定性受质疑",
-      "company": "OpenAI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-08T13:47:38.000Z",
-      "summary": "OpenAI目前处于相对不稳定的状态。尽管该公司刚刚完成了1220亿美元的融资，投后估值达到8520亿美元，并可能计划在今年晚些时候进行IPO。但近几个月来，一系列高管变动、项目终止等新闻引发了外界对其实际稳定性和能否保持领先地位的质疑。",
-      "score": 41
-    },
-    {
-      "section": "投融资与并购",
-      "title": "灵动佳芯完成近亿元A轮融资，柔性触觉传感器切入具身智能与锂电安全",
-      "company": "灵动佳芯",
-      "url": "https://36kr.com/p/3757589543813893?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-08 10:58:42  +0800",
-      "summary": "灵动佳芯完成近亿元A轮融资，其核心是基于PVDF材料研发柔性传感器。具体来看：1. 在机器人领域，其智能压电传感模组已进入多家主流清洁机器人供应链，2025年出货量将超1000万只；2. 在新兴的具身智能领域，公司已推出触觉传感器产品，并在部分头部客户实现小批量出货；3. 在锂电池安全领域，公司开发了可嵌入电池内部的柔性超声监测方案，能实时监测生产、使用及充电过程以实现预警，目前已与国内头部锂电企业展开合作。",
-      "score": 33
-    },
-    {
-      "section": "政策与监管",
-      "title": "GitHub利用AI重构无障碍反馈处理机制",
-      "company": "GitHub",
-      "url": "https://www.infoq.cn/article/5SYq9w4s86yxTAuu0opy?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 08 Apr 2026 16:53:43 GMT",
-      "summary": "GitHub引入了一套自动化、持续且由AI驱动的工作流，用于处理用户提交的无障碍功能反馈。该系统整合了来自多个渠道的反馈，通过集中入口和标准化模板收集结构化元数据，并利用GitHub Copilot和GitHub Models APIs对问题进行初步分析，包括评估严重性和合规性。",
-      "score": 34
-    },
-    {
-      "section": "政策与监管",
-      "title": "相互矛盾的法院裁决使Anthropic陷入供应链风险的不确定性",
-      "company": "Anthropic",
-      "url": "https://www.wired.com/story/anthropic-appeals-court-ruling/",
-      "source": "Wired AI",
-      "publishedAt": "Wed, 08 Apr 2026 22:27:26 +0000",
-      "summary": "美国一家上诉法院的裁决与今年三月一家下级法院的单独裁决相矛盾。这导致美国军方是否以及如何使用Anthropic公司的Claude模型存在不确定性。",
-      "score": 28
-    },
-    {
-      "section": "技术与研究",
-      "title": "谷歌Gemini推出“笔记本”功能以帮助组织项目",
-      "company": "Google",
-      "url": "https://www.theverge.com/tech/909031/google-gemini-notebooks-notebooklm",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-09T00:06:12.000Z",
-      "summary": "谷歌于本周三宣布，为其AI聊天机器人Gemini推出名为“笔记本”的新功能。该功能旨在帮助用户将特定主题相关的文件、过往对话和自定义指令整合到一处，为与Gemini的对话提供上下文支持。具体信息点包括：1. 功能定位类似ChatGPT的“项目”功能，用于集中存储主题信息；2. 笔记本内容可在谷歌产品间作为个人知识库共享，并会与谷歌的AI研究工具NotebookLM同步。",
-      "score": 26
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Anthropic发布Claude Mythos Preview模型，网络安全能力突出但限制使用",
-      "company": "Anthropic",
-      "url": "https://www.infoq.cn/article/2Sy6GlLvKgbPcwoCGDjx?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 08 Apr 2026 15:20:53 GMT",
-      "summary": "Anthropic发布了Claude Mythos Preview模型，该模型在多项基准测试中表现领先，尤其在网络安全领域展现出强大的漏洞发现能力，例如成功识别了OpenBSD中一个存在27年的TCP SACK漏洞、FFmpeg H.264解码器中一个16年的漏洞。",
       "score": 25
     },
     {
       "section": "技术与研究",
-      "title": "AI火焰图在亿级App性能优化中的落地实践",
+      "title": "《生化危机》女主参与打造免费AI记忆系统，GitHub热度飙升",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/04/398090.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 09 Apr 2026 05:11:19 +0000",
+      "summary": "曾饰演《生化危机》女主角爱丽丝的知名女星米拉·乔沃维奇与程序员朋友及Claude合作，共同开发了一个名为MemPalace的免费AI记忆系统。该系统在长期记忆基准测试LongMemEval中取得了公开可查史上最高分96.6%，并在ConvoMem和LoCoMo测试中分别获得92.9%和100%的成绩。",
+      "score": 38
+    },
+    {
+      "section": "技术与研究",
+      "title": "文生图进入Agent时代：港中文联合伯克利开源Gen-Searcher",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-09-8",
+      "source": "机器之心",
+      "publishedAt": "2026-04-09T15:02:00+08:00",
+      "summary": "过去两年，图像生成模型在质感和审美上取得了显著进展，但多数仍采用“直接出图”的范式。当提示词涉及真实世界知识、最新信息、冷门事实或需要跨多个来源核对细节时，传统文生图模型容易出错，因为它们缺乏面向真实世界的Agent能力，依赖固化的参数知识，缺少主动搜索、验证和整合外部信息的能力。",
+      "score": 31
+    },
+    {
+      "section": "技术与研究",
+      "title": "武大文科教授跨界AI推出图表智能体，半年项目量增长4000%",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/04/398001.html",
+      "source": "量子位",
+      "publishedAt": "Wed, 08 Apr 2026 14:26:19 +0000",
+      "summary": "武汉大学王琼教授团队推出了名为“爱图表”的AI图表智能体，旨在通过人机协作提升数据可视化生产力，而非替代人类判断。该工具支持从基础图表到复杂关系结构图的自动生成与深度编辑，并已集成到飞书、网易、腾讯等主流平台。团队还通过举办行业沙龙、为央视新闻等媒体提供支持，推动数据新闻在公共叙事中的应用。",
+      "score": 30
+    },
+    {
+      "section": "投融资与并购",
+      "title": "OpenAI内部氛围不佳，公司稳定性受质疑",
+      "company": "OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-08T13:47:38.000Z",
+      "summary": "OpenAI目前处于相对不稳定的位置。该公司刚刚在一周多前完成了1220亿美元的融资，投后估值达8520亿美元，并可能在今年晚些时候进行IPO。然而，近几个月来，一系列高管变动、项目终止及其他新闻引发了外界对其真实稳定性以及能否保持领先地位的质疑。",
+      "score": 44
+    },
+    {
+      "section": "投融资与并购",
+      "title": "牛津博士后跨界创业，智子力控完成千万级融资，以光学技术重构机器人力觉传感器",
+      "company": "智子力控",
+      "url": "https://36kr.com/p/3758900416348934?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-09 09:11:39  +0800",
+      "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，机器人全身级力觉自感知系统公司——智子力控（上海）科技有限公司（下称“智子力控”）近日完成新一轮融资，本轮由中芯聚源独家投资；此前，公司已获得浦东创投旗下浦东人工智能种子基金投资。这连续两轮融资达千万级别。",
+      "score": 30
+    },
+    {
+      "section": "政策与监管",
+      "title": "相互矛盾的裁决使Anthropic陷入“供应链风险”的不确定状态",
+      "company": "Anthropic",
+      "url": "https://www.wired.com/story/anthropic-appeals-court-ruling/",
+      "source": "Wired AI",
+      "publishedAt": "Wed, 08 Apr 2026 22:27:26 +0000",
+      "summary": "美国一家上诉法院的裁决与今年3月一家下级法院的单独裁决相矛盾。这导致美国军方是否以及如何使用Anthropic公司的Claude模型存在不确定性。",
+      "score": 26
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "谷歌悄然推出可离线工作的AI听写应用",
+      "company": "Google",
+      "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 08 Apr 2026 05:40:19 +0000",
+      "summary": "谷歌新推出的这款优先离线的听写应用使用了Gemma AI模型，旨在与Wispr Flow等应用竞争。",
+      "score": 22
+    },
+    {
+      "section": "技术与研究",
+      "title": "用户开发「数字鞭子」督促Claude，Anthropic发出律师函",
+      "company": "Anthropic",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-09-9",
+      "source": "机器之心",
+      "publishedAt": "2026-04-09T15:07:00+08:00",
+      "summary": "有开发者创建了一个名为“badclaude”的趣味项目，该项目被比喻为“数字鞭子”，其具体功能是当用户感觉Anthropic公司的AI编程助手Claude Code运行速度过慢时，可通过点击电脑系统托盘图标召唤出一把虚拟鞭子图像，并再次点击执行“鞭打”动作，以此戏谑地督促AI。",
+      "score": 27
+    },
+    {
+      "section": "技术与研究",
+      "title": "硅谷初创团队助普通人「驯服」Agent，登上X全球热搜",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-09-5",
+      "source": "机器之心",
+      "publishedAt": "2026-04-09T13:06:00+08:00",
+      "summary": "一支硅谷初创团队因帮助普通人轻松使用AI智能体（Agent）而登上X平台全球热搜。该团队致力于实现用户只需用一句话描述任务，AI就能自动执行的理想场景。文中以电商运营为例进行了说明，例如让AI在每周一自动扫描竞品网站价格变动并记录到表格，在价格波动超过一定比例时发送提醒。",
+      "score": 26
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI火焰图在亿级App性能优化中的实践分享",
       "company": "快手",
       "url": "https://www.infoq.cn/article/xJZRwpf2uuMA3UaS2SWm?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Thu, 09 Apr 2026 10:00:00 GMT",
-      "summary": "快手大前端性能负责人蔡雪建在QCon北京大会上分享了AI火焰图在亿级App性能优化中的落地经验。他拥有近10年移动端开发与性能优化经验，负责快手App启动速度、卡顿、功耗等核心体验方向，并主导了多项大型技术优化项目。",
+      "summary": "快手大前端性能负责人蔡雪建分享了AI火焰图在亿级用户App性能优化中的具体实践。他介绍，团队通过将性能专家的“诊断直觉”转化为参数化SQL与Prompt双层模型，实现了经验工程化，以解决跨平台（iOS/Android/Web/RN）性能分析机制差异大、统一范式损失细节的难题。",
       "score": 21
     },
     {
       "section": "技术与研究",
-      "title": "马斯克放弃索赔，愿将所有赔偿金捐给OpenAI非营利组织",
-      "company": "OpenAI",
-      "url": "https://arstechnica.com/tech-policy/2026/04/to-beat-altman-in-court-musk-offers-to-give-all-damages-to-open-ai-nonprofit/",
-      "source": "Ars Technica",
-      "publishedAt": "Wed, 08 Apr 2026 17:37:06 +0000",
-      "summary": "马斯克在诉讼中放弃了个人索赔，表示若胜诉愿将所有赔偿金捐给OpenAI非营利组织。此前其专家曾估算OpenAI与微软因不当使用马斯克早期3800万美元捐赠的获利可能高达1340亿美元，但法官已驳回了其惩罚性赔偿请求，并认为其计算方式无法支持索赔主张。",
-      "score": 20
+      "title": "Mustafa Suleyman：AI发展不会很快遇到瓶颈",
+      "company": "无",
+      "url": "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Wed, 08 Apr 2026 14:00:00 +0000",
+      "summary": "Mustafa Suleyman指出，AI发展短期内不会遇到瓶颈，其核心驱动力在于三大技术趋势的融合。具体而言：第一，硬件性能持续飞跃，例如英伟达芯片的原始性能在六年内提升了七倍以上。第二，高带宽内存（HBM3）等技术使数据传输带宽提升至前代的三倍，确保处理器高效运行。第三，通过NVLink等技术，数十万GPU可连接成仓库规模的超级计算机。",
+      "score": 19
     }
   ]
 }
