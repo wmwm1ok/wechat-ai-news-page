@@ -3,7 +3,7 @@
   "edition": "daily",
   "editionLabel": "每日精选",
   "title": "AI资讯每日精选-2026/4/9",
-  "generatedAt": "2026/4/9 15:12",
+  "generatedAt": "2026/4/9 16:14",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -103,24 +103,23 @@
       "strictScoredCount": 28,
       "relaxedCandidateCount": 5,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 14,
+      "weakSummaryCount": 17,
       "selectedCandidateCount": 31,
       "duplicateCount": 7,
       "crossDayDuplicateCount": 7,
-      "lowQualityCount": 3,
+      "lowQualityCount": 4,
       "domesticAvailable": 25,
       "overseasAvailable": 8,
       "sourceCount": {
         "雷锋网": 5,
         "量子位": 5,
-        "InfoQ": 4,
-        "机器之心": 4,
-        "The Verge AI": 2,
         "36氪": 5,
+        "机器之心": 4,
         "TechCrunch AI": 2,
+        "InfoQ": 4,
+        "The Verge AI": 3,
         "MIT Technology Review": 1,
-        "Wired AI": 2,
-        "Ars Technica": 1
+        "Wired AI": 2
       }
     },
     "display": {
@@ -128,9 +127,9 @@
       "previousEditionRemovedCount": 0,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
-      "integrityRemovedCount": 7,
-      "postEditionFilterCount": 24,
-      "displayReadyCount": 16,
+      "integrityRemovedCount": 6,
+      "postEditionFilterCount": 25,
+      "displayReadyCount": 17,
       "fallbackDisplayCount": 1,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
@@ -141,33 +140,33 @@
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "智谱GLM-5.1旗舰模型上线华为云，支持多款产品体验",
-      "company": "智谱",
-      "url": "https://www.qbitai.com/2026/04/397942.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 08 Apr 2026 10:17:47 +0000",
-      "summary": "4月8日，智谱正式发布新一代旗舰模型GLM-5.1，发布当天已上线华为云，并成功对接华为云多款产品。该模型整体能力全面提升，是目前全球最强的开源模型，Coding能力刷新全球最佳成绩，在长程任务（Long Horizon Task）处理能力上实现突破，能够在单次任务中持续、自主地工作长达8小时。",
-      "score": 53
-    },
-    {
-      "section": "产品发布与更新",
       "title": "创想三维M1+R1系统众筹20分钟破千万，首日超三千万",
       "company": "创想三维",
       "url": "https://www.leiphone.com/category/industrynews/sMdHrkJHN3fIisKk.html",
       "source": "雷锋网",
       "publishedAt": "Wed, 08 Apr 2026 17:28:00 +0800",
-      "summary": "创想三维推出的桌面级材料回收与生产系统M1+R1在众筹平台上线后，仅20分钟金额突破1000万人民币，首日超过3000万人民币，吸引了3500多位全球支持者。该系统由耗材生成机M1和粉碎机R1组成，可将塑料颗粒挤出为标准打印线材，并处理打印废料实现循环利用，支持用户自定义耗材属性。",
+      "summary": "创想三维推出的桌面级材料回收与生产系统M1+R1在众筹平台上线后，仅20分钟金额便突破1000万人民币，首日超过3000万人民币，吸引了全球3500多位支持者。该系统由耗材生成机M1和粉碎机R1组成，可将塑料颗粒挤出为标准打印线材，并处理打印废料实现循环利用，同时支持用户自定义耗材。",
       "score": 37
     },
     {
       "section": "产品发布与更新",
-      "title": "Meta携新模型Muse Spark重新加入AI竞赛",
+      "title": "Meta亿元天团发布首个大模型，多项指标媲美顶尖AI模型",
       "company": "Meta",
-      "url": "https://www.theverge.com/tech/908769/meta-muse-spark-ai-model-launch-rollout",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-08T16:12:54.000Z",
-      "summary": "Meta超级智能实验室推出了自扎克伯格投入数十亿美元改革公司AI业务以来的首个模型，名为Muse Spark。该模型现已为美国的Meta AI应用和网站提供支持。Meta宣布，未来几周内，Muse Spark将出现在WhatsApp、Instagram、Facebook。",
-      "score": 25
+      "url": "https://www.qbitai.com/2026/04/398020.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 09 Apr 2026 01:49:48 +0000",
+      "summary": "Meta公司由Jason Wei、余家辉、宋飏等顶尖研究人员组成的团队耗时九个月，发布了其首个大模型。该模型在关键的人工智能分析指数上表现出色，得分仅次于Gemini 3.1 Pro、GPT-5.4和Claude Opus 4.6，在多项测试中要么排名第一，要么与这些顶尖模型不相上下。该模型最初被构想为一款用于推理的Llama模型，其开发过程包括通过小模型拟合“算力-能力”曲线来验证效果。",
+      "score": 35
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Claude推出托管智能体服务，支持多任务并行与团队协作",
+      "company": "Claude",
+      "url": "https://www.qbitai.com/2026/04/398121.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 09 Apr 2026 06:59:04 +0000",
+      "summary": "Claude在其协作平台内推出了托管智能体服务，允许团队将工作任务委派给智能体，目前已在Notion自定义智能体模块中开启内测。该服务支持工程师高效交付代码，帮助知识工作者快速制作网站与演示文稿，并能并行推进数十项任务，团队成员可围绕智能体生成的结果开展协同作业。",
+      "score": 27
     },
     {
       "section": "技术与研究",
@@ -177,41 +176,41 @@
       "source": "量子位",
       "publishedAt": "Thu, 09 Apr 2026 05:11:19 +0000",
       "summary": "曾饰演《生化危机》女主角爱丽丝的知名女星米拉·乔沃维奇与程序员朋友及Claude合作，共同开发了一个名为MemPalace的免费AI记忆系统。该系统在长期记忆基准测试LongMemEval中取得了公开可查史上最高分96.6%，并在ConvoMem和LoCoMo测试中分别获得92.9%和100%的成绩。",
-      "score": 38
+      "score": 42
     },
     {
       "section": "技术与研究",
-      "title": "文生图进入Agent时代：港中文联合伯克利开源Gen-Searcher",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-09-8",
+      "title": "对话天猫设计家CEO马学军：家装行业千亿投入未改产业困局，新探索能否破局？",
+      "company": "天猫设计家",
+      "url": "https://36kr.com/p/3758979573121538?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-09 10:32:44  +0800",
+      "summary": "天猫设计家CEO马学军阐述了其破局家装行业的新模式。具体而言：1. 通过CID模式（个性化、工业化、数字化）构建五大产业基础设施平台，作为行业“水电煤”。2. 推出“社会化全工种精工履约平台”，利用精确到毫米的量房数据和自动生成的数百张施工图作为标准合同，实现工人抢单与即时结算。3. 应用AI在获客阶段理解消费者动态需求，并结合算法在深化阶段确保精确履约。该模式旨在赋能设计师、工人等成为“超级个体”，提升产业整体效率。",
+      "score": 33
+    },
+    {
+      "section": "技术与研究",
+      "title": "Anthropic向开发「数字鞭子」督促Claude的项目发律师函",
+      "company": "Anthropic",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-09-9",
       "source": "机器之心",
-      "publishedAt": "2026-04-09T15:02:00+08:00",
-      "summary": "过去两年，图像生成模型在质感和审美上取得了显著进展，但多数仍采用“直接出图”的范式。当提示词涉及真实世界知识、最新信息、冷门事实或需要跨多个来源核对细节时，传统文生图模型容易出错，因为它们缺乏面向真实世界的Agent能力，依赖固化的参数知识，缺少主动搜索、验证和整合外部信息的能力。",
-      "score": 31
-    },
-    {
-      "section": "技术与研究",
-      "title": "武大文科教授跨界AI推出图表智能体，半年项目量增长4000%",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/04/398001.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 08 Apr 2026 14:26:19 +0000",
-      "summary": "武汉大学王琼教授团队推出了名为“爱图表”的AI图表智能体，旨在通过人机协作提升数据可视化生产力，而非替代人类判断。该工具支持从基础图表到复杂关系结构图的自动生成与深度编辑，并已集成到飞书、网易、腾讯等主流平台。团队还通过举办行业沙龙、为央视新闻等媒体提供支持，推动数据新闻在公共叙事中的应用。",
-      "score": 30
+      "publishedAt": "2026-04-09T15:07:00+08:00",
+      "summary": "近日，一个名为“badclaude”的整活项目因戏谑督促AI助手Claude而收到其母公司Anthropic的律师函。该项目被开发者称为“数字鞭子”，其具体功能是：当用户感觉Claude Code（推测为Claude的代码生成或执行功能）运行速度过慢时。",
+      "score": 27
     },
     {
       "section": "投融资与并购",
-      "title": "OpenAI内部氛围不佳，公司稳定性受质疑",
+      "title": "The vibes are off at OpenAI",
       "company": "OpenAI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai",
       "source": "The Verge AI",
       "publishedAt": "2026-04-08T13:47:38.000Z",
-      "summary": "OpenAI目前处于相对不稳定的位置。该公司刚刚在一周多前完成了1220亿美元的融资，投后估值达8520亿美元，并可能在今年晚些时候进行IPO。然而，近几个月来，一系列高管变动、项目终止及其他新闻引发了外界对其真实稳定性以及能否保持领先地位的质疑。",
-      "score": 44
+      "summary": "OpenAI近期陷入动荡。尽管估值高达8520亿美元，但公司面临盈利压力，其CEO奥特曼在播客中因营收与支出问题与主持人发生争执。为应对竞争，公司宣布进入“红色警戒”状态，并调整战略：意外终止了视频生成应用Sora的开发，搁置了与迪士尼的合作以及为ChatGPT添加情色功能的计划。",
+      "score": 16
     },
     {
       "section": "投融资与并购",
-      "title": "牛津博士后跨界创业，智子力控完成千万级融资，以光学技术重构机器人力觉传感器",
+      "title": "智子力控完成千万级融资，牛津博士后以光学技术重构机器人传感器",
       "company": "智子力控",
       "url": "https://36kr.com/p/3758900416348934?f=rss",
       "source": "36氪",
@@ -221,12 +220,22 @@
     },
     {
       "section": "政策与监管",
-      "title": "相互矛盾的裁决使Anthropic陷入“供应链风险”的不确定状态",
+      "title": "相互矛盾的裁决使Anthropic陷入‘供应链风险’的不确定状态",
       "company": "Anthropic",
       "url": "https://www.wired.com/story/anthropic-appeals-court-ruling/",
       "source": "Wired AI",
       "publishedAt": "Wed, 08 Apr 2026 22:27:26 +0000",
-      "summary": "美国一家上诉法院的裁决与今年3月一家下级法院的单独裁决相矛盾。这导致美国军方是否以及如何使用Anthropic公司的Claude模型存在不确定性。",
+      "summary": "美国一家上诉法院的裁决与今年三月另一家下级法院的判决相矛盾。这导致美国军方是否以及如何使用Anthropic公司的Claude模型存在不确定性。",
+      "score": 30
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "CREAO团队押注AI Agent赛道，全栈自研降低使用门槛",
+      "company": "CREAO",
+      "url": "https://www.qbitai.com/2026/04/398140.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 09 Apr 2026 07:08:02 +0000",
+      "summary": "CREAO团队发布了全球首个面向普通用户的AI Agent平台，通过全栈自研技术摆脱了对第三方框架的依赖，能灵活适配各类工具与API。其核心创新在于：用户无需专业知识，仅用自然语言描述需求，AI系统即可自动搭建并运行工作流程；流程跑通后，用户可一键将其“固化”为永久可用的智能体。",
       "score": 26
     },
     {
@@ -236,18 +245,8 @@
       "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
       "source": "TechCrunch AI",
       "publishedAt": "Wed, 08 Apr 2026 05:40:19 +0000",
-      "summary": "谷歌新推出的这款优先离线的听写应用使用了Gemma AI模型，旨在与Wispr Flow等应用竞争。",
+      "summary": "谷歌推出了新的优先离线的听写应用，该应用使用Gemma AI模型。这款应用旨在与Wispr Flow等应用竞争。",
       "score": 22
-    },
-    {
-      "section": "技术与研究",
-      "title": "用户开发「数字鞭子」督促Claude，Anthropic发出律师函",
-      "company": "Anthropic",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-09-9",
-      "source": "机器之心",
-      "publishedAt": "2026-04-09T15:07:00+08:00",
-      "summary": "有开发者创建了一个名为“badclaude”的趣味项目，该项目被比喻为“数字鞭子”，其具体功能是当用户感觉Anthropic公司的AI编程助手Claude Code运行速度过慢时，可通过点击电脑系统托盘图标召唤出一把虚拟鞭子图像，并再次点击执行“鞭打”动作，以此戏谑地督促AI。",
-      "score": 27
     },
     {
       "section": "技术与研究",
@@ -256,28 +255,28 @@
       "url": "https://www.jiqizhixin.com/articles/2026-04-09-5",
       "source": "机器之心",
       "publishedAt": "2026-04-09T13:06:00+08:00",
-      "summary": "一支硅谷初创团队因帮助普通人轻松使用AI智能体（Agent）而登上X平台全球热搜。该团队致力于实现用户只需用一句话描述任务，AI就能自动执行的理想场景。文中以电商运营为例进行了说明，例如让AI在每周一自动扫描竞品网站价格变动并记录到表格，在价格波动超过一定比例时发送提醒。",
+      "summary": "一支硅谷初创团队因帮助普通人轻松使用AI智能体（Agent）而登上X平台全球热搜。该团队致力于实现用户仅需用一句话描述任务，AI便能自动执行的愿景，例如在电商运营场景中，AI可自动扫描竞品网站价格变动并记录到表格，在价格波动超过设定阈值时发送提醒。这一进展展示了AI助手在自动化日常任务方面的潜力。",
       "score": 26
     },
     {
       "section": "技术与研究",
-      "title": "AI火焰图在亿级App性能优化中的实践分享",
-      "company": "快手",
-      "url": "https://www.infoq.cn/article/xJZRwpf2uuMA3UaS2SWm?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 09 Apr 2026 10:00:00 GMT",
-      "summary": "快手大前端性能负责人蔡雪建分享了AI火焰图在亿级用户App性能优化中的具体实践。他介绍，团队通过将性能专家的“诊断直觉”转化为参数化SQL与Prompt双层模型，实现了经验工程化，以解决跨平台（iOS/Android/Web/RN）性能分析机制差异大、统一范式损失细节的难题。",
-      "score": 21
+      "title": "Gemini gets notebooks to help you organize projects",
+      "company": "Gemini",
+      "url": "https://www.theverge.com/tech/909031/google-gemini-notebooks-notebooklm",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-09T00:06:12.000Z",
+      "summary": "谷歌宣布为AI助手Gemini推出名为“笔记本”的新功能，旨在帮助用户集中管理特定主题的项目资料。该功能允许用户将文件、历史对话和自定义指令整合到笔记本中，作为与Gemini对话时的上下文参考。",
+      "score": 24
     },
     {
       "section": "技术与研究",
-      "title": "Mustafa Suleyman：AI发展不会很快遇到瓶颈",
-      "company": "无",
-      "url": "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Wed, 08 Apr 2026 14:00:00 +0000",
-      "summary": "Mustafa Suleyman指出，AI发展短期内不会遇到瓶颈，其核心驱动力在于三大技术趋势的融合。具体而言：第一，硬件性能持续飞跃，例如英伟达芯片的原始性能在六年内提升了七倍以上。第二，高带宽内存（HBM3）等技术使数据传输带宽提升至前代的三倍，确保处理器高效运行。第三，通过NVLink等技术，数十万GPU可连接成仓库规模的超级计算机。",
-      "score": 19
+      "title": "Meta is reentering the AI race with a new model called Muse Spark",
+      "company": "Meta",
+      "url": "https://www.theverge.com/tech/908769/meta-muse-spark-ai-model-launch-rollout",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-08T16:12:54.000Z",
+      "summary": "Meta发布其AI重组后的首款模型Muse Spark，现已在美国的Meta AI应用和网站上线，并将在未来几周内集成至WhatsApp、Instagram等旗下应用及智能眼镜，同时向更多国家推广。该模型具备多模态能力，可处理文本和图像输入，并设有“即时”和“思考”两种响应模式以平衡速度与深度。",
+      "score": 22
     }
   ]
 }
