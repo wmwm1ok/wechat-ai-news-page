@@ -331,7 +331,7 @@ function hasFinalTopicActionOverlap(itemA, itemB) {
 }
 
 function isFinalTopicVariant(item, selectedItem) {
-  if (!item || !selectedItem || item.category !== selectedItem.category) {
+  if (!item || !selectedItem) {
     return false;
   }
 

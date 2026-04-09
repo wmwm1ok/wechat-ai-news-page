@@ -81,7 +81,7 @@ describe('Daily news runner', () => {
       },
       {
         title: 'Meta携新模型Muse Spark重新加入AI竞赛',
-        category: '产品发布与更新',
+        category: '技术与研究',
         summary: 'Meta超级智能实验室推出Muse Spark，并将在WhatsApp、Instagram和Facebook落地。',
         source: 'The Verge AI',
         url: 'https://example.com/muse-spark-2',
