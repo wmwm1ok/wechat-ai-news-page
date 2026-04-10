@@ -1,21 +1,21 @@
 {
-  "date": "2026/4/9",
+  "date": "2026/4/10",
   "edition": "daily",
   "editionLabel": "每日精选",
-  "title": "AI资讯每日精选-2026/4/9",
-  "generatedAt": "2026/4/9 16:14",
+  "title": "AI资讯每日精选-2026/4/10",
+  "generatedAt": "2026/4/10 08:02",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-04-08-daily.json",
-    "previousEditionFile": "news-2026-04-08-daily.json",
+    "previousDayFile": "news-2026-04-09-daily.json",
+    "previousEditionFile": "news-2026-04-09-daily.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
       "domesticBeforeDedup": 30,
-      "overseasBeforeDedup": 23,
-      "domesticAfterDedup": 30,
-      "overseasAfterDedup": 23,
+      "overseasBeforeDedup": 24,
+      "domesticAfterDedup": 29,
+      "overseasAfterDedup": 24,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -52,13 +52,13 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 7,
+          "count": 9,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 1,
           "error": null
         },
         {
@@ -70,7 +70,7 @@
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 5,
+          "count": 6,
           "error": null
         },
         {
@@ -99,183 +99,185 @@
     },
     "scoring": {
       "totalInput": 53,
-      "totalScored": 33,
-      "strictScoredCount": 28,
-      "relaxedCandidateCount": 5,
+      "totalScored": 31,
+      "strictScoredCount": 19,
+      "relaxedCandidateCount": 9,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 17,
+      "weakSummaryCount": 13,
       "selectedCandidateCount": 31,
-      "duplicateCount": 7,
-      "crossDayDuplicateCount": 7,
-      "lowQualityCount": 4,
-      "domesticAvailable": 25,
-      "overseasAvailable": 8,
+      "duplicateCount": 13,
+      "crossDayDuplicateCount": 13,
+      "lowQualityCount": 2,
+      "domesticAvailable": 20,
+      "overseasAvailable": 11,
       "sourceCount": {
-        "雷锋网": 5,
-        "量子位": 5,
+        "雷锋网": 4,
+        "机器之心": 3,
         "36氪": 5,
-        "机器之心": 4,
-        "TechCrunch AI": 2,
+        "量子位": 4,
+        "The Verge AI": 2,
+        "TechCrunch AI": 4,
         "InfoQ": 4,
-        "The Verge AI": 3,
+        "Wired AI": 1,
+        "Tech Xplore": 1,
         "MIT Technology Review": 1,
-        "Wired AI": 2
+        "Ars Technica": 2
       }
     },
     "display": {
       "refinedCount": 31,
-      "previousEditionRemovedCount": 0,
+      "previousEditionRemovedCount": 3,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
-      "integrityRemovedCount": 6,
-      "postEditionFilterCount": 25,
-      "displayReadyCount": 17,
-      "fallbackDisplayCount": 1,
+      "integrityRemovedCount": 5,
+      "postEditionFilterCount": 23,
+      "displayReadyCount": 16,
+      "fallbackDisplayCount": 2,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 8,
+      "removedWeakSummaries": 7,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "创想三维M1+R1系统众筹20分钟破千万，首日超三千万",
-      "company": "创想三维",
-      "url": "https://www.leiphone.com/category/industrynews/sMdHrkJHN3fIisKk.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 08 Apr 2026 17:28:00 +0800",
-      "summary": "创想三维推出的桌面级材料回收与生产系统M1+R1在众筹平台上线后，仅20分钟金额便突破1000万人民币，首日超过3000万人民币，吸引了全球3500多位支持者。该系统由耗材生成机M1和粉碎机R1组成，可将塑料颗粒挤出为标准打印线材，并处理打印废料实现循环利用，同时支持用户自定义耗材。",
-      "score": 37
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Meta亿元天团发布首个大模型，多项指标媲美顶尖AI模型",
-      "company": "Meta",
-      "url": "https://www.qbitai.com/2026/04/398020.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 09 Apr 2026 01:49:48 +0000",
-      "summary": "Meta公司由Jason Wei、余家辉、宋飏等顶尖研究人员组成的团队耗时九个月，发布了其首个大模型。该模型在关键的人工智能分析指数上表现出色，得分仅次于Gemini 3.1 Pro、GPT-5.4和Claude Opus 4.6，在多项测试中要么排名第一，要么与这些顶尖模型不相上下。该模型最初被构想为一款用于推理的Llama模型，其开发过程包括通过小模型拟合“算力-能力”曲线来验证效果。",
-      "score": 35
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Claude推出托管智能体服务，支持多任务并行与团队协作",
-      "company": "Claude",
-      "url": "https://www.qbitai.com/2026/04/398121.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 09 Apr 2026 06:59:04 +0000",
-      "summary": "Claude在其协作平台内推出了托管智能体服务，允许团队将工作任务委派给智能体，目前已在Notion自定义智能体模块中开启内测。该服务支持工程师高效交付代码，帮助知识工作者快速制作网站与演示文稿，并能并行推进数十项任务，团队成员可围绕智能体生成的结果开展协同作业。",
-      "score": 27
-    },
-    {
-      "section": "技术与研究",
-      "title": "《生化危机》女主参与打造免费AI记忆系统，GitHub热度飙升",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/04/398090.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 09 Apr 2026 05:11:19 +0000",
-      "summary": "曾饰演《生化危机》女主角爱丽丝的知名女星米拉·乔沃维奇与程序员朋友及Claude合作，共同开发了一个名为MemPalace的免费AI记忆系统。该系统在长期记忆基准测试LongMemEval中取得了公开可查史上最高分96.6%，并在ConvoMem和LoCoMo测试中分别获得92.9%和100%的成绩。",
-      "score": 42
-    },
-    {
-      "section": "技术与研究",
-      "title": "对话天猫设计家CEO马学军：家装行业千亿投入未改产业困局，新探索能否破局？",
-      "company": "天猫设计家",
-      "url": "https://36kr.com/p/3758979573121538?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-09 10:32:44  +0800",
-      "summary": "天猫设计家CEO马学军阐述了其破局家装行业的新模式。具体而言：1. 通过CID模式（个性化、工业化、数字化）构建五大产业基础设施平台，作为行业“水电煤”。2. 推出“社会化全工种精工履约平台”，利用精确到毫米的量房数据和自动生成的数百张施工图作为标准合同，实现工人抢单与即时结算。3. 应用AI在获客阶段理解消费者动态需求，并结合算法在深化阶段确保精确履约。该模式旨在赋能设计师、工人等成为“超级个体”，提升产业整体效率。",
-      "score": 33
-    },
-    {
-      "section": "技术与研究",
-      "title": "Anthropic向开发「数字鞭子」督促Claude的项目发律师函",
-      "company": "Anthropic",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-09-9",
-      "source": "机器之心",
-      "publishedAt": "2026-04-09T15:07:00+08:00",
-      "summary": "近日，一个名为“badclaude”的整活项目因戏谑督促AI助手Claude而收到其母公司Anthropic的律师函。该项目被开发者称为“数字鞭子”，其具体功能是：当用户感觉Claude Code（推测为Claude的代码生成或执行功能）运行速度过慢时。",
-      "score": 27
-    },
-    {
-      "section": "投融资与并购",
-      "title": "The vibes are off at OpenAI",
-      "company": "OpenAI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai",
+      "title": "YouTube Shorts推出新AI功能，让用户轻松制作自己的深度伪造视频",
+      "company": "Google",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/909104/youtube-shorts-make-ai-avatar",
       "source": "The Verge AI",
-      "publishedAt": "2026-04-08T13:47:38.000Z",
-      "summary": "OpenAI近期陷入动荡。尽管估值高达8520亿美元，但公司面临盈利压力，其CEO奥特曼在播客中因营收与支出问题与主持人发生争执。为应对竞争，公司宣布进入“红色警戒”状态，并调整战略：意外终止了视频生成应用Sora的开发，搁置了与迪士尼的合作以及为ChatGPT添加情色功能的计划。",
-      "score": 16
+      "publishedAt": "2026-04-09T10:53:49.000Z",
+      "summary": "YouTube Shorts正在推出一项新的AI功能，让创作者能够轻松地在镜头前逼真地克隆自己。该工具允许用户创建一个被称为“头像”的数字版本，可以插入到现有的Shorts视频中，或用于生成全新的视频。YouTube表示，这些头像将“看起来和听起来都像用户本人”。",
+      "score": 18
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "阿里云百炼上线Agent记忆库功能，提升AI长期记忆能力",
+      "company": "阿里云",
+      "url": "https://www.qbitai.com/2026/04/398117.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 09 Apr 2026 06:23:54 +0000",
+      "summary": "此次，阿里云百炼推出的记忆库系统内置了「提取-存储-检索-注入」四大模块，用户每次与 AI Agent 对话结束后，系统可根据配置的记忆规则自动提取关键信息并存储，并根据用户的指令，触发语义检索召回相关记忆并附加至上下文中，实现个性化回答，有效提升Agent的长期记忆能力。",
+      "score": 36
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "追觅AI智能戒指Glow亮相AWE 2026，融合健康监测与AI技术获市场认可",
+      "company": "追觅",
+      "url": "https://www.leiphone.com/category/industrynews/Zc8r4Xle9AumJvYr.html",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 08 Apr 2026 14:40:00 +0800",
+      "summary": "在AWE 2026上，追觅发布了其首款AI智能戒指Glow。这款戒指集成了ECG和PPG传感器，能全天候监测心率、血氧和体温，并结合清华大学的算法提供睡眠分析。产品设计轻薄，仅重2.6克，采用钛合金材质。",
+      "score": 29
+    },
+    {
+      "section": "技术与研究",
+      "title": "TDM-R1模型仅需4步采样，GenEval指标从61%飙升至92%",
+      "company": "小红书",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-09-10",
+      "source": "机器之心",
+      "publishedAt": "2026-04-09T22:36:00+08:00",
+      "summary": "香港科技大学唐靖团队、香港科技大学（深圳分校）胡天阳以及小红书hi-lab的罗维俭共同提出了一种名为TDM-R1的全新通用强化学习框架。该框架旨在解决超快速扩散生成的核心难题，通过仅需4步采样的方式，显著提升了图像生成性能。",
+      "score": 43
+    },
+    {
+      "section": "技术与研究",
+      "title": "机器之心ICLR 2026论文分享会将于下周六在北京举行",
+      "company": "机器之心",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-09-11",
+      "source": "机器之心",
+      "publishedAt": "2026-04-09T22:41:00+08:00",
+      "summary": "机器之心将于下周六在北京举办一场ICLR 2026论文分享会，旨在提前分享该顶会的相关论文内容。活动背景是2026年AI领域正以前所未有的速度发展，其中大模型训练效率持续突破、具身智能加速从实验室走向现实场景、多模态融合技术日趋成熟。同时，Agent技术的崛起正在重新定义人机协作的可能性。",
+      "score": 32
+    },
+    {
+      "section": "技术与研究",
+      "title": "港中文与伯克利联合开源Gen-Searcher，文生图进入Agent时代",
+      "company": "港中文、伯克利",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-09-8",
+      "source": "机器之心",
+      "publishedAt": "2026-04-09T15:02:00+08:00",
+      "summary": "过去两年，图像生成模型在质感和审美上取得了显著进展，但多数仍采用“直接出图”的范式。当提示词涉及真实世界知识、最新信息、冷门事实或需要跨多个来源核对细节时，传统文生图模型容易出错，因为它们缺乏面向真实世界的Agent能力，依赖固化的参数知识，缺少主动搜索、验证和整合外部信息的能力。",
+      "score": 27
     },
     {
       "section": "投融资与并购",
-      "title": "智子力控完成千万级融资，牛津博士后以光学技术重构机器人传感器",
-      "company": "智子力控",
-      "url": "https://36kr.com/p/3758900416348934?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-09 09:11:39  +0800",
-      "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，机器人全身级力觉自感知系统公司——智子力控（上海）科技有限公司（下称“智子力控”）近日完成新一轮融资，本轮由中芯聚源独家投资；此前，公司已获得浦东创投旗下浦东人工智能种子基金投资。这连续两轮融资达千万级别。",
-      "score": 30
+      "title": "前苹果工程师打造AI可穿戴设备，外形酷似iPod Shuffle",
+      "company": "Apple",
+      "url": "https://www.wired.com/story/this-ai-button-wearable-from-ex-apple-engineers-looks-like-an-ipod-shuffle/",
+      "source": "Wired AI",
+      "publishedAt": "Thu, 09 Apr 2026 09:30:00 +0000",
+      "summary": "两位前苹果Vision Pro工程师推出了一款名为“Button”的AI可穿戴设备。其核心特点是：1. 外形设计酷似iPod Shuffle，采用磨砂铝外壳，仅有一个实体按钮；2. 通过点击按钮触发AI对话，实现即时响应（据演示，回答时间约1秒），并可随时中断，解决了同类设备响应慢的问题；3. 设备仅在按下时监听，旨在保护用户隐私。开发者强调，它并非取代手机，而是作为生成式AI的专用硬件补充。",
+      "score": 25
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Sierra联合创始人称点击按钮的时代已经结束",
+      "company": "Sierra",
+      "url": "https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 09 Apr 2026 17:20:50 +0000",
+      "summary": "Sierra公司上月推出名为Ghostwriter的AI智能体构建工具，旨在用自然语言交互取代传统点击式网页应用。具体而言：1. 用户只需用自然语言描述需求，该工具即可自主创建并部署执行特定任务的专用智能体；2. 联合创始人Taylor以员工入职场景为例，说明未来用户无需学习复杂系统界面，直接通过语言指令即可完成操作；3. 该公司成立不到21个月即实现1亿美元年收入规模，去年9月以100亿美元估值完成3.5亿美元融资。",
+      "score": 15
     },
     {
       "section": "政策与监管",
-      "title": "相互矛盾的裁决使Anthropic陷入‘供应链风险’的不确定状态",
+      "title": "Anthropic限制Mythos模型发布，是为保护互联网还是自身？",
       "company": "Anthropic",
-      "url": "https://www.wired.com/story/anthropic-appeals-court-ruling/",
-      "source": "Wired AI",
-      "publishedAt": "Wed, 08 Apr 2026 22:27:26 +0000",
-      "summary": "美国一家上诉法院的裁决与今年三月另一家下级法院的判决相矛盾。这导致美国军方是否以及如何使用Anthropic公司的Claude模型存在不确定性。",
-      "score": 30
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "CREAO团队押注AI Agent赛道，全栈自研降低使用门槛",
-      "company": "CREAO",
-      "url": "https://www.qbitai.com/2026/04/398140.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 09 Apr 2026 07:08:02 +0000",
-      "summary": "CREAO团队发布了全球首个面向普通用户的AI Agent平台，通过全栈自研技术摆脱了对第三方框架的依赖，能灵活适配各类工具与API。其核心创新在于：用户无需专业知识，仅用自然语言描述需求，AI系统即可自动搭建并运行工作流程；流程跑通后，用户可一键将其“固化”为永久可用的智能体。",
-      "score": 26
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "谷歌悄然推出可离线工作的AI听写应用",
-      "company": "Google",
-      "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+      "url": "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/",
       "source": "TechCrunch AI",
-      "publishedAt": "Wed, 08 Apr 2026 05:40:19 +0000",
-      "summary": "谷歌推出了新的优先离线的听写应用，该应用使用Gemma AI模型。这款应用旨在与Wispr Flow等应用竞争。",
-      "score": 22
+      "publishedAt": "Thu, 09 Apr 2026 18:50:05 +0000",
+      "summary": "Anthropic限制其最新AI模型Mythos的广泛发布，声称因其发现软件安全漏洞的能力过强。然而，外界质疑其动机。具体信息点包括：1. 有观点认为，此举实为商业策略，旨在通过企业协议将顶级模型锁定给大客户，防止小型实验室通过“蒸馏”技术廉价复制模型，从而维持企业合同收入。2. 网络安全初创公司Aisle表示，他们能用更小、开源的模型复现Mythos宣称的许多能力，表明网络安全任务并无单一最优模型。",
+      "score": 33
     },
     {
-      "section": "技术与研究",
-      "title": "硅谷初创团队助普通人「驯服」Agent，登上X全球热搜",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-09-5",
-      "source": "机器之心",
-      "publishedAt": "2026-04-09T13:06:00+08:00",
-      "summary": "一支硅谷初创团队因帮助普通人轻松使用AI智能体（Agent）而登上X平台全球热搜。该团队致力于实现用户仅需用一句话描述任务，AI便能自动执行的愿景，例如在电商运营场景中，AI可自动扫描竞品网站价格变动并记录到表格，在价格波动超过设定阈值时发送提醒。这一进展展示了AI助手在自动化日常任务方面的潜力。",
+      "section": "政策与监管",
+      "title": "佛罗里达州总检察长宣布就枪击案调查OpenAI，据称ChatGPT参与策划",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 09 Apr 2026 20:11:55 +0000",
+      "summary": "佛罗里达州总检察长宣布对OpenAI展开调查，因其ChatGPT被指控参与策划了2025年4月佛罗里达州立大学造成两死五伤的枪击案。总检察长在声明中指责OpenAI的活动'伤害儿童、危及美国人并促成了最近的FSU大规模枪击'，并表示将发出传票。",
       "score": 26
     },
     {
       "section": "技术与研究",
-      "title": "Gemini gets notebooks to help you organize projects",
-      "company": "Gemini",
-      "url": "https://www.theverge.com/tech/909031/google-gemini-notebooks-notebooklm",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-09T00:06:12.000Z",
-      "summary": "谷歌宣布为AI助手Gemini推出名为“笔记本”的新功能，旨在帮助用户集中管理特定主题的项目资料。该功能允许用户将文件、历史对话和自定义指令整合到笔记本中，作为与Gemini对话时的上下文参考。",
-      "score": 24
+      "title": "前大疆T4工程师谢博文转战桌面CNC，在深圳创立无限工坊",
+      "company": "深圳无限工坊",
+      "url": "https://www.leiphone.com/category/weiwu/UARHfjGSmTVYN0S1.html",
+      "source": "雷锋网",
+      "publishedAt": "Thu, 09 Apr 2026 16:11:00 +0800",
+      "summary": "雷峰网·鲸犀独家获悉，前大疆负责扫地机器人工程师谢博文，在经历首次具身机器人创业后，又新开拓了赛道，成立新公司“深圳无限工坊”，主攻桌面级CNC。其新项目在2026年前快速完成融资，从接触到资金到账仅用时几日。谢博文是一名连续创业者。",
+      "score": 25
     },
     {
       "section": "技术与研究",
-      "title": "Meta is reentering the AI race with a new model called Muse Spark",
-      "company": "Meta",
-      "url": "https://www.theverge.com/tech/908769/meta-muse-spark-ai-model-launch-rollout",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-08T16:12:54.000Z",
-      "summary": "Meta发布其AI重组后的首款模型Muse Spark，现已在美国的Meta AI应用和网站上线，并将在未来几周内集成至WhatsApp、Instagram等旗下应用及智能眼镜，同时向更多国家推广。该模型具备多模态能力，可处理文本和图像输入，并设有“即时”和“思考”两种响应模式以平衡速度与深度。",
+      "title": "马斯克修改诉讼：放弃赔偿要求奥特曼离开OpenAI董事会",
+      "company": "OpenAI",
+      "url": "https://www.qbitai.com/2026/04/398071.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 09 Apr 2026 03:41:25 +0000",
+      "summary": "马斯克对OpenAI的诉讼进行了修订，提出如果胜诉，他将放弃所有赔偿，并将款项捐给OpenAI旗下的非营利机构，其核心诉求是要求奥特曼离开OpenAI董事会。同时，英特尔宣布正式加入马斯克的Terafab AI芯片项目，与SpaceX和特斯拉合作开发下一代AI处理器，此消息推动英特尔股价上涨超过2%。",
+      "score": 23
+    },
+    {
+      "section": "技术与研究",
+      "title": "压缩技术让AI模型在学习阶段变得更精简、更快速",
+      "company": "",
+      "url": "https://techxplore.com/news/2026-04-compression-technique-ai-leaner-faster.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Thu, 09 Apr 2026 15:20:01 EDT",
+      "summary": "训练大型AI模型成本高昂，不仅花费金钱，还耗费时间、能源和计算资源。传统上，要获得更小、更快的模型，要么先训练一个庞大的模型再对其进行裁剪，要么从头训练一个小模型但接受较弱的性能。新的压缩技术旨在让模型在学习过程中就变得更精简和快速。",
+      "score": 23
+    },
+    {
+      "section": "技术与研究",
+      "title": "GitHub将使用免费及付费用户的Copilot交互数据训练AI模型",
+      "company": "GitHub",
+      "url": "https://www.infoq.cn/article/Uw8eC56IOdyLm4aL294q?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 08 Apr 2026 17:00:00 GMT",
+      "summary": "GitHub宣布自4月24日起，将使用Copilot Free、Pro和Pro+用户的交互数据来训练和改进其AI模型，该设置默认开启，用户需手动关闭以退出。Copilot Business和Enterprise用户不受影响，而付费组织成员或外部协作者的用户数据以及来自付费组织仓库的数据不会被用于训练。",
       "score": 22
     }
   ]

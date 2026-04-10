@@ -1,0 +1,304 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "YouTube Shorts推出新AI功能，让用户轻松制作自己的深度伪造视频",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/909104/youtube-shorts-make-ai-avatar",
+      "snippet": "YouTube Shorts is rolling out a new AI-powered feature giving creators an easy way to realistically clone themselves on camera. The launch, hinted at earlier this year, reflects the platform's fraught relationship with AI-generated content, adding more generative features while struggling to contain AI slop, deepfake scams, and impersonations. YouTube says the new tool will let users create a digital version of themselves, called an avatar, that can be inserted into existing Shorts videos or used to generate entirely new ones. The company said avatars will \"look and sound like you,\" framing them as a safer and more secure way to use AI to … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-09T10:53:49.000Z",
+      "region": "海外",
+      "summary": "YouTube Shorts正在推出一项新的AI功能，让创作者能够轻松地在镜头前逼真地克隆自己。该工具允许用户创建一个被称为“头像”的数字版本，可以插入到现有的Shorts视频中，或用于生成全新的视频。YouTube表示，这些头像将“看起来和听起来都像用户本人”。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 18,
+      "breakdown": {
+        "substance": 2,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "阿里云百炼上线Agent记忆库功能，提升AI长期记忆能力",
+      "url": "https://www.qbitai.com/2026/04/398117.html",
+      "snippet": "可通过OpenClaw等Agent产品一键安装",
+      "source": "量子位",
+      "publishedAt": "Thu, 09 Apr 2026 06:23:54 +0000",
+      "region": "国内",
+      "summary": "此次，阿里云百炼推出的记忆库系统内置了「提取-存储-检索-注入」四大模块，用户每次与 AI Agent 对话结束后，系统可根据配置的记忆规则自动提取关键信息并存储，并根据用户的指令，触发语义检索召回相关记忆并附加至上下文中，实现个性化回答，有效提升Agent的长期记忆能力。",
+      "category": "产品发布与更新",
+      "company": "阿里云",
+      "score": 36,
+      "breakdown": {
+        "substance": 18,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    },
+    {
+      "title": "追觅AI智能戒指Glow亮相AWE 2026，融合健康监测与AI技术获市场认可",
+      "url": "https://www.leiphone.com/category/industrynews/Zc8r4Xle9AumJvYr.html",
+      "snippet": "3月26日19时，任泽平2026年度十大趋势预测发布会在苏州保利大剧院盛大启幕。本次大会聚焦AI变革核心，深度剖析大模型、智能代理、自动驾驶、机器人等前沿领域的发展机遇与挑战，汇聚行业目光。作为本次大会官方指定AI智能硬件产品，追觅AI智能戒指重磅亮相现场，全程陪伴任泽平博士完成大会分享，凭借小巧身形与强大功能，成为本次大会的一大亮点，成功将指尖AI的全新可能带到公众视野。 任泽平亲测力荐：追觅AI智能戒指，让高端AI科技走进日常 会上，任泽平博士在分享过程中特意展示了自己全程佩戴的追觅AI智能戒指，向现场观众分享了亲身体验。“大家可能还没注意到，我今天演讲全程佩戴的戒指正是追觅AI智能戒指，别小看这一枚小小的戒指，其追觅全球首创的震动功能并搭载了和清华联合开发的AI算法，实打实让我感受到了它24小时不间断的专业健康守护。”任泽平表示，该戒指能精准捕捉各项身体数据，实时做好健康管理，把专业级健康监测变成人人可及的日常，真正让高端AI科技下沉，守护每一个人的日常健康。 任泽平同时提及，追觅由一帮清华大学的技术极客创立，目前正成为清华大学最大的毕业生就业单位，在马达技术和先进算法等领域拥有核心技术，全球专利达6000多件。作为2017年创立的年轻科技企业，追觅2025年营收达三四百亿元，生而全球化的它首攻美欧日韩高端市场，海外营收占比高达70%，如今正积极进军AI、机器人等前沿科技领域，展现出强劲的发展势头。 AWE新品首发：追觅戒指Glow，颜值与实力双在线 值得关注的是，在刚刚落幕的AWE 2026中国家电及消费电子博览会上，追觅重点推出了新款AI智能戒指——追觅戒指Glow，进一步丰富了其智能穿戴产品矩阵。作为追觅全球首款集指尖 AI 与心率血氧监测于一体的智能戒指，追觅戒指 Glow 搭载旗舰级传感矩阵，包括定制化 ECG 传感单元、PPG 监测模块等，可实现全天候健康数据监测，包括心率、血氧、体温等指标。结合清华大学联合研发的深度学习算法，产品可提供睡眠周期分析、睡眠状态记录等健康数据服务，为用户提供个性化健康参考。 设计上，追觅戒指Glow兼顾美学与舒适性，机身厚度极致压缩至2.5mm，重量仅2.6g，采用航空级锻造钛合金材质，亲肤抗过敏、坚固耐磨，实现“无感佩戴”；配色方面提供静谧黑、律动银、破晓金、玫瑰金四款经典选择，尺码覆盖7-14号，可适配多种穿搭风格。 售价方面，产品官方定价1799元，惊喜首发价仅1499元，以亲民定价打破专业健康监测的高门槛，让普通消费者也能轻松拥有私人健康管家。该产品已于3月21日世界睡眠日当天开启线上售卖，延续了追觅智能戒指的热销势头。 战绩斐然：追觅震动AI智能戒指，引爆行业与市场双重热潮 自推出以来，追觅震动AI智能戒指凭借硬核技术与卓越体验，斩获多项亮眼战绩，迅速跻身智能穿戴领域爆款行列，成为行业内不可忽视的标杆产品。 在行业认可层面，追觅震动AI智能戒指凭借创新技术与出众性能，亮相CES 2026国际消费电子展并一举斩获Wearable大奖，该奖项是全球可穿戴设备领域的权威荣誉，此次获奖不仅彰显了追觅在智能穿戴领域的核心技术实力，更让中国AI硬件产品在国际舞台上获得高度认可，进一步提升了品牌的国际影响力。 在国民曝光层面，追觅震动AI智能戒指创造了行业新纪录，成为首个登陆春晚舞台的AI智能硬件单品，且在春晚现场与顶流明星易烊千玺同框亮相，引发全民关注。春晚直播中，易烊千玺佩戴该戒指完成表演，其便捷的佩戴方式与强大的健康监测功能瞬间出圈；此外，撒贝宁在追觅之夜现场佩戴该戒指实测心率，体验后直言“我愿称它为中国人的指环王”，对其精准度与便捷性给予高度评价；胡先煦也在《下一站春晚》节目中亲身体验，盛赞其“这才是真正的无感智能伴侣”，众多明星的亲测推荐，让追觅震动AI智能戒指快速走进大众视野，国民度与美誉度大幅提升。 在市场表现层面，追觅震动AI智能戒指用数据印证实力，上市仅一个月，订单量便突破千万元，展现出强劲的市场号召力；上市三个月内，凭借用户的良好口碑与产品硬实力，成功登顶天猫智能戒指热销榜，长期占据行业销量前列，不仅收获了普通消费者的青睐，更成为职场人群、健身爱好者、中老年群体的健康守护首选，用实力证明了产品的市场竞争力。 作为行业权威专家，任泽平博士此次全程亲测追觅AI智能戒指并公开推荐，无疑为这款产品注入了强大的公信力，也为追觅在AI智能穿戴领域的发展注入新动力。任泽平的亲身体验分享，不仅让更多人了解到追觅AI智能戒指的核心优势，更传递出“高端AI科技下沉日常”的理念，契合本次发布会“AI变革赋能生活”的核心主题。 未来，随着追觅戒指Glow的持续热销以及核心技术的不断迭代，追觅将继续联合清华深度研发算法，深耕AI健康领域，让指尖AI守护走进更多家庭，书写中国硬科技发展的新篇章。 雷峰网",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 08 Apr 2026 14:40:00 +0800",
+      "region": "国内",
+      "summary": "在AWE 2026上，追觅发布了其首款AI智能戒指Glow。这款戒指集成了ECG和PPG传感器，能全天候监测心率、血氧和体温，并结合清华大学的算法提供睡眠分析。产品设计轻薄，仅重2.6克，采用钛合金材质。",
+      "category": "产品发布与更新",
+      "company": "追觅",
+      "score": 29,
+      "breakdown": {
+        "substance": 15,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "TDM-R1模型仅需4步采样，GenEval指标从61%飙升至92%",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-09-10",
+      "snippet": "超快速 AI 生图领域再破性能天花板！香港科技大学唐靖团队、香港科技大学（深圳分校）胡天阳、小红书 hi-lab 罗维俭提出全新通用强化学习框架 TDM-R1，精准破解超快速扩散生成的核心痛点 —— 仅需 4 步采样（4 NFE），便将组合式生成指标 GenEval 从 61% 飙升至 92%...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-09T22:36:00+08:00",
+      "region": "国内",
+      "summary": "香港科技大学唐靖团队、香港科技大学（深圳分校）胡天阳以及小红书hi-lab的罗维俭共同提出了一种名为TDM-R1的全新通用强化学习框架。该框架旨在解决超快速扩散生成的核心难题，通过仅需4步采样的方式，显著提升了图像生成性能。",
+      "category": "技术与研究",
+      "company": "小红书",
+      "score": 43,
+      "breakdown": {
+        "substance": 18,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "机器之心ICLR 2026论文分享会将于下周六在北京举行",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-09-11",
+      "snippet": "2026 年，AI 浪潮正以前所未有的速度重塑技术边界。大模型训练效率的持续突破、具身智能从实验室走向现实场景的加速落地、多模态融合技术的日趋成熟…… 这一系列进展共同勾勒出当下 AI 领域最激动人心的发展图景。与此同时，Agent 技术的崛起正在重新定义人机协作的可能性，如何让智能体具备持续...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-09T22:41:00+08:00",
+      "region": "国内",
+      "summary": "机器之心将于下周六在北京举办一场ICLR 2026论文分享会，旨在提前分享该顶会的相关论文内容。活动背景是2026年AI领域正以前所未有的速度发展，其中大模型训练效率持续突破、具身智能加速从实验室走向现实场景、多模态融合技术日趋成熟。同时，Agent技术的崛起正在重新定义人机协作的可能性。",
+      "category": "技术与研究",
+      "company": "机器之心",
+      "score": 32,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "港中文与伯克利联合开源Gen-Searcher，文生图进入Agent时代",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-09-8",
+      "snippet": "过去两年，图像生成模型在质感和审美上一路狂飙，但大多仍是 “直接出图” 的范式。一旦 prompt 涉及真实世界知识、最新信息、冷门事实，或者需要跨多个来源核对细节，传统文生图模型就很容易翻车。因为生成模型缺乏面向真实世界的 Agent 能力，仍然依赖固化的参数知识，缺少主动搜索、验证和整合外...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-09T15:02:00+08:00",
+      "region": "国内",
+      "summary": "过去两年，图像生成模型在质感和审美上取得了显著进展，但多数仍采用“直接出图”的范式。当提示词涉及真实世界知识、最新信息、冷门事实或需要跨多个来源核对细节时，传统文生图模型容易出错，因为它们缺乏面向真实世界的Agent能力，依赖固化的参数知识，缺少主动搜索、验证和整合外部信息的能力。",
+      "category": "技术与研究",
+      "company": "港中文、伯克利",
+      "score": 27,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "前大疆T4工程师谢博文转战桌面CNC，在深圳创立无限工坊",
+      "url": "https://www.leiphone.com/category/weiwu/UARHfjGSmTVYN0S1.html",
+      "snippet": "雷峰网·鲸犀独家获悉，前大疆负责扫地机器人工程师谢博文，在经历首次具身机器人创业后，又新开拓了赛道，成立新公司“深圳无限工坊”，主攻桌面级CNC。其新项目在2026年前快速完成融资，从接触到资金到账仅用时几日。 谢博文是一名连续创业者。在加拿大阿尔伯塔大学本硕学业期间，他创立项目“Robolution”，专注于无人驾驶挖掘机研发，他具有极强的动手能力，手搓推土机机器人，后因疫情影响该项目暂缓。2020年回国后，他加入大疆，在两年的时间内晋升至T4级别，负责扫地机器人Romo项目感知算法与地图功能。据悉，大疆期间，其是前大疆扫地机业务负责人刘昂的-2。 2024年，谢博文离开大疆，在上海创立“无限工坊”，方向定为当时热门的具身机器人，并顺利获得奇绩创坛的天使轮投资。CTO项林坚是前大疆农业无人机航线规划负责人，两人均为RoboMaster赛事核心成员。 2025年下半年，谢博文与团队决定成立“深圳无限工坊”，主攻桌面级CNC领域。 桌面CNC是一种小型化、高精度，常用于创意制作、原型开发、教育及小微制造业的数控机床。随着个人制造、创客文化及定制化小批量生产需求的增长，桌面CNC市场正受到越来越多关注。行业分析认为，智能化、易用性及性价比是当前桌面CNC设备进化的关键方向。 据悉，公司两位核心创始人均为95后，谢博文在其中扮演着技术领导与产品战略核心的角色。其在大疆积累的复杂系统集成、算法落地及硬件量产经验，以及早年多次机器人项目创业的实践，被视为团队攻坚桌面CNC智能化、精密控制难题的关键优势。 本文作者关注智能硬件和消费机器人，更多细节和项目欢迎添加微信 MOON_ERS 交流。",
+      "source": "雷锋网",
+      "publishedAt": "Thu, 09 Apr 2026 16:11:00 +0800",
+      "region": "国内",
+      "summary": "雷峰网·鲸犀独家获悉，前大疆负责扫地机器人工程师谢博文，在经历首次具身机器人创业后，又新开拓了赛道，成立新公司“深圳无限工坊”，主攻桌面级CNC。其新项目在2026年前快速完成融资，从接触到资金到账仅用时几日。谢博文是一名连续创业者。",
+      "category": "技术与研究",
+      "company": "深圳无限工坊",
+      "score": 25,
+      "breakdown": {
+        "substance": 12,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "马斯克修改诉讼：放弃赔偿要求奥特曼离开OpenAI董事会",
+      "url": "https://www.qbitai.com/2026/04/398071.html",
+      "snippet": "Greg Brockman也被要求交出所有股权收益",
+      "source": "量子位",
+      "publishedAt": "Thu, 09 Apr 2026 03:41:25 +0000",
+      "region": "国内",
+      "summary": "马斯克对OpenAI的诉讼进行了修订，提出如果胜诉，他将放弃所有赔偿，并将款项捐给OpenAI旗下的非营利机构，其核心诉求是要求奥特曼离开OpenAI董事会。同时，英特尔宣布正式加入马斯克的Terafab AI芯片项目，与SpaceX和特斯拉合作开发下一代AI处理器，此消息推动英特尔股价上涨超过2%。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 23,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "压缩技术让AI模型在学习阶段变得更精简、更快速",
+      "url": "https://techxplore.com/news/2026-04-compression-technique-ai-leaner-faster.html",
+      "snippet": "Training a large artificial intelligence model is expensive, not just in dollars, but in time, energy, and computational resources. Traditionally, obtaining a smaller, faster model either requires training a massive one first and then trimming it down, or training a small one from scratch and accepting weaker performance.",
+      "source": "Tech Xplore",
+      "publishedAt": "Thu, 09 Apr 2026 15:20:01 EDT",
+      "region": "海外",
+      "summary": "训练大型AI模型成本高昂，不仅花费金钱，还耗费时间、能源和计算资源。传统上，要获得更小、更快的模型，要么先训练一个庞大的模型再对其进行裁剪，要么从头训练一个小模型但接受较弱的性能。新的压缩技术旨在让模型在学习过程中就变得更精简和快速。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 23,
+      "breakdown": {
+        "substance": 3,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "GitHub将使用免费及付费用户的Copilot交互数据训练AI模型",
+      "url": "https://www.infoq.cn/article/Uw8eC56IOdyLm4aL294q?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 08 Apr 2026 17:00:00 GMT",
+      "region": "国内",
+      "summary": "GitHub宣布自4月24日起，将使用Copilot Free、Pro和Pro+用户的交互数据来训练和改进其AI模型，该设置默认开启，用户需手动关闭以退出。Copilot Business和Enterprise用户不受影响，而付费组织成员或外部协作者的用户数据以及来自付费组织仓库的数据不会被用于训练。",
+      "category": "技术与研究",
+      "company": "GitHub",
+      "score": 22,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "前苹果工程师打造AI可穿戴设备，外形酷似iPod Shuffle",
+      "url": "https://www.wired.com/story/this-ai-button-wearable-from-ex-apple-engineers-looks-like-an-ipod-shuffle/",
+      "snippet": "Two former Apple Vision Pro developers made an AI wearable that only listens when you tap it. They hope to win where other AI gadgets have fumbled: privacy.",
+      "source": "Wired AI",
+      "publishedAt": "Thu, 09 Apr 2026 09:30:00 +0000",
+      "region": "海外",
+      "summary": "两位前苹果Vision Pro工程师推出了一款名为“Button”的AI可穿戴设备。其核心特点是：1. 外形设计酷似iPod Shuffle，采用磨砂铝外壳，仅有一个实体按钮；2. 通过点击按钮触发AI对话，实现即时响应（据演示，回答时间约1秒），并可随时中断，解决了同类设备响应慢的问题；3. 设备仅在按下时监听，旨在保护用户隐私。开发者强调，它并非取代手机，而是作为生成式AI的专用硬件补充。",
+      "category": "投融资与并购",
+      "company": "Apple",
+      "score": 25,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Sierra联合创始人称点击按钮的时代已经结束",
+      "url": "https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/",
+      "snippet": "Last month, Sierra launched Ghostwriter, an agent designed to build other agents. With this “agent as a service” tool, the startup intends to replace traditional click-based web applications with natural language. Users simply describe what they need, prompting Ghostwriter to autonomously create and deploy a specialized agent to execute the task.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 09 Apr 2026 17:20:50 +0000",
+      "region": "海外",
+      "summary": "Sierra公司上月推出名为Ghostwriter的AI智能体构建工具，旨在用自然语言交互取代传统点击式网页应用。具体而言：1. 用户只需用自然语言描述需求，该工具即可自主创建并部署执行特定任务的专用智能体；2. 联合创始人Taylor以员工入职场景为例，说明未来用户无需学习复杂系统界面，直接通过语言指令即可完成操作；3. 该公司成立不到21个月即实现1亿美元年收入规模，去年9月以100亿美元估值完成3.5亿美元融资。",
+      "category": "投融资与并购",
+      "company": "Sierra",
+      "score": 15,
+      "breakdown": {
+        "substance": 1,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "Anthropic限制Mythos模型发布，是为保护互联网还是自身？",
+      "url": "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/",
+      "snippet": "Anthropic said this week that it limited the release of its newest model, dubbed Mythos, because it is too capable of finding security exploits in software relied upon by users around the world. Are real cybersecurity concerns a cover for a bigger problem at the frontier lab?",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 09 Apr 2026 18:50:05 +0000",
+      "region": "海外",
+      "summary": "Anthropic限制其最新AI模型Mythos的广泛发布，声称因其发现软件安全漏洞的能力过强。然而，外界质疑其动机。具体信息点包括：1. 有观点认为，此举实为商业策略，旨在通过企业协议将顶级模型锁定给大客户，防止小型实验室通过“蒸馏”技术廉价复制模型，从而维持企业合同收入。2. 网络安全初创公司Aisle表示，他们能用更小、开源的模型复现Mythos宣称的许多能力，表明网络安全任务并无单一最优模型。",
+      "category": "政策与监管",
+      "company": "Anthropic",
+      "score": 33,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "佛罗里达州总检察长宣布就枪击案调查OpenAI，据称ChatGPT参与策划",
+      "url": "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
+      "snippet": "ChatGPT had reportedly been used to plan the attack that killed two and injured five at Florida State University last April. The family of one victim has said that they plan to sue OpenAI over the incident.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 09 Apr 2026 20:11:55 +0000",
+      "region": "海外",
+      "summary": "佛罗里达州总检察长宣布对OpenAI展开调查，因其ChatGPT被指控参与策划了2025年4月佛罗里达州立大学造成两死五伤的枪击案。总检察长在声明中指责OpenAI的活动'伤害儿童、危及美国人并促成了最近的FSU大规模枪击'，并表示将发出传票。",
+      "category": "政策与监管",
+      "company": "OpenAI",
+      "score": 26,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
