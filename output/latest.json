@@ -1,21 +1,21 @@
 {
-  "date": "2026/4/10",
+  "date": "2026/4/11",
   "edition": "daily",
   "editionLabel": "每日精选",
-  "title": "AI资讯每日精选-2026/4/10",
-  "generatedAt": "2026/4/10 16:17",
+  "title": "AI资讯每日精选-2026/4/11",
+  "generatedAt": "2026/4/11 08:02",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-04-09-daily.json",
-    "previousEditionFile": "news-2026-04-09-daily.json",
+    "previousDayFile": "news-2026-04-10-daily.json",
+    "previousEditionFile": "news-2026-04-10-daily.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 29,
-      "overseasBeforeDedup": 24,
-      "domesticAfterDedup": 29,
-      "overseasAfterDedup": 24,
+      "domesticBeforeDedup": 27,
+      "overseasBeforeDedup": 22,
+      "domesticAfterDedup": 26,
+      "overseasAfterDedup": 22,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -26,7 +26,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 6,
+          "count": 3,
           "error": null
         },
         {
@@ -44,7 +44,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 7,
+          "count": 8,
           "error": null
         }
       ],
@@ -58,19 +58,19 @@
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 1,
+          "count": 2,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 2,
+          "count": 1,
           "error": null
         },
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 6,
+          "count": 5,
           "error": null
         },
         {
@@ -82,7 +82,7 @@
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 2,
+          "count": 1,
           "error": null
         }
       ],
@@ -95,189 +95,188 @@
       }
     },
     "summarize": {
-      "totalSummarized": 53
+      "totalSummarized": 48
     },
     "scoring": {
-      "totalInput": 53,
-      "totalScored": 33,
-      "strictScoredCount": 26,
-      "relaxedCandidateCount": 7,
+      "totalInput": 48,
+      "totalScored": 31,
+      "strictScoredCount": 21,
+      "relaxedCandidateCount": 6,
       "relaxedUsedForSelection": true,
       "weakSummaryCount": 9,
       "selectedCandidateCount": 31,
-      "duplicateCount": 9,
+      "duplicateCount": 8,
       "crossDayDuplicateCount": 7,
-      "lowQualityCount": 4,
-      "domesticAvailable": 24,
-      "overseasAvailable": 9,
+      "lowQualityCount": 3,
+      "domesticAvailable": 19,
+      "overseasAvailable": 12,
       "sourceCount": {
-        "机器之心": 5,
-        "雷锋网": 4,
-        "TechCrunch AI": 3,
-        "量子位": 5,
+        "量子位": 2,
         "InfoQ": 4,
-        "36氪": 5,
-        "The Verge AI": 1,
-        "Tech Xplore": 1,
-        "MIT Technology Review": 1,
-        "Wired AI": 2
+        "雷锋网": 6,
+        "36氪": 2,
+        "机器之心": 5,
+        "The Verge AI": 4,
+        "TechCrunch AI": 4,
+        "Wired AI": 2,
+        "MIT Technology Review": 2
       }
     },
     "display": {
       "refinedCount": 31,
-      "previousEditionRemovedCount": 1,
+      "previousEditionRemovedCount": 4,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
-      "integrityRemovedCount": 4,
-      "postEditionFilterCount": 26,
-      "displayReadyCount": 23,
+      "integrityRemovedCount": 3,
+      "postEditionFilterCount": 24,
+      "displayReadyCount": 18,
       "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 3,
+      "removedWeakSummaries": 6,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "豆包APP实时语音通话升级全双工模型，抗干扰与低时延能力提升",
-      "company": "豆包",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-10-9",
-      "source": "机器之心",
-      "publishedAt": "2026-04-10T14:54:00+08:00",
-      "summary": "近日，豆包APP对其实时语音通话功能进行了升级，上线了名为Seeduplex的全双工语音大模型。据介绍，该模型作为原生全双工端到端语音大模型，能够在复杂声学场景下实现精准抗干扰与动态判停，旨在提供更顺畅、更自然的语音交互体验。",
-      "score": 37
+      "title": "紫荆智康发布'紫荆AI医院'线上虚拟诊室，面向医生和医学生开放",
+      "company": "紫荆智康",
+      "url": "https://www.qbitai.com/2026/04/399366.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 10 Apr 2026 11:42:34 +0000",
+      "summary": "紫荆智康公司于2026年4月10日发布了'紫荆AI医院'的线上虚拟诊室模式，面向执业医生和在读医学生开放使用。该线上虚拟诊室以AI患者智能体为基石，设置了26个临床科室，医生端用户可选择科室并接诊高度拟人的AI患者，进行包括问诊、开具检查、诊断等在内的全流程模拟诊疗，整个过程高度拟合现实场景。",
+      "score": 26
     },
     {
       "section": "产品发布与更新",
-      "title": "Meta AI应用在发布Muse Spark后攀升至App Store第五名",
-      "company": "Meta",
-      "url": "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/",
+      "title": "Sierra的Bret Taylor称点击按钮的时代已结束",
+      "company": "Sierra",
+      "url": "https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/",
       "source": "TechCrunch AI",
-      "publishedAt": "Thu, 09 Apr 2026 19:10:07 +0000",
-      "summary": "在Meta AI的新模型发布之前，其应用在App Store的排名仅为第57位。如今，该应用已上升至第五名，并且排名仍在持续攀升。",
-      "score": 29
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Anthropic限制Mythos模型发布，是为保护互联网还是保护自身？",
-      "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 09 Apr 2026 18:50:05 +0000",
-      "summary": "Anthropic限制其最新AI模型Mythos的发布，理由是它过于擅长发现软件安全漏洞。然而，外界质疑此举的真实动机。具体信息点包括：1. 有观点认为，限制发布是为了将顶级模型通过企业协议独家提供，防止小型实验室使用“蒸馏”技术廉价复制模型，从而保护自身商业优势。2. 网络安全初创公司Aisle表示，他们能用更小、开源的模型复现Mythos宣称的许多能力，表明网络安全任务并非依赖单一模型。",
-      "score": 29
-    },
-    {
-      "section": "技术与研究",
-      "title": "字节Seed与北大提出In-Place TTT方法，大模型无需加层重训练即可在测试时更新参数",
-      "company": "字节",
-      "url": "https://www.qbitai.com/2026/04/398741.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 10 Apr 2026 06:12:47 +0000",
-      "summary": "字节Seed与北京大学的研究人员提出了一种名为In-Place TTT（原地测试时训练）的新方案，旨在解决现有测试时训练方法中优化目标不匹配的问题。该方法允许预训练大模型在推理或回答问题时，在不改变模型架构、不引入新专用层且无需重新训练的前提下，根据当前上下文悄悄更新自身参数以进行适配。",
-      "score": 41
-    },
-    {
-      "section": "技术与研究",
-      "title": "太初元碁完成智谱GLM-5.1即发即适配",
-      "company": "太初元碁",
-      "url": "https://www.qbitai.com/2026/04/398752.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 10 Apr 2026 07:20:43 +0000",
-      "summary": "太初元碁宣布已完成对智谱新一代旗舰大模型GLM-5.1的快速适配与协同优化，实现了即发即适配、上线即可用。该公司凭借成熟的软件开放生态，今年以来已完成10余个新发布模型的快速适配，累计深度适配超40个AI大模型，具备大模型发布即可用的能力。",
-      "score": 40
-    },
-    {
-      "section": "技术与研究",
-      "title": "Claude出现严重bug：身份识别混乱并误扣用户额度，Hacker News社区热议",
-      "company": "Anthropic",
-      "url": "https://www.qbitai.com/2026/04/398385.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 10 Apr 2026 04:12:29 +0000",
-      "summary": "Anthropic为给新模型Mythos腾算力，暗中调整Claude后台资源分配，导致开发者体验不稳。具体问题包括：1. 用户提问中嵌入<stop>等特殊截断字符会扰乱Claude内部代码逻辑；2. Claude 3.5和4系列在处理复杂上下文时出现严重身份识别混乱；3. 底层API计费逻辑故障导致有用户仅发送“Hello”就被误扣巨额Token，账户额度被清零。",
-      "score": 39
-    },
-    {
-      "section": "投融资与并购",
-      "title": "生数科技完成近20亿元B轮融资，以通用世界模型定义下一代生产力底座",
-      "company": "生数科技",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-10-3",
-      "source": "机器之心",
-      "publishedAt": "2026-04-10T13:04:00+08:00",
-      "summary": "4月10日，生数科技宣布完成近20亿元人民币的B轮融资。本轮融资由阿里云领投，中网投、九安海棠、好未来、光合创投等投资人进行了战略投资，星连资本、达泰资本、建发新兴投资、百度BV风投、卓源亚洲等原有股东持续追加了投资。",
-      "score": 56
-    },
-    {
-      "section": "投融资与并购",
-      "title": "前苹果工程师打造外形酷似iPod Shuffle的AI可穿戴设备",
-      "company": "Apple",
-      "url": "https://www.wired.com/story/this-ai-button-wearable-from-ex-apple-engineers-looks-like-an-ipod-shuffle/",
-      "source": "Wired AI",
-      "publishedAt": "Thu, 09 Apr 2026 09:30:00 +0000",
-      "summary": "两位前苹果Vision Pro工程师发布了一款名为“Button”的AI可穿戴设备，其外形酷似iPod Shuffle。该设备的核心特点是：1. 仅当用户按下实体按钮时才会启动并收听，旨在解决其他AI设备持续监听引发的隐私担忧；2. 响应速度极快，能在约一秒内回答问题，并可随时通过按钮中断响应，解决了如Humane Ai Pin等设备响应迟缓的问题；3. 设计为手机的辅助设备，通过蓝牙连接耳机或智能眼镜使用，意图成为生成式AI的专用硬件载体。",
+      "publishedAt": "Thu, 09 Apr 2026 17:20:50 +0000",
+      "summary": "Sierra公司上月推出了名为Ghostwriter的智能体，旨在构建其他智能体。这款“智能体即服务”工具旨在用自然语言交互取代传统的点击式网页应用。用户只需描述需求，Ghostwriter便能自主创建并部署专门的智能体来执行任务。",
       "score": 16
     },
     {
-      "section": "政策与监管",
-      "title": "Anthropic 因 npm 源映射文件意外泄露 Claude Code 源码",
-      "company": "Anthropic",
-      "url": "https://www.infoq.cn/article/ycWjMWTxqBePkDj7eoPi?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 10 Apr 2026 11:00:00 GMT",
-      "summary": "Anthropic在发布Claude Code的npm包时，因构建配置疏忽，将包含完整源码映射的.map文件一并发布，导致约1900个文件、超51.2万行未混淆的TypeScript源代码泄露。",
-      "score": 48
-    },
-    {
       "section": "产品发布与更新",
-      "title": "YouTube Shorts推出AI功能，让创作者轻松制作自己的深度伪造视频",
-      "company": "Google",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/909104/youtube-shorts-make-ai-avatar",
+      "title": "微软开始从Windows 11应用中移除Copilot按钮",
+      "company": "Microsoft",
+      "url": "https://www.theverge.com/news/909640/microsoft-removing-copilot-windows-11-buttons",
       "source": "The Verge AI",
-      "publishedAt": "2026-04-09T10:53:49.000Z",
-      "summary": "YouTube Shorts正在推出一项新的AI功能，让创作者能够轻松地在镜头前逼真地克隆自己。该工具允许用户创建一个名为“头像”的数字化版本，可以插入现有的Shorts视频或用于生成全新的视频。YouTube表示，这些头像将“看起来和听起来都像用户本人”。",
-      "score": 18
+      "publishedAt": "2026-04-10T09:22:06.000Z",
+      "summary": "微软正逐步移除Windows 11应用中的Copilot按钮，这是其“减少不必要的Copilot入口点”计划的一部分。具体变化包括：在最新的记事本预览版中，Copilot按钮被替换为“书写工具”菜单，该菜单仍包含AI功能；截图工具在选择捕获区域时也不再显示Copilot按钮。",
+      "score": 16
     },
     {
       "section": "技术与研究",
-      "title": "清华与中关村学院团队构建AutoSOTA系统，实现从代码到新SOTA的自主闭环",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-10-4",
+      "title": "松应科技推出零代码机器人训练平台，挑战英伟达生态并开源开放",
+      "company": "松应科技",
+      "url": "https://www.infoq.cn/article/RGQ7l8UOAEth5bPMHodE?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 10 Apr 2026 17:20:18 GMT",
+      "summary": "松应科技推出零代码机器人训练平台Orca Lab 1.0，个人开发者可免费使用。该平台旨在降低AI机器人开发门槛，用户仅需用手机或相机扫描真实场景（如会议室约1.5分钟），即可自动生成带物理属性的3D仿真环境用于训练。",
+      "score": 42
+    },
+    {
+      "section": "技术与研究",
+      "title": "蚂蚁集团AI鉴真技术登顶世界顶会，可精准识别并定位Deepfake伪造区域",
+      "company": "蚂蚁集团",
+      "url": "https://www.infoq.cn/article/ZItzV0JrkeLOfTqiH0M7?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 10 Apr 2026 16:10:12 GMT",
+      "summary": "蚂蚁集团AI安全实验室团队在CVPR挑战赛的“复杂真实场景鲁棒性样本测试”赛事中取得领先。团队通过构建包含数百万高质量样本的复杂训练语料库，并采用双流并行集成架构和模拟真实场景图像失真的方法，提升了模型检测能力。",
+      "score": 31
+    },
+    {
+      "section": "技术与研究",
+      "title": "Generalist发布GEN-1模型引爆具身智能领域，CEO称机器人技术接近其“ChatGPT时刻”",
+      "company": "Generalist",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-10-12",
       "source": "机器之心",
-      "publishedAt": "2026-04-10T14:11:00+08:00",
-      "summary": "清华大学与中关村学院的研究团队开发了AutoSOTA系统，旨在构建一个从代码到新SOTA（当前最优）的自主闭环。该系统具体解决了AI科研中繁琐的环境配置、Bug修复与实验迭代等实际问题，以减轻研究者的负担。研究背景是当前AI科研追求极致性能，例如NeurIPS顶会的高投稿量，凸显了自动化工具的需求。",
-      "score": 33
-    },
-    {
-      "section": "技术与研究",
-      "title": "阿里官方认领神秘视频生成模型「欢乐马」，来自ATH郑波团队",
-      "company": "阿里",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-10-6",
-      "source": "机器之心",
-      "publishedAt": "2026-04-10T14:24:00+08:00",
-      "summary": "周二晚间，一个代号为「HappyHorse-1.0」的神秘视频生成模型在知名AI评测平台Artificial Analysis上登顶榜首，引发了AI社区的广泛关注和猜测。该模型在文字生视频和图像生视频两项评测中均位列第一，超越了此前的领先模型Seedance 2.0。随后，阿里巴巴官方确认了该模型的身份，表明其来自公司内部的ATH郑波团队。",
-      "score": 30
-    },
-    {
-      "section": "技术与研究",
-      "title": "智源联合发布ClawKeeper安全框架，首创三位一体防御架构",
-      "company": "北京智源人工智能研究院",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-10-5",
-      "source": "机器之心",
-      "publishedAt": "2026-04-10T14:19:00+08:00",
-      "summary": "北京智源人工智能研究院、北京邮电大学与中国信息通信研究院近日联合发布了ClawKeeper v1.0安全框架。该框架面向OpenClaw，旨在提供全方位的实时安全保障，并首创了技能、插件与观察者三位一体的防御架构。这一设计覆盖了智能体的全生命周期安全，尤其适用于对安全有高要求的局域网环境。",
-      "score": 29
-    },
-    {
-      "section": "技术与研究",
-      "title": "品星云AI营销实现全链路闭环，巨量引擎三大核心板块打通",
-      "company": "巨量引擎",
-      "url": "https://www.qbitai.com/2026/04/398181.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 10 Apr 2026 02:20:00 +0000",
-      "summary": "品星云AI营销整合了巨量引擎的云图、星图和品牌广告三大板块，实现了从策略生成、内容创作到投放触达与效果归因的全流程闭环。该平台利用豆包大模型与云图商业数据结合，通过RAG等技术确保策略有真实数据支撑，并能通过自然语言交互完成需求解析与智能复盘。",
+      "publishedAt": "2026-04-10T19:11:00+08:00",
+      "summary": "Generalist AI公司近日发布了GEN-1模型，该发布在具身智能领域引起了广泛关注。该公司首席执行官Pete Florence认为，这一进展意味着机器人技术正接近其“ChatGPT时刻”。根据官方介绍，GEN-1模型在多种任务上展现出了高达99%的成功率，其表现超越了以往的技术水平。",
       "score": 28
+    },
+    {
+      "section": "政策与监管",
+      "title": "20岁男子涉嫌向OpenAI CEO萨姆·阿尔特曼住所投掷燃烧弹被捕",
+      "company": "OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/910393/openai-sam-altman-house-molotov-cocktail",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-10T20:16:57.000Z",
+      "summary": "旧金山警方逮捕了一名涉嫌向OpenAI首席执行官萨姆·阿尔特曼位于俄罗斯山的住所投掷燃烧弹的20岁男子。监控录像在东部时间早上7点前拍下了这一事件。随后，一名与嫌疑人描述相符的男子在OpenAI的Mission Bay办公室外发出威胁，并于东部时间上午9点左右被捕。",
+      "score": 25
+    },
+    {
+      "section": "技术与研究",
+      "title": "CVPR 2026：新型扩散模型加速方法，20步内保持画质",
+      "company": "阿里巴巴",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-10-10",
+      "source": "机器之心",
+      "publishedAt": "2026-04-10T18:54:00+08:00",
+      "summary": "作者介绍：本文的共同第一作者为崔奔雷（阿里巴巴）和何少轩（阿里巴巴实习生、浙江大学）主要研究领域为多模态理解与生成，通讯作者洪海文（阿里巴巴）和赵洲（浙江大学）主要研究领域分别为多模态大语言模型、语音理解生成等方向。",
+      "score": 26
+    },
+    {
+      "section": "技术与研究",
+      "title": "跟踪受害者起诉OpenAI，称ChatGPT助长施虐者妄想并忽视其警告",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 10 Apr 2026 16:41:34 +0000",
+      "summary": "一项新诉讼指控，OpenAI在收到用户危险警告后未采取行动，反而恢复了其ChatGPT Pro账户权限。该用户在与前女友分手后，利用ChatGPT生成大量虚假‘科学论文’和针对原告的心理学报告，并发送给其亲友和雇主。",
+      "score": 24
+    },
+    {
+      "section": "技术与研究",
+      "title": "从内部视角看DeepMind：无KPI如何领先AI行业",
+      "company": "DeepMind",
+      "url": "https://www.infoq.cn/article/UeZ4cvw5hl06J0vFEJck?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 10 Apr 2026 17:37:06 GMT",
+      "summary": "DeepMind成立于2010年AI技术尚不成熟之时，其创始人德米斯·哈萨比斯凭借从18岁起对AI的坚定信念，使公司在ChatGPT问世前约十年间保持行业领先。其独特的管理采用“贝尔实验室+学术研究所”模式，允许科学家长期研究、不要求短期产品产出且论文可公开发表。",
+      "score": 23
+    },
+    {
+      "section": "技术与研究",
+      "title": "微软小冰发展历程回顾：放弃对话轮数KPI与错失推理模型机遇",
+      "company": "微软",
+      "url": "https://www.leiphone.com/category/industrynews/QoaQk5BM6xUOC0Rs.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 10 Apr 2026 14:59:00 +0800",
+      "summary": "微软小冰团队曾认为行业用DAU/MAU衡量AI产品是“媚俗”设计，并在2017年就实现了单次会话超7000轮的能力，但主动放弃了将对话轮数作为核心KPI。在To B业务中，小冰虽有不少客户，但在概念验证阶段模型收敛未达标准；To C领域曾有人提议将失败产品作为不良资产转让给小冰，但被负责人李笛拒绝。",
+      "score": 23
+    },
+    {
+      "section": "政策与监管",
+      "title": "嫌疑人因涉嫌向Sam Altman住所投掷燃烧弹被捕",
+      "company": "OpenAI",
+      "url": "https://www.wired.com/story/sam-altman-home-attack-openai-san-franisco-office-threat/",
+      "source": "Wired AI",
+      "publishedAt": "Fri, 10 Apr 2026 16:32:19 +0000",
+      "summary": "美国旧金山警方于周五凌晨逮捕了一名嫌疑人，其涉嫌向OpenAI首席执行官Sam Altman的住所投掷燃烧弹，并在公司总部外发出威胁。具体而言，事件发生在凌晨4点12分左右，燃烧弹击中了住宅的外部大门并引发火灾，嫌疑人随后徒步逃离。",
+      "score": 23
+    },
+    {
+      "section": "政策与监管",
+      "title": "名称之争：Moderna面临的“疫苗”与“疗法”困境",
+      "company": "Moderna",
+      "url": "https://www.technologyreview.com/2026/04/10/1135631/whats-in-a-name-modernas-vaccine-vs-therapy-dilemma/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Fri, 10 Apr 2026 14:04:20 +0000",
+      "summary": "Moderna公司正面临因美国政界“疫苗怀疑论”导致的困境。具体表现为：1) 其价值7.76亿美元的禽流感mRNA疫苗合同被取消，数十个项目失去政府支持；2) 公司警告可能被迫停止针对传染病的后期疫苗研发项目。",
+      "score": 21
+    },
+    {
+      "section": "政策与监管",
+      "title": "OpenAI支持限制AI造成大规模伤亡或金融灾难时责任的法案",
+      "company": "OpenAI",
+      "url": "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/",
+      "source": "Wired AI",
+      "publishedAt": "Fri, 10 Apr 2026 00:19:53 +0000",
+      "summary": "OpenAI在伊利诺伊州听证会上支持SB 3444法案，该法案旨在为前沿AI模型开发者提供责任豁免。具体而言：1. 法案规定，若AI模型被用于制造生化或核武器等“重大伤害”，只要开发者非故意或鲁莽行事，并已公开发布安全与透明度报告，即可免于追责。2. OpenAI代表同时主张，州级法案应服务于与联邦法规的协调统一，以避免各州要求不一阻碍美国AI竞争力。3. 目前联邦AI立法进程停滞，加州、纽约等州已先行通过类似安全报告法案。",
+      "score": 21
     }
   ]
 }
