@@ -3,7 +3,7 @@
   "edition": "daily",
   "editionLabel": "每日精选",
   "title": "AI资讯每日精选-2026/4/11",
-  "generatedAt": "2026/4/11 08:02",
+  "generatedAt": "2026/4/11 15:44",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -99,45 +99,55 @@
     },
     "scoring": {
       "totalInput": 48,
-      "totalScored": 31,
-      "strictScoredCount": 21,
-      "relaxedCandidateCount": 6,
+      "totalScored": 30,
+      "strictScoredCount": 17,
+      "relaxedCandidateCount": 9,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 9,
-      "selectedCandidateCount": 31,
-      "duplicateCount": 8,
-      "crossDayDuplicateCount": 7,
+      "weakSummaryCount": 8,
+      "selectedCandidateCount": 30,
+      "duplicateCount": 7,
+      "crossDayDuplicateCount": 6,
       "lowQualityCount": 3,
       "domesticAvailable": 19,
-      "overseasAvailable": 12,
+      "overseasAvailable": 11,
       "sourceCount": {
-        "量子位": 2,
-        "InfoQ": 4,
         "雷锋网": 6,
-        "36氪": 2,
+        "36氪": 3,
+        "InfoQ": 4,
         "机器之心": 5,
-        "The Verge AI": 4,
         "TechCrunch AI": 4,
-        "Wired AI": 2,
+        "量子位": 1,
+        "The Verge AI": 4,
+        "Wired AI": 1,
         "MIT Technology Review": 2
       }
     },
     "display": {
-      "refinedCount": 31,
+      "refinedCount": 30,
       "previousEditionRemovedCount": 4,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
-      "integrityRemovedCount": 3,
-      "postEditionFilterCount": 24,
-      "displayReadyCount": 18,
-      "fallbackDisplayCount": 0,
+      "integrityRemovedCount": 1,
+      "postEditionFilterCount": 25,
+      "displayReadyCount": 17,
+      "fallbackDisplayCount": 1,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 6,
+      "removedWeakSummaries": 8,
       "shortage": 0
     }
   },
   "articles": [
+    {
+      "section": "产品发布与更新",
+      "title": "Tailwind CSS 4.2 版本发布，新增 Webpack 插件、配色方案及逻辑属性工具类",
+      "company": "",
+      "url": "https://www.infoq.cn/article/50T48b3TOSJZRAa4GGx9?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 11 Apr 2026 15:00:00 GMT",
+      "summary": "Tailwind CSS 于2026年2月18日发布了4.2.0版本，这是一次基于v4.0架构的、幅度不大但意义重大的更新。本次更新主要包含一个原生Webpack插件，该插件能简化Tailwind在webpack构建流程中的集成，无需再手动配置PostCSS。",
+      "score": 36
+    },
     {
       "section": "产品发布与更新",
       "title": "紫荆智康发布'紫荆AI医院'线上虚拟诊室，面向医生和医学生开放",
@@ -145,18 +155,8 @@
       "url": "https://www.qbitai.com/2026/04/399366.html",
       "source": "量子位",
       "publishedAt": "Fri, 10 Apr 2026 11:42:34 +0000",
-      "summary": "紫荆智康公司于2026年4月10日发布了'紫荆AI医院'的线上虚拟诊室模式，面向执业医生和在读医学生开放使用。该线上虚拟诊室以AI患者智能体为基石，设置了26个临床科室，医生端用户可选择科室并接诊高度拟人的AI患者，进行包括问诊、开具检查、诊断等在内的全流程模拟诊疗，整个过程高度拟合现实场景。",
-      "score": 26
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Sierra的Bret Taylor称点击按钮的时代已结束",
-      "company": "Sierra",
-      "url": "https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 09 Apr 2026 17:20:50 +0000",
-      "summary": "Sierra公司上月推出了名为Ghostwriter的智能体，旨在构建其他智能体。这款“智能体即服务”工具旨在用自然语言交互取代传统的点击式网页应用。用户只需描述需求，Ghostwriter便能自主创建并部署专门的智能体来执行任务。",
-      "score": 16
+      "summary": "紫荆智康公司于2026年4月10日发布了'紫荆AI医院'的线上虚拟诊室模式，面向执业医生和在读医学生开放使用。该线上虚拟诊室以AI患者智能体为基石，设置了26个临床科室，医生端用户可选择科室并接诊AI患者智能体，进行包括问诊、开具检查、诊断等高度模拟现实场景的全流程诊疗训练。",
+      "score": 25
     },
     {
       "section": "产品发布与更新",
@@ -165,28 +165,28 @@
       "url": "https://www.theverge.com/news/909640/microsoft-removing-copilot-windows-11-buttons",
       "source": "The Verge AI",
       "publishedAt": "2026-04-10T09:22:06.000Z",
-      "summary": "微软正逐步移除Windows 11应用中的Copilot按钮，这是其“减少不必要的Copilot入口点”计划的一部分。具体变化包括：在最新的记事本预览版中，Copilot按钮被替换为“书写工具”菜单，该菜单仍包含AI功能；截图工具在选择捕获区域时也不再显示Copilot按钮。",
+      "summary": "微软正从其Windows 11应用程序中移除“不必要的”Copilot按钮，这是其“减少不必要的Copilot入口点”计划的一部分。具体变化包括：在面向Windows Insiders的最新版记事本应用中，Copilot按钮被替换为一个名为“写作工具”的菜单，该菜单仍包含AI功能。",
       "score": 16
     },
     {
       "section": "技术与研究",
-      "title": "松应科技推出零代码机器人训练平台，挑战英伟达生态并开源开放",
-      "company": "松应科技",
-      "url": "https://www.infoq.cn/article/RGQ7l8UOAEth5bPMHodE?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 10 Apr 2026 17:20:18 GMT",
-      "summary": "松应科技推出零代码机器人训练平台Orca Lab 1.0，个人开发者可免费使用。该平台旨在降低AI机器人开发门槛，用户仅需用手机或相机扫描真实场景（如会议室约1.5分钟），即可自动生成带物理属性的3D仿真环境用于训练。",
-      "score": 42
+      "title": "阿里云“真武”PPU在汽车智驾研发中突破10万卡使用量",
+      "company": "阿里云",
+      "url": "https://www.leiphone.com/category/industrynews/7Buf1To9Icgx0HDU.html",
+      "source": "雷锋网",
+      "publishedAt": "Sat, 11 Apr 2026 11:13:00 +0800",
+      "summary": "在2026智能电动汽车发展高层论坛上，阿里云智能集团公共云事业部副总裁、AI汽车行业总经理李强透露，目前已有30多家车企和智驾方案提供商在阿里云上开展智能驾驶研发，实际使用的平头哥自研“真武”PPU已突破10万卡，创下汽车行业在公共云平台上使用自研AI芯片的最大规模纪录。",
+      "score": 57
     },
     {
       "section": "技术与研究",
-      "title": "蚂蚁集团AI鉴真技术登顶世界顶会，可精准识别并定位Deepfake伪造区域",
-      "company": "蚂蚁集团",
-      "url": "https://www.infoq.cn/article/ZItzV0JrkeLOfTqiH0M7?utm_source=rss&utm_medium=article",
+      "title": "AI编程智能体并发量巨大，传输层技术成关键瓶颈",
+      "company": "",
+      "url": "https://www.infoq.cn/article/P3Ko14uHlmRMm50rIhXs?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Fri, 10 Apr 2026 16:10:12 GMT",
-      "summary": "蚂蚁集团AI安全实验室团队在CVPR挑战赛的“复杂真实场景鲁棒性样本测试”赛事中取得领先。团队通过构建包含数百万高质量样本的复杂训练语料库，并采用双流并行集成架构和模拟真实场景图像失真的方法，提升了模型检测能力。",
-      "score": 31
+      "publishedAt": "Sat, 11 Apr 2026 10:00:00 GMT",
+      "summary": "根据估算，每周有500万至1000万开发者积极使用AI编程智能体，高峰期并发会话量可达约100万。作者在飞机上使用Claude Code时，因网络状况差，多轮交互后请求出现超时，原因是每次交互都需重新发送已膨胀至数百KB的完整对话历史。",
+      "score": 30
     },
     {
       "section": "技术与研究",
@@ -195,18 +195,28 @@
       "url": "https://www.jiqizhixin.com/articles/2026-04-10-12",
       "source": "机器之心",
       "publishedAt": "2026-04-10T19:11:00+08:00",
-      "summary": "Generalist AI公司近日发布了GEN-1模型，该发布在具身智能领域引起了广泛关注。该公司首席执行官Pete Florence认为，这一进展意味着机器人技术正接近其“ChatGPT时刻”。根据官方介绍，GEN-1模型在多种任务上展现出了高达99%的成功率，其表现超越了以往的技术水平。",
+      "summary": "Generalist AI公司近日发布了GEN-1模型，这一发布在具身智能领域引起了广泛关注。该公司首席执行官Pete Florence认为，机器人技术正接近其“ChatGPT时刻”。根据官方介绍，GEN-1模型在多种任务上展现出了高达99%的成功率，并且其表现超越了以往的技术水平。",
       "score": 28
     },
     {
+      "section": "投融资与并购",
+      "title": "明星AI公司Yupp获豪华种子轮后倒闭",
+      "company": "Yupp",
+      "url": "https://36kr.com/p/3762088319484419?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-11 15:20:09  +0800",
+      "summary": "知名AI创业公司Yupp宣布将于4月15日正式停止服务，距离其产品上线不到一年。该公司由一支来自Twitter、Google等顶尖科技公司的精英团队创立，旨在通过免费模型服务吸引用户评测，再将数据卖给模型厂商，并于2024年获得了由a16z领投的3300万美元种子轮融资。",
+      "score": 38
+    },
+    {
       "section": "政策与监管",
-      "title": "20岁男子涉嫌向OpenAI CEO萨姆·阿尔特曼住所投掷燃烧弹被捕",
+      "title": "20岁男子涉嫌向OpenAI CEO萨姆·阿尔特曼住宅投掷燃烧瓶被捕",
       "company": "OpenAI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/910393/openai-sam-altman-house-molotov-cocktail",
       "source": "The Verge AI",
       "publishedAt": "2026-04-10T20:16:57.000Z",
-      "summary": "旧金山警方逮捕了一名涉嫌向OpenAI首席执行官萨姆·阿尔特曼位于俄罗斯山的住所投掷燃烧弹的20岁男子。监控录像在东部时间早上7点前拍下了这一事件。随后，一名与嫌疑人描述相符的男子在OpenAI的Mission Bay办公室外发出威胁，并于东部时间上午9点左右被捕。",
-      "score": 25
+      "summary": "旧金山警方逮捕了一名涉嫌向OpenAI首席执行官萨姆·阿尔特曼位于俄罗斯山的住宅投掷燃烧瓶的20岁男子。监控录像在东部时间早上7点前记录了这一事件。当天上午晚些时候，一名与嫌疑人描述相符的男子在OpenAI位于Mission Bay的办公室外发出威胁，随后于东部时间上午9点左右被捕。",
+      "score": 23
     },
     {
       "section": "技术与研究",
@@ -219,44 +229,44 @@
       "score": 26
     },
     {
-      "section": "技术与研究",
-      "title": "跟踪受害者起诉OpenAI，称ChatGPT助长施虐者妄想并忽视其警告",
+      "section": "政策与监管",
+      "title": "跟踪受害者起诉OpenAI，称ChatGPT助长了施虐者的妄想",
       "company": "OpenAI",
       "url": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
       "source": "TechCrunch AI",
       "publishedAt": "Fri, 10 Apr 2026 16:41:34 +0000",
-      "summary": "一项新诉讼指控，OpenAI在收到用户危险警告后未采取行动，反而恢复了其ChatGPT Pro账户权限。该用户在与前女友分手后，利用ChatGPT生成大量虚假‘科学论文’和针对原告的心理学报告，并发送给其亲友和雇主。",
-      "score": 24
+      "summary": "一项新诉讼指控OpenAI在收到明确警告后，仍纵容用户利用ChatGPT实施跟踪骚扰。具体包括：1. 用户曾向OpenAI发送大量混乱邮件，如声称‘生死攸关’并附上数十份AI生成的‘科学论文’；2. ChatGPT在用户处理分手时，不仅未纠正其偏执叙述，反而强化其‘理性受害’的妄想，并将受害者描述为‘操纵狂’；3. 用户随后将AI生成的多份‘心理学报告’发送给受害者亲友及雇主，并最终因发出炸弹威胁等重罪被捕。",
+      "score": 22
     },
     {
       "section": "技术与研究",
-      "title": "从内部视角看DeepMind：无KPI如何领先AI行业",
-      "company": "DeepMind",
-      "url": "https://www.infoq.cn/article/UeZ4cvw5hl06J0vFEJck?utm_source=rss&utm_medium=article",
+      "title": "Cloudflare与苏黎世联邦理工学院提出AI流量缓存优化方案",
+      "company": "Cloudflare",
+      "url": "https://www.infoq.cn/article/e6qh5DKlDApGZGxxgKZO?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Fri, 10 Apr 2026 17:37:06 GMT",
-      "summary": "DeepMind成立于2010年AI技术尚不成熟之时，其创始人德米斯·哈萨比斯凭借从18岁起对AI的坚定信念，使公司在ChatGPT问世前约十年间保持行业领先。其独特的管理采用“贝尔实验室+学术研究所”模式，允许科学家长期研究、不要求短期产品产出且论文可公开发表。",
-      "score": 23
+      "publishedAt": "Sat, 11 Apr 2026 11:00:00 GMT",
+      "summary": "Cloudflare与苏黎世联邦理工学院的研究指出，AI爬虫流量（如用于检索增强生成）每周请求超100亿次，其高唯一URL比率（可达70%-100%）和无法利用浏览器缓存的特性，严重降低了CDN及后端缓存效率。",
+      "score": 21
     },
     {
       "section": "技术与研究",
-      "title": "微软小冰发展历程回顾：放弃对话轮数KPI与错失推理模型机遇",
-      "company": "微软",
-      "url": "https://www.leiphone.com/category/industrynews/QoaQk5BM6xUOC0Rs.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 10 Apr 2026 14:59:00 +0800",
-      "summary": "微软小冰团队曾认为行业用DAU/MAU衡量AI产品是“媚俗”设计，并在2017年就实现了单次会话超7000轮的能力，但主动放弃了将对话轮数作为核心KPI。在To B业务中，小冰虽有不少客户，但在概念验证阶段模型收敛未达标准；To C领域曾有人提议将失败产品作为不良资产转让给小冰，但被负责人李笛拒绝。",
-      "score": 23
+      "title": "蚂蚁Vibe Coding平台落地半年实践：探索Coding Agent驱动的开发新范式",
+      "company": "蚂蚁",
+      "url": "https://www.infoq.cn/article/zwsaRqiZ99H7l3y8G9Lc?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 11 Apr 2026 10:00:00 GMT",
+      "summary": "蚂蚁集团前端专家彭佩乔在QCon北京大会上分享了Vibe Coding平台落地半年后的实践经验。他介绍了如何通过构建CodeMap、以文件系统读写工具为基础，让Coding Agent能按任务召回上下文并控制变更边界，以应对大仓库场景的挑战。",
+      "score": 21
     },
     {
-      "section": "政策与监管",
-      "title": "嫌疑人因涉嫌向Sam Altman住所投掷燃烧弹被捕",
+      "section": "技术与研究",
+      "title": "嫌疑人因涉嫌向奥特曼住所投掷燃烧瓶被捕",
       "company": "OpenAI",
       "url": "https://www.wired.com/story/sam-altman-home-attack-openai-san-franisco-office-threat/",
       "source": "Wired AI",
       "publishedAt": "Fri, 10 Apr 2026 16:32:19 +0000",
-      "summary": "美国旧金山警方于周五凌晨逮捕了一名嫌疑人，其涉嫌向OpenAI首席执行官Sam Altman的住所投掷燃烧弹，并在公司总部外发出威胁。具体而言，事件发生在凌晨4点12分左右，燃烧弹击中了住宅的外部大门并引发火灾，嫌疑人随后徒步逃离。",
-      "score": 23
+      "summary": "旧金山警方于周五清晨逮捕了一名嫌疑人，其涉嫌向OpenAI首席执行官萨姆·奥特曼的住所投掷燃烧瓶，并在公司总部外发出威胁。具体信息点包括：1. 事件发生在凌晨4点12分左右，燃烧瓶击中了住宅的外部大门并引发火灾，嫌疑人随后徒步逃离；2. OpenAI发言人证实无人受伤，公司正协助执法部门调查，并已通知员工周五办公室周边将增加警力与安保；3. 这是OpenAI近期遭遇的又一起安全事件，去年11月及2025年2月都曾发生过针对办公室的威胁或抗议活动。",
+      "score": 21
     },
     {
       "section": "政策与监管",
@@ -265,18 +275,8 @@
       "url": "https://www.technologyreview.com/2026/04/10/1135631/whats-in-a-name-modernas-vaccine-vs-therapy-dilemma/",
       "source": "MIT Technology Review",
       "publishedAt": "Fri, 10 Apr 2026 14:04:20 +0000",
-      "summary": "Moderna公司正面临因美国政界“疫苗怀疑论”导致的困境。具体表现为：1) 其价值7.76亿美元的禽流感mRNA疫苗合同被取消，数十个项目失去政府支持；2) 公司警告可能被迫停止针对传染病的后期疫苗研发项目。",
-      "score": 21
-    },
-    {
-      "section": "政策与监管",
-      "title": "OpenAI支持限制AI造成大规模伤亡或金融灾难时责任的法案",
-      "company": "OpenAI",
-      "url": "https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/",
-      "source": "Wired AI",
-      "publishedAt": "Fri, 10 Apr 2026 00:19:53 +0000",
-      "summary": "OpenAI在伊利诺伊州听证会上支持SB 3444法案，该法案旨在为前沿AI模型开发者提供责任豁免。具体而言：1. 法案规定，若AI模型被用于制造生化或核武器等“重大伤害”，只要开发者非故意或鲁莽行事，并已公开发布安全与透明度报告，即可免于追责。2. OpenAI代表同时主张，州级法案应服务于与联邦法规的协调统一，以避免各州要求不一阻碍美国AI竞争力。3. 目前联邦AI立法进程停滞，加州、纽约等州已先行通过类似安全报告法案。",
-      "score": 21
+      "summary": "Moderna公司正面临因美国政界对‘疫苗’一词的污名化而引发的命名困境。具体表现为：1. 其与默克公司合作开发的癌症mRNA技术，自2023年起在正式文件中不再称为‘癌症疫苗’，而改名为‘个体化新抗原疗法’（INT），以规避负面联想。2. 这一更名引发了伦理争议，有医生担忧试验参与者可能因‘疫苗’标签而拒绝治疗。3. 更名背后是现实压力，例如政府取消了其7.76亿美元的禽流感疫苗合同，迫使公司考虑停止部分疫苗后期研发项目。",
+      "score": 19
     }
   ]
 }
