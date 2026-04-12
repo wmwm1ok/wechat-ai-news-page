@@ -3,8 +3,8 @@
   "edition": "daily",
   "editionLabel": "每日精选",
   "title": "AI资讯每日精选-2026/4/12",
-  "generatedAt": "2026/4/12 08:00",
-  "count": 14,
+  "generatedAt": "2026/4/12 15:58",
+  "count": 12,
   "targetCount": 14,
   "diagnostics": {
     "previousDayFile": "news-2026-04-11-daily.json",
@@ -12,10 +12,10 @@
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 28,
-      "overseasBeforeDedup": 12,
-      "domesticAfterDedup": 28,
-      "overseasAfterDedup": 12,
+      "domesticBeforeDedup": 27,
+      "overseasBeforeDedup": 11,
+      "domesticAfterDedup": 27,
+      "overseasAfterDedup": 11,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -26,7 +26,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 4,
+          "count": 6,
           "error": null
         },
         {
@@ -44,7 +44,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 8,
+          "count": 5,
           "error": null
         }
       ],
@@ -76,7 +76,7 @@
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 4,
+          "count": 3,
           "error": null
         },
         {
@@ -95,57 +95,57 @@
       }
     },
     "summarize": {
-      "totalSummarized": 40
+      "totalSummarized": 38
     },
     "scoring": {
-      "totalInput": 40,
-      "totalScored": 24,
-      "strictScoredCount": 9,
-      "relaxedCandidateCount": 7,
+      "totalInput": 38,
+      "totalScored": 18,
+      "strictScoredCount": 10,
+      "relaxedCandidateCount": 3,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 11,
-      "selectedCandidateCount": 24,
-      "duplicateCount": 12,
-      "crossDayDuplicateCount": 12,
-      "lowQualityCount": 1,
-      "domesticAvailable": 18,
-      "overseasAvailable": 6,
+      "weakSummaryCount": 10,
+      "selectedCandidateCount": 18,
+      "duplicateCount": 11,
+      "crossDayDuplicateCount": 11,
+      "lowQualityCount": 2,
+      "domesticAvailable": 14,
+      "overseasAvailable": 4,
       "sourceCount": {
-        "雷锋网": 7,
-        "36氪": 3,
-        "机器之心": 3,
+        "雷锋网": 4,
+        "36氪": 2,
         "InfoQ": 3,
-        "量子位": 2,
-        "The Verge AI": 2,
-        "TechCrunch AI": 3,
-        "MIT Technology Review": 1
+        "机器之心": 2,
+        "量子位": 3,
+        "TechCrunch AI": 2,
+        "MIT Technology Review": 1,
+        "The Verge AI": 1
       }
     },
     "display": {
-      "refinedCount": 24,
-      "previousEditionRemovedCount": 8,
+      "refinedCount": 18,
+      "previousEditionRemovedCount": 5,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 14,
+      "integrityRemovedCount": 1,
+      "postEditionFilterCount": 12,
       "displayReadyCount": 6,
-      "fallbackDisplayCount": 8,
+      "fallbackDisplayCount": 6,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 8,
-      "shortage": 0
+      "removedWeakSummaries": 6,
+      "shortage": 2
     }
   },
   "articles": [
     {
       "section": "技术与研究",
-      "title": "OpenClaw发布WildClawBench测试，上海AI Lab InternLM团队挑战60道多模态难题",
-      "company": "上海AI Lab",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-11-4",
-      "source": "机器之心",
-      "publishedAt": "2026-04-11T20:26:00+08:00",
-      "summary": "OpenClaw生态发布了一套名为WildClawBench的测试题，专门用于评估AI模型在真实工作场景中的实际能力。这套测试包含60道题目，内容均模拟现实工作任务，例如整理发布会录像制作海报、对arXiv论文进行分类并寻找基准模型等，属于多模态与多步骤的复杂挑战。",
-      "score": 30
+      "title": "谷歌开源Colab MCP Server，AI智能体可云端运行代码",
+      "company": "谷歌",
+      "url": "https://www.infoq.cn/article/Z71AB0lSu0DcEhSNFXqQ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 12 Apr 2026 10:00:00 GMT",
+      "summary": "谷歌开源了Colab MCP Server项目，该项目使兼容模型上下文协议（MCP）的AI智能体能够直接与谷歌Colab交互。该方案通过在本地运行MCP服务器，将智能体与云端Colab会话连接起来，允许智能体创建和管理笔记本、执行代码单元、管理依赖并整理输出，从而生成完整可运行的笔记本。",
+      "score": 37
     },
     {
       "section": "技术与研究",
@@ -155,57 +155,57 @@
       "source": "机器之心",
       "publishedAt": "2026-04-11T20:47:00+08:00",
       "summary": "新加坡国立大学邵林团队提出名为T(R,O) Grasp的新方法，旨在提升机器人在动态环境中的灵巧抓取能力。该方法刷新了跨智能体灵巧抓取领域的SOTA（当前最优）性能，并实现了5FPS的实时交互速度，以应对动态变化的场景。研究团队由新加坡国立大学博士生费昕、徐志轩等共同完成，通讯作者为助理教授邵林。",
-      "score": 24
-    },
-    {
-      "section": "政策与监管",
-      "title": "伊朗如何在信息战中胜过白宫",
-      "company": "伊朗",
-      "url": "https://www.theverge.com/policy/910401/iran-war-propaganda-blackout-lego-ai-slop",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-11T13:00:00.000Z",
-      "summary": "在战争初期，白宫社交媒体忙于发布《使命召唤》梗图和AI生成的跳舞保龄球瓶内容，而伊朗官方媒体则持续发布地面实况视频，包括德黑兰上空的爆炸、滚滚浓烟、地面血迹、战斧导弹击中学校以及悲痛父母埋葬孩子的画面。就在几周前，伊朗当局还在努力封锁全国抗议活动的所有影像，并实施了持续时间最长的对外断网。",
       "score": 22
     },
     {
       "section": "技术与研究",
-      "title": "微软小冰发展回顾：放弃对话轮数KPI，聚焦认知与异构多智能体",
-      "company": "微软",
-      "url": "https://www.leiphone.com/category/industrynews/QoaQk5BM6xUOC0Rs.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 10 Apr 2026 14:59:00 +0800",
-      "summary": "文章回顾了微软小冰的发展历程与战略选择。小冰团队曾主动放弃将“对话轮数”作为核心KPI，尽管其技术早在2017年就能实现单次会话超7000轮。在业务层面，小冰在To B领域有诸多客户，但在概念验证阶段模型收敛未达标准；To C领域则曾拒绝接收其他公司的失败产品作为不良资产。",
-      "score": 16
+      "title": "Claude复活30年前传奇游戏，仅用一个周末",
+      "company": "Claude",
+      "url": "https://www.qbitai.com/2026/04/399903.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 12 Apr 2026 07:00:45 +0000",
+      "summary": "一位开发者利用Claude Code成功反向工程了30年前自己定义的游戏脚本语言，并基于有限的资料完整重建了游戏世界。在开发过程中，他花费了整个周末与Claude Code紧密协作，通过提供背景信息、引导决策、纠正偏差以及做出技术判断来推进项目。",
+      "score": 22
     },
     {
-      "section": "产品发布与更新",
-      "title": "豆包APP升级实时语音通话 全双工模型提升抗干扰与低时延能力",
-      "company": "豆包",
-      "url": "https://www.leiphone.com/category/industrynews/FRSInOTlhXXbAE70.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 10 Apr 2026 14:36:00 +0800",
-      "summary": "豆包APP近日对其实时语音通话功能进行了升级，上线了名为Seeduplex的全双工语音大模型。升级后，该功能在复杂声学环境下表现出更强的抗干扰能力，能有效过滤背景噪音和旁人说话声，减少误打断和误回复的情况。",
-      "score": 16
+      "section": "技术与研究",
+      "title": "滴滴自动驾驶CEO张博：聚焦安全与体验，以混合网络推动自动驾驶全球化",
+      "company": "滴滴",
+      "url": "https://www.qbitai.com/2026/04/399675.html",
+      "source": "量子位",
+      "publishedAt": "Sat, 11 Apr 2026 10:46:34 +0000",
+      "summary": "滴滴自动驾驶CEO张博表示，公司正通过“混合出行网络”模式推动自动驾驶全球化。具体做法包括：1. 利用滴滴在海外14国的运营经验及AI技术，将自动驾驶技术与现有网约车平台结合，通过“混合派单”模式（已在广州等地实践）让自动驾驶车辆与普通车辆一同接单，以解决初期车辆不足和用户体验问题。2. 与广汽埃安合作推出新一代Robotaxi车型R2，该车型满足中欧双五星安全标准，已于今年1月交付并开始路测，旨在从硬件层面保障安全。",
+      "score": 22
+    },
+    {
+      "section": "技术与研究",
+      "title": "QCon北京大会将探讨AI编码全栈实战与20多个前沿专题",
+      "company": "",
+      "url": "https://www.infoq.cn/article/4wNXLbIeHGEWrGNUwOjc?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 12 Apr 2026 10:00:00 GMT",
+      "summary": "QCon北京全球软件开发大会将举办20多个专题论坛，涵盖Agentic Engineering、多模态理解与生成、智能体记忆系统、具身智能、AI原生基础设施、大模型算力优化等多个前沿技术方向。届时将有来自不同行业和企业的100多位资深专家分享技术洞察和实践经验。",
+      "score": 21
     },
     {
       "section": "技术与研究",
       "title": "星座",
-      "company": "",
+      "company": "无",
       "url": "https://www.technologyreview.com/2026/04/10/1135106/jeff-vandermeer-constellations-science-fiction/",
       "source": "MIT Technology Review",
       "publishedAt": "Fri, 10 Apr 2026 10:00:00 +0000",
-      "summary": "一艘飞船坠毁在未知的敌对星球上，幸存者包括叙述者、领航员、部分船长和飞船AI。他们发现了一具外星宇航员遗骸，其头盔内并非头颅，而是一个由蓝绿色植物构成的完整微型生态系统。幸存者身着高科技宇航服，能循环水、制造食物和氧气，并驱动他们前往一千英里外的最近穹顶寻求生机，但途中遭遇恶劣冰雪天气，体力消耗巨大。",
+      "summary": "幸存者们在有毒星球上发现了一具外星宇航员尸体，其宇航服内已形成一个完整的微型生态系统，长满茂盛的蓝绿色植物，甚至可能有小型生物活动。他们计划穿着具备维生和辅助行走功能的宇航服，跋涉一千至一万英里前往最近的气泡状穹顶寻求生机。然而，途中恶劣的冰雪环境使他们的体力逐渐透支，前行愈发艰难。",
       "score": 15
     },
     {
       "section": "政策与监管",
-      "title": "奥特曼住宅遭燃烧弹袭击，发文称AGI已成“魔戒”引发行业斗争",
+      "title": "奥特曼豪宅遭燃烧弹袭击，发文称AGI已成“魔戒”引发行业斗争",
       "company": "OpenAI",
       "url": "https://36kr.com/p/3762027785224707?f=rss",
       "source": "36氪",
       "publishedAt": "2026-04-11 14:17:09  +0800",
       "summary": "奥特曼家被炸了 【导读】当地时间周五清晨，奥特曼家被炸了。奥特曼发出家人和孩子的照片，并且发出长文表示，AGI如今已经如同魔戒一般，让人做出疯狂的举动。奥特曼家被炸了！就在当地时间周五清晨，一名20岁男子向奥特曼旧金山中投掷了燃烧弹，引起火灾。这栋豪宅价值2700万美元。",
-      "score": 46
+      "score": 44
     },
     {
       "section": "技术与研究",
@@ -214,7 +214,7 @@
       "url": "https://www.leiphone.com/category/chips/R1EXdjpNag6btxzW.html",
       "source": "雷锋网",
       "publishedAt": "Fri, 10 Apr 2026 18:27:00 +0800",
-      "summary": "AI推理对存储需求激增，例如单次请求的上下文从4K Token扩展到128K Token时，KV缓存会膨胀32倍，100个并发请求的缓存需求可达TB级。面对此需求，企业级SSD正从单纯存储设备进化为“AI数据调度节点”，需在正确时间将正确数据送至正确位置。",
+      "summary": "AI推理对存储需求激增，例如单个请求的上下文从4K Token扩展到128K Token时，KV缓存会膨胀32倍，100个并发请求的缓存需求可达TB级。面对这种需求，企业级SSD的角色正从单纯的数据“仓库”转变为“AI数据调度节点”，需要更智能地调度数据。",
       "score": 37
     },
     {
@@ -225,7 +225,7 @@
       "source": "雷锋网",
       "publishedAt": "Sat, 11 Apr 2026 00:25:00 +0800",
       "summary": "4月10日，在第三届中国机器人产业大会上，百度智能云联合零次方机器人、灵生、傅利叶、纬钛科技、拓元智慧、枢途科技、松应科技等多家头部具身智能企业，正式推出\"具身智能数据超市（Beta版）\"，首创层级化、可扩展的数据标签体系，加速具身智能规模化落地。当前，具身智能行业正处于走向落地期的关键阶段。",
-      "score": 34
+      "score": 32
     },
     {
       "section": "产品发布与更新",
@@ -234,8 +234,18 @@
       "url": "https://www.leiphone.com/category/ai/YZNs5Y6LrKuanvgg.html",
       "source": "雷锋网",
       "publishedAt": "Fri, 10 Apr 2026 19:18:00 +0800",
-      "summary": "无问芯穹发布InfiniClaw Box，旨在解决本地AI应用面临的数据隐私与算力不足问题。其核心创新在于：1. 采用“本地脱敏-云端处理-本地回填”三段式架构，确保姓名、身份证号等敏感信息在本地处理，绝不外传至云端；2. 突破传统仅支持文本脱敏的限制，能同时处理文本、语音、视频等多种模态数据；3. 通过优化核心算子，在主流芯片上实现了10%到40%的性能加速，并内置了80多个面向政务、办公等场景的专业技能。",
+      "summary": "无问芯穹发布InfiniClaw Box，这是一款解决本地AI应用隐私安全问题的产品。其核心是“本地脱敏-云端处理-本地回填”三段式架构：先在本地识别并替换文本、语音、视频中的敏感信息，再将脱敏数据送至云端大模型处理，最后在本地将结果中的敏感信息精准还原。",
       "score": 27
+    },
+    {
+      "section": "技术与研究",
+      "title": "OpenAI首席执行官回应《纽约客》文章及住所遇袭事件",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 11 Apr 2026 17:18:22 +0000",
+      "summary": "OpenAI首席执行官Sam Altman发布博客，回应了《纽约客》杂志的质疑报道及其住所遇袭事件。他承认自己在2023年与前任董事会的冲突中处理不当，导致公司陷入混乱，并反思自己作为身处复杂环境中的不完美之人，正努力改进。",
+      "score": 21
     },
     {
       "section": "技术与研究",
@@ -244,38 +254,8 @@
       "url": "https://www.jiqizhixin.com/articles/2026-04-11-10",
       "source": "机器之心",
       "publishedAt": "2026-04-11T20:50:00+08:00",
-      "summary": "Anthropic上周宣布封杀OpenClaw，本周又封禁了其创始人Peter Steinberger的账户，引发争议。Anthropic官方随后回应称，此次封禁是误会，目前已经解封。事件凸显了AI公司对第三方应用开发者账户管理的争议性。",
-      "score": 20
-    },
-    {
-      "section": "技术与研究",
-      "title": "何小鹏解析智能汽车下半场：物理AI、自研芯片与盈利策略",
-      "company": "小鹏",
-      "url": "https://www.leiphone.com/category/transportation/lmxSTFXDOfrGQ3Hq.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 10 Apr 2026 22:18:00 +0800",
-      "summary": "何小鹏认为物理AI仍处早期，行业需承担高试错成本，但AI对物理世界的改造是必答题。小鹏采取“边落地边迭代”策略，通过MONA等车型形成数据到销量的正向循环，并明确不做10万元以下车型，在15万元内市场以自研芯片、大模型和高阶智驾构建差异化。",
-      "score": 19
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI CEO回应《纽约客》文章及住所遭袭事件",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Sat, 11 Apr 2026 17:18:22 +0000",
-      "summary": "OpenAI CEO Sam Altman发表博客，回应《纽约客》质疑其可信度的文章及住所遭袭事件。他承认在2023年与董事会的冲突中处理不当，导致公司陷入混乱，并反思自己作为有缺陷的人，在复杂环境中不断改进。",
-      "score": 19
-    },
-    {
-      "section": "技术与研究",
-      "title": "Hermes Agent引发关注，但分析指出高质量CLI工具比Skill自主进化更关键",
-      "company": "Nous Research",
-      "url": "https://36kr.com/p/3761883183530502?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-11 11:47:59  +0800",
-      "summary": "文章指出，当前AI Agent（如Hermes Agent）落地的主要瓶颈并非其自动生成和优化Skill（技能）的能力，而是底层缺乏高质量、确定性的CLI（命令行）工具。",
-      "score": 15
+      "summary": "Anthropic上周封杀了OpenClaw，本周又封禁了其创始人Peter Steinberger的账户，引发争议。Anthropic官方随后回应称，封禁系因自动化系统误判，属于误会，并已对Steinberger的账户进行解封。",
+      "score": 18
     }
   ]
 }
