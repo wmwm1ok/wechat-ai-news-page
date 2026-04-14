@@ -1,0 +1,304 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "Meta智能眼镜面部识别功能被警告可能助长性侵犯",
+      "url": "https://www.wired.com/story/meta-ray-ban-oakley-smart-glasses-no-face-recognition-civil-society/",
+      "snippet": "More than 70 organizations, including the ACLU, EPIC, and Fight for the Future, say the AI smart glasses feature would endanger abuse victims, immigrants, and LGBTQ+ people.",
+      "source": "Wired AI",
+      "publishedAt": "Mon, 13 Apr 2026 16:01:30 +0000",
+      "region": "海外",
+      "summary": "超过70个组织联合警告Meta，其智能眼镜计划推出的‘Name Tag’实时面部识别功能存在严重隐私风险。该功能可通过内置AI助手识别视野中的人物并调取其信息，可能被用于跟踪、骚扰特定人群，或在抗议、医疗场所等破坏公共匿名性。",
+      "category": "产品发布与更新",
+      "company": "Meta",
+      "score": 23,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "图速科技发布三款具身智能打磨新品，机器人效率达人工3-4倍",
+      "url": "https://36kr.com/p/3765207394009602?f=rss",
+      "snippet": "作者丨欧雪 编辑丨袁斯来 在AI+制造 新时代到来的开局之年，工业打磨这一长期依赖人工经验的“隐形工序”，正在迎来技术拐点。 4月10日，图速自动化科技（上海）有限公司正式发布砺眸®LumiSander具身智能平台与图御™|RouteMind 2.0在线路径规划系统，同步亮相的还有图匠® LumiCraft具身打磨机器人。 三款新品同时推出，标志着这家成立十年的自动化企业正加速向具身智能表面处理技术平台转型。 打磨是工业生产中的极为关键的工艺环节，下游应用广泛。硬氪了解到，工业打磨广泛应用于轨道交通、航空航天、风力发电、汽车制造等领域。长期以来，打磨环节工艺高度依赖经验，劳动强度大、作业环境恶劣。 图速科技创始人葛旭刚在发布会现场表示，当前AI在工业中的应用，更多是为工业机器人带来优化升级，远未达到“自主智能”的成熟状态。 葛旭刚认为，“目前具身智能打磨处于‘条件智能打磨阶段’，本质上是集成AI模型进行辅助优化的条件交互阶段，实现参数自优化与人工协作，即AI辅助决策。” 这一判断为图速的技术路径提供了注脚。砺眸®LumiSander平台并非试图完全替代人工经验，而是通过数据、算法与模型的可演进架构，持续沉淀工艺知识，在关键决策节点为操作人员提供更优建议，逐步实现从“人主导”到“人机协同”的过渡。 砺眸®LumiSander平台已形成六大功能模块：智能体广场、数据管理、算法管理、训练管理、模型管理与容器管理。其中，智能体广场覆盖汽车工业、轨道交通、航天航空、风力发电等方向，可针对不同材质、曲面、缺陷快速完成工艺理解与策略生成。 而图速此次推出的图御™|RouteMind 2.0，机器人在线路径规划软件，在国内工业制造领域首次实现从点云建模到打磨路径在线规划再到机器人柔性自适应打磨全流程自动化。 图眸®SurfaEye AI视觉瑕疵检测系统搭载光流相机，识别精度达0.15毫米；打磨机器人采用自适应力控技术精准修复。从检测到修复完成仅需1分钟，作业效率达到人工检测修复的3至4倍。 此外，这次最受市场关注的图匠® LumiCraft具身打磨机器人在现场进行了演示。 该设备进一步拓展了应用边界，搭载自主移动平台，配备SLAM导航与避障系统，定位精度达2厘米，最大行进速度1米/秒，可灵活穿梭于车间各工位。机械臂末端搭载高精度力控工具，结合力位混合控制与机器视觉，实现对大型一致性较差的工件表面处理的多工艺融合。 针对行业普遍头疼的耗材更换问题，图匠® LumiCraft配置了智能磨料库与自动更换系统，旧耗材拆卸与新耗材更换全程仅需30秒，系统还配备了耗材的寿命检测系统，节约生产成本。同时，设备搭载高真空集尘系统，灰尘回收率达95%以上，显著改善了作业环境。对于超大工件多工位打磨，图匠® LumiCraft还通过激光跟踪技术完成二次精准定位，有效解决区域衔接难题。 图匠® LumiCraft具身打磨机器人进行现场演示（图源/企业） 图速科技成立于2016年，总部位于上海松江，2025年在浙江湖州南浔落成3000平方米工程中心。公司核心业务聚焦轨道交通、航空航天、风力发电、汽车制造四大行业，目前已与多家头部客户形成深度合作。 目前，公司已在华东、华南、西南、西北、华北及东北布局服务网络，具备全国快速响应能力。公司方面表示，未来将进一步拓展船舶、低空经济、装备制造及汽车后市场等新兴增长领域。",
+      "source": "36氪",
+      "publishedAt": "2026-04-13 20:07:37  +0800",
+      "region": "国内",
+      "summary": "作者丨欧雪 编辑丨袁斯来 在AI+制造 新时代到来的开局之年，工业打磨这一长期依赖人工经验的“隐形工序”，正在迎来技术拐点。 4月10日，图速自动化科技（上海）有限公司正式发布砺眸®LumiSander具身智能平台与图御™|RouteMind 2.0在线路径规划系统。",
+      "category": "产品发布与更新",
+      "company": "图速科技",
+      "score": 49,
+      "breakdown": {
+        "substance": 31,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "别克至境E7行业首发搭载豆包大模型最新版",
+      "url": "https://www.leiphone.com/category/industrynews/c8rGA0s3Z9EolPet.html",
+      "snippet": "当豆包大模型进入汽车座舱，人车交互不再是你问我答的“客服”，而是能像人一样思考、交流、成长的“数字家人”。 别克高端新能源子品牌“至境”旗下首款SUV——别克至境E7正式发布，汽车行业首发搭载豆包大模型最新版，打造集陪伴、娱乐、用车、出行、车控五大核心功能的车载智能体，让车机具备真人一般的思考和交流能力，真正实现“听得懂、做得到”。 从“懂人心”到“能办事”，真正实现 “越用越懂你” 别克至境E7首发搭载的豆包大模型最新版，拥有强大的思考能力：不仅能精准理解用户的复杂意图并快速规划任务，更能打通整车功能，实现系统级协同调度，一站式完成复杂任务。 它还能结合历史对话与车辆实时状态，展开上下文推理，并深度融合专业用车知识，让响应更贴合实际用车场景，真正做到 “听得懂、做得到”。搭载豆包大模型的座舱助手还能够像人一样自我成长。依托端云协同技术架构，实现云端模型实时更新、常用常新，真正做到 “越用越懂你”。 端到端语音架构，如真人般的人车交互体验 基于豆包实时语音模型的端到端语音框架，别克至境E7带来更具真人感的人车交互体验。 首先，语音表现力上接近真人。对话节奏丝滑流畅，支持更自然的随时打断。语调、情感自然逼真，具备20多种情绪表达与超拟人语气。 其次，能进行高情商的交流。精准捕捉用户情绪与语境，通过分析用户的语气、措辞、思维逻辑等，进行高情商回复和对话。 同时，还具备更强的泛化能力。精准理解用户模糊的指令，灵活生成适配当下场景的回答内容。 此外，还支持声线模仿、角色扮演等个性化交互。用户可以设置情绪、方言、语速、风格、声线等多元能力，交互体验更多元化。 豆包大模型加持的别克至境E7，就像是一个更聪明、更有趣、更温暖的“数字家人”。 它懂情绪，能陪家人谈古论今、玩角色扮演，以温暖交互消解旅途枯燥； 它懂喜好，可联动抖音、汽水音乐等丰富的内容生态，联动7.1.4杜比全景声20扬声器环绕音响打造私享音乐厅； 它懂需求，能精准找到模糊地点、规划复杂的多目的地导航，与50英寸AR-HUD实景融合导航让出行更高效； 它还懂车，可秒解仪表盘图标、分步教学车辆功能，化身专业随车顾问； 它更懂舒适，一句话就能控制座椅、氛围灯、车载香氛、二排影院屏等配置，实现跨域无感化操控。 火山引擎将与别克持续合作，让先进的AI大模型技术，深度融入整车空间，为每一次出行创造温暖与惊喜。 雷峰网",
+      "source": "雷锋网",
+      "publishedAt": "Mon, 13 Apr 2026 16:24:00 +0800",
+      "region": "国内",
+      "summary": "别克高端新能源子品牌“至境”的首款SUV别克至境E7正式发布，并成为汽车行业首款搭载豆包大模型最新版的车型。该模型让车机助手具备接近真人的交互能力：其语音支持20多种情绪表达和自然打断，并能结合车辆实时状态与历史对话进行上下文推理。",
+      "category": "产品发布与更新",
+      "company": "别克",
+      "score": 23,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 4,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "微软测试将OpenClaw类AI功能集成至Copilot",
+      "url": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
+      "snippet": "Microsoft is looking into ways it can integrate OpenClaw-style features into its Copilot AI assistant, according to a report from The Information. The test reportedly comes as part of efforts to make Microsoft 365 Copilot \"run autonomously around the clock\" while completing tasks on behalf of users. Omar Shahine, Microsoft's corporate vice president, confirmed to The Information that the company is \"exploring the potential of technologies like OpenClaw in an enterprise context.\" OpenClaw is an open-source platform that allows users to create AI-powered agents that run locally on a user's device. The platform rose in popularity earlier this … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-13T15:41:09.000Z",
+      "region": "海外",
+      "summary": "据报道，微软正在研究如何将OpenClaw风格的功能集成到其Copilot AI助手中。这项测试是微软努力使Microsoft 365 Copilot能够“全天候自主运行”并代表用户完成任务的一部分。微软企业副总裁奥马尔·沙欣证实，公司正在“探索像OpenClaw这样的技术在企业环境中的潜力”。",
+      "category": "技术与研究",
+      "company": "Microsoft",
+      "score": 40,
+      "breakdown": {
+        "substance": 12,
+        "importance": 10,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI将推出通用Super App与新模型Spud，让不会写代码者也能用AI工作",
+      "url": "https://www.infoq.cn/article/lAmhJxwuoPLvsKAF8WCV?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 13 Apr 2026 18:48:30 GMT",
+      "region": "国内",
+      "summary": "OpenAI正在开发一个名为“Super App”的通用人工智能应用，旨在让不会写代码的用户也能通过AI完成工作，其新模型Spud预计将在几周内推出。该公司指出，当前收入主要来自消费者订阅，但知识工作领域正成为新的增长机遇，企业为保持竞争力正积极采纳AI技术。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 31,
+      "breakdown": {
+        "substance": 5,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "微软正开发类似OpenClaw的新型企业级AI代理",
+      "url": "https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent/",
+      "snippet": "The new features would be geared toward enterprise customers, with better security controls than the famously risky open source OpenClaw agent.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 13 Apr 2026 19:05:19 +0000",
+      "region": "海外",
+      "summary": "微软正在开发一款面向企业客户的新型AI代理工具，其设计理念类似于开源的OpenClaw代理。与以高风险著称的OpenClaw相比，这款新产品将提供更完善的安全控制功能，以满足企业级客户对安全性的更高要求。",
+      "category": "技术与研究",
+      "company": "Microsoft",
+      "score": 30,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "扎克伯格被曝正打造AI替身以代替其参加会议",
+      "url": "https://www.theverge.com/tech/910990/meta-ceo-mark-zuckerberg-ai-clone",
+      "snippet": "Meta CEO Mark Zuckerberg could soon have an AI clone of himself to interact with and provide feedback to employees, according to a report from the Financial Times. Sources tell the outlet that Meta is training the AI avatar on Zuckerberg's image and voice, along with his mannerisms, tone, and public statements, \"so that employees might feel more connected to the founder through interactions with it.\" Meta may start allowing creators to make AI avatars of themselves if the experiment with Zuckerberg succeeds, according to the Financial Times. In 2024, Meta showed off a live demo of what an AI persona of a creator might look like. It also sta … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-13T13:40:03.000Z",
+      "region": "海外",
+      "summary": "据《金融时报》报道，Meta正在为CEO扎克伯格打造一个AI克隆替身，用于与员工互动并提供反馈。该AI化身正使用扎克伯格的图像、声音、举止、语气和公开声明进行训练，旨在让员工通过互动感觉与创始人更紧密相连。此外，扎克伯格本人每周会花5到10小时参与公司其他AI项目的编码和技术评审。",
+      "category": "技术与研究",
+      "company": "Meta",
+      "score": 22,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    },
+    {
+      "title": "研究揭示AI评判人类的隐藏逻辑",
+      "url": "https://techxplore.com/news/2026-04-revealing-hidden-logic-ai-judgments.html",
+      "snippet": "In a world where artificial intelligence is quietly shaping who gets hired, who receives loans, and even how medical decisions are made, a new question is emerging: How does AI judge us? A new study by Prof. Yaniv Dover and Valeria Lerman from Hebrew University suggests the answer is both reassuring and deeply unsettling. The study is published in the journal Proceedings of the Royal Society A Mathematical Physical and Engineering Science.",
+      "source": "Tech Xplore",
+      "publishedAt": "Mon, 13 Apr 2026 17:00:01 EDT",
+      "region": "海外",
+      "summary": "在人工智能日益介入招聘、贷款审批和医疗决策的背景下，耶路撒冷希伯来大学的Yaniv Dover教授和Valeria Lerman进行了一项研究，旨在揭示AI系统评判人类的内部逻辑。该研究发表于《皇家学会会刊A：数学、物理与工程科学》，其核心发现是：AI的评判逻辑同时具有令人安心和深感不安的双重特性。",
+      "category": "技术与研究",
+      "company": "无",
+      "score": 20,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "复旦“00后”团队破解养虾“不可能三角”：实现好用、好玩、安全",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-13-14",
+      "snippet": "2026 开年以来，OpenClaw 带来的 Agent 热度正以惊人的速度从科技圈向全行业扩散。会读文档、调工具、接工作流，那个曾经只存在于 Demo 里的数字员工，正在一步步走进真实业务。但真正的问题，也在这时浮出水面：时至今日我们都听说过龙虾的能力，可让人迟迟不敢放手的，是担忧太多：安装...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-13T19:20:00+08:00",
+      "region": "国内",
+      "summary": "2026 开年以来，OpenClaw 带来的 Agent 热度正以惊人的速度从科技圈向全行业扩散。会读文档、调工具、接工作流，那个曾经只存在于 Demo 里的数字员工，正在一步步走进真实业务。",
+      "category": "技术与研究",
+      "company": "复旦",
+      "score": 19,
+      "breakdown": {
+        "substance": 1,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "开发者直面AI编码工具的隐性代价：效率提升与技能衰退并存",
+      "url": "https://www.infoq.cn/article/bLageDSMAujcPRLriJi5?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 13 Apr 2026 16:59:11 GMT",
+      "region": "国内",
+      "summary": "AI编程工具为开发者带来了显著的效率提升，一些资深工程师表示其生产力达到了职业生涯其他时期的10倍甚至100倍，并重新激发了工作热情与项目重启的勇气。然而，过度依赖AI也引发了担忧，有软件工程师在连续数月使用后表示开始丧失编程能力，并警告将过多工作外包给AI可能带来巨大风险。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 19,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "神经科学研究：大脑如何指令手臂运动",
+      "url": "https://www.technologyreview.com/2026/04/13/1135162/uri-maoz-does-free-will-exist/",
+      "snippet": "Uri Maoz loved doing his human research, back when he was getting his PhD. He was studying a very specific topic in computational neuroscience: how the brain instructs our arms to move and how our gray matter in turn perceives that motion. Then his professor asked him to deliver an undergrad lecture. Maoz assumed his…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 13 Apr 2026 10:00:00 +0000",
+      "region": "海外",
+      "summary": "乌里·马奥兹在攻读博士学位期间，专注于计算神经科学中一个非常具体的课题：研究大脑如何指令我们的手臂运动，以及大脑灰质如何感知这些运动。他的教授曾要求他为本科生做一次讲座。",
+      "category": "技术与研究",
+      "company": "无",
+      "score": 19,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "OpenAI内部备忘录强调锁定用户以应对竞争",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic",
+      "snippet": "OpenAI released a report breaking down how people use ChatGPT and who they are. | Image: The Verge OpenAI's chief revenue officer, Denise Dresser, sent a four-page memo to employees on Sunday about the company's strategic direction, emphasizing the need to lock in users and grow its enterprise business. The memo, which was viewed by The Verge, repeatedly underlines the importance of building a moat around its AI products, to combat how easy it is for users to switch between whichever model is topping the charts on any given day or week. Dresser, who recently took over much of former COO Brad Lightcap's duties as he transitions to a new role focused on special projects, also emphasizes the importance of focusing on enterprise clients. It … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-13T16:21:08.000Z",
+      "region": "海外",
+      "summary": "OpenAI首席营收官丹尼斯·德雷瑟在内部备忘录中阐述了应对激烈竞争的具体战略。备忘录强调两大核心举措：一是围绕AI产品构建“护城河”，以应对用户在不同时期轻易切换使用排行榜领先模型的风险；二是重点发展企业客户业务，将其视为核心收入驱动力，避免分散精力于“支线任务”。德雷瑟还特别提及与竞争对手Anthropic的较量，指出其早期凭借代码能力获得优势，但批评对方在计算资源储备上存在“战略失误”。",
+      "category": "投融资与并购",
+      "company": "OpenAI",
+      "score": 21,
+      "breakdown": {
+        "substance": 3,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    },
+    {
+      "title": "Vercel CEO暗示IPO准备就绪，AI代理推动收入激增",
+      "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
+      "snippet": "While many startups founded prior to the emergence of ChatGPT are struggling to position themselves for the AI era, Vercel, a 10-year-old dev tool and website hosting platform, is benefiting from the explosion of AI-generated apps and agents.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 13 Apr 2026 15:22:29 +0000",
+      "region": "海外",
+      "summary": "在ChatGPT出现前成立的许多初创公司正艰难地适应AI时代，而成立十年的开发工具和网站托管平台Vercel却从AI生成应用和代理的爆发中受益。Vercel首席执行官Guillermo Rauch表示公司已为首次公开募股做好准备，AI代理的兴起正在推动其收入大幅增长。",
+      "category": "投融资与并购",
+      "company": "Vercel",
+      "score": 19,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "蒙大拿州设立新职位：草原灰熊管理员",
+      "url": "https://www.technologyreview.com/2026/04/13/1135156/job-titles-wildlife-first-responder-wesley-sarmento/",
+      "snippet": "Grizzly bears have made such a comeback across eastern Montana that in 2017, the state hired its first-ever prairie-based grizzly manager: wildlife biologist Wesley Sarmento. For some seven years, Sarmento worked to keep both the bears, which are still listed as threatened under the Endangered Species Act, and the humans, who are sprawling into once-wild…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 13 Apr 2026 10:00:00 +0000",
+      "region": "海外",
+      "summary": "蒙大拿州草原灰熊管理员韦斯利·萨门托在任约七年间，为应对人熊冲突，创新性地使用无人机进行管理。例如，2022年他利用带红外传感器的无人机，成功驱离了在城镇外粮仓觅食的灰熊母子，整个过程安全高效。此前，他常需长途驱车并携带霰弹枪等装备进行驱赶，在一次险些被熊袭击后，他转向寻求技术方案。",
+      "category": "政策与监管",
+      "company": "无",
+      "score": 19,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
