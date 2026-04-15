@@ -1,21 +1,21 @@
 {
-  "date": "2026/4/14",
+  "date": "2026/4/15",
   "edition": "daily",
   "editionLabel": "每日精选",
-  "title": "AI资讯每日精选-2026/4/14",
-  "generatedAt": "2026/4/14 16:22",
+  "title": "AI资讯每日精选-2026/4/15",
+  "generatedAt": "2026/4/15 08:02",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-04-13-daily.json",
-    "previousEditionFile": "news-2026-04-13-daily.json",
+    "previousDayFile": "news-2026-04-14-daily.json",
+    "previousEditionFile": "news-2026-04-14-daily.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
       "domesticBeforeDedup": 30,
-      "overseasBeforeDedup": 16,
+      "overseasBeforeDedup": 25,
       "domesticAfterDedup": 30,
-      "overseasAfterDedup": 16,
+      "overseasAfterDedup": 25,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -52,25 +52,25 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 4,
+          "count": 5,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 4,
+          "count": 7,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 4,
+          "count": 6,
           "error": null
         },
         {
@@ -82,7 +82,7 @@
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 3,
+          "count": 5,
           "error": null
         }
       ],
@@ -95,189 +95,189 @@
       }
     },
     "summarize": {
-      "totalSummarized": 46
+      "totalSummarized": 55
     },
     "scoring": {
-      "totalInput": 46,
+      "totalInput": 55,
       "totalScored": 31,
       "strictScoredCount": 21,
-      "relaxedCandidateCount": 9,
+      "relaxedCandidateCount": 8,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 14,
+      "weakSummaryCount": 9,
       "selectedCandidateCount": 31,
-      "duplicateCount": 5,
-      "crossDayDuplicateCount": 5,
-      "lowQualityCount": 5,
-      "domesticAvailable": 19,
-      "overseasAvailable": 12,
+      "duplicateCount": 11,
+      "crossDayDuplicateCount": 11,
+      "lowQualityCount": 6,
+      "domesticAvailable": 17,
+      "overseasAvailable": 14,
       "sourceCount": {
-        "机器之心": 5,
-        "36氪": 3,
-        "InfoQ": 4,
-        "量子位": 3,
+        "36氪": 4,
+        "机器之心": 4,
+        "InfoQ": 2,
+        "MIT Technology Review": 5,
         "The Verge AI": 4,
-        "TechCrunch AI": 3,
-        "雷锋网": 4,
-        "Wired AI": 1,
-        "MIT Technology Review": 2,
-        "Tech Xplore": 2
+        "量子位": 2,
+        "雷锋网": 5,
+        "TechCrunch AI": 2,
+        "Tech Xplore": 2,
+        "Wired AI": 1
       }
     },
     "display": {
       "refinedCount": 31,
-      "previousEditionRemovedCount": 1,
+      "previousEditionRemovedCount": 2,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
       "integrityRemovedCount": 2,
-      "postEditionFilterCount": 28,
-      "displayReadyCount": 20,
+      "postEditionFilterCount": 27,
+      "displayReadyCount": 21,
       "fallbackDisplayCount": 1,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 8,
+      "removedWeakSummaries": 6,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "斯坦福年度AI报告：中美大模型差距消失，AI临床有效性存疑",
-      "company": "斯坦福",
-      "url": "https://www.qbitai.com/2026/04/401094.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 14 Apr 2026 05:58:59 +0000",
-      "summary": "斯坦福大学发布的年度AI报告指出，中美两国在大模型技术领域已无明显差距。报告同时揭示了AI在临床应用中面临有效性不足的问题，一项覆盖500多项研究的综述显示，仅5%的研究基于真实临床数据，近半数研究依赖示例性问题。",
-      "score": 35
+      "title": "Chrome现允许将AI提示词转化为可重复使用的“技能”",
+      "company": "Google",
+      "url": "https://www.theverge.com/tech/911658/google-chrome-gemini-ai-skills-availability-launch",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-14T17:00:00.000Z",
+      "summary": "谷歌正在推出一项新的Chrome工作流功能，允许用户在多个网页上重复使用他们最喜欢的Gemini指令。现在，任何AI提示词都可以在Chrome桌面浏览器中保存为“技能”，让用户可以在选定的标签页中即时运行它们。",
+      "score": 29
     },
     {
       "section": "产品发布与更新",
-      "title": "“Vibe Coding”公司的护城河错觉：AI时代开发工具的脆弱性",
-      "company": "Lovable",
-      "url": "https://www.infoq.cn/article/F88ML5vdJkc4dkreyamI?utm_source=rss&utm_medium=article",
+      "title": "AI应用周榜：AI应用从单点能力转向完整工作流整合",
+      "company": "",
+      "url": "https://www.infoq.cn/article/G27veSK8ZHwhmNdHilNB?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Mon, 13 Apr 2026 18:03:01 GMT",
-      "summary": "文章分析了以Lovable为代表的“Vibe Coding”公司面临的竞争格局。首先，品牌与社群势能作为早期护城河在开发工具领域非常脆弱，用户忠诚度低，一旦其他平台提供更强或更便宜的能力，迁移会迅速发生。其次，企业侧的工作流嵌入可能通过集成、数据沉淀、合规安全和团队协作形成一定锁定效应。然而，“computer use”能力的引入进一步削弱了应用层工具的存在基础，AI可以直接操作现有软件，而非依赖平台生成新软件。",
+      "publishedAt": "Tue, 14 Apr 2026 20:37:39 GMT",
+      "summary": "本期AI应用周榜展示了多个AI工具如何通过整合完整工作流来解决实际问题。Zread.ai通过整合Discover、Trending等功能，降低了理解GitHub仓库的启动成本。PictureThis从植物识别延伸到护理和病虫害诊断，构建长期服务场景。",
       "score": 24
     },
     {
       "section": "产品发布与更新",
-      "title": "图速科技发布三款具身智能打磨新品，机器人打磨效率达人工3-4倍",
-      "company": "图速科技",
-      "url": "https://36kr.com/p/3765207394009602?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-13 20:07:37  +0800",
-      "summary": "作者丨欧雪 编辑丨袁斯来 在AI+制造 新时代到来的开局之年，工业打磨这一长期依赖人工经验的“隐形工序”，正在迎来技术拐点。 4月10日，图速自动化科技（上海）有限公司正式发布砺眸®LumiSander具身智能平台与图御™|RouteMind 2.0在线路径规划系统。",
-      "score": 47
-    },
-    {
-      "section": "技术与研究",
-      "title": "腾讯开源广告算法大赛成果及千万级数据集，推动推荐技术发展",
-      "company": "腾讯",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-14-5",
-      "source": "机器之心",
-      "publishedAt": "2026-04-14T15:00:00+08:00",
-      "summary": "腾讯广告技术团队近日宣布开源了2025年腾讯广告算法大赛的相关技术成果和数据集。此次开源内容包括学术论文、一个千万级别的全模态数据集以及官方的基线模型代码，旨在促进生成式推荐技术的发展。该算法大赛吸引了全球超过8400名技术人才参与，获奖选手来自北京大学、中国科学技术大学等高校。",
-      "score": 51
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI助力Dragonwell Native实现10倍性能提升机会的自动发现",
-      "company": "",
-      "url": "https://www.infoq.cn/article/L15t21Z0dk1HQmxuQDmK?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 14 Apr 2026 14:58:12 GMT",
-      "summary": "文章介绍了一项利用AI技术自动发现Dragonwell Native性能优化机会的实践。该实践通过分析代码中的特定数据结构与算法，识别出潜在的10倍性能提升机会。文中展示了一个用于UTF-8编码处理的字节数组示例，以及相关的辅助方法。这些技术细节旨在说明性能分析的具体切入点和方法。",
-      "score": 45
-    },
-    {
-      "section": "技术与研究",
-      "title": "中兴通讯定位AI时代基础设施商，发布系列新品完善产品版图",
-      "company": "中兴通讯",
-      "url": "https://www.qbitai.com/2026/04/401047.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 14 Apr 2026 04:31:03 +0000",
-      "summary": "海外科技巨头在AI领域的投资持续增长，预计2026年将达到6100亿美元。中兴通讯致力于成为AI时代的基础设施提供商，其战略布局涵盖多个层面。在核心能力层，公司通过自研芯片、适配优化主流GPU，并基于“开放解耦、兼容优选”的理念构建AI系统级全域芯片能力。",
-      "score": 42
-    },
-    {
-      "section": "投融资与并购",
-      "title": "OpenAI收购AI个人理财初创公司Hiro",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 14 Apr 2026 00:23:33 +0000",
-      "summary": "OpenAI收购了AI个人理财初创公司Hiro，旨在为ChatGPT增强财务规划能力。具体信息点包括：1. Hiro的核心技术是专门训练用于精准处理金融数学计算，并包含用户验证准确性的功能；2. 这是OpenAI收购的第二款金融类应用，此前已收购过其他金融工具；3. 此次收购可能意在吸引更多使用OpenClaw进行自动化股票交易的用户，因为Hiro创始人曾开发名为RoboBuffett的自动交易代理。",
-      "score": 28
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Vercel CEO暗示公司已做好IPO准备，AI智能体推动收入激增",
-      "company": "Vercel",
-      "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Mon, 13 Apr 2026 15:22:29 +0000",
-      "summary": "Vercel首席执行官Guillermo Rauch暗示公司已做好IPO准备。这家拥有十年历史的开发工具和网站托管平台正受益于AI生成应用和智能体的爆发式增长，而许多在ChatGPT出现前成立的初创公司则在努力适应AI时代。",
-      "score": 17
-    },
-    {
-      "section": "政策与监管",
-      "title": "男子因企图袭击奥特曼住所和OpenAI总部面临联邦指控",
-      "company": "OpenAI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/911423/openai-sam-altman-attack",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-14T00:02:38.000Z",
-      "summary": "丹尼尔·莫雷诺-加马因涉嫌从德克萨斯州前往加利福尼亚州意图杀害OpenAI首席执行官萨姆·奥特曼而面临联邦指控。4月10日，他在向奥特曼住所投掷燃烧瓶并试图闯入OpenAI总部后被逮捕。据检察官称，他在总部试图用椅子砸碎大楼的玻璃门，并声称要烧毁该地点并杀死里面的人。",
+      "title": "墨腾报告：东南亚电商平台成交额五年翻三倍，三大平台瓜分万亿市场",
+      "company": "墨腾",
+      "url": "https://www.leiphone.com/category/industrynews/MCXxlTXPUNBFwTkb.html",
+      "source": "雷锋网",
+      "publishedAt": "Tue, 14 Apr 2026 16:44:00 +0800",
+      "summary": "墨腾创投发布的《2026东南亚电商报告》显示，2025年东南亚平台电商总成交额超过一万亿人民币，同比增长22.8%，较2020年增长近三倍。Shopee、Lazada和TikTok Shop三家平台合计占据了98.8%的市场份额，行业呈现“三足鼎立”格局。",
       "score": 23
     },
     {
       "section": "技术与研究",
-      "title": "微软测试类OpenClaw AI机器人以增强Copilot功能",
-      "company": "Microsoft",
-      "url": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-13T15:41:09.000Z",
-      "summary": "据The Information报道，微软正在研究如何将OpenClaw风格的功能集成到其Copilot AI助手中。这项测试是微软努力使Microsoft 365 Copilot能够“全天候自主运行”并代表用户完成任务的一部分。",
-      "score": 38
-    },
-    {
-      "section": "技术与研究",
-      "title": "百度专家谈Coding Agent构建：飞轮效应、反馈循环与Agent工程师角色",
-      "company": "百度",
-      "url": "https://www.infoq.cn/article/ylG1DXoCyyBF65MTycHk?utm_source=rss&utm_medium=article",
+      "title": "Java生态近期动态：TornadoVM 4.0发布、Google ADK for Java 1.0推出及多项框架更新",
+      "company": "Google",
+      "url": "https://www.infoq.cn/article/AXhuGjl3AjN3fAyctSLV?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Tue, 14 Apr 2026 10:00:00 GMT",
-      "summary": "百度文心快码智能体负责人牛万鹏在QCon北京大会上分享了构建Coding Agent的飞轮理念，强调反馈循环、基准测试和Agent工程师的重要性。他提出应从单纯调整模型转向构建以工程闭环为核心的系统，注重Agent行为的可观测、可评测和可回滚设计。",
-      "score": 32
+      "publishedAt": "Tue, 14 Apr 2026 12:19:09 GMT",
+      "summary": "近期Java生态多个项目发布重要更新。Apache Tomcat发布了11.0.21、10.1.54与9.0.117版本，主要修复了NIO与TLS非阻塞刷新问题并优化了HTTP/2错误处理。Google推出了开源的Agent Development Kit for Java 1.0.0版本，修复了缺陷并优化了文档，提供了构建AgentExecutor实例等新特性。",
+      "score": 41
     },
     {
       "section": "技术与研究",
-      "title": "国内公司超越Generalist，迈向动作中心世界模型",
-      "company": "Generalist",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-14-7",
-      "source": "机器之心",
-      "publishedAt": "2026-04-14T15:23:00+08:00",
-      "summary": "具身智能领域近期因Generalist CEO发表的一篇题为《Going Beyond World Models & VLAs》的长文而引发关注。文章提出了一个核心观点，即目标比工具标签更为重要，并指出不应局限于讨论是在开发视觉-语言-动作模型还是世界模型。",
-      "score": 29
+      "title": "重新定义软件工程的未来",
+      "company": "无",
+      "url": "https://www.technologyreview.com/2026/04/14/1134397/redefining-the-future-of-software-engineering/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 14 Apr 2026 18:00:00 +0000",
+      "summary": "一项针对300名工程技术高管的调研报告显示，软件工程团队正迎来第三次重大变革：智能体AI的应用。目前，AI主要用于辅助编码、测试等限定任务，但智能体AI将使AI成为能自主推理、管理整个软件项目的实体，最终实现端到端的流程自动化。",
+      "score": 36
     },
     {
       "section": "技术与研究",
-      "title": "ICLR 2026 | BioMD：从结构快照到连续轨迹的蛋白-配体全原子动力学生成模型",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-14-4",
-      "source": "机器之心",
-      "publishedAt": "2026-04-14T12:00:00+08:00",
-      "summary": "作者 | 论文团队编辑丨ScienceAI从 AlphaFold2 到 AlphaFold3，结构预测模型解决了「算得准」的问题，Alphafold3 不仅能预测蛋白结构，还能准确建模蛋白质和药物配体相互作用。",
+      "title": "开发者声称已破解谷歌AI水印系统，谷歌予以否认",
+      "company": "Google",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/911579/google-synthid-ai-watermarking-system-reverse-engineered",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-14T13:53:53.000Z",
+      "summary": "一位名为Aloshdenny的软件开发者声称，他通过分析200张Gemini生成的图像和信号处理，成功对谷歌DeepMind的SynthID水印系统进行了逆向工程，能够移除或手动添加AI水印。该开发者已将相关代码开源，并称整个过程无需神经网络或专有访问权限。谷歌方面则否认了其系统已被破解的说法。",
+      "score": 33
+    },
+    {
+      "section": "投融资与并购",
+      "title": "明日新程完成连续两轮融资，专注群体多智能体赛道",
+      "company": "明日新程",
+      "url": "https://www.leiphone.com/category/industrynews/aiDP2A7dwvwQL6Ue.html",
+      "source": "雷锋网",
+      "publishedAt": "Mon, 13 Apr 2026 12:12:00 +0800",
+      "summary": "由微软小冰创始团队创立的人工智能公司“明日新程”已完成连续两轮融资，获得未来三到五年发展资金。其核心技术是基于群体智能的多智能体协同框架，旨在解决类似OpenClaw智能体处理24小时以上长程任务时的不足，并能降低50%以上的Token消耗。",
       "score": 28
     },
     {
-      "section": "技术与研究",
-      "title": "微软正开发另一款类似OpenClaw的智能体",
-      "company": "Microsoft",
-      "url": "https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent/",
+      "section": "投融资与并购",
+      "title": "蓝点触控完成超亿元C+轮融资，宁德时代、智元机器人等联合投资",
+      "company": "蓝点触控",
+      "url": "https://36kr.com/p/3766434507440903?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-14 17:09:33  +0800",
+      "summary": "蓝点触控（北京）科技有限公司近日宣布完成超亿元C+轮融资，投资方包括宁德时代旗下溥泉资本、智元机器人、银河通用等机构。该公司聚焦机器人力传感器，已搭建四大平台型技术，形成人形机器人专用力传感器、力控综合解决方案等多元化产品体系，其产品凭借高精度、高频响应等性能打破海外垄断，已获得智元、小米。",
+      "score": 27
+    },
+    {
+      "section": "政策与监管",
+      "title": "Anthropic联合创始人证实公司向特朗普政府通报Mythos项目",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/04/14/anthropic-co-founder-confirms-the-company-briefed-the-trump-administration-on-mythos/",
       "source": "TechCrunch AI",
-      "publishedAt": "Mon, 13 Apr 2026 19:05:19 +0000",
-      "summary": "微软正在开发一款新的AI智能体，其定位类似于开源项目OpenClaw。这款智能体的核心特征之一将是“持续工作”，能够随时执行操作，完成多步骤的长期任务，类似于一个始终在线的365 Copilot。",
+      "publishedAt": "Tue, 14 Apr 2026 18:09:12 +0000",
+      "summary": "Anthropic联合创始人杰克·克拉克在本周举行的Semafor世界经济峰会上接受采访时，解释了该公司为何在起诉美国政府的同时仍与其保持接触。他证实公司曾向特朗普政府通报了名为Mythos的项目。",
       "score": 26
+    },
+    {
+      "section": "技术与研究",
+      "title": "《明末》团队解散背后，国产单机发展现状与挑战",
+      "company": "灵泽科技",
+      "url": "https://36kr.com/p/3766718158324489?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-15 08:00:00  +0800",
+      "summary": "文章以国产单机游戏《明末：渊虚之羽》为例，指出其虽销量约200万套、销售额超5亿元，但因上线后的优化、定价及剧情问题，项目首年仅勉强回本，最终团队解散。文章进一步分析，当前国产单机面临的核心挑战是缺乏能让好产品持续存活的商业生态，而非制作能力不足。",
+      "score": 31
+    },
+    {
+      "section": "技术与研究",
+      "title": "数学的上帝粒子：一个运算符可导出所有基本函数",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-14-11",
+      "source": "机器之心",
+      "publishedAt": "2026-04-14T18:40:00+08:00",
+      "summary": "一项来自波兰雅盖隆大学的研究提出了一个革命性的数学发现。研究人员Andrzej Odrzywołek证明，仅使用一个简单的二元运算符和常数1，就能推导出现代科学计算器上的所有基本函数。这一突破被认为极大地简化了复杂的数学系统，在计算机科学领域引起了广泛关注。",
+      "score": 27
+    },
+    {
+      "section": "政策与监管",
+      "title": "针对奥特曼的袭击事件为AI世界敲响警钟",
+      "company": "OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/911778/ai-violence-sam-altman-home",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-14T18:04:42.000Z",
+      "summary": "一名20岁的袭击者被指控向OpenAI首席执行官萨姆·奥特曼的住所投掷燃烧瓶，据《旧金山纪事报》调查，该袭击者曾写下对AI竞赛可能导致人类灭绝的恐惧。两天后，奥特曼的住所似乎再次成为目标。",
+      "score": 23
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "EverOS全球公测开启Agent Memory自进化序章",
+      "company": "EverOS",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-14-10",
+      "source": "机器之心",
+      "publishedAt": "2026-04-14T17:36:00+08:00",
+      "summary": "随着OpenClaw、Hermes Agent等新一代主动执行型智能体的涌现，人工智能正从被动工具向具备自我演化能力的智能体转变。然而，现有智能体因受限于上下文窗口极限和记忆缺失问题，难以在复杂任务中实现经验复用与自我进化。在此背景下，EverOS全球公测开启了Agent Memory自进化的序章。",
+      "score": 22
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "华盛顿大学研发集成微型摄像头的无线耳机，用户可与AI实时讨论所见场景",
+      "company": "University of Washington",
+      "url": "https://techxplore.com/news/2026-04-tiny-cameras-earbuds-users-ai.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Tue, 14 Apr 2026 13:20:05 EDT",
+      "summary": "华盛顿大学的研究人员开发了一套系统，将微型摄像头集成到市售无线耳机中，使用户能够与AI模型讨论眼前的场景。例如，用户可以转向一个韩语食品包装说“嘿Vue，帮我翻译一下”，随后会听到AI语音告知“可见文字翻译成英文是‘冷面’”。该系统首次实现了通过耳机摄像头让用户与AI进行视觉场景的实时交互。",
+      "score": 22
     }
   ]
 }
