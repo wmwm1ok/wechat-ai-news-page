@@ -3,7 +3,7 @@
   "edition": "daily",
   "editionLabel": "每日精选",
   "title": "AI资讯每日精选-2026/4/15",
-  "generatedAt": "2026/4/15 08:02",
+  "generatedAt": "2026/4/15 16:23",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -13,9 +13,9 @@
     "candidateTargetCount": 31,
     "fetch": {
       "domesticBeforeDedup": 30,
-      "overseasBeforeDedup": 25,
+      "overseasBeforeDedup": 26,
       "domesticAfterDedup": 30,
-      "overseasAfterDedup": 25,
+      "overseasAfterDedup": 26,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -52,7 +52,7 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 5,
+          "count": 6,
           "error": null
         },
         {
@@ -95,69 +95,139 @@
       }
     },
     "summarize": {
-      "totalSummarized": 55
+      "totalSummarized": 56
     },
     "scoring": {
-      "totalInput": 55,
-      "totalScored": 31,
-      "strictScoredCount": 21,
-      "relaxedCandidateCount": 8,
+      "totalInput": 56,
+      "totalScored": 33,
+      "strictScoredCount": 26,
+      "relaxedCandidateCount": 7,
       "relaxedUsedForSelection": true,
       "weakSummaryCount": 9,
       "selectedCandidateCount": 31,
-      "duplicateCount": 11,
-      "crossDayDuplicateCount": 11,
-      "lowQualityCount": 6,
-      "domesticAvailable": 17,
+      "duplicateCount": 6,
+      "crossDayDuplicateCount": 6,
+      "lowQualityCount": 5,
+      "domesticAvailable": 19,
       "overseasAvailable": 14,
       "sourceCount": {
-        "36氪": 4,
-        "机器之心": 4,
-        "InfoQ": 2,
-        "MIT Technology Review": 5,
-        "The Verge AI": 4,
         "量子位": 2,
+        "机器之心": 3,
         "雷锋网": 5,
-        "TechCrunch AI": 2,
+        "InfoQ": 4,
+        "TechCrunch AI": 3,
+        "36氪": 4,
+        "The Verge AI": 4,
         "Tech Xplore": 2,
+        "MIT Technology Review": 3,
         "Wired AI": 1
       }
     },
     "display": {
       "refinedCount": 31,
-      "previousEditionRemovedCount": 2,
+      "previousEditionRemovedCount": 0,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 27,
-      "displayReadyCount": 21,
-      "fallbackDisplayCount": 1,
+      "integrityRemovedCount": 3,
+      "postEditionFilterCount": 28,
+      "displayReadyCount": 23,
+      "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 6,
+      "removedWeakSummaries": 5,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "Chrome现允许将AI提示词转化为可重复使用的“技能”",
+      "title": "Chrome上线Skills功能，技能一键复用提升效率",
       "company": "Google",
-      "url": "https://www.theverge.com/tech/911658/google-chrome-gemini-ai-skills-availability-launch",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-14T17:00:00.000Z",
-      "summary": "谷歌正在推出一项新的Chrome工作流功能，允许用户在多个网页上重复使用他们最喜欢的Gemini指令。现在，任何AI提示词都可以在Chrome桌面浏览器中保存为“技能”，让用户可以在选定的标签页中即时运行它们。",
-      "score": 29
+      "url": "https://www.qbitai.com/2026/04/401389.html",
+      "source": "量子位",
+      "publishedAt": "Wed, 15 Apr 2026 05:46:10 +0000",
+      "summary": "Google在Chrome浏览器中推出了名为Skills的新功能，允许用户保存和复用AI技能。该功能预置了50多个现成技能，涵盖食谱营养计算、护肤品成分分析、YouTube视频总结等场景，用户也可以自定义修改并保存技能以备下次使用。",
+      "score": 42
     },
     {
       "section": "产品发布与更新",
-      "title": "AI应用周榜：AI应用从单点能力转向完整工作流整合",
-      "company": "",
-      "url": "https://www.infoq.cn/article/G27veSK8ZHwhmNdHilNB?utm_source=rss&utm_medium=article",
+      "title": "阿里ATH发布AI开发工具Meoo，支持一键开发与部署",
+      "company": "阿里",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-15-12",
+      "source": "机器之心",
+      "publishedAt": "2026-04-15T14:44:00+08:00",
+      "summary": "4月15日，阿里巴巴ATH事业群发布了其首款AI开发工具Meoo（秒悟）。该工具集成了千问、Kimi、GLM、MiniMax四大模型，并内置了阿里云数据库、存储等核心服务。用户无需编程基础，只需用自然语言描述想法，Meoo最快可在1分钟内自动生成完整的前后端网站或H5页面，并部署至阿里云。",
+      "score": 34
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Anthropic推出Claude Mythos预览版，网络安全能力显著提升，仅限合作方访问",
+      "company": "Anthropic",
+      "url": "https://www.infoq.cn/article/0ERlUO96S3XjvTgekpru?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Tue, 14 Apr 2026 20:37:39 GMT",
-      "summary": "本期AI应用周榜展示了多个AI工具如何通过整合完整工作流来解决实际问题。Zread.ai通过整合Discover、Trending等功能，降低了理解GitHub仓库的启动成本。PictureThis从植物识别延伸到护理和病虫害诊断，构建长期服务场景。",
-      "score": 24
+      "publishedAt": "Wed, 15 Apr 2026 14:00:00 GMT",
+      "summary": "Anthropic推出了其迄今能力最强的Claude Mythos预览版模型，在网络安全领域实现了阶跃式提升。内部测试显示，该模型在挖掘和利用软件漏洞方面表现卓越，例如成功编写了针对Firefox漏洞的攻击代码，并自主发现了OpenBSD系统中存在27年以及FFmpeg中长达16年的漏洞。",
+      "score": 41
+    },
+    {
+      "section": "技术与研究",
+      "title": "阿里云连续五年位居中国游戏云市场份额第一",
+      "company": "阿里云",
+      "url": "https://www.leiphone.com/category/industrynews/KNYld92kIlzwpITf.html",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 15 Apr 2026 13:55:00 +0800",
+      "summary": "根据IDC发布的《中国游戏云市场跟踪，2025H2》报告，2025年下半年阿里云市场份额位列第一，并带动其全年份额持续上涨。在游戏云解决方案和基础设施两大细分市场，阿里云份额分别为42%和39%，均排名第一，其中解决方案市场以23%的增速领涨。",
+      "score": 35
+    },
+    {
+      "section": "技术与研究",
+      "title": "开发者声称已逆向工程谷歌AI水印系统",
+      "company": "Google",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/911579/google-synthid-ai-watermarking-system-reverse-engineered",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-14T13:53:53.000Z",
+      "summary": "一位名为Aloshdenny的软件开发者声称已逆向工程谷歌DeepMind的SynthID水印系统，并展示了如何从生成图像中移除AI水印或将其手动插入其他作品。该开发者已在GitHub上开源其工作，并称仅需200张Gemini生成的图像和信号处理即可实现。谷歌方面则表示该说法不属实。",
+      "score": 35
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI Agent决胜记忆系统：AICon深度专题前瞻",
+      "company": "",
+      "url": "https://www.infoq.cn/article/BFfOpHfuRzyMGE4ZL7lU?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 15 Apr 2026 11:11:49 GMT",
+      "summary": "AICon深度专题将聚焦AI Agent的长期记忆系统。演讲将公开OPPO的EverOS系统架构，其底层为EverMemOS。专题将详细解读MSA模型原理，解决海量记忆数据中召回精度与计算开销的平衡难题，并拆解独立于大模型的AI Memory系统技术架构。",
+      "score": 34
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Anthropic估值优势引发投资者对OpenAI的重新考量",
+      "company": "Anthropic, OpenAI",
+      "url": "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 15 Apr 2026 02:31:04 +0000",
+      "summary": "一位同时投资了Anthropic和OpenAI的投资者向《金融时报》表示，若要证明OpenAI近期融资轮次的合理性，需假设其IPO估值达到1.2万亿美元或更高。相比之下，Anthropic目前3800亿美元的估值显得相对划算。",
+      "score": 45
+    },
+    {
+      "section": "投融资与并购",
+      "title": "蓝点触控获宁德时代等超亿元C+轮投资，中国人形机器人六维力传感器市场占有率领先",
+      "company": "蓝点触控",
+      "url": "https://36kr.com/p/3766434507440903?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-14 17:09:33  +0800",
+      "summary": "蓝点触控近日完成超亿元C+轮融资，投资方包括宁德时代旗下资本及客户智元机器人、银河通用。该公司凭借高精度六维力传感器打破海外垄断，其产品已获智元、小米、小鹏等批量订单，在中国人形机器人该传感器市场占有率超60%。",
+      "score": 27
+    },
+    {
+      "section": "政策与监管",
+      "title": "Anthropic联合创始人解释为何在起诉政府的同时仍保持沟通",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/04/14/anthropic-co-founder-confirms-the-company-briefed-the-trump-administration-on-mythos/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 14 Apr 2026 18:09:12 +0000",
+      "summary": "Anthropic联合创始人杰克·克拉克在本周的Semafor世界经济峰会上接受采访时，解释了公司为何在起诉美国政府的同时，仍与其保持接触。他证实公司已向特朗普政府就Mythos项目进行了简报。",
+      "score": 22
     },
     {
       "section": "产品发布与更新",
@@ -166,118 +236,48 @@
       "url": "https://www.leiphone.com/category/industrynews/MCXxlTXPUNBFwTkb.html",
       "source": "雷锋网",
       "publishedAt": "Tue, 14 Apr 2026 16:44:00 +0800",
-      "summary": "墨腾创投发布的《2026东南亚电商报告》显示，2025年东南亚平台电商总成交额超过一万亿人民币，同比增长22.8%，较2020年增长近三倍。Shopee、Lazada和TikTok Shop三家平台合计占据了98.8%的市场份额，行业呈现“三足鼎立”格局。",
+      "summary": "墨腾创投发布的《2026东南亚电商报告》显示，2025年东南亚平台电商总成交额超过一万亿人民币，同比增长22.8%，较2020年增长近三倍。Shopee、Lazada和TikTok Shop三家平台合计占据了98.8%的市场份额，行业呈现稳固的“三足鼎立”格局。",
       "score": 23
     },
     {
-      "section": "技术与研究",
-      "title": "Java生态近期动态：TornadoVM 4.0发布、Google ADK for Java 1.0推出及多项框架更新",
+      "section": "产品发布与更新",
+      "title": "Chrome推出可重复使用的AI“技能”功能",
       "company": "Google",
-      "url": "https://www.infoq.cn/article/AXhuGjl3AjN3fAyctSLV?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 14 Apr 2026 12:19:09 GMT",
-      "summary": "近期Java生态多个项目发布重要更新。Apache Tomcat发布了11.0.21、10.1.54与9.0.117版本，主要修复了NIO与TLS非阻塞刷新问题并优化了HTTP/2错误处理。Google推出了开源的Agent Development Kit for Java 1.0.0版本，修复了缺陷并优化了文档，提供了构建AgentExecutor实例等新特性。",
-      "score": 41
+      "url": "https://www.theverge.com/tech/911658/google-chrome-gemini-ai-skills-availability-launch",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-14T17:00:00.000Z",
+      "summary": "谷歌在Chrome桌面浏览器中推出了一项名为“技能”的新工作流功能。该功能允许用户将任何AI提示保存为“技能”，并可在选定的多个网页标签页中即时重复运行。Chrome产品经理哈夫萨·伊斯梅尔表示，此前在不同页面重复执行AI任务需要重新输入相同提示，而新功能旨在简化这一过程。",
+      "score": 21
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "华盛顿大学研发集成微型摄像头的无线耳机，用户可与AI对话所见场景",
+      "company": "华盛顿大学",
+      "url": "https://techxplore.com/news/2026-04-tiny-cameras-earbuds-users-ai.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Tue, 14 Apr 2026 13:20:05 EDT",
+      "summary": "华盛顿大学的研究人员开发了首个将微型摄像头集成到市售无线耳机中的系统，允许用户与AI模型讨论眼前的场景。例如，用户可以转向一个韩语食品包装说‘嘿Vue，帮我翻译一下’，然后会听到AI语音说出‘可见文字翻译成英文是冷面’。",
+      "score": 20
     },
     {
       "section": "技术与研究",
       "title": "重新定义软件工程的未来",
-      "company": "无",
+      "company": "未提及",
       "url": "https://www.technologyreview.com/2026/04/14/1134397/redefining-the-future-of-software-engineering/",
       "source": "MIT Technology Review",
       "publishedAt": "Tue, 14 Apr 2026 18:00:00 +0000",
-      "summary": "一项针对300名工程技术高管的调研报告显示，软件工程团队正迎来第三次重大变革：智能体AI的应用。目前，AI主要用于辅助编码、测试等限定任务，但智能体AI将使AI成为能自主推理、管理整个软件项目的实体，最终实现端到端的流程自动化。",
-      "score": 36
+      "summary": "一项针对300名工程技术高管的调查显示，软件工程团队正开始应用智能体AI，但目前应用范围有限。当前AI主要用于辅助编码、测试等特定任务，而智能体AI能作为自主推理实体，管理整个软件项目，有望实现端到端的流程自动化。",
+      "score": 34
     },
     {
       "section": "技术与研究",
-      "title": "开发者声称已破解谷歌AI水印系统，谷歌予以否认",
-      "company": "Google",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/911579/google-synthid-ai-watermarking-system-reverse-engineered",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-14T13:53:53.000Z",
-      "summary": "一位名为Aloshdenny的软件开发者声称，他通过分析200张Gemini生成的图像和信号处理，成功对谷歌DeepMind的SynthID水印系统进行了逆向工程，能够移除或手动添加AI水印。该开发者已将相关代码开源，并称整个过程无需神经网络或专有访问权限。谷歌方面则否认了其系统已被破解的说法。",
-      "score": 33
-    },
-    {
-      "section": "投融资与并购",
-      "title": "明日新程完成连续两轮融资，专注群体多智能体赛道",
-      "company": "明日新程",
-      "url": "https://www.leiphone.com/category/industrynews/aiDP2A7dwvwQL6Ue.html",
-      "source": "雷锋网",
-      "publishedAt": "Mon, 13 Apr 2026 12:12:00 +0800",
-      "summary": "由微软小冰创始团队创立的人工智能公司“明日新程”已完成连续两轮融资，获得未来三到五年发展资金。其核心技术是基于群体智能的多智能体协同框架，旨在解决类似OpenClaw智能体处理24小时以上长程任务时的不足，并能降低50%以上的Token消耗。",
-      "score": 28
-    },
-    {
-      "section": "投融资与并购",
-      "title": "蓝点触控完成超亿元C+轮融资，宁德时代、智元机器人等联合投资",
-      "company": "蓝点触控",
-      "url": "https://36kr.com/p/3766434507440903?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-14 17:09:33  +0800",
-      "summary": "蓝点触控（北京）科技有限公司近日宣布完成超亿元C+轮融资，投资方包括宁德时代旗下溥泉资本、智元机器人、银河通用等机构。该公司聚焦机器人力传感器，已搭建四大平台型技术，形成人形机器人专用力传感器、力控综合解决方案等多元化产品体系，其产品凭借高精度、高频响应等性能打破海外垄断，已获得智元、小米。",
-      "score": 27
-    },
-    {
-      "section": "政策与监管",
-      "title": "Anthropic联合创始人证实公司向特朗普政府通报Mythos项目",
-      "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/04/14/anthropic-co-founder-confirms-the-company-briefed-the-trump-administration-on-mythos/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 14 Apr 2026 18:09:12 +0000",
-      "summary": "Anthropic联合创始人杰克·克拉克在本周举行的Semafor世界经济峰会上接受采访时，解释了该公司为何在起诉美国政府的同时仍与其保持接触。他证实公司曾向特朗普政府通报了名为Mythos的项目。",
-      "score": 26
-    },
-    {
-      "section": "技术与研究",
-      "title": "《明末》团队解散背后，国产单机发展现状与挑战",
-      "company": "灵泽科技",
-      "url": "https://36kr.com/p/3766718158324489?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-15 08:00:00  +0800",
-      "summary": "文章以国产单机游戏《明末：渊虚之羽》为例，指出其虽销量约200万套、销售额超5亿元，但因上线后的优化、定价及剧情问题，项目首年仅勉强回本，最终团队解散。文章进一步分析，当前国产单机面临的核心挑战是缺乏能让好产品持续存活的商业生态，而非制作能力不足。",
-      "score": 31
-    },
-    {
-      "section": "技术与研究",
-      "title": "数学的上帝粒子：一个运算符可导出所有基本函数",
+      "title": "教育部等五部门印发《“人工智能+教育”行动计划》通知",
       "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-14-11",
-      "source": "机器之心",
-      "publishedAt": "2026-04-14T18:40:00+08:00",
-      "summary": "一项来自波兰雅盖隆大学的研究提出了一个革命性的数学发现。研究人员Andrzej Odrzywołek证明，仅使用一个简单的二元运算符和常数1，就能推导出现代科学计算器上的所有基本函数。这一突破被认为极大地简化了复杂的数学系统，在计算机科学领域引起了广泛关注。",
-      "score": 27
-    },
-    {
-      "section": "政策与监管",
-      "title": "针对奥特曼的袭击事件为AI世界敲响警钟",
-      "company": "OpenAI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/911778/ai-violence-sam-altman-home",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-14T18:04:42.000Z",
-      "summary": "一名20岁的袭击者被指控向OpenAI首席执行官萨姆·奥特曼的住所投掷燃烧瓶，据《旧金山纪事报》调查，该袭击者曾写下对AI竞赛可能导致人类灭绝的恐惧。两天后，奥特曼的住所似乎再次成为目标。",
-      "score": 23
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "EverOS全球公测开启Agent Memory自进化序章",
-      "company": "EverOS",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-14-10",
-      "source": "机器之心",
-      "publishedAt": "2026-04-14T17:36:00+08:00",
-      "summary": "随着OpenClaw、Hermes Agent等新一代主动执行型智能体的涌现，人工智能正从被动工具向具备自我演化能力的智能体转变。然而，现有智能体因受限于上下文窗口极限和记忆缺失问题，难以在复杂任务中实现经验复用与自我进化。在此背景下，EverOS全球公测开启了Agent Memory自进化的序章。",
-      "score": 22
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "华盛顿大学研发集成微型摄像头的无线耳机，用户可与AI实时讨论所见场景",
-      "company": "University of Washington",
-      "url": "https://techxplore.com/news/2026-04-tiny-cameras-earbuds-users-ai.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Tue, 14 Apr 2026 13:20:05 EDT",
-      "summary": "华盛顿大学的研究人员开发了一套系统，将微型摄像头集成到市售无线耳机中，使用户能够与AI模型讨论眼前的场景。例如，用户可以转向一个韩语食品包装说“嘿Vue，帮我翻译一下”，随后会听到AI语音告知“可见文字翻译成英文是‘冷面’”。该系统首次实现了通过耳机摄像头让用户与AI进行视觉场景的实时交互。",
-      "score": 22
+      "url": "https://www.qbitai.com/2026/04/401190.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 14 Apr 2026 10:19:19 +0000",
+      "summary": "该行动计划旨在系统推进人工智能与教育的深度融合，核心举措包括培育共创共享的智能应用体系，如升级国家平台、建立大中小学协同机制、建设中试基地和开源社区。构筑集约高效的智能教育基座，包括建设国家智能算力服务平台、开发国家基础语料库和分阶段研发教育大模型。",
+      "score": 30
     }
   ]
 }
