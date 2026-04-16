@@ -1,0 +1,304 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "北电数智发布星火·AI云2.0，以AI系统工程重塑产城发展范式",
+      "url": "https://www.qbitai.com/2026/04/401484.html",
+      "snippet": "立足全球AI创新核心趋势，筑牢国芯AI发展根基",
+      "source": "量子位",
+      "publishedAt": "Wed, 15 Apr 2026 07:59:47 +0000",
+      "region": "国内",
+      "summary": "在酒仙桥论坛上，北电数智发布了新一代AI生产系统“星火·AI云2.0”。该系统以“前进·AIOS”和“新天·AgentOS”为核心，将数据、算力、模型与应用全链路一体化封装，旨在解决AI落地中“部署复杂、成本高、难以复制”三大难题，推动AI规模化生产。",
+      "category": "产品发布与更新",
+      "company": "北电数智",
+      "score": 38,
+      "breakdown": {
+        "substance": 15,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "谷歌为Mac推出原生Gemini应用",
+      "url": "https://techcrunch.com/2026/04/15/google-rolls-out-a-native-gemini-app-for-mac/",
+      "snippet": "You can share anything on their screen with Gemini to get help with what they're looking at in the moment, including local files.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 15 Apr 2026 18:22:13 +0000",
+      "region": "海外",
+      "summary": "谷歌正式为macOS 15及以上版本用户推出原生Gemini应用，用户可通过快捷键Option+Space随时呼出，无需切换窗口即可获得即时帮助。其核心功能是支持屏幕内容分享分析，例如用户查看复杂图表时可直接提问“这里三个最重要的结论是什么？”并获得总结。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 29,
+      "breakdown": {
+        "substance": 4,
+        "importance": 6,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "印度初创公司Emergent进军类OpenClaw的AI智能体领域",
+      "url": "https://techcrunch.com/2026/04/15/indias-vibe-coding-startup-emergent-enters-openclaw-like-ai-agent-space/",
+      "snippet": "Emergent's Wingman lets users manage and automate tasks through chat on platforms like WhatsApp and Telegram.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 15 Apr 2026 17:24:18 +0000",
+      "region": "海外",
+      "summary": "印度初创公司Emergent推出AI智能体产品Wingman，进军与OpenClaw类似的自动化任务领域。该产品有两大特点：一是直接嵌入WhatsApp、Telegram等常用聊天平台，用户无需学习新界面即可通过对话分配和监控任务；二是设置了“信任边界”机制，日常任务可自动执行，但重要操作需用户手动批准，以缓解对全自主系统的担忧。",
+      "category": "产品发布与更新",
+      "company": "Emergent",
+      "score": 27,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "网易智企发布企业级AI Agent管理平台",
+      "url": "https://www.infoq.cn/article/wSpS6icWMeyHS7jmYGbK?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 15 Apr 2026 16:56:11 GMT",
+      "region": "国内",
+      "summary": "网易智企发布了企业级AI Agent管理平台，该平台在安全架构上采用分层防护思路，借鉴了传统企业IT系统的安全模型并适配AI Agent自主决策的特性。平台关注AI Agent在企业中的经验沉淀价值，尝试将提示词、流程模板等转化为组织资产。",
+      "category": "产品发布与更新",
+      "company": "网易智企",
+      "score": 23,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI能评判新闻吗？获蒂尔支持的初创公司称可以，但被指可能压制举报人",
+      "url": "https://techcrunch.com/2026/04/15/can-ai-judge-journalism-a-thiel-backed-startup-says-yes-even-if-it-risks-chilling-whistleblowers/",
+      "snippet": "Objection, a Thiel-backed startup, aims to use AI to judge journalism, letting users pay to challenge stories. Critics warn it could chill whistleblowers and reshape how media accountability works.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 15 Apr 2026 18:33:20 +0000",
+      "region": "海外",
+      "summary": "由彼得·蒂尔支持的初创公司Objection推出AI平台，允许任何人支付2000美元对新闻报道发起挑战，平台将启动公开调查。其核心是建立“诚信指数”，通过AI算法为记者和报道打分，评分依据包括监管文件等一手记录，而匿名举报人信息等证据权重较低。",
+      "category": "产品发布与更新",
+      "company": "Objection",
+      "score": 20,
+      "breakdown": {
+        "substance": 1,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "实测生数科技Vidu Q3：AI驱动视频生成，登顶全球参考生榜单",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-15-10",
+      "snippet": "编辑｜+0话不多说，先来看一段短片。大家觉得效果如何？以上短片的视听内容几乎都由生数科技最新发布的视频大模型 Vidu Q3 生成。4 月 13 日，Vidu Q3 正式上线了「参考生视频」。值得注意的是，在全球首个参考生榜单 SuperClue 榜单上，Vidu Q3 断层登顶！多图/单图参...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-15T13:35:00+08:00",
+      "region": "国内",
+      "summary": "生数科技最新发布的视频大模型Vidu Q3于4月13日正式上线了“参考生视频”功能。该模型生成的短片视听内容几乎全部由AI完成，被形容为“AI驱动整个剧组”。在全球首个参考生榜单SuperClue榜单上，Vidu Q3取得了断层登顶的成绩。",
+      "category": "技术与研究",
+      "company": "生数科技",
+      "score": 33,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "2026具身智能数据赛道涌现黑马",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-15-14",
+      "snippet": "在大模型席卷虚拟世界后，具身智能正被广泛视为通往通用人工智能（AGI）的下一场关键跃迁。过程中面临的一大掣肘便是数据。相比于海量的文本数据，物理 AI 的有效交互数据量仅为前者的十万分之一。真机采集成本高企、标准混乱、孤岛林立，这些都已成为阻碍具身智能从实验室走向生产线的「核心卡点」。在这一背...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-15T15:20:00+08:00",
+      "region": "国内",
+      "summary": "在大模型主导虚拟世界后，具身智能被视为实现通用人工智能的关键下一步。然而，其发展面临数据短缺的严重制约，物理AI的有效交互数据量仅为文本数据的十万分之一。真机数据采集成本高昂、标准不统一以及数据孤岛问题，共同构成了阻碍具身智能从实验室走向实际应用的核心障碍。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 22,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "运动智能让三款不同机器人安全学习相同任务",
+      "url": "https://techxplore.com/news/2026-04-kinematic-intelligence-robots-task-safely.html",
+      "snippet": "In today's manufacturing environments, upgrading a robot fleet often means starting from scratch—not only replacing hardware, but also reprogramming tasks. Even when two robots are built to perform similar jobs, different joint arrangements or movement limits mean that a task programmed for one robot often can't be used on another. Enabling skills to transfer directly between robots could make these systems more sustainable and cost-efficient.",
+      "source": "Tech Xplore",
+      "publishedAt": "Wed, 15 Apr 2026 16:20:02 EDT",
+      "region": "海外",
+      "summary": "当前制造业升级机器人时，常需从零开始更换硬件和重编程序。不同机器人的关节配置或运动限制差异，导致为某一机器人编写的任务无法直接用于另一台。研究显示，若能实现技能在不同机器人间的直接迁移，将提升机器人系统的可持续性和成本效益。",
+      "category": "技术与研究",
+      "company": "Intel",
+      "score": 20,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "合成“镜像生命”是否会毁灭人类尚无定论",
+      "url": "https://www.technologyreview.com/2026/04/15/1135197/synthetic-mirror-life-microbes-kill-us-all/",
+      "snippet": "For four days in February 2019, some 30 synthetic biologists and ethicists hunkered down at a conference center in Northern Virginia to brainstorm high-risk, cutting-­edge, irresistibly exciting ideas that the National Science Foundation should fund. By the end of the meeting, they’d landed on a compelling contender: making “mirror” bacteria. Should they come to be,…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Wed, 15 Apr 2026 09:00:00 +0000",
+      "region": "海外",
+      "summary": "2019年2月，约30名合成生物学家和伦理学家在弗吉尼亚州北部的一个会议中心进行了为期四天的研讨，旨在为美国国家科学基金会构思高风险、前沿且极具吸引力的资助项目。会议最终确定了一个引人注目的候选方向：制造“镜像”细菌。",
+      "category": "技术与研究",
+      "company": "无",
+      "score": 19,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "OpenAI内部信质疑Claude营收虚高80亿美元，阐述企业AI平台战略",
+      "url": "https://www.qbitai.com/2026/04/401333.html",
+      "snippet": "Anthropic年化收入掺水80亿",
+      "source": "量子位",
+      "publishedAt": "Wed, 15 Apr 2026 03:22:09 +0000",
+      "region": "国内",
+      "summary": "一封据称来自OpenAI的内部信函对竞争对手Anthropic的Claude业务营收数据提出质疑，认为其年化营收因会计处理方式被高估了约80亿美元。该信函同时阐述了OpenAI对企业AI市场的看法，认为当前阶段客户更看重AI与工作流程的契合度、可部署性和可信赖性。",
+      "category": "投融资与并购",
+      "company": "OpenAI",
+      "score": 33,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Hightouch年经常性收入达1亿美元，AI营销工具成增长引擎",
+      "url": "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
+      "snippet": "The startup says it grew its ARR by $70 million in just 20 months after launching an AI agent platform for marketers.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 15 Apr 2026 18:55:12 +0000",
+      "region": "海外",
+      "summary": "初创公司Hightouch的年经常性收入已达到1亿美元。该公司表示，在推出面向营销人员的AI智能体平台后，其年经常性收入在短短20个月内增长了7000万美元。",
+      "category": "投融资与并购",
+      "company": "Hightouch",
+      "score": 33,
+      "breakdown": {
+        "substance": 14,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI学习应用Gizmo用户超1300万，获2200万美元A轮融资",
+      "url": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
+      "snippet": "Gizmo, an AI-powered learning platform, has attracted more than 13 million users and just secured $22 million in Series A funding.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 15 Apr 2026 18:38:10 +0000",
+      "region": "海外",
+      "summary": "AI学习应用Gizmo近日完成2200万美元A轮融资。该平台于2021年推出，核心功能是利用AI将学生笔记转化为互动学习材料，并通过游戏化机制（如排行榜、连续学习奖励、与朋友挑战）提升用户粘性。",
+      "category": "投融资与并购",
+      "company": "Gizmo",
+      "score": 28,
+      "breakdown": {
+        "substance": 14,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    },
+    {
+      "title": "初创公司Parasail融资3200万美元，押注“代币最大化”将催生下一个计算巨头",
+      "url": "https://techcrunch.com/2026/04/15/parasail-raises-32m-to-feed-tokenmaxxing-ai-developers/",
+      "snippet": "Parasail raised $32 million in a Series A, signaling a fractured future of models and compute.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 15 Apr 2026 13:00:00 +0000",
+      "region": "海外",
+      "summary": "初创公司Parasail在A轮融资中筹集了3200万美元。该公司认为“代币最大化”策略将催生下一个计算领域的巨头。此次融资也预示着未来模型和计算资源市场可能走向碎片化。",
+      "category": "投融资与并购",
+      "company": "Parasail",
+      "score": 24,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "Grok因性内容深度伪造险遭苹果应用商店下架",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/912297/apple-app-store-ban-grok-x-deepfakes",
+      "snippet": "Apple quietly threatened to kick Elon Musk's AI app, Grok, from its App Store in January over its failure to curb the surge of nonconsensual sexual deepfakes flooding X, according to NBC News. It was a muted show of force from one of tech's most powerful gatekeepers, made behind closed doors even as the undressing crisis unfolded in full public view and criticism over Apple's cowardice mounted. In a letter obtained by NBC News, Apple told US senators it \"contacted the teams behind both X and Grok after it received complaints and saw news coverage of the scandal\" and demanded that the developers \"create a plan to improve content moderation.\" … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-15T10:55:22.000Z",
+      "region": "海外",
+      "summary": "苹果公司曾因Grok应用未能有效遏制用户生成和分享非自愿性内容深度伪造（尤其是针对女性的“脱衣”图像，部分受害者疑似未成年人），而私下威胁将其从App Store下架。苹果在收到投诉后联系了X和Grok团队，要求其提交改进内容审核的计划。",
+      "category": "政策与监管",
+      "company": "Apple",
+      "score": 16,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
