@@ -3,7 +3,7 @@
   "edition": "daily",
   "editionLabel": "每日精选",
   "title": "AI资讯每日精选-2026/4/17",
-  "generatedAt": "2026/4/17 09:07",
+  "generatedAt": "2026/4/17 16:22",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -14,7 +14,7 @@
     "fetch": {
       "domesticBeforeDedup": 30,
       "overseasBeforeDedup": 22,
-      "domesticAfterDedup": 29,
+      "domesticAfterDedup": 30,
       "overseasAfterDedup": 22,
       "domesticSources": [
         {
@@ -95,50 +95,68 @@
       }
     },
     "summarize": {
-      "totalSummarized": 51
+      "totalSummarized": 52
     },
     "scoring": {
-      "totalInput": 51,
-      "totalScored": 31,
-      "strictScoredCount": 25,
-      "relaxedCandidateCount": 4,
+      "totalInput": 52,
+      "totalScored": 34,
+      "strictScoredCount": 27,
+      "relaxedCandidateCount": 7,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 9,
-      "selectedCandidateCount": 31,
-      "duplicateCount": 13,
-      "crossDayDuplicateCount": 10,
-      "lowQualityCount": 2,
-      "domesticAvailable": 17,
-      "overseasAvailable": 14,
+      "weakSummaryCount": 7,
+      "selectedCandidateCount": 29,
+      "duplicateCount": 4,
+      "crossDayDuplicateCount": 3,
+      "lowQualityCount": 3,
+      "domesticAvailable": 24,
+      "overseasAvailable": 10,
       "sourceCount": {
-        "36氪": 4,
+        "机器之心": 5,
         "量子位": 4,
-        "InfoQ": 2,
-        "TechCrunch AI": 4,
-        "雷锋网": 4,
-        "Ars Technica": 1,
-        "The Verge AI": 2,
-        "机器之心": 3,
-        "MIT Technology Review": 6,
-        "Tech Xplore": 1
+        "TechCrunch AI": 3,
+        "雷锋网": 5,
+        "36氪": 3,
+        "InfoQ": 3,
+        "The Verge AI": 1,
+        "MIT Technology Review": 5
       }
     },
     "display": {
-      "refinedCount": 31,
-      "previousEditionRemovedCount": 2,
+      "refinedCount": 29,
+      "previousEditionRemovedCount": 0,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
-      "integrityRemovedCount": 2,
-      "postEditionFilterCount": 27,
-      "displayReadyCount": 21,
+      "integrityRemovedCount": 3,
+      "postEditionFilterCount": 26,
+      "displayReadyCount": 22,
       "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 6,
+      "removedWeakSummaries": 4,
       "shortage": 0
     }
   },
   "articles": [
+    {
+      "section": "产品发布与更新",
+      "title": "DeepSeek更新代码库：引入Mega MoE与FP4 Indexer",
+      "company": "DeepSeek",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-17-8",
+      "source": "机器之心",
+      "publishedAt": "2026-04-17T11:28:00+08:00",
+      "summary": "DeepSeek近期更新了其DeepGEMM代码库，核心是引入了名为Mega MoE的新组件。此次更新并非发布新模型，而是对底层代码库的改进。根据现有信息，更新内容有限，但明确引入了Mega MoE这一具体组件，其具体功能与解决的问题，原文未提供详细信息。",
+      "score": 32
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "π0.7机器人模型发布，实现组合泛化能力",
+      "company": "Physical Intelligence",
+      "url": "https://www.qbitai.com/2026/04/402189.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 17 Apr 2026 06:57:35 +0000",
+      "summary": "机器人初创公司Physical Intelligence发布了其新的机器人模型π0.7。该模型采用了一种新的架构，其视觉语言模型骨干通过FAST token进行下一个token预测训练，并且动作专家的梯度不会回传到视觉语言模型，从而保护了从互联网学到的语义知识不被机器人动作数据污染。",
+      "score": 31
+    },
     {
       "section": "产品发布与更新",
       "title": "PPIO发布PPHermes：云端沙箱一键部署Hermes Agent",
@@ -147,87 +165,67 @@
       "source": "量子位",
       "publishedAt": "Thu, 16 Apr 2026 13:36:09 +0000",
       "summary": "PPIO于4月16日发布了PPHermes，这是首个专为国内用户设计的Hermes Agent云端沙箱部署方案。该方案基于PPIO自研的Agent沙箱运行Hermes，相比海外方案，其提供了专为Hermes设计的CLI工具链，支持一条命令完成启动、暂停与恢复，并内置了飞书集成。",
-      "score": 32
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "机器人初创公司Physical Intelligence发布新模型π0.7，向通用机器人大脑迈进",
-      "company": "Physical Intelligence",
-      "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 16 Apr 2026 20:26:44 +0000",
-      "summary": "机器人初创公司Physical Intelligence发布了名为π0.7的新模型。该公司表示，该模型代表了在实现通用机器人大脑这一长期目标上迈出的早期但有意义的一步。",
-      "score": 32
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Gemini现可利用Google Photos创建个性化AI图像",
-      "company": "Google",
-      "url": "https://arstechnica.com/ai/2026/04/gemini-can-now-create-personalized-ai-images-by-digging-around-in-google-photos/",
-      "source": "Ars Technica",
-      "publishedAt": "Thu, 16 Apr 2026 16:59:25 +0000",
-      "summary": "谷歌正在使其Gemini AI更容易利用用户的照片来生成更个性化的图像。这项功能允许用户将个人照片库中的内容输入到图像生成模型中。此举旨在提升AI图像生成的个性化和相关性。",
       "score": 30
     },
     {
       "section": "技术与研究",
-      "title": "机器人实现宁次「白眼」能力：实时3D重建技术取得突破",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/04/401743.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 16 Apr 2026 12:33:23 +0000",
-      "summary": "LingBot-Map模型采用64帧窗口设计，相比全历史帧缓存方案，推理速度从3.12FPS提升至19.95FPS，显存从36.06GB压缩至13.28GB，速度提升6倍且显存降低63%，同时精度更高。在超长视频序列测试中，模型在10000+帧内保持稳定重建质量，无轨迹漂移，刷新行业纪录。",
-      "score": 44
+      "title": "高德具身智能世界模型在两大国际评测中登顶",
+      "company": "高德",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-17-6",
+      "source": "机器之心",
+      "publishedAt": "2026-04-17T10:48:00+08:00",
+      "summary": "4月15日，高德Abot-world系列世界模型在Agibot World Challenge与World Arena两大国际权威评测中双双获得第一名。这一成就标志着中国在具身智能核心基础能力——世界模型构建方面实现了全面突破。",
+      "score": 38
     },
     {
       "section": "技术与研究",
-      "title": "Linux内核社区接纳AI生成代码报告，但强调人类开发者责任",
-      "company": "",
-      "url": "https://www.infoq.cn/article/h4WPj7MeydhFDpsOqyCl?utm_source=rss&utm_medium=article",
+      "title": "Anthropic首席产品官离开Figma董事会，此前报道称其将推出竞争产品",
+      "company": "Anthropic",
+      "url": "https://techcrunch.com/2026/04/16/anthropic-cpo-leaves-figmas-board-after-reports-he-will-offer-a-competing-product/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 16 Apr 2026 18:28:42 +0000",
+      "summary": "Anthropic首席产品官Krieger已离开Figma董事会。他的离职以及任何即将推出的设计工具，将为那些担心“SaaSpocalypse”（即大型AI实验室将主导软件业务）的投资者提供另一个参考点。这一观点在今年有时曾动摇公开市场。",
+      "score": 31
+    },
+    {
+      "section": "技术与研究",
+      "title": "Zendesk：生成式AI改变软件交付瓶颈，从代码编写转向组织吸收能力",
+      "company": "Zendesk",
+      "url": "https://www.infoq.cn/article/RBkkYQsT8Hd3hQTEYoAG?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Thu, 16 Apr 2026 16:42:05 GMT",
-      "summary": "Linux内核社区正面临AI生成代码报告数量与质量的变化。稳定内核维护者Greg Kroah-Hartman指出，社区早期主要处理的是质量低劣的“AI slop”报告，而如今开始收到更多真实有效的AI生成安全报告，这一现象已成为多个开源项目安全团队共同面临的新情况。",
-      "score": 34
-    },
-    {
-      "section": "技术与研究",
-      "title": "将企业AI视为一个运营层",
-      "company": "",
-      "url": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Thu, 16 Apr 2026 13:00:00 +0000",
-      "summary": "企业AI领域存在一条断层线，但并非公众最关注的那条。公众讨论仍集中在基础模型和基准测试上，例如GPT与Gemini的比较、推理分数和边际能力提升。但在实践中，更持久的优势是结构性的，即谁拥有应用、治理和改进智能的运营层。",
+      "publishedAt": "Fri, 17 Apr 2026 13:00:00 GMT",
+      "summary": "Zendesk提出，生成式AI正在改变软件交付的核心制约因素，从代码编写能力转变为组织的“吸收能力”。吸收能力是指组织清晰定义问题、将变更融入系统、验证功能正确性并将成果转化为稳定价值的能力。",
       "score": 28
     },
     {
       "section": "投融资与并购",
-      "title": "红杉资本筹集70亿美元新基金押注AI，游戏板块受世界模型发布提振",
-      "company": "红杉资本",
-      "url": "https://36kr.com/newsflashes/3770199017227013?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-17 08:44:46  +0800",
-      "summary": "红杉资本新募资70亿美元，将重点投资OpenAI、Anthropic等需要昂贵算力的AI初创公司。同时，受阿里巴巴、腾讯发布新世界模型消息提振，A股游戏板块在4月16日异动，完美世界一度涨停，收盘涨超7%。",
-      "score": 52
+      "title": "中国具身智能领域诞生最大单笔融资，金额达4.55亿美元",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/04/402388.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 17 Apr 2026 07:37:14 +0000",
+      "summary": "中国具身智能领域出现了一笔高达4.55亿美元的单笔融资，这是该领域目前已知的最大融资额。投资方包括高瓴和红杉资本，它们共同押注于“具身大脑”这一方向。文章同时提及，在要求高精度的应用场景中，人工远程操作产生的犹豫和抖动可能会成为训练数据中的干扰因素。",
+      "score": 41
     },
     {
       "section": "投融资与并购",
-      "title": "仿真初创公司Antioch获850万美元种子轮融资，旨在成为物理AI领域的Cursor",
-      "company": "Antioch",
-      "url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 16 Apr 2026 12:30:00 +0000",
-      "summary": "仿真初创公司Antioch完成了850万美元的种子轮融资。该公司希望成为物理AI领域的Cursor，其目标是为一新一代机器人构建者创建仿真工具。",
-      "score": 31
+      "title": "2026年最受关注企业评选启动，聚焦AI与硬科技商业化落地",
+      "company": "",
+      "url": "https://36kr.com/p/3768967684096521?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-16 14:26:14  +0800",
+      "summary": "一项评选2026年最受关注企业的活动已启动。评选聚焦于AI与硬科技领域，重点关注两类企业：一是能落地、交付并产生真实收入的AI公司，具体包括大模型、AI基础设施、具身智能、机器人及行业应用；二是商业模式清晰、数据增长亮眼的硬科技、智能制造等领域初创企业。评选标准严格，要求企业具备可验证的营收、可量化的技术壁垒以及可持续的增长，并已获得一线投资机构背书或在开启新一轮融资。",
+      "score": 26
     },
     {
       "section": "政策与监管",
-      "title": "为何在AI战争中“人类在环”是一种错觉",
-      "company": "Anthropic",
-      "url": "https://www.technologyreview.com/2026/04/16/1136029/humans-in-the-loop-ai-war-illusion/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Thu, 16 Apr 2026 12:00:00 +0000",
-      "summary": "AI在军事应用中的意图不透明问题正引发法律与伦理危机。Anthropic公司与五角大楼的诉讼核心在于：AI已从情报分析工具演变为实时生成攻击目标、控制导弹拦截、指挥无人机蜂群的“主动参与者”。",
-      "score": 24
+      "title": "OpenAI工程师经验“蒸馏”进skill：百万行代码系统实现零人工编码与审核",
+      "company": "OpenAI",
+      "url": "https://www.infoq.cn/article/xeXddcuzu78D7mC5wyBy?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 17 Apr 2026 16:01:16 GMT",
+      "summary": "OpenAI工程师分享了如何将人类经验转化为提示词，以构建能自主运作的百万行代码系统。具体方法包括：1. 将系统设计成让智能体更容易执行正确任务，而非持续人工监控；2. 通过分析智能体犯错环节和优化自动化流程，逐步建立对系统自主能力的信心；3. 最终实现了软件开发周期（SDLC）部分环节的完全自动化，减少了人工编码与审核的瓶颈。",
+      "score": 33
     },
     {
       "section": "产品发布与更新",
@@ -236,48 +234,48 @@
       "url": "https://www.theverge.com/tech/913109/google-ai-mode-tabs-sources",
       "source": "The Verge AI",
       "publishedAt": "2026-04-16T17:00:00.000Z",
-      "summary": "谷歌正在升级Chrome浏览器中的AI模式，新增一项功能允许用户在聊天界面旁并排打开来源链接，而无需自动开启新标签页。用户可以在查看网页内容的同时，就页面信息向AI提出后续问题。AI模式是谷歌搜索引擎左侧标签页内的类聊天机器人搜索功能，自去年推出以来已增加多项新功能。",
-      "score": 30
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "京东发布全球首个具身智能数据全链路基础设施",
-      "company": "京东",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-16-16",
-      "source": "机器之心",
-      "publishedAt": "2026-04-16T23:32:00+08:00",
-      "summary": "继宣布将建成全球最大具身数据采集中心后，京东在具身智能领域取得新进展。在4月16日的发布会上，京东宣布在全球范围内首次推出了覆盖“采、存、标、训、评、仿、测”全链路的具身智能数据基础设施。该基础设施包含了京东自研的超高清采集终端JoyEgoCam以及具身大模型JoyAI-RA等组成部分。",
+      "summary": "谷歌正在升级Chrome浏览器中的AI模式，新增一项功能，允许用户在聊天界面旁打开来源链接。现在，点击来源链接不会自动打开新标签页，而是会在AI模式旁边并排打开网站，方便用户就页面内容进行追问。AI模式是谷歌去年推出的、位于搜索引擎左侧标签页内的类聊天机器人搜索功能。",
       "score": 28
     },
     {
       "section": "产品发布与更新",
-      "title": "OpenAI更新其Agents SDK，帮助企业构建更安全、更强大的代理",
+      "title": "OpenAI更新其Agents SDK，以帮助企业构建更安全、更强大的代理",
       "company": "OpenAI",
       "url": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
       "source": "TechCrunch AI",
       "publishedAt": "Wed, 15 Apr 2026 19:28:36 +0000",
-      "summary": "OpenAI更新了其代理软件开发工具包（Agents SDK），核心变化是引入了全新的“in-distribution harness”功能。该功能允许企业在其工作空间内，部署和测试基于前沿大模型的AI代理，并让这些代理能够安全地处理文件和使用经批准的工具。",
-      "score": 28
+      "summary": "OpenAI更新了其代理软件开发工具包（Agents SDK），核心变化是新增了针对前沿模型的“分布式控制框架”，使企业能在受控工作空间内部署和测试基于最先进通用模型的AI代理。此次更新首先支持Python语言，未来将增加TypeScript支持，并计划引入代码模式和子代理等更多功能。",
+      "score": 26
     },
     {
       "section": "产品发布与更新",
-      "title": "AI迈入Harness时代：以MiniMax为样本看智能体云端新基建",
-      "company": "MiniMax",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-16-15",
+      "title": "科大讯飞发布企业级招采助手“招采Claw”，旨在简化复杂招采流程",
+      "company": "科大讯飞",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-17-5",
       "source": "机器之心",
-      "publishedAt": "2026-04-16T18:46:00+08:00",
-      "summary": "2026年初，随着OpenClaw的爆火，AI领域正式进入了Harness时代。在这股浪潮中，MiniMax凭借其敏锐的技术嗅觉，成为了这场变革中的核心焦点之一。该公司近期相继推出了云端AI助手MaxClaw，并全新发布了MaxHermes。",
-      "score": 26
+      "publishedAt": "2026-04-17T10:43:00+08:00",
+      "summary": "4月15日，科大讯飞在“眼前可见，未来无限”2026 AstronClaw升级发布会上，发布了包括企业级招采助手“招采Claw”在内的9项创新产品。该产品深度融合了全新升级的科大讯飞AstronClaw、SkillHub及招采知识库，旨在解决传统招标与采购场景中的痛点。",
+      "score": 23
     },
     {
       "section": "技术与研究",
-      "title": "在受限的公共部门环境中实现AI运营化",
+      "title": "进迭时空RISC-V AI CPU K3全球首款适配OpenHarmony 6.1",
+      "company": "进迭时空",
+      "url": "https://www.leiphone.com/category/chips/2VeR9uuIHQOur2mT.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 17 Apr 2026 11:07:00 +0800",
+      "summary": "进迭时空与中国科学院软件研究所合作，成功实现了RISC-V AI CPU芯片K3对OpenHarmony 6.1系统的运行支持，成为全球首款适配该版本的RISC-V架构芯片。",
+      "score": 28
+    },
+    {
+      "section": "技术与研究",
+      "title": "将企业AI视为一个运营层",
       "company": "",
-      "url": "https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/",
+      "url": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
       "source": "MIT Technology Review",
       "publishedAt": "Thu, 16 Apr 2026 13:00:00 +0000",
-      "summary": "AI热潮席卷各行各业，公共部门组织面临着加速采用的压力。与此同时，政府机构在安全、治理和运营方面面临着与企业不同的独特限制。因此，专门构建的小型语言模型为在这些环境中实现AI运营化提供了一条有前景的路径。",
-      "score": 26
+      "summary": "企业AI领域存在一条断层线，但并非公众最关注的那条。公众讨论仍然集中在基础模型和基准测试上，例如GPT与Gemini的比较、推理分数和边际能力提升。但在实践中，更持久的优势是结构性的：谁拥有应用、治理和改进智能的运营层。",
+      "score": 28
     }
   ]
 }
