@@ -1,21 +1,21 @@
 {
-  "date": "2026/4/16",
+  "date": "2026/4/17",
   "edition": "daily",
   "editionLabel": "每日精选",
-  "title": "AI资讯每日精选-2026/4/16",
-  "generatedAt": "2026/4/16 16:23",
+  "title": "AI资讯每日精选-2026/4/17",
+  "generatedAt": "2026/4/17 09:07",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-04-15-daily.json",
-    "previousEditionFile": "news-2026-04-15-daily.json",
+    "previousDayFile": "news-2026-04-16-daily.json",
+    "previousEditionFile": "news-2026-04-16-daily.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 29,
-      "overseasBeforeDedup": 27,
-      "domesticAfterDedup": 28,
-      "overseasAfterDedup": 27,
+      "domesticBeforeDedup": 30,
+      "overseasBeforeDedup": 22,
+      "domesticAfterDedup": 29,
+      "overseasAfterDedup": 22,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -26,7 +26,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 5,
+          "count": 6,
           "error": null
         },
         {
@@ -52,13 +52,13 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 10,
+          "count": 6,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 5,
+          "count": 6,
           "error": null
         },
         {
@@ -76,13 +76,13 @@
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 6,
+          "count": 3,
           "error": null
         }
       ],
@@ -95,188 +95,189 @@
       }
     },
     "summarize": {
-      "totalSummarized": 55
+      "totalSummarized": 51
     },
     "scoring": {
-      "totalInput": 55,
-      "totalScored": 36,
-      "strictScoredCount": 27,
-      "relaxedCandidateCount": 9,
+      "totalInput": 51,
+      "totalScored": 31,
+      "strictScoredCount": 25,
+      "relaxedCandidateCount": 4,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 12,
+      "weakSummaryCount": 9,
       "selectedCandidateCount": 31,
-      "duplicateCount": 10,
-      "crossDayDuplicateCount": 8,
-      "lowQualityCount": 3,
-      "domesticAvailable": 24,
-      "overseasAvailable": 12,
+      "duplicateCount": 13,
+      "crossDayDuplicateCount": 10,
+      "lowQualityCount": 2,
+      "domesticAvailable": 17,
+      "overseasAvailable": 14,
       "sourceCount": {
-        "TechCrunch AI": 5,
         "36氪": 4,
-        "机器之心": 5,
-        "InfoQ": 5,
         "量子位": 4,
-        "雷锋网": 3,
-        "MIT Technology Review": 2,
-        "The Verge AI": 1,
-        "Tech Xplore": 2
+        "InfoQ": 2,
+        "TechCrunch AI": 4,
+        "雷锋网": 4,
+        "Ars Technica": 1,
+        "The Verge AI": 2,
+        "机器之心": 3,
+        "MIT Technology Review": 6,
+        "Tech Xplore": 1
       }
     },
     "display": {
       "refinedCount": 31,
-      "previousEditionRemovedCount": 0,
+      "previousEditionRemovedCount": 2,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
-      "integrityRemovedCount": 1,
-      "postEditionFilterCount": 30,
-      "displayReadyCount": 23,
+      "integrityRemovedCount": 2,
+      "postEditionFilterCount": 27,
+      "displayReadyCount": 21,
       "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 7,
+      "removedWeakSummaries": 6,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "谷歌为Mac推出原生Gemini应用",
+      "title": "PPIO发布PPHermes：云端沙箱一键部署Hermes Agent",
+      "company": "PPIO",
+      "url": "https://www.qbitai.com/2026/04/402085.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 16 Apr 2026 13:36:09 +0000",
+      "summary": "PPIO于4月16日发布了PPHermes，这是首个专为国内用户设计的Hermes Agent云端沙箱部署方案。该方案基于PPIO自研的Agent沙箱运行Hermes，相比海外方案，其提供了专为Hermes设计的CLI工具链，支持一条命令完成启动、暂停与恢复，并内置了飞书集成。",
+      "score": 32
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "机器人初创公司Physical Intelligence发布新模型π0.7，向通用机器人大脑迈进",
+      "company": "Physical Intelligence",
+      "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 16 Apr 2026 20:26:44 +0000",
+      "summary": "机器人初创公司Physical Intelligence发布了名为π0.7的新模型。该公司表示，该模型代表了在实现通用机器人大脑这一长期目标上迈出的早期但有意义的一步。",
+      "score": 32
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Gemini现可利用Google Photos创建个性化AI图像",
       "company": "Google",
-      "url": "https://techcrunch.com/2026/04/15/google-rolls-out-a-native-gemini-app-for-mac/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 15 Apr 2026 18:22:13 +0000",
-      "summary": "谷歌正式为macOS 15及以上版本用户推出原生Gemini应用，以追赶已推出Mac应用许久的OpenAI等竞争对手。该应用的核心功能包括：用户可通过快捷键Option+Space随时呼出Gemini，无需切换标签页即可快速获取帮助。",
-      "score": 27
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "印度初创公司Emergent进军类OpenClaw的AI智能体领域",
-      "company": "Emergent",
-      "url": "https://techcrunch.com/2026/04/15/indias-vibe-coding-startup-emergent-enters-openclaw-like-ai-agent-space/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 15 Apr 2026 17:24:18 +0000",
-      "summary": "印度初创公司Emergent推出AI智能体产品Wingman，进军与OpenClaw类似的自动化任务领域。该产品有两大特点：一是直接嵌入WhatsApp、Telegram等常用聊天平台，用户无需学习新界面即可通过对话分配和监控任务；二是设置了“信任边界”机制，可自主处理日常任务（如邮件、日历管理），但涉及重要操作时会主动请求用户批准，以缓解对全自主系统的担忧。",
-      "score": 25
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "度小满发布DXMClawPay，为Skill开发者提供一站式支付接入方案",
-      "company": "度小满",
-      "url": "https://www.leiphone.com/category/industrynews/XXZhoGv51Dx87D99.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 15 Apr 2026 11:29:00 +0800",
-      "summary": "度小满发布一站式支付接入方案DXMClawPay，旨在解决AI Skill开发者商业化时面临的两大技术痛点：一是无需自行编写下单逻辑和对接支付接口，实现零代码嵌入支付模块；二是原生适配微信支付、支付宝，用户可直接使用日常支付习惯购买服务。该方案将计费引擎、订单管理等内置平台层，开发者仅需配置服务信息即可上架，且入驻免费、不收取平台服务费，同时依托金融级技术架构保障交易安全与合规追溯。",
-      "score": 19
+      "url": "https://arstechnica.com/ai/2026/04/gemini-can-now-create-personalized-ai-images-by-digging-around-in-google-photos/",
+      "source": "Ars Technica",
+      "publishedAt": "Thu, 16 Apr 2026 16:59:25 +0000",
+      "summary": "谷歌正在使其Gemini AI更容易利用用户的照片来生成更个性化的图像。这项功能允许用户将个人照片库中的内容输入到图像生成模型中。此举旨在提升AI图像生成的个性化和相关性。",
+      "score": 30
     },
     {
       "section": "技术与研究",
-      "title": "腾讯开源混元3D世界模型2.0，支持文字生成3D世界并兼容游戏引擎",
-      "company": "腾讯",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-16-9",
-      "source": "机器之心",
-      "publishedAt": "2026-04-16T15:48:00+08:00",
-      "summary": "4月16日，腾讯正式发布并开源了混元3D世界模型2.0。该模型是一个多模态世界模型，能够理解文字、图片、视频等多种类型的输入，并自动生成、重建和模拟3D世界。它支持将生成的3D内容以多种格式导出，包括网格、3D高斯和点云等，并能与现有的游戏工作流程实现无缝对接。",
+      "title": "机器人实现宁次「白眼」能力：实时3D重建技术取得突破",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/04/401743.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 16 Apr 2026 12:33:23 +0000",
+      "summary": "LingBot-Map模型采用64帧窗口设计，相比全历史帧缓存方案，推理速度从3.12FPS提升至19.95FPS，显存从36.06GB压缩至13.28GB，速度提升6倍且显存降低63%，同时精度更高。在超长视频序列测试中，模型在10000+帧内保持稳定重建质量，无轨迹漂移，刷新行业纪录。",
       "score": 44
     },
     {
       "section": "技术与研究",
-      "title": "蚂蚁灵波开源LingBot-Map：仅需RGB摄像头实现机器人环境理解",
-      "company": "蚂蚁灵波",
-      "url": "https://www.infoq.cn/article/d2ODNNUg38yOQZyuUwUY?utm_source=rss&utm_medium=article",
+      "title": "Linux内核社区接纳AI生成代码报告，但强调人类开发者责任",
+      "company": "",
+      "url": "https://www.infoq.cn/article/h4WPj7MeydhFDpsOqyCl?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Thu, 16 Apr 2026 15:07:07 GMT",
-      "summary": "蚂蚁灵波开源了实时空间理解与在线三维建图模型LingBot-Map，其核心创新是几何上下文注意力机制，能有效组织跨帧几何信息，在保留关键历史数据的同时减少冗余计算。该模型借鉴了经典SLAM系统的分层管理思路，但通过模型统一学习替代了手工设计和复杂优化，从而在长序列场景下兼顾重建质量。",
-      "score": 43
+      "publishedAt": "Thu, 16 Apr 2026 16:42:05 GMT",
+      "summary": "Linux内核社区正面临AI生成代码报告数量与质量的变化。稳定内核维护者Greg Kroah-Hartman指出，社区早期主要处理的是质量低劣的“AI slop”报告，而如今开始收到更多真实有效的AI生成安全报告，这一现象已成为多个开源项目安全团队共同面临的新情况。",
+      "score": 34
     },
     {
       "section": "技术与研究",
-      "title": "Airbnb将高吞吐指标采集管道迁移至OpenTelemetry",
-      "company": "Airbnb",
-      "url": "https://www.infoq.cn/article/PegogtX4txhVdQmex0Og?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 16 Apr 2026 12:00:00 GMT",
-      "summary": "Airbnb将原有的专有监控系统迁移至基于OpenTelemetry的开源方案，新系统每秒可处理超1亿条指标。迁移解决了两个关键问题：一是通过切换为增量时间序列模式，缓解了高基数服务的内存压力；二是在vmagent中实现“零值注入”机制，修正了Prometheus计数器语义差异导致的查询结果偏低问题。此举使JVM服务的指标处理CPU占用从10%降至1%以下，并消除了UDP丢包风险。",
-      "score": 43
+      "title": "将企业AI视为一个运营层",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 16 Apr 2026 13:00:00 +0000",
+      "summary": "企业AI领域存在一条断层线，但并非公众最关注的那条。公众讨论仍集中在基础模型和基准测试上，例如GPT与Gemini的比较、推理分数和边际能力提升。但在实践中，更持久的优势是结构性的，即谁拥有应用、治理和改进智能的运营层。",
+      "score": 28
     },
     {
       "section": "投融资与并购",
-      "title": "它石智航完成4.55亿美元Pre-A轮融资，创中国具身智能领域纪录",
-      "company": "它石智航",
-      "url": "https://www.qbitai.com/2026/04/401714.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 16 Apr 2026 07:38:42 +0000",
-      "summary": "它石智航完成了4.55亿美元的Pre-A轮融资，刷新了中国具身智能领域最大单轮融资纪录。本轮融资由高瓴、红杉和美团联合领投，北京机器人产业发展投资基金和上海国投先导等国有资本也首次联合投资具身智能公司。投资方表示看好团队在具身大模型等前沿技术上的前瞻性判断和工程化落地能力，公司CEO则提及在全栈AI布局和通用具身大模型AWE3.0等方面取得技术突破。融资将用于加速打造通用具身大模型和吸引人才。",
-      "score": 53
+      "title": "红杉资本筹集70亿美元新基金押注AI，游戏板块受世界模型发布提振",
+      "company": "红杉资本",
+      "url": "https://36kr.com/newsflashes/3770199017227013?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-17 08:44:46  +0800",
+      "summary": "红杉资本新募资70亿美元，将重点投资OpenAI、Anthropic等需要昂贵算力的AI初创公司。同时，受阿里巴巴、腾讯发布新世界模型消息提振，A股游戏板块在4月16日异动，完美世界一度涨停，收盘涨超7%。",
+      "score": 52
     },
     {
       "section": "投融资与并购",
-      "title": "Hightouch年经常性收入达1亿美元，AI营销工具成增长引擎",
-      "company": "Hightouch",
-      "url": "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
+      "title": "仿真初创公司Antioch获850万美元种子轮融资，旨在成为物理AI领域的Cursor",
+      "company": "Antioch",
+      "url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/",
       "source": "TechCrunch AI",
-      "publishedAt": "Wed, 15 Apr 2026 18:55:12 +0000",
-      "summary": "初创公司Hightouch的年经常性收入已达到1亿美元。该公司表示，在推出面向营销人员的AI智能体平台后，其年经常性收入在短短20个月内增长了7000万美元。",
+      "publishedAt": "Thu, 16 Apr 2026 12:30:00 +0000",
+      "summary": "仿真初创公司Antioch完成了850万美元的种子轮融资。该公司希望成为物理AI领域的Cursor，其目标是为一新一代机器人构建者创建仿真工具。",
       "score": 31
     },
     {
       "section": "政策与监管",
-      "title": "Claude推行强制实名认证：部分功能需提交证件和自拍",
+      "title": "为何在AI战争中“人类在环”是一种错觉",
       "company": "Anthropic",
-      "url": "https://www.infoq.cn/article/dDG9KpwHWj9ufYENNgVP?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 16 Apr 2026 16:01:49 GMT",
-      "summary": "Anthropic公司宣布，部分用户在使用Claude的某些功能前需要完成身份验证，流程包括出示原始证件和完成实时自拍，整个过程大约需要五分钟。该公司表示，此举是为了负责任地使用强大技术，了解工具使用者身份，以防止滥用、执行使用政策并履行法律义务。",
-      "score": 36
+      "url": "https://www.technologyreview.com/2026/04/16/1136029/humans-in-the-loop-ai-war-illusion/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 16 Apr 2026 12:00:00 +0000",
+      "summary": "AI在军事应用中的意图不透明问题正引发法律与伦理危机。Anthropic公司与五角大楼的诉讼核心在于：AI已从情报分析工具演变为实时生成攻击目标、控制导弹拦截、指挥无人机蜂群的“主动参与者”。",
+      "score": 24
     },
     {
-      "section": "技术与研究",
-      "title": "蚂蚁灵波开源模型打破流式3D重建实时性纪录",
-      "company": "蚂蚁灵波",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-16-6",
+      "section": "产品发布与更新",
+      "title": "谷歌AI模式更新：无需离开页面即可打开链接",
+      "company": "Google",
+      "url": "https://www.theverge.com/tech/913109/google-ai-mode-tabs-sources",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-16T17:00:00.000Z",
+      "summary": "谷歌正在升级Chrome浏览器中的AI模式，新增一项功能允许用户在聊天界面旁并排打开来源链接，而无需自动开启新标签页。用户可以在查看网页内容的同时，就页面信息向AI提出后续问题。AI模式是谷歌搜索引擎左侧标签页内的类聊天机器人搜索功能，自去年推出以来已增加多项新功能。",
+      "score": 30
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "京东发布全球首个具身智能数据全链路基础设施",
+      "company": "京东",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-16-16",
       "source": "机器之心",
-      "publishedAt": "2026-04-16T13:10:00+08:00",
-      "summary": "蚂蚁灵波在今年1月开源了四款大模型，包括高精度空间感知模型LingBot-Depth、具身大模型LingBot-VLA与具身世界模型LingBot-VA，以及世界模型LingBot-World。",
-      "score": 41
+      "publishedAt": "2026-04-16T23:32:00+08:00",
+      "summary": "继宣布将建成全球最大具身数据采集中心后，京东在具身智能领域取得新进展。在4月16日的发布会上，京东宣布在全球范围内首次推出了覆盖“采、存、标、训、评、仿、测”全链路的具身智能数据基础设施。该基础设施包含了京东自研的超高清采集终端JoyEgoCam以及具身大模型JoyAI-RA等组成部分。",
+      "score": 28
     },
     {
-      "section": "技术与研究",
-      "title": "高德具身智能模型在多项国际评测中登顶",
-      "company": "高德",
-      "url": "https://www.qbitai.com/2026/04/401649.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 16 Apr 2026 03:45:58 +0000",
-      "summary": "高德在具身智能领域取得显著进展，其Abot-world系列世界模型在Agibot World Challenge与World Arena两大国际权威评测中双双登顶，超越了Google、NVIDIA及国内头部团队。",
-      "score": 39
+      "section": "产品发布与更新",
+      "title": "OpenAI更新其Agents SDK，帮助企业构建更安全、更强大的代理",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 15 Apr 2026 19:28:36 +0000",
+      "summary": "OpenAI更新了其代理软件开发工具包（Agents SDK），核心变化是引入了全新的“in-distribution harness”功能。该功能允许企业在其工作空间内，部署和测试基于前沿大模型的AI代理，并让这些代理能够安全地处理文件和使用经批准的工具。",
+      "score": 28
     },
     {
-      "section": "技术与研究",
-      "title": "具身智能落地难题与解决方案探讨沙龙即将举办",
-      "company": "蚂蚁灵波",
-      "url": "https://www.qbitai.com/2026/04/401541.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 16 Apr 2026 02:41:44 +0000",
-      "summary": "蚂蚁灵波今年1月发布了LingBot-VLA通用基座模型，该模型在真机与仿真测评中超越国际基准，并已适配多家本体厂商，应用于工业、物流、医药等场景。然而，具身智能从演示走向稳定运行仍面临技术路线未统一、高质量数据稀缺、小模型难以迁移等挑战。",
-      "score": 33
-    },
-    {
-      "section": "技术与研究",
-      "title": "Anthropic论文探讨大语言模型内部类情绪机制对行为的影响",
-      "company": "Anthropic",
-      "url": "https://www.infoq.cn/article/3z0Q6dZ0YO4dzN9Qwmf8?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 16 Apr 2026 15:00:00 GMT",
-      "summary": "Anthropic公司发表了一篇论文，研究大型语言模型内部如何表征与情感相关的概念，以及这些表征如何影响模型行为。该研究是公司可解释性研究的一部分，重点分析了Claude Sonnet 4.5模型的内部激活机制。",
-      "score": 29
-    },
-    {
-      "section": "技术与研究",
-      "title": "脸谱心智陆弘远团队ACL 2026新研究：模型更偏好“大白话”而非“高级词”",
-      "company": "脸谱心智",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-16-10",
+      "section": "产品发布与更新",
+      "title": "AI迈入Harness时代：以MiniMax为样本看智能体云端新基建",
+      "company": "MiniMax",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-16-15",
       "source": "机器之心",
-      "publishedAt": "2026-04-16T16:21:00+08:00",
-      "summary": "香港中文大学AI博士、脸谱心智CEO陆弘远（Hongyuan Adam Lu）的研究团队在ACL 2026上发表新研究，揭示了大型语言模型在预训练中的一个关键偏好：模型更倾向于学习和使用“大白话”式的通俗表达，而非复杂或生僻的“高级词汇”。该研究聚焦于LLM预训练、世界模型及端侧模型训练等方向。",
-      "score": 23
+      "publishedAt": "2026-04-16T18:46:00+08:00",
+      "summary": "2026年初，随着OpenClaw的爆火，AI领域正式进入了Harness时代。在这股浪潮中，MiniMax凭借其敏锐的技术嗅觉，成为了这场变革中的核心焦点之一。该公司近期相继推出了云端AI助手MaxClaw，并全新发布了MaxHermes。",
+      "score": 26
+    },
+    {
+      "section": "技术与研究",
+      "title": "在受限的公共部门环境中实现AI运营化",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 16 Apr 2026 13:00:00 +0000",
+      "summary": "AI热潮席卷各行各业，公共部门组织面临着加速采用的压力。与此同时，政府机构在安全、治理和运营方面面临着与企业不同的独特限制。因此，专门构建的小型语言模型为在这些环境中实现AI运营化提供了一条有前景的路径。",
+      "score": 26
     }
   ]
 }

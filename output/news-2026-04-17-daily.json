@@ -1,0 +1,304 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "PPIO发布PPHermes：云端沙箱一键部署Hermes Agent",
+      "url": "https://www.qbitai.com/2026/04/402085.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Thu, 16 Apr 2026 13:36:09 +0000",
+      "region": "国内",
+      "summary": "PPIO于4月16日发布了PPHermes，这是首个专为国内用户设计的Hermes Agent云端沙箱部署方案。该方案基于PPIO自研的Agent沙箱运行Hermes，相比海外方案，其提供了专为Hermes设计的CLI工具链，支持一条命令完成启动、暂停与恢复，并内置了飞书集成。",
+      "category": "产品发布与更新",
+      "company": "PPIO",
+      "score": 32,
+      "breakdown": {
+        "substance": 12,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "机器人初创公司Physical Intelligence发布新模型π0.7，向通用机器人大脑迈进",
+      "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+      "snippet": "The new model, called π0.7, represents what the company describes as an early but meaningful step toward the long-sought goal of a general-purpose robot brain.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 16 Apr 2026 20:26:44 +0000",
+      "region": "海外",
+      "summary": "机器人初创公司Physical Intelligence发布了名为π0.7的新模型。该公司表示，该模型代表了在实现通用机器人大脑这一长期目标上迈出的早期但有意义的一步。",
+      "category": "产品发布与更新",
+      "company": "Physical Intelligence",
+      "score": 32,
+      "breakdown": {
+        "substance": 11,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Gemini现可利用Google Photos创建个性化AI图像",
+      "url": "https://arstechnica.com/ai/2026/04/gemini-can-now-create-personalized-ai-images-by-digging-around-in-google-photos/",
+      "snippet": "Google is making it easier to feed your photos into Nano Banana for more personal image generation.",
+      "source": "Ars Technica",
+      "publishedAt": "Thu, 16 Apr 2026 16:59:25 +0000",
+      "region": "海外",
+      "summary": "谷歌正在使其Gemini AI更容易利用用户的照片来生成更个性化的图像。这项功能允许用户将个人照片库中的内容输入到图像生成模型中。此举旨在提升AI图像生成的个性化和相关性。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 30,
+      "breakdown": {
+        "substance": 4,
+        "importance": 11,
+        "timeliness": 8,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "谷歌AI模式更新：无需离开页面即可打开链接",
+      "url": "https://www.theverge.com/tech/913109/google-ai-mode-tabs-sources",
+      "snippet": "Google is upgrading AI Mode in Chrome with a new feature that will allow you to open links to sources alongside your chat. Now, instead of automatically opening a new tab, clicking a source will open the website side by side with AI Mode, allowing you to ask follow-up questions about what's on the page. Launched last year, AI Mode is the chatbot-like search feature that lives within a tab on the left side of Google's search engine. Google has added several new features to the tool over the past year, including the ability to generate images of outfits and decor based on your descriptions, visualize your travel plans, and find restaurant res … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-16T17:00:00.000Z",
+      "region": "海外",
+      "summary": "谷歌正在升级Chrome浏览器中的AI模式，新增一项功能允许用户在聊天界面旁并排打开来源链接，而无需自动开启新标签页。用户可以在查看网页内容的同时，就页面信息向AI提出后续问题。AI模式是谷歌搜索引擎左侧标签页内的类聊天机器人搜索功能，自去年推出以来已增加多项新功能。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 30,
+      "breakdown": {
+        "substance": 12,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "京东发布全球首个具身智能数据全链路基础设施",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-16-16",
+      "snippet": "继一个月前宣布将建成全球最大具身数据采集中心、助力万亿机器人产业生态后，京东在具身智能领域又有重要进展。4月16日的京东具身智能生态发布会上，京东宣布在全球首推覆盖“采、存、标、训、评、仿、测”全链路的具身智能数据基础设施，自研超高清采集终端JoyEgoCam、具身大模型JoyAI-RA、具身...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-16T23:32:00+08:00",
+      "region": "国内",
+      "summary": "继宣布将建成全球最大具身数据采集中心后，京东在具身智能领域取得新进展。在4月16日的发布会上，京东宣布在全球范围内首次推出了覆盖“采、存、标、训、评、仿、测”全链路的具身智能数据基础设施。该基础设施包含了京东自研的超高清采集终端JoyEgoCam以及具身大模型JoyAI-RA等组成部分。",
+      "category": "产品发布与更新",
+      "company": "京东",
+      "score": 28,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI更新其Agents SDK，帮助企业构建更安全、更强大的代理",
+      "url": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
+      "snippet": "OpenAI has expanded the capabilities of its agent-building toolkit, as agentic AI continues to grow in popularity.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 15 Apr 2026 19:28:36 +0000",
+      "region": "海外",
+      "summary": "OpenAI更新了其代理软件开发工具包（Agents SDK），核心变化是引入了全新的“in-distribution harness”功能。该功能允许企业在其工作空间内，部署和测试基于前沿大模型的AI代理，并让这些代理能够安全地处理文件和使用经批准的工具。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 28,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI迈入Harness时代：以MiniMax为样本看智能体云端新基建",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-16-15",
+      "snippet": "编辑｜Panda2026 年初这几个月，随着 OpenClaw 的爆火，AI 领域也正式步入了 Harness 时代。在这股浪潮中，MiniMax 凭借其敏锐的技术嗅觉，成为了这场变革中的一大核心焦点。其近期相继推出的云端 AI 助手 MaxClaw 以及刚刚全新发布的 MaxHermes 便...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-16T18:46:00+08:00",
+      "region": "国内",
+      "summary": "2026年初，随着OpenClaw的爆火，AI领域正式进入了Harness时代。在这股浪潮中，MiniMax凭借其敏锐的技术嗅觉，成为了这场变革中的核心焦点之一。该公司近期相继推出了云端AI助手MaxClaw，并全新发布了MaxHermes。",
+      "category": "产品发布与更新",
+      "company": "MiniMax",
+      "score": 26,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "机器人实现宁次「白眼」能力：实时3D重建技术取得突破",
+      "url": "https://www.qbitai.com/2026/04/401743.html",
+      "snippet": "具身圈开源了个SOTA",
+      "source": "量子位",
+      "publishedAt": "Thu, 16 Apr 2026 12:33:23 +0000",
+      "region": "国内",
+      "summary": "LingBot-Map模型采用64帧窗口设计，相比全历史帧缓存方案，推理速度从3.12FPS提升至19.95FPS，显存从36.06GB压缩至13.28GB，速度提升6倍且显存降低63%，同时精度更高。在超长视频序列测试中，模型在10000+帧内保持稳定重建质量，无轨迹漂移，刷新行业纪录。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 44,
+      "breakdown": {
+        "substance": 21,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Linux内核社区接纳AI生成代码报告，但强调人类开发者责任",
+      "url": "https://www.infoq.cn/article/h4WPj7MeydhFDpsOqyCl?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 16 Apr 2026 16:42:05 GMT",
+      "region": "国内",
+      "summary": "Linux内核社区正面临AI生成代码报告数量与质量的变化。稳定内核维护者Greg Kroah-Hartman指出，社区早期主要处理的是质量低劣的“AI slop”报告，而如今开始收到更多真实有效的AI生成安全报告，这一现象已成为多个开源项目安全团队共同面临的新情况。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 34,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "将企业AI视为一个运营层",
+      "url": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
+      "snippet": "There’s a fault line running through enterprise AI, and it’s not the one getting the most attention. The public conversation still tracks foundation models and benchmarks—GPT versus Gemini, reasoning scores, and marginal capability gains. But in practice, the more durable advantage is structural: who owns the operating layer where intelligence is applied, governed, and improved.…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 16 Apr 2026 13:00:00 +0000",
+      "region": "海外",
+      "summary": "企业AI领域存在一条断层线，但并非公众最关注的那条。公众讨论仍集中在基础模型和基准测试上，例如GPT与Gemini的比较、推理分数和边际能力提升。但在实践中，更持久的优势是结构性的，即谁拥有应用、治理和改进智能的运营层。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 28,
+      "breakdown": {
+        "substance": 3,
+        "importance": 6,
+        "timeliness": 6,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "在受限的公共部门环境中实现AI运营化",
+      "url": "https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/",
+      "snippet": "The AI boom has hit across industries, and public sector organizations are facing pressure to accelerate adoption. At the same time, government institutions face distinct constraints around security, governance, and operations that set them apart from their business counterparts. For this reason, purpose-built small language models (SLMs) offer a promising path to operationalize AI in…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 16 Apr 2026 13:00:00 +0000",
+      "region": "海外",
+      "summary": "AI热潮席卷各行各业，公共部门组织面临着加速采用的压力。与此同时，政府机构在安全、治理和运营方面面临着与企业不同的独特限制。因此，专门构建的小型语言模型为在这些环境中实现AI运营化提供了一条有前景的路径。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 26,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "红杉资本筹集70亿美元新基金押注AI，游戏板块受世界模型发布提振",
+      "url": "https://36kr.com/newsflashes/3770199017227013?f=rss",
+      "snippet": "知情人士透露，全球规模最大、最知名的创投公司之一红杉资本已为一档新基金筹集约70亿美元——这是该公司新一代领导层接棒后的首次募资。最新这笔资金将使红杉资本能够扩大对大型公司的投资，其中包括像OpenAI和Anthropic这样的AI新创。这类企业因需要昂贵的运算资源，近年带动创纪录的募资规模。（新浪财经）",
+      "source": "36氪",
+      "publishedAt": "2026-04-17 08:44:46  +0800",
+      "region": "国内",
+      "summary": "红杉资本新募资70亿美元，将重点投资OpenAI、Anthropic等需要昂贵算力的AI初创公司。同时，受阿里巴巴、腾讯发布新世界模型消息提振，A股游戏板块在4月16日异动，完美世界一度涨停，收盘涨超7%。",
+      "category": "投融资与并购",
+      "company": "红杉资本",
+      "score": 52,
+      "breakdown": {
+        "substance": 19,
+        "importance": 13,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "仿真初创公司Antioch获850万美元种子轮融资，旨在成为物理AI领域的Cursor",
+      "url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/",
+      "snippet": "Antioch raised an $8.5 million seed round to create simulation tools for a new generation of robot builders.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 16 Apr 2026 12:30:00 +0000",
+      "region": "海外",
+      "summary": "仿真初创公司Antioch完成了850万美元的种子轮融资。该公司希望成为物理AI领域的Cursor，其目标是为一新一代机器人构建者创建仿真工具。",
+      "category": "投融资与并购",
+      "company": "Antioch",
+      "score": 31,
+      "breakdown": {
+        "substance": 14,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "为何在AI战争中“人类在环”是一种错觉",
+      "url": "https://www.technologyreview.com/2026/04/16/1136029/humans-in-the-loop-ai-war-illusion/",
+      "snippet": "The availability of artificial intelligence for use in warfare is at the center of a legal battle between Anthropic and the Pentagon. This debate has become urgent, with AI playing a bigger role than ever before in the current conflict with Iran. AI is no longer just helping humans analyze intelligence. It is now an…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 16 Apr 2026 12:00:00 +0000",
+      "region": "海外",
+      "summary": "AI在军事应用中的意图不透明问题正引发法律与伦理危机。Anthropic公司与五角大楼的诉讼核心在于：AI已从情报分析工具演变为实时生成攻击目标、控制导弹拦截、指挥无人机蜂群的“主动参与者”。",
+      "category": "政策与监管",
+      "company": "Anthropic",
+      "score": 24,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
