@@ -3,7 +3,7 @@
   "edition": "daily",
   "editionLabel": "每日精选",
   "title": "AI资讯每日精选-2026/4/18",
-  "generatedAt": "2026/4/18 09:21",
+  "generatedAt": "2026/4/18 15:55",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -99,84 +99,74 @@
     },
     "scoring": {
       "totalInput": 51,
-      "totalScored": 33,
-      "strictScoredCount": 27,
-      "relaxedCandidateCount": 6,
+      "totalScored": 31,
+      "strictScoredCount": 22,
+      "relaxedCandidateCount": 7,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 10,
+      "weakSummaryCount": 9,
       "selectedCandidateCount": 31,
-      "duplicateCount": 11,
-      "crossDayDuplicateCount": 8,
+      "duplicateCount": 10,
+      "crossDayDuplicateCount": 7,
       "lowQualityCount": 2,
-      "domesticAvailable": 22,
-      "overseasAvailable": 11,
+      "domesticAvailable": 19,
+      "overseasAvailable": 12,
       "sourceCount": {
-        "雷锋网": 5,
-        "36氪": 4,
-        "Ars Technica": 1,
-        "InfoQ": 4,
-        "TechCrunch AI": 2,
+        "雷锋网": 6,
         "机器之心": 5,
-        "The Verge AI": 3,
-        "量子位": 2,
-        "MIT Technology Review": 5
+        "InfoQ": 2,
+        "量子位": 4,
+        "36氪": 2,
+        "The Verge AI": 5,
+        "MIT Technology Review": 5,
+        "Ars Technica": 1,
+        "TechCrunch AI": 1
       }
     },
     "display": {
       "refinedCount": 31,
-      "previousEditionRemovedCount": 0,
+      "previousEditionRemovedCount": 2,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
       "integrityRemovedCount": 6,
-      "postEditionFilterCount": 25,
-      "displayReadyCount": 16,
-      "fallbackDisplayCount": 3,
+      "postEditionFilterCount": 23,
+      "displayReadyCount": 17,
+      "fallbackDisplayCount": 1,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 9,
+      "removedWeakSummaries": 6,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "机器人初创公司Physical Intelligence发布新模型π0.7",
-      "company": "Physical Intelligence",
-      "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 16 Apr 2026 20:26:44 +0000",
-      "summary": "机器人初创公司Physical Intelligence发布了一款名为π0.7的新模型。该公司将其描述为迈向通用机器人大脑这一长期目标的一个早期但具有意义的步骤。该模型能够理解并执行其从未被明确教授过的任务。",
-      "score": 19
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "阶跃Step 3.5 Flash模型量产上车，极氪8X搭载超级Eva智能体上市",
-      "company": "阶跃",
-      "url": "https://www.leiphone.com/category/industrynews/zyHsvmQMWPSj7OaK.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 17 Apr 2026 21:50:00 +0800",
-      "summary": "2026 年 4 月 17 日，极氪全新一代旗舰 SUV 极氪 8X 正式量产上市。搭载阶跃 Step 3.5 Flash 等多款前沿模型的整车智能体超级 Eva，正式完成从技术发布到规模量产的关键跨越，今起交付到消费者手中。",
+      "title": "谷歌发布新一代具身智能模型，波士顿机器狗能力显著提升",
+      "company": "谷歌",
+      "url": "https://www.qbitai.com/2026/04/402329.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 17 Apr 2026 07:08:17 +0000",
+      "summary": "谷歌DeepMind的研究人员Laura Graesser和Peng Xu发布了新一代具身智能模型。该模型在空间推理、物体计数和任务成功检测方面相比前代ER 1.5和Gemini 3.0 Flash有显著提升。新模型通过“Pointing”技术理解空间关系，并能分步骤完成读取仪表等复杂任务。ER 1.5模型曾被观察到在计数任务中出现错误，例如数错工具数量或指认不存在的物体。",
       "score": 30
     },
     {
       "section": "产品发布与更新",
-      "title": "荣耀发布首款AI PC“养虾本”，内置自研龙虾助手YOYO Claw",
-      "company": "荣耀",
-      "url": "https://36kr.com/p/3770787623404293?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-17 19:02:56  +0800",
-      "summary": "荣耀于4月16日正式发布了其首款“养虾本”——荣耀MagicBook系列轻薄本，该产品出厂即预装自研的AI助手YOYO Claw。YOYO Claw是一款针对PC端完全重写的AI助手，具备开箱即用、端云协同、节省Token消耗及独立安全防护等特点，预设了五大场景共23个Skills。",
-      "score": 23
+      "title": "OpenAI升级Codex，新增桌面应用操控与图像生成能力",
+      "company": "OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/913034/openai-codex-updates-use-macos",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-16T17:00:00.000Z",
+      "summary": "OpenAI为其代码开发系统Codex发布了一系列重要更新。具体而言，Codex现在能够直接在后台运行并操控用户电脑上的桌面应用程序，这有助于开发者测试前端变更或操作没有开放API的应用。其次，它新增了图像生成与迭代能力，并集成了GitLab、Atlassian Rovo等新插件。",
+      "score": 24
     },
     {
-      "section": "技术与研究",
-      "title": "Gemini现可利用Google Photos创建个性化AI图像",
+      "section": "产品发布与更新",
+      "title": "Gemini AI现可利用Google Photos创建个性化图像",
       "company": "Google",
       "url": "https://arstechnica.com/ai/2026/04/gemini-can-now-create-personalized-ai-images-by-digging-around-in-google-photos/",
       "source": "Ars Technica",
       "publishedAt": "Thu, 16 Apr 2026 16:59:25 +0000",
-      "summary": "谷歌升级其AI图像生成器Nano Banana 2，新功能允许用户直接调用Google Photos图库中的个人照片来生成个性化图像，简化了以往手动上传图片的流程。谷歌强调，此过程仅将照片用于生成提示，不会将用户照片用于AI模型训练，但用户的输入和输出数据会被用于改进产品。",
-      "score": 22
+      "summary": "谷歌正在使其Gemini AI能够更便捷地利用用户Google Photos中的照片来生成更个性化的图像。这项功能旨在通过分析用户个人图库的内容，为AI图像生成提供更贴近用户个人经历的素材和风格参考。",
+      "score": 20
     },
     {
       "section": "技术与研究",
@@ -186,27 +176,27 @@
       "source": "InfoQ",
       "publishedAt": "Fri, 17 Apr 2026 17:27:50 GMT",
       "summary": "传统数据库优化器面临统计信息不准确、搜索空间不完善等挑战，导致SQL调优耗时巨大，成为规模化复制的瓶颈。腾讯云自研的云原生数据库TDSQL-C通过引入AI优化器，采用“一套模型、千人千面”的开箱即用架构，在TPC-DS测试中总耗时降低45%以上，线上复杂查询性能提升超200%。",
-      "score": 40
+      "score": 34
     },
     {
       "section": "技术与研究",
-      "title": "Karpathy提出基于LLM内生理解的知识管理新方法，简化RAG架构",
-      "company": "",
-      "url": "https://www.infoq.cn/article/5dhOzeriuezQajEPC41Y?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 17 Apr 2026 17:20:44 GMT",
-      "summary": "Karpathy在一个包含约100篇文章、总计40万字的研究项目中，提出了一种不依赖复杂RAG架构的新方法。该方法利用大语言模型对知识库的“内生理解”能力，通过自动维护的索引与摘要来高效定位和综合分析信息，从而重构知识工作的底层逻辑。",
-      "score": 29
+      "title": "谷歌研究结合Transformer与RNN，降低显存需求解锁长上下文",
+      "company": "谷歌",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-17-16",
+      "source": "机器之心",
+      "publishedAt": "2026-04-17T18:44:00+08:00",
+      "summary": "谷歌近期发布了一项新的研究成果，旨在解决大模型处理长上下文时对显存的高需求问题。该研究通过将Transformer与RNN相结合的方式，尝试降低模型运行时的显存占用。此前，谷歌的TurboQuant研究曾因宣称能大幅压缩KV Cache而引发行业关注和内存股波动，并伴随学术争议。",
+      "score": 25
     },
     {
-      "section": "投融资与并购",
-      "title": "InsightFinder融资1500万美元，帮助企业诊断AI代理错误",
-      "company": "InsightFinder",
-      "url": "https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 16 Apr 2026 16:15:00 +0000",
-      "summary": "InsightFinder公司获得了1500万美元的融资。该公司旨在帮助企业找出AI代理出错的地方。其首席执行官表示，当前行业面临的最大问题不仅是监控和诊断AI模型本身的问题，还包括诊断AI成为技术栈一部分后整个技术栈的运作情况。",
-      "score": 28
+      "section": "技术与研究",
+      "title": "智能体企业架构新趋势：数据、模型与系统之外的控制平面",
+      "company": "",
+      "url": "https://www.infoq.cn/article/q0DODc1eoaE6xWUNA9ZG?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 17 Apr 2026 19:20:35 GMT",
+      "summary": "随着企业将AI智能体广泛应用于客户支持、财务、销售及运营等环节，系统碎片化问题日益凸显，表现为智能体间缺乏共享上下文与统一治理机制。Project SnowWork展示了未来智能体环境的雏形，使业务用户能够通过自然语言调用内置功能，例如投资者关系团队分析研究报告、赋能团队生成培训素材。",
+      "score": 24
     },
     {
       "section": "投融资与并购",
@@ -216,37 +206,37 @@
       "source": "雷锋网",
       "publishedAt": "Fri, 17 Apr 2026 11:03:00 +0800",
       "summary": "一场「不装不端」的私密局 4月11日下午，深圳南头古城Z·Pilot空间里，15个人关起门来聊了4个小时。没有直播，没有录音，没有PPT，没有公司介绍。进门第一句话是「我是谁」，第二句话就开始讲真话。这是硬创邦的第一场 Conclave——一个专门给运动科技赛道创业者准备的闭门会。",
-      "score": 34
+      "score": 32
     },
     {
       "section": "政策与监管",
-      "title": "在受限的公共部门环境中实现AI运营化",
-      "company": "",
-      "url": "https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/",
+      "title": "为什么在AI战争中“人类在回路”是一种错觉",
+      "company": "Anthropic",
+      "url": "https://www.technologyreview.com/2026/04/16/1136029/humans-in-the-loop-ai-war-illusion/",
       "source": "MIT Technology Review",
-      "publishedAt": "Thu, 16 Apr 2026 13:00:00 +0000",
-      "summary": "文章讨论了公共部门组织在加速采用人工智能时面临的独特挑战。与商业机构不同，政府机构在安全、治理和运营方面面临特殊限制。为此，专门构建的小型语言模型为在这些受限环境中实现AI的运营化提供了一条有前景的路径。",
-      "score": 22
+      "publishedAt": "Thu, 16 Apr 2026 12:00:00 +0000",
+      "summary": "文章指出，随着AI在军事中扮演更核心的角色，例如实时生成打击目标、控制导弹拦截和引导无人机蜂群，其决策过程对人类而言正变得不透明。文中举例说明，一个AI在计算打击弹药厂时，可能隐藏了会严重波及附近儿童医院的“次要爆炸”因素，以最大化破坏效果，而这可能构成战争罪。",
+      "score": 20
     },
     {
       "section": "技术与研究",
-      "title": "OpenAI前Sora负责人离职",
+      "title": "OpenAI前Sora项目负责人离职",
       "company": "OpenAI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
       "source": "The Verge AI",
       "publishedAt": "2026-04-17T21:13:25.000Z",
-      "summary": "OpenAI近期进行战略调整，聚焦于编码和企业应用，并因此终止了多个‘支线任务’。具体变化包括：1. 视频生成模型Sora的负责人Bill Peebles已于周五离职，该团队将被分散并入其他研究团队；2. 由前首席产品官Kevin Weil领导、专注于科学研究的‘Prism’项目也被终止，其功能将整合至Codex桌面应用。",
-      "score": 26
+      "summary": "OpenAI的Sora视频生成工具团队负责人Bill Peebles宣布离职。此前，OpenAI已决定停止Sora项目，作为公司避免“支线任务”、将重点更多转向编码和企业应用的战略调整的一部分。Peebles在离职声明中感谢了公司管理层为其团队提供的探索非主流研究方向的环境。",
+      "score": 24
     },
     {
       "section": "技术与研究",
-      "title": "约会前，你需要凝视Sam Altman的“魔球”吗？",
-      "company": "World",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/914385/world-id-tinder-identity-verifying-orb",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-17T20:42:47.000Z",
-      "summary": "Tinder用户通过访问身份验证“魔球”证明自己是真人后，将很快能在应用中获得五次免费助推。这项服务由OpenAI首席执行官Sam Altman联合创立的World公司提供，去年已在日本通过试点项目测试了Tinder验证。",
-      "score": 25
+      "title": "在受限的公共部门环境中实现AI的运营化",
+      "company": "",
+      "url": "https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 16 Apr 2026 13:00:00 +0000",
+      "summary": "文章讨论了公共部门在加速采用AI时面临的独特挑战。公共部门组织面临着采用AI的压力，但它们在安全、治理和运营方面受到与商业机构不同的限制。为此，专门构建的小型语言模型为在公共部门环境中实现AI的运营化提供了一条有前景的路径。",
+      "score": 22
     },
     {
       "section": "技术与研究",
@@ -255,7 +245,7 @@
       "url": "https://www.qbitai.com/2026/04/401741.html",
       "source": "量子位",
       "publishedAt": "Thu, 16 Apr 2026 13:04:18 +0000",
-      "summary": "觅蜂科技联合上电科、国家数据标委会、工信部赛迪研究院共同发起蜂巢数据共创行动，数十家海内外机构成为首批响应单位。该公司致力于构建物理AI数据基础设施，提供真机遥操、无本体采集、仿真数据全范式覆盖，并打通硬件、软件、平台、运营全链路，以实现高质量数据的平台化供给。",
+      "summary": "觅蜂科技联合上电科、国家数据标委会、工信部赛迪研究院共同发起了蜂巢数据共创行动，并获得了数十家海内外机构的响应。该公司致力于构建物理AI数据基础设施，通过真机遥操、无本体采集、仿真数据全范式覆盖以及打通硬件、软件、平台、运营全链路，提供类型全、质量好、交付快的数据供给能力。",
       "score": 21
     },
     {
@@ -269,13 +259,23 @@
       "score": 19
     },
     {
+      "section": "产品发布与更新",
+      "title": "机器人初创公司Physical Intelligence发布新模型π0.7",
+      "company": "Physical Intelligence",
+      "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 16 Apr 2026 20:26:44 +0000",
+      "summary": "机器人初创公司Physical Intelligence发布了名为π0.7的新模型。该公司将其描述为迈向通用机器人大脑这一长期目标的一个早期但具有意义的步骤。该模型能够理解并执行其从未被明确教授过的任务。",
+      "score": 19
+    },
+    {
       "section": "技术与研究",
       "title": "机器人如何学习：一段简短的当代史",
-      "company": "Roomba",
+      "company": "",
       "url": "https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/",
       "source": "MIT Technology Review",
       "publishedAt": "Fri, 17 Apr 2026 10:00:00 +0000",
-      "summary": "文章以教机器人叠衣服为例，解释了机器人学习的早期方法：通过编写大量具体规则来应对各种情况，但规则数量会爆炸式增长。随后介绍了“领域随机化”方法，即创建数百万个参数（如摩擦力、光照）各不相同的模拟环境进行训练，使机器人能更好地适应现实世界。",
+      "summary": "文章以教机器人叠衣服为例，解释了机器人学习的早期方法：通过编写大量具体规则来应对各种情况，但这种方法复杂且局限。随后介绍了“领域随机化”这一关键突破：通过创建数百万个物理参数（如摩擦力、光照）各不相同的模拟环境来训练机器人，使其能更好地适应现实世界。",
       "score": 19
     }
   ]
