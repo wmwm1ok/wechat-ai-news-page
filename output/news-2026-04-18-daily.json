@@ -1,0 +1,304 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "机器人初创公司Physical Intelligence发布新模型π0.7",
+      "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+      "snippet": "The new model, called π0.7, represents what the company describes as an early but meaningful step toward the long-sought goal of a general-purpose robot brain.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 16 Apr 2026 20:26:44 +0000",
+      "region": "海外",
+      "summary": "机器人初创公司Physical Intelligence发布了一款名为π0.7的新模型。该公司将其描述为迈向通用机器人大脑这一长期目标的一个早期但具有意义的步骤。该模型能够理解并执行其从未被明确教授过的任务。",
+      "category": "产品发布与更新",
+      "company": "Physical Intelligence",
+      "score": 19,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "阶跃Step 3.5 Flash模型量产上车，极氪8X搭载超级Eva智能体上市",
+      "url": "https://www.leiphone.com/category/industrynews/zyHsvmQMWPSj7OaK.html",
+      "snippet": "2026 年 4 月 17 日，极氪全新一代旗舰 SUV 极氪 8X 正式量产上市。搭载阶跃 Step 3.5 Flash 等多款前沿模型的整车智能体超级 Eva，正式完成从技术发布到规模量产的关键跨越，今起交付到消费者手中。这也是阶跃 Step 3.5 Flash 继今年 3 月开源登顶 OpenRouter 周调用量全球榜首后，从开源社区迈向大规模终端商用落地的里程碑式节点。而搭载超级Eva 的极氪8X，也是中国首个量产交付“Grok+FSD”体验的车型。 过去一年，国内车载 AI 赛道不乏大模型上车的声量，但从实验室 demo 到消费者可用的量产交付，始终是横亘行业的一道门槛。超级 Eva 今日正式上市，意味着由阶跃提供底层模型能力的整车智能体，已具备面向真实用户、真实驾驶场景的规模化部署能力。 超级 Eva 由阶跃、吉利、千里科技三方联合研发，是首个打通智能座舱、智能辅助驾驶、数字生态的整车智能体，与智驾、底盘、动力等底层控制体系原生融合，技术理念与特斯拉 Grok 所代表的对话式操控架构高度契合，因此也有中国首个“Grok+FSD”之称，首发搭载极氪8X。 超级 Eva 搭载阶跃三项核心模型能力。Step 3.5 Flash 推理模型专为 Agent 场景设计，单请求推理速度最高达 350 TPS，可精准理解模糊指令并实时完成多步骤任务规划，用户一句“带我去接孩子放学，顺便找家麦当劳，5 点前到学校”，即可触发路线规划、途经点安排、辅助驾驶激活等全链路自主执行；阶跃语音大模型摆脱传统 ASR-LLM-TTS 三段式架构，带来更低延迟、更自然的情感表达，真正做到“懂语气、有人味”；视觉理解大模型则赋予超级 Eva 感知车内外环境的能力，从判断路况到识别车位，让决策更全面、更可靠。 据了解，超级 Eva 的能力还将持续升级并与融合更多生态服务。它将不再只是车里的伙伴，更是一个无缝连接世界的智能枢纽，可以主动理解场景化需求，比如订餐厅、点外卖、订机票、买门票等，行车路上只需基于自然对话，即可帮你打点好一切。 行业人士判断，2026 年是通用大模型“入端”的关键一年。超级 Eva 的量产落地，验证了阶跃 Step 3.5 Flash 等模型在高实时性工业终端场景中的稳定部署能力，也为阶跃在更多硬件场景的深度渗透提供了可复制的量产路径。 未来，超级 Eva 的能力将无限扩展，不仅是车内的 AI 伙伴，还将成为连接物理世界的智能枢纽，将接入吉利自有的售后、租车生态（吉利生态），还将生活服务全面接入（数字生态），告别来回切换的App和繁琐的预订流程。行车路上，用户只需通过自然对话，超级 Eva 就能主动理解场景化指令，打点好订餐厅、点外卖、订机票、买门票等各种需求。",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 17 Apr 2026 21:50:00 +0800",
+      "region": "国内",
+      "summary": "2026 年 4 月 17 日，极氪全新一代旗舰 SUV 极氪 8X 正式量产上市。搭载阶跃 Step 3.5 Flash 等多款前沿模型的整车智能体超级 Eva，正式完成从技术发布到规模量产的关键跨越，今起交付到消费者手中。",
+      "category": "产品发布与更新",
+      "company": "阶跃",
+      "score": 30,
+      "breakdown": {
+        "substance": 15,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 4,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    },
+    {
+      "title": "荣耀发布首款AI PC“养虾本”，内置自研龙虾助手YOYO Claw",
+      "url": "https://36kr.com/p/3770787623404293?f=rss",
+      "snippet": "文｜王欣逸 编辑｜苏建勋 龙虾热还在继续。 4月16日，荣耀进行了一场史上最短的发布会，正式发布此前预热的“养虾本”——荣耀MagicBook系列轻薄本。 即便OpenClaw已经刷屏了两个多月，但对于普通用户而言，要养一只原装龙虾，并没有想象中的容易。 不少软件和云服务厂商赶上热度，推出一键部署的龙虾。但对终端厂商而言，下场做龙虾和“养虾本”，荣耀是第一家。 据悉，荣耀MagicBook数字系列是荣耀首款“养虾本”，出厂即配置荣耀自研龙虾YOYO CLAW，荣耀MagicBook 14 | 16 2026款售价5949.15元起。 作为一家终端厂商，荣耀一直在AI PC有所布局。 2026年初，OpenClaw横空出世。3月10日，荣耀紧随小米Claw、华为鸿蒙小艺Claw其后，宣布要推出“龙虾宇宙”，支持PC一键养虾、平板养虾、手机养虾等功能。3月27日，荣耀Agent助手YOYO Claw开启封测。 4月13日，在荣耀PC技术交流分享会上，荣耀再次提及了龙虾宇宙的构想，首次提出“龙虾PC”的硬件品类，并展示了PC端YOYO Claw的功能。 “养虾本”里的龙虾，并非是此前推出的YOYO Claw在电脑端的复用，而是完全重写的、针对PC端的一个AI助手。 开箱即用，意味着用户拿到“养虾本”后无需任何操作，就拥有了自己的龙虾助手。 扫描二维码登陆后，用户就可以用微信、飞书等工具直接调用Agent工具。YOYO Claw内预设了5大主虾、23个子虾，并具备自主进化能力，能通过理解用户的记忆，实现“越用越顺手”。 除了“上手难”的问题，烧Token，是另一个让用户们对龙虾望而却步的原因。 值得一提的是，YOYO Claw采用了端云协同方案，能智能判断任务该在哪里执行，实现Token的高质量消耗。根据荣耀公布的信息，在执行任务的过程中，相比OpenClaw，YOYO Claw能节省平均50%的Token消耗。 此外，为了实现安全养虾，荣耀还做了一个“独立安全虾”，专门在用户设备上做安全防护，能全程盯着Agent的操作，阻挡格式化硬盘、重装系统等高危动作。 在分享会上，荣耀PC产品总经理朱臣才提到，在Agent时代，PC，不仅是Personal Computer（个人电脑），也是Partner Creator（创作伙伴）。 △荣耀PC技术交流分享会现场，图源：智能涌现拍摄 看见Claw在普通人中应用的最后一公里 “龙虾热”的背后，是普通人养虾难的现实。 未来的大模型能力一定会越来越强，但是模型操控电脑、执行展示等一些基本的工作仍然存在。普通用户不需要一个所有功能配置拉满的应用，而是更看重高效、经济、稳定性几个指标。 荣耀的核心用户群体是基础办公人群和大学生，办公场景和论文相关需求是高频应用。因此，在YOYO CLAW的预设Skill上，荣耀瞄准了教育、办公、学术、内容创作、智能辅助五大场景，并延伸出23个Skills。 落到具体的功能上，YOYO Claw可以化身为办公虾、教育虾、学习虾、健康关怀虾，可以是大学生论文助手，也可以是金融炒股高手。 以大学生写毕业论文这个具体的场景为例，用户只需要输入提示词，龙虾就可以完成从文献下载、解析，到论文撰写、图表生成，最后到论文排版、PPT生成上，实现一站式应用。 从垂直虾做起，是为了打通基础工具链。 除了五大垂直场景的Skills预设，YOYO Claw也支持用户安装OpenClaw生态里的其他Skills，以补充其他没有覆盖到的场景。 回到YOYO Claw的开发策略来看，它既有OpenClaw的开放Skills兼容，又有Hermes Agent的安全严格和自研系统机制。 其采用了“端云模型协同，端侧优先”的方案，在使用过程中，本地端侧模型可处理语义搜索，减少云端推理轮次。 简单、高频且涉及本地操作的任务，YOYO Claw会主动选择100%在端侧完成，只有在需要用到云端算力的情况下才会调用云端模型。它还会通过对上下文的优化、记忆匹配等方式，来放大云端调用的效率。 相比OpenClaw，平均情况下，YOYO Claw可以实现Token消耗节省50%，在极致情况下可省90%以上。 △荣耀YOYO Claw和OpenClaw对比，图源：官方 此外，安全养虾，也是荣耀龙虾宇宙里一个重要的部分。 YOYO Claw设置了独立的三层记忆系统， 能支持对本地数据的理解，不会主动抓取第三方应用的数据。这些记忆和理解能力都需要用户授权，且都保留在端侧。 不仅如此，YOYO Claw还内设了一个无法被篡改的“安全虾”，在用户自行安装Skills时，系统会扫描Skill包里是否含恶意代码，在运行时，“安全虾”也会拦截异常的脚本操作。 易用性、省Token、安全性，支撑起用户长期、高频使用YOYO Claw的需求。 终端厂商做Claw的价值：没有注定被AI淘汰的人 在2026年GTC大会上，黄仁勋将OpenClaw比作Agent计算机的操作系统。 不过，AI的普及，关联到用户、设备、Skills/生态、模型四个维度。要实现黄仁勋这一判断，单靠一家互联网厂商、模型厂商或者终端厂商远远不够。 例如，垂直场景的应用需要依赖专业的数据源，这关联到的是垂直应用厂商，并且数据的质量可以直接影响到效果的好坏。 对于荣耀这样的终端厂商而言，他们擅长的是打通用户链路、降低成本并提升设备的耐用性。 荣耀中国区CMO雷铮斯提到，“未来的3至5年，PC、手机和平板仍然是人和数字世界进行交互的核心媒介。”荣耀要做的是，看见Claw落地的最后一公里：基于数亿用户的数据，把大模型的能力落地到真实生活场景，实现AI工具的易用性。 这也正是终端厂商的价值。假设把OpenClaw安装到一个算力不高的设备上，在执行任务时，它会疯狂地烧本地的算力，电脑界面甚至会完全卡住。 从硬件来看，终端厂商做“养虾本”有天然的优势——可以对系统进行资源的调度。因此，在响应速度上，PC端的YOYO Claw比搭载OpenClaw的笔记本响应速度更快。 不仅如此，荣耀近日推出的Magic视界桌面界面也让AI助手的调用更加便捷，用户在桌面和菜单栏上可以随时调用出AI工具，实现“服务找人”。 跨设备生态，是另一件荣耀正在做的事。 在过去一段很长时间，荣耀在全场景终端设备上一直在做数据上的互联互通。Agent时代，这一能力正在更进一步，并升级为记忆和Skill的互联互通。 例如，用PC后台跑项目的同时，用户可以通过手机端的YOYO Claw，基于云端记忆下发指令。 这种生态不只存在于个人多端的设备上，荣耀要做的是一个服务全家的AI助手。 据介绍，在家庭联动的模式下，全家多人可以共有一台PC，所有家庭成员都可以通过手机、平板等设备与PC端的龙虾互动，同时做到一人一虾的专属独立。家庭相关的记忆数据都存储在这台PC中。 △“养虾本”能实现多端共享Skills、记忆等功能，图源：智能涌现拍摄 目前，PC端的YOYO Claw已经率先在新品笔记本上推出，在功能稳定之后，旧机型随后也会进行功能的更新适配。 现有MagicBook Pro 16/14可运行约30B参数模型，能解决的场景还比较少。未来，PC端侧可能会逐渐发展到100B以上模型，并在端云模型中不断做平衡，逐步减少云端的依赖。",
+      "source": "36氪",
+      "publishedAt": "2026-04-17 19:02:56  +0800",
+      "region": "国内",
+      "summary": "荣耀于4月16日正式发布了其首款“养虾本”——荣耀MagicBook系列轻薄本，该产品出厂即预装自研的AI助手YOYO Claw。YOYO Claw是一款针对PC端完全重写的AI助手，具备开箱即用、端云协同、节省Token消耗及独立安全防护等特点，预设了五大场景共23个Skills。",
+      "category": "产品发布与更新",
+      "company": "荣耀",
+      "score": 23,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 7,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "Gemini现可利用Google Photos创建个性化AI图像",
+      "url": "https://arstechnica.com/ai/2026/04/gemini-can-now-create-personalized-ai-images-by-digging-around-in-google-photos/",
+      "snippet": "Google is making it easier to feed your photos into Nano Banana for more personal image generation.",
+      "source": "Ars Technica",
+      "publishedAt": "Thu, 16 Apr 2026 16:59:25 +0000",
+      "region": "海外",
+      "summary": "谷歌升级其AI图像生成器Nano Banana 2，新功能允许用户直接调用Google Photos图库中的个人照片来生成个性化图像，简化了以往手动上传图片的流程。谷歌强调，此过程仅将照片用于生成提示，不会将用户照片用于AI模型训练，但用户的输入和输出数据会被用于改进产品。",
+      "category": "技术与研究",
+      "company": "Google",
+      "score": 22,
+      "breakdown": {
+        "substance": 0,
+        "importance": 11,
+        "timeliness": 4,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "腾讯云TDSQL-C数据库：AI优化器驱动云原生数据库自我进化",
+      "url": "https://www.infoq.cn/article/U4zazqfjWb11OTq7OeP6?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 17 Apr 2026 17:27:50 GMT",
+      "region": "国内",
+      "summary": "传统数据库优化器面临统计信息不准确、搜索空间不完善等挑战，导致SQL调优耗时巨大，成为规模化复制的瓶颈。腾讯云自研的云原生数据库TDSQL-C通过引入AI优化器，采用“一套模型、千人千面”的开箱即用架构，在TPC-DS测试中总耗时降低45%以上，线上复杂查询性能提升超200%。",
+      "category": "技术与研究",
+      "company": "腾讯云",
+      "score": 40,
+      "breakdown": {
+        "substance": 16,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Karpathy提出基于LLM内生理解的知识管理新方法，简化RAG架构",
+      "url": "https://www.infoq.cn/article/5dhOzeriuezQajEPC41Y?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 17 Apr 2026 17:20:44 GMT",
+      "region": "国内",
+      "summary": "Karpathy在一个包含约100篇文章、总计40万字的研究项目中，提出了一种不依赖复杂RAG架构的新方法。该方法利用大语言模型对知识库的“内生理解”能力，通过自动维护的索引与摘要来高效定位和综合分析信息，从而重构知识工作的底层逻辑。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 29,
+      "breakdown": {
+        "substance": 10,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI前Sora负责人离职",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
+      "snippet": "Last month, OpenAI gave up on its Sora video generation tool, and on Friday, the Sora team's leader, Bill Peebles, announced that he is leaving the company. OpenAI has been shifting its priorities as part of an effort to avoid \"side quests,\" and Peebles' departure is just one of many recent changes as the company moves to focus more on coding and enterprise use. As part of a note Peebles posted on X, he said: I am immensely grateful to Sam, Mark, Aditya and Jakub for fostering a research environment that allowed us to pursue ideas off-the-beaten path from the company's mainline roadmap. It's tempting in life to mode collapse to the most i … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-17T21:13:25.000Z",
+      "region": "海外",
+      "summary": "OpenAI近期进行战略调整，聚焦于编码和企业应用，并因此终止了多个‘支线任务’。具体变化包括：1. 视频生成模型Sora的负责人Bill Peebles已于周五离职，该团队将被分散并入其他研究团队；2. 由前首席产品官Kevin Weil领导、专注于科学研究的‘Prism’项目也被终止，其功能将整合至Codex桌面应用。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 26,
+      "breakdown": {
+        "substance": 1,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "约会前，你需要凝视Sam Altman的“魔球”吗？",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/914385/world-id-tinder-identity-verifying-orb",
+      "snippet": "Tinder users who prove they're a real person by visiting an identity-verifying orb will soon be able to get five free boosts in the app - and it's just the latest service to embrace the orb. World, which was co-founded by OpenAI CEO Sam Altman, initially tested Tinder verification using its facial scanning orbs through a pilot program in Japan last year. It's now expanding the service to \"select markets, including Japan and the United States.\" To verify that they're not a bot or an AI agent, users have to physically visit one of World's orbs in person. According to World, the orb \"takes pictures of your face and eyes, then encrypts and sto … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-17T20:42:47.000Z",
+      "region": "海外",
+      "summary": "Tinder用户通过访问身份验证“魔球”证明自己是真人后，将很快能在应用中获得五次免费助推。这项服务由OpenAI首席执行官Sam Altman联合创立的World公司提供，去年已在日本通过试点项目测试了Tinder验证。",
+      "category": "技术与研究",
+      "company": "World",
+      "score": 25,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "觅蜂科技发起蜂巢数据共创行动，构建物理AI数据基础设施",
+      "url": "https://www.qbitai.com/2026/04/401741.html",
+      "snippet": "发布一站式物理AI数据服务平台",
+      "source": "量子位",
+      "publishedAt": "Thu, 16 Apr 2026 13:04:18 +0000",
+      "region": "国内",
+      "summary": "觅蜂科技联合上电科、国家数据标委会、工信部赛迪研究院共同发起蜂巢数据共创行动，数十家海内外机构成为首批响应单位。该公司致力于构建物理AI数据基础设施，提供真机遥操、无本体采集、仿真数据全范式覆盖，并打通硬件、软件、平台、运营全链路，以实现高质量数据的平台化供给。",
+      "category": "技术与研究",
+      "company": "觅蜂科技",
+      "score": 21,
+      "breakdown": {
+        "substance": 2,
+        "importance": 5,
+        "timeliness": 2,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "智平方与西子联合开启具身智能全场景合作",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-17-12",
+      "snippet": "2026年4月15日，一场注定改写具身智能产业格局的握手在杭州完成。全球生产力型通用智能机器人领跑者智平方与中国民营企业500强西子联合，正式按下全面合作的加速键。双方将围绕高端制造与智慧园区等核心场景，开启具身智能机器人的系统性应用。这不仅是两家行业龙头的战略牵手，更标志着具身智能的竞争已全...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-17T16:03:00+08:00",
+      "region": "国内",
+      "summary": "2026年4月15日，智平方与西子联合在杭州宣布达成全面合作。双方将围绕高端制造与智慧园区等核心场景，共同推进具身智能机器人的系统性应用。此次合作标志着两家行业龙头企业的战略联手，预示着具身智能领域的竞争进入新阶段。",
+      "category": "技术与研究",
+      "company": "智平方,西子联合",
+      "score": 19,
+      "breakdown": {
+        "substance": 1,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "机器人如何学习：一段简短的当代史",
+      "url": "https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/",
+      "snippet": "Roboticists used to dream big but build small. They’d hope to match or exceed the extraordinary complexity of the human body, and then they’d spend their career refining robotic arms for auto plants. Aim for C-3P0; end up with the Roomba. The real ambition for many of these researchers was the robot of science fiction—one…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Fri, 17 Apr 2026 10:00:00 +0000",
+      "region": "海外",
+      "summary": "文章以教机器人叠衣服为例，解释了机器人学习的早期方法：通过编写大量具体规则来应对各种情况，但规则数量会爆炸式增长。随后介绍了“领域随机化”方法，即创建数百万个参数（如摩擦力、光照）各不相同的模拟环境进行训练，使机器人能更好地适应现实世界。",
+      "category": "技术与研究",
+      "company": "Roomba",
+      "score": 19,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "InsightFinder融资1500万美元，帮助企业诊断AI代理错误",
+      "url": "https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/",
+      "snippet": "According to CEO Helen Gu, the biggest problem facing the industry today is not just monitoring and diagnosing where AI models go wrong — it's also diagnosing how the entire tech stack operates now that AI is part of it.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 16 Apr 2026 16:15:00 +0000",
+      "region": "海外",
+      "summary": "InsightFinder公司获得了1500万美元的融资。该公司旨在帮助企业找出AI代理出错的地方。其首席执行官表示，当前行业面临的最大问题不仅是监控和诊断AI模型本身的问题，还包括诊断AI成为技术栈一部分后整个技术栈的运作情况。",
+      "category": "投融资与并购",
+      "company": "InsightFinder",
+      "score": 28,
+      "breakdown": {
+        "substance": 13,
+        "importance": 0,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "运动科技创业者闭门会：探讨技术壁垒、消费动机与品类刚需",
+      "url": "https://www.leiphone.com/category/weiwu/EN2X0DJKWZ4tMceM.html",
+      "snippet": "一场「不装不端」的私密局 4月11日下午，深圳南头古城Z·Pilot空间里，15个人关起门来聊了4个小时。 没有直播，没有录音，没有PPT，没有公司介绍。进门第一句话是「我是谁」，第二句话就开始讲真话。 这是硬创邦的第一场 Conclave——一个专门给运动科技赛道创业者准备的闭门会。来的有做智能网球机器人的、做运动相机的、做滑雪装备的、做康复医疗的，还有几位投资人。 大家平时在发布会上讲的话，在这里一句都没讲。 硬创邦是谁？ 硬创邦是雷峰网旗下的投资人社群，专注 AI 硬件、机器人、智能出行等硬科技赛道。我们不办大会，不做路演——只做一件事：把真正在这个赛道里摸爬滚打的人，关在一个房间里，聊一个下午。 硬创 Conclave 是雷峰网硬创邦和投资机构联合举办的闭门会系列。每一场严格限员15人以内，只邀请有真实创业经历或深度行业认知的参与者。不讲公司介绍，不交换名片，只聊认知和困惑。 这次联合发起方「不同资本」，源自阿里创始人之一的家族办公室，专注跨境电商、AI软硬件、机器人方向。他们投过沃克非凡、英汉思动力、深眸科技、松鼠动力等企业，对运动硬件赛道有系统性判断框架。 三个问题，聊了四个小时 活动前我们收集了所有人的核心困惑，合并成三个议题： 第一，技术壁垒到底在哪里？是算法？传感器？还是供应链？ 第二，消费者到底愿意为什么买单？健康焦虑？社交炫耀？还是真实的运动体验提升？ 第三，什么品类能从「尝鲜」变成「刚需」？ 结果一聊就是四个小时，中间没人看手机。 那些「不能公开说」的认知 关于消费品思维 一位从外骨骼转型做网球机器人的创始人分享了他的失败经历。 「我们最开始做外骨骼，拿锤子找钉子——先限定了要做外骨骼，然后再去找场景。」 他现在的网球机器人卖得很好。转折点是什么？ 「理工科是好与坏、对与错的思维，但消费品本质上不是一个可以量化的东西。 好的产品定义全部隐藏在亚马逊的评论里，用户已经写了很多他想要的东西，你所需要做的，只按他说的做就完了。」 关于运动影像 一位做体育拍摄相机的创始人分享了体育影像的本质： 「影像产品卖的是记录，本质上背后是表达。 体育影像和传统影像不一样——传统影像是外向表达，体育影像是内向自省。遗憾本身也是一种记录价值。」 他还说了一句很扎心的话： 「画质根本就是 nobody cares。 不是说画质用户真的不在意，是相比起来，用户更在意的是：有没有拍到。」 一位极限运动员出身的创始人更直接： 「在运动场景视频的第一需求，占95%两个字：show off。」 这个「show off」需求怎么理解？另一位创始人补充： 「伪Pro的人是最花钱的。 专业运动员有完整体系，你很难切入。但那些'假装自己是Pro'的爱好者，才是最大市场。」 体育运动及赛事智能影像设备的创业者解释了运动影像的底层逻辑： 「运动有两个核心：一个是竞技，一个是观赏性。观赏性就是——我平时打的平平无奇的球我并不想记录，太丑了，打得特别没意思，放出去也没人给我点赞。所以如果我要分享，我一定是分享我觉得那个精彩的瞬间。」 关于产品定义与营销 一位影像公司产品负责人分享了硬件产品的三个关键： 「不论这个世界上任何一件产品，只要它是能被钱去买的东西，其实就三件事：第一，你真的解决了他的问题；第二，在解决技术上没有明显引入第二个问题；第三，你的潜在消费者得知道有这么一个产品。 很多人做技术、做产品的，可能停在前两点就觉得OK了。但实际上第三点特别重要——这不是marketing的事情，是你在定义商业模式的时候就得这么定，否则marketing再怎么搞也是很难搞的。」 他还指出了体育影像行业的一个误区： 「现在体育影像正在重演一个我四五年前非常熟悉的事情——大家都在卷参数。 今天你单摄，明天我双摄，4K到8K，60帧到120帧，两轴云台到三轴云台到四轴云台。但是没有人卷体验链路。 卷链路的意思是说，当我recording完了这个内容之后，在时间上有多快的便捷，可以让他最短时间内把这个内容消费掉——发给朋友、发给家人、发到社交媒体上。如果没有的话，他就像你今天不会发一个上个月的朋友圈，没有意义。 欧洲有家公司叫Veo，以色列有Pixelot，美国还有Trace，他们做体育影像，但产品居然是说你今天打完球拍完的东西要24到48个小时之后才能看到。这个在影像行业来说是不可思议的，但现在正在发生。」 关于品牌与用户心智 一位影像公司战略专家分享了从小众到大众的拓展路径： 「我们观察到几个趋势： 从小众到大众：从极限运动到轻运动人群（跑步、健身、徒步） 从男性到女性：女性用户是消费主力，切入女性能帮助我们做传播 从power sport到lifestyle：不只是运动工具，而是生活方式的表达 品牌在市场饱和、存量竞争的时候才会出现。一开始市面上没有几款产品去挑的时候，你不用强调品牌的重要性，只用挑那款最好的。但现在竞争太多，除了在拼参数之余，怎么样让消费者第一时间想到我们？这个时候就要建立用户心智。」 关于运动康复市场 一位运动医学博士出身的创始人，分享了康复医疗市场的真相。 「运动人群的收入背景、学历极其高度相似，只是选择运动项目不同。他们有消费能力，但是缺产品。」 他透露了一个数据：「15年左右运动康复大概什么概念？3,000块钱一小时，而且得充卡，单次拒绝你消费的。」 但为什么这个市场还没爆发？ 「中国既懂运动又懂硬件的人很少，因为中国的运动基础还没到那个消费的主流。」 他还分享了一个洞察： 「术后康复的人群少，而且术后人群付费能力没有运动损伤人群付费能力强。 这些人群基本和玩极限运动的人群有重叠。」 关于市场竞争与创业节奏 一位做可穿戴设备的创始人分享了硬件创业的残酷现实： 「硬件公司在从小到中的过程中必然有个 all in moment，置死地而后生。 就是那一场仗只有A、B两个选项，你也不知道A是对还是B对，没有人知道，但你只能all in一个。 我们公司从几百人到几十人，再到几百人，再到几十人，再到现在400人。我经历过这样的起伏，就是因为一次all in不对，他只有一次机会。这个产品失败以后你还有一次机会做下一个产品成功，如果没有就挂了。」 他还说了一句关于竞争的话： 「打价格战是一种偷懒的表现。 你手上就这一张牌，打完就没了。」 另一位创始人从SKU角度分析： 「多SKU的公司其实每时每刻都有一个田忌赛马的mindset在脑子里。你东西有大的、有小的，有胖有瘦的，有专业的、有业余的。你今天储备了很多的东西，手上就有牌——有好牌、有烂牌，你也知道该怎么打。」 关于社交与情绪价值 一位做过滑雪设备的创始人分享了运动社交的洞察： 「我们设计了一个新的feature，大大增加了用户量——交友。 在美国滑雪是上午9点到下午4点，4点到12点全是party time。当天的排行榜我们就设计，把用户在意的肌肉能力performance列排行榜，每天打榜。你拿我们设备就打榜，有profile，你可以交友。 这时候你会发现有些人买我们设备就是为了满足社交的需求，为了让大家知道我也是这个group的一员，才去买这个设备。因为这个设备意味着只有我们有这个数据，只有我们这个排行榜。不专业的朋友不要来」 他还指出了亲子市场的本质： 「亲子就是谁买单谁说了算，他满足的是父母的情绪价值，根本不是小孩的。 我买了就是为了满足我爸妈，你看我小孩多厉害，因为我生的。」 为什么需要「私密局」？ 这些话，在公开场合很难讲。 但在一个关起门的房间里，大家都是同行，都知道创业的艰难，都知道哪些话是真心话，哪些话是场面话。 一位投资人说：「这种场子的价值在于，你可以听到创业者真实的困惑，而不是融资路演时的光鲜叙事。」 另一位创业者说：「我来这里不是为了认识谁，是为了确认自己不是一个人在战斗。」 感谢 Z·Pilot 最后，要特别感谢 Z·Pilot 为本次活动提供场地。 Z·Pilot 是一个专注于 AI 与前沿科技的生活方式品牌，以「人人都是科技玩家」为使命，连接全球前沿科技、真实体验与科技玩家社区。他们的空间很酷，氛围很好，最重要的是——懂科技，也懂创业者。 下一场 Conclave，再见 硬创 Conclave II 正在筹备中，主题待定。 如果你也在硬科技赛道创业，有真实的困惑想聊，欢迎联系我们。 我们不追求流量，只追求价值。（雷峰网） *本文经嘉宾授权发布，部分观点经脱敏处理。硬创邦保留最终解释权。",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 17 Apr 2026 11:03:00 +0800",
+      "region": "国内",
+      "summary": "一场「不装不端」的私密局 4月11日下午，深圳南头古城Z·Pilot空间里，15个人关起门来聊了4个小时。没有直播，没有录音，没有PPT，没有公司介绍。进门第一句话是「我是谁」，第二句话就开始讲真话。这是硬创邦的第一场 Conclave——一个专门给运动科技赛道创业者准备的闭门会。",
+      "category": "投融资与并购",
+      "company": "硬创邦",
+      "score": 34,
+      "breakdown": {
+        "substance": 16,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 4,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "在受限的公共部门环境中实现AI运营化",
+      "url": "https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/",
+      "snippet": "The AI boom has hit across industries, and public sector organizations are facing pressure to accelerate adoption. At the same time, government institutions face distinct constraints around security, governance, and operations that set them apart from their business counterparts. For this reason, purpose-built small language models (SLMs) offer a promising path to operationalize AI in…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Thu, 16 Apr 2026 13:00:00 +0000",
+      "region": "海外",
+      "summary": "文章讨论了公共部门组织在加速采用人工智能时面临的独特挑战。与商业机构不同，政府机构在安全、治理和运营方面面临特殊限制。为此，专门构建的小型语言模型为在这些受限环境中实现AI的运营化提供了一条有前景的路径。",
+      "category": "政策与监管",
+      "company": "",
+      "score": 22,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 2,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
