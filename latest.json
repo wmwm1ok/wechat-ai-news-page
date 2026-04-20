@@ -1,21 +1,21 @@
 {
-  "date": "2026/4/19",
+  "date": "2026/4/20",
   "edition": "daily",
   "editionLabel": "每日精选",
-  "title": "AI资讯每日精选-2026/4/19",
-  "generatedAt": "2026/4/19 16:02",
+  "title": "AI资讯每日精选-2026/4/20",
+  "generatedAt": "2026/4/20 08:02",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-04-18-daily.json",
-    "previousEditionFile": "news-2026-04-18-daily.json",
+    "previousDayFile": "news-2026-04-19-daily.json",
+    "previousEditionFile": "news-2026-04-19-daily.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 25,
-      "overseasBeforeDedup": 12,
-      "domesticAfterDedup": 25,
-      "overseasAfterDedup": 12,
+      "domesticBeforeDedup": 26,
+      "overseasBeforeDedup": 4,
+      "domesticAfterDedup": 26,
+      "overseasAfterDedup": 4,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -26,7 +26,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 3,
+          "count": 6,
           "error": null
         },
         {
@@ -38,13 +38,13 @@
         {
           "source": "InfoQ",
           "ok": true,
-          "count": 5,
+          "count": 4,
           "error": null
         },
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 6,
+          "count": 5,
           "error": null
         }
       ],
@@ -52,13 +52,13 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 3,
+          "count": 2,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         },
         {
@@ -70,19 +70,19 @@
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 3,
+          "count": 0,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 3,
+          "count": 2,
           "error": null
         },
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         }
       ],
@@ -95,188 +95,186 @@
       }
     },
     "summarize": {
-      "totalSummarized": 37
+      "totalSummarized": 30
     },
     "scoring": {
-      "totalInput": 37,
-      "totalScored": 27,
-      "strictScoredCount": 22,
-      "relaxedCandidateCount": 5,
+      "totalInput": 30,
+      "totalScored": 23,
+      "strictScoredCount": 15,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 10,
-      "selectedCandidateCount": 27,
-      "duplicateCount": 3,
-      "crossDayDuplicateCount": 2,
-      "lowQualityCount": 1,
+      "weakSummaryCount": 7,
+      "selectedCandidateCount": 23,
+      "duplicateCount": 6,
+      "crossDayDuplicateCount": 6,
+      "lowQualityCount": 0,
       "domesticAvailable": 20,
-      "overseasAvailable": 7,
+      "overseasAvailable": 3,
       "sourceCount": {
-        "机器之心": 6,
-        "量子位": 2,
+        "机器之心": 4,
+        "量子位": 5,
         "雷锋网": 4,
-        "InfoQ": 3,
         "36氪": 5,
-        "Wired AI": 2,
-        "TechCrunch AI": 3,
-        "The Verge AI": 1,
-        "MIT Technology Review": 1
+        "InfoQ": 2,
+        "TechCrunch AI": 2,
+        "Wired AI": 1
       }
     },
     "display": {
-      "refinedCount": 27,
-      "previousEditionRemovedCount": 0,
+      "refinedCount": 23,
+      "previousEditionRemovedCount": 6,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
-      "integrityRemovedCount": 6,
-      "postEditionFilterCount": 21,
-      "displayReadyCount": 12,
-      "fallbackDisplayCount": 2,
+      "integrityRemovedCount": 3,
+      "postEditionFilterCount": 14,
+      "displayReadyCount": 8,
+      "fallbackDisplayCount": 6,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 9,
+      "removedWeakSummaries": 6,
       "shortage": 0
     }
   },
   "articles": [
     {
-      "section": "其他",
-      "title": "Claude发布AI设计工具引发行业震动，Figma与Adobe股价受挫",
-      "company": "Anthropic",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-18-7",
-      "source": "机器之心",
-      "publishedAt": "2026-04-18T21:03:00+08:00",
-      "summary": "本周五，美国股市多家软件公司股价出现大幅波动，其直接原因是人工智能公司Anthropic发布了名为Claude Design的全新AI产品。Anthropic公司宣称，这款新工具能够支持用户与Claude进行协作，共同创建包括设计稿、原型、幻灯片和单页文档在内的多种视觉作品。",
-      "score": 27
-    },
-    {
       "section": "产品发布与更新",
-      "title": "亚马逊云科技推出AWS Agent Registry预览版，解决多云AI Agent治理难题",
-      "company": "亚马逊云科技",
-      "url": "https://www.infoq.cn/article/gL44mioSTWOY6WAClSAl?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 19 Apr 2026 08:00:00 GMT",
-      "summary": "亚马逊云科技推出了AWS Agent Registry的预览版，旨在解决多云环境下AI Agent数量激增带来的治理难题。该注册表提供了与厂商无关的索引能力，原生支持MCP与A2A协议，能够编目管理亚马逊云科技生态之外的agent，帮助团队发现和复用已有agent，避免重复开发。",
-      "score": 25
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "荣耀发布首款AI PC“养虾本”，内置自研龙虾助手YOYO Claw",
-      "company": "荣耀",
-      "url": "https://36kr.com/p/3770787623404293?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-17 19:02:56  +0800",
-      "summary": "荣耀于4月16日正式发布了其首款“养虾本”——荣耀MagicBook系列轻薄本，该产品出厂即预装自研的AI助手YOYO Claw。YOYO Claw是一款针对PC端完全重写的AI助手，具备开箱即用、端云协同、节省Token消耗及独立安全防护等特点，预设了五大场景共23个Skills。",
-      "score": 19
-    },
-    {
-      "section": "技术与研究",
-      "title": "阿里推出世界模型“快乐生蚝”，与谷歌、李飞飞形成不同技术路线",
-      "company": "阿里",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-18-6",
-      "source": "机器之心",
-      "publishedAt": "2026-04-18T20:59:00+08:00",
-      "summary": "近期，阿里在AI领域连续推出新模型。先是名为“欢乐马”的模型登上Artificial Analysis排行榜榜首，随后阿里承认该模型为其所有。紧接着，阿里又发布了名为“快乐生蚝”的新模型，两者均属于阿里今年3月成立的A团队。这些动作表明阿里正在探索与谷歌、李飞飞等不同的技术路径。",
-      "score": 34
-    },
-    {
-      "section": "技术与研究",
-      "title": "黄仁勋回应AI厂商去CUDA化传闻：前提就是错的",
-      "company": "英伟达",
-      "url": "https://www.qbitai.com/2026/04/403210.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 19 Apr 2026 04:14:11 +0000",
-      "summary": "黄仁勋在回应关于AI算力增长是否受限于上游晶圆厂产能的问题时表示，英伟达通过新模型和架构实现了从Hopper到Blackwell架构50倍的性能改进，这远超摩尔定律的范畴。他强调，没有CUDA的支持，要开发这样的新内核几乎是不可能的，并指出英伟达生态系统的丰富性、可编程性和能力是其核心优势。",
-      "score": 29
-    },
-    {
-      "section": "技术与研究",
-      "title": "Kevin Weil和Bill Peebles离开OpenAI，公司持续剥离“支线任务”",
+      "title": "更新越频繁，Claude Code与Codex越相似",
       "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 17 Apr 2026 20:38:17 +0000",
-      "summary": "OpenAI两位关键人物离职，公司正收缩前沿探索以聚焦企业AI。具体信息点：1. 离职者包括科学计划负责人Kevin Weil和视频工具Sora核心研究员Bill Peebles，两人均于周五宣布离开。2. 公司已关闭每日计算成本约100万美元的Sora项目，并解散了旨在用AI加速科学发现的“OpenAI for Science”团队，其成果Prism平台将被并入其他研究组。",
-      "score": 24
-    },
-    {
-      "section": "投融资与并购",
-      "title": "DeepSeek洽谈融资，估值或达100亿美元",
-      "company": "DeepSeek",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-18-4",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-19-8",
       "source": "机器之心",
-      "publishedAt": "2026-04-18T20:46:00+08:00",
-      "summary": "据The Information、路透社等媒体援引知情人士消息，国内人工智能初创公司DeepSeek正与投资者洽谈融资事宜，计划以约100亿美元的估值筹集至少3亿美元资金。机器之心方面了解到，DeepSeek确实正在接触一些投资机构，但关于此次融资的具体细节尚未完全确认。",
-      "score": 34
+      "publishedAt": "2026-04-19T23:07:00+08:00",
+      "summary": "OpenAI正式发布了全新大模型GPT-5.4-Cyber，该模型给用户带来了强烈的既视感。新模型在目标用户群、应用场景和宣发策略上，几乎完全对标了Anthropic此前发布的Claude Mythos。这种竞争态势已经呈现出贴身肉搏的特点。",
+      "score": 42
     },
     {
-      "section": "投融资与并购",
-      "title": "AI芯片初创公司Cerebras申请IPO",
-      "company": "Cerebras",
-      "url": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Sat, 18 Apr 2026 19:19:11 +0000",
-      "summary": "AI芯片初创公司Cerebras已提交IPO申请。该公司近期宣布了两项关键商业进展：一是与亚马逊云科技达成协议，将在亚马逊数据中心部署其芯片；二是与OpenAI签署了一份据称价值超过100亿美元的交易。根据其提交的文件，Cerebras在2025年实现了5.1亿美元营收，并获得了2.378亿美元的净利润（若按非美国通用会计准则计算，则为7570万美元的净亏损）。",
+      "section": "技术与研究",
+      "title": "高德发布全球首个面向AGI的全栈具身技术体系“ABot”",
+      "company": "高德",
+      "url": "https://www.qbitai.com/2026/04/403505.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 19 Apr 2026 07:50:32 +0000",
+      "summary": "阿里巴巴旗下高德公司发布了全球首个面向通用人工智能（AGI）的全栈具身技术体系“ABot”。该体系包含多项创新，其底层仿真基座ABot-World是全球首个将物理定律深度嵌入生成流程的可微分、可进化动力学引擎，并构建了“训练+数据”双引擎架构，已累计生产大量3D场景与训练数据。",
+      "score": 39
+    },
+    {
+      "section": "技术与研究",
+      "title": "Kimi新论文提出KV Cache传输架构，实现跨数据中心大模型推理优化",
+      "company": "Kimi",
+      "url": "https://www.qbitai.com/2026/04/403528.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 19 Apr 2026 10:19:45 +0000",
+      "summary": "近期，Kimi Linear、Qwen 3.5、MiMo-V2-Flash、Ring-2.5等模型采用了线性注意力与全注意力混合架构。该研究提出了一种跨数据中心的大模型推理服务架构，其核心是将长上下文请求的Prefill计算卸载到独立的专用集群完成，再将生成的KV Cache通过以太网传输到本地集群执行Decode。例如，Qwen3.5-397B的传输带宽需求相比同规模密集模型降低了4倍。",
+      "score": 32
+    },
+    {
+      "section": "技术与研究",
+      "title": "大模型架构的下半场：探索深度注意力与层间信息检索",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/04/403515.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 19 Apr 2026 10:12:10 +0000",
+      "summary": "文章讨论了在大模型架构发展中，处理长序列和深度维度信息流动的挑战与创新。早期Transformer受限于序列长度，通过注意力模式创新、系统工程优化和位置编码进步，现已能处理超过128K个token，为长链推理奠定了基础。",
       "score": 26
     },
     {
-      "section": "政策与监管",
-      "title": "高德ABot-World登顶四项权威评测，全球唯一在物理合规性、动作可控性、零样本泛化均达第一的世界模型",
-      "company": "高德",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-19",
+      "section": "技术与研究",
+      "title": "广州斗虾赛选手比拼AI技能蒸馏，现场诞生近50个技能包",
+      "company": "",
+      "url": "https://www.leiphone.com/category/industrynews/3Z4Dznh0Tsbg24UJ.html",
+      "source": "雷锋网",
+      "publishedAt": "Sun, 19 Apr 2026 22:51:00 +0800",
+      "summary": "在广州举办的斗虾赛上，各路选手展示了将个人经验与技能提炼成AI技能的“蒸馏”过程，现场诞生了近50个技能包。一位零技术背景的女选手蒸馏了具有四百年生活经验的“老广街坊”，创造出能用地道老广语气沟通的AI技能，并希望设计技能帮助同乡老板解决客户排队问题。",
+      "score": 25
+    },
+    {
+      "section": "技术与研究",
+      "title": "YouTube引入AI内容质量评估机制，用户可举报低质量AI生成视频",
+      "company": "谷歌",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-19-6",
       "source": "机器之心",
-      "publishedAt": "2026-04-19T14:25:00+08:00",
-      "summary": "4月19日，在2026北京亦庄机器人半程马拉松上，阿里巴巴旗下高德正式公开了全球首款开放环境全自主具身机器人“高德途途”。这款四足机器人成功协助视障人士完成了复杂避障、人群穿行等实战挑战，突破了从“实验室”到“开放环境”的技术鸿沟。",
-      "score": 47
+      "publishedAt": "2026-04-19T22:56:00+08:00",
+      "summary": "YouTube近期向用户发起了一项调查，询问用户观看的视频是否具有“AI烂片”的感觉，评分范围从“完全没有”到“极其明显”，由用户自行判断。平台表示此举旨在打击泛滥的低质量AI生成内容。消息发布后，部分用户对此表示支持，认为YouTube终于开始整治乱象，但也有人对此持不同看法。",
+      "score": 24
     },
     {
-      "section": "政策与监管",
-      "title": "Anthropic与特朗普政府关系似有缓和",
-      "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Sat, 18 Apr 2026 14:56:48 +0000",
-      "summary": "尽管因在自主武器和国内大规模监控方面的安全限制条款未能与美国国防部达成军事协议，并被其列为供应链风险，但AI公司Anthropic与特朗普政府的关系出现缓和迹象。具体表现为：1. 公司联合创始人达里奥·阿莫代已与政府高级官员会面，讨论了网络安全、美国在AI竞赛中的领先地位及AI安全等共同优先事项的合作。",
-      "score": 22
+      "section": "技术与研究",
+      "title": "高德全自主具身机器人亮相亦庄马拉松，成功完成导盲挑战",
+      "company": "高德",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-19-5",
+      "source": "机器之心",
+      "publishedAt": "2026-04-19T22:52:00+08:00",
+      "summary": "今天上午，北京亦庄举办了2026人形机器人半程马拉松比赛，来自国内外数十家团队的300余台机器人在城市主干道、GT赛车级复杂路段等多样地形中展开竞技。在众多形态各异的人形机器人中，高德的全自主具身机器人参与了比赛，并成功完成了“导盲”这一硬核考题。",
+      "score": 24
     },
     {
-      "section": "政策与监管",
-      "title": "欧盟新年龄验证应用仅需两分钟即可被黑客攻破",
-      "company": "未提及具体公司",
-      "url": "https://www.wired.com/story/security-news-this-week-it-takes-2-minutes-to-hack-the-eus-new-age-verification-app/",
-      "source": "Wired AI",
-      "publishedAt": "Sat, 18 Apr 2026 10:30:00 +0000",
-      "summary": "欧盟新推出的年龄验证应用存在严重安全漏洞，研究人员仅用两分钟即可攻破。此外，俄罗斯加密货币交易所Grinex因黑客攻击损失超1300万美元，并指控外国政府所为。美国移民及海关执法局（ICE）在背景调查未完成前就雇佣了部分人员，其中至少3名新员工曾因执法不当被起诉。",
+      "section": "产品发布与更新",
+      "title": "SK海力士将量产用于英伟达Vera Rubin芯片的SOCAMM2服务器模块",
+      "company": "SK海力士",
+      "url": "https://36kr.com/newsflashes/3774391996728064?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-20 07:58:02  +0800",
+      "summary": "SK海力士宣布将开始量产专为英伟达Vera Rubin芯片设计的SOCAMM2服务器内存模块。该模块将原本主要用于智能手机等移动产品的低功耗内存应用于服务器环境，旨在成为下一代人工智能服务器的主要内存解决方案。",
       "score": 20
     },
     {
       "section": "技术与研究",
-      "title": "Tinder用户可通过Sam Altman公司的身份验证球体获取免费加速",
-      "company": "World",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/914385/world-id-tinder-identity-verifying-orb",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-17T20:42:47.000Z",
-      "summary": "Tinder用户通过访问身份验证球体证明自己是真人后，将很快能在应用中获得五次免费加速。这项服务由OpenAI首席执行官Sam Altman联合创立的World公司提供，该公司去年已在日本通过试点项目测试了使用面部扫描球体进行Tinder验证。",
-      "score": 19
+      "title": "广汽2026科技日发布五大核心技术，星灵架构4.0与国产芯片生态引领智能出行",
+      "company": "广汽",
+      "url": "https://www.leiphone.com/category/industrynews/bsKgrHerzusfozkK.html",
+      "source": "雷锋网",
+      "publishedAt": "Sat, 18 Apr 2026 19:36:00 +0800",
+      "summary": "4月12日，2026广汽科技日在广汽集团番禺总部举行。本届科技日集中发布了星灵架构4.0、芯片生态、星源动力、星舰车身及星河智舱五大领域的最新技术成果，展示了广汽在底层架构、自研芯片及动力集成上的硬核进阶。",
+      "score": 36
     },
     {
       "section": "技术与研究",
-      "title": "《修复一切》的论据",
-      "company": "无",
-      "url": "https://www.technologyreview.com/2026/04/17/1135408/book-review-stewart-brand-fixing-everything-maintenance/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Fri, 17 Apr 2026 10:00:00 +0000",
-      "summary": "科技界传奇人物斯图尔特·布兰德的新书《维护：万物之一，第一部分》承诺将成为系列丛书的第一部，旨在提供“关于维护对文明重要性的全面概述”。布兰德的一位传记作者将其描述为反主流文化和网络文化的中流砥柱，他希望通过这本书让我们思考维护的价值。",
+      "title": "智元机器人发布AI大模型平台与开放生态战略",
+      "company": "智元机器人",
+      "url": "https://36kr.com/p/3770721219035649?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-18 10:00:00  +0800",
+      "summary": "智元机器人公司在合作伙伴大会上宣布，将不再局限于硬件制造，而是致力于构建AI大模型平台和开放生态。公司推出了六大AI模型、七大生产力解决方案，并首次公开了AIMA全栈生态技术体系，这些软件将与硬件机器人共同构成“一体三智”架构。",
+      "score": 27
+    },
+    {
+      "section": "技术与研究",
+      "title": "荣耀人形机器人“闪电”夺冠2026亦庄半程马拉松",
+      "company": "荣耀",
+      "url": "https://36kr.com/p/3773492357169920?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-19 16:35:02  +0800",
+      "summary": "4月19日，2026北京亦庄人形机器人半程马拉松比赛成功举办。荣耀齐天大圣队参赛选手机器人“闪电”以50分26秒（净用时）的成绩斩获赛事冠军，另一款参赛机器人“元气仔”以优美的跑姿同步完成赛事，展现了荣耀在人形机器人领域的深厚技术积淀与领先实力。",
+      "score": 25
+    },
+    {
+      "section": "投融资与并购",
+      "title": "环晶芯科技获数千万元天使轮融资，实现临时键合载板无损回收复用",
+      "company": "环晶芯科技",
+      "url": "https://36kr.com/p/3773090942321155?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-19 09:46:49  +0800",
+      "summary": "环晶芯科技近期完成数千万元天使轮融资，由啟赋资本领投，资金将用于无锡量产线建设及研发。该公司由前华为工程师创立，是国内首家提出临时键合载板无损回收复用方案的企业，其核心技术可解决先进封装中载板因残胶难清而一次性使用造成的成本浪费问题，处理后的载板关键指标与全新产品一致。",
+      "score": 20
+    },
+    {
+      "section": "技术与研究",
+      "title": "AAAI 2026首次采用AI审稿，单日处理两万篇成本不足一美元",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-19-2",
+      "source": "机器之心",
+      "publishedAt": "2026-04-19T22:32:00+08:00",
+      "summary": "为应对海量投稿压力，顶级学术会议正逐步引入AI审稿。例如，ICML 2026已放宽对AI审稿的限制，但尚未允许完全由AI独立执行评审。这表明学术界对AI辅助评审的接受度正在提升，旨在探索高效处理论文的新方法。",
       "score": 15
     },
     {
       "section": "技术与研究",
-      "title": "打通GUI智能体训练-评测-部署全流程，ClawGUI支持多平台与模型",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/04/403214.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 19 Apr 2026 04:25:19 +0000",
-      "summary": "该研究项目旨在解决GUI智能体研究中训练、评测与部署环节割裂的挑战，提供了一个整合的解决方案。其核心成果包括：ClawGUI-RL支持基于Docker的Android虚拟环境并行运行，并内置了保证训练鲁棒性的备用服务器轮转机制。",
-      "score": 44
+      "title": "智元加入Hitch Open AI自主决策乒乓挑战赛，共建具身智能学术生态",
+      "company": "智元",
+      "url": "https://www.leiphone.com/category/industrynews/DNm9uCEqB79qKm8k.html",
+      "source": "雷锋网",
+      "publishedAt": "Sun, 19 Apr 2026 21:32:00 +0800",
+      "summary": "2026年4月17日，在上海举行的智元全球合作伙伴大会上，智元正式宣布加入Hitch Open AI自主决策乒乓挑战赛，成为其具身智能本体战略合作伙伴。此次合作标志着中国具身智能头部企业通过国际开放竞技平台，与全球顶尖学术资源实现深度整合，探索出“开放平台+生态共创”的国际合作新模式。",
+      "score": 15
     }
   ]
 }
