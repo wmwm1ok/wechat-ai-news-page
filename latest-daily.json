@@ -3,7 +3,7 @@
   "edition": "daily",
   "editionLabel": "每日精选",
   "title": "AI资讯每日精选-2026/4/20",
-  "generatedAt": "2026/4/20 08:02",
+  "generatedAt": "2026/4/20 17:04",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -12,9 +12,9 @@
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 26,
+      "domesticBeforeDedup": 30,
       "overseasBeforeDedup": 4,
-      "domesticAfterDedup": 26,
+      "domesticAfterDedup": 30,
       "overseasAfterDedup": 4,
       "domesticSources": [
         {
@@ -38,13 +38,13 @@
         {
           "source": "InfoQ",
           "ok": true,
-          "count": 4,
+          "count": 5,
           "error": null
         },
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 5,
+          "count": 8,
           "error": null
         }
       ],
@@ -95,56 +95,76 @@
       }
     },
     "summarize": {
-      "totalSummarized": 30
+      "totalSummarized": 34
     },
     "scoring": {
-      "totalInput": 30,
-      "totalScored": 23,
-      "strictScoredCount": 15,
-      "relaxedCandidateCount": 2,
+      "totalInput": 34,
+      "totalScored": 26,
+      "strictScoredCount": 18,
+      "relaxedCandidateCount": 4,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 7,
-      "selectedCandidateCount": 23,
+      "weakSummaryCount": 10,
+      "selectedCandidateCount": 26,
       "duplicateCount": 6,
       "crossDayDuplicateCount": 6,
-      "lowQualityCount": 0,
-      "domesticAvailable": 20,
-      "overseasAvailable": 3,
+      "lowQualityCount": 1,
+      "domesticAvailable": 24,
+      "overseasAvailable": 2,
       "sourceCount": {
-        "机器之心": 4,
-        "量子位": 5,
-        "雷锋网": 4,
+        "InfoQ": 4,
+        "量子位": 4,
         "36氪": 5,
-        "InfoQ": 2,
-        "TechCrunch AI": 2,
+        "雷锋网": 6,
+        "机器之心": 5,
+        "TechCrunch AI": 1,
         "Wired AI": 1
       }
     },
     "display": {
-      "refinedCount": 23,
-      "previousEditionRemovedCount": 6,
+      "refinedCount": 26,
+      "previousEditionRemovedCount": 4,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
       "integrityRemovedCount": 3,
-      "postEditionFilterCount": 14,
-      "displayReadyCount": 8,
-      "fallbackDisplayCount": 6,
+      "postEditionFilterCount": 19,
+      "displayReadyCount": 10,
+      "fallbackDisplayCount": 4,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 6,
+      "removedWeakSummaries": 9,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "更新越频繁，Claude Code与Codex越相似",
-      "company": "OpenAI",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-19-8",
+      "title": "阿里发布Qwen3.6-Max预览版，登顶最佳国产模型",
+      "company": "阿里",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-20-10",
       "source": "机器之心",
-      "publishedAt": "2026-04-19T23:07:00+08:00",
-      "summary": "OpenAI正式发布了全新大模型GPT-5.4-Cyber，该模型给用户带来了强烈的既视感。新模型在目标用户群、应用场景和宣发策略上，几乎完全对标了Anthropic此前发布的Claude Mythos。这种竞争态势已经呈现出贴身肉搏的特点。",
-      "score": 42
+      "publishedAt": "2026-04-20T16:35:00+08:00",
+      "summary": "4月20日，阿里巴巴发布了新一代千问旗舰模型的早期预览版Qwen3.6-Max-Preview。根据权威第三方评测榜单Artificial Analysis的数据，该模型在性能表现上超越了GLM5.1和MiniMax-M2.7等模型，成功登顶最佳国产模型。该预览版模型被描述为拥有更强的世界知识。",
+      "score": 34
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "零门槛AI生成平台“灵珠”开启首次内测，瞄准创意还原度提升",
+      "company": "语生科学",
+      "url": "https://www.infoq.cn/article/ZPWKLMsW3qPTNKEog63r?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 20 Apr 2026 16:43:54 GMT",
+      "summary": "在国内外AI开发工具竞争激烈的背景下，由语生科学AI孵化平台推出的“灵珠”平台开启了首次内测。该平台将目标用户从有技术背景的开发者拓展至完全没有技术背景的普通人，用户仅需通过自然语言描述需求，系统即可自动分析、生成并发布应用，全程无需接触代码。",
+      "score": 29
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "灵光上线「灵光圈」功能，手搓应用成年轻人社交新方式",
+      "company": "蚂蚁灵光",
+      "url": "https://36kr.com/p/3774865386144519?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-20 15:56:00  +0800",
+      "summary": "近期，由个人开发者“手搓”的SBTI人格测试等互动小应用在社交网络流行，反映了年轻人利用低代码或无代码工具进行轻度创作和社交表达的新趋势。蚂蚁集团旗下的产品“灵光”于2024年11月上线，旨在让用户无需编程即可快速创建“闪应用”，并于2025年4月20日上线了“灵光圈”功能。",
+      "score": 23
     },
     {
       "section": "技术与研究",
@@ -153,8 +173,8 @@
       "url": "https://www.qbitai.com/2026/04/403505.html",
       "source": "量子位",
       "publishedAt": "Sun, 19 Apr 2026 07:50:32 +0000",
-      "summary": "阿里巴巴旗下高德公司发布了全球首个面向通用人工智能（AGI）的全栈具身技术体系“ABot”。该体系包含多项创新，其底层仿真基座ABot-World是全球首个将物理定律深度嵌入生成流程的可微分、可进化动力学引擎，并构建了“训练+数据”双引擎架构，已累计生产大量3D场景与训练数据。",
-      "score": 39
+      "summary": "阿里巴巴旗下高德公司发布了全球首个面向通用人工智能（AGI）的全栈具身技术体系“ABot”。该体系包含多项核心技术：ABot-World作为底层仿真基座，是全球首个将物理定律深度嵌入生成流程的可微分动力学引擎，通过批量合成多类训练数据，在虚拟环境中进行强化学习训练。",
+      "score": 34
     },
     {
       "section": "技术与研究",
@@ -163,18 +183,78 @@
       "url": "https://www.qbitai.com/2026/04/403528.html",
       "source": "量子位",
       "publishedAt": "Sun, 19 Apr 2026 10:19:45 +0000",
-      "summary": "近期，Kimi Linear、Qwen 3.5、MiMo-V2-Flash、Ring-2.5等模型采用了线性注意力与全注意力混合架构。该研究提出了一种跨数据中心的大模型推理服务架构，其核心是将长上下文请求的Prefill计算卸载到独立的专用集群完成，再将生成的KV Cache通过以太网传输到本地集群执行Decode。例如，Qwen3.5-397B的传输带宽需求相比同规模密集模型降低了4倍。",
+      "summary": "近期，Kimi Linear、Qwen 3.5、MiMo-V2-Flash、Ring-2.5等模型采用了线性注意力与全注意力混合架构。该研究提出了一种跨数据中心的大模型推理服务架构，其核心是将长上下文请求的Prefill计算卸载到独立的专用集群完成，再将生成的KV Cache通过以太网传输到本地集群执行Decode。实验表明，Qwen3.5-397B的带宽需求相比同规模密集模型降低了4倍。",
       "score": 32
     },
     {
       "section": "技术与研究",
-      "title": "大模型架构的下半场：探索深度注意力与层间信息检索",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/04/403515.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 19 Apr 2026 10:12:10 +0000",
-      "summary": "文章讨论了在大模型架构发展中，处理长序列和深度维度信息流动的挑战与创新。早期Transformer受限于序列长度，通过注意力模式创新、系统工程优化和位置编码进步，现已能处理超过128K个token，为长链推理奠定了基础。",
+      "title": "Lyft采用AI与人机协同机制提升全球本地化能力",
+      "company": "Lyft",
+      "url": "https://www.infoq.cn/article/O2Lw0iIZcT6Ip9WrxvsV?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 20 Apr 2026 12:00:00 GMT",
+      "summary": "Lyft构建了一套AI驱动的本地化系统，旨在加速其应用与网页内容的翻译工作。该系统采用双路径架构的批量翻译流水线，约99%的面向用户内容通过此流程处理，其中大语言模型负责快速生成初稿，人工专家进行异步审核以确保质量。",
+      "score": 30
+    },
+    {
+      "section": "投融资与并购",
+      "title": "字节跳动2025年海外营收占比创新高，AI投入致净利润大降70%",
+      "company": "字节跳动",
+      "url": "https://36kr.com/p/3774566936216064?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-20 11:05:06  +0800",
+      "summary": "文｜李小霞 编辑｜乔芊 杨轩 36氪独家从知情人士处获悉，字节跳动2025年海外营收增长近50%，远超约20%的国内营收增幅，海外业务营收占比也从2024年的25%提升至超三成，创下新高。TikTok电商业务是字节跳动海外营收增长的主要动力。",
+      "score": 38
+    },
+    {
+      "section": "投融资与并购",
+      "title": "智能派获美团领投数亿元B+轮融资，创始人坦言短板并调整策略追赶拓竹",
+      "company": "智能派",
+      "url": "https://36kr.com/p/3773892499096068?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-20 10:00:10  +0800",
+      "summary": "智能派获美团领投数亿元B+轮融资，创始人坦言软件生态是当前最大短板，正转变策略追赶拓竹。具体而言，公司意识到软件是“0和1”的关系，其团队缺乏软件思维，自研效率低，因此正调整发展方式。同时，面对AI时代挑战，公司认为硬件迭代有规律可循，但AI以“天”为单位进步，原有内容积累的价值存疑。",
+      "score": 30
+    },
+    {
+      "section": "技术与研究",
+      "title": "Anthropic编程智能体负责人分享Vibe Coding大师课",
+      "company": "Anthropic",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-20-4",
+      "source": "机器之心",
+      "publishedAt": "2026-04-20T13:22:00+08:00",
+      "summary": "Anthropic研究员Erik Schluntz在《构建高效智能体》合著者身份之外，分享了自己在摔断手打石膏期间如何依靠Claude继续工作的经历。随着AI技术重塑软件行业规则，Vibe Coding已成为企业提升生产效率的重要方式。文章介绍了相关实践方法与思考。",
+      "score": 27
+    },
+    {
+      "section": "技术与研究",
+      "title": "人大高瓴提出长程研究工程系统AiScientist，推动AI从论文走向实验室",
+      "company": "人大高瓴",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-20-8",
+      "source": "机器之心",
+      "publishedAt": "2026-04-20T14:28:00+08:00",
+      "summary": "中国人民大学高瓴人工智能学院提出名为AiScientist的长程研究工程系统。该系统旨在应对机器学习研究工程这一复杂场景，其核心目标是辅助研究者完成从问题提出到结果分析的完整研究流程，而非处理单一任务。这标志着AI for Science领域正朝着为科学研究提供更系统化、全流程辅助的方向发展。",
       "score": 26
+    },
+    {
+      "section": "技术与研究",
+      "title": "ATEC2026真实世界极限挑战启动全球招募，聚焦具身智能能力验证",
+      "company": "ATEC前沿科技探索社区",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-20-9",
+      "source": "机器之心",
+      "publishedAt": "2026-04-20T14:33:00+08:00",
+      "summary": "ATEC前沿科技探索社区近日启动了ATEC2026“人工智能与机器人真实世界极限挑战”。该赛事旨在验证具身智能在开放、动态和非结构化环境中的真实能力，并构建了“线上仿真-线下迁移-真实环境验证”的完整赛制框架。赛事致力于推动行业建立更加公开、可对照且可复现的能力评测体系。",
+      "score": 22
+    },
+    {
+      "section": "技术与研究",
+      "title": "新型灵巧手展现高抗冲击能力，可承受手撕、翻滚和暴力砸地",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-20-7",
+      "source": "机器之心",
+      "publishedAt": "2026-04-20T14:26:00+08:00",
+      "summary": "近期人形机器人演示中，高难度动作往往不配备灵巧手，例如波士顿动力Atlas在翻滚时手部被移除。一款新型灵巧手被报道称能够承受手撕、翻滚和暴力砸地等极端测试，展现出高耐用性。该报道基于社交媒体上分享的相关信息。",
+      "score": 22
     },
     {
       "section": "技术与研究",
@@ -183,38 +263,8 @@
       "url": "https://www.leiphone.com/category/industrynews/3Z4Dznh0Tsbg24UJ.html",
       "source": "雷锋网",
       "publishedAt": "Sun, 19 Apr 2026 22:51:00 +0800",
-      "summary": "在广州举办的斗虾赛上，各路选手展示了将个人经验与技能提炼成AI技能的“蒸馏”过程，现场诞生了近50个技能包。一位零技术背景的女选手蒸馏了具有四百年生活经验的“老广街坊”，创造出能用地道老广语气沟通的AI技能，并希望设计技能帮助同乡老板解决客户排队问题。",
-      "score": 25
-    },
-    {
-      "section": "技术与研究",
-      "title": "YouTube引入AI内容质量评估机制，用户可举报低质量AI生成视频",
-      "company": "谷歌",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-19-6",
-      "source": "机器之心",
-      "publishedAt": "2026-04-19T22:56:00+08:00",
-      "summary": "YouTube近期向用户发起了一项调查，询问用户观看的视频是否具有“AI烂片”的感觉，评分范围从“完全没有”到“极其明显”，由用户自行判断。平台表示此举旨在打击泛滥的低质量AI生成内容。消息发布后，部分用户对此表示支持，认为YouTube终于开始整治乱象，但也有人对此持不同看法。",
-      "score": 24
-    },
-    {
-      "section": "技术与研究",
-      "title": "高德全自主具身机器人亮相亦庄马拉松，成功完成导盲挑战",
-      "company": "高德",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-19-5",
-      "source": "机器之心",
-      "publishedAt": "2026-04-19T22:52:00+08:00",
-      "summary": "今天上午，北京亦庄举办了2026人形机器人半程马拉松比赛，来自国内外数十家团队的300余台机器人在城市主干道、GT赛车级复杂路段等多样地形中展开竞技。在众多形态各异的人形机器人中，高德的全自主具身机器人参与了比赛，并成功完成了“导盲”这一硬核考题。",
-      "score": 24
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "SK海力士将量产用于英伟达Vera Rubin芯片的SOCAMM2服务器模块",
-      "company": "SK海力士",
-      "url": "https://36kr.com/newsflashes/3774391996728064?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-20 07:58:02  +0800",
-      "summary": "SK海力士宣布将开始量产专为英伟达Vera Rubin芯片设计的SOCAMM2服务器内存模块。该模块将原本主要用于智能手机等移动产品的低功耗内存应用于服务器环境，旨在成为下一代人工智能服务器的主要内存解决方案。",
-      "score": 20
+      "summary": "在广州举办的斗虾赛上，各路选手展示了将个人经验或技能提炼成AI技能包的“蒸馏”技术。一位零技术背景的女选手成功蒸馏了具有四百年生活经验的“老广街坊”，创造出能用地道老广语气沟通的AI技能，并希望设计技能帮助同乡老板解决客户排队问题。",
+      "score": 16
     },
     {
       "section": "技术与研究",
@@ -225,56 +275,6 @@
       "publishedAt": "Sat, 18 Apr 2026 19:36:00 +0800",
       "summary": "4月12日，2026广汽科技日在广汽集团番禺总部举行。本届科技日集中发布了星灵架构4.0、芯片生态、星源动力、星舰车身及星河智舱五大领域的最新技术成果，展示了广汽在底层架构、自研芯片及动力集成上的硬核进阶。",
       "score": 36
-    },
-    {
-      "section": "技术与研究",
-      "title": "智元机器人发布AI大模型平台与开放生态战略",
-      "company": "智元机器人",
-      "url": "https://36kr.com/p/3770721219035649?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-18 10:00:00  +0800",
-      "summary": "智元机器人公司在合作伙伴大会上宣布，将不再局限于硬件制造，而是致力于构建AI大模型平台和开放生态。公司推出了六大AI模型、七大生产力解决方案，并首次公开了AIMA全栈生态技术体系，这些软件将与硬件机器人共同构成“一体三智”架构。",
-      "score": 27
-    },
-    {
-      "section": "技术与研究",
-      "title": "荣耀人形机器人“闪电”夺冠2026亦庄半程马拉松",
-      "company": "荣耀",
-      "url": "https://36kr.com/p/3773492357169920?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-19 16:35:02  +0800",
-      "summary": "4月19日，2026北京亦庄人形机器人半程马拉松比赛成功举办。荣耀齐天大圣队参赛选手机器人“闪电”以50分26秒（净用时）的成绩斩获赛事冠军，另一款参赛机器人“元气仔”以优美的跑姿同步完成赛事，展现了荣耀在人形机器人领域的深厚技术积淀与领先实力。",
-      "score": 25
-    },
-    {
-      "section": "投融资与并购",
-      "title": "环晶芯科技获数千万元天使轮融资，实现临时键合载板无损回收复用",
-      "company": "环晶芯科技",
-      "url": "https://36kr.com/p/3773090942321155?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-19 09:46:49  +0800",
-      "summary": "环晶芯科技近期完成数千万元天使轮融资，由啟赋资本领投，资金将用于无锡量产线建设及研发。该公司由前华为工程师创立，是国内首家提出临时键合载板无损回收复用方案的企业，其核心技术可解决先进封装中载板因残胶难清而一次性使用造成的成本浪费问题，处理后的载板关键指标与全新产品一致。",
-      "score": 20
-    },
-    {
-      "section": "技术与研究",
-      "title": "AAAI 2026首次采用AI审稿，单日处理两万篇成本不足一美元",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-19-2",
-      "source": "机器之心",
-      "publishedAt": "2026-04-19T22:32:00+08:00",
-      "summary": "为应对海量投稿压力，顶级学术会议正逐步引入AI审稿。例如，ICML 2026已放宽对AI审稿的限制，但尚未允许完全由AI独立执行评审。这表明学术界对AI辅助评审的接受度正在提升，旨在探索高效处理论文的新方法。",
-      "score": 15
-    },
-    {
-      "section": "技术与研究",
-      "title": "智元加入Hitch Open AI自主决策乒乓挑战赛，共建具身智能学术生态",
-      "company": "智元",
-      "url": "https://www.leiphone.com/category/industrynews/DNm9uCEqB79qKm8k.html",
-      "source": "雷锋网",
-      "publishedAt": "Sun, 19 Apr 2026 21:32:00 +0800",
-      "summary": "2026年4月17日，在上海举行的智元全球合作伙伴大会上，智元正式宣布加入Hitch Open AI自主决策乒乓挑战赛，成为其具身智能本体战略合作伙伴。此次合作标志着中国具身智能头部企业通过国际开放竞技平台，与全球顶尖学术资源实现深度整合，探索出“开放平台+生态共创”的国际合作新模式。",
-      "score": 15
     }
   ]
 }
