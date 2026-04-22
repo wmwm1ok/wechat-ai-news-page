@@ -2,7 +2,11 @@ name: AI Daily News
 
 on:
   schedule:
-    - cron: '0 7 * * *'
+    # UTC 时间；对应北京时间 08:00 / 08:10 / 08:20 / 08:30
+    - cron: '0 0 * * *'
+    - cron: '10 0 * * *'
+    - cron: '20 0 * * *'
+    - cron: '30 0 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -24,16 +28,57 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
+      - name: Schedule guard (08:00-08:30 CST only)
+        id: schedule_guard
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" != "schedule" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "reason=manual-or-non-schedule" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          hour=$(TZ=Asia/Shanghai date +'%H')
+          minute=$(TZ=Asia/Shanghai date +'%M')
+          current_total=$((10#$hour * 60 + 10#$minute))
+          start_total=$((8 * 60))
+          end_total=$((8 * 60 + 30))
+
+          if [ "$current_total" -lt "$start_total" ] || [ "$current_total" -gt "$end_total" ]; then
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "reason=outside-08:00-08:30-window" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          date_str=$(TZ=Asia/Shanghai date +'%Y-%m-%d')
+          git fetch origin main --depth=1
+
+          if git cat-file -e "origin/main:output/news-${date_str}.json" 2>/dev/null; then
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "reason=already-generated-${date_str}" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "should_run=true" >> "$GITHUB_OUTPUT"
+          echo "reason=within-window-and-not-generated" >> "$GITHUB_OUTPUT"
+
+      - name: Guard result
+        run: echo "should_run=${{ steps.schedule_guard.outputs.should_run }}, reason=${{ steps.schedule_guard.outputs.reason }}"
+
       - name: Setup Node.js
+        if: steps.schedule_guard.outputs.should_run == 'true'
         uses: actions/setup-node@v5
         with:
           node-version: '20'
           cache: 'npm'
 
       - name: Install dependencies
+        if: steps.schedule_guard.outputs.should_run == 'true'
         run: npm install
 
       - name: Fetch and generate news
+        if: steps.schedule_guard.outputs.should_run == 'true'
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DEEPSEEK_API_URL: ${{ secrets.DEEPSEEK_API_URL }}
@@ -42,6 +87,7 @@ jobs:
         run: npm start
 
       - name: Upload artifacts
+        if: steps.schedule_guard.outputs.should_run == 'true'
         uses: actions/upload-artifact@v6
         with:
           name: news-output
@@ -51,16 +97,16 @@ jobs:
           retention-days: 30
 
       - name: Commit generated files
+        if: steps.schedule_guard.outputs.should_run == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          git add -f latest.json latest-*.json output/*.json
+          git add -f latest.json output/*.json
 
           if ! git diff --cached --quiet; then
-            EDITION=$(node --input-type=module -e "import latest from './latest.json' with { type: 'json' }; console.log(latest.edition || 'daily');")
             DATE=$(TZ=Asia/Shanghai date +'%Y-%m-%d')
-            git commit -m "Update AI ${EDITION} news: ${DATE}"
+            git commit -m "Update AI daily news: ${DATE}"
             git push
           else
             echo "No generated file changes"

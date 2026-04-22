@@ -75,22 +75,10 @@ if [ -n "$DEEPSEEK_KEY" ]; then
     echo "✅ DEEPSEEK_API_KEY 已设置"
 fi
 
-read -p "请输入微信公众号 AppID: " WECHAT_APPID
-if [ -n "$WECHAT_APPID" ]; then
-    gh secret set WECHAT_APPID -b"$WECHAT_APPID" -R "$USERNAME/$REPO_NAME"
-    echo "✅ WECHAT_APPID 已设置"
-fi
-
-read -p "请输入微信公众号 AppSecret: " WECHAT_SECRET
-if [ -n "$WECHAT_SECRET" ]; then
-    gh secret set WECHAT_SECRET -b"$WECHAT_SECRET" -R "$USERNAME/$REPO_NAME"
-    echo "✅ WECHAT_SECRET 已设置"
-fi
-
-read -p "请输入 GNews API Key (可选，直接回车跳过): " GNEWS_KEY
-if [ -n "$GNEWS_KEY" ]; then
-    gh secret set GNEWS_API_KEY -b"$GNEWS_KEY" -R "$USERNAME/$REPO_NAME"
-    echo "✅ GNEWS_API_KEY 已设置"
+read -p "请输入 Serper API Key (可选，直接回车跳过): " SERPER_KEY
+if [ -n "$SERPER_KEY" ]; then
+    gh secret set SERPER_API_KEY -b"$SERPER_KEY" -R "$USERNAME/$REPO_NAME"
+    echo "✅ SERPER_API_KEY 已设置"
 fi
 
 echo ""
@@ -98,8 +86,8 @@ echo "✨ 部署完成！"
 echo ""
 echo "📋 后续步骤:"
 echo "   1. 访问 https://github.com/$USERNAME/$REPO_NAME/actions"
-echo "   2. 点击 'AI Daily News Publisher' → 'Run workflow'"
-echo "   3. 勾选 '试运行模式' 进行测试"
+echo "   2. 点击 'AI Daily News' → 'Run workflow'"
+echo "   3. 等待任务完成后访问 GitHub Pages 页面检查结果"
 echo ""
 echo "📖 详细文档: https://github.com/$USERNAME/$REPO_NAME/blob/main/README.md"
 echo ""

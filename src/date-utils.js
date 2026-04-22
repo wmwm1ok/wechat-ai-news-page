@@ -5,22 +5,7 @@ export const NEWS_EDITIONS = {
     slug: 'daily',
     label: '每日精选',
     title: BRAND_NAME,
-    englishLabel: '',
-    releaseTime: '15:00'
-  },
-  morning: {
-    slug: 'morning',
-    label: '早报',
-    title: `${BRAND_NAME}·早报`,
-    englishLabel: 'Morning',
     releaseTime: '08:00'
-  },
-  afternoon: {
-    slug: 'afternoon',
-    label: '午后版',
-    title: `${BRAND_NAME}·午后版`,
-    englishLabel: 'Afternoon',
-    releaseTime: '16:00'
   }
 };
 
@@ -88,10 +73,6 @@ export function inferNewsEdition(date = new Date()) {
 }
 
 export function normalizeNewsEdition(edition, referenceDate = new Date()) {
-  if (edition && NEWS_EDITIONS[edition]) {
-    return edition;
-  }
-
   return inferNewsEdition(referenceDate);
 }
 
@@ -105,28 +86,9 @@ export function shiftDateByDays(date = new Date(), offsetDays = 0) {
 }
 
 export function getPreviousEditionInfo(date = new Date(), edition) {
-  const normalizedEdition = normalizeNewsEdition(edition, date);
-
-  if (normalizedEdition === 'daily') {
-    const previousDate = shiftDateByDays(date, -1);
-    return {
-      edition: 'daily',
-      date: previousDate,
-      dateString: getBeijingDateString(previousDate)
-    };
-  }
-
-  if (normalizedEdition === 'afternoon') {
-    return {
-      edition: 'morning',
-      date: date,
-      dateString: getBeijingDateString(date)
-    };
-  }
-
   const previousDate = shiftDateByDays(date, -1);
   return {
-    edition: 'afternoon',
+    edition: normalizeNewsEdition(edition, date),
     date: previousDate,
     dateString: getBeijingDateString(previousDate)
   };

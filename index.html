@@ -8,8 +8,9 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', sans-serif;
-            background: #f5f5f5;
+            background: linear-gradient(180deg, #f4f7fb 0%, #eef3f9 100%);
             padding-bottom: 100px;
+            color: #1f2937;
         }
         .header {
             background: linear-gradient(135deg, #1c5cff 0%, #00c6ff 100%);
@@ -104,9 +105,9 @@
         #rich-editor {
             padding: 20px;
             min-height: 420px;
-            font-size: 15px;
-            line-height: 1.8;
-            color: #333;
+            font-size: 16px;
+            line-height: 1.9;
+            color: #1f2937;
             outline: none;
             background: #fff;
         }
@@ -267,6 +268,37 @@
             font-size: 12px;
             cursor: pointer;
         }
+        .mini-btn.jump {
+            background: #fff;
+            border-color: #d1d5db;
+            color: #475569;
+        }
+        .digest-card {
+            margin: 0 0 18px;
+            border: 1px solid #dbeafe;
+            border-left: 4px solid #1c5cff;
+            border-radius: 10px;
+            background: #f8fbff;
+            padding: 14px 14px 12px;
+        }
+        .digest-title {
+            font-size: 15px;
+            color: #1c5cff;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .digest-item {
+            font-size: 13px;
+            color: #334155;
+            line-height: 1.7;
+            margin: 4px 0;
+        }
+        .quick-nav {
+            margin: 0 0 18px;
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
     </style>
 </head>
 <body>
@@ -279,6 +311,7 @@
     <div class="action-bar" id="action-bar" style="display: none;">
         <p>💡 可先在下方编辑区微调内容<br>再点击复制，粘贴到公众号助手里尽量保留格式</p>
         <button class="btn" onclick="copyForWechat()">📋 复制全部内容</button>
+        <button class="btn btn-secondary" onclick="copyPlainText()">📝 复制纯文本</button>
     </div>
     
     <div class="tips" id="tips" style="display: none;">
@@ -312,7 +345,7 @@
     
     <div class="footer">
         <p id="footer-title">AI资讯每日精选 · 自动生成</p>
-        <p style="margin-top: 8px; opacity: 0.7;">北京时间每天 15:00 更新</p>
+        <p style="margin-top: 8px; opacity: 0.7;">北京时间每天 08:00 更新</p>
     </div>
     
     <div class="toast" id="toast"></div>
@@ -387,13 +420,14 @@
         function renderContent(data) {
             const beijingToday = formatBeijingToday();
             const pageTitle = data.title || 'AI资讯每日精选';
-            const editionSuffix = data.editionLabel ? ` · ${escapeHtml(data.editionLabel)}` : '';
             document.getElementById('current-date').textContent = beijingToday;
             document.getElementById('page-title').textContent = `🤖 ${pageTitle}`;
             document.getElementById('footer-title').textContent = `${pageTitle} · 自动生成`;
+            const summaryTextLength = (data.articles || []).reduce((sum, article) => sum + String(article.summary || '').length, 0);
+            const estimatedMinutes = Math.max(1, Math.round(summaryTextLength / 480));
             const countLabel = data.targetCount && data.count < data.targetCount
-                ? `内容更新于 ${escapeHtml(data.generatedAt)}${editionSuffix} · 本期 ${data.count}/${data.targetCount} 条`
-                : (data.generatedAt ? `内容更新于 ${escapeHtml(data.generatedAt)}${editionSuffix}` : `共 ${data.count} 条精选资讯`);
+                ? `内容更新于 ${escapeHtml(data.generatedAt)} · 本期 ${data.count}/${data.targetCount} 条 · 约 ${estimatedMinutes} 分钟读完`
+                : (data.generatedAt ? `内容更新于 ${escapeHtml(data.generatedAt)} · 共 ${data.count} 条 · 约 ${estimatedMinutes} 分钟读完` : `共 ${data.count} 条精选资讯`);
             document.getElementById('article-count').textContent = countLabel;
 
             const editor = document.getElementById('rich-editor');
@@ -419,8 +453,10 @@
 <section style="max-width:677px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;line-height:1.8;color:#333;">
     <div style="text-align:center;padding:14px 0 22px;border-bottom:2px solid #1c5cff;margin-bottom:22px;">
         <h1 style="color:#1c5cff;margin:0 0 8px;font-size:26px;line-height:1.4;font-weight:900;">${escapeHtml(pageTitle)}</h1>
-        <p style="color:#94a3b8;margin:0;font-size:13px;">${escapeHtml(data.date)}${data.editionLabel ? ` · ${escapeHtml(data.editionLabel)}` : ''}</p>
+        <p style="color:#94a3b8;margin:0;font-size:13px;">${escapeHtml(data.date)} · 约 ${estimatedMinutes} 分钟阅读</p>
     </div>
+    ${renderDigestCard(data.articles || [])}
+    ${renderQuickNav(sections)}
 `;
 
             SECTION_ORDER.forEach(section => {
@@ -457,19 +493,20 @@
             const display = diagnostics.display || {};
 
             container.innerHTML = `
-                <div>刊别：${data.editionLabel || '-'}${(diagnostics.previousDayFile || diagnostics.previousEditionFile) ? `；去重对照 ${escapeHtml(diagnostics.previousDayFile || diagnostics.previousEditionFile)}` : ''}</div>
+                <div>去重对照：${diagnostics.previousDayFile ? escapeHtml(diagnostics.previousDayFile) : '无可用历史文件'}</div>
                 <div>抓取后候选：国内 ${fetchInfo.domesticAfterDedup ?? '-'} 条，海外 ${fetchInfo.overseasAfterDedup ?? '-'} 条</div>
                 <div>Serper：${serper.enabled ? `已启用，补充 ${serper.count ?? 0} 条（${serper.queryCount ?? 0} 个查询）` : '未启用或未配置'}</div>
                 <div>评分后候选：${scoring.totalScored ?? '-'} 条；过滤重复 ${scoring.duplicateCount ?? 0} 条，低质量 ${scoring.lowQualityCount ?? 0} 条</div>
-                <div>前一天去重再过滤：${display.previousEditionRemovedCount ?? 0} 条；一致性再过滤：${display.integrityRemovedCount ?? 0} 条；精修后剩余 ${display.postEditionFilterCount ?? '-'} 条</div>
+                <div>前一天去重再过滤：${display.previousDayRemovedCount ?? 0} 条；一致性再过滤：${display.integrityRemovedCount ?? 0} 条；精修后剩余 ${display.postPreviousDayFilterCount ?? '-'} 条</div>
                 <div>精修后可展示：${display.displayReadyCount ?? '-'} 条；过滤掉不适合展示的摘要 ${display.removedWeakSummaries ?? 0} 条</div>
                 <div>最终输出：${data.count} / ${data.targetCount || data.count} 条</div>
             `;
         }
 
         function renderSection(section, items, color) {
+            const sectionId = `section-${slugifySection(section)}`;
             let html = `
-    <h2 style="color:${color};font-size:18px;line-height:1.5;border-left:4px solid ${color};padding:2px 0 2px 10px;margin:26px 0 16px;font-weight:800;">
+    <h2 id="${sectionId}" style="color:${color};font-size:18px;line-height:1.5;border-left:4px solid ${color};padding:2px 0 2px 10px;margin:26px 0 16px;font-weight:800;">
         ${escapeHtml(section)}
     </h2>
 `;
@@ -483,12 +520,49 @@
             ${index + 1}. ${item.company ? `<strong style="color:${color};">${escapeHtml(item.company)}</strong> · ` : ''}${escapeHtml(item.title)}
         </h3>
         ${meta ? `<p style="font-size:12px;color:#6b7280;margin:0 0 10px;">${meta}</p>` : ''}
+        <p style="font-size:13px;color:#0f766e;margin:0 0 10px;line-height:1.75;background:#ecfeff;border-left:3px solid #14b8a6;padding:8px 10px;border-radius:6px;">
+            <strong>要点：</strong>${escapeHtml(extractLeadSentence(item.summary))}
+        </p>
         <p style="font-size:14px;color:#374151;margin:0;line-height:1.85;text-align:justify;">${escapeHtml(item.summary)}</p>
     </section>
 `;
             });
 
             return html;
+        }
+
+        function renderDigestCard(articles) {
+            const topItems = [...articles]
+                .sort((a, b) => Number(b.score || 0) - Number(a.score || 0))
+                .slice(0, 3);
+
+            if (topItems.length === 0) {
+                return '';
+            }
+
+            const itemsHtml = topItems.map((item, index) => `
+                <div class="digest-item">${index + 1}. ${escapeHtml(item.title)}</div>
+            `).join('');
+
+            return `
+                <div class="digest-card">
+                    <div class="digest-title">📌 今日速览</div>
+                    ${itemsHtml}
+                </div>
+            `;
+        }
+
+        function renderQuickNav(sections) {
+            const availableSections = SECTION_ORDER.filter(section => sections[section] && sections[section].length > 0);
+            if (availableSections.length <= 1) {
+                return '';
+            }
+
+            const buttons = availableSections.map(section => `
+                <button class="mini-btn jump" type="button" onclick="jumpToSection('${slugifySection(section)}')">${escapeHtml(section)}</button>
+            `).join('');
+
+            return `<div class="quick-nav">${buttons}</div>`;
         }
 
         function renderSourceLinks(data) {
@@ -540,6 +614,26 @@
             }).format(new Date());
         }
 
+        function slugifySection(section) {
+            return String(section || '')
+                .replace(/\s+/g, '-')
+                .replace(/[^\u4e00-\u9fa5a-zA-Z0-9_-]/g, '');
+        }
+
+        function extractLeadSentence(summary) {
+            const text = String(summary || '').trim();
+            if (!text) return '暂无摘要要点。';
+            const parts = text.split(/(?<=[。！？])/);
+            const first = parts.find(Boolean) || text;
+            return first.length > 70 ? `${first.slice(0, 70).trim()}…` : first;
+        }
+
+        function jumpToSection(sectionSlug) {
+            const target = document.getElementById(`section-${sectionSlug}`);
+            if (!target) return;
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
         async function copyForWechat() {
             const editor = document.getElementById('rich-editor');
             const html = editor.innerHTML;
@@ -568,6 +662,18 @@
                     console.error('兼容复制失败:', fallbackError);
                     showToast('❌ 复制失败，请手动全选后复制', 'error');
                 }
+            }
+        }
+
+        async function copyPlainText() {
+            const editor = document.getElementById('rich-editor');
+            const text = editor.innerText;
+            try {
+                await navigator.clipboard.writeText(text);
+                showToast('✅ 已复制纯文本内容', 'success');
+            } catch (error) {
+                console.error('纯文本复制失败:', error);
+                showToast('❌ 纯文本复制失败，请手动全选复制', 'error');
             }
         }
 

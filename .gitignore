@@ -40,7 +40,6 @@ output/*.html
 
 # JSON 数据文件（需要提交用于跨天去重）
 !latest.json
-!latest-*.json
 
 dist/
 

@@ -9,9 +9,7 @@ import {
   getBeijingDateString,
   getBeijingDisplayDate,
   getBeijingDisplayDateTime,
-  getEditionMeta,
-  getPreviousEditionInfo,
-  normalizeNewsEdition
+  getEditionMeta
 } from './date-utils.js';
 
 async function saveOutput(baseDir, filename, content) {
@@ -22,7 +20,7 @@ async function saveOutput(baseDir, filename, content) {
   await fs.writeFile(filepath, content, 'utf-8');
   console.log(`💾 已保存: ${filepath}`);
 
-  if (filename === 'latest.json' || filename.startsWith('latest-')) {
+  if (filename === 'latest.json') {
     const rootPath = path.join(baseDir, filename);
     await fs.writeFile(rootPath, content, 'utf-8');
     console.log(`💾 已保存: ${rootPath}`);
@@ -56,35 +54,14 @@ function flattenNewsItems(data) {
   return news;
 }
 
-async function loadPreviousEditionNews(baseDir, referenceDate = new Date(), edition = 'morning') {
-  const primaryPrevious = getPreviousEditionInfo(referenceDate, edition);
-  const candidateFiles = [];
-  const seenFiles = new Set();
-  const addCandidate = (dateString, editionSlug) => {
-    const editionPath = path.join(baseDir, 'output', `news-${dateString}-${editionSlug}.json`);
-    const legacyPath = path.join(baseDir, 'output', `news-${dateString}.json`);
-    if (!seenFiles.has(editionPath)) {
-      candidateFiles.push(editionPath);
-      seenFiles.add(editionPath);
-    }
-    if (!seenFiles.has(legacyPath)) {
-      candidateFiles.push(legacyPath);
-      seenFiles.add(legacyPath);
-    }
-  };
-
-  addCandidate(primaryPrevious.dateString, primaryPrevious.edition);
-
-  if (primaryPrevious.edition === 'daily') {
-    addCandidate(primaryPrevious.dateString, 'afternoon');
-    addCandidate(primaryPrevious.dateString, 'morning');
-  } else if (primaryPrevious.edition === 'afternoon') {
-    addCandidate(primaryPrevious.dateString, 'daily');
-    const fallbackDate = getPreviousEditionInfo(primaryPrevious.date, 'morning');
-    addCandidate(fallbackDate.dateString, fallbackDate.edition);
-  } else if (primaryPrevious.edition === 'morning') {
-    addCandidate(primaryPrevious.dateString, 'daily');
-  }
+async function loadPreviousDayNews(baseDir, referenceDate = new Date()) {
+  const yesterday = new Date(referenceDate);
+  yesterday.setDate(yesterday.getDate() - 1);
+  const dateStr = getBeijingDateString(yesterday);
+  const candidateFiles = [
+    path.join(baseDir, 'output', `news-${dateStr}.json`),
+    path.join(baseDir, 'output', `news-${dateStr}-daily.json`)
+  ];
 
   for (const filepath of candidateFiles) {
     try {
@@ -92,7 +69,7 @@ async function loadPreviousEditionNews(baseDir, referenceDate = new Date(), edit
       const data = JSON.parse(content);
       const news = flattenNewsItems(data);
       const filename = path.basename(filepath);
-      console.log(`📅 加载前一天新闻: ${news.length} 条（${filename}）`);
+      console.log(`📅 加载昨日新闻: ${news.length} 条（${filename}）`);
       return {
         news,
         sourceFile: filename
@@ -109,8 +86,8 @@ async function loadPreviousEditionNews(baseDir, referenceDate = new Date(), edit
   };
 }
 
-function buildEditionOutputName(prefix, date, edition, extension) {
-  return `${prefix}-${date}-${edition}.${extension}`;
+function buildOutputName(prefix, date, extension) {
+  return `${prefix}-${date}.${extension}`;
 }
 
 function isReusablePreviousDayDuplicate(duplicateCheck, item) {
@@ -255,24 +232,6 @@ function restoreReusablePreviousDayItems(items, reusableRemovedItems, targetCoun
     kept: [...items, ...restored],
     restored
   };
-}
-
-async function loadYesterdayNews(baseDir, referenceDate = new Date()) {
-  try {
-    const yesterday = new Date(referenceDate);
-    yesterday.setDate(yesterday.getDate() - 1);
-    const dateStr = getBeijingDateString(yesterday);
-    const filepath = path.join(baseDir, 'output', `news-${dateStr}.json`);
-    const content = await fs.readFile(filepath, 'utf-8');
-    const data = JSON.parse(content);
-    const news = flattenNewsItems(data);
-
-    console.log(`📅 加载昨日新闻: ${news.length} 条（${dateStr}）`);
-    return news;
-  } catch {
-    console.log('⚠️  未找到昨日新闻文件，跨天去重功能未生效');
-    return [];
-  }
 }
 
 function normalizeCategories(topNews) {
@@ -429,11 +388,9 @@ export async function runDailyNews(options = {}) {
   const {
     baseDir = process.cwd(),
     now = new Date(),
-    targetCount = 14,
-    edition: requestedEdition
+    targetCount = 14
   } = options;
-  const edition = normalizeNewsEdition(requestedEdition || process.env.NEWS_EDITION, now);
-  const editionMeta = getEditionMeta(edition, now);
+  const editionMeta = getEditionMeta('daily', now);
 
   console.log('\n' + '='.repeat(60));
   console.log(`🚀 AI 新闻智能筛选系统 (专业版 · ${editionMeta.label})`);
@@ -455,14 +412,12 @@ export async function runDailyNews(options = {}) {
   const allNews = await summarizeNews(news);
   console.log(`\n📝 AI总结完成: ${allNews.length} 条新闻`);
 
-  const previousEditionData = await loadPreviousEditionNews(baseDir, now, edition);
-  const previousEditionNews = previousEditionData.news.length > 0
-    ? previousEditionData.news
-    : await loadYesterdayNews(baseDir, now);
+  const previousDayData = await loadPreviousDayNews(baseDir, now);
+  const previousDayNews = previousDayData.news;
   const candidateTargetCount = Math.max(targetCount + 12, Math.ceil(targetCount * 2.2));
 
   console.log('\n🎯 开始质量评分...');
-  const selectedNews = selectTopNews(allNews, candidateTargetCount, previousEditionNews);
+  const selectedNews = selectTopNews(allNews, candidateTargetCount, previousDayNews);
   const refinedNews = await refineSelectedNews(selectedNews);
   const normalizedRefinedNews = refinedNews.map(item => ({
     ...item,
@@ -472,20 +427,20 @@ export async function runDailyNews(options = {}) {
       summary: normalizeDisplaySummary(item.summary)
     })
   }));
-  const previousEditionFiltered = filterAgainstPreviousEdition(normalizedRefinedNews, previousEditionNews, targetCount);
-  if (previousEditionFiltered.removed.length > 0) {
-    console.log(`\n🧱 前一天去重: 额外过滤 ${previousEditionFiltered.removed.length} 条与前一天重复的候选`);
+  const previousDayFiltered = filterAgainstPreviousEdition(normalizedRefinedNews, previousDayNews, targetCount);
+  if (previousDayFiltered.removed.length > 0) {
+    console.log(`\n🧱 前一天去重: 额外过滤 ${previousDayFiltered.removed.length} 条与前一天重复的候选`);
   }
-  if (previousEditionFiltered.restored.length > 0) {
-    console.log(`\n🪜 前一天回补: 在版面不足时恢复 ${previousEditionFiltered.restored.length} 条前一天重复候选`);
+  if (previousDayFiltered.restored.length > 0) {
+    console.log(`\n🪜 前一天回补: 在版面不足时恢复 ${previousDayFiltered.restored.length} 条前一天重复候选`);
   }
-  const integrityFiltered = filterFinalIntegrity(previousEditionFiltered.kept);
+  const integrityFiltered = filterFinalIntegrity(previousDayFiltered.kept);
   if (integrityFiltered.removed.length > 0) {
     console.log(`\n🧪 最终一致性过滤: 额外过滤 ${integrityFiltered.removed.length} 条标题与摘要不一致或相关性不足的候选`);
   }
   const latePreviousDayRestore = restoreReusablePreviousDayItems(
     integrityFiltered.kept,
-    previousEditionFiltered.reusableRemovedItems,
+    previousDayFiltered.reusableRemovedItems,
     targetCount
   );
   if (latePreviousDayRestore.restored.length > 0) {
@@ -545,30 +500,23 @@ export async function runDailyNews(options = {}) {
   const grouped = normalizeCategories(topNews);
   const date = getBeijingDateString(now);
   const displayDate = getBeijingDisplayDate(now);
-  const displayTitle = edition === 'daily'
-    ? `${editionMeta.title}-${displayDate}`
-    : (editionMeta.englishLabel ? `${editionMeta.title}（${editionMeta.englishLabel}）` : editionMeta.title);
-  const subtitle = edition === 'daily'
-    ? `${displayDate} · 北京时间 ${editionMeta.releaseTime} 更新`
-    : `${displayDate} · 北京时间 ${editionMeta.releaseTime} 版`;
+  const displayTitle = `${editionMeta.title}-${displayDate}`;
+  const subtitle = `${displayDate} · 北京时间 ${editionMeta.releaseTime} 更新`;
   const footerText = `${displayTitle} · ${displayDate}`;
   const html = generateHTML(grouped, { title: displayTitle, subtitle, footerText });
   const wechatHtml = generateWechatHTML(grouped, { title: displayTitle, subtitle, footerText });
 
-  const newsletterPath = await saveOutput(baseDir, buildEditionOutputName('newsletter', date, edition, 'html'), html);
-  const wechatPath = await saveOutput(baseDir, buildEditionOutputName('wechat', date, edition, 'html'), wechatHtml);
+  const newsletterPath = await saveOutput(baseDir, buildOutputName('newsletter', date, 'html'), html);
+  const wechatPath = await saveOutput(baseDir, buildOutputName('wechat', date, 'html'), wechatHtml);
 
   const jsonData = {
     date: displayDate,
-    edition,
-    editionLabel: editionMeta.label,
     title: displayTitle,
     generatedAt: getBeijingDisplayDateTime(now),
     count: topNews.length,
     targetCount,
     diagnostics: {
-      previousDayFile: previousEditionData.sourceFile || '',
-      previousEditionFile: previousEditionData.sourceFile || '',
+      previousDayFile: previousDayData.sourceFile || '',
       targetCount,
       candidateTargetCount,
       fetch: news.stats,
@@ -592,11 +540,11 @@ export async function runDailyNews(options = {}) {
       },
       display: {
         refinedCount: refinedNews.length,
-        previousEditionRemovedCount: previousEditionFiltered.removed.length,
-        previousEditionRestoredCount: previousEditionFiltered.restored.length,
-        previousEditionLateRestoredCount: latePreviousDayRestore.restored.length,
+        previousDayRemovedCount: previousDayFiltered.removed.length,
+        previousDayRestoredCount: previousDayFiltered.restored.length,
+        previousDayLateRestoredCount: latePreviousDayRestore.restored.length,
         integrityRemovedCount: integrityFiltered.removed.length,
-        postEditionFilterCount: filteredRefinedNews.length,
+        postPreviousDayFilterCount: filteredRefinedNews.length,
         displayReadyCount: displayReadyNews.length,
         fallbackDisplayCount,
         reserveDisplayCount,
@@ -618,9 +566,8 @@ export async function runDailyNews(options = {}) {
     }))
   };
 
-  const latestEditionOutputJsonPath = await saveOutput(baseDir, `latest-${edition}.json`, JSON.stringify(jsonData, null, 2));
   const latestOutputJsonPath = await saveOutput(baseDir, 'latest.json', JSON.stringify(jsonData, null, 2));
-  const historyJsonPath = await saveOutput(baseDir, buildEditionOutputName('news', date, edition, 'json'), JSON.stringify(grouped, null, 2));
+  const historyJsonPath = await saveOutput(baseDir, buildOutputName('news', date, 'json'), JSON.stringify(grouped, null, 2));
 
   console.log(`\n${'='.repeat(60)}`);
   console.log('📊 最终输出统计');
@@ -648,7 +595,6 @@ export async function runDailyNews(options = {}) {
     files: {
       latestJsonPath: path.join(baseDir, 'latest.json'),
       latestOutputJsonPath,
-      latestEditionOutputJsonPath,
       historyJsonPath,
       newsletterPath,
       wechatPath

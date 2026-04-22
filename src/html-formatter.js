@@ -39,6 +39,48 @@ function formatDate(dateStr) {
   }
 }
 
+function flattenGroupedNews(groupedNews) {
+  const all = [];
+  for (const items of Object.values(groupedNews || {})) {
+    if (Array.isArray(items)) {
+      all.push(...items);
+    }
+  }
+  return all;
+}
+
+function extractDigestLine(summary = '', limit = 64) {
+  const normalized = String(summary || '').trim();
+  if (!normalized) return '';
+  const firstSentence = (normalized.split(/(?<=[。！？])/).find(Boolean) || normalized).trim();
+  return firstSentence.length > limit ? `${firstSentence.slice(0, limit).trim()}…` : firstSentence;
+}
+
+function renderDigestBlock(items = []) {
+  const ranked = [...items]
+    .sort((a, b) => Number(b.score || 0) - Number(a.score || 0))
+    .slice(0, 3);
+
+  if (ranked.length === 0) {
+    return '';
+  }
+
+  const lines = ranked
+    .map((item, index) => `
+      <div style="margin-top:${index === 0 ? 0 : 8}px;font-size:13px;color:#334155;line-height:1.75;">
+        ${index + 1}. ${escapeHtml(item.title)}${extractDigestLine(item.summary) ? `：${escapeHtml(extractDigestLine(item.summary))}` : ''}
+      </div>
+    `)
+    .join('');
+
+  return `
+    <div style="background:#f8fbff;border:1px solid #dbeafe;border-left:4px solid #1c5cff;border-radius:10px;padding:14px 16px;margin-bottom:22px;">
+      <div style="font-size:15px;color:#1c5cff;font-weight:800;margin-bottom:8px;">📌 今日速览</div>
+      ${lines}
+    </div>
+  `;
+}
+
 /**
  * 渲染单条新闻卡片
  */
@@ -132,6 +174,7 @@ export function generateHTML(groupedNews, options = {}) {
   const footerText = options.footerText || `AI资讯每日精选-${date}`;
   
   const content = renderContent(groupedNews);
+  const digest = renderDigestBlock(flattenGroupedNews(groupedNews));
   const coveredSections = SECTION_ORDER
     .filter(section => groupedNews[section]?.length > 0)
     .map(section => SECTION_ICON[section] + section)
@@ -152,6 +195,7 @@ export function generateHTML(groupedNews, options = {}) {
       <div style="font-size:28px;font-weight:900;margin-bottom:8px;color:#1c5cff;line-height:1.35;">${escapeHtml(title)}</div>
       <div style="color:#6b7280;font-size:14px;">${escapeHtml(subtitle)}</div>
     </div>
+    ${digest}
     
     <!-- 导读 -->
     <div style="background:#f8fbff;border:1px solid #dbeafe;border-left:4px solid #1c5cff;border-radius:10px;padding:15px 16px;margin-bottom:22px;">
@@ -185,6 +229,7 @@ export function generateWechatHTML(groupedNews, options = {}) {
   const title = options.title || `AI资讯每日精选-${date}`;
   const subtitle = options.subtitle || '今日精选 AI 行业资讯';
   const footerText = options.footerText || `AI资讯每日精选-${date}`;
+  const digest = renderDigestBlock(flattenGroupedNews(groupedNews));
   
   let content = '';
   
@@ -230,6 +275,7 @@ export function generateWechatHTML(groupedNews, options = {}) {
   return `<section style="font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;line-height:1.8;color:#333;max-width:677px;margin:0 auto;padding:0 2px;">
     <h1 style="text-align:center;color:#1c5cff;font-size:24px;line-height:1.45;margin:0 0 8px;font-weight:900;">${escapeHtml(title)}</h1>
     <p style="text-align:center;color:#94a3b8;font-size:13px;margin:0 0 22px;">${escapeHtml(subtitle)}</p>
+    ${digest}
     
     <p style="background:#f8fbff;border:1px solid #dbeafe;border-left:4px solid #1c5cff;padding:12px 14px;margin:0 0 24px;font-size:13px;color:#475569;line-height:1.8;border-radius:8px;">
       📌 本期精选 AI 行业资讯。
