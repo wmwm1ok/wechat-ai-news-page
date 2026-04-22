@@ -1,21 +1,21 @@
 {
-  "date": "2026/4/21",
+  "date": "2026/4/22",
   "edition": "daily",
   "editionLabel": "每日精选",
-  "title": "AI资讯每日精选-2026/4/21",
-  "generatedAt": "2026/4/21 16:28",
+  "title": "AI资讯每日精选-2026/4/22",
+  "generatedAt": "2026/4/22 08:20",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-04-20-daily.json",
-    "previousEditionFile": "news-2026-04-20-daily.json",
+    "previousDayFile": "news-2026-04-21-daily.json",
+    "previousEditionFile": "news-2026-04-21-daily.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 27,
-      "overseasBeforeDedup": 5,
-      "domesticAfterDedup": 27,
-      "overseasAfterDedup": 5,
+      "domesticBeforeDedup": 28,
+      "overseasBeforeDedup": 19,
+      "domesticAfterDedup": 28,
+      "overseasAfterDedup": 19,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -26,7 +26,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 3,
+          "count": 4,
           "error": null
         },
         {
@@ -52,13 +52,13 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 2,
+          "count": 5,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 2,
+          "count": 5,
           "error": null
         },
         {
@@ -70,19 +70,19 @@
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 0,
+          "count": 3,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 0,
+          "count": 3,
           "error": null
         },
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 0,
+          "count": 2,
           "error": null
         }
       ],
@@ -95,187 +95,189 @@
       }
     },
     "summarize": {
-      "totalSummarized": 32
+      "totalSummarized": 47
     },
     "scoring": {
-      "totalInput": 32,
-      "totalScored": 23,
-      "strictScoredCount": 20,
-      "relaxedCandidateCount": 2,
+      "totalInput": 47,
+      "totalScored": 31,
+      "strictScoredCount": 24,
+      "relaxedCandidateCount": 6,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 9,
-      "selectedCandidateCount": 23,
-      "duplicateCount": 2,
-      "crossDayDuplicateCount": 2,
-      "lowQualityCount": 3,
-      "domesticAvailable": 18,
-      "overseasAvailable": 5,
+      "weakSummaryCount": 11,
+      "selectedCandidateCount": 31,
+      "duplicateCount": 6,
+      "crossDayDuplicateCount": 5,
+      "lowQualityCount": 4,
+      "domesticAvailable": 17,
+      "overseasAvailable": 14,
       "sourceCount": {
-        "机器之心": 5,
+        "InfoQ": 3,
         "36氪": 4,
-        "InfoQ": 4,
+        "雷锋网": 4,
+        "机器之心": 3,
+        "The Verge AI": 2,
+        "MIT Technology Review": 5,
+        "TechCrunch AI": 3,
+        "Wired AI": 2,
         "量子位": 3,
-        "雷锋网": 2,
-        "MIT Technology Review": 2,
-        "TechCrunch AI": 2,
-        "Ars Technica": 1
+        "Tech Xplore": 2
       }
     },
     "display": {
-      "refinedCount": 23,
+      "refinedCount": 31,
       "previousEditionRemovedCount": 1,
       "previousEditionRestoredCount": 0,
       "previousEditionLateRestoredCount": 0,
-      "integrityRemovedCount": 3,
-      "postEditionFilterCount": 19,
-      "displayReadyCount": 13,
-      "fallbackDisplayCount": 2,
+      "integrityRemovedCount": 2,
+      "postEditionFilterCount": 28,
+      "displayReadyCount": 20,
+      "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 6,
+      "removedWeakSummaries": 8,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "Qwen3.6-35B-A3B发布不到24小时，FlagOS社区完成多芯片适配",
-      "company": "阿里",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-21-3",
+      "title": "月之暗面发布Kimi K2.6模型，单Agent时代或将结束",
+      "company": "月之暗面",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-21-8",
       "source": "机器之心",
-      "publishedAt": "2026-04-21T14:23:00+08:00",
-      "summary": "阿里通义团队开源了最新的多模态大模型Qwen3.6-35B-A3B。在模型发布后不到24小时内，众智FlagOS社区便宣布完成了对该模型的“Day0全量适配多芯片”工作。目前，该模型已在平头哥、华为、海光、沐曦、昆仑芯、天数、英伟达等多种AI芯片上，基于众智FlagOS完成了适配部署。",
-      "score": 56
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Anthropic发布Claude Design，用自然语言生成UI设计初稿",
-      "company": "Anthropic",
-      "url": "https://www.infoq.cn/article/TH0QVHpvVGZ7VP3hAEmm?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 21 Apr 2026 14:14:32 GMT",
-      "summary": "Anthropic发布的Claude Design允许用户通过自然语言描述需求来生成可用的设计初稿，这正在动摇设计行业的专业门槛。传统设计工具如Figma凭借其成熟的工作流和在复杂设计、协作精度上的优势，短期内仍难以被替代，但AI生成设计的概念并非首次出现。",
-      "score": 38
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "JiuwenClaw率先开启“协调工程”时代，支持技能自主演进与任务动态管理",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/04/403751.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 20 Apr 2026 13:00:10 +0000",
-      "summary": "JiuwenClaw基于openJiuwen自演进框架，支持技能自主演进，当工具调用失败或用户给出负面反馈时，系统会记录错误、分析原因并生成改进建议，更新需经用户审批。它具备任务规划模式，允许用户动态打断、追加和修改任务，并实时展示状态与重新规划。",
-      "score": 27
-    },
-    {
-      "section": "技术与研究",
-      "title": "GitHub Copilot CLI 全面可用，新增自主运行模式与多模型支持",
-      "company": "GitHub",
-      "url": "https://www.infoq.cn/article/NMxQFeHUc6EPw9QERWQj?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 21 Apr 2026 10:00:00 GMT",
-      "summary": "GitHub Copilot CLI 已结束公开测试，正式进入全面可用阶段。该工具引入了更具“代理化”的环境，包括用于代码库分析的 Explore 代理和用于执行构建任务的 Task 代理，并推出了全新的 Autopilot 模式，允许 CLI 在多步骤工作流中自主运行、评估输出并动态调整策略。",
-      "score": 45
-    },
-    {
-      "section": "技术与研究",
-      "title": "跨维智能DexWorldModel获WorldArena基准榜首，研究揭示世界模型在机器人执行中的真实表现",
-      "company": "跨维智能",
-      "url": "https://www.qbitai.com/2026/04/403777.html",
-      "source": "量子位",
-      "publishedAt": "Tue, 21 Apr 2026 00:06:39 +0000",
-      "summary": "2026年2月，清华大学等机构联合发布的WorldArena基准对14个代表性世界模型进行了系统测量，发现许多所谓“世界模型”实际属于视频生成范式，主要关注视觉逻辑而非对行动有意义的状态。",
-      "score": 37
-    },
-    {
-      "section": "技术与研究",
-      "title": "中国科技员工开始训练AI替身，并引发反思与抵制",
-      "company": "未提及具体公司名",
-      "url": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Mon, 20 Apr 2026 09:00:00 +0000",
-      "summary": "中国科技公司的员工被老板要求训练AI智能体以替代自己，这在一群原本热情的早期使用者中引发了一波反思。本月早些时候，一个名为“同事技能”的GitHub项目声称，员工可以用它来“提炼”同事的技能和个性特征，并用AI进行复制。",
-      "score": 25
-    },
-    {
-      "section": "投融资与并购",
-      "title": "PettiChat获百万美元种子投资，研发宠物穿戴AI翻译器",
-      "company": "PettiChat",
-      "url": "https://36kr.com/p/3769659305427459?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-21 16:19:29  +0800",
-      "summary": "36氪获悉，宠物AI科技初创公司PettiChat于近期完成100万美元的种子轮融资。由浙大校友基金藕舫天使与华旦天使联合投资，本轮融资将主要用于动物行为世界模型的研发、高质量数据集的构建以及首款硬件产品的市场推广。",
-      "score": 55
-    },
-    {
-      "section": "投融资与并购",
-      "title": "奇世智能CheeChips完成天使轮融资，专注AI+母婴智能硬件生态",
-      "company": "奇世智能CheeChips",
-      "url": "https://36kr.com/p/3774891479712514?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-21 12:45:02  +0800",
-      "summary": "专注于AI+母婴智能生态的奇世智能CheeChips宣布完成天使轮融资。该公司推出了家用AI模拟全彩胎儿记录仪，能够记录全孕期胎儿成长，并已规划59款全新品类智能母婴产品，核心技术采用自研的母婴专用AI大模型及算法体系。",
+      "publishedAt": "2026-04-21T18:07:00+08:00",
+      "summary": "月之暗面公司于今日凌晨正式发布并开源了其Kimi系列最新一代旗舰模型Kimi K2.6，距离上一个版本K2.5的推出不到三个月。此次发布引发了高度关注，官方推文的浏览量已达到400万。文章提出，这或许标志着Agent（智能体）将告别“单打独斗”的模式，进入新的发展阶段。",
       "score": 35
     },
     {
-      "section": "政策与监管",
-      "title": "ICLR接受Oral论文后又撤回，疑因作者机构涉制裁名单",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-20-12",
-      "source": "机器之心",
-      "publishedAt": "2026-04-20T22:53:00+08:00",
-      "summary": "一篇已被ICLR会议接受为口头报告的论文，在作者于arXiv预印本平台上传论文并注明部分工作是在RAIRI机构完成后，遭到ICLR程序委员会撤回。这一事件引发了关于学术会议审查与制裁名单关联的讨论。具体信息点包括：1. 论文被撤回的直接原因是作者在arXiv上标注了与RAIRI机构的关联；2. 该事件在社交媒体上被网友以“学术铁幕”形容，突显了其争议性；3. 事件的核心在于学术会议的程序审查是否与机构制裁名单挂钩。",
-      "score": 22
+      "section": "产品发布与更新",
+      "title": "OpenAI图像生成器更新，新增联网搜索能力",
+      "company": "OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/916166/openai-chatgpt-images-2",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-21T19:00:00.000Z",
+      "summary": "OpenAI推出了其AI图像生成器的最新版本，该版本具备新的“思考能力”，能够搜索网络以帮助根据单个提示创建多张图像。ChatGPT Images 2.0现在可以创建更“复杂”的图像，在遵循指令、保留选定细节和生成文本方面有所改进。",
+      "score": 33
     },
     {
       "section": "产品发布与更新",
-      "title": "构建可信数据智能体的上下文层技术趋势",
+      "title": "ChatGPT新图像模型Images 2.0在生成文本方面表现出色",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 21 Apr 2026 19:00:00 +0000",
+      "summary": "OpenAI最新的图像生成模型ChatGPT Images 2.0在生成文本方面表现优异。这表明过去几年人工智能的能力已经取得了显著进步。",
+      "score": 29
+    },
+    {
+      "section": "技术与研究",
+      "title": "发明者回顾眼部成像技术突破",
       "company": "",
-      "url": "https://www.infoq.cn/article/QyXUMEdTVvStcoE1bBZK?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Tue, 21 Apr 2026 15:06:43 GMT",
-      "summary": "文章探讨了为可信数据智能体构建上下文层的技术趋势。该层存储与业务实体关联的事件轨迹及决策产物，如审批记录、事件时间线等，并为“为何”类问题提供证据支撑。它定义了规范化实体及其关系，并提供跨系统的身份映射能力。",
+      "url": "https://www.technologyreview.com/2026/04/21/1134945/inventor-recalls-eye-imaging-breakthrough/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 21 Apr 2026 21:00:00 +0000",
+      "summary": "临床科学家David Huang在哈佛-麻省理工健康科学与技术项目攻读MD-PhD期间，与James Fujimoto及Eric Swanson合作，将用于卫星通信的干涉测量技术应用于生物医学，发明了光学相干断层扫描技术。",
+      "score": 32
+    },
+    {
+      "section": "技术与研究",
+      "title": "圆桌会议：揭示当前AI领域至关重要的十大议题",
+      "company": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/04/21/1135486/roundtables-unveiling-the-10-things-that-matter-in-ai-right-now/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 21 Apr 2026 22:09:25 +0000",
+      "summary": "在麻省理工科技评论的EmTech AI大会上，一场圆桌会议直播向订阅者独家首发了2026年AI领域十大关键技术清单。会议具体内容包括：OpenAI首席科学家Jakub Pachocki阐述了公司新的宏伟挑战与AI未来。",
+      "score": 23
+    },
+    {
+      "section": "技术与研究",
+      "title": "天然蛋白或可保护胃肠道免受感染",
+      "company": "MIT",
+      "url": "https://www.technologyreview.com/2026/04/21/1134858/a-natural-protein-may-protect-the-gi-tract-from-infection/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 21 Apr 2026 21:00:00 +0000",
+      "summary": "麻省理工学院化学教授Laura Kiessling领导的研究团队发现，一种名为intelectin-2的凝集素蛋白有助于增强黏膜屏障，并对胃肠道中的有害细菌提供广谱保护。这种蛋白质存在于人体的黏膜表面，通过与细胞表面的糖结合发挥作用。",
+      "score": 23
+    },
+    {
+      "section": "投融资与并购",
+      "title": "AI研究实验室NeoCognition获4000万美元种子轮融资，致力于开发类人学习智能体",
+      "company": "NeoCognition",
+      "url": "https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 21 Apr 2026 19:11:29 +0000",
+      "summary": "由俄亥俄州立大学研究人员创立的初创公司NeoCognition获得了4000万美元的种子轮融资。该公司正在开发能够成为任何领域专家的AI智能体。",
+      "score": 31
+    },
+    {
+      "section": "投融资与并购",
+      "title": "SpaceX拟以600亿美元收购Cursor，或支付100亿美元费用",
+      "company": "SpaceX",
+      "url": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-21T22:45:37.000Z",
+      "summary": "SpaceX宣布了一项特殊安排，计划以600亿美元收购专注于AI编程的自动化平台Cursor，或者支付100亿美元的费用。此次收购可能有助于Elon Musk旗下xAI的工具与市场领导者Anthropic及其他竞争对手展开竞争。",
       "score": 27
     },
     {
-      "section": "技术与研究",
-      "title": "苹果宣布库克卸任CEO，特努斯将接任",
-      "company": "苹果",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-21-2",
-      "source": "机器之心",
-      "publishedAt": "2026-04-21T10:35:00+08:00",
-      "summary": "苹果公司于本周一下午正式宣布，现任CEO蒂姆·库克将卸任该职位。库克自2011年接替乔布斯以来，已担任苹果CEO长达14年。公司现任硬件工程高级副总裁约翰·特努斯将于今年9月1日接任CEO一职。根据公告，库克卸任后不会完全离开苹果公司。",
-      "score": 22
+      "section": "政策与监管",
+      "title": "Mozilla利用Anthropic的Mythos发现并修复了Firefox中的271个漏洞",
+      "company": "Mozilla",
+      "url": "https://www.wired.com/story/mozilla-used-anthropics-mythos-to-find-271-bugs-in-firefox/",
+      "source": "Wired AI",
+      "publishedAt": "Tue, 21 Apr 2026 18:30:00 +0000",
+      "summary": "Mozilla宣布，其最新发布的Firefox 150浏览器修复了271个漏洞，这些漏洞是通过提前试用Anthropic的Mythos Preview AI工具发现的。Firefox团队表示，新AI工具能自动、全面地扫描出可诱发漏洞的代码缺陷，改变了以往依赖模糊测试和人工审查的传统方式。",
+      "score": 28
     },
     {
-      "section": "技术与研究",
-      "title": "VAST与香港大学AniGen实现从单图生成可动3D资产，推动AIGC在动画游戏等领域的应用",
-      "company": "VAST",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-20-11",
-      "source": "机器之心",
-      "publishedAt": "2026-04-20T22:51:00+08:00",
-      "summary": "VAST与香港大学AniGen团队的研究，旨在解决当前AIGC在3D内容生成领域的一个核心瓶颈：从单张图片生成可直接用于动画和游戏的、可运动的3D资产。该技术试图让生成的3D模型不仅具备外观，还能包含预设的骨骼绑定与动画，从而直接应用于交互式场景。",
-      "score": 22
+      "section": "产品发布与更新",
+      "title": "AI应用周报：多模态成标配，生态意识增强",
+      "company": "模力工场",
+      "url": "https://www.infoq.cn/article/fKc0YsLc9aDjzk1V81oW?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 21 Apr 2026 19:59:47 GMT",
+      "summary": "本期AI应用周报关注生态整合与多模态应用趋势。报道提及一款面向内容电商的AI Agent，能够自动化完成从选品、脚本生成、视频制作到发布及数据分析的完整带货流程，使个人能够独立运作原本需要团队完成的商业链路。",
+      "score": 27
     },
     {
-      "section": "技术与研究",
-      "title": "AI核能初创公司Fermi首席执行官与首席财务官突然离职",
-      "company": "Fermi",
-      "url": "https://techcrunch.com/2026/04/20/fermi-ceo-and-cfo-depart-texas-nuclear-power-ai/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Mon, 20 Apr 2026 15:30:19 +0000",
-      "summary": "由美国前能源部长里克·佩里联合创立的AI核能初创公司Fermi，其联合创始人兼CEO托比·诺伊鲍尔与CFO迈尔斯·埃弗森突然离职，导致公司股价在周一暴跌22%。该公司正推进在德克萨斯州阿马里洛建设名为“斗牛士项目”的AI园区，计划未来使用核反应堆为数据中心供电，但该项目近期进展不顺。",
-      "score": 21
-    },
-    {
-      "section": "技术与研究",
-      "title": "Colossal Biosciences宣称克隆红狼，真实性引发关注",
-      "company": "Colossal Biosciences",
-      "url": "https://www.technologyreview.com/2026/04/20/1135222/red-wolves-colossal-biosciences-clones/",
+      "section": "产品发布与更新",
+      "title": "新工具或可揭示意识运作机制",
+      "company": "MIT",
+      "url": "https://www.technologyreview.com/2026/04/21/1134862/this-tool-could-show-how-consciousness-works/",
       "source": "MIT Technology Review",
-      "publishedAt": "Mon, 20 Apr 2026 10:00:00 +0000",
-      "summary": "Colossal Biosciences公司宣称已成功克隆出红狼，并称这是世界上最濒危的狼种。其核心技术在于仅使用血液样本进行克隆，无需从野外捕获活体，从而保护了野生犬科动物种群的完整性。克隆技术旨在快速扩大红狼有限的基因库，通过基因编辑增强狼的基因、削弱郊狼基因，以替代传统繁育计划。",
-      "score": 19
+      "publishedAt": "Tue, 21 Apr 2026 21:00:00 +0000",
+      "summary": "麻省理工学院哲学家Matthias Michel与林肯实验室研究员Daniel Freeman等人在一篇论文中提出，可以利用一种名为经颅聚焦超声的新兴非侵入性工具来探索大脑物质如何转化为思想、感觉和情感。这一策略旨在避免神经外科手术，为研究意识提供了新的可能性。",
+      "score": 23
+    },
+    {
+      "section": "技术与研究",
+      "title": "人工智能在麻省理工学院的普及",
+      "company": "MIT",
+      "url": "https://www.technologyreview.com/2026/04/21/1134938/ai-at-mit/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Tue, 21 Apr 2026 21:00:00 +0000",
+      "summary": "人工智能在麻省理工学院已变得无处不在，以至于人们可能在无意中接触到它。机械工程副教授Sili Deng表示，如果不是因为新冠疫情，她不确定自己是否会全身心投入人工智能领域。她的经历反映了AI在该校的广泛渗透。",
+      "score": 23
+    },
+    {
+      "section": "政策与监管",
+      "title": "Snowflake Horizon Catalog：AI数据治理时代的数据目录关键能力",
+      "company": "Snowflake",
+      "url": "https://www.infoq.cn/article/2bUZm9d80lzXWSHxqqYG?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 21 Apr 2026 17:29:37 GMT",
+      "summary": "文章重点介绍了Snowflake Horizon Catalog在AI数据治理时代的关键能力。该数据目录具备通用覆盖能力，兼容多种数据引擎、格式和云平台，并提供语义视图功能，通过内置编译引擎识别业务实体和关系，为AI智能体提供明确的语义契约，避免误解。",
+      "score": 22
+    },
+    {
+      "section": "技术与研究",
+      "title": "策略式Gene：解决Skill文档拖慢模型性能的新方法",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-21-10",
+      "source": "机器之心",
+      "publishedAt": "2026-04-21T18:38:00+08:00",
+      "summary": "文章指出，在AI模型开发中存在一种常见现象：即使开发者已经为特定任务编写了详尽的Skill文档，包括任务背景、流程、常见问题、API用法和示例代码，模型在后续执行同类任务时仍可能重复犯错。这种现象被称为“Agent玄学”。文章认为，当前以经验作为静态内容存储、召回和重新调用的路径存在局限。",
+      "score": 21
     }
   ]
 }
