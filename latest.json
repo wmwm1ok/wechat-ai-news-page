@@ -1,7 +1,7 @@
 {
   "date": "2026/4/23",
   "title": "AI资讯每日精选-2026/4/23",
-  "generatedAt": "2026/4/23 08:13",
+  "generatedAt": "2026/4/23 09:47",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -97,25 +97,26 @@
     "scoring": {
       "totalInput": 59,
       "totalScored": 31,
-      "strictScoredCount": 21,
+      "strictScoredCount": 20,
       "relaxedCandidateCount": 9,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 14,
+      "weakSummaryCount": 12,
       "selectedCandidateCount": 31,
       "duplicateCount": 15,
       "crossDayDuplicateCount": 15,
-      "lowQualityCount": 6,
-      "domesticAvailable": 14,
-      "overseasAvailable": 17,
+      "lowQualityCount": 5,
+      "domesticAvailable": 13,
+      "overseasAvailable": 18,
       "sourceCount": {
-        "36氪": 3,
-        "InfoQ": 2,
+        "36氪": 2,
         "TechCrunch AI": 3,
-        "雷锋网": 7,
-        "量子位": 1,
-        "Tech Xplore": 5,
-        "The Verge AI": 3,
+        "雷锋网": 6,
+        "量子位": 2,
+        "InfoQ": 2,
         "MIT Technology Review": 6,
+        "The Verge AI": 3,
+        "Tech Xplore": 5,
+        "Wired AI": 1,
         "机器之心": 1
       }
     },
@@ -124,27 +125,17 @@
       "previousDayRemovedCount": 0,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 2,
-      "postPreviousDayFilterCount": 29,
+      "integrityRemovedCount": 4,
+      "postPreviousDayFilterCount": 27,
       "displayReadyCount": 19,
       "fallbackDisplayCount": 2,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 10,
+      "removedWeakSummaries": 8,
       "shortage": 0
     }
   },
   "articles": [
-    {
-      "section": "产品发布与更新",
-      "title": "谷歌为企业推出新的智能体构建工具，定位独特",
-      "company": "Google",
-      "url": "https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 22 Apr 2026 16:58:27 +0000",
-      "summary": "谷歌推出名为“Gemini Enterprise Agent Platform”的企业智能体构建平台，其定位独特，主要面向IT和技术团队。该平台集成了谷歌自家的Gemini大语言模型和Nano Banana 2图像生成器，并支持Anthropic公司的Claude系列模型（包括旗舰的Opus。",
-      "score": 29
-    },
     {
       "section": "产品发布与更新",
       "title": "科大讯飞发布燎原N30m笔记本，以耀天智能体重塑全栈国产AIPC标杆",
@@ -152,38 +143,28 @@
       "url": "https://www.qbitai.com/2026/04/404713.html",
       "source": "量子位",
       "publishedAt": "Wed, 22 Apr 2026 13:15:52 +0000",
-      "summary": "科大讯飞发布了燎原N30m笔记本，其核心是深度融入系统底层的全栈自研“耀天智能体”，能够理解用户真实意图、自动规划执行复杂任务并保障数据安全。在耀天智能体的驱动下，星火AIPC的“三办两问”办公能力全面升级，例如新增“三会一课”智能工作流、重构公文写作流程，并已在超过10万台终端落地。",
-      "score": 27
+      "summary": "科大讯飞发布了搭载耀天智能体的燎原N30m笔记本，旨在重塑全栈国产AIPC新标杆。该智能体深度融入系统底层，具备意图理解、任务自动规划与闭环、持续学习及全链路隐私防护能力，驱动星火AIPC的“三办两问”功能全面升级，在公文起草、会议纪要生成等办公场景中显著提升效率。",
+      "score": 29
     },
     {
       "section": "产品发布与更新",
-      "title": "谷歌与Thinking Machines Lab签署数十亿美元新协议，深化合作",
+      "title": "谷歌为企业推出新的智能体构建工具",
+      "company": "Google",
+      "url": "https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 22 Apr 2026 16:58:27 +0000",
+      "summary": "谷歌推出了名为Gemini Enterprise Agent Platform的企业智能体构建平台。该平台采用了一个独特的定位，主要面向IT和技术用户。",
+      "score": 29
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "谷歌与Thinking Machines Lab签署数十亿美元新协议",
       "company": "Google",
       "url": "https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/",
       "source": "TechCrunch AI",
       "publishedAt": "Wed, 22 Apr 2026 12:00:00 +0000",
-      "summary": "谷歌云与Mira Murati创立的Thinking Machines Lab签署了价值数十亿美元的新协议，以支持其AI基础设施的构建。具体信息点包括：1. 该协议将利用英伟达最新的GB300芯片，并支持Thinking Machines的核心技术——强化学习工作负载，这是其自动化AI模型创建工具Tinker的架构基础。2. 这是Thinking Machines首次与云服务提供商达成协议，但并非排他性合作。",
+      "summary": "谷歌云与Mira Murati创立的Thinking Machines Lab签署了一份价值数十亿美元的非独家协议，这是该前沿AI实验室首次与云服务提供商合作。协议核心是使用英伟达最新的GB300芯片构建AI基础设施，以支持其核心产品“Tinker”所依赖的强化学习工作负载。",
       "score": 17
-    },
-    {
-      "section": "技术与研究",
-      "title": "基于Snowflake Cortex Agents实现金融数据统一分析的技术实践",
-      "company": "Snowflake",
-      "url": "https://www.infoq.cn/article/LIb7POBCMo8213s9lk0T?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 22 Apr 2026 16:56:38 GMT",
-      "summary": "本文介绍了一项利用Snowflake Cortex Agents进行金融智能架构编排的技术实践。实践内容涉及在Snowflake平台上创建并管理财务数据模型，包括会计科目表、组织结构和总账分录三个核心维度表与事实表。",
-      "score": 32
-    },
-    {
-      "section": "技术与研究",
-      "title": "特斯拉Cortex 2算力集群上线并开始运行训练任务",
-      "company": "特斯拉",
-      "url": "https://36kr.com/newsflashes/3778658978960387?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-23 08:10:41  +0800",
-      "summary": "特斯拉宣布其Cortex 2算力集群现已上线，并已开始运行训练任务。公司表示正在持续扩展用于训练的基础设施，以确保人工智能产品和服务的开发拥有充足的算力资源。同时，特斯拉也在继续推进Dojo 3自研芯片的开发，以期在未来降低训练成本。",
-      "score": 31
     },
     {
       "section": "技术与研究",
@@ -192,67 +173,77 @@
       "url": "https://www.infoq.cn/article/IPZaVe2hAKCougHa1zAm?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Wed, 22 Apr 2026 16:31:23 GMT",
-      "summary": "国产AI模型K2.6在多项基准测试中表现优异，在DeepSearchQA、SWE-Bench Pro等核心Agent与代码评测项目中位居第一，在Humanity's Last Exam等博士级难度测试中持平或优于GPT-5.4、Claude Opus 4.6和Gemini 3.1 Pro等主流模型，整体成绩处于同级别模型的第一梯队。",
+      "summary": "国产AI模型K2.6在多项基准测试中表现突出。在DeepSearchQA、SWE-Bench Pro等核心Agent与代码评测项目中位居第一，在Humanity's Last Exam等博士级难度测试中持平或优于GPT-5.4、Claude Opus 4.6和Gemini 3.1 Pro等模型，整体成绩处于同级别模型的第一梯队。该模型基于Agent搭建的Harness Engineering Wiki已形成可检索、可路由、可写回的知识闭环系统。",
       "score": 28
     },
     {
-      "section": "投融资与并购",
-      "title": "SpaceX与Cursor合作并有权以600亿美元收购该初创公司",
-      "company": "SpaceX, Cursor",
-      "url": "https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Tue, 21 Apr 2026 22:58:22 +0000",
-      "summary": "SpaceX正在与Cursor合作，并拥有以600亿美元收购这家初创公司的选择权。这一举措可能弥补两家公司的弱点，但也暴露了它们的问题。Cursor和xAI都没有能够与Anthropic和OpenAI领先产品相匹敌的专有模型，而这两家公司现在正与Cursor在开发者市场上直接竞争。",
-      "score": 30
-    },
-    {
-      "section": "投融资与并购",
-      "title": "PettiChat获百万美元种子投资，研发宠物穿戴AI翻译器",
-      "company": "PettiChat",
-      "url": "https://36kr.com/p/3769659305427459?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-21 16:19:29  +0800",
-      "summary": "36氪获悉，宠物AI科技初创公司PettiChat于近期完成100万美元的种子轮融资。由浙大校友基金藕舫天使与华旦天使联合投资，本轮融资将主要用于动物行为世界模型的研发、高质量数据集的构建以及首款硬件产品的市场推广。",
-      "score": 47
-    },
-    {
-      "section": "政策与监管",
-      "title": "研究警告生成式AI可能增加机器学习系统的安全风险",
-      "company": "无",
-      "url": "https://techxplore.com/news/2026-04-generative-ai-machine-cyberattacks-leaks.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Wed, 22 Apr 2026 11:00:09 EDT",
-      "summary": "计算机科学家Micheal Lones在《模式》期刊上发表论文指出，使用生成式AI来设计、训练或执行机器学习系统中的步骤存在风险。尽管大型语言模型可以扩展机器学习系统的能力并降低成本和人力需求，但Lones警告，使用它们会降低开发和使用这些系统的人员的透明度和控制力，并增加恶意网络攻击。",
-      "score": 20
-    },
-    {
       "section": "技术与研究",
-      "title": "研究表明AI语言模型对现实世界存在基础性理解",
-      "company": "布朗大学",
-      "url": "https://techxplore.com/news/2026-04-ai-language-real-world-basic.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Wed, 22 Apr 2026 15:20:08 EDT",
-      "summary": "布朗大学的一项新研究为AI语言模型是否“理解”现实世界提供了证据。该研究通过分析模型从互联网海量文本（包含事实、谬误、知识与无意义信息）中学习知识的能力，发现模型确实能形成某种对现实世界的理解。",
+      "title": "AI需要强大的数据架构来实现商业价值",
+      "company": "未提及具体公司",
+      "url": "https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Wed, 22 Apr 2026 10:05:06 +0000",
+      "summary": "人工智能在企业中的应用正从实验阶段快速过渡到日常使用。组织正在财务、供应链、人力资源和客户运营等领域部署副驾驶、智能体和预测系统。根据最近的一项调查，到2025年底，一半的公司至少在三个业务功能中使用了AI。但随着AI的普及，对强大数据架构的需求变得至关重要。",
       "score": 26
     },
     {
       "section": "技术与研究",
-      "title": "Meta利用员工电脑活动数据训练AI助手",
+      "title": "Meta利用员工电脑活动数据训练AI代理",
       "company": "Meta",
       "url": "https://www.theverge.com/tech/916681/meta-ai-agents-employee-tracking",
       "source": "The Verge AI",
       "publishedAt": "2026-04-22T14:22:35.000Z",
-      "summary": "Meta公司正在美国员工的电脑上安装名为“模型能力计划”（MCI）的工具，用于记录员工在工作相关应用和网站上的鼠标移动、点击、按键以及偶尔的屏幕截图。这些数据将被用于训练公司的AI模型，使其能更好地像人类一样与计算机交互，并自动化执行类似Meta员工的工作任务。",
+      "summary": "Meta公司正在美国员工的电脑上安装名为“模型能力计划”（MCI）的工具，该工具在工作相关的应用和网站上运行，记录鼠标移动、点击、按键以及偶尔的屏幕截图。这些数据将被用于训练公司的AI模型，使其能更好地像人类一样与计算机交互，并自动化工作任务。",
+      "score": 23
+    },
+    {
+      "section": "投融资与并购",
+      "title": "SpaceX与Cursor合作并拥有600亿美元收购选项",
+      "company": "SpaceX, Cursor",
+      "url": "https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 21 Apr 2026 22:58:22 +0000",
+      "summary": "SpaceX正在与Cursor合作，并拥有以600亿美元收购这家初创公司的选项。这一举措可能弥补两家公司的弱点，但也暴露了它们的不足。Cursor和xAI都没有能够与Anthropic和OpenAI领先产品相匹敌的专有模型，而这两家公司现在正与Cursor在开发者市场上直接竞争。",
+      "score": 30
+    },
+    {
+      "section": "投融资与并购",
+      "title": "SpaceX估值达1.25万亿美元，AI应用月活用户达4.4亿",
+      "company": "SpaceX",
+      "url": "https://www.leiphone.com/category/zaobao/C0IFolZzxkmL5sr3.html",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 22 Apr 2026 16:17:00 +0800",
+      "summary": "SpaceX招股书摘要显示，截至2025年底，其总资产为920亿美元，总负债为508亿美元。2025年星链运营收入大幅增长至44.2亿美元，公司整体营收约150亿至160亿美元，未计利息、税项、折旧及摊销前的利润约为80亿美元。今年2月与xAI合并后，SpaceX估值已达1.25万亿美元。",
+      "score": 23
+    },
+    {
+      "section": "政策与监管",
+      "title": "研究警告生成式AI在机器学习系统中增加网络安全风险",
+      "company": "无",
+      "url": "https://techxplore.com/news/2026-04-generative-ai-machine-cyberattacks-leaks.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Wed, 22 Apr 2026 11:00:09 EDT",
+      "summary": "计算机科学家Micheal Lones在《模式》期刊发表论文指出，使用生成式AI设计、训练或执行机器学习系统步骤存在风险。虽然大型语言模型可以扩展机器学习系统的能力并降低成本和劳动力需求，但Lones警告称，使用这些模型会降低开发和使用这些系统人员的透明度和控制力，并增加恶意网络攻击。",
       "score": 23
     },
     {
       "section": "技术与研究",
-      "title": "AI需要强大的数据架构来提供商业价值",
-      "company": "无",
-      "url": "https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Wed, 22 Apr 2026 10:05:06 +0000",
-      "summary": "人工智能在企业中的应用正从实验阶段快速过渡到日常使用。组织正在财务、供应链、人力资源和客户运营等领域部署副驾驶、智能体和预测系统。根据最近的一项调查，到2025年底，一半的公司至少在三个业务职能中使用了AI。",
+      "title": "国产智能体漏洞挖掘成果显著，360走工程化路线",
+      "company": "360",
+      "url": "https://www.qbitai.com/2026/04/405299.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 23 Apr 2026 00:43:41 +0000",
+      "summary": "360的漏洞挖掘智能体体系已累计发现近千个漏洞，其中经官方确认的高危漏洞超过50项，多项为全球首次公开发现。其采用“智能体工程化”路线，通过多个专项智能体分工协作，形成从发现到验证的完整闭环，并将能力延伸至AI原生基础设施领域，例如发现了OpenClaw高危漏洞。",
+      "score": 22
+    },
+    {
+      "section": "技术与研究",
+      "title": "Mozilla利用Anthropic的Mythos发现并修复Firefox中271个漏洞",
+      "company": "Mozilla",
+      "url": "https://www.wired.com/story/mozilla-used-anthropics-mythos-to-find-271-bugs-in-firefox/",
+      "source": "Wired AI",
+      "publishedAt": "Tue, 21 Apr 2026 18:30:00 +0000",
+      "summary": "Firefox团队认为新兴的人工智能能力不会长期颠覆网络安全，但他们警告软件开发者可能会经历一段艰难的转型期。该团队使用Anthropic的Mythos工具在Firefox中发现了271个漏洞并进行了修复。",
       "score": 22
     },
     {
@@ -262,17 +253,27 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/916501/anthropic-mythos-unauthorized-users-access-security",
       "source": "The Verge AI",
       "publishedAt": "2026-04-22T09:18:40.000Z",
-      "summary": "Anthropic公司一款名为Claude Mythos Preview的未公开AI模型被未授权用户访问。该模型能识别并利用主流操作系统和浏览器的漏洞，公司因担心其被武器化而仅限Nvidia、谷歌等少数公司通过Project Glasswing项目测试。",
+      "summary": "Anthropic公司的Mythos AI模型，一款被公司认为落入错误之手可能很危险的强大网络安全工具，已被一小群未授权用户访问。据称，该群体成员通过利用一名第三方承包商的访问权限和常用的互联网侦查工具，进入了Mythos系统。",
       "score": 21
     },
     {
       "section": "技术与研究",
-      "title": "佐治亚理工学院新AI模型助力产业决策优化",
+      "title": "研究显示AI语言模型对现实世界具备基础理解能力",
+      "company": "布朗大学",
+      "url": "https://techxplore.com/news/2026-04-ai-language-real-world-basic.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Wed, 22 Apr 2026 15:20:08 EDT",
+      "summary": "布朗大学研究人员的一项新研究表明，AI语言模型确实对现实世界具备某种程度的理解能力。该研究基于AI模型从互联网海量文本中学习的事实、谬误、知识和无意义内容进行分析。研究结果将于4月25日在巴西里约热内卢举行的国际学习表征会议上展示，并已发表在arXiv预印本服务器上。",
+      "score": 21
+    },
+    {
+      "section": "技术与研究",
+      "title": "佐治亚理工学院开发新AI模型提升决策准确性",
       "company": "佐治亚理工学院",
       "url": "https://techxplore.com/news/2026-04-generative-ai-quietly-reshaping-uncertainty.html",
       "source": "Tech Xplore",
       "publishedAt": "Wed, 22 Apr 2026 11:20:09 EDT",
-      "summary": "佐治亚理工学院的研究人员开发了一种名为Diffusion-DFL的新AI模型，用于决策导向学习。该模型旨在帮助各行业做出更好的规划决策，最近的测试表明其决策比现有方法更准确。该模型不仅能优化工业产出，还能降低成本、减少风险，并在不同领域都表现出色。",
+      "summary": "佐治亚理工学院研究人员开发了一种名为Diffusion-DFL的新型AI模型，专注于决策学习。该模型基于生成式AI技术，旨在帮助各行业做出更优的规划决策。近期测试表明，该模型在决策准确性上超越了现有方法。其具体优势在于能够优化工业产出、降低运营成本并减少相关风险，且实验证明其在不同领域均能有效工作。",
       "score": 21
     }
   ]
