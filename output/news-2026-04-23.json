@@ -1,0 +1,304 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "谷歌为企业推出新的智能体构建工具，定位独特",
+      "url": "https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/",
+      "snippet": "Gemini Enterprise Agent Platform takes an interesting approach: It is geared for IT and technical users.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 22 Apr 2026 16:58:27 +0000",
+      "region": "海外",
+      "summary": "谷歌推出名为“Gemini Enterprise Agent Platform”的企业智能体构建平台，其定位独特，主要面向IT和技术团队。该平台集成了谷歌自家的Gemini大语言模型和Nano Banana 2图像生成器，并支持Anthropic公司的Claude系列模型（包括旗舰的Opus。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 29,
+      "breakdown": {
+        "substance": 4,
+        "importance": 6,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "科大讯飞发布燎原N30m笔记本，以耀天智能体重塑全栈国产AIPC标杆",
+      "url": "https://www.qbitai.com/2026/04/404713.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Wed, 22 Apr 2026 13:15:52 +0000",
+      "region": "国内",
+      "summary": "科大讯飞发布了燎原N30m笔记本，其核心是深度融入系统底层的全栈自研“耀天智能体”，能够理解用户真实意图、自动规划执行复杂任务并保障数据安全。在耀天智能体的驱动下，星火AIPC的“三办两问”办公能力全面升级，例如新增“三会一课”智能工作流、重构公文写作流程，并已在超过10万台终端落地。",
+      "category": "产品发布与更新",
+      "company": "科大讯飞",
+      "score": 27,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "谷歌与Thinking Machines Lab签署数十亿美元新协议，深化合作",
+      "url": "https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/",
+      "snippet": "Mira Murati's Thinking Machines Lab has signed a multibillion-dollar deal with Google Cloud for AI infrastructure powered by Nvidia's latest GB300 chips, TechCrunch has exclusively learned.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 22 Apr 2026 12:00:00 +0000",
+      "region": "海外",
+      "summary": "谷歌云与Mira Murati创立的Thinking Machines Lab签署了价值数十亿美元的新协议，以支持其AI基础设施的构建。具体信息点包括：1. 该协议将利用英伟达最新的GB300芯片，并支持Thinking Machines的核心技术——强化学习工作负载，这是其自动化AI模型创建工具Tinker的架构基础。2. 这是Thinking Machines首次与云服务提供商达成协议，但并非排他性合作。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 17,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "基于Snowflake Cortex Agents实现金融数据统一分析的技术实践",
+      "url": "https://www.infoq.cn/article/LIb7POBCMo8213s9lk0T?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 22 Apr 2026 16:56:38 GMT",
+      "region": "国内",
+      "summary": "本文介绍了一项利用Snowflake Cortex Agents进行金融智能架构编排的技术实践。实践内容涉及在Snowflake平台上创建并管理财务数据模型，包括会计科目表、组织结构和总账分录三个核心维度表与事实表。",
+      "category": "技术与研究",
+      "company": "Snowflake",
+      "score": 32,
+      "breakdown": {
+        "substance": 13,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "特斯拉Cortex 2算力集群上线并开始运行训练任务",
+      "url": "https://36kr.com/newsflashes/3778658978960387?f=rss",
+      "snippet": "特斯拉称，Cortex 2算力集群现已上线，并已开始运行训练任务。我们持续扩展用于训练的基础设施，确保人工智能产品和服务的开发拥有充足的算力资源。我们也在继续推进Dojo 3自研芯片开发，期待在将来降低训练成本。（财联社）",
+      "source": "36氪",
+      "publishedAt": "2026-04-23 08:10:41  +0800",
+      "region": "国内",
+      "summary": "特斯拉宣布其Cortex 2算力集群现已上线，并已开始运行训练任务。公司表示正在持续扩展用于训练的基础设施，以确保人工智能产品和服务的开发拥有充足的算力资源。同时，特斯拉也在继续推进Dojo 3自研芯片的开发，以期在未来降低训练成本。",
+      "category": "技术与研究",
+      "company": "特斯拉",
+      "score": 31,
+      "breakdown": {
+        "substance": 11,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "国产AI模型K2.6在AK大神任务中展现真实水平",
+      "url": "https://www.infoq.cn/article/IPZaVe2hAKCougHa1zAm?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 22 Apr 2026 16:31:23 GMT",
+      "region": "国内",
+      "summary": "国产AI模型K2.6在多项基准测试中表现优异，在DeepSearchQA、SWE-Bench Pro等核心Agent与代码评测项目中位居第一，在Humanity's Last Exam等博士级难度测试中持平或优于GPT-5.4、Claude Opus 4.6和Gemini 3.1 Pro等主流模型，整体成绩处于同级别模型的第一梯队。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 28,
+      "breakdown": {
+        "substance": 3,
+        "importance": 6,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "研究表明AI语言模型对现实世界存在基础性理解",
+      "url": "https://techxplore.com/news/2026-04-ai-language-real-world-basic.html",
+      "snippet": "Most of what AI chatbots know about the world comes from devouring massive amounts of text from the internet—with all its facts, falsehoods, knowledge and nonsense. Given that input, is it possible that AI language models have an \"understanding\" of the real world? As it turns out, they do—or at least something like an understanding. That's according to a new study by researchers from Brown University to be presented on Saturday, April 25 at the International Conference on Learning Representations in Rio de Janeiro, Brazil. The study is published on the arXiv preprint server.",
+      "source": "Tech Xplore",
+      "publishedAt": "Wed, 22 Apr 2026 15:20:08 EDT",
+      "region": "海外",
+      "summary": "布朗大学的一项新研究为AI语言模型是否“理解”现实世界提供了证据。该研究通过分析模型从互联网海量文本（包含事实、谬误、知识与无意义信息）中学习知识的能力，发现模型确实能形成某种对现实世界的理解。",
+      "category": "技术与研究",
+      "company": "布朗大学",
+      "score": 26,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Meta利用员工电脑活动数据训练AI助手",
+      "url": "https://www.theverge.com/tech/916681/meta-ai-agents-employee-tracking",
+      "snippet": "Meta employees' activity at work is now being used to train the company's AI agents. As reported by Reuters, Meta is installing a tool it calls Model Capability Initiative (MCI) on US-based employees' computers that runs in work-related apps and websites, recording mouse movements, clicks, keystrokes, and occasional screenshots. The data from this tool will be used to train the company's AI models to get better at interacting with computers the way humans do, including automating work tasks like those Meta's employees perform on the job. According to Reuters, the data from MCI won't be \"used for performance assessments.\" \"If we're buildin … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-22T14:22:35.000Z",
+      "region": "海外",
+      "summary": "Meta公司正在美国员工的电脑上安装名为“模型能力计划”（MCI）的工具，用于记录员工在工作相关应用和网站上的鼠标移动、点击、按键以及偶尔的屏幕截图。这些数据将被用于训练公司的AI模型，使其能更好地像人类一样与计算机交互，并自动化执行类似Meta员工的工作任务。",
+      "category": "技术与研究",
+      "company": "Meta",
+      "score": 23,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI需要强大的数据架构来提供商业价值",
+      "url": "https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/",
+      "snippet": "Artificial intelligence is moving quickly in the enterprise, from experimentation to everyday use. Organizations are deploying copilots, agents, and predictive systems across finance, supply chains, human resources, and customer operations. By the end of 2025, half of companies used AI in at least three business functions, according to a recent survey. But as AI becomes…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Wed, 22 Apr 2026 10:05:06 +0000",
+      "region": "海外",
+      "summary": "人工智能在企业中的应用正从实验阶段快速过渡到日常使用。组织正在财务、供应链、人力资源和客户运营等领域部署副驾驶、智能体和预测系统。根据最近的一项调查，到2025年底，一半的公司至少在三个业务职能中使用了AI。",
+      "category": "技术与研究",
+      "company": "无",
+      "score": 22,
+      "breakdown": {
+        "substance": 3,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Anthropic危险AI模型遭未授权用户访问",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/916501/anthropic-mythos-unauthorized-users-access-security",
+      "snippet": "Anthropic's Mythos AI model, a powerful cybersecurity tool that the company said could be dangerous in the wrong hands, has been accessed by a \"small group of unauthorized users,\" Bloomberg reports. An unnamed member of the group, identified only as \"a third-party contractor for Anthropic,\" told the publication that members of a private online forum got into Mythos via a mix of tactics, utilizing the contractor's access and \"commonly used internet sleuthing tools.\" The Claude Mythos Preview is a new general-purpose model that's capable of identifying and exploiting vulnerabilities \"in every major operating system and every major web browser … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-22T09:18:40.000Z",
+      "region": "海外",
+      "summary": "Anthropic公司一款名为Claude Mythos Preview的未公开AI模型被未授权用户访问。该模型能识别并利用主流操作系统和浏览器的漏洞，公司因担心其被武器化而仅限Nvidia、谷歌等少数公司通过Project Glasswing项目测试。",
+      "category": "技术与研究",
+      "company": "Anthropic",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "佐治亚理工学院新AI模型助力产业决策优化",
+      "url": "https://techxplore.com/news/2026-04-generative-ai-quietly-reshaping-uncertainty.html",
+      "snippet": "Generative AI is best known for creating images and text. Now, it is helping industries make better planning decisions. Georgia Tech researchers have created a new AI model for decision-focused learning (DFL), called Diffusion-DFL. Recent tests showed it makes more accurate decisions than current approaches. Along with optimizing industrial output, the model lowers costs and reduces risk. Experiments also showed it performs across different fields.",
+      "source": "Tech Xplore",
+      "publishedAt": "Wed, 22 Apr 2026 11:20:09 EDT",
+      "region": "海外",
+      "summary": "佐治亚理工学院的研究人员开发了一种名为Diffusion-DFL的新AI模型，用于决策导向学习。该模型旨在帮助各行业做出更好的规划决策，最近的测试表明其决策比现有方法更准确。该模型不仅能优化工业产出，还能降低成本、减少风险，并在不同领域都表现出色。",
+      "category": "技术与研究",
+      "company": "佐治亚理工学院",
+      "score": 21,
+      "breakdown": {
+        "substance": 3,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "SpaceX与Cursor合作并有权以600亿美元收购该初创公司",
+      "url": "https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/",
+      "snippet": "The move could shore up weaknesses at each company, but it also reveals them. Neither Cursor nor xAI has proprietary models that can match the leading offerings from Anthropic and OpenAI — the same companies now competing directly with Cursor for the developer market.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 21 Apr 2026 22:58:22 +0000",
+      "region": "海外",
+      "summary": "SpaceX正在与Cursor合作，并拥有以600亿美元收购这家初创公司的选择权。这一举措可能弥补两家公司的弱点，但也暴露了它们的问题。Cursor和xAI都没有能够与Anthropic和OpenAI领先产品相匹敌的专有模型，而这两家公司现在正与Cursor在开发者市场上直接竞争。",
+      "category": "投融资与并购",
+      "company": "SpaceX, Cursor",
+      "score": 30,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "PettiChat获百万美元种子投资，研发宠物穿戴AI翻译器",
+      "url": "https://36kr.com/p/3769659305427459?f=rss",
+      "snippet": "36氪获悉，宠物AI科技初创公司PettiChat于近期完成100万美元的种子轮融资。由浙大校友基金藕舫天使与华旦天使联合投资，本轮融资将主要用于动物行为世界模型的研发、高质量数据集的构建以及首款硬件产品的市场推广。 在通用人工智能（AGI）横扫人类语言世界的今天，一个被忽视的语言场景被一家初创企业投入了密切关注——那就是人类与动物之间的沟通。 长期以来，人类与宠物的互动多停留在感性猜测层面。虽然宠物市场规模巨大——据统计，2025年全球宠物市场规模预计将达到2700亿美元，且复合增长率达6.45%——但在“理解宠物真实需求”这一核心痛点上，市场仍缺乏解决方案。 PettiChat则试图通过构建“动物行为世界模型（Animal Behavior World Model）”，打破人宠之间的物种交流隔阂。 佩戴翻译器的猫 从“翻译官”到“世界模型” 不同于市面上简单的、基于娱乐性的宠物翻译软件，Pettichat的核心底层逻辑是“行为与语言的双重建模”。PettiChat认为动物的行为具有可预测的“Token”。人类拥有约860亿个神经元，而狗和猫分别拥有5.3亿和2.27亿个神经元，宠物的神经元数量远少于人类，所以它们的行为模式在物理规律和生物本能也下更具规律性。 PettiChat的核心产品架构包含三大维度： 1、PET VOICE TRANSLATION（宠物语音翻译）： 2、PET TALK CONVERSATION（宠物对话）： 基于AI Agent技术，让人类的意图以声音的方式传达给宠物，实现人的语言转达为宠物的语言。 3、LOCATION & HEALTH TRACKER（位置与健康追踪）： 通过穿戴设备收集多模态数据，实现行为预警与健康管理。 “我们想做的不仅仅是一个翻译器，而是动物的行为世界模型。”PettiChat创始人李景元表示，“人类已经有了语言大模型，以及基于多模态数据的世界模型。我们希望构建出动物的一套包含视觉，声音，生化信号，行为信号等的的世界模型。通过收集高质量的动物行为数据，我们可以利用更合理的物理建模架构，去预测宠物的健康和行为。” PettiChat目前推出的核心产品是一款重约27.2g的智能宠物可穿戴设备，定位为宠物界的“AI智能硬件”。该产品具备IP56级防水，采用磁吸充电，通过夹在项圈上即可便捷佩戴。主人通过配套App可实现与宠物的实时对话：当宠物发出叫声时，设备会自动录音并进行实时翻译；主人亦可通过App发送指令，由设备将其转换成宠物语言传达给宠物，从而实现人宠之间的双向沟通。 宠物语言模型 AI时代的“宠物语料库” 在AI竞争的下半场，数据的质量决定了模型的上限。PettiChat团队意识到，过去宠物识别领域之所以没有突破，是因为缺乏针对性、高质量且经过标注的动物行为数据集。 为此，PettiChat正在持续构建一套庞大的动物行为数据库，涵盖了从日常互动声音、肢体语言到异常生理状态的不同维度数据，经过专家审核的数据目前猫类数据有约89万条，犬类有约 65万条数据。通过这些“物理世界”的数据喂养，模型能够实现从“识别”到“预测”的跨越，根据PettiChat提供的数据，猫的情境声学模式测试准确率达到了94.6%，狗的准确率达到了92.3%。 同时，系统也基于AI Agent加强了动作识别和动物行为学的上下文理解能力，能更好的结合最近的互动，预判宠物的行为异常与焦虑表现等。 商业化落地：软硬结合的多维矩阵 在商业路径上，PettiChat选择了“硬件载体+订阅服务”的模式。其首款实时宠物翻译器已展开预售，产品在海外预售价为129美元，国内预售价为799元人民币。 除了C端的宠物伴侣市场，PettiChat的技术愿景还指向了更广阔的B端领域。由于其底层逻辑是建立物理世界的动物模型，该技术未来可延伸至畜牧业、野生动物保护等场景，通过监控动物的行为和情绪，提高养殖效率或实现生态预警。 目前，全球宠物配件市场规模已达585亿美元，其中可穿戴设备和智能硬件是增长非常快的细分赛道。PettiChat凭借其独创的“世界模型”理念，正试图在这一碎片化严重的市场中，建立起基于技术深度的品牌护城河。 团队核心成员均来自浙江大学计算机学院与人工智能学院。创始人李景元，浙江大学人工智能博士，是一位90后连续创业者；CTO杜稼淳拥有浙江大学学士及荷兰埃因霍温理工大学硕士学位，在阿里云拥有物联网和大模型领域8年工作经验。 投资人观点： 宠物经济是具有巨大潜力的新兴市场，AI最近的发展又使得宠物主与宠物的互动可以更加多样化趣味化。华旦天使投资作为投资过许多浙大优秀团队的早期科创投资机构，也很开心可以在这次的投资中支持同样来自于竺可桢学院强化班校友创业团队，共同探索这一新领域。 我们认为，Pettichat代表了一种新的技术范式一-用通用人工智能的方法去理解非人类智能体，这是一种可迁移可扩展且充满想象力的全新领域。不同于市面上基于规则或简单分类的宠物翻译产品Pettichat构建的宠物交互大模型采用类Transformer架构，将宠物的叫声、肢体动作、生理信号统一建模为可预测的“行为Token”，实现了从“识别\"到“理解与预测\"的跨越。团队在数据工程上投入扎实，积累了大量专家标注的宠物语料，模型在情境声学等任务上能够展现出商用级的准确率，这些都构成了企业的长期竞争力。",
+      "source": "36氪",
+      "publishedAt": "2026-04-21 16:19:29  +0800",
+      "region": "国内",
+      "summary": "36氪获悉，宠物AI科技初创公司PettiChat于近期完成100万美元的种子轮融资。由浙大校友基金藕舫天使与华旦天使联合投资，本轮融资将主要用于动物行为世界模型的研发、高质量数据集的构建以及首款硬件产品的市场推广。",
+      "category": "投融资与并购",
+      "company": "PettiChat",
+      "score": 47,
+      "breakdown": {
+        "substance": 22,
+        "importance": 18,
+        "timeliness": 2,
+        "credibility": 7,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "研究警告生成式AI可能增加机器学习系统的安全风险",
+      "url": "https://techxplore.com/news/2026-04-generative-ai-machine-cyberattacks-leaks.html",
+      "snippet": "Using generative AI to design, train, or perform steps within a machine-learning system is risky, argues computer scientist Micheal Lones in a paper appearing in Patterns. Though large language models (LLMs) could expand the capabilities of machine-learning systems and decrease costs and labor needs, Lones warns that using them reduces transparency and control for the people developing and using these systems and increases the risk of malicious cyberattacks, data leaks, and bias against underrepresented groups.",
+      "source": "Tech Xplore",
+      "publishedAt": "Wed, 22 Apr 2026 11:00:09 EDT",
+      "region": "海外",
+      "summary": "计算机科学家Micheal Lones在《模式》期刊上发表论文指出，使用生成式AI来设计、训练或执行机器学习系统中的步骤存在风险。尽管大型语言模型可以扩展机器学习系统的能力并降低成本和人力需求，但Lones警告，使用它们会降低开发和使用这些系统的人员的透明度和控制力，并增加恶意网络攻击。",
+      "category": "政策与监管",
+      "company": "无",
+      "score": 20,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 7,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ]
+}
