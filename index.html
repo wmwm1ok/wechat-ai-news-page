@@ -273,26 +273,6 @@
             border-color: #d1d5db;
             color: #475569;
         }
-        .digest-card {
-            margin: 0 0 18px;
-            border: 1px solid #dbeafe;
-            border-left: 4px solid #1c5cff;
-            border-radius: 10px;
-            background: #f8fbff;
-            padding: 14px 14px 12px;
-        }
-        .digest-title {
-            font-size: 15px;
-            color: #1c5cff;
-            font-weight: 700;
-            margin-bottom: 8px;
-        }
-        .digest-item {
-            font-size: 13px;
-            color: #334155;
-            line-height: 1.7;
-            margin: 4px 0;
-        }
         .quick-nav {
             margin: 0 0 18px;
             display: flex;
@@ -311,7 +291,6 @@
     <div class="action-bar" id="action-bar" style="display: none;">
         <p>💡 可先在下方编辑区微调内容<br>再点击复制，粘贴到公众号助手里尽量保留格式</p>
         <button class="btn" onclick="copyForWechat()">📋 复制全部内容</button>
-        <button class="btn btn-secondary" onclick="copyPlainText()">📝 复制纯文本</button>
     </div>
     
     <div class="tips" id="tips" style="display: none;">
@@ -455,7 +434,6 @@
         <h1 style="color:#1c5cff;margin:0 0 8px;font-size:26px;line-height:1.4;font-weight:900;">${escapeHtml(pageTitle)}</h1>
         <p style="color:#94a3b8;margin:0;font-size:13px;">${escapeHtml(data.date)} · 约 ${estimatedMinutes} 分钟阅读</p>
     </div>
-    ${renderDigestCard(data.articles || [])}
     ${renderQuickNav(sections)}
 `;
 
@@ -520,36 +498,12 @@
             ${index + 1}. ${item.company ? `<strong style="color:${color};">${escapeHtml(item.company)}</strong> · ` : ''}${escapeHtml(item.title)}
         </h3>
         ${meta ? `<p style="font-size:12px;color:#6b7280;margin:0 0 10px;">${meta}</p>` : ''}
-        <p style="font-size:13px;color:#0f766e;margin:0 0 10px;line-height:1.75;background:#ecfeff;border-left:3px solid #14b8a6;padding:8px 10px;border-radius:6px;">
-            <strong>要点：</strong>${escapeHtml(extractLeadSentence(item.summary))}
-        </p>
         <p style="font-size:14px;color:#374151;margin:0;line-height:1.85;text-align:justify;">${escapeHtml(item.summary)}</p>
     </section>
 `;
             });
 
             return html;
-        }
-
-        function renderDigestCard(articles) {
-            const topItems = [...articles]
-                .sort((a, b) => Number(b.score || 0) - Number(a.score || 0))
-                .slice(0, 3);
-
-            if (topItems.length === 0) {
-                return '';
-            }
-
-            const itemsHtml = topItems.map((item, index) => `
-                <div class="digest-item">${index + 1}. ${escapeHtml(item.title)}</div>
-            `).join('');
-
-            return `
-                <div class="digest-card">
-                    <div class="digest-title">📌 今日速览</div>
-                    ${itemsHtml}
-                </div>
-            `;
         }
 
         function renderQuickNav(sections) {
@@ -620,14 +574,6 @@
                 .replace(/[^\u4e00-\u9fa5a-zA-Z0-9_-]/g, '');
         }
 
-        function extractLeadSentence(summary) {
-            const text = String(summary || '').trim();
-            if (!text) return '暂无摘要要点。';
-            const parts = text.split(/(?<=[。！？])/);
-            const first = parts.find(Boolean) || text;
-            return first.length > 70 ? `${first.slice(0, 70).trim()}…` : first;
-        }
-
         function jumpToSection(sectionSlug) {
             const target = document.getElementById(`section-${sectionSlug}`);
             if (!target) return;
@@ -662,18 +608,6 @@
                     console.error('兼容复制失败:', fallbackError);
                     showToast('❌ 复制失败，请手动全选后复制', 'error');
                 }
-            }
-        }
-
-        async function copyPlainText() {
-            const editor = document.getElementById('rich-editor');
-            const text = editor.innerText;
-            try {
-                await navigator.clipboard.writeText(text);
-                showToast('✅ 已复制纯文本内容', 'success');
-            } catch (error) {
-                console.error('纯文本复制失败:', error);
-                showToast('❌ 纯文本复制失败，请手动全选复制', 'error');
             }
         }
 
