@@ -1,11 +1,42 @@
 {
   "产品发布与更新": [
     {
-      "title": "DeepSeek V4 双版本正式上线",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-24-5",
-      "snippet": "终于，全球 AI 圈等待了几个月的 DeepSeek V4，它终于来了！今天上午，DeepSeek API 文档上线，让我们看到了新版本的「庐山真面目」。此次，DeepSeek V4 按大小会有两个版本，分别是 DeepSeek-V4-Flash 和 DeepSeek-V4-Pro。上下文长度...",
+      "title": "GPT-5.5 发布：自主修复系统故障，OpenAI 重夺大模型性能榜首",
+      "url": "https://venturebeat.com/technology/openais-gpt-5-5-is-here-and-its-no-potato-narrowly-beats-anthropics-claude-mythos-preview-on-terminal-bench-2-0",
+      "snippet": "After months of rumors and reports that OpenAI was developing a new, more powerful AI large language model for use in ChatGPT and through its application programming interface (API), allegedly codenamed \"Spud\" internally, the company has today unveiled its latest offering under the more formal name GPT-5.5. And to likely no one's surprise, it's hardly a \"potato\" in the disparaging sense of the word: GPT-5.5 retakes the lead for OpenAI in generally available LLMs, coming ahead of rivals Anthropic's and Google's latest public offerings, and even beating the private Anthropic Claude Mythos Preview model narrowly on one benchmark (essentially a statistical tie). \"It’s definitely our strongest model yet on coding, both measured by benchmarks and based on the feedback that we’ve gotten from trusted partners, as well as our own experience,\" explained Amelia \"Mia\" Glaese, VP of Research at OpenAI, in a video call with journalists ahead of the launch earlier today. OpenAI positions GPT-5.5 as a fundamental redesign of how intelligence interacts with a computer's operating system and professional software stacks. \"What is really special about this model is how much more it can do with less guidance,\" said OpenAI co-founder and president Greg Brockman on the same call. \"It’s way more intuitive to use. It can look at an unclear problem and figure out what needs to happen next.\" Brockman proceeded to emphasize the areas in which users can expect to see gains from using GPT-5.5 compared to OpenAI's prior state-of-the-art model, GPT-5.4, which remains available (for now) to users and enterprises at half the API cost of its new successor. \"It’s extremely good at coding,\" Brockman said of GPT-5.5. \"It’s also great at broader computer work, computer use, scientific research—these kinds of applications that are very intelligent bottlenecks.\" OpenAI CEO and-cofounder Sam Altman also weighed in on the launch and the company's philosophy in a post on X, writing, in part: \"We want our users to have access to the best technology and for everyone to have equal opportunity.\" The model is available in two variants: GPT-5.5 and GPT-5.5 Pro, distinguished by the latter offering enhanced precision and specialized logic for handling the most rigorous cognitive demands. While the standard version serves as the versatile flagship for general intelligence tasks, the Pro model is architected specifically for high-stakes environments such as legal research, data science, and advanced business analytics where accuracy is paramount. This premium tier provides noticeably more comprehensive and better-structured responses, supported by specialized latency optimizations that ensure high-quality performance during complex, multi-step workflows. Unfortunately for third-party software developers, API access is not yet available for either GPT-5.5 nor GPT-5.5 Pro and will be coming \"very soon,\" according to the company's announcement blog post. \"API deployments require different safeguards and we are working closely with partners and customers on the safety and security requirements for serving it at scale,\" OpenAI writes. For the time being, GPT-5.5 is available only to paying subscribers of the ChatGPT Plus ($20 monthly), Pro ($100-$200 monthly), Business, and Enterprise users, with GPT-5.5 Pro access starting at the Pro tier and upwards. A focus on agency At the core of GPT-5.5 is a focus on \"agentic\" performance—specifically in coding, computer use, and scientific research. Unlike its predecessors, which often required granular, step-by-step prompting to avoid \"hallucinating\" a path forward, GPT-5.5 is designed to handle messy, multi-part tasks autonomously. It excels at researching online, debugging complex codebases, and moving between documents and spreadsheets without human intervention. One of the most significant technical leaps is the model's efficiency. While larger models typically suffer from increased latency, GPT-5.5 matches the per-token latency of the previous GPT-5.4 while delivering a higher level of intelligence. This was achieved through a deep hardware-software co-design. OpenAI served GPT-5.5 on NVIDIA GB200 and GB300 NVL72 systems, utilizing custom heuristic algorithms—written by the AI itself—to partition and balance work across GPU cores. This optimization reportedly increased token generation speeds by over 20%.For high-stakes reasoning, the \"GPT-5.5 Thinking\" mode in ChatGPT provides smarter, more concise answers by allowing the model more internal \"compute time\" to verify its own assumptions before responding. This capability is particularly visible in the model’s performance on \"Expert-SWE,\" an internal OpenAI benchmark for long-horizon coding tasks with a median human completion time of 20 hours. GPT-5.5 notably outperformed GPT-5.4 on this metric while using significantly fewer tokens. Benchmarks show OpenAI has retaken the lead in most powerful publicly available LLM over Claude Opus 4.7 (but the unreleased Mythos still outperforms it) The market for leading U.S.-made frontier models has become an increasingly tight race between OpenAI, Anthropic, and Google. Literally a week ago to the date, OpenAI rival Anthropic released Opus 4.7, its most powerful generally available model, to the public, taking over the leaderboard in terms of the number of third-party benchmark tests in which it has the lead. Yet today, GPT-5.5 has surpassed it and even Anthropic's heavily restricted, more powerful model Claude Mythos Preview, albeit only on one benchmark, Terminal-Bench 2.0, which tests \"a model's ability to navigate and complete tasks in a sandboxed terminal environment.\" GPT-5.5 achieved 82.7% accuracy on Terminal-Bench 2.0, easily surpassing Opus 4.7 (69.4%) and narrowly beating the Mythos Preview (82.0%). However, in multidisciplinary reasoning without tools, the landscape is more competitive. On Humanity's Last Exam without tools, GPT-5.5 Pro scored 43.1%, trailing behind Opus 4.7 (46.9%) and Mythos Preview (56.8%). Benchmark GPT-5.5 Claude Opus 4.7 Gemini 3.1 Pro Mythos Preview* Terminal-Bench 2.0 82.7 69.4 68.5 82.0 Expert-SWE (Internal) 73.1 — — — GDPval (wins or ties) 84.9 80.3 67.3 — OSWorld-Verified 78.7 78.0 — 79.6 Toolathlon 55.6 — 48.8 — BrowseComp 84.4 79.3 85.9 86.9 FrontierMath Tier 1–3 51.7 43.8 36.9 — FrontierMath Tier 4 35.4 22.9 16.7 — CyberGym 81.8 73.1 — 83.1 Tau2-bench Telecom (original prompts) 98.0 — — — OfficeQA Pro 54.1 43.6 18.1 — Investment Banking Modeling Tasks (Internal) 88.5 — — — MMMU Pro (no tools) 81.2 — 80.5 — MMMU Pro (with tools) 83.2 — — — GeneBench 25.0 — — — BixBench 80.5 — — — Capture-the-Flags challenge tasks (Internal) 88.1 — — — ARC-AGI-2 (Verified) 85.0 75.8 77.1 — SWE-bench Pro (Public) 58.6 64.3 54.2 77.8 This suggests that while OpenAI is winning on \"computer use\" and \"agency,\" other models may still hold an edge in pure, zero-shot academic knowledge. It is important to clarify that Mythos Preview is not a generally available product; Anthropic has classified it as a strategic defensive asset due to its high cybersecurity risks, restricting its access to a small, limited audience of trusted partners and government agencies. Because Mythos is excluded from broad commercial use, the primary market competition remains between GPT-5.5, Gemini 3.1 Pro, and Claude Opus 4.7. So when it comes to models that the general public can access, GPT-5.5 has retaken the crown for OpenAI, achieving the state-of-the-art across 14 benchmarks compared to 4 for Claude Opus 4.7 and 2 for Google Gemini 3.1 Pro. It dominates in agentic computer use, economic knowledge work (GDPval), specialized cybersecurity (CyberGym), and complex mathematics (Frontier Math). In comparison, Claude Opus 4.7 leads on software engineering and reasoning without tools, while Gemini 3.1 Pro leads in three categories, specifically excelling in academic reasoning and financial analysis. Increased costs for users The shift in intelligence comes with a significant price increase for API developers, according to material OpenAI shared ahead of the model's public release. OpenAI has effectively doubled the entry price for its flagship model compared to the previous generation, and again double it from there for the most-cutting edge variant of the model, GPT-5.5 Pro: Model Input Price (per 1M tokens) Output Price (per 1M tokens) GPT-5.4 $2.50 $15.00 GPT-5.5 $5.00 $30.00 GPT-5.5 Pro $30.00 $180.00 To mitigate these costs, OpenAI emphasizes that GPT-5.5 is more \"token efficient,\" meaning it uses fewer tokens to complete the same task compared to GPT-5.4. For users requiring speed over depth, OpenAI also introduced a Fast mode in Codex, which generates tokens 1.5x faster but at a 2.5x price premium. The \"mini\" and \"nano\" tiers seen in the GPT-5.4 era (priced at $0.75 and $0.20 per 1M input tokens respectively) currently have no GPT-5.5 equivalent, though the company notes that GPT-5.5 is rolling out to all subscription tiers, including Plus, Pro, and Enterprise. Licensing and the 'cyber-permissive' frontier OpenAI’s approach to safety and licensing for GPT-5.5 introduces a novel concept: Trusted Access for Cyber. Because the model is now capable of identifying and patching advanced security vulnerabilities, OpenAI has implemented stricter \"cyber-risk classifiers\" for general users. For legitimate security professionals, however, OpenAI is offering a specialized \"cyber-permissive\" license. This program allows verified defenders—those responsible for critical infrastructure like power grids or water supplies—to use models like GPT-5.4-Cyber or unrestricted versions of GPT-5.5 with fewer refusals for security-related prompts. This dual-use framework acknowledges that while AI can accelerate cyber defense, it can also be weaponized. Under OpenAI’s Preparedness Framework, GPT-5.5 is classified as \"High\" risk for biological and cybersecurity capabilities. To manage this, API deployments currently require different safeguards than the consumer-facing ChatGPT, and OpenAI is working with government partners to ensure these tools are used to strengthen—not undermine—digital resilience. Initial reactions: losing access feels like having a 'limb amputated' The early feedback from power users and engineers suggests that GPT-5.5 has crossed a psychological threshold in AI utility. For developers, the model's ability to maintain \"conceptual clarity\" across massive codebases is its standout feature. \"The first coding model I've used that has serious conceptual clarity,\" noted Dan Shipper, CEO of Every. Shipper tested the model by asking it to debug a complex system failure that had previously required a team of human engineers to rewrite; GPT-5.5 produced the same fix autonomously. Similarly, Pietro Schirano, CEO of MagicPath, described a \"step change\" in performance when the model successfully merged a branch with hundreds of refactor changes into a main branch in a single, 20-minute pass.Perhaps the most visceral reaction came from an anonymous engineer at NVIDIA, who had early access to the model: \"Losing access to GPT-5.5 feels like I've had a limb amputated\". This sentiment is echoed in the scientific community. Derya Unutmaz, a professor at the Jackson Laboratory for Genomic Medicine, used GPT-5.5 Pro to analyze a dataset of 28,000 genes, producing a report in minutes that would have normally taken his team months. Brandon White, CEO of Axiom Bio, went further, stating that if OpenAI continues this pace, \"the foundations of drug discovery will change by the end of the year\". GPT-5.5 is more than an incremental update; it is a tool designed for a world where humans delegate entire workflows rather than single prompts. While the costs are higher and the safety guardrails tighter, the performance gains in agentic work suggest that AI is finally moving from the chat box and into the operating system. Perhaps most astonishingly of all, it's not even hearing the end of the scaling limits — whereupon models are trained on more and more GPUs — according to researchers at the company. \"We actually still have headroom to train significantly smarter models than this,\" said OpenAI chief scientist Jakub Pachocki.",
+      "source": "VentureBeat AI",
+      "publishedAt": "Thu, 23 Apr 2026 18:27:00 GMT",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "VentureBeat AI"
+      ],
+      "coverageTitles": [
+        "OpenAI's GPT-5.5 is here, and it's no potato: narrowly beats Anthropic's Claude Mythos Preview on Terminal-Bench 2.0"
+      ],
+      "summary": "OpenAI 发布 GPT-5.5，在 Terminal-Bench 2.0 基准测试中微弱领先 Anthropic 的 Claude Mythos Preview，并击败 Google 最新公开模型。该模型能自主修复复杂系统故障，并在 20 分钟内完成数百项重构代码合并。Pro 版本针对法律、数据科学等高风险场景优化，提供更全面响应和低延迟。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 62,
+      "breakdown": {
+        "substance": 20,
+        "importance": 11,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Anthropic承认Claude Code“降智”：三个Bug拖累代码工具性能",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-24-13",
+      "snippet": "今天 AI 圈好不热闹，先是 OpenAI 声势浩大发布 GPT5.5，接着是盼了又盼的 DeepSeek v4 终于发布。而就在这狂欢的夹缝中，Anthropic 也在「搞事情」，不过不是发布新模型，而是发了一份郑重其事的声明：没错，你们说 Claude Code「降智」是真的，不过这都是有...",
       "source": "机器之心",
-      "publishedAt": "2026-04-24T12:04:00+08:00",
+      "publishedAt": "2026-04-24T17:14:00+08:00",
       "popularityScore": 0,
       "region": "国内",
       "coverageCount": 1,
@@ -13,15 +44,16 @@
         "机器之心"
       ],
       "coverageTitles": [
-        "刚刚，DeepSeek V4 双版本正式上线！"
+        "Anthropic实锤Claude Code「降智」：就是这三个Bug造成的"
       ],
-      "summary": "全球AI圈关注的DeepSeek V4今日正式上线，其API文档已发布，展示了新版本的具体信息。该版本包含两个不同大小的模型：DeepSeek-V4-Flash和DeepSeek-V4-Pro。上下文长度等细节在API文档中有所体现。",
+      "summary": "Anthropic发布声明，承认其代码工具Claude Code存在性能下降问题，并确认由三个具体Bug导致。声明指出，这些Bug影响了模型在代码任务中的表现，但未透露修复时间表。这对依赖Claude Code的开发者意味着需关注官方更新，以恢复工具的正常效率。",
       "category": "产品发布与更新",
-      "company": "DeepSeek",
-      "score": 33,
+      "company": "Anthropic",
+      "score": 52,
       "breakdown": {
-        "substance": 11,
-        "importance": 0,
+        "substance": 14,
+        "importance": 5,
+        "readerValue": 11,
         "timeliness": 10,
         "hotness": 0,
         "credibility": 9,
@@ -29,15 +61,44 @@
       },
       "isDuplicate": false,
       "isDisplayReady": true
-    }
-  ],
-  "技术与研究": [
+    },
     {
-      "title": "Gartner：阿里云市场份额升至32.8%，扩大中国第一优势",
-      "url": "https://www.leiphone.com/category/industrynews/vPTZmTB7XKBtAgHu.html",
-      "snippet": "4月24日，Gartner最新数据显示，2025年阿里云以32.8%的市场份额稳居中国云市场第一，同比提升2.7个百分点，收入增速34.4%远超行业23.4%的整体水平，AI需求推动其领先优势持续扩大。海外业务同样表现强劲，阿里云全球市场份额由7.2%升至7.7%，全球收入增速约35%，国际化进程加速。 雷峰网",
+      "title": "JiuwenClaw发布Team Skills新范式：多Agent协作能力实现标准化封装，团队能力可复制",
+      "url": "https://www.qbitai.com/2026/04/406393.html",
+      "snippet": "业界首个面向多Agent协作的标准化能力包规范",
+      "source": "量子位",
+      "publishedAt": "Fri, 24 Apr 2026 07:01:47 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "Coordination Engineering关键一环，JiuwenClaw再发布Team Skills技能新范式"
+      ],
+      "summary": "JiuwenClaw在Team Skills Hub平台推出团队技能自动生成专家（teamskill-creator），支持将单Agent Skill转化为Team Skill或修改已有团队技能。该工具通过分诊角色动态创建专科专家成员并分配分析重点，可在Claude Code上验证Team Skill的遵从性。",
+      "category": "产品发布与更新",
+      "company": "华为",
+      "score": 37,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "DeepSeek V4发布当天，电商Agent Accio Work火速接入：30分钟就能“手搓”一家全球网店",
+      "url": "https://www.leiphone.com/category/industrynews/wzuXfd6Bj7kpr3aK.html",
+      "snippet": "今天中午DeepSeek V4发布，下午3点记者发现，被称为“电商龙虾”的Accio Work已经接入该模型，成为首批接入DeepSeek V4的Agent工作台。 不仅如此，千问的最新模型Qwen 3.6等国产领先模型也均已接入Accio Work。 目前用户在Accio Work的模型选择里，就已经能看到DeepSeek V4 Pro和Flash两种模型，其中Pro被标注为“理解与生成更强，适合进阶任务”，与Qwen 3.6 Max的标注相同。 据悉，Accio Work是阿里国际面向全球推出的企业级Agent，能7 x 24小时自主运行、处理复杂的商业任务，尤其擅长电商，在中小商家、个人创业者中受到欢迎，有用户称其能30分钟“手搓”出一家全球网店。 而近期国内多款模型齐发，均针对Agent能力进行了专门优化。公开资料显示，DeepSeek V4就在发布时提到：“已针对主流的Agent产品进行了适配和优化，在代码任务、文档生成任务等方面表现均有提升。” 雷峰网",
       "source": "雷锋网",
-      "publishedAt": "Fri, 24 Apr 2026 11:13:00 +0800",
+      "publishedAt": "Fri, 24 Apr 2026 17:08:00 +0800",
       "popularityScore": 0,
       "region": "国内",
       "coverageCount": 1,
@@ -45,25 +106,152 @@
         "雷锋网"
       ],
       "coverageTitles": [
-        "Gartner：阿里云市场份额升至32.8%，再度扩大中国第一优势"
+        "电商龙虾Accio Work已接入DeepSeek V4、Qwen 3.6等国内领先模型 "
       ],
-      "summary": "根据Gartner最新数据，2025年阿里云在中国云市场份额达到32.8%，同比提升2.7个百分点，收入增速34.4%远超行业整体水平。AI需求推动了其领先优势的扩大。海外业务方面，阿里云全球市场份额从7.2%升至7.7%，全球收入增速约35%。此外，阿里发布了Qwen3.5-Omni，其多模态能力超越Gemini-3.1 Pro。汽车行业已在阿里云上使用超10万卡“真武”PPU进行研发。",
-      "category": "技术与研究",
-      "company": "阿里云",
-      "score": 42,
+      "summary": "而近期国内多款模型齐发，均针对Agent能力进行了专门优化。公开资料显示，DeepSeek V4就在发布时提到：“已针对主流的Agent产品进行了适配和优化，在代码任务、文档生成任务等方面表现均有提升。",
+      "category": "产品发布与更新",
+      "company": "阿里国际",
+      "score": 54,
       "breakdown": {
-        "substance": 14,
-        "importance": 11,
+        "substance": 24,
+        "importance": 5,
+        "readerValue": 11,
         "timeliness": 10,
         "hotness": 0,
-        "credibility": 4,
+        "credibility": 6,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "GPT-5.5 多项评测碾压 Opus 4.7：奥特曼晒黄仁勋内部信，英伟达全员用上 Codex",
+      "url": "https://www.infoq.cn/article/IjNk79KKJgTDDvO5OMAY?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 24 Apr 2026 11:07:13 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "GPT-5.5 赢了 Opus 4.7 和 Mythos？奥特曼晒黄仁勋内部信：英伟达全员用上 Codex！"
+      ],
+      "summary": "OpenAI 发布 GPT-5.5 模型，在多项专业评测中全面领先 Claude Opus 4.7。其中 Terminal-Bench 2.0 得分 82.7%，显著高于 Opus 4.7 的 69.4%，且未出现欺骗行为。API 即将上线，定价为 5 美元/百万输入 token、30 美元/百万输出 token，上下文窗口达 100 万，这对开发者和企业意味着更强的复杂任务与工具协作能力，但需注意较高的使用成本。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 65,
+      "breakdown": {
+        "substance": 18,
+        "importance": 11,
+        "readerValue": 15,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
         "displayPenalty": 3
       },
       "isDuplicate": false,
       "isDisplayReady": true
     },
     {
-      "title": "Meta计划裁员10%的员工",
+      "title": "DeepSeek-V4开源发布，华为云首发适配：百万Token上下文与推理成本双突破",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-24-11",
+      "snippet": "4月24日，DeepSeek-V4模型正式发布并开源，华为云首发适配。DeepSeek-V4 拥有百万Token超长上下文，在 Agent 能力、世界知识和推理性能上均实现国内与开源领域的领先。其中，DeepSeek-V4-Flash模型参数下降至284B，推理成本进一步降低，模型参数和激活更...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-24T16:35:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "DeepSeek-V4正式发布，多家企业已通过华为云接入"
+      ],
+      "summary": "4月24日，DeepSeek-V4模型正式发布并开源，华为云首发适配。DeepSeek-V4 拥有百万Token超长上下文，在 Agent 能力、世界知识和推理性能上均实现国内与开源领域的领先。",
+      "category": "技术与研究",
+      "company": "DeepSeek",
+      "score": 58,
+      "breakdown": {
+        "substance": 18,
+        "importance": 5,
+        "readerValue": 13,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "DeepSeek 发布 V4-Pro 和 V4-Flash：1.6 万亿参数模型定价仅为竞品零头",
+      "url": "https://the-decoder.com/as-agentic-ai-pushes-rivals-to-raise-prices-and-cap-usage-deepseek-ships-a-good-enough-model-for-almost-nothing/",
+      "snippet": "Chinese AI lab Deepseek has released V4-Pro and V4-Flash, two new models with up to 1.6 trillion parameters and a one-million-token context window. Pricing sits well below OpenAI, Google, and Anthropic. The accompanying technical paper also reveals details about training data, distillation, and hardware. The article As agentic AI pushes rivals to raise prices and cap usage, Deepseek ships a good-enough model for almost nothing appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Fri, 24 Apr 2026 08:35:28 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "As agentic AI pushes rivals to raise prices and cap usage, Deepseek ships a good-enough model for almost nothing"
+      ],
+      "summary": "中国AI实验室Deepseek发布了V4-Pro和V4-Flash两个新模型，参数高达1.6万亿，上下文窗口达100万token。其定价远低于OpenAI、Google和Anthropic。对于开发者和企业，这提供了性价比极高的替代方案，可能推动AI市场定价策略调整。",
+      "category": "技术与研究",
+      "company": "Deepseek",
+      "score": 51,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "人形机器人半马首超人类：硬件能力见顶，智能竞赛开启",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-24-14",
+      "snippet": "近日，人形机器人第一次在真正意义上，“超越” 了人类。2026 北京亦庄人形机器人半程马拉松赛上，荣耀人形机器人 “闪电” 凭借 50 分 26 秒（净用时）的成绩，获得此次比赛冠军，并大幅领先目前人类男子半程马拉松世界的最新纪录是 57 分 20 秒。与此同时，宇树 H1（2023 年改版）...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-24T17:19:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "机器人马拉松超越人类之后：本体走到尽头，智能成为下半场"
+      ],
+      "summary": "2026北京亦庄人形机器人半程马拉松赛中，荣耀人形机器人“闪电”以50分26秒夺冠，首次在长跑中超越人类男子半马世界纪录（57分20秒）。这一成绩表明人形机器人的物理运动能力已突破人类极限，但宇树H1等参赛机型的表现也暗示硬件趋同后，算法和智能决策将成为竞争关键。对机器人行业而言，这标志着技术焦点从本体硬件转向智能软件，未来比拼的是感知、规划与自适应能力。",
+      "category": "技术与研究",
+      "company": "荣耀",
+      "score": 39,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "readerValue": 2,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Meta宣布裁员10%：8000人受影响，AI巨额投资成主因",
       "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
       "snippet": "Mark Zuckerberg presenting at Meta Connect on September 17th, 2025. | Bloomberg via Getty Images Meta is planning to layoff around 10 percent of employees in May, according to a memo from the company's chief people officer, Janelle Gale, published by Bloomberg. That means approximately 8,000 people will see their jobs cut. Meta will also be closing around 6,000 open roles, according to Gale. The cuts follow Meta's significant investments in AI, including spending huge sums to hire top talent and build data centers. The company forecast in January that it will spend $115 billion to $135 billion in capital expenditures in 2026 - a significant increase from its $72.22 billion in capital expenditures for 2025. The increase is to \"support o … Read the full story at The Verge.",
       "source": "The Verge AI",
@@ -77,14 +265,15 @@
       "coverageTitles": [
         "Meta is laying off 10 percent of its staff"
       ],
-      "summary": "Meta计划在5月裁员约10%的员工（约8000人），并关闭约6000个空缺职位。此次裁员发生在公司对AI进行重大投资之后，包括斥巨资招聘顶尖人才和建设数据中心，2026年资本支出预计达1150亿至1350亿美元。受影响员工将于5月20日收到通知，Meta称此举是为了提高运营效率以抵消其他投资成本。",
+      "summary": "Meta计划在5月裁员约10%的员工，即约8000人，同时关闭约6000个空缺职位。这一决定源于Meta在AI领域的巨额投资，包括高薪聘请顶尖人才和建设数据中心，公司预计2025年资本支出将达1150亿至1350亿美元。对开发者而言，Meta的AI优先战略意味着行业人才竞争将更加激烈，但同时也可能带来更多AI工具和平台的机会。",
       "category": "技术与研究",
       "company": "Meta",
-      "score": 39,
+      "score": 33,
       "breakdown": {
-        "substance": 16,
+        "substance": 6,
         "importance": 5,
-        "timeliness": 8,
+        "readerValue": 6,
+        "timeliness": 6,
         "hotness": 0,
         "credibility": 7,
         "displayPenalty": 3
@@ -93,71 +282,11 @@
       "isDisplayReady": true
     },
     {
-      "title": "谷歌DeepMind发布Vision Banana论文，何恺明、谢赛宁参与，视觉GPT时代来临",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-24-4",
-      "snippet": "编辑｜Panda、泽南前两天，OpenAI 的 ChatGPT Images 2.0 惊艳了世界，其在实测中的表现整体上已经超过了之前 SOTA 的 Nano Banaba Pro。就在人们还在惊叹于 AI 图像生成的卓越能力时，谷歌 DeepMind 却放出了一篇重量级论文《Image Ge...",
-      "source": "机器之心",
-      "publishedAt": "2026-04-24T12:02:00+08:00",
-      "popularityScore": 0,
-      "region": "国内",
-      "coverageCount": 1,
-      "coverageSources": [
-        "机器之心"
-      ],
-      "coverageTitles": [
-        "视觉GPT时刻来了！DeepMind用Vision Banana证明「生成即理解」，何恺明、谢赛宁都参与"
-      ],
-      "summary": "谷歌DeepMind发布《Image Ge...》论文，提出Vision Banana模型，核心主张“生成即理解”，即通过图像生成任务来提升模型对视觉内容的深层理解。该研究由何恺明、谢赛宁等参与，被视为视觉GPT时代的标志。",
-      "category": "技术与研究",
-      "company": "谷歌DeepMind",
-      "score": 37,
-      "breakdown": {
-        "substance": 10,
-        "importance": 5,
-        "timeliness": 10,
-        "hotness": 0,
-        "credibility": 9,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "23项国际测试验证AUC>97%：零样本泛癌识别系统突破病理诊断数据依赖瓶颈",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-24-8",
-      "snippet": "编辑丨&amp;在当前的数字病理学研究中，虽然 AI 在辅助癌症诊断上展现了巨大潜力，但仍面临一个严峻的现实：传统的 AI 模型极其依赖海量的标注数据。对于每一种新的疾病或每一个不同的医院，模型往往需要进行繁杂的重新训练。这种「一病一训」的模式不仅耗时耗力，更限制了技术在基层医疗机构的普及。针...",
-      "source": "机器之心",
-      "publishedAt": "2026-04-24T14:01:00+08:00",
-      "popularityScore": 0,
-      "region": "国内",
-      "coverageCount": 1,
-      "coverageSources": [
-        "机器之心"
-      ],
-      "coverageTitles": [
-        "打破数据枷锁：23项国际测试验证AUC>97%的卓越性能，零样本泛癌识别系统开启病理诊断新时代"
-      ],
-      "summary": "传统AI癌症诊断模型依赖海量标注数据，需针对不同疾病或医院重新训练，耗时且限制基层应用。新系统在23项国际测试中实现AUC>97%，突破数据依赖瓶颈，通过零样本泛癌识别技术无需重新训练即可直接诊断多种癌症。",
-      "category": "技术与研究",
-      "company": "",
-      "score": 34,
-      "breakdown": {
-        "substance": 7,
-        "importance": 5,
-        "timeliness": 10,
-        "hotness": 0,
-        "credibility": 9,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "美团低调开启万亿参数大模型测试邀请，基于全国产算力集群",
-      "url": "https://www.leiphone.com/category/transportation/3QndrXnL65HbW1vF.html",
-      "snippet": "4月24日，据知情人士爆料，美团近期低调开启新一代大模型的测试邀请。该模型参数规模达到了万亿级别，值得关注的是，消息称该模型完全基于全国产化算力集群训练，这表明美团可能已经率先在使用国产算力训练万亿模型上取得突破。目前该模型仅对受邀用户开放。 雷峰网",
+      "title": "74岁前程序员用AI校古籍：四个月完成近二十万字校对",
+      "url": "https://www.leiphone.com/category/industrynews/qbv4G2gsTCON6VFx.html",
+      "snippet": "4月23日，第31个世界读书日之际，“识典古籍”发布《古籍阅读数据报告》。数据显示，过去一年“识典古籍”月均读者人数超240万人，《资治通鉴》《史记》等经典古籍最受用户欢迎。当前，“识典古籍”已免费公开近6万部古籍，推动古籍阅读从专业研究场景走向大众日常阅读，也让更多公众得以参与古籍整理与文化传承。 古籍是中华优秀传统文化的载体，更是凝聚古人智慧的精神瑰宝。“识典古籍”的出现，为大众品读经典、亲近古籍提供了全新载体与便捷体验。数据显示，过去一年，越来越多人用“识典古籍”读“古书”，每月通过“识典古籍”网页、APP等各渠道阅读古籍的读者超240万，人均阅读时长24分钟，其中最长日均阅读498分钟。此外，“识典古籍”日均站内搜索量9.2万次，APP上线一年间下载人数达126万。 据介绍，“识典古籍”由字节跳动联合北京大学数字人文研究中心打造，依托豆包大模型推出“AI深度研究”等智能功能，同步搭建文字识别、自动标点、自动校勘全流程智能整理平台，推动古籍整理、研究与大众普及。截至2026年3月底，“识典古籍”已免费公开近60000部古籍，汇集了5000余个团队在平台上用AI整理古籍。 借助字节跳动的技术优势与资源积累，“识典古籍”让曾经“束之高阁”的古籍走进大众视野，变得触手可及。报告显示，“识典古籍”APP阅读榜单中，《资治通鉴》《黄帝内经》《明实录》成为最受欢迎的三部古籍；听书榜则由《史记》《周易》《三国志》占据前三席位。此外，二十五史（二十四史、清史稿）、国学入门最低限度之必读书目（梁启超）、跟毛主席读古籍，位列专题书单榜前三，体现出大众对经典古籍的多元阅读需求。 AI技术的深度应用，让阅读古籍变得便捷又有趣，也降低了大众参与古籍传承的门槛。“识典古籍”平台相继推出AI助手、AI校对、AI文白翻译、AI播客讲解、AI听书及AI深度研究助手等多元功能，其中“深度研究助手”可自主完成研究计划制定、知识挖掘、报告生成等全流程工作，填补了AI在深度古籍研究应用中的空白。数据显示，目前平台已通过AI将1万部古籍翻译成白话文；5万人报名成为“我用AI校古籍”志愿者，2025年全年粗校古籍数量达2万部，累计粗校字数达15亿。 74岁老人常兰藻是“我用AI校古籍”活动的志愿者之一。这位曾是中国最早一批本土“程序员”的老人，退休后一直渴望亲近古籍，却被繁体字、异体字和竖排版式挡在门外，直到偶然接触到“识典古籍”平台，才找到了“以校带学”的路径，四个月完成近二十万字的古籍校对工作。如今，他正借助“识典古籍”着手整理《怀来县志》，为家乡历史文化的传承贡献力量。 过去一年，“识典古籍”平台持续推动古籍整理和普及传播，陆续上线东亚汉文数据库、中华女子艺文数据库、巴蜀历代方志库等特色专题；今年春节，“识典古籍”支持春晚“十二花神”节目内容创作，推出“古籍里看懂十二花神”栏目。字节跳动公益相关负责人表示，未来，“识典古籍”将持续助力古籍数字化传承传播，以科技推动知识普惠，让千年文脉在当代焕发新的生机与活力。 雷峰网",
       "source": "雷锋网",
-      "publishedAt": "Fri, 24 Apr 2026 10:42:00 +0800",
+      "publishedAt": "Fri, 24 Apr 2026 15:46:00 +0800",
       "popularityScore": 0,
       "region": "国内",
       "coverageCount": 1,
@@ -165,48 +294,19 @@
         "雷锋网"
       ],
       "coverageTitles": [
-        "独家：首个“万卡国产算力集群 万亿参数大模型”开启测试邀请"
+        "AI助力古籍阅读新趋势：每月超240万人在“识典古籍”阅读，5万人“边读边校”"
       ],
-      "summary": "4月24日，据知情人士爆料，美团近期低调开启新一代大模型的测试邀请。该模型参数规模达到万亿级别，且完全基于全国产化算力集群训练，表明美团可能在国产算力训练万亿模型上取得突破。目前该模型仅对受邀用户开放。",
+      "summary": "AI技术的深度应用，让阅读古籍变得便捷又有趣，也降低了大众参与古籍传承的门槛。“识典古籍”平台相继推出AI助手、AI校对、AI文白翻译、AI播客讲解、AI听书及AI深度研究助手等多元功能，其中“深度研究助手”可自主完成研究计划制定、知识挖掘、报告生成等全流程工作，填补了AI在深度古籍研究应用中的空白。",
       "category": "技术与研究",
-      "company": "美团",
-      "score": 26,
+      "company": "字节跳动",
+      "score": 46,
       "breakdown": {
-        "substance": 4,
+        "substance": 16,
         "importance": 5,
+        "readerValue": 11,
         "timeliness": 10,
         "hotness": 0,
-        "credibility": 4,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "小红书用“活人感”做科技社区，能成功吗？",
-      "url": "https://36kr.com/p/3778772970444033?f=rss",
-      "snippet": "文 | 钟艺璇 编辑 | 乔芊 没人能脱离AI这个浪潮，社区APP也不例外。 只是对比豆包、千问——它们背后往往站着有能力制造C端入口的大公司，社区似乎天然有短板，从过去的路径看，它似乎只能做到在内容上与科技无限靠近，成为一个极客范儿的存在，但终究面临垂类用户增长见顶的事实。 如果是一个综合类社区呢？在过去的垂类运营中，大规模引入KOL、KOC是迅速解决行业覆盖率的通用办法，但大水漫灌，或许会带来新老住民的气质冲突，尤其科技还是一个门槛较高的垂类，如果没有获得感，新用户的生命周期将会迅速缩短。 今天的小红书或许是一个不错的观察样本，它足够活跃，Tiktok难民事件某种程度上印证了这个社区面对跨种族、乃至跨文化的一定包容性。而从去年以来，小红书社区业务的核心命题一直是做兴趣社区，它有扩容的野心，科技也成为过去一年增长最快的内容垂类之一——小红书科技内容发布同比增长超过100%，创作者规模同比增长超200%。 更重要的是，中文世界还尚未诞生一个真正的大众科技社区，不是太硬核、就是被稀释。但在海外，X（原Twitter）证明了一个UGC平台有机会成长为全球科技内容最活跃、最实时的核心阵地之一。X甚至一度形成了马斯克效应，点赞谁，谁就火，今年3月，马斯克评价Kimi是 “Impressive work”，科技圈瞬间沸腾。 作为中国最活跃的社区平台，小红书有这个野心。小红书科技运营负责人散兵提到，小红书的一个广泛目标是想成为最好的科技社区。 但它还希望自己足够特别。散兵告诉36氪等媒体，在科技垂类的运营策略上，小红书不做资讯和教程，更愿意做“人之间的连接器”。 要看懂这个有些抽象的词汇，我们或许可以从小红书近期举办的一场黑客松巅峰赛去理解。在这场比赛里，我们在现场见到了许多年轻的科技创业者们——他们正是小红书做科技垂类过程中希望首先吸引的人，也和散兵聊了聊小红书过去一年科技垂类运营的策略与变化。 小红书黑客松巅峰赛现场 Build in public “在做一个产品之前，我们会把idea先发到小红书上，验证一下需求是否存在。” 在上海，黑客松巅峰赛现场，一位参赛同学说了这样一番话。黑客松是编程界的老传统了，对于小红书而言，却是第一次举办。这场小红书黑客松巅峰赛，要求参赛选手在48小时内，从创意到落地，封闭式协作组队完成产品，可以硬件，也可以软件。 同学的名字叫刘骁奔，很可惜，他们的项目并没有入围决赛。他告诉36氪，这次的参赛作品叫默造，是一个迎接vibe coding（人工智能辅助编程）时代的产品。因为语音输入vibe coding，会比键盘输入快三倍，他们干脆就为i人工程师设计了默造——它是一个黑色的面罩，通过降噪和麦克风通信，可以做到在公共场所自由语音，而不干扰他人。 刘骁奔与默造 原意想的是适用户外场景，但参赛中，他在小红书上传了产品视频后，却有了意外发现。有用户说，“我好想给我室友买一个啊，他打原神太吵了，影响我睡觉”。还有程序员评论，这个产品适合在工区使用，很多程序员习惯语音输入。 这就是刘骁奔所说的验证需求。某种程度上，他们都是符合小红书“Build in public”调性的那一类创业者，所谓“Build in public”，即产品的创造、验证与迭代，都和小红书用户共创参与。现实中，刘骁奔有自己的小红书IP，也会主动在小红书上抛出各种奇思妙想，好比“你愿意花多少钱让思想永存”，现在他有一家初创公司，研发意识上传技术，从创意到诞生，刘骁奔都在小红书完整分享过程。 这次大赛中，“Build in public”概念被小红书反复提及，这并非偶然，和举办黑客松巅峰赛本身一样，背后都与小红书科技类目运营策略的转变有关系。 去年下半年，一场AMA（Ask Me Anything，你可以问我任何问题）在小红书上自发走红，这个源于国外社交平台的活动，由于推崇真人问答，形式短平快，在海外声名响亮。在小红书上，清华大学交叉信息研究院的助理教授许华哲主动开启了它，中文世界的AMA风潮很快席卷到科技圈，李开复、印奇等AI领域名人纷纷下场，后来甚至吸引了莫言、李银河以及贝克汉姆等各界名人加入。 对小红书社区科技内容运营而言，这是一个非常重要的节点。在AMA走红早前，2025年上半年，小红书曾办过独立开发者大赛，但更多聚焦项目本身，也更极客味，旨在让独立开发者有机会展示自己的作品。对用户而言，如果不是从业者或技术爱好者，要发现、参与这些讨论并不容易。 但AMA是个巧妙的形式，你或许不懂AI，但你一定听过李开复，无论是真心想问答，还是外行看热闹，小红书上有科技大佬这一回事好歹传播了出去——它让更多普通人知道，小红书可以和科技有关联，从业者可以在这里发布内容，关注者也能在这里找到同好。 正如散兵所说，2025年小红书科技垂类运营的主要策略，就是“做科技人的朋友圈”，为此他们持续引入了许多在学术圈、商业圈有影响力的KOL。 但2026年，科技垂类的运营策略已经发生变化。“完成引入这一阶段后，我们发现小红书上有非常多人在Build in public，创业者在小红书发布产品，投资人在小红书上找项目，所以2026年我们定位‘做人的连接器’，把小圈子的需求和大众的需求做串联。”散兵说。 简而言之，小红书想让科技创业者从找需求、做产品、拿融资甚至到产品落地卖货，都能在社区上找到闭环的可能性。 这也是为什么去年是独立开发者大赛，今年是黑客松巅峰赛的原因，因为策略在变，人成了那个锚点。散兵提到，创业项目本身变化很快，一年时间过去，风格已经截然不同，如果再去追项目，已经来不及了。“相比去年聚焦项目，今年我们觉得更前沿的东西一定在于人本身，而黑客松本身就是一个充满不可控内容的比赛，创意和人的表现都能被最大化”。 基于今天的用户体量，小红书要发力科技内容，自然无法像即刻那样，做一个纯粹、小众的讨论场——这背后的逻辑也天然相悖，小圈���意味着精准与高效的互动，大圈层会带来更多的关注，但也会稀释内容的深度。更重要的是，人们也未必需要第二个即刻。 对于小红书而言，要留住这群科技人，它更要思考的是最大公约数，即如何将科技内容与大众社区的底盘彼此适配——让科技创业者在这里找到价值，让普通人觉得这些内容有用，飞轮才能最终运转。 小红书能做好那个“场”吗？ 一个很自然的逻辑是，要做对用户有用的东西，对于内容社区来说，资讯和教程是最快的捷径。但小红书一开始就否定了它们。 散兵说，在科技垂类的内容策略上，团队很早就做了明确取舍，不做资讯和教程。原因在于，资讯新闻性太强，而教程因为供给太多，最后动机往往会指向卖课，也会制造Fomo焦虑。 我们看到，小红书如今选择了这样一条缝隙，将科技创业者的创业过程与普通人结合起来，人的需求在前期被看到，人的意见在中期被采纳，人的购买力决定了商业是否能落地。人参与了全过程，创业者也因此获得了关注与商业价值。 36氪问刘骁奔，作为一个科技创业者，小红书对他的价值究竟在哪里？ “如果要说小红书做科技内容优势，我认为是活人感强”，他说。这是个老生常谈的观点，但这之外，刘骁奔抛出了一句很有意思的话，“商业的本质就是和真人做交互，最后服务于人，目前来看，所有真人交互环节都可以用小红书来做。” 此次黑客松参赛选手孙东来的创业经历，也是案例之一。起初孙东来只是在小红书发了一个调研贴，大意是“你会记录自己的梦吗”，没投流，却意外获得了二三十万的流量。有人评论，自己每天记梦800字，有人则因为找不到趁手工具，直接在番茄小说开作者号连载自己的梦。 孙东来很快注意到，这是个庞大的、且被忽视的需求。2025年1月21日，他创立的Dreamer在Apple Store上线。一个月，3000用户，零投流，到现在稳定在4000多个用户。 对于早期创业者来说，这些流量和用户反馈，能让项目被看见，也能带来更低的试错成本，都非常珍贵。因此决赛当晚，评委席上，投资人曹曦也问了一个很有趣的问题，“所以现在的年轻人不用拿VC的钱了吗？”现场发出一阵轻笑。 能放进口袋的卡片吉他智能硬件，获得全场大奖 但如果从人货场的逻辑来看，小红书要搭建好这个“场”，或许还有两个需要迭代的地方。 第一，科技毕竟是高门槛类目，小红书的大多数用户无法进行严肃的科技讨论，一些过于专业、或者偏B端应用的讨论发酵难以在小红书上发生。 所以，创业者如果想在社区内高效找到对创业有用的信息反馈，需要自身拥有较强的表达能力，以及对用户情绪、内容推流逻辑的把控能力，甚至还得会制造人设IP。前述创业者，之所以能发帖引起大量用户反馈，并最后成功落地项目，本质还是踩中了社区推流机制和大众用户需求的切口。 第二，由于小红书的用户属性所致，目前一些泛科技、或娱乐性质的项目在小红书往往能获得高关注度。以本次黑客松巅峰赛为例，一段二次元头套+机械臂行走的视频，以吸睛的效果，成为本次比赛最出圈的热点之一。除此之外，本次赛事也聚焦在有话题度的新一代AI创造者，超过60%的入围选手为“00后”，最小的仅12岁，以及比赛主题定为“48小时，给世界造个大玩具”，背后的话题性质不少。 但一位投资人告诉36氪，小红书上的项目有一定参考价值，要目前要找到合适标的并不容易，筛选成本较高。“很多想法有意思，但是娱乐性强，也很难真正商业化”。 对于一个年轻社区而言，小红书的科技类目已经走的很快，它也很清楚自己的优势，今天vibe coding的浪潮更放大了这种优势，当技术走向平权，更多人有机会触摸到编程，它就存在用户泛化与大众讨论的可能性。 但正如散兵提到，小红书的一个广泛目标是想成���最好的科技社区，但是要实现这个愿景要花很长时间。给世界造个大玩具，还只是开始。 比赛最后刘骁奔说，默造虽然没进决赛，但在展示环节，有游客表达愿意出200元，买下他们的产品。 “没卖，只有两个模型，我们还得拿回去迭代。”刘骁奔说，那些评论和回馈已经给了他更重要的价值。",
-      "source": "36氪",
-      "publishedAt": "2026-04-24 10:14:50  +0800",
-      "popularityScore": 0,
-      "region": "国内",
-      "coverageCount": 1,
-      "coverageSources": [
-        "36氪"
-      ],
-      "coverageTitles": [
-        "用“活人感”做科技社区，小红书能成吗？"
-      ],
-      "summary": "小红书正试图通过独特的运营策略，打造一个不同于传统极客社区的大众科技社区。其科技内容发布同比增长超过100%，创作者规模同比增长超200%。小红书科技运营负责人散兵表示，平台不做资讯和教程，而是做“人之间的连接器”，通过举办黑客松巅峰赛等活动吸引年轻科技创业者。",
-      "category": "技术与研究",
-      "company": "小红书",
-      "score": 22,
-      "breakdown": {
-        "substance": 7,
-        "importance": 0,
-        "timeliness": 10,
-        "hotness": 0,
-        "credibility": 7,
+        "credibility": 6,
         "displayPenalty": -2
       },
       "isDuplicate": false,
@@ -215,67 +315,38 @@
   ],
   "投融资与并购": [
     {
-      "title": "普渡机器人完成近10亿元融资，估值突破100亿元",
-      "url": "https://www.leiphone.com/category/robot/gj6hnV9WYkLI9vG4.html",
-      "snippet": "雷峰网获悉，商用服务机器人公司普渡机器人近日完成近10亿元新一轮融资，由龙岗金控、亚投资本联合领投，北汽产投、蓝思科技、弘晖基金及珠三角、长三角多地政府引导基金共同参与。本轮融资后，公司估值突破100亿元人民币。 本轮资金将重点投入具身智能技术研发、产品矩阵扩展、全球市场拓展，以及规模化产能建设与供应链升级。投资方横跨国家级基金、产业资本与地方国资，形成“资本+产业+政策”的全方位赋能体系。自2016年成立以来，普渡已获得美团、红杉中国、腾讯、深投控、普华资本等投资，累计融资额超过20亿元。 在行业层面，过去两年机器人热度显著提升，但多数公司仍停留在技术展示或场景验证阶段。相比之下，普渡更早完成商业化闭环：从服务配送起步，延伸至商用清洁、工业配送及通用具身智能方向，业务已覆盖全球80多个国家和地区，累计出货量超过12万台，海外收入占比长期超过80%。根源在于其路径坚持思考如何实现“商业落地优先”——始终以客户需求为牵引，从场景需求出发倒推产品定义，而非“拿着锤子找钉子”。 这种路径在业务结构上体现为“全品类、多形态”的产品矩阵。早期切入服务配送，完成从0到1验证；随后进入商用清洁赛道，目前已成为核心增长引擎，营收占比超过70%；此后延伸至工业配送领域，一年多时间出货量超过4000台，进入行业第一梯队。从服务配送到商用清洁、从工业物流到具身智能，多品类产品矩阵的背后是感知、规划、调度、控制等核心技术的高效迁移与复用。 据悉，普渡机器人2025年营收同比增长超过100%，且EBITDA接近转正，有望成为行业内率先实现盈利的商用服务机器人企业。 商业化能力之中，全球化的渠道与交付体系成为另一关键壁垒。10年的时间里，普渡已覆盖全球80多个国家和地区，建立超过700家代理商网络，累计服务客户超过4万家，产品已进入沃尔玛、Edeka、Tesco等连锁体系。根据弗若斯特沙利文数据，普渡以23%市场份额位居全球第一，在出海市场中份额接近一半。 普渡率先提出专用、类人形、人形等多形态机器人并行的路线，并以“一脑多形”为核心架构，凭借移动、操作、交互三大核心技术落地不同形态的机器人。这套架构的价值在于：通过核心能力跨形态复用，大幅降低了拓展新品类的研发边际成本。目前，公司已实现导航算法、多机调度与群控、运动控制器、一体化关节模组等关键技术的全栈自研，在具身导航、具身操作、具身交互三大技术栈持续投入，累计申请专利超过1800件。 普渡机器人创始人兼CEO张涛表示：“本轮融资的完成，是资本市场对普渡的行业地位、产品与技术实力、全球化品牌力与商业化基础设施的充分认可。公司将依托国家级基金、产业龙头与地方国资的协同赋能，持续深耕具身智能与商用服务机器人领域，以发明家精神驱动产品创新，以全球化视野加速机器人普及，引领中国机器人产业迈向全球价值链顶端。” 伴随着本轮融资的完成，这家用十年时间验证了商业化能力的公司，有望成为体量最大的商用服务机器人拟上市公司。",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 24 Apr 2026 11:07:00 +0800",
+      "title": "微盟AI收入破亿后推行“AI First”战略：B端交付的稳定性挑战与平衡术",
+      "url": "https://36kr.com/p/3780556402531330?f=rss",
+      "snippet": "文｜张子怡 编辑｜袁斯来 在SaaS行业普遍面临增长瓶颈、寻求数智化转型的背景下，微盟于2026年4月22日在上海总部举办了城市峰会，正式对外呈现其“AI First”战略全景。 根据微盟2025年财报披露，其AI相关业务收入已首次突破亿元大关，且2025年下半年的环比增长率达到130%。在此财务数据基础上，微盟试图通过战略升维，将AI从原有的产品辅助插件地位提升至业务底座高度。 微盟此次提出的“AI First”战略，核心覆盖了AI+SaaS、AI+营销、AI+出海及AI To C等方向。 在技术架构层面，微盟将其升级为“Agent+Skills”。这一转变的底层逻辑在于：将原本复杂的SaaS系统功能（Skills）封装成更易交互的形态，由智能体（Agent）调用，从而降低商家操作复杂系统的门槛。 微盟集团执行董事兼集团总裁游凤椿表示，AI正在从简单的对话交互向自主执行演进。 目前，这一逻辑已在微盟的“小龙虾”生态等业务中尝试落地。例如，商家不再需要通过后台多级菜单查找数据，而是直接通过对话方式调取当日交易量。这种从“点状功能”到“系统性赋能”的跨越，是微盟试图重构生意底层逻辑的开始。 不过，将这一宏大战略推向实际商业场景时，SaaS厂商必须面对一个残酷的现实：To B业务对技术的确定性要求远高于To C。 尽管消费端人人都会用AI，但在实际运用层面B端客户远比C端要求与需求都更严格。 微盟技术副总裁肖锋肖锋指出，C端用户对AI的幻觉具有较高的心理容忍度。如果一个AI工具在回答常识性问题时出错，C端用户通常只会认为产品“不够聪明”，并尝试调整提问方式。但B端客户是付费用户，AI的每一个动作都与经营场景、财务结果直接挂钩。 “只要出现一个坏案例（bad case），B端客户就会认为整个AI模块都是不可用的。”肖锋举例说明了这种差异：在AI试衣场景中，如果模特照片中存在靠墙或手拿重物的情况，识别效果会受到干扰。对于C端用户，客服解释后用户通常愿意配合换个姿势；但B端商家则会直接质疑技术效能并拒绝买单。这种对稳定性的近乎“零容错”的要求，决定了微盟在推行AI First战略时，必须在安全性检查和场景适配上投入更多研发资源，而非盲目追求技术指标的华丽。 基于这种审慎的考量，微盟在推出面向龙虾生态的Weimob Admin Skill等功能时，首先聚焦于安全Check机制。其目的并非急于变现，而是通过对原有API的封装，先解决商家在经营场景下的操作稳定性问题，通过“顺畅感”逐步建立B端用户对AI的信任。 这种对“确定性”和“稳定性”的追求，也直接影响了微盟在新兴业务领域的扩张节奏。 以近期推出的GEO（生成式引擎优化）解决方案“星启”为例，随着AI搜索逐渐重构用户获取信息的路径，如何让品牌信息在AI的回答中获得更高的可见度，成为了营销业务的新机会。 但在肖锋看来，GEO技术本身并不难，难点在于如何在快速变化的流量红利中保持合规。他透露，微盟在内部为GEO业务设立了极其严密的审核机制：每一笔订单都需要经过三道审核，最后一关由法务部门把控。 肖锋明确表示，微盟曾拒绝过预算很高但涉及传销或存在合规风险的产品。这种在商机面前的“克制”，反映出B端AI服务商的底层逻辑——在技术转型期，保护业务的健康和可持续性远比短期的营收爆发更重要。 目前，包括GEO及AI Work365在内的多款产品，均源自微盟内部的创新中心机制，这套机制鼓励员工孵化具备市场前景的AI原生应用，同时在制度框架内进行小步快跑的尝试。 在业务向外探索的同时，微盟内部的研发管理模式也在适配AI First战略。在代码编写环节，微盟已经引入AI辅助编程，但肖锋强调，目前的AI仍无法独立承担大规模、跨模块的开发任务。 为了确保底层业务的稳定性，微盟会选择选择采取片段式生成的渐进路线，确保技术底座在转型过程中不受冲击。 从财务表现来看，微盟AI收入的破亿意味着AI在SaaS业务中的融合已初步获得市场验证。然而，从“辅助工具”到“业务引擎”的跃迁，意味着微盟需要处理更复杂的B端交付关系。 未来，微盟在AI First战略下的表现，将很大程度上取决于其能否在B端客户极高的质量要求与AI技术的边界之间找到最优的平衡点。",
+      "source": "36氪",
+      "publishedAt": "2026-04-24 16:21:20  +0800",
       "popularityScore": 0,
       "region": "国内",
       "coverageCount": 1,
       "coverageSources": [
-        "雷锋网"
+        "36氪"
       ],
       "coverageTitles": [
-        "普渡机器人完成近10亿元融资，估值突破100亿元"
+        "最前线｜AI收入破亿后的路径选择：微盟推行AI First战略与B端交付的挑战"
       ],
-      "summary": "商用服务机器人公司普渡机器人近日完成近10亿元新一轮融资，由龙岗金控、亚投资本联合领投，多家机构参与，估值突破100亿元。资金将用于具身智能技术研发、产品矩阵扩展、全球市场拓展及供应链升级。公司已覆盖80多个国家和地区，累计出货超12万台，海外收入占比超80%。",
+      "summary": "微盟在2026年4月22日的城市峰会上正式发布“AI First”战略，将AI从产品插件提升为业务底座。其AI相关业务收入已突破亿元，2025年下半年环比增长130%，技术架构升级为“Agent+Skills”，旨在降低商家操作复杂系统的门槛。",
       "category": "投融资与并购",
-      "company": "普渡机器人",
-      "score": 46,
-      "breakdown": {
-        "substance": 16,
-        "importance": 13,
-        "timeliness": 10,
-        "hotness": 0,
-        "credibility": 4,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "国内首家百亿估值纯推理GPU独角兽诞生，曦望联席CEO王湛谈推理成本优势",
-      "url": "https://www.qbitai.com/2026/04/406020.html",
-      "snippet": "百万Token要降到1分钱",
-      "source": "量子位",
-      "publishedAt": "Thu, 23 Apr 2026 14:28:57 +0000",
-      "popularityScore": 0,
-      "region": "国内",
-      "coverageCount": 1,
-      "coverageSources": [
-        "量子位"
-      ],
-      "coverageTitles": [
-        "国内首家百亿估值纯推理GPU独角兽诞生！专访曦望联席CEO王湛：谁的推理成本更低谁就是赢家"
-      ],
-      "summary": "曦望公司成为国内首家估值超百亿的纯推理GPU独角兽，其联席CEO王湛在专访中表示，限制算力规模增长的根本是生产工具而非市场需求，如光模块和内存供应紧张。曦望推出的S3芯片专为大模型推理深度定制，通过裁剪训练模块将晶体管和功耗集中用于推理，使单位面积有效算力效率提升5倍以上。",
-      "category": "投融资与并购",
-      "company": "曦望",
+      "company": "微盟",
       "score": 44,
       "breakdown": {
-        "substance": 26,
-        "importance": 0,
-        "timeliness": 6,
+        "substance": 11,
+        "importance": 5,
+        "readerValue": 9,
+        "timeliness": 10,
         "hotness": 0,
-        "credibility": 9,
+        "credibility": 6,
         "displayPenalty": 3
       },
       "isDuplicate": false,
       "isDisplayReady": true
     },
     {
-      "title": "Bret Taylor创立的Sierra收购YC支持的AI初创公司Fragment",
+      "title": "Bret Taylor的Sierra收购YC孵化AI初创Fragment：强化AI客服代理版图",
       "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
       "snippet": "Sierra, the AI customer service agent startup founded by technologist Bret Taylor, announced today that it has acquired the YC-backed French startup Fragment.",
       "source": "TechCrunch AI",
@@ -289,14 +360,15 @@
       "coverageTitles": [
         "Bret Taylor’s Sierra buys YC-backed AI startup Fragment"
       ],
-      "summary": "由技术专家Bret Taylor创立的AI客服代理初创公司Sierra宣布，已收购YC支持的法国初创公司Fragment。此次收购的具体财务条款尚未披露。Fragment是一家专注于AI领域的初创企业，此前获得了Y Combinator的支持。",
+      "summary": "由OpenAI董事会主席Bret Taylor创立的AI客服代理公司Sierra，宣布收购YC支持的法国AI初创公司Fragment。Fragment专注于帮助企业将AI集成到工作流程中，其联合创始人将加入Sierra团队，增强其在法国的代理开发能力。",
       "category": "投融资与并购",
       "company": "Sierra",
-      "score": 23,
+      "score": 31,
       "breakdown": {
-        "substance": 4,
+        "substance": 5,
         "importance": 0,
-        "timeliness": 8,
+        "readerValue": 9,
+        "timeliness": 6,
         "hotness": 0,
         "credibility": 8,
         "displayPenalty": 3
@@ -305,37 +377,7 @@
       "isDisplayReady": true
     },
     {
-      "title": "阅星曈获超亿元融资，押注AI超便携电子纸手机副屏",
-      "url": "https://36kr.com/p/3778175428777218?f=rss",
-      "snippet": "作者｜黄楠 编辑｜袁斯来 当智能手机陷入性能过剩、AI功能同质化内卷，用户注意力被无限拆解与争夺时，一个被长期忽视的角落正悄然打开新赛道——手机背面的闲置空间。 硬氪独家获悉，AI超便携电子纸品牌阅星曈近日完成天使轮至A轮融资，累计五轮金额超亿元人民币，投资方包括博裕创投、清流资本、希扬资本、小红书、经纬创投、顺为资本，多数股东持续追加。资金将用于完善生产制造与质量审核体系、拓展海外市场，搭建社区内容、优化产品体验，与全球用户共同构建AI时代手机副屏生态。 阅星曈开创了“超便携电子纸”品类，其产品以极简的硬件设计与流畅的软件体验，深度融合AI能力，专注为数字时代用户提供专注、沉浸的阅读入口。 阅星曈超便携电子纸（图源/企业） 创始人兼CEO胡宇沸是一位资深连续创业者，他毕业于香港中文大学，曾任新石器无人车COO、OYO酒店首席发展官、小蓝单车联合创始人兼COO、饿了么众包事业部总经理及Uber中国三城总经理等职务。多位核心成员均来自港中文、复旦大学、中国科学院大学、马里兰大学等院校，曾供职于头部互联网、智能硬件与AI企业，具备从爆品打造到全球化增长的完整能力闭环。 鲜少有人预料到，胡宇沸再次创业时，会扎进一个轻巧到极易“被忽略”的硬件行业，做一款磁吸在手机背面的电子纸阅读器。 它首款产品的重量仅有70克、4.3寸屏幕、售价不到300元。但就是这个隐藏在手机屏幕后的小配件，在零推广费用的前提下，依靠小红书社区的“云股东”共创众筹，一年内迅速完成了从产品定义到规模化验证的闭环。 “是用户和我们一起，把这块小屏打磨成了今天的样子。”阅星曈创始人兼CEO胡宇沸表示。在产品定义与迭代过程中，有大量早期用户曾通过社群参与了需求反馈与功能建议。后续公司也会延续这一共创模式，在未来产品的立项和原型设计阶段开放用户参与通道，将用户反馈直接纳入早期研发流程。 70克、4.3寸屏幕（图源/企业） 近年来，电子纸行业早已不是小众生意。洛图科技数据显示，2025年全球电子纸终端市场规模已突破142亿美元，连续三年保持高速增长；国内市场中，掌阅、文石、汉王等头部品牌占据超八成份额，形成“大屏开放系统”与“封闭内容生态”两大成熟路径。 但一个长期存在的产品体验问题始终未得到解决。传统阅读器要么是独立设备，需要“多带一台”，或产品迭代存在堆料溢价、操作复杂等痛点，最终沦为“泡面神器”；即便主打便携的同类产品，也因形态冗余、与手机工作流割裂，难以成为高频刚需入口。 更深层的行业变革在于，用户需求已从“沉浸式深度阅读”转向碎片化专注信息获取。CounterPoint报告指出，全球智能手机保有量已超过70亿台。用户的正面屏幕被成百上千个应用、无尽的推送和算法所裹挟，注意力日益碎片化。 与之相反，每一台手机背面那块长期闲置的光滑平面，仍是一块未被开发的“注意力净土”。这正是阅星曈看到的结构性机会。 “年轻人不再需要另一台充满应用与干扰的设备，而是需要一个低干扰、轻量化、一键可达的注意力出口。”胡宇沸说。 因此，阅星曈在其产品方案中也遵循了这一趋势：不做独立设备，而是成为“AI时代手机副屏”。其产品采用极简的磁吸设计，超薄的厚度与一张卡片相当，吸附在手机背面后几乎无感。 胡宇沸告诉硬氪，在注意力成为稀缺资源的今天，阅星曈的核心价值并非护眼，而是“降噪”。它为用户提供了一个极低成本的注意力切换通道，“我们做的是，帮用户把打开各类APP渠道、获取有效信息的路径变到最短。” 用户只需翻转手机，即可进入一个纯粹的阅读空间，没有APP推送、社交或短视频干扰，满足漫画、轻小说、碎片化资讯、个性化信息展示等高频轻量需求。 据官方数据显示，阅星曈的产品自2025年第四季度上市以来，仅半年、月销量增长超过10倍；海外市场首月即破万台，X4、X3、曈卡已销往全球多个国家和地区。当前公司月均营收已超过2025全年。 阅星曈超便携电子纸（图源/企业） 而在第一代产品验证了“手机副屏”硬件价值的基础上，阅星曈的野心远不止于做一款电子纸或阅读器。 胡宇沸向硬氪透露，公司正在构建“端侧电子纸+手机算力+云端推理”的三端协同模式，通过融合OpenClaw等前沿AI Agent能力，将阅星曈的硬件小屏升级为AI时代的注意力入口。 用户翻转手机后，即可使用AI Agent迅速获取所需的个性化信息流、日程提醒、财经资讯或待办事项等，无需解锁、搜索并在海量推送中筛选，而是在一个全新的、低干扰的、高粘性的交互界面，真正将信息实现从“被推送”变为“被订阅”，从“被动接收”变为“主动获取”。这款新品将于2026年中下旬上线。 “长期来看，我们认为手机背面是一个被严重低估的生态位。”胡宇沸说。当前AI手机纷纷走向端侧智能化，入口之争从手机正面延伸至全场景，阅星曈选择另一条路径，以“硬件创新+AI轻量化落地”的组合，通过低成本、高用户接受度的方式，成为手机屏幕的自然延伸，开创新的智能终端形态。 用一个极简的减法方案，精准击中用户在高频场景下的真实痛点。AI的介入，正在让这块“小卡片”的价值被重新评估。阅星曈已经在手机背面，悄悄抢占AI时代的下一个流量入口。 投资方评论： 博裕创投董事总经理高法璞表示，AI时代信息无限膨胀，真正的稀缺资源不再是信息本身，而是深度专注与高质量阅读的能力,阅星曈也是依靠极度的专注，打造了一款随身携带，帮用户进行管理注意力的副屏，我们持续看好公司在AI时代的发展潜力。 清流资本投资副总裁茆雨豪表示，在今天这个言必称 AI、功能不断堆砌的时代，阅星曈表现出了一种极具勇气的克制。没有选择盲目堆砌功能，而是通过极致的“减法哲学”，将BOM成本控制在极低水平的同时，实现了极佳的用户心智占领。投资阅星曈的逻辑其实非常纯粹：看好它在细分赛道中对“阅读刚需”的深度挖掘，以及团队极强的资本效率与产品定义能力，并以此为原点，结合“端侧电子纸+手机算力”的协同模式，成为 AI 时代下最懂用户、最纯粹的硬件入口。” 希扬资本合伙人杨希表示，阅星曈通过极致轻薄的设计与软硬一体的沉浸阅读体验，成功定义了“超便携电子纸”这一新品类 ，甚至让品牌本身成为了该品类的代名词；作为天使投资人，这是希扬资本首次从上游科技向消费级硬件品牌的跨越式投资 ，我们将持续通过希扬科技生态赋能 ，助力阅星曈挖掘 AI 时代‘手机副屏’无限的应用场景与想象力。 经纬创投董事陈伟嘉表示，电子阅读器是已被验证的大出货量市场，但依旧有强痛点；结合AI和硬件能力的快速发展，有可能有重新定义品类的新品牌机会。宇沸是非典型的硬件创业者，具备敏捷、高效、AI思维等特质，build-in-public和用户共创了“超便携电子纸”的产品形态；虽然远不完美，但真实痛点+产品巧思+持续打磨赢得了用户口碑，在海内外快速自传播，增长动能明显。我们期待阅星曈能持续为用户带来创造性的产品，并进一步探索商业模式。 顺为投资合伙人程天表示，我们长期关注AI时代手机生态配件的创新价值。阅星曈精准抓住迷你墨水屏的市场空白，以便携、护眼、长续航的产品设计，切中用户碎片化阅读与个人效率管理的核心需求，跑出了清晰的增长节奏，获得用户群体的高度认同。期待阅星曈持续深耕，打开市场边界，打造全新的注意力入口，用真实产品力为用户创造长期价值。",
-      "source": "36氪",
-      "publishedAt": "2026-04-24 09:30:00  +0800",
-      "popularityScore": 0,
-      "region": "国内",
-      "coverageCount": 1,
-      "coverageSources": [
-        "36氪"
-      ],
-      "coverageTitles": [
-        "博裕、经纬、顺为等投资前新石器COO超亿元，押注AI超便携电子纸｜硬氪独家"
-      ],
-      "summary": "阅星曈完成超亿元融资，推出仅70克、4.3寸屏幕的磁吸电子纸阅读器，作为手机副屏解决注意力碎片化问题。产品零推广下通过小红书社区共创，半年月销量增长超10倍，海外首月破万台。资金将用于生产、海外拓展及AI三端协同模式开发，计划2026年上线AI Agent功能。",
-      "category": "投融资与并购",
-      "company": "阅星曈",
-      "score": 41,
-      "breakdown": {
-        "substance": 13,
-        "importance": 13,
-        "timeliness": 10,
-        "hotness": 0,
-        "credibility": 7,
-        "displayPenalty": -2
-      },
-      "isDuplicate": false,
-      "isDisplayReady": false
-    },
-    {
-      "title": "AI4S企业「奥明星程」获超亿元A轮融资，打造生物智能基础设施",
+      "title": "奥明星程获超亿元A轮融资：打造生物智能基础设施，推动AI从“结果拟合”走向“机制建模”",
       "url": "https://36kr.com/p/3778831119897600?f=rss",
       "snippet": "36氪获悉，AI for Science公司「奥明星程」近日完成超亿元A轮战略融资。本轮投资方包括深创投、复星医药（复健资本）、太平股权、广东中医药大健康基金、杭实集团等多家头部投资机构、产业链龙头企业及多地国资。同时，公司也与包括深圳湾实验室在内的多家国际顶尖科研机构建立了深度成果转化合作机制，形成覆盖技术研发、临床应用及产业生态赋能的全链条布局。 2025年被视作AI4S发展的分水岭。随着通用科研引擎的出现，以及英伟达GTC大会将AI4S与大语言模型、具身智能并列为人工智能三大核心方向，全球资本与技术资源正加速向该领域聚集。然而，当前多数AI在科学探索中仍停留在“结果拟合”层面，在机制理解与问题定义上存在能力断层。 奥明星程的核心目标，就是实现“从结果到机制、从解题到出题”的跃迁。公司创始人兼CEO林子奥认为，奥明星程“并非简单提升模型、智能体精度，而是致力于构建AI科学家能力体系”。 具体而言，公司将聚焦三个层面的突破：第一，让AI从“表征学习”走向“机制建模”，不只预测结果，而是逼近疾病发生发展的内在逻辑；第二，让AI具备“问题定义能力”，不仅回答问题，还能够在复杂系统中识别关键变量，辅助提出更有价值的科学问题；第三，让AI形成“探索式推理能力”，支持从假设生成到路径推演的一体化科研过程。长远来看，这一体系有望延展为面向生命全过程的“医疗AGI”。 为了实现这一目标，奥明星程组建了一支具备学术与产业化背景的团队。公司由三位归国哈佛青年博士科学家联合创立，创始人林子奥拥有哈佛大学计算科学、生物医学双博士学位，是国际癌症基因组学研究计划（TCGA、ICGC、PCAWG等）发起人Gad Getz教授唯一的中国籍博士毕业生。联合创始人赵翰晨、郝晋同样拥有哈佛博士背景，深耕人工智能与新兴生物科技交叉领域。 当前，奥明星程凭借自研AI大模型，已实现低成本获取组学多维信息的技术突破，打造了基于“数据-大模型-智能体”技术生态闭环的生物智能基础设施，并开发了覆盖疾病筛查、新药研发、健康管理及公共卫生等多领域的智能体矩阵。 在首发场景上，公司瞄准了具有明确临床痛点的疾病筛查。以乳腺癌为例，传统超声与钼靶筛查在致密型乳腺中存在漏诊率高（超50%）、依赖医生经验等局限；而现有液体活检（如ctDNA突变、甲基化）在早期人群中的检出率和特异性表现亦不尽如人意。 针对这些问题，奥明星程基于cfDNA片段组学与AI大模型，开发了多款多病种筛查智能体，如乳腺癌筛查智能体：OS-TuFEst-BRCA及配套试剂盒。据公司介绍，该产品仅需一管血，就可同步实现极早期筛查、精准分子分型以及腋窝淋巴结转移的超高灵敏度预测。其在早筛灵敏度上达到92%-95%，对影像漏诊病例识别率达96.2%。 临床效果层面，该产品在淋巴结转移阴性预测上达到97.6%。这意味着该技术有望辅助医生完成临床评估，帮助患者避免不必要的腋窝手术，实现更加精准的“降阶梯”治疗。目前，相关成果已发表于《Nature Communications》，并获得国家科技重大专项等多项支持。 此外，其核心能力（OS-TuFEst®，多病种筛查产品）也获得国家权威机构背书。在国家癌症中心最新牵头发布的《基于液体活检技术的多癌种联合筛查专家共识（2025版）》中，结合多组学数据与AI的分析方法获得“强推荐”；共识还提到，TuFEst®技术在降低实验成本、提高泛癌种检测灵敏度和特异度方面具备一定创新价值。 AI4S与医疗的结合，本质上是数据、模型、临床与产业的系统能力竞争。相比于依赖高成本实验的传统模式，奥明星程基于AI大模型预测多维度信息的策略，大幅压缩了单样本检测与数据获取成本。目前，公司已与国内超50家三甲医院及百余家体检机构展开合作，具有积累高质量、高标准、规模化真实世界数据的临床合作网络基础。 林子奥表示，AI4S本质是“能力引擎”，需要与生态深度耦合。现阶段，奥明星程已与深圳医学科学院、深圳湾实验室、国家癌症中心等建立战略合作，其平台能力正加速向医院、药企、保险等大健康产业链上下游开放，以期实现前沿医疗技术的规模化可及。",
       "source": "36氪",
@@ -349,16 +391,17 @@
       "coverageTitles": [
         "打造生物智能基础设施，AI4S企业「奥明星程」获超亿元A轮融资｜36氪首发"
       ],
-      "summary": "36氪获悉，AI for Science公司「奥明星程」近日完成超亿元A轮战略融资。本轮投资方包括深创投、复星医药（复健资本）、太平股权、广东中医药大健康基金、杭实集团等多家头部投资机构、产业链龙头企业及多地国资。",
+      "summary": "AI for Science公司奥明星程完成超亿元A轮战略融资，投资方包括深创投、复星医药等。公司基于cfDNA片段组学与AI大模型开发了乳腺癌筛查智能体OS-TuFEst-BRCA，仅需一管血即可实现极早期筛查，早筛灵敏度达92%-95%，对影像漏诊病例识别率达96.2%。",
       "category": "投融资与并购",
       "company": "奥明星程",
-      "score": 36,
+      "score": 46,
       "breakdown": {
         "substance": 10,
         "importance": 13,
+        "readerValue": 11,
         "timeliness": 8,
         "hotness": 0,
-        "credibility": 7,
+        "credibility": 6,
         "displayPenalty": -2
       },
       "isDuplicate": false,
@@ -367,27 +410,28 @@
   ],
   "政策与监管": [
     {
-      "title": "陷入困境的初创公司Delve的另一客户遭遇重大安全事件",
-      "url": "https://techcrunch.com/2026/04/23/another-customer-of-troubled-startup-delve-suffered-a-big-security-incident/",
-      "snippet": "TechCrunch has confirmed that Delve was the compliance company that performed the security certifications for Context AI, the AI agent training startup that last week disclosed a security incident.",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 23 Apr 2026 14:00:00 +0000",
+      "title": "特朗普科学顾问指控中国大规模蒸馏美国AI模型：技术竞争加剧，开源生态面临考验",
+      "url": "https://the-decoder.com/trump-science-advisor-says-chinese-actors-are-copying-american-ai-at-massive-scale/",
+      "snippet": "The US government says it has evidence of large-scale, industrial distillation campaigns targeting American frontier models, with China as the primary culprit. Now the Trump administration is moving to fight back. The article Trump science advisor says Chinese actors are copying American AI at massive scale appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Thu, 23 Apr 2026 18:04:39 +0000",
       "popularityScore": 0,
       "region": "海外",
       "coverageCount": 1,
       "coverageSources": [
-        "TechCrunch AI"
+        "The Decoder"
       ],
       "coverageTitles": [
-        "Another customer of troubled startup Delve suffered a big security incident"
+        "Trump science advisor says Chinese actors are copying American AI at massive scale"
       ],
-      "summary": "TechCrunch证实，Delve是为AI代理训练初创公司Context AI执行安全认证的合规公司。Context AI上周披露了一起安全事件。这是Delve的客户中发生的又一起重大安全事件。",
+      "summary": "特朗普科学顾问Michael Kratsios公开指控中国正通过数万个代理账户和越狱技术，大规模蒸馏美国前沿AI模型，并剥离其安全协议。蒸馏过程通过强化学习提取模型的思维链，以极低成本复制其性能，Anthropic、OpenAI和谷歌此前已报告类似攻击。此举将加剧中美技术竞争，可能促使美国收紧模型出口和开源合作，开发者需关注模型安全与合规风险。",
       "category": "政策与监管",
-      "company": "Delve",
-      "score": 20,
+      "company": "特朗普政府",
+      "score": 36,
       "breakdown": {
-        "substance": 3,
-        "importance": 0,
+        "substance": 7,
+        "importance": 5,
+        "readerValue": 7,
         "timeliness": 6,
         "hotness": 0,
         "credibility": 8,
