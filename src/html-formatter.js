@@ -1,5 +1,7 @@
 import { SECTION_ORDER, SECTION_ICON } from './config.js';
 
+const HEADER_IMAGE_URL = 'https://wmwm1ok.github.io/wechat-ai-news-page/assets/ai-news-header.png';
+
 /**
  * HTML 转义
  */
@@ -146,6 +148,9 @@ export function generateHTML(groupedNews, options = {}) {
 </head>
 <body style="margin:0;padding:0;background:#f6f8fb;">
   <div style="max-width:760px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Segoe UI',Roboto,Arial;line-height:1.8;color:#111;padding:18px 16px 28px;background:#fff;">
+    <div style="margin:0 0 18px;text-align:center;">
+      <img src="${HEADER_IMAGE_URL}" alt="AI前沿日报" style="display:block;width:100%;max-width:760px;height:auto;border-radius:14px;margin:0 auto;">
+    </div>
     
     <!-- 标题区 -->
     <div style="text-align:center;padding:12px 0 22px;border-bottom:2px solid #1c5cff;margin-bottom:22px;">
@@ -228,6 +233,9 @@ export function generateWechatHTML(groupedNews, options = {}) {
   }
   
   return `<section style="font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;line-height:1.8;color:#333;max-width:677px;margin:0 auto;padding:0 2px;">
+    <p style="margin:0 0 18px;text-align:center;">
+      <img src="${HEADER_IMAGE_URL}" alt="AI前沿日报" style="display:block;width:100%;max-width:677px;height:auto;border-radius:12px;margin:0 auto;">
+    </p>
     <h1 style="text-align:center;color:#1c5cff;font-size:24px;line-height:1.45;margin:0 0 8px;font-weight:900;">${escapeHtml(title)}</h1>
     <p style="text-align:center;color:#94a3b8;font-size:13px;margin:0 0 22px;">${escapeHtml(subtitle)}</p>
     

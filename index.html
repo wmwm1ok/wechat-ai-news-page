@@ -337,6 +337,9 @@
             '政策与监管': '#7c3aed',
             '其他': '#64748b'
         };
+        const HEADER_IMAGE_PREVIEW_SRC = './assets/ai-news-header.png';
+        const HEADER_IMAGE_COPY_SRC = 'https://wmwm1ok.github.io/wechat-ai-news-page/assets/ai-news-header.png';
+        let headerImageCopySrcPromise = null;
 
         async function loadData(options = {}) {
             if (options.skipWhenDirty && hasLocalEdits) {
@@ -419,6 +422,9 @@
 
             let html = `
 <section style="max-width:677px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;line-height:1.8;color:#333;">
+    <p style="margin:0 0 18px;text-align:center;">
+        <img class="wechat-header-image" src="${HEADER_IMAGE_PREVIEW_SRC}" data-copy-src="${HEADER_IMAGE_COPY_SRC}" alt="AI前沿日报" style="display:block;width:100%;max-width:677px;height:auto;border-radius:12px;margin:0 auto;" />
+    </p>
     <div style="text-align:center;padding:14px 0 22px;border-bottom:2px solid #1c5cff;margin-bottom:22px;">
         <h1 style="color:#1c5cff;margin:0 0 8px;font-size:26px;line-height:1.4;font-weight:900;">${escapeHtml(pageTitle)}</h1>
         <p style="color:#94a3b8;margin:0;font-size:13px;">${escapeHtml(data.date)} · 约 ${estimatedMinutes} 分钟阅读</p>
@@ -544,7 +550,7 @@
 
         async function copyForWechat() {
             const editor = document.getElementById('rich-editor');
-            const html = editor.innerHTML;
+            const html = await getWechatCopyHtml(editor);
             const text = editor.innerText;
 
             try {
@@ -559,18 +565,50 @@
                     return;
                 }
 
-                copyWithExecCommand(editor);
+                copyWithExecCommand(html);
                 showToast('✅ 已复制内容，请打开公众号助手粘贴', 'success');
             } catch (error) {
                 console.error('复制失败:', error);
                 try {
-                    copyWithExecCommand(editor);
+                    copyWithExecCommand(html);
                     showToast('✅ 已通过兼容模式复制，请直接粘贴', 'success');
                 } catch (fallbackError) {
                     console.error('兼容复制失败:', fallbackError);
                     showToast('❌ 复制失败，请手动全选后复制', 'error');
                 }
             }
+        }
+
+        async function getWechatCopyHtml(editor) {
+            const clone = editor.cloneNode(true);
+            const imageCopySrc = await resolveHeaderImageCopySrc();
+            clone.querySelectorAll('img[data-copy-src]').forEach(img => {
+                img.setAttribute('src', imageCopySrc || img.getAttribute('data-copy-src'));
+                img.removeAttribute('data-copy-src');
+            });
+            return clone.innerHTML;
+        }
+
+        function resolveHeaderImageCopySrc() {
+            if (!headerImageCopySrcPromise) {
+                headerImageCopySrcPromise = fetch(HEADER_IMAGE_PREVIEW_SRC)
+                    .then(response => {
+                        if (!response.ok) throw new Error('header image fetch failed');
+                        return response.blob();
+                    })
+                    .then(blob => new Promise((resolve, reject) => {
+                        const reader = new FileReader();
+                        reader.onload = () => resolve(reader.result);
+                        reader.onerror = reject;
+                        reader.readAsDataURL(blob);
+                    }))
+                    .catch(error => {
+                        console.warn('头图内嵌失败，改用线上地址:', error);
+                        return HEADER_IMAGE_COPY_SRC;
+                    });
+            }
+
+            return headerImageCopySrcPromise;
         }
 
         function openSourceLink(url) {
@@ -587,15 +625,23 @@
             }
         }
 
-        function copyWithExecCommand(editor) {
+        function copyWithExecCommand(html) {
+            const copyRoot = document.createElement('div');
+            copyRoot.style.position = 'fixed';
+            copyRoot.style.left = '-9999px';
+            copyRoot.style.top = '0';
+            copyRoot.innerHTML = html;
+            document.body.appendChild(copyRoot);
+
             const range = document.createRange();
-            range.selectNodeContents(editor);
+            range.selectNodeContents(copyRoot);
             const selection = window.getSelection();
             selection.removeAllRanges();
             selection.addRange(range);
 
             const success = document.execCommand('copy');
             selection.removeAllRanges();
+            copyRoot.remove();
 
             if (!success) {
                 throw new Error('execCommand copy failed');
