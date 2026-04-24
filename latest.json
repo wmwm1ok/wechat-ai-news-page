@@ -1,7 +1,7 @@
 {
   "date": "2026/4/24",
   "title": "AI资讯每日精选-2026/4/24",
-  "generatedAt": "2026/4/24 11:36",
+  "generatedAt": "2026/4/24 12:45",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -9,9 +9,9 @@
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 22,
+      "domesticBeforeDedup": 18,
       "overseasBeforeDedup": 8,
-      "domesticAfterDedup": 22,
+      "domesticAfterDedup": 18,
       "overseasAfterDedup": 8,
       "domesticHotGroups": 0,
       "overseasHotGroups": 0,
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 4,
+          "count": 3,
           "error": null
         },
         {
@@ -37,13 +37,13 @@
         {
           "source": "InfoQ",
           "ok": true,
-          "count": 3,
+          "count": 1,
           "error": null
         },
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 4,
+          "count": 3,
           "error": null
         }
       ],
@@ -94,56 +94,66 @@
       }
     },
     "summarize": {
-      "totalSummarized": 30
+      "totalSummarized": 26
     },
     "scoring": {
-      "totalInput": 30,
-      "totalScored": 21,
+      "totalInput": 26,
+      "totalScored": 18,
       "strictScoredCount": 18,
-      "relaxedCandidateCount": 3,
+      "relaxedCandidateCount": 0,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 7,
-      "selectedCandidateCount": 21,
-      "duplicateCount": 5,
+      "weakSummaryCount": 6,
+      "selectedCandidateCount": 18,
+      "duplicateCount": 1,
       "crossDayDuplicateCount": 0,
       "lowQualityCount": 1,
-      "domesticAvailable": 16,
-      "overseasAvailable": 5,
+      "domesticAvailable": 12,
+      "overseasAvailable": 6,
       "sourceCount": {
-        "机器之心": 5,
-        "量子位": 2,
         "36氪": 3,
-        "InfoQ": 3,
-        "The Verge AI": 3,
+        "量子位": 1,
+        "The Verge AI": 4,
+        "机器之心": 4,
         "雷锋网": 3,
+        "InfoQ": 1,
         "TechCrunch AI": 2
       }
     },
     "display": {
-      "refinedCount": 21,
+      "refinedCount": 18,
       "previousDayRemovedCount": 0,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
       "integrityRemovedCount": 3,
-      "postPreviousDayFilterCount": 18,
-      "displayReadyCount": 13,
-      "fallbackDisplayCount": 1,
+      "postPreviousDayFilterCount": 15,
+      "displayReadyCount": 11,
+      "fallbackDisplayCount": 3,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 5,
+      "removedWeakSummaries": 4,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "GPT-5.5发布，OpenAI称其接近AGI体验",
-      "company": "OpenAI",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-24-2",
+      "title": "DeepSeek V4双版本正式上线：Flash和Pro版本亮相",
+      "company": "DeepSeek",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-24-5",
       "source": "机器之心",
-      "publishedAt": "2026-04-24T09:03:00+08:00",
-      "summary": "OpenAI在周五凌晨正式发布了新一代大模型GPT-5.5。该版本是GPT系列的重要更新，带来了更强的推理能力，回答更加简洁。同时，新模型在代码能力上表现更强大和稳定，并具备强大的知识整合能力。OpenAI表示，这次升级让人首次体验到了AGI。",
-      "score": 52
+      "publishedAt": "2026-04-24T12:04:00+08:00",
+      "summary": "全球AI领域关注的DeepSeek V4终于正式上线。今天上午，DeepSeek API文档更新，展示了新版本的具体信息。此次发布的DeepSeek V4包含两个版本，分别是DeepSeek-V4-Flash和DeepSeek-V4-Pro。两个版本在上下文长度等参数上有所不同。",
+      "score": 34
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "SentiCat 公测上线：国产 Agent 进入“任务执行+情感陪伴”新阶段",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-23-15",
+      "source": "机器之心",
+      "publishedAt": "2026-04-23T21:40:00+08:00",
+      "summary": "SentiCat 公测上线，标志着国产 AI Agent 从单纯的任务执行（如文档生成、代码编写）升级为“任务执行+情感陪伴”双模式。该产品利用大模型能力，让用户通过自然语言指令完成复杂工作，同时提供情感交互体验，解决传统 Agent 缺乏人性化陪伴的痛点。",
+      "score": 32
     },
     {
       "section": "产品发布与更新",
@@ -152,38 +162,8 @@
       "url": "https://www.jiqizhixin.com/articles/2026-04-23-14",
       "source": "机器之心",
       "publishedAt": "2026-04-23T21:36:00+08:00",
-      "summary": "腾讯混元Hy3 Preview正式上线，这是姚顺雨归国加盟腾讯后发布的首个重要成果。该模型在性能上达到同尺寸模型的领先水平，兼具实用性和性价比。此前在腾讯2025年第四季度财报电话会上，腾讯总裁刘炽平曾回应相关提问。",
-      "score": 34
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Gemini CLI 新增子代理机制，支持任务委派与并行工作流",
-      "company": "谷歌",
-      "url": "https://www.infoq.cn/article/50eZYcehCtQuxKoTcLhS?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 23 Apr 2026 11:00:00 GMT",
-      "summary": "谷歌在Gemini CLI中新增子代理机制，主代理可委派代码分析、测试等子任务给专用AI代理并行执行，每个子代理在隔离环境运行以减少上下文负载。开发者能通过YAML配置的Markdown文件创建自定义子代理，定义其角色和工具，并支持本地或仓库保存以统一团队工作流。",
-      "score": 25
-    },
-    {
-      "section": "技术与研究",
-      "title": "飞书项目开放平台升级，全面迈向AI友好时代",
-      "company": "飞书项目",
-      "url": "https://www.qbitai.com/2026/04/406026.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 23 Apr 2026 09:55:30 +0000",
-      "summary": "飞书项目在2026年生态日上宣布开放平台焕新升级，核心原则为“读写安全、触手可用、按需配置”。升级内容包括：MCP服务持续升级，支持AI访问并操作飞书项目，覆盖工作项管理、视图与度量分析等40余种工具，并首家采用OAuth等安全授权方式。",
-      "score": 47
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenClaw热度下滑：下载量减半，日更遭用户批评",
-      "company": "OpenClaw",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-23-10",
-      "source": "机器之心",
-      "publishedAt": "2026-04-23T21:11:00+08:00",
-      "summary": "2026年开年以来，备受关注的OpenClaw仍保持一周多次更新的节奏。近期，随着开源模型Kimi K2.6和ChatGPT Images 2.0的上线，OpenClaw迅速增加了对它们的支持。同时，大模型厂商和互联网大厂也在适配Claw相关技术。",
-      "score": 41
+      "summary": "腾讯混元团队发布了Hy3 Preview模型，这是姚顺雨归国加盟腾讯后的首个重要成果。该模型在性能上达到同尺寸模型的最佳水平，兼具实用性和性价比。此前在腾讯2025年第四季度财报电话会上，腾讯总裁刘炽平曾回应相关问题。",
+      "score": 30
     },
     {
       "section": "技术与研究",
@@ -192,28 +172,38 @@
       "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
       "source": "The Verge AI",
       "publishedAt": "2026-04-23T19:41:07.000Z",
-      "summary": "Meta计划在5月裁员约10%（约8000人），并关闭约6000个空缺职位。此次裁员发生在AI投资激增之后，公司预计2026年资本支出将达1150-1350亿美元，较2025年的722.2亿美元大幅增加，主要用于支持Meta超级智能实验室。受影响的员工将在5月20日收到通知。",
+      "summary": "Meta计划于5月裁员约10%（约8000人），并关闭约6000个空缺职位。此次裁员发生在Meta大力投资AI之后，其2026年资本支出预计达1150-1350亿美元，较2025年的722.2亿美元大幅增长。受影响的员工将于5月20日收到通知。",
       "score": 39
     },
     {
+      "section": "技术与研究",
+      "title": "美团开启首个万卡国产算力集群万亿参数大模型测试邀请",
+      "company": "美团",
+      "url": "https://www.leiphone.com/category/transportation/3QndrXnL65HbW1vF.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 24 Apr 2026 10:42:00 +0800",
+      "summary": "4月24日，据知情人士爆料，美团近期低调开启新一代大模型的测试邀请。该模型参数规模达到万亿级别，且完全基于全国产化算力集群训练，表明美团可能在国产算力训练万亿模型上取得突破。目前该模型仅对受邀用户开放。",
+      "score": 26
+    },
+    {
       "section": "投融资与并购",
-      "title": "国内首家百亿估值纯推理GPU独角兽诞生，曦望联席CEO王湛称推理成本更低者胜",
+      "title": "国内首家百亿估值纯推理GPU独角兽诞生，曦望联席CEO王湛谈推理成本优势",
       "company": "曦望",
       "url": "https://www.qbitai.com/2026/04/406020.html",
       "source": "量子位",
       "publishedAt": "Thu, 23 Apr 2026 14:28:57 +0000",
-      "summary": "曦望公司成为国内首家估值超百亿的纯推理GPU独角兽。其联席CEO王湛表示，限制算力规模增长的根本是生产工具，而非市场需求，一旦瓶颈被打开，需求将成倍增长。曦望推出的S3芯片专为大模型推理深度定制，通过裁剪训练模块，将单位面积有效算力效率提升5倍以上，目标是将百万Token成本降至一分钱。",
-      "score": 44
+      "summary": "曦望公司成为国内首家估值超百亿的纯推理GPU独角兽。其联席CEO王湛表示，限制算力规模增长的根本是生产工具，而非市场需求，一旦瓶颈被打开，需求将暴涨。曦望推出的S3芯片专为大模型推理深度定制，通过裁剪训练模块，将单位面积有效算力效率提升5倍以上，目标是将百万Token成本降至一分钱。",
+      "score": 40
     },
     {
       "section": "投融资与并购",
-      "title": "清华系团队星工聚将完成数千万天使轮融资，轮式机器人获头部制造企业亿级订单",
-      "company": "星工聚将",
-      "url": "https://www.infoq.cn/article/BSZXO0VGFlBkmIke18ht?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 23 Apr 2026 10:21:18 GMT",
-      "summary": "清华系团队星工聚将完成数千万元天使轮融资，由天空工场创投基金独家投资。其核心技术包括物理认知引擎CPE（由快慢双系统中央脑和数字风洞组成）和全球首创的末端快换系统，使XG Z1轮式机器人能在6秒内切换执行器，完成搬运、装配、打磨等任务。",
-      "score": 40
+      "title": "Bret Taylor创立的Sierra收购YC支持的AI初创公司Fragment",
+      "company": "Sierra",
+      "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 23 Apr 2026 21:00:00 +0000",
+      "summary": "由OpenAI董事会主席Bret Taylor创立的AI客服代理公司Sierra，收购了YC支持的法国初创公司Fragment，后者专注于帮助企业将AI集成到工作流程中。这是Sierra第三次公开收购，此前已收购日本企业AI方案公司Opera Tech和语音代理公司Receptive AI。",
+      "score": 23
     },
     {
       "section": "政策与监管",
@@ -222,7 +212,7 @@
       "url": "https://techcrunch.com/2026/04/23/another-customer-of-troubled-startup-delve-suffered-a-big-security-incident/",
       "source": "TechCrunch AI",
       "publishedAt": "Thu, 23 Apr 2026 14:00:00 +0000",
-      "summary": "TechCrunch证实，Delve是为AI代理训练初创公司Context AI执行安全认证的合规公司。Context AI上周披露了一起安全事件。这是Delve的客户中又一起重大安全事件。报道未提供该事件的具体细节。",
+      "summary": "TechCrunch确认，Delve是为AI代理训练初创公司Context AI执行安全认证的合规公司。Context AI上周披露了一起安全事件。此次事件是Delve客户中发生的又一起重大安全事故。",
       "score": 20
     },
     {
@@ -232,38 +222,28 @@
       "url": "https://www.theverge.com/news/917328/microsoft-agent-mode-vibe-working-office-word-excel-powerpoint",
       "source": "The Verge AI",
       "publishedAt": "2026-04-23T11:34:18.000Z",
-      "summary": "微软本周开始在Word、Excel和PowerPoint等Office应用中推出新的“代理模式”。该模式此前被微软描述为“氛围工作”，是微软一直试图向企业推销的Office中Copilot体验的更强大版本。",
-      "score": 23
+      "summary": "微软本周开始在Word、Excel和PowerPoint等Office应用中推出新的Agent Mode。该模式此前被微软描述为“氛围工作”，是Copilot体验的更强大版本，旨在向企业销售。",
+      "score": 27
     },
     {
-      "section": "投融资与并购",
-      "title": "Bret Taylor创立的Sierra收购YC支持的AI初创公司Fragment",
-      "company": "Sierra",
-      "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 23 Apr 2026 21:00:00 +0000",
-      "summary": "由技术专家Bret Taylor创立的AI客服代理初创公司Sierra宣布，已收购YC支持的法国初创公司Fragment。收购的具体条款未在公告中披露。Fragment是一家专注于AI领域的初创企业。此次收购将有助于Sierra增强其技术能力。",
-      "score": 20
-    },
-    {
-      "section": "技术与研究",
-      "title": "首篇「Attention Sink」综述：Transformer注意力汇聚现象的利用、理解与消除",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-23-12",
-      "source": "机器之心",
-      "publishedAt": "2026-04-23T21:24:00+08:00",
-      "summary": "这篇综述首次系统总结了Transformer中的注意力汇聚现象，即模型会将大量注意力集中到少数特定Token上，而非均匀分布。研究指出，这并非模型缺陷，而是Transformer的固有特性。综述从三个角度展开：利用该现象提升效率、理解其成因、以及探索消除方法，为后续研究提供了全面参考。",
-      "score": 18
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Vercel遭黑客入侵，IPO前夕面临200万美元赎金谈判",
-      "company": "Vercel",
-      "url": "https://www.infoq.cn/article/OJN55xPWaVxT2IajEw6G?utm_source=rss&utm_medium=article",
+      "section": "产品发布与更新",
+      "title": "Gemini CLI 引入子代理机制，支持任务委派与并行代理工作流",
+      "company": "谷歌",
+      "url": "https://www.infoq.cn/article/50eZYcehCtQuxKoTcLhS?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Thu, 23 Apr 2026 09:58:12 GMT",
-      "summary": "云平台Vercel遭黑客入侵，攻击者ShinyHunters成员窃取了访问密钥、源代码、数据库数据及内部部署权限，并在黑客论坛兜售。Vercel在安全研究人员发现可疑活动后才意识到入侵，但攻击者访问时长不明。",
-      "score": 17
+      "publishedAt": "Thu, 23 Apr 2026 11:00:00 GMT",
+      "summary": "谷歌在Gemini CLI中新增子代理功能，开发者可通过YAML配置的Markdown文件创建自定义子代理，定义其角色、工具和行为规范，并支持并行运行多个任务（如同时分析代码库不同部分）。",
+      "score": 25
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Anthropic的Claude Mythos模型泄露事件引发尴尬",
+      "company": "Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-23T18:24:56.000Z",
+      "summary": "Anthropic的Claude Mythos模型因网络安全能力过强而严格控制发布，但据彭博社报道，一个“小规模未授权用户群体”已通过猜测模型在线位置和利用内部合同工信息获得访问权限。Mozilla CTO称该模型在Firefox 150中发现了数百个漏洞。",
+      "score": 24
     },
     {
       "section": "投融资与并购",
@@ -272,8 +252,28 @@
       "url": "https://36kr.com/p/3778175428777218?f=rss",
       "source": "36氪",
       "publishedAt": "2026-04-24 09:30:00  +0800",
-      "summary": "AI超便携电子纸品牌阅星曈完成天使轮到A轮融资，累计超亿元，投资方包括博裕、经纬、顺为等。其产品为70克、4.3寸磁吸电子纸阅读器，售价不到300元，可吸附于手机背面作为副屏，专注碎片化阅读。创始人胡宇沸曾任新石器COO，团队通过用户共创模式，半年内月销量增长超10倍，海外首月破万台。",
+      "summary": "AI超便携电子纸品牌阅星曈完成天使轮到A轮累计超亿元融资，由博裕创投、经纬创投等投资。其首款产品为70克、4.3寸磁吸在手机背面的电子纸阅读器，售价不到300元，主打低干扰阅读。",
       "score": 41
+    },
+    {
+      "section": "投融资与并购",
+      "title": "AI4S企业「奥明星程」获超亿元A轮融资，打造生物智能基础设施",
+      "company": "奥明星程",
+      "url": "https://36kr.com/p/3778831119897600?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-24 08:00:00  +0800",
+      "summary": "AI4S企业奥明星程完成超亿元A轮融资，由深创投、复星医药等投资。公司聚焦让AI从“结果拟合”跃升至“机制建模”，并具备问题定义与探索式推理能力。其乳腺癌筛查智能体OS-TuFEst-BRCA仅需一管血，早筛灵敏度达92%-95%，对影像漏诊病例识别率达96.2%，已与超50家三甲医院合作。",
+      "score": 38
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "小红书用“活人感”做科技社区，能否成功？",
+      "company": "小红书",
+      "url": "https://36kr.com/p/3778772970444033?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-24 10:14:50  +0800",
+      "summary": "小红书正通过独特的社区运营策略，试图打造一个大众科技社区。其科技内容发布同比增长超100%，创作者规模增长超200%。小红书科技运营负责人散兵表示，平台不做资讯和教程，而是做“人之间的连接器”，通过黑客松、AMA等活动吸引科技创业者，并强调“Build in public”理念，让产品创造与用户共创。",
+      "score": 25
     }
   ]
 }
