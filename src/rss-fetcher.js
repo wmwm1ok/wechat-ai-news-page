@@ -2,8 +2,9 @@ import Parser from 'rss-parser';
 import axios from 'axios';
 import { DOMESTIC_RSS_SOURCES, OVERSEAS_RSS_SOURCES, CONFIG, AI_KEYWORDS_CORE } from './config.js';
 
-// 延长至48小时，覆盖跨天发布的情况
-const FRESHNESS_HOURS = 48;
+// 默认只抓最近 18 小时，覆盖早 8 点运行时的隔夜新闻，同时过滤掉“一天前”的旧闻。
+const DEFAULT_FRESHNESS_HOURS = 18;
+const MAX_FUTURE_SKEW_HOURS = 2;
 const NON_NEWS_URL_PATTERNS = [
   /\/video\//i,
   /\/live\//i,
@@ -94,6 +95,12 @@ const ROUNDUP_ENTITY_PATTERNS = [
   { label: '荣耀', pattern: /荣耀/ },
   { label: '京东', pattern: /京东/ }
 ];
+const DEDUPE_TITLE_STOPWORDS = new Set([
+  'the', 'and', 'for', 'with', 'from', 'about', 'into', 'over', 'after', 'before', 'new', 'news',
+  'ai', 'artificial', 'intelligence', 'model', 'models', 'tool', 'tools', 'platform', 'company',
+  '发布', '推出', '上线', '更新', '开放', '宣布', '公司', '模型', '平台', '工具', '产品', '功能',
+  '人工智能', '大模型', '智能体'
+]);
 
 function isCfcFastMode() {
   return process.env.CFC_FAST_MODE === 'true';
@@ -116,6 +123,10 @@ function getSerperResultLimit() {
     'SERPER_RESULT_LIMIT',
     getEnvNumber('CFC_SERPER_RESULT_LIMIT', isCfcFastMode() ? 6 : 8)
   );
+}
+
+function getFreshnessHours() {
+  return getEnvNumber('NEWS_FRESHNESS_HOURS', DEFAULT_FRESHNESS_HOURS);
 }
 
 /**
@@ -145,14 +156,52 @@ const JIQIZHIXIN_HEADERS = {
   'Referer': 'https://www.jiqizhixin.com/articles'
 };
 
-function isFreshNews(publishedAt) {
-  if (!publishedAt) return true;
-  
-  const pubDate = new Date(publishedAt);
-  const now = new Date();
-  const diffHours = (now - pubDate) / (1000 * 60 * 60);
-  
-  return diffHours <= FRESHNESS_HOURS;
+export function parsePublishedAt(value, now = new Date()) {
+  const raw = String(value || '').trim();
+  if (!raw) return null;
+
+  const directDate = new Date(raw);
+  if (!Number.isNaN(directDate.getTime())) {
+    return directDate;
+  }
+
+  const lower = raw.toLowerCase();
+  if (/^(just now|now)$/i.test(lower)) {
+    return new Date(now);
+  }
+
+  const relativeMatch = lower.match(/(\d+(?:\.\d+)?)\s*(minute|minutes|min|mins|m|hour|hours|hr|hrs|h|day|days|d)\s*ago/);
+  if (relativeMatch) {
+    const amount = Number(relativeMatch[1]);
+    const unit = relativeMatch[2];
+    const unitHours = unit.startsWith('m') ? 1 / 60 : unit.startsWith('d') ? 24 : 1;
+    return new Date(now.getTime() - amount * unitHours * 60 * 60 * 1000);
+  }
+
+  if (/^yesterday\b/i.test(lower)) {
+    return new Date(now.getTime() - 24 * 60 * 60 * 1000);
+  }
+
+  const chineseRelativeMatch = raw.match(/(\d+(?:\.\d+)?)\s*(分钟|小时|天)前/);
+  if (chineseRelativeMatch) {
+    const amount = Number(chineseRelativeMatch[1]);
+    const unit = chineseRelativeMatch[2];
+    const unitHours = unit === '分钟' ? 1 / 60 : unit === '天' ? 24 : 1;
+    return new Date(now.getTime() - amount * unitHours * 60 * 60 * 1000);
+  }
+
+  return null;
+}
+
+export function getNewsAgeHours(publishedAt, now = new Date()) {
+  const pubDate = parsePublishedAt(publishedAt, now);
+  if (!pubDate) return Infinity;
+  return (now - pubDate) / (1000 * 60 * 60);
+}
+
+export function isFreshNews(publishedAt, now = new Date()) {
+  const ageHours = getNewsAgeHours(publishedAt, now);
+  return ageHours >= -MAX_FUTURE_SKEW_HOURS && ageHours <= getFreshnessHours();
 }
 
 function extractSnippet(item) {
@@ -182,7 +231,7 @@ function parseJiqizhixinPublishedAt(publishedAt) {
   const normalized = String(publishedAt || '').trim();
   const match = normalized.match(/^(\d{4})\/(\d{2})\/(\d{2})\s+(\d{2}):(\d{2})$/);
   if (!match) {
-    return normalized || new Date().toISOString();
+    return normalized;
   }
 
   const [, year, month, day, hour, minute] = match;
@@ -196,6 +245,7 @@ export function normalizeJiqizhixinArticle(article, source) {
     snippet: String(article.content || '').replace(/\s+/g, ' ').trim(),
     source: source.name,
     publishedAt: parseJiqizhixinPublishedAt(article.publishedAt),
+    popularityScore: extractPopularityScore(article),
     region: '国内'
   };
 }
@@ -225,6 +275,160 @@ function countDistinctEntities(text) {
     .filter(item => item.pattern.test(normalized))
     .map(item => item.label);
   return new Set(matched).size;
+}
+
+function parsePopularityNumber(value) {
+  if (typeof value === 'number') {
+    return Number.isFinite(value) ? value : 0;
+  }
+
+  const raw = String(value || '').trim().toLowerCase().replace(/,/g, '');
+  const match = raw.match(/(\d+(?:\.\d+)?)\s*(亿|万|m|k)?/);
+  if (!match) return 0;
+
+  const amount = Number(match[1]);
+  const unit = match[2];
+  const multiplier = unit === '亿' ? 100000000 : unit === '万' ? 10000 : unit === 'm' ? 1000000 : unit === 'k' ? 1000 : 1;
+  return amount * multiplier;
+}
+
+function extractPopularityScore(item = {}) {
+  const candidateFields = [
+    'views',
+    'viewCount',
+    'readCount',
+    'reads',
+    'visits',
+    'commentCount',
+    'comments',
+    'likeCount',
+    'likes',
+    'score'
+  ];
+  const values = candidateFields
+    .map(field => parsePopularityNumber(item[field]))
+    .filter(value => Number.isFinite(value) && value > 0);
+  const raw = values.length > 0 ? Math.max(...values) : 0;
+
+  if (raw >= 100000) return 8;
+  if (raw >= 50000) return 6;
+  if (raw >= 10000) return 4;
+  if (raw >= 1000) return 2;
+  return 0;
+}
+
+function normalizeUrlForDedup(url = '') {
+  try {
+    const parsed = new URL(String(url || '').trim());
+    parsed.hash = '';
+    parsed.search = '';
+    parsed.pathname = parsed.pathname.replace(/\/+$/, '');
+    return `${parsed.hostname.toLowerCase()}${parsed.pathname.toLowerCase()}`;
+  } catch {
+    return String(url || '').trim().toLowerCase().replace(/[?#].*$/, '').replace(/\/+$/, '');
+  }
+}
+
+function normalizeTitleForDedup(title = '') {
+  return String(title || '')
+    .toLowerCase()
+    .replace(/[“”"'`]/g, '')
+    .replace(/[^\p{L}\p{N}\s+-]/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function getTitleSignals(title = '') {
+  const normalized = normalizeTitleForDedup(title);
+  const tokens = normalized.match(/[a-z0-9+-]{2,}|[\u4e00-\u9fff]{2,8}/g) || [];
+  return [...new Set(tokens.filter(token => !DEDUPE_TITLE_STOPWORDS.has(token)))];
+}
+
+function getSignalOverlap(aSignals, bSignals) {
+  const shared = aSignals.filter(signal => bSignals.includes(signal));
+  const maxSize = Math.max(aSignals.length, bSignals.length, 1);
+  return {
+    sharedCount: shared.length,
+    ratio: shared.length / maxSize
+  };
+}
+
+function areDuplicateNewsItems(a, b) {
+  const aUrl = normalizeUrlForDedup(a.url || a.link);
+  const bUrl = normalizeUrlForDedup(b.url || b.link);
+  if (aUrl && bUrl && aUrl === bUrl) {
+    return true;
+  }
+
+  const aTitle = normalizeTitleForDedup(a.title);
+  const bTitle = normalizeTitleForDedup(b.title);
+  if (aTitle && bTitle && aTitle === bTitle) {
+    return true;
+  }
+
+  const aSignals = getTitleSignals(a.title);
+  const bSignals = getTitleSignals(b.title);
+  const { sharedCount, ratio } = getSignalOverlap(aSignals, bSignals);
+  return sharedCount >= 3 && ratio >= 0.6;
+}
+
+function getSourceRank(source) {
+  const rank = [
+    'MIT Technology Review',
+    '机器之心',
+    '量子位',
+    'InfoQ',
+    'TechCrunch AI',
+    'The Verge AI',
+    'VentureBeat AI',
+    'Wired AI',
+    '36氪',
+    'Tech Xplore'
+  ];
+  const index = rank.indexOf(source);
+  return index === -1 ? rank.length : index;
+}
+
+function choosePreferredNewsItem(items) {
+  return [...items].sort((a, b) => {
+    const ageDelta = getNewsAgeHours(a.publishedAt) - getNewsAgeHours(b.publishedAt);
+    if (Number.isFinite(ageDelta) && Math.abs(ageDelta) > 1) {
+      return ageDelta;
+    }
+
+    const rankDelta = getSourceRank(a.source) - getSourceRank(b.source);
+    if (rankDelta !== 0) return rankDelta;
+
+    return String(b.snippet || '').length - String(a.snippet || '').length;
+  })[0];
+}
+
+export function deduplicateNews(news) {
+  const groups = [];
+
+  for (const item of news) {
+    const group = groups.find(candidate => candidate.items.some(existing => areDuplicateNewsItems(item, existing)));
+    if (group) {
+      group.items.push(item);
+    } else {
+      groups.push({ items: [item] });
+    }
+  }
+
+  return groups.map(group => {
+    const preferred = choosePreferredNewsItem(group.items);
+    const coverageSources = [...new Set(group.items.map(item => item.source).filter(Boolean))];
+    const coverageTitles = [...new Set(group.items.map(item => item.title).filter(Boolean))];
+    const popularityScore = Math.max(...group.items.map(item => Number(item.popularityScore || 0)), 0);
+
+    return {
+      ...preferred,
+      coverageCount: coverageSources.length,
+      coverageSources,
+      coverageTitles,
+      popularityScore
+    };
+  });
 }
 
 function isMultiTopicRoundupTitle(title = '') {
@@ -360,7 +564,8 @@ async function parseRSS(source) {
         url: item.link || item.url || '',
         snippet: extractSnippet(item),
         source: source.name,
-        publishedAt: item.pubDate || item.isoDate || new Date().toISOString(),
+        publishedAt: item.pubDate || item.isoDate || item.date || '',
+        popularityScore: extractPopularityScore(item),
         region: DOMESTIC_RSS_SOURCES.includes(source) ? '国内' : '海外'
       }))
       .filter(item => isNewsLikeItem(item))
@@ -369,7 +574,7 @@ async function parseRSS(source) {
       .filter(item => isAIRelated(item.title, item.snippet))  // 只保留AI相关新闻
       .slice(0, source.limit || 5);
     
-    const filteredCount = feed.items.filter(item => isFreshNews(item.pubDate || item.isoDate)).length - items.length;
+    const filteredCount = feed.items.filter(item => isFreshNews(item.pubDate || item.isoDate || item.date)).length - items.length;
     if (filteredCount > 0) {
       console.log(`   ✓ ${items.length} 条 (过滤掉 ${filteredCount} 条非AI新闻)`);
     } else {
@@ -472,6 +677,11 @@ async function fetchSerperNews() {
           if (!isSourceQualifiedNewsItem({ title: item.title, snippet: item.snippet, url: item.link }, item.source || 'Serper')) {
             continue;
           }
+          const publishedAt = parsePublishedAt(item.date)?.toISOString() || '';
+          if (!isFreshNews(publishedAt)) {
+            continue;
+          }
+
           if (item.title && item.link && !seenUrls.has(item.link)) {
             seenUrls.add(item.link);
             allNews.push({
@@ -479,12 +689,17 @@ async function fetchSerperNews() {
               url: item.link,
               snippet: item.snippet || '',
               source: item.source || 'Serper',
-              publishedAt: item.date || new Date().toISOString(),
+              publishedAt,
+              popularityScore: extractPopularityScore(item),
               region: '海外'
             });
           }
         }
-      } catch (e) {}
+      } catch (e) {
+        if (process.env.DEBUG === 'true') {
+          console.log(`   ⚠️ Serper 查询失败: ${query} (${e.message})`);
+        }
+      }
       
       await new Promise(r => setTimeout(r, isCfcFastMode() ? 80 : 200));
     }
@@ -511,18 +726,7 @@ async function fetchSerperNews() {
 }
 
 function deduplicate(news) {
-  const seen = new Set();
-  const result = [];
-  
-  for (const item of news) {
-    const key = item.title.toLowerCase().trim();
-    if (!seen.has(key)) {
-      seen.add(key);
-      result.push(item);
-    }
-  }
-  
-  return result;
+  return deduplicateNews(news);
 }
 
 export async function fetchAllNews() {
@@ -559,8 +763,11 @@ export async function fetchAllNews() {
   
   const uniqueDomestic = deduplicate(domestic);
   const uniqueOverseas = deduplicate(overseas);
+  const domesticHotGroups = uniqueDomestic.filter(item => item.coverageCount > 1).length;
+  const overseasHotGroups = uniqueOverseas.filter(item => item.coverageCount > 1).length;
   
   console.log(`\n📊 去重后: 国内 ${uniqueDomestic.length}, 海外 ${uniqueOverseas.length}`);
+  console.log(`   🔥 多源覆盖热点: 国内 ${domesticHotGroups}, 海外 ${overseasHotGroups}`);
   
   return {
     domestic: uniqueDomestic,
@@ -570,6 +777,8 @@ export async function fetchAllNews() {
       overseasBeforeDedup: overseas.length,
       domesticAfterDedup: uniqueDomestic.length,
       overseasAfterDedup: uniqueOverseas.length,
+      domesticHotGroups,
+      overseasHotGroups,
       domesticSources: domesticSourceStats,
       overseasSources: overseasSourceStats,
       serper: {

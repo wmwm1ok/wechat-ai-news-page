@@ -110,6 +110,31 @@ describe('News scorer', () => {
     expect(scoring.score >= 0).toBe(true);
   });
 
+  it('boosts hot stories that have multi-source coverage', () => {
+    const now = new Date().toISOString();
+    const singleSource = scoreNews({
+      title: 'OpenAI发布GPT-5企业版',
+      summary: 'OpenAI 发布 GPT-5 企业版，提供多模态、推理增强和企业接入方案。',
+      source: 'TechCrunch AI',
+      publishedAt: now,
+      region: '海外',
+      url: 'https://example.com/openai-single'
+    }, []);
+    const multiSource = scoreNews({
+      title: 'OpenAI发布GPT-5企业版',
+      summary: 'OpenAI 发布 GPT-5 企业版，提供多模态、推理增强和企业接入方案。',
+      source: 'TechCrunch AI',
+      publishedAt: now,
+      region: '海外',
+      url: 'https://example.com/openai-hot',
+      coverageCount: 3,
+      coverageSources: ['TechCrunch AI', 'The Verge AI', 'MIT Technology Review']
+    }, []);
+
+    expect(multiSource.breakdown.hotness > singleSource.breakdown.hotness).toBe(true);
+    expect(multiSource.score > singleSource.score).toBe(true);
+  });
+
   it('rejects low-trust sources even when the title looks strong', () => {
     const now = new Date().toISOString();
     const scoring = scoreNews({

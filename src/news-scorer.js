@@ -465,12 +465,26 @@ function calculateImportanceScore(title, summary) {
  */
 function calculateTimeliness(publishedAt) {
   const hoursAgo = (new Date() - new Date(publishedAt)) / (1000 * 60 * 60);
+
+  if (!Number.isFinite(hoursAgo)) return 0;
   
   if (hoursAgo < 6) return 10;
   if (hoursAgo < 12) return 8;
   if (hoursAgo < 24) return 6;
   if (hoursAgo < 36) return 4;
   return 2;
+}
+
+/**
+ * 计算热度（0-12分）
+ * 优先使用抓取源自带的阅读/互动量；如果源没有暴露阅读量，则用多源覆盖作为热度代理。
+ */
+function calculateHotnessScore(news) {
+  const coverageCount = Number(news.coverageCount || 1);
+  const coverageScore = Math.max(0, coverageCount - 1) * 4;
+  const popularityScore = Number(news.popularityScore || 0);
+
+  return Math.min(12, coverageScore + Math.min(8, popularityScore));
 }
 
 /**
@@ -561,11 +575,12 @@ export function scoreNews(news, existingTitles) {
   const substance = calculateSubstanceScore(news.title, news.summary);
   const importance = calculateImportanceScore(news.title, news.summary);
   const timeliness = calculateTimeliness(news.publishedAt);
+  const hotness = calculateHotnessScore(news);
   const normalizedSource = normalizeSourceName(news.source);
   const credibility = SOURCE_CREDIBILITY[normalizedSource] || 4;
   const displayReady = isDisplayReadyNews(news);
   const displayPenalty = displayReady ? 3 : -2;
-  const totalScore = Math.max(0, substance + importance + timeliness + credibility + displayPenalty);
+  const totalScore = Math.max(0, substance + importance + timeliness + hotness + credibility + displayPenalty);
   
   return {
     score: totalScore,
@@ -573,6 +588,7 @@ export function scoreNews(news, existingTitles) {
       substance,
       importance,
       timeliness,
+      hotness,
       credibility,
       displayPenalty
     },

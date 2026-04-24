@@ -156,10 +156,69 @@ const TRUNCATED_ENDING_PATTERNS = [
   /[0-9一二三四五六七八九十百千万两]+(?:余|多)?[。！？]$/u,
   /(?:以及|并|和|等|其中|包括|还有|分别为)[。！？]$/u
 ];
+const DANGLING_OPEN_BRACKET_PATTERNS = [
+  { open: '（', close: '）' },
+  { open: '(', close: ')' },
+  { open: '《', close: '》' },
+  { open: '“', close: '”' },
+  { open: '"', close: '"' }
+];
+const DANGLING_TAIL_CUE_PATTERNS = [
+  /(?:包括|例如|比如|分别为|其中)[^。！？；;）)]{1,28}[。！？]?$/u,
+  /(?:包括|例如|比如|分别为|其中)[^。！？；;）)]{1,28}$/u
+];
 
 function hasTruncatedEnding(summary) {
   const trimmed = String(summary || '').trim();
-  return TRUNCATED_ENDING_PATTERNS.some(pattern => pattern.test(trimmed));
+  return TRUNCATED_ENDING_PATTERNS.some(pattern => pattern.test(trimmed))
+    || hasDanglingSummaryTail(trimmed);
+}
+
+function hasDanglingSummaryTail(summary) {
+  const normalized = String(summary || '').trim();
+  if (!normalized) return false;
+
+  if (DANGLING_TAIL_CUE_PATTERNS.some(pattern => pattern.test(normalized))) {
+    return true;
+  }
+
+  return DANGLING_OPEN_BRACKET_PATTERNS.some(({ open, close }) => {
+    const lastOpen = normalized.lastIndexOf(open);
+    if (lastOpen < 0) return false;
+
+    const lastClose = normalized.lastIndexOf(close);
+    return lastOpen > lastClose && normalized.length - lastOpen <= 40;
+  });
+}
+
+function trimDanglingSummaryTail(summary) {
+  let normalized = String(summary || '').trim();
+  if (!hasDanglingSummaryTail(normalized)) {
+    return normalized;
+  }
+
+  for (const { open, close } of DANGLING_OPEN_BRACKET_PATTERNS) {
+    const lastOpen = normalized.lastIndexOf(open);
+    const lastClose = normalized.lastIndexOf(close);
+    if (lastOpen >= 0 && lastOpen > lastClose && normalized.length - lastOpen <= 40) {
+      normalized = normalized.slice(0, lastOpen).trim();
+      break;
+    }
+  }
+
+  for (const pattern of DANGLING_TAIL_CUE_PATTERNS) {
+    normalized = normalized.replace(pattern, '').trim();
+  }
+
+  return normalizeSummaryEnding(normalized);
+}
+
+function normalizeSummaryEnding(summary) {
+  const normalized = String(summary || '').trim().replace(/[，,、：:\s]+$/u, '');
+  if (!normalized) return normalized;
+  if (/[。！？]$/u.test(normalized)) return normalized;
+  if (/[；;]$/u.test(normalized)) return normalized.replace(/[；;]$/u, '。');
+  return `${normalized}。`;
 }
 
 function decodeHtmlEntities(text) {
@@ -473,6 +532,7 @@ function extractCompanyFromTitle(title) {
 function normalizeSummary(summary) {
   if (!summary) return '暂无摘要';
   summary = decodeHtmlEntities(summary).replace(/\s+/g, ' ').trim();
+  summary = trimDanglingSummaryTail(summary);
   const truncatedEnding = hasTruncatedEnding(summary);
   
   // 检查是否以完整句子结尾（。！？）
@@ -505,8 +565,8 @@ function normalizeSummary(summary) {
       }
     }
   }
-  
-  return summary;
+
+  return trimDanglingSummaryTail(summary);
 }
 
 export function normalizeDisplaySummary(summary, options = {}) {

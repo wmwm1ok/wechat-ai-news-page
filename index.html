@@ -268,17 +268,6 @@
             font-size: 12px;
             cursor: pointer;
         }
-        .mini-btn.jump {
-            background: #fff;
-            border-color: #d1d5db;
-            color: #475569;
-        }
-        .quick-nav {
-            margin: 0 0 18px;
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
     </style>
 </head>
 <body>
@@ -434,7 +423,6 @@
         <h1 style="color:#1c5cff;margin:0 0 8px;font-size:26px;line-height:1.4;font-weight:900;">${escapeHtml(pageTitle)}</h1>
         <p style="color:#94a3b8;margin:0;font-size:13px;">${escapeHtml(data.date)} · 约 ${estimatedMinutes} 分钟阅读</p>
     </div>
-    ${renderQuickNav(sections)}
 `;
 
             SECTION_ORDER.forEach(section => {
@@ -482,9 +470,8 @@
         }
 
         function renderSection(section, items, color) {
-            const sectionId = `section-${slugifySection(section)}`;
             let html = `
-    <h2 id="${sectionId}" style="color:${color};font-size:18px;line-height:1.5;border-left:4px solid ${color};padding:2px 0 2px 10px;margin:26px 0 16px;font-weight:800;">
+    <h2 style="color:${color};font-size:18px;line-height:1.5;border-left:4px solid ${color};padding:2px 0 2px 10px;margin:26px 0 16px;font-weight:800;">
         ${escapeHtml(section)}
     </h2>
 `;
@@ -504,19 +491,6 @@
             });
 
             return html;
-        }
-
-        function renderQuickNav(sections) {
-            const availableSections = SECTION_ORDER.filter(section => sections[section] && sections[section].length > 0);
-            if (availableSections.length <= 1) {
-                return '';
-            }
-
-            const buttons = availableSections.map(section => `
-                <button class="mini-btn jump" type="button" onclick="jumpToSection('${slugifySection(section)}')">${escapeHtml(section)}</button>
-            `).join('');
-
-            return `<div class="quick-nav">${buttons}</div>`;
         }
 
         function renderSourceLinks(data) {
@@ -566,18 +540,6 @@
                 month: 'numeric',
                 day: 'numeric'
             }).format(new Date());
-        }
-
-        function slugifySection(section) {
-            return String(section || '')
-                .replace(/\s+/g, '-')
-                .replace(/[^\u4e00-\u9fa5a-zA-Z0-9_-]/g, '');
-        }
-
-        function jumpToSection(sectionSlug) {
-            const target = document.getElementById(`section-${sectionSlug}`);
-            if (!target) return;
-            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
 
         async function copyForWechat() {

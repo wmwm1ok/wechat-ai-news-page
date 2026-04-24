@@ -57,6 +57,7 @@ cp .env.example .env
 - `DEEPSEEK_API_URL`
 - `DEEPSEEK_MODEL`
 - `SERPER_API_KEY`
+- `NEWS_FRESHNESS_HOURS`：新闻新鲜度窗口，默认 `18`，用于优先抓取小时级新发布内容
 
 ### 3. 本地生成内容
 
@@ -116,7 +117,8 @@ npm start
 当前逻辑会：
 
 - 用语义规则做去重
-- 用来源、时效性、实质性、重要性打分
+- 合并同一事件的多源报道，并把多源覆盖作为热度信号
+- 用来源、时效性、热度、实质性、重要性打分
 - 过滤掉低于 `QUALITY_THRESHOLD` 的新闻
 - 优先保持分类结构均衡，并在候选不足时做有限补位
 

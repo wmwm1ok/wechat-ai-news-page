@@ -299,6 +299,16 @@ describe('AI summarizer helpers', () => {
     expect(result.endsWith('。')).toBe(true);
   });
 
+  it('removes dangling parenthetical tails from display summaries', () => {
+    const result = normalizeDisplaySummary(
+      '谷歌推出名为“Gemini Enterprise Agent Platform”的企业智能体构建平台，其定位独特，主要面向IT和技术团队。该平台集成了谷歌自家的Gemini大语言模型和Nano Banana 2图像生成器，并支持Anthropic公司的Claude系列模型（包括旗舰的Opus。'
+    );
+
+    expect(result.includes('包括旗舰的Opus')).toBe(false);
+    expect(result.includes('Claude系列模型。')).toBe(true);
+    expect(result.endsWith('。')).toBe(true);
+  });
+
   it('rejects mostly English summaries from final display', () => {
     const result = isDisplayReadyNews({
       title: 'OpenAI发布GPT-5.4 mini和nano，专为子代理时代打造',

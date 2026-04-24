@@ -1,4 +1,12 @@
-import { isNewsLikeItem, isSourceQualifiedNewsItem, normalizeJiqizhixinArticle } from '../src/rss-fetcher.js';
+import {
+  deduplicateNews,
+  getNewsAgeHours,
+  isFreshNews,
+  isNewsLikeItem,
+  isSourceQualifiedNewsItem,
+  normalizeJiqizhixinArticle,
+  parsePublishedAt
+} from '../src/rss-fetcher.js';
 
 function describe(name, fn) {
   console.log(`\n📦 ${name}`);
@@ -115,12 +123,67 @@ describe('RSS fetcher filters', () => {
       title: '全球最强开源模型智谱GLM-5.1「Day0」上线华为云，可免费体验',
       slug: '2026-04-08-14',
       publishedAt: '2026/04/08 15:27',
+      readCount: '12,000',
       content: '4 月 8 日，智谱正式发布新一代旗舰模型 GLM-5.1，发布当天已上线华为云。'
     }, { name: '机器之心' });
 
     expect(result.url).toBe('https://www.jiqizhixin.com/articles/2026-04-08-14');
     expect(result.publishedAt).toBe('2026-04-08T15:27:00+08:00');
     expect(result.source).toBe('机器之心');
+    expect(result.popularityScore).toBe(4);
+  });
+
+  it('keeps only hour-level fresh news by default', () => {
+    const oldValue = process.env.NEWS_FRESHNESS_HOURS;
+    process.env.NEWS_FRESHNESS_HOURS = '18';
+    const now = new Date('2026-04-24T08:00:00+08:00');
+
+    expect(isFreshNews('2026-04-23T15:30:00+08:00', now)).toBe(true);
+    expect(isFreshNews('2026-04-23T08:00:00+08:00', now)).toBe(false);
+    expect(isFreshNews('', now)).toBe(false);
+
+    if (oldValue === undefined) {
+      delete process.env.NEWS_FRESHNESS_HOURS;
+    } else {
+      process.env.NEWS_FRESHNESS_HOURS = oldValue;
+    }
+  });
+
+  it('parses relative published times from search results', () => {
+    const now = new Date('2026-04-24T08:00:00+08:00');
+    const parsed = parsePublishedAt('3 hours ago', now);
+
+    expect(getNewsAgeHours(parsed.toISOString(), now)).toBe(3);
+  });
+
+  it('merges duplicate events and preserves coverage signals', () => {
+    const result = deduplicateNews([
+      {
+        title: 'OpenAI releases GPT-5 enterprise agent platform',
+        url: 'https://techcrunch.com/openai-gpt5-enterprise?utm_source=x',
+        snippet: 'OpenAI released GPT-5 for enterprise agents.',
+        source: 'TechCrunch AI',
+        publishedAt: '2026-04-24T07:00:00+08:00'
+      },
+      {
+        title: 'OpenAI launches GPT-5 enterprise agent platform',
+        url: 'https://www.theverge.com/openai-gpt5-enterprise',
+        snippet: 'OpenAI launched GPT-5 for enterprise agent workflows.',
+        source: 'The Verge AI',
+        publishedAt: '2026-04-24T07:20:00+08:00'
+      },
+      {
+        title: 'Google updates Gemini Code Assist',
+        url: 'https://example.com/gemini-code',
+        snippet: 'Google updated Gemini Code Assist.',
+        source: 'InfoQ',
+        publishedAt: '2026-04-24T07:10:00+08:00'
+      }
+    ]);
+
+    const openai = result.find(item => item.title.includes('OpenAI'));
+    expect(result.length).toBe(2);
+    expect(openai.coverageCount).toBe(2);
   });
 });
 
