@@ -24,6 +24,31 @@ const AUTOMOTIVE_TERMS = [
 const AUTOMOTIVE_LAUNCH_TERMS = [
   '上市', '发布', '新车', '车型', '底盘', '激光雷达', '后轮转向', '续航', '售价', '交付', '魔毯底盘', '黑武士', 'Ultra'
 ];
+const PERIPHERAL_TOPIC_TERMS = [
+  '汽车', '车型', '新车', '智驾', '手机', '家电', '电商', '营销', '广告', '音乐', '影视',
+  '游戏', '社交', '社区', '消费品牌', '潮玩', '糖巧', '门票', '乐园', '餐饮', '旅游'
+];
+const STRONG_AI_READER_TERMS = [
+  '大模型', '模型', 'llm', 'agent', '智能体', '多模态', 'api', 'sdk', '开发者', '企业',
+  '工作流', '自动化', '基准', 'benchmark', '开源', '推理', '训练', '部署', '合规', '监管',
+  '安全', '芯片', 'gpu', '机器人', '具身智能', '数据中心'
+];
+const READER_VALUE_TERMS = [
+  '开发者', 'api', 'sdk', '开源', 'github', '企业', '工作流', '智能体', 'agent', '自动化',
+  '模型', '大模型', '多模态', '基准', 'benchmark', '推理', '训练', '部署', '成本', '定价',
+  '效率', '合规', '监管', '安全', '融资', '收购', '芯片', 'gpu', '机器人', '具身智能',
+  '数据中心', '搜索', '知识库', '生产环境'
+];
+const LOW_VALUE_EDITORIAL_PATTERNS = [
+  /引发(?:热议|关注)/,
+  /备受关注/,
+  /值得期待/,
+  /生态(?:布局|合作)/,
+  /赋能/,
+  /探索.+可能/,
+  /或将/,
+  /有望/
+];
 const CORE_AI_SIGNAL_TERMS = [
   'ai', '人工智能', '大模型', '模型', '算法', '训练', '推理', '多模态', '智能体', 'agent',
   'llm', '世界模型', '端到端', 'vla', 'robotaxi', '数据集', '生成式', '具身智能', 'mcp'
@@ -154,7 +179,8 @@ function extractCoreEntities(text) {
   
   // 公司/组织名
   const companies = [
-    'openai', 'anthropic', 'google', '谷歌', 'meta', 'microsoft', 'nvidia', 'amazon', 'apple', 'intel', 'amd',
+    'openai', 'anthropic', 'google', '谷歌', 'deepmind', 'google deepmind', 'meta', 'microsoft', 'nvidia', 'amazon', 'aws', 'apple', 'intel', 'amd',
+    'hugging face', 'mistral', 'cohere',
     '字节', '字节跳动', '阿里', '阿里巴巴', '腾讯', '百度', '华为', '小米', '美团', '滴滴', '京东', '网易', '快手', '拼多多',
     '商汤', '旷视', '依图', '云从', '科大讯飞', '讯飞', '智谱', '月之暗面', 'minimax', '零一万物',
     '百川智能', '面壁智能', '深度求索', 'deepseek', '极佳视界', '澜舟科技', '思必驰', '云知声',
@@ -165,6 +191,7 @@ function extractCoreEntities(text) {
   const products = [
     'gpt-4', 'gpt-5', 'gpt-4o', 'claude', 'gemini', 'llama', 'mistral', 'mixtral',
     'gpt', 'dall-e', 'sora', 'whisper', 'qwen', 'baichuan', 'chatglm', 'internlm',
+    'bedrock', 'sagemaker', 'nova', 'transformers', 'diffusers', 'gradio',
     'yi', 'skywork', 'bluelm', 'deepseek', 'kimi', '豆包', '文心一言', '通义千问',
     'gigabrain', 'vla', 'moco', 'seedance', '谷歌地图', 'google maps', 'ask maps', '询问地图', '沉浸式导航'
   ];
@@ -267,6 +294,40 @@ function isLowSignalAutomotiveNews(news) {
   const aiSignalCount = CORE_AI_SIGNAL_TERMS.filter(term => combined.includes(term.toLowerCase())).length;
 
   return hasLaunchSignal && aiSignalCount < 2;
+}
+
+function countTermHits(terms, text) {
+  const normalized = String(text || '').toLowerCase();
+  return terms.filter(term => normalized.includes(term.toLowerCase())).length;
+}
+
+function calculateReaderValueScore(title, summary) {
+  const text = `${title || ''} ${summary || ''}`;
+  const termHits = countTermHits(READER_VALUE_TERMS, text);
+  const hasConcreteOutcome = /提升|降低|减少|增加|开放|接入|部署|上线|发布|融资|收购|开源|支持|集成|合规|监管/u.test(text);
+  const hasAudienceCue = /开发者|企业|创业者|投资人|团队|用户|客户|工程师|研究人员/u.test(text);
+  const genericPenalty = LOW_VALUE_EDITORIAL_PATTERNS.filter(pattern => pattern.test(text)).length * 2;
+  const score = Math.min(termHits * 2, 10) + (hasConcreteOutcome ? 3 : 0) + (hasAudienceCue ? 2 : 0) - genericPenalty;
+
+  return Math.max(0, Math.min(score, 15));
+}
+
+function isPeripheralAINews(news) {
+  const title = String(news?.title || '');
+  const summary = String(news?.summary || '');
+  const text = `${title} ${summary}`;
+  const peripheralHits = countTermHits(PERIPHERAL_TOPIC_TERMS, text);
+
+  if (peripheralHits === 0) {
+    return false;
+  }
+
+  const strongAiHits = countTermHits(STRONG_AI_READER_TERMS, text);
+  const hasTopEntity = extractCoreEntities(text).some(entity =>
+    ['openai', 'anthropic', 'google', 'deepmind', 'meta', 'microsoft', 'nvidia', 'hugging face', 'deepseek', '字节', '阿里', '腾讯', '百度'].includes(entity)
+  );
+
+  return strongAiHits < 2 && !hasTopEntity;
 }
 
 /**
@@ -409,14 +470,33 @@ const SOURCE_CREDIBILITY = {
   '机器之心': 9,
   '量子位': 9,
   'InfoQ': 8,
-  '36氪': 7,
+  '36氪': 6,
+  '雷锋网': 6,
   'TechCrunch AI': 8,
   'MIT Technology Review': 10,
+  'Ars Technica': 8,
   'The Verge AI': 7,
   'VentureBeat AI': 7,
   'Wired AI': 7,
   'Tech Xplore': 7,
-  'Serper': 6
+  'The Decoder': 8,
+  'OpenAI News': 9,
+  'Google AI Blog': 9,
+  'Google DeepMind Blog': 9,
+  'NVIDIA Blog': 8,
+  'Hugging Face Blog': 8,
+  'AWS Machine Learning Blog': 7,
+  'Apple ML Research': 8,
+  'Berkeley AI Research': 8,
+  'Reuters': 9,
+  'Bloomberg': 9,
+  'CNBC': 7,
+  'The Information': 8,
+  'Google Blog': 9,
+  'OpenAI': 9,
+  'Anthropic': 9,
+  'Microsoft Blog': 8,
+  'Serper': 5
 };
 
 /**
@@ -442,7 +522,7 @@ function calculateImportanceScore(title, summary) {
   let score = 0;
   
   // 头部公司动态
-  const topCompanies = ['openai', 'google', 'meta', 'anthropic', 'microsoft', 'nvidia', 'apple', 'xai', 'softbank', '字节', '阿里', '腾讯', '百度'];
+  const topCompanies = ['openai', 'google', 'deepmind', 'meta', 'anthropic', 'microsoft', 'nvidia', 'apple', 'amazon', 'aws', 'xai', 'softbank', 'hugging face', '字节', '阿里', '腾讯', '百度'];
   for (const company of topCompanies) {
     if (text.includes(company.toLowerCase())) {
       score += 5;
@@ -487,6 +567,15 @@ function calculateHotnessScore(news) {
   return Math.min(12, coverageScore + Math.min(8, popularityScore));
 }
 
+function calculateCredibilityScore(news) {
+  const sources = Array.isArray(news.coverageSources) && news.coverageSources.length > 0
+    ? news.coverageSources
+    : [news.source];
+  const scores = sources.map(source => SOURCE_CREDIBILITY[normalizeSourceName(source)] || 4);
+
+  return Math.max(...scores, 4);
+}
+
 /**
  * 使用语义指纹引擎检查重复
  * 保留旧函数名以保持向后兼容
@@ -527,6 +616,10 @@ export function scoreNews(news, existingTitles) {
 
   if (isLowSignalAutomotiveNews(news)) {
     return { score: 0, isDuplicate: true, reason: '汽车发布但AI相关性不足' };
+  }
+
+  if (isPeripheralAINews(news)) {
+    return { score: 0, isDuplicate: true, reason: '边缘AI内容，读者价值不足' };
   }
   
   // AI行业相关性检查 - 标题或摘要必须包含AI关键词
@@ -574,19 +667,20 @@ export function scoreNews(news, existingTitles) {
   
   const substance = calculateSubstanceScore(news.title, news.summary);
   const importance = calculateImportanceScore(news.title, news.summary);
+  const readerValue = calculateReaderValueScore(news.title, news.summary);
   const timeliness = calculateTimeliness(news.publishedAt);
   const hotness = calculateHotnessScore(news);
-  const normalizedSource = normalizeSourceName(news.source);
-  const credibility = SOURCE_CREDIBILITY[normalizedSource] || 4;
+  const credibility = calculateCredibilityScore(news);
   const displayReady = isDisplayReadyNews(news);
   const displayPenalty = displayReady ? 3 : -2;
-  const totalScore = Math.max(0, substance + importance + timeliness + hotness + credibility + displayPenalty);
+  const totalScore = Math.max(0, substance + importance + readerValue + timeliness + hotness + credibility + displayPenalty);
   
   return {
     score: totalScore,
     breakdown: {
       substance,
       importance,
+      readerValue,
       timeliness,
       hotness,
       credibility,

@@ -118,6 +118,46 @@ describe('RSS fetcher filters', () => {
     expect(result).toBe(true);
   });
 
+  it('keeps concrete AI industry news from newly added broad feeds', () => {
+    const result = isSourceQualifiedNewsItem({
+      title: "Mystery solved: Anthropic reveals changes to Claude's harnesses and operating instructions likely caused degradation",
+      snippet: 'Anthropic revealed system changes affecting Claude Code behavior after developer complaints.',
+      url: 'https://venturebeat.com/ai/anthropic-claude-code-harnesses/'
+    }, 'VentureBeat AI');
+
+    expect(result).toBe(true);
+  });
+
+  it('rejects tutorial-style posts from developer feeds', () => {
+    const result = isSourceQualifiedNewsItem({
+      title: 'How to Use Transformers.js in a Chrome Extension',
+      snippet: 'A step-by-step tutorial for building browser extensions with Transformers.js.',
+      url: 'https://huggingface.co/blog/transformersjs-chrome-extension'
+    }, 'Hugging Face Blog');
+
+    expect(result).toBe(false);
+  });
+
+  it('keeps high-signal AWS model platform updates', () => {
+    const result = isSourceQualifiedNewsItem({
+      title: 'Amazon Bedrock launches new agent evaluation tools for enterprise AI teams',
+      snippet: 'AWS announced Bedrock updates for foundation model deployment, inference, and agent workflows.',
+      url: 'https://aws.amazon.com/blogs/machine-learning/bedrock-agent-evaluation/'
+    }, 'AWS Machine Learning Blog');
+
+    expect(result).toBe(true);
+  });
+
+  it('rejects low-signal AWS marketing posts', () => {
+    const result = isSourceQualifiedNewsItem({
+      title: 'Amazon Quick for marketing: From scattered data to strategic action',
+      snippet: 'A marketing team case study about dashboards and campaign planning.',
+      url: 'https://aws.amazon.com/blogs/machine-learning/amazon-quick-for-marketing/'
+    }, 'AWS Machine Learning Blog');
+
+    expect(result).toBe(false);
+  });
+
   it('normalizes Jiqizhixin article library items into project news format', () => {
     const result = normalizeJiqizhixinArticle({
       title: '全球最强开源模型智谱GLM-5.1「Day0」上线华为云，可免费体验',

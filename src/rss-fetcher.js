@@ -5,6 +5,7 @@ import { DOMESTIC_RSS_SOURCES, OVERSEAS_RSS_SOURCES, CONFIG, AI_KEYWORDS_CORE } 
 // 默认只抓最近 18 小时，覆盖早 8 点运行时的隔夜新闻，同时过滤掉“一天前”的旧闻。
 const DEFAULT_FRESHNESS_HOURS = 18;
 const MAX_FUTURE_SKEW_HOURS = 2;
+const RSS_FETCH_CONCURRENCY = 4;
 const NON_NEWS_URL_PATTERNS = [
   /\/video\//i,
   /\/live\//i,
@@ -27,28 +28,44 @@ const NON_NEWS_TITLE_PATTERNS = [
   /训练营/,
   /活动报名/
 ];
-const BROAD_OVERSEAS_SOURCES = new Set(['TechCrunch AI', 'The Verge AI', 'Wired AI', 'Tech Xplore']);
+const BROAD_OVERSEAS_SOURCES = new Set([
+  'TechCrunch AI',
+  'The Verge AI',
+  'Wired AI',
+  'Tech Xplore',
+  'NVIDIA Blog',
+  'VentureBeat AI',
+  'Hugging Face Blog',
+  'AWS Machine Learning Blog'
+]);
 const BROAD_SOURCE_BLOCK_PATTERNS = [
   /all the latest in/i,
   /\bthe latest in\b/i,
-  /\b(?:newsletter|digest|roundup|brief|podcast|documentary)\b/i,
+  /\b(?:newsletter|digest|roundup|brief|podcast|documentary|tutorial)\b/i,
+  /\bhow to\b/i,
   /\b(?:music|artist|artists|advertising|ads?|porn|adult|viral)\b/i,
+  /\b(?:crypto|cryptocurrency|bitcoin|forex|casino|gambling)\b/i,
   /\b(?:literature|literary|therapy|dating|romance|celebrity)\b/i,
   /\bpersonal advice\b/i,
   /\btech reporters?\b.*\bwrite\b/i
 ];
 const INDUSTRY_ENTITY_PATTERNS = [
-  /\b(?:openai|anthropic|google|gemini|meta|microsoft|nvidia|apple|xai|softbank|sora|claude|suno|bluesky|openclaw|tiktok|siri)\b/i,
+  /\b(?:openai|anthropic|google|deepmind|gemini|meta|microsoft|nvidia|apple|xai|softbank|sora|claude|suno|bluesky|openclaw|tiktok|siri)\b/i,
+  /\b(?:hugging face|transformers|diffusers|gradio|bedrock|sagemaker|nova|llama|mistral|cohere|deepseek)\b/i,
   /\b(?:pentagon|white house)\b/i
 ];
 const INDUSTRY_ACTION_PATTERNS = [
   /\b(?:app|api|sdk|model|models|agent|agents|chatbot|chatbots)\b/i,
-  /\b(?:launch|release|released|update|updated|open source|shutdown|shut down|killed|killing)\b/i,
-  /\b(?:funding|fundraise|loan|ipo|startup|enterprise|developer|developers)\b/i,
+  /\b(?:launch|launched|release|released|update|updated|introduce|introduces|introduced|unveil|unveils|unveiled|announce|announces|announced|reveal|reveals|revealed|debut|debuts|ship|ships|rolls out|open source|shutdown|shut down|killed|killing)\b/i,
+  /\b(?:funding|fundraise|fundraises|raises|raise|loan|ipo|startup|enterprise|developer|developers)\b/i,
   /\b(?:judge|court|lawsuit|ban|blocked|policy|policies|regulation|regulatory|senators?)\b/i,
-  /\b(?:robot|robots|robotics|benchmark|hardware|chip|chips|gpu|data centers?|energy)\b/i,
-  /\b(?:autonomous|warehouse|throughput|neural network|memristor|research|geopolitics)\b/i,
+  /\b(?:robot|robots|robotics|benchmark|hardware|chip|chips|gpu|tpu|data centers?|energy)\b/i,
+  /\b(?:autonomous|warehouse|throughput|neural network|memristor|research|geopolitics|training|inference|fine-tuning|fine tuning)\b/i,
   /\b(?:founder|co-founder|ceo|executive|leadership|resigns?|resigned|leaves?|left)\b/i
+];
+const AWS_HIGH_SIGNAL_PATTERNS = [
+  /\b(?:bedrock|sagemaker|nova|titan|q developer|trainium|inferentia)\b/i,
+  /\b(?:foundation models?|llms?|agents?|agentic|generative ai|model deployment|model training|inference)\b/i
 ];
 const KR36_ROUNDUP_TITLE_PATTERNS = [
   /(?:8点|9点)\s*1氪/,
@@ -374,16 +391,26 @@ function areDuplicateNewsItems(a, b) {
 
 function getSourceRank(source) {
   const rank = [
+    'OpenAI News',
+    'Google DeepMind Blog',
+    'Google AI Blog',
+    'NVIDIA Blog',
     'MIT Technology Review',
     '机器之心',
     '量子位',
     'InfoQ',
     'TechCrunch AI',
+    'The Decoder',
+    'Ars Technica',
     'The Verge AI',
     'VentureBeat AI',
     'Wired AI',
     '36氪',
-    'Tech Xplore'
+    'Tech Xplore',
+    'Apple ML Research',
+    'Berkeley AI Research',
+    'Hugging Face Blog',
+    'AWS Machine Learning Blog'
   ];
   const index = rank.indexOf(source);
   return index === -1 ? rank.length : index;
@@ -508,6 +535,15 @@ export function isSourceQualifiedNewsItem(item, sourceName = '') {
     return actionHits >= 2 || (entityHits >= 1 && actionHits >= 1);
   }
 
+  if (sourceName === 'AWS Machine Learning Blog') {
+    const highSignalHits = countPatternMatches(AWS_HIGH_SIGNAL_PATTERNS, text);
+    return highSignalHits >= 1 && actionHits >= 1;
+  }
+
+  if (sourceName === 'Hugging Face Blog') {
+    return entityHits >= 1 && actionHits >= 1;
+  }
+
   return entityHits >= 1 && actionHits >= 1;
 }
 
@@ -596,6 +632,23 @@ async function parseRSS(source) {
       items: []
     };
   }
+}
+
+async function fetchSourceGroup(sources, concurrency = RSS_FETCH_CONCURRENCY) {
+  const results = new Array(sources.length);
+  let nextIndex = 0;
+  const workerCount = Math.min(concurrency, sources.length);
+
+  const workers = Array.from({ length: workerCount }, async () => {
+    while (nextIndex < sources.length) {
+      const index = nextIndex;
+      nextIndex += 1;
+      results[index] = await parseRSS(sources[index]);
+    }
+  });
+
+  await Promise.all(workers);
+  return results;
 }
 
 async function fetchSerperNews() {
@@ -734,8 +787,8 @@ export async function fetchAllNews() {
   
   const domestic = [];
   const domesticSourceStats = [];
-  for (const source of DOMESTIC_RSS_SOURCES) {
-    const result = await parseRSS(source);
+  const domesticResults = await fetchSourceGroup(DOMESTIC_RSS_SOURCES);
+  for (const result of domesticResults) {
     domesticSourceStats.push({
       source: result.source,
       ok: result.ok,
@@ -747,8 +800,8 @@ export async function fetchAllNews() {
   
   const overseas = [];
   const overseasSourceStats = [];
-  for (const source of OVERSEAS_RSS_SOURCES) {
-    const result = await parseRSS(source);
+  const overseasResults = await fetchSourceGroup(OVERSEAS_RSS_SOURCES);
+  for (const result of overseasResults) {
     overseasSourceStats.push({
       source: result.source,
       ok: result.ok,

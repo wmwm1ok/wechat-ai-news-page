@@ -392,6 +392,20 @@ function trimDisplaySummary(normalized, maxLength, minLength) {
   return trimAtNaturalBoundary(normalized, maxLength);
 }
 
+function limitEditorialSentences(summary, maxSentences = 3) {
+  const normalized = String(summary || '').trim();
+  const sentences = normalized
+    .split(/(?<=[。！？])/u)
+    .map(part => part.trim())
+    .filter(Boolean);
+
+  if (sentences.length <= maxSentences) {
+    return normalized;
+  }
+
+  return normalizeSummaryEnding(sentences.slice(0, maxSentences).join(''));
+}
+
 // 检测摘要是否完整（不以...结尾且以句号/感叹号/问号结尾）
 export function isSummaryComplete(summary) {
   if (!summary || summary.length < 50) return false;
@@ -529,6 +543,42 @@ function extractCompanyFromTitle(title) {
   return '';
 }
 
+function findRelatedPreviousNews(item, previousNews = []) {
+  if (!Array.isArray(previousNews) || previousNews.length === 0) {
+    return null;
+  }
+
+  const currentText = `${item?.title || ''} ${item?.summary || ''} ${item?.snippet || ''}`.toLowerCase();
+  const company = extractCompanyFromTitle(currentText);
+  const topics = extractTopicsFromTitle(item?.title)
+    .map(topic => topic.toLowerCase())
+    .filter(topic => topic.length >= 2);
+
+  return previousNews.find(previous => {
+    const previousText = `${previous?.title || ''} ${previous?.summary || ''}`.toLowerCase();
+    if (!previousText || previousText === currentText) {
+      return false;
+    }
+
+    if (company && previousText.includes(company.toLowerCase())) {
+      return true;
+    }
+
+    return topics.some(topic => previousText.includes(topic));
+  }) || null;
+}
+
+function buildTrackingInstruction(relatedPreviousNews) {
+  if (!relatedPreviousNews) {
+    return '';
+  }
+
+  return `
+【连续追踪参考】
+昨日相关内容：${relatedPreviousNews.title || ''}。${String(relatedPreviousNews.summary || '').slice(0, 120)}
+如果这条新闻确实与昨日内容属于同一公司、产品或主题的延续，请在第3句自然写出“这延续了昨日……”或“这说明该主题仍在发酵……”；如果只是同公司但主题不同，不要强行写连续追踪。`;
+}
+
 function normalizeSummary(summary) {
   if (!summary) return '暂无摘要';
   summary = decodeHtmlEntities(summary).replace(/\s+/g, ' ').trim();
@@ -571,8 +621,8 @@ function normalizeSummary(summary) {
 
 export function normalizeDisplaySummary(summary, options = {}) {
   const minLength = options.minLength || 90;
-  const maxLength = options.maxLength || 150;
-  const normalized = normalizeSummary(summary || '');
+  const maxLength = options.maxLength || 180;
+  const normalized = limitEditorialSentences(normalizeSummary(summary || ''), options.maxSentences || 3);
   const structuredPointCount = countStructuredPoints(normalized);
   const promisedPointCount = extractPromisedPointCount(normalized);
   const expectedPointCount = Math.max(structuredPointCount, promisedPointCount);
@@ -961,28 +1011,33 @@ ${content.substring(0, 2000)}
    - "技术与研究" → 技术突破、论文、研究成果
    - "投融资与并购" → 融资、投资、收购
    - "政策与监管" → 政策法规、监管动态
-2. summary要求：
-   - 严格基于原文内容进行总结，字数200-400字
+2. title_cn要求：
+   - 改成公众号读者更愿意点开的编辑标题，结构优先使用“主体 + 动作 + 看点/影响”
+   - 可以使用冒号，但不得添加原文没有的新事实
+   - 避免“正式上线”“重磅发布”等空泛词，除非原文确实强调
+3. summary要求：
+   - 严格基于原文内容进行总结，120-180字
+   - 固定写3个完整句子：第1句写发生了什么，第2句写关键事实/数据/产品变化，第3句写对读者或行业的意义
+   - 第3句可以写“这对开发者/企业/创业者/投资人意味着什么”，但必须基于原文事实，不要夸大
    - 用自己的话重述原文事实，不要复制原文片段
-   - 只写原文明确提到的信息，不确定的内容不写
-   - 3-4个完整句子，结尾必须是句号
-3. company必须从标题提取原文提到的公司名，没有就空字符串
-4. title_cn基于原标题改写，保留核心事实，不要添加原标题没有的信息
-5. 只输出JSON，不要其他内容
-${comparisonMode ? `6. 这是对比/评测类文章，摘要必须明确写出：
+   - 只写原文明确提到的信息，不确定的内容不写，结尾必须是句号
+4. company必须从标题提取原文提到的公司名，没有就空字符串
+5. 避免输出“文章介绍/报道指出/值得关注”等模板腔，直接写事实和判断
+6. 只输出JSON，不要其他内容
+${comparisonMode ? `7. 这是对比/评测类文章，摘要必须明确写出：
    - 比较对象是谁
    - 比较维度是什么（如 API、延迟、价格、质量、开发者集成）
    - 原文明确给出的结论；如果原文没有明确结论，要直接写“原文未给出明确结论”
-7. 禁止只写“进行了对比”“涵盖了多个方面”这种空泛表述` : ''}
-${articleMode === 'story' ? `6. 这是人物/创业故事类文章，摘要必须写出：
+8. 禁止只写“进行了对比”“涵盖了多个方面”这种空泛表述` : ''}
+${articleMode === 'story' ? `7. 这是人物/创业故事类文章，摘要必须写出：
    - 主角具体用了什么工具、产品或项目
    - 这个工具或项目能做什么
    - 他因此获得了什么结果或机会
-7. 禁止只写“讲述创业故事”“借助热潮创业”这种空话` : ''}
-${articleMode === 'roundup' ? `6. 这是简报/综述类文章，摘要必须写出：
+8. 禁止只写“讲述创业故事”“借助热潮创业”这种空话` : ''}
+${articleMode === 'roundup' ? `7. 这是简报/综述类文章，摘要必须写出：
    - 文章实际列举了哪 2-3 个主题或观点
    - 每个主题的具体内容是什么
-7. 禁止只写“本期简报介绍了什么”“讨论了多个话题”这种空话` : ''}`;
+8. 禁止只写“本期简报介绍了什么”“讨论了多个话题”这种空话` : ''}`;
 }
 
 async function summarizeSingle(item, options = {}) {
@@ -1050,15 +1105,16 @@ async function summarizeSingle(item, options = {}) {
   }
 }
 
-async function refineSingleSelected(item) {
+async function refineSingleSelected(item, options = {}) {
   const articleMode = detectArticleMode(item);
   const comparisonMode = articleMode === 'comparison';
+  const relatedPreviousNews = findRelatedPreviousNews(item, options.previousNews);
   const { content } = await getSummarySourceContent(item, {
     forceFullContent: true,
     allowFastSkip: false
   });
 
-  const prompt = `请基于原文内容，重写这条 AI 新闻摘要，让它更具体、更易懂。
+  const prompt = `请基于原文内容，重写这条 AI 新闻标题和摘要，让它更像公众号编辑精选，而不是机器摘要。
 
 【新闻标题】
 ${item.title}
@@ -1068,20 +1124,22 @@ ${item.summary || '暂无摘要'}
 
 【原文内容】
 ${String(content || item.snippet || '').substring(0, 2200)}
+${buildTrackingInstruction(relatedPreviousNews)}
 
 输出 JSON：
-{"summary":"更具体的新摘要"}
+{"title_cn":"更适合公众号的标题","summary":"更具体的新摘要"}
 
 要求：
 1. 只输出 JSON
-2. 摘要使用中文，110-170 字
-3. 必须写出 2-3 个具体信息点，不能只写泛泛概述
-4. 如果原文讲的是方法/研究，要写出它具体做了什么、解决什么问题
-5. 如果原文讲的是公司/产品，要写出发布了什么、核心变化是什么
-6. 不允许编造原文没有的数字、结论和细节
-7. ${comparisonMode ? '如果是对比/评测文章，必须写出比较对象、比较维度和明确结论；没有结论就直说原文未给出明确结论。' : '如果原文信息有限，就明确说明信息有限，但仍尽量保留已有具体点。'}
-8. ${articleMode === 'story' ? '如果是人物/创业故事类，必须写清楚主角用了什么工具或项目、它能做什么、以及最终带来了什么结果。' : '不是人物/创业故事类就忽略这一条。'}
-9. ${articleMode === 'roundup' ? '如果是简报/综述类，必须写出文中列举的 2-3 个具体主题，不能只写“本期简报介绍了什么”。' : '不是简报/综述类就忽略这一条。'}`;
+2. title_cn使用“主体 + 动作 + 看点/影响”的公众号标题写法，可以用冒号，但不能新增原文没有的信息
+3. 摘要使用中文，120-180字，固定3个完整句子
+4. 第1句写发生了什么；第2句写关键事实、数据、产品变化或研究方法；第3句写这件事对开发者、企业、创业者、投资人或普通AI使用者的意义
+5. 如果原文讲的是方法/研究，要写出它具体做了什么、解决什么问题
+6. 如果原文讲的是公司/产品，要写出发布了什么、核心变化是什么
+7. 不允许编造原文没有的数字、结论和细节
+8. ${comparisonMode ? '如果是对比/评测文章，必须写出比较对象、比较维度和明确结论；没有结论就直说原文未给出明确结论。' : '如果原文信息有限，就明确说明信息有限，但仍尽量保留已有具体点。'}
+9. ${articleMode === 'story' ? '如果是人物/创业故事类，必须写清楚主角用了什么工具或项目、它能做什么、以及最终带来了什么结果。' : '不是人物/创业故事类就忽略这一条。'}
+10. ${articleMode === 'roundup' ? '如果是简报/综述类，必须写出文中列举的 2-3 个具体主题，不能只写“本期简报介绍了什么”。' : '不是简报/综述类就忽略这一条。'}`;
 
   try {
     const response = await callDeepSeek(prompt);
@@ -1091,6 +1149,7 @@ ${String(content || item.snippet || '').substring(0, 2200)}
 
     return {
       ...item,
+      title: parsed.title_cn || item.title,
       summary: preferredSummary
     };
   } catch (error) {
@@ -1135,14 +1194,18 @@ ${batchPrompt}
 
 【强制规则】
 1. category只能是这4个之一："产品发布与更新"、"技术与研究"、"投融资与并购"、"政策与监管"
-2. summary要求：
-   - 严格基于原文内容进行总结，200-400字
+2. title_cn要求：
+   - 改成公众号读者更愿意点开的编辑标题，结构优先使用“主体 + 动作 + 看点/影响”
+   - 可以使用冒号，但不得添加原文没有的新事实
+   - 避免“正式上线”“重磅发布”等空泛词，除非原文确实强调
+3. summary要求：
+   - 严格基于原文内容进行总结，120-180字
+   - 固定写3个完整句子：第1句写发生了什么，第2句写关键事实/数据/产品变化，第3句写对开发者、企业、创业者、投资人或普通AI使用者的意义
    - 用自己的话重述原文明确提到的事实
-   - 不确定的内容不写，不脑补
-   - 3-4个完整句子，结尾必须是句号
-3. company必须从标题提取原文提到的公司名
-4. 禁止只写“文章对X进行了对比/介绍/分析”这类空话，摘要里必须包含原文中的具体对象、动作或指标
-5. 只输出JSON`;
+   - 不确定的内容不写，不脑补，结尾必须是句号
+4. company必须从标题提取原文提到的公司名
+5. 禁止只写“文章对X进行了对比/介绍/分析”这类空话，摘要里必须包含原文中的具体对象、动作或指标
+6. 只输出JSON`;
 
     try {
       const response = await callDeepSeek(prompt);
@@ -1234,7 +1297,7 @@ export async function summarizeNews({ domestic, overseas }) {
   return [...domesticSummaries, ...overseasSummaries];
 }
 
-export async function refineSelectedNews(items) {
+export async function refineSelectedNews(items, options = {}) {
   if (!Array.isArray(items) || items.length === 0) {
     return [];
   }
@@ -1253,7 +1316,9 @@ export async function refineSelectedNews(items) {
     }
 
     console.log(`   ✨ 精修: ${item.title.slice(0, 56)}...`);
-    refined.push(await refineSingleSelected(item));
+    refined.push(await refineSingleSelected(item, {
+      previousNews: options.previousNews || []
+    }));
     await new Promise(resolve => setTimeout(resolve, isCfcFastMode() ? 120 : 250));
   }
 

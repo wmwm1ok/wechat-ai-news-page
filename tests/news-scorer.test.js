@@ -135,6 +135,35 @@ describe('News scorer', () => {
     expect(multiSource.score > singleSource.score).toBe(true);
   });
 
+  it('boosts reader-relevant enterprise and developer stories', () => {
+    const now = new Date().toISOString();
+    const scoring = scoreNews({
+      title: 'Anthropic开放Claude企业智能体API',
+      summary: 'Anthropic 开放 Claude 企业智能体 API，支持开发者把审批、知识库和客服工作流接入统一接口。该更新降低了企业部署 Agent 的集成门槛，也让团队更容易评估成本、权限和生产环境稳定性。',
+      source: 'TechCrunch AI',
+      publishedAt: now,
+      region: '海外',
+      url: 'https://example.com/reader-value'
+    }, []);
+
+    expect(scoring.breakdown.readerValue > 0).toBe(true);
+  });
+
+  it('uses the strongest source in multi-source coverage for credibility', () => {
+    const now = new Date().toISOString();
+    const scoring = scoreNews({
+      title: 'OpenAI发布企业搜索工具并开放知识库接入',
+      summary: 'OpenAI 发布企业搜索工具，支持企业把内部知识库、权限控制和搜索工作流接入统一界面。该功能面向企业团队，重点解决员工查找内部信息和管理员审计的问题。',
+      source: 'Serper',
+      publishedAt: now,
+      region: '海外',
+      url: 'https://example.com/coverage-credibility',
+      coverageSources: ['Serper', 'MIT Technology Review']
+    }, []);
+
+    expect(scoring.breakdown.credibility).toBe(10);
+  });
+
   it('rejects low-trust sources even when the title looks strong', () => {
     const now = new Date().toISOString();
     const scoring = scoreNews({
@@ -223,6 +252,21 @@ describe('News scorer', () => {
     }, []);
 
     expect(scoring.isDuplicate).toBe(true);
+  });
+
+  it('rejects peripheral AI-adjacent consumer stories', () => {
+    const now = new Date().toISOString();
+    const scoring = scoreNews({
+      title: '小红书用AI话题打造科技社区，吸引年轻用户讨论',
+      summary: '小红书围绕 AI 话题运营科技社区，重点是内容氛围、用户增长和社区互动，并未披露具体底层能力、接口或落地场景。',
+      source: '36氪',
+      publishedAt: now,
+      region: '国内',
+      url: 'https://example.com/peripheral-ai'
+    }, []);
+
+    expect(scoring.isDuplicate).toBe(true);
+    expect(scoring.reason).toBe('边缘AI内容，读者价值不足');
   });
 
   it('keeps category diversity when enough candidates exist', () => {

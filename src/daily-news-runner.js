@@ -418,7 +418,7 @@ export async function runDailyNews(options = {}) {
 
   console.log('\n🎯 开始质量评分...');
   const selectedNews = selectTopNews(allNews, candidateTargetCount, previousDayNews);
-  const refinedNews = await refineSelectedNews(selectedNews);
+  const refinedNews = await refineSelectedNews(selectedNews, { previousNews: previousDayNews });
   const normalizedRefinedNews = refinedNews.map(item => ({
     ...item,
     summary: normalizeDisplaySummary(item.summary),

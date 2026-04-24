@@ -9,12 +9,13 @@ export const AI_KEYWORDS_CORE = [
   '智谱', '通义', '文心', 'Kimi', 'MiniMax', '百川', '讯飞星火', '混元', '豆包',
   'Agent', '智能体', 'Copilot', 'Grok', 'Perplexity', 'Mistral',
   '生成式', '多模态', '大语言模型', '自然语言处理', 'NLP',
+  'Foundation Model', 'World Model', 'RNN', 'Reinforcement Learning',
   '自动驾驶', '具身智能', '机器人', '人形机器人',
-  'AI芯片', 'GPU', 'NVIDIA', '英伟达', 'CUDA',
-  'Stable Diffusion', 'Midjourney', 'Runway', 'DALL-E',
-  'DeepMind', 'OpenAI', 'Anthropic', 'Meta AI', 'Google AI',
-  'LangChain', 'Hugging Face', '向量数据库', 'RAG',
-  'AI安全', 'AI对齐', '提示工程', 'Prompt'
+  'AI芯片', 'GPU', 'TPU', 'NVIDIA', '英伟达', 'CUDA',
+  'Stable Diffusion', 'Diffusion', 'Midjourney', 'Runway', 'DALL-E',
+  'DeepMind', 'OpenAI', 'Anthropic', 'Meta AI', 'Google AI', 'Hugging Face',
+  'LangChain', '向量数据库', 'RAG',
+  'AI安全', 'AI对齐', '提示工程', 'Prompt', '世界模型', '强化学习'
 ];
 
 // 国内 RSS 源
@@ -50,9 +51,39 @@ export const DOMESTIC_RSS_SOURCES = [
 // 注：海外源稳定性会有波动，因此同时保留 RSS 多源和 Serper 补充
 export const OVERSEAS_RSS_SOURCES = [
   {
+    name: 'OpenAI News',
+    url: 'https://openai.com/news/rss.xml',
+    limit: 6
+  },
+  {
+    name: 'Google DeepMind Blog',
+    url: 'https://deepmind.google/blog/rss.xml',
+    limit: 5
+  },
+  {
+    name: 'Google AI Blog',
+    url: 'https://blog.google/technology/ai/rss/',
+    limit: 5
+  },
+  {
+    name: 'NVIDIA Blog',
+    url: 'https://blogs.nvidia.com/feed/',
+    limit: 4
+  },
+  {
     name: 'TechCrunch AI',
     url: 'https://techcrunch.com/category/artificial-intelligence/feed/',
     limit: 10
+  },
+  {
+    name: 'The Decoder',
+    url: 'https://the-decoder.com/feed/',
+    limit: 8
+  },
+  {
+    name: 'VentureBeat AI',
+    url: 'https://venturebeat.com/feed/',
+    limit: 6
   },
   {
     name: 'MIT Technology Review',
@@ -78,6 +109,26 @@ export const OVERSEAS_RSS_SOURCES = [
     name: 'Tech Xplore',
     url: 'https://techxplore.com/rss-feed/breaking/machine-learning-ai-news/',
     limit: 6
+  },
+  {
+    name: 'Hugging Face Blog',
+    url: 'https://huggingface.co/blog/feed.xml',
+    limit: 4
+  },
+  {
+    name: 'AWS Machine Learning Blog',
+    url: 'https://aws.amazon.com/blogs/machine-learning/feed/',
+    limit: 3
+  },
+  {
+    name: 'Apple ML Research',
+    url: 'https://machinelearning.apple.com/rss.xml',
+    limit: 3
+  },
+  {
+    name: 'Berkeley AI Research',
+    url: 'https://bair.berkeley.edu/blog/feed.xml',
+    limit: 3
   }
 ];
 

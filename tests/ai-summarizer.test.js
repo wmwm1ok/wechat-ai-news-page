@@ -287,7 +287,17 @@ describe('AI summarizer helpers', () => {
       'OpenAI 发布了新的学习功能，第一段详细介绍了它的定位和背景。第二段继续展开它如何帮助学生理解数学与科学概念。第三段补充了产品形态、应用场景、发布时间以及更多边角信息，导致整段明显过长，不适合日报统一展示。'
     );
 
-    expect(result.length <= 150).toBe(true);
+    expect(result.length <= 180).toBe(true);
+  });
+
+  it('keeps display summaries to three editorial sentences', () => {
+    const result = normalizeDisplaySummary(
+      'OpenAI 发布企业智能体工具，第一句说明发生了什么。第二句补充它支持权限、知识库和审批流程。第三句说明这会影响企业团队采用 Agent 的门槛。第四句是额外背景，不应进入最终展示。'
+    );
+
+    const sentenceCount = (result.match(/[。！？]/g) || []).length;
+    expect(sentenceCount).toBe(3);
+    expect(result.includes('第四句')).toBe(false);
   });
 
   it('cuts long single-sentence summaries at a natural boundary instead of mid-word', () => {
