@@ -1,0 +1,304 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "OpenAI发布GPT-5.5，向AI“超级应用”迈进",
+      "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+      "snippet": "OpenAI says its latest model offers increased capabilities across a broad variety of categories.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 23 Apr 2026 18:29:29 +0000",
+      "region": "海外",
+      "summary": "OpenAI发布了其最新模型GPT-5.5。该公司表示，该模型在多个类别中提供了增强的能力。这一发布使OpenAI距离打造AI“超级应用”的目标更近一步。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 39,
+      "breakdown": {
+        "substance": 7,
+        "importance": 11,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "姚顺雨带队发布Hy3 Preview，腾讯混元模型亮相",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-23-14",
+      "snippet": "编辑｜吴昕刚刚，腾讯混元 Hy3 Preview 正式亮相。这是姚顺雨归国加盟腾讯后交出的第一份重磅答卷，整体性能达到了同尺寸模型最佳水平，兼具实用性和性价比。看似慢一拍的动作，正好回应了前不久的那个略带尖锐的的提问。「这是一个非常好的问题。」在腾讯2025年第四季度财报电话会上，腾讯总裁刘炽...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-23T21:36:00+08:00",
+      "region": "国内",
+      "summary": "腾讯混元Hy3 Preview正式发布，这是姚顺雨归国加盟腾讯后首次推出的重要成果。该模型在性能上达到同尺寸模型的领先水平，兼具实用性和性价比。此前在腾讯2025年第四季度财报电话会上，腾讯总裁刘炽平曾回应相关提问。",
+      "category": "产品发布与更新",
+      "company": "腾讯",
+      "score": 36,
+      "breakdown": {
+        "substance": 11,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Anthropic的Mythos模型泄露事件令公司尴尬",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation",
+      "snippet": "Anthropic's tightly controlled rollout of Claude Mythos has taken an awkward turn. After spending weeks insisting the AI model is so capable at cybersecurity that it is too dangerous to release publicly, it appears the model fell into the wrong hands anyway. According to Bloomberg, a \"small group of unauthorized users\" has had access to Mythos - whose existence was first revealed in a leak - since the day Anthropic announced plans to offer it to a select group of companies for testing. Anthropic says it is investigating. That's a rough look for a company that has built its brand on taking AI safety seriously while touting the cybersecurity … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-23T18:24:56.000Z",
+      "region": "海外",
+      "summary": "Anthropic对其Claude Mythos模型的严格发布控制遭遇尴尬转折。该公司数周来坚称该AI模型在网络安全方面能力过强，公开发布风险太高，但据彭博社报道，该模型自Anthropic宣布向选定公司提供测试之日起，就已落入“一小群未经授权用户”手中。Mythos的存在最初是通过泄露被曝光的。",
+      "category": "产品发布与更新",
+      "company": "Anthropic",
+      "score": 32,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Google将Chrome转变为工作场所的AI助手",
+      "url": "https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/",
+      "snippet": "Google brings Gemini-powered \"auto browse\" capabilities to Chrome for enterprise users, letting workers automate tasks like research, data entry, and more.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 22 Apr 2026 17:30:00 +0000",
+      "region": "海外",
+      "summary": "Google为Chrome企业用户推出Gemini驱动的“自动浏览”功能，可自动化研究、数据录入等任务，并承诺企业提示词不用于AI训练。同时，Chrome Enterprise Premium新增检测未授权AI工具和异常浏览器扩展的能力，帮助IT团队监控“异常代理活动”。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 31,
+      "breakdown": {
+        "substance": 5,
+        "importance": 11,
+        "timeliness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "微软在Word、Excel和PowerPoint中推出“vibe working”代理模式",
+      "url": "https://www.theverge.com/news/917328/microsoft-agent-mode-vibe-working-office-word-excel-powerpoint",
+      "snippet": "Microsoft is rolling out a new Agent Mode inside Office apps like Word, Excel, and PowerPoint this week. Previously described by Microsoft as \"vibe working,\" the Agent Mode is a more powerful version of the Copilot experience in Office that Microsoft has been trying to sell to businesses. \"When we first shipped Copilot, foundation models were not powerful enough to use Copilot to command the applications,\" admits Sumit Chauhan, corporate vice president of Microsoft's Office Product Group. \"This meant Copilot was a passive partner in documents: it could answer questions but missed the mark when it was asked to take action on the canvas direc … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-23T11:34:18.000Z",
+      "region": "海外",
+      "summary": "微软本周在Word、Excel和PowerPoint等Office应用中推出新的Agent Mode（代理模式），该模式此前被描述为“vibe working”。它是微软向企业推销的Copilot体验的更强大版本。",
+      "category": "产品发布与更新",
+      "company": "Microsoft",
+      "score": 27,
+      "breakdown": {
+        "substance": 11,
+        "importance": 0,
+        "timeliness": 6,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "飞书项目开放平台升级，全面迈向AI友好时代",
+      "url": "https://www.qbitai.com/2026/04/406026.html",
+      "snippet": "能参与协作与执行的超级助手",
+      "source": "量子位",
+      "publishedAt": "Thu, 23 Apr 2026 09:55:30 +0000",
+      "region": "国内",
+      "summary": "飞书项目在2026年生态日上宣布开放平台焕新升级，核心转向“AI Friendly”。升级内容包括：持续升级MCP服务，支持AI访问和操作飞书项目，覆盖工作项管理、视图与度量分析等40余种工具，并首家采用OAuth等安全授权方式。",
+      "category": "技术与研究",
+      "company": "飞书项目",
+      "score": 47,
+      "breakdown": {
+        "substance": 24,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenClaw热度下滑：下载量减半，日更遭吐槽",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-23-10",
+      "snippet": "直到现在，2026 开年以来的「当红辣子鸡」OpenClaw，依然保持一周数更的节奏。最近两天，随着开源模型新王 Kimi K2.6 以及生图领域新杠把子 ChatGPT Images 2.0 的陆续上线，OpenClaw 立即跟进了对它们的支持。与此同时，大模型厂商、互联网大厂适配 Claw...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-23T21:11:00+08:00",
+      "region": "国内",
+      "summary": "2026年开年以来，热门AI产品OpenClaw仍保持一周多次更新的节奏。近期，随着开源模型Kimi K2.6和生图工具ChatGPT Images 2.0上线，OpenClaw迅速跟进支持。然而，其下载量已降至巅峰期的一半，日更频率也引发用户不满。",
+      "category": "技术与研究",
+      "company": "OpenClaw",
+      "score": 43,
+      "breakdown": {
+        "substance": 18,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "GPT图像生成团队曝光：华人主导，13人4个月打造",
+      "url": "https://www.qbitai.com/2026/04/405391.html",
+      "snippet": "底层架构已彻底重构",
+      "source": "量子位",
+      "publishedAt": "Thu, 23 Apr 2026 08:04:09 +0000",
+      "region": "国内",
+      "summary": "OpenAI的GPT图像生成功能团队近日曝光，该团队由13名成员组成，在4个月内完成了开发。团队中近半数为华人，包括来自中国无锡的负责人Mengchao Zhong，他本科毕业于上海交通大学，硕士毕业于得克萨斯农工大学，曾在Pinterest和Airtable担任软件工程师。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 42,
+      "breakdown": {
+        "substance": 19,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Meta计划裁员10%，约8000名员工受影响",
+      "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
+      "snippet": "Mark Zuckerberg presenting at Meta Connect on September 17th, 2025. | Bloomberg via Getty Images Meta is planning to layoff around 10 percent of employees in May, according to a memo from the company's chief people officer, Janelle Gale, published by Bloomberg. That means approximately 8,000 people will see their jobs cut. Meta will also be closing around 6,000 open roles, according to Gale. The cuts follow Meta's significant investments in AI, including spending huge sums to hire top talent and build data centers. The company forecast in January that it will spend $115 billion to $135 billion in capital expenditures in 2026 - a significant increase from its $72.22 billion in capital expenditures for 2025. The increase is to \"support o … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-23T19:41:07.000Z",
+      "region": "海外",
+      "summary": "Meta计划在5月裁员约10%的员工，根据首席人事官Janelle Gale发布的备忘录，这意味着约8000人将失去工作。同时，Meta还将关闭约6000个空缺职位。此次裁员发生在Meta对AI进行重大投资之后，包括斥巨资招聘顶尖人才和建设数据中心。",
+      "category": "技术与研究",
+      "company": "Meta",
+      "score": 41,
+      "breakdown": {
+        "substance": 16,
+        "importance": 5,
+        "timeliness": 10,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "CVPR 2026：UniLS框架突破数字人对话SOTA，告别倾听“扑克脸”",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-23-9",
+      "snippet": "本文由来自盛大东京 AI 研究院、东京大学、和东京科学大学的研究者合作完成。作者团队在数字人方向有长期积累。部分工作为共同第一作者 Xuangeng Chu (https://xg-chu.site) 和 Ruicong Liu (https://ruicongliu.github.io) 在...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-23T21:09:00+08:00",
+      "region": "国内",
+      "summary": "盛大东京AI研究院、东京大学和东京科学大学的研究团队提出了UniLS框架，旨在解决数字人对话中表情僵硬、缺乏自然反应的问题。该框架在CVPR 2026上突破SOTA，通过统一建模语言和动作，使数字人能根据对话内容实时生成自然的面部表情和肢体语言，告别“扑克脸”。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 33,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "机器人乒乓球击败人类职业选手登上Nature封面",
+      "url": "https://www.qbitai.com/2026/04/405370.html",
+      "snippet": "能接旋球",
+      "source": "量子位",
+      "publishedAt": "Thu, 23 Apr 2026 06:45:53 +0000",
+      "region": "国内",
+      "summary": "《自然》杂志封面报道了一项机器人乒乓球技术的突破，机器人成功击败了人类职业选手。该机器人采用深度强化学习策略，每32毫秒（31.25Hz）读取一次球和机械臂状态，并输出动作指令。这一成果标志着机器人运动控制能力的显著提升。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 27,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "timeliness": 6,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "国内首家百亿估值纯推理GPU独角兽诞生，曦望联席CEO王湛谈推理成本优势",
+      "url": "https://www.qbitai.com/2026/04/406020.html",
+      "snippet": "百万Token要降到1分钱",
+      "source": "量子位",
+      "publishedAt": "Thu, 23 Apr 2026 14:28:57 +0000",
+      "region": "国内",
+      "summary": "曦望公司成为国内首家估值超百亿的纯推理GPU独角兽。其联席CEO王湛表示，限制算力规模增长的根本是生产工具而非市场需求，如光模块、内存等供应紧张。公司推出的Seedance 2.0视频生成技术若能将排队时间从4小时缩短至1分钟，使用量可能大幅增长。",
+      "category": "投融资与并购",
+      "company": "曦望",
+      "score": 44,
+      "breakdown": {
+        "substance": 24,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Bret Taylor创立的Sierra收购YC支持的AI初创公司Fragment",
+      "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+      "snippet": "Sierra, the AI customer service agent startup founded by technologist Bret Taylor, announced today that it has acquired the YC-backed French startup Fragment.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 23 Apr 2026 21:00:00 +0000",
+      "region": "海外",
+      "summary": "由技术专家Bret Taylor创立的AI客服代理初创公司Sierra宣布，已收购YC支持的法国初创公司Fragment。此次收购的具体条款尚未披露。Fragment是一家专注于AI领域的初创公司，此前获得了Y Combinator的支持。",
+      "category": "投融资与并购",
+      "company": "Sierra",
+      "score": 25,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "timeliness": 10,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "陷入困境的初创公司Delve的另一客户遭遇重大安全事件",
+      "url": "https://techcrunch.com/2026/04/23/another-customer-of-troubled-startup-delve-suffered-a-big-security-incident/",
+      "snippet": "TechCrunch has confirmed that Delve was the compliance company that performed the security certifications for Context AI, the AI agent training startup that last week disclosed a security incident.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 23 Apr 2026 14:00:00 +0000",
+      "region": "海外",
+      "summary": "TechCrunch证实，Delve是为AI代理训练初创公司Context AI执行安全认证的合规公司。Context AI上周披露了一起安全事件。这标志着Delve的客户中又一起重大安全事件。",
+      "category": "政策与监管",
+      "company": "Delve",
+      "score": 22,
+      "breakdown": {
+        "substance": 3,
+        "importance": 0,
+        "timeliness": 8,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 {
-  "date": "2026/4/23",
-  "title": "AI资讯每日精选-2026/4/23",
-  "generatedAt": "2026/4/23 09:47",
+  "date": "2026/4/24",
+  "title": "AI资讯每日精选-2026/4/24",
+  "generatedAt": "2026/4/24 08:20",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-04-22-daily.json",
+    "previousDayFile": "news-2026-04-23.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
       "domesticBeforeDedup": 30,
-      "overseasBeforeDedup": 29,
+      "overseasBeforeDedup": 21,
       "domesticAfterDedup": 30,
-      "overseasAfterDedup": 29,
+      "overseasAfterDedup": 21,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -49,13 +49,13 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 8,
+          "count": 6,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 6,
+          "count": 3,
           "error": null
         },
         {
@@ -73,7 +73,7 @@
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 3,
+          "count": 0,
           "error": null
         },
         {
@@ -92,32 +92,31 @@
       }
     },
     "summarize": {
-      "totalSummarized": 59
+      "totalSummarized": 51
     },
     "scoring": {
-      "totalInput": 59,
+      "totalInput": 51,
       "totalScored": 31,
-      "strictScoredCount": 20,
-      "relaxedCandidateCount": 9,
+      "strictScoredCount": 27,
+      "relaxedCandidateCount": 4,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 12,
+      "weakSummaryCount": 9,
       "selectedCandidateCount": 31,
-      "duplicateCount": 15,
-      "crossDayDuplicateCount": 15,
-      "lowQualityCount": 5,
-      "domesticAvailable": 13,
-      "overseasAvailable": 18,
+      "duplicateCount": 9,
+      "crossDayDuplicateCount": 5,
+      "lowQualityCount": 4,
+      "domesticAvailable": 19,
+      "overseasAvailable": 12,
       "sourceCount": {
+        "量子位": 4,
+        "机器之心": 4,
+        "The Verge AI": 4,
+        "InfoQ": 4,
+        "TechCrunch AI": 5,
         "36氪": 2,
-        "TechCrunch AI": 3,
-        "雷锋网": 6,
-        "量子位": 2,
-        "InfoQ": 2,
-        "MIT Technology Review": 6,
-        "The Verge AI": 3,
-        "Tech Xplore": 5,
-        "Wired AI": 1,
-        "机器之心": 1
+        "雷锋网": 5,
+        "Tech Xplore": 1,
+        "MIT Technology Review": 2
       }
     },
     "display": {
@@ -125,156 +124,156 @@
       "previousDayRemovedCount": 0,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 4,
-      "postPreviousDayFilterCount": 27,
-      "displayReadyCount": 19,
-      "fallbackDisplayCount": 2,
+      "integrityRemovedCount": 3,
+      "postPreviousDayFilterCount": 28,
+      "displayReadyCount": 22,
+      "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 8,
+      "removedWeakSummaries": 6,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "科大讯飞发布燎原N30m笔记本，以耀天智能体重塑全栈国产AIPC标杆",
-      "company": "科大讯飞",
-      "url": "https://www.qbitai.com/2026/04/404713.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 22 Apr 2026 13:15:52 +0000",
-      "summary": "科大讯飞发布了搭载耀天智能体的燎原N30m笔记本，旨在重塑全栈国产AIPC新标杆。该智能体深度融入系统底层，具备意图理解、任务自动规划与闭环、持续学习及全链路隐私防护能力，驱动星火AIPC的“三办两问”功能全面升级，在公文起草、会议纪要生成等办公场景中显著提升效率。",
-      "score": 29
+      "title": "OpenAI发布GPT-5.5，向AI“超级应用”迈进",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 23 Apr 2026 18:29:29 +0000",
+      "summary": "OpenAI发布了其最新模型GPT-5.5。该公司表示，该模型在多个类别中提供了增强的能力。这一发布使OpenAI距离打造AI“超级应用”的目标更近一步。",
+      "score": 39
     },
     {
       "section": "产品发布与更新",
-      "title": "谷歌为企业推出新的智能体构建工具",
-      "company": "Google",
-      "url": "https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 22 Apr 2026 16:58:27 +0000",
-      "summary": "谷歌推出了名为Gemini Enterprise Agent Platform的企业智能体构建平台。该平台采用了一个独特的定位，主要面向IT和技术用户。",
-      "score": 29
+      "title": "姚顺雨带队发布Hy3 Preview，腾讯混元模型亮相",
+      "company": "腾讯",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-23-14",
+      "source": "机器之心",
+      "publishedAt": "2026-04-23T21:36:00+08:00",
+      "summary": "腾讯混元Hy3 Preview正式发布，这是姚顺雨归国加盟腾讯后首次推出的重要成果。该模型在性能上达到同尺寸模型的领先水平，兼具实用性和性价比。此前在腾讯2025年第四季度财报电话会上，腾讯总裁刘炽平曾回应相关提问。",
+      "score": 36
     },
     {
       "section": "产品发布与更新",
-      "title": "谷歌与Thinking Machines Lab签署数十亿美元新协议",
-      "company": "Google",
-      "url": "https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 22 Apr 2026 12:00:00 +0000",
-      "summary": "谷歌云与Mira Murati创立的Thinking Machines Lab签署了一份价值数十亿美元的非独家协议，这是该前沿AI实验室首次与云服务提供商合作。协议核心是使用英伟达最新的GB300芯片构建AI基础设施，以支持其核心产品“Tinker”所依赖的强化学习工作负载。",
-      "score": 17
-    },
-    {
-      "section": "技术与研究",
-      "title": "国产AI模型K2.6在AK大神任务中展现真实水平",
-      "company": "",
-      "url": "https://www.infoq.cn/article/IPZaVe2hAKCougHa1zAm?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 22 Apr 2026 16:31:23 GMT",
-      "summary": "国产AI模型K2.6在多项基准测试中表现突出。在DeepSearchQA、SWE-Bench Pro等核心Agent与代码评测项目中位居第一，在Humanity's Last Exam等博士级难度测试中持平或优于GPT-5.4、Claude Opus 4.6和Gemini 3.1 Pro等模型，整体成绩处于同级别模型的第一梯队。该模型基于Agent搭建的Harness Engineering Wiki已形成可检索、可路由、可写回的知识闭环系统。",
-      "score": 28
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI需要强大的数据架构来实现商业价值",
-      "company": "未提及具体公司",
-      "url": "https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Wed, 22 Apr 2026 10:05:06 +0000",
-      "summary": "人工智能在企业中的应用正从实验阶段快速过渡到日常使用。组织正在财务、供应链、人力资源和客户运营等领域部署副驾驶、智能体和预测系统。根据最近的一项调查，到2025年底，一半的公司至少在三个业务功能中使用了AI。但随着AI的普及，对强大数据架构的需求变得至关重要。",
-      "score": 26
-    },
-    {
-      "section": "技术与研究",
-      "title": "Meta利用员工电脑活动数据训练AI代理",
-      "company": "Meta",
-      "url": "https://www.theverge.com/tech/916681/meta-ai-agents-employee-tracking",
+      "title": "Anthropic的Mythos模型泄露事件令公司尴尬",
+      "company": "Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation",
       "source": "The Verge AI",
-      "publishedAt": "2026-04-22T14:22:35.000Z",
-      "summary": "Meta公司正在美国员工的电脑上安装名为“模型能力计划”（MCI）的工具，该工具在工作相关的应用和网站上运行，记录鼠标移动、点击、按键以及偶尔的屏幕截图。这些数据将被用于训练公司的AI模型，使其能更好地像人类一样与计算机交互，并自动化工作任务。",
-      "score": 23
+      "publishedAt": "2026-04-23T18:24:56.000Z",
+      "summary": "Anthropic对其Claude Mythos模型的严格发布控制遭遇尴尬转折。该公司数周来坚称该AI模型在网络安全方面能力过强，公开发布风险太高，但据彭博社报道，该模型自Anthropic宣布向选定公司提供测试之日起，就已落入“一小群未经授权用户”手中。Mythos的存在最初是通过泄露被曝光的。",
+      "score": 32
+    },
+    {
+      "section": "技术与研究",
+      "title": "飞书项目开放平台升级，全面迈向AI友好时代",
+      "company": "飞书项目",
+      "url": "https://www.qbitai.com/2026/04/406026.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 23 Apr 2026 09:55:30 +0000",
+      "summary": "飞书项目在2026年生态日上宣布开放平台焕新升级，核心转向“AI Friendly”。升级内容包括：持续升级MCP服务，支持AI访问和操作飞书项目，覆盖工作项管理、视图与度量分析等40余种工具，并首家采用OAuth等安全授权方式。",
+      "score": 47
+    },
+    {
+      "section": "技术与研究",
+      "title": "OpenClaw热度下滑：下载量减半，日更遭吐槽",
+      "company": "OpenClaw",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-23-10",
+      "source": "机器之心",
+      "publishedAt": "2026-04-23T21:11:00+08:00",
+      "summary": "2026年开年以来，热门AI产品OpenClaw仍保持一周多次更新的节奏。近期，随着开源模型Kimi K2.6和生图工具ChatGPT Images 2.0上线，OpenClaw迅速跟进支持。然而，其下载量已降至巅峰期的一半，日更频率也引发用户不满。",
+      "score": 43
+    },
+    {
+      "section": "技术与研究",
+      "title": "GPT图像生成团队曝光：华人主导，13人4个月打造",
+      "company": "OpenAI",
+      "url": "https://www.qbitai.com/2026/04/405391.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 23 Apr 2026 08:04:09 +0000",
+      "summary": "OpenAI的GPT图像生成功能团队近日曝光，该团队由13名成员组成，在4个月内完成了开发。团队中近半数为华人，包括来自中国无锡的负责人Mengchao Zhong，他本科毕业于上海交通大学，硕士毕业于得克萨斯农工大学，曾在Pinterest和Airtable担任软件工程师。",
+      "score": 42
     },
     {
       "section": "投融资与并购",
-      "title": "SpaceX与Cursor合作并拥有600亿美元收购选项",
-      "company": "SpaceX, Cursor",
-      "url": "https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/",
+      "title": "国内首家百亿估值纯推理GPU独角兽诞生，曦望联席CEO王湛谈推理成本优势",
+      "company": "曦望",
+      "url": "https://www.qbitai.com/2026/04/406020.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 23 Apr 2026 14:28:57 +0000",
+      "summary": "曦望公司成为国内首家估值超百亿的纯推理GPU独角兽。其联席CEO王湛表示，限制算力规模增长的根本是生产工具而非市场需求，如光模块、内存等供应紧张。公司推出的Seedance 2.0视频生成技术若能将排队时间从4小时缩短至1分钟，使用量可能大幅增长。",
+      "score": 44
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Bret Taylor创立的Sierra收购YC支持的AI初创公司Fragment",
+      "company": "Sierra",
+      "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
       "source": "TechCrunch AI",
-      "publishedAt": "Tue, 21 Apr 2026 22:58:22 +0000",
-      "summary": "SpaceX正在与Cursor合作，并拥有以600亿美元收购这家初创公司的选项。这一举措可能弥补两家公司的弱点，但也暴露了它们的不足。Cursor和xAI都没有能够与Anthropic和OpenAI领先产品相匹敌的专有模型，而这两家公司现在正与Cursor在开发者市场上直接竞争。",
-      "score": 30
-    },
-    {
-      "section": "投融资与并购",
-      "title": "SpaceX估值达1.25万亿美元，AI应用月活用户达4.4亿",
-      "company": "SpaceX",
-      "url": "https://www.leiphone.com/category/zaobao/C0IFolZzxkmL5sr3.html",
-      "source": "雷锋网",
-      "publishedAt": "Wed, 22 Apr 2026 16:17:00 +0800",
-      "summary": "SpaceX招股书摘要显示，截至2025年底，其总资产为920亿美元，总负债为508亿美元。2025年星链运营收入大幅增长至44.2亿美元，公司整体营收约150亿至160亿美元，未计利息、税项、折旧及摊销前的利润约为80亿美元。今年2月与xAI合并后，SpaceX估值已达1.25万亿美元。",
-      "score": 23
+      "publishedAt": "Thu, 23 Apr 2026 21:00:00 +0000",
+      "summary": "由技术专家Bret Taylor创立的AI客服代理初创公司Sierra宣布，已收购YC支持的法国初创公司Fragment。此次收购的具体条款尚未披露。Fragment是一家专注于AI领域的初创公司，此前获得了Y Combinator的支持。",
+      "score": 25
     },
     {
       "section": "政策与监管",
-      "title": "研究警告生成式AI在机器学习系统中增加网络安全风险",
-      "company": "无",
-      "url": "https://techxplore.com/news/2026-04-generative-ai-machine-cyberattacks-leaks.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Wed, 22 Apr 2026 11:00:09 EDT",
-      "summary": "计算机科学家Micheal Lones在《模式》期刊发表论文指出，使用生成式AI设计、训练或执行机器学习系统步骤存在风险。虽然大型语言模型可以扩展机器学习系统的能力并降低成本和劳动力需求，但Lones警告称，使用这些模型会降低开发和使用这些系统人员的透明度和控制力，并增加恶意网络攻击。",
-      "score": 23
-    },
-    {
-      "section": "技术与研究",
-      "title": "国产智能体漏洞挖掘成果显著，360走工程化路线",
-      "company": "360",
-      "url": "https://www.qbitai.com/2026/04/405299.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 23 Apr 2026 00:43:41 +0000",
-      "summary": "360的漏洞挖掘智能体体系已累计发现近千个漏洞，其中经官方确认的高危漏洞超过50项，多项为全球首次公开发现。其采用“智能体工程化”路线，通过多个专项智能体分工协作，形成从发现到验证的完整闭环，并将能力延伸至AI原生基础设施领域，例如发现了OpenClaw高危漏洞。",
+      "title": "陷入困境的初创公司Delve的另一客户遭遇重大安全事件",
+      "company": "Delve",
+      "url": "https://techcrunch.com/2026/04/23/another-customer-of-troubled-startup-delve-suffered-a-big-security-incident/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 23 Apr 2026 14:00:00 +0000",
+      "summary": "TechCrunch证实，Delve是为AI代理训练初创公司Context AI执行安全认证的合规公司。Context AI上周披露了一起安全事件。这标志着Delve的客户中又一起重大安全事件。",
       "score": 22
     },
     {
       "section": "技术与研究",
-      "title": "Mozilla利用Anthropic的Mythos发现并修复Firefox中271个漏洞",
-      "company": "Mozilla",
-      "url": "https://www.wired.com/story/mozilla-used-anthropics-mythos-to-find-271-bugs-in-firefox/",
-      "source": "Wired AI",
-      "publishedAt": "Tue, 21 Apr 2026 18:30:00 +0000",
-      "summary": "Firefox团队认为新兴的人工智能能力不会长期颠覆网络安全，但他们警告软件开发者可能会经历一段艰难的转型期。该团队使用Anthropic的Mythos工具在Firefox中发现了271个漏洞并进行了修复。",
-      "score": 22
-    },
-    {
-      "section": "技术与研究",
-      "title": "Anthropic危险AI模型遭未授权用户访问",
-      "company": "Anthropic",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/916501/anthropic-mythos-unauthorized-users-access-security",
+      "title": "Meta计划裁员10%，约8000名员工受影响",
+      "company": "Meta",
+      "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
       "source": "The Verge AI",
-      "publishedAt": "2026-04-22T09:18:40.000Z",
-      "summary": "Anthropic公司的Mythos AI模型，一款被公司认为落入错误之手可能很危险的强大网络安全工具，已被一小群未授权用户访问。据称，该群体成员通过利用一名第三方承包商的访问权限和常用的互联网侦查工具，进入了Mythos系统。",
-      "score": 21
+      "publishedAt": "2026-04-23T19:41:07.000Z",
+      "summary": "Meta计划在5月裁员约10%的员工，根据首席人事官Janelle Gale发布的备忘录，这意味着约8000人将失去工作。同时，Meta还将关闭约6000个空缺职位。此次裁员发生在Meta对AI进行重大投资之后，包括斥巨资招聘顶尖人才和建设数据中心。",
+      "score": 41
     },
     {
       "section": "技术与研究",
-      "title": "研究显示AI语言模型对现实世界具备基础理解能力",
-      "company": "布朗大学",
-      "url": "https://techxplore.com/news/2026-04-ai-language-real-world-basic.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Wed, 22 Apr 2026 15:20:08 EDT",
-      "summary": "布朗大学研究人员的一项新研究表明，AI语言模型确实对现实世界具备某种程度的理解能力。该研究基于AI模型从互联网海量文本中学习的事实、谬误、知识和无意义内容进行分析。研究结果将于4月25日在巴西里约热内卢举行的国际学习表征会议上展示，并已发表在arXiv预印本服务器上。",
-      "score": 21
+      "title": "CVPR 2026：UniLS框架突破数字人对话SOTA，告别倾听“扑克脸”",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-23-9",
+      "source": "机器之心",
+      "publishedAt": "2026-04-23T21:09:00+08:00",
+      "summary": "盛大东京AI研究院、东京大学和东京科学大学的研究团队提出了UniLS框架，旨在解决数字人对话中表情僵硬、缺乏自然反应的问题。该框架在CVPR 2026上突破SOTA，通过统一建模语言和动作，使数字人能根据对话内容实时生成自然的面部表情和肢体语言，告别“扑克脸”。",
+      "score": 33
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Google将Chrome转变为工作场所的AI助手",
+      "company": "Google",
+      "url": "https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 22 Apr 2026 17:30:00 +0000",
+      "summary": "Google为Chrome企业用户推出Gemini驱动的“自动浏览”功能，可自动化研究、数据录入等任务，并承诺企业提示词不用于AI训练。同时，Chrome Enterprise Premium新增检测未授权AI工具和异常浏览器扩展的能力，帮助IT团队监控“异常代理活动”。",
+      "score": 31
     },
     {
       "section": "技术与研究",
-      "title": "佐治亚理工学院开发新AI模型提升决策准确性",
-      "company": "佐治亚理工学院",
-      "url": "https://techxplore.com/news/2026-04-generative-ai-quietly-reshaping-uncertainty.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Wed, 22 Apr 2026 11:20:09 EDT",
-      "summary": "佐治亚理工学院研究人员开发了一种名为Diffusion-DFL的新型AI模型，专注于决策学习。该模型基于生成式AI技术，旨在帮助各行业做出更优的规划决策。近期测试表明，该模型在决策准确性上超越了现有方法。其具体优势在于能够优化工业产出、降低运营成本并减少相关风险，且实验证明其在不同领域均能有效工作。",
-      "score": 21
+      "title": "机器人乒乓球击败人类职业选手登上Nature封面",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/04/405370.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 23 Apr 2026 06:45:53 +0000",
+      "summary": "《自然》杂志封面报道了一项机器人乒乓球技术的突破，机器人成功击败了人类职业选手。该机器人采用深度强化学习策略，每32毫秒（31.25Hz）读取一次球和机械臂状态，并输出动作指令。这一成果标志着机器人运动控制能力的显著提升。",
+      "score": 27
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "微软在Word、Excel和PowerPoint中推出“vibe working”代理模式",
+      "company": "Microsoft",
+      "url": "https://www.theverge.com/news/917328/microsoft-agent-mode-vibe-working-office-word-excel-powerpoint",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-23T11:34:18.000Z",
+      "summary": "微软本周在Word、Excel和PowerPoint等Office应用中推出新的Agent Mode（代理模式），该模式此前被描述为“vibe working”。它是微软向企业推销的Copilot体验的更强大版本。",
+      "score": 27
     }
   ]
 }
