@@ -1,6 +1,6 @@
 import { SECTION_ORDER, SECTION_ICON } from './config.js';
 
-const HEADER_IMAGE_URL = 'https://wmwm1ok.github.io/wechat-ai-news-page/assets/ai-news-header.png';
+const HEADER_IMAGE_URL = 'https://wmwm1ok.github.io/wechat-ai-news-page/assets/ai-news-header.jpg';
 
 /**
  * HTML 转义

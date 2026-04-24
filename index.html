@@ -337,9 +337,8 @@
             '政策与监管': '#7c3aed',
             '其他': '#64748b'
         };
-        const HEADER_IMAGE_PREVIEW_SRC = './assets/ai-news-header.png';
-        const HEADER_IMAGE_COPY_SRC = 'https://wmwm1ok.github.io/wechat-ai-news-page/assets/ai-news-header.png';
-        let headerImageCopySrcPromise = null;
+        const HEADER_IMAGE_PREVIEW_SRC = './assets/ai-news-header.jpg';
+        const HEADER_IMAGE_COPY_SRC = 'https://wmwm1ok.github.io/wechat-ai-news-page/assets/ai-news-header.jpg';
 
         async function loadData(options = {}) {
             if (options.skipWhenDirty && hasLocalEdits) {
@@ -581,34 +580,12 @@
 
         async function getWechatCopyHtml(editor) {
             const clone = editor.cloneNode(true);
-            const imageCopySrc = await resolveHeaderImageCopySrc();
             clone.querySelectorAll('img[data-copy-src]').forEach(img => {
-                img.setAttribute('src', imageCopySrc || img.getAttribute('data-copy-src'));
+                // 微信公众号编辑器对 data:image 粘贴上传不稳定，复制时固定使用线上 HTTPS 图片。
+                img.setAttribute('src', img.getAttribute('data-copy-src'));
                 img.removeAttribute('data-copy-src');
             });
             return clone.innerHTML;
-        }
-
-        function resolveHeaderImageCopySrc() {
-            if (!headerImageCopySrcPromise) {
-                headerImageCopySrcPromise = fetch(HEADER_IMAGE_PREVIEW_SRC)
-                    .then(response => {
-                        if (!response.ok) throw new Error('header image fetch failed');
-                        return response.blob();
-                    })
-                    .then(blob => new Promise((resolve, reject) => {
-                        const reader = new FileReader();
-                        reader.onload = () => resolve(reader.result);
-                        reader.onerror = reject;
-                        reader.readAsDataURL(blob);
-                    }))
-                    .catch(error => {
-                        console.warn('头图内嵌失败，改用线上地址:', error);
-                        return HEADER_IMAGE_COPY_SRC;
-                    });
-            }
-
-            return headerImageCopySrcPromise;
         }
 
         function openSourceLink(url) {
