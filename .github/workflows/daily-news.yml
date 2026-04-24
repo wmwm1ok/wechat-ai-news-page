@@ -79,6 +79,7 @@ jobs:
 
       - name: Fetch and generate news
         if: steps.schedule_guard.outputs.should_run == 'true'
+        timeout-minutes: 20
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DEEPSEEK_API_URL: ${{ secrets.DEEPSEEK_API_URL }}
