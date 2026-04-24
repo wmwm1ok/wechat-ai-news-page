@@ -1,7 +1,7 @@
 {
   "date": "2026/4/24",
   "title": "AI资讯每日精选-2026/4/24",
-  "generatedAt": "2026/4/24 08:20",
+  "generatedAt": "2026/4/24 11:36",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -9,10 +9,12 @@
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 30,
-      "overseasBeforeDedup": 21,
-      "domesticAfterDedup": 30,
-      "overseasAfterDedup": 21,
+      "domesticBeforeDedup": 22,
+      "overseasBeforeDedup": 8,
+      "domesticAfterDedup": 22,
+      "overseasAfterDedup": 8,
+      "domesticHotGroups": 0,
+      "overseasHotGroups": 0,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -23,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 6,
+          "count": 4,
           "error": null
         },
         {
@@ -35,13 +37,13 @@
         {
           "source": "InfoQ",
           "ok": true,
-          "count": 5,
+          "count": 3,
           "error": null
         },
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 8,
+          "count": 4,
           "error": null
         }
       ],
@@ -49,19 +51,19 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 6,
+          "count": 3,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 0,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
@@ -79,7 +81,7 @@
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 6,
+          "count": 0,
           "error": null
         }
       ],
@@ -92,58 +94,56 @@
       }
     },
     "summarize": {
-      "totalSummarized": 51
+      "totalSummarized": 30
     },
     "scoring": {
-      "totalInput": 51,
-      "totalScored": 31,
-      "strictScoredCount": 27,
-      "relaxedCandidateCount": 4,
+      "totalInput": 30,
+      "totalScored": 21,
+      "strictScoredCount": 18,
+      "relaxedCandidateCount": 3,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 9,
-      "selectedCandidateCount": 31,
-      "duplicateCount": 9,
-      "crossDayDuplicateCount": 5,
-      "lowQualityCount": 4,
-      "domesticAvailable": 19,
-      "overseasAvailable": 12,
+      "weakSummaryCount": 7,
+      "selectedCandidateCount": 21,
+      "duplicateCount": 5,
+      "crossDayDuplicateCount": 0,
+      "lowQualityCount": 1,
+      "domesticAvailable": 16,
+      "overseasAvailable": 5,
       "sourceCount": {
-        "量子位": 4,
-        "机器之心": 4,
-        "The Verge AI": 4,
-        "InfoQ": 4,
-        "TechCrunch AI": 5,
-        "36氪": 2,
-        "雷锋网": 5,
-        "Tech Xplore": 1,
-        "MIT Technology Review": 2
+        "机器之心": 5,
+        "量子位": 2,
+        "36氪": 3,
+        "InfoQ": 3,
+        "The Verge AI": 3,
+        "雷锋网": 3,
+        "TechCrunch AI": 2
       }
     },
     "display": {
-      "refinedCount": 31,
+      "refinedCount": 21,
       "previousDayRemovedCount": 0,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
       "integrityRemovedCount": 3,
-      "postPreviousDayFilterCount": 28,
-      "displayReadyCount": 22,
-      "fallbackDisplayCount": 0,
+      "postPreviousDayFilterCount": 18,
+      "displayReadyCount": 13,
+      "fallbackDisplayCount": 1,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 6,
+      "removedWeakSummaries": 5,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "OpenAI发布GPT-5.5，向AI“超级应用”迈进",
+      "title": "GPT-5.5发布，OpenAI称其接近AGI体验",
       "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 23 Apr 2026 18:29:29 +0000",
-      "summary": "OpenAI发布了其最新模型GPT-5.5。该公司表示，该模型在多个类别中提供了增强的能力。这一发布使OpenAI距离打造AI“超级应用”的目标更近一步。",
-      "score": 39
+      "url": "https://www.jiqizhixin.com/articles/2026-04-24-2",
+      "source": "机器之心",
+      "publishedAt": "2026-04-24T09:03:00+08:00",
+      "summary": "OpenAI在周五凌晨正式发布了新一代大模型GPT-5.5。该版本是GPT系列的重要更新，带来了更强的推理能力，回答更加简洁。同时，新模型在代码能力上表现更强大和稳定，并具备强大的知识整合能力。OpenAI表示，这次升级让人首次体验到了AGI。",
+      "score": 52
     },
     {
       "section": "产品发布与更新",
@@ -152,18 +152,18 @@
       "url": "https://www.jiqizhixin.com/articles/2026-04-23-14",
       "source": "机器之心",
       "publishedAt": "2026-04-23T21:36:00+08:00",
-      "summary": "腾讯混元Hy3 Preview正式发布，这是姚顺雨归国加盟腾讯后首次推出的重要成果。该模型在性能上达到同尺寸模型的领先水平，兼具实用性和性价比。此前在腾讯2025年第四季度财报电话会上，腾讯总裁刘炽平曾回应相关提问。",
-      "score": 36
+      "summary": "腾讯混元Hy3 Preview正式上线，这是姚顺雨归国加盟腾讯后发布的首个重要成果。该模型在性能上达到同尺寸模型的领先水平，兼具实用性和性价比。此前在腾讯2025年第四季度财报电话会上，腾讯总裁刘炽平曾回应相关提问。",
+      "score": 34
     },
     {
       "section": "产品发布与更新",
-      "title": "Anthropic的Mythos模型泄露事件令公司尴尬",
-      "company": "Anthropic",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-23T18:24:56.000Z",
-      "summary": "Anthropic对其Claude Mythos模型的严格发布控制遭遇尴尬转折。该公司数周来坚称该AI模型在网络安全方面能力过强，公开发布风险太高，但据彭博社报道，该模型自Anthropic宣布向选定公司提供测试之日起，就已落入“一小群未经授权用户”手中。Mythos的存在最初是通过泄露被曝光的。",
-      "score": 32
+      "title": "Gemini CLI 新增子代理机制，支持任务委派与并行工作流",
+      "company": "谷歌",
+      "url": "https://www.infoq.cn/article/50eZYcehCtQuxKoTcLhS?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 23 Apr 2026 11:00:00 GMT",
+      "summary": "谷歌在Gemini CLI中新增子代理机制，主代理可委派代码分析、测试等子任务给专用AI代理并行执行，每个子代理在隔离环境运行以减少上下文负载。开发者能通过YAML配置的Markdown文件创建自定义子代理，定义其角色和工具，并支持本地或仓库保存以统一团队工作流。",
+      "score": 25
     },
     {
       "section": "技术与研究",
@@ -172,48 +172,48 @@
       "url": "https://www.qbitai.com/2026/04/406026.html",
       "source": "量子位",
       "publishedAt": "Thu, 23 Apr 2026 09:55:30 +0000",
-      "summary": "飞书项目在2026年生态日上宣布开放平台焕新升级，核心转向“AI Friendly”。升级内容包括：持续升级MCP服务，支持AI访问和操作飞书项目，覆盖工作项管理、视图与度量分析等40余种工具，并首家采用OAuth等安全授权方式。",
+      "summary": "飞书项目在2026年生态日上宣布开放平台焕新升级，核心原则为“读写安全、触手可用、按需配置”。升级内容包括：MCP服务持续升级，支持AI访问并操作飞书项目，覆盖工作项管理、视图与度量分析等40余种工具，并首家采用OAuth等安全授权方式。",
       "score": 47
     },
     {
       "section": "技术与研究",
-      "title": "OpenClaw热度下滑：下载量减半，日更遭吐槽",
+      "title": "OpenClaw热度下滑：下载量减半，日更遭用户批评",
       "company": "OpenClaw",
       "url": "https://www.jiqizhixin.com/articles/2026-04-23-10",
       "source": "机器之心",
       "publishedAt": "2026-04-23T21:11:00+08:00",
-      "summary": "2026年开年以来，热门AI产品OpenClaw仍保持一周多次更新的节奏。近期，随着开源模型Kimi K2.6和生图工具ChatGPT Images 2.0上线，OpenClaw迅速跟进支持。然而，其下载量已降至巅峰期的一半，日更频率也引发用户不满。",
-      "score": 43
+      "summary": "2026年开年以来，备受关注的OpenClaw仍保持一周多次更新的节奏。近期，随着开源模型Kimi K2.6和ChatGPT Images 2.0的上线，OpenClaw迅速增加了对它们的支持。同时，大模型厂商和互联网大厂也在适配Claw相关技术。",
+      "score": 41
     },
     {
       "section": "技术与研究",
-      "title": "GPT图像生成团队曝光：华人主导，13人4个月打造",
-      "company": "OpenAI",
-      "url": "https://www.qbitai.com/2026/04/405391.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 23 Apr 2026 08:04:09 +0000",
-      "summary": "OpenAI的GPT图像生成功能团队近日曝光，该团队由13名成员组成，在4个月内完成了开发。团队中近半数为华人，包括来自中国无锡的负责人Mengchao Zhong，他本科毕业于上海交通大学，硕士毕业于得克萨斯农工大学，曾在Pinterest和Airtable担任软件工程师。",
-      "score": 42
+      "title": "Meta计划裁员10%的员工",
+      "company": "Meta",
+      "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-23T19:41:07.000Z",
+      "summary": "Meta计划在5月裁员约10%（约8000人），并关闭约6000个空缺职位。此次裁员发生在AI投资激增之后，公司预计2026年资本支出将达1150-1350亿美元，较2025年的722.2亿美元大幅增加，主要用于支持Meta超级智能实验室。受影响的员工将在5月20日收到通知。",
+      "score": 39
     },
     {
       "section": "投融资与并购",
-      "title": "国内首家百亿估值纯推理GPU独角兽诞生，曦望联席CEO王湛谈推理成本优势",
+      "title": "国内首家百亿估值纯推理GPU独角兽诞生，曦望联席CEO王湛称推理成本更低者胜",
       "company": "曦望",
       "url": "https://www.qbitai.com/2026/04/406020.html",
       "source": "量子位",
       "publishedAt": "Thu, 23 Apr 2026 14:28:57 +0000",
-      "summary": "曦望公司成为国内首家估值超百亿的纯推理GPU独角兽。其联席CEO王湛表示，限制算力规模增长的根本是生产工具而非市场需求，如光模块、内存等供应紧张。公司推出的Seedance 2.0视频生成技术若能将排队时间从4小时缩短至1分钟，使用量可能大幅增长。",
+      "summary": "曦望公司成为国内首家估值超百亿的纯推理GPU独角兽。其联席CEO王湛表示，限制算力规模增长的根本是生产工具，而非市场需求，一旦瓶颈被打开，需求将成倍增长。曦望推出的S3芯片专为大模型推理深度定制，通过裁剪训练模块，将单位面积有效算力效率提升5倍以上，目标是将百万Token成本降至一分钱。",
       "score": 44
     },
     {
       "section": "投融资与并购",
-      "title": "Bret Taylor创立的Sierra收购YC支持的AI初创公司Fragment",
-      "company": "Sierra",
-      "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 23 Apr 2026 21:00:00 +0000",
-      "summary": "由技术专家Bret Taylor创立的AI客服代理初创公司Sierra宣布，已收购YC支持的法国初创公司Fragment。此次收购的具体条款尚未披露。Fragment是一家专注于AI领域的初创公司，此前获得了Y Combinator的支持。",
-      "score": 25
+      "title": "清华系团队星工聚将完成数千万天使轮融资，轮式机器人获头部制造企业亿级订单",
+      "company": "星工聚将",
+      "url": "https://www.infoq.cn/article/BSZXO0VGFlBkmIke18ht?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 23 Apr 2026 10:21:18 GMT",
+      "summary": "清华系团队星工聚将完成数千万元天使轮融资，由天空工场创投基金独家投资。其核心技术包括物理认知引擎CPE（由快慢双系统中央脑和数字风洞组成）和全球首创的末端快换系统，使XG Z1轮式机器人能在6秒内切换执行器，完成搬运、装配、打磨等任务。",
+      "score": 40
     },
     {
       "section": "政策与监管",
@@ -222,58 +222,58 @@
       "url": "https://techcrunch.com/2026/04/23/another-customer-of-troubled-startup-delve-suffered-a-big-security-incident/",
       "source": "TechCrunch AI",
       "publishedAt": "Thu, 23 Apr 2026 14:00:00 +0000",
-      "summary": "TechCrunch证实，Delve是为AI代理训练初创公司Context AI执行安全认证的合规公司。Context AI上周披露了一起安全事件。这标志着Delve的客户中又一起重大安全事件。",
-      "score": 22
-    },
-    {
-      "section": "技术与研究",
-      "title": "Meta计划裁员10%，约8000名员工受影响",
-      "company": "Meta",
-      "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-23T19:41:07.000Z",
-      "summary": "Meta计划在5月裁员约10%的员工，根据首席人事官Janelle Gale发布的备忘录，这意味着约8000人将失去工作。同时，Meta还将关闭约6000个空缺职位。此次裁员发生在Meta对AI进行重大投资之后，包括斥巨资招聘顶尖人才和建设数据中心。",
-      "score": 41
-    },
-    {
-      "section": "技术与研究",
-      "title": "CVPR 2026：UniLS框架突破数字人对话SOTA，告别倾听“扑克脸”",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-23-9",
-      "source": "机器之心",
-      "publishedAt": "2026-04-23T21:09:00+08:00",
-      "summary": "盛大东京AI研究院、东京大学和东京科学大学的研究团队提出了UniLS框架，旨在解决数字人对话中表情僵硬、缺乏自然反应的问题。该框架在CVPR 2026上突破SOTA，通过统一建模语言和动作，使数字人能根据对话内容实时生成自然的面部表情和肢体语言，告别“扑克脸”。",
-      "score": 33
+      "summary": "TechCrunch证实，Delve是为AI代理训练初创公司Context AI执行安全认证的合规公司。Context AI上周披露了一起安全事件。这是Delve的客户中又一起重大安全事件。报道未提供该事件的具体细节。",
+      "score": 20
     },
     {
       "section": "产品发布与更新",
-      "title": "Google将Chrome转变为工作场所的AI助手",
-      "company": "Google",
-      "url": "https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 22 Apr 2026 17:30:00 +0000",
-      "summary": "Google为Chrome企业用户推出Gemini驱动的“自动浏览”功能，可自动化研究、数据录入等任务，并承诺企业提示词不用于AI训练。同时，Chrome Enterprise Premium新增检测未授权AI工具和异常浏览器扩展的能力，帮助IT团队监控“异常代理活动”。",
-      "score": 31
-    },
-    {
-      "section": "技术与研究",
-      "title": "机器人乒乓球击败人类职业选手登上Nature封面",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/04/405370.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 23 Apr 2026 06:45:53 +0000",
-      "summary": "《自然》杂志封面报道了一项机器人乒乓球技术的突破，机器人成功击败了人类职业选手。该机器人采用深度强化学习策略，每32毫秒（31.25Hz）读取一次球和机械臂状态，并输出动作指令。这一成果标志着机器人运动控制能力的显著提升。",
-      "score": 27
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "微软在Word、Excel和PowerPoint中推出“vibe working”代理模式",
+      "title": "微软在Word、Excel和PowerPoint中推出“氛围工作”模式",
       "company": "Microsoft",
       "url": "https://www.theverge.com/news/917328/microsoft-agent-mode-vibe-working-office-word-excel-powerpoint",
       "source": "The Verge AI",
       "publishedAt": "2026-04-23T11:34:18.000Z",
-      "summary": "微软本周在Word、Excel和PowerPoint等Office应用中推出新的Agent Mode（代理模式），该模式此前被描述为“vibe working”。它是微软向企业推销的Copilot体验的更强大版本。",
-      "score": 27
+      "summary": "微软本周开始在Word、Excel和PowerPoint等Office应用中推出新的“代理模式”。该模式此前被微软描述为“氛围工作”，是微软一直试图向企业推销的Office中Copilot体验的更强大版本。",
+      "score": 23
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Bret Taylor创立的Sierra收购YC支持的AI初创公司Fragment",
+      "company": "Sierra",
+      "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 23 Apr 2026 21:00:00 +0000",
+      "summary": "由技术专家Bret Taylor创立的AI客服代理初创公司Sierra宣布，已收购YC支持的法国初创公司Fragment。收购的具体条款未在公告中披露。Fragment是一家专注于AI领域的初创企业。此次收购将有助于Sierra增强其技术能力。",
+      "score": 20
+    },
+    {
+      "section": "技术与研究",
+      "title": "首篇「Attention Sink」综述：Transformer注意力汇聚现象的利用、理解与消除",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-23-12",
+      "source": "机器之心",
+      "publishedAt": "2026-04-23T21:24:00+08:00",
+      "summary": "这篇综述首次系统总结了Transformer中的注意力汇聚现象，即模型会将大量注意力集中到少数特定Token上，而非均匀分布。研究指出，这并非模型缺陷，而是Transformer的固有特性。综述从三个角度展开：利用该现象提升效率、理解其成因、以及探索消除方法，为后续研究提供了全面参考。",
+      "score": 18
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Vercel遭黑客入侵，IPO前夕面临200万美元赎金谈判",
+      "company": "Vercel",
+      "url": "https://www.infoq.cn/article/OJN55xPWaVxT2IajEw6G?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 23 Apr 2026 09:58:12 GMT",
+      "summary": "云平台Vercel遭黑客入侵，攻击者ShinyHunters成员窃取了访问密钥、源代码、数据库数据及内部部署权限，并在黑客论坛兜售。Vercel在安全研究人员发现可疑活动后才意识到入侵，但攻击者访问时长不明。",
+      "score": 17
+    },
+    {
+      "section": "投融资与并购",
+      "title": "博裕、经纬、顺为等投资前新石器COO超亿元，押注AI超便携电子纸",
+      "company": "阅星曈",
+      "url": "https://36kr.com/p/3778175428777218?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-24 09:30:00  +0800",
+      "summary": "AI超便携电子纸品牌阅星曈完成天使轮到A轮融资，累计超亿元，投资方包括博裕、经纬、顺为等。其产品为70克、4.3寸磁吸电子纸阅读器，售价不到300元，可吸附于手机背面作为副屏，专注碎片化阅读。创始人胡宇沸曾任新石器COO，团队通过用户共创模式，半年内月销量增长超10倍，海外首月破万台。",
+      "score": 41
     }
   ]
 }

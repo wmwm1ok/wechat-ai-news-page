@@ -1,21 +1,30 @@
 {
   "产品发布与更新": [
     {
-      "title": "OpenAI发布GPT-5.5，向AI“超级应用”迈进",
-      "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
-      "snippet": "OpenAI says its latest model offers increased capabilities across a broad variety of categories.",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 23 Apr 2026 18:29:29 +0000",
-      "region": "海外",
-      "summary": "OpenAI发布了其最新模型GPT-5.5。该公司表示，该模型在多个类别中提供了增强的能力。这一发布使OpenAI距离打造AI“超级应用”的目标更近一步。",
+      "title": "GPT-5.5发布，OpenAI称其接近AGI体验",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-24-2",
+      "snippet": "真的来了，这才是 OpenAI 的大招。周五凌晨，OpenAI 正式发布了最新一代大模型 GPT-5.5。作为 GPT 系列的重要版本更新，这次升级不止是大模型「聪明一点」，更像是让人首次体验到了 AGI。新模型带来了更强的推理能力（回答聪明的同时更简洁），更强大、稳定的代码能力，强大的知识整...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-24T09:03:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "刚刚，GPT-5.5发布，颠覆劳动理论"
+      ],
+      "summary": "OpenAI在周五凌晨正式发布了新一代大模型GPT-5.5。该版本是GPT系列的重要更新，带来了更强的推理能力，回答更加简洁。同时，新模型在代码能力上表现更强大和稳定，并具备强大的知识整合能力。OpenAI表示，这次升级让人首次体验到了AGI。",
       "category": "产品发布与更新",
       "company": "OpenAI",
-      "score": 39,
+      "score": 52,
       "breakdown": {
-        "substance": 7,
-        "importance": 11,
+        "substance": 14,
+        "importance": 16,
         "timeliness": 10,
-        "credibility": 8,
+        "hotness": 0,
+        "credibility": 9,
         "displayPenalty": 3
       },
       "isDuplicate": false,
@@ -27,15 +36,24 @@
       "snippet": "编辑｜吴昕刚刚，腾讯混元 Hy3 Preview 正式亮相。这是姚顺雨归国加盟腾讯后交出的第一份重磅答卷，整体性能达到了同尺寸模型最佳水平，兼具实用性和性价比。看似慢一拍的动作，正好回应了前不久的那个略带尖锐的的提问。「这是一个非常好的问题。」在腾讯2025年第四季度财报电话会上，腾讯总裁刘炽...",
       "source": "机器之心",
       "publishedAt": "2026-04-23T21:36:00+08:00",
+      "popularityScore": 0,
       "region": "国内",
-      "summary": "腾讯混元Hy3 Preview正式发布，这是姚顺雨归国加盟腾讯后首次推出的重要成果。该模型在性能上达到同尺寸模型的领先水平，兼具实用性和性价比。此前在腾讯2025年第四季度财报电话会上，腾讯总裁刘炽平曾回应相关提问。",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "姚顺雨带队、Hy3 preview上线！腾讯现在适合上车吗？"
+      ],
+      "summary": "腾讯混元Hy3 Preview正式上线，这是姚顺雨归国加盟腾讯后发布的首个重要成果。该模型在性能上达到同尺寸模型的领先水平，兼具实用性和性价比。此前在腾讯2025年第四季度财报电话会上，腾讯总裁刘炽平曾回应相关提问。",
       "category": "产品发布与更新",
       "company": "腾讯",
-      "score": 36,
+      "score": 34,
       "breakdown": {
         "substance": 11,
         "importance": 5,
-        "timeliness": 8,
+        "timeliness": 6,
+        "hotness": 0,
         "credibility": 9,
         "displayPenalty": 3
       },
@@ -43,41 +61,29 @@
       "isDisplayReady": true
     },
     {
-      "title": "Anthropic的Mythos模型泄露事件令公司尴尬",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation",
-      "snippet": "Anthropic's tightly controlled rollout of Claude Mythos has taken an awkward turn. After spending weeks insisting the AI model is so capable at cybersecurity that it is too dangerous to release publicly, it appears the model fell into the wrong hands anyway. According to Bloomberg, a \"small group of unauthorized users\" has had access to Mythos - whose existence was first revealed in a leak - since the day Anthropic announced plans to offer it to a select group of companies for testing. Anthropic says it is investigating. That's a rough look for a company that has built its brand on taking AI safety seriously while touting the cybersecurity … Read the full story at The Verge.",
-      "source": "The Verge AI",
-      "publishedAt": "2026-04-23T18:24:56.000Z",
-      "region": "海外",
-      "summary": "Anthropic对其Claude Mythos模型的严格发布控制遭遇尴尬转折。该公司数周来坚称该AI模型在网络安全方面能力过强，公开发布风险太高，但据彭博社报道，该模型自Anthropic宣布向选定公司提供测试之日起，就已落入“一小群未经授权用户”手中。Mythos的存在最初是通过泄露被曝光的。",
+      "title": "Gemini CLI 新增子代理机制，支持任务委派与并行工作流",
+      "url": "https://www.infoq.cn/article/50eZYcehCtQuxKoTcLhS?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 23 Apr 2026 11:00:00 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "Gemini CLI 引入子代理机制，实现任务委派与并行代理工作流"
+      ],
+      "summary": "谷歌在Gemini CLI中新增子代理机制，主代理可委派代码分析、测试等子任务给专用AI代理并行执行，每个子代理在隔离环境运行以减少上下文负载。开发者能通过YAML配置的Markdown文件创建自定义子代理，定义其角色和工具，并支持本地或仓库保存以统一团队工作流。",
       "category": "产品发布与更新",
-      "company": "Anthropic",
-      "score": 32,
+      "company": "谷歌",
+      "score": 25,
       "breakdown": {
-        "substance": 7,
-        "importance": 5,
-        "timeliness": 10,
-        "credibility": 7,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "Google将Chrome转变为工作场所的AI助手",
-      "url": "https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/",
-      "snippet": "Google brings Gemini-powered \"auto browse\" capabilities to Chrome for enterprise users, letting workers automate tasks like research, data entry, and more.",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 22 Apr 2026 17:30:00 +0000",
-      "region": "海外",
-      "summary": "Google为Chrome企业用户推出Gemini驱动的“自动浏览”功能，可自动化研究、数据录入等任务，并承诺企业提示词不用于AI训练。同时，Chrome Enterprise Premium新增检测未授权AI工具和异常浏览器扩展的能力，帮助IT团队监控“异常代理活动”。",
-      "category": "产品发布与更新",
-      "company": "Google",
-      "score": 31,
-      "breakdown": {
-        "substance": 5,
-        "importance": 11,
-        "timeliness": 4,
+        "substance": 2,
+        "importance": 6,
+        "timeliness": 6,
+        "hotness": 0,
         "credibility": 8,
         "displayPenalty": 3
       },
@@ -85,20 +91,29 @@
       "isDisplayReady": true
     },
     {
-      "title": "微软在Word、Excel和PowerPoint中推出“vibe working”代理模式",
+      "title": "微软在Word、Excel和PowerPoint中推出“氛围工作”模式",
       "url": "https://www.theverge.com/news/917328/microsoft-agent-mode-vibe-working-office-word-excel-powerpoint",
       "snippet": "Microsoft is rolling out a new Agent Mode inside Office apps like Word, Excel, and PowerPoint this week. Previously described by Microsoft as \"vibe working,\" the Agent Mode is a more powerful version of the Copilot experience in Office that Microsoft has been trying to sell to businesses. \"When we first shipped Copilot, foundation models were not powerful enough to use Copilot to command the applications,\" admits Sumit Chauhan, corporate vice president of Microsoft's Office Product Group. \"This meant Copilot was a passive partner in documents: it could answer questions but missed the mark when it was asked to take action on the canvas direc … Read the full story at The Verge.",
       "source": "The Verge AI",
       "publishedAt": "2026-04-23T11:34:18.000Z",
+      "popularityScore": 0,
       "region": "海外",
-      "summary": "微软本周在Word、Excel和PowerPoint等Office应用中推出新的Agent Mode（代理模式），该模式此前被描述为“vibe working”。它是微软向企业推销的Copilot体验的更强大版本。",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Verge AI"
+      ],
+      "coverageTitles": [
+        "Microsoft launches ‘vibe working’ in Word, Excel, and PowerPoint"
+      ],
+      "summary": "微软本周开始在Word、Excel和PowerPoint等Office应用中推出新的“代理模式”。该模式此前被微软描述为“氛围工作”，是微软一直试图向企业推销的Office中Copilot体验的更强大版本。",
       "category": "产品发布与更新",
       "company": "Microsoft",
-      "score": 27,
+      "score": 23,
       "breakdown": {
-        "substance": 11,
+        "substance": 7,
         "importance": 0,
         "timeliness": 6,
+        "hotness": 0,
         "credibility": 7,
         "displayPenalty": 3
       },
@@ -113,8 +128,16 @@
       "snippet": "能参与协作与执行的超级助手",
       "source": "量子位",
       "publishedAt": "Thu, 23 Apr 2026 09:55:30 +0000",
+      "popularityScore": 0,
       "region": "国内",
-      "summary": "飞书项目在2026年生态日上宣布开放平台焕新升级，核心转向“AI Friendly”。升级内容包括：持续升级MCP服务，支持AI访问和操作飞书项目，覆盖工作项管理、视图与度量分析等40余种工具，并首家采用OAuth等安全授权方式。",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "飞书项目开放平台焕新升级，全面迈向“AI Friendly”"
+      ],
+      "summary": "飞书项目在2026年生态日上宣布开放平台焕新升级，核心原则为“读写安全、触手可用、按需配置”。升级内容包括：MCP服务持续升级，支持AI访问并操作飞书项目，覆盖工作项管理、视图与度量分析等40余种工具，并首家采用OAuth等安全授权方式。",
       "category": "技术与研究",
       "company": "飞书项目",
       "score": 47,
@@ -122,6 +145,7 @@
         "substance": 24,
         "importance": 5,
         "timeliness": 6,
+        "hotness": 0,
         "credibility": 9,
         "displayPenalty": 3
       },
@@ -129,41 +153,29 @@
       "isDisplayReady": true
     },
     {
-      "title": "OpenClaw热度下滑：下载量减半，日更遭吐槽",
+      "title": "OpenClaw热度下滑：下载量减半，日更遭用户批评",
       "url": "https://www.jiqizhixin.com/articles/2026-04-23-10",
       "snippet": "直到现在，2026 开年以来的「当红辣子鸡」OpenClaw，依然保持一周数更的节奏。最近两天，随着开源模型新王 Kimi K2.6 以及生图领域新杠把子 ChatGPT Images 2.0 的陆续上线，OpenClaw 立即跟进了对它们的支持。与此同时，大模型厂商、互联网大厂适配 Claw...",
       "source": "机器之心",
       "publishedAt": "2026-04-23T21:11:00+08:00",
+      "popularityScore": 0,
       "region": "国内",
-      "summary": "2026年开年以来，热门AI产品OpenClaw仍保持一周多次更新的节奏。近期，随着开源模型Kimi K2.6和生图工具ChatGPT Images 2.0上线，OpenClaw迅速跟进支持。然而，其下载量已降至巅峰期的一半，日更频率也引发用户不满。",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "下载量掉到巅峰期一半、日更被骂惨，OpenClaw热还能维持多久？"
+      ],
+      "summary": "2026年开年以来，备受关注的OpenClaw仍保持一周多次更新的节奏。近期，随着开源模型Kimi K2.6和ChatGPT Images 2.0的上线，OpenClaw迅速增加了对它们的支持。同时，大模型厂商和互联网大厂也在适配Claw相关技术。",
       "category": "技术与研究",
       "company": "OpenClaw",
-      "score": 43,
+      "score": 41,
       "breakdown": {
         "substance": 18,
         "importance": 5,
-        "timeliness": 8,
-        "credibility": 9,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "GPT图像生成团队曝光：华人主导，13人4个月打造",
-      "url": "https://www.qbitai.com/2026/04/405391.html",
-      "snippet": "底层架构已彻底重构",
-      "source": "量子位",
-      "publishedAt": "Thu, 23 Apr 2026 08:04:09 +0000",
-      "region": "国内",
-      "summary": "OpenAI的GPT图像生成功能团队近日曝光，该团队由13名成员组成，在4个月内完成了开发。团队中近半数为华人，包括来自中国无锡的负责人Mengchao Zhong，他本科毕业于上海交通大学，硕士毕业于得克萨斯农工大学，曾在Pinterest和Airtable担任软件工程师。",
-      "category": "技术与研究",
-      "company": "OpenAI",
-      "score": 42,
-      "breakdown": {
-        "substance": 19,
-        "importance": 5,
         "timeliness": 6,
+        "hotness": 0,
         "credibility": 9,
         "displayPenalty": 3
       },
@@ -171,20 +183,29 @@
       "isDisplayReady": true
     },
     {
-      "title": "Meta计划裁员10%，约8000名员工受影响",
+      "title": "Meta计划裁员10%的员工",
       "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
       "snippet": "Mark Zuckerberg presenting at Meta Connect on September 17th, 2025. | Bloomberg via Getty Images Meta is planning to layoff around 10 percent of employees in May, according to a memo from the company's chief people officer, Janelle Gale, published by Bloomberg. That means approximately 8,000 people will see their jobs cut. Meta will also be closing around 6,000 open roles, according to Gale. The cuts follow Meta's significant investments in AI, including spending huge sums to hire top talent and build data centers. The company forecast in January that it will spend $115 billion to $135 billion in capital expenditures in 2026 - a significant increase from its $72.22 billion in capital expenditures for 2025. The increase is to \"support o … Read the full story at The Verge.",
       "source": "The Verge AI",
       "publishedAt": "2026-04-23T19:41:07.000Z",
+      "popularityScore": 0,
       "region": "海外",
-      "summary": "Meta计划在5月裁员约10%的员工，根据首席人事官Janelle Gale发布的备忘录，这意味着约8000人将失去工作。同时，Meta还将关闭约6000个空缺职位。此次裁员发生在Meta对AI进行重大投资之后，包括斥巨资招聘顶尖人才和建设数据中心。",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Verge AI"
+      ],
+      "coverageTitles": [
+        "Meta is laying off 10 percent of its staff"
+      ],
+      "summary": "Meta计划在5月裁员约10%（约8000人），并关闭约6000个空缺职位。此次裁员发生在AI投资激增之后，公司预计2026年资本支出将达1150-1350亿美元，较2025年的722.2亿美元大幅增加，主要用于支持Meta超级智能实验室。受影响的员工将在5月20日收到通知。",
       "category": "技术与研究",
       "company": "Meta",
-      "score": 41,
+      "score": 39,
       "breakdown": {
         "substance": 16,
         "importance": 5,
-        "timeliness": 10,
+        "timeliness": 8,
+        "hotness": 0,
         "credibility": 7,
         "displayPenalty": 3
       },
@@ -192,41 +213,29 @@
       "isDisplayReady": true
     },
     {
-      "title": "CVPR 2026：UniLS框架突破数字人对话SOTA，告别倾听“扑克脸”",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-23-9",
-      "snippet": "本文由来自盛大东京 AI 研究院、东京大学、和东京科学大学的研究者合作完成。作者团队在数字人方向有长期积累。部分工作为共同第一作者 Xuangeng Chu (https://xg-chu.site) 和 Ruicong Liu (https://ruicongliu.github.io) 在...",
+      "title": "首篇「Attention Sink」综述：Transformer注意力汇聚现象的利用、理解与消除",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-23-12",
+      "snippet": "几乎所有 Transformer 都在做一件反常的事：把大量注意力集中到少数几个特定 Token 上。这不是 bug，而是 Transformer 固有的「注意力汇聚」（Attention Sink）。首篇系统性综述，带你从利用、理解到消除，全面掌握这一核心现象。过去几年，研究者在 Trans...",
       "source": "机器之心",
-      "publishedAt": "2026-04-23T21:09:00+08:00",
+      "publishedAt": "2026-04-23T21:24:00+08:00",
+      "popularityScore": 0,
       "region": "国内",
-      "summary": "盛大东京AI研究院、东京大学和东京科学大学的研究团队提出了UniLS框架，旨在解决数字人对话中表情僵硬、缺乏自然反应的问题。该框架在CVPR 2026上突破SOTA，通过统一建模语言和动作，使数字人能根据对话内容实时生成自然的面部表情和肢体语言，告别“扑克脸”。",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "首篇「Attention Sink」综述：从利用、理解到消除，Transformer中的注意力「汇聚」全景解析"
+      ],
+      "summary": "这篇综述首次系统总结了Transformer中的注意力汇聚现象，即模型会将大量注意力集中到少数特定Token上，而非均匀分布。研究指出，这并非模型缺陷，而是Transformer的固有特性。综述从三个角度展开：利用该现象提升效率、理解其成因、以及探索消除方法，为后续研究提供了全面参考。",
       "category": "技术与研究",
       "company": "",
-      "score": 33,
+      "score": 18,
       "breakdown": {
-        "substance": 8,
-        "importance": 5,
-        "timeliness": 8,
-        "credibility": 9,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "机器人乒乓球击败人类职业选手登上Nature封面",
-      "url": "https://www.qbitai.com/2026/04/405370.html",
-      "snippet": "能接旋球",
-      "source": "量子位",
-      "publishedAt": "Thu, 23 Apr 2026 06:45:53 +0000",
-      "region": "国内",
-      "summary": "《自然》杂志封面报道了一项机器人乒乓球技术的突破，机器人成功击败了人类职业选手。该机器人采用深度强化学习策略，每32毫秒（31.25Hz）读取一次球和机械臂状态，并输出动作指令。这一成果标志着机器人运动控制能力的显著提升。",
-      "category": "技术与研究",
-      "company": "",
-      "score": 27,
-      "breakdown": {
-        "substance": 4,
-        "importance": 5,
+        "substance": 0,
+        "importance": 0,
         "timeliness": 6,
+        "hotness": 0,
         "credibility": 9,
         "displayPenalty": 3
       },
@@ -236,21 +245,60 @@
   ],
   "投融资与并购": [
     {
-      "title": "国内首家百亿估值纯推理GPU独角兽诞生，曦望联席CEO王湛谈推理成本优势",
+      "title": "国内首家百亿估值纯推理GPU独角兽诞生，曦望联席CEO王湛称推理成本更低者胜",
       "url": "https://www.qbitai.com/2026/04/406020.html",
       "snippet": "百万Token要降到1分钱",
       "source": "量子位",
       "publishedAt": "Thu, 23 Apr 2026 14:28:57 +0000",
+      "popularityScore": 0,
       "region": "国内",
-      "summary": "曦望公司成为国内首家估值超百亿的纯推理GPU独角兽。其联席CEO王湛表示，限制算力规模增长的根本是生产工具而非市场需求，如光模块、内存等供应紧张。公司推出的Seedance 2.0视频生成技术若能将排队时间从4小时缩短至1分钟，使用量可能大幅增长。",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "国内首家百亿估值纯推理GPU独角兽诞生！专访曦望联席CEO王湛：谁的推理成本更低谁就是赢家"
+      ],
+      "summary": "曦望公司成为国内首家估值超百亿的纯推理GPU独角兽。其联席CEO王湛表示，限制算力规模增长的根本是生产工具，而非市场需求，一旦瓶颈被打开，需求将成倍增长。曦望推出的S3芯片专为大模型推理深度定制，通过裁剪训练模块，将单位面积有效算力效率提升5倍以上，目标是将百万Token成本降至一分钱。",
       "category": "投融资与并购",
       "company": "曦望",
       "score": 44,
       "breakdown": {
-        "substance": 24,
+        "substance": 26,
         "importance": 0,
-        "timeliness": 8,
+        "timeliness": 6,
+        "hotness": 0,
         "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "清华系团队星工聚将完成数千万天使轮融资，轮式机器人获头部制造企业亿级订单",
+      "url": "https://www.infoq.cn/article/BSZXO0VGFlBkmIke18ht?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 23 Apr 2026 10:21:18 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "清华系团队星工聚将完成数千万天使轮融资，轮式机器人拿下头部制造企业亿级大单"
+      ],
+      "summary": "清华系团队星工聚将完成数千万元天使轮融资，由天空工场创投基金独家投资。其核心技术包括物理认知引擎CPE（由快慢双系统中央脑和数字风洞组成）和全球首创的末端快换系统，使XG Z1轮式机器人能在6秒内切换执行器，完成搬运、装配、打磨等任务。",
+      "category": "投融资与并购",
+      "company": "星工聚将",
+      "score": 40,
+      "breakdown": {
+        "substance": 15,
+        "importance": 8,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
         "displayPenalty": 3
       },
       "isDuplicate": false,
@@ -262,20 +310,89 @@
       "snippet": "Sierra, the AI customer service agent startup founded by technologist Bret Taylor, announced today that it has acquired the YC-backed French startup Fragment.",
       "source": "TechCrunch AI",
       "publishedAt": "Thu, 23 Apr 2026 21:00:00 +0000",
+      "popularityScore": 0,
       "region": "海外",
-      "summary": "由技术专家Bret Taylor创立的AI客服代理初创公司Sierra宣布，已收购YC支持的法国初创公司Fragment。此次收购的具体条款尚未披露。Fragment是一家专注于AI领域的初创公司，此前获得了Y Combinator的支持。",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "Bret Taylor’s Sierra buys YC-backed AI startup Fragment"
+      ],
+      "summary": "由技术专家Bret Taylor创立的AI客服代理初创公司Sierra宣布，已收购YC支持的法国初创公司Fragment。收购的具体条款未在公告中披露。Fragment是一家专注于AI领域的初创企业。此次收购将有助于Sierra增强其技术能力。",
       "category": "投融资与并购",
       "company": "Sierra",
-      "score": 25,
+      "score": 20,
       "breakdown": {
-        "substance": 4,
+        "substance": 1,
         "importance": 0,
-        "timeliness": 10,
+        "timeliness": 8,
+        "hotness": 0,
         "credibility": 8,
         "displayPenalty": 3
       },
       "isDuplicate": false,
       "isDisplayReady": true
+    },
+    {
+      "title": "Vercel遭黑客入侵，IPO前夕面临200万美元赎金谈判",
+      "url": "https://www.infoq.cn/article/OJN55xPWaVxT2IajEw6G?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 23 Apr 2026 09:58:12 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "靠“AI 云”爆红的 Vercel，栽在一个第三方AI工具手里！IPO前夕遭黑，200万美元赎金谈崩？"
+      ],
+      "summary": "云平台Vercel遭黑客入侵，攻击者ShinyHunters成员窃取了访问密钥、源代码、数据库数据及内部部署权限，并在黑客论坛兜售。Vercel在安全研究人员发现可疑活动后才意识到入侵，但攻击者访问时长不明。",
+      "category": "投融资与并购",
+      "company": "Vercel",
+      "score": 17,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "博裕、经纬、顺为等投资前新石器COO超亿元，押注AI超便携电子纸",
+      "url": "https://36kr.com/p/3778175428777218?f=rss",
+      "snippet": "作者｜黄楠 编辑｜袁斯来 当智能手机陷入性能过剩、AI功能同质化内卷，用户注意力被无限拆解与争夺时，一个被长期忽视的角落正悄然打开新赛道——手机背面的闲置空间。 硬氪独家获悉，AI超便携电子纸品牌阅星曈近日完成天使轮��A轮融资，累计五轮金额超亿元人民币，投资方包括博裕创投、清流资本、希扬资本、小红书、经纬创投、顺为资本，多数股东持续追加。资金将用于完善生产制造与质量审核体系、拓展海外市场，搭建社区内容、优化产品体验，与全球用户共同构建AI时代手机副屏生态。 阅星曈开创了“超便携电子纸”品类，其产品以极简的硬件设计与流畅的软件体验，深度融合AI能力，专注为数字时代用户提供专注、沉浸的阅读入口。 阅星曈超便携电子纸（图源/企业） 创始人兼CEO胡宇沸是一位资深连续创业者，他毕业于香港中文大学，曾任新石器无人车COO、OYO酒店首席发展官、小蓝单车联合创始人兼COO、饿了么众包事业部总经理及Uber中国三城总经理等职务。多位核心成员均来自港中文、复旦大学、中国科学院大学、马里兰大学等院校，曾供职于头部互联网、智能硬件与AI企业，具备从爆品打造到全球化增长的完整能力闭环。 鲜少有人预料到，胡宇沸再次创业时，会扎进一个轻巧到极易“被忽略”的硬件行业，做一款磁吸在手机背面的电子纸阅读器。 它首款产品的重量仅有70克、4.3寸屏幕、售价不到300元。但就是这个隐藏在手机屏幕后的小配件，在零推广费用的前提下，依靠小红书社区的“云股东”共创众筹，一年内迅速完成了从产品定义到规模化验证的闭环。 “是用户和我们一起，把这块小屏打磨成了今天的样子。”阅星曈创始人兼CEO胡宇沸表示。在产品定义与迭代过程中，有大量早期用户曾通过社群参与了需求反馈与功能建议。后续公司也会延续这一共创模式，在未来产品的立项和原型设计阶段开放用户参与通道，将用户反馈直接纳入早期研发流程。 70克、4.3寸屏幕（图源/企业） 近年来，电子纸行业早已不是小众生意。洛图科技数据显示，2025年全球电子纸终端市场规模已突破142亿美元，连续三年保持高速增长；国内市场中，掌阅、文石、汉王等头部品牌占据超八成份额，形成“大屏开放系统”与“封闭内容生态”两大成熟路径。 但一个长期存在的产品体验问题始终未得到解决。传统阅读器要么是独立设备，需要“多带一台”，或产品迭代存在堆料溢价、操作复杂等痛点，最终沦为“泡面神器”；即便主打便携的同类产品，也因形态冗余、与手机工作流割裂，难以成为高频刚需入口。 更深层的行业变革在于，用户需求已从“沉浸式深度阅读”转向碎片化专注信息获取。CounterPoint报告指出，全球智能手机保有量已超过70亿台。用户的正面屏幕被成百上千个应用、无尽的推送和算法所裹挟，注意力日益碎片化。 与之相反，每一台手机背面那块长期闲置的光滑平面，仍是一块未被开发的“注意力净土”。这正是阅星曈看到的结构性机会。 “年轻人不再需要另一台充满应用与干扰的设备，而是需要一个低干扰、轻量化、一键可达的注意力出口。”胡宇沸说。 因此，阅星曈在其产品方案中也遵循了这一趋势：不做独立设备，而是成为“AI时代手机副屏”。其产品采用极简的磁吸设计，超薄的厚度与一张卡片相当，吸附在手机背面后几乎无感。 胡宇沸告诉硬氪，在注意力成为稀缺资源的今天，阅星曈的核心价值并非护眼，而是“降噪”。它为用户提供了一个极低成本的注意力切换通道，“我们做的是，帮用户把打开各类APP渠道、获取有效信息的路径变到最短。” 用户只需翻转手机，即可进入一个纯粹的阅读空间，没有APP推送、社交或短视频干扰，满足漫画、轻小说、碎片化资讯、个性化信息展示等高频轻量需求。 据官方数据显示，阅星曈的产品自2025年第四季度上市以来，仅半年、月销量增长超过10倍；海外市场首月即破万台，X4、X3、曈卡已销往全球多个国家和地区。当前公司月均营收已超过2025全年。 阅星曈超便携电子纸（图源/企业） 而在第一代产品验证了“手机副屏”硬件价值的基础上，阅星曈的野心远不止于做一款电子纸或阅读器。 胡宇沸向硬氪透露，公司正在构建“端侧电子纸+手机算力+云端推理”的三端协同模式，通过融合OpenClaw等前沿AI Agent能力，将阅星曈的硬件小屏升级为AI时代的注意力入口。 用户翻转手机后，即可使用AI Agent迅速获取所需的个性化信息流、日程提醒、财经资讯或待办事项等，无需解锁、搜索并在海量推送中筛选，而是在一个全新的、低干扰的、高粘性的交互界面，真正将信息实现从“被推送”变为“被订阅”，从“被动接收”变为“主动获取”。这款新品将于2026年中下旬上线。 “长期来看，我们认为手机背面是一个被严重低估的生态位。”胡宇沸说。当前AI手机纷纷走向端侧智能化，入口之争从手机正面延伸至全场景，阅星曈选择另一条路径，以“硬件创新+AI轻量化落地”的组合，通过低成本、高用户接受度的方式，成为手机屏幕的自然延伸，开创新的智能终端形态。 用一个极简的减法方案，精准击中用户在高频场景下的真实痛点。AI的介入，正在让这块“小卡片”的价值被重新评估。阅星曈已经在手机背面，悄悄抢占AI时代的下一个流量入口。 投资方评论： 博裕创投董事总经理高法璞表示，AI时代信息无限膨胀，真正的稀缺资源不再是信息本身，而是深度专注与高质量阅读的能力,阅星曈也是依靠极度的专注，打造了一款随身携带，帮用户进行管理注意力的副屏，我们持续看好公司在AI时代的发展潜力。 清流资本投资副总裁茆雨豪表示，在今天这个言必称 AI、功能不断堆砌的时代，阅星曈表现出了一种极具勇气的克制。没有选择盲目堆砌功能，而是通过极致的“减法哲学”，将BOM成本控制在极低水平的同时，实现了极佳的用户心智占领。投资阅星曈的逻辑其实非常纯粹：看好它在细分赛道中对“阅读刚需”的深度挖掘，以及团队极强的资本效率与产品定义能力，并以此为原点，结合“端侧电子纸+手机算力”的协同模式，成为 AI 时代下最懂用户、最纯粹的硬件入口。” 希扬资本合伙人杨希表示，阅星曈通过极致轻薄的设计与软硬一体的沉浸阅读体验，成功定义了“超便携电子纸”这一新品类 ，甚至让品牌本身成为了该品类的代名词；作为天使投资人，这是希扬资本首次从上游科技向消费级硬件品牌的跨越式投资 ，我们将持续通过希扬科技生态赋能 ，助力阅星曈挖掘 AI 时代‘手机副屏’无限的应用场景与想象力。 经纬创投董事陈伟嘉表示，电子阅读器是已被验证的大出货量市场，但依旧有强痛点；结合AI和硬件能力的快速发展，有可能有重新定义品类的新品牌机会。宇沸是非典型的硬件创业者，具备敏捷、高效、AI思维等特质，build-in-public和用户共创了“超便携电子纸”的产品形态；虽然远不完美，但真实痛点+产品巧思+持续打磨赢得了用户口碑，在海内外快速自传播，增长动能明显。我们期待阅星曈能持续为用户带来创造性的产品，并进一步探索商业模式。 顺为投资合伙人程天表示，我们长期关注AI时代手机生态配件的创新价值。阅星曈精准抓住迷你墨水屏的市场空白，以便携、护眼、长续航的产品设计，切中用户碎片化阅读与个人效率管理的核心需求，跑出了清晰的增长节奏，获得用户群体的高度认同。期待阅星曈持续深耕，打开市场边界，打造全新的注意力入口，用真实产品力为用户创造长期价值。",
+      "source": "36氪",
+      "publishedAt": "2026-04-24 09:30:00  +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "36氪"
+      ],
+      "coverageTitles": [
+        "博裕、经纬、顺为等投资前新石器COO超亿元，押注AI超便携电子纸｜硬氪独家"
+      ],
+      "summary": "AI超便携电子纸品牌阅星曈完成天使轮到A轮融资，累计超亿元，投资方包括博裕、经纬、顺为等。其产品为70克、4.3寸磁吸电子纸阅读器，售价不到300元，可吸附于手机背面作为副屏，专注碎片化阅读。创始人胡宇沸曾任新石器COO，团队通过用户共创模式，半年内月销量增长超10倍，海外首月破万台。",
+      "category": "投融资与并购",
+      "company": "阅星曈",
+      "score": 41,
+      "breakdown": {
+        "substance": 13,
+        "importance": 13,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
     }
   ],
   "政策与监管": [
@@ -285,15 +402,24 @@
       "snippet": "TechCrunch has confirmed that Delve was the compliance company that performed the security certifications for Context AI, the AI agent training startup that last week disclosed a security incident.",
       "source": "TechCrunch AI",
       "publishedAt": "Thu, 23 Apr 2026 14:00:00 +0000",
+      "popularityScore": 0,
       "region": "海外",
-      "summary": "TechCrunch证实，Delve是为AI代理训练初创公司Context AI执行安全认证的合规公司。Context AI上周披露了一起安全事件。这标志着Delve的客户中又一起重大安全事件。",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "Another customer of troubled startup Delve suffered a big security incident"
+      ],
+      "summary": "TechCrunch证实，Delve是为AI代理训练初创公司Context AI执行安全认证的合规公司。Context AI上周披露了一起安全事件。这是Delve的客户中又一起重大安全事件。报道未提供该事件的具体细节。",
       "category": "政策与监管",
       "company": "Delve",
-      "score": 22,
+      "score": 20,
       "breakdown": {
         "substance": 3,
         "importance": 0,
-        "timeliness": 8,
+        "timeliness": 6,
+        "hotness": 0,
         "credibility": 8,
         "displayPenalty": 3
       },
