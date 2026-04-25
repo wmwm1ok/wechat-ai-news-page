@@ -1,7 +1,7 @@
 {
   "date": "2026/4/25",
   "title": "AI资讯每日精选-2026/4/25",
-  "generatedAt": "2026/4/25 08:00",
+  "generatedAt": "2026/4/25 12:48",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -9,23 +9,23 @@
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 30,
-      "overseasBeforeDedup": 21,
-      "domesticAfterDedup": 29,
-      "overseasAfterDedup": 21,
-      "domesticHotGroups": 1,
+      "domesticBeforeDedup": 20,
+      "overseasBeforeDedup": 17,
+      "domesticAfterDedup": 19,
+      "overseasAfterDedup": 17,
+      "domesticHotGroups": 0,
       "overseasHotGroups": 0,
       "domesticSources": [
         {
           "source": "机器之心",
           "ok": true,
-          "count": 6,
+          "count": 1,
           "error": null
         },
         {
           "source": "量子位",
           "ok": true,
-          "count": 6,
+          "count": 1,
           "error": null
         },
         {
@@ -81,7 +81,7 @@
         {
           "source": "The Decoder",
           "ok": true,
-          "count": 5,
+          "count": 4,
           "error": null
         },
         {
@@ -93,7 +93,7 @@
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 2,
+          "count": 1,
           "error": null
         },
         {
@@ -105,7 +105,7 @@
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
@@ -117,7 +117,7 @@
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 2,
+          "count": 1,
           "error": null
         },
         {
@@ -154,191 +154,191 @@
       }
     },
     "summarize": {
-      "totalSummarized": 50
+      "totalSummarized": 36
     },
     "scoring": {
-      "totalInput": 50,
-      "totalScored": 31,
-      "strictScoredCount": 26,
-      "relaxedCandidateCount": 1,
+      "totalInput": 36,
+      "totalScored": 29,
+      "strictScoredCount": 25,
+      "relaxedCandidateCount": 0,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 8,
-      "selectedCandidateCount": 31,
-      "duplicateCount": 14,
-      "crossDayDuplicateCount": 13,
-      "lowQualityCount": 1,
-      "domesticAvailable": 18,
+      "weakSummaryCount": 7,
+      "selectedCandidateCount": 29,
+      "duplicateCount": 5,
+      "crossDayDuplicateCount": 5,
+      "lowQualityCount": 0,
+      "domesticAvailable": 16,
       "overseasAvailable": 13,
       "sourceCount": {
-        "雷锋网": 5,
-        "量子位": 2,
-        "The Decoder": 2,
-        "机器之心": 2,
-        "TechCrunch AI": 4,
-        "InfoQ": 5,
-        "Tech Xplore": 2,
-        "Google AI Blog": 1,
         "36氪": 4,
+        "量子位": 1,
+        "雷锋网": 6,
+        "The Decoder": 4,
+        "MIT Technology Review": 1,
+        "TechCrunch AI": 3,
+        "InfoQ": 5,
+        "Google AI Blog": 1,
         "AWS Machine Learning Blog": 1,
-        "VentureBeat AI": 2,
+        "VentureBeat AI": 1,
+        "Tech Xplore": 1,
         "Wired AI": 1
       }
     },
     "display": {
-      "refinedCount": 31,
-      "previousDayRemovedCount": 4,
+      "refinedCount": 29,
+      "previousDayRemovedCount": 5,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
       "integrityRemovedCount": 3,
-      "postPreviousDayFilterCount": 24,
-      "displayReadyCount": 18,
-      "fallbackDisplayCount": 0,
+      "postPreviousDayFilterCount": 21,
+      "displayReadyCount": 14,
+      "fallbackDisplayCount": 2,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 6,
+      "removedWeakSummaries": 7,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "阿里云百炼首发DeepSeek-V4：百万超长上下文，API输入低至1元",
-      "company": "阿里云",
-      "url": "https://www.leiphone.com/category/industrynews/VXWvhZ0EYmGjo6mD.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 24 Apr 2026 20:08:00 +0800",
-      "summary": "阿里云百炼平台于4月24日首发上线DeepSeek-V4-pro和DeepSeek-V4-flash两款模型，API价格与DeepSeek官网一致，百万Tokens输入最低1元、输出最低2元。该模型拥有百万超长上下文，在Agent能力、世界知识和推理性能上表现优秀，并对Agent产品进行了适配优化，提升了代码和文档生成任务表现。",
-      "score": 56
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "GitHub Copilot 突然停止注册：Agent 化使用模式“顶穿”原有定价模型",
-      "company": "GitHub",
-      "url": "https://www.infoq.cn/article/U3BlkMiBlgWgLiKFth4N?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 24 Apr 2026 18:46:43 GMT",
-      "summary": "GitHub Copilot因Agent化使用模式导致算力消耗激增，已停止新用户注册。问题源于限流系统bug低估了新一代模型（如Claude Opus 4.6和GPT-5.4）的token使用量，且多步骤Agent任务在限流时会中断且无法恢复。",
-      "score": 48
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "AI小猫SentiCat来了：扫描电脑、接入7款模型，生产力和情绪价值都拉满",
-      "company": "SentiPulse思维光谱",
-      "url": "https://www.qbitai.com/2026/04/406560.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 24 Apr 2026 09:09:55 +0000",
-      "summary": "AI初创公司SentiPulse思维光谱推出了AI Agent产品SentiCat，它能在用户授权后扫描电脑系统配置、工作区、浏览器和应用安装等信息。该产品接入了MiniMax、通义千问、智谱、豆包、DeepSeek、Kimi、小米等7款国内主流模型，用户可自由切换。",
-      "score": 42
-    },
-    {
-      "section": "技术与研究",
-      "title": "优必选发布Thinker cosmos开发者社区：开源生态加码，助力人形机器人规模化落地",
-      "company": "优必选",
-      "url": "https://www.qbitai.com/2026/04/406806.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 24 Apr 2026 11:49:30 +0000",
-      "summary": "优必选科技在FAIR plus 2026期间正式发布Thinker cosmos开发者专属社区，为开发者提供从需求侧到供给侧的连接平台。该社区汇集开源成果、技术资料，并开放算力补贴和课题激励，同时计划于2026年第二季度开放大规模开源人形机器人真机数据集。这对开发者意味着能降低模型训练门槛，加速具身智能技术从实验室走向实际应用。",
-      "score": 55
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI首席科学家：AI进展“慢得惊人”，但中期将迎来“极其显著”突破",
-      "company": "OpenAI",
-      "url": "https://the-decoder.com/openais-chief-scientist-says-ai-progress-has-been-surprisingly-slow-and-promises-big-leaps-ahead/",
-      "source": "The Decoder",
-      "publishedAt": "Fri, 24 Apr 2026 18:31:15 +0000",
-      "summary": "OpenAI发布了GPT-5.5，但公司首席科学家Jakub Pachocki认为AI进展“慢得惊人”。他预计中期内将出现“极其显著的改进”，真正的突破还在前方。这对AI从业者意味着，当前模型只是过渡，未来技术迭代可能带来更大变革。",
-      "score": 44
-    },
-    {
-      "section": "技术与研究",
-      "title": "金融科技公司AI提效：先问“能不能”，再谈“用不用”",
-      "company": "",
-      "url": "https://www.infoq.cn/article/RKJhuuOzLMaZmtmc4Uvf?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 24 Apr 2026 18:39:14 GMT",
-      "summary": "一家金融软件公司在AI研发中强调流程严谨性，不直接部署AI生成代码，而是通过多环节审核确保安全。该公司尝试用大模型辅助文档同步，但初期效果不佳，同时注重经验沉淀和模型对比评估。这对金融行业开发者意味着，AI提效应在可控范围内探索，而非盲目追求效率。",
-      "score": 42
-    },
-    {
-      "section": "投融资与并购",
-      "title": "GPT-5.5全榜碾压Claude Opus 4.7：OpenAI反击，百度前员工受贿获刑12年，DeepSeek估值或达3000亿",
-      "company": "OpenAI",
-      "url": "https://www.leiphone.com/category/zaobao/o42n2XkzLk6Prs1a.html",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 24 Apr 2026 19:54:00 +0800",
-      "summary": "OpenAI发布GPT-5.5系列模型，在Artificial Analysis综合智能指数榜单上拿下第一和第二名，前六席中包揽四席，在Terminal-Bench 2.0等基准测试中全面超越Claude Opus 4.7和Gemini 3.1 Pro。百度通报原贴吧员工石某某因受贿获刑12年。据曝料，DeepSeek最新估值高达3000亿元。",
-      "score": 46
-    },
-    {
-      "section": "政策与监管",
-      "title": "Meta签约采购数百万亚马逊AI芯片：CPU取代GPU开启新竞赛",
-      "company": "Meta",
-      "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 24 Apr 2026 12:00:00 +0000",
-      "summary": "Meta已与亚马逊达成协议，采购数百万颗亚马逊自研CPU（非GPU），用于AI代理工作负载。这些芯片专为处理实时推理、代码编写等计算密集型任务设计，标志着CPU在特定AI任务中正获得重视。对AI基础设施而言，这可能改变传统依赖GPU的格局，为企业提供更具性价比的AI计算选择。",
-      "score": 26
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "谷歌豪掷400亿美元押注Anthropic：现金+算力双管齐下，AI军备竞赛再升级",
+      "title": "谷歌豪掷400亿美元押注Anthropic：AI算力争夺战升级，云与芯片成新筹码",
       "company": "Google",
       "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
       "source": "TechCrunch AI",
       "publishedAt": "Fri, 24 Apr 2026 18:00:03 +0000",
-      "summary": "谷歌计划向AI公司Anthropic投资高达400亿美元，包括现金和计算资源。此举发生在AI竞争对手争相获取大规模算力之际，Anthropic此前已有限发布其专注于网络安全的Mythos模型。对AI行业而言，这标志着科技巨头正通过巨额投资锁定关键算力资源，加剧竞争。",
+      "summary": "谷歌计划向AI公司Anthropic投资高达400亿美元，包括现金和算力资源。此举发生在AI竞争对手竞相获取大规模计算能力之际，Anthropic此前已有限发布其专注于网络安全的Mythos模型。对AI行业而言，这笔投资凸显了算力在AI竞争中的核心地位。",
       "score": 42
     },
     {
-      "section": "技术与研究",
-      "title": "飞书项目开放架构让AI真正“会执行”：7家新能源车企已采用",
-      "company": "飞书",
-      "url": "https://www.infoq.cn/article/ub0bHyfIRpbO61I876k2?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 24 Apr 2026 19:18:13 GMT",
-      "summary": "飞书项目通过开放架构和MCP能力，让AI能真正进入项目管理流程，承接文档撰写、数据录入等高频重复工作。目前已有7家新能源车企选用飞书项目，在软件研发管理SaaS和IPD管理SaaS领域市场份额分别达46.8%和68.6%。这意味着企业AI需求正从“会生成”转向“会执行”，项目管理工具需实现数据与业务流程的连接。",
-      "score": 41
-    },
-    {
       "section": "产品发布与更新",
-      "title": "Snowflake 推出 Cortex Code：用规范驱动代码生成，加速金融分析仪表板构建",
-      "company": "Snowflake",
-      "url": "https://www.infoq.cn/article/o8dh3dRH6Kk8vzrzKdJd?utm_source=rss&utm_medium=article",
+      "title": "GitHub Copilot 从“随便用”到“全面限”：Agent 模式把定价模型顶穿了",
+      "company": "GitHub",
+      "url": "https://www.infoq.cn/article/U3BlkMiBlgWgLiKFth4N?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Fri, 24 Apr 2026 18:51:20 GMT",
-      "summary": "Snowflake发布了一种名为Cortex Code的规范驱动开发方法，将传统SDLC流程引入AI辅助工作流。该方法通过定义27项需求（如市场热力图、交互式K线图、RSI指标等），自动生成包含16个文件的Streamlit仪表板，用于分析道指30成分股。这对金融分析师和开发者意味着，AI可以基于明确规范快速生成可执行代码，提升数据应用开发效率。",
+      "publishedAt": "Fri, 24 Apr 2026 18:46:43 GMT",
+      "summary": "GitHub Copilot 因限流系统 bug 低估新一代模型 token 使用量，导致成本失控，开始限制注册和模型访问。开发者使用方式从代码补全转向 agent 化编程，多步骤任务在限流时易中断且无法恢复，业余用户每月额外花费数百英镑。这暴露了现有订阅体系无法区分不同使用方式的算力消耗差异，对依赖 AI 编程的开发者影响显著。",
       "score": 40
     },
     {
       "section": "产品发布与更新",
-      "title": "Gemini 变身生活管家：教你用AI搞定清洁、收件箱和季节性家务",
+      "title": "Gemini AI：从植物养护到收件箱清理，全方位帮你整理生活空间",
       "company": "Google",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
       "source": "Google AI Blog",
       "publishedAt": "Fri, 24 Apr 2026 19:00:00 +0000",
-      "summary": "谷歌Gemini推出AI驱动的整理技巧，帮助用户优化家居和数字空间。这些技巧涵盖清洁计划、收件箱清理和季节性家务等场景。对普通用户而言，这意味着AI助手正从单纯对话扩展到生活管理，提升日常效率。",
-      "score": 40
+      "summary": "谷歌推出Gemini AI工具，提供家庭与数字空间整理建议。该工具可制定清洁计划、清理收件箱以及安排季节性家务。对普通用户而言，这意味着可以借助AI更高效地管理生活琐事，提升日常组织效率。",
+      "score": 34
     },
     {
       "section": "技术与研究",
-      "title": "Visier联手Amazon Quick：用AI Agent统一企业员工数据工作空间，实现可审计的智能对话",
-      "company": "Visier",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-workforce-ai-agents-with-visier-and-amazon-quick/",
-      "source": "AWS Machine Learning Blog",
-      "publishedAt": "Fri, 24 Apr 2026 18:04:20 +0000",
-      "summary": "Visier与Amazon Quick通过Model Context Protocol（MCP）连接，为知识工作者打造统一的AI代理工作空间。Visier提供实时劳动力数据和组织上下文，用户可在对话式结果上直接操作，无需切换工具。这一集成将提升企业员工数据查询与决策效率，对人力资源和业务管理者具有实用价值。",
-      "score": 36
+      "title": "优必选发布Thinker Cosmos开发者社区：开源生态加码，推动人形机器人规模化落地",
+      "company": "优必选科技",
+      "url": "https://www.qbitai.com/2026/04/406806.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 24 Apr 2026 11:49:30 +0000",
+      "summary": "优必选科技在FAIR plus 2026期间正式发布Thinker Cosmos开发者专属社区，为开发者提供开源成果、技术资料和行业交流平台。该社区汇集了优必选及第三方开发者的最新开源成果，并计划于2026年第二季度开放大规模开源人形机器人真机数据集，降低模型训练门槛。",
+      "score": 55
     },
     {
       "section": "技术与研究",
-      "title": "Snowflake Cortex Agents 实战：用结构化与非结构化数据统一分析，重构金融智能架构",
+      "title": "Snowflake Cortex Code 实战：用 SDLC 方法论驯服 AI 编程，27 项需求一次搞定",
+      "company": "",
+      "url": "https://www.infoq.cn/article/o8dh3dRH6Kk8vzrzKdJd?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 24 Apr 2026 18:51:20 GMT",
+      "summary": "本文介绍了 Snowflake Cortex Code 的规范驱动开发实践，通过将 SDLC 方法论融入 AI 辅助工作流，实现了从需求到代码的自动化。关键事实包括：系统需维护道指30成分股参考表、实现市场热力图、交互式K线图、RSI副图指标和综合信号评级等27项需求，并创建了16个文件。",
+      "score": 39
+    },
+    {
+      "section": "技术与研究",
+      "title": "飞书项目：用开放架构让AI真正“会执行”，已拿下新能源车企7成市场",
+      "company": "飞书",
+      "url": "https://www.infoq.cn/article/ub0bHyfIRpbO61I876k2?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 24 Apr 2026 19:18:13 GMT",
+      "summary": "飞书项目通过开放架构和MCP工具，推动项目管理从“AI会生成”向“AI会执行”转变。目前，其已服务2025年销量前十新能源乘用车品牌中的7家，并在软件研发管理SaaS和IPD管理SaaS领域分别占据46.8%和68.6%的市场份额。这意味着企业可借助AI连接业务流程，自动识别风险并承接高频重复工作，从而提升项目推进效率。",
+      "score": 37
+    },
+    {
+      "section": "投融资与并购",
+      "title": "智用开物获近亿元融资：微软系团队用“工业语义引擎”让AI半小时上岗，一个排产员顶6个人",
+      "company": "智用开物",
+      "url": "https://36kr.com/p/3781548853533959?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-25 09:10:38  +0800",
+      "summary": "智用开物完成近亿元天使+轮融资，由老股东瑞枫资本领投，立讯精密家族办公室战略投资。公司推出“工业语义引擎”和“岗位智能体”产品，单个AI排产员效能相当于六名人类员工，SOP自动化率达80%，产线异常处理速度提升8倍。这意味着制造业企业无需从零搭建AI，只需上传岗位SOP即可在半小时内获得一个能7x24小时精确执行的“虚拟员工”，大幅降低AI落地门槛。",
+      "score": 58
+    },
+    {
+      "section": "投融资与并购",
+      "title": "德国AI明星Aleph Alpha被加拿大Cohere收购：创始人出局仅数月，行业整合加速",
+      "company": "Cohere",
+      "url": "https://the-decoder.com/cohere-takes-over-aleph-alpha-shortly-after-the-german-startup-ousted-its-original-founder/",
+      "source": "The Decoder",
+      "publishedAt": "Fri, 24 Apr 2026 12:55:19 +0000",
+      "summary": "在创始人Jonas Andrulis被赶出公司仅几个月后，加拿大AI公司Cohere宣布收购德国AI初创公司Aleph Alpha。该交易由Schwarz集团投资6亿美元支持。这对创业者和投资人是一个警示：即使曾被寄予厚望的AI公司，也可能因内部变动而迅速易主，行业整合正在加速。",
+      "score": 27
+    },
+    {
+      "section": "政策与监管",
+      "title": "Meta与亚马逊签约采购数百万颗AI CPU：芯片竞赛从GPU转向专用处理器",
+      "company": "Meta",
+      "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 24 Apr 2026 12:00:00 +0000",
+      "summary": "Meta已与亚马逊签约，采购数百万颗亚马逊自研的Graviton CPU，用于AI代理工作负载，而非传统的GPU。这标志着AI芯片需求正从训练转向推理和代理任务，亚马逊Graviton专为处理实时推理、代码编写等计算密集型工作设计。",
+      "score": 26
+    },
+    {
+      "section": "技术与研究",
+      "title": "Snowflake Cortex Agents 实战：用金融智能架构打通结构化与非结构化数据",
       "company": "Snowflake",
       "url": "https://www.infoq.cn/article/LIb7POBCMo8213s9lk0T?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Fri, 24 Apr 2026 18:48:28 GMT",
-      "summary": "本文介绍了利用 Snowflake Cortex Agents 进行金融智能架构编排的技术实践。通过创建会计科目表、组织结构表等维度表，以及总账分录事实表，并插入示例财务数据，展示了如何实现结构化与非结构化数据的统一分析。这对金融行业的数据分析师和架构师意味着，可以更高效地整合多源数据，提升财务分析的准确性和效率。",
-      "score": 35
+      "summary": "本文展示了如何通过 Snowflake Cortex Agents 编排金融智能架构，实现结构化财务数据与非结构化数据的统一分析。关键步骤包括创建会计科目表、组织结构和总账分录等维度表与事实表，并插入示例财务数据，如2025年1月的产品销售收入记录。对于金融行业开发者而言，这意味着可以更高效地构建统一分析平台，显著降低数据整合的复杂度。",
+      "score": 37
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Visier联手Amazon Quick：为知识工作者打造统一AI工作空间，让数据查询与行动一步到位",
+      "company": "Visier",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-workforce-ai-agents-with-visier-and-amazon-quick/",
+      "source": "AWS Machine Learning Blog",
+      "publishedAt": "Fri, 24 Apr 2026 18:04:20 +0000",
+      "summary": "本文展示了如何通过Model Context Protocol连接Visier Workforce AI平台与Amazon Quick，为每位知识工作者提供一个统一的智能体工作空间，让他们可以提问。Visier利用实时劳动力数据和组织背景来支撑这个工作空间，同时允许用户在不切换工具的情况下对对话结果采取行动。",
+      "score": 33
+    },
+    {
+      "section": "技术与研究",
+      "title": "金融软件研发：AI提效先问“能不能”，严格流程与可追溯性成关键",
+      "company": "",
+      "url": "https://www.infoq.cn/article/RKJhuuOzLMaZmtmc4Uvf?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 24 Apr 2026 18:39:14 GMT",
+      "summary": "一家金融软件公司在AI应用上采取了审慎策略，不追求AI代码直接进入生产，而是强调完整开发、审核与测试流程。该公司尝试用大模型辅助完善设计文档，但初期生成质量不可用，同时注重将优秀人员的AI使用经验沉淀为可复用的规则。这对金融科技行业意味着，在追求效率的同时，安全性与可审计性仍是不可妥协的基础。",
+      "score": 30
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "英特尔数据中心转型：从卖芯片到卖系统，CPU在Agent时代重回C位",
+      "company": "英特尔",
+      "url": "https://www.leiphone.com/category/chips/w7LBeBBb4VFJkVy7.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 24 Apr 2026 19:12:00 +0800",
+      "summary": "英特尔数据中心团队正从芯片供应商转向系统与解决方案提供商，提前一年用高级模型验证客户工作负载。公司观察到CPU与GPU使用比例从1:4快速翻倍增长，预计最终接近1:1。这意味着在Agent任务驱动下，数据中心对CPU的依赖显著增强，英特尔通过整合SoC组件和推进共封装光学技术提升计算密度。",
+      "score": 30
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Mac mini 因 AI 需求短缺，eBay 加价转售潮来袭",
+      "company": "Apple",
+      "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 24 Apr 2026 16:42:19 +0000",
+      "summary": "苹果Mac mini因需求激增而售罄，eBay上出现大量加价转售列表。这款紧凑型台式机因适合运行本地AI模型和工具而备受青睐。对开发者和AI爱好者来说，这意味着本地AI部署硬件的供应紧张，可能推高短期获取成本。",
+      "score": 30
     }
   ]
 }
