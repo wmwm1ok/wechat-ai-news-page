@@ -1,0 +1,444 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "阿里云百炼首发DeepSeek-V4：百万超长上下文，API输入低至1元",
+      "url": "https://www.leiphone.com/category/industrynews/VXWvhZ0EYmGjo6mD.html",
+      "snippet": "4月24日消息，阿里云百炼平台首发上线DeepSeek-V4-pro和DeepSeek-V4-flash两款模型，API价格与DeepSeek官网一致，百万Tokens输入最低仅需1元，百万Tokens输出最低2元。近期，百炼Token Plan也将支持调用该模型。 官方信息显示，DeepSeek-V4拥有百万超长上下文，在Agent能力、世界知识和推理性能上均表现优秀。DeepSeek-V4对Agent产品进行了适配和优化，在代码任务、文档生成任务等方面表现均有提升。 目前，阿里云百炼已上线等100多款顶尖全模态模型，是模型种类最丰富的大模型服务平台。 雷峰网",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 24 Apr 2026 20:08:00 +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "雷锋网"
+      ],
+      "coverageTitles": [
+        "阿里云百炼上线DeepSeek-V4 "
+      ],
+      "summary": "阿里云百炼平台于4月24日首发上线DeepSeek-V4-pro和DeepSeek-V4-flash两款模型，API价格与DeepSeek官网一致，百万Tokens输入最低1元、输出最低2元。该模型拥有百万超长上下文，在Agent能力、世界知识和推理性能上表现优秀，并对Agent产品进行了适配优化，提升了代码和文档生成任务表现。",
+      "category": "产品发布与更新",
+      "company": "阿里云",
+      "score": 56,
+      "breakdown": {
+        "substance": 19,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "GitHub Copilot 突然停止注册：Agent 化使用模式“顶穿”原有定价模型",
+      "url": "https://www.infoq.cn/article/U3BlkMiBlgWgLiKFth4N?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 24 Apr 2026 18:46:43 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了"
+      ],
+      "summary": "GitHub Copilot因Agent化使用模式导致算力消耗激增，已停止新用户注册。问题源于限流系统bug低估了新一代模型（如Claude Opus 4.6和GPT-5.4）的token使用量，且多步骤Agent任务在限流时会中断且无法恢复。",
+      "category": "产品发布与更新",
+      "company": "GitHub",
+      "score": 48,
+      "breakdown": {
+        "substance": 9,
+        "importance": 6,
+        "readerValue": 12,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI小猫SentiCat来了：扫描电脑、接入7款模型，生产力和情绪价值都拉满",
+      "url": "https://www.qbitai.com/2026/04/406560.html",
+      "snippet": "做PPT、写报告、做攻略，全包圆了",
+      "source": "量子位",
+      "publishedAt": "Fri, 24 Apr 2026 09:09:55 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "真有人做AI小猫啊？！生产力和情绪价值都拉满了"
+      ],
+      "summary": "AI初创公司SentiPulse思维光谱推出了AI Agent产品SentiCat，它能在用户授权后扫描电脑系统配置、工作区、浏览器和应用安装等信息。该产品接入了MiniMax、通义千问、智谱、豆包、DeepSeek、Kimi、小米等7款国内主流模型，用户可自由切换。",
+      "category": "产品发布与更新",
+      "company": "SentiPulse思维光谱",
+      "score": 42,
+      "breakdown": {
+        "substance": 11,
+        "importance": 0,
+        "readerValue": 13,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "谷歌豪掷400亿美元押注Anthropic：现金+算力双管齐下，AI军备竞赛再升级",
+      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "snippet": "Google plans up to $40B investment in Anthropic as AI rivals race to secure massive compute capacity, following the limited release of its powerful, cybersecurity-focused Mythos model.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 24 Apr 2026 18:00:03 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "Google to invest up to $40B in Anthropic in cash and compute"
+      ],
+      "summary": "谷歌计划向AI公司Anthropic投资高达400亿美元，包括现金和计算资源。此举发生在AI竞争对手争相获取大规模算力之际，Anthropic此前已有限发布其专注于网络安全的Mythos模型。对AI行业而言，这标志着科技巨头正通过巨额投资锁定关键算力资源，加剧竞争。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 42,
+      "breakdown": {
+        "substance": 11,
+        "importance": 5,
+        "readerValue": 7,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Snowflake 推出 Cortex Code：用规范驱动代码生成，加速金融分析仪表板构建",
+      "url": "https://www.infoq.cn/article/o8dh3dRH6Kk8vzrzKdJd?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 24 Apr 2026 18:51:20 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "Snowflake Cortex Code 的规范驱动开发：将 SDLC 方法论引入 AI 辅助工作流 ｜ 技术实践"
+      ],
+      "summary": "Snowflake发布了一种名为Cortex Code的规范驱动开发方法，将传统SDLC流程引入AI辅助工作流。该方法通过定义27项需求（如市场热力图、交互式K线图、RSI指标等），自动生成包含16个文件的Streamlit仪表板，用于分析道指30成分股。这对金融分析师和开发者意味着，AI可以基于明确规范快速生成可执行代码，提升数据应用开发效率。",
+      "category": "产品发布与更新",
+      "company": "Snowflake",
+      "score": 40,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "readerValue": 11,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Gemini 变身生活管家：教你用AI搞定清洁、收件箱和季节性家务",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "snippet": "Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+      "source": "Google AI Blog",
+      "publishedAt": "Fri, 24 Apr 2026 19:00:00 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "Google AI Blog"
+      ],
+      "coverageTitles": [
+        "8 Gemini tips for organizing your space (and life)"
+      ],
+      "summary": "谷歌Gemini推出AI驱动的整理技巧，帮助用户优化家居和数字空间。这些技巧涵盖清洁计划、收件箱清理和季节性家务等场景。对普通用户而言，这意味着AI助手正从单纯对话扩展到生活管理，提升日常效率。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 40,
+      "breakdown": {
+        "substance": 5,
+        "importance": 6,
+        "readerValue": 7,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "优必选发布Thinker cosmos开发者社区：开源生态加码，助力人形机器人规模化落地",
+      "url": "https://www.qbitai.com/2026/04/406806.html",
+      "snippet": "",
+      "source": "量子位",
+      "publishedAt": "Fri, 24 Apr 2026 11:49:30 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "优必选发布Thinker cosmos：加码开发者生态，推动人形机器人走向规模化"
+      ],
+      "summary": "优必选科技在FAIR plus 2026期间正式发布Thinker cosmos开发者专属社区，为开发者提供从需求侧到供给侧的连接平台。该社区汇集开源成果、技术资料，并开放算力补贴和课题激励，同时计划于2026年第二季度开放大规模开源人形机器人真机数据集。这对开发者意味着能降低模型训练门槛，加速具身智能技术从实验室走向实际应用。",
+      "category": "技术与研究",
+      "company": "优必选",
+      "score": 55,
+      "breakdown": {
+        "substance": 17,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI首席科学家：AI进展“慢得惊人”，但中期将迎来“极其显著”突破",
+      "url": "https://the-decoder.com/openais-chief-scientist-says-ai-progress-has-been-surprisingly-slow-and-promises-big-leaps-ahead/",
+      "snippet": "OpenAI has released GPT-5.5, and the company's leadership says the real breakthroughs are still ahead. Chief scientist Jakub Pachocki expects \"extremely significant improvements\" in the medium term, calling recent AI progress \"surprisingly slow.\" The article OpenAI's chief scientist says AI progress has been \"surprisingly slow\" and promises big leaps ahead appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Fri, 24 Apr 2026 18:31:15 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "OpenAI's chief scientist says AI progress has been \"surprisingly slow\" and promises big leaps ahead"
+      ],
+      "summary": "OpenAI发布了GPT-5.5，但公司首席科学家Jakub Pachocki认为AI进展“慢得惊人”。他预计中期内将出现“极其显著的改进”，真正的突破还在前方。这对AI从业者意味着，当前模型只是过渡，未来技术迭代可能带来更大变革。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 44,
+      "breakdown": {
+        "substance": 2,
+        "importance": 16,
+        "readerValue": 5,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "金融科技公司AI提效：先问“能不能”，再谈“用不用”",
+      "url": "https://www.infoq.cn/article/RKJhuuOzLMaZmtmc4Uvf?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 24 Apr 2026 18:39:14 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "当互联网用AI卷效率时，这家公司先问了一连串“能不能”"
+      ],
+      "summary": "一家金融软件公司在AI研发中强调流程严谨性，不直接部署AI生成代码，而是通过多环节审核确保安全。该公司尝试用大模型辅助文档同步，但初期效果不佳，同时注重经验沉淀和模型对比评估。这对金融行业开发者意味着，AI提效应在可控范围内探索，而非盲目追求效率。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 42,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "readerValue": 15,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "飞书项目开放架构让AI真正“会执行”：7家新能源车企已采用",
+      "url": "https://www.infoq.cn/article/ub0bHyfIRpbO61I876k2?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 24 Apr 2026 19:18:13 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案"
+      ],
+      "summary": "飞书项目通过开放架构和MCP能力，让AI能真正进入项目管理流程，承接文档撰写、数据录入等高频重复工作。目前已有7家新能源车企选用飞书项目，在软件研发管理SaaS和IPD管理SaaS领域市场份额分别达46.8%和68.6%。这意味着企业AI需求正从“会生成”转向“会执行”，项目管理工具需实现数据与业务流程的连接。",
+      "category": "技术与研究",
+      "company": "飞书",
+      "score": 41,
+      "breakdown": {
+        "substance": 13,
+        "importance": 0,
+        "readerValue": 7,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Visier联手Amazon Quick：用AI Agent统一企业员工数据工作空间，实现可审计的智能对话",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-workforce-ai-agents-with-visier-and-amazon-quick/",
+      "snippet": "In this post, we show how connecting the Visier Workforce AI platform with Amazon Quick through Model Context Protocol (MCP) gives every knowledge worker a unified agentic workspace to ask questions in. Visier helps ground the workspace in live workforce data and the organizational context that surrounds it while letting your users act on the conversational results without switching tools.",
+      "source": "AWS Machine Learning Blog",
+      "publishedAt": "Fri, 24 Apr 2026 18:04:20 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "AWS Machine Learning Blog"
+      ],
+      "coverageTitles": [
+        "Building Workforce AI Agents with Visier and Amazon Quick"
+      ],
+      "summary": "Visier与Amazon Quick通过Model Context Protocol（MCP）连接，为知识工作者打造统一的AI代理工作空间。Visier提供实时劳动力数据和组织上下文，用户可在对话式结果上直接操作，无需切换工具。这一集成将提升企业员工数据查询与决策效率，对人力资源和业务管理者具有实用价值。",
+      "category": "技术与研究",
+      "company": "Visier",
+      "score": 36,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Snowflake Cortex Agents 实战：用结构化与非结构化数据统一分析，重构金融智能架构",
+      "url": "https://www.infoq.cn/article/LIb7POBCMo8213s9lk0T?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 24 Apr 2026 18:48:28 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "金融智能的架构编排：基于 Snowflake Cortex Agents 实现结构化与非结构化数据统一分析 ｜ 技术实践"
+      ],
+      "summary": "本文介绍了利用 Snowflake Cortex Agents 进行金融智能架构编排的技术实践。通过创建会计科目表、组织结构表等维度表，以及总账分录事实表，并插入示例财务数据，展示了如何实现结构化与非结构化数据的统一分析。这对金融行业的数据分析师和架构师意味着，可以更高效地整合多源数据，提升财务分析的准确性和效率。",
+      "category": "技术与研究",
+      "company": "Snowflake",
+      "score": 35,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "readerValue": 7,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "GPT-5.5全榜碾压Claude Opus 4.7：OpenAI反击，百度前员工受贿获刑12年，DeepSeek估值或达3000亿",
+      "url": "https://www.leiphone.com/category/zaobao/o42n2XkzLk6Prs1a.html",
+      "snippet": "要闻提示 1.GPT-5.5来了！全榜第一碾压Opus 4.7，OpenAI一雪前耻 2.百度最新通报！原贴吧员工石某某，获刑12年 3.曝DeepSeek 50亿起投，最新估值高达3000亿 4.为“干私活”删除公司AI训练数据，一程序员获刑五年十个月 5.中国僧人玩CS2修行走红！电脑价值4万，用RTX4090 6.伊朗全国断网超52天创纪录！称美国思科等设备存后门，仍能远程破坏 7.索尼研发9眼8臂乒乓球机器人，打败日本多名顶尖选手 今日头条 GPT-5.5来了！全榜第一碾压Opus 4.7，OpenAI一雪前耻 4月24日消息，据报道，Anthropic 在私募二级市场的估值已突破 1 万亿美元。作为参照，OpenAI 今年 3 月末最新一轮融资的估值，仍停留在 8520 亿美元。这组对比数据也表明了曾经稳坐头把交椅的 OpenAI，如今正在直面被追赶、被超越的压力，但就在刚刚OpenAI 的反击旋即而至：24日凌晨，GPT-5.5 正式发布，同步亮相的还有面向更高阶任务的 GPT-5.5 Pro 版本。 这次更新，看似只是 0.1 的版本号迭代，在推理效率上却判若大版本更新—— 同样的 Codex 任务，GPT-5.5 消耗的 token 显著更少，既更聪明，也更省。GPT‑5.5能更快地理解用户的目标，擅长编写和调试代码、在线研究、分析数据、创建文档和电子表格以及在多个工具之间协同操作。最值得看的是，GPT-5.5在各项基准测试中：全榜第一！不论在编程、推理、数学，还是智能体任务上，Claude Opus 4.7、Gemini 3.1 Pro完全被GPT-5.5踩在了脚下。 其中，在知名第三方评测机构 Artificial Analysis 的综合智能指数榜单上，OpenAI 凭借 GPT-5.5 系列拿下了第一名和第二名，前六席中包揽了四席，竞争对手几乎毫无招架之力。基准测试结果显示，在 Terminal-Bench 2.0（测试复杂命令行工作流）上，GPT-5.5 达到 82.7%，GPT-5.4 为 75.1%，Claude Opus 4.7 为 69.4%。OpenAI团队将其称之为“这是我们迄今为止最智能、最直观易用的模型，也是迈向在计算机上完成工作的全新方式的重要一步。”Sam Altman本人评价该模型：“根据我的经验，它‘知道该做什么’。”（APPSO、新智元） 国内资讯 百度最新通报！原贴吧员工石某某，获刑12年 4 月 23 日，百度集团发布 2025 年反贪腐舞弊通报，2025 年共查办处理违法违纪员工 144 人，其中 33 人被司法机关依法处理，111 人被公司依规处罚。此次通报除了26起移送司法机关以及被法院判决的案件，还有3起被最高人民法院、海淀区人民法院、海淀区人民检察院收录为典型的员工贪腐犯罪案件。其中，原MEG贴吧业务部员工石某某在职期间利用职务之便侵占公司巨额资金并收受他人贿赂，依法被判有期徒刑十二年，该案为近五年判处刑期最长的互联网企业内部贪腐案件。 2014年4月至2019年1月间，石某某任贴吧业务部-基础业务产品部用户经理，负责贴吧产品设计、挖掘客户需求、负责方案推进等工作。其间，被告人石某某利用职务便利，引入北京某科技公司与其所在公司合作虚拟货币奖励业务，并非法收受该公司人民币608万元。2016年6月至12月间，石某某利用职务上的便利，在被害单位与北京某科技公司合作虚拟货币的业务中，通过多个贴吧账号将部分虚拟货币变现并转入其控制的个人银行账户，非法占有被害单位人民币366万。2021年2月17日，被告人石某某被公安机关抓获归案。 《白皮书》显示，该案的典型意义在于揭示了互联网企业中“小官巨贪”和“平台软权力寻租”现象，尤其是在虚拟货币、流量变现等新型业务中，监管滞后易被钻空子。据悉，2020-2025年，百度集团累计查办处理违法违纪员工707人，其中，123人被司法机关依法处理、342人涉及严重违纪被辞退（含司法机关处理）、365人涉及违纪被内部处罚，挽回经济损失5276万余元。 （南方都市报） 曝DeepSeek 50亿起投，最新估值高达3000亿 100亿美元、200亿美元，甚至有人称300亿美元到400亿美元，坊间关于DeepSeek融资前的估值数字一直在变化，还传出腾讯、阿里争抢入局的消息。4月23日消息，一位接近DeepSeek的一线机构投资人士透露，这些数字都不准确，DeepSeek融前估值是3000亿人民币，约合440亿美元。这一估值超过当前已经上市的大模型公司Minimax的2400亿（4月23日），接近智谱的3800亿元。 自2025年，DeepSeek R1创造轰动全球效应后，人们期待的大迭代版本DeepSeek R2 和DeepSeek V4尽管一直未发布，但丝毫未影响资本市场对DeepSeek的期待。此次融资金额之巨，对投资人的限制要求之高，刷新了以往科技公司融资纪录。上述人士称，DeepSeek计划增资500亿，内部增资200亿，对外募资300亿。所有参与投资的机构必须50亿起投，甚至对LP也有身份要求。一家一线投资机构因为募资的基金里有许多个人投资人未达标，也被拒之门外。 因为背靠创始人梁文锋及其关联方幻方量化，DeepSeek一直未引入外部资金。外界也无从知晓DeepSeek估值。此次罕见宣布融资，无疑刷新了国内AI模型公司单笔融资最大规模。（白鲸实验室） 为“干私活”删除公司AI训练数据，一程序员获刑五年十个月 4 月 22 日，北京市东城区人民检察院第二检察部检察官助理张默奇披露了一起具有标志性的案件，一名程序员因私自删除公司 AI 训练数据，导致模型严重受损，最终被判处有期徒刑五年十个月。 2024 年 9 月，东城某科技公司算法工程师王某，为了使用公司的算力资源“干私活”，违规登录公司服务器集群，输入了行业内公认最危险的“删库跑路代码”指令，将公司 AI 游戏部门超过 89 TB 的训练数据和多个公司自主研发的文生 3D AI 模型全部删除。这一行为直接导致模型训练中断，部分已完成训练成果无法恢复，系统性能大幅下降。经评估，对企业造成了 20 余万元的经济损失，同时研发进度严重受阻。 王某将删除数据并下载与工作无关的数据模型，称是为了“程序员的自我提升”，但其难以解释为何删除了与其需求完全不匹配的大量数据。经过对嫌疑人手机数据进行集中分析筛查，从数十万条微信聊天记录中精准定位到王某与外部人员勾结，试图秘密使用公司算力资源“干私活”的关键证据。 据悉，王某删除数据使用指令的含义是“无需确认，强制删除所有文件”，该指令是业内公认的危险指令，综合其从业经历、违规登录最终认定其具有明确的主观故意。案件历经三次庭审，最终当庭以破坏计算机信息系统罪，对王某判处有期徒刑五年十个月。（云头条） 爱奇艺剧宣广告引争议，客服回应：已第一时间下线并排查 4月23日消息，近日，多名网友在社交平台反映，爱奇艺在剧集播放暂停页面推送《绝境通缉令》《突袭》《猎毒风暴》等缉毒题材影视剧广告。上述广告以 “毒枭囚禁女警卧底”“捆绑、灌药、酷刑虐待” 为宣传点，搭配 “少女被灌药”“东南亚吃人园区” 等低俗猎奇文案，引发争议。对此，爱奇艺回应称：“用户体验始终是我们的工作重点。我们已第一时间对相关广告进行下线处理，并对此类广告进行排查，后续将进一步加强相关审核机制。” 此前，当被询问是否只有非会员用户才会看到此类广告时，爱奇艺客服表示“每个用户都是一样的”，具体以前端显示为准，此类广告的投放周期也以前端显示为准。值得注意的是，此次并非爱奇艺首次因低俗广告引发争议。公开信息显示，平台近年来多次被投诉“强制弹窗不良广告”，被网友质疑是“在退市压力下靠猎奇博眼球”。（快科技） 腾讯发布混元最智能模型！姚顺雨在腾讯交出第一份成绩单 4 月 23 日，腾讯正式发布混元 Hy3 preview 语言模型并宣布开源，这也是腾讯首席AI科学家姚顺雨入职近四个月后，交出的第一份成绩单。据腾讯介绍，混元Hy3 preview是一个快慢思考融合的混合专家模型（MoE），总参数295B，激活参数21B，最大支持256K上下文长度。 官方表示，今年 2 月，腾讯混元重建了预训练和强化学习的基础设施，以及模型追求实用性的三个原则（能力体系化、评测真实性、性价比追求），Hy3 preview 是重建后训练的第一个模型，也是混元迄今最智能的模型，在复杂推理、指令遵循、上下文学习、代码、智能体等能力及推理性能上实现了大幅的提升。 目前，该模型已在元宝、ima、WorkBuddy、CodeBuddy等腾讯内部产品中上线。微信公众号、腾讯新闻等产品也将陆续上线。另外，Hy3 preview 已支持流行的开源智能体产品，如 OpenClaw、OpenCode、KiloCode 等。官方表示在腾讯云上推出了有竞争力的 API 价格，以及定制化的 Hy3 preview Token Plan 套餐，个人版定价最低 28 元 / 月。（IT之家） 岚图汽车卢放：泰山 X8 预售订单正式突破 2 万台，网传发布会“男人的衣柜”图是恶搞 P 图 4 月 23 日消息，岚图汽车科技股份有限公司董事长卢放宣布，23日中午，岚图泰山 X8 预售订单正式突破 2 万台。随后，卢放也对网传的发布会“男人的衣柜”图进行了辟谣。他称这张图其实是假的，是恶搞 P 图。这张上屏图是岚图汽车邀请篮球运动员孙悦和相声演员孙越合作拍摄的“男人的衣柜”系列。卢放表示，非常欢迎大家来 P 图玩梗，玩出更多创意，但一定不要恶俗。 此前报道，岚图汽车旗下全新大型 SUV“泰山 X8”已开启预售，该车首搭华为乾崑智驾四激光雷达和 896 线双光路图像级激光雷达，预售价 30.29 万元起。驾乘方面，泰山 X8 车身长宽高分别为 5200×2025×1814mm，采用全域 800V + 5C 超充技术，提供 PHEV 和 EV 两种动力版本，PHEV 版本搭载 65 千瓦时电池包，提供 370KM CLTC 纯电续航和 1506KM CLTC 综合续航；EV 版本搭载 120 千瓦时电池包，提供 727KM CLTC 纯电续航。（IT之家） 用户都气笑了！700元路由器保修剩15天坏了：厂商只愿退款10元了事 4月23日消息，据报道，中国香港消费者潘先生购买的Linksys E8450 AX3200路由器在三年保修期届满前15天出现故障。但厂方却拒绝维修或更换，仅按剩余保修天数折旧公式计算退款10.14港元，而该路由器原价740港元。Linksys的计算方式为：产品购买金额×剩余保修天数÷产品保修期，即740×15÷1095=10.14港元。Linksys在邮件中表示，此方式依据总部统一制定的全球补偿标准，“以确保对所有客户公平、一致”。 该邮件截图被转载至社交媒体后引发大量批评，网友指出，路由器使用寿命通常远超保修期，三年保修的承诺是确保产品在三年内正常运行或获得维修更换，而非产品价值随保修期届满而归零。 HKEPC随后向Linksys香港查询，经查证，由于E8450型号已EOL（停产）且无库存可供替换，外包公司直接执行了退款程序。Linksys香港认同相关做法并不妥当，并已联系潘先生，承诺为其更换同等级或更新型号的路由器。（快科技） 中国僧人玩CS2修行走红！电脑价值4万，用RTX4090 4 月 23 日消息，近日，完美世界电竞博主“大胜CS2”采访了一位特殊玩家——中普陀寺的华严法师，僧龄已有20年。在采访中，华严法师展示了自己的高配游戏装备：一台价值4万多元、搭载RTX 4090显卡的PC。一句“枪法也是法，弹道也是道”，诠释了自己独特的佛系游戏心态。 据悉，华严法师自小学起便接触《CS》，曾在《CS:GO》国际服打上“大老鹰”段位。他还向大家展示了自己的饰品收藏，其中包括朋友赠送的爪子刀“伽马多普勒”，当前价值不菲。他表示，“游戏与修行看似两极，实则同源，都是对自我探索、对专注力的锻炼、对无常的接纳。”游戏仿佛一面镜子，让人直面自己的急躁、执着与好胜心，并从中修正。 遇到作弊玩家时，他引用《寒山拾得问对》中的教诲：“忍他、让他”，相信对方账号终会受到惩罚，心里默默“超度”对方。华严法师强调，能让玩家从游戏中成长的，是学会与队友沟通、提升共情能力，这些收获才是人生中可持续的进步。（快科技） 抖音整治AI不当内容，重点处置利用AI技术换脸、盗声 4 月 23 日消息，近日，抖音正式发布“AI生成不当内容及侵犯他人权益”的专项治理公告。公告对外披露了阶段性治理成效，截至目前已累计下架AI侵权视频超53.8万条，处罚违规账号4000余个，同时明确了重点整治场景与长效管控举措。平台将重点处置利用AI技术换脸、盗声，利用AI生成内容仿冒、蹭热他人等典型违规行为。抖音相关负责人也表示，平台会持续投入提升相关治理能力，但需要承认，当前行业仍普遍面临AI生成内容判断难、AI声音识别能力不足等难题。 公告披露的治理数据显示，2026年以来，平台已累计下架AI侵权视频超53.8万条，依规处罚违规账号4000余个。其中，针对AI仿冒蹭热行为，平台已下架相关视频超36万条；针对AI肖像、AI声音类侵权内容，累计处置8.5万条；对利用“AI霸总”形象误导、诱导中老年人互动的不当内容，已清理相关内容3万余条、处置违规账号1300余个，对情节严重的账号依法采取禁止投稿、封禁权限等梯度处罚，形成有效约束。 安克创新计划推出家庭巡航与安防机器狗产品，今年下半年或明年发布 4 月 23 日消息，据媒体从安克创新处获悉，该公司计划于今年下半年或明年推出机器狗产品。报道称安克创新将家庭机器人划分为三类形态：一是以扫地机、智能割草机为代表的平面移动形态，已实现量产；二是以安防机器狗为代表的三维移动形态，可实现全屋巡航与安全防护，目前处于推进阶段；三是人形机器人主导的三维操作阶段，仍在研发中。 经查询安克官网获悉，2025 年 3 月，安克创新正式发布机器人战略，并启动了大规模相关人才招聘计划。安克称将从专用领域机器人起步，逐步探索通用人形机器人的可能性，最终希望提供一个多样化的机器人产品组合，满足用户在不同场景中的需求。 2025 年，安克创新全年实现营业收入 305.14 亿元，同比增长 23.49%；实现归属于上市公司股东的净利润 25.45 亿元，同比增长 20.37%；扣非归母净利润为 21.79 亿元，同比增长 15.44%；毛利率达 45.07%。（IT之家） 脑机接口收费标准来了 4月23日消息，据报道，我国多数省份已为脑机接口相关价格项目制定政府指导价，其中侵入式脑机接口置入费价格集中在6000至6600元/次，非侵入式脑机接口适配费价格集中在960元左右，有效稳定创新企业市场回报预期。 上个月，我国批准了全球首个侵入式脑机接口医疗器械产品，并已被纳入上海市医保医用耗材目录，脑机接口商业化提速。国家药监审批、医保定价支付与临床应用的无缝衔接，有效避免了脑机接口等创新医疗产品“无法收费”的空白困境。数据显示，2025年以来，脑机接口企业融资进入爆发期，2025年全年脑机接口融资事件约25起，融资总额接近14.5亿元；2026年前三个月，脑机接口企业融资事件已经有17起，融资总金额已超2025年全年。 目前，国内处于第一梯队的脑机接口企业包括无创技术路线的脑机接口公司强脑科技，以及侵入式脑机接口公司博睿康、阶梯医疗、脑虎科技等。上个月，阶梯医疗宣布获得5亿元战略融资，阿里巴巴领投、腾讯跟投，标志着互联网巨头开始深度布局脑机接口赛道。（第一财经） 大模型上可以订机票和选座值机了 4月23日消息，中国东航与阿里千问签约，千问首家接入东方航空，上线全流程AI机票服务，改变传统OTA为主的机票销售流程。用户在AI对话界面输入个人偏好后，由AI完成自动查询、比对并推荐最适配的东航航班，进而完成购票，选座，值机，由东航官方提供退改签支持，未来将进一步接入会员服务。（第一财经） 国际资讯 伊朗全国断网超52天创纪录！称美国思科等设备存后门，仍能远程破坏 4月23日消息，伊朗国家媒体近期发布指控，称美国与以色列对伊朗发起军事打击期间，即便该国已提前切断全球互联网连接，思科、瞻博、飞塔、MikroTik品牌的网络设备仍出现大规模故障。伊方直指美国利用设备预留后门实施深度破坏，相关指控目前尚未得到独立第三方核实。自2月28日美以发起针对伊朗的“史诗狂怒”军事行动以来，伊朗全国互联网已连续关停52天。当前该国网络连通率仅维持在战前水平的1%左右，创下全球有记录以来持续时间最长的全国性互联网断网纪录。 伊朗官方媒体披露，针对伊斯法罕的袭击进入关键节点时，上述品牌的设备集中出现重启、离线故障。事发时伊朗已物理切断国际互联网接口，常规远程网络攻击手段完全无法生效。伊方将这一异常故障定性为“深度蓄意破坏”，推测设备固件中预埋了后门程序，可通过卫星信号触发，或是按预设时间启动破坏指令。美国尚未直接回应伊朗的具体指控，但已公开承认对伊朗通信基础设施发起过网络行动。 此次被伊朗点名的四家厂商，均有公开可查的安全问题记录。2014年斯诺登泄露的美国国家安全局文件显示，美方曾在运输途中截留思科路由器，植入监控程序后重新封装。2015年瞻博网络披露，旗下防火墙固件存在未授权代码，可被攻击者绕过身份验证。2016年飞塔承认，系统旧版本存在可被远程访问的硬编码SSH密码。MikroTik路由器则长期是僵尸网络的攻击目标，曾被曝出可植入持久化后门的完整漏洞链。（快科技） 索尼研发9眼8臂乒乓球机器人，打败日本多名顶尖选手 4月22日，Nature杂志发表重磅论文：索尼AI研发的乒乓球机器人Ace在遵循国际乒联规则、由持证裁判执裁的正式比赛中，成功击败多名“人类精英选手”，13场比赛赢下7场。这是AI机器人首次在需要物理互动的竞技体育中击败专业人类选手，被认为是继AlphaGo围棋之后，AI在竞技领域的又一历史性突破。Ace通过9个摄像头网络实现毫秒级轨迹预测，8自由度机械臂完成击球。 不过在索尼高调的宣传背后，有网友质疑其宣传“成色不足”——毕竟乒乓球运动最顶端的选手并不都在日本。众所周知，在乒乓球这项被中国国家队长期且绝对垄断的运动中，公众语境里的“世界顶尖”早已与奥运冠军群体形成了严格的心理绑定。缺乏了这群最高级别“大魔王”作为检验标尺，球迷们本能地对其胜利成色打上了问号。 退休教授约翰·比林斯利批评称，Ace战胜人类更多依靠的是硬件带来的巨大优势。他指出，人类选手只能依靠两只肉眼捕捉单一光源下的白球，而Ace却在球台四周密布了多达9台高速摄像机，构建了一个无死角的“上帝视角”来实时解算3D空间数据。依靠这种绝对的信息差碾压获取胜利，对人类而言显然有失公允。（红星新闻、IT之家） 特斯拉最新业绩公布！FSD有望第三季度在中国获批 4月23日消息，电动车龙头特斯拉公布了2026年一季度财报，财报显示，特斯拉Q1营收为223.87亿美元，上年同期193.35亿美元，市场预期为227.92亿美元；其中，汽车业务收入同比增长16%。在电话会议上，公司CFO表示，特斯拉正积极与中国监管机构沟通，目标是在今年第三季度获得FSD（完全自动驾驶）的批准。此前，特斯拉CEO马斯克曾公开预测该系统最快于2026年2月获得批准，此次为官方第二次推迟预期时间节点。 目前，特斯拉FSD尚未获得中国市场的全面商用批准，仅开放部分辅助驾驶功能。公司已在华推进多项合规工作，包括建立上海本地AI训练中心，实现中国境内驾驶数据本地化存储与训练，满足数据安全监管要求。同时，FSD系统已针对中国路况完成专项优化，适配非机动车、无灯路口等本土场景。特斯拉FSD为高阶辅助驾驶系统，采用纯视觉技术路线，需搭载HW3.0及以上硬件（2024年后生产车型标配HW4.0）。当前中国市场仅小范围试点，面向已购买6.4万元选装包的用户开放部分功能。 全球范围内，FSD拥有近130万付费用户，近期已在荷兰获得关键审批，国内L3级自动驾驶目前采用试点模式，仅限特定场景与区域，未全面向个人用户开放。特斯拉FSD若三季度获批，将成为国内首个实现大范围商用的外资高阶自动驾驶系统。（快科技、上观新闻）（作者长期关注蔚小理和智能驾驶的技术与人事动态，欢迎添加微信 ColombaHere 交流讨论） 本田：将于今年底停止在韩国销售汽车 4 月 23 日消息，本田技研工业株式会社宣布，将于 2026 年底终止其韩国子公司 —— 本田韩国有限公司的汽车销售业务。该子公司总部位于韩国首尔，主营本田摩托车及汽车销售业务。 本田称，鉴于全球及韩国汽车市场环境发生变化，同时为集中企业资源、强化中长期竞争力，本田经全面考量后决定退出韩国汽车销售市场。即便终止汽车销售业务，本田仍将继续为韩国市场的本田汽车用户提供售后服务，包括车辆检修保养、零部件供应及保修支持。 本田还称，本田韩国将继续以摩托车业务为核心，持续推出优质产品，并进一步升级服务与用户体验，以此强化在韩业务布局。（IT之家） SpaceX 计划自研自制 GPU，已将其列入重大资本开支项目 4 月 23 日消息，外媒爆料称，SpaceX 可能正准备啃下芯片产业里最难的一块骨头之一：自己制造支撑 AI 运算的核心芯片 ——GPU。随着估值 1.75 万亿美元（约合 11.97 万亿元人民币）的 IPO 逐渐推进，SpaceX 已经提前向潜在投资者打了招呼，说明 SpaceX 接下来会在 AI 和其他技术上投入巨额资金。外媒查阅到的 S-1 注册文件摘录显示，SpaceX 已经把“自研并制造 GPU”列入重大资本开支项目。企业在上市前，通常都会向美国证券交易委员会提交这份文件，披露自身面临的风险和财务情况。 SpaceX、旗下 xAI 以及特斯拉，眼下正在联合推进一个名为 Terafab 的先进 AI 芯片制造园区，地点就设在得克萨斯州奥斯汀，这也是马斯克亲自推动的项目。报道特别指出，SpaceX 在文件里提到 GPU 时，到底是特指图形处理器，还是把这个词当成 AI 处理器的统称，目前也难以定夺。 SpaceX 在 S-1 注册文件中写道，公司并未和大量直接芯片供应商签下长期合同。“我们预计，未来仍会从第三方供应商采购相当一部分计算硬件。同时，我们无法保证自己一定能在预期时间内实现 TERAFAB 相关目标，甚至无法保证这些目标最终一定能够实现。”（IT之家）",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 24 Apr 2026 19:54:00 +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "雷锋网"
+      ],
+      "coverageTitles": [
+        "GPT-5.5来了！全榜第一碾压Opus 4.7，OpenAI一雪前耻；百度最新通报！原贴吧员工石某某，获刑12年；曝DeepSeek最新估值高达3000亿"
+      ],
+      "summary": "OpenAI发布GPT-5.5系列模型，在Artificial Analysis综合智能指数榜单上拿下第一和第二名，前六席中包揽四席，在Terminal-Bench 2.0等基准测试中全面超越Claude Opus 4.7和Gemini 3.1 Pro。百度通报原贴吧员工石某某因受贿获刑12年。据曝料，DeepSeek最新估值高达3000亿元。",
+      "category": "投融资与并购",
+      "company": "OpenAI",
+      "score": 46,
+      "breakdown": {
+        "substance": 13,
+        "importance": 11,
+        "readerValue": 7,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "Meta签约采购数百万亚马逊AI芯片：CPU取代GPU开启新竞赛",
+      "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
+      "snippet": "Meta has commandeered a big chunk of Amazon's homegrown CPUs (not GPUs) for AI agentic workloads, signaling that a new kind of chip race has begun.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 24 Apr 2026 12:00:00 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "In another wild turn for AI chips, Meta signs deal for millions of Amazon AI CPUs"
+      ],
+      "summary": "Meta已与亚马逊达成协议，采购数百万颗亚马逊自研CPU（非GPU），用于AI代理工作负载。这些芯片专为处理实时推理、代码编写等计算密集型任务设计，标志着CPU在特定AI任务中正获得重视。对AI基础设施而言，这可能改变传统依赖GPU的格局，为企业提供更具性价比的AI计算选择。",
+      "category": "政策与监管",
+      "company": "Meta",
+      "score": 26,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "readerValue": 4,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
