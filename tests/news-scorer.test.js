@@ -240,6 +240,41 @@ describe('News scorer', () => {
     expect(duplicate.isDuplicate).toBe(false);
   });
 
+  it('treats same model launch coverage as duplicate even when angles differ', () => {
+    const duplicate = checkSemanticDuplicate(
+      {
+        title: 'DeepSeek-V4开源发布，华为云首发适配：百万Token上下文与推理成本双突破',
+        summary: '4月24日，DeepSeek-V4模型正式发布并开源，华为云首发适配。DeepSeek-V4 拥有百万Token超长上下文，在 Agent 能力、世界知识和推理性能上均实现领先。'
+      },
+      [
+        {
+          title: 'DeepSeek 发布 V4-Pro 和 V4-Flash：1.6 万亿参数模型定价仅为竞品零头',
+          summary: '中国AI实验室Deepseek发布了V4-Pro和V4-Flash两个新模型，参数高达1.6万亿，上下文窗口达100万token，定价远低于竞品。'
+        }
+      ]
+    );
+
+    expect(duplicate.isDuplicate).toBe(true);
+    expect(duplicate.reason).toBe('同一模型事件');
+  });
+
+  it('treats same OpenAI model launch benchmark coverage as duplicate', () => {
+    const duplicate = checkSemanticDuplicate(
+      {
+        title: 'GPT-5.5 发布：自主修复系统故障，OpenAI 重夺大模型性能榜首',
+        summary: 'OpenAI 发布 GPT-5.5，在 Terminal-Bench 2.0 基准测试中领先，并强化代码和计算机使用能力。'
+      },
+      [
+        {
+          title: 'GPT-5.5 多项评测碾压 Opus 4.7：奥特曼晒黄仁勋内部信，英伟达全员用上 Codex',
+          summary: 'OpenAI 发布 GPT-5.5 模型，在多项专业评测中全面领先 Claude Opus 4.7，并披露 API 定价。'
+        }
+      ]
+    );
+
+    expect(duplicate.isDuplicate).toBe(true);
+  });
+
   it('rejects consumer automotive launches with weak AI relevance', () => {
     const now = new Date().toISOString();
     const scoring = scoreNews({
@@ -252,6 +287,21 @@ describe('News scorer', () => {
     }, []);
 
     expect(scoring.isDuplicate).toBe(true);
+  });
+
+  it('rejects stale event recap stories even when the source republishes them today', () => {
+    const now = new Date().toISOString();
+    const scoring = scoreNews({
+      title: '人形机器人半马首超人类：硬件能力见顶，智能竞赛开启',
+      summary: '2026北京亦庄人形机器人半程马拉松赛中，荣耀人形机器人“闪电”以50分26秒夺冠。该内容主要复盘赛事结果和世界纪录，并未披露新的产品发布、融资、论文或产业落地。对读者而言，这类复盘新闻时效性不足。',
+      source: '机器之心',
+      publishedAt: now,
+      region: '国内',
+      url: 'https://example.com/robot-marathon'
+    }, []);
+
+    expect(scoring.isDuplicate).toBe(true);
+    expect(scoring.reason).toBe('赛事复盘类旧闻，时效性不足');
   });
 
   it('rejects peripheral AI-adjacent consumer stories', () => {

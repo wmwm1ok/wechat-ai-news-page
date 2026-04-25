@@ -118,6 +118,33 @@ const DEDUPE_TITLE_STOPWORDS = new Set([
   '发布', '推出', '上线', '更新', '开放', '宣布', '公司', '模型', '平台', '工具', '产品', '功能',
   '人工智能', '大模型', '智能体'
 ]);
+const DEDUPE_ENTITY_PATTERNS = [
+  { entity: 'openai', pattern: /\bopenai\b/i },
+  { entity: 'deepseek', pattern: /\bdeepseek\b|深度求索/i },
+  { entity: 'anthropic', pattern: /\banthropic\b/i },
+  { entity: 'google', pattern: /\bgoogle\b|谷歌/i },
+  { entity: 'meta', pattern: /\bmeta\b/i },
+  { entity: 'microsoft', pattern: /\bmicrosoft\b|微软/i },
+  { entity: 'nvidia', pattern: /\bnvidia\b|英伟达/i },
+  { entity: 'hugging face', pattern: /\bhugging face\b/i }
+];
+const DEDUPE_MODEL_FAMILY_PATTERNS = [
+  { family: 'gpt-5.5', pattern: /\bgpt[-\s]?5\.5\b/i },
+  { family: 'gpt-5', pattern: /\bgpt[-\s]?5\b/i },
+  { family: 'gpt-4o', pattern: /\bgpt[-\s]?4o\b/i },
+  { family: 'deepseek-v4', pattern: /\bdeepseek[-\s]?v4\b|\bv4[-\s]?(?:pro|flash)?\b/i, requiredEntity: 'deepseek' },
+  { family: 'claude-code', pattern: /\bclaude\s+code\b/i },
+  { family: 'claude-opus', pattern: /\bclaude\s+opus\b|\bopus\s+\d/i },
+  { family: 'claude-sonnet', pattern: /\bclaude\s+(?:3\.5\s+)?sonnet\b/i },
+  { family: 'gemini-versioned', pattern: /\bgemini\s+\d(?:\.\d)?\b/i },
+  { family: 'qwen-versioned', pattern: /\bqwen\s*\d(?:\.\d)?\b|通义千问\s*\d|千问\s*\d/i },
+  { family: 'llama-versioned', pattern: /\bllama\s+\d(?:\.\d)?\b/i },
+  { family: 'sora', pattern: /\bsora\b/i }
+];
+const DEDUPE_MODEL_EVENT_ACTION_PATTERNS = [
+  /发布|推出|上线|开放|开源|接入|适配|更新|升级|定价|降价|涨价|评测|基准|跑分|发布会|首发/,
+  /\b(?:launch|launched|release|released|ship|ships|unveil|unveils|introduce|introduces|open source|pricing|benchmark|eval|rolls out)\b/i
+];
 
 function isCfcFastMode() {
   return process.env.CFC_FAST_MODE === 'true';
@@ -370,6 +397,41 @@ function getSignalOverlap(aSignals, bSignals) {
   };
 }
 
+function extractDedupEntities(text = '') {
+  return DEDUPE_ENTITY_PATTERNS
+    .filter(item => item.pattern.test(text))
+    .map(item => item.entity);
+}
+
+function extractDedupModelFamilies(text = '', entities = []) {
+  return DEDUPE_MODEL_FAMILY_PATTERNS
+    .filter(item => {
+      if (item.requiredEntity && !entities.includes(item.requiredEntity)) {
+        return false;
+      }
+      return item.pattern.test(text);
+    })
+    .map(item => item.family);
+}
+
+function getModelEventSignature(item = {}) {
+  const text = `${item.title || ''} ${item.snippet || ''} ${item.summary || ''}`;
+  const entities = extractDedupEntities(text);
+  const modelFamilies = extractDedupModelFamilies(text, entities);
+  const hasAction = DEDUPE_MODEL_EVENT_ACTION_PATTERNS.some(pattern => pattern.test(text));
+
+  return { entities, modelFamilies, hasAction };
+}
+
+function areSameModelEvent(a, b) {
+  const aSignature = getModelEventSignature(a);
+  const bSignature = getModelEventSignature(b);
+  const hasSharedEntity = aSignature.entities.some(entity => bSignature.entities.includes(entity));
+  const hasSharedModel = aSignature.modelFamilies.some(model => bSignature.modelFamilies.includes(model));
+
+  return Boolean(hasSharedEntity && hasSharedModel && aSignature.hasAction && bSignature.hasAction);
+}
+
 function areDuplicateNewsItems(a, b) {
   const aUrl = normalizeUrlForDedup(a.url || a.link);
   const bUrl = normalizeUrlForDedup(b.url || b.link);
@@ -386,7 +448,11 @@ function areDuplicateNewsItems(a, b) {
   const aSignals = getTitleSignals(a.title);
   const bSignals = getTitleSignals(b.title);
   const { sharedCount, ratio } = getSignalOverlap(aSignals, bSignals);
-  return sharedCount >= 3 && ratio >= 0.6;
+  if (sharedCount >= 3 && ratio >= 0.6) {
+    return true;
+  }
+
+  return areSameModelEvent(a, b);
 }
 
 function getSourceRank(source) {

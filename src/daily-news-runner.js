@@ -294,6 +294,11 @@ function isFinalTopicVariant(item, selectedItem) {
     return false;
   }
 
+  const semanticCheck = checkSemanticDuplicate(item, [selectedItem]);
+  if (semanticCheck.isDuplicate) {
+    return true;
+  }
+
   const itemSignals = extractFinalTopicSignals(item.title);
   const selectedSignals = extractFinalTopicSignals(selectedItem.title);
   const sharedSignals = itemSignals.filter(signal => selectedSignals.includes(signal));

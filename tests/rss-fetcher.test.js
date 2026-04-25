@@ -225,6 +225,36 @@ describe('RSS fetcher filters', () => {
     expect(result.length).toBe(2);
     expect(openai.coverageCount).toBe(2);
   });
+
+  it('merges same model launch variants across sources', () => {
+    const result = deduplicateNews([
+      {
+        title: 'DeepSeek-V4正式发布，多家企业已通过华为云接入',
+        url: 'https://www.jiqizhixin.com/articles/deepseek-v4',
+        snippet: 'DeepSeek-V4模型正式发布并开源，包含V4-Pro和V4-Flash，拥有百万Token上下文。',
+        source: '机器之心',
+        publishedAt: '2026-04-24T16:35:00+08:00'
+      },
+      {
+        title: 'As agentic AI pushes rivals to raise prices, Deepseek ships V4-Pro and V4-Flash',
+        url: 'https://the-decoder.com/deepseek-v4-pro-flash',
+        snippet: 'Chinese AI lab Deepseek has released V4-Pro and V4-Flash, two new models with a one-million-token context window and lower pricing.',
+        source: 'The Decoder',
+        publishedAt: '2026-04-24T16:35:28+08:00'
+      },
+      {
+        title: 'OpenAI releases GPT-5.5 with stronger coding benchmarks',
+        url: 'https://example.com/openai-gpt-55',
+        snippet: 'OpenAI released GPT-5.5 for coding and computer-use tasks.',
+        source: 'VentureBeat AI',
+        publishedAt: '2026-04-24T07:00:00+08:00'
+      }
+    ]);
+
+    const deepseek = result.find(item => item.title.toLowerCase().includes('deepseek'));
+    expect(result.length).toBe(2);
+    expect(deepseek.coverageCount).toBe(2);
+  });
 });
 
 console.log('🧪 Running RSSFetcher Tests...\n');

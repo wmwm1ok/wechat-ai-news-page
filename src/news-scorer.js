@@ -49,6 +49,48 @@ const LOW_VALUE_EDITORIAL_PATTERNS = [
   /或将/,
   /有望/
 ];
+const MODEL_FAMILY_PATTERNS = [
+  { family: 'gpt-5.5', pattern: /\bgpt[-\s]?5\.5\b/i },
+  { family: 'gpt-5', pattern: /\bgpt[-\s]?5\b/i },
+  { family: 'gpt-4.5', pattern: /\bgpt[-\s]?4\.5\b/i },
+  { family: 'gpt-4o', pattern: /\bgpt[-\s]?4o\b/i },
+  { family: 'deepseek-v4', pattern: /\bdeepseek[-\s]?v4\b|\bv4[-\s]?(?:pro|flash)?\b/i, requiredEntity: 'deepseek' },
+  { family: 'claude-code', pattern: /\bclaude\s+code\b/i },
+  { family: 'claude-opus', pattern: /\bclaude\s+opus\b|\bopus\s+\d/i },
+  { family: 'claude-sonnet', pattern: /\bclaude\s+(?:3\.5\s+)?sonnet\b/i },
+  { family: 'gemini-versioned', pattern: /\bgemini\s+\d(?:\.\d)?\b/i },
+  { family: 'qwen-versioned', pattern: /\bqwen\s*\d(?:\.\d)?\b|通义千问\s*\d|千问\s*\d/i },
+  { family: 'llama-versioned', pattern: /\bllama\s+\d(?:\.\d)?\b/i },
+  { family: 'sora', pattern: /\bsora\b/i }
+];
+const MODEL_EVENT_ACTION_PATTERNS = [
+  /发布|推出|上线|开放|开源|接入|适配|更新|升级|定价|降价|涨价|评测|基准|跑分|发布会|首发/,
+  /\b(?:launch|launched|release|released|ship|ships|unveil|unveils|introduce|introduces|open source|pricing|benchmark|eval|rolls out)\b/i
+];
+const LOW_FRESHNESS_EVENT_TITLE_PATTERNS = [
+  /马拉松/,
+  /半马/,
+  /赛事/,
+  /比赛/,
+  /夺冠/,
+  /冠军/,
+  /世界纪录/
+];
+const HARD_NEWS_TITLE_PATTERNS = [
+  /发布/,
+  /推出/,
+  /上线/,
+  /开源/,
+  /融资/,
+  /收购/,
+  /监管/,
+  /政策/,
+  /论文/,
+  /研究/,
+  /量产/,
+  /商用/,
+  /\b(?:launch|release|funding|acquisition|policy|research|paper)\b/i
+];
 const CORE_AI_SIGNAL_TERMS = [
   'ai', '人工智能', '大模型', '模型', '算法', '训练', '推理', '多模态', '智能体', 'agent',
   'llm', '世界模型', '端到端', 'vla', 'robotaxi', '数据集', '生成式', '具身智能', 'mcp'
@@ -330,6 +372,63 @@ function isPeripheralAINews(news) {
   return strongAiHits < 2 && !hasTopEntity;
 }
 
+function extractModelFamilies(text, entities = []) {
+  const normalizedText = String(text || '');
+  const normalizedEntities = entities.map(entity => String(entity || '').toLowerCase());
+
+  return MODEL_FAMILY_PATTERNS
+    .filter(item => {
+      if (item.requiredEntity && !normalizedEntities.includes(item.requiredEntity)) {
+        return false;
+      }
+      return item.pattern.test(normalizedText);
+    })
+    .map(item => item.family);
+}
+
+function hasModelEventAction(text) {
+  return MODEL_EVENT_ACTION_PATTERNS.some(pattern => pattern.test(text));
+}
+
+function getModelEventSignature(news) {
+  const title = String(news?.title || '');
+  const summary = String(news?.summary || '');
+  const text = `${title} ${summary}`;
+  const entities = extractCoreEntities(text);
+  const modelFamilies = extractModelFamilies(text, entities);
+
+  return {
+    text,
+    entities,
+    modelFamilies,
+    hasAction: hasModelEventAction(text)
+  };
+}
+
+function hasSameModelEvent(current, existing) {
+  const currentSignature = getModelEventSignature(current);
+  const existingSignature = getModelEventSignature(existing);
+  const sharedEntity = currentSignature.entities.find(entity => existingSignature.entities.includes(entity));
+  const sharedModel = currentSignature.modelFamilies.find(model => existingSignature.modelFamilies.includes(model));
+
+  return Boolean(
+    sharedEntity &&
+    sharedModel &&
+    currentSignature.hasAction &&
+    existingSignature.hasAction
+  );
+}
+
+function isLowFreshnessEventRecap(news) {
+  const title = String(news?.title || '');
+  const hasEventRecapTitle = LOW_FRESHNESS_EVENT_TITLE_PATTERNS.some(pattern => pattern.test(title));
+  if (!hasEventRecapTitle) {
+    return false;
+  }
+
+  return !HARD_NEWS_TITLE_PATTERNS.some(pattern => pattern.test(title));
+}
+
 /**
  * 智能语义去重 - 基于URL、标题和摘要的综合判断
  * @param {Object} news - 当前新闻 {title, url, summary}
@@ -366,6 +465,15 @@ export function checkSemanticDuplicate(news, existingNews) {
         isDuplicate: true, 
         reason: '标题完全相同', 
         confidence: 1.0,
+        matchedWith: existingTitle
+      };
+    }
+
+    if (hasSameModelEvent(news, existing)) {
+      return {
+        isDuplicate: true,
+        reason: '同一模型事件',
+        confidence: 0.94,
         matchedWith: existingTitle
       };
     }
@@ -620,6 +728,10 @@ export function scoreNews(news, existingTitles) {
 
   if (isPeripheralAINews(news)) {
     return { score: 0, isDuplicate: true, reason: '边缘AI内容，读者价值不足' };
+  }
+
+  if (isLowFreshnessEventRecap(news)) {
+    return { score: 0, isDuplicate: true, reason: '赛事复盘类旧闻，时效性不足' };
   }
   
   // AI行业相关性检查 - 标题或摘要必须包含AI关键词
