@@ -1,0 +1,444 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "DeepSeek V4双版本发布：中国AI迈入万亿参数俱乐部",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-25-6",
+      "snippet": "编辑｜冷猫、+0这两天，全球顶级大模型接连更新，重磅消息一个接一个。中国这边也迎来热闹非凡的一周，从周一开始，Qwen、Kimi、小米、腾讯相继发布最新模型。周五，千呼万唤的 DeepSeek 终于发布 V4 双版本，引发了国内 AI 圈的一波海啸。其中，中国迈入万亿参数俱乐部并已开源的模型有...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-25T19:40:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "翻完DeepSeek报告，我们发现了中国AI的默契"
+      ],
+      "summary": "本周，中国AI领域迎来密集更新，Qwen、Kimi、小米、腾讯相继发布最新模型。周五，DeepSeek正式发布V4双版本，引发国内AI圈广泛关注。这表明中国AI技术正加速突破，开源万亿参数模型为开发者提供了更强大的工具。",
+      "category": "产品发布与更新",
+      "company": "DeepSeek",
+      "score": 57,
+      "breakdown": {
+        "substance": 18,
+        "importance": 10,
+        "readerValue": 11,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Snowflake 推出智能体运行时：从静态管道迈向自主数据系统",
+      "url": "https://www.infoq.cn/article/GL7YlM38mlEarquKkSE9?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Sat, 25 Apr 2026 16:00:00 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践"
+      ],
+      "summary": "Snowflake 发布了智能体运行时技术实践，展示了如何从静态数据管道转向自主数据系统。该实践通过创建专用仓库、角色和AI视图，实现了产品优化逻辑的自动化。这对开发者意味着可以利用Snowflake的Cortex AI功能构建更智能的数据应用。",
+      "category": "产品发布与更新",
+      "company": "Snowflake",
+      "score": 42,
+      "breakdown": {
+        "substance": 12,
+        "importance": 0,
+        "readerValue": 11,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "华为发布ADS 5：极端情况自动靠边停车，今年智能驾驶投入超180亿",
+      "url": "https://www.qbitai.com/2026/04/407363.html",
+      "snippet": "“为自动驾驶而来”",
+      "source": "量子位",
+      "publishedAt": "Sat, 25 Apr 2026 15:38:18 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "华为发布ADS 5！强化世界模型路线，今年投入180亿"
+      ],
+      "summary": "华为发布了ADS 5智能辅助驾驶系统，强化了世界模型路线。该系统在检测到车主失去意识时，城区会驱动车辆靠边停车，高速上则自动送至安全区域。华为计划今年在智能辅助驾驶领域投入超180亿元，并投入近百亿元用于云端算力，未来5年再投700-800亿元。",
+      "category": "产品发布与更新",
+      "company": "华为",
+      "score": 40,
+      "breakdown": {
+        "substance": 16,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "00后开发者48小时复刻OpenAI新功能：让AI直接看屏幕，交互方式变了",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-25-8",
+      "snippet": "最近，AI 圈又多了一个「48 小时开源」的故事。4 月 20 日，OpenAI 发布了 Chronicle，带来了一个很关键的能力：AI 可以直接「看见你的屏幕」，并持续记住上下文。 这意味着什么？不只是聊天更顺了，而是交互方式变了。在写代码、改文档、调设计稿时，你不再需要向 AI 反复解释...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-25T19:46:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "在OpenAI把Chronicle做成订阅功能48小时后，一群00后把它开源了"
+      ],
+      "summary": "一群00后开发者将OpenAI刚发布的Chronicle功能开源，该功能允许AI直接查看用户屏幕并持续记忆上下文。这一开源项目在OpenAI推出该功能48小时后完成，改变了人机交互方式，用户无需再向AI反复解释当前状态。对于开发者和创作者而言，这意味着更高效的协作体验，尤其在代码编写、文档修改和设计调整等场景中。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 58,
+      "breakdown": {
+        "substance": 21,
+        "importance": 10,
+        "readerValue": 9,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "开源模型逆袭：宽德Will联手斯坦福清北，用“高效试错”框架横扫21个科学发现任务",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-25-5",
+      "snippet": "编辑｜Sia不是让模型更聪明，而是让试错本身变得更高效。有了这套框架「傍身」，普通开源模型也能「逆袭」做出惊人科学发现。假设你手里只有一笔有限预算，要去搏一项未知的科学发现。你会怎么选？把钱全砸给一个顶级模型（比如 OpenAI o1、DeepSeek），让它长时间深思熟虑，试图一击即中？还是...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-25T19:36:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "开源模型横扫21个科学发现任务！宽德Will联手斯坦福清北，把试错变成武器"
+      ],
+      "summary": "一项研究提出新框架，让普通开源模型通过高效试错在科学发现任务中超越顶级模型。该框架在21个任务上取得领先成果，由宽德Will与斯坦福、清华、北大等机构合作完成。这意味着开源模型在科学发现领域有了低成本、高效率的替代方案，可能推动更多研究团队采用开源工具。",
+      "category": "技术与研究",
+      "company": "宽德Will",
+      "score": 53,
+      "breakdown": {
+        "substance": 17,
+        "importance": 5,
+        "readerValue": 13,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "中科院计算所XBridge：无需训练LLM，多语言问答能力“外挂式”加载",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-25-7",
+      "snippet": "XBridge 能够将 LLM 低资源语言甚至未见语言的理解和生成能力提升到接近组合的 NMT 模型的水平，在下游任务上显著缩小高资源、低资源语言间性能差距，同时保持或提升高资源语言能力，全程无需训练 LLM。近年来，大语言模型（LLM）在通用问答与复杂推理任务上表现优异。然而在多语言场景下，...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-25T19:43:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "ACL 2026 | 不训练LLM也能支持未见语言问答？中科院计算所团队让多语言能力「外挂式」加载"
+      ],
+      "summary": "中科院计算所团队提出XBridge方法，无需训练大语言模型即可提升其对低资源语言甚至未见语言的理解和生成能力。该方法使LLM在下游任务上的表现接近组合的神经机器翻译模型水平，显著缩小了高资源与低资源语言间的性能差距，同时保持或提升了高资源语言能力。这对多语言AI应用开发者意味着，可以低成本扩展LLM的语言覆盖范围，无需重新训练模型。",
+      "category": "技术与研究",
+      "company": "中科院计算所",
+      "score": 47,
+      "breakdown": {
+        "substance": 11,
+        "importance": 5,
+        "readerValue": 13,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "国产AI生图再突破：UniWorld-V2.5对齐GPT-Image-2，中文场景表现超预期",
+      "url": "https://www.qbitai.com/2026/04/406994.html",
+      "snippet": "一家低调的视觉大模型公司，浮出水面",
+      "source": "量子位",
+      "publishedAt": "Sat, 25 Apr 2026 06:58:48 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "硬刚GPT-Image-2！国产AI生图“天花板”又被捅破了？"
+      ],
+      "summary": "国产视觉空间智能模型UniWorld系列发布V2.5版本，在InfoGraph、文字密集等复杂场景上对齐GPT-Image-2，并显著超越其他主流文生图模型。该系列早于Nano Banana推出，V2版本在GEdit-Bench评测中超越GPT-Image-1，多项指标优于谷歌Nano Banana系列。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 47,
+      "breakdown": {
+        "substance": 15,
+        "importance": 5,
+        "readerValue": 9,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Anthropic 让AI代理当买卖双方：186笔真实交易，总金额超4000美元",
+      "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+      "snippet": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 25 Apr 2026 21:43:37 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "Anthropic created a test marketplace for agent-on-agent commerce"
+      ],
+      "summary": "Anthropic 在最新实验中创建了一个分类市场，让AI代理同时代表买家和卖家，为真实商品和真实货币达成交易。实验共完成186笔交易，总价值超过4000美元，参与者为69名员工，每人获得100美元预算。这一进展展示了AI代理在商业交易中的潜力，可能为开发者开辟自动化交易新场景，但也引发了对AI代理经济行为监管的讨论。",
+      "category": "技术与研究",
+      "company": "Anthropic",
+      "score": 38,
+      "breakdown": {
+        "substance": 1,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI CEO 向加拿大社区致歉：未及时报警，AI安全责任再引争议",
+      "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+      "snippet": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Sat, 25 Apr 2026 17:17:56 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "OpenAI CEO apologizes to Tumbler Ridge community"
+      ],
+      "summary": "OpenAI CEO Sam Altman 致信加拿大Tumbler Ridge居民，就公司未在2025年6月向执法部门报告一名涉嫌策划大规模枪击的ChatGPT用户账户表示“深感抱歉”。该用户账户因描述枪支暴力场景被OpenAI封禁，但公司内部讨论后决定不报警，直至枪击事件发生后才联系当局。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 32,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "readerValue": 8,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Anthropic 实验揭示：更强 AI 模型谈判更占优，用户却浑然不觉",
+      "url": "https://the-decoder.com/anthropic-says-stronger-ai-models-cut-better-deals-and-the-losers-dont-even-notice/",
+      "snippet": "Anthropic let 69 AI agents trade on behalf of employees in an internal marketplace for a week. Stronger models scored better deals, and the people stuck with weaker agents never noticed. If AI models start handling real transactions for humans, these dynamics could deepen existing economic inequalities. The article Anthropic says stronger AI models cut better deals, and the losers don't even notice appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Sat, 25 Apr 2026 10:18:31 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Anthropic says stronger AI models cut better deals, and the losers don't even notice"
+      ],
+      "summary": "Anthropic 让 69 个 AI 代理在一个内部市场中代表员工进行了一周的交易，其中部分代理使用更强的 Claude Opus 4.5，部分使用更小的 Claude Haiku 4.5。结果显示，Opus 卖家平均多赚 2.68 美元，买家少付 2.45 美元，但使用 Haiku 的用户对交易公平性的评分几乎与 Opus 用户相同。",
+      "category": "技术与研究",
+      "company": "Anthropic",
+      "score": 31,
+      "breakdown": {
+        "substance": 3,
+        "importance": 5,
+        "readerValue": 6,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "美联储研究：ChatGPT发布后，美国程序员就业增长几乎腰斩",
+      "url": "https://the-decoder.com/us-programmer-job-growth-nearly-halved-since-chatgpt-launched-fed-study-finds/",
+      "snippet": "Programmers are among the professional groups whose everyday lives have changed the most as a result of generative AI. A new study by the Federal Reserve Board now provides evidence that this is also reflected in employment figures. The article US programmer job growth nearly halved since ChatGPT launched, Fed study finds appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Sat, 25 Apr 2026 12:44:29 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "US programmer job growth nearly halved since ChatGPT launched, Fed study finds"
+      ],
+      "summary": "美联储委员会的一项新研究显示，自ChatGPT发布以来，美国程序员的就业增长几乎减半。程序员是受生成式AI影响最大的职业群体之一，其就业数据变化提供了证据。这一发现对AI使用者和开发者意味着，AI正在显著改变劳动力市场，尤其是编程相关岗位的需求。",
+      "category": "技术与研究",
+      "company": "美联储",
+      "score": 30,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "readerValue": 7,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "轻舟智航进军物理AI：用世界模型让自动驾驶算法练成“老司机”",
+      "url": "https://www.qbitai.com/2026/04/407026.html",
+      "snippet": "500TOPS上车世界模型",
+      "source": "量子位",
+      "publishedAt": "Sat, 25 Apr 2026 07:22:22 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "自动驾驶赛道DeepSeek，轻舟智航率先进军物理AI"
+      ],
+      "summary": "轻舟智航提出通过世界模型和强化学习训练自动驾驶算法，让AI在虚拟空间中穷举极端场景，如鬼探头、高速爆胎等，以降低现实路测成本和风险。该技术将物理规律搬进虚拟环境，使AI在模拟中形成“肌肉记忆”，从而在现实世界中无需从零试错。这对自动驾驶行业意味着，世界模型可能成为降低算法开发门槛、提升安全性的关键范式，尤其适用于L2+及更高级别系统。",
+      "category": "技术与研究",
+      "company": "轻舟智航",
+      "score": 29,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "readerValue": 11,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "海康机器人年营收超64亿：AI质检与具身智能加速工业柔性制造落地",
+      "url": "https://36kr.com/p/3782137908403457?f=rss",
+      "snippet": "作者 | 乔钰杰 编辑 | 袁斯来 当前，制造业正站在从“自动化”向“智能化”跨越的关键节点。 2026年是海康机器人成立十周年。作为工业智能化领域的创新者与实践者，海康机器人近年持续推进机器视觉、移动机器人与柔性制造技术的深度融合，构建起“眼、脚、手”一体化的全栈技术能力，形成了以机器视觉、关节机器人和移动机器人为核心的三大业务体系。 2025年全年，海康机器人营收突破64.52亿元，其中机器视觉类产品累计出货量超 1000 万台，移动机器人累计下线突破 18 万台。基于完善的硬件产品线，其自研工业软件授权用户超60万人次，全球服务客户超2万家。 2026年4月22日至24日，「海康机器人·智造大会2026」在杭州桐庐举办。海康机器人首席执行官贾永华提出“具身智造”的概念。他表示，传统自动化体系正面临灵活性不足的问题，难以适应需求碎片化与用工结构变化。“具身智造”需要通过两种能力来应对：一是具备多任务能力的高柔性设备，二是可快速复制的场景化应用能力，从而推动制造体系从“人适应机器”向“机器适应环境”转变。 大会期间，海康机器人除展示了机器视觉、关节机器人、移动机器人在制造、流通等行业场景的应用落地情况外，还并发布了超过35款新品，覆盖标准视觉（2D与2.5D计算光学）、高精度3D视觉以及AI智能视觉等方向，重点针对复杂场景成像、高精度测量及AI落地难等工程问题。 图源企业 面向未来，海康机器人也在积极推进AI融合与具身智能布局。 在接受36氪专访时，海康机器人副总裁张文聪介绍，公司自2016年起系统性推进AI技术在产品中的落地，目前已在多个产品线中实现规模化应用，并成为提升产品性能与工程效率的重要手段。 早在2019年，海康机器人用于调度移动机器人的RCS（机器人控制系统）就开始在路径规划和任务调度中引入强化学习与运筹优化方法，突破调度规模上限；到2021年初，已在一汽丰田单厂实现超1000台机器人跨地图协同运行。“接下来，公司也会探索AI进一步向工业深水区渗透的路径，包括更复杂场景下的质检能力。”张文聪表示。 在被问及具身智能在工业的应用，张文聪表示，“具身智能”并不代表产品都要做成拟人形态，“海康机器人现阶段把端到端的眼、手的协同做好，广义看也是朝向具身智能的很大进步，比如说机器视觉和关节机器人配合的视控一体应用就会有很大的提升。” 面向更长周期，张文聪表示，工业场景中，在高度标准化、高节拍的环节上，专用设备仍具效率优势；但在节拍要求相对宽松的场景中，具身智能具备“一机多能”的潜力。整体上，具身智能与现有自动化方案将更多形成互补关系，而非直接替代。 图源企业 以下是36氪与海康机器人副总裁张文聪的交流内容，略经编辑： 问：机器视觉、移动机器人和机械臂，这三个板块的营收占比如何？ 张文聪：目前来看，我们的营收还是主要来自机器视觉和移动机器人这两大板块，机械臂这一块占比还不算大。��要原因是我们切入机械臂相对比较晚，虽然已经做了大概5年，但整个产品线还在持续丰富的过程中,目前整体营收规模还在爬坡阶段。 问：目前AI在我们的产品中有哪些实际应用？ 张文聪：AI现在已经比较深入地用在我们的产品里面了，尤其是在机器视觉这一块。像读码、OCR识别这些场景，我们都已经用深度学习做了比较多的升级，以前很多识别算法是需要现场训练的，现在基本上可以做到“开箱即用”，大多数场景下不需要再做二次训练，效果也比较稳定。 另外一个重点方向是工业质检，我们这几年也在持续投入。从早期的小模型，到现在逐步引入大模型。以我们和一家国内大型医疗用品生产企业的合作举例，他们希望为生产的一次性医疗手套引入一套全自动、高精度、可追溯的质量检测系统。而手套属于柔性物体，容易变形，而且颜色类型非常多，这类缺陷检测其实难度很高。 我们在2021年最早用传统的CNN模型来做时，每上一条产线基本都要重新采样、重新训练，扩展起来比较慢。后来在23、24年切换到大模型方案之后，同一个车间内的多条产线可以快速复制，原来可能需要上万张样本，现在一两百张就够了。现在这套系统能稳定检出0.8毫米以上的缺陷，对污渍、破损等重要缺陷的检出率超过99.995%，一条线一天能检30万只，整个部署和交付效率提升非常明显。 问：整体来看，目前AI 类产品在工业场景的落地情况如何？ 张文聪：AI在工业场景的落地仍然偏慢，核心原因在于成本与交付周期。一方面，工业质检等应用场景复杂，系统开发周期长，导致整体解决方案成本较高；另一方面，终端客户在评估投入产出比时，如果回报周期过长，往往会延迟或放弃部署。 针对这一问题，公司一方面持续提升算法能力，降低开发和部署成本；另一方面通过引入大模型、优化工程化能力，缩短交付周期，减少对样本数据和人工调试的依赖。整体目标是推动AI能力“普惠化”，让更多行业能够以可接受的成本使用智能化方案。 问：您如何看待人形机器人在工业场景的落地价值？ 张文聪：我觉得是有价值的，但前提是要把“通用性”真正做出来。如果一台人形机器人能够一机多用，既能搬运、又能做简单质检，甚至还能做上下料，那在一些节拍要求没那么高的场景里，它的价值就很明显了，可以成为“多能工”。 但如果高度标准化、节拍很快的产线上，还是“专机”效率更高、成本更可控，所以两者更像是互补关系，而不是替代关系。从现在来看，人形在工业里的落地还比较早期，尤其工业对稳定性要求很高，目前很多能力还需要持续迭代。 图源企业 问：海康机器人强调的“眼脚手”协同和VLA模型是什么关系？ 张文聪：VLA（Vision-Language-Action）模型是一种理想的端到端范式，目标是通过单一大模型实现从感知到决策再到执行的全流程闭环。但从当前技术成熟度来看，这条路还在比较早期的阶段，真正落地还有不少挑战。 相比之下，我们提出的“眼脚手”协同更偏工程化路径：通过视觉（眼）、操作（手）、移动（脚）等模块的协同，实现具体任务的自动化。在实际落地中，我们更多是用多个小模型组合来解决问题，而不是完全依赖一个大模型。当然，VLA这个方向我们也在做，而且有专门的团队在投入。整体来看，我们的理解是：短期靠“小模型组合”实现落地，长期再往端到端的大模型演进，两条路线是并行的、互补的关系。 问：软硬一体布局为公司带来了哪些核心优势？ 张文聪：软硬件一体化是公司核心战略之一。一方面，单纯做硬件容易陷入同质化竞争，缺乏差异化壁垒；另一方面，仅做软件在商业模式和客户粘性上也存在挑战。软硬件协同，可以实现相互促进：硬件带动软件销售，软件提升硬件附加值。 以机器视觉为例，我们的自研软件平台可以以模块化方式开放给客户进行二次开发，从而形成生态粘性。同时，软件还能帮助客户降低开发成本、提升效率，规避知识产权风险。整体来看也构建了更高的技术与商业壁垒。",
+      "source": "36氪",
+      "publishedAt": "2026-04-25 19:15:26  +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "36氪"
+      ],
+      "coverageTitles": [
+        "最前线｜2025年全年营收超64亿，海康机器人表示将继续推进AI融合与具身智能布局"
+      ],
+      "summary": "海康机器人2025年全年营收突破64.52亿元，机器视觉产品累计出货超1000万台，移动机器人累计下线超18万台。公司发布超35款新品，覆盖标准视觉、高精度3D视觉及AI智能视觉方向，并推进AI融合与具身智能布局。这意味着工业智能化正从自动化向柔性制造转变，AI在质检等场景的落地效率显著提升，但成本与交付周期仍是行业普及的关键挑战。",
+      "category": "投融资与并购",
+      "company": "海康机器人",
+      "score": 46,
+      "breakdown": {
+        "substance": 18,
+        "importance": 5,
+        "readerValue": 13,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "阿联酋宣布两年内让半数政府由AI自主代理运行：全球首个大规模AI政府计划",
+      "url": "https://the-decoder.com/the-uae-wants-half-its-government-run-by-autonomous-ai-agents-within-two-years/",
+      "snippet": "The United Arab Emirates plans to shift half of its government operations to autonomous AI systems within two years. The article The UAE wants half its government run by autonomous AI agents within two years appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Sat, 25 Apr 2026 09:08:57 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "The UAE wants half its government run by autonomous AI agents within two years"
+      ],
+      "summary": "阿联酋宣布将在两年内将50%的政府业务、服务和流程转移至自主AI系统，成为全球首个如此大规模依赖AI代理的政府。每位联邦雇员将接受AI协作培训，旨在提升服务效率、加速决策。此举对全球政府和企业而言，标志着AI在公共管理领域的大规模应用迈出关键一步，但自主AI系统的错误、偏见放大及缺乏民主监督的风险也需警惕。",
+      "category": "政策与监管",
+      "company": "阿联酋",
+      "score": 26,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
