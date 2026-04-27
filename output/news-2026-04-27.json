@@ -1,0 +1,318 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "OpenAI 再次关闭 Codex 专用编程模型：整合进 GPT-5.5，统一编程体验",
+      "url": "https://openai.com/index/our-principles",
+      "snippet": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+      "source": "OpenAI News",
+      "publishedAt": "Sun, 26 Apr 2026 16:00:00 GMT",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "OpenAI News"
+      ],
+      "coverageTitles": [
+        "Our principles"
+      ],
+      "summary": "OpenAI 再次停用其专用的编程模型 Codex，将其功能直接整合到主模型中。GPT-5.5 承诺提供更强的智能体编程能力并降低 token 使用量。这对开发者意味着，他们未来将不再需要切换专用模型，而是通过主模型获得更统一的编程体验。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 46,
+      "breakdown": {
+        "substance": 4,
+        "importance": 11,
+        "readerValue": 11,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "剪映推出AI助手：自动导入素材、生成配音，视频剪辑效率飙升",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-26-4",
+      "snippet": "编辑｜杨文剪辑是个苦差事。每当领导丢来一堆素材，留下一句「剪个宣传片」，我们就知道今晚又得点灯熬油了。素材散落在不同文件夹里，需要逐个导入、预览、筛选；要是再配个解说词，我们还得先绞尽脑汁写文案，找个配音念出来，然后一帧一帧地对齐音频和画面。好不容易剪完一版，领导说「能不能换个风格」，我们也只...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-26T23:08:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "剪映上线AI助手，熬夜剪片的苦日子终于到头了"
+      ],
+      "summary": "剪映推出AI助手，旨在简化视频剪辑流程。该工具可帮助用户自动导入、预览和筛选素材，并支持文案撰写、配音生成及音画对齐。这对视频创作者意味着剪辑效率将大幅提升，减少重复性劳动。",
+      "category": "产品发布与更新",
+      "company": "",
+      "score": 32,
+      "breakdown": {
+        "substance": 5,
+        "importance": 0,
+        "readerValue": 7,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "OpenClaw之父发布AI维护机器人Clawsweeper：一天处理4000个issues，代码管理迎来自动化",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-26-7",
+      "snippet": "什么？现在，50 个 Codex 可以并行运行，issues 和 PRs 也能全天候扫描了。昨天晚上，OpenClaw 之父 Peter Steinberger 发布的最新项目「Clawsweeper」实现了这一切。它是一个专注于控制代码「洪流」的 AI 维护机器人，负责关闭 OpenClaw...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-26T23:25:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "AI管AI！OpenClaw官方维护机器人上线：一天横扫4000 issues"
+      ],
+      "summary": "OpenClaw项目创始人Peter Steinberger发布了名为Clawsweeper的AI维护机器人。该机器人能并行运行50个Codex实例，全天候扫描issues和PRs，专注于关闭OpenClaw中的代码问题。这意味着开发者可以更高效地管理代码洪流，减少人工维护负担。",
+      "category": "技术与研究",
+      "company": "OpenClaw",
+      "score": 55,
+      "breakdown": {
+        "substance": 21,
+        "importance": 5,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "人大高瓴博士生代彦琪：用难题驱动强化学习，让大模型数学推理能力再升级",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-26",
+      "snippet": "代彦琪（个人主页：https://yanqidai.github.io/），现为人大高瓴四年级直博生、南洋理工大学访问学生，师从卢志武教授与张含望教授，主要研究方向为多模态大模型和强化学习。预计于 2027 年 6 月毕业，目前正积极寻求工业界发展机会。在大模型数学推理的强化学习中，一个看似简...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-26T22:54:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "ICLR 2026｜MathForge：用难题驱动强化学习，提升大模型数学推理"
+      ],
+      "summary": "ICLR 2026接收论文MathForge提出用难题驱动强化学习的方法，提升大模型数学推理能力。该研究由人大高瓴四年级直博生代彦琪主导，其师从卢志武教授与张含望教授，主要研究方向为多模态大模型和强化学习。这对大模型数学推理领域的研究者意味着一种新的训练思路，可能推动模型在复杂数学问题上的表现提升。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 39,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "readerValue": 13,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Claude认怂：降智实锤、越聊越傻，三个bug全曝光",
+      "url": "https://www.qbitai.com/2026/04/407502.html",
+      "snippet": "模型降智属实，所有使用额度均已重置。",
+      "source": "量子位",
+      "publishedAt": "Sun, 26 Apr 2026 09:56:44 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "Claude终于认了！降智坐实，越聊越傻，3个bug全曝光"
+      ],
+      "summary": "Anthropic承认Claude存在降智问题，Pro用户月费20美元，但升级到Max 5x需100美元/月，年费达1200美元。3月4日，Claude Code默认推理从high降为medium，界面却仍显示high，一个多月后才回滚，类似问题去年8月已出现过。",
+      "category": "技术与研究",
+      "company": "Anthropic",
+      "score": 39,
+      "breakdown": {
+        "substance": 6,
+        "importance": 5,
+        "readerValue": 10,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "ICLR 2026提出Balanced Thinking：大模型推理精度提升10%，长度缩短35.4%",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-26-3",
+      "snippet": "在过去一年中，大模型推理中的「过度思考」问题引发了广泛关注。然而，真正的挑战并非简单地缩短思维链。面对简单问题，模型往往在得出正确答案后仍持续进行冗余验证；而许多旨在抑制过度思考的方法虽能压缩输出长度，却常常将必要的推理探索一并剔除，导致模型从「想太多」直接滑向「想太少」。高效推理的核心目标并...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-26T23:03:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "大模型高效推理新答案：ICLR 2026提出Balanced Thinking，精度提升10.0的同时，推理长度直降35.4%"
+      ],
+      "summary": "ICLR 2026上，研究者提出了Balanced Thinking方法，旨在解决大模型推理中的“过度思考”问题。该方法在保持推理精度的同时，将输出长度缩短35.4%，并将推理精度提升10%，避免了模型从“想太多”滑向“想太少”。这一成果对开发者而言，意味着可以在不牺牲准确性的前提下，显著降低推理成本，提升模型效率。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 35,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "深度学习理论荒原：LeCun直言学界仍缺“牛顿定律”",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-26-5",
+      "snippet": "编辑｜冷猫深度学习到底有没有科学理论？这是一个很微妙的时代。一边是大模型以令人眩晕的速度迭代，参数量从百亿冲向万亿；另一边是学术界的一片沉默 —— 我们依然没有找到深度学习的基本理论，神经网络仍然是个黑盒子。LeCun 在 X 上直言不讳：「深度学习的理论基础仍然是一片荒原。」Geoffrey...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-26T23:15:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "终于，学界找到了深度学习的「牛顿定律」"
+      ],
+      "summary": "深度学习缺乏基础理论的问题引发学界关注，LeCun直言理论基础仍是荒原。当前大模型参数量从百亿冲向万亿，但神经网络仍被视为黑盒子。这意味着技术迭代虽快，但缺乏理论支撑可能限制长期发展，对研究人员和开发者而言，理论突破将是关键方向。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 34,
+      "breakdown": {
+        "substance": 1,
+        "importance": 5,
+        "readerValue": 8,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI智能体并未取代软件工程，而是将其扩展到代码之外：新研究揭示开发者技能转型方向",
+      "url": "https://the-decoder.com/ai-agents-arent-replacing-software-engineering-but-expanding-it-far-beyond-code-researchers-argue/",
+      "snippet": "The popular story goes that AI agents are swallowing up more programming work and developers are headed for obsolescence. A new paper from researchers at Chalmers University of Technology and the Volvo Group argues that view misses the mark. The article AI agents aren't replacing software engineering but expanding it far beyond code, researchers argue appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Sun, 26 Apr 2026 08:12:17 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "AI agents aren't replacing software engineering but expanding it far beyond code, researchers argue"
+      ],
+      "summary": "查尔姆斯理工大学与沃尔沃集团联合发布研究，指出AI智能体并未取代软件工程工作，而是将其扩展到代码之外。研究提出了“半可执行堆栈”模型，包含从经典代码到社会制度适配的六个层级，并指出AI只需达到“足够好”的水平即可改变团队工作方式。对开发者而言，稀缺技能正从快速构建转向判断构建什么、如何验证与维护，意味着需要掌握更广泛的工程与治理能力。",
+      "category": "技术与研究",
+      "company": "Chalmers University of Technology and the Volvo Group",
+      "score": 27,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "readerValue": 6,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "李力耘加入众擎机器人：智驾大将转战具身智能，全栈大脑与顶级本体的双向奔赴",
+      "url": "https://www.leiphone.com/category/robot/EbmFRcvpt7TBjb3P.html",
+      "snippet": "“上个月融2亿美金我都没有这么开心。” “千军易得，一将难求！” “得一悍将！！晚上喝酒庆祝！” 众擎创始人赵同阳，最近发了一条数百字的朋友圈，字里行间难掩喜悦的心情，透露着一种具身行业里少见的“活人感”。 但就在这条朋友圈发布前的一段时间，赵同阳吐露经常辗转反侧，为公司的发展速度感到焦虑。 促成这种转变的，正是他口中的“悍将”李力耘。 4月21日，李力耘正式加入众擎机器人。在此之前，他是小鹏汽车副总裁、自动驾驶一号位，带领超过1000人的团队，主导小鹏智驾从模块化开发向\"数据+算力+模型\"全链路AI化转型。 在人才紧缺的具身行业，任何经验人士的去留，都是各方深思熟虑后的结果，像李力耘这样的智驾大将更是如此。 那么，到底是什么促成了这场双向奔赴？ 什么样的人，比两亿美金还重要？ 众擎现在粮草充足。 2025年12月，众擎A1+、A2轮刚刚融了10亿人民币，四个月后的B轮又进来两亿美金，估值突破百亿，投资方名单里站着立讯精密、河南投资集团、基石资本。资本对众擎的追捧，肉眼可见。 但稍显遗憾的是，一方面手握重金，另一方面，众擎还缺少一位“具身大脑”的实战派领军人物。 直到他等到了李力耘。 李力耘的价值，单从履历上就能窥得一二：清华电子工程系本科、纽约大学计算机系博士是学术底子；LinkedIn美国总部技术架构师、百度Apollo高级专家、京东JDX智慧物流高级专家是工程经验。这条横跨互联网、自动驾驶和机器人的动线，本身就是稀缺品。 而在小鹏的六年四个月，更是他履历中最浓墨重彩的一笔。他离开时，小鹏的城市NGP已覆盖全国所有道路，真正做到了“全国都能开，全国都好开”，而XNGP也成为行业标杆。 从他的战绩里，我们不难总结出三个核心关键词。 第一个关键词是「全栈」。 具身智能行业不缺学术派。顶尖大脑们能写论文、能发顶会、能拿最佳论文奖。但李力耘不一样。他懂互联网产品，做过LinkedIn的推荐系统；他懂自动驾驶，做过Apollo的感知和决策；他懂物流自动化，在京东X事业部管过无人车和无人仓。最后在小鹏，他把这些经验串成了一条线——从模块化开发，转向\"数据+算力+模型\"的全链路AI化。 具备这种从代码到量产的完整经验的人，在行业里屈指可数。 第二个关键词是「筑基」。 小鹏智驾也曾摸着石头过河。2019年，李力耘加入时，他带领的自动驾驶团队不到100人；2025年他离开时，已经超过1000人。他主导建立了端到端的数据闭环，让每一辆跑在路上的小鹏车都成为数据采集器，每一次OTA升级都基于真实路测数据。 从零开始规模化，比从十到百难得多。团队怎么招、数据怎么采、模型怎么训、量产怎么落地——这些没有标准答案的问题，李力耘用六年时间摸索出了一套方法论。 而众擎现在站的位置，也许正是小鹏六年前的那个起点。 第三个关键词是「带队」。 具身智能赛道兴起的时间不过数年，很多初创公司往往缺少管理方面的体系化积累，一些业者甚至刚走出象牙塔，就立刻转变为管理者的角色，需要花大量时间适应。有位刚任职CTO的学者就曾告诉我们，坐上了这个位置后，才认识到了什么叫“管理之难”。 所以，能管理超过1000人软硬件团队、能指挥“大兵团作战”的技术将领，实属凤毛麟角。有了李力耘带队，赵同阳便能省不少心，把精力投入到更具决策性和前瞻性的事上。 对于赵同阳的热忱，李力耘回应得也很直接：\"感谢团队的信任，让我有机会从技术全生命周期的维度，投身于这场具身智能浪潮。\" “技术全生命周期”这几个字，或许就是赵同阳如此兴奋的真正原因。 顶尖本体遇上顶尖大脑，一次充满默契的双向奔赴 那么，李力耘又为什么选择了众擎呢？ 其实答案就藏在李力耘的朋友圈里。他写众擎有一种\"让我心动的极客精神——纯粹、专注，相信技术的力量\"。 在雷峰网看来，这个评价很准确，众擎由内而外散发出的，的确是这种气质。 首先，赵同阳本人就是个手搓硬件的狠角色。2016年，他开始研究人形机器人，创办了两家公司，均以失败告终。 他没放弃，一个人在实验室里调关节、写算法、测步态，用最原始的方式打磨技术。后来创办dogotix，被小鹏收购，成为鹏行智能的一号位，主导PX5研发。 当时，在离开鹏行时，赵同阳没有将股份变现，而是选择换取“自由身”继续追逐梦想。 传言在创业初期，当时赵同阳的个人账面流动资金只有20万元。而这20万元，是他给两个孩子留的一整年学费。如果再不成功，两个孩子下一年的学费都没有着落。 他在朋友圈写下：“要么认输，要么站起来。” 这段经历里，最打动人的是一些细节：他没有大厂背书，没有资本护航，没有名校光环，只有一个工程师对技术的执念。这种「从0到1的钝感力」，李力耘在小鹏也经历过。 众擎的底子，是用这种钝感力磨出来的。 SE01实现全球首例自然步态行走，PM01完成全球首个前空翻，此外兼具高爆发力、高安全性、高性价比并具备量产能力的全尺寸人形机器人T800亮相，其背后的高性能动力关节研发、运动控制算法、全尺寸量产能力……都是赵同阳带着团队一版一版迭代出来的。 然而，即使众擎在外界眼中已立住了「体能之王」的形象，大脑的能力也与日俱增，但赵同阳比谁都清楚，越是决胜时刻，就越需要一位顶尖的大脑专家，让众擎的硬件优势得以充分发挥。 所幸，他遇到了李力耘。 回过头看，李力耘加入的时间节点恰到好处。众擎的本体能力已经打磨到位，产线能跑、产品能卖，正缺一套完整的\"大脑\"体系。而李力耘在十月离开了小鹏，带了六年多的全栈经验——从VLA到世界模型、从数据闭环到量产落地——正需要一个能从零搭建技术体系的平台。 赵同阳写得很直白：“他的经历可以说是极其难得和稀缺的，也是国内公认从自驾转具身的兼有实力和潜力的人才，能让众擎机器人从'能打'到'能干'快速转变。” 从\"能打\"到\"能干\"。 对的时间，遇到了对的人。 当智驾天花板们，开始集体涌向具身智能 李力耘不是孤例。 仅理想一家，过去两年就有超过10位核心研发人员流向具身赛道。理想汽车智能驾驶高管夏中谱，离职创业，主攻VLA方向。另一位智驾高管郎咸朋，同样出走，创办具身智能公司。 华为智驾则盛产明星企业，陈亦伦和丁文超所创立的它石智航，创下了具身行业单轮融资的最高纪录；黄青虬创立墨奇智能的消息一经流出，就在一夜之间吸引了上百位投资人。 此外地平线的张玉峰、百度的顾维灏、小米的刘方，都各自创立了具身智能公司，分布在不同细分赛道。 据雷峰网统计，过去两年至少20位车企和智驾公司的核心骨干转投具身智能。 可为什么偏偏是智驾？ 拆开技术栈来看，两个赛道的重合度远超想象。感知层，激光雷达、毫米波雷达、摄像头，硬件复用率极高；决策层，端到端模型、VLA架构、世界模型，智驾和具身开始说同一套语言；执行层，底盘控制算法和机器人关节控制，底层控制逻辑相通。 甚至连面临的瓶颈都相似：数据怎么采、仿真怎么建、模型怎么训、量产怎么落地。 而且，VLA正在成为两个行业的共同语言，这套架构在智驾领域验证过，现在被李力耘们带到具身智能。它解决的核心问题是：让机器人像人类一样，用眼睛看、用语言理解、用动作执行。 此外，数据与商业化的结合，亦是智驾老将们的隐藏优势。 智能驾驶的数据，来源于成千上万在路上跑的车，但高速发展中的具身智能尚不具备这一先天条件。因此解决具身智能的数据问题，与其商业化进程是亦步亦趋的，走出数据工厂、踏进商业场景，才能形成数据飞轮，滚起雪球。 而智驾领域积累的商业化落地数据经验，比如应对长尾问题、真实数据迭代、长链条大规模交付等，能为具身智能的数据采集与落地提供参考。 然而，技术可以复用，不代表问题容易解决，因为具身智能面临的复杂度远超智驾。智驾面对的是结构化的路面，也没有太多近距离交互，具身智能面对的则是五花八门的生活场景，要深入人类活动的方方面面。 所以，和众多智驾老将踏入具身赛道一样，李力耘选众擎，也是想做一件更有挑战性的事，在更高的维度上“改变世界”，本质上是一种相互成就。 随着这群人的集体转向，一条清晰的叙事主线正浮出水面。 \"完全体\"众擎，有什么可以期待？ 李力耘能给众擎带来什么？ 首先是VLA模型的完整能力。 从零搭建视觉-语言-动作一体化的技术架构，建立端到端的数据闭环。这不是优化现有系统，是从无到有构建\"大脑\"。在小鹏，他验证了端到端模型能够实现从高速NGP到城市NGP、再到每一条道路的NGP的全面覆盖。现在，他要把这套方法论迁移到机器人场景——让机器人不仅能识别物体，还能理解语义、规划动作、执行操作。 然后是数据飞轮体系。 李力耘在小鹏建立了\"数据+算力+模型\"的飞轮效应：路上跑的车产生数据，数据中心训练模型，新模型OTA上车，产生更多数据。这套闭环让他管理的智驾团队在短时间内完成了从追赶到并跑。众擎现在需要的是机器人版本的飞轮——采集什么样的本体数据、如何构建仿真环境、怎样实现sim-to-real迁移、何时规模放量。这些问题的答案，藏在李力耘过去六年的实战经验里。 还有最重要的工程量产能力。 众擎有年产10万台的产线规划，T800已经进入量产阶段。但大脑缺位时，产线还是硬件组装为主，产品则主要聚焦在展示接待等功能。李力耘的加入，意味着软件和硬件可以同步迭代——模型更新可以配合硬件优化，数据回流可以指导设计改进。“从0到1”和“从1到100”，中间差的是一个懂量产的CTO。 透过李力耘加入众擎，我们也能对行业有新的期待。 人形机器人领域存在两种流派：本体派专注硬件，认为\"先有身体再有灵魂\"；大脑派深耕算法，认为\"智能定义一切\"。两边都有一套自洽的逻辑，朝着坚定的目标推进。过去几年，本体公司展示翻跟头、拟人步态等运动能力，大脑公司展示操作推理等技能，但没人能知道，两条路线能否殊途同归？ 而李力耘要验证的，正是一条战略路线的可行性：作为硬件做到极致的具身公司，可以通过增加“具身大脑”和模型能力，在技术演进的某一节点与“大脑派”汇合，进而定义和落地具身智能。 如果这条路径跑通，意味着什么？ 未来的具身智能公司，不再需要经历\"本体等大脑\"或\"大脑找本体\"的漫长磨合。技术栈的完整性，将成为行业竞争的新基准。而那些既懂硬件又懂算法的复合型人才，会成为比资金更稀缺的资源。 赵同阳在那条朋友圈里写了一句话：\"干就完了！没准就做到了机器人界的苹果。\" 新的篇章，正在展开。",
+      "source": "雷锋网",
+      "publishedAt": "Sun, 26 Apr 2026 21:15:00 +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "雷锋网"
+      ],
+      "coverageTitles": [
+        "李力耘加入众擎，全栈智驾大脑与顶级人形本体的双向奔赴"
+      ],
+      "summary": "前小鹏汽车副总裁、自动驾驶一号位李力耘正式加入众擎机器人，担任具身大脑领军人物。他将从零搭建视觉-语言-动作一体化的VLA模型架构，建立端到端数据闭环，并推动年产10万台产线的软硬件同步迭代。这一事件标志着智驾与具身智能技术栈的深度融合，为行业探索“本体+大脑”一体化路径提供了实战范本。",
+      "category": "技术与研究",
+      "company": "众擎机器人",
+      "score": 72,
+      "breakdown": {
+        "substance": 22,
+        "importance": 18,
+        "readerValue": 15,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Claude用户画像曝光：80%年入超10万美元，AI贫富差距正在拉大",
+      "url": "https://the-decoder.com/survey-finds-claudes-weekly-active-users-in-the-us-skew-far-wealthier-than-any-rival-ai-assistant/",
+      "snippet": "A survey shows Claude users earn significantly more than users of other AI services. Here's how income breaks down across ChatGPT, Gemini, and the rest. The article Survey finds Claude's weekly active users in the US skew far wealthier than any rival AI assistant appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Sun, 26 Apr 2026 08:50:02 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Survey finds Claude's weekly active users in the US skew far wealthier than any rival AI assistant"
+      ],
+      "summary": "一项由Epoch AI和Ipsos联合进行的调查显示，Claude的美国周活跃用户中，80%来自年收入超过10万美元的家庭，远超其他AI助手。相比之下，Meta AI的这一比例仅为37%，ChatGPT、Grok和Gemini均为56%。",
+      "category": "技术与研究",
+      "company": "Claude",
+      "score": 18,
+      "breakdown": {
+        "substance": 0,
+        "importance": 6,
+        "readerValue": 0,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "投融资与并购": [],
+  "政策与监管": []
+}

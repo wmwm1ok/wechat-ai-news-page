@@ -1,18 +1,18 @@
 {
-  "date": "2026/4/26",
-  "title": "AI资讯每日精选-2026/4/26",
-  "generatedAt": "2026/4/26 08:07",
-  "count": 14,
+  "date": "2026/4/27",
+  "title": "AI资讯每日精选-2026/4/27",
+  "generatedAt": "2026/4/27 08:02",
+  "count": 10,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-04-25.json",
+    "previousDayFile": "news-2026-04-26.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 22,
-      "overseasBeforeDedup": 9,
-      "domesticAfterDedup": 22,
-      "overseasAfterDedup": 9,
+      "domesticBeforeDedup": 11,
+      "overseasBeforeDedup": 7,
+      "domesticAfterDedup": 11,
+      "overseasAfterDedup": 7,
       "domesticHotGroups": 0,
       "overseasHotGroups": 0,
       "domesticSources": [
@@ -25,25 +25,25 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 3,
+          "count": 2,
           "error": null
         },
         {
           "source": "36氪",
           "ok": true,
-          "count": 4,
+          "count": 1,
           "error": null
         },
         {
           "source": "InfoQ",
           "ok": true,
-          "count": 2,
+          "count": 1,
           "error": null
         },
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 7,
+          "count": 1,
           "error": null
         }
       ],
@@ -51,7 +51,7 @@
         {
           "source": "OpenAI News",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
@@ -75,19 +75,19 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 3,
+          "count": 0,
           "error": null
         },
         {
           "source": "The Decoder",
           "ok": true,
-          "count": 6,
+          "count": 5,
           "error": null
         },
         {
           "source": "VentureBeat AI",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
@@ -154,186 +154,144 @@
       }
     },
     "summarize": {
-      "totalSummarized": 31
+      "totalSummarized": 18
     },
     "scoring": {
-      "totalInput": 31,
-      "totalScored": 23,
-      "strictScoredCount": 22,
-      "relaxedCandidateCount": 0,
+      "totalInput": 18,
+      "totalScored": 11,
+      "strictScoredCount": 10,
+      "relaxedCandidateCount": 1,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 6,
-      "selectedCandidateCount": 23,
-      "duplicateCount": 3,
-      "crossDayDuplicateCount": 1,
+      "weakSummaryCount": 2,
+      "selectedCandidateCount": 11,
+      "duplicateCount": 2,
+      "crossDayDuplicateCount": 0,
       "lowQualityCount": 1,
-      "domesticAvailable": 15,
-      "overseasAvailable": 8,
+      "domesticAvailable": 7,
+      "overseasAvailable": 4,
       "sourceCount": {
-        "The Decoder": 5,
+        "雷锋网": 1,
         "机器之心": 5,
-        "雷锋网": 5,
-        "量子位": 3,
-        "36氪": 1,
-        "InfoQ": 1,
-        "TechCrunch AI": 3
+        "OpenAI News": 1,
+        "量子位": 1,
+        "The Decoder": 3
       }
     },
     "display": {
-      "refinedCount": 23,
-      "previousDayRemovedCount": 2,
+      "refinedCount": 11,
+      "previousDayRemovedCount": 0,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 3,
-      "postPreviousDayFilterCount": 18,
-      "displayReadyCount": 13,
+      "integrityRemovedCount": 1,
+      "postPreviousDayFilterCount": 10,
+      "displayReadyCount": 8,
       "fallbackDisplayCount": 2,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 5,
-      "shortage": 0
+      "removedWeakSummaries": 2,
+      "shortage": 4
     }
   },
   "articles": [
     {
-      "section": "产品发布与更新",
-      "title": "DeepSeek V4双版本发布：中国AI迈入万亿参数俱乐部",
-      "company": "DeepSeek",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-25-6",
-      "source": "机器之心",
-      "publishedAt": "2026-04-25T19:40:00+08:00",
-      "summary": "本周，中国AI领域迎来密集更新，Qwen、Kimi、小米、腾讯相继发布最新模型。周五，DeepSeek正式发布V4双版本，引发国内AI圈广泛关注。这表明中国AI技术正加速突破，开源万亿参数模型为开发者提供了更强大的工具。",
-      "score": 57
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Snowflake 推出智能体运行时：从静态管道迈向自主数据系统",
-      "company": "Snowflake",
-      "url": "https://www.infoq.cn/article/GL7YlM38mlEarquKkSE9?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sat, 25 Apr 2026 16:00:00 GMT",
-      "summary": "Snowflake 发布了智能体运行时技术实践，展示了如何从静态数据管道转向自主数据系统。该实践通过创建专用仓库、角色和AI视图，实现了产品优化逻辑的自动化。这对开发者意味着可以利用Snowflake的Cortex AI功能构建更智能的数据应用。",
-      "score": 42
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "华为发布ADS 5：极端情况自动靠边停车，今年智能驾驶投入超180亿",
-      "company": "华为",
-      "url": "https://www.qbitai.com/2026/04/407363.html",
-      "source": "量子位",
-      "publishedAt": "Sat, 25 Apr 2026 15:38:18 +0000",
-      "summary": "华为发布了ADS 5智能辅助驾驶系统，强化了世界模型路线。该系统在检测到车主失去意识时，城区会驱动车辆靠边停车，高速上则自动送至安全区域。华为计划今年在智能辅助驾驶领域投入超180亿元，并投入近百亿元用于云端算力，未来5年再投700-800亿元。",
-      "score": 40
-    },
-    {
       "section": "技术与研究",
-      "title": "00后开发者48小时复刻OpenAI新功能：让AI直接看屏幕，交互方式变了",
+      "title": "OpenClaw之父发布AI维护机器人Clawsweeper：一天处理4000个issues，代码管理迎来自动化",
+      "company": "OpenClaw",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-26-7",
+      "source": "机器之心",
+      "publishedAt": "2026-04-26T23:25:00+08:00",
+      "summary": "OpenClaw项目创始人Peter Steinberger发布了名为Clawsweeper的AI维护机器人。该机器人能并行运行50个Codex实例，全天候扫描issues和PRs，专注于关闭OpenClaw中的代码问题。这意味着开发者可以更高效地管理代码洪流，减少人工维护负担。",
+      "score": 55
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "OpenAI 再次关闭 Codex 专用编程模型：整合进 GPT-5.5，统一编程体验",
       "company": "OpenAI",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-25-8",
-      "source": "机器之心",
-      "publishedAt": "2026-04-25T19:46:00+08:00",
-      "summary": "一群00后开发者将OpenAI刚发布的Chronicle功能开源，该功能允许AI直接查看用户屏幕并持续记忆上下文。这一开源项目在OpenAI推出该功能48小时后完成，改变了人机交互方式，用户无需再向AI反复解释当前状态。对于开发者和创作者而言，这意味着更高效的协作体验，尤其在代码编写、文档修改和设计调整等场景中。",
-      "score": 58
-    },
-    {
-      "section": "技术与研究",
-      "title": "开源模型逆袭：宽德Will联手斯坦福清北，用“高效试错”框架横扫21个科学发现任务",
-      "company": "宽德Will",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-25-5",
-      "source": "机器之心",
-      "publishedAt": "2026-04-25T19:36:00+08:00",
-      "summary": "一项研究提出新框架，让普通开源模型通过高效试错在科学发现任务中超越顶级模型。该框架在21个任务上取得领先成果，由宽德Will与斯坦福、清华、北大等机构合作完成。这意味着开源模型在科学发现领域有了低成本、高效率的替代方案，可能推动更多研究团队采用开源工具。",
-      "score": 53
-    },
-    {
-      "section": "技术与研究",
-      "title": "中科院计算所XBridge：无需训练LLM，多语言问答能力“外挂式”加载",
-      "company": "中科院计算所",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-25-7",
-      "source": "机器之心",
-      "publishedAt": "2026-04-25T19:43:00+08:00",
-      "summary": "中科院计算所团队提出XBridge方法，无需训练大语言模型即可提升其对低资源语言甚至未见语言的理解和生成能力。该方法使LLM在下游任务上的表现接近组合的神经机器翻译模型水平，显著缩小了高资源与低资源语言间的性能差距，同时保持或提升了高资源语言能力。这对多语言AI应用开发者意味着，可以低成本扩展LLM的语言覆盖范围，无需重新训练模型。",
-      "score": 47
-    },
-    {
-      "section": "投融资与并购",
-      "title": "海康机器人年营收超64亿：AI质检与具身智能加速工业柔性制造落地",
-      "company": "海康机器人",
-      "url": "https://36kr.com/p/3782137908403457?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-25 19:15:26  +0800",
-      "summary": "海康机器人2025年全年营收突破64.52亿元，机器视觉产品累计出货超1000万台，移动机器人累计下线超18万台。公司发布超35款新品，覆盖标准视觉、高精度3D视觉及AI智能视觉方向，并推进AI融合与具身智能布局。这意味着工业智能化正从自动化向柔性制造转变，AI在质检等场景的落地效率显著提升，但成本与交付周期仍是行业普及的关键挑战。",
+      "url": "https://openai.com/index/our-principles",
+      "source": "OpenAI News",
+      "publishedAt": "Sun, 26 Apr 2026 16:00:00 GMT",
+      "summary": "OpenAI 再次停用其专用的编程模型 Codex，将其功能直接整合到主模型中。GPT-5.5 承诺提供更强的智能体编程能力并降低 token 使用量。这对开发者意味着，他们未来将不再需要切换专用模型，而是通过主模型获得更统一的编程体验。",
       "score": 46
     },
     {
-      "section": "政策与监管",
-      "title": "阿联酋宣布两年内让半数政府由AI自主代理运行：全球首个大规模AI政府计划",
-      "company": "阿联酋",
-      "url": "https://the-decoder.com/the-uae-wants-half-its-government-run-by-autonomous-ai-agents-within-two-years/",
-      "source": "The Decoder",
-      "publishedAt": "Sat, 25 Apr 2026 09:08:57 +0000",
-      "summary": "阿联酋宣布将在两年内将50%的政府业务、服务和流程转移至自主AI系统，成为全球首个如此大规模依赖AI代理的政府。每位联邦雇员将接受AI协作培训，旨在提升服务效率、加速决策。此举对全球政府和企业而言，标志着AI在公共管理领域的大规模应用迈出关键一步，但自主AI系统的错误、偏见放大及缺乏民主监督的风险也需警惕。",
-      "score": 26
-    },
-    {
       "section": "技术与研究",
-      "title": "国产AI生图再突破：UniWorld-V2.5对齐GPT-Image-2，中文场景表现超预期",
+      "title": "人大高瓴博士生代彦琪：用难题驱动强化学习，让大模型数学推理能力再升级",
       "company": "",
-      "url": "https://www.qbitai.com/2026/04/406994.html",
-      "source": "量子位",
-      "publishedAt": "Sat, 25 Apr 2026 06:58:48 +0000",
-      "summary": "国产视觉空间智能模型UniWorld系列发布V2.5版本，在InfoGraph、文字密集等复杂场景上对齐GPT-Image-2，并显著超越其他主流文生图模型。该系列早于Nano Banana推出，V2版本在GEdit-Bench评测中超越GPT-Image-1，多项指标优于谷歌Nano Banana系列。",
-      "score": 47
+      "url": "https://www.jiqizhixin.com/articles/2026-04-26",
+      "source": "机器之心",
+      "publishedAt": "2026-04-26T22:54:00+08:00",
+      "summary": "ICLR 2026接收论文MathForge提出用难题驱动强化学习的方法，提升大模型数学推理能力。该研究由人大高瓴四年级直博生代彦琪主导，其师从卢志武教授与张含望教授，主要研究方向为多模态大模型和强化学习。这对大模型数学推理领域的研究者意味着一种新的训练思路，可能推动模型在复杂数学问题上的表现提升。",
+      "score": 39
     },
     {
       "section": "技术与研究",
-      "title": "Anthropic 让AI代理当买卖双方：186笔真实交易，总金额超4000美元",
+      "title": "Claude认怂：降智实锤、越聊越傻，三个bug全曝光",
       "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Sat, 25 Apr 2026 21:43:37 +0000",
-      "summary": "Anthropic 在最新实验中创建了一个分类市场，让AI代理同时代表买家和卖家，为真实商品和真实货币达成交易。实验共完成186笔交易，总价值超过4000美元，参与者为69名员工，每人获得100美元预算。这一进展展示了AI代理在商业交易中的潜力，可能为开发者开辟自动化交易新场景，但也引发了对AI代理经济行为监管的讨论。",
-      "score": 38
+      "url": "https://www.qbitai.com/2026/04/407502.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 26 Apr 2026 09:56:44 +0000",
+      "summary": "Anthropic承认Claude存在降智问题，Pro用户月费20美元，但升级到Max 5x需100美元/月，年费达1200美元。3月4日，Claude Code默认推理从high降为medium，界面却仍显示high，一个多月后才回滚，类似问题去年8月已出现过。",
+      "score": 39
     },
     {
       "section": "技术与研究",
-      "title": "OpenAI CEO 向加拿大社区致歉：未及时报警，AI安全责任再引争议",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Sat, 25 Apr 2026 17:17:56 +0000",
-      "summary": "OpenAI CEO Sam Altman 致信加拿大Tumbler Ridge居民，就公司未在2025年6月向执法部门报告一名涉嫌策划大规模枪击的ChatGPT用户账户表示“深感抱歉”。该用户账户因描述枪支暴力场景被OpenAI封禁，但公司内部讨论后决定不报警，直至枪击事件发生后才联系当局。",
+      "title": "ICLR 2026提出Balanced Thinking：大模型推理精度提升10%，长度缩短35.4%",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-26-3",
+      "source": "机器之心",
+      "publishedAt": "2026-04-26T23:03:00+08:00",
+      "summary": "ICLR 2026上，研究者提出了Balanced Thinking方法，旨在解决大模型推理中的“过度思考”问题。该方法在保持推理精度的同时，将输出长度缩短35.4%，并将推理精度提升10%，避免了模型从“想太多”滑向“想太少”。这一成果对开发者而言，意味着可以在不牺牲准确性的前提下，显著降低推理成本，提升模型效率。",
+      "score": 35
+    },
+    {
+      "section": "技术与研究",
+      "title": "深度学习理论荒原：LeCun直言学界仍缺“牛顿定律”",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-26-5",
+      "source": "机器之心",
+      "publishedAt": "2026-04-26T23:15:00+08:00",
+      "summary": "深度学习缺乏基础理论的问题引发学界关注，LeCun直言理论基础仍是荒原。当前大模型参数量从百亿冲向万亿，但神经网络仍被视为黑盒子。这意味着技术迭代虽快，但缺乏理论支撑可能限制长期发展，对研究人员和开发者而言，理论突破将是关键方向。",
+      "score": 34
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "剪映推出AI助手：自动导入素材、生成配音，视频剪辑效率飙升",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-26-4",
+      "source": "机器之心",
+      "publishedAt": "2026-04-26T23:08:00+08:00",
+      "summary": "剪映推出AI助手，旨在简化视频剪辑流程。该工具可帮助用户自动导入、预览和筛选素材，并支持文案撰写、配音生成及音画对齐。这对视频创作者意味着剪辑效率将大幅提升，减少重复性劳动。",
       "score": 32
     },
     {
       "section": "技术与研究",
-      "title": "Anthropic 实验揭示：更强 AI 模型谈判更占优，用户却浑然不觉",
-      "company": "Anthropic",
-      "url": "https://the-decoder.com/anthropic-says-stronger-ai-models-cut-better-deals-and-the-losers-dont-even-notice/",
+      "title": "AI智能体并未取代软件工程，而是将其扩展到代码之外：新研究揭示开发者技能转型方向",
+      "company": "Chalmers University of Technology and the Volvo Group",
+      "url": "https://the-decoder.com/ai-agents-arent-replacing-software-engineering-but-expanding-it-far-beyond-code-researchers-argue/",
       "source": "The Decoder",
-      "publishedAt": "Sat, 25 Apr 2026 10:18:31 +0000",
-      "summary": "Anthropic 让 69 个 AI 代理在一个内部市场中代表员工进行了一周的交易，其中部分代理使用更强的 Claude Opus 4.5，部分使用更小的 Claude Haiku 4.5。结果显示，Opus 卖家平均多赚 2.68 美元，买家少付 2.45 美元，但使用 Haiku 的用户对交易公平性的评分几乎与 Opus 用户相同。",
-      "score": 31
+      "publishedAt": "Sun, 26 Apr 2026 08:12:17 +0000",
+      "summary": "查尔姆斯理工大学与沃尔沃集团联合发布研究，指出AI智能体并未取代软件工程工作，而是将其扩展到代码之外。研究提出了“半可执行堆栈”模型，包含从经典代码到社会制度适配的六个层级，并指出AI只需达到“足够好”的水平即可改变团队工作方式。对开发者而言，稀缺技能正从快速构建转向判断构建什么、如何验证与维护，意味着需要掌握更广泛的工程与治理能力。",
+      "score": 27
     },
     {
       "section": "技术与研究",
-      "title": "美联储研究：ChatGPT发布后，美国程序员就业增长几乎腰斩",
-      "company": "美联储",
-      "url": "https://the-decoder.com/us-programmer-job-growth-nearly-halved-since-chatgpt-launched-fed-study-finds/",
-      "source": "The Decoder",
-      "publishedAt": "Sat, 25 Apr 2026 12:44:29 +0000",
-      "summary": "美联储委员会的一项新研究显示，自ChatGPT发布以来，美国程序员的就业增长几乎减半。程序员是受生成式AI影响最大的职业群体之一，其就业数据变化提供了证据。这一发现对AI使用者和开发者意味着，AI正在显著改变劳动力市场，尤其是编程相关岗位的需求。",
-      "score": 30
+      "title": "李力耘加入众擎机器人：智驾大将转战具身智能，全栈大脑与顶级本体的双向奔赴",
+      "company": "众擎机器人",
+      "url": "https://www.leiphone.com/category/robot/EbmFRcvpt7TBjb3P.html",
+      "source": "雷锋网",
+      "publishedAt": "Sun, 26 Apr 2026 21:15:00 +0800",
+      "summary": "前小鹏汽车副总裁、自动驾驶一号位李力耘正式加入众擎机器人，担任具身大脑领军人物。他将从零搭建视觉-语言-动作一体化的VLA模型架构，建立端到端数据闭环，并推动年产10万台产线的软硬件同步迭代。这一事件标志着智驾与具身智能技术栈的深度融合，为行业探索“本体+大脑”一体化路径提供了实战范本。",
+      "score": 72
     },
     {
       "section": "技术与研究",
-      "title": "轻舟智航进军物理AI：用世界模型让自动驾驶算法练成“老司机”",
-      "company": "轻舟智航",
-      "url": "https://www.qbitai.com/2026/04/407026.html",
-      "source": "量子位",
-      "publishedAt": "Sat, 25 Apr 2026 07:22:22 +0000",
-      "summary": "轻舟智航提出通过世界模型和强化学习训练自动驾驶算法，让AI在虚拟空间中穷举极端场景，如鬼探头、高速爆胎等，以降低现实路测成本和风险。该技术将物理规律搬进虚拟环境，使AI在模拟中形成“肌肉记忆”，从而在现实世界中无需从零试错。这对自动驾驶行业意味着，世界模型可能成为降低算法开发门槛、提升安全性的关键范式，尤其适用于L2+及更高级别系统。",
-      "score": 29
+      "title": "Claude用户画像曝光：80%年入超10万美元，AI贫富差距正在拉大",
+      "company": "Claude",
+      "url": "https://the-decoder.com/survey-finds-claudes-weekly-active-users-in-the-us-skew-far-wealthier-than-any-rival-ai-assistant/",
+      "source": "The Decoder",
+      "publishedAt": "Sun, 26 Apr 2026 08:50:02 +0000",
+      "summary": "一项由Epoch AI和Ipsos联合进行的调查显示，Claude的美国周活跃用户中，80%来自年收入超过10万美元的家庭，远超其他AI助手。相比之下，Meta AI的这一比例仅为37%，ChatGPT、Grok和Gemini均为56%。",
+      "score": 18
     }
   ]
 }
