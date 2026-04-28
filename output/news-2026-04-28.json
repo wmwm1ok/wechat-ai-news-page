@@ -1,0 +1,446 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "阿里ATH团队发布HappyHorse 1.0：音视频一体生成，创作编辑全搞定",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-27-14",
+      "snippet": "编辑｜杨文神秘的「欢乐马」，终于显露真身。4 月 27 日，阿里 ATH 团队正式上线视频生成模型 HappyHorse 1.0。该模型依托原生多模态架构，不仅实现音视频一锅出，还能创作、编辑一个平台全搞定，再也不用来回倒腾。它的「战绩」我们之前也报道过，曾在知名 AI 评测分析平台 Arti...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-27T23:51:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "刚刚，阿里「欢乐马」正式上线，抢先实测这匹「黑马」"
+      ],
+      "summary": "阿里ATH团队于4月27日正式上线视频生成模型HappyHorse 1.0。该模型基于原生多模态架构，支持音视频同步生成，并集创作与编辑功能于一体。这意味着用户无需在不同工具间切换，即可完成视频制作全流程，有望提升内容创作效率。",
+      "category": "产品发布与更新",
+      "company": "阿里",
+      "score": 49,
+      "breakdown": {
+        "substance": 15,
+        "importance": 5,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Google与Kaggle联手推出AI Agents Vibe Coding课程：用自然语言编程，5天从入门到部署",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "snippet": "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
+      "source": "Google AI Blog",
+      "publishedAt": "Mon, 27 Apr 2026 13:00:00 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "Google AI Blog"
+      ],
+      "coverageTitles": [
+        "Join the new AI Agents Vibe Coding Course from Google and Kaggle"
+      ],
+      "summary": "Google宣布与Kaggle合作，重新推出为期5天的AI Agents Vibe Coding课程。目前该课程的报名通道已经开放。这为开发者提供了学习构建AI智能体的实践机会。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 40,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "打工人五一自救指南：用DuMate把活全甩给AI，出门免打扰",
+      "url": "https://www.qbitai.com/2026/04/408649.html",
+      "snippet": "假期不想被@工作了",
+      "source": "量子位",
+      "publishedAt": "Mon, 27 Apr 2026 12:19:37 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "打工人五一自救指南：把活全甩给AI，准备免打扰出门"
+      ],
+      "summary": "百度智能云推出AI工具DuMate，帮助用户将工作委托给AI处理，实现假期免打扰。新用户输入邀请码「QBITAI」可领取5000永久积分，该工具可连接飞书、微信、钉钉等IM平台，支持远程指挥。用户还能添加秒哒、滴滴出行等常用工具Skill，提升假期工作效率。",
+      "category": "产品发布与更新",
+      "company": "百度智能云",
+      "score": 37,
+      "breakdown": {
+        "substance": 5,
+        "importance": 5,
+        "readerValue": 7,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Anthropic再曝计费Bug：大写文件名触发漏洞，用户200美元被扣光",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-27-9",
+      "snippet": "编辑：Youli最近 Anthropic 真是风波不断。上周刚刚一改傲慢姿态，「滑跪道歉」承认 Claude Code 确实变笨、找出 3 个 Bug「谢罪」，并宣布调整使用限额以安抚全体用户，可没消停多久，现在又「惹祸」了……只因用户 Git 提交记录中提到了「HERMES.md」，Clau...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-27T16:27:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "Anthropic又「惹祸」？大写「HERMES.md」触发计费Bug，偷偷扣光用户200美元"
+      ],
+      "summary": "Anthropic因用户Git提交记录中的大写文件名“HERMES.md”触发计费Bug，导致用户账户被扣光200美元。此前该公司刚承认Claude Code存在性能问题并道歉，此次事件暴露了其系统在文件名大小写处理上的缺陷。这对开发者意味着使用Anthropic服务时需警惕文件名格式可能引发的意外扣费风险。",
+      "category": "产品发布与更新",
+      "company": "Anthropic",
+      "score": 30,
+      "breakdown": {
+        "substance": 3,
+        "importance": 5,
+        "readerValue": 4,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI联手联发科、高通造手机：AI智能体将取代传统应用",
+      "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+      "snippet": "There have been plenty of rumors about OpenAI's hardware plans, which involve launching a pair of earbuds. A new note from industry analyst Ming-Chi Kuo suggests that the AI company might be working on a phone in collaboration with MediaTek, Qualcomm, and Luxshare.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 27 Apr 2026 13:08:59 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "OpenAI could be making a phone with AI agents replacing apps"
+      ],
+      "summary": "行业分析师郭明錤指出，OpenAI正与联发科、高通和立讯精密合作开发一款手机。该手机将依赖AI智能体而非传统应用完成任务，并采用端侧与云端混合模型处理请求。对开发者而言，这意味着AI智能体可能取代应用成为新交互入口，需关注OpenAI的硬件生态布局。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 28,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "readerValue": 4,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "清华学生让画作“活”起来，00后创客打造AI放大镜：京东JoyInside大赛让AI硬件从创意走向量产",
+      "url": "https://www.qbitai.com/2026/04/408394.html",
+      "snippet": "依托京东JoyInside，这些充满科幻感的AI新物种正走进现实。",
+      "source": "量子位",
+      "publishedAt": "Mon, 27 Apr 2026 09:47:02 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "让孩子画作活起来，用放大镜识万物，给台灯装灵魂……京东JoyInside打造AI硬件时代“超级基础设施”"
+      ],
+      "summary": "京东JoyInside创新大赛展示了多款贴近生活的AI硬件作品，包括清华学生开发的儿童AI交互画框“画伴”和00后创客的“AI放大镜”。这些产品通过京东超级供应链打通了从创意到量产的全链路，部分新品将在618期间上架预售。这对硬件创业者意味着，借助京东的供应链和场景积累，AI硬件能更快从概念走向市场，实现商业化闭环。",
+      "category": "产品发布与更新",
+      "company": "京东",
+      "score": 21,
+      "breakdown": {
+        "substance": 1,
+        "importance": 0,
+        "readerValue": 2,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "AI数据中心用电量预测：2028年或占全美12%，能效提升成关键",
+      "url": "https://techxplore.com/news/2026-04-ai-power-bill-easier-center.html",
+      "snippet": "Due to the explosive growth of artificial intelligence, it is estimated that data centers will consume up to 12% of total U.S. electricity by 2028, according to the Lawrence Berkeley National Laboratory. Improving data center energy efficiency is one way scientists are striving to make AI more sustainable.",
+      "source": "Tech Xplore",
+      "publishedAt": "Mon, 27 Apr 2026 09:00:06 EDT",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "Tech Xplore"
+      ],
+      "coverageTitles": [
+        "AI's power bill just got easier to predict before the next data center surge"
+      ],
+      "summary": "劳伦斯伯克利国家实验室发布预测，到2028年，AI驱动的数据中心将消耗美国总电力的12%。科学家正致力于提高数据中心能效，以推动AI的可持续发展。这一数据为AI开发者和企业提供了更清晰的能源成本预期，有助于在规划数据中心扩容时做出更明智的决策。",
+      "category": "技术与研究",
+      "company": "Lawrence Berkeley National Laboratory",
+      "score": 40,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "readerValue": 15,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "蚂蚁灵波开源世界模型LingBot-World-Fast：手机上传一张图，实时生成60秒3D世界",
+      "url": "https://www.infoq.cn/article/rkoWDHOOb2VFyIGKwuym?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 27 Apr 2026 15:02:32 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "世界模型能实时玩了，蚂蚁灵波开源LingBot-World-Fast"
+      ],
+      "summary": "蚂蚁集团旗下灵光App上线“体验世界模型”功能，用户上传图片即可在手机端生成60秒3D世界并实时漫游。该功能基于开源的LingBot-World-Fast模型，在480P分辨率下实现16fps实时生成，交互延迟低于1秒。这一开源模型为具身智能研发提供虚拟训练环境，同时降低游戏开发和内容创作的原型制作门槛。",
+      "category": "技术与研究",
+      "company": "蚂蚁集团",
+      "score": 58,
+      "breakdown": {
+        "substance": 21,
+        "importance": 5,
+        "readerValue": 13,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "深圳制造：Claude首款AI桌宠硬件Buddy，10分钟开源方案让开发者轻松上手",
+      "url": "https://www.qbitai.com/2026/04/408409.html",
+      "snippet": "深圳供应链又赢了",
+      "source": "量子位",
+      "publishedAt": "Mon, 27 Apr 2026 10:01:37 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "Claude第一款AI桌宠硬件，深圳制造"
+      ],
+      "summary": "Claude推出了首款AI桌宠硬件Buddy，由深圳公司M5Stack制造。该设备基于模块化开发板，用户只需根据官方开源文档，通过Claude进行烧录即可在10分钟内完成搭建。这意味着AI硬件开发门槛大幅降低，开发者可快速获得语音控制Claude的实体入口，推动AI与硬件的融合。",
+      "category": "技术与研究",
+      "company": "M5Stack",
+      "score": 53,
+      "breakdown": {
+        "substance": 21,
+        "importance": 5,
+        "readerValue": 9,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "企业AI落地最大障碍是数据：重建数据栈成关键",
+      "url": "https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/",
+      "snippet": "Artificial intelligence may be dominating boardroom agendas, but many enterprises are discovering that the biggest obstacle to meaningful adoption is the state of their data. While consumer-facing AI tools have dazzled users with speed and ease, enterprise leaders are discovering that deploying AI at scale requires something far less glamorous but far more consequential: data…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 27 Apr 2026 13:00:00 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "MIT Technology Review"
+      ],
+      "coverageTitles": [
+        "Rebuilding the data stack for AI"
+      ],
+      "summary": "许多企业发现，阻碍AI大规模应用的最大障碍是数据状态不佳。消费者级AI工具虽以速度和易用性令人惊艳，但企业级AI部署需要的是数据基础设施的彻底重建。这提醒企业领导者，AI战略的核心并非模型本身，而是底层数据的质量与架构。",
+      "category": "技术与研究",
+      "company": "无",
+      "score": 38,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "readerValue": 11,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "前谷歌DeepMind研究员创立的AI公司：种子轮融资11亿美元，创欧洲纪录",
+      "url": "https://36kr.com/newsflashes/3785710148230151?f=rss",
+      "snippet": "谷歌人工智能部门DeepMind的前核心研究员于周一官宣，其成立仅数月的初创公司Ineffable Intelligence，完成高达11亿美元的种子轮融资。这家企业聚焦超级智能研发。公司表示，本轮融资为欧洲有史以来规模最大的种子轮融资，投后整体估值达510亿美元。本轮融资由美国风投机构红杉资本与光速创投联合领投，英伟达、DST全球资本、指数创投、谷歌、英国国家人工智能主权基金等多家机构跟投。（新浪财经）",
+      "source": "36氪",
+      "publishedAt": "2026-04-28 07:43:30  +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "36氪"
+      ],
+      "coverageTitles": [
+        "前谷歌DeepMind研究员创办AI初创公司，斩获11亿美元创纪录种子轮融资"
+      ],
+      "summary": "前谷歌DeepMind核心研究员创办的AI初创公司Ineffable Intelligence完成11亿美元种子轮融资，投后估值达510亿美元。本轮融资由红杉资本和光速创投联合领投，英伟达、谷歌等跟投，为欧洲史上最大种子轮。这标志着资本对超级智能研发领域的高度关注，可能推动AI推理成本进一步降低和应用爆发。",
+      "category": "投融资与并购",
+      "company": "Ineffable Intelligence",
+      "score": 55,
+      "breakdown": {
+        "substance": 14,
+        "importance": 13,
+        "readerValue": 9,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "马斯克起诉OpenAI案开庭：非营利转营利或遭司法叫停",
+      "url": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
+      "snippet": "After a yearslong legal feud, Elon Musk and OpenAI CEO Sam Altman are heading to trial this week in Northern California in a case that could have sweeping consequences. Ahead of OpenAI’s highly anticipated IPO, the court could rule on whether the company is allowed to exist as a for-profit enterprise and might even oust…",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 27 Apr 2026 22:52:57 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 2,
+      "coverageSources": [
+        "MIT Technology Review",
+        "The Verge AI"
+      ],
+      "coverageTitles": [
+        "Elon Musk and Sam Altman are going to court over OpenAI’s future",
+        "Elon Musk and Sam Altman’s court battle over the future of OpenAI"
+      ],
+      "summary": "埃隆·马斯克与OpenAI CEO萨姆·奥特曼的法律纠纷本周在北加州开庭，法院将裁决OpenAI是否可保留营利性子公司。马斯克指控奥特曼等人违反慈善信托义务，要求OpenAI回归开源非营利模式，而OpenAI估值超8500亿美元，正筹备年底IPO。",
+      "category": "投融资与并购",
+      "company": "OpenAI",
+      "score": 36,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "readerValue": 4,
+        "timeliness": 10,
+        "hotness": 4,
+        "credibility": 10,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "Meshy用户破千万后转战新战场：ARR年翻14倍，头部厂商集体买单",
+      "url": "https://www.qbitai.com/2026/04/408049.html",
+      "snippet": "最新上线创意工坊，打通“AI创意”",
+      "source": "量子位",
+      "publishedAt": "Mon, 27 Apr 2026 08:27:53 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "Meshy用户破千万后杀向新战场：ARR年翻14倍，头部厂商集体买单"
+      ],
+      "summary": "Meshy宣布其年经常性收入（ARR）在一年内增长14倍，并吸引了头部厂商的集体采购。公司推出的新功能使3D模型能一键同步至拓竹3D打印切片软件，自动完成缩放、居中摆放等操作，大幅简化了从AI建模到打印的流程。这对3D打印爱好者和专业设计师意味着创作效率显著提升，降低了3D模型制作的技术门槛。",
+      "category": "政策与监管",
+      "company": "Meshy",
+      "score": 44,
+      "breakdown": {
+        "substance": 17,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "马斯克转发《纽约客》爆料文章，OpenAI诉讼案开庭：开源与闭源之争再升级",
+      "url": "https://www.wired.com/story/elon-musk-boost-new-yorker-article-sam-altman-x/",
+      "snippet": "The move comes as the trial for Elon Musk’s lawsuit against OpenAI kicks off in federal court in Oakland.",
+      "source": "Wired AI",
+      "publishedAt": "Mon, 27 Apr 2026 20:08:51 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "Wired AI"
+      ],
+      "coverageTitles": [
+        "Elon Musk Boosts New Yorker’s Sam Altman Exposé on X as Trial Begins"
+      ],
+      "summary": "埃隆·马斯克在X平台上转发《纽约客》关于Sam Altman的深度报道，同时他对OpenAI提起的诉讼在加州奥克兰联邦法院正式开庭。马斯克指控OpenAI偏离了其创始时的非营利使命，即确保通用人工智能造福全人类，并称其早期投资未被按意图使用。此案结果可能影响AI行业关于开源与闭源的未来走向，对创业者和投资者具有重要参考意义。",
+      "category": "政策与监管",
+      "company": "OpenAI",
+      "score": 45,
+      "breakdown": {
+        "substance": 8,
+        "importance": 10,
+        "readerValue": 7,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}

@@ -1,20 +1,20 @@
 {
-  "date": "2026/4/27",
-  "title": "AI资讯每日精选-2026/4/27",
-  "generatedAt": "2026/4/27 08:02",
-  "count": 10,
+  "date": "2026/4/28",
+  "title": "AI资讯每日精选-2026/4/28",
+  "generatedAt": "2026/4/28 08:02",
+  "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-04-26.json",
+    "previousDayFile": "news-2026-04-27.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 11,
-      "overseasBeforeDedup": 7,
-      "domesticAfterDedup": 11,
-      "overseasAfterDedup": 7,
+      "domesticBeforeDedup": 28,
+      "overseasBeforeDedup": 27,
+      "domesticAfterDedup": 28,
+      "overseasAfterDedup": 25,
       "domesticHotGroups": 0,
-      "overseasHotGroups": 0,
+      "overseasHotGroups": 1,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,25 +25,25 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 2,
+          "count": 5,
           "error": null
         },
         {
           "source": "36氪",
           "ok": true,
-          "count": 1,
+          "count": 5,
           "error": null
         },
         {
           "source": "InfoQ",
           "ok": true,
-          "count": 1,
+          "count": 4,
           "error": null
         },
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 1,
+          "count": 8,
           "error": null
         }
       ],
@@ -57,13 +57,13 @@
         {
           "source": "Google DeepMind Blog",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
           "source": "Google AI Blog",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
@@ -75,49 +75,49 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 0,
+          "count": 4,
           "error": null
         },
         {
           "source": "The Decoder",
           "ok": true,
-          "count": 5,
+          "count": 6,
           "error": null
         },
         {
           "source": "VentureBeat AI",
           "ok": true,
-          "count": 1,
+          "count": 2,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 0,
+          "count": 3,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 0,
+          "count": 2,
           "error": null
         },
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 0,
+          "count": 4,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
@@ -129,7 +129,7 @@
         {
           "source": "AWS Machine Learning Blog",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
@@ -154,144 +154,193 @@
       }
     },
     "summarize": {
-      "totalSummarized": 18
+      "totalSummarized": 53
     },
     "scoring": {
-      "totalInput": 18,
-      "totalScored": 11,
-      "strictScoredCount": 10,
-      "relaxedCandidateCount": 1,
-      "relaxedUsedForSelection": true,
-      "weakSummaryCount": 2,
-      "selectedCandidateCount": 11,
-      "duplicateCount": 2,
+      "totalInput": 53,
+      "totalScored": 37,
+      "strictScoredCount": 37,
+      "relaxedCandidateCount": 2,
+      "relaxedUsedForSelection": false,
+      "weakSummaryCount": 11,
+      "selectedCandidateCount": 31,
+      "duplicateCount": 3,
       "crossDayDuplicateCount": 0,
-      "lowQualityCount": 1,
-      "domesticAvailable": 7,
-      "overseasAvailable": 4,
+      "lowQualityCount": 0,
+      "domesticAvailable": 21,
+      "overseasAvailable": 16,
       "sourceCount": {
-        "雷锋网": 1,
-        "机器之心": 5,
-        "OpenAI News": 1,
-        "量子位": 1,
-        "The Decoder": 3
+        "机器之心": 2,
+        "Google AI Blog": 1,
+        "Tech Xplore": 1,
+        "InfoQ": 4,
+        "量子位": 5,
+        "雷锋网": 5,
+        "36氪": 4,
+        "TechCrunch AI": 1,
+        "AWS Machine Learning Blog": 1,
+        "Wired AI": 1,
+        "MIT Technology Review": 2,
+        "Google DeepMind Blog": 1,
+        "The Verge AI": 1,
+        "The Decoder": 2
       }
     },
     "display": {
-      "refinedCount": 11,
+      "refinedCount": 31,
       "previousDayRemovedCount": 0,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 1,
-      "postPreviousDayFilterCount": 10,
-      "displayReadyCount": 8,
-      "fallbackDisplayCount": 2,
+      "integrityRemovedCount": 3,
+      "postPreviousDayFilterCount": 28,
+      "displayReadyCount": 21,
+      "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 2,
-      "shortage": 4
+      "removedWeakSummaries": 7,
+      "shortage": 0
     }
   },
   "articles": [
     {
-      "section": "技术与研究",
-      "title": "OpenClaw之父发布AI维护机器人Clawsweeper：一天处理4000个issues，代码管理迎来自动化",
-      "company": "OpenClaw",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-26-7",
+      "section": "产品发布与更新",
+      "title": "阿里ATH团队发布HappyHorse 1.0：音视频一体生成，创作编辑全搞定",
+      "company": "阿里",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-27-14",
       "source": "机器之心",
-      "publishedAt": "2026-04-26T23:25:00+08:00",
-      "summary": "OpenClaw项目创始人Peter Steinberger发布了名为Clawsweeper的AI维护机器人。该机器人能并行运行50个Codex实例，全天候扫描issues和PRs，专注于关闭OpenClaw中的代码问题。这意味着开发者可以更高效地管理代码洪流，减少人工维护负担。",
+      "publishedAt": "2026-04-27T23:51:00+08:00",
+      "summary": "阿里ATH团队于4月27日正式上线视频生成模型HappyHorse 1.0。该模型基于原生多模态架构，支持音视频同步生成，并集创作与编辑功能于一体。这意味着用户无需在不同工具间切换，即可完成视频制作全流程，有望提升内容创作效率。",
+      "score": 49
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Google与Kaggle联手推出AI Agents Vibe Coding课程：用自然语言编程，5天从入门到部署",
+      "company": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "source": "Google AI Blog",
+      "publishedAt": "Mon, 27 Apr 2026 13:00:00 +0000",
+      "summary": "Google宣布与Kaggle合作，重新推出为期5天的AI Agents Vibe Coding课程。目前该课程的报名通道已经开放。这为开发者提供了学习构建AI智能体的实践机会。",
+      "score": 40
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "打工人五一自救指南：用DuMate把活全甩给AI，出门免打扰",
+      "company": "百度智能云",
+      "url": "https://www.qbitai.com/2026/04/408649.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 27 Apr 2026 12:19:37 +0000",
+      "summary": "百度智能云推出AI工具DuMate，帮助用户将工作委托给AI处理，实现假期免打扰。新用户输入邀请码「QBITAI」可领取5000永久积分，该工具可连接飞书、微信、钉钉等IM平台，支持远程指挥。用户还能添加秒哒、滴滴出行等常用工具Skill，提升假期工作效率。",
+      "score": 37
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI数据中心用电量预测：2028年或占全美12%，能效提升成关键",
+      "company": "Lawrence Berkeley National Laboratory",
+      "url": "https://techxplore.com/news/2026-04-ai-power-bill-easier-center.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Mon, 27 Apr 2026 09:00:06 EDT",
+      "summary": "劳伦斯伯克利国家实验室发布预测，到2028年，AI驱动的数据中心将消耗美国总电力的12%。科学家正致力于提高数据中心能效，以推动AI的可持续发展。这一数据为AI开发者和企业提供了更清晰的能源成本预期，有助于在规划数据中心扩容时做出更明智的决策。",
+      "score": 40
+    },
+    {
+      "section": "技术与研究",
+      "title": "蚂蚁灵波开源世界模型LingBot-World-Fast：手机上传一张图，实时生成60秒3D世界",
+      "company": "蚂蚁集团",
+      "url": "https://www.infoq.cn/article/rkoWDHOOb2VFyIGKwuym?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 27 Apr 2026 15:02:32 GMT",
+      "summary": "蚂蚁集团旗下灵光App上线“体验世界模型”功能，用户上传图片即可在手机端生成60秒3D世界并实时漫游。该功能基于开源的LingBot-World-Fast模型，在480P分辨率下实现16fps实时生成，交互延迟低于1秒。这一开源模型为具身智能研发提供虚拟训练环境，同时降低游戏开发和内容创作的原型制作门槛。",
+      "score": 58
+    },
+    {
+      "section": "技术与研究",
+      "title": "深圳制造：Claude首款AI桌宠硬件Buddy，10分钟开源方案让开发者轻松上手",
+      "company": "M5Stack",
+      "url": "https://www.qbitai.com/2026/04/408409.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 27 Apr 2026 10:01:37 +0000",
+      "summary": "Claude推出了首款AI桌宠硬件Buddy，由深圳公司M5Stack制造。该设备基于模块化开发板，用户只需根据官方开源文档，通过Claude进行烧录即可在10分钟内完成搭建。这意味着AI硬件开发门槛大幅降低，开发者可快速获得语音控制Claude的实体入口，推动AI与硬件的融合。",
+      "score": 53
+    },
+    {
+      "section": "投融资与并购",
+      "title": "前谷歌DeepMind研究员创立的AI公司：种子轮融资11亿美元，创欧洲纪录",
+      "company": "Ineffable Intelligence",
+      "url": "https://36kr.com/newsflashes/3785710148230151?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-04-28 07:43:30  +0800",
+      "summary": "前谷歌DeepMind核心研究员创办的AI初创公司Ineffable Intelligence完成11亿美元种子轮融资，投后估值达510亿美元。本轮融资由红杉资本和光速创投联合领投，英伟达、谷歌等跟投，为欧洲史上最大种子轮。这标志着资本对超级智能研发领域的高度关注，可能推动AI推理成本进一步降低和应用爆发。",
       "score": 55
     },
     {
-      "section": "产品发布与更新",
-      "title": "OpenAI 再次关闭 Codex 专用编程模型：整合进 GPT-5.5，统一编程体验",
+      "section": "投融资与并购",
+      "title": "马斯克起诉OpenAI案开庭：非营利转营利或遭司法叫停",
       "company": "OpenAI",
-      "url": "https://openai.com/index/our-principles",
-      "source": "OpenAI News",
-      "publishedAt": "Sun, 26 Apr 2026 16:00:00 GMT",
-      "summary": "OpenAI 再次停用其专用的编程模型 Codex，将其功能直接整合到主模型中。GPT-5.5 承诺提供更强的智能体编程能力并降低 token 使用量。这对开发者意味着，他们未来将不再需要切换专用模型，而是通过主模型获得更统一的编程体验。",
-      "score": 46
+      "url": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 27 Apr 2026 22:52:57 +0000",
+      "summary": "埃隆·马斯克与OpenAI CEO萨姆·奥特曼的法律纠纷本周在北加州开庭，法院将裁决OpenAI是否可保留营利性子公司。马斯克指控奥特曼等人违反慈善信托义务，要求OpenAI回归开源非营利模式，而OpenAI估值超8500亿美元，正筹备年底IPO。",
+      "score": 36
     },
     {
-      "section": "技术与研究",
-      "title": "人大高瓴博士生代彦琪：用难题驱动强化学习，让大模型数学推理能力再升级",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-26",
-      "source": "机器之心",
-      "publishedAt": "2026-04-26T22:54:00+08:00",
-      "summary": "ICLR 2026接收论文MathForge提出用难题驱动强化学习的方法，提升大模型数学推理能力。该研究由人大高瓴四年级直博生代彦琪主导，其师从卢志武教授与张含望教授，主要研究方向为多模态大模型和强化学习。这对大模型数学推理领域的研究者意味着一种新的训练思路，可能推动模型在复杂数学问题上的表现提升。",
-      "score": 39
-    },
-    {
-      "section": "技术与研究",
-      "title": "Claude认怂：降智实锤、越聊越傻，三个bug全曝光",
-      "company": "Anthropic",
-      "url": "https://www.qbitai.com/2026/04/407502.html",
+      "section": "政策与监管",
+      "title": "Meshy用户破千万后转战新战场：ARR年翻14倍，头部厂商集体买单",
+      "company": "Meshy",
+      "url": "https://www.qbitai.com/2026/04/408049.html",
       "source": "量子位",
-      "publishedAt": "Sun, 26 Apr 2026 09:56:44 +0000",
-      "summary": "Anthropic承认Claude存在降智问题，Pro用户月费20美元，但升级到Max 5x需100美元/月，年费达1200美元。3月4日，Claude Code默认推理从high降为medium，界面却仍显示high，一个多月后才回滚，类似问题去年8月已出现过。",
-      "score": 39
-    },
-    {
-      "section": "技术与研究",
-      "title": "ICLR 2026提出Balanced Thinking：大模型推理精度提升10%，长度缩短35.4%",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-26-3",
-      "source": "机器之心",
-      "publishedAt": "2026-04-26T23:03:00+08:00",
-      "summary": "ICLR 2026上，研究者提出了Balanced Thinking方法，旨在解决大模型推理中的“过度思考”问题。该方法在保持推理精度的同时，将输出长度缩短35.4%，并将推理精度提升10%，避免了模型从“想太多”滑向“想太少”。这一成果对开发者而言，意味着可以在不牺牲准确性的前提下，显著降低推理成本，提升模型效率。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "深度学习理论荒原：LeCun直言学界仍缺“牛顿定律”",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-26-5",
-      "source": "机器之心",
-      "publishedAt": "2026-04-26T23:15:00+08:00",
-      "summary": "深度学习缺乏基础理论的问题引发学界关注，LeCun直言理论基础仍是荒原。当前大模型参数量从百亿冲向万亿，但神经网络仍被视为黑盒子。这意味着技术迭代虽快，但缺乏理论支撑可能限制长期发展，对研究人员和开发者而言，理论突破将是关键方向。",
-      "score": 34
+      "publishedAt": "Mon, 27 Apr 2026 08:27:53 +0000",
+      "summary": "Meshy宣布其年经常性收入（ARR）在一年内增长14倍，并吸引了头部厂商的集体采购。公司推出的新功能使3D模型能一键同步至拓竹3D打印切片软件，自动完成缩放、居中摆放等操作，大幅简化了从AI建模到打印的流程。这对3D打印爱好者和专业设计师意味着创作效率显著提升，降低了3D模型制作的技术门槛。",
+      "score": 44
     },
     {
       "section": "产品发布与更新",
-      "title": "剪映推出AI助手：自动导入素材、生成配音，视频剪辑效率飙升",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-26-4",
+      "title": "Anthropic再曝计费Bug：大写文件名触发漏洞，用户200美元被扣光",
+      "company": "Anthropic",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-27-9",
       "source": "机器之心",
-      "publishedAt": "2026-04-26T23:08:00+08:00",
-      "summary": "剪映推出AI助手，旨在简化视频剪辑流程。该工具可帮助用户自动导入、预览和筛选素材，并支持文案撰写、配音生成及音画对齐。这对视频创作者意味着剪辑效率将大幅提升，减少重复性劳动。",
-      "score": 32
+      "publishedAt": "2026-04-27T16:27:00+08:00",
+      "summary": "Anthropic因用户Git提交记录中的大写文件名“HERMES.md”触发计费Bug，导致用户账户被扣光200美元。此前该公司刚承认Claude Code存在性能问题并道歉，此次事件暴露了其系统在文件名大小写处理上的缺陷。这对开发者意味着使用Anthropic服务时需警惕文件名格式可能引发的意外扣费风险。",
+      "score": 30
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "OpenAI联手联发科、高通造手机：AI智能体将取代传统应用",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 27 Apr 2026 13:08:59 +0000",
+      "summary": "行业分析师郭明錤指出，OpenAI正与联发科、高通和立讯精密合作开发一款手机。该手机将依赖AI智能体而非传统应用完成任务，并采用端侧与云端混合模型处理请求。对开发者而言，这意味着AI智能体可能取代应用成为新交互入口，需关注OpenAI的硬件生态布局。",
+      "score": 28
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "清华学生让画作“活”起来，00后创客打造AI放大镜：京东JoyInside大赛让AI硬件从创意走向量产",
+      "company": "京东",
+      "url": "https://www.qbitai.com/2026/04/408394.html",
+      "source": "量子位",
+      "publishedAt": "Mon, 27 Apr 2026 09:47:02 +0000",
+      "summary": "京东JoyInside创新大赛展示了多款贴近生活的AI硬件作品，包括清华学生开发的儿童AI交互画框“画伴”和00后创客的“AI放大镜”。这些产品通过京东超级供应链打通了从创意到量产的全链路，部分新品将在618期间上架预售。这对硬件创业者意味着，借助京东的供应链和场景积累，AI硬件能更快从概念走向市场，实现商业化闭环。",
+      "score": 21
+    },
+    {
+      "section": "政策与监管",
+      "title": "马斯克转发《纽约客》爆料文章，OpenAI诉讼案开庭：开源与闭源之争再升级",
+      "company": "OpenAI",
+      "url": "https://www.wired.com/story/elon-musk-boost-new-yorker-article-sam-altman-x/",
+      "source": "Wired AI",
+      "publishedAt": "Mon, 27 Apr 2026 20:08:51 +0000",
+      "summary": "埃隆·马斯克在X平台上转发《纽约客》关于Sam Altman的深度报道，同时他对OpenAI提起的诉讼在加州奥克兰联邦法院正式开庭。马斯克指控OpenAI偏离了其创始时的非营利使命，即确保通用人工智能造福全人类，并称其早期投资未被按意图使用。此案结果可能影响AI行业关于开源与闭源的未来走向，对创业者和投资者具有重要参考意义。",
+      "score": 45
     },
     {
       "section": "技术与研究",
-      "title": "AI智能体并未取代软件工程，而是将其扩展到代码之外：新研究揭示开发者技能转型方向",
-      "company": "Chalmers University of Technology and the Volvo Group",
-      "url": "https://the-decoder.com/ai-agents-arent-replacing-software-engineering-but-expanding-it-far-beyond-code-researchers-argue/",
-      "source": "The Decoder",
-      "publishedAt": "Sun, 26 Apr 2026 08:12:17 +0000",
-      "summary": "查尔姆斯理工大学与沃尔沃集团联合发布研究，指出AI智能体并未取代软件工程工作，而是将其扩展到代码之外。研究提出了“半可执行堆栈”模型，包含从经典代码到社会制度适配的六个层级，并指出AI只需达到“足够好”的水平即可改变团队工作方式。对开发者而言，稀缺技能正从快速构建转向判断构建什么、如何验证与维护，意味着需要掌握更广泛的工程与治理能力。",
-      "score": 27
-    },
-    {
-      "section": "技术与研究",
-      "title": "李力耘加入众擎机器人：智驾大将转战具身智能，全栈大脑与顶级本体的双向奔赴",
-      "company": "众擎机器人",
-      "url": "https://www.leiphone.com/category/robot/EbmFRcvpt7TBjb3P.html",
-      "source": "雷锋网",
-      "publishedAt": "Sun, 26 Apr 2026 21:15:00 +0800",
-      "summary": "前小鹏汽车副总裁、自动驾驶一号位李力耘正式加入众擎机器人，担任具身大脑领军人物。他将从零搭建视觉-语言-动作一体化的VLA模型架构，建立端到端数据闭环，并推动年产10万台产线的软硬件同步迭代。这一事件标志着智驾与具身智能技术栈的深度融合，为行业探索“本体+大脑”一体化路径提供了实战范本。",
-      "score": 72
-    },
-    {
-      "section": "技术与研究",
-      "title": "Claude用户画像曝光：80%年入超10万美元，AI贫富差距正在拉大",
-      "company": "Claude",
-      "url": "https://the-decoder.com/survey-finds-claudes-weekly-active-users-in-the-us-skew-far-wealthier-than-any-rival-ai-assistant/",
-      "source": "The Decoder",
-      "publishedAt": "Sun, 26 Apr 2026 08:50:02 +0000",
-      "summary": "一项由Epoch AI和Ipsos联合进行的调查显示，Claude的美国周活跃用户中，80%来自年收入超过10万美元的家庭，远超其他AI助手。相比之下，Meta AI的这一比例仅为37%，ChatGPT、Grok和Gemini均为56%。",
-      "score": 18
+      "title": "企业AI落地最大障碍是数据：重建数据栈成关键",
+      "company": "无",
+      "url": "https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Mon, 27 Apr 2026 13:00:00 +0000",
+      "summary": "许多企业发现，阻碍AI大规模应用的最大障碍是数据状态不佳。消费者级AI工具虽以速度和易用性令人惊艳，但企业级AI部署需要的是数据基础设施的彻底重建。这提醒企业领导者，AI战略的核心并非模型本身，而是底层数据的质量与架构。",
+      "score": 38
     }
   ]
 }
