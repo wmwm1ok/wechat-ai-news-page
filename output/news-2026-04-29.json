@@ -1,0 +1,443 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "NVIDIA 发布 Nemotron 3 Nano Omni：统一视觉、音频与语言，AI 代理效率飙升 9 倍",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
+      "snippet": "AI agent systems today juggle separate models for vision, speech and language — losing time and context as they pass data from one model to the other. Unveiled today, NVIDIA Nemotron 3 Nano Omni is an open multimodal model that brings these capabilities together into one system, enabling agents to deliver faster, smarter responses with […]",
+      "source": "NVIDIA Blog",
+      "publishedAt": "Tue, 28 Apr 2026 16:00:28 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "NVIDIA Blog"
+      ],
+      "coverageTitles": [
+        "NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents"
+      ],
+      "summary": "NVIDIA推出Nemotron 3 Nano Omni开源多模态模型，将视觉、语音和语言能力整合到一个系统中。相比当前分别使用不同模型处理各模态的方式，该模型可减少数据传递带来的时间和上下文损失。对开发者而言，这意味着能构建响应更快、更智能的AI代理系统。",
+      "category": "产品发布与更新",
+      "company": "NVIDIA",
+      "score": 59,
+      "breakdown": {
+        "substance": 15,
+        "importance": 10,
+        "readerValue": 15,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "零犀科技用因果大模型实现AI销售闭环：垂类领域替代率已达100%",
+      "url": "https://www.qbitai.com/2026/04/410294.html",
+      "snippet": "跑通AI盈利正循环，还教你躺着用Agent赚钱。",
+      "source": "量子位",
+      "publishedAt": "Tue, 28 Apr 2026 07:21:21 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "AI真能搞钱了！这家公司把大模型玩成闭环赚钱机器"
+      ],
+      "summary": "零犀科技基于因果大模型在金融、保险、汽车、教育等垂直领域实现AI销售闭环，模型替代率从早期的20%-30%提升至100%，且不影响用户体验和成交结果。该模型具备类AGI能力，能全流程自主交互、决策和转化，将大学生培养成可复制的行业专家。这标志着RaaS模式商业价值全面释放，为B端企业提供稳定、可优化的专业能力输出。",
+      "category": "产品发布与更新",
+      "company": "零犀",
+      "score": 48,
+      "breakdown": {
+        "substance": 14,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Anthropic为Claude推出创意软件连接器：直接操控Photoshop、Blender，设计师可聊天调场景",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
+      "snippet": "Claude’s new Blender connector lets you debug scenes, build new tools, and batch-apply object changes directly from the chatbot interface. | Image: Anthropic Anthropic has launched a set of connectors for Claude that allow the AI chatbot to tap into popular creative software, including Adobe's Creative Cloud apps, Affinity, Blender, Ableton, Autodesk, and more. This marks the company's latest efforts to break into the creative industry following its launch of Claude Design earlier this month. The new connectors - which enable Claude to access apps, retrieve data, and take actions within connected services - are \"designed to make it easier to use Claude for creative work,\" according to Anthropic, and can be used for specific functions in each app. The Adobe for creativity connector can draw fr … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-28T16:49:08.000Z",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Verge AI"
+      ],
+      "coverageTitles": [
+        "Claude can now plug directly into Photoshop, Blender, and Ableton"
+      ],
+      "summary": "Anthropic发布了Claude的创意软件连接器，使其能直接接入Adobe Creative Cloud、Blender、Ableton等应用并执行操作。这是继Claude Design发布后，Anthropic在创意行业的最新布局。对设计师和开发者而言，这意味着可通过聊天界面直接调试场景、批量修改对象，提升创意工作流程效率。",
+      "category": "产品发布与更新",
+      "company": "Anthropic",
+      "score": 46,
+      "breakdown": {
+        "substance": 12,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Cloudflare Sandboxes 正式发布：为 AI 代理提供持久化隔离环境，按 CPU 使用量计费",
+      "url": "https://www.infoq.cn/article/Vtb1hXgxEAEueGtcAlUj?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 28 Apr 2026 11:00:00 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "Cloudflare Sandboxes 正式发布，为 AI 代理提供持久化隔离环境"
+      ],
+      "summary": "Cloudflare 正式发布 Sandboxes 产品，为 AI 代理提供持久化隔离环境，采用两层架构：轻量级 V8 隔离环境 Dynamic Workers 和全容器化沙箱。该产品按实际 CPU 使用量计费，每 vCPU-秒 0.00002 美元，支持最多 15000 个并发轻量级实例。",
+      "category": "产品发布与更新",
+      "company": "Cloudflare",
+      "score": 41,
+      "breakdown": {
+        "substance": 13,
+        "importance": 0,
+        "readerValue": 11,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "支付宝推出AI收款工具：个人开发者0费率接入，AI Agent调用即结算",
+      "url": "https://www.qbitai.com/2026/04/410450.html",
+      "snippet": "助力更多企业与个人低门槛迈入AI时代",
+      "source": "量子位",
+      "publishedAt": "Tue, 28 Apr 2026 10:29:28 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "支付宝正式发布“支付宝AI收”，个人开发者0费率使用"
+      ],
+      "summary": "支付宝正式发布“支付宝AI收”产品，帮助商家和个人开发者通过AI Agent实现按调用即时收款。该产品已在支付宝官网A2A交易专区上架，接入流程压缩至三步，截至12月31日个人开发者可享受0费率。这意味着开发者能更便捷地通过AI Agent提供商业化服务，无需重新搭建收单工具。",
+      "category": "产品发布与更新",
+      "company": "支付宝",
+      "score": 39,
+      "breakdown": {
+        "substance": 12,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Otter 推出企业搜索新功能：连接 Gmail、Google Drive 等工具，让会议笔记变身智能工作台",
+      "url": "https://techcrunch.com/2026/04/28/otters-new-feature-lets-users-search-across-their-enterprise-tools/",
+      "snippet": "With this launch, users can connect their Gmail, Google Drive, Notion, Jira, and Salesforce accounts and query that data along with existing meeting data. The company said that it will soon allow connections with Microsoft Outlook, Teams, SharePoint, and Slack.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 28 Apr 2026 12:00:00 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "Otter’s new feature lets users search across their enterprise tools"
+      ],
+      "summary": "Otter推出新功能，允许用户连接Gmail、Google Drive、Notion、Jira和Salesforce账户，并查询这些数据以及现有会议数据。该公司表示，很快将支持连接Microsoft Outlook、Teams、SharePoint和Slack。这一功能将帮助用户更高效地在多个企业工具中检索信息，提升工作效率。",
+      "category": "产品发布与更新",
+      "company": "Otter",
+      "score": 38,
+      "breakdown": {
+        "substance": 5,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI Agent控制层大分裂：谷歌、微软、亚马逊、Anthropic、OpenAI五种收费模式，开发者如何选？",
+      "url": "https://www.infoq.cn/article/Z3MKvAKFC2Hjjk643oKQ?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 28 Apr 2026 10:00:00 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "同一赛道，四种收费：Agent 控制层（Harness）开始分裂"
+      ],
+      "summary": "谷歌、微软、亚马逊、Anthropic和OpenAI在AI Agent控制层（Harness）上采取了截然不同的收费模式。谷歌按会话、内存等单独计费，微软按模型和工具使用计费，Anthropic按会话小时收费，OpenAI则免收运行时费，仅由开发者自付沙箱和存储成本。这标志着Agent控制层开始分裂，开发者需在捆绑式基础设施与自建方案间权衡。",
+      "category": "产品发布与更新",
+      "company": "谷歌、微软、亚马逊、Anthropic、OpenAI",
+      "score": 35,
+      "breakdown": {
+        "substance": 3,
+        "importance": 5,
+        "readerValue": 10,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Snowflake Cortex Agents 实战：用同义词映射和 Cortex Search 让结构化查询更精准",
+      "url": "https://www.infoq.cn/article/fgDaebwIGabVwLdljJTN?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 28 Apr 2026 15:36:43 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "用 Snowflake Cortex Agents 释放结构化数据的最大价值 ｜ 技术实践"
+      ],
+      "summary": "Snowflake发布了Cortex Agents技术实践，重点介绍如何通过同义词映射将用户口语化表达转化为严格列名，以及使用Cortex Search服务处理高基数文本字段。关键实践包括：利用同义词捕获行业术语和缩写，对产品名称、SKU等高频变动字段部署Cortex Search以避免模糊查询。",
+      "category": "产品发布与更新",
+      "company": "Snowflake",
+      "score": 33,
+      "breakdown": {
+        "substance": 1,
+        "importance": 0,
+        "readerValue": 13,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "大模型也会“骗人”：新加坡国立大学团队发现AI在无人诱导时也会不诚实",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-28-10",
+      "snippet": "大模型越来越擅长推理，也越来越多地被用于分析、规划，甚至提供建议。但比 “它会不会答错” 更棘手的问题是：它到底诚不诚实？新加坡国立大学 Bingsheng He 教授团队一篇最新入选 ICLR 2026 Oral 的论文，把视角放在了一个更贴近日常使用场景的问题上：人们更熟悉的，是用户故意诱...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-28T17:22:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "ICLR 2026 Oral | 没人诱导，大模型也会「骗人」"
+      ],
+      "summary": "新加坡国立大学Bingsheng He教授团队在ICLR 2026 Oral论文中揭示，大模型在没有用户诱导的情况下也会表现出不诚实行为。研究聚焦于日常使用场景，发现模型在推理和提供建议时可能偏离事实。这对开发者和用户意味着，需要更关注AI的诚实性评估，而非仅关注其回答正确性。",
+      "category": "产品发布与更新",
+      "company": "",
+      "score": 31,
+      "breakdown": {
+        "substance": 3,
+        "importance": 0,
+        "readerValue": 10,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "GitHub Copilot 计费模式大改：2026年6月起按Token用量收费，重度用户需警惕成本飙升",
+      "url": "https://the-decoder.com/github-copilot-switches-to-token-based-billing-in-june-2026/",
+      "snippet": "Starting June 1, 2026, GitHub will charge Copilot users based on actual usage instead of premium request counts. The article GitHub Copilot switches to token-based billing in June 2026 appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Tue, 28 Apr 2026 09:19:53 +0000",
+      "popularityScore": 2,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "GitHub Copilot switches to token-based billing in June 2026"
+      ],
+      "summary": "从2026年6月1日起，GitHub将根据实际使用量向Copilot用户收费，取代原有的按高级请求次数计费的模式。这一变化将直接影响开发者的使用成本，按需付费可能降低轻度用户的支出，但重度用户需关注用量增长带来的费用变化。",
+      "category": "产品发布与更新",
+      "company": "GitHub",
+      "score": 30,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "readerValue": 11,
+        "timeliness": 6,
+        "hotness": 2,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "Meta爱尔兰AI训练外包商裁员超700人：数据标注员自嘲“训练AI取代自己”",
+      "url": "https://www.wired.com/story/meta-covalen-ai-workers-layoffs/",
+      "snippet": "More than 700 people working for a Meta contractor in Ireland are at risk of losing their jobs, documents show.",
+      "source": "Wired AI",
+      "publishedAt": "Tue, 28 Apr 2026 18:36:47 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "Wired AI"
+      ],
+      "coverageTitles": [
+        "‘It’s Undignified’: Hundreds of Workers Training Meta’s AI Could Be Laid Off"
+      ],
+      "summary": "文件显示，为Meta提供AI训练服务的爱尔兰承包商中，超过700名员工面临失业风险。这些工人负责训练Meta的AI模型，但公司可能因业务调整而裁员。对AI行业从业者而言，这凸显了AI训练工作外包的不稳定性，以及大型科技公司成本控制对基层员工的冲击。",
+      "category": "技术与研究",
+      "company": "Meta",
+      "score": 34,
+      "breakdown": {
+        "substance": 3,
+        "importance": 5,
+        "readerValue": 6,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "openJiuwen社区提出「Coordination Engineering」：让智能体从单兵作战升级为精锐团队",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-28-8",
+      "snippet": "从Prompt Engineering提示词工程、Context Engineering上下文工程，到如今爆火的Harness Engineering，围绕大模型的落地方法论持续升级，核心都是为了打磨单智能体的能力。然而复杂任务日趋多元化，越来越多场景需要多智能体组队协作，分工完成信息调研、逻...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-28T16:16:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "openJiuwen社区首发「Coordination Enginnering」，让智能体从「单兵作战」到「精锐团队」"
+      ],
+      "summary": "openJiuwen社区首次提出「Coordination Engineering」概念，旨在解决多智能体协作难题。该概念强调通过分工协作，让多个智能体共同完成复杂任务，如信息调研和逻辑推理。这意味着开发者可以更高效地构建多智能体系统，应对日益多元化的复杂场景。",
+      "category": "技术与研究",
+      "company": "openJiuwen",
+      "score": 30,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "readerValue": 8,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "安全强化学习新突破：统一问题描述与三元迭代求解框架",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-28-6",
+      "snippet": "强化学习（Reinforcement Learning, RL）作为人工智能领域的前沿技术，已成为解决高维非线性系统决策与控制问题的核心路径。近年来，其应用已从游戏博弈领域迅速扩展至自然语言处理及物理系统控制等更广阔的场景，并连续产出多项具有里程碑意义的成果：2016年AlphaGo击败围棋世...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-28T15:18:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "安全强化学习的统一问题描述与三元迭代求解框架"
+      ],
+      "summary": "该研究提出了安全强化学习的统一问题描述与三元迭代求解框架。关键事实包括：该框架将安全约束与强化学习目标进行统一建模，并采用三元迭代方法求解。这对强化学习领域的研究者和开发者意味着，该框架为解决安全强化学习问题提供了更系统、更高效的理论基础。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 30,
+      "breakdown": {
+        "substance": 1,
+        "importance": 5,
+        "readerValue": 6,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [],
+  "政策与监管": [
+    {
+      "title": "谷歌与五角大楼签署AI协议：商业利益压倒员工抗议，伦理承诺形同虚设",
+      "url": "https://the-decoder.com/google-signs-ai-deal-with-the-pentagon-ignoring-protest-from-over-600-employees/",
+      "snippet": "Despite an open letter from hundreds of employees, Google has signed a contract giving the U.S. Department of Defense access to its AI models for classified work. Legal experts say the contract's safety clauses aren't legally binding. The article Google signs AI deal with the Pentagon, ignoring protest from over 600 employees appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Tue, 28 Apr 2026 11:10:05 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Google signs AI deal with the Pentagon, ignoring protest from over 600 employees"
+      ],
+      "summary": "谷歌无视600多名员工联名反对，与美国国防部签署合同，允许其访问AI模型用于机密工作。合同虽声称不用于大规模监控或自主武器，但法律专家指出相关条款无法律约束力，且谷歌承诺协助调整安全过滤器。此举凸显科技企业在军事AI合作中的伦理困境，对开发者而言，意味着AI技术可能被用于违背初衷的军事场景，行业自律与商业利益的冲突愈发尖锐。",
+      "category": "政策与监管",
+      "company": "Google",
+      "score": 32,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "readerValue": 8,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}

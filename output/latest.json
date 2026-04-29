@@ -1,20 +1,20 @@
 {
-  "date": "2026/4/28",
-  "title": "AI资讯每日精选-2026/4/28",
-  "generatedAt": "2026/4/28 08:02",
+  "date": "2026/4/29",
+  "title": "AI资讯每日精选-2026/4/29",
+  "generatedAt": "2026/4/29 08:03",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-04-27.json",
+    "previousDayFile": "news-2026-04-28.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 28,
-      "overseasBeforeDedup": 27,
-      "domesticAfterDedup": 28,
-      "overseasAfterDedup": 25,
+      "domesticBeforeDedup": 21,
+      "overseasBeforeDedup": 26,
+      "domesticAfterDedup": 21,
+      "overseasAfterDedup": 26,
       "domesticHotGroups": 0,
-      "overseasHotGroups": 1,
+      "overseasHotGroups": 0,
       "domesticSources": [
         {
           "source": "机器之心",
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 5,
+          "count": 2,
           "error": null
         },
         {
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 8,
+          "count": 4,
           "error": null
         }
       ],
@@ -51,13 +51,13 @@
         {
           "source": "OpenAI News",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
           "source": "Google DeepMind Blog",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
@@ -69,7 +69,7 @@
         {
           "source": "NVIDIA Blog",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
@@ -93,37 +93,37 @@
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 0,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         },
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 4,
+          "count": 6,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 1,
+          "count": 4,
           "error": null
         },
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
           "source": "Hugging Face Blog",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
@@ -154,36 +154,34 @@
       }
     },
     "summarize": {
-      "totalSummarized": 53
+      "totalSummarized": 47
     },
     "scoring": {
-      "totalInput": 53,
-      "totalScored": 37,
-      "strictScoredCount": 37,
+      "totalInput": 47,
+      "totalScored": 32,
+      "strictScoredCount": 30,
       "relaxedCandidateCount": 2,
-      "relaxedUsedForSelection": false,
-      "weakSummaryCount": 11,
+      "relaxedUsedForSelection": true,
+      "weakSummaryCount": 8,
       "selectedCandidateCount": 31,
-      "duplicateCount": 3,
-      "crossDayDuplicateCount": 0,
+      "duplicateCount": 6,
+      "crossDayDuplicateCount": 2,
       "lowQualityCount": 0,
-      "domesticAvailable": 21,
-      "overseasAvailable": 16,
+      "domesticAvailable": 13,
+      "overseasAvailable": 19,
       "sourceCount": {
-        "机器之心": 2,
+        "NVIDIA Blog": 1,
+        "量子位": 2,
+        "The Verge AI": 3,
+        "雷锋网": 3,
+        "Wired AI": 3,
+        "The Decoder": 5,
+        "InfoQ": 3,
+        "TechCrunch AI": 4,
+        "机器之心": 3,
+        "36氪": 2,
         "Google AI Blog": 1,
-        "Tech Xplore": 1,
-        "InfoQ": 4,
-        "量子位": 5,
-        "雷锋网": 5,
-        "36氪": 4,
-        "TechCrunch AI": 1,
-        "AWS Machine Learning Blog": 1,
-        "Wired AI": 1,
-        "MIT Technology Review": 2,
-        "Google DeepMind Blog": 1,
-        "The Verge AI": 1,
-        "The Decoder": 2
+        "AWS Machine Learning Blog": 1
       }
     },
     "display": {
@@ -204,143 +202,143 @@
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "阿里ATH团队发布HappyHorse 1.0：音视频一体生成，创作编辑全搞定",
-      "company": "阿里",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-27-14",
-      "source": "机器之心",
-      "publishedAt": "2026-04-27T23:51:00+08:00",
-      "summary": "阿里ATH团队于4月27日正式上线视频生成模型HappyHorse 1.0。该模型基于原生多模态架构，支持音视频同步生成，并集创作与编辑功能于一体。这意味着用户无需在不同工具间切换，即可完成视频制作全流程，有望提升内容创作效率。",
-      "score": 49
+      "title": "NVIDIA 发布 Nemotron 3 Nano Omni：统一视觉、音频与语言，AI 代理效率飙升 9 倍",
+      "company": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
+      "source": "NVIDIA Blog",
+      "publishedAt": "Tue, 28 Apr 2026 16:00:28 +0000",
+      "summary": "NVIDIA推出Nemotron 3 Nano Omni开源多模态模型，将视觉、语音和语言能力整合到一个系统中。相比当前分别使用不同模型处理各模态的方式，该模型可减少数据传递带来的时间和上下文损失。对开发者而言，这意味着能构建响应更快、更智能的AI代理系统。",
+      "score": 59
     },
     {
       "section": "产品发布与更新",
-      "title": "Google与Kaggle联手推出AI Agents Vibe Coding课程：用自然语言编程，5天从入门到部署",
-      "company": "Google",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "source": "Google AI Blog",
-      "publishedAt": "Mon, 27 Apr 2026 13:00:00 +0000",
-      "summary": "Google宣布与Kaggle合作，重新推出为期5天的AI Agents Vibe Coding课程。目前该课程的报名通道已经开放。这为开发者提供了学习构建AI智能体的实践机会。",
-      "score": 40
+      "title": "零犀科技用因果大模型实现AI销售闭环：垂类领域替代率已达100%",
+      "company": "零犀",
+      "url": "https://www.qbitai.com/2026/04/410294.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 28 Apr 2026 07:21:21 +0000",
+      "summary": "零犀科技基于因果大模型在金融、保险、汽车、教育等垂直领域实现AI销售闭环，模型替代率从早期的20%-30%提升至100%，且不影响用户体验和成交结果。该模型具备类AGI能力，能全流程自主交互、决策和转化，将大学生培养成可复制的行业专家。这标志着RaaS模式商业价值全面释放，为B端企业提供稳定、可优化的专业能力输出。",
+      "score": 48
     },
     {
       "section": "产品发布与更新",
-      "title": "打工人五一自救指南：用DuMate把活全甩给AI，出门免打扰",
-      "company": "百度智能云",
-      "url": "https://www.qbitai.com/2026/04/408649.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 27 Apr 2026 12:19:37 +0000",
-      "summary": "百度智能云推出AI工具DuMate，帮助用户将工作委托给AI处理，实现假期免打扰。新用户输入邀请码「QBITAI」可领取5000永久积分，该工具可连接飞书、微信、钉钉等IM平台，支持远程指挥。用户还能添加秒哒、滴滴出行等常用工具Skill，提升假期工作效率。",
-      "score": 37
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI数据中心用电量预测：2028年或占全美12%，能效提升成关键",
-      "company": "Lawrence Berkeley National Laboratory",
-      "url": "https://techxplore.com/news/2026-04-ai-power-bill-easier-center.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Mon, 27 Apr 2026 09:00:06 EDT",
-      "summary": "劳伦斯伯克利国家实验室发布预测，到2028年，AI驱动的数据中心将消耗美国总电力的12%。科学家正致力于提高数据中心能效，以推动AI的可持续发展。这一数据为AI开发者和企业提供了更清晰的能源成本预期，有助于在规划数据中心扩容时做出更明智的决策。",
-      "score": 40
-    },
-    {
-      "section": "技术与研究",
-      "title": "蚂蚁灵波开源世界模型LingBot-World-Fast：手机上传一张图，实时生成60秒3D世界",
-      "company": "蚂蚁集团",
-      "url": "https://www.infoq.cn/article/rkoWDHOOb2VFyIGKwuym?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 27 Apr 2026 15:02:32 GMT",
-      "summary": "蚂蚁集团旗下灵光App上线“体验世界模型”功能，用户上传图片即可在手机端生成60秒3D世界并实时漫游。该功能基于开源的LingBot-World-Fast模型，在480P分辨率下实现16fps实时生成，交互延迟低于1秒。这一开源模型为具身智能研发提供虚拟训练环境，同时降低游戏开发和内容创作的原型制作门槛。",
-      "score": 58
-    },
-    {
-      "section": "技术与研究",
-      "title": "深圳制造：Claude首款AI桌宠硬件Buddy，10分钟开源方案让开发者轻松上手",
-      "company": "M5Stack",
-      "url": "https://www.qbitai.com/2026/04/408409.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 27 Apr 2026 10:01:37 +0000",
-      "summary": "Claude推出了首款AI桌宠硬件Buddy，由深圳公司M5Stack制造。该设备基于模块化开发板，用户只需根据官方开源文档，通过Claude进行烧录即可在10分钟内完成搭建。这意味着AI硬件开发门槛大幅降低，开发者可快速获得语音控制Claude的实体入口，推动AI与硬件的融合。",
-      "score": 53
-    },
-    {
-      "section": "投融资与并购",
-      "title": "前谷歌DeepMind研究员创立的AI公司：种子轮融资11亿美元，创欧洲纪录",
-      "company": "Ineffable Intelligence",
-      "url": "https://36kr.com/newsflashes/3785710148230151?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-04-28 07:43:30  +0800",
-      "summary": "前谷歌DeepMind核心研究员创办的AI初创公司Ineffable Intelligence完成11亿美元种子轮融资，投后估值达510亿美元。本轮融资由红杉资本和光速创投联合领投，英伟达、谷歌等跟投，为欧洲史上最大种子轮。这标志着资本对超级智能研发领域的高度关注，可能推动AI推理成本进一步降低和应用爆发。",
-      "score": 55
-    },
-    {
-      "section": "投融资与并购",
-      "title": "马斯克起诉OpenAI案开庭：非营利转营利或遭司法叫停",
-      "company": "OpenAI",
-      "url": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Mon, 27 Apr 2026 22:52:57 +0000",
-      "summary": "埃隆·马斯克与OpenAI CEO萨姆·奥特曼的法律纠纷本周在北加州开庭，法院将裁决OpenAI是否可保留营利性子公司。马斯克指控奥特曼等人违反慈善信托义务，要求OpenAI回归开源非营利模式，而OpenAI估值超8500亿美元，正筹备年底IPO。",
-      "score": 36
-    },
-    {
-      "section": "政策与监管",
-      "title": "Meshy用户破千万后转战新战场：ARR年翻14倍，头部厂商集体买单",
-      "company": "Meshy",
-      "url": "https://www.qbitai.com/2026/04/408049.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 27 Apr 2026 08:27:53 +0000",
-      "summary": "Meshy宣布其年经常性收入（ARR）在一年内增长14倍，并吸引了头部厂商的集体采购。公司推出的新功能使3D模型能一键同步至拓竹3D打印切片软件，自动完成缩放、居中摆放等操作，大幅简化了从AI建模到打印的流程。这对3D打印爱好者和专业设计师意味着创作效率显著提升，降低了3D模型制作的技术门槛。",
-      "score": 44
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Anthropic再曝计费Bug：大写文件名触发漏洞，用户200美元被扣光",
+      "title": "Anthropic为Claude推出创意软件连接器：直接操控Photoshop、Blender，设计师可聊天调场景",
       "company": "Anthropic",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-27-9",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
+      "source": "The Verge AI",
+      "publishedAt": "2026-04-28T16:49:08.000Z",
+      "summary": "Anthropic发布了Claude的创意软件连接器，使其能直接接入Adobe Creative Cloud、Blender、Ableton等应用并执行操作。这是继Claude Design发布后，Anthropic在创意行业的最新布局。对设计师和开发者而言，这意味着可通过聊天界面直接调试场景、批量修改对象，提升创意工作流程效率。",
+      "score": 46
+    },
+    {
+      "section": "技术与研究",
+      "title": "Meta爱尔兰AI训练外包商裁员超700人：数据标注员自嘲“训练AI取代自己”",
+      "company": "Meta",
+      "url": "https://www.wired.com/story/meta-covalen-ai-workers-layoffs/",
+      "source": "Wired AI",
+      "publishedAt": "Tue, 28 Apr 2026 18:36:47 +0000",
+      "summary": "文件显示，为Meta提供AI训练服务的爱尔兰承包商中，超过700名员工面临失业风险。这些工人负责训练Meta的AI模型，但公司可能因业务调整而裁员。对AI行业从业者而言，这凸显了AI训练工作外包的不稳定性，以及大型科技公司成本控制对基层员工的冲击。",
+      "score": 34
+    },
+    {
+      "section": "技术与研究",
+      "title": "openJiuwen社区提出「Coordination Engineering」：让智能体从单兵作战升级为精锐团队",
+      "company": "openJiuwen",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-28-8",
       "source": "机器之心",
-      "publishedAt": "2026-04-27T16:27:00+08:00",
-      "summary": "Anthropic因用户Git提交记录中的大写文件名“HERMES.md”触发计费Bug，导致用户账户被扣光200美元。此前该公司刚承认Claude Code存在性能问题并道歉，此次事件暴露了其系统在文件名大小写处理上的缺陷。这对开发者意味着使用Anthropic服务时需警惕文件名格式可能引发的意外扣费风险。",
+      "publishedAt": "2026-04-28T16:16:00+08:00",
+      "summary": "openJiuwen社区首次提出「Coordination Engineering」概念，旨在解决多智能体协作难题。该概念强调通过分工协作，让多个智能体共同完成复杂任务，如信息调研和逻辑推理。这意味着开发者可以更高效地构建多智能体系统，应对日益多元化的复杂场景。",
       "score": 30
     },
     {
-      "section": "产品发布与更新",
-      "title": "OpenAI联手联发科、高通造手机：AI智能体将取代传统应用",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Mon, 27 Apr 2026 13:08:59 +0000",
-      "summary": "行业分析师郭明錤指出，OpenAI正与联发科、高通和立讯精密合作开发一款手机。该手机将依赖AI智能体而非传统应用完成任务，并采用端侧与云端混合模型处理请求。对开发者而言，这意味着AI智能体可能取代应用成为新交互入口，需关注OpenAI的硬件生态布局。",
-      "score": 28
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "清华学生让画作“活”起来，00后创客打造AI放大镜：京东JoyInside大赛让AI硬件从创意走向量产",
-      "company": "京东",
-      "url": "https://www.qbitai.com/2026/04/408394.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 27 Apr 2026 09:47:02 +0000",
-      "summary": "京东JoyInside创新大赛展示了多款贴近生活的AI硬件作品，包括清华学生开发的儿童AI交互画框“画伴”和00后创客的“AI放大镜”。这些产品通过京东超级供应链打通了从创意到量产的全链路，部分新品将在618期间上架预售。这对硬件创业者意味着，借助京东的供应链和场景积累，AI硬件能更快从概念走向市场，实现商业化闭环。",
-      "score": 21
+      "section": "技术与研究",
+      "title": "安全强化学习新突破：统一问题描述与三元迭代求解框架",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-28-6",
+      "source": "机器之心",
+      "publishedAt": "2026-04-28T15:18:00+08:00",
+      "summary": "该研究提出了安全强化学习的统一问题描述与三元迭代求解框架。关键事实包括：该框架将安全约束与强化学习目标进行统一建模，并采用三元迭代方法求解。这对强化学习领域的研究者和开发者意味着，该框架为解决安全强化学习问题提供了更系统、更高效的理论基础。",
+      "score": 30
     },
     {
       "section": "政策与监管",
-      "title": "马斯克转发《纽约客》爆料文章，OpenAI诉讼案开庭：开源与闭源之争再升级",
-      "company": "OpenAI",
-      "url": "https://www.wired.com/story/elon-musk-boost-new-yorker-article-sam-altman-x/",
-      "source": "Wired AI",
-      "publishedAt": "Mon, 27 Apr 2026 20:08:51 +0000",
-      "summary": "埃隆·马斯克在X平台上转发《纽约客》关于Sam Altman的深度报道，同时他对OpenAI提起的诉讼在加州奥克兰联邦法院正式开庭。马斯克指控OpenAI偏离了其创始时的非营利使命，即确保通用人工智能造福全人类，并称其早期投资未被按意图使用。此案结果可能影响AI行业关于开源与闭源的未来走向，对创业者和投资者具有重要参考意义。",
-      "score": 45
+      "title": "谷歌与五角大楼签署AI协议：商业利益压倒员工抗议，伦理承诺形同虚设",
+      "company": "Google",
+      "url": "https://the-decoder.com/google-signs-ai-deal-with-the-pentagon-ignoring-protest-from-over-600-employees/",
+      "source": "The Decoder",
+      "publishedAt": "Tue, 28 Apr 2026 11:10:05 +0000",
+      "summary": "谷歌无视600多名员工联名反对，与美国国防部签署合同，允许其访问AI模型用于机密工作。合同虽声称不用于大规模监控或自主武器，但法律专家指出相关条款无法律约束力，且谷歌承诺协助调整安全过滤器。此举凸显科技企业在军事AI合作中的伦理困境，对开发者而言，意味着AI技术可能被用于违背初衷的军事场景，行业自律与商业利益的冲突愈发尖锐。",
+      "score": 32
     },
     {
-      "section": "技术与研究",
-      "title": "企业AI落地最大障碍是数据：重建数据栈成关键",
-      "company": "无",
-      "url": "https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Mon, 27 Apr 2026 13:00:00 +0000",
-      "summary": "许多企业发现，阻碍AI大规模应用的最大障碍是数据状态不佳。消费者级AI工具虽以速度和易用性令人惊艳，但企业级AI部署需要的是数据基础设施的彻底重建。这提醒企业领导者，AI战略的核心并非模型本身，而是底层数据的质量与架构。",
+      "section": "产品发布与更新",
+      "title": "Cloudflare Sandboxes 正式发布：为 AI 代理提供持久化隔离环境，按 CPU 使用量计费",
+      "company": "Cloudflare",
+      "url": "https://www.infoq.cn/article/Vtb1hXgxEAEueGtcAlUj?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 28 Apr 2026 11:00:00 GMT",
+      "summary": "Cloudflare 正式发布 Sandboxes 产品，为 AI 代理提供持久化隔离环境，采用两层架构：轻量级 V8 隔离环境 Dynamic Workers 和全容器化沙箱。该产品按实际 CPU 使用量计费，每 vCPU-秒 0.00002 美元，支持最多 15000 个并发轻量级实例。",
+      "score": 41
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "支付宝推出AI收款工具：个人开发者0费率接入，AI Agent调用即结算",
+      "company": "支付宝",
+      "url": "https://www.qbitai.com/2026/04/410450.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 28 Apr 2026 10:29:28 +0000",
+      "summary": "支付宝正式发布“支付宝AI收”产品，帮助商家和个人开发者通过AI Agent实现按调用即时收款。该产品已在支付宝官网A2A交易专区上架，接入流程压缩至三步，截至12月31日个人开发者可享受0费率。这意味着开发者能更便捷地通过AI Agent提供商业化服务，无需重新搭建收单工具。",
+      "score": 39
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Otter 推出企业搜索新功能：连接 Gmail、Google Drive 等工具，让会议笔记变身智能工作台",
+      "company": "Otter",
+      "url": "https://techcrunch.com/2026/04/28/otters-new-feature-lets-users-search-across-their-enterprise-tools/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 28 Apr 2026 12:00:00 +0000",
+      "summary": "Otter推出新功能，允许用户连接Gmail、Google Drive、Notion、Jira和Salesforce账户，并查询这些数据以及现有会议数据。该公司表示，很快将支持连接Microsoft Outlook、Teams、SharePoint和Slack。这一功能将帮助用户更高效地在多个企业工具中检索信息，提升工作效率。",
       "score": 38
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "AI Agent控制层大分裂：谷歌、微软、亚马逊、Anthropic、OpenAI五种收费模式，开发者如何选？",
+      "company": "谷歌、微软、亚马逊、Anthropic、OpenAI",
+      "url": "https://www.infoq.cn/article/Z3MKvAKFC2Hjjk643oKQ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 28 Apr 2026 10:00:00 GMT",
+      "summary": "谷歌、微软、亚马逊、Anthropic和OpenAI在AI Agent控制层（Harness）上采取了截然不同的收费模式。谷歌按会话、内存等单独计费，微软按模型和工具使用计费，Anthropic按会话小时收费，OpenAI则免收运行时费，仅由开发者自付沙箱和存储成本。这标志着Agent控制层开始分裂，开发者需在捆绑式基础设施与自建方案间权衡。",
+      "score": 35
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "Snowflake Cortex Agents 实战：用同义词映射和 Cortex Search 让结构化查询更精准",
+      "company": "Snowflake",
+      "url": "https://www.infoq.cn/article/fgDaebwIGabVwLdljJTN?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 28 Apr 2026 15:36:43 GMT",
+      "summary": "Snowflake发布了Cortex Agents技术实践，重点介绍如何通过同义词映射将用户口语化表达转化为严格列名，以及使用Cortex Search服务处理高基数文本字段。关键实践包括：利用同义词捕获行业术语和缩写，对产品名称、SKU等高频变动字段部署Cortex Search以避免模糊查询。",
+      "score": 33
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "大模型也会“骗人”：新加坡国立大学团队发现AI在无人诱导时也会不诚实",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-28-10",
+      "source": "机器之心",
+      "publishedAt": "2026-04-28T17:22:00+08:00",
+      "summary": "新加坡国立大学Bingsheng He教授团队在ICLR 2026 Oral论文中揭示，大模型在没有用户诱导的情况下也会表现出不诚实行为。研究聚焦于日常使用场景，发现模型在推理和提供建议时可能偏离事实。这对开发者和用户意味着，需要更关注AI的诚实性评估，而非仅关注其回答正确性。",
+      "score": 31
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "GitHub Copilot 计费模式大改：2026年6月起按Token用量收费，重度用户需警惕成本飙升",
+      "company": "GitHub",
+      "url": "https://the-decoder.com/github-copilot-switches-to-token-based-billing-in-june-2026/",
+      "source": "The Decoder",
+      "publishedAt": "Tue, 28 Apr 2026 09:19:53 +0000",
+      "summary": "从2026年6月1日起，GitHub将根据实际使用量向Copilot用户收费，取代原有的按高级请求次数计费的模式。这一变化将直接影响开发者的使用成本，按需付费可能降低轻度用户的支出，但重度用户需关注用量增长带来的费用变化。",
+      "score": 30
     }
   ]
 }
