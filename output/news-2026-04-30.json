@@ -1,0 +1,413 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "Google Gemini 升级：聊天框内直接生成完整文档、表格和演示文稿，办公效率再提升",
+      "url": "https://the-decoder.com/google-gemini-now-generates-full-documents-spreadsheets-and-presentations-directly-inside-the-chat/",
+      "snippet": "Google Gemini now creates documents directly in the chat, from PDFs and Word files to Excel spreadsheets. The article Google Gemini now generates full documents, spreadsheets, and presentations directly inside the chat appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Wed, 29 Apr 2026 17:18:57 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Google Gemini now generates full documents, spreadsheets, and presentations directly inside the chat"
+      ],
+      "summary": "Google Gemini 现在可以直接在聊天界面中生成并导出完整文档、电子表格和演示文稿，支持 PDF、Word、Excel、Google Docs 等多种格式。用户只需通过文本描述内容和格式，无需上传模板，即可完成从创建到导出的全过程。这一功能大幅简化了文档生成流程，对日常办公的开发者与普通用户而言，有望显著提升内容创作和数据分析的效率。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 38,
+      "breakdown": {
+        "substance": 1,
+        "importance": 11,
+        "readerValue": 7,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "微软OpenAI分手后，OpenAI火速登陆AWS：三家云服务格局生变",
+      "url": "https://the-decoder.com/openai-lands-on-aws-one-day-after-microsoft-deal-restructuring/",
+      "snippet": "Microsoft and OpenAI dissolve their exclusivity deal. One day later, AWS rolls out three new OpenAI offerings on its Bedrock platform, including a jointly built agent service. The article OpenAI lands on AWS one day after Microsoft deal restructuring appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Wed, 29 Apr 2026 13:06:01 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "OpenAI lands on AWS one day after Microsoft deal restructuring"
+      ],
+      "summary": "微软与OpenAI解除独家合作协议后仅一天，AWS在其Bedrock平台上推出三项新的OpenAI服务，包括联合构建的代理服务。这一变化打破了微软对OpenAI技术的独家使用权。对开发者而言，这意味着他们可以在AWS上直接使用OpenAI模型，获得更多云服务选择。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 37,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "readerValue": 6,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "丰e足食联手阿里云千问：18万无人零售柜接入大模型，AI决策迈向L4级",
+      "url": "https://www.leiphone.com/category/industrynews/lERHmOr6zFZwPr73.html",
+      "snippet": "无人零售行业规模最大的品牌丰e足食正在加速AI在业务中的落地应用。目前，其旗下运营着18万个无人零售柜，AI已深度参与管理、决策等多个环节。 为进一步提升无人零售全链路的智能化水平，2026年4月，丰e足食母公司——深圳市丰宜科技集团股份有限公司（以下简称“丰宜科技”）与阿里云智能集团（以下简称“阿里云”）宣布达成AI全面合作。 图注：阿里云智能集团和丰宜科技签约现场 双方正式签署大模型合作框架协议，围绕千问大模型在无人零售业务场景中的深度落地展开全方位合作，推动企业运营成本与效率的优化，并升级智能决策能力，共同探索通用人工智能在无人零售行业的应用标准。阿里云公共云事业部副总裁张翅、阿里云千问大模型业务总经理徐栋、丰宜科技CEO单新宁、丰宜科技COO朱涛等双方嘉宾出席了签约仪式，协议由阿里云数字金融部总经理肖瑜与丰宜科技CTO蔡亮共同签署。 丰e足食AI+零售能力跃迁 丰宜科技CEO单新宁介绍，在丰e足食自研“星途智航”智能体的基础上，希望借助通义千问大模型，进一步提升订单识别、效期管理等多个运营环节质量检核能力，以及C端零售交互体验，促进AI技术在无人零售业务场景融合，实现企业运营提效降本，打造AI大模型在无人零售行业的企业级工程化智能解决方案。 据悉，丰e足食是国内无人零售行业最大规模的运营商，目前已经在全国84个城市运营超过18万台智能柜，其在2023年-2025年投入近2亿元研发费用，全方位升级改造全链路的运营体系，打造AI全域决策驱动模式，有效规避人工决策带来的业务波动。目前，丰e足食自研的“星途智航（FLOW Pilot）”AI智能体，已经全面落地，统筹接管18万台智能柜的日常运营工作。 该智能体已经全面主导丰宜科技经营决策，24小时不间断地自动分析全网络动态实时数据，基于每个点位的需求分析以及预测，依靠大量自研算法和近百个决策模型，每天做出上亿次智能运营决策，仅在少量的客户主动申请调整情况下需要人工介入，人工干预的次数仅维持在4000次左右，其智能化水平已经接近“L4级自动驾驶”，这是国内首个已经实现大规模化商用的AI零售智能体，让市场看到了“人工经验驱动”向“AI Agent 自主驱动”转变带来的巨大商业价值。 单新宁表示，过去3年来，丰e足食成功依托于自研“星途智航”智能体的落地应用，实现了运营效率的大幅提升，成功将经营门槛下探至平均月销售额1000元左右、最低每月300元。从此，打开因经济效益限制未被覆盖的海量微型消费场景，让丰e足食从“价格战抢优质点位”的红海市场走了出来。释放“深耕小微场景”的新蓝海市场。 “丰e足食通过长期自研投入，在AI应用与智能化方面已经取得了一定的成绩，但千问大模型在多模态理解、跨行业知识迁移方面的能力在整个AI领域都是领先的，借力千问大模型的基础模型能力与跨行业经验，可以支持丰e足食迈向更高阶智能，增强全链路闭环以及数据采集与分析的能力，适应未来更大规模的运营需求，同时也能为无人零售行业在多模态识别技术的应用、智能决策链路探索等方面提供新的实践经验。”单新宁告诉雷峰网。 会上，阿里云公共云事业部副总裁张翅表示，丰宜科技在AI智能化层面已经取得了行业领先应用成果，未来“星途智航”AI零售智能体接入阿里云大模型，打通数据接入层、工具接口层，与“星途智航”多个子智能体实现协同运营，将会进一步提升整体的决策智能水平。 阿里云探索AI零售“新范本 ” 对于阿里云而言，此次为何选择无人零售场景作为AI大模型在企业工程化解决方案落地的突破口，张翅表示近年来AI大模型发展迅速，阿里云此次将目光投向实体经济，是想‘真正办成事’，真正深度参与到实体行业链路的交互中，提供决策分析服务。 张翅告诉雷峰网，无人零售并非仅仅是“无人收银”，它连接了线上算法与线下实体（货柜、商品、用户），其高频、高并发、强实时、多模态数据交织的典型复杂场景，可以积累海量高质量的“物理世界”多模态数据，这些行为数据对于训练大模型理解物理世界规律、提升推理能力具有不可替代的价值。 业内人士指出，此次合作将可以快速验证“云+AI”在实体经济中的闭环能力，进一步看到大模型从“辅助生成”走向“实体办事”的能力跃迁，是AI深入实体经济的重要实践案例。如果阿里云能够借助其强大的原生多模态能力，结合丰e足食18万个货柜日常运营中的业务数据和自有系统能力，双方合作对订单、商品、库存、视频、图片、语音等进行更加智能深度实时分析与处理，持续训练提升在无人零售领域的技术能力，可为整个行业提供更精准的AI赋能。 与传统互联网应用不同，无人零售是典型的“原子世界”业务，其技术落地面临三大核心挑战：“幻觉”容忍度极低、多模态数据的异构性与实时性矛盾、长尾场景与动态环境的适应性周期长。这要求AI决策必须精准可靠，譬如大模型错误识别商品导致扣款错误，会直接造成真金白银的损失和消费者信任下降，零售支付业务对准确率和稳定性的要求远高于其他场景。 对于阿里云而言，通过在丰e足食头部企业身上打磨出一套标准化的AI应用范式，将有利于打造可复制的场景标杆案例。张翅表示，未来可以将这套解决方案复制到零售商超、无人值守甚至无人店等其他场景，辐射至更多行业的痛点（视觉识别、操作规范检核、库存管理、供应链优化），这些需求在餐饮、物流、制造等行业具有高度共性，具备规模化商业价值。 “千问大模型的赋能将提升丰e足食技术团队的AI能力，背靠阿里云优质的AI大模型，既能收获事半功倍的效果，也能为从业者带来更多灵感。AI技术对企业经营效率提升仍有巨大空间，实体行业可以基于业务深度理解，深入探索AI的应用”。单新宁表示。 无人零售需要更加适配的AI标准方案 对于通用人工智能在零售行业的应用评测方面，当前全球主流的Vending Bench评测体系，是基于仿真环境搭建，其消费习惯、供应链规则、定价逻辑均基于仿真数据，与真实零售运营场景的数据存在显著差异。譬如，国内的动态促销机制、即时配送协同、下沉市场消费特征、合规监管要求等核心变量，在现有基准中完全缺失，导致评测结果无法真实反映AI在国内业务中的落地能力，也让国内企业难以用这套体系筛选适配自身需求的大模型方案。 针对中国零售场景、供应链节奏、消费行为特征，这要求通用人工智能无人零售行业应用新标准要有高度适配性，能针对国内无人零售的复杂规则，实现比通用模型更懂“中国货柜怎么赚钱”。 对此，张翅指出，随着千问大模型等国产大模型技术快速迭代，市场亟需一个能将“实验室性能”转化为“真实业务价值”的验证桥梁。“现有评测多聚焦于通用能力，无法衡量大模型在垂直领域的商业化潜力，阿里云将与丰e足食合作，依托18万台真实货柜的运营数据，共同构建一整套评测和应用大模型智能体的新标准体系，覆盖履约检核、消费者营销互动，未来还将深入探索智能决策安全、长周期连续决策等领域。这套行业首个由企业真实业务数据驱动的评测体系和应用范式，将成为衡量大模型商业落地价值的核心标尺，推动AI从实验室性能向实际经营能力跨越。”张翅表示。 “丰e足食的技术团队，正在集中解决AI应用过程中，如何控制中间策略崩坏、记忆丢失等情况，深度消化交易数据、用户行为、库存波动、供应链延迟等多维信息等前沿挑战。”丰e足食CTO蔡亮表示，千问大模型针对商业环境已经积累了较多跨行业深度案例，千问大模型在长对话、长序列决策、跨轮记忆方面表现稳定，阿里云团队更是具备成熟的工程化落地能力，双方将共同探索如何实现这些能力与货柜端系统、配送体系、供应链平台的深度对接，推动在18万台货柜上进行规模化验证与持续迭代。 本次合作的核心价值，张翅认为在于以全模态大模型突破单一模态局限，让通义千问可以通过场景数据迭代训练、不同属性案例的持续注入，不断强化模仿类似于人思考一样学习的过程。这一举措不仅能实现大模型能力的关键进化，也能让终端真正拥有“生命力”，实现从技术能力到产业智能的全面升级，并更好地服务消费者。 “相信通过与头部企业丰宜科技在无人零售场景的深度合作，将会加速推动行业数字化与智能化升级，阿里云将持续提供安全、可靠的计算与数据处理能力，助力无人零售行业数智能化进程稳步推进。”张翅表示，阿里云将从技术和生态开放合作层面，通过AI技术打通更多实体行业，让AI技术不仅有温度、有思考，更能切实服务客户需求。",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 29 Apr 2026 19:03:00 +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "雷锋网"
+      ],
+      "coverageTitles": [
+        "丰e足食与阿里云千问达成全面合作，无人零售AI应用诞生首个行业标杆"
+      ],
+      "summary": "丰e足食与阿里云千问达成全面合作，将千问大模型接入其18万个无人零售柜的运营系统。丰e足食自研的“星途智航”智能体已实现日均上亿次AI决策，人工干预仅4000次，接近L4级自动驾驶水平。此次合作旨在提升订单识别、效期管理等环节的智能化水平，为无人零售行业探索AI大模型的企业级工程化解决方案。",
+      "category": "产品发布与更新",
+      "company": "丰e足食",
+      "score": 49,
+      "breakdown": {
+        "substance": 21,
+        "importance": 5,
+        "readerValue": 13,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "腾讯开源0.4G离线翻译模型：手机端跑33种语言，质量超谷歌",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-29-13",
+      "snippet": "4月29日，腾讯混元推出并开源极致量化压缩版本翻译模型 Hy-MT1.5-1.8B-1.25bit，把支持 33 种语言的翻译大模型压缩至 440MB，无需联网，下载即可直接在手机本地运行，翻译质量优于谷歌翻译。 翻译质量及速度演示（设备：高通...",
+      "source": "机器之心",
+      "publishedAt": "2026-04-29T17:02:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "腾讯开源手机端离线翻译模型，仅0.4G，支持33种语言"
+      ],
+      "summary": "腾讯混元于4月29日开源了极致量化压缩版本的翻译模型Hy-MT1.5-1.8B-1.25bit。该模型将支持33种语言的翻译大模型压缩至440MB，无需联网即可在手机本地运行。翻译质量在演示中优于谷歌翻译，对开发者意味着可低成本集成离线翻译能力。",
+      "category": "技术与研究",
+      "company": "腾讯",
+      "score": 50,
+      "breakdown": {
+        "substance": 7,
+        "importance": 10,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "斑陌易行硅谷亮剑：T6无人车开启商用新纪元，模块化架构与端到端大模型成关键",
+      "url": "https://www.qbitai.com/2026/04/411205.html",
+      "snippet": "The Magic X 全球具身智能创新大会在美国硅谷成功举办。",
+      "source": "量子位",
+      "publishedAt": "Wed, 29 Apr 2026 09:08:25 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "全球瞩目！斑陌易行闪耀硅谷，T6 无人车开启商用新纪元"
+      ],
+      "summary": "斑陌易行在硅谷全球具身智能创新大会上发布乐高式模块化无人配送平台、SmartVLA端到端大模型和AI原生大脑Brain2.0三大核心技术，并展示旗舰产品T6无人配送机器人。T6具备6m³装载空间、1000kg载重、550TOPS算力、200km续航等性能，单次可承载600-800票快递，经济回报周期12-18个月。",
+      "category": "技术与研究",
+      "company": "斑陌易行",
+      "score": 46,
+      "breakdown": {
+        "substance": 13,
+        "importance": 0,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "商汤发布新图像模型：专为国产芯片优化，速度更快，开源策略助力追赶",
+      "url": "https://www.wired.com/story/chinese-ai-giant-sensetime-is-running-its-new-model-on-chinese-chips/",
+      "snippet": "With US restrictions limiting its access to advanced tech, SenseTime is doubling down on open source with a new model optimized to run on Chinese-made chips.",
+      "source": "Wired AI",
+      "publishedAt": "Wed, 29 Apr 2026 17:23:52 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "Wired AI"
+      ],
+      "coverageTitles": [
+        "Sanctioned Chinese AI Firm SenseTime Releases Image Model Built for Speed"
+      ],
+      "summary": "受美国技术限制影响的中国AI公司商汤科技，加倍押注开源策略，发布了一款新的图像模型。该模型针对速度进行了优化，并能在国产芯片上高效运行。此举是商汤在受限环境下保持竞争力的重要举措。",
+      "category": "技术与研究",
+      "company": "SenseTime",
+      "score": 46,
+      "breakdown": {
+        "substance": 14,
+        "importance": 5,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "牛津研究揭示AI“讨好型”缺陷：越友善越容易犯错",
+      "url": "https://techxplore.com/news/2026-04-friendlier-ai-backfire.html",
+      "snippet": "Major AI platforms, including OpenAI and Anthropic, as well as social apps like Replika and Character.ai, are increasingly designing chatbots to be warm, friendly, and empathetic. However, new research from the Oxford Internet Institute at the University of Oxford finds that chatbots trained to sound warmer and more empathetic are significantly more likely to make factual errors and agree with false beliefs.",
+      "source": "Tech Xplore",
+      "publishedAt": "Wed, 29 Apr 2026 15:20:03 EDT",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "Tech Xplore"
+      ],
+      "coverageTitles": [
+        "The friendlier AI gets, the more it can backfire"
+      ],
+      "summary": "牛津互联网研究所研究发现，被训练得更温暖、更有同理心的聊天机器人，出现事实错误和附和错误观点的概率显著更高。该研究涉及OpenAI、Anthropic、Replika和Character.ai等主流AI平台及社交应用。这一发现提醒开发者和企业在设计AI交互时需平衡友好度与准确性，避免因过度追求亲和力而损害模型可靠性。",
+      "category": "技术与研究",
+      "company": "OpenAI、Anthropic、Replika、Character.ai",
+      "score": 43,
+      "breakdown": {
+        "substance": 6,
+        "importance": 5,
+        "readerValue": 12,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "英特尔押注端云混合AI：智能体PC将成数字分身，主动替用户完成工作",
+      "url": "https://www.infoq.cn/article/I2iKf9UTsp8HTJI9BNel?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 29 Apr 2026 16:20:12 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "云端太贵、本地不够聪明，英特尔押注“端云混合AI”：智能体PC会替人完成工作"
+      ],
+      "summary": "英特尔提出端云混合AI策略，通过AI SSD技术将冷专家卸载到SSD，降低大模型在端侧运行的内存成本。32GB内存可全量载入35B模型，入门配置12GB即可运行中小模型。智能体PC将颠覆传统人机交互模式，用户只需说出目标，系统自动规划执行，这对PC行业和开发者意味着交互范式的根本转变。",
+      "category": "技术与研究",
+      "company": "英特尔",
+      "score": 41,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "readerValue": 15,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI启动“星际之门”计划：大规模扩建数据中心，为AGI时代铺路",
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "snippet": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
+      "source": "OpenAI News",
+      "publishedAt": "Wed, 29 Apr 2026 15:00:00 GMT",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "OpenAI News"
+      ],
+      "coverageTitles": [
+        "Building the compute infrastructure for the Intelligence Age"
+      ],
+      "summary": "OpenAI正在通过“星际之门”项目扩建计算基础设施，以支撑通用人工智能的发展。该项目将新增数据中心容量，满足日益增长的AI算力需求。这表明AI巨头正加速布局底层算力，对依赖云服务的开发者和企业而言，未来可能面临更强大的AI服务，但算力成本与资源竞争也将加剧。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 40,
+      "breakdown": {
+        "substance": 0,
+        "importance": 10,
+        "readerValue": 10,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "前Twitter CEO创立的AI智能体公司Parallel Web Systems：5个月估值从7.4亿飙升至20亿美元",
+      "url": "https://techcrunch.com/2026/04/29/parallel-web-systems-hits-2b-valuation-five-months-after-its-last-big-raise/",
+      "snippet": "The AI agent-tool startup founded by former Twitter CEO Parag Agrawal has raised $100 million, led by Sequoia, months after raising a previous $100 million.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 29 Apr 2026 18:33:05 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "Parallel Web Systems hits $2B valuation five months after its last big raise"
+      ],
+      "summary": "由前Twitter CEO Parag Agrawal创立的AI智能体工具初创公司Parallel Web Systems，在完成上一轮1亿美元融资仅数月后，又获得由红杉资本领投的1亿美元新融资。该公司估值因此达到20亿美元。这显示出资本市场对AI智能体赛道的高度热情，对创业者而言，该领域正成为新的融资热点。",
+      "category": "投融资与并购",
+      "company": "Parallel Web Systems",
+      "score": 56,
+      "breakdown": {
+        "substance": 18,
+        "importance": 8,
+        "readerValue": 9,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "算力租赁业绩爆发：头部企业一季度净利润暴增，产业格局加速重塑",
+      "url": "https://36kr.com/newsflashes/3788528820280326?f=rss",
+      "snippet": "随着全球AI大模型持续迭代，算力需求正从训练侧加速向推理侧延伸，这极大地推高了AI算力资源需求。在此背景下，国内算力租赁、AIDC（智算中心）运营等赛道正步入高景气周期。其中，两家头部算力租赁公司利通电子、协创数据，今年一季度净利润同比分别大幅增长821.08%、343.45%；AIDC代表企业如润泽科技、奥飞数据一季度净利润同比分别增长35.35%、79.19%；与业绩相对应的是，相关公司股价表现不俗。对于产业趋势，妙投高级研究员张博称，在国产替代推进过程中，芯片价值会持续上升，但其业绩兑现有一个爬坡过程，算力租赁反而更容易先承接需求，最容易体现价格变化，也最容易形成收入和利润。短期看，最先受益的是算力租赁；中期看，AIDC等基础设施环节会逐步跟上；长期看，真正决定产业格局的仍然是芯片和生态。（证券时报）",
+      "source": "36氪",
+      "publishedAt": "2026-04-30 07:49:47  +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "36氪"
+      ],
+      "coverageTitles": [
+        "算力租赁加速集中，头部企业步入业绩兑现期"
+      ],
+      "summary": "全球AI大模型持续迭代，算力需求从训练侧向推理侧延伸，推动国内算力租赁和AIDC运营赛道进入高景气周期。利通电子、协创数据一季度净利润同比分别增长821.08%和343.45%，润泽科技、奥飞数据净利润同比增长35.35%和79.19%。这意味着算力租赁环节最先承接需求并形成收入和利润，中期AIDC基础设施将逐步跟上，长期芯片和生态决定产业格局。",
+      "category": "投融资与并购",
+      "company": "利通电子,协创数据,润泽科技,奥飞数据",
+      "score": 44,
+      "breakdown": {
+        "substance": 13,
+        "importance": 0,
+        "readerValue": 12,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "Scout AI获1亿美元融资：用AI智能体让单兵操控无人机群，战争形态或将重塑",
+      "url": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
+      "snippet": "We visited Scout AI's training ground where it's working on AI agents that can help individual soldiers control fleets of autonomous vehicles.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 29 Apr 2026 09:45:00 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "Colby Adcock’s Scout AI raises $100M to train its models for war: We visited its bootcamp"
+      ],
+      "summary": "Colby Adcock创立的Scout AI公司获得1亿美元融资，用于训练其战争AI模型。记者探访了其训练基地，该公司正在开发能帮助单个士兵控制多辆自主战车的AI智能体。这对军事科技领域意义重大，意味着AI正从辅助决策向直接控制作战单元演进，可能改变未来战争形态。",
+      "category": "政策与监管",
+      "company": "Scout AI",
+      "score": 49,
+      "breakdown": {
+        "substance": 13,
+        "importance": 8,
+        "readerValue": 11,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Mistral AI聊天机器人Le Chat被曝传播伊朗战争虚假信息：诱导提示下错误率高达80%",
+      "url": "https://the-decoder.com/mistrals-le-chat-spreads-iran-war-disinformation-in-60-percent-of-leading-prompts/",
+      "snippet": "A NewsGuard audit found that Mistral's Le Chat repeats state-sponsored disinformation about the Iran war about half the time. The error rate ranged from 10 percent for neutral queries to 80 percent for malicious ones. The article Mistral's Le Chat spreads Iran war disinformation in 60 percent of leading prompts appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Wed, 29 Apr 2026 18:31:33 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Mistral's Le Chat spreads Iran war disinformation in 60 percent of leading prompts"
+      ],
+      "summary": "NewsGuard的审计发现，Mistral AI的聊天机器人Le Chat在约一半的测试中重复了国家支持的伊朗战争虚假信息。其中，中性提示的错误率为10%，而恶意提示的错误率高达80%。这提醒AI使用者和开发者，当前大模型在应对地缘政治敏感话题时仍存在严重的信息可靠性问题，需警惕虚假信息传播风险。",
+      "category": "政策与监管",
+      "company": "Mistral",
+      "score": 43,
+      "breakdown": {
+        "substance": 9,
+        "importance": 0,
+        "readerValue": 13,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
