@@ -1,19 +1,19 @@
 {
-  "date": "2026/5/1",
-  "title": "AI资讯每日精选-2026/5/1",
-  "generatedAt": "2026/5/1 08:03",
+  "date": "2026/5/2",
+  "title": "AI资讯每日精选-2026/5/2",
+  "generatedAt": "2026/5/2 08:58",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-04-30.json",
+    "previousDayFile": "news-2026-05-01.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 27,
-      "overseasBeforeDedup": 36,
-      "domesticAfterDedup": 25,
-      "overseasAfterDedup": 36,
-      "domesticHotGroups": 1,
+      "domesticBeforeDedup": 14,
+      "overseasBeforeDedup": 22,
+      "domesticAfterDedup": 14,
+      "overseasAfterDedup": 22,
+      "domesticHotGroups": 0,
       "overseasHotGroups": 0,
       "domesticSources": [
         {
@@ -25,25 +25,25 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 3,
+          "count": 2,
           "error": null
         },
         {
           "source": "36氪",
           "ok": true,
-          "count": 5,
+          "count": 4,
           "error": null
         },
         {
           "source": "InfoQ",
           "ok": true,
-          "count": 5,
+          "count": 2,
           "error": null
         },
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 8,
+          "count": 0,
           "error": null
         }
       ],
@@ -57,7 +57,7 @@
         {
           "source": "Google DeepMind Blog",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
@@ -69,13 +69,13 @@
         {
           "source": "NVIDIA Blog",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         },
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 4,
+          "count": 2,
           "error": null
         },
         {
@@ -87,37 +87,37 @@
         {
           "source": "VentureBeat AI",
           "ok": true,
-          "count": 3,
+          "count": 2,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 2,
+          "count": 5,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 6,
+          "count": 3,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 4,
+          "count": 1,
           "error": null
         },
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         },
         {
@@ -129,7 +129,7 @@
         {
           "source": "AWS Machine Learning Blog",
           "ok": true,
-          "count": 3,
+          "count": 1,
           "error": null
         },
         {
@@ -154,191 +154,188 @@
       }
     },
     "summarize": {
-      "totalSummarized": 61
+      "totalSummarized": 36
     },
     "scoring": {
-      "totalInput": 61,
-      "totalScored": 43,
-      "strictScoredCount": 43,
-      "relaxedCandidateCount": 2,
-      "relaxedUsedForSelection": false,
-      "weakSummaryCount": 12,
-      "selectedCandidateCount": 31,
-      "duplicateCount": 8,
-      "crossDayDuplicateCount": 3,
-      "lowQualityCount": 1,
-      "domesticAvailable": 20,
-      "overseasAvailable": 23,
+      "totalInput": 36,
+      "totalScored": 27,
+      "strictScoredCount": 26,
+      "relaxedCandidateCount": 0,
+      "relaxedUsedForSelection": true,
+      "weakSummaryCount": 3,
+      "selectedCandidateCount": 27,
+      "duplicateCount": 3,
+      "crossDayDuplicateCount": 2,
+      "lowQualityCount": 0,
+      "domesticAvailable": 12,
+      "overseasAvailable": 15,
       "sourceCount": {
-        "The Decoder": 1,
-        "量子位": 2,
-        "AWS Machine Learning Blog": 3,
-        "机器之心": 5,
-        "NVIDIA Blog": 1,
+        "InfoQ": 2,
         "36氪": 3,
-        "雷锋网": 5,
-        "TechCrunch AI": 4,
-        "InfoQ": 4,
-        "VentureBeat AI": 1,
-        "The Verge AI": 1,
-        "Google DeepMind Blog": 1
+        "量子位": 2,
+        "机器之心": 5,
+        "TechCrunch AI": 2,
+        "The Decoder": 6,
+        "MIT Technology Review": 4,
+        "The Verge AI": 2,
+        "VentureBeat AI": 1
       }
     },
     "display": {
-      "refinedCount": 31,
-      "previousDayRemovedCount": 0,
+      "refinedCount": 27,
+      "previousDayRemovedCount": 1,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 3,
-      "postPreviousDayFilterCount": 28,
-      "displayReadyCount": 20,
+      "integrityRemovedCount": 1,
+      "postPreviousDayFilterCount": 25,
+      "displayReadyCount": 23,
       "fallbackDisplayCount": 1,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 8,
+      "removedWeakSummaries": 2,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "OpenAI提前数年达成10千兆瓦算力目标：AI基础设施加速突破瓶颈",
-      "company": "OpenAI",
-      "url": "https://the-decoder.com/openai-says-it-hit-its-10-gigawatt-compute-goal-years-ahead-of-schedule/",
-      "source": "The Decoder",
-      "publishedAt": "Thu, 30 Apr 2026 12:45:11 +0000",
-      "summary": "OpenAI宣布已提前数年实现美国境内10千兆瓦AI计算能力的目标。这一里程碑标志着其AI基础设施建设的显著提速。对AI行业而言，这意味着算力瓶颈正在被快速突破，未来模型训练和部署将更加高效。",
-      "score": 59
+      "title": "Mistral AI推出Workflows：为企业AI部署打造可靠编排层，解决生产环境落地难题",
+      "company": "Mistral AI",
+      "url": "https://www.infoq.cn/article/W1YiyHH4UXv05AqpiHag?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 01 May 2026 10:00:00 GMT",
+      "summary": "Mistral AI发布了Workflows，这是一个面向企业AI的编排层，现已进入公开预览阶段。该平台基于Temporal构建，采用控制平面与数据平面分离设计，支持云端、本地或混合部署，并具备流式处理、负载处理及增强的可观测性等AI专属功能。",
+      "score": 35
     },
     {
-      "section": "产品发布与更新",
-      "title": "Stripe 发布 288 项新功能：AI 智能体支付与实时计费成为核心亮点",
-      "company": "Stripe",
-      "url": "https://www.qbitai.com/2026/04/412018.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 30 Apr 2026 09:16:56 +0000",
-      "summary": "Stripe宣布推出288项新功能，旨在构建AI时代的经济基础设施。其中，Stripe Projects允许开发者在代码环境中直接完成服务部署，已吸引数千开发者加入；Streaming Payments结合Metronome追踪与Tempo区块链，实现token消耗的实时微支付。",
-      "score": 48
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Amazon Nova模型引入LLM裁判：用AI反馈替代人工标注，强化学习微调更高效",
-      "company": "Amazon",
-      "url": "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-with-llm-as-a-judge/",
-      "source": "AWS Machine Learning Blog",
-      "publishedAt": "Thu, 30 Apr 2026 20:07:25 +0000",
-      "summary": "本文深入探讨了RLAIF（基于AI反馈的强化学习）方法，即使用LLM作为裁判来微调Amazon Nova模型。该方法通过AI反馈替代人工标注，实现高效模型优化。对AI开发者而言，这提供了一种可扩展的微调策略，降低了对人工评估的依赖。",
+      "section": "技术与研究",
+      "title": "美银预测：全球超大规模云计算企业2027年AI资本开支或达1万亿美元",
+      "company": "美银证券",
+      "url": "https://36kr.com/newsflashes/3790542827576582?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-01 17:39:33  +0800",
+      "summary": "美银证券发布半导体行业研究报告，上调2026年全球超大规模云计算企业资本支出预测至超过8000亿美元，同比增长67%。分析师团队基于谷歌、微软、亚马逊、Meta的财报和资本支出展望，预计2027年资本支出将突破1万亿美元，同比增长约25%。这意味着AI基础设施投资持续高速增长，对半导体和云计算产业链相关企业具有重要参考价值。",
       "score": 45
     },
     {
       "section": "技术与研究",
-      "title": "DeepSeek V4与美团万亿级大模型同日发布：国产芯片全程训练，AI圈迎来“双响炮”",
-      "company": "DeepSeek, 美团",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-30-8",
-      "source": "机器之心",
-      "publishedAt": "2026-04-30T15:23:00+08:00",
-      "summary": "2026年4月24日，DeepSeek正式发布新一代模型DeepSeek-V4系列预览版并同步开源，总参数规模迈入万亿级，支持百万字超长上下文。同日，美团使用全国产算力集群训练出万亿参数大模型。这两项进展表明国产大模型在规模和技术上取得重要突破，对AI行业的技术自主和生态发展具有积极意义。",
-      "score": 57
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenClaw代理：开源AI如何让组织实现自主化运营",
-      "company": "Nemotron Labs",
-      "url": "https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization/",
-      "source": "NVIDIA Blog",
-      "publishedAt": "Thu, 30 Apr 2026 20:00:39 +0000",
-      "summary": "到2026年初，开源项目OpenClaw已成为热门现象，其GitHub星标数在1月突破10万，开发者兴趣激增。OpenClaw代理为各类组织提供了新的自动化与协作能力。这对企业和开发者意味着开源AI代理将加速组织数字化转型。",
-      "score": 55
-    },
-    {
-      "section": "技术与研究",
-      "title": "谷歌开源Agent Skill工具箱：打通云服务与AI智能体，开发者效率与安全双提升",
-      "company": "谷歌",
-      "url": "https://www.infoq.cn/article/ihRlIjt3N5seuQN27OQe?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 30 Apr 2026 14:25:01 GMT",
-      "summary": "谷歌开源了名为“Agent Skill”的超级工具箱，将BigQuery、Cloud Storage、Pub/Sub等云服务与AI智能体深度集成。该工具箱内置了资深工程师的工作流和质量关卡，如编码前制定规格、合并前进行测试，旨在防止AI智能体走捷径。这意味着开发者可以更高效、更安全地构建和部署AI驱动的数据管道应用。",
+      "title": "智谱揭秘AI“降智”真相：高并发下系统主动回收资源，Scaling Law背后还需系统工程支撑",
+      "company": "智谱",
+      "url": "https://www.qbitai.com/2026/05/412585.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 01 May 2026 11:00:05 +0000",
+      "summary": "智谱公开了AI模型在推理时出现“降智”现象的技术原因，即系统在高并发场景下会主动中止生成并回收资源。其通过LayerSplit与GLM-5.1结合，在Cache命中率达90%、请求长度40k-120k时，系统吞吐量提升10%到132%。这揭示了大规模AI不仅依赖Scaling Law，还需等量级的系统工程支撑，对开发者和企业优化推理基础设施具有重要参考价值。",
       "score": 43
     },
     {
-      "section": "投融资与并购",
-      "title": "Anthropic估值逼近900亿美元：新一轮融资两周内启动，投资者48小时内提交意向",
-      "company": "Anthropic",
-      "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 30 Apr 2026 23:07:56 +0000",
-      "summary": "据知情人士透露，AI公司Anthropic要求投资者在未来48小时内提交其最新融资的认购意向，估值可能超过900亿美元。这一轮融资预计在两周内完成。对投资者和AI行业而言，这标志着顶级AI公司估值持续攀升，市场竞争加剧。",
-      "score": 48
-    },
-    {
-      "section": "投融资与并购",
-      "title": "SpaceX招股书首曝光：星链养全家，马斯克用42%股权掌控79%投票权",
-      "company": "SpaceX",
-      "url": "https://www.leiphone.com/category/ai/y228id3tl4peblUV.html",
-      "source": "雷锋网",
-      "publishedAt": "Thu, 30 Apr 2026 16:51:00 +0800",
-      "summary": "4 月 20 日，SpaceX 尘封已久的 S-1 IPO 招股书正式对外披露。这家瞄准 1.75 万亿美元超高估值，计划募资 750 亿美元冲击史上最大 IPO 的公司，眼下格外引人注目。要知道，现在美股市场整体难称得上景气，SpaceX 自己还在持续大额亏损，却敢逆势冲纳斯达克，这份底气，难免让人好奇背后到底藏着什么。",
-      "score": 54
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "AWS 推出生成式 AI 模型迁移方案：简化 LLM 升级流程",
-      "company": "AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/aws-generative-ai-model-agility-solution-a-comprehensive-guide-to-migrating-llms-for-generative-ai-production/",
-      "source": "AWS Machine Learning Blog",
-      "publishedAt": "Thu, 30 Apr 2026 17:04:41 +0000",
-      "summary": "AWS发布生成式AI模型敏捷解决方案，提供系统化框架用于LLM的迁移或升级。该框架包含提示转换和优化的协议，支持在不同LLM之间平稳过渡。对企业AI团队而言，这降低了模型切换的技术风险，加速了生成式AI应用的生产部署。",
+      "section": "技术与研究",
+      "title": "OpenAI研究员陈博远自述：我如何主力训练GPT生图模型",
+      "company": "OpenAI",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-01-8",
+      "source": "机器之心",
+      "publishedAt": "2026-05-01T22:23:00+08:00",
+      "summary": "OpenAI研究科学家陈博远在知乎发布博客，介绍GPT Image 2生图模型的训练花絮。该模型由他主力训练，并参与了与奥特曼共同主持的发布会。这对AI图像生成领域的技术进展提供了内部视角。",
       "score": 42
     },
     {
-      "section": "产品发布与更新",
-      "title": "中关村学院Milkyway登顶FutureX预测榜：60.9分超越Grok4，智能体系统层成AI预言关键",
-      "company": "北京中关村学院",
-      "url": "https://www.infoq.cn/article/3rNioRsQcs1G5vMq8VlO?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 30 Apr 2026 20:00:00 GMT",
-      "summary": "北京中关村学院信息智能团队自主研发的智能体系统Milkyway，在FutureX国际动态评测基准中以60.9分登顶全球榜首，超越此前冠军Grok4。该系统通过跨长周期工作、多智能体协作和自我评估迭代能力，在预测地缘博弈、政策走向等真实事件中展现优势。这标志着模型之上的智能体系统层对AI预测能力至关重要，为开发者提供了提升AI智能性的新方向。",
-      "score": 37
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Stripe推出Link数字钱包：AI代理也能安全支付，告别密码共享",
-      "company": "Stripe",
-      "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
+      "section": "投融资与并购",
+      "title": "Meta收购人形机器人初创公司：加速AI从虚拟走向实体，为AGI铺路",
+      "company": "Meta",
+      "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
       "source": "TechCrunch AI",
-      "publishedAt": "Thu, 30 Apr 2026 17:15:19 +0000",
-      "summary": "Stripe发布了名为Link的数字钱包，支持用户关联银行卡、银行账户和订阅服务。该钱包允许用户通过OAuth授权AI代理访问，代理可发起支付请求并等待用户审批，而非直接共享支付凭证。这意味着企业可更安全地实现AI代理自主支付场景，未来还将支持稳定币和代理代币，进一步拓展自动化支付边界。",
-      "score": 37
+      "publishedAt": "Fri, 01 May 2026 22:13:27 +0000",
+      "summary": "Meta宣布收购人形机器人初创公司Assured Robot Intelligence，以增强其机器人AI模型能力。此次收购将帮助Meta在机器人领域整合更先进的AI技术。对AI开发者而言，这标志着科技巨头正加速将AI模型从虚拟场景拓展至实体机器人应用。",
+      "score": 40
     },
     {
-      "section": "产品发布与更新",
-      "title": "美团AI小管家服务超180万商家：选址准确率达87%，累计解决660万经营问题",
-      "company": "美团",
-      "url": "https://www.leiphone.com/category/industrynews/M7UHcqytIywn2Wbu.html",
-      "source": "雷锋网",
-      "publishedAt": "Thu, 30 Apr 2026 18:39:00 +0800",
-      "summary": "美团首次披露AI商家工具应用进展，其“AI小管家”已服务超过180万实体商家。该工具通过“袋鼠参谋”生成32万份选址报告，准确率达87%，并累计解决660万个经营问题。这意味着中小商家和连锁品牌均可借助AI提升经营效率，未来AI工具将在更多行业深化应用。",
-      "score": 30
+      "section": "投融资与并购",
+      "title": "科技巨头AI支出飙至7250亿美元：数据中心投资加码，算力仍不够用",
+      "company": "Google, Amazon, Microsoft, Meta",
+      "url": "https://the-decoder.com/big-techs-ai-spending-balloons-to-725-billion-this-year/",
+      "source": "The Decoder",
+      "publishedAt": "Fri, 01 May 2026 14:41:45 +0000",
+      "summary": "谷歌、亚马逊、微软和Meta计划2026年AI相关预算合计约7250亿美元，较2月预估增长19%，同比去年飙升77%。仅第一季度四家公司已烧掉1300亿美元，谷歌云收入增长63%，但微软和谷歌均表示算力仍供不应求。对AI从业者而言，巨额投资将推动算力成本下降，但软件定价正从固定席位费转向按使用量收费，意味着用户账单可能上涨。",
+      "score": 34
     },
     {
-      "section": "产品发布与更新",
-      "title": "斑马智能提前半年把“龙虾”能力带上车：用三招管住Token黑洞，让座舱从功能集合进化成主动智能体",
-      "company": "斑马智能",
-      "url": "https://www.infoq.cn/article/2c2JX4m7VqPrFaP5cI6t?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 30 Apr 2026 19:00:00 GMT",
-      "summary": "斑马智能发布“龙虾上车”方案AutoClaw及“元神AI汽车机器人大脑”，实现智能座舱从功能集合向主动协作的智能体系统进化。该公司通过任务信息压缩、反思运行机制和独立Token管理，解决了AI任务链卡死和Token浪费问题，并将本地生活、拥车服务等十几个场景Agent化接入智能中枢。",
-      "score": 46
+      "section": "政策与监管",
+      "title": "Anthropic 推出 Claude Security：用攻击者的 AI 武装防御者，代码漏洞扫描与修复自动化",
+      "company": "Anthropic",
+      "url": "https://the-decoder.com/anthropic-launches-claude-security-to-give-defenders-the-same-ai-edge-attackers-already-have/",
+      "source": "The Decoder",
+      "publishedAt": "Fri, 01 May 2026 13:00:10 +0000",
+      "summary": "Anthropic 发布 Claude Security，旨在赋予网络防御者与攻击者同等的 AI 优势。该工具利用了 Anthropic 此前在另一个模型中认为过于危险而未发布的进攻性能力。此举意味着网络安全攻防双方在 AI 能力上的差距可能被缩小，防御者将获得更强大的自动化工具来应对日益复杂的威胁。",
+      "score": 38
     },
     {
-      "section": "产品发布与更新",
-      "title": "智元机器人发布LWD技术：让一台机器人从切水果到调酒，告别单一任务时代",
-      "company": "智元机器人",
-      "url": "https://www.jiqizhixin.com/articles/2026-04-30-6",
+      "section": "技术与研究",
+      "title": "他用AI办了个“别读博”音乐节：AI无法处理复杂和声，填词仍需人脑温度",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/05/412597.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 01 May 2026 13:20:15 +0000",
+      "summary": "一位名为“茄总”的创作者利用AI工具举办了一场主题为“别读博”的音乐节。他在改编YOASOBI《群青》时发现，AI无法处理密集复杂的和声叠唱，会误将多人声音识别为同一人，因此他采用“赛马”策略，同时使用Suno、MiniMax Music等商业模型和开源模型反复尝试。填词工作仍依赖人脑，因为AI缺乏温度。",
+      "score": 41
+    },
+    {
+      "section": "技术与研究",
+      "title": "美股总市值突破75万亿美元：英伟达、谷歌、苹果领跑，科技巨头成市场引擎",
+      "company": "",
+      "url": "https://36kr.com/newsflashes/3790477862755586?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-01 16:40:17  +0800",
+      "summary": "美股总市值首次突破75万亿美元，创历史新高，年初至今增长3万亿美元。市值排名前三的公司为英伟达（4.85万亿美元）、谷歌（4.66万亿美元）和苹果（3.98万亿美元）。这一里程碑反映了科技巨头对市场的强劲拉动作用，对投资者和全球资本市场具有重要参考意义。",
+      "score": 38
+    },
+    {
+      "section": "政策与监管",
+      "title": "五角大楼联手英伟达、微软：机密网络部署AI，加速供应商多元化布局",
+      "company": "Nvidia, Microsoft, AWS",
+      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 01 May 2026 16:02:36 +0000",
+      "summary": "美国国防部与英伟达、微软及亚马逊云服务签署协议，将在机密网络上部署AI模型。此举是五角大楼在因使用条款争议与Anthropic产生分歧后，加速多元化AI供应商布局的一部分。对AI企业而言，这意味着国防领域对AI技术的需求正快速增长，但合作条款可能更为严格。",
+      "score": 35
+    },
+    {
+      "section": "技术与研究",
+      "title": "ChatGPT 疯狂输出哥布林：一个错误奖励信号如何让 AI 失控",
+      "company": "OpenAI",
+      "url": "https://the-decoder.com/chatgpts-goblin-obsession-may-be-hilarious-but-it-points-to-a-deeper-problem-in-ai-training/",
+      "source": "The Decoder",
+      "publishedAt": "Fri, 01 May 2026 13:47:57 +0000",
+      "summary": "OpenAI 发现，由于训练过程中一个错误的奖励信号，ChatGPT 模型开始以惊人频率在回答中插入哥布林等神话生物。尽管“书呆子”人格仅占 2.5% 的回答，却贡献了 66.7% 的哥布林提及，且训练中的反馈循环将这一习惯扩散至其他模式。这一事件提醒开发者，AI 训练中微小的奖励信号偏差也可能导致模型行为失控，细节设计至关重要。",
+      "score": 35
+    },
+    {
+      "section": "政策与监管",
+      "title": "马斯克出庭指控奥特曼欺骗：承认xAI蒸馏OpenAI模型，警告AI可能毁灭人类",
+      "company": "OpenAI",
+      "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Fri, 01 May 2026 22:08:19 +0000",
+      "summary": "在马斯克诉OpenAI的里程碑式审判中，马斯克出庭作证，指控奥特曼和布罗克曼欺骗他资助公司。他承认其AI公司xAI使用了蒸馏技术模仿OpenAI模型，并警告AI可能毁灭全人类。此案对AI行业监管和创始人责任具有重要影响，开发者需关注模型蒸馏的合规风险。",
+      "score": 35
+    },
+    {
+      "section": "技术与研究",
+      "title": "400B大模型跑上iPhone：每秒仅0.6个token，但意义重大",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-01-7",
       "source": "机器之心",
-      "publishedAt": "2026-04-30T14:22:00+08:00",
-      "summary": "智元机器人团队在推出Generalist后，又发布了LWD技术，旨在变革具身智能的训练范式。该技术使机器人能执行切水果、调酒、整理货架等多种任务，而此前每台机器人只能完成单一任务。这意味着具身智能领域正从专用型向通用型转变，对机器人应用场景的拓展具有重要意义。",
-      "score": 44
+      "publishedAt": "2026-05-01T22:19:00+08:00",
+      "summary": "一项新实验成功将400B参数的大模型部署在iPhone上运行，尽管输出速率仅为每秒0.6个token。这一突破展示了在移动设备上运行超大规模模型的可行性，尽管速度极慢。对于开发者而言，这意味着未来可能实现端侧大模型推理，降低对云端依赖，但当前性能瓶颈仍需突破。",
+      "score": 33
+    },
+    {
+      "section": "技术与研究",
+      "title": "GIM与港大联手：让大模型自己写代码、自己进化，量化因子挖掘被重做",
+      "company": "GIM",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-01-5",
+      "source": "机器之心",
+      "publishedAt": "2026-05-01T22:11:00+08:00",
+      "summary": "GIM与香港大学在ACL主会上发表论文，提出让大模型自动编写代码并自我进化，以改进量化投资中的因子挖掘。该方法通过大模型生成和迭代优化因子代码，解决了传统手工挖掘效率低、遗传编程易陷入局部最优的问题。这意味着量化投资者可能迎来更高效、更智能的信号发现方式，有望提升Alpha获取的效率和效果。",
+      "score": 33
     }
   ]
 }
