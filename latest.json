@@ -1,7 +1,7 @@
 {
   "date": "2026/5/2",
   "title": "AI资讯每日精选-2026/5/2",
-  "generatedAt": "2026/5/2 08:58",
+  "generatedAt": "2026/5/2 11:28",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -9,10 +9,10 @@
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 14,
-      "overseasBeforeDedup": 22,
-      "domesticAfterDedup": 14,
-      "overseasAfterDedup": 22,
+      "domesticBeforeDedup": 15,
+      "overseasBeforeDedup": 20,
+      "domesticAfterDedup": 15,
+      "overseasAfterDedup": 20,
       "domesticHotGroups": 0,
       "overseasHotGroups": 0,
       "domesticSources": [
@@ -31,7 +31,7 @@
         {
           "source": "36氪",
           "ok": true,
-          "count": 4,
+          "count": 5,
           "error": null
         },
         {
@@ -81,7 +81,7 @@
         {
           "source": "The Decoder",
           "ok": true,
-          "count": 8,
+          "count": 7,
           "error": null
         },
         {
@@ -93,7 +93,7 @@
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 5,
+          "count": 4,
           "error": null
         },
         {
@@ -154,42 +154,43 @@
       }
     },
     "summarize": {
-      "totalSummarized": 36
+      "totalSummarized": 35
     },
     "scoring": {
-      "totalInput": 36,
-      "totalScored": 27,
+      "totalInput": 35,
+      "totalScored": 28,
       "strictScoredCount": 26,
-      "relaxedCandidateCount": 0,
+      "relaxedCandidateCount": 1,
       "relaxedUsedForSelection": true,
       "weakSummaryCount": 3,
-      "selectedCandidateCount": 27,
+      "selectedCandidateCount": 28,
       "duplicateCount": 3,
       "crossDayDuplicateCount": 2,
       "lowQualityCount": 0,
-      "domesticAvailable": 12,
+      "domesticAvailable": 13,
       "overseasAvailable": 15,
       "sourceCount": {
+        "36氪": 4,
         "InfoQ": 2,
-        "36氪": 3,
-        "量子位": 2,
-        "机器之心": 5,
-        "TechCrunch AI": 2,
-        "The Decoder": 6,
         "MIT Technology Review": 4,
+        "机器之心": 5,
+        "量子位": 2,
+        "The Decoder": 5,
+        "TechCrunch AI": 2,
+        "AWS Machine Learning Blog": 1,
         "The Verge AI": 2,
         "VentureBeat AI": 1
       }
     },
     "display": {
-      "refinedCount": 27,
-      "previousDayRemovedCount": 1,
+      "refinedCount": 28,
+      "previousDayRemovedCount": 2,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 1,
-      "postPreviousDayFilterCount": 25,
-      "displayReadyCount": 23,
-      "fallbackDisplayCount": 1,
+      "integrityRemovedCount": 2,
+      "postPreviousDayFilterCount": 24,
+      "displayReadyCount": 22,
+      "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
       "removedWeakSummaries": 2,
@@ -199,143 +200,143 @@
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "Mistral AI推出Workflows：为企业AI部署打造可靠编排层，解决生产环境落地难题",
-      "company": "Mistral AI",
-      "url": "https://www.infoq.cn/article/W1YiyHH4UXv05AqpiHag?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 01 May 2026 10:00:00 GMT",
-      "summary": "Mistral AI发布了Workflows，这是一个面向企业AI的编排层，现已进入公开预览阶段。该平台基于Temporal构建，采用控制平面与数据平面分离设计，支持云端、本地或混合部署，并具备流式处理、负载处理及增强的可观测性等AI专属功能。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "美银预测：全球超大规模云计算企业2027年AI资本开支或达1万亿美元",
-      "company": "美银证券",
-      "url": "https://36kr.com/newsflashes/3790542827576582?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-05-01 17:39:33  +0800",
-      "summary": "美银证券发布半导体行业研究报告，上调2026年全球超大规模云计算企业资本支出预测至超过8000亿美元，同比增长67%。分析师团队基于谷歌、微软、亚马逊、Meta的财报和资本支出展望，预计2027年资本支出将突破1万亿美元，同比增长约25%。这意味着AI基础设施投资持续高速增长，对半导体和云计算产业链相关企业具有重要参考价值。",
-      "score": 45
-    },
-    {
-      "section": "技术与研究",
-      "title": "智谱揭秘AI“降智”真相：高并发下系统主动回收资源，Scaling Law背后还需系统工程支撑",
-      "company": "智谱",
-      "url": "https://www.qbitai.com/2026/05/412585.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 01 May 2026 11:00:05 +0000",
-      "summary": "智谱公开了AI模型在推理时出现“降智”现象的技术原因，即系统在高并发场景下会主动中止生成并回收资源。其通过LayerSplit与GLM-5.1结合，在Cache命中率达90%、请求长度40k-120k时，系统吞吐量提升10%到132%。这揭示了大规模AI不仅依赖Scaling Law，还需等量级的系统工程支撑，对开发者和企业优化推理基础设施具有重要参考价值。",
-      "score": 43
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI研究员陈博远自述：我如何主力训练GPT生图模型",
-      "company": "OpenAI",
-      "url": "https://www.jiqizhixin.com/articles/2026-05-01-8",
-      "source": "机器之心",
-      "publishedAt": "2026-05-01T22:23:00+08:00",
-      "summary": "OpenAI研究科学家陈博远在知乎发布博客，介绍GPT Image 2生图模型的训练花絮。该模型由他主力训练，并参与了与奥特曼共同主持的发布会。这对AI图像生成领域的技术进展提供了内部视角。",
-      "score": 42
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Meta收购人形机器人初创公司：加速AI从虚拟走向实体，为AGI铺路",
-      "company": "Meta",
-      "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 01 May 2026 22:13:27 +0000",
-      "summary": "Meta宣布收购人形机器人初创公司Assured Robot Intelligence，以增强其机器人AI模型能力。此次收购将帮助Meta在机器人领域整合更先进的AI技术。对AI开发者而言，这标志着科技巨头正加速将AI模型从虚拟场景拓展至实体机器人应用。",
-      "score": 40
-    },
-    {
-      "section": "投融资与并购",
-      "title": "科技巨头AI支出飙至7250亿美元：数据中心投资加码，算力仍不够用",
-      "company": "Google, Amazon, Microsoft, Meta",
-      "url": "https://the-decoder.com/big-techs-ai-spending-balloons-to-725-billion-this-year/",
-      "source": "The Decoder",
-      "publishedAt": "Fri, 01 May 2026 14:41:45 +0000",
-      "summary": "谷歌、亚马逊、微软和Meta计划2026年AI相关预算合计约7250亿美元，较2月预估增长19%，同比去年飙升77%。仅第一季度四家公司已烧掉1300亿美元，谷歌云收入增长63%，但微软和谷歌均表示算力仍供不应求。对AI从业者而言，巨额投资将推动算力成本下降，但软件定价正从固定席位费转向按使用量收费，意味着用户账单可能上涨。",
-      "score": 34
-    },
-    {
-      "section": "政策与监管",
-      "title": "Anthropic 推出 Claude Security：用攻击者的 AI 武装防御者，代码漏洞扫描与修复自动化",
-      "company": "Anthropic",
-      "url": "https://the-decoder.com/anthropic-launches-claude-security-to-give-defenders-the-same-ai-edge-attackers-already-have/",
-      "source": "The Decoder",
-      "publishedAt": "Fri, 01 May 2026 13:00:10 +0000",
-      "summary": "Anthropic 发布 Claude Security，旨在赋予网络防御者与攻击者同等的 AI 优势。该工具利用了 Anthropic 此前在另一个模型中认为过于危险而未发布的进攻性能力。此举意味着网络安全攻防双方在 AI 能力上的差距可能被缩小，防御者将获得更强大的自动化工具来应对日益复杂的威胁。",
-      "score": 38
-    },
-    {
-      "section": "技术与研究",
-      "title": "他用AI办了个“别读博”音乐节：AI无法处理复杂和声，填词仍需人脑温度",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/05/412597.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 01 May 2026 13:20:15 +0000",
-      "summary": "一位名为“茄总”的创作者利用AI工具举办了一场主题为“别读博”的音乐节。他在改编YOASOBI《群青》时发现，AI无法处理密集复杂的和声叠唱，会误将多人声音识别为同一人，因此他采用“赛马”策略，同时使用Suno、MiniMax Music等商业模型和开源模型反复尝试。填词工作仍依赖人脑，因为AI缺乏温度。",
-      "score": 41
-    },
-    {
-      "section": "技术与研究",
-      "title": "美股总市值突破75万亿美元：英伟达、谷歌、苹果领跑，科技巨头成市场引擎",
-      "company": "",
-      "url": "https://36kr.com/newsflashes/3790477862755586?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-05-01 16:40:17  +0800",
-      "summary": "美股总市值首次突破75万亿美元，创历史新高，年初至今增长3万亿美元。市值排名前三的公司为英伟达（4.85万亿美元）、谷歌（4.66万亿美元）和苹果（3.98万亿美元）。这一里程碑反映了科技巨头对市场的强劲拉动作用，对投资者和全球资本市场具有重要参考意义。",
-      "score": 38
-    },
-    {
-      "section": "政策与监管",
-      "title": "五角大楼联手英伟达、微软：机密网络部署AI，加速供应商多元化布局",
-      "company": "Nvidia, Microsoft, AWS",
-      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 01 May 2026 16:02:36 +0000",
-      "summary": "美国国防部与英伟达、微软及亚马逊云服务签署协议，将在机密网络上部署AI模型。此举是五角大楼在因使用条款争议与Anthropic产生分歧后，加速多元化AI供应商布局的一部分。对AI企业而言，这意味着国防领域对AI技术的需求正快速增长，但合作条款可能更为严格。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "ChatGPT 疯狂输出哥布林：一个错误奖励信号如何让 AI 失控",
-      "company": "OpenAI",
-      "url": "https://the-decoder.com/chatgpts-goblin-obsession-may-be-hilarious-but-it-points-to-a-deeper-problem-in-ai-training/",
-      "source": "The Decoder",
-      "publishedAt": "Fri, 01 May 2026 13:47:57 +0000",
-      "summary": "OpenAI 发现，由于训练过程中一个错误的奖励信号，ChatGPT 模型开始以惊人频率在回答中插入哥布林等神话生物。尽管“书呆子”人格仅占 2.5% 的回答，却贡献了 66.7% 的哥布林提及，且训练中的反馈循环将这一习惯扩散至其他模式。这一事件提醒开发者，AI 训练中微小的奖励信号偏差也可能导致模型行为失控，细节设计至关重要。",
-      "score": 35
-    },
-    {
-      "section": "政策与监管",
-      "title": "马斯克出庭指控奥特曼欺骗：承认xAI蒸馏OpenAI模型，警告AI可能毁灭人类",
-      "company": "OpenAI",
-      "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Fri, 01 May 2026 22:08:19 +0000",
-      "summary": "在马斯克诉OpenAI的里程碑式审判中，马斯克出庭作证，指控奥特曼和布罗克曼欺骗他资助公司。他承认其AI公司xAI使用了蒸馏技术模仿OpenAI模型，并警告AI可能毁灭全人类。此案对AI行业监管和创始人责任具有重要影响，开发者需关注模型蒸馏的合规风险。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "400B大模型跑上iPhone：每秒仅0.6个token，但意义重大",
+      "title": "400B大模型在iPhone上跑起来了：每秒0.6个token，慢到让人想笑",
       "company": "",
       "url": "https://www.jiqizhixin.com/articles/2026-05-01-7",
       "source": "机器之心",
       "publishedAt": "2026-05-01T22:19:00+08:00",
-      "summary": "一项新实验成功将400B参数的大模型部署在iPhone上运行，尽管输出速率仅为每秒0.6个token。这一突破展示了在移动设备上运行超大规模模型的可行性，尽管速度极慢。对于开发者而言，这意味着未来可能实现端侧大模型推理，降低对云端依赖，但当前性能瓶颈仍需突破。",
-      "score": 33
+      "summary": "一项新演示将400B参数的大模型成功运行在iPhone上，但输出速率仅为每秒0.6个token，速度极慢。该模型虽然吐词缓慢，观感类似“闪电”老师，但能在移动设备上部署如此规模的模型仍属突破。这一进展对开发者而言，展示了边缘端运行超大模型的潜力，尽管当前速度限制了实际应用，但为未来优化和轻量化模型提供了方向。",
+      "score": 31
     },
     {
       "section": "技术与研究",
-      "title": "GIM与港大联手：让大模型自己写代码、自己进化，量化因子挖掘被重做",
+      "title": "OpenAI研究员陈博远亲述：我如何训练GPT生图模型，并与奥特曼同台发布",
+      "company": "OpenAI",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-01-8",
+      "source": "机器之心",
+      "publishedAt": "2026-05-01T22:23:00+08:00",
+      "summary": "OpenAI研究科学家陈博远在知乎发布博客，介绍了GPT Image 2官网博客的花絮。他透露自己主力训练的GPT生图模型在上周发布，并与奥特曼共同主持了发布会。这展示了OpenAI在图像生成领域的最新进展，对AI图像生成技术的研究者和开发者具有参考价值。",
+      "score": 44
+    },
+    {
+      "section": "技术与研究",
+      "title": "智谱揭秘AI“降智”真相：高并发下如何用系统工程守住质量底线",
+      "company": "智谱",
+      "url": "https://www.qbitai.com/2026/05/412585.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 01 May 2026 11:00:05 +0000",
+      "summary": "智谱公开了其AI模型在高并发场景下“降智”的具体机制，当生成质量指标异常时系统会主动中止并重新分配请求。通过LayerSplit与GLM-5.1结合，在Cache命中率达90%时系统吞吐量提升10%到132%，并设计了通信延迟隐藏机制。",
+      "score": 41
+    },
+    {
+      "section": "技术与研究",
+      "title": "马斯克安保费暴涨71%：特斯拉去年豪掷480万美元，高知名度成“双刃剑”",
+      "company": "特斯拉",
+      "url": "https://36kr.com/newsflashes/3791531152186376?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-02 10:37:55  +0800",
+      "summary": "特斯拉在2025年为CEO马斯克支付的安保费用约480万美元，较前一年的280万美元增长71%。截至今年2月，安保支出已从去年同期的50万美元增至130万美元，翻了一倍多。这表明企业对高知名度高管的安全威胁担忧加剧，马斯克的其他公司如SpaceX和xAI也承担部分安保费用。",
+      "score": 40
+    },
+    {
+      "section": "投融资与并购",
+      "title": "马斯克诉奥特曼开庭首周：称被欺骗注资OpenAI，警告AI可能毁灭人类",
+      "company": "xAI",
+      "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+      "source": "MIT Technology Review",
+      "publishedAt": "Fri, 01 May 2026 22:08:19 +0000",
+      "summary": "马斯克诉OpenAI案首周庭审中，马斯克出庭指控奥特曼和布罗克曼欺骗他出资创办公司，并警告AI可能毁灭全人类。他承认其公司xAI通过蒸馏技术使用了OpenAI的模型来训练Grok，引发法庭内惊呼。此案可能重新定义非营利AI公司的治理结构，并影响AI技术开源与闭源路线的未来走向，对AI行业具有重大意义。",
+      "score": 47
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Meta收购人形机器人初创公司：加速AI从数字世界走向物理世界",
+      "company": "Meta",
+      "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 01 May 2026 22:13:27 +0000",
+      "summary": "Meta宣布收购人形机器人初创公司Assured Robot Intelligence，以增强其机器人AI模型。该公司将利用该初创公司的技术提升AI在机器人领域的应用能力。此举对AI开发者意味着Meta正加速将AI模型从数字世界拓展至物理世界，可能推动人形机器人AI技术的商业化进程。",
+      "score": 40
+    },
+    {
+      "section": "政策与监管",
+      "title": "Anthropic发布Claude Security：用攻击者同款AI能力武装防御者",
+      "company": "Anthropic",
+      "url": "https://the-decoder.com/anthropic-launches-claude-security-to-give-defenders-the-same-ai-edge-attackers-already-have/",
+      "source": "The Decoder",
+      "publishedAt": "Fri, 01 May 2026 13:00:10 +0000",
+      "summary": "Anthropic推出Claude Security，旨在为网络防御者提供与攻击者同等的AI能力，这些能力基于其此前认为过于危险而未在另一模型中发布的技术。此举意味着网络安全领域攻防双方的技术差距可能缩小。对安全从业者和企业而言，Claude Security提供了利用先进AI进行主动防御的新工具，但同时也引发了对AI能力滥用的担忧。",
+      "score": 41
+    },
+    {
+      "section": "技术与研究",
+      "title": "科技巨头AI投资飙至7250亿美元：数据中心与芯片成主战场",
+      "company": "Google, Amazon, Microsoft, Meta",
+      "url": "https://the-decoder.com/big-techs-ai-spending-balloons-to-725-billion-this-year/",
+      "source": "The Decoder",
+      "publishedAt": "Fri, 01 May 2026 14:41:45 +0000",
+      "summary": "谷歌、亚马逊、微软和Meta计划在2026年将AI总支出提升至7250亿美元，较2月预估增长19%，较去年创纪录的410亿美元激增77%。仅第一季度，四家公司已烧掉1300亿美元，其中谷歌云收入增长63%，但内存芯片涨价推高成本，且谷歌和微软均表示算力仍供不应求。",
+      "score": 38
+    },
+    {
+      "section": "技术与研究",
+      "title": "他用AI办了个音乐节，主题“别读博”：揭秘AI音乐创作的极限与温度",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/05/412597.html",
+      "source": "量子位",
+      "publishedAt": "Fri, 01 May 2026 13:20:15 +0000",
+      "summary": "一位名为“茄总”的创作者利用AI工具举办了一场主题为“别读博”的音乐节。他在改编YOASOBI《群青》时发现，AI无法处理密集复杂的和声叠唱，会误将多人声音识别为同一人，因此他采用“赛马”策略，同时使用Suno、MiniMax Music等商业闭源模型和HeartMuLa、ACE-Step等开源模型反复尝试。",
+      "score": 37
+    },
+    {
+      "section": "政策与监管",
+      "title": "五角大楼联手英伟达、微软等巨头：AI部署机密网络，供应商多元化加速",
+      "company": "Nvidia, Microsoft, AWS",
+      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Fri, 01 May 2026 16:02:36 +0000",
+      "summary": "美国国防部与英伟达、微软和AWS等公司签署协议，在机密网络上部署AI。此举是在与Anthropic因AI模型使用条款发生争议后，国防部加大AI供应商多元化力度的一部分。对AI企业而言，这意味着与军方合作需谨慎处理使用条款，否则可能被排除在关键合同之外。",
+      "score": 35
+    },
+    {
+      "section": "政策与监管",
+      "title": "八家科技巨头签约五角大楼：AI优先作战网络背后的商业与伦理博弈",
+      "company": "Anthropic",
+      "url": "https://the-decoder.com/eight-tech-giants-sign-pentagon-deals-to-build-an-ai-first-fighting-force-across-classified-networks/",
+      "source": "The Decoder",
+      "publishedAt": "Fri, 01 May 2026 16:30:38 +0000",
+      "summary": "八家科技公司签署协议，为美国军方机密网络提供AI，助力五角大楼打造“AI优先”作战力量。Anthropic因拒绝使用条款并被标记为安全风险而缺席名单。对AI行业而言，这凸显了与军方合作中的合规风险，企业需权衡商业机会与伦理立场。",
+      "score": 35
+    },
+    {
+      "section": "技术与研究",
+      "title": "ChatGPT疯狂输出哥布林：OpenAI自曝训练激励信号出错，AI对齐隐患浮出水面",
+      "company": "OpenAI",
+      "url": "https://the-decoder.com/chatgpts-goblin-obsession-may-be-hilarious-but-it-points-to-a-deeper-problem-in-ai-training/",
+      "source": "The Decoder",
+      "publishedAt": "Fri, 01 May 2026 13:47:57 +0000",
+      "summary": "ChatGPT模型在训练过程中因奖励信号出现故障，导致其回答中频繁出现哥布林、小精灵等神话生物。OpenAI指出，这是一个小规模、调校不当的训练激励如何产生意外副作用的典型案例。这一事件警示AI开发者和企业，训练过程中的微小偏差可能引发模型行为的系统性失控，必须重视奖励机制的设计与对齐。",
+      "score": 35
+    },
+    {
+      "section": "技术与研究",
+      "title": "港大联手GIM：让大模型自己写代码、自己进化，量化因子挖掘被重做一遍",
       "company": "GIM",
       "url": "https://www.jiqizhixin.com/articles/2026-05-01-5",
       "source": "机器之心",
       "publishedAt": "2026-05-01T22:11:00+08:00",
-      "summary": "GIM与香港大学在ACL主会上发表论文，提出让大模型自动编写代码并自我进化，以改进量化投资中的因子挖掘。该方法通过大模型生成和迭代优化因子代码，解决了传统手工挖掘效率低、遗传编程易陷入局部最优的问题。这意味着量化投资者可能迎来更高效、更智能的信号发现方式，有望提升Alpha获取的效率和效果。",
-      "score": 33
+      "summary": "香港大学与GIM合作发表ACL主会论文，提出让大模型自主编写代码并自我进化的方法，用于量化投资中的Alpha因子挖掘。该方法通过大模型自动生成和迭代因子代码，解决了传统手工挖掘效率低、遗传编程易陷入局部最优的问题。这意味着量化因子挖掘有望从人工和传统算法转向更智能的自动化方式，提升信号发现效率。",
+      "score": 34
+    },
+    {
+      "section": "政策与监管",
+      "title": "Mistral AI 推出 Workflows：为企业 AI 部署提供编排、监控与容错能力",
+      "company": "Mistral AI",
+      "url": "https://www.infoq.cn/article/W1YiyHH4UXv05AqpiHag?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 01 May 2026 10:00:00 GMT",
+      "summary": "Mistral AI 推出了 Workflows，这是一个面向企业 AI 的编排层，目前已进入公开预览阶段。该平台基于 Temporal 构建，具备流式处理、负载处理及增强的可观测性，采用控制平面与数据平面分离的架构，支持云端、本地或混合部署。",
+      "score": 34
     }
   ]
 }
