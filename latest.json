@@ -1,7 +1,7 @@
 {
   "date": "2026/5/3",
   "title": "AI资讯每日精选-2026/5/3",
-  "generatedAt": "2026/5/3 09:13",
+  "generatedAt": "2026/5/3 09:17",
   "count": 8,
   "targetCount": 14,
   "diagnostics": {
@@ -159,21 +159,21 @@
     "scoring": {
       "totalInput": 15,
       "totalScored": 9,
-      "strictScoredCount": 6,
-      "relaxedCandidateCount": 2,
+      "strictScoredCount": 8,
+      "relaxedCandidateCount": 0,
       "relaxedUsedForSelection": true,
       "weakSummaryCount": 2,
       "selectedCandidateCount": 9,
-      "duplicateCount": 3,
+      "duplicateCount": 4,
       "crossDayDuplicateCount": 1,
       "lowQualityCount": 0,
-      "domesticAvailable": 4,
-      "overseasAvailable": 5,
+      "domesticAvailable": 5,
+      "overseasAvailable": 4,
       "sourceCount": {
-        "The Decoder": 5,
-        "机器之心": 2,
-        "36氪": 1,
-        "雷锋网": 1
+        "机器之心": 3,
+        "The Decoder": 4,
+        "雷锋网": 1,
+        "36氪": 1
       }
     },
     "display": {
@@ -194,83 +194,83 @@
   "articles": [
     {
       "section": "技术与研究",
-      "title": "GPT-5.5与Opus 4.7翻车实录：ARC-AGI-3测试揭示三种系统性推理错误",
-      "company": "OpenAI, Anthropic",
-      "url": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/",
-      "source": "The Decoder",
-      "publishedAt": "Sat, 02 May 2026 13:31:52 +0000",
-      "summary": "ARC Prize Foundation分析了OpenAI的GPT-5.5和Anthropic的Opus 4.7在ARC-AGI-3基准测试中的160次游戏运行。分析发现，这两种模型都表现出三种系统性错误模式，导致它们在人类能轻松解决的任务上准确率低于1%。这一发现对AI开发者意味着，当前顶尖模型在基础推理能力上仍有重大局限，需要针对性改进。",
-      "score": 60
-    },
-    {
-      "section": "技术与研究",
-      "title": "上海交大团队提出RouteMoA：动态路由实现高效多智能体混合，被ACL 2026接收",
+      "title": "GPT-5.5和Claude Opus 4.7在ARC-AGI-3测试中几乎零分：人类轻松满分，大模型通用智能短板暴露",
       "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-05-02-2",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-02-3",
       "source": "机器之心",
-      "publishedAt": "2026-05-02T22:54:00+08:00",
-      "summary": "上海交通大学自动化与感知学院IWIN中心团队提出RouteMoA方法，无需预推理即可实现动态路由，提升多智能体混合效率。该论文已被ACL 2026接收，合作方包括腾讯、上海人工智能实验室、香港中文大学等机构。这意味着多智能体系统在无需额外推理开销下实现更高效协作，对人工智能研究者和开发者具有参考价值。",
-      "score": 47
+      "publishedAt": "2026-05-02T22:59:00+08:00",
+      "summary": "一项名为ARC-AGI-3的基准测试中，OpenAI的GPT-5.5和Anthropic的Claude Opus 4.7两款顶尖模型表现极差，得分接近零。该测试旨在评估模型的通用智能能力，人类参与者能轻松获得满分。这一结果凸显了当前大模型在复杂推理任务上的局限性，对AI研究者和开发者意味着模型在特定基准上的高分可能无法反映真实智能水平。",
+      "score": 51
     },
     {
       "section": "产品发布与更新",
-      "title": "xAI推出Custom Voices：一分钟语音克隆，开发者可快速打造个性化AI语音应用",
+      "title": "xAI推出Custom Voices：一分钟语音克隆，AI应用门槛再降低",
       "company": "xAI",
       "url": "https://the-decoder.com/xais-new-custom-voices-feature-turns-a-minute-of-speech-into-a-usable-voice-clone/",
       "source": "The Decoder",
       "publishedAt": "Sat, 02 May 2026 12:14:46 +0000",
-      "summary": "xAI发布了新的“Custom Voices”功能，允许开发者克隆自己的语音用于AI应用。该功能基于近期推出的Grok语音转文字和文字转语音API，只需一分钟的语音样本即可生成可用的语音克隆。对开发者而言，这降低了创建个性化AI语音应用的门槛，可快速集成到聊天机器人、虚拟助手等场景中。",
+      "summary": "xAI推出新功能“Custom Voices”，允许开发者克隆自己的语音用于AI应用。该功能基于近期发布的Grok语音转文字和文字转语音API。对于开发者和企业而言，这意味着只需一分钟的语音样本即可快速创建个性化语音克隆，降低AI语音应用的门槛。",
+      "score": 45
+    },
+    {
+      "section": "技术与研究",
+      "title": "上海交大团队提出RouteMoA：无需预推理，多智能体协作效率大幅提升",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-02-2",
+      "source": "机器之心",
+      "publishedAt": "2026-05-02T22:54:00+08:00",
+      "summary": "上海交通大学自动化与感知学院团队提出RouteMoA方法，被ACL 2026接收。该方法无需预推理即可实现多智能体动态路由，提升效率。这对自然语言处理领域的研究者意味着一种更高效的模型协作新思路。",
       "score": 42
     },
     {
       "section": "投融资与并购",
-      "title": "Meta收购机器人AI初创公司：扎克伯格要为人形机器人打造“安卓平台”",
+      "title": "Meta收购机器人AI公司：小扎要为人形机器人打造“安卓平台”",
       "company": "Meta",
       "url": "https://www.jiqizhixin.com/articles/2026-05-02",
       "source": "机器之心",
       "publishedAt": "2026-05-02T22:51:00+08:00",
-      "summary": "Meta宣布完成对机器人AI初创公司Assured Robot Intelligence的收购。这是扎克伯格在虚拟世界之外，向物理世界拓展的最新动作，旨在让AI驱动现实机器人。此举可能加速人形机器人技术的普及，为开发者提供类似安卓的开放平台。",
-      "score": 38
+      "summary": "Meta宣布收购机器人AI初创公司Assured Robot Intelligence，这是扎克伯格在虚拟世界之外的新布局。此次收购旨在将Meta的数字大脑技术应用于物理机器人躯壳，推动人形机器人发展。对机器人行业而言，这标志着科技巨头开始争夺机器人操作系统标准，可能加速人形机器人的商业化进程。",
+      "score": 32
     },
     {
       "section": "政策与监管",
-      "title": "ChatGPT默认开启广告追踪：免费用户Cookie数据被用于定向营销",
+      "title": "ChatGPT默认开启广告追踪：免费用户隐私设置被自动更改",
       "company": "OpenAI",
       "url": "https://the-decoder.com/chatgpt-now-tracks-users-for-ads-by-default-as-openai-looks-for-new-revenue/",
       "source": "The Decoder",
       "publishedAt": "Sat, 02 May 2026 08:30:15 +0000",
-      "summary": "OpenAI已默认在运行广告的国家的免费ChatGPT用户中启用营销Cookie。追踪功能对免费账户自动激活，但付费订阅用户不受影响，用户可在账户设置中关闭。对普通用户而言，这意味着使用免费ChatGPT时需注意隐私设置，以避免被用于广告定向。",
+      "summary": "OpenAI已默认开启免费ChatGPT用户的营销Cookie，用于在投放广告的国家进行用户追踪。该追踪对免费账户自动激活，但付费订阅用户不受影响，用户可在账户设置中关闭。此举表明OpenAI正探索广告收入模式，对普通用户而言需注意隐私设置的变化。",
       "score": 28
     },
     {
       "section": "技术与研究",
-      "title": "英伟达CEO黄仁勋批评科技领袖“上帝情结”：轻率预测AI导致失业，反而伤害社会",
+      "title": "英伟达CEO黄仁勋怒批科技领袖：轻率预测AI失业是“上帝情结”",
       "company": "Nvidia",
       "url": "https://the-decoder.com/nvidia-ceo-jensen-huang-calls-out-tech-leaders-god-complex-over-reckless-ai-job-loss-predictions/",
       "source": "The Decoder",
       "publishedAt": "Sat, 02 May 2026 10:32:09 +0000",
-      "summary": "英伟达CEO黄仁勋指出，关于AI导致失业的危言耸听实际上在损害就业机会，而非保护它们。他认为，劝阻年轻人放弃未来职业的做法对社会造成真实伤害。这一观点对创业者和管理者意味着，应更理性看待AI对就业的影响，避免因过度恐慌而做出错误决策。",
-      "score": 19
+      "summary": "英伟达CEO黄仁勋公开批评部分科技领袖轻率预测AI将导致大规模失业，称这种言论是“上帝情结”，可能对社会造成实际伤害。他以放射科为例，指出十年前AI将淘汰放射科医生的预测并未成真，如今放射科医生依然短缺。黄仁勋强调，AI实际创造了超过50万个就业岗位，提醒创业者和投资者应理性看待AI对就业的影响，避免过度渲染负面预期。",
+      "score": 23
     },
     {
       "section": "技术与研究",
-      "title": "卓驭于贝贝：向物理AI转型是生存法则，算法厂商面临淘汰赛",
+      "title": "东方甄选豪掷4亿股份奖励300员工：人均超140万，绑定核心人才",
+      "company": "东方甄选",
+      "url": "https://www.leiphone.com/category/zaobao/Yhq9TTDgatWOOdDC.html",
+      "source": "雷锋网",
+      "publishedAt": "Sat, 02 May 2026 19:21:00 +0800",
+      "summary": "东方甄选宣布向300名员工授予价值约4.23亿元人民币的股份，人均市值约141万元，同时俞敏洪和尹强分别获得价值约4466万元和1117万元的股份。美国被曝暂停对华虹半导体部分供货，中方尚未正式回应。此举反映了企业通过股权激励绑定核心人才的趋势，对投资者和员工而言，意味着公司长期价值与个人利益进一步挂钩。",
+      "score": 28
+    },
+    {
+      "section": "技术与研究",
+      "title": "卓驭副总裁于贝贝：向物理AI转型是生存法则，否则将被淘汰",
       "company": "卓驭",
       "url": "https://36kr.com/p/3789475357400068?f=rss",
       "source": "36氪",
       "publishedAt": "2026-05-02 21:17:06  +0800",
-      "summary": "卓驭科技副总裁于贝贝认为，算法厂商向物理AI转型并非迎合资本市场，而是关乎存亡的生存法则。卓驭已发布面向移动物理AI的原生多模态基础模型，并探索基于订阅、利润分成及动作令牌的新商业形态。这对智能驾驶行业意味着，算法厂商需切换到大模型范式，否则可能被淘汰，同时商业空间将随技术突破而打开。",
-      "score": 32
-    },
-    {
-      "section": "技术与研究",
-      "title": "东方甄选豪掷4亿股份奖励300员工：人均超140万，对标特斯拉激励模式",
-      "company": "华虹半导体",
-      "url": "https://www.leiphone.com/category/zaobao/Yhq9TTDgatWOOdDC.html",
-      "source": "雷锋网",
-      "publishedAt": "Sat, 02 May 2026 19:21:00 +0800",
-      "summary": "美国暂停对华虹半导体部分供货的传闻引发关注，中方已作出回应。东方甄选向300名员工授予市值约4.85亿港元的股份，人均市值约161.65万港元。DeepSeek正在灰度测试识图模式，可能提升用户体验。",
-      "score": 17
+      "summary": "卓驭科技副总裁于贝贝表示，算法厂商向物理AI转型不是迎合资本市场，而是关乎存亡的生存法则。卓驭已发布面向移动物理AI的原生多模态基础模型，并开始探索基于订阅、利润分成和动作令牌的新商业模式。这意味着智能驾驶厂商的竞争维度已升级，跨界巨头和具身智能公司加入，只有跟上技术路线的玩家才能跑出来。",
+      "score": 26
     }
   ]
 }
