@@ -1,37 +1,37 @@
 {
   "date": "2026/5/3",
   "title": "AI资讯每日精选-2026/5/3",
-  "generatedAt": "2026/5/3 09:17",
-  "count": 8,
+  "generatedAt": "2026/5/3 13:06",
+  "count": 6,
   "targetCount": 14,
   "diagnostics": {
     "previousDayFile": "news-2026-05-02.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 8,
-      "overseasBeforeDedup": 7,
-      "domesticAfterDedup": 8,
-      "overseasAfterDedup": 7,
+      "domesticBeforeDedup": 5,
+      "overseasBeforeDedup": 2,
+      "domesticAfterDedup": 5,
+      "overseasAfterDedup": 2,
       "domesticHotGroups": 0,
       "overseasHotGroups": 0,
       "domesticSources": [
         {
           "source": "机器之心",
-          "ok": true,
-          "count": 3,
-          "error": null
+          "ok": false,
+          "count": 0,
+          "error": "certificate has expired"
         },
         {
           "source": "量子位",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
           "source": "36氪",
           "ok": true,
-          "count": 4,
+          "count": 3,
           "error": null
         },
         {
@@ -81,7 +81,7 @@
         {
           "source": "The Decoder",
           "ok": true,
-          "count": 7,
+          "count": 2,
           "error": null
         },
         {
@@ -154,123 +154,103 @@
       }
     },
     "summarize": {
-      "totalSummarized": 15
+      "totalSummarized": 7
     },
     "scoring": {
-      "totalInput": 15,
-      "totalScored": 9,
-      "strictScoredCount": 8,
+      "totalInput": 7,
+      "totalScored": 6,
+      "strictScoredCount": 6,
       "relaxedCandidateCount": 0,
       "relaxedUsedForSelection": true,
       "weakSummaryCount": 2,
-      "selectedCandidateCount": 9,
-      "duplicateCount": 4,
-      "crossDayDuplicateCount": 1,
+      "selectedCandidateCount": 6,
+      "duplicateCount": 0,
+      "crossDayDuplicateCount": 0,
       "lowQualityCount": 0,
-      "domesticAvailable": 5,
-      "overseasAvailable": 4,
+      "domesticAvailable": 4,
+      "overseasAvailable": 2,
       "sourceCount": {
-        "机器之心": 3,
-        "The Decoder": 4,
+        "量子位": 1,
+        "The Decoder": 2,
         "雷锋网": 1,
-        "36氪": 1
+        "36氪": 2
       }
     },
     "display": {
-      "refinedCount": 9,
-      "previousDayRemovedCount": 1,
+      "refinedCount": 6,
+      "previousDayRemovedCount": 0,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
       "integrityRemovedCount": 0,
-      "postPreviousDayFilterCount": 8,
-      "displayReadyCount": 6,
+      "postPreviousDayFilterCount": 6,
+      "displayReadyCount": 4,
       "fallbackDisplayCount": 2,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
       "removedWeakSummaries": 2,
-      "shortage": 6
+      "shortage": 8
     }
   },
   "articles": [
     {
       "section": "技术与研究",
-      "title": "GPT-5.5和Claude Opus 4.7在ARC-AGI-3测试中几乎零分：人类轻松满分，大模型通用智能短板暴露",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-05-02-3",
-      "source": "机器之心",
-      "publishedAt": "2026-05-02T22:59:00+08:00",
-      "summary": "一项名为ARC-AGI-3的基准测试中，OpenAI的GPT-5.5和Anthropic的Claude Opus 4.7两款顶尖模型表现极差，得分接近零。该测试旨在评估模型的通用智能能力，人类参与者能轻松获得满分。这一结果凸显了当前大模型在复杂推理任务上的局限性，对AI研究者和开发者意味着模型在特定基准上的高分可能无法反映真实智能水平。",
+      "title": "清华开源GS-Playground：具身智能仿真框架实现10000 FPS吞吐，加速大规模机器人训练",
+      "company": "清华大学智能产业研究院",
+      "url": "https://www.qbitai.com/2026/05/412870.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 03 May 2026 03:56:44 +0000",
+      "summary": "清华大学智能产业研究院DISCOVER Lab开源了新一代具身智能仿真框架GS-Playground。该框架搭载自研跨平台并行物理引擎，支持CPU/GPU双后端和全系统运行，在单张RTX 4090上可实现640×480分辨率下最高10000 FPS的渲染吞吐量，同时渲染2048个场景。",
+      "score": 59
+    },
+    {
+      "section": "技术与研究",
+      "title": "OpenAI与Anthropic最新模型在ARC-AGI-3测试中暴露三大推理缺陷：AI仍像“高级模式匹配器”",
+      "company": "OpenAI, Anthropic",
+      "url": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/",
+      "source": "The Decoder",
+      "publishedAt": "Sat, 02 May 2026 13:31:52 +0000",
+      "summary": "ARC Prize Foundation分析了OpenAI的GPT-5.5和Anthropic的Opus 4.7在ARC-AGI-3基准测试中的160次游戏运行。分析显示，这两个模型存在三种系统性错误模式，导致它们在人类可以轻松解决的任务上表现低于1%。这一发现揭示了当前最先进AI模型在基础推理能力上的根本局限。",
       "score": 51
     },
     {
       "section": "产品发布与更新",
-      "title": "xAI推出Custom Voices：一分钟语音克隆，AI应用门槛再降低",
+      "title": "xAI 推出 Custom Voices：一分钟语音样本即可克隆声音，防滥用机制同步上线",
       "company": "xAI",
       "url": "https://the-decoder.com/xais-new-custom-voices-feature-turns-a-minute-of-speech-into-a-usable-voice-clone/",
       "source": "The Decoder",
       "publishedAt": "Sat, 02 May 2026 12:14:46 +0000",
-      "summary": "xAI推出新功能“Custom Voices”，允许开发者克隆自己的语音用于AI应用。该功能基于近期发布的Grok语音转文字和文字转语音API。对于开发者和企业而言，这意味着只需一分钟的语音样本即可快速创建个性化语音克隆，降低AI语音应用的门槛。",
-      "score": 45
-    },
-    {
-      "section": "技术与研究",
-      "title": "上海交大团队提出RouteMoA：无需预推理，多智能体协作效率大幅提升",
-      "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-05-02-2",
-      "source": "机器之心",
-      "publishedAt": "2026-05-02T22:54:00+08:00",
-      "summary": "上海交通大学自动化与感知学院团队提出RouteMoA方法，被ACL 2026接收。该方法无需预推理即可实现多智能体动态路由，提升效率。这对自然语言处理领域的研究者意味着一种更高效的模型协作新思路。",
-      "score": 42
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Meta收购机器人AI公司：小扎要为人形机器人打造“安卓平台”",
-      "company": "Meta",
-      "url": "https://www.jiqizhixin.com/articles/2026-05-02",
-      "source": "机器之心",
-      "publishedAt": "2026-05-02T22:51:00+08:00",
-      "summary": "Meta宣布收购机器人AI初创公司Assured Robot Intelligence，这是扎克伯格在虚拟世界之外的新布局。此次收购旨在将Meta的数字大脑技术应用于物理机器人躯壳，推动人形机器人发展。对机器人行业而言，这标志着科技巨头开始争夺机器人操作系统标准，可能加速人形机器人的商业化进程。",
-      "score": 32
+      "summary": "xAI发布了新的Custom Voices功能，允许开发者克隆自己的声音用于AI应用。该功能基于近期推出的Grok语音转文本和文本转语音API构建。这意味着开发者只需一分钟的语音样本，就能为AI应用创建可用的声音克隆。",
+      "score": 43
     },
     {
       "section": "政策与监管",
-      "title": "ChatGPT默认开启广告追踪：免费用户隐私设置被自动更改",
-      "company": "OpenAI",
-      "url": "https://the-decoder.com/chatgpt-now-tracks-users-for-ads-by-default-as-openai-looks-for-new-revenue/",
-      "source": "The Decoder",
-      "publishedAt": "Sat, 02 May 2026 08:30:15 +0000",
-      "summary": "OpenAI已默认开启免费ChatGPT用户的营销Cookie，用于在投放广告的国家进行用户追踪。该追踪对免费账户自动激活，但付费订阅用户不受影响，用户可在账户设置中关闭。此举表明OpenAI正探索广告收入模式，对普通用户而言需注意隐私设置的变化。",
-      "score": 28
+      "title": "网信部门严管自媒体：未标来源将面临处置，9.8万账号已遭清理",
+      "company": "",
+      "url": "https://36kr.com/newsflashes/3792999844338951?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-03 12:15:48  +0800",
+      "summary": "网信部门近期对自媒体未规范标注信息来源的行为进行严格管理，包括未标注时政等信息来源、未标注AI生成标识以及未标注虚构演绎标签。目前，已依法依规处置违规账号9.8万余个。这对自媒体运营者和平台意味着需加强信息标注合规意识，以维护网络生态秩序。",
+      "score": 24
     },
     {
       "section": "技术与研究",
-      "title": "英伟达CEO黄仁勋怒批科技领袖：轻率预测AI失业是“上帝情结”",
-      "company": "Nvidia",
-      "url": "https://the-decoder.com/nvidia-ceo-jensen-huang-calls-out-tech-leaders-god-complex-over-reckless-ai-job-loss-predictions/",
-      "source": "The Decoder",
-      "publishedAt": "Sat, 02 May 2026 10:32:09 +0000",
-      "summary": "英伟达CEO黄仁勋公开批评部分科技领袖轻率预测AI将导致大规模失业，称这种言论是“上帝情结”，可能对社会造成实际伤害。他以放射科为例，指出十年前AI将淘汰放射科医生的预测并未成真，如今放射科医生依然短缺。黄仁勋强调，AI实际创造了超过50万个就业岗位，提醒创业者和投资者应理性看待AI对就业的影响，避免过度渲染负面预期。",
-      "score": 23
-    },
-    {
-      "section": "技术与研究",
-      "title": "东方甄选豪掷4亿股份奖励300员工：人均超140万，绑定核心人才",
+      "title": "东方甄选豪掷4亿股份奖励300员工：人均超140万，DeepSeek灰度测试识图模式",
       "company": "东方甄选",
       "url": "https://www.leiphone.com/category/zaobao/Yhq9TTDgatWOOdDC.html",
       "source": "雷锋网",
       "publishedAt": "Sat, 02 May 2026 19:21:00 +0800",
-      "summary": "东方甄选宣布向300名员工授予价值约4.23亿元人民币的股份，人均市值约141万元，同时俞敏洪和尹强分别获得价值约4466万元和1117万元的股份。美国被曝暂停对华虹半导体部分供货，中方尚未正式回应。此举反映了企业通过股权激励绑定核心人才的趋势，对投资者和员工而言，意味着公司长期价值与个人利益进一步挂钩。",
-      "score": 28
+      "summary": "东方甄选宣布向300名员工授予价值约4.85亿港元的股份，人均市值约161.65万港元，同时俞敏洪和尹强分别获得180万股和45万股。美国对NVIDIA高端芯片的出口管制导致国产芯片需求暴涨，华为昇腾950系列芯片已全面支持DeepSeek V4模型，并计划2026年生产约75万颗。这对科技行业从业者意味着，国产芯片生态正在加速成熟，而企业股权激励模式也持续吸引人才。",
+      "score": 36
     },
     {
       "section": "技术与研究",
-      "title": "卓驭副总裁于贝贝：向物理AI转型是生存法则，否则将被淘汰",
+      "title": "卓驭副总裁：向物理AI转型是生存法则，跟不上就会被淘汰",
       "company": "卓驭",
       "url": "https://36kr.com/p/3789475357400068?f=rss",
       "source": "36氪",
       "publishedAt": "2026-05-02 21:17:06  +0800",
-      "summary": "卓驭科技副总裁于贝贝表示，算法厂商向物理AI转型不是迎合资本市场，而是关乎存亡的生存法则。卓驭已发布面向移动物理AI的原生多模态基础模型，并开始探索基于订阅、利润分成和动作令牌的新商业模式。这意味着智能驾驶厂商的竞争维度已升级，跨界巨头和具身智能公司加入，只有跟上技术路线的玩家才能跑出来。",
-      "score": 26
+      "summary": "卓驭科技副总裁于贝贝表示，算法厂商向物理AI转型并非迎合资本市场，而是关乎存亡的生存法则。卓驭已发布面向移动物理AI的原生多模态基础模型，并探索基于订阅、利润分成及“动作令牌”的新商业模式。这意味着智能驾驶算法厂商正进入全新维度的淘汰赛，只有跟上技术范式的玩家才能跑出来。",
+      "score": 27
     }
   ]
 }
