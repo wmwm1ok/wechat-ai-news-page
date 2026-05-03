@@ -1,49 +1,49 @@
 {
-  "date": "2026/5/2",
-  "title": "AI资讯每日精选-2026/5/2",
-  "generatedAt": "2026/5/2 11:28",
-  "count": 14,
+  "date": "2026/5/3",
+  "title": "AI资讯每日精选-2026/5/3",
+  "generatedAt": "2026/5/3 09:13",
+  "count": 8,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-05-01.json",
+    "previousDayFile": "news-2026-05-02.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 15,
-      "overseasBeforeDedup": 20,
-      "domesticAfterDedup": 15,
-      "overseasAfterDedup": 20,
+      "domesticBeforeDedup": 8,
+      "overseasBeforeDedup": 7,
+      "domesticAfterDedup": 8,
+      "overseasAfterDedup": 7,
       "domesticHotGroups": 0,
       "overseasHotGroups": 0,
       "domesticSources": [
         {
           "source": "机器之心",
           "ok": true,
-          "count": 6,
+          "count": 3,
           "error": null
         },
         {
           "source": "量子位",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         },
         {
           "source": "36氪",
           "ok": true,
-          "count": 5,
+          "count": 4,
           "error": null
         },
         {
           "source": "InfoQ",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         },
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         }
       ],
@@ -75,7 +75,7 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         },
         {
@@ -87,13 +87,13 @@
         {
           "source": "VentureBeat AI",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 4,
+          "count": 0,
           "error": null
         },
         {
@@ -105,13 +105,13 @@
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 3,
+          "count": 0,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
@@ -129,7 +129,7 @@
         {
           "source": "AWS Machine Learning Blog",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
@@ -154,189 +154,123 @@
       }
     },
     "summarize": {
-      "totalSummarized": 35
+      "totalSummarized": 15
     },
     "scoring": {
-      "totalInput": 35,
-      "totalScored": 28,
-      "strictScoredCount": 26,
-      "relaxedCandidateCount": 1,
+      "totalInput": 15,
+      "totalScored": 9,
+      "strictScoredCount": 6,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 3,
-      "selectedCandidateCount": 28,
+      "weakSummaryCount": 2,
+      "selectedCandidateCount": 9,
       "duplicateCount": 3,
-      "crossDayDuplicateCount": 2,
+      "crossDayDuplicateCount": 1,
       "lowQualityCount": 0,
-      "domesticAvailable": 13,
-      "overseasAvailable": 15,
+      "domesticAvailable": 4,
+      "overseasAvailable": 5,
       "sourceCount": {
-        "36氪": 4,
-        "InfoQ": 2,
-        "MIT Technology Review": 4,
-        "机器之心": 5,
-        "量子位": 2,
         "The Decoder": 5,
-        "TechCrunch AI": 2,
-        "AWS Machine Learning Blog": 1,
-        "The Verge AI": 2,
-        "VentureBeat AI": 1
+        "机器之心": 2,
+        "36氪": 1,
+        "雷锋网": 1
       }
     },
     "display": {
-      "refinedCount": 28,
-      "previousDayRemovedCount": 2,
+      "refinedCount": 9,
+      "previousDayRemovedCount": 1,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 2,
-      "postPreviousDayFilterCount": 24,
-      "displayReadyCount": 22,
-      "fallbackDisplayCount": 0,
+      "integrityRemovedCount": 0,
+      "postPreviousDayFilterCount": 8,
+      "displayReadyCount": 6,
+      "fallbackDisplayCount": 2,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
       "removedWeakSummaries": 2,
-      "shortage": 0
+      "shortage": 6
     }
   },
   "articles": [
     {
-      "section": "产品发布与更新",
-      "title": "400B大模型在iPhone上跑起来了：每秒0.6个token，慢到让人想笑",
+      "section": "技术与研究",
+      "title": "GPT-5.5与Opus 4.7翻车实录：ARC-AGI-3测试揭示三种系统性推理错误",
+      "company": "OpenAI, Anthropic",
+      "url": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/",
+      "source": "The Decoder",
+      "publishedAt": "Sat, 02 May 2026 13:31:52 +0000",
+      "summary": "ARC Prize Foundation分析了OpenAI的GPT-5.5和Anthropic的Opus 4.7在ARC-AGI-3基准测试中的160次游戏运行。分析发现，这两种模型都表现出三种系统性错误模式，导致它们在人类能轻松解决的任务上准确率低于1%。这一发现对AI开发者意味着，当前顶尖模型在基础推理能力上仍有重大局限，需要针对性改进。",
+      "score": 60
+    },
+    {
+      "section": "技术与研究",
+      "title": "上海交大团队提出RouteMoA：动态路由实现高效多智能体混合，被ACL 2026接收",
       "company": "",
-      "url": "https://www.jiqizhixin.com/articles/2026-05-01-7",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-02-2",
       "source": "机器之心",
-      "publishedAt": "2026-05-01T22:19:00+08:00",
-      "summary": "一项新演示将400B参数的大模型成功运行在iPhone上，但输出速率仅为每秒0.6个token，速度极慢。该模型虽然吐词缓慢，观感类似“闪电”老师，但能在移动设备上部署如此规模的模型仍属突破。这一进展对开发者而言，展示了边缘端运行超大模型的潜力，尽管当前速度限制了实际应用，但为未来优化和轻量化模型提供了方向。",
-      "score": 31
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI研究员陈博远亲述：我如何训练GPT生图模型，并与奥特曼同台发布",
-      "company": "OpenAI",
-      "url": "https://www.jiqizhixin.com/articles/2026-05-01-8",
-      "source": "机器之心",
-      "publishedAt": "2026-05-01T22:23:00+08:00",
-      "summary": "OpenAI研究科学家陈博远在知乎发布博客，介绍了GPT Image 2官网博客的花絮。他透露自己主力训练的GPT生图模型在上周发布，并与奥特曼共同主持了发布会。这展示了OpenAI在图像生成领域的最新进展，对AI图像生成技术的研究者和开发者具有参考价值。",
-      "score": 44
-    },
-    {
-      "section": "技术与研究",
-      "title": "智谱揭秘AI“降智”真相：高并发下如何用系统工程守住质量底线",
-      "company": "智谱",
-      "url": "https://www.qbitai.com/2026/05/412585.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 01 May 2026 11:00:05 +0000",
-      "summary": "智谱公开了其AI模型在高并发场景下“降智”的具体机制，当生成质量指标异常时系统会主动中止并重新分配请求。通过LayerSplit与GLM-5.1结合，在Cache命中率达90%时系统吞吐量提升10%到132%，并设计了通信延迟隐藏机制。",
-      "score": 41
-    },
-    {
-      "section": "技术与研究",
-      "title": "马斯克安保费暴涨71%：特斯拉去年豪掷480万美元，高知名度成“双刃剑”",
-      "company": "特斯拉",
-      "url": "https://36kr.com/newsflashes/3791531152186376?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-05-02 10:37:55  +0800",
-      "summary": "特斯拉在2025年为CEO马斯克支付的安保费用约480万美元，较前一年的280万美元增长71%。截至今年2月，安保支出已从去年同期的50万美元增至130万美元，翻了一倍多。这表明企业对高知名度高管的安全威胁担忧加剧，马斯克的其他公司如SpaceX和xAI也承担部分安保费用。",
-      "score": 40
-    },
-    {
-      "section": "投融资与并购",
-      "title": "马斯克诉奥特曼开庭首周：称被欺骗注资OpenAI，警告AI可能毁灭人类",
-      "company": "xAI",
-      "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
-      "source": "MIT Technology Review",
-      "publishedAt": "Fri, 01 May 2026 22:08:19 +0000",
-      "summary": "马斯克诉OpenAI案首周庭审中，马斯克出庭指控奥特曼和布罗克曼欺骗他出资创办公司，并警告AI可能毁灭全人类。他承认其公司xAI通过蒸馏技术使用了OpenAI的模型来训练Grok，引发法庭内惊呼。此案可能重新定义非营利AI公司的治理结构，并影响AI技术开源与闭源路线的未来走向，对AI行业具有重大意义。",
+      "publishedAt": "2026-05-02T22:54:00+08:00",
+      "summary": "上海交通大学自动化与感知学院IWIN中心团队提出RouteMoA方法，无需预推理即可实现动态路由，提升多智能体混合效率。该论文已被ACL 2026接收，合作方包括腾讯、上海人工智能实验室、香港中文大学等机构。这意味着多智能体系统在无需额外推理开销下实现更高效协作，对人工智能研究者和开发者具有参考价值。",
       "score": 47
     },
     {
+      "section": "产品发布与更新",
+      "title": "xAI推出Custom Voices：一分钟语音克隆，开发者可快速打造个性化AI语音应用",
+      "company": "xAI",
+      "url": "https://the-decoder.com/xais-new-custom-voices-feature-turns-a-minute-of-speech-into-a-usable-voice-clone/",
+      "source": "The Decoder",
+      "publishedAt": "Sat, 02 May 2026 12:14:46 +0000",
+      "summary": "xAI发布了新的“Custom Voices”功能，允许开发者克隆自己的语音用于AI应用。该功能基于近期推出的Grok语音转文字和文字转语音API，只需一分钟的语音样本即可生成可用的语音克隆。对开发者而言，这降低了创建个性化AI语音应用的门槛，可快速集成到聊天机器人、虚拟助手等场景中。",
+      "score": 42
+    },
+    {
       "section": "投融资与并购",
-      "title": "Meta收购人形机器人初创公司：加速AI从数字世界走向物理世界",
+      "title": "Meta收购机器人AI初创公司：扎克伯格要为人形机器人打造“安卓平台”",
       "company": "Meta",
-      "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 01 May 2026 22:13:27 +0000",
-      "summary": "Meta宣布收购人形机器人初创公司Assured Robot Intelligence，以增强其机器人AI模型。该公司将利用该初创公司的技术提升AI在机器人领域的应用能力。此举对AI开发者意味着Meta正加速将AI模型从数字世界拓展至物理世界，可能推动人形机器人AI技术的商业化进程。",
-      "score": 40
-    },
-    {
-      "section": "政策与监管",
-      "title": "Anthropic发布Claude Security：用攻击者同款AI能力武装防御者",
-      "company": "Anthropic",
-      "url": "https://the-decoder.com/anthropic-launches-claude-security-to-give-defenders-the-same-ai-edge-attackers-already-have/",
-      "source": "The Decoder",
-      "publishedAt": "Fri, 01 May 2026 13:00:10 +0000",
-      "summary": "Anthropic推出Claude Security，旨在为网络防御者提供与攻击者同等的AI能力，这些能力基于其此前认为过于危险而未在另一模型中发布的技术。此举意味着网络安全领域攻防双方的技术差距可能缩小。对安全从业者和企业而言，Claude Security提供了利用先进AI进行主动防御的新工具，但同时也引发了对AI能力滥用的担忧。",
-      "score": 41
-    },
-    {
-      "section": "技术与研究",
-      "title": "科技巨头AI投资飙至7250亿美元：数据中心与芯片成主战场",
-      "company": "Google, Amazon, Microsoft, Meta",
-      "url": "https://the-decoder.com/big-techs-ai-spending-balloons-to-725-billion-this-year/",
-      "source": "The Decoder",
-      "publishedAt": "Fri, 01 May 2026 14:41:45 +0000",
-      "summary": "谷歌、亚马逊、微软和Meta计划在2026年将AI总支出提升至7250亿美元，较2月预估增长19%，较去年创纪录的410亿美元激增77%。仅第一季度，四家公司已烧掉1300亿美元，其中谷歌云收入增长63%，但内存芯片涨价推高成本，且谷歌和微软均表示算力仍供不应求。",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-02",
+      "source": "机器之心",
+      "publishedAt": "2026-05-02T22:51:00+08:00",
+      "summary": "Meta宣布完成对机器人AI初创公司Assured Robot Intelligence的收购。这是扎克伯格在虚拟世界之外，向物理世界拓展的最新动作，旨在让AI驱动现实机器人。此举可能加速人形机器人技术的普及，为开发者提供类似安卓的开放平台。",
       "score": 38
     },
     {
-      "section": "技术与研究",
-      "title": "他用AI办了个音乐节，主题“别读博”：揭秘AI音乐创作的极限与温度",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/05/412597.html",
-      "source": "量子位",
-      "publishedAt": "Fri, 01 May 2026 13:20:15 +0000",
-      "summary": "一位名为“茄总”的创作者利用AI工具举办了一场主题为“别读博”的音乐节。他在改编YOASOBI《群青》时发现，AI无法处理密集复杂的和声叠唱，会误将多人声音识别为同一人，因此他采用“赛马”策略，同时使用Suno、MiniMax Music等商业闭源模型和HeartMuLa、ACE-Step等开源模型反复尝试。",
-      "score": 37
-    },
-    {
       "section": "政策与监管",
-      "title": "五角大楼联手英伟达、微软等巨头：AI部署机密网络，供应商多元化加速",
-      "company": "Nvidia, Microsoft, AWS",
-      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Fri, 01 May 2026 16:02:36 +0000",
-      "summary": "美国国防部与英伟达、微软和AWS等公司签署协议，在机密网络上部署AI。此举是在与Anthropic因AI模型使用条款发生争议后，国防部加大AI供应商多元化力度的一部分。对AI企业而言，这意味着与军方合作需谨慎处理使用条款，否则可能被排除在关键合同之外。",
-      "score": 35
-    },
-    {
-      "section": "政策与监管",
-      "title": "八家科技巨头签约五角大楼：AI优先作战网络背后的商业与伦理博弈",
-      "company": "Anthropic",
-      "url": "https://the-decoder.com/eight-tech-giants-sign-pentagon-deals-to-build-an-ai-first-fighting-force-across-classified-networks/",
-      "source": "The Decoder",
-      "publishedAt": "Fri, 01 May 2026 16:30:38 +0000",
-      "summary": "八家科技公司签署协议，为美国军方机密网络提供AI，助力五角大楼打造“AI优先”作战力量。Anthropic因拒绝使用条款并被标记为安全风险而缺席名单。对AI行业而言，这凸显了与军方合作中的合规风险，企业需权衡商业机会与伦理立场。",
-      "score": 35
-    },
-    {
-      "section": "技术与研究",
-      "title": "ChatGPT疯狂输出哥布林：OpenAI自曝训练激励信号出错，AI对齐隐患浮出水面",
+      "title": "ChatGPT默认开启广告追踪：免费用户Cookie数据被用于定向营销",
       "company": "OpenAI",
-      "url": "https://the-decoder.com/chatgpts-goblin-obsession-may-be-hilarious-but-it-points-to-a-deeper-problem-in-ai-training/",
+      "url": "https://the-decoder.com/chatgpt-now-tracks-users-for-ads-by-default-as-openai-looks-for-new-revenue/",
       "source": "The Decoder",
-      "publishedAt": "Fri, 01 May 2026 13:47:57 +0000",
-      "summary": "ChatGPT模型在训练过程中因奖励信号出现故障，导致其回答中频繁出现哥布林、小精灵等神话生物。OpenAI指出，这是一个小规模、调校不当的训练激励如何产生意外副作用的典型案例。这一事件警示AI开发者和企业，训练过程中的微小偏差可能引发模型行为的系统性失控，必须重视奖励机制的设计与对齐。",
-      "score": 35
+      "publishedAt": "Sat, 02 May 2026 08:30:15 +0000",
+      "summary": "OpenAI已默认在运行广告的国家的免费ChatGPT用户中启用营销Cookie。追踪功能对免费账户自动激活，但付费订阅用户不受影响，用户可在账户设置中关闭。对普通用户而言，这意味着使用免费ChatGPT时需注意隐私设置，以避免被用于广告定向。",
+      "score": 28
     },
     {
       "section": "技术与研究",
-      "title": "港大联手GIM：让大模型自己写代码、自己进化，量化因子挖掘被重做一遍",
-      "company": "GIM",
-      "url": "https://www.jiqizhixin.com/articles/2026-05-01-5",
-      "source": "机器之心",
-      "publishedAt": "2026-05-01T22:11:00+08:00",
-      "summary": "香港大学与GIM合作发表ACL主会论文，提出让大模型自主编写代码并自我进化的方法，用于量化投资中的Alpha因子挖掘。该方法通过大模型自动生成和迭代因子代码，解决了传统手工挖掘效率低、遗传编程易陷入局部最优的问题。这意味着量化因子挖掘有望从人工和传统算法转向更智能的自动化方式，提升信号发现效率。",
-      "score": 34
+      "title": "英伟达CEO黄仁勋批评科技领袖“上帝情结”：轻率预测AI导致失业，反而伤害社会",
+      "company": "Nvidia",
+      "url": "https://the-decoder.com/nvidia-ceo-jensen-huang-calls-out-tech-leaders-god-complex-over-reckless-ai-job-loss-predictions/",
+      "source": "The Decoder",
+      "publishedAt": "Sat, 02 May 2026 10:32:09 +0000",
+      "summary": "英伟达CEO黄仁勋指出，关于AI导致失业的危言耸听实际上在损害就业机会，而非保护它们。他认为，劝阻年轻人放弃未来职业的做法对社会造成真实伤害。这一观点对创业者和管理者意味着，应更理性看待AI对就业的影响，避免因过度恐慌而做出错误决策。",
+      "score": 19
     },
     {
-      "section": "政策与监管",
-      "title": "Mistral AI 推出 Workflows：为企业 AI 部署提供编排、监控与容错能力",
-      "company": "Mistral AI",
-      "url": "https://www.infoq.cn/article/W1YiyHH4UXv05AqpiHag?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 01 May 2026 10:00:00 GMT",
-      "summary": "Mistral AI 推出了 Workflows，这是一个面向企业 AI 的编排层，目前已进入公开预览阶段。该平台基于 Temporal 构建，具备流式处理、负载处理及增强的可观测性，采用控制平面与数据平面分离的架构，支持云端、本地或混合部署。",
-      "score": 34
+      "section": "技术与研究",
+      "title": "卓驭于贝贝：向物理AI转型是生存法则，算法厂商面临淘汰赛",
+      "company": "卓驭",
+      "url": "https://36kr.com/p/3789475357400068?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-02 21:17:06  +0800",
+      "summary": "卓驭科技副总裁于贝贝认为，算法厂商向物理AI转型并非迎合资本市场，而是关乎存亡的生存法则。卓驭已发布面向移动物理AI的原生多模态基础模型，并探索基于订阅、利润分成及动作令牌的新商业形态。这对智能驾驶行业意味着，算法厂商需切换到大模型范式，否则可能被淘汰，同时商业空间将随技术突破而打开。",
+      "score": 32
+    },
+    {
+      "section": "技术与研究",
+      "title": "东方甄选豪掷4亿股份奖励300员工：人均超140万，对标特斯拉激励模式",
+      "company": "华虹半导体",
+      "url": "https://www.leiphone.com/category/zaobao/Yhq9TTDgatWOOdDC.html",
+      "source": "雷锋网",
+      "publishedAt": "Sat, 02 May 2026 19:21:00 +0800",
+      "summary": "美国暂停对华虹半导体部分供货的传闻引发关注，中方已作出回应。东方甄选向300名员工授予市值约4.85亿港元的股份，人均市值约161.65万港元。DeepSeek正在灰度测试识图模式，可能提升用户体验。",
+      "score": 17
     }
   ]
 }
