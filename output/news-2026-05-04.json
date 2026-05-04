@@ -1,8 +1,7 @@
 {
-  "产品发布与更新": [],
-  "技术与研究": [
+  "产品发布与更新": [
     {
-      "title": "Agentic RAG系统新架构：多模态推理与自主纠错能力提升",
+      "title": "构建分层Agentic RAG系统：用抽象基类实现多数据库自主纠错",
       "url": "https://www.infoq.cn/article/zx2KoLNl2bz0zh8TuCZd?utm_source=rss&utm_medium=article",
       "snippet": "点击查看原文>",
       "source": "InfoQ",
@@ -16,12 +15,12 @@
       "coverageTitles": [
         "构建分层的Agentic RAG系统：具备自主纠错的多模态推理"
       ],
-      "summary": "本文介绍了一种分层的Agentic RAG系统设计，通过多模态推理和自主纠错机制增强检索增强生成能力。系统包含BaseConnector抽象接口及其Snowflake和Redshift实现，支持不同数据库方言的适配。这对开发者意味着可以构建更可靠、自适应的数据查询与推理系统。",
-      "category": "技术与研究",
+      "summary": "本文介绍了一种分层的Agentic RAG系统设计，通过抽象基类BaseConnector定义数据库连接器接口，并实现了Snowflake和Redshift等具体连接器。系统支持多模态推理和自主纠错，能够处理不同数据库的方言差异。这对开发者意味着可以构建更智能、更鲁棒的检索增强生成应用，提升数据查询的准确性和灵活性。",
+      "category": "产品发布与更新",
       "company": "",
-      "score": 39,
+      "score": 36,
       "breakdown": {
-        "substance": 7,
+        "substance": 4,
         "importance": 0,
         "readerValue": 13,
         "timeliness": 8,
@@ -33,38 +32,71 @@
       "isDisplayReady": true
     },
     {
-      "title": "马斯克与OpenAI法庭互撕：硅谷大佬当众揭老底，像村口吵架",
-      "url": "https://www.qbitai.com/2026/05/412080.html",
-      "snippet": "瓜多到吃不完",
-      "source": "量子位",
-      "publishedAt": "Sun, 03 May 2026 09:43:20 +0000",
+      "title": "网红松鼠大叔用Claude造出爆款相机应用：DualShot Recorder一夜登顶App Store",
+      "url": "https://www.theverge.com/tech/921690/dualshot-recorder-iphone-camera-app-derrick-downey-jr",
+      "snippet": "Downey at home in LA with one of his channel’s frequent guest stars. | Image: The Verge; Shutterstock It's not hyperbole to call DualShot Recorder an overnight sensation. It took only 12 hours from the time it was released to hit number one on the App Store's list of top paid apps. It was a surprise success - but what's even more surprising is the app's origin story: it all started with a cadre of friendly neighborhood squirrels and their favorite caretaker. Derrick Downey Jr. built a career on short-form videos documenting his interactions with the squirrels that visit his patio in LA. His Instagram and TikTok accounts each have well over a million followers (myself included) who know well the regular cast of characters: Maxine, Richard, … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-05-03T13:00:00.000Z",
       "popularityScore": 0,
-      "region": "国内",
+      "region": "海外",
       "coverageCount": 1,
       "coverageSources": [
-        "量子位"
+        "The Verge AI"
       ],
       "coverageTitles": [
-        "太抓马了！马斯克OpenAI开庭，硅谷巨富互揭老底像极了村口吵架"
+        "How the internet’s favorite squirrel dad made the hottest camera app of 2026"
       ],
-      "summary": "马斯克与OpenAI的诉讼案进入第三天，双方在法庭上激烈交锋。马斯克声称自己为OpenAI贡献了声誉和公司名称，没有他就没有OpenAI。法庭披露了马斯克使用xAI训练Grok时调用了OpenAI模型等细节，双方互相指责对方违背初心。",
-      "category": "技术与研究",
-      "company": "OpenAI",
-      "score": 33,
+      "summary": "一款名为DualShot Recorder的相机应用在发布后12小时内登顶App Store付费应用榜首，成为现象级产品。该应用由洛杉矶短视频创作者Derrick Downey Jr.借助AI工具Claude开发，解决了同时拍摄横竖屏视频的难题，利用iPhone全传感器读取功能实现无损双格式录制。",
+      "category": "产品发布与更新",
+      "company": "Derrick Downey Jr.",
+      "score": 27,
       "breakdown": {
-        "substance": 6,
-        "importance": 5,
-        "readerValue": 4,
+        "substance": 4,
+        "importance": 0,
+        "readerValue": 7,
         "timeliness": 6,
         "hotness": 0,
-        "credibility": 9,
+        "credibility": 7,
         "displayPenalty": 3
       },
       "isDuplicate": false,
       "isDisplayReady": true
     },
     {
-      "title": "Sauce Labs 推出 AI 智能体：用自然语言写测试，意图秒变可执行套件",
+      "title": "微软在VS Code提交中偷偷加入“Copilot共同作者”标签：即使AI功能已关闭，开发者仍被标记",
+      "url": "https://the-decoder.com/co-pilot-becomes-a-co-author-in-vs-code-without-being-asked/",
+      "snippet": "Microsoft quietly slipped a \"Co-Authored-by Copilot\" line into Git commits in Visual Studio Code - even for developers who had turned off the AI features entirely. The article Microsoft caught sneaking \"Co-Authored-by Copilot\" into VS Code commits - even with AI off appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Sun, 03 May 2026 09:31:15 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Microsoft caught sneaking \"Co-Authored-by Copilot\" into VS Code commits - even with AI off"
+      ],
+      "summary": "微软在Visual Studio Code的Git提交中悄悄添加了“Co-Authored-by Copilot”标签，即使开发者完全关闭了AI功能，该标签仍会出现在提交记录中。",
+      "category": "产品发布与更新",
+      "company": "微软",
+      "score": 26,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "readerValue": 2,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "Sauce Labs推出AI智能体：用自然语言替代手动脚本，加速测试自动化",
       "url": "https://www.infoq.cn/article/8k6MQWB5duEDY8wulZYk?utm_source=rss&utm_medium=article",
       "snippet": "点击查看原文>",
       "source": "InfoQ",
@@ -78,14 +110,14 @@
       "coverageTitles": [
         "Sauce Labs 推出 AI 智能体，实现测试创建自动化"
       ],
-      "summary": "Sauce Labs 推出 Sauce AI for Test Authoring，这是一款将业务意图直接转化为可执行测试套件的AI智能体，标志着意图驱动测试时代的开启。该平台允许团队用自然语言描述预期行为，自动生成与框架无关的测试用例，旨在解决测试创建这一软件开发中最耗资源的环节。",
+      "summary": "Sauce Labs发布了AI驱动的测试创建智能体Sauce AI for Test Authoring，实现意图驱动测试。该平台允许用户用自然语言描述业务行为，自动生成可执行的测试套件，旨在解决测试编写耗时且依赖专业技能的瓶颈。这对DevOps团队意味着测试自动化门槛降低，非技术人员也能参与，但复杂场景下的可靠性和覆盖率仍需验证。",
       "category": "技术与研究",
       "company": "Sauce Labs",
-      "score": 28,
+      "score": 40,
       "breakdown": {
-        "substance": 2,
+        "substance": 12,
         "importance": 0,
-        "readerValue": 7,
+        "readerValue": 9,
         "timeliness": 8,
         "hotness": 0,
         "credibility": 8,
@@ -95,7 +127,69 @@
       "isDisplayReady": true
     },
     {
-      "title": "1930年代的AI模型被微调后，竟能抢程序员饭碗：4.5%通过率揭示旧模型潜力",
+      "title": "马斯克与奥特曼法庭互撕：OpenAI创始内幕全曝光，xAI竟用对手模型训练Grok",
+      "url": "https://www.qbitai.com/2026/05/412080.html",
+      "snippet": "瓜多到吃不完",
+      "source": "量子位",
+      "publishedAt": "Sun, 03 May 2026 09:43:20 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "太抓马了！马斯克OpenAI开庭，硅谷巨富互揭老底像极了村口吵架"
+      ],
+      "summary": "马斯克与奥特曼在OpenAI庭审中激烈交锋，马斯克声称没有自己就没有OpenAI，并贡献了声誉和公司名称。马斯克在作证时承认其AI公司xAI使用了OpenAI模型训练Grok。这场诉讼揭示了硅谷顶级创业者之间的利益纠葛，对AI行业合作与竞争规则具有警示意义。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 35,
+      "breakdown": {
+        "substance": 6,
+        "importance": 5,
+        "readerValue": 6,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "MIT 研究揭示语言模型规模扩展的可靠机制：叠加现象是关键",
+      "url": "https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/",
+      "snippet": "MIT researchers have a mechanistic explanation for why large language model performance scales so reliably with size. The answer comes down to a phenomenon called superposition. The article MIT study explains why scaling language models works so reliably appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Sun, 03 May 2026 08:42:45 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "MIT study explains why scaling language models works so reliably"
+      ],
+      "summary": "MIT研究人员对大型语言模型性能随规模扩大而可靠提升的现象提出了机制性解释。该解释归结为一种称为“叠加”的现象。这一发现有助于开发者和研究者更深入地理解语言模型的工作原理，为未来模型设计和优化提供理论指导。",
+      "category": "技术与研究",
+      "company": "MIT",
+      "score": 28,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    },
+    {
+      "title": "1930年代的AI模型开始学写代码：4.5%通过率背后的技术突破",
       "url": "https://www.qbitai.com/2026/05/412896.html",
       "snippet": "完全无需互联网数据",
       "source": "量子位",
@@ -109,13 +203,13 @@
       "coverageTitles": [
         "不好！1930年的AI都来抢程序员饭碗了"
       ],
-      "summary": "一项研究显示，通过微调一个1930年代风格的AI模型，在SWE-bench-Verified上达到了4.5%的pass@1。该模型由AI研究员Nick Levine、多伦多大学副教授David Duvenaud和GPT系列之父Alec Radford共同训练，使用了约75K条trajectory（10亿token）的训练数据。",
+      "summary": "一项研究显示，当微调训练数据扩展到约75K条trajectory（10亿token）时，一个1930年代的AI模型在SWE-bench-Verified上达到了4.5%的pass@1。",
       "category": "技术与研究",
       "company": "",
-      "score": 32,
+      "score": 48,
       "breakdown": {
-        "substance": 15,
-        "importance": 0,
+        "substance": 26,
+        "importance": 5,
         "readerValue": 4,
         "timeliness": 6,
         "hotness": 0,
@@ -129,7 +223,7 @@
   "投融资与并购": [],
   "政策与监管": [
     {
-      "title": "韩国政府豪掷5600亿韩元：AI独角兽Upstage获国家增长基金投资",
+      "title": "韩国政府豪掷5600亿韩元：AI独角兽Upstage获政策基金直投",
       "url": "https://36kr.com/newsflashes/3793154827000832?f=rss",
       "snippet": "韩国金融监管部门周日表示，已批准向韩国本土人工智能（AI）初创公司Upstage投资5600亿韩元（约合3.806亿美元），这是韩国国家增长基金的第二笔直接投资。韩国金融服务委员会（FSC）称，该决定已于周四举行的基金审议委员会会议上获得批准。Upstage成立于2020年，是一家估值超过1万亿韩元的独角兽初创公司，致力于开发人工智能解决方案和大型语言模型（LLM）。该公司是继Rebellions之后，第二家获得该政策基金投资的企业。",
       "source": "36氪",
@@ -143,7 +237,7 @@
       "coverageTitles": [
         "韩国政府将向AI初创公司Upstage投资5600亿韩元"
       ],
-      "summary": "韩国金融监管部门批准向AI初创公司Upstage投资5600亿韩元（约3.806亿美元），这是韩国国家增长基金的第二笔直接投资。Upstage成立于2020年，是一家估值超1万亿韩元的独角兽，专注于AI解决方案和大型语言模型开发。这笔投资表明韩国政府正加大对本土AI企业的扶持力度，对AI创业者和投资者而言，意味着政策资金向技术前沿领域倾斜。",
+      "summary": "韩国金融监管部门批准向AI初创公司Upstage投资5600亿韩元（约3.806亿美元），这是韩国国家增长基金的第二笔直接投资。Upstage成立于2020年，估值超1万亿韩元，专注于AI解决方案和大型语言模型开发。这笔投资表明韩国政府正加大对本土AI企业的扶持力度，对AI创业者和投资者而言，意味着政策资金正在向高潜力技术公司倾斜。",
       "category": "政策与监管",
       "company": "Upstage",
       "score": 43,
@@ -158,37 +252,6 @@
       },
       "isDuplicate": false,
       "isDisplayReady": true
-    },
-    {
-      "title": "微软被曝在VS Code提交中偷偷添加“Co-Authored-by Copilot”标签：即使AI功能已关闭也未能幸免",
-      "url": "https://the-decoder.com/co-pilot-becomes-a-co-author-in-vs-code-without-being-asked/",
-      "snippet": "Microsoft quietly slipped a \"Co-Authored-by Copilot\" line into Git commits in Visual Studio Code - even for developers who had turned off the AI features entirely. The article Microsoft caught sneaking \"Co-Authored-by Copilot\" into VS Code commits - even with AI off appeared first on The Decoder.",
-      "source": "The Decoder",
-      "publishedAt": "Sun, 03 May 2026 09:31:15 +0000",
-      "popularityScore": 0,
-      "region": "海外",
-      "coverageCount": 1,
-      "coverageSources": [
-        "The Decoder"
-      ],
-      "coverageTitles": [
-        "Microsoft caught sneaking \"Co-Authored-by Copilot\" into VS Code commits - even with AI off"
-      ],
-      "summary": "微软在Visual Studio Code中悄悄向Git提交添加了“Co-Authored-by Copilot”标签，即使开发者完全关闭了AI功能。产品经理推动该变更，首席工程师未加描述即批准，导致代码被合并。此举引发开发者对微软可能夸大Copilot使用数据的怀疑，并带来版权和AI政策合规方面的法律风险。",
-      "category": "政策与监管",
-      "company": "Microsoft",
-      "score": 26,
-      "breakdown": {
-        "substance": 7,
-        "importance": 5,
-        "readerValue": 2,
-        "timeliness": 6,
-        "hotness": 0,
-        "credibility": 8,
-        "displayPenalty": -2
-      },
-      "isDuplicate": false,
-      "isDisplayReady": false
     }
   ]
 }

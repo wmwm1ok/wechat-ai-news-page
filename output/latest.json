@@ -1,8 +1,8 @@
 {
   "date": "2026/5/4",
   "title": "AI资讯每日精选-2026/5/4",
-  "generatedAt": "2026/5/4 08:07",
-  "count": 6,
+  "generatedAt": "2026/5/4 09:06",
+  "count": 8,
   "targetCount": 14,
   "diagnostics": {
     "previousDayFile": "news-2026-05-03.json",
@@ -10,9 +10,9 @@
     "candidateTargetCount": 31,
     "fetch": {
       "domesticBeforeDedup": 6,
-      "overseasBeforeDedup": 6,
+      "overseasBeforeDedup": 5,
       "domesticAfterDedup": 6,
-      "overseasAfterDedup": 6,
+      "overseasAfterDedup": 5,
       "domesticHotGroups": 0,
       "overseasHotGroups": 0,
       "domesticSources": [
@@ -81,7 +81,7 @@
         {
           "source": "The Decoder",
           "ok": true,
-          "count": 5,
+          "count": 4,
           "error": null
         },
         {
@@ -154,103 +154,124 @@
       }
     },
     "summarize": {
-      "totalSummarized": 12
+      "totalSummarized": 11
     },
     "scoring": {
-      "totalInput": 12,
-      "totalScored": 9,
-      "strictScoredCount": 8,
+      "totalInput": 11,
+      "totalScored": 10,
+      "strictScoredCount": 9,
       "relaxedCandidateCount": 0,
       "relaxedUsedForSelection": true,
       "weakSummaryCount": 3,
-      "selectedCandidateCount": 9,
+      "selectedCandidateCount": 10,
       "duplicateCount": 2,
       "crossDayDuplicateCount": 2,
       "lowQualityCount": 0,
-      "domesticAvailable": 5,
+      "domesticAvailable": 6,
       "overseasAvailable": 4,
       "sourceCount": {
-        "The Decoder": 4,
+        "The Decoder": 3,
+        "量子位": 2,
         "36氪": 1,
-        "InfoQ": 2,
-        "量子位": 2
+        "InfoQ": 3,
+        "The Verge AI": 1
       }
     },
     "display": {
-      "refinedCount": 9,
+      "refinedCount": 10,
       "previousDayRemovedCount": 1,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 2,
-      "postPreviousDayFilterCount": 6,
-      "displayReadyCount": 4,
-      "fallbackDisplayCount": 1,
-      "reserveDisplayCount": 1,
-      "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 2,
-      "shortage": 8
+      "integrityRemovedCount": 1,
+      "postPreviousDayFilterCount": 8,
+      "displayReadyCount": 5,
+      "fallbackDisplayCount": 2,
+      "reserveDisplayCount": 0,
+      "lastChanceDisplayCount": 1,
+      "removedWeakSummaries": 3,
+      "shortage": 6
     }
   },
   "articles": [
     {
       "section": "政策与监管",
-      "title": "韩国政府豪掷5600亿韩元：AI独角兽Upstage获国家增长基金投资",
+      "title": "韩国政府豪掷5600亿韩元：AI独角兽Upstage获政策基金直投",
       "company": "Upstage",
       "url": "https://36kr.com/newsflashes/3793154827000832?f=rss",
       "source": "36氪",
       "publishedAt": "2026-05-03 17:00:29  +0800",
-      "summary": "韩国金融监管部门批准向AI初创公司Upstage投资5600亿韩元（约3.806亿美元），这是韩国国家增长基金的第二笔直接投资。Upstage成立于2020年，是一家估值超1万亿韩元的独角兽，专注于AI解决方案和大型语言模型开发。这笔投资表明韩国政府正加大对本土AI企业的扶持力度，对AI创业者和投资者而言，意味着政策资金向技术前沿领域倾斜。",
+      "summary": "韩国金融监管部门批准向AI初创公司Upstage投资5600亿韩元（约3.806亿美元），这是韩国国家增长基金的第二笔直接投资。Upstage成立于2020年，估值超1万亿韩元，专注于AI解决方案和大型语言模型开发。这笔投资表明韩国政府正加大对本土AI企业的扶持力度，对AI创业者和投资者而言，意味着政策资金正在向高潜力技术公司倾斜。",
       "score": 43
     },
     {
       "section": "技术与研究",
-      "title": "Agentic RAG系统新架构：多模态推理与自主纠错能力提升",
-      "company": "",
-      "url": "https://www.infoq.cn/article/zx2KoLNl2bz0zh8TuCZd?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 03 May 2026 13:24:35 GMT",
-      "summary": "本文介绍了一种分层的Agentic RAG系统设计，通过多模态推理和自主纠错机制增强检索增强生成能力。系统包含BaseConnector抽象接口及其Snowflake和Redshift实现，支持不同数据库方言的适配。这对开发者意味着可以构建更可靠、自适应的数据查询与推理系统。",
-      "score": 39
-    },
-    {
-      "section": "技术与研究",
-      "title": "马斯克与OpenAI法庭互撕：硅谷大佬当众揭老底，像村口吵架",
-      "company": "OpenAI",
-      "url": "https://www.qbitai.com/2026/05/412080.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 03 May 2026 09:43:20 +0000",
-      "summary": "马斯克与OpenAI的诉讼案进入第三天，双方在法庭上激烈交锋。马斯克声称自己为OpenAI贡献了声誉和公司名称，没有他就没有OpenAI。法庭披露了马斯克使用xAI训练Grok时调用了OpenAI模型等细节，双方互相指责对方违背初心。",
-      "score": 33
-    },
-    {
-      "section": "技术与研究",
-      "title": "Sauce Labs 推出 AI 智能体：用自然语言写测试，意图秒变可执行套件",
+      "title": "Sauce Labs推出AI智能体：用自然语言替代手动脚本，加速测试自动化",
       "company": "Sauce Labs",
       "url": "https://www.infoq.cn/article/8k6MQWB5duEDY8wulZYk?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
       "publishedAt": "Sun, 03 May 2026 13:37:48 GMT",
-      "summary": "Sauce Labs 推出 Sauce AI for Test Authoring，这是一款将业务意图直接转化为可执行测试套件的AI智能体，标志着意图驱动测试时代的开启。该平台允许团队用自然语言描述预期行为，自动生成与框架无关的测试用例，旨在解决测试创建这一软件开发中最耗资源的环节。",
+      "summary": "Sauce Labs发布了AI驱动的测试创建智能体Sauce AI for Test Authoring，实现意图驱动测试。该平台允许用户用自然语言描述业务行为，自动生成可执行的测试套件，旨在解决测试编写耗时且依赖专业技能的瓶颈。这对DevOps团队意味着测试自动化门槛降低，非技术人员也能参与，但复杂场景下的可靠性和覆盖率仍需验证。",
+      "score": 40
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "构建分层Agentic RAG系统：用抽象基类实现多数据库自主纠错",
+      "company": "",
+      "url": "https://www.infoq.cn/article/zx2KoLNl2bz0zh8TuCZd?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 03 May 2026 13:24:35 GMT",
+      "summary": "本文介绍了一种分层的Agentic RAG系统设计，通过抽象基类BaseConnector定义数据库连接器接口，并实现了Snowflake和Redshift等具体连接器。系统支持多模态推理和自主纠错，能够处理不同数据库的方言差异。这对开发者意味着可以构建更智能、更鲁棒的检索增强生成应用，提升数据查询的准确性和灵活性。",
+      "score": 36
+    },
+    {
+      "section": "技术与研究",
+      "title": "马斯克与奥特曼法庭互撕：OpenAI创始内幕全曝光，xAI竟用对手模型训练Grok",
+      "company": "OpenAI",
+      "url": "https://www.qbitai.com/2026/05/412080.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 03 May 2026 09:43:20 +0000",
+      "summary": "马斯克与奥特曼在OpenAI庭审中激烈交锋，马斯克声称没有自己就没有OpenAI，并贡献了声誉和公司名称。马斯克在作证时承认其AI公司xAI使用了OpenAI模型训练Grok。这场诉讼揭示了硅谷顶级创业者之间的利益纠葛，对AI行业合作与竞争规则具有警示意义。",
+      "score": 35
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "网红松鼠大叔用Claude造出爆款相机应用：DualShot Recorder一夜登顶App Store",
+      "company": "Derrick Downey Jr.",
+      "url": "https://www.theverge.com/tech/921690/dualshot-recorder-iphone-camera-app-derrick-downey-jr",
+      "source": "The Verge AI",
+      "publishedAt": "2026-05-03T13:00:00.000Z",
+      "summary": "一款名为DualShot Recorder的相机应用在发布后12小时内登顶App Store付费应用榜首，成为现象级产品。该应用由洛杉矶短视频创作者Derrick Downey Jr.借助AI工具Claude开发，解决了同时拍摄横竖屏视频的难题，利用iPhone全传感器读取功能实现无损双格式录制。",
+      "score": 27
+    },
+    {
+      "section": "技术与研究",
+      "title": "MIT 研究揭示语言模型规模扩展的可靠机制：叠加现象是关键",
+      "company": "MIT",
+      "url": "https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/",
+      "source": "The Decoder",
+      "publishedAt": "Sun, 03 May 2026 08:42:45 +0000",
+      "summary": "MIT研究人员对大型语言模型性能随规模扩大而可靠提升的现象提出了机制性解释。该解释归结为一种称为“叠加”的现象。这一发现有助于开发者和研究者更深入地理解语言模型的工作原理，为未来模型设计和优化提供理论指导。",
       "score": 28
     },
     {
-      "section": "政策与监管",
-      "title": "微软被曝在VS Code提交中偷偷添加“Co-Authored-by Copilot”标签：即使AI功能已关闭也未能幸免",
-      "company": "Microsoft",
+      "section": "产品发布与更新",
+      "title": "微软在VS Code提交中偷偷加入“Copilot共同作者”标签：即使AI功能已关闭，开发者仍被标记",
+      "company": "微软",
       "url": "https://the-decoder.com/co-pilot-becomes-a-co-author-in-vs-code-without-being-asked/",
       "source": "The Decoder",
       "publishedAt": "Sun, 03 May 2026 09:31:15 +0000",
-      "summary": "微软在Visual Studio Code中悄悄向Git提交添加了“Co-Authored-by Copilot”标签，即使开发者完全关闭了AI功能。产品经理推动该变更，首席工程师未加描述即批准，导致代码被合并。此举引发开发者对微软可能夸大Copilot使用数据的怀疑，并带来版权和AI政策合规方面的法律风险。",
+      "summary": "微软在Visual Studio Code的Git提交中悄悄添加了“Co-Authored-by Copilot”标签，即使开发者完全关闭了AI功能，该标签仍会出现在提交记录中。",
       "score": 26
     },
     {
       "section": "技术与研究",
-      "title": "1930年代的AI模型被微调后，竟能抢程序员饭碗：4.5%通过率揭示旧模型潜力",
+      "title": "1930年代的AI模型开始学写代码：4.5%通过率背后的技术突破",
       "company": "",
       "url": "https://www.qbitai.com/2026/05/412896.html",
       "source": "量子位",
       "publishedAt": "Sun, 03 May 2026 09:42:55 +0000",
-      "summary": "一项研究显示，通过微调一个1930年代风格的AI模型，在SWE-bench-Verified上达到了4.5%的pass@1。该模型由AI研究员Nick Levine、多伦多大学副教授David Duvenaud和GPT系列之父Alec Radford共同训练，使用了约75K条trajectory（10亿token）的训练数据。",
-      "score": 32
+      "summary": "一项研究显示，当微调训练数据扩展到约75K条trajectory（10亿token）时，一个1930年代的AI模型在SWE-bench-Verified上达到了4.5%的pass@1。",
+      "score": 48
     }
   ]
 }
