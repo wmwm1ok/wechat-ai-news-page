@@ -1,18 +1,18 @@
 {
-  "date": "2026/5/3",
-  "title": "AI资讯每日精选-2026/5/3",
-  "generatedAt": "2026/5/3 13:06",
+  "date": "2026/5/4",
+  "title": "AI资讯每日精选-2026/5/4",
+  "generatedAt": "2026/5/4 08:07",
   "count": 6,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-05-02.json",
+    "previousDayFile": "news-2026-05-03.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 5,
-      "overseasBeforeDedup": 2,
-      "domesticAfterDedup": 5,
-      "overseasAfterDedup": 2,
+      "domesticBeforeDedup": 6,
+      "overseasBeforeDedup": 6,
+      "domesticAfterDedup": 6,
+      "overseasAfterDedup": 6,
       "domesticHotGroups": 0,
       "overseasHotGroups": 0,
       "domesticSources": [
@@ -25,25 +25,25 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 1,
+          "count": 2,
           "error": null
         },
         {
           "source": "36氪",
           "ok": true,
-          "count": 3,
+          "count": 1,
           "error": null
         },
         {
           "source": "InfoQ",
           "ok": true,
-          "count": 0,
+          "count": 3,
           "error": null
         },
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         }
       ],
@@ -81,7 +81,7 @@
         {
           "source": "The Decoder",
           "ok": true,
-          "count": 2,
+          "count": 5,
           "error": null
         },
         {
@@ -105,7 +105,7 @@
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
@@ -154,38 +154,38 @@
       }
     },
     "summarize": {
-      "totalSummarized": 7
+      "totalSummarized": 12
     },
     "scoring": {
-      "totalInput": 7,
-      "totalScored": 6,
-      "strictScoredCount": 6,
+      "totalInput": 12,
+      "totalScored": 9,
+      "strictScoredCount": 8,
       "relaxedCandidateCount": 0,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 2,
-      "selectedCandidateCount": 6,
-      "duplicateCount": 0,
-      "crossDayDuplicateCount": 0,
+      "weakSummaryCount": 3,
+      "selectedCandidateCount": 9,
+      "duplicateCount": 2,
+      "crossDayDuplicateCount": 2,
       "lowQualityCount": 0,
-      "domesticAvailable": 4,
-      "overseasAvailable": 2,
+      "domesticAvailable": 5,
+      "overseasAvailable": 4,
       "sourceCount": {
-        "量子位": 1,
-        "The Decoder": 2,
-        "雷锋网": 1,
-        "36氪": 2
+        "The Decoder": 4,
+        "36氪": 1,
+        "InfoQ": 2,
+        "量子位": 2
       }
     },
     "display": {
-      "refinedCount": 6,
-      "previousDayRemovedCount": 0,
+      "refinedCount": 9,
+      "previousDayRemovedCount": 1,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 0,
+      "integrityRemovedCount": 2,
       "postPreviousDayFilterCount": 6,
       "displayReadyCount": 4,
-      "fallbackDisplayCount": 2,
-      "reserveDisplayCount": 0,
+      "fallbackDisplayCount": 1,
+      "reserveDisplayCount": 1,
       "lastChanceDisplayCount": 0,
       "removedWeakSummaries": 2,
       "shortage": 8
@@ -193,64 +193,64 @@
   },
   "articles": [
     {
-      "section": "技术与研究",
-      "title": "清华开源GS-Playground：具身智能仿真框架实现10000 FPS吞吐，加速大规模机器人训练",
-      "company": "清华大学智能产业研究院",
-      "url": "https://www.qbitai.com/2026/05/412870.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 03 May 2026 03:56:44 +0000",
-      "summary": "清华大学智能产业研究院DISCOVER Lab开源了新一代具身智能仿真框架GS-Playground。该框架搭载自研跨平台并行物理引擎，支持CPU/GPU双后端和全系统运行，在单张RTX 4090上可实现640×480分辨率下最高10000 FPS的渲染吞吐量，同时渲染2048个场景。",
-      "score": 59
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI与Anthropic最新模型在ARC-AGI-3测试中暴露三大推理缺陷：AI仍像“高级模式匹配器”",
-      "company": "OpenAI, Anthropic",
-      "url": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/",
-      "source": "The Decoder",
-      "publishedAt": "Sat, 02 May 2026 13:31:52 +0000",
-      "summary": "ARC Prize Foundation分析了OpenAI的GPT-5.5和Anthropic的Opus 4.7在ARC-AGI-3基准测试中的160次游戏运行。分析显示，这两个模型存在三种系统性错误模式，导致它们在人类可以轻松解决的任务上表现低于1%。这一发现揭示了当前最先进AI模型在基础推理能力上的根本局限。",
-      "score": 51
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "xAI 推出 Custom Voices：一分钟语音样本即可克隆声音，防滥用机制同步上线",
-      "company": "xAI",
-      "url": "https://the-decoder.com/xais-new-custom-voices-feature-turns-a-minute-of-speech-into-a-usable-voice-clone/",
-      "source": "The Decoder",
-      "publishedAt": "Sat, 02 May 2026 12:14:46 +0000",
-      "summary": "xAI发布了新的Custom Voices功能，允许开发者克隆自己的声音用于AI应用。该功能基于近期推出的Grok语音转文本和文本转语音API构建。这意味着开发者只需一分钟的语音样本，就能为AI应用创建可用的声音克隆。",
+      "section": "政策与监管",
+      "title": "韩国政府豪掷5600亿韩元：AI独角兽Upstage获国家增长基金投资",
+      "company": "Upstage",
+      "url": "https://36kr.com/newsflashes/3793154827000832?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-03 17:00:29  +0800",
+      "summary": "韩国金融监管部门批准向AI初创公司Upstage投资5600亿韩元（约3.806亿美元），这是韩国国家增长基金的第二笔直接投资。Upstage成立于2020年，是一家估值超1万亿韩元的独角兽，专注于AI解决方案和大型语言模型开发。这笔投资表明韩国政府正加大对本土AI企业的扶持力度，对AI创业者和投资者而言，意味着政策资金向技术前沿领域倾斜。",
       "score": 43
     },
     {
-      "section": "政策与监管",
-      "title": "网信部门严管自媒体：未标来源将面临处置，9.8万账号已遭清理",
+      "section": "技术与研究",
+      "title": "Agentic RAG系统新架构：多模态推理与自主纠错能力提升",
       "company": "",
-      "url": "https://36kr.com/newsflashes/3792999844338951?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-05-03 12:15:48  +0800",
-      "summary": "网信部门近期对自媒体未规范标注信息来源的行为进行严格管理，包括未标注时政等信息来源、未标注AI生成标识以及未标注虚构演绎标签。目前，已依法依规处置违规账号9.8万余个。这对自媒体运营者和平台意味着需加强信息标注合规意识，以维护网络生态秩序。",
-      "score": 24
+      "url": "https://www.infoq.cn/article/zx2KoLNl2bz0zh8TuCZd?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 03 May 2026 13:24:35 GMT",
+      "summary": "本文介绍了一种分层的Agentic RAG系统设计，通过多模态推理和自主纠错机制增强检索增强生成能力。系统包含BaseConnector抽象接口及其Snowflake和Redshift实现，支持不同数据库方言的适配。这对开发者意味着可以构建更可靠、自适应的数据查询与推理系统。",
+      "score": 39
     },
     {
       "section": "技术与研究",
-      "title": "东方甄选豪掷4亿股份奖励300员工：人均超140万，DeepSeek灰度测试识图模式",
-      "company": "东方甄选",
-      "url": "https://www.leiphone.com/category/zaobao/Yhq9TTDgatWOOdDC.html",
-      "source": "雷锋网",
-      "publishedAt": "Sat, 02 May 2026 19:21:00 +0800",
-      "summary": "东方甄选宣布向300名员工授予价值约4.85亿港元的股份，人均市值约161.65万港元，同时俞敏洪和尹强分别获得180万股和45万股。美国对NVIDIA高端芯片的出口管制导致国产芯片需求暴涨，华为昇腾950系列芯片已全面支持DeepSeek V4模型，并计划2026年生产约75万颗。这对科技行业从业者意味着，国产芯片生态正在加速成熟，而企业股权激励模式也持续吸引人才。",
-      "score": 36
+      "title": "马斯克与OpenAI法庭互撕：硅谷大佬当众揭老底，像村口吵架",
+      "company": "OpenAI",
+      "url": "https://www.qbitai.com/2026/05/412080.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 03 May 2026 09:43:20 +0000",
+      "summary": "马斯克与OpenAI的诉讼案进入第三天，双方在法庭上激烈交锋。马斯克声称自己为OpenAI贡献了声誉和公司名称，没有他就没有OpenAI。法庭披露了马斯克使用xAI训练Grok时调用了OpenAI模型等细节，双方互相指责对方违背初心。",
+      "score": 33
     },
     {
       "section": "技术与研究",
-      "title": "卓驭副总裁：向物理AI转型是生存法则，跟不上就会被淘汰",
-      "company": "卓驭",
-      "url": "https://36kr.com/p/3789475357400068?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-05-02 21:17:06  +0800",
-      "summary": "卓驭科技副总裁于贝贝表示，算法厂商向物理AI转型并非迎合资本市场，而是关乎存亡的生存法则。卓驭已发布面向移动物理AI的原生多模态基础模型，并探索基于订阅、利润分成及“动作令牌”的新商业模式。这意味着智能驾驶算法厂商正进入全新维度的淘汰赛，只有跟上技术范式的玩家才能跑出来。",
-      "score": 27
+      "title": "Sauce Labs 推出 AI 智能体：用自然语言写测试，意图秒变可执行套件",
+      "company": "Sauce Labs",
+      "url": "https://www.infoq.cn/article/8k6MQWB5duEDY8wulZYk?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Sun, 03 May 2026 13:37:48 GMT",
+      "summary": "Sauce Labs 推出 Sauce AI for Test Authoring，这是一款将业务意图直接转化为可执行测试套件的AI智能体，标志着意图驱动测试时代的开启。该平台允许团队用自然语言描述预期行为，自动生成与框架无关的测试用例，旨在解决测试创建这一软件开发中最耗资源的环节。",
+      "score": 28
+    },
+    {
+      "section": "政策与监管",
+      "title": "微软被曝在VS Code提交中偷偷添加“Co-Authored-by Copilot”标签：即使AI功能已关闭也未能幸免",
+      "company": "Microsoft",
+      "url": "https://the-decoder.com/co-pilot-becomes-a-co-author-in-vs-code-without-being-asked/",
+      "source": "The Decoder",
+      "publishedAt": "Sun, 03 May 2026 09:31:15 +0000",
+      "summary": "微软在Visual Studio Code中悄悄向Git提交添加了“Co-Authored-by Copilot”标签，即使开发者完全关闭了AI功能。产品经理推动该变更，首席工程师未加描述即批准，导致代码被合并。此举引发开发者对微软可能夸大Copilot使用数据的怀疑，并带来版权和AI政策合规方面的法律风险。",
+      "score": 26
+    },
+    {
+      "section": "技术与研究",
+      "title": "1930年代的AI模型被微调后，竟能抢程序员饭碗：4.5%通过率揭示旧模型潜力",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/05/412896.html",
+      "source": "量子位",
+      "publishedAt": "Sun, 03 May 2026 09:42:55 +0000",
+      "summary": "一项研究显示，通过微调一个1930年代风格的AI模型，在SWE-bench-Verified上达到了4.5%的pass@1。该模型由AI研究员Nick Levine、多伦多大学副教授David Duvenaud和GPT系列之父Alec Radford共同训练，使用了约75K条trajectory（10亿token）的训练数据。",
+      "score": 32
     }
   ]
 }
