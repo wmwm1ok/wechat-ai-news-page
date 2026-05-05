@@ -1,7 +1,7 @@
 {
   "date": "2026/5/5",
   "title": "AI资讯每日精选-2026/5/5",
-  "generatedAt": "2026/5/5 09:12",
+  "generatedAt": "2026/5/5 14:07",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
@@ -9,10 +9,10 @@
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 10,
-      "overseasBeforeDedup": 23,
-      "domesticAfterDedup": 10,
-      "overseasAfterDedup": 23,
+      "domesticBeforeDedup": 12,
+      "overseasBeforeDedup": 24,
+      "domesticAfterDedup": 12,
+      "overseasAfterDedup": 24,
       "domesticHotGroups": 0,
       "overseasHotGroups": 0,
       "domesticSources": [
@@ -31,13 +31,13 @@
         {
           "source": "36氪",
           "ok": true,
-          "count": 2,
+          "count": 5,
           "error": null
         },
         {
           "source": "InfoQ",
           "ok": true,
-          "count": 4,
+          "count": 3,
           "error": null
         },
         {
@@ -51,7 +51,7 @@
         {
           "source": "OpenAI News",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
@@ -75,13 +75,13 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 3,
+          "count": 4,
           "error": null
         },
         {
           "source": "The Decoder",
           "ok": true,
-          "count": 5,
+          "count": 3,
           "error": null
         },
         {
@@ -117,7 +117,7 @@
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 3,
+          "count": 4,
           "error": null
         },
         {
@@ -154,190 +154,191 @@
       }
     },
     "summarize": {
-      "totalSummarized": 33
+      "totalSummarized": 36
     },
     "scoring": {
-      "totalInput": 33,
+      "totalInput": 36,
       "totalScored": 24,
-      "strictScoredCount": 22,
-      "relaxedCandidateCount": 2,
+      "strictScoredCount": 20,
+      "relaxedCandidateCount": 3,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 6,
+      "weakSummaryCount": 8,
       "selectedCandidateCount": 24,
       "duplicateCount": 2,
       "crossDayDuplicateCount": 1,
       "lowQualityCount": 0,
-      "domesticAvailable": 8,
-      "overseasAvailable": 16,
+      "domesticAvailable": 7,
+      "overseasAvailable": 17,
       "sourceCount": {
-        "InfoQ": 3,
-        "The Decoder": 4,
+        "The Decoder": 3,
         "机器之心": 3,
-        "36氪": 2,
-        "AWS Machine Learning Blog": 2,
         "Google AI Blog": 2,
+        "OpenAI News": 1,
+        "AWS Machine Learning Blog": 1,
         "Tech Xplore": 2,
-        "TechCrunch AI": 2,
+        "36氪": 3,
+        "TechCrunch AI": 3,
         "The Verge AI": 2,
+        "InfoQ": 1,
         "Wired AI": 1,
-        "MIT Technology Review": 1
+        "MIT Technology Review": 2
       }
     },
     "display": {
       "refinedCount": 24,
-      "previousDayRemovedCount": 0,
+      "previousDayRemovedCount": 2,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 1,
-      "postPreviousDayFilterCount": 23,
+      "integrityRemovedCount": 0,
+      "postPreviousDayFilterCount": 22,
       "displayReadyCount": 17,
       "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 6,
+      "removedWeakSummaries": 5,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "Cloudflare推出Code Mode：AI智能体API调用成本骤降99.9%",
-      "company": "Cloudflare",
-      "url": "https://www.infoq.cn/article/KSmLVsumhdf7OiLXYaj3?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 04 May 2026 09:00:00 GMT",
-      "summary": "Cloudflare推出了由Code Mode驱动的MCP服务器，旨在优化AI智能体访问API时的Token使用效率。该服务器仅暴露search()和execute()两个工具，通过生成并执行JavaScript代码来编排多API操作，将2500多个端点的Token占用从超过117万降至约1000，降幅达99.9%。",
-      "score": 50
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Gemini API 推出 Webhooks：告别轮询，让长时间任务不再卡顿",
+      "title": "Gemini API 推出事件驱动 Webhooks：告别轮询，异步任务实时推送",
       "company": "Google",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
       "source": "Google AI Blog",
       "publishedAt": "Mon, 04 May 2026 15:30:00 +0000",
-      "summary": "谷歌在Gemini API中推出了事件驱动的Webhooks功能。这是一种基于推送的通知系统，可消除低效的轮询需求。对于使用Gemini API处理长时间运行任务的开发者来说，这将显著降低延迟和系统摩擦。",
-      "score": 36
+      "summary": "Gemini API推出了事件驱动型Webhooks，这是一种基于推送的通知系统。该系统消除了低效轮询的需求，能有效减少长时间运行任务的延迟和摩擦。对于使用Gemini API的开发者而言，这意味着可以更高效地处理异步任务，提升应用性能和用户体验。",
+      "score": 37
     },
     {
       "section": "产品发布与更新",
-      "title": "AgentCore优化预览：用生产轨迹自动诊断AI代理质量下滑",
-      "company": "",
+      "title": "Anthropic联手华尔街巨头成立AI服务公司：卖模型只是开始，部署才是硬道理",
+      "company": "Anthropic, OpenAI",
+      "url": "https://the-decoder.com/anthropic-and-openai-now-agree-on-one-thing-selling-ai-requires-a-lot-more-than-just-the-ai/",
+      "source": "The Decoder",
+      "publishedAt": "Mon, 04 May 2026 18:04:35 +0000",
+      "summary": "Anthropic与黑石、Hellman & Friedman及高盛合作，成立一家新的AI服务公司，帮助中型企业采用Claude模型。文章指出，Anthropic和OpenAI现在都认为，销售AI需要远超技术本身的服务支持。这对企业用户意味着，AI供应商将提供更全面的部署和运维服务，而非仅提供模型。",
+      "score": 37
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "亚马逊Bedrock AgentCore推出优化预览：用生产追踪自动生成推荐，终结AI代理性能退化",
+      "company": "无",
       "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview/",
       "source": "AWS Machine Learning Blog",
       "publishedAt": "Mon, 04 May 2026 17:13:42 +0000",
-      "summary": "AI代理在发布后性能会因模型演变、用户行为变化和提示复用而逐渐下降。AgentCore优化功能通过生产轨迹生成推荐，并支持批量评估和A/B测试验证。对开发团队而言，这提供了一种持续监控和提升AI代理质量的方法。",
+      "summary": "AI代理在发布后性能会因模型演变、用户行为变化和提示词复用而逐渐下降。AgentCore Optimization通过从生产追踪生成推荐，结合批量评估和A/B测试进行验证，帮助团队自信地部署改进。该功能现处于预览阶段，对维护AI代理长期稳定性的开发团队具有实用价值。",
       "score": 34
     },
     {
       "section": "技术与研究",
-      "title": "Tri Dao团队推出SonicMoE：让混合专家模型推理速度飙升",
+      "title": "Tri Dao团队联手伯克利：SonicMoE让AI模型推理速度“飞”起来",
       "company": "",
       "url": "https://www.jiqizhixin.com/articles/2026-05-04-2",
       "source": "机器之心",
       "publishedAt": "2026-05-04T22:45:00+08:00",
-      "summary": "普林斯顿大学Tri Dao和加州大学伯克利分校Ion Stoica领导的联合研究团队发布了SonicMoE，这是一种针对混合专家模型（MoE）的加速技术。该技术旨在提升AI模型的运行速度，其名称源自“索尼克”的快速特性。对于AI开发者和研究者而言，这意味着在保持模型性能的同时，可能获得更高效的推理和训练体验。",
-      "score": 40
+      "summary": "普林斯顿大学Tri Dao和加州大学伯克利分校Ion Stoica领导的联合研究团队推出了SonicMoE技术，旨在提升AI模型的运行速度。该技术基于混合专家模型架构，通过优化计算效率实现更快推理。这对AI开发者意味着模型部署和响应速度可能显著改善，尤其在实时应用场景中具有潜力。",
+      "score": 44
     },
     {
       "section": "技术与研究",
-      "title": "前字节员工再创业：三个AI agent协同作战，72小时冲上GitHub全球榜",
-      "company": "",
-      "url": "https://36kr.com/p/3794961189821698?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-05-04 20:41:30  +0800",
-      "summary": "一位前字节跳动员工在2021年9月离职后再次创业，开发了芦笋录屏和芦笋提词器两款产品。他通过让三个AI agent协同工作，在72小时内将项目推上GitHub全球榜单。这展示了个人创业者如何借助AI工具实现高效开发和快速获客。",
-      "score": 40
+      "title": "OpenAI联手普华永道：AI代理将重塑CFO办公室的财务流程",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "source": "OpenAI News",
+      "publishedAt": "Mon, 04 May 2026 21:00:00 GMT",
+      "summary": "OpenAI与普华永道宣布合作，帮助企业利用AI代理自动化财务工作流程。该合作旨在改进预测、加强控制并现代化CFO职能。对于企业财务负责人而言，这意味着财务运营效率有望显著提升，传统财务流程将迎来智能化转型。",
+      "score": 36
     },
     {
       "section": "技术与研究",
-      "title": "AI数据中心建设成银行压力测试：摩根大通等巨头急寻信贷风险转移路径",
-      "company": "摩根大通",
+      "title": "AI数据中心建设成银行压力测试：摩根大通等巨头急寻风险转移",
+      "company": "JPMorgan, Morgan Stanley",
       "url": "https://the-decoder.com/building-ai-data-centers-is-becoming-a-stress-test-for-banks/",
       "source": "The Decoder",
       "publishedAt": "Mon, 04 May 2026 13:21:07 +0000",
-      "summary": "大型银行正面临AI数据中心建设带来的巨额信贷风险，摩根大通、摩根士丹利等机构正在寻求将风险转移给其他投资者。例如，一笔380亿美元的贷款用于支持Oracle在得克萨斯州和威斯康星州的数据中心项目，摩根大通和三菱日联已花费数月试图分散这些贷款。这意味着AI基础设施融资模式正经历变革，银行风险集中度触及上限，投资者需警惕此类贷款的高风险特性。",
-      "score": 39
+      "summary": "摩根大通、摩根士丹利等大型银行正寻求将AI数据中心建设带来的巨额信贷风险转移给其他投资者。例如，一笔380亿美元的贷款用于支持Oracle在得克萨斯州和威斯康星州的数据中心，摩根大通和MUFG已花费数月试图分散这些贷款。这意味着AI基础设施融资将更加依赖多元化的资本结构，未来数据中心项目可能面临更高的融资成本和更严格的审查。",
+      "score": 34
     },
     {
       "section": "投融资与并购",
-      "title": "OpenAI新合资公司融资超40亿美元：专攻企业部署，19家顶级投资机构入局",
+      "title": "OpenAI 狂揽 40 亿美元：新合资公司专攻企业 AI 部署",
       "company": "OpenAI",
       "url": "https://the-decoder.com/openai-raises-over-4-billion-for-new-enterprise-deployment-venture/",
       "source": "The Decoder",
       "publishedAt": "Mon, 04 May 2026 14:02:18 +0000",
-      "summary": "OpenAI为一个名为“The Deployment Company”的新合资企业筹集了超过40亿美元的资金。这笔巨额融资将专门用于推动AI在企业端的部署和应用。对于希望大规模采用AI的企业来说，这预示着未来将有更专业、更强大的部署服务支持。",
-      "score": 50
+      "summary": "据彭博社报道，OpenAI已为一家名为“The Deployment Company”的新合资企业筹集超过40亿美元资金。该合资企业专注于企业级AI部署服务。这一巨额融资表明投资者对AI企业应用前景的信心，同时也为OpenAI提供了充足的资金来拓展企业市场，可能加速AI在商业领域的落地。",
+      "score": 52
     },
     {
       "section": "投融资与并购",
-      "title": "Anthropic联手华尔街巨头成立新公司：AI销售不止于技术本身",
-      "company": "Anthropic",
-      "url": "https://the-decoder.com/anthropic-and-openai-now-agree-on-one-thing-selling-ai-requires-a-lot-more-than-just-the-ai/",
-      "source": "The Decoder",
-      "publishedAt": "Mon, 04 May 2026 18:04:35 +0000",
-      "summary": "Anthropic与Blackstone、Hellman & Friedman及高盛合作，成立一家新的AI服务公司，旨在帮助中型企业采用Claude。这表明AI公司正意识到，成功销售AI需要提供超越技术本身的服务和支持。对于企业用户而言，这意味着未来获取AI解决方案将获得更全面的配套服务。",
+      "title": "OpenAI亲密伙伴Cerebras冲刺IPO：估值或超266亿美元，订单已超募3倍",
+      "company": "Cerebras",
+      "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 04 May 2026 21:53:21 +0000",
+      "summary": "AI芯片制造商Cerebras Systems正式启动IPO，计划以每股115至125美元发行2800万股，最高估值达266亿美元。该公司与OpenAI关系深厚，不仅签下超100亿美元多年协议，其投资者名单还包括Sam Altman、Greg Brockman等OpenAI核心人物。",
+      "score": 27
+    },
+    {
+      "section": "政策与监管",
+      "title": "白宫拟对AI模型发布前实施审查：特朗普政府召集Anthropic、谷歌、OpenAI高管商讨监管计划",
+      "company": "Anthropic,Alphabet,OpenAI",
+      "url": "https://36kr.com/newsflashes/3795818949647618?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-05 11:50:12  +0800",
+      "summary": "特朗普政府正考虑发布一项行政令，成立人工智能工作组以加强对AI技术的监管。其中一项提案要求对新AI模型实施政府审查流程，白宫官员已在上周向Anthropic、谷歌母公司Alphabet以及OpenAI的高管通报了部分拟议计划。这意味着AI开发者在模型发布前可能面临更严格的合规审查，对企业的研发节奏和产品上线周期将产生直接影响。",
       "score": 31
     },
     {
-      "section": "政策与监管",
-      "title": "GitLab 推出固定费率代码审查：每次0.25美元，AI访问免费层与支出上限同步上线",
-      "company": "GitLab",
-      "url": "https://www.infoq.cn/article/6dk4tEWoShjhagRdyPsX?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 04 May 2026 12:12:58 GMT",
-      "summary": "GitLab 在最新版本中引入固定费率的代码审查服务，每次统一收费0.25美元，取代按Token计费模式，旨在降低团队跳过审查的动机。同时，新增硬性支出上限和预算控制功能，并面向免费用户开放基于积分的AI平台访问。这一调整意味着企业可更可预测地控制AI工具成本，但现有合同用户对积分模式取代席位许可表示担忧。",
-      "score": 43
-    },
-    {
-      "section": "政策与监管",
-      "title": "OpenAI 发布 Symphony 规范：让 AI 代理自主管理任务，解放开发者注意力",
-      "company": "OpenAI",
-      "url": "https://the-decoder.com/openai-says-human-attention-is-the-bottleneck-so-it-built-a-system-to-let-agents-manage-themselves/",
-      "source": "The Decoder",
-      "publishedAt": "Mon, 04 May 2026 09:35:53 +0000",
-      "summary": "OpenAI发布了新的Symphony规范，彻底改变了AI编码工作流程。该规范允许AI代理直接从Linear中拉取任务并自主运行，直到完成，而无需开发者同时监控多个Codex会话。这对于开发者而言，意味着可以将注意力从繁琐的监控中解放出来，专注于更高层次的工作。",
-      "score": 40
+      "section": "产品发布与更新",
+      "title": "中国移动推出AI-eSIM产品：让设备学会“自主思考”",
+      "company": "中国移动",
+      "url": "https://36kr.com/newsflashes/3795830533643523?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-05 12:42:35  +0800",
+      "summary": "中国移动宣布将在2026移动云大会上推出AI-eSIM产品。该产品能实时调度云端模型，使设备具备自主思考和即时响应能力。这为AI玩具、智慧穿戴等终端开发者提供了新的技术选择。",
+      "score": 29
     },
     {
       "section": "技术与研究",
-      "title": "谷歌四月AI大爆发：发布Gemini企业平台、第八代TPU及Gemma 4开源模型",
-      "company": "Google",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
-      "source": "Google AI Blog",
-      "publishedAt": "Mon, 04 May 2026 17:00:00 +0000",
-      "summary": "谷歌在2026年4月发布了一系列AI更新。这些更新涵盖了多个AI技术领域的最新进展。对于关注AI前沿技术的开发者和企业而言，这些更新提供了谷歌在AI领域的最新布局方向。",
-      "score": 37
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI+数字孪生驱动本地化生产：元宇宙制造迎来新突破",
-      "company": "Meta",
-      "url": "https://techxplore.com/news/2026-05-borders-metaverse-envisions-ai-linked.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Mon, 04 May 2026 12:00:07 EDT",
-      "summary": "人工智能、3D/4D打印、数字孪生和先进机器人等新兴技术正加速变革多个行业。这些技术通过构建物理对象的虚拟表示，实现AI链接的本地化生产。对制造业企业而言，这意味着更高效的生产流程和更强的创新能力。",
-      "score": 34
-    },
-    {
-      "section": "技术与研究",
-      "title": "AI能写诗作画却数不清数？研究者正攻克视觉语言模型的计数难题",
+      "title": "ACL 2026研究揭示：世界模型未必让智能体“预知未来”，反直觉结论引发思考",
       "company": "",
-      "url": "https://techxplore.com/news/2026-05-ai.html",
-      "source": "Tech Xplore",
-      "publishedAt": "Mon, 04 May 2026 10:20:01 EDT",
-      "summary": "当前视觉语言模型在描述图像和识别对象方面表现出色，但在简单计数任务上却存在困难。霍夫应用技术大学信息系统的研究人员正致力于解决这一问题，相关论文已发布在arXiv预印本服务器上。这项研究有望提升AI在需要精确计数的应用场景中的可靠性。",
-      "score": 33
+      "url": "https://www.jiqizhixin.com/articles/2026-05-04",
+      "source": "机器之心",
+      "publishedAt": "2026-05-04T22:39:00+08:00",
+      "summary": "伊利诺伊大学香槟分校博士生钱成与合作者完成了一项关于世界模型与智能体的研究。该研究提出了一个反直觉的结论，即世界模型并不一定能帮助智能体更好地预知未来。这项成果已被ACL 2026接收，对智能体推理和交互领域的研究者具有启发意义。",
+      "score": 28
+    },
+    {
+      "section": "技术与研究",
+      "title": "黄仁勋点名Anthropic CEO：别一上任就开“上帝视角”",
+      "company": "Anthropic",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-04-4",
+      "source": "机器之心",
+      "publishedAt": "2026-05-04T22:55:00+08:00",
+      "summary": "黄仁勋在近期发言中，点名批评了Anthropic的CEO达里奥，认为他不应一上任就以“上帝视角”看待AI行业。他强调，AI替代现有工作方式的说法并不准确，不应过度渲染岗位消失或行业重写的观点。这对AI从业者和企业意味着，需更理性看待技术变革，避免被短期恐慌言论误导。",
+      "score": 27
     },
     {
       "section": "政策与监管",
-      "title": "OpenAI总裁Brockman庭审日记曝光：自曝“道德破产”与“赚钱真香”，回避提问暴露心虚",
+      "title": "OpenAI总裁日记曝光：马斯克案关键证据揭示内部利益博弈",
       "company": "OpenAI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/923684/musk-brockman-altman-openai-trial",
       "source": "The Verge AI",
       "publishedAt": "2026-05-04T23:49:33.000Z",
-      "summary": "在马斯克诉OpenAI案中，总裁Greg Brockman的日记成为关键证据，他本人出庭时频繁使用“我不会那样描述”等回避措辞。日记显示，Brockman在2017年曾写道“从非营利组织偷走它是不对的”以及“转为营利性公司赚钱听起来很棒”，暴露其早期对非营利承诺的矛盾心态。",
-      "score": 29
+      "summary": "在马斯克诉OpenAI案中，最有力的证人竟是OpenAI总裁格雷格·布罗克曼的日记，他本人则表现回避。布罗克曼以非常规方式被传唤，先接受交叉询问再直接询问，回答时频繁使用“我不会那样描述”等措辞。此案凸显了AI公司内部决策记录的法律重要性，提醒开发者注意商业文件的法律效力。",
+      "score": 27
+    },
+    {
+      "section": "技术与研究",
+      "title": "谷歌2026年4月AI大爆发：发布Gemini企业智能体平台、第八代TPU及开源模型Gemma 4",
+      "company": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "source": "Google AI Blog",
+      "publishedAt": "Mon, 04 May 2026 17:00:00 +0000",
+      "summary": "谷歌在2026年4月密集发布多项AI更新，涵盖企业级智能体平台、第八代TPU芯片、开源模型Gemma 4及免费视频生成工具等。其中，Gemini企业智能体平台专为智能体时代设计，Gemma 4成为字节效率最高的开源模型，同时推出Deep Research Max高级数据分析功能和Colab中的编程导师模式。",
+      "score": 26
     }
   ]
 }

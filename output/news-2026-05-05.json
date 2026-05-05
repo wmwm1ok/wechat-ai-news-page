@@ -1,38 +1,7 @@
 {
   "产品发布与更新": [
     {
-      "title": "Cloudflare推出Code Mode：AI智能体API调用成本骤降99.9%",
-      "url": "https://www.infoq.cn/article/KSmLVsumhdf7OiLXYaj3?utm_source=rss&utm_medium=article",
-      "snippet": "点击查看原文>",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 04 May 2026 09:00:00 GMT",
-      "popularityScore": 0,
-      "region": "国内",
-      "coverageCount": 1,
-      "coverageSources": [
-        "InfoQ"
-      ],
-      "coverageTitles": [
-        "Cloudflare推出Code Mode MCP服务器以优化AI智能体的Token使用"
-      ],
-      "summary": "Cloudflare推出了由Code Mode驱动的MCP服务器，旨在优化AI智能体访问API时的Token使用效率。该服务器仅暴露search()和execute()两个工具，通过生成并执行JavaScript代码来编排多API操作，将2500多个端点的Token占用从超过117万降至约1000，降幅达99.9%。",
-      "category": "产品发布与更新",
-      "company": "Cloudflare",
-      "score": 50,
-      "breakdown": {
-        "substance": 18,
-        "importance": 0,
-        "readerValue": 15,
-        "timeliness": 6,
-        "hotness": 0,
-        "credibility": 8,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "Gemini API 推出 Webhooks：告别轮询，让长时间任务不再卡顿",
+      "title": "Gemini API 推出事件驱动 Webhooks：告别轮询，异步任务实时推送",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
       "snippet": "Event-Driven Webhooks are a push-based notification system that eliminates the need for inefficient polling.",
       "source": "Google AI Blog",
@@ -46,172 +15,15 @@
       "coverageTitles": [
         "Reduce friction and latency for long-running jobs with Webhooks in Gemini API"
       ],
-      "summary": "谷歌在Gemini API中推出了事件驱动的Webhooks功能。这是一种基于推送的通知系统，可消除低效的轮询需求。对于使用Gemini API处理长时间运行任务的开发者来说，这将显著降低延迟和系统摩擦。",
+      "summary": "Gemini API推出了事件驱动型Webhooks，这是一种基于推送的通知系统。该系统消除了低效轮询的需求，能有效减少长时间运行任务的延迟和摩擦。对于使用Gemini API的开发者而言，这意味着可以更高效地处理异步任务，提升应用性能和用户体验。",
       "category": "产品发布与更新",
-      "company": "Google",
-      "score": 36,
-      "breakdown": {
-        "substance": 1,
-        "importance": 6,
-        "readerValue": 9,
-        "timeliness": 8,
-        "hotness": 0,
-        "credibility": 9,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "AgentCore优化预览：用生产轨迹自动诊断AI代理质量下滑",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview/",
-      "snippet": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement […]",
-      "source": "AWS Machine Learning Blog",
-      "publishedAt": "Mon, 04 May 2026 17:13:42 +0000",
-      "popularityScore": 0,
-      "region": "海外",
-      "coverageCount": 1,
-      "coverageSources": [
-        "AWS Machine Learning Blog"
-      ],
-      "coverageTitles": [
-        "Introducing the agent quality loop: AgentCore Optimization now in preview"
-      ],
-      "summary": "AI代理在发布后性能会因模型演变、用户行为变化和提示复用而逐渐下降。AgentCore优化功能通过生产轨迹生成推荐，并支持批量评估和A/B测试验证。对开发团队而言，这提供了一种持续监控和提升AI代理质量的方法。",
-      "category": "产品发布与更新",
-      "company": "",
-      "score": 34,
-      "breakdown": {
-        "substance": 7,
-        "importance": 0,
-        "readerValue": 9,
-        "timeliness": 8,
-        "hotness": 0,
-        "credibility": 7,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    }
-  ],
-  "技术与研究": [
-    {
-      "title": "Tri Dao团队推出SonicMoE：让混合专家模型推理速度飙升",
-      "url": "https://www.jiqizhixin.com/articles/2026-05-04-2",
-      "snippet": "编辑｜Panda「快！」说到索尼克，不管是刺猬索尼克还是音速索尼克，大家的第一印象多半就是「快」，而「快」也是现在许多 AI 模型和应用优化的一大核心目标。近日，由普林斯顿大学 Tri Dao（FlashAttention 的一作）和加州大学伯克利分校 Ion Stoica 领导的一个联合研究...",
-      "source": "机器之心",
-      "publishedAt": "2026-05-04T22:45:00+08:00",
-      "popularityScore": 0,
-      "region": "国内",
-      "coverageCount": 1,
-      "coverageSources": [
-        "机器之心"
-      ],
-      "coverageTitles": [
-        "DeepSeek做大→Mega MoE，Tri Dao团队加快→SonicMoE"
-      ],
-      "summary": "普林斯顿大学Tri Dao和加州大学伯克利分校Ion Stoica领导的联合研究团队发布了SonicMoE，这是一种针对混合专家模型（MoE）的加速技术。该技术旨在提升AI模型的运行速度，其名称源自“索尼克”的快速特性。对于AI开发者和研究者而言，这意味着在保持模型性能的同时，可能获得更高效的推理和训练体验。",
-      "category": "技术与研究",
-      "company": "",
-      "score": 40,
-      "breakdown": {
-        "substance": 7,
-        "importance": 0,
-        "readerValue": 13,
-        "timeliness": 8,
-        "hotness": 0,
-        "credibility": 9,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "前字节员工再创业：三个AI agent协同作战，72小时冲上GitHub全球榜",
-      "url": "https://36kr.com/p/3794961189821698?f=rss",
-      "snippet": "图源：公众号「有三思 U Sense」 5月4日，一个被默认为“青年专属”的日期。 但在我看来，“青年”一词从来不只和年龄挂钩，每一个还在试探人生的节拍与正轨的人，身体里都住着一位渴望力量的青年。 [1] 敲定新品牌命名的那一刻其实很轻。在讨论方案的脑暴会上，我夸了实习生一句“有Sense”，他眼神一亮：“这个词好诶。” 许多年前，我还是一个初入职场的新人，在猎头行业学习如何阅读简历、判断人、理解组织。那时候，我的老板总时不时夸团队里的同学“有Sense”。 “有Sense”是咨询行业爱用的职场黑话，也是一句高度浓缩的赞美。努力是苦劳，聪明是天赋，而Sense，是前辈不必手把手教你，你也能和他们同频思考的那种东西。 很多年过去，当我转行做科技新闻，开始用另一种方式阅读人和组织，我发现自己依然在寻找那种“有Sense”的状态——并不是指作为老板对下属的期待，而是关于自我要求。 它至少有三重意思。 Information Sense，在信息过载的噪音中抓住重要信号和异常值。某个人的离职时间恰好对应前公司某次架构调整，一个行业薪资数据出现了反常波动。遇到问题，不只看表面，而是追问终极目的和WHY。 Social Sense，在进退之间掌握分寸。知道什么时候推进、什么时候退让，能判断对方的情绪状态和真实动机，而不是急于达到自己的目的。 Direction Sense，是在他人指令之外，眼里有活，心里有方向。上司布置了A，便能联想到B和C；市场一旦出现新动向，会主动去做mapping，而不是等KPI压下来。 三个维度，合起来才是完整的“有Sense”。而“三”这个数字，本身就有一种奇妙的叙事完整性。 哈利波特里有三个主角。三个臭皮匠，顶个诸葛亮。那个72小时杀入GitHub全球榜的文科生，背后有三个AI agent在协同工作。戏剧理论里，三幕剧是最为经典的结构——亚里士多德在《诗学》第七章中提出“头、身、尾”的行动整一律，后世将其提炼为“开端、冲突、解决”的三段式叙事逻辑。 我们的职业生涯，也像一部三幕剧—— 入局之思，是初心，是找到兴趣、热爱与发力感的时刻。你不知道自己能否胜任，但你感觉到了某种召唤。 纷争之思，是面对竞争环境与行业趋势，从擅长之处起手，在碰撞中培养优势的时刻。你不再只是凭直觉行事，你开始理解规则，甚至质疑规则。 和解之思，是找到独特卡位，产生稀缺价值，踩准红利的时刻。比起妥协，这更像是斗争后的清醒——你知道自己是谁，也知道世界需要什么。 三是叙事的最小完整单元。一个人从“找感觉”到“有Sense”，往往也要走过这三幕。它并不是线性的。有人反复入局，有人长期纷争，有人在和解后又重新进入了冲突。 而在每一“幕”之间起决定作用的，是选择。 [2] 在电影《猜火车》的那段著名开场独白里，Mark Renton用戏谑而粗粝的念白，拆解了主流社会为青年们规划好的“标准人生轨道”：选择工作，选择家庭，选择房贷和分期付款，选择洗衣机、汽车和电动开罐器，选择低胆固醇和牙科保险。 然后Mark说：“但我是谁啊？我会想去做那些事情？我选择不选择生活：我选择一些别的什么东西。理由？没有理由。有了海洛因，谁还需要理由呢？” 这段1996年问世的台词，精准戳中了每一代年轻人的困境：当主流社会给你画好了“正确”的人生路线，人潜意识里总会有“不想选”的叛逆。但反叛本身如果只是一种逃避，就会像Mark一样坠入更虚无的泥潭。 二十年后，博伊尔在《猜火车2》里让中年Mark再次面对这段台词。这一次，他离开了海洛因，选择回归主流，完成了对“选择”的闭环回答——无论选择哪条路，直面选择、承担结果本身，就是生活的意义。 熟悉我们的读者知道，《职场Bonus》创办以来，我们写行业、写公司、写商业环境的潮起潮落。但始终有一类内容让我个人更着迷：那些具体的、在“三幕剧”中跋涉过的人，他们在关键节点做出的选择，他们与风口之间的关联，他们如何在个体的局限中寻找突破口。 因此，我们把《职场Bonus》里的人物向栏目「红利人物」，关注职业生存状况的报道，以及各类有助于青年自我成长的内容——无论是对AI、科技、出海的探索，还是关于认知方法论的拆解——迁移到这里，《有三思》。一条边界线是：我们不打算鼓吹什么新的“正确人生路线”。 两个账号，两种观察风口和红利的方式。《职场Bonus》将继续聚焦行业环境、公司与人才流动。 报道和写作，一直是一个让我能安静下来学习思考、抵抗熵增、专注于研究某项重要事情的契机。对于编辑部来说，我们希望以做选题的方式和读者们一起成长——把生活、工作中一切可能对自我成长有帮助的细节，解构变成有价值的课题，这是《有三思》内容的隐性目标。 [3] 最后，关于这个名字。 有三思，是“有Sense”的谐音，也是“三思而后行”的古训新说。我们相信，每位青年身上，都已具备某种原始的Sense，只是需要被唤醒、被校准、被验证。 1919年5月4日，一群青年走上街头，选择用呐喊对抗一个他们不认同的世界。一百零七年后的今天，我们选择用记录与思考，对抗另一种形式的麻木——那种在信息洪流中放弃筛选、在标准轨道中放弃追问、在重复劳作中放弃方向的麻木。 青年节从来不只是纪念。它是一个提醒：每一代人都有权利重新选择自己的活法。 五月，适合想清楚一件事，然后去做。三幕剧开启了，这里有我们相伴成长的约定，欢迎你来。 ◎ 他们的回忆，选择，与寄语 （按姓氏首字母排序） 邓江 ● 缘启智慧 ｜ 创始人 2015年离开银行，是我人生最实际的一个决定。那份稳定很好，但它给不了我“从无到有创造一个东西”的体验。 创业之后，每个决策都直接关联着公司的生死和团队的饭碗。路是自己选的，所以每一步都得踩实。回头看，这个选择没给我“退路”，但给了我“全部的路”——现在的业务、团队，还有这十年的所有体验，都从这里长出来。 图源：公众号「有三思 U Sense」 Davin YC Dong ● Cookiy AI ｜ Founder & CEO 我人生中最重要的选择之一，是从一条看起来足够确定的大厂高管路径里走出来创业。 过去我管业务更关注规模和效率；后来我越来越相信，AI时代真正稀缺的，不只是更强的模型，而是对真实人类的深入理解。 所以我创立Cookiy AI，希望成为AI与真实人类之间的连接桥梁：让机器更懂人的声音、判断、感受和选择，也让每一个普通人的观点被听见。 祝每一个还在选择中的年轻人，都能听见内心真正的声音。 （上图：与团队合影；下图：与Y Combinator的CEO合影。） 图源：公众号「有三思 U Sense」 图源：公众号「有三思 U Sense」 杜雨 ● 未可知AI ｜ 创始人 刚毕业那会儿，手里攥着好几个offer，纠结了好久没跟风选薪资最高的。 记得当时站在宿舍楼道跟我妈打电话商量，她跟我说了句实在话：跟着兴趣走才走得长远。 行业总有起起落落，应届生起薪差距，大多是行业风口造成的，跟个人真正能力关系不大。只有真心喜欢一件事，才愿意沉下心扎根深耕，慢慢磨出自己的核心价值，路才能走得稳、走得久。 图源：公众号「有三思 U Sense」 高学亨 ● FUNDel 汎迪 ｜ 創始人及首席执行官 「終身學習」是恩師在最後一課留下的錦囊，自此成為我的座右銘。 多年來堅持「日間工作、夜間進修」，從EMBA攻讀至法律博士，在校園結識了一群跨行業的共成長共欢樂的夥伴。 如今即便工作繁忙，仍堅持走進校園，身分雖從學生轉為教授，但初心未改。透過教學相長與學生亦師亦友、互相啟發，以另一種身份繼續學習旅程。 图源：公众号「有三思 U Sense」 郭人杰 ● 乐享科技 ｜ 创始人、CEO 几年前我发现，中国已经有全世界最好的技术、最好的产品，但是很多人还没意识到，或者不愿意相信。 所以我们想，不仅自己要做出来全球最好的技术跟产品，还要让所有人知道这个事实。不光做到了，也要说出来。中国有最聪明、最高速迭代的技术人员，这件事还会继续下去。 图源：公众号「有三思 U Sense」 郭晓力 ● 原则科技 ｜ CEO 2021年9月，我离开字节，再次创业。不是因为看到了确定的机会，而是因为我只有在做自己真正相信的事时，才是真实的自己。我想做自己的产品，做芦笋录屏、芦笋提词器，每一天都比上班快乐。 希望每一个年轻人都能早一点找到那件让自己心动的事——不一定是创业，可以是任何形式——然后义无反顾地靠近它。 图源：公众号「有三思 U Sense」 何方舟 ● NEED! ｜ 联合创始人 2021年五月去阿那亚参加“招待会音乐节”， 舞台演出结束后我们用音响放着歌，步行去海边看日出：这群人有招待会刚认识的朋友，也有路边跟着我们的音响一起走向阿那亚礼堂的陌生人。 月亮还很亮，而海岸线已经破晓。 那年“招待会”，我们认识了很多后来的好朋友， 其中也有一起做 NEED! 品牌的合伙人，在阿那亚礼堂看日出的时刻成为了这些友谊的开始，那些美好回忆也鼓舞着我们。 快五年了，虽然这群朋友们已经不在同一个城市，但我们仍然保持联系，见面和一起去海边旅游，每次见到她们就觉得自己还很年轻，we are infinite! 图源：公众号「有三思 U Sense」 刘晓宇 ● 少年纵横 ｜ 创始人 选“关键选择”这个方向： 我做过最关键的几次选择，都是在一切“看起来还不错”的时候离开。不是因为走投无路，而是因为不甘心只走一条被安排好的路。 后来才明白，人生里很多真正重要的选择，都不是在“确定”里发生的，而是在隐约觉得“这件事我不做会后悔”。 选择本身未必让你赢，但它会决定你成为谁。 图源：公众号「有三思 U Sense」 李盛祥 ● 六度智囊 ｜ CEO 特地去看了下对于青年的年龄定义，刚过24岁，25岁那年的时候选择的创业（正好脱离青年的稚嫩了？），其实算挺早的。 从上海的高档写字楼到蜗居借住在杭州别人的办公室里，草根创业，无知无畏，期待用专家知识能让商业决策变得更好一些，期待让来自于产业的人通过我们再度服务于产业——创立“六度智囊”。我信奉创业就是披巾斩棘，打怪升级。 （图片是创业第一个月被第一个招募加入的员工偷拍的。） 图源：公众号「有三思 U Sense」 Cathy Mao ● ASML China ｜ HR Head 2003年的五月，非典碎了留学梦。看着身边同学纷纷加入车企和四大，踌躇满志的我面临就业即失业的窘境。父亲说：“撞了墙就转弯，人生全是活法。”我先是加入了一家小公司，走进职场的浩瀚海洋，也找到奋斗至今的职业领域。 找到热爱，也懂得放下，学会坚持，更感恩遇见。祝年轻的你们直面选择，勇毅前行！ 图源：公众号「有三思 U Sense」 沈斐 ● 蔚来 ｜ 高级副总裁，兼乐道总裁 11年前，我在电力行业，从没想过要跨界。 遇见蔚来时，我好奇：电动车和能源互联网，能碰撞出什么？跨界能学到什么？ 好奇心赢了。 入职后第一个周末，我和新同事一起跑了上海马拉松。那是我加入蔚来的第一场马拉松。 11年过去，这场马拉松还在继续。我很庆幸，当时选择了好奇，而不是沿着惯性往前走。 最好的成长，往往在你不熟悉的赛道上。 PS. 当时蔚来汽车的英文还不叫NIO。 图源：公众号「有三思 U Sense」 孙辰昕 Kelvin ● DINQ ｜ 联合创始人 2019 年 3 月，我开始了第一次创业。第一天入驻办公室，桌上只有电脑、笔记本、乱七八糟的线，和一堆不确定。 那一刻我想到Jeff Bezos创立Amazon早期的照片：伟大的事业，起点也可以很普通。创业就是在没人看见、什么都还没有的时候，依然选择相信并继续往前推。 Always Day One，把这个游戏一直玩下去。 图源：公众号「有三思 U Sense」 图源：公众号「有三思 U Sense」 配图 | 寄语者提供 封面图 | Xinyi Wen（Unsplash）",
-      "source": "36氪",
-      "publishedAt": "2026-05-04 20:41:30  +0800",
-      "popularityScore": 0,
-      "region": "国内",
-      "coverageCount": 1,
-      "coverageSources": [
-        "36氪"
-      ],
-      "coverageTitles": [
-        "五月，适合想清楚一件事｜幕启"
-      ],
-      "summary": "一位前字节跳动员工在2021年9月离职后再次创业，开发了芦笋录屏和芦笋提词器两款产品。他通过让三个AI agent协同工作，在72小时内将项目推上GitHub全球榜单。这展示了个人创业者如何借助AI工具实现高效开发和快速获客。",
-      "category": "技术与研究",
-      "company": "",
-      "score": 40,
-      "breakdown": {
-        "substance": 14,
-        "importance": 5,
-        "readerValue": 6,
-        "timeliness": 6,
-        "hotness": 0,
-        "credibility": 6,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "AI数据中心建设成银行压力测试：摩根大通等巨头急寻信贷风险转移路径",
-      "url": "https://the-decoder.com/building-ai-data-centers-is-becoming-a-stress-test-for-banks/",
-      "snippet": "The construction of new AI data centers devours billions in borrowed capital. Major banks such as JPMorgan and Morgan Stanley are now looking for ways to pass on the growing credit risks to other investors. The article Building AI data centers is becoming a stress test for banks appeared first on The Decoder.",
-      "source": "The Decoder",
-      "publishedAt": "Mon, 04 May 2026 13:21:07 +0000",
-      "popularityScore": 0,
-      "region": "海外",
-      "coverageCount": 1,
-      "coverageSources": [
-        "The Decoder"
-      ],
-      "coverageTitles": [
-        "Building AI data centers is becoming a stress test for banks"
-      ],
-      "summary": "大型银行正面临AI数据中心建设带来的巨额信贷风险，摩根大通、摩根士丹利等机构正在寻求将风险转移给其他投资者。例如，一笔380亿美元的贷款用于支持Oracle在得克萨斯州和威斯康星州的数据中心项目，摩根大通和三菱日联已花费数月试图分散这些贷款。这意味着AI基础设施融资模式正经历变革，银行风险集中度触及上限，投资者需警惕此类贷款的高风险特性。",
-      "category": "技术与研究",
-      "company": "摩根大通",
-      "score": 39,
-      "breakdown": {
-        "substance": 5,
-        "importance": 8,
-        "readerValue": 7,
-        "timeliness": 8,
-        "hotness": 0,
-        "credibility": 8,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "谷歌四月AI大爆发：发布Gemini企业平台、第八代TPU及Gemma 4开源模型",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
-      "snippet": "Here are Google’s latest AI updates from April 2026",
-      "source": "Google AI Blog",
-      "publishedAt": "Mon, 04 May 2026 17:00:00 +0000",
-      "popularityScore": 0,
-      "region": "海外",
-      "coverageCount": 1,
-      "coverageSources": [
-        "Google AI Blog"
-      ],
-      "coverageTitles": [
-        "The latest AI news we announced in April 2026"
-      ],
-      "summary": "谷歌在2026年4月发布了一系列AI更新。这些更新涵盖了多个AI技术领域的最新进展。对于关注AI前沿技术的开发者和企业而言，这些更新提供了谷歌在AI领域的最新布局方向。",
-      "category": "技术与研究",
       "company": "Google",
       "score": 37,
       "breakdown": {
-        "substance": 8,
-        "importance": 0,
+        "substance": 4,
+        "importance": 6,
         "readerValue": 9,
-        "timeliness": 8,
+        "timeliness": 6,
         "hotness": 0,
         "credibility": 9,
         "displayPenalty": 3
@@ -220,102 +32,7 @@
       "isDisplayReady": true
     },
     {
-      "title": "AI+数字孪生驱动本地化生产：元宇宙制造迎来新突破",
-      "url": "https://techxplore.com/news/2026-05-borders-metaverse-envisions-ai-linked.html",
-      "snippet": "Over the past decades, technological advances have fueled great innovation in a wide range of fields. Emerging and rapidly developing technologies, such as artificial intelligence (AI) systems, three-dimensional (3D) and four-dimensional (4D) printing, digital twins (i.e., virtual representations of physical objects, systems or processes) and advanced robots, are set to further transform many industries and sectors.",
-      "source": "Tech Xplore",
-      "publishedAt": "Mon, 04 May 2026 12:00:07 EDT",
-      "popularityScore": 0,
-      "region": "海外",
-      "coverageCount": 1,
-      "coverageSources": [
-        "Tech Xplore"
-      ],
-      "coverageTitles": [
-        "Beyond borders: Metaverse manufacturing envisions AI-linked local production built on digital twins"
-      ],
-      "summary": "人工智能、3D/4D打印、数字孪生和先进机器人等新兴技术正加速变革多个行业。这些技术通过构建物理对象的虚拟表示，实现AI链接的本地化生产。对制造业企业而言，这意味着更高效的生产流程和更强的创新能力。",
-      "category": "技术与研究",
-      "company": "Meta",
-      "score": 34,
-      "breakdown": {
-        "substance": 5,
-        "importance": 5,
-        "readerValue": 6,
-        "timeliness": 8,
-        "hotness": 0,
-        "credibility": 7,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "AI能写诗作画却数不清数？研究者正攻克视觉语言模型的计数难题",
-      "url": "https://techxplore.com/news/2026-05-ai.html",
-      "snippet": "Today, artificial intelligence can describe images, recognize objects, and explain complex relationships. The pace of development is remarkable: So-called vision-language models (VLMs) combine text and image understanding in impressive ways. Yet, of all things, they struggle with a seemingly simple task—counting. Researchers at the Institute for Information Systems (iisys) at Hof University of Applied Sciences are now working to address this issue, with a paper posted to the arXiv preprint server.",
-      "source": "Tech Xplore",
-      "publishedAt": "Mon, 04 May 2026 10:20:01 EDT",
-      "popularityScore": 0,
-      "region": "海外",
-      "coverageCount": 1,
-      "coverageSources": [
-        "Tech Xplore"
-      ],
-      "coverageTitles": [
-        "When AI can't count—and what researchers are doing about it"
-      ],
-      "summary": "当前视觉语言模型在描述图像和识别对象方面表现出色，但在简单计数任务上却存在困难。霍夫应用技术大学信息系统的研究人员正致力于解决这一问题，相关论文已发布在arXiv预印本服务器上。这项研究有望提升AI在需要精确计数的应用场景中的可靠性。",
-      "category": "技术与研究",
-      "company": "",
-      "score": 33,
-      "breakdown": {
-        "substance": 10,
-        "importance": 0,
-        "readerValue": 5,
-        "timeliness": 8,
-        "hotness": 0,
-        "credibility": 7,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    }
-  ],
-  "投融资与并购": [
-    {
-      "title": "OpenAI新合资公司融资超40亿美元：专攻企业部署，19家顶级投资机构入局",
-      "url": "https://the-decoder.com/openai-raises-over-4-billion-for-new-enterprise-deployment-venture/",
-      "snippet": "OpenAI has raised more than $4 billion for a new joint venture called \"The Deployment Company,\" according to Bloomberg. The article OpenAI raises over $4 billion for new enterprise deployment venture appeared first on The Decoder.",
-      "source": "The Decoder",
-      "publishedAt": "Mon, 04 May 2026 14:02:18 +0000",
-      "popularityScore": 0,
-      "region": "海外",
-      "coverageCount": 1,
-      "coverageSources": [
-        "The Decoder"
-      ],
-      "coverageTitles": [
-        "OpenAI raises over $4 billion for new enterprise deployment venture"
-      ],
-      "summary": "OpenAI为一个名为“The Deployment Company”的新合资企业筹集了超过40亿美元的资金。这笔巨额融资将专门用于推动AI在企业端的部署和应用。对于希望大规模采用AI的企业来说，这预示着未来将有更专业、更强大的部署服务支持。",
-      "category": "投融资与并购",
-      "company": "OpenAI",
-      "score": 50,
-      "breakdown": {
-        "substance": 7,
-        "importance": 13,
-        "readerValue": 11,
-        "timeliness": 8,
-        "hotness": 0,
-        "credibility": 8,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "Anthropic联手华尔街巨头成立新公司：AI销售不止于技术本身",
+      "title": "Anthropic联手华尔街巨头成立AI服务公司：卖模型只是开始，部署才是硬道理",
       "url": "https://the-decoder.com/anthropic-and-openai-now-agree-on-one-thing-selling-ai-requires-a-lot-more-than-just-the-ai/",
       "snippet": "Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs are launching a new AI services company to help mid-market businesses adopt Claude. The article Anthropic and OpenAI now agree on one thing: selling AI requires a lot more than just the AI appeared first on The Decoder.",
       "source": "The Decoder",
@@ -329,14 +46,328 @@
       "coverageTitles": [
         "Anthropic and OpenAI now agree on one thing: selling AI requires a lot more than just the AI"
       ],
-      "summary": "Anthropic与Blackstone、Hellman & Friedman及高盛合作，成立一家新的AI服务公司，旨在帮助中型企业采用Claude。这表明AI公司正意识到，成功销售AI需要提供超越技术本身的服务和支持。对于企业用户而言，这意味着未来获取AI解决方案将获得更全面的配套服务。",
-      "category": "投融资与并购",
-      "company": "Anthropic",
-      "score": 31,
+      "summary": "Anthropic与黑石、Hellman & Friedman及高盛合作，成立一家新的AI服务公司，帮助中型企业采用Claude模型。文章指出，Anthropic和OpenAI现在都认为，销售AI需要远超技术本身的服务支持。这对企业用户意味着，AI供应商将提供更全面的部署和运维服务，而非仅提供模型。",
+      "category": "产品发布与更新",
+      "company": "Anthropic, OpenAI",
+      "score": 37,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "亚马逊Bedrock AgentCore推出优化预览：用生产追踪自动生成推荐，终结AI代理性能退化",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview/",
+      "snippet": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement […]",
+      "source": "AWS Machine Learning Blog",
+      "publishedAt": "Mon, 04 May 2026 17:13:42 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "AWS Machine Learning Blog"
+      ],
+      "coverageTitles": [
+        "Introducing the agent quality loop: AgentCore Optimization now in preview"
+      ],
+      "summary": "AI代理在发布后性能会因模型演变、用户行为变化和提示词复用而逐渐下降。AgentCore Optimization通过从生产追踪生成推荐，结合批量评估和A/B测试进行验证，帮助团队自信地部署改进。该功能现处于预览阶段，对维护AI代理长期稳定性的开发团队具有实用价值。",
+      "category": "产品发布与更新",
+      "company": "无",
+      "score": 34,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "readerValue": 11,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "中国移动推出AI-eSIM产品：让设备学会“自主思考”",
+      "url": "https://36kr.com/newsflashes/3795830533643523?f=rss",
+      "snippet": "5月5日，中国移动发布消息称，5月7日-9日，2026移动云大会将在苏州金鸡湖国际会议中心举办，届时将推出AI-eSIM产品。据介绍，该产品可以实时调度云端模型，让设备能自主思考、即时响应，可应用于AI玩具、智慧穿戴等终端。",
+      "source": "36氪",
+      "publishedAt": "2026-05-05 12:42:35  +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "36氪"
+      ],
+      "coverageTitles": [
+        "中国移动将推出AI-eSIM产品"
+      ],
+      "summary": "中国移动宣布将在2026移动云大会上推出AI-eSIM产品。该产品能实时调度云端模型，使设备具备自主思考和即时响应能力。这为AI玩具、智慧穿戴等终端开发者提供了新的技术选择。",
+      "category": "产品发布与更新",
+      "company": "中国移动",
+      "score": 29,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "readerValue": 6,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "Tri Dao团队联手伯克利：SonicMoE让AI模型推理速度“飞”起来",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-04-2",
+      "snippet": "编辑｜Panda「快！」说到索尼克，不管是刺猬索尼克还是音速索尼克，大家的第一印象多半就是「快」，而「快」也是现在许多 AI 模型和应用优化的一大核心目标。近日，由普林斯顿大学 Tri Dao（FlashAttention 的一作）和加州大学伯克利分校 Ion Stoica 领导的一个联合研究...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-04T22:45:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "DeepSeek做大→Mega MoE，Tri Dao团队加快→SonicMoE"
+      ],
+      "summary": "普林斯顿大学Tri Dao和加州大学伯克利分校Ion Stoica领导的联合研究团队推出了SonicMoE技术，旨在提升AI模型的运行速度。该技术基于混合专家模型架构，通过优化计算效率实现更快推理。这对AI开发者意味着模型部署和响应速度可能显著改善，尤其在实时应用场景中具有潜力。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 44,
+      "breakdown": {
+        "substance": 11,
+        "importance": 0,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI联手普华永道：AI代理将重塑CFO办公室的财务流程",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "snippet": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+      "source": "OpenAI News",
+      "publishedAt": "Mon, 04 May 2026 21:00:00 GMT",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "OpenAI News"
+      ],
+      "coverageTitles": [
+        "OpenAI and PwC collaborate to reimagine the office of the CFO"
+      ],
+      "summary": "OpenAI与普华永道宣布合作，帮助企业利用AI代理自动化财务工作流程。该合作旨在改进预测、加强控制并现代化CFO职能。对于企业财务负责人而言，这意味着财务运营效率有望显著提升，传统财务流程将迎来智能化转型。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 36,
       "breakdown": {
         "substance": 0,
         "importance": 5,
+        "readerValue": 11,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI数据中心建设成银行压力测试：摩根大通等巨头急寻风险转移",
+      "url": "https://the-decoder.com/building-ai-data-centers-is-becoming-a-stress-test-for-banks/",
+      "snippet": "The construction of new AI data centers devours billions in borrowed capital. Major banks such as JPMorgan and Morgan Stanley are now looking for ways to pass on the growing credit risks to other investors. The article Building AI data centers is becoming a stress test for banks appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Mon, 04 May 2026 13:21:07 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Building AI data centers is becoming a stress test for banks"
+      ],
+      "summary": "摩根大通、摩根士丹利等大型银行正寻求将AI数据中心建设带来的巨额信贷风险转移给其他投资者。例如，一笔380亿美元的贷款用于支持Oracle在得克萨斯州和威斯康星州的数据中心，摩根大通和MUFG已花费数月试图分散这些贷款。这意味着AI基础设施融资将更加依赖多元化的资本结构，未来数据中心项目可能面临更高的融资成本和更严格的审查。",
+      "category": "技术与研究",
+      "company": "JPMorgan, Morgan Stanley",
+      "score": 34,
+      "breakdown": {
+        "substance": 2,
+        "importance": 8,
         "readerValue": 7,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "ACL 2026研究揭示：世界模型未必让智能体“预知未来”，反直觉结论引发思考",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-04",
+      "snippet": "本文主要由伊利诺伊大学香槟分校的钱成博士牵头合作完成。钱成目前为二年级博士生，其主要研究方向为大模型驱动智能体，包括智能体推理，交互以及物理智能等。导师为季姮教授。2025 年是 Agent（智能体）技术落地元年，而如今到了 2026年，World Model（世界模型）也随之有了更广泛的技术...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-04T22:39:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "ACL 2026｜世界模型能让智能体「预知未来」？这篇新范式研究给了一个反直觉的答案"
+      ],
+      "summary": "伊利诺伊大学香槟分校博士生钱成与合作者完成了一项关于世界模型与智能体的研究。该研究提出了一个反直觉的结论，即世界模型并不一定能帮助智能体更好地预知未来。这项成果已被ACL 2026接收，对智能体推理和交互领域的研究者具有启发意义。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 28,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "readerValue": 6,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "黄仁勋点名Anthropic CEO：别一上任就开“上帝视角”",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-04-4",
+      "snippet": "编辑｜杨文、陈陈过去一年，AI 圈最流行的说法之一，是替代。AI 要替代程序员，替代设计师，替代 SaaS，甚至替代一整套现有的工作方式。每隔一段时间，就会有人抛出新观点：多少岗位会消失，哪个行业会被重写……但黄仁勋显然不太买账。来源：https://www.businessinsider.c...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-04T22:55:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "黄仁勋点名Anthropic达里奥，别一当CEO，就开「上帝视角」"
+      ],
+      "summary": "黄仁勋在近期发言中，点名批评了Anthropic的CEO达里奥，认为他不应一上任就以“上帝视角”看待AI行业。他强调，AI替代现有工作方式的说法并不准确，不应过度渲染岗位消失或行业重写的观点。这对AI从业者和企业意味着，需更理性看待技术变革，避免被短期恐慌言论误导。",
+      "category": "技术与研究",
+      "company": "Anthropic",
+      "score": 27,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "readerValue": 4,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "谷歌2026年4月AI大爆发：发布Gemini企业智能体平台、第八代TPU及开源模型Gemma 4",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "snippet": "Here are Google’s latest AI updates from April 2026",
+      "source": "Google AI Blog",
+      "publishedAt": "Mon, 04 May 2026 17:00:00 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "Google AI Blog"
+      ],
+      "coverageTitles": [
+        "The latest AI news we announced in April 2026"
+      ],
+      "summary": "谷歌在2026年4月密集发布多项AI更新，涵盖企业级智能体平台、第八代TPU芯片、开源模型Gemma 4及免费视频生成工具等。其中，Gemini企业智能体平台专为智能体时代设计，Gemma 4成为字节效率最高的开源模型，同时推出Deep Research Max高级数据分析功能和Colab中的编程导师模式。",
+      "category": "技术与研究",
+      "company": "Google",
+      "score": 26,
+      "breakdown": {
+        "substance": 4,
+        "importance": 0,
+        "readerValue": 4,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "OpenAI 狂揽 40 亿美元：新合资公司专攻企业 AI 部署",
+      "url": "https://the-decoder.com/openai-raises-over-4-billion-for-new-enterprise-deployment-venture/",
+      "snippet": "OpenAI has raised more than $4 billion for a new joint venture called \"The Deployment Company,\" according to Bloomberg. The article OpenAI raises over $4 billion for new enterprise deployment venture appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Mon, 04 May 2026 14:02:18 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "OpenAI raises over $4 billion for new enterprise deployment venture"
+      ],
+      "summary": "据彭博社报道，OpenAI已为一家名为“The Deployment Company”的新合资企业筹集超过40亿美元资金。该合资企业专注于企业级AI部署服务。这一巨额融资表明投资者对AI企业应用前景的信心，同时也为OpenAI提供了充足的资金来拓展企业市场，可能加速AI在商业领域的落地。",
+      "category": "投融资与并购",
+      "company": "OpenAI",
+      "score": 52,
+      "breakdown": {
+        "substance": 11,
+        "importance": 13,
+        "readerValue": 11,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI亲密伙伴Cerebras冲刺IPO：估值或超266亿美元，订单已超募3倍",
+      "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+      "snippet": "AI chip maker Cerebras is heading for a blockbuster IPO that could value it at $26.6 billion or more. Its relationship with OpenAI is deep and rich.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Mon, 04 May 2026 21:53:21 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO"
+      ],
+      "summary": "AI芯片制造商Cerebras Systems正式启动IPO，计划以每股115至125美元发行2800万股，最高估值达266亿美元。该公司与OpenAI关系深厚，不仅签下超100亿美元多年协议，其投资者名单还包括Sam Altman、Greg Brockman等OpenAI核心人物。",
+      "category": "投融资与并购",
+      "company": "Cerebras",
+      "score": 27,
+      "breakdown": {
+        "substance": 1,
+        "importance": 5,
+        "readerValue": 2,
         "timeliness": 8,
         "hotness": 0,
         "credibility": 8,
@@ -348,69 +379,38 @@
   ],
   "政策与监管": [
     {
-      "title": "GitLab 推出固定费率代码审查：每次0.25美元，AI访问免费层与支出上限同步上线",
-      "url": "https://www.infoq.cn/article/6dk4tEWoShjhagRdyPsX?utm_source=rss&utm_medium=article",
-      "snippet": "点击查看原文>",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 04 May 2026 12:12:58 GMT",
+      "title": "白宫拟对AI模型发布前实施审查：特朗普政府召集Anthropic、谷歌、OpenAI高管商讨监管计划",
+      "url": "https://36kr.com/newsflashes/3795818949647618?f=rss",
+      "snippet": "特朗普政府正考虑发布一项行政令，成立人工智能工作组，旨在加强对这一新兴技术的监管。其中一项提案要求对新AI模型实施政府审查流程。该报称，白宫官员在上周的会议中，已向Anthropic、谷歌母公司Alphabet以及OpenAI的高管通报了部分拟议计划。（第一财经）",
+      "source": "36氪",
+      "publishedAt": "2026-05-05 11:50:12  +0800",
       "popularityScore": 0,
       "region": "国内",
       "coverageCount": 1,
       "coverageSources": [
-        "InfoQ"
+        "36氪"
       ],
       "coverageTitles": [
-        "GitLab 新增采用固定费率的代码审查服务、Free-Tier AI 访问以及支出上限设置"
+        "白宫拟在AI模型发布前实施审查"
       ],
-      "summary": "GitLab 在最新版本中引入固定费率的代码审查服务，每次统一收费0.25美元，取代按Token计费模式，旨在降低团队跳过审查的动机。同时，新增硬性支出上限和预算控制功能，并面向免费用户开放基于积分的AI平台访问。这一调整意味着企业可更可预测地控制AI工具成本，但现有合同用户对积分模式取代席位许可表示担忧。",
+      "summary": "特朗普政府正考虑发布一项行政令，成立人工智能工作组以加强对AI技术的监管。其中一项提案要求对新AI模型实施政府审查流程，白宫官员已在上周向Anthropic、谷歌母公司Alphabet以及OpenAI的高管通报了部分拟议计划。这意味着AI开发者在模型发布前可能面临更严格的合规审查，对企业的研发节奏和产品上线周期将产生直接影响。",
       "category": "政策与监管",
-      "company": "GitLab",
-      "score": 43,
+      "company": "Anthropic,Alphabet,OpenAI",
+      "score": 31,
       "breakdown": {
-        "substance": 17,
-        "importance": 0,
-        "readerValue": 9,
-        "timeliness": 6,
-        "hotness": 0,
-        "credibility": 8,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "OpenAI 发布 Symphony 规范：让 AI 代理自主管理任务，解放开发者注意力",
-      "url": "https://the-decoder.com/openai-says-human-attention-is-the-bottleneck-so-it-built-a-system-to-let-agents-manage-themselves/",
-      "snippet": "OpenAI's new Symphony spec flips the AI coding workflow on its head: instead of developers babysitting multiple Codex sessions, agents pull their own tickets straight from Linear and run until the job is done. The article OpenAI says human attention is the bottleneck, so it built a system to let agents manage themselves appeared first on The Decoder.",
-      "source": "The Decoder",
-      "publishedAt": "Mon, 04 May 2026 09:35:53 +0000",
-      "popularityScore": 0,
-      "region": "海外",
-      "coverageCount": 1,
-      "coverageSources": [
-        "The Decoder"
-      ],
-      "coverageTitles": [
-        "OpenAI says human attention is the bottleneck, so it built a system to let agents manage themselves"
-      ],
-      "summary": "OpenAI发布了新的Symphony规范，彻底改变了AI编码工作流程。该规范允许AI代理直接从Linear中拉取任务并自主运行，直到完成，而无需开发者同时监控多个Codex会话。这对于开发者而言，意味着可以将注意力从繁琐的监控中解放出来，专注于更高层次的工作。",
-      "category": "政策与监管",
-      "company": "OpenAI",
-      "score": 40,
-      "breakdown": {
-        "substance": 9,
+        "substance": 0,
         "importance": 5,
-        "readerValue": 9,
-        "timeliness": 6,
+        "readerValue": 7,
+        "timeliness": 10,
         "hotness": 0,
-        "credibility": 8,
+        "credibility": 6,
         "displayPenalty": 3
       },
       "isDuplicate": false,
       "isDisplayReady": true
     },
     {
-      "title": "OpenAI总裁Brockman庭审日记曝光：自曝“道德破产”与“赚钱真香”，回避提问暴露心虚",
+      "title": "OpenAI总裁日记曝光：马斯克案关键证据揭示内部利益博弈",
       "url": "https://www.theverge.com/ai-artificial-intelligence/923684/musk-brockman-altman-openai-trial",
       "snippet": "When the bromance sours, we all end up in court. | Image: Cath Virginia / The Verge, Getty Images The strongest witness for Elon Musk's case against OpenAI so far has been Greg Brockman's journal. Brockman himself is running as a close second. Brockman was called to the stand in a rather unusual way - he was cross-examined first, followed by a direct examination - and he had some serious high school debate club energy. There was a lot of \"I wouldn't characterize it that way,\" \"I wouldn't say it that way,\" and \"That sounds like something I wrote. Can I see it in context?\" When Musk's attorney, Steven Molo, read some of the evidence aloud, Brockman would pedantically correct him if he skipped a word, even if that word was \"a\" or \"the.\" Wh … Read the full story at The Verge.",
       "source": "The Verge AI",
@@ -424,15 +424,15 @@
       "coverageTitles": [
         "OpenAI’s president does ‘all the things,’ except answer a question"
       ],
-      "summary": "在马斯克诉OpenAI案中，总裁Greg Brockman的日记成为关键证据，他本人出庭时频繁使用“我不会那样描述”等回避措辞。日记显示，Brockman在2017年曾写道“从非营利组织偷走它是不对的”以及“转为营利性公司赚钱听起来很棒”，暴露其早期对非营利承诺的矛盾心态。",
+      "summary": "在马斯克诉OpenAI案中，最有力的证人竟是OpenAI总裁格雷格·布罗克曼的日记，他本人则表现回避。布罗克曼以非常规方式被传唤，先接受交叉询问再直接询问，回答时频繁使用“我不会那样描述”等措辞。此案凸显了AI公司内部决策记录的法律重要性，提醒开发者注意商业文件的法律效力。",
       "category": "政策与监管",
       "company": "OpenAI",
-      "score": 29,
+      "score": 27,
       "breakdown": {
         "substance": 0,
         "importance": 5,
         "readerValue": 4,
-        "timeliness": 10,
+        "timeliness": 8,
         "hotness": 0,
         "credibility": 7,
         "displayPenalty": 3
