@@ -1,43 +1,43 @@
 {
-  "date": "2026/5/4",
-  "title": "AI资讯每日精选-2026/5/4",
-  "generatedAt": "2026/5/4 09:06",
-  "count": 8,
+  "date": "2026/5/5",
+  "title": "AI资讯每日精选-2026/5/5",
+  "generatedAt": "2026/5/5 09:12",
+  "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-05-03.json",
+    "previousDayFile": "news-2026-05-04.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 6,
-      "overseasBeforeDedup": 5,
-      "domesticAfterDedup": 6,
-      "overseasAfterDedup": 5,
+      "domesticBeforeDedup": 10,
+      "overseasBeforeDedup": 23,
+      "domesticAfterDedup": 10,
+      "overseasAfterDedup": 23,
       "domesticHotGroups": 0,
       "overseasHotGroups": 0,
       "domesticSources": [
         {
           "source": "机器之心",
-          "ok": false,
-          "count": 0,
-          "error": "certificate has expired"
+          "ok": true,
+          "count": 4,
+          "error": null
         },
         {
           "source": "量子位",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         },
         {
           "source": "36氪",
           "ok": true,
-          "count": 1,
+          "count": 2,
           "error": null
         },
         {
           "source": "InfoQ",
           "ok": true,
-          "count": 3,
+          "count": 4,
           "error": null
         },
         {
@@ -63,7 +63,7 @@
         {
           "source": "Google AI Blog",
           "ok": true,
-          "count": 0,
+          "count": 2,
           "error": null
         },
         {
@@ -75,25 +75,25 @@
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 0,
+          "count": 3,
           "error": null
         },
         {
           "source": "The Decoder",
           "ok": true,
-          "count": 4,
+          "count": 5,
           "error": null
         },
         {
           "source": "VentureBeat AI",
           "ok": true,
-          "count": 0,
+          "count": 2,
           "error": null
         },
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 0,
+          "count": 2,
           "error": null
         },
         {
@@ -105,19 +105,19 @@
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 1,
+          "count": 2,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 0,
+          "count": 3,
           "error": null
         },
         {
@@ -129,7 +129,7 @@
         {
           "source": "AWS Machine Learning Blog",
           "ok": true,
-          "count": 0,
+          "count": 3,
           "error": null
         },
         {
@@ -154,124 +154,190 @@
       }
     },
     "summarize": {
-      "totalSummarized": 11
+      "totalSummarized": 33
     },
     "scoring": {
-      "totalInput": 11,
-      "totalScored": 10,
-      "strictScoredCount": 9,
-      "relaxedCandidateCount": 0,
+      "totalInput": 33,
+      "totalScored": 24,
+      "strictScoredCount": 22,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": true,
-      "weakSummaryCount": 3,
-      "selectedCandidateCount": 10,
+      "weakSummaryCount": 6,
+      "selectedCandidateCount": 24,
       "duplicateCount": 2,
-      "crossDayDuplicateCount": 2,
+      "crossDayDuplicateCount": 1,
       "lowQualityCount": 0,
-      "domesticAvailable": 6,
-      "overseasAvailable": 4,
+      "domesticAvailable": 8,
+      "overseasAvailable": 16,
       "sourceCount": {
-        "The Decoder": 3,
-        "量子位": 2,
-        "36氪": 1,
         "InfoQ": 3,
-        "The Verge AI": 1
+        "The Decoder": 4,
+        "机器之心": 3,
+        "36氪": 2,
+        "AWS Machine Learning Blog": 2,
+        "Google AI Blog": 2,
+        "Tech Xplore": 2,
+        "TechCrunch AI": 2,
+        "The Verge AI": 2,
+        "Wired AI": 1,
+        "MIT Technology Review": 1
       }
     },
     "display": {
-      "refinedCount": 10,
-      "previousDayRemovedCount": 1,
+      "refinedCount": 24,
+      "previousDayRemovedCount": 0,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
       "integrityRemovedCount": 1,
-      "postPreviousDayFilterCount": 8,
-      "displayReadyCount": 5,
-      "fallbackDisplayCount": 2,
+      "postPreviousDayFilterCount": 23,
+      "displayReadyCount": 17,
+      "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
-      "lastChanceDisplayCount": 1,
-      "removedWeakSummaries": 3,
-      "shortage": 6
+      "lastChanceDisplayCount": 0,
+      "removedWeakSummaries": 6,
+      "shortage": 0
     }
   },
   "articles": [
     {
-      "section": "政策与监管",
-      "title": "韩国政府豪掷5600亿韩元：AI独角兽Upstage获政策基金直投",
-      "company": "Upstage",
-      "url": "https://36kr.com/newsflashes/3793154827000832?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-05-03 17:00:29  +0800",
-      "summary": "韩国金融监管部门批准向AI初创公司Upstage投资5600亿韩元（约3.806亿美元），这是韩国国家增长基金的第二笔直接投资。Upstage成立于2020年，估值超1万亿韩元，专注于AI解决方案和大型语言模型开发。这笔投资表明韩国政府正加大对本土AI企业的扶持力度，对AI创业者和投资者而言，意味着政策资金正在向高潜力技术公司倾斜。",
-      "score": 43
-    },
-    {
-      "section": "技术与研究",
-      "title": "Sauce Labs推出AI智能体：用自然语言替代手动脚本，加速测试自动化",
-      "company": "Sauce Labs",
-      "url": "https://www.infoq.cn/article/8k6MQWB5duEDY8wulZYk?utm_source=rss&utm_medium=article",
+      "section": "产品发布与更新",
+      "title": "Cloudflare推出Code Mode：AI智能体API调用成本骤降99.9%",
+      "company": "Cloudflare",
+      "url": "https://www.infoq.cn/article/KSmLVsumhdf7OiLXYaj3?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Sun, 03 May 2026 13:37:48 GMT",
-      "summary": "Sauce Labs发布了AI驱动的测试创建智能体Sauce AI for Test Authoring，实现意图驱动测试。该平台允许用户用自然语言描述业务行为，自动生成可执行的测试套件，旨在解决测试编写耗时且依赖专业技能的瓶颈。这对DevOps团队意味着测试自动化门槛降低，非技术人员也能参与，但复杂场景下的可靠性和覆盖率仍需验证。",
-      "score": 40
+      "publishedAt": "Mon, 04 May 2026 09:00:00 GMT",
+      "summary": "Cloudflare推出了由Code Mode驱动的MCP服务器，旨在优化AI智能体访问API时的Token使用效率。该服务器仅暴露search()和execute()两个工具，通过生成并执行JavaScript代码来编排多API操作，将2500多个端点的Token占用从超过117万降至约1000，降幅达99.9%。",
+      "score": 50
     },
     {
       "section": "产品发布与更新",
-      "title": "构建分层Agentic RAG系统：用抽象基类实现多数据库自主纠错",
-      "company": "",
-      "url": "https://www.infoq.cn/article/zx2KoLNl2bz0zh8TuCZd?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Sun, 03 May 2026 13:24:35 GMT",
-      "summary": "本文介绍了一种分层的Agentic RAG系统设计，通过抽象基类BaseConnector定义数据库连接器接口，并实现了Snowflake和Redshift等具体连接器。系统支持多模态推理和自主纠错，能够处理不同数据库的方言差异。这对开发者意味着可以构建更智能、更鲁棒的检索增强生成应用，提升数据查询的准确性和灵活性。",
+      "title": "Gemini API 推出 Webhooks：告别轮询，让长时间任务不再卡顿",
+      "company": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+      "source": "Google AI Blog",
+      "publishedAt": "Mon, 04 May 2026 15:30:00 +0000",
+      "summary": "谷歌在Gemini API中推出了事件驱动的Webhooks功能。这是一种基于推送的通知系统，可消除低效的轮询需求。对于使用Gemini API处理长时间运行任务的开发者来说，这将显著降低延迟和系统摩擦。",
       "score": 36
     },
     {
-      "section": "技术与研究",
-      "title": "马斯克与奥特曼法庭互撕：OpenAI创始内幕全曝光，xAI竟用对手模型训练Grok",
-      "company": "OpenAI",
-      "url": "https://www.qbitai.com/2026/05/412080.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 03 May 2026 09:43:20 +0000",
-      "summary": "马斯克与奥特曼在OpenAI庭审中激烈交锋，马斯克声称没有自己就没有OpenAI，并贡献了声誉和公司名称。马斯克在作证时承认其AI公司xAI使用了OpenAI模型训练Grok。这场诉讼揭示了硅谷顶级创业者之间的利益纠葛，对AI行业合作与竞争规则具有警示意义。",
-      "score": 35
-    },
-    {
       "section": "产品发布与更新",
-      "title": "网红松鼠大叔用Claude造出爆款相机应用：DualShot Recorder一夜登顶App Store",
-      "company": "Derrick Downey Jr.",
-      "url": "https://www.theverge.com/tech/921690/dualshot-recorder-iphone-camera-app-derrick-downey-jr",
-      "source": "The Verge AI",
-      "publishedAt": "2026-05-03T13:00:00.000Z",
-      "summary": "一款名为DualShot Recorder的相机应用在发布后12小时内登顶App Store付费应用榜首，成为现象级产品。该应用由洛杉矶短视频创作者Derrick Downey Jr.借助AI工具Claude开发，解决了同时拍摄横竖屏视频的难题，利用iPhone全传感器读取功能实现无损双格式录制。",
-      "score": 27
-    },
-    {
-      "section": "技术与研究",
-      "title": "MIT 研究揭示语言模型规模扩展的可靠机制：叠加现象是关键",
-      "company": "MIT",
-      "url": "https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/",
-      "source": "The Decoder",
-      "publishedAt": "Sun, 03 May 2026 08:42:45 +0000",
-      "summary": "MIT研究人员对大型语言模型性能随规模扩大而可靠提升的现象提出了机制性解释。该解释归结为一种称为“叠加”的现象。这一发现有助于开发者和研究者更深入地理解语言模型的工作原理，为未来模型设计和优化提供理论指导。",
-      "score": 28
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "微软在VS Code提交中偷偷加入“Copilot共同作者”标签：即使AI功能已关闭，开发者仍被标记",
-      "company": "微软",
-      "url": "https://the-decoder.com/co-pilot-becomes-a-co-author-in-vs-code-without-being-asked/",
-      "source": "The Decoder",
-      "publishedAt": "Sun, 03 May 2026 09:31:15 +0000",
-      "summary": "微软在Visual Studio Code的Git提交中悄悄添加了“Co-Authored-by Copilot”标签，即使开发者完全关闭了AI功能，该标签仍会出现在提交记录中。",
-      "score": 26
-    },
-    {
-      "section": "技术与研究",
-      "title": "1930年代的AI模型开始学写代码：4.5%通过率背后的技术突破",
+      "title": "AgentCore优化预览：用生产轨迹自动诊断AI代理质量下滑",
       "company": "",
-      "url": "https://www.qbitai.com/2026/05/412896.html",
-      "source": "量子位",
-      "publishedAt": "Sun, 03 May 2026 09:42:55 +0000",
-      "summary": "一项研究显示，当微调训练数据扩展到约75K条trajectory（10亿token）时，一个1930年代的AI模型在SWE-bench-Verified上达到了4.5%的pass@1。",
-      "score": 48
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview/",
+      "source": "AWS Machine Learning Blog",
+      "publishedAt": "Mon, 04 May 2026 17:13:42 +0000",
+      "summary": "AI代理在发布后性能会因模型演变、用户行为变化和提示复用而逐渐下降。AgentCore优化功能通过生产轨迹生成推荐，并支持批量评估和A/B测试验证。对开发团队而言，这提供了一种持续监控和提升AI代理质量的方法。",
+      "score": 34
+    },
+    {
+      "section": "技术与研究",
+      "title": "Tri Dao团队推出SonicMoE：让混合专家模型推理速度飙升",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-04-2",
+      "source": "机器之心",
+      "publishedAt": "2026-05-04T22:45:00+08:00",
+      "summary": "普林斯顿大学Tri Dao和加州大学伯克利分校Ion Stoica领导的联合研究团队发布了SonicMoE，这是一种针对混合专家模型（MoE）的加速技术。该技术旨在提升AI模型的运行速度，其名称源自“索尼克”的快速特性。对于AI开发者和研究者而言，这意味着在保持模型性能的同时，可能获得更高效的推理和训练体验。",
+      "score": 40
+    },
+    {
+      "section": "技术与研究",
+      "title": "前字节员工再创业：三个AI agent协同作战，72小时冲上GitHub全球榜",
+      "company": "",
+      "url": "https://36kr.com/p/3794961189821698?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-04 20:41:30  +0800",
+      "summary": "一位前字节跳动员工在2021年9月离职后再次创业，开发了芦笋录屏和芦笋提词器两款产品。他通过让三个AI agent协同工作，在72小时内将项目推上GitHub全球榜单。这展示了个人创业者如何借助AI工具实现高效开发和快速获客。",
+      "score": 40
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI数据中心建设成银行压力测试：摩根大通等巨头急寻信贷风险转移路径",
+      "company": "摩根大通",
+      "url": "https://the-decoder.com/building-ai-data-centers-is-becoming-a-stress-test-for-banks/",
+      "source": "The Decoder",
+      "publishedAt": "Mon, 04 May 2026 13:21:07 +0000",
+      "summary": "大型银行正面临AI数据中心建设带来的巨额信贷风险，摩根大通、摩根士丹利等机构正在寻求将风险转移给其他投资者。例如，一笔380亿美元的贷款用于支持Oracle在得克萨斯州和威斯康星州的数据中心项目，摩根大通和三菱日联已花费数月试图分散这些贷款。这意味着AI基础设施融资模式正经历变革，银行风险集中度触及上限，投资者需警惕此类贷款的高风险特性。",
+      "score": 39
+    },
+    {
+      "section": "投融资与并购",
+      "title": "OpenAI新合资公司融资超40亿美元：专攻企业部署，19家顶级投资机构入局",
+      "company": "OpenAI",
+      "url": "https://the-decoder.com/openai-raises-over-4-billion-for-new-enterprise-deployment-venture/",
+      "source": "The Decoder",
+      "publishedAt": "Mon, 04 May 2026 14:02:18 +0000",
+      "summary": "OpenAI为一个名为“The Deployment Company”的新合资企业筹集了超过40亿美元的资金。这笔巨额融资将专门用于推动AI在企业端的部署和应用。对于希望大规模采用AI的企业来说，这预示着未来将有更专业、更强大的部署服务支持。",
+      "score": 50
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Anthropic联手华尔街巨头成立新公司：AI销售不止于技术本身",
+      "company": "Anthropic",
+      "url": "https://the-decoder.com/anthropic-and-openai-now-agree-on-one-thing-selling-ai-requires-a-lot-more-than-just-the-ai/",
+      "source": "The Decoder",
+      "publishedAt": "Mon, 04 May 2026 18:04:35 +0000",
+      "summary": "Anthropic与Blackstone、Hellman & Friedman及高盛合作，成立一家新的AI服务公司，旨在帮助中型企业采用Claude。这表明AI公司正意识到，成功销售AI需要提供超越技术本身的服务和支持。对于企业用户而言，这意味着未来获取AI解决方案将获得更全面的配套服务。",
+      "score": 31
+    },
+    {
+      "section": "政策与监管",
+      "title": "GitLab 推出固定费率代码审查：每次0.25美元，AI访问免费层与支出上限同步上线",
+      "company": "GitLab",
+      "url": "https://www.infoq.cn/article/6dk4tEWoShjhagRdyPsX?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Mon, 04 May 2026 12:12:58 GMT",
+      "summary": "GitLab 在最新版本中引入固定费率的代码审查服务，每次统一收费0.25美元，取代按Token计费模式，旨在降低团队跳过审查的动机。同时，新增硬性支出上限和预算控制功能，并面向免费用户开放基于积分的AI平台访问。这一调整意味着企业可更可预测地控制AI工具成本，但现有合同用户对积分模式取代席位许可表示担忧。",
+      "score": 43
+    },
+    {
+      "section": "政策与监管",
+      "title": "OpenAI 发布 Symphony 规范：让 AI 代理自主管理任务，解放开发者注意力",
+      "company": "OpenAI",
+      "url": "https://the-decoder.com/openai-says-human-attention-is-the-bottleneck-so-it-built-a-system-to-let-agents-manage-themselves/",
+      "source": "The Decoder",
+      "publishedAt": "Mon, 04 May 2026 09:35:53 +0000",
+      "summary": "OpenAI发布了新的Symphony规范，彻底改变了AI编码工作流程。该规范允许AI代理直接从Linear中拉取任务并自主运行，直到完成，而无需开发者同时监控多个Codex会话。这对于开发者而言，意味着可以将注意力从繁琐的监控中解放出来，专注于更高层次的工作。",
+      "score": 40
+    },
+    {
+      "section": "技术与研究",
+      "title": "谷歌四月AI大爆发：发布Gemini企业平台、第八代TPU及Gemma 4开源模型",
+      "company": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "source": "Google AI Blog",
+      "publishedAt": "Mon, 04 May 2026 17:00:00 +0000",
+      "summary": "谷歌在2026年4月发布了一系列AI更新。这些更新涵盖了多个AI技术领域的最新进展。对于关注AI前沿技术的开发者和企业而言，这些更新提供了谷歌在AI领域的最新布局方向。",
+      "score": 37
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI+数字孪生驱动本地化生产：元宇宙制造迎来新突破",
+      "company": "Meta",
+      "url": "https://techxplore.com/news/2026-05-borders-metaverse-envisions-ai-linked.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Mon, 04 May 2026 12:00:07 EDT",
+      "summary": "人工智能、3D/4D打印、数字孪生和先进机器人等新兴技术正加速变革多个行业。这些技术通过构建物理对象的虚拟表示，实现AI链接的本地化生产。对制造业企业而言，这意味着更高效的生产流程和更强的创新能力。",
+      "score": 34
+    },
+    {
+      "section": "技术与研究",
+      "title": "AI能写诗作画却数不清数？研究者正攻克视觉语言模型的计数难题",
+      "company": "",
+      "url": "https://techxplore.com/news/2026-05-ai.html",
+      "source": "Tech Xplore",
+      "publishedAt": "Mon, 04 May 2026 10:20:01 EDT",
+      "summary": "当前视觉语言模型在描述图像和识别对象方面表现出色，但在简单计数任务上却存在困难。霍夫应用技术大学信息系统的研究人员正致力于解决这一问题，相关论文已发布在arXiv预印本服务器上。这项研究有望提升AI在需要精确计数的应用场景中的可靠性。",
+      "score": 33
+    },
+    {
+      "section": "政策与监管",
+      "title": "OpenAI总裁Brockman庭审日记曝光：自曝“道德破产”与“赚钱真香”，回避提问暴露心虚",
+      "company": "OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/923684/musk-brockman-altman-openai-trial",
+      "source": "The Verge AI",
+      "publishedAt": "2026-05-04T23:49:33.000Z",
+      "summary": "在马斯克诉OpenAI案中，总裁Greg Brockman的日记成为关键证据，他本人出庭时频繁使用“我不会那样描述”等回避措辞。日记显示，Brockman在2017年曾写道“从非营利组织偷走它是不对的”以及“转为营利性公司赚钱听起来很棒”，暴露其早期对非营利承诺的矛盾心态。",
+      "score": 29
     }
   ]
 }
