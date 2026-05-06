@@ -1,0 +1,444 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "Java生态4月大更新：OpenJDK、Oracle、Open Liberty等多项关键补丁与新版发布",
+      "url": "https://www.infoq.cn/article/LhzkgpOBi5mPkYHoKgE5?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 05 May 2026 13:57:41 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "Java 近期资讯：OpenJDK、 Oracle 关键补丁更新、 Open Liberty、Testcontainers、IntelliJ IDEA"
+      ],
+      "summary": "2026年4月，Java生态迎来多项重要更新。BellSoft为Liberica JDK多个版本发布关键补丁，修复63个漏洞；Open Liberty 26.0.0.4 GA版本支持JDK 26并修复安全漏洞；Oracle发布JDK多个版本的关键补丁更新。这些更新增强了Java平台的安全性和功能，对Java开发者而言，及时升级可避免潜在安全风险并享受新特性。",
+      "category": "产品发布与更新",
+      "company": "BellSoft",
+      "score": 39,
+      "breakdown": {
+        "substance": 11,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "苹果iOS 27大变革：用户可自由选择第三方AI模型，打造个性化智能体验",
+      "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
+      "snippet": "SAP plans to buy German AI startup Prior Labs and invest heavily in it. It is also prohibiting customers' agents use to a select few like Nvidia's NemoClaw.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 05 May 2026 23:50:10 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "SAP bets $1.16B on 18-month-old German AI lab and says yes to NemoClaw"
+      ],
+      "summary": "苹果计划在最新的操作系统更新中，允许用户自行选择使用哪些第三方AI模型来完成各种任务。这一举措将使iOS 27成为一个AI模型的“选择你的冒险”平台。对普通用户而言，这意味着未来在苹果设备上使用AI服务将有更多个性化选择。",
+      "category": "产品发布与更新",
+      "company": "Apple",
+      "score": 34,
+      "breakdown": {
+        "substance": 9,
+        "importance": 0,
+        "readerValue": 4,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI首款硬件曝光：AI手机用智能体取代应用，2027年量产",
+      "url": "https://the-decoder.com/openais-first-hardware-play-might-be-a-phone-that-replaces-your-app-grid-with-an-agent-task-stream/",
+      "snippet": "OpenAI is reportedly planning its own AI smartphone, with chips from MediaTek and Qualcomm and manufacturing by Luxshare. According to analyst Ming-Chi Kuo, mass production could start as early as the first half of 2027, with up to 30 million devices shipped in the first two years. The form factor choice is also an admission that more experimental AI hardware isn't ready for the mainstream yet. The article OpenAI's first hardware play might be a phone that replaces your app grid with an agent task stream appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Tue, 05 May 2026 17:14:51 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "OpenAI's first hardware play might be a phone that replaces your app grid with an agent task stream"
+      ],
+      "summary": "据报道，OpenAI正计划推出自己的AI智能手机，将采用联发科和高通的芯片，并由立讯精密制造。分析师郭明錤预测，最早可能在2027年上半年开始量产，前两年出货量可达3000万部。该产品形态的选择也承认了更实验性的AI硬件尚未准备好进入主流市场。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 28,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "readerValue": 4,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "Agent-World：让智能体与环境协同进化，突破真实世界扩展瓶颈",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-05-3",
+      "snippet": "随着MCP、Agent Skills与各类Harness的快速发展，大模型能轻松调用成百上千种外部工具，但在多工具，具备复杂状态、长程交互的任务上仍有明显短板。尽管一系列环境扩展方法尝试复刻真实世界的交互环境（如订票系统，外卖平台），但仍受限于环境扩展的规模与真实性。除此以外，训练环境造得再多...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-05T22:27:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "Agent-World：扩展真实世界环境，让智能体与环境协同进化！"
+      ],
+      "summary": "一项名为Agent-World的研究提出了扩展真实世界环境的新方法，旨在解决大模型在多工具、复杂状态和长程交互任务中的短板。该方法通过提升环境扩展的规模与真实性，让智能体与环境协同进化。这对AI开发者意味着，未来智能体在订票系统、外卖平台等真实场景中的应用将更加高效和可靠。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 48,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "马斯克55万块GPU利用率仅11%：AI算力堆砌遭遇效率瓶颈",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-05-4",
+      "snippet": "编辑 | 泽南AI 时代堆 GPU，原来是这么个堆法？马斯克旗下的 xAI 目前 GPU 资源利用率只有大概 11%。相关报告指出，其 AI 软件栈的优化效果不尽如人意。近日，《The Information》的报道引发了人们的关注。目前，xAI 在其 Memphis 和 Colossus 数...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-05T22:29:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "大型挂机现场：马斯克的55万英伟达GPU，利用率才11%"
+      ],
+      "summary": "xAI的GPU资源利用率目前仅为11%，其AI软件栈优化效果不佳。据《The Information》报道，马斯克旗下公司在Memphis和Colossus数据中心部署了大量英伟达GPU，但实际使用效率远低于预期。这对AI行业意味着，单纯堆砌算力可能无法带来预期的性能提升，软件优化和资源管理同样关键。",
+      "category": "技术与研究",
+      "company": "xAI",
+      "score": 45,
+      "breakdown": {
+        "substance": 9,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "亚马逊Bedrock用Nova模型：智能识别隐藏联系方式，守护业务安全",
+      "url": "https://aws.amazon.com/blogs/machine-learning/intelligence-driven-message-defense-and-insights-using-amazon-bedrock/",
+      "snippet": "In this post, you will learn how you can use Amazon Nova Foundation Models in Amazon Bedrock to apply generative AI techniques for both business protection and enhancement. You can identify obvious and disguised attempts at direct contact while gaining valuable insights into customer sentiment and service improvement opportunities.",
+      "source": "AWS Machine Learning Blog",
+      "publishedAt": "Tue, 05 May 2026 15:20:54 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "AWS Machine Learning Blog"
+      ],
+      "coverageTitles": [
+        "Intelligence-driven message defense and insights using Amazon Bedrock"
+      ],
+      "summary": "亚马逊介绍如何通过Bedrock中的Nova基础模型应用生成式AI技术，实现业务防护与增强。该方案能识别显性和伪装的联系尝试，同时获取客户情感和服务改进机会的洞察。对企业而言，这意味着既能自动防御恶意消息，又能从交互数据中挖掘提升客户满意度的关键信息。",
+      "category": "技术与研究",
+      "company": "Amazon",
+      "score": 34,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "贝宝宣布裁员20%：聚焦AI研发，加速转型重组",
+      "url": "https://36kr.com/newsflashes/3797029568011270?f=rss",
+      "snippet": "据知情人士透露，贝宝计划在未来两至三年内裁员20%，共计4760个岗位。此次裁员属于公司最新战略部署：加快人工智能落地、压缩运营成本。贝宝首席执行官恩里克・洛雷斯周二向投资者表示，公司过往在技术平台投入不足，已落后于其他金融科技同行。他计划砍掉冗余管理层级，把更多资源投向人工智能研发，力争成为行业技术领军者。他表示：“贝宝需要聚焦主业，回归业务根本。”（新浪财经）",
+      "source": "36氪",
+      "publishedAt": "2026-05-06 07:57:17  +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "36氪"
+      ],
+      "coverageTitles": [
+        "贝宝推进转型重组，计划裁员 20%"
+      ],
+      "summary": "贝宝计划在未来两至三年内裁员20%，共计4760个岗位，作为公司最新战略部署的一部分。裁员旨在加快人工智能落地并压缩运营成本，首席执行官恩里克·洛雷斯表示公司过往在技术平台投入不足，已落后于其他金融科技同行。这意味着贝宝将砍掉冗余管理层级，把更多资源投向AI研发，力争成为行业技术领军者。",
+      "category": "技术与研究",
+      "company": "贝宝",
+      "score": 29,
+      "breakdown": {
+        "substance": 3,
+        "importance": 0,
+        "readerValue": 7,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "Anthropic 连发十款金融 AI 智能体：从投行到保险，模板化部署直击 IPO 收入目标",
+      "url": "https://the-decoder.com/anthropic-ships-ten-ai-agents-for-finance-as-both-it-and-openai-chase-ipo-ready-revenue/",
+      "snippet": "Anthropic has released ten preconfigured AI agents for the financial sector that are designed to automate typical tasks performed by investment banks, asset managers and insurers. According to the announcement, the templates cover areas such as research, risk and compliance checks and financial accounting. The article Anthropic ships ten AI agents for finance as both it and OpenAI chase IPO-ready revenue appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Tue, 05 May 2026 16:09:20 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Anthropic ships ten AI agents for finance as both it and OpenAI chase IPO-ready revenue"
+      ],
+      "summary": "Anthropic 发布了十款为金融行业预配置的 AI 智能体模板，覆盖投资银行、资产管理、保险等核心业务。这些模板包括“Pitch builder”自动生成目标公司名单和演示文稿、“KYC screener”准备合规升级材料，以及财务对账、月末结算等自动化工具。",
+      "category": "投融资与并购",
+      "company": "Anthropic",
+      "score": 45,
+      "breakdown": {
+        "substance": 12,
+        "importance": 5,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "SAP豪掷11.6亿美元收购Prior Labs：企业AI布局再升级",
+      "url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+      "snippet": "Enterprise AI has learned to generate. It has learned to reason. Now companies are asking the next question: How should AI act? Early agent systems have shown what’s possible, moving beyond simple prompts to take on more complex tasks. The next step is bringing those capabilities into enterprise environments — where agents must operate with […]",
+      "source": "NVIDIA Blog",
+      "publishedAt": "Tue, 05 May 2026 17:00:40 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "NVIDIA Blog"
+      ],
+      "coverageTitles": [
+        "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises"
+      ],
+      "summary": "SAP计划收购成立仅18个月的德国AI初创公司Prior Labs，并投入重金发展。同时，SAP将限制客户使用其他AI代理，仅允许少数如英伟达的NemoClaw。这一投资对创业者和投资人具有参考价值，显示了企业软件巨头对新兴AI技术的战略布局。",
+      "category": "投融资与并购",
+      "company": "SAP, Prior Labs, Nvidia",
+      "score": 40,
+      "breakdown": {
+        "substance": 12,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "ElevenLabs获贝莱德、英伟达等巨头投资，年收入突破5亿美元：语音AI成企业交互新基建",
+      "url": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/",
+      "snippet": "ElevenLabs reveals new investors, hits $500M ARR, and expands enterprise footprint as voice AI becomes a critical interface.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 05 May 2026 14:20:50 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors"
+      ],
+      "summary": "语音AI公司ElevenLabs在5亿美元D轮融资中新增贝莱德、英伟达、Salesforce Ventures等机构投资者，以及杰米·福克斯、伊娃·朗格利亚等个人投资者。公司年经常性收入已达5亿美元，并完成1亿美元二次要约收购，同时计划通过Robinhood Ventures向散户开放投资。",
+      "category": "投融资与并购",
+      "company": "ElevenLabs",
+      "score": 33,
+      "breakdown": {
+        "substance": 10,
+        "importance": 0,
+        "readerValue": 4,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "SAP连收两家AI公司：加速打造AI就绪数据平台",
+      "url": "https://the-decoder.com/saps-acquisition-spree-signals-the-enterprise-giant-is-serious-about-becoming-an-ai-ready-data-platform/",
+      "snippet": "SAP is acquiring open data lakehouse provider Dremio and AI company Prior Labs to expand its data platform. The article SAP's acquisition spree signals the enterprise giant is serious about becoming an AI-ready data platform appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Tue, 05 May 2026 12:46:39 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "SAP's acquisition spree signals the enterprise giant is serious about becoming an AI-ready data platform"
+      ],
+      "summary": "SAP正在收购开放数据湖仓提供商Dremio和AI公司Prior Labs，以扩展其数据平台能力。这一系列收购表明SAP正认真致力于成为AI就绪的数据平台。对企业用户而言，SAP的整合将简化AI应用的数据基础设施，降低开发门槛。",
+      "category": "投融资与并购",
+      "company": "SAP",
+      "score": 33,
+      "breakdown": {
+        "substance": 5,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "Java开发者新工具：MCP架构让LLM集成更简洁、可维护",
+      "url": "https://www.infoq.cn/article/2m5IC7x6SxwWlEls7VWz?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 05 May 2026 09:00:00 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "Java 世界的 MCP：将架构策略应用于 LLM 集成"
+      ],
+      "summary": "本文介绍了在Java环境中应用MCP（模型上下文协议）架构来集成大语言模型（LLM）的方法。通过一个系统监控分析示例，展示了如何使用MCP工具调用获取系统指标和近期事件，再通过Spring AI ChatClient调用OpenAI进行分析并生成运营建议。这对Java开发者意味着可以利用标准化的架构策略，更简洁、可维护地实现LLM驱动的自动化运维分析。",
+      "category": "政策与监管",
+      "company": "",
+      "score": 43,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Meta遭出版商集体诉讼：被指控盗用版权作品训练AI，或面临陪审团审判",
+      "url": "https://36kr.com/newsflashes/3797024101768192?f=rss",
+      "snippet": "多家出版商对Meta平台公司提起集体诉讼，指控其非法使用受版权保护的作品，用于搜集素材并训练旗下人工智能模型。此次发起诉讼的机构与个人包括：圣智学习（Cengage Learning）、阿歇特出版（Hachette）、麦克米伦（Macmillan）、麦格劳（McGraw）以及作家斯科特・图罗，他们要求启动陪审团庭审，审理此次版权侵权诉求。（新浪财经）",
+      "source": "36氪",
+      "publishedAt": "2026-05-06 07:44:43  +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "36氪"
+      ],
+      "coverageTitles": [
+        "多家出版商起诉Meta指控其盗用版权作品训练人工智能"
+      ],
+      "summary": "多家出版商对Meta提起集体诉讼，指控其非法使用受版权保护的作品训练人工智能模型。诉讼方包括圣智学习、阿歇特出版、麦克米伦、麦格劳以及作家斯科特·图罗。他们要求启动陪审团庭审审理版权侵权诉求，这凸显了AI训练数据版权问题的法律风险。",
+      "category": "政策与监管",
+      "company": "Meta",
+      "score": 34,
+      "breakdown": {
+        "substance": 6,
+        "importance": 5,
+        "readerValue": 4,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "货币基金收益率跌破1%：近三成产品收益低于1%，天弘余额宝降至0.973%",
+      "url": "https://36kr.com/newsflashes/3797037680483593?f=rss",
+      "snippet": "“五一”小长假期间，海外市场整体运行平稳。在北美云厂商资本开支继续扩张，及全球存储芯片龙头业绩全面超预期的提振下，与科技板块关联度较高的纳斯达克指数、韩国综合指数领涨全球大类资产。展望节后市场，券商策略研报认为，5月A股大概率延续震荡偏强的运行格局：一方面，海外科技股业绩超预期，产业趋势密集催化；另一方面，一季报显示A股业绩整体改善但景气度分化，AI产业链和资源能源板块仍是景气度高企的两大方向。后续，科技成长有望继续巩固市场核心主线的地位。（上证报）",
+      "source": "36氪",
+      "publishedAt": "2026-05-06 08:03:31  +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "36氪"
+      ],
+      "coverageTitles": [
+        "高景气驱动全球科技股共振，机构：5月A股科技主线有望延续"
+      ],
+      "summary": "货币基金收益率持续走低，截至2026年5月4日，全市场351只货币基金中已有97只产品的7日年化收益率低于1%，占比接近三成，较2025年末的15.52%显著上升。头部产品天弘余额宝收益率已降至0.973%。这主要与货币政策维持宽松、利率中枢整体下移有关，对投资者意味着现金管理类产品收益可能进一步下降。",
+      "category": "政策与监管",
+      "company": "",
+      "score": 30,
+      "breakdown": {
+        "substance": 11,
+        "importance": 0,
+        "readerValue": 0,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
