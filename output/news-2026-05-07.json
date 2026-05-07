@@ -1,0 +1,446 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "讯飞星火AI PPT进化：从模板凑合到商业级表达，开发者团队暴增229%",
+      "url": "https://www.qbitai.com/2026/05/413296.html",
+      "snippet": "实测讯飞智文Vision Agent",
+      "source": "量子位",
+      "publishedAt": "Wed, 06 May 2026 10:28:10 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "AI PPT，这次是真不用返工了"
+      ],
+      "summary": "科大讯飞公布数据显示，自去年5月讯飞星火发布以来，开放平台新增167.6万开发者团队，同比增幅229.1%。讯飞智文AI PPT采用“版式跟着内容长”的动态排版方案，能根据内容密度和信息层级自动匹配最佳排版，并支持联网搜索生成带信息支撑的大纲。这意味着AI PPT正从“能否生成”的1.0阶段跨入“商业级表达”的2.0阶段，对需要高效制作专业演示文稿的职场人士和创业者具有实用价值。",
+      "category": "产品发布与更新",
+      "company": "科大讯飞",
+      "score": 40,
+      "breakdown": {
+        "substance": 13,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Chrome 偷偷下载 4GB AI 模型：你的硬盘空间被吃了",
+      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+      "snippet": "Google Chrome may be taking up more of your storage than expected thanks to a large on-device AI model file that, in some cases, is being automatically downloaded to the browser's system folders. Users who have noticed unexplained drops in their available desktop device storage are now discovering that Chrome is installing a 4GB weights.bin file inside their browser directory when certain AI features are enabled. The weights.bin file in question is connected to Google's Gemini Nano AI model, which powers Chrome AI tools like scam detection, writing assistance, autofill, and suggestion features. As the Gemini Nano model is designed to run lo … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-05-06T10:13:09.000Z",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Verge AI"
+      ],
+      "coverageTitles": [
+        "Chrome’s AI features may be hogging 4GB of your computer storage"
+      ],
+      "summary": "谷歌Chrome浏览器因内置AI模型文件可能占用远超预期的存储空间。用户发现当启用某些AI功能时，Chrome会自动下载一个4GB的weights.bin文件到浏览器目录中。该文件与谷歌Gemini Nano AI模型相关，用于支持诈骗检测、写作辅助等AI工具，开发者需注意这一存储开销。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 37,
+      "breakdown": {
+        "substance": 6,
+        "importance": 6,
+        "readerValue": 9,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "苹果支付2.5亿美元和解Siri AI功能延迟诉讼：过度承诺的代价",
+      "url": "https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/",
+      "snippet": "Apple has agreed to pay $250 million to settle a class action lawsuit for overpromising the arrival of Siri's AI features.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 06 May 2026 15:12:49 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 2,
+      "coverageSources": [
+        "TechCrunch AI",
+        "Wired AI"
+      ],
+      "coverageTitles": [
+        "Apple to pay $250M to settle lawsuit over Siri’s delayed AI features",
+        "Apple Will Pay $250 Million to Settle Lawsuit Over Siri’s AI Features"
+      ],
+      "summary": "苹果公司同意支付2.5亿美元，以和解一桩关于Siri的AI功能过度承诺的集体诉讼。该诉讼指控苹果未能按时推出其宣传的AI特性。这一和解对苹果而言是一次财务和声誉上的代价，也提醒其他科技公司在宣传AI功能时需谨慎。",
+      "category": "产品发布与更新",
+      "company": "Apple",
+      "score": 30,
+      "breakdown": {
+        "substance": 7,
+        "importance": 0,
+        "readerValue": 0,
+        "timeliness": 8,
+        "hotness": 4,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "谷歌AI搜索升级：直接引用Reddit论坛，让用户一键获取真人经验",
+      "url": "https://www.theverge.com/tech/924993/google-ai-search-mode-overviews-update-reddit-links",
+      "snippet": "Want real human feedback related to your search results? Google’s AI now fetches it for you. | Image by Google / The Verge Google is updating its AI Search features to make it easier for users to find information from sources they know and trust. One of the more notable changes introduces \"a preview of perspectives\" from firsthand sources like social media, Reddit, and other web forums, effectively linking your search queries with online conversations around similar topics. Google says this update aims to address that \"people are increasingly seeking out advice from others\" when searching for information online. This will be relatable for anyone who's added \"Reddit\" to the end of Google Search terms to find experiences from real humans instead of SEO-optimized … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-05-06T13:00:30.000Z",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Verge AI"
+      ],
+      "coverageTitles": [
+        "Google&#8217;s AI search summaries will now quote Reddit"
+      ],
+      "summary": "谷歌正在更新其AI搜索功能，引入来自Reddit等论坛的“一手观点预览”，将搜索查询与相关在线讨论直接关联。新功能还会在AI回答旁显示更多相关链接，并附上创作者名称或社区名，方便用户快速识别信息来源。这一更新旨在满足用户搜索时越来越希望获得他人经验分享的需求，鼓励更多用户使用AI搜索而非传统网页结果。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 23,
+      "breakdown": {
+        "substance": 1,
+        "importance": 0,
+        "readerValue": 4,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "谷歌Gemma 4新招：多令牌预测技术让文本生成速度飙升3倍",
+      "url": "https://the-decoder.com/google-speeds-up-gemma-4-threefold-with-multi-token-prediction/",
+      "snippet": "Google has released multi-token prediction drafters for its Gemma 4 open model family that speed up text generation by up to three times. A small auxiliary model suggests several tokens at once while the main model checks them in a single pass. The article Google speeds up Gemma 4 threefold with multi-token prediction appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Wed, 06 May 2026 16:05:28 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Google speeds up Gemma 4 threefold with multi-token prediction"
+      ],
+      "summary": "谷歌为其Gemma 4开源模型系列发布了多令牌预测起草器，可将文本生成速度提升高达三倍。该技术通过一个小型辅助模型一次性建议多个令牌，主模型则单次验证。这对开发者而言，意味着可以更高效地利用Gemma 4模型进行文本生成任务。",
+      "category": "技术与研究",
+      "company": "Google",
+      "score": 46,
+      "breakdown": {
+        "substance": 11,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI联合AMD、英特尔等巨头开发新网络协议：解决AI超算瓶颈，功耗成本双降",
+      "url": "https://the-decoder.com/openai-built-a-networking-protocol-with-amd-broadcom-intel-microsoft-and-nvidia-to-fix-ai-supercomputer-bottlenecks/",
+      "snippet": "OpenAI has teamed up with AMD, Broadcom, Intel, Microsoft, and NVIDIA to develop MRC, an open source network protocol that sends data across hundreds of paths simultaneously between GPUs. Instead of three or four switch layers, MRC needs only two to connect over 100,000 GPUs, cutting both power and costs. The protocol is already running on OpenAI's Stargate supercomputer. The article OpenAI built a networking protocol with AMD, Broadcom, Intel, Microsoft, and NVIDIA to fix AI supercomputer bottlenecks appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Wed, 06 May 2026 19:13:21 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "OpenAI built a networking protocol with AMD, Broadcom, Intel, Microsoft, and NVIDIA to fix AI supercomputer bottlenecks"
+      ],
+      "summary": "OpenAI与AMD、博通、英特尔、微软和英伟达合作，发布了开源网络协议MRC。该协议通过多平面网络设计，仅需两层交换机即可连接超过10万个GPU，同时将数据包分散在数百条路径上传输，减少网络拥塞，并在微秒级时间内绕过故障。这意味着AI超算训练将更高效、更稳定，对开发者和企业而言，能降低大规模模型训练的成本和中断风险。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 53,
+      "breakdown": {
+        "substance": 11,
+        "importance": 10,
+        "readerValue": 11,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "SonarQube发布报告：AI生成代码占比42%，但96%开发者不信任，2026年最大挑战是谁敢拍板上线？",
+      "url": "https://www.infoq.cn/article/e40mGRhF9o583Yi3akyM?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 06 May 2026 11:53:30 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "42%的代码是AI写的，可96%的开发者不信它：谁敢拍板说“上线”？这成了2026年最大挑战"
+      ],
+      "summary": "SonarQube发布报告显示，AI生成的代码已占42%，但96%的开发者不信任AI代码的安全性。公司推出MCP服务器和专属检测规则，防范提示词注入等AI特有风险。这对开发者意味着，初级开发者需提升高阶技能，资深开发者应转型为AI调度者以保持竞争力。",
+      "category": "技术与研究",
+      "company": "SonarQube",
+      "score": 51,
+      "breakdown": {
+        "substance": 25,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Anthropic租用SpaceX数据中心22万GPU：Claude性能飙升，但政治立场引争议",
+      "url": "https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/",
+      "snippet": "Anthropic is taking over the full computing capacity of SpaceX's Colossus 1 data center, more than 300 megawatts and over 220,000 NVIDIA GPUs, expected to come online within a month. The company is also doubling rate limits for Claude Code and significantly raising API limits for Opus models. The article Anthropic taps SpaceX's Colossus-1 data center for 220,000 GPUs to power Claude appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Wed, 06 May 2026 18:42:24 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Anthropic taps SpaceX's Colossus-1 data center for 220,000 GPUs to power Claude"
+      ],
+      "summary": "Anthropic宣布租用SpaceX的Colossus-1数据中心，部署超过22万块NVIDIA GPU，总功率超300兆瓦，预计一个月内上线。作为交易一部分，Anthropic全面上调Claude使用限制：Claude Code五小时速率限制翻倍，Pro和Max账户高峰限速取消，Opus模型API限额大幅提升。",
+      "category": "技术与研究",
+      "company": "Anthropic",
+      "score": 49,
+      "breakdown": {
+        "substance": 10,
+        "importance": 5,
+        "readerValue": 13,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenChoreo 1.0 正式发布：AI 代理与 GitOps 加持，开源 Kubernetes 平台获 CNCF 接纳",
+      "url": "https://www.infoq.cn/article/D7iLJ0aKtBPgS3RCQlQr?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 06 May 2026 16:00:00 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "OpenChoreo 1.0 将 AI 代理和 GitOps 引入 Kubernetes 开发平台"
+      ],
+      "summary": "开源内部开发平台OpenChoreo发布1.0版本，并被纳入CNCF Sandbox项目。该版本引入组件类型和特性抽象层、MCP服务器使AI代理能创建部署组件、内置SRE代理利用LLM分析日志和指标，以及基于FluxCD的GitOps支持。",
+      "category": "技术与研究",
+      "company": "WSO2",
+      "score": 48,
+      "breakdown": {
+        "substance": 15,
+        "importance": 5,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "谷歌Gemma 4模型用“未来令牌”预测：速度飙升3倍，本地AI推理成本大降",
+      "url": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
+      "snippet": "Up to 3x the speed with no loss of quality—is it too good to be true?",
+      "source": "Ars Technica",
+      "publishedAt": "Wed, 06 May 2026 15:44:20 +0000",
+      "popularityScore": 2,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "Ars Technica"
+      ],
+      "coverageTitles": [
+        "Google's Gemma 4 AI models get 3x speed boost by predicting future tokens"
+      ],
+      "summary": "谷歌的Gemma 4 AI模型通过预测未来令牌技术，实现了高达3倍的速度提升，且不损失质量。这一突破可能大幅降低AI推理的延迟和成本。对开发者而言，这意味着更高效的模型部署和更快的响应时间，有望推动实时AI应用的普及。",
+      "category": "技术与研究",
+      "company": "Google",
+      "score": 45,
+      "breakdown": {
+        "substance": 11,
+        "importance": 5,
+        "readerValue": 13,
+        "timeliness": 8,
+        "hotness": 2,
+        "credibility": 8,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    },
+    {
+      "title": "OpenAI前CTO当庭作证：CEO Altman在AI安全标准上撒谎",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati",
+      "snippet": "Mira Murati, OpenAI's former CTO, has testified under oath that CEO Sam Altman lied to her about the safety standards for a new AI model. In a video deposition shown during the ongoing Musk v. Altman trial on Wednesday, Murati said Altman falsely stated that OpenAI's legal department determined a new AI model did not need to go through the company's deployment safety board. \"As you understand it, was Mr. Altman telling the truth when he made that statement to you?\" Murati was asked in the deposition. \"No,\" Murati said. Murati said that during her tenure at OpenAI, Altman made her work more difficult. Her criticism \"is completely management … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-05-06T17:55:53.000Z",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Verge AI"
+      ],
+      "coverageTitles": [
+        "Mira Murati tells the court that she couldn’t trust Sam Altman’s words"
+      ],
+      "summary": "OpenAI前首席技术官Mira Murati在法庭作证，称CEO Sam Altman在AI模型安全标准问题上对她撒谎。Murati在视频证词中表示，Altman谎称公司法律部门认定新AI模型无需经过部署安全委员会审查。这一证词出现在马斯克诉Altman的庭审中，凸显了OpenAI内部在AI安全治理上的严重分歧。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 35,
+      "breakdown": {
+        "substance": 3,
+        "importance": 5,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "Genesis AI 发布首个模型 GENE-26.5：全栈机器人 AI 新突破",
+      "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
+      "snippet": "Genesis AI, a startup that raised a $105 million seed round to build foundational AI for robotics, has unveiled its first model, GENE-26.5, but also a demo showcasing a set of robotic hands performing complex tasks.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 06 May 2026 15:46:38 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "Khosla-backed robotics startup Genesis AI has gone full stack, demo shows"
+      ],
+      "summary": "Genesis AI，一家获得1.05亿美元种子轮融资的机器人AI初创公司，发布了其首个模型GENE-26.5，并展示了机器人手执行复杂任务的演示。该模型旨在为机器人构建基础AI。这标志着机器人AI领域向全栈解决方案迈出重要一步，对机器人开发者和投资者具有参考价值。",
+      "category": "投融资与并购",
+      "company": "Genesis AI",
+      "score": 63,
+      "breakdown": {
+        "substance": 18,
+        "importance": 13,
+        "readerValue": 13,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "xAI转型云服务商：数据中心建设或成新主业，与Anthropic合作揭示战略转向",
+      "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
+      "snippet": "xAI's real business may be more about building data centers than training AI models.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 06 May 2026 21:32:55 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "Is xAI a neocloud now?"
+      ],
+      "summary": "xAI的实际业务重心正从AI模型研发转向数据中心建设，通过与Anthropic等客户合作出租算力，更像一家云服务商。其Grok使用量因图像生成问题大幅下滑，而数据中心规模远超自身需求，与SpaceX合并后加速IPO，需通过卖算力增加收入。这对AI行业意味着，算力基础设施正成为新竞争焦点，但xAI面临芯片供应商和需求波动的双重挤压，估值虽高却难比传统云巨头。",
+      "category": "投融资与并购",
+      "company": "xAI",
+      "score": 32,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "readerValue": 6,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "Barry Diller力挺Sam Altman：AGI临近，信任问题已无关紧要",
+      "url": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
+      "snippet": "Barry Diller defended OpenAI CEO Sam Altman, while warning that AGI remains an unpredictable force needing guardrails.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 06 May 2026 21:57:56 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "Barry Diller trusts Sam Altman. But ‘trust is irrelevant’ as AGI nears, he says."
+      ],
+      "summary": "Barry Diller公开为OpenAI CEO Sam Altman辩护，同时警告通用人工智能（AGI）仍是不可预测的力量，需要设置防护措施。Diller认为在AGI发展过程中，信任问题变得次要。这一观点引发对AI安全与治理的讨论，提醒开发者和政策制定者需提前规划AGI的监管框架。",
+      "category": "政策与监管",
+      "company": "OpenAI",
+      "score": 42,
+      "breakdown": {
+        "substance": 0,
+        "importance": 10,
+        "readerValue": 11,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
