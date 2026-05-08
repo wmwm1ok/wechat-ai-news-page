@@ -1,0 +1,445 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "Parloa 联手 OpenAI：用大模型打造更自然的企业级语音客服代理",
+      "url": "https://openai.com/index/parloa",
+      "snippet": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "source": "OpenAI News",
+      "publishedAt": "Thu, 07 May 2026 11:00:00 GMT",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "OpenAI News"
+      ],
+      "coverageTitles": [
+        "Parloa builds service agents customers want to talk to"
+      ],
+      "summary": "Parloa利用OpenAI模型驱动可扩展的语音AI客服代理，帮助企业设计、模拟和部署可靠的实时交互。这些代理能够处理客户对话，提升服务效率。对于企业客户而言，这意味着可以快速构建更自然、更智能的语音客服系统，改善用户体验。",
+      "category": "产品发布与更新",
+      "company": "Parloa",
+      "score": 40,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "readerValue": 13,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Anthropic为Claude推出“做梦”功能：让AI代理从错误中学习，跨会话自我进化",
+      "url": "https://the-decoder.com/claudes-new-dreaming-feature-is-designed-to-let-ai-agents-learn-from-their-mistakes/",
+      "snippet": "Anthropic is adding \"Dreaming\" to Claude Managed Agents, an asynchronous process that reviews past agent sessions, cleans up duplicate or outdated memory entries, and distills new insights. Along with Outcomes and Multiagent Orchestration, now both in public beta, the updates are designed to help AI agents learn and improve across sessions. The article Claude's new \"Dreaming\" feature is designed to let AI agents learn from their mistakes appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Thu, 07 May 2026 10:59:37 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Claude's new \"Dreaming\" feature is designed to let AI agents learn from their mistakes"
+      ],
+      "summary": "Anthropic为Claude Managed Agents新增“Dreaming”功能，这是一个异步过程，可回顾过去的代理会话、清理重复或过时的记忆条目并提炼新见解。同时，“Outcomes”和“Multiagent Orchestration”进入公开测试版。这些更新旨在帮助AI代理跨会话学习和改进，对开发者提升AI系统自主性和可靠性具有重要意义。",
+      "category": "产品发布与更新",
+      "company": "Anthropic",
+      "score": 36,
+      "breakdown": {
+        "substance": 5,
+        "importance": 5,
+        "readerValue": 9,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI推出“可信联系人”功能：当对话涉及自伤时，自动通知亲友介入",
+      "url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
+      "snippet": "The company is expanding its efforts to protect ChatGPT users in cases where conversations may turn to self-harm.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 07 May 2026 20:20:20 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "OpenAI introduces new ‘Trusted Contact’ safeguard for cases of possible self-harm"
+      ],
+      "summary": "OpenAI正在扩大保护ChatGPT用户的措施，推出了新的“可信联系人”安全功能。该功能专门针对对话可能涉及自我伤害的情况。此举旨在为可能处于心理危机中的用户提供额外的支持与保护。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 34,
+      "breakdown": {
+        "substance": 1,
+        "importance": 5,
+        "readerValue": 7,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "周衔团队蛰伏一年推出具身基础模型：烹饪、实验、弹琴全搞定，效果炸裂",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-07-8",
+      "snippet": "编辑｜Sia那个一句话生成完整物理世界、做出 GitHub 最大开源机器人项目的团队，又出手了。去年底，Genesis 物理引擎一经开源，就在机器人圈刷屏：只需要一句话，就能生成可交互的物理世界，用来训练和测试机器人。现在，这家创下硅谷具身智能赛道最大种子轮融资纪录（1.05 亿美元）的 Ge...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-07T14:29:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "蛰伏一年，周衔团队带来首个具身基础模型，烹饪做实验弹琴，效果炸场"
+      ],
+      "summary": "周衔团队在Genesis物理引擎开源一年后，发布了首个具身基础模型。该模型能够完成烹饪、做实验和弹琴等复杂任务，展示了强大的物理世界交互能力。这一成果对机器人领域开发者意味着更高效、更通用的具身智能训练工具。",
+      "category": "技术与研究",
+      "company": "周衔团队",
+      "score": 59,
+      "breakdown": {
+        "substance": 21,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Genesis团队发布GENE-26.5：20万小时数据训练，机器人1小时学会复杂技能",
+      "url": "https://www.qbitai.com/2026/05/413830.html",
+      "snippet": "1亿美元种子轮团队出手，单个模型解锁单手打蛋解魔方弹钢琴",
+      "source": "量子位",
+      "publishedAt": "Thu, 07 May 2026 06:43:41 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "一年磨一剑，今年最炸机器人Demo来了！"
+      ],
+      "summary": "Genesis团队发布了新一代机器人模型GENE-26.5，整合了模型、硬件、控制栈和仿真器。团队已收集超过20万小时多模态数据，demo中复杂技能只需不到1小时任务数据（约200个episode）即可学会。这意味着机器人训练效率大幅提升，对开发者和企业来说，大规模预训练加少量微调即可实现高性能。",
+      "category": "技术与研究",
+      "company": "Genesis",
+      "score": 57,
+      "breakdown": {
+        "substance": 24,
+        "importance": 0,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI API 推出实时语音模型：能推理、翻译和转录，语音交互更自然",
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "snippet": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+      "source": "OpenAI News",
+      "publishedAt": "Thu, 07 May 2026 10:00:00 GMT",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "OpenAI News"
+      ],
+      "coverageTitles": [
+        "Advancing voice intelligence with new models in the API"
+      ],
+      "summary": "OpenAI API推出了新的实时语音模型，这些模型能够进行推理、翻译和转录语音。它们旨在实现更自然、更智能的语音交互体验。对于开发者而言，这意味着可以更轻松地构建具备高级语音能力的应用，如实时翻译和语音助手。",
+      "category": "技术与研究",
+      "company": "OpenAI",
+      "score": 47,
+      "breakdown": {
+        "substance": 11,
+        "importance": 5,
+        "readerValue": 13,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "波士顿动力高管接连出走：人形机器人量产困局，月产仅4台",
+      "url": "https://www.qbitai.com/2026/05/413613.html",
+      "snippet": "IPO前夕，高管集体出走",
+      "source": "量子位",
+      "publishedAt": "Thu, 07 May 2026 06:29:17 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "波士顿动力泯然众人了，高管集体出走，机器人“量产”只能造4台"
+      ],
+      "summary": "波士顿动力被现代收购后，高管接连离职，CEO Robert Playter在任职32年后宣布退休。公司量产能力严重不足，虽然宣称年产3万台，但实际每月仅能生产4台Atlas机器人。这暴露了人形机器人从实验室走向规模化生产的巨大挑战，对行业投资者和从业者而言，技术突破与量产落地之间的鸿沟依然难以跨越。",
+      "category": "技术与研究",
+      "company": "波士顿动力",
+      "score": 45,
+      "breakdown": {
+        "substance": 15,
+        "importance": 5,
+        "readerValue": 7,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "7B小模型指挥GPT-5、Claude和Gemini：Sakana新框架刷新多项基准",
+      "url": "https://venturebeat.com/orchestration/how-sakana-trained-a-7b-model-to-orchestrate-gpt-5-claude-sonnet-4-and-gemini-2-5-pro",
+      "snippet": "Every LangChain pipeline your team hardcodes starts breaking the moment the query distribution shifts — and it always shifts. That bottleneck is what Sakana AI set out to eliminate. Researchers at Sakana AI have introduced the \"RL Conductor,\" a small language model trained via reinforcement learning to automatically orchestrate a diverse pool of worker LLMs. Conductor dynamically analyzes inputs, distributes labor among workers, and coordinates among agents. This automated coordination achieves state-of-the-art results on difficult reasoning and coding benchmarks, outperforming individual frontier models like GPT-5 and Claude Sonnet 4 as well as expensive human-designed multi-agent pipelines. It achieves this performance at a fraction of the cost and with fewer API calls than competitors. RL Conductor is the backbone of Fugu, Sakana AI’s commercial multi-agent orchestration service. The limitations of manual agentic frameworks Large language models have strong latent capabilities. But tapping these capabilities to their fullest is a great challenge. Extracting this level of performance relies heavily on manually designed agentic workflows, which serve as critical components in commercial AI products. However, these frameworks fall short because they are inherently rigid and constrained. In comments to VentureBeat, Yujin Tang, co-author of the paper, explained the exact breaking point of current systems: \"While using frameworks with hard-coded pipelines like LangChain and Mixture-of-Agents can work well for specific use cases … In production, an inherent bottleneck arises when targeting domains with large user bases with very heterogeneous demands.\" Tang noted that achieving \"real-world generalization in such heterogeneous applications inherently necessitates going beyond human-hardcoded designs.\" Another bottleneck for building robust agentic systems is that no single model is optimal for all tasks. Different models are fine-tuned to specialize in distinct domains. One model might excel at scientific reasoning, while another is superior at code generation, mathematical logic, or high-level planning. Because models have these varying characteristics and complementary skills, manually predicting and hard-coding the ideal combination of models for every query is practically impossible. An optimal agentic framework should be able to analyze a problem and delegate subtasks to the most suitable expert in the pool. Conducting an orchestra of agents The RL Conductor is designed to overcome the limitations of rigid, human-designed frameworks. As the name implies, it conducts an orchestra of agents by dividing challenging problems, delegating targeted subtasks, and designing communication topologies for a set of worker LLMs. Instead of relying on fixed code or static routing, the Conductor orchestrates these models by generating a customized workflow. For each step in the workflow, the model generates a natural language instruction for a specific aspect of the task, assigns an agent to carry it out, and defines an \"access list\" that dictates which past subtasks and responses from other agents are included in that agent's context. By defining everything in natural language, the Conductor builds flexible workflows tailored to each input. It can construct simple sequential chains, parallel tree structures, or even recursive loops depending on the problem's demands. Importantly, the model learns these strategies not by human design but through reinforcement learning (RL) and reward maximization. During training, the model is given a task, a pool of workers, and a reward signal based on whether its answer and output format are correct. Through a simple trial-and-error RL algorithm, the model organically discovers which combinations of instructions and communication structures yield the highest reward. As a result, it automatically adopts advanced orchestration strategies such as targeted prompt engineering, iterative refinement, and meta-prompt optimization. The model learns to dynamically adjust its strategies and leverage the distinct strengths of its worker agents without any human developer having to hard-code the process. Conductor in action To test RL Conductor in action, the researchers fine-tuned the 7-billion parameter Qwen2.5-7B using the framework. During training, the Conductor was tasked with designing agentic workflows of up to five steps. It was given access to a worker pool containing seven different models: three closed-source giants (Gemini 2.5 Pro, Claude-Sonnet-4, and GPT-5) and four open-source models (including DeepSeek-R1-Distill-Qwen-32B, Gemma3-27B, and Qwen3-32B). The team evaluated the Conductor across a variety of highly challenging benchmarks, comparing it against individual frontier models acting alone, self-reflection agents prompted iteratively to improve their own answers, and state-of-the-art multi-agent routing frameworks like MASRouter, Mixture-of-Agents (MoA), RouterDC, and Smoothie. The small 7B Conductor set new benchmarks across the board. It achieved an average score of 77.27% across all tasks, hitting 93.3% on the AIME25 math benchmark, 87.5% on GPQA-Diamond, and 83.93% on LiveCodeBench, according to the researchers. Remarkably, it achieved these marks while remaining highly efficient. While baseline models like MoA burned through 11,203 tokens per question, the Conductor used an average of just 1,820 tokens, taking an average of only three steps per workflow. A closer look at the experimental details shows exactly why the framework is so effective. The Conductor automatically learned to measure task difficulty. For simple factual recall questions, it often solved the problem in a single step or used a basic two-agent setup. However, for complex coding problems, it built extensive workflows involving up to four agents with dedicated planning, implementation, and verification phases. The Conductor also learned that frontier models have different strengths. To achieve record scores on coding benchmarks, the Conductor frequently assigned Gemini 2.5 Pro and Claude Sonnet 4 to act as high-level planners, and only brought in GPT-5 at the very end to write the final optimized code. In a particularly clever display of adaptability, the Conductor would sometimes completely abdicate its own role, handing the entire planning process over to Gemini 2.5 Pro and allowing it to dictate the subtasks for the rest of the pool. Beyond math and coding benchmarks, Sakana AI is already putting the underlying architecture to work in front-office utility. \"We have been using our Fugu models based on the Conductor technology internally for various practical enterprise applications: software development, deep research, strategy development, and even visual tasks like slide generation,\" Tang said. Bringing orchestration to the enterprise: Sakana Fugu While the 7B model described in the research paper was an exploratory blueprint and is not publicly available, Sakana AI has productized the Conductor framework into its flagship commercial AI product, Sakana Fugu. Now in its beta phase, Fugu serves as a multi-agent orchestration system accessible through a standard OpenAI-compatible API. Tang noted Fugu targets \"the large market of industries where AI adoption has yet to bring large productivity gains due to the generalization limitations of current hard-coded pipelines, such as finance and defense.\" For enterprise developers, this allows seamless integration into existing applications without the headache of managing multiple API keys or manually routing tasks across different vendors. Behind the API interface, Fugu automates complex collaboration topologies and role assignments across a pool of models. To support varying business needs, Sakana released two variants: Fugu Mini, built for low-latency operations, and Fugu Ultra, designed for maximum performance on demanding workloads. Addressing governance concerns around autonomous agents spinning up invisible workflows, Tang pointed out that the interpretability risks are functionally similar to the hidden reasoning traces of current top-tier closed APIs, and the system is managed with established guardrails to minimize hallucinations. For enterprise architects weighing when to deploy RL-orchestration versus traditional routing, the decision often comes down to engineering resources. \"We believe the absolute sweet spot comes whenever users and their teams feel they are spending a disproportionate amount of time guiding their underlying agents,\" Tang said. However, he cautioned that the framework isn't necessary for everything, noting that \"it's hard to beat the economic proposition of a local model running directly on the user's machine for simple queries.\" As the diversity of specialized open- and closed-source AI models continues to grow, static hardcoded pipelines will inevitably become obsolete. Looking ahead, this dynamic orchestration will likely extend beyond text and code environments. \"There is indeed a large potential to fill this gap with cross-modal Conductor frameworks becoming the foundation for more autonomous, self-coordinating physical AI systems,\" Tang said.",
+      "source": "VentureBeat AI",
+      "publishedAt": "Thu, 07 May 2026 21:23:46 GMT",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "VentureBeat AI"
+      ],
+      "coverageTitles": [
+        "How Sakana trained a 7B model to orchestrate GPT-5, Claude Sonnet 4 and Gemini 2.5 Pro",
+        "Meet ZAYA1-8B, a super efficient, open reasoning model trained on AMD Instinct MI300 GPUs"
+      ],
+      "summary": "Sakana AI发布了一种名为Conductor的强化学习框架，用仅7B参数的模型协调GPT-5、Claude和Gemini等前沿模型，在多个基准测试中创下新纪录。该框架在AIME25数学基准上达到93.3%，在GPQA-Diamond上达到87.5%，在LiveCodeBench上达到83.93%，平均得分77.27%。",
+      "category": "技术与研究",
+      "company": "Sakana",
+      "score": 42,
+      "breakdown": {
+        "substance": 13,
+        "importance": 6,
+        "readerValue": 8,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    },
+    {
+      "title": "Anthropic新研究：先教AI价值观再训练行为，错误率从54%降至7%",
+      "url": "https://the-decoder.com/ai-models-follow-their-values-better-when-they-first-learn-why-those-values-matter/",
+      "snippet": "A study from the Anthropic Fellows Program shows that training a language model on texts explaining its intended values before teaching it specific behaviors leads to significantly better adherence to those values, even in situations never encountered during training. The article AI models follow their values better when they first learn why those values matter appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Thu, 07 May 2026 12:45:25 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "AI models follow their values better when they first learn why those values matter"
+      ],
+      "summary": "Anthropic研究员发现，在训练语言模型具体行为前，先让其学习解释预期价值观的文本，能显著提升模型对价值观的遵循程度，即使在未训练过的场景中也表现更好。这项研究为AI对齐提供了新思路。对开发者来说，这意味着在模型训练中引入价值观教育环节，可能比直接约束行为更有效。",
+      "category": "技术与研究",
+      "company": "Anthropic",
+      "score": 38,
+      "breakdown": {
+        "substance": 3,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Vitest 4.1 发布：测试标签、原生 Node.js 执行与 AI 代理报告器，让测试更灵活高效",
+      "url": "https://www.infoq.cn/article/qE1NsAwbZbmUEalctUC4?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 07 May 2026 17:00:00 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "Vitest 4.1：测试标签、原生 Node.js 执行和 AI 代理报告器"
+      ],
+      "summary": "Vitest 4.1 版本正式发布，新增测试标签、实验性原生 Node.js 执行模式以及 AI 代理报告器等功能。测试标签允许开发者对测试分组并应用共享配置，原生 Node.js 执行模式可提升启动速度并更接近生产环境。该版本对开发者意味着更灵活的测试管理和性能优化，同时保持了与 Jest 的兼容性。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 36,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "DeepMind入股EVE Online开发商：在黑暗森林中训练AI，多智能体博弈将迎来新突破",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-07-13",
+      "snippet": "编辑 | 泽南、杜伟这是个神奇的跨界合作。本周四，Google DeepMind 宣布他们又要开始打游戏了。这次目标还是全世界最硬核的那一款：EVE Online。Google DeepMind 此次宣布收购著名科幻在线角色扮演游戏《EVE Online》（星战前夜）开发商的部分股权，并表示将...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-07T17:53:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "DeepMind入股硬核网游EVE，要让AI学「黑暗森林」"
+      ],
+      "summary": "Google DeepMind宣布收购《EVE Online》开发商部分股权，双方将合作研究AI在复杂游戏环境中的学习能力。该游戏以其硬核玩法和玩家驱动的“黑暗森林”式社交著称，AI将进入更开放、更具竞争性的虚拟世界。此举可能推动多智能体协作与博弈技术的突破，为开发者探索真实世界中的AI决策提供新思路。",
+      "category": "技术与研究",
+      "company": "DeepMind",
+      "score": 35,
+      "breakdown": {
+        "substance": 0,
+        "importance": 10,
+        "readerValue": 7,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "月之暗面估值飙至200亿美元：开源AI需求激增，20亿美元融资背后年收入已超2亿",
+      "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
+      "snippet": "Moonshot's annualized recurring revenue topped $200 million in April, driven by rapid growth in paid subscriptions and API usage.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 07 May 2026 13:44:25 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "China’s Moonshot AI raises $2B at $20B valuation as demand for open source AI skyrockets"
+      ],
+      "summary": "中国AI公司月之暗面（Moonshot AI）在开源AI需求激增的背景下，以200亿美元估值融资20亿美元。其年化经常性收入在4月份已超过2亿美元，增长动力来自付费订阅和API使用的快速增加。这标志着中国AI市场在开源领域的强劲势头和资本的高度关注。",
+      "category": "投融资与并购",
+      "company": "月之暗面",
+      "score": 62,
+      "breakdown": {
+        "substance": 21,
+        "importance": 13,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "像素绽放PixelBloom完成C轮融资：AI办公Agent“小方同学”全面出海，剑指北美高客单价市场",
+      "url": "https://www.infoq.cn/article/h4r6TOAQgYjEa7Dg0gig?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 07 May 2026 18:24:31 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "像素绽放PixelBloom 宣布完成C轮融资，全面发力AI办公解决方案Agent"
+      ],
+      "summary": "像素绽放PixelBloom宣布完成C轮融资，将全面发力AI办公解决方案Agent。其核心产品“小方同学”已实现端到端方案交付，能自主完成需求拆解、素材调用和结果输出，覆盖20余种语言。这标志着AI办公工具从“生成内容”向“交付方案”的质变，对企业和创业者意味着AI办公正进入深度行业化、可规模化商用的新阶段。",
+      "category": "投融资与并购",
+      "company": "像素绽放PixelBloom",
+      "score": 41,
+      "breakdown": {
+        "substance": 9,
+        "importance": 0,
+        "readerValue": 11,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "云知声发布山海知医慧保大模型：聚焦高价值Token，重构医保与商保智能审核",
+      "url": "https://www.qbitai.com/2026/05/413782.html",
+      "snippet": "推动医疗保障体系迈入数智化新阶段",
+      "source": "量子位",
+      "publishedAt": "Thu, 07 May 2026 06:35:28 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "云知声山海知医慧保大模型重磅发布：以高密智能深耕高价值场景，重构医疗保险数智新生态"
+      ],
+      "summary": "云知声正式发布山海知医慧保大模型，聚焦医保基金监管与商业保险风控两大高价值场景。该模型在医保政策问答能力提升12.6%，编码对齐准确率提升23.4%，业务处理能力提升6.5%，基础医疗能力提升5.4%。通过高效数据训练与精准路由技术，模型实现高密度智能输出，按有效业务价值计费，帮助险企与医保局降低算力成本，提升AI投入产出比。",
+      "category": "政策与监管",
+      "company": "云知声",
+      "score": 58,
+      "breakdown": {
+        "substance": 27,
+        "importance": 0,
+        "readerValue": 13,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}

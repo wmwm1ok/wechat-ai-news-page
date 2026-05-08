@@ -1,37 +1,37 @@
 {
-  "date": "2026/5/7",
-  "title": "AI资讯每日精选-2026/5/7",
-  "generatedAt": "2026/5/7 08:05",
+  "date": "2026/5/8",
+  "title": "AI资讯每日精选-2026/5/8",
+  "generatedAt": "2026/5/8 08:09",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-05-06.json",
+    "previousDayFile": "news-2026-05-07.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 19,
-      "overseasBeforeDedup": 25,
-      "domesticAfterDedup": 19,
-      "overseasAfterDedup": 24,
+      "domesticBeforeDedup": 22,
+      "overseasBeforeDedup": 28,
+      "domesticAfterDedup": 22,
+      "overseasAfterDedup": 26,
       "domesticHotGroups": 0,
-      "overseasHotGroups": 1,
+      "overseasHotGroups": 0,
       "domesticSources": [
         {
           "source": "机器之心",
           "ok": true,
-          "count": 4,
+          "count": 6,
           "error": null
         },
         {
           "source": "量子位",
           "ok": true,
-          "count": 3,
+          "count": 5,
           "error": null
         },
         {
           "source": "36氪",
           "ok": true,
-          "count": 3,
+          "count": 5,
           "error": null
         },
         {
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 4,
+          "count": 1,
           "error": null
         }
       ],
@@ -51,7 +51,7 @@
         {
           "source": "OpenAI News",
           "ok": true,
-          "count": 0,
+          "count": 3,
           "error": null
         },
         {
@@ -63,31 +63,31 @@
         {
           "source": "Google AI Blog",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
           "source": "NVIDIA Blog",
           "ok": true,
-          "count": 0,
+          "count": 2,
           "error": null
         },
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 6,
+          "count": 4,
           "error": null
         },
         {
           "source": "The Decoder",
           "ok": true,
-          "count": 7,
+          "count": 8,
           "error": null
         },
         {
           "source": "VentureBeat AI",
           "ok": true,
-          "count": 0,
+          "count": 4,
           "error": null
         },
         {
@@ -105,13 +105,13 @@
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 5,
+          "count": 2,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 3,
+          "count": 1,
           "error": null
         },
         {
@@ -129,7 +129,7 @@
         {
           "source": "AWS Machine Learning Blog",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
@@ -154,33 +154,34 @@
       }
     },
     "summarize": {
-      "totalSummarized": 43
+      "totalSummarized": 48
     },
     "scoring": {
-      "totalInput": 43,
-      "totalScored": 34,
-      "strictScoredCount": 34,
-      "relaxedCandidateCount": 0,
+      "totalInput": 48,
+      "totalScored": 31,
+      "strictScoredCount": 31,
+      "relaxedCandidateCount": 1,
       "relaxedUsedForSelection": false,
       "weakSummaryCount": 5,
       "selectedCandidateCount": 31,
-      "duplicateCount": 2,
+      "duplicateCount": 5,
       "crossDayDuplicateCount": 1,
       "lowQualityCount": 0,
-      "domesticAvailable": 13,
-      "overseasAvailable": 21,
+      "domesticAvailable": 16,
+      "overseasAvailable": 15,
       "sourceCount": {
+        "TechCrunch AI": 2,
+        "36氪": 3,
+        "机器之心": 4,
+        "量子位": 5,
+        "OpenAI News": 2,
+        "VentureBeat AI": 1,
+        "InfoQ": 4,
         "The Decoder": 5,
-        "量子位": 2,
-        "The Verge AI": 5,
-        "InfoQ": 3,
-        "TechCrunch AI": 4,
-        "Ars Technica": 1,
-        "机器之心": 2,
+        "The Verge AI": 1,
+        "Wired AI": 1,
         "Tech Xplore": 2,
-        "雷锋网": 3,
-        "Wired AI": 2,
-        "36氪": 2
+        "AWS Machine Learning Blog": 1
       }
     },
     "display": {
@@ -188,155 +189,155 @@
       "previousDayRemovedCount": 0,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 2,
-      "postPreviousDayFilterCount": 29,
-      "displayReadyCount": 23,
+      "integrityRemovedCount": 0,
+      "postPreviousDayFilterCount": 31,
+      "displayReadyCount": 26,
       "fallbackDisplayCount": 0,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 6,
+      "removedWeakSummaries": 5,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "讯飞星火AI PPT进化：从模板凑合到商业级表达，开发者团队暴增229%",
-      "company": "科大讯飞",
-      "url": "https://www.qbitai.com/2026/05/413296.html",
-      "source": "量子位",
-      "publishedAt": "Wed, 06 May 2026 10:28:10 +0000",
-      "summary": "科大讯飞公布数据显示，自去年5月讯飞星火发布以来，开放平台新增167.6万开发者团队，同比增幅229.1%。讯飞智文AI PPT采用“版式跟着内容长”的动态排版方案，能根据内容密度和信息层级自动匹配最佳排版，并支持联网搜索生成带信息支撑的大纲。这意味着AI PPT正从“能否生成”的1.0阶段跨入“商业级表达”的2.0阶段，对需要高效制作专业演示文稿的职场人士和创业者具有实用价值。",
+      "title": "Parloa 联手 OpenAI：用大模型打造更自然的企业级语音客服代理",
+      "company": "Parloa",
+      "url": "https://openai.com/index/parloa",
+      "source": "OpenAI News",
+      "publishedAt": "Thu, 07 May 2026 11:00:00 GMT",
+      "summary": "Parloa利用OpenAI模型驱动可扩展的语音AI客服代理，帮助企业设计、模拟和部署可靠的实时交互。这些代理能够处理客户对话，提升服务效率。对于企业客户而言，这意味着可以快速构建更自然、更智能的语音客服系统，改善用户体验。",
       "score": 40
     },
     {
       "section": "产品发布与更新",
-      "title": "Chrome 偷偷下载 4GB AI 模型：你的硬盘空间被吃了",
-      "company": "Google",
-      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
-      "source": "The Verge AI",
-      "publishedAt": "2026-05-06T10:13:09.000Z",
-      "summary": "谷歌Chrome浏览器因内置AI模型文件可能占用远超预期的存储空间。用户发现当启用某些AI功能时，Chrome会自动下载一个4GB的weights.bin文件到浏览器目录中。该文件与谷歌Gemini Nano AI模型相关，用于支持诈骗检测、写作辅助等AI工具，开发者需注意这一存储开销。",
-      "score": 37
+      "title": "Anthropic为Claude推出“做梦”功能：让AI代理从错误中学习，跨会话自我进化",
+      "company": "Anthropic",
+      "url": "https://the-decoder.com/claudes-new-dreaming-feature-is-designed-to-let-ai-agents-learn-from-their-mistakes/",
+      "source": "The Decoder",
+      "publishedAt": "Thu, 07 May 2026 10:59:37 +0000",
+      "summary": "Anthropic为Claude Managed Agents新增“Dreaming”功能，这是一个异步过程，可回顾过去的代理会话、清理重复或过时的记忆条目并提炼新见解。同时，“Outcomes”和“Multiagent Orchestration”进入公开测试版。这些更新旨在帮助AI代理跨会话学习和改进，对开发者提升AI系统自主性和可靠性具有重要意义。",
+      "score": 36
     },
     {
       "section": "产品发布与更新",
-      "title": "苹果支付2.5亿美元和解Siri AI功能延迟诉讼：过度承诺的代价",
-      "company": "Apple",
-      "url": "https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 06 May 2026 15:12:49 +0000",
-      "summary": "苹果公司同意支付2.5亿美元，以和解一桩关于Siri的AI功能过度承诺的集体诉讼。该诉讼指控苹果未能按时推出其宣传的AI特性。这一和解对苹果而言是一次财务和声誉上的代价，也提醒其他科技公司在宣传AI功能时需谨慎。",
-      "score": 30
-    },
-    {
-      "section": "技术与研究",
-      "title": "谷歌Gemma 4新招：多令牌预测技术让文本生成速度飙升3倍",
-      "company": "Google",
-      "url": "https://the-decoder.com/google-speeds-up-gemma-4-threefold-with-multi-token-prediction/",
-      "source": "The Decoder",
-      "publishedAt": "Wed, 06 May 2026 16:05:28 +0000",
-      "summary": "谷歌为其Gemma 4开源模型系列发布了多令牌预测起草器，可将文本生成速度提升高达三倍。该技术通过一个小型辅助模型一次性建议多个令牌，主模型则单次验证。这对开发者而言，意味着可以更高效地利用Gemma 4模型进行文本生成任务。",
-      "score": 46
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI联合AMD、英特尔等巨头开发新网络协议：解决AI超算瓶颈，功耗成本双降",
+      "title": "OpenAI推出“可信联系人”功能：当对话涉及自伤时，自动通知亲友介入",
       "company": "OpenAI",
-      "url": "https://the-decoder.com/openai-built-a-networking-protocol-with-amd-broadcom-intel-microsoft-and-nvidia-to-fix-ai-supercomputer-bottlenecks/",
-      "source": "The Decoder",
-      "publishedAt": "Wed, 06 May 2026 19:13:21 +0000",
-      "summary": "OpenAI与AMD、博通、英特尔、微软和英伟达合作，发布了开源网络协议MRC。该协议通过多平面网络设计，仅需两层交换机即可连接超过10万个GPU，同时将数据包分散在数百条路径上传输，减少网络拥塞，并在微秒级时间内绕过故障。这意味着AI超算训练将更高效、更稳定，对开发者和企业而言，能降低大规模模型训练的成本和中断风险。",
-      "score": 53
+      "url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 07 May 2026 20:20:20 +0000",
+      "summary": "OpenAI正在扩大保护ChatGPT用户的措施，推出了新的“可信联系人”安全功能。该功能专门针对对话可能涉及自我伤害的情况。此举旨在为可能处于心理危机中的用户提供额外的支持与保护。",
+      "score": 34
     },
     {
       "section": "技术与研究",
-      "title": "SonarQube发布报告：AI生成代码占比42%，但96%开发者不信任，2026年最大挑战是谁敢拍板上线？",
-      "company": "SonarQube",
-      "url": "https://www.infoq.cn/article/e40mGRhF9o583Yi3akyM?utm_source=rss&utm_medium=article",
+      "title": "周衔团队蛰伏一年推出具身基础模型：烹饪、实验、弹琴全搞定，效果炸裂",
+      "company": "周衔团队",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-07-8",
+      "source": "机器之心",
+      "publishedAt": "2026-05-07T14:29:00+08:00",
+      "summary": "周衔团队在Genesis物理引擎开源一年后，发布了首个具身基础模型。该模型能够完成烹饪、做实验和弹琴等复杂任务，展示了强大的物理世界交互能力。这一成果对机器人领域开发者意味着更高效、更通用的具身智能训练工具。",
+      "score": 59
+    },
+    {
+      "section": "技术与研究",
+      "title": "Genesis团队发布GENE-26.5：20万小时数据训练，机器人1小时学会复杂技能",
+      "company": "Genesis",
+      "url": "https://www.qbitai.com/2026/05/413830.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 07 May 2026 06:43:41 +0000",
+      "summary": "Genesis团队发布了新一代机器人模型GENE-26.5，整合了模型、硬件、控制栈和仿真器。团队已收集超过20万小时多模态数据，demo中复杂技能只需不到1小时任务数据（约200个episode）即可学会。这意味着机器人训练效率大幅提升，对开发者和企业来说，大规模预训练加少量微调即可实现高性能。",
+      "score": 57
+    },
+    {
+      "section": "技术与研究",
+      "title": "OpenAI API 推出实时语音模型：能推理、翻译和转录，语音交互更自然",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "source": "OpenAI News",
+      "publishedAt": "Thu, 07 May 2026 10:00:00 GMT",
+      "summary": "OpenAI API推出了新的实时语音模型，这些模型能够进行推理、翻译和转录语音。它们旨在实现更自然、更智能的语音交互体验。对于开发者而言，这意味着可以更轻松地构建具备高级语音能力的应用，如实时翻译和语音助手。",
+      "score": 47
+    },
+    {
+      "section": "投融资与并购",
+      "title": "月之暗面估值飙至200亿美元：开源AI需求激增，20亿美元融资背后年收入已超2亿",
+      "company": "月之暗面",
+      "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 07 May 2026 13:44:25 +0000",
+      "summary": "中国AI公司月之暗面（Moonshot AI）在开源AI需求激增的背景下，以200亿美元估值融资20亿美元。其年化经常性收入在4月份已超过2亿美元，增长动力来自付费订阅和API使用的快速增加。这标志着中国AI市场在开源领域的强劲势头和资本的高度关注。",
+      "score": 62
+    },
+    {
+      "section": "投融资与并购",
+      "title": "像素绽放PixelBloom完成C轮融资：AI办公Agent“小方同学”全面出海，剑指北美高客单价市场",
+      "company": "像素绽放PixelBloom",
+      "url": "https://www.infoq.cn/article/h4r6TOAQgYjEa7Dg0gig?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Wed, 06 May 2026 11:53:30 GMT",
-      "summary": "SonarQube发布报告显示，AI生成的代码已占42%，但96%的开发者不信任AI代码的安全性。公司推出MCP服务器和专属检测规则，防范提示词注入等AI特有风险。这对开发者意味着，初级开发者需提升高阶技能，资深开发者应转型为AI调度者以保持竞争力。",
-      "score": 51
-    },
-    {
-      "section": "投融资与并购",
-      "title": "Genesis AI 发布首个模型 GENE-26.5：全栈机器人 AI 新突破",
-      "company": "Genesis AI",
-      "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 06 May 2026 15:46:38 +0000",
-      "summary": "Genesis AI，一家获得1.05亿美元种子轮融资的机器人AI初创公司，发布了其首个模型GENE-26.5，并展示了机器人手执行复杂任务的演示。该模型旨在为机器人构建基础AI。这标志着机器人AI领域向全栈解决方案迈出重要一步，对机器人开发者和投资者具有参考价值。",
-      "score": 63
-    },
-    {
-      "section": "投融资与并购",
-      "title": "xAI转型云服务商：数据中心建设或成新主业，与Anthropic合作揭示战略转向",
-      "company": "xAI",
-      "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 06 May 2026 21:32:55 +0000",
-      "summary": "xAI的实际业务重心正从AI模型研发转向数据中心建设，通过与Anthropic等客户合作出租算力，更像一家云服务商。其Grok使用量因图像生成问题大幅下滑，而数据中心规模远超自身需求，与SpaceX合并后加速IPO，需通过卖算力增加收入。这对AI行业意味着，算力基础设施正成为新竞争焦点，但xAI面临芯片供应商和需求波动的双重挤压，估值虽高却难比传统云巨头。",
-      "score": 32
+      "publishedAt": "Thu, 07 May 2026 18:24:31 GMT",
+      "summary": "像素绽放PixelBloom宣布完成C轮融资，将全面发力AI办公解决方案Agent。其核心产品“小方同学”已实现端到端方案交付，能自主完成需求拆解、素材调用和结果输出，覆盖20余种语言。这标志着AI办公工具从“生成内容”向“交付方案”的质变，对企业和创业者意味着AI办公正进入深度行业化、可规模化商用的新阶段。",
+      "score": 41
     },
     {
       "section": "政策与监管",
-      "title": "Barry Diller力挺Sam Altman：AGI临近，信任问题已无关紧要",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 06 May 2026 21:57:56 +0000",
-      "summary": "Barry Diller公开为OpenAI CEO Sam Altman辩护，同时警告通用人工智能（AGI）仍是不可预测的力量，需要设置防护措施。Diller认为在AGI发展过程中，信任问题变得次要。这一观点引发对AI安全与治理的讨论，提醒开发者和政策制定者需提前规划AGI的监管框架。",
-      "score": 42
+      "title": "云知声发布山海知医慧保大模型：聚焦高价值Token，重构医保与商保智能审核",
+      "company": "云知声",
+      "url": "https://www.qbitai.com/2026/05/413782.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 07 May 2026 06:35:28 +0000",
+      "summary": "云知声正式发布山海知医慧保大模型，聚焦医保基金监管与商业保险风控两大高价值场景。该模型在医保政策问答能力提升12.6%，编码对齐准确率提升23.4%，业务处理能力提升6.5%，基础医疗能力提升5.4%。通过高效数据训练与精准路由技术，模型实现高密度智能输出，按有效业务价值计费，帮助险企与医保局降低算力成本，提升AI投入产出比。",
+      "score": 58
     },
     {
       "section": "技术与研究",
-      "title": "Anthropic租用SpaceX数据中心22万GPU：Claude性能飙升，但政治立场引争议",
-      "company": "Anthropic",
-      "url": "https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/",
-      "source": "The Decoder",
-      "publishedAt": "Wed, 06 May 2026 18:42:24 +0000",
-      "summary": "Anthropic宣布租用SpaceX的Colossus-1数据中心，部署超过22万块NVIDIA GPU，总功率超300兆瓦，预计一个月内上线。作为交易一部分，Anthropic全面上调Claude使用限制：Claude Code五小时速率限制翻倍，Pro和Max账户高峰限速取消，Opus模型API限额大幅提升。",
-      "score": 49
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "谷歌AI搜索升级：直接引用Reddit论坛，让用户一键获取真人经验",
-      "company": "Google",
-      "url": "https://www.theverge.com/tech/924993/google-ai-search-mode-overviews-update-reddit-links",
-      "source": "The Verge AI",
-      "publishedAt": "2026-05-06T13:00:30.000Z",
-      "summary": "谷歌正在更新其AI搜索功能，引入来自Reddit等论坛的“一手观点预览”，将搜索查询与相关在线讨论直接关联。新功能还会在AI回答旁显示更多相关链接，并附上创作者名称或社区名，方便用户快速识别信息来源。这一更新旨在满足用户搜索时越来越希望获得他人经验分享的需求，鼓励更多用户使用AI搜索而非传统网页结果。",
-      "score": 23
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenChoreo 1.0 正式发布：AI 代理与 GitOps 加持，开源 Kubernetes 平台获 CNCF 接纳",
-      "company": "WSO2",
-      "url": "https://www.infoq.cn/article/D7iLJ0aKtBPgS3RCQlQr?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 06 May 2026 16:00:00 GMT",
-      "summary": "开源内部开发平台OpenChoreo发布1.0版本，并被纳入CNCF Sandbox项目。该版本引入组件类型和特性抽象层、MCP服务器使AI代理能创建部署组件、内置SRE代理利用LLM分析日志和指标，以及基于FluxCD的GitOps支持。",
-      "score": 48
-    },
-    {
-      "section": "技术与研究",
-      "title": "谷歌Gemma 4模型用“未来令牌”预测：速度飙升3倍，本地AI推理成本大降",
-      "company": "Google",
-      "url": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
-      "source": "Ars Technica",
-      "publishedAt": "Wed, 06 May 2026 15:44:20 +0000",
-      "summary": "谷歌的Gemma 4 AI模型通过预测未来令牌技术，实现了高达3倍的速度提升，且不损失质量。这一突破可能大幅降低AI推理的延迟和成本。对开发者而言，这意味着更高效的模型部署和更快的响应时间，有望推动实时AI应用的普及。",
+      "title": "波士顿动力高管接连出走：人形机器人量产困局，月产仅4台",
+      "company": "波士顿动力",
+      "url": "https://www.qbitai.com/2026/05/413613.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 07 May 2026 06:29:17 +0000",
+      "summary": "波士顿动力被现代收购后，高管接连离职，CEO Robert Playter在任职32年后宣布退休。公司量产能力严重不足，虽然宣称年产3万台，但实际每月仅能生产4台Atlas机器人。这暴露了人形机器人从实验室走向规模化生产的巨大挑战，对行业投资者和从业者而言，技术突破与量产落地之间的鸿沟依然难以跨越。",
       "score": 45
     },
     {
       "section": "技术与研究",
-      "title": "OpenAI前CTO当庭作证：CEO Altman在AI安全标准上撒谎",
-      "company": "OpenAI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati",
-      "source": "The Verge AI",
-      "publishedAt": "2026-05-06T17:55:53.000Z",
-      "summary": "OpenAI前首席技术官Mira Murati在法庭作证，称CEO Sam Altman在AI模型安全标准问题上对她撒谎。Murati在视频证词中表示，Altman谎称公司法律部门认定新AI模型无需经过部署安全委员会审查。这一证词出现在马斯克诉Altman的庭审中，凸显了OpenAI内部在AI安全治理上的严重分歧。",
+      "title": "7B小模型指挥GPT-5、Claude和Gemini：Sakana新框架刷新多项基准",
+      "company": "Sakana",
+      "url": "https://venturebeat.com/orchestration/how-sakana-trained-a-7b-model-to-orchestrate-gpt-5-claude-sonnet-4-and-gemini-2-5-pro",
+      "source": "VentureBeat AI",
+      "publishedAt": "Thu, 07 May 2026 21:23:46 GMT",
+      "summary": "Sakana AI发布了一种名为Conductor的强化学习框架，用仅7B参数的模型协调GPT-5、Claude和Gemini等前沿模型，在多个基准测试中创下新纪录。该框架在AIME25数学基准上达到93.3%，在GPQA-Diamond上达到87.5%，在LiveCodeBench上达到83.93%，平均得分77.27%。",
+      "score": 42
+    },
+    {
+      "section": "技术与研究",
+      "title": "Anthropic新研究：先教AI价值观再训练行为，错误率从54%降至7%",
+      "company": "Anthropic",
+      "url": "https://the-decoder.com/ai-models-follow-their-values-better-when-they-first-learn-why-those-values-matter/",
+      "source": "The Decoder",
+      "publishedAt": "Thu, 07 May 2026 12:45:25 +0000",
+      "summary": "Anthropic研究员发现，在训练语言模型具体行为前，先让其学习解释预期价值观的文本，能显著提升模型对价值观的遵循程度，即使在未训练过的场景中也表现更好。这项研究为AI对齐提供了新思路。对开发者来说，这意味着在模型训练中引入价值观教育环节，可能比直接约束行为更有效。",
+      "score": 38
+    },
+    {
+      "section": "技术与研究",
+      "title": "Vitest 4.1 发布：测试标签、原生 Node.js 执行与 AI 代理报告器，让测试更灵活高效",
+      "company": "",
+      "url": "https://www.infoq.cn/article/qE1NsAwbZbmUEalctUC4?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 07 May 2026 17:00:00 GMT",
+      "summary": "Vitest 4.1 版本正式发布，新增测试标签、实验性原生 Node.js 执行模式以及 AI 代理报告器等功能。测试标签允许开发者对测试分组并应用共享配置，原生 Node.js 执行模式可提升启动速度并更接近生产环境。该版本对开发者意味着更灵活的测试管理和性能优化，同时保持了与 Jest 的兼容性。",
+      "score": 36
+    },
+    {
+      "section": "技术与研究",
+      "title": "DeepMind入股EVE Online开发商：在黑暗森林中训练AI，多智能体博弈将迎来新突破",
+      "company": "DeepMind",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-07-13",
+      "source": "机器之心",
+      "publishedAt": "2026-05-07T17:53:00+08:00",
+      "summary": "Google DeepMind宣布收购《EVE Online》开发商部分股权，双方将合作研究AI在复杂游戏环境中的学习能力。该游戏以其硬核玩法和玩家驱动的“黑暗森林”式社交著称，AI将进入更开放、更具竞争性的虚拟世界。此举可能推动多智能体协作与博弈技术的突破，为开发者探索真实世界中的AI决策提供新思路。",
       "score": 35
     }
   ]
