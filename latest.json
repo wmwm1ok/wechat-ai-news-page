@@ -1,18 +1,18 @@
 {
-  "date": "2026/5/8",
-  "title": "AI资讯每日精选-2026/5/8",
-  "generatedAt": "2026/5/8 08:09",
-  "count": 14,
+  "date": "2026/5/9",
+  "title": "AI资讯每日精选-2026/5/9",
+  "generatedAt": "2026/5/9 08:05",
+  "count": 8,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-05-07.json",
+    "previousDayFile": "news-2026-05-08.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
       "domesticBeforeDedup": 22,
-      "overseasBeforeDedup": 28,
+      "overseasBeforeDedup": 20,
       "domesticAfterDedup": 22,
-      "overseasAfterDedup": 26,
+      "overseasAfterDedup": 20,
       "domesticHotGroups": 0,
       "overseasHotGroups": 0,
       "domesticSources": [
@@ -25,7 +25,7 @@
         {
           "source": "量子位",
           "ok": true,
-          "count": 5,
+          "count": 1,
           "error": null
         },
         {
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 1,
+          "count": 5,
           "error": null
         }
       ],
@@ -51,7 +51,7 @@
         {
           "source": "OpenAI News",
           "ok": true,
-          "count": 3,
+          "count": 1,
           "error": null
         },
         {
@@ -63,25 +63,25 @@
         {
           "source": "Google AI Blog",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
           "source": "NVIDIA Blog",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         },
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 4,
+          "count": 1,
           "error": null
         },
         {
           "source": "The Decoder",
           "ok": true,
-          "count": 8,
+          "count": 6,
           "error": null
         },
         {
@@ -93,25 +93,25 @@
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
           "source": "Ars Technica",
           "ok": true,
-          "count": 1,
+          "count": 2,
           "error": null
         },
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 2,
+          "count": 1,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
@@ -129,19 +129,19 @@
         {
           "source": "AWS Machine Learning Blog",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
           "source": "Apple ML Research",
-          "ok": true,
+          "ok": false,
           "count": 0,
-          "error": null
+          "error": "Invalid character in entity name\nLine: 36\nColumn: 67\nChar:  "
         },
         {
           "source": "Berkeley AI Research",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         }
       ],
@@ -154,191 +154,131 @@
       }
     },
     "summarize": {
-      "totalSummarized": 48
+      "totalSummarized": 42
     },
     "scoring": {
-      "totalInput": 48,
-      "totalScored": 31,
-      "strictScoredCount": 31,
-      "relaxedCandidateCount": 1,
-      "relaxedUsedForSelection": false,
-      "weakSummaryCount": 5,
-      "selectedCandidateCount": 31,
-      "duplicateCount": 5,
+      "totalInput": 42,
+      "totalScored": 29,
+      "strictScoredCount": 18,
+      "relaxedCandidateCount": 11,
+      "relaxedUsedForSelection": true,
+      "weakSummaryCount": 21,
+      "selectedCandidateCount": 29,
+      "duplicateCount": 2,
       "crossDayDuplicateCount": 1,
-      "lowQualityCount": 0,
-      "domesticAvailable": 16,
-      "overseasAvailable": 15,
+      "lowQualityCount": 1,
+      "domesticAvailable": 11,
+      "overseasAvailable": 18,
       "sourceCount": {
-        "TechCrunch AI": 2,
-        "36氪": 3,
-        "机器之心": 4,
-        "量子位": 5,
-        "OpenAI News": 2,
-        "VentureBeat AI": 1,
-        "InfoQ": 4,
-        "The Decoder": 5,
-        "The Verge AI": 1,
-        "Wired AI": 1,
+        "InfoQ": 3,
+        "36氪": 5,
+        "雷锋网": 2,
+        "机器之心": 1,
+        "VentureBeat AI": 4,
         "Tech Xplore": 2,
-        "AWS Machine Learning Blog": 1
+        "The Decoder": 6,
+        "Ars Technica": 2,
+        "OpenAI News": 1,
+        "The Verge AI": 1,
+        "TechCrunch AI": 1,
+        "MIT Technology Review": 1
       }
     },
     "display": {
-      "refinedCount": 31,
+      "refinedCount": 29,
       "previousDayRemovedCount": 0,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 0,
-      "postPreviousDayFilterCount": 31,
-      "displayReadyCount": 26,
-      "fallbackDisplayCount": 0,
+      "integrityRemovedCount": 5,
+      "postPreviousDayFilterCount": 24,
+      "displayReadyCount": 7,
+      "fallbackDisplayCount": 1,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 5,
-      "shortage": 0
+      "removedWeakSummaries": 17,
+      "shortage": 6
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "Parloa 联手 OpenAI：用大模型打造更自然的企业级语音客服代理",
-      "company": "Parloa",
-      "url": "https://openai.com/index/parloa",
-      "source": "OpenAI News",
-      "publishedAt": "Thu, 07 May 2026 11:00:00 GMT",
-      "summary": "Parloa利用OpenAI模型驱动可扩展的语音AI客服代理，帮助企业设计、模拟和部署可靠的实时交互。这些代理能够处理客户对话，提升服务效率。对于企业客户而言，这意味着可以快速构建更自然、更智能的语音客服系统，改善用户体验。",
+      "title": "海光DCU完成与混元Hy3 preview大模型的深度适配",
+      "company": "",
+      "url": "https://36kr.com/newsflashes/3800615656741890?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-08 20:26:10  +0800",
+      "summary": "36氪获悉，近日，海光信息完成深算3号DCU与腾讯混元Hy3 preview大模型的深度适配。据了解，腾讯混元Hy3 preview是腾讯最新发布的大模型版本，具备295B总参数规模，并支持256K超长上下文，在复杂推理、Agent能力和代码生成等方面实现提升。",
+      "score": 51
+    },
+    {
+      "section": "投融资与并购",
+      "title": "DeepSeek拟募资最高500亿元",
+      "company": "",
+      "url": "https://36kr.com/newsflashes/3800574318976257?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-08 19:44:07  +0800",
+      "summary": "36氪获悉，江波龙公告，公司已推出UFS4.1、mSSD、超薄ePOP5x、超薄ePOP4x等多款适配于端侧AI设备的新型存储产品。其中，以UFS4.1为代表的旗舰存储产品已实现规模化出货；ePOP4x产品已经批量应用于北美智能穿戴科技巨头的智能穿戴设备中。据报道，DeepSeek拟募资最高500亿元，这将成为中国人工智能公司有史以来最大的一轮融资。",
       "score": 40
     },
     {
-      "section": "产品发布与更新",
-      "title": "Anthropic为Claude推出“做梦”功能：让AI代理从错误中学习，跨会话自我进化",
-      "company": "Anthropic",
-      "url": "https://the-decoder.com/claudes-new-dreaming-feature-is-designed-to-let-ai-agents-learn-from-their-mistakes/",
-      "source": "The Decoder",
-      "publishedAt": "Thu, 07 May 2026 10:59:37 +0000",
-      "summary": "Anthropic为Claude Managed Agents新增“Dreaming”功能，这是一个异步过程，可回顾过去的代理会话、清理重复或过时的记忆条目并提炼新见解。同时，“Outcomes”和“Multiagent Orchestration”进入公开测试版。这些更新旨在帮助AI代理跨会话学习和改进，对开发者提升AI系统自主性和可靠性具有重要意义。",
-      "score": 36
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "OpenAI推出“可信联系人”功能：当对话涉及自伤时，自动通知亲友介入",
-      "company": "OpenAI",
-      "url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 07 May 2026 20:20:20 +0000",
-      "summary": "OpenAI正在扩大保护ChatGPT用户的措施，推出了新的“可信联系人”安全功能。该功能专门针对对话可能涉及自我伤害的情况。此举旨在为可能处于心理危机中的用户提供额外的支持与保护。",
-      "score": 34
-    },
-    {
       "section": "技术与研究",
-      "title": "周衔团队蛰伏一年推出具身基础模型：烹饪、实验、弹琴全搞定，效果炸裂",
-      "company": "周衔团队",
-      "url": "https://www.jiqizhixin.com/articles/2026-05-07-8",
+      "title": "ICLR 2026 I 英伟达 & 普渡大学用agent闭环实现文生3D",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-08-10",
       "source": "机器之心",
-      "publishedAt": "2026-05-07T14:29:00+08:00",
-      "summary": "周衔团队在Genesis物理引擎开源一年后，发布了首个具身基础模型。该模型能够完成烹饪、做实验和弹琴等复杂任务，展示了强大的物理世界交互能力。这一成果对机器人领域开发者意味着更高效、更通用的具身智能训练工具。",
-      "score": 59
+      "publishedAt": "2026-05-08T17:15:00+08:00",
+      "summary": "大模型正在进入 “Agent 时代”大模型正在从 “会说会写” 走向 “会规划、会执行” 的 Agent 时代。对具身智能来说，这种变化尤其关键。",
+      "score": 33
     },
     {
       "section": "技术与研究",
-      "title": "Genesis团队发布GENE-26.5：20万小时数据训练，机器人1小时学会复杂技能",
-      "company": "Genesis",
-      "url": "https://www.qbitai.com/2026/05/413830.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 07 May 2026 06:43:41 +0000",
-      "summary": "Genesis团队发布了新一代机器人模型GENE-26.5，整合了模型、硬件、控制栈和仿真器。团队已收集超过20万小时多模态数据，demo中复杂技能只需不到1小时任务数据（约200个episode）即可学会。这意味着机器人训练效率大幅提升，对开发者和企业来说，大规模预训练加少量微调即可实现高性能。",
-      "score": 57
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI API 推出实时语音模型：能推理、翻译和转录，语音交互更自然",
-      "company": "OpenAI",
-      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-      "source": "OpenAI News",
-      "publishedAt": "Thu, 07 May 2026 10:00:00 GMT",
-      "summary": "OpenAI API推出了新的实时语音模型，这些模型能够进行推理、翻译和转录语音。它们旨在实现更自然、更智能的语音交互体验。对于开发者而言，这意味着可以更轻松地构建具备高级语音能力的应用，如实时翻译和语音助手。",
-      "score": 47
-    },
-    {
-      "section": "投融资与并购",
-      "title": "月之暗面估值飙至200亿美元：开源AI需求激增，20亿美元融资背后年收入已超2亿",
-      "company": "月之暗面",
-      "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Thu, 07 May 2026 13:44:25 +0000",
-      "summary": "中国AI公司月之暗面（Moonshot AI）在开源AI需求激增的背景下，以200亿美元估值融资20亿美元。其年化经常性收入在4月份已超过2亿美元，增长动力来自付费订阅和API使用的快速增加。这标志着中国AI市场在开源领域的强劲势头和资本的高度关注。",
-      "score": 62
-    },
-    {
-      "section": "投融资与并购",
-      "title": "像素绽放PixelBloom完成C轮融资：AI办公Agent“小方同学”全面出海，剑指北美高客单价市场",
-      "company": "像素绽放PixelBloom",
-      "url": "https://www.infoq.cn/article/h4r6TOAQgYjEa7Dg0gig?utm_source=rss&utm_medium=article",
+      "title": "Agent时代需要怎样的分布式基础设施",
+      "company": "",
+      "url": "https://www.infoq.cn/article/qYQfpT8BaIPEkbeSXwzu?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Thu, 07 May 2026 18:24:31 GMT",
-      "summary": "像素绽放PixelBloom宣布完成C轮融资，将全面发力AI办公解决方案Agent。其核心产品“小方同学”已实现端到端方案交付，能自主完成需求拆解、素材调用和结果输出，覆盖20余种语言。这标志着AI办公工具从“生成内容”向“交付方案”的质变，对企业和创业者意味着AI办公正进入深度行业化、可规模化商用的新阶段。",
-      "score": 41
+      "publishedAt": "Fri, 08 May 2026 11:34:36 GMT",
+      "summary": "同时，Agent 一直在往处理更复杂任务的方向演进，使得当前 Agent 对单个请求的执行处理过程变得越来越长，且过程中有大量的外部工具调用。一旦在生产环境中遇到请求处理过程中的实例故障，此时针对该请求可能已执行了几轮 Agent loop，且部分外部工具调用已经生效。",
+      "score": 33
+    },
+    {
+      "section": "技术与研究",
+      "title": "美股大型科技股盘前多数上涨，英伟达涨超1%",
+      "company": "",
+      "url": "https://36kr.com/newsflashes/3800638528986369?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-08 20:49:26  +0800",
+      "summary": "36氪获悉，美股大型科技股盘前多数上涨，截至发稿，特斯拉、苹果、Arm、英伟达涨超1%，亚马逊涨0.36%，Meta涨0.19%；微软跌0.21%，谷歌跌0.07%。",
+      "score": 32
     },
     {
       "section": "政策与监管",
-      "title": "云知声发布山海知医慧保大模型：聚焦高价值Token，重构医保与商保智能审核",
-      "company": "云知声",
-      "url": "https://www.qbitai.com/2026/05/413782.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 07 May 2026 06:35:28 +0000",
-      "summary": "云知声正式发布山海知医慧保大模型，聚焦医保基金监管与商业保险风控两大高价值场景。该模型在医保政策问答能力提升12.6%，编码对齐准确率提升23.4%，业务处理能力提升6.5%，基础医疗能力提升5.4%。通过高效数据训练与精准路由技术，模型实现高密度智能输出，按有效业务价值计费，帮助险企与医保局降低算力成本，提升AI投入产出比。",
-      "score": 58
-    },
-    {
-      "section": "技术与研究",
-      "title": "波士顿动力高管接连出走：人形机器人量产困局，月产仅4台",
-      "company": "波士顿动力",
-      "url": "https://www.qbitai.com/2026/05/413613.html",
-      "source": "量子位",
-      "publishedAt": "Thu, 07 May 2026 06:29:17 +0000",
-      "summary": "波士顿动力被现代收购后，高管接连离职，CEO Robert Playter在任职32年后宣布退休。公司量产能力严重不足，虽然宣称年产3万台，但实际每月仅能生产4台Atlas机器人。这暴露了人形机器人从实验室走向规模化生产的巨大挑战，对行业投资者和从业者而言，技术突破与量产落地之间的鸿沟依然难以跨越。",
-      "score": 45
-    },
-    {
-      "section": "技术与研究",
-      "title": "7B小模型指挥GPT-5、Claude和Gemini：Sakana新框架刷新多项基准",
-      "company": "Sakana",
-      "url": "https://venturebeat.com/orchestration/how-sakana-trained-a-7b-model-to-orchestrate-gpt-5-claude-sonnet-4-and-gemini-2-5-pro",
-      "source": "VentureBeat AI",
-      "publishedAt": "Thu, 07 May 2026 21:23:46 GMT",
-      "summary": "Sakana AI发布了一种名为Conductor的强化学习框架，用仅7B参数的模型协调GPT-5、Claude和Gemini等前沿模型，在多个基准测试中创下新纪录。该框架在AIME25数学基准上达到93.3%，在GPQA-Diamond上达到87.5%，在LiveCodeBench上达到83.93%，平均得分77.27%。",
-      "score": 42
-    },
-    {
-      "section": "技术与研究",
-      "title": "Anthropic新研究：先教AI价值观再训练行为，错误率从54%降至7%",
-      "company": "Anthropic",
-      "url": "https://the-decoder.com/ai-models-follow-their-values-better-when-they-first-learn-why-those-values-matter/",
-      "source": "The Decoder",
-      "publishedAt": "Thu, 07 May 2026 12:45:25 +0000",
-      "summary": "Anthropic研究员发现，在训练语言模型具体行为前，先让其学习解释预期价值观的文本，能显著提升模型对价值观的遵循程度，即使在未训练过的场景中也表现更好。这项研究为AI对齐提供了新思路。对开发者来说，这意味着在模型训练中引入价值观教育环节，可能比直接约束行为更有效。",
-      "score": 38
-    },
-    {
-      "section": "技术与研究",
-      "title": "Vitest 4.1 发布：测试标签、原生 Node.js 执行与 AI 代理报告器，让测试更灵活高效",
+      "title": "高盛：美国数据中心用电需求或在两年内翻倍",
       "company": "",
-      "url": "https://www.infoq.cn/article/qE1NsAwbZbmUEalctUC4?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Thu, 07 May 2026 17:00:00 GMT",
-      "summary": "Vitest 4.1 版本正式发布，新增测试标签、实验性原生 Node.js 执行模式以及 AI 代理报告器等功能。测试标签允许开发者对测试分组并应用共享配置，原生 Node.js 执行模式可提升启动速度并更接近生产环境。该版本对开发者意味着更灵活的测试管理和性能优化，同时保持了与 Jest 的兼容性。",
-      "score": 36
+      "url": "https://36kr.com/newsflashes/3800643284245513?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-08 20:54:16  +0800",
+      "summary": "高盛预计，美国数据中心电力需求将从2025年的31GW增长至2026年的41GW，并在2027年进一步升至66GW。高盛认为，本轮AI数据中心扩张正在重塑美国地理格局。得州和佐治亚州正成为AI数据中心的重要聚集地，因为这些地区电力供应扩张更快，接入能力更强。",
+      "score": 22
     },
     {
-      "section": "技术与研究",
-      "title": "DeepMind入股EVE Online开发商：在黑暗森林中训练AI，多智能体博弈将迎来新突破",
-      "company": "DeepMind",
-      "url": "https://www.jiqizhixin.com/articles/2026-05-07-13",
-      "source": "机器之心",
-      "publishedAt": "2026-05-07T17:53:00+08:00",
-      "summary": "Google DeepMind宣布收购《EVE Online》开发商部分股权，双方将合作研究AI在复杂游戏环境中的学习能力。该游戏以其硬核玩法和玩家驱动的“黑暗森林”式社交著称，AI将进入更开放、更具竞争性的虚拟世界。此举可能推动多智能体协作与博弈技术的突破，为开发者探索真实世界中的AI决策提供新思路。",
-      "score": 35
+      "section": "投融资与并购",
+      "title": "2连板北投科技：主营业务收入构成不涉及人工智能等相关热门概念",
+      "company": "",
+      "url": "https://36kr.com/newsflashes/3800629382945794?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-08 20:40:08  +0800",
+      "summary": "36氪获悉，北投科技公告，公司未发现近期公共传媒报道了可能或已经对公司股票交易价格产生较大影响的未公开重大信息、市场传闻，目前公司主营业务收入构成不涉及人工智能等相关热门概念。 原文链接 美国4月失业率为4.3%，预期为4.3%，前值为4.3%。",
+      "score": 17
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "海信&Vidda“非电视”发布会：六大3C潮品齐发，RGB-Mini LED领衔技术下放",
+      "company": "",
+      "url": "https://www.leiphone.com/category/weiwu/w3z7rUtQyVlcwUoc.html",
+      "source": "雷锋网",
+      "publishedAt": "Fri, 08 May 2026 16:42:00 +0800",
+      "summary": "5月8日，主题为“有态度 就登场”的海信&Vidda全场景新品发布会正式拉开帷幕。作为全球显示产业的领跑者，海信视像在这一次的发布会上，打破传统屏幕的物理界限，以显示技术为原点，向声音、智能感知与移动能源全面延伸。这并非一次简单的品类试水，而是海信以50余年深厚的全栈智能硬件研发底座和全链AI智造能力，向全场景3C生态发起的一次系统性技术赋能。",
+      "score": 37
     }
   ]
 }
