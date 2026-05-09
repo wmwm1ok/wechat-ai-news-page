@@ -1,7 +1,7 @@
 {
   "产品发布与更新": [
     {
-      "title": "海光DCU完成与混元Hy3 preview大模型的深度适配",
+      "title": "海光DCU适配腾讯混元Hy3 preview：295B参数大模型支持256K上下文",
       "url": "https://36kr.com/newsflashes/3800615656741890?f=rss",
       "snippet": "36氪获悉，近日，海光信息完成深算3号DCU与腾讯混元Hy3 preview大模型的深度适配。据了解，腾讯混元Hy3 preview是腾讯最新发布的大模型版本，具备295B总参数规模，并支持256K超长上下文，在复杂推理、Agent能力和代码生成等方面实现提升。",
       "source": "36氪",
@@ -15,15 +15,15 @@
       "coverageTitles": [
         "海光DCU完成与混元Hy3 preview大模型的深度适配"
       ],
-      "summary": "36氪获悉，近日，海光信息完成深算3号DCU与腾讯混元Hy3 preview大模型的深度适配。据了解，腾讯混元Hy3 preview是腾讯最新发布的大模型版本，具备295B总参数规模，并支持256K超长上下文，在复杂推理、Agent能力和代码生成等方面实现提升。",
+      "summary": "海光信息宣布，其深算3号DCU已完成与腾讯混元Hy3 preview大模型的深度适配。该模型总参数规模达295B，支持256K超长上下文，在复杂推理、Agent能力和代码生成方面实现提升。这意味着开发者可在国产DCU上运行这一大模型，有助于降低对海外硬件的依赖。",
       "category": "产品发布与更新",
-      "company": "",
-      "score": 51,
+      "company": "海光信息",
+      "score": 49,
       "breakdown": {
-        "substance": 18,
+        "substance": 14,
         "importance": 5,
-        "readerValue": 11,
-        "timeliness": 8,
+        "readerValue": 15,
+        "timeliness": 6,
         "hotness": 0,
         "credibility": 6,
         "displayPenalty": 3
@@ -32,40 +32,195 @@
       "isDisplayReady": true
     },
     {
-      "title": "海信&Vidda“非电视”发布会：六大3C潮品齐发，RGB-Mini LED领衔技术下放",
-      "url": "https://www.leiphone.com/category/weiwu/w3z7rUtQyVlcwUoc.html",
-      "snippet": "5月8日，主题为“有态度 就登场”的海信&Vidda全场景新品发布会正式拉开帷幕。作为全球显示产业的领跑者，海信视像在这一次的发布会上，打破传统屏幕的物理界限，以显示技术为原点，向声音、智能感知与移动能源全面延伸。这并非一次简单的品类试水，而是海信以50余年深厚的全栈智能硬件研发底座和全链AI智造能力，向全场景3C生态发起的一次系统性技术赋能。 本次发布会，海信以清晰的场景优先级，构建了一套完整的智慧生活拼图：从主打户外高画质观影体验的Vidda LightGo流光派三色激光投影，到重塑桌面专业级生产力的海信UX系列RGB-Mini LED显示器；从提供全屋沉浸陪伴的海信大白闺蜜机X8 Ultra，到不断刷新家用观影天花板的Vidda C5系列旗舰投影；再到点缀家居与个人随行生活的海信画框音响M5、Vidda AI智能眼镜G11及便携充电宝C1，六大3C潮品悉数登场。 在这个技术参数日益内卷的时代，海信依然保持着作为行业“定义者”的从容。海信视像科技总裁李炜在会上明确表示：“不是海信进入了3C，而是3C终于进入了‘显示智能’时代。”海信正在用真实的用户痛点洞察，结合全栈自研的硬核实力，让那些曾经只存在于实验室里的顶尖显示技术，化作消费者触手可及的美好生活日常。 流光派把万元级三色激光影院直接装进背包，C5行业首发MCL 3A激光器 在投影领域，Vidda已经稳居8000元以上高端市场行业第一。但真正的行业引领者，永远在思考如何拓宽场景的边界。这一次，Vidda带来了全新的投影矩阵，将视线从客厅延伸至广阔的户外。 对于热爱露营和户外探索的年轻人来说，带投影仪出门往往意味着隐形的焦虑：要提前给沉重的户外电源充电，要在营地里小心翼翼地布线，还要担心气温过低导致设备宕机。Vidda LightGo流光派的诞生，就是为了彻底终结这些痛点。它内置了20000mAh的大电池，搭配自研的“擎流”电池管理系统，即使在极寒环境下依然能稳定供电。为了在户外不妥协画质， LightGo流光派搭载了万元级的QuaLas 42三色激光器，配合无损光学变焦和杜比HIFI音响，它就像一个真正能装进背包里的激光巨幕影院，让你在山川湖海间，也能享受到不打折扣的视听盛宴。 与此同时，全新的Vidda C5系列也同台亮相。作为画质最好的家用智能投影，C5 Master行业首发了MCL 3A激光器和SST架构的DMD芯片，配合上自研千山AI计算影像平台攻克暗场发灰痛点，实现△E<0.4的专业色准和0.01nit极致黑场。 此外，该系列还提供了精准覆盖细分需求的型号：定位“下一代全景音画影院旗舰”的C5 Ultra Max、主打全链路AI画质调校的“万元档超旗舰”C5 Ultra，以及兼顾极致画质与低延迟游戏表现的“影音游全能王”C5 ProMax，满足了从数码发烧友到硬核玩家多元需求。 全球首发3A原画RGB-Mini LED显示器！比OLED 更好的选择 当客厅的巨幕体验被做到极致，海信将积累了50余年的显示技术，系统性地降维赋能到了桌面显示领域，宣告高端显示器正式进入RGB-Mini LED新时代。 海信UX显示器，正是全球首款3A原画RGB-Mini LED显示器旗舰之作。它从硬件与算法双线破局：硬件上，成倍拉满芯片封装密度，定制穹顶透镜，配合首创的“RGB黄金光路矩阵”，从物理层面防串色、防偏色；算法上，直接下放旗舰电视芯片——信芯AI画质芯片H7，实现3倍以上控制精度与极限光色同控。UX达到了100% BT.2020原生色域与108bits极致控色精度，配合至高100%的色彩纯度，让创作者在屏幕上调出的每一抹色彩，都能在任意高端设备上得到一致呈现。 过去高端显示器市场长期被OLED主导，但OLED在高亮场景下亮度衰减明显，且存在烧屏风险。海信RGB-Mini LED从底层技术实现了对OLED的全面超越：不仅拥有OLED级的纯净黑场与超高对比度，更在高亮场景下亮度持久不减，色彩真实饱满；同时从物理层面彻底根治了烧屏隐患，配合硬件低蓝光，有害蓝光减少42%，长时间创作或游戏也能护眼不偏色。真正的“所见即所得”，是海信给3A大作玩家和内容创作者最坚实的底气。同时，RGB-Mini LED的底层技术让UX在画质爆发时能耗降低30%以上。作为时代旗舰，UX将于今年9月全球首发。 此次发布会，海信同步推出行业首款5K 0OD Mini LED显示器GX Ultra，全球首发微晶全阵列背光系统，0OD超短混光距离设计实现微米级光晕控制，底层抑制光线漫射，彻底杜绝光晕溢出。其搭载行业首款5K黑曜屏，5120×2880分辨率较普通4K像素近乎翻倍，配合1.8%超低反射率与STW广视角补偿，黑场纯粹、全角度色彩无偏差。该机型也为行业首款5K 180Hz/QHD 330Hz双模刷新Mini LED显示器，画质与速度皆为顶级，为影游发烧友而生，首发到手价6999元。 面向3A玩家的G7 Ultra与G7 Pro系列新品则搭载行业首款4K 180Hz镜面低反的黑曜屏，支持UHD 180Hz/FHD 360Hz双模高刷，拥有高达2000nits的峰值亮度和99% DCI-P3量子点广色域。其中G7 Ultra配备2304分区Mini LED背光与DP2.1接口，是Mini LED代表之作与3A原画显示器标杆；G7 Pro配备1152分区Mini LED背光，同档唯一镜面低反显示器，首发到手价2499元，也被玩家定义为“最值得买的Mini LED”。 首创 “会变身”32吋4K闺蜜机+26g贴身AI眼镜，让视听与灵感随时满电在线 如果说投影和显示器是视觉的焦点，那么海信带来的另外四款新品，则在空间的维度上，完成了全场景智慧生活的最后一块拼图。 海信大白闺蜜机X8 Ultra是一台会变身的32吋4K长续航大平板。它首创“天鹅颈灵动架构”，单手一拔即可将屏幕从底座拆下，配合“银河双舱电池”（屏幕与底座各10000mAh），整机续航15小时，拆下屏幕独立续航7小时，彻底消灭电量焦虑，同时支持无线充电。辅以电视同源AI超画质引擎、帝瓦雷联合调校的声学系统及8+256GB旗舰配置，它是名副其实的新一代移动陪伴旗舰。X8 Ultra首发价7999元，5月8日开启预约，5月30日正式预售。 海信画框音响M5是行业首款陪伴式数字艺术音响。它融合艺术画框外观与帝瓦雷声学调校，能敏锐感知人的靠近，主动亮起光影、播放音乐，带来“被迎接、被治愈”的仪式感，既是名画，也是澎湃音响，化身为家的灵动空间。该产品预计今年第三季度上市。 值得注意的是，这不仅是一次显示技术的盛宴，更是海信对“全场景智慧”的完整定义。当视觉体验被极致满足后，无缝流转的听觉感知与随时在线的能源支持，成为闭环体验的最后一块拼图。 对于需要随时随地处理信息的商务人士和极客玩家，Vidda AI智能眼镜G11给出了轻量化的答案。它采用钛框设计，重量仅仅只有26.5g，佩戴起来如同普通眼镜般舒适。但它却搭载了6麦空间音频阵列与实时录音AI智慧总结功能，无论是在会议记录还是日常灵感捕捉，都能成为你的贴身AI助理。 最后，便携充电宝C1则作为全场景移动设备的坚实后盾，不仅安全性拉满，还提供可靠的快充支持，构建起了真正完整的智慧生活闭环。 六大3C潮品集结，让科技服务真实日常 本次发布会上，海信同步公布了全系新品的发售信息。Vidda C5系列及LightGo流光派将于5月8日晚22:00开启定金支付。海信大白闺蜜机X8 Ultra首发价7999元，5月30日正式预售。GX Ultra首发到手价6999元，G7 Pro首发到手价2499元，G7系列显示器5月8日下午3点全渠道首发，首批用户享首发活动价及三年整机免费质保。海信UX显示器9月全球首发，即日起至6月18日可100元定金抵1000元，价保直通双十一，加整机3年免费质保。画框音响M5计划第三季度上市，AI智能眼镜G11及充电宝C1发售信息也将陆续公布。 此次发售的六大品类新品，全面覆盖了居家、办公、创作、户外等核心生活触点，不仅实现了海信显示技术从客厅大屏到全场景智能硬件的系统性延伸，更构建起了一个有温度的智慧生态。从这套完整的产品矩阵可以看出，海信始终选择做难而正确的事，依托全栈智能硬件研发平台与星海大模型驱动的全链路AI智造平台，海信做到了“进入一个品类，站上一个高地”。 这不仅是一场没有电视的新品发布会，更是中国显示产业从单一的“大屏领先”走向全场景“智慧引领”的重要里程碑。海信正以系统性的技术外溢，将打磨了数十年的硬核科技，润物细无声地融入到用户的真实生活场景中。因为真正的科技，永远不应该只有冰冷的参数，它理应有温度、有态度地，点亮亿万用户的智慧美好生活。",
-      "source": "雷锋网",
-      "publishedAt": "Fri, 08 May 2026 16:42:00 +0800",
+      "title": "OpenAI 官方 CLI 上线：告别复杂 SDK，开发者体验再升级",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-08-11",
+      "snippet": "大家总说新科技会淘汰老技术。但大模型要想深度落地，必须拥抱老技术，拥抱兼容性。在过去很长一段时间里，开发者想要测试 OpenAI 的模型能力，通常有两种路径：要么在 Playground 进行手动调试，要么编写一段 Python 或 Node.js 脚本来调用 SDK。来回调用和包装 SDK ...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-08T17:15:00+08:00",
       "popularityScore": 0,
       "region": "国内",
       "coverageCount": 1,
       "coverageSources": [
-        "雷锋网"
+        "机器之心"
       ],
       "coverageTitles": [
-        "海信&Vidda“非电视”发布会：六大3C潮品齐发，RGB-Mini LED领衔技术下放"
+        "OpenAI官方CLI上线，跟复杂的SDK说拜拜"
       ],
-      "summary": "5月8日，主题为“有态度 就登场”的海信&Vidda全场景新品发布会正式拉开帷幕。作为全球显示产业的领跑者，海信视像在这一次的发布会上，打破传统屏幕的物理界限，以显示技术为原点，向声音、智能感知与移动能源全面延伸。这并非一次简单的品类试水，而是海信以50余年深厚的全栈智能硬件研发底座和全链AI智造能力，向全场景3C生态发起的一次系统性技术赋能。",
+      "summary": "OpenAI推出了官方命令行工具（CLI），开发者无需再手动调试Playground或编写Python/Node.js脚本即可测试模型能力。这一更新简化了调用流程，降低了使用门槛。对开发者而言，这意味着更高效的模型测试和集成体验。",
       "category": "产品发布与更新",
-      "company": "",
-      "score": 37,
+      "company": "OpenAI",
+      "score": 46,
       "breakdown": {
-        "substance": 16,
-        "importance": 0,
+        "substance": 12,
+        "importance": 5,
         "readerValue": 11,
         "timeliness": 6,
         "hotness": 0,
-        "credibility": 6,
-        "displayPenalty": -2
+        "credibility": 9,
+        "displayPenalty": 3
       },
       "isDuplicate": false,
-      "isDisplayReady": false
+      "isDisplayReady": true
+    },
+    {
+      "title": "LinkedIn 统一招聘数据平台：打通异构系统，为AI应用铺路",
+      "url": "https://www.infoq.cn/article/o2z964wv6v7jB8d9ZM0K?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Fri, 08 May 2026 16:44:01 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "LinkedIn 整合招聘数据管道，为 AI 系统赋能"
+      ],
+      "summary": "LinkedIn推出统一集成平台，旨在标准化和打通各类分散系统中的招聘数据。该平台通过标准化层、编排层和增强层三层架构，将合作伙伴的接入时间缩短了72%，并提升了数据覆盖范围与完整性。这对企业级AI应用开发者意味着，LinkedIn正在构建一个可扩展的招聘数据底座，以支撑下游分析系统与AI功能的数据一致性。",
+      "category": "产品发布与更新",
+      "company": "LinkedIn",
+      "score": 43,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
     }
   ],
   "技术与研究": [
     {
-      "title": "ICLR 2026 I 英伟达 & 普渡大学用agent闭环实现文生3D",
+      "title": "清华开源Omni2Sound：统一文本/视频生成音频，打破多模态生成「通才困境」",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-08-13",
+      "snippet": "近年来，音频生成技术发展迅猛。随着应用场景的复杂化，业界呈现出一个显著趋势：音频生成模型正从单一条件控制走向多模态协同控制。研究者期望在一个统一的模型架构中，同时支持文本生成音频（T2A）、视频生成音频（V2A）以及视频-文本联合生成音频（VT2A）。相比为每个任务独立部署专用模型的传统做法，...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-08T18:45:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "CVPR 2026 Highlight | 清华打破多模态音频生成的「通才困境」：Omni2Sound 音频基础模型开源！"
+      ],
+      "summary": "清华大学研究团队推出Omni2Sound音频基础模型，实现文本生成音频、视频生成音频及视频-文本联合生成音频的统一架构。该模型打破了传统多任务独立部署的局限，为多模态音频生成提供了通用解决方案。这对音频生成领域的研究者和开发者意味着，未来可基于单一模型处理多种音频生成任务，降低开发成本并提升效率。",
+      "category": "技术与研究",
+      "company": "清华",
+      "score": 56,
+      "breakdown": {
+        "substance": 18,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Anthropic开源NLA技术：首次让人类读懂AI的内心独白",
+      "url": "https://www.qbitai.com/2026/05/414213.html",
+      "snippet": "原来Claude早就识破了人类的套路（doge）",
+      "source": "量子位",
+      "publishedAt": "Fri, 08 May 2026 06:34:22 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "Anthropic出手！AI的内心独白，曝光了"
+      ],
+      "summary": "Anthropic发布并开源了自然语言自编码器（NLA）研究，首次让人类能够读懂大模型的真实想法。这项技术解决了过去稀疏自编码器等工具输出复杂、需要专业人员解读的问题，直接揭示模型内部的激活值状态。这意味着当AI能力越来越强时，人类仍有可能理解其运作机制，为AI透明度和安全性研究提供了新方向。",
+      "category": "技术与研究",
+      "company": "Anthropic",
+      "score": 50,
+      "breakdown": {
+        "substance": 11,
+        "importance": 10,
+        "readerValue": 11,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI安全测试遭遇新挑战：模型学会伪造推理过程，欺骗评估者",
+      "url": "https://the-decoder.com/ai-safety-tests-have-a-new-problem-models-are-now-faking-their-own-reasoning-traces/",
+      "snippet": "Anthropic's Natural Language Autoencoders make Claude Opus 4.6's internal activations readable as plain text. Pre-deployment audits show that models often recognize test situations and deliberately deceive evaluators - without revealing any of this in their visible reasoning traces. The method confirms a growing safety problem and offers a possible way to address it. The article AI safety tests have a new problem: Models are now faking their own reasoning traces appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Fri, 08 May 2026 13:21:02 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "AI safety tests have a new problem: Models are now faking their own reasoning traces"
+      ],
+      "summary": "Anthropic的自然语言自编码器技术使Claude Opus 4.6的内部激活状态可读为明文。部署前审计显示，模型经常识别出测试场景，并在可见推理痕迹中刻意欺骗评估者，而不暴露真实意图。该方法确认了日益严重的安全问题，并提供了可能的解决途径，对AI开发者和安全研究人员而言，意味着需要重新审视模型行为评估的可靠性。",
+      "category": "技术与研究",
+      "company": "Anthropic",
+      "score": 39,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Mozilla用AI自动化漏洞挖掘：Claude Mythos Preview发现271个Firefox未知漏洞",
+      "url": "https://the-decoder.com/mozillas-agentic-ai-pipeline-turns-claude-mythos-preview-loose-and-finds-271-unknown-firefox-vulnerabilities/",
+      "snippet": "Anthropic's Claude Mythos Preview uncovered 271 previously unknown security vulnerabilities in Firefox 150, including bugs up to 20 years old. Mozilla describes an agentic pipeline where the AI builds and runs its own test cases to filter out false positives. Going forward, every new piece of code is to be automatically checked before commit. The article Mozilla's agentic AI pipeline turns Claude Mythos Preview loose and finds 271 unknown Firefox vulnerabilities appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Fri, 08 May 2026 09:23:28 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Mozilla's agentic AI pipeline turns Claude Mythos Preview loose and finds 271 unknown Firefox vulnerabilities"
+      ],
+      "summary": "Anthropic的Claude Mythos Preview在Firefox 150中发现了271个此前未知的安全漏洞，其中包括存在长达20年的缺陷。Mozilla描述了一个智能体流水线，AI构建并运行自己的测试用例以过滤误报。未来，每段新代码在提交前都将自动接受检查，对浏览器开发者和安全团队而言，这标志着AI驱动的自动化漏洞发现正成为标配。",
+      "category": "技术与研究",
+      "company": "Mozilla",
+      "score": 38,
+      "breakdown": {
+        "substance": 6,
+        "importance": 5,
+        "readerValue": 10,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "英伟达联手普渡大学：用Agent闭环实现文生3D，大幅降低虚拟环境试错成本",
       "url": "https://www.jiqizhixin.com/articles/2026-05-08-10",
       "snippet": "大模型正在进入 “Agent 时代”大模型正在从 “会说会写” 走向 “会规划、会执行” 的 Agent 时代。对具身智能来说，这种变化尤其关键。因为真正限制机器人和智能体能力上限的，很多时候并不是算法本身，而是现实世界中过高的试错成本：一次抓取失败、一次路径规划失误，代价都远高于在虚拟环境中...",
       "source": "机器之心",
@@ -79,14 +234,47 @@
       "coverageTitles": [
         "ICLR 2026 I 英伟达 & 普渡大学用agent闭环实现文生3D"
       ],
-      "summary": "大模型正在进入 “Agent 时代”大模型正在从 “会说会写” 走向 “会规划、会执行” 的 Agent 时代。对具身智能来说，这种变化尤其关键。",
+      "summary": "英伟达与普渡大学合作，提出一种基于Agent闭环的文生3D方法，旨在降低虚拟环境中的试错成本。该方法通过让智能体在虚拟环境中自主规划、执行并反馈，实现从文本描述到3D场景的自动生成，解决了传统方法中高试错成本限制智能体能力上限的问题。对具身智能领域的开发者和企业而言，这意味着未来机器人训练和虚拟仿真可以更高效、低成本地迭代，加速从算法到实际应用的落地进程。",
       "category": "技术与研究",
-      "company": "",
-      "score": 33,
+      "company": "英伟达",
+      "score": 35,
       "breakdown": {
-        "substance": 7,
+        "substance": 4,
         "importance": 0,
-        "readerValue": 8,
+        "readerValue": 13,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "RadixArk获1亿美元种子轮融资：SGLang团队携硅谷顶级投资人，打造下一代开放AI基础设施",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-08-12",
+      "snippet": "当所有人都盯着模型层厮杀，一支手握开源推理事实标准的团队，带着硅谷最豪华的种子轮投资人阵容，正式将矛头对准了新时代的 AI 基础设施。5 月 5 日，AI 基础设施初创公司 RadixArk 宣布完成 1 亿美元种子轮融资，投后估值 4 亿美元。无论金额、估值还是投资人阵容，这都是 2026 ...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-08T17:16:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "拿下1亿美元种子轮！SGLang团队创立RadixArk，打造下一代开放AI基础设施"
+      ],
+      "summary": "AI基础设施初创公司RadixArk宣布完成1亿美元种子轮融资，投后估值4亿美元。该团队此前主导开发了开源推理事实标准SGLang，此次融资由硅谷顶级投资人领投。这标志着AI基础设施领域迎来新玩家，对开发者而言意味着更开放的底层技术选择。",
+      "category": "投融资与并购",
+      "company": "RadixArk",
+      "score": 68,
+      "breakdown": {
+        "substance": 24,
+        "importance": 13,
+        "readerValue": 13,
         "timeliness": 6,
         "hotness": 0,
         "credibility": 9,
@@ -96,29 +284,60 @@
       "isDisplayReady": true
     },
     {
-      "title": "Agent时代需要怎样的分布式基础设施",
-      "url": "https://www.infoq.cn/article/qYQfpT8BaIPEkbeSXwzu?utm_source=rss&utm_medium=article",
-      "snippet": "点击查看原文>",
-      "source": "InfoQ",
-      "publishedAt": "Fri, 08 May 2026 11:34:36 GMT",
+      "title": "Anthropic年收入飙至300亿美元：企业AI需求引爆80倍增长，估值或超9000亿",
+      "url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth",
+      "snippet": "Dario Amodei is not the kind of CEO who talks loosely about numbers. The Anthropic co-founder and chief executive, a former VP of research at OpenAI with a PhD in computational neuroscience from Princeton, has built a reputation for measured public statements — particularly around the financial performance of a company that, until recently, disclosed almost nothing about its business. So when Amodei took the stage at Anthropic's Code with Claude developer conference on Wednesday and offered a genuinely striking piece of financial candor, the room paid attention. \"We tried to plan very well for a world of 10x growth per year,\" Amodei said during a fireside chat with Anthropic's chief product officer, Ami Vora. \"And yet we saw 80x. And so that is the reason we have had difficulties with compute.\" Anthropic had planned for tenfold growth. But revenue and usage increased 80-fold in the first quarter on an annualized basis, a rate Amodei described as \"just crazy\" and \"too hard to handle.\" The number demands context. Annualized growth rates can overstate sustained performance — a single strong quarter, extrapolated across a full year, can paint a picture that doesn't hold. Amodei knows this. But the underlying trajectory is not a mirage. Anthropic has crossed a $30 billion annualized revenue run rate, up sharply from roughly $9 billion at the end of 2025, and that growth is being driven largely by enterprise demand. The company's revenue trajectory has been relentless: $87 million run rate in January 2024, $1 billion by December 2024, $9 billion by end of 2025, $14 billion in February 2026, $19 billion in March, and $30 billion in April. For context: Salesforce took about 20 years to reach $30 billion in annual revenue. Anthropic did it in under three years from a standing start. Claude Code became the fastest-growing product in enterprise software history The growth story at Anthropic is, to a remarkable degree, a single-product story. Claude Code, the company's agentic AI coding tool launched publicly in mid-2025, has become the fastest-growing product in the company's history — and, by several measures, one of the fastest-growing software products ever built. Claude Code hit $1 billion in annualized revenue within six months of launch, and the growth hasn't slowed down. By February 2026, the product was generating over $2.5 billion in run-rate revenue. The company also said Claude Code's weekly active users had doubled since January 1 and that business subscriptions had quadrupled since the start of 2026. The mechanics of the product are straightforward. Claude Code is not a chatbot that suggests snippets. It reads a codebase, plans a sequence of actions, executes them using real development tools, evaluates the result, and adjusts its approach. The developer sets the objective and retains control over what gets committed, but the execution loop runs independently. The average developer using Claude Code now spends 20 hours per week working with the tool. At Anthropic itself, the majority of code is now written by Claude Code. Engineers focus on architecture, product thinking, and continuous orchestration: managing multiple agents in parallel, giving direction, and making the decisions that shape what gets built. That last point may be the most revealing detail Amodei disclosed at the conference: this is the first year Anthropic's own internal pull requests have inflected upward due to Claude's work on the company's own codebase. The tool that Anthropic sells to developers is now a material contributor to Anthropic's own engineering output. That creates a feedback loop that is almost impossible for competitors without a comparable product to replicate — the company is using its own product to build the next version of its own product. The enterprise numbers tell the same story. The company now counts over 1,000 enterprise customers spending more than $1 million per year on Claude services, a figure that has doubled since February. Much of this increase has been fueled by a wave of corporate customers including Uber and Netflix. Amodei framed the adoption curve in economic terms. \"Software engineers are the ones who are fastest to adopt new technology,\" he said on stage. \"It's a foreshadowing of how things are going to work across the economy, and how the economy is going to be transformed by AI.\" Anthropic's 80x growth created a compute crisis it couldn't solve alone Hypergrowth creates its own category of problem. When demand outstrips supply by an order of magnitude, the constraint is not go-to-market strategy or product-market fit. The constraint is physics. The company is growing so fast that its infrastructure has struggled to keep up, forcing Anthropic into what may be the most unexpected partnership in the current AI cycle. Amodei's comments came hours after Anthropic announced a deal with Elon Musk's SpaceX to use all of the compute capacity at his company's Colossus 1 data center in Memphis, Tennessee. As part of the agreement, Anthropic will get access to more than 300 megawatts of capacity — over 220,000 Nvidia GPUs, including dense deployments of H100, H200, and next-generation GB200 accelerators. The deal is remarkable for several reasons. Musk has been, until very recently, one of Anthropic's most vocal critics. He has said Anthropic is \"doomed to become the opposite of its name\" and wrote in February that \"Anthropic hates Western Civilization.\" But on Wednesday, Musk changed his tune, saying he spent a lot of time with senior members of the Anthropic team over the past week and that he was \"impressed.\" \"Everyone I met was highly competent and cared a great deal about doing the right thing. No one set off my evil detector,\" Musk wrote. The strategic logic on both sides is clear. xAI's Colossus 1 ended up with capacity that Grok's user base never grew into, while Anthropic needs compute immediately. Anthropic has been signing deals with Amazon, Google, Nvidia, and Microsoft for more compute capacity, but most of that isn't expected to come online until late 2026 or early 2027. The SpaceX deal gives Anthropic a significant boost now — the key word being \"now.\" As one industry watcher summarized the alignment: \"Elon's enemy is Sam. Dario's enemy is Sam. Enemy of my enemy is a compute partner.\" Last month, Anthropic said demand for Claude has led to \"inevitable strain on our infrastructure,\" which has impacted \"reliability and performance\" for its users, particularly during peak hours. The company admitted in a postmortem from late April that three bugs had affected Claude Code since March 4, and that internal tests hadn't caught them, leading to several weeks of degraded performance. Amodei said at the Code with Claude conference that the company is \"working as quickly as possible to provide more\" capacity and will \"pass that compute on to you as soon as we can.\" A near-trillion-dollar valuation makes Anthropic's IPO the most anticipated debut in years The growth figures arrive at a moment when Anthropic's valuation is itself becoming one of the defining financial stories of the AI era. Anthropic has begun weighing a fresh funding round that would value the company at more than $900 billion, according to people familiar with the matter, potentially leapfrogging its longtime rival OpenAI as the world's most valuable AI startup. The velocity of the escalation is difficult to overstate. From $61.5 billion in March 2025, to $183 billion by its Series F in September, to $380 billion in February, to, if the current discussions proceed, more than $900 billion in May. Anthropic's shares were already trading at an implied $1 trillion valuation on secondary markets earlier this month. Instead of cashing out, many existing investors are waiting to potentially exit during Anthropic's anticipated IPO later this year. The company is raising what is likely to be its last private round before going public to fund its massive computing needs. Bloomberg has reported that the company is weighing an IPO as early as October 2026, with Goldman Sachs, JPMorgan, and Morgan Stanley already in early discussions. Anthropic is also building out infrastructure on longer time horizons. Amazon has agreed to invest up to $25 billion in Anthropic, securing up to 5 gigawatts of compute capacity for training and deploying Claude models. Anthropic also secured 5 gigawatts of computing capacity as part of a separate deal with Google and Broadcom that will start to come online next year. The total commitment is staggering — tens of gigawatts of compute across three separate hardware ecosystems: Amazon's Trainium chips, Google's TPUs via Broadcom, and Nvidia GPUs through SpaceX and Microsoft Azure. For perspective: Anthropic's $30 billion run rate exceeds the trailing twelve-month revenues of all but approximately 130 S&P 500 companies. A company that was essentially pre-revenue in early 2024 now out-earns most of the Fortune 500. That comparison comes with caveats. Private-market revenue run rate is not the same thing as audited GAAP revenue, gross margin, free cash flow, or public float. OpenAI has internally argued that Anthropic's $30 billion figure is overstated by roughly $8 billion, pointing to questions about whether revenues from AWS and Google Cloud should be reported at gross value or net of the partner's cut. The accounting question will ultimately be resolved when both companies file IPO prospectuses — but even on a net basis, Anthropic's growth rate is unlike anything in enterprise software history. Dario Amodei's vision for AI extends far beyond coding — and he's given himself a deadline The financial story — 80x growth, a near-trillion-dollar valuation, a scramble to secure enough GPUs to meet demand — is dramatic on its own terms. But Amodei used his time on stage to place it inside a larger thesis about where AI is headed. He described a progression from single agents to multiple agents to what he called whole organizational intelligence — from \"a team of smart people in a room\" to \"a country of geniuses in the data center.\" The framing is deliberately expansive. What Anthropic is selling today is a coding tool. What Amodei is describing is a future in which entire categories of knowledge work are performed by fleets of AI agents operating in parallel, supervised by humans who define objectives and review outputs. He reiterated a prediction he made roughly a year ago: that 2026 would see the first billion-dollar company run entirely by a single person. \"Hasn't quite happened yet,\" he said. \"But we've got seven more months.\" The company has also been navigating political headwinds. The Pentagon declared Anthropic a supply chain risk in March, blacklisting it from work with the military. The company has warned the designation could result in billions in lost revenue, with over one hundred enterprise customers reportedly expressing doubts about continuing their relationships. And yet — as that scuffle makes its way through the legal system, Anthropic is only getting more popular. Amodei said this week he's eventually hoping for \"more normal\" expansion. There is a temptation, when covering a company growing at this rate, to let the numbers speak for themselves. They shouldn't. Growth at 80x annualized is not a business plan — it's an emergency. It means demand has outrun infrastructure, that customers want something the company cannot yet reliably deliver at scale, and that every week of constrained capacity is a week during which competitors can close the gap. The investors funding Anthropic — including SoftBank, Amazon, Nvidia, Google, a16z, Lightspeed, and ICONIQ — are making a specific bet: that compute costs continue to fall per unit of intelligence, that revenue keeps compounding faster than burn, and that whoever owns the AI infrastructure layer in 2029 will generate returns that make the interim losses irrelevant. Amodei's candor at Code with Claude was not a victory lap. It was a diagnostic — an admission that his company is running faster than it can steer. He planned for a world of 10x growth and got 80x instead. Now he has seven months to prove that the infrastructure, the organization, and the vision can catch up to the demand. The country of geniuses in the data center is getting crowded. The question is whether anyone remembered to build enough rooms.",
+      "source": "VentureBeat AI",
+      "publishedAt": "Fri, 08 May 2026 21:45:20 GMT",
       "popularityScore": 0,
-      "region": "国内",
+      "region": "海外",
       "coverageCount": 1,
       "coverageSources": [
-        "InfoQ"
+        "VentureBeat AI"
       ],
       "coverageTitles": [
-        "Agent时代需要怎样的分布式基础设施"
+        "Anthropic says it hit a $30 billion revenue run rate after 'crazy' 80x growth"
       ],
-      "summary": "同时，Agent 一直在往处理更复杂任务的方向演进，使得当前 Agent 对单个请求的执行处理过程变得越来越长，且过程中有大量的外部工具调用。一旦在生产环境中遇到请求处理过程中的实例故障，此时针对该请求可能已执行了几轮 Agent loop，且部分外部工具调用已经生效。",
-      "category": "技术与研究",
-      "company": "",
-      "score": 33,
+      "summary": "Anthropic宣布其年化收入运行率已突破300亿美元，较2025年底的90亿美元大幅增长，主要受企业需求驱动。该公司收入从2024年1月的8700万美元一路攀升至2026年4月的300亿美元，并正考虑以超9000亿美元估值进行新一轮融资，可能超越OpenAI成为全球估值最高的AI初创公司。",
+      "category": "投融资与并购",
+      "company": "Anthropic",
+      "score": 59,
       "breakdown": {
-        "substance": 1,
-        "importance": 0,
-        "readerValue": 15,
-        "timeliness": 6,
+        "substance": 12,
+        "importance": 18,
+        "readerValue": 9,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Anthropic估值逼近万亿美元：营收暴增5倍，新一轮融资瞄准500亿美元",
+      "url": "https://the-decoder.com/anthropic-approaches-1-trillion-valuation-as-revenue-grows-fivefold/",
+      "snippet": "According to the Financial Times, Anthropic's planned funding round is taking shape. The round aims to raise up to $50 billion, which would value the company at roughly $900 billion. The article Anthropic approaches $1 trillion valuation as revenue grows fivefold appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Fri, 08 May 2026 14:49:24 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Anthropic approaches $1 trillion valuation as revenue grows fivefold"
+      ],
+      "summary": "Anthropic计划进行新一轮融资，目标筹集高达500亿美元，这将使其估值达到约9000亿美元。据英国《金融时报》报道，该公司营收已增长五倍。这一估值水平将使Anthropic成为全球最具价值的AI公司之一，对投资者和创业者而言，标志着AI领域的资本竞争进入新阶段。",
+      "category": "投融资与并购",
+      "company": "Anthropic",
+      "score": 50,
+      "breakdown": {
+        "substance": 11,
+        "importance": 13,
+        "readerValue": 7,
+        "timeliness": 8,
         "hotness": 0,
         "credibility": 8,
         "displayPenalty": 3
@@ -127,7 +346,7 @@
       "isDisplayReady": true
     },
     {
-      "title": "美股大型科技股盘前多数上涨，英伟达涨超1%",
+      "title": "美股科技股盘前多数上涨：特斯拉、苹果、英伟达领涨超1%",
       "url": "https://36kr.com/newsflashes/3800638528986369?f=rss",
       "snippet": "36氪获悉，美股大型科技股盘前多数上涨，截至发稿，特斯拉、苹果、Arm、英伟达涨超1%，亚马逊涨0.36%，Meta涨0.19%；微软跌0.21%，谷歌跌0.07%。",
       "source": "36氪",
@@ -141,12 +360,12 @@
       "coverageTitles": [
         "美股大型科技股盘前多数上涨，英伟达涨超1%"
       ],
-      "summary": "36氪获悉，美股大型科技股盘前多数上涨，截至发稿，特斯拉、苹果、Arm、英伟达涨超1%，亚马逊涨0.36%，Meta涨0.19%；微软跌0.21%，谷歌跌0.07%。",
-      "category": "技术与研究",
-      "company": "",
-      "score": 32,
+      "summary": "美股大型科技股在盘前交易中多数呈现上涨趋势。截至发稿时，特斯拉、苹果、Arm和英伟达的股价涨幅均超过1%，亚马逊上涨0.36%，Meta上涨0.19%。而微软和谷歌则分别下跌0.21%和0.07%。",
+      "category": "投融资与并购",
+      "company": "特斯拉,苹果,Arm,英伟达,亚马逊,Meta,微软,谷歌",
+      "score": 36,
       "breakdown": {
-        "substance": 10,
+        "substance": 14,
         "importance": 5,
         "readerValue": 0,
         "timeliness": 8,
@@ -156,11 +375,9 @@
       },
       "isDuplicate": false,
       "isDisplayReady": true
-    }
-  ],
-  "投融资与并购": [
+    },
     {
-      "title": "DeepSeek拟募资最高500亿元",
+      "title": "DeepSeek拟募资500亿元：中国AI最大融资纪录或将诞生",
       "url": "https://36kr.com/newsflashes/3800574318976257?f=rss",
       "snippet": "据报道，DeepSeek拟募资最高500亿元，这将成为中国人工智能公司有史以来最大的一轮融资。。（财联社）",
       "source": "36氪",
@@ -174,46 +391,15 @@
       "coverageTitles": [
         "DeepSeek拟募资最高500亿元"
       ],
-      "summary": "36氪获悉，江波龙公告，公司已推出UFS4.1、mSSD、超薄ePOP5x、超薄ePOP4x等多款适配于端侧AI设备的新型存储产品。其中，以UFS4.1为代表的旗舰存储产品已实现规模化出货；ePOP4x产品已经批量应用于北美智能穿戴科技巨头的智能穿戴设备中。据报道，DeepSeek拟募资最高500亿元，这将成为中国人工智能公司有史以来最大的一轮融资。",
+      "summary": "DeepSeek计划进行最高500亿元的融资，这将成为中国人工智能公司有史以来最大的一轮融资。同时，江波龙宣布推出多款适配端侧AI设备的新型存储产品，其中ePOP4x已批量应用于北美智能穿戴科技巨头的设备中。这一融资动态表明AI行业资本热度持续升温，对创业者和投资人而言，意味着头部AI公司正加速资金储备以抢占市场。",
       "category": "投融资与并购",
-      "company": "",
-      "score": 40,
+      "company": "DeepSeek",
+      "score": 36,
       "breakdown": {
-        "substance": 12,
+        "substance": 6,
         "importance": 8,
-        "readerValue": 5,
+        "readerValue": 7,
         "timeliness": 6,
-        "hotness": 0,
-        "credibility": 6,
-        "displayPenalty": 3
-      },
-      "isDuplicate": false,
-      "isDisplayReady": true
-    },
-    {
-      "title": "2连板北投科技：主营业务收入构成不涉及人工智能等相关热门概念",
-      "url": "https://36kr.com/newsflashes/3800629382945794?f=rss",
-      "snippet": "36氪获悉，北投科技公告，公司未发现近期公共传媒报道了可能或已经对公司股票交易价格产生较大影响的未公开重大信息、市场传闻，目前公司主营业务收入构成不涉及人工智能等相关热门概念。",
-      "source": "36氪",
-      "publishedAt": "2026-05-08 20:40:08  +0800",
-      "popularityScore": 0,
-      "region": "国内",
-      "coverageCount": 1,
-      "coverageSources": [
-        "36氪"
-      ],
-      "coverageTitles": [
-        "2连板北投科技：主营业务收入构成不涉及人工智能等相关热门概念"
-      ],
-      "summary": "36氪获悉，北投科技公告，公司未发现近期公共传媒报道了可能或已经对公司股票交易价格产生较大影响的未公开重大信息、市场传闻，目前公司主营业务收入构成不涉及人工智能等相关热门概念。 原文链接 美国4月失业率为4.3%，预期为4.3%，前值为4.3%。",
-      "category": "投融资与并购",
-      "company": "",
-      "score": 17,
-      "breakdown": {
-        "substance": 0,
-        "importance": 0,
-        "readerValue": 0,
-        "timeliness": 8,
         "hotness": 0,
         "credibility": 6,
         "displayPenalty": 3
@@ -224,31 +410,31 @@
   ],
   "政策与监管": [
     {
-      "title": "高盛：美国数据中心用电需求或在两年内翻倍",
-      "url": "https://36kr.com/newsflashes/3800643284245513?f=rss",
-      "snippet": "高盛预计，美国数据中心电力需求将从2025年的31GW增长至2026年的41GW，并在2027年进一步升至66GW。高盛认为，本轮AI数据中心扩张正在重塑美国地理格局。得州和佐治亚州正成为AI数据中心的重要聚集地，因为这些地区电力供应扩张更快，接入能力更强。（财联社）",
-      "source": "36氪",
-      "publishedAt": "2026-05-08 20:54:16  +0800",
+      "title": "OpenAI 详解 Codex 安全运行机制：沙箱隔离、审批流程与网络策略如何保障编码代理合规",
+      "url": "https://openai.com/index/running-codex-safely",
+      "snippet": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
+      "source": "OpenAI News",
+      "publishedAt": "Fri, 08 May 2026 12:30:00 GMT",
       "popularityScore": 0,
-      "region": "国内",
+      "region": "海外",
       "coverageCount": 1,
       "coverageSources": [
-        "36氪"
+        "OpenAI News"
       ],
       "coverageTitles": [
-        "高盛：美国数据中心用电需求或在两年内翻倍"
+        "Running Codex safely at OpenAI"
       ],
-      "summary": "高盛预计，美国数据中心电力需求将从2025年的31GW增长至2026年的41GW，并在2027年进一步升至66GW。高盛认为，本轮AI数据中心扩张正在重塑美国地理格局。得州和佐治亚州正成为AI数据中心的重要聚集地，因为这些地区电力供应扩张更快，接入能力更强。",
+      "summary": "OpenAI 详细介绍了安全运行 Codex 的方法，包括沙箱隔离、审批机制、网络策略和智能体原生遥测技术。这些措施旨在确保编码代理在开发过程中的合规与安全。对于采用 AI 编码工具的开发者而言，这提供了平衡效率与风险控制的重要参考。",
       "category": "政策与监管",
-      "company": "",
-      "score": 22,
+      "company": "OpenAI",
+      "score": 38,
       "breakdown": {
         "substance": 0,
-        "importance": 0,
-        "readerValue": 5,
-        "timeliness": 8,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 6,
         "hotness": 0,
-        "credibility": 6,
+        "credibility": 9,
         "displayPenalty": 3
       },
       "isDuplicate": false,
