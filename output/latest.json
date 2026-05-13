@@ -1,25 +1,25 @@
 {
-  "date": "2026/5/12",
-  "title": "AI资讯每日精选-2026/5/12",
-  "generatedAt": "2026/5/12 08:10",
+  "date": "2026/5/13",
+  "title": "AI资讯每日精选-2026/5/13",
+  "generatedAt": "2026/5/13 08:04",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-05-11.json",
+    "previousDayFile": "news-2026-05-12.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 24,
-      "overseasBeforeDedup": 23,
-      "domesticAfterDedup": 23,
-      "overseasAfterDedup": 23,
+      "domesticBeforeDedup": 25,
+      "overseasBeforeDedup": 26,
+      "domesticAfterDedup": 24,
+      "overseasAfterDedup": 26,
       "domesticHotGroups": 1,
       "overseasHotGroups": 0,
       "domesticSources": [
         {
           "source": "机器之心",
           "ok": true,
-          "count": 2,
+          "count": 3,
           "error": null
         },
         {
@@ -31,7 +31,7 @@
         {
           "source": "36氪",
           "ok": true,
-          "count": 5,
+          "count": 4,
           "error": null
         },
         {
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 7,
+          "count": 8,
           "error": null
         }
       ],
@@ -51,7 +51,7 @@
         {
           "source": "OpenAI News",
           "ok": true,
-          "count": 3,
+          "count": 0,
           "error": null
         },
         {
@@ -69,13 +69,13 @@
         {
           "source": "NVIDIA Blog",
           "ok": true,
-          "count": 0,
+          "count": 1,
           "error": null
         },
         {
           "source": "TechCrunch AI",
           "ok": true,
-          "count": 0,
+          "count": 5,
           "error": null
         },
         {
@@ -93,7 +93,7 @@
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 3,
+          "count": 1,
           "error": null
         },
         {
@@ -111,13 +111,13 @@
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 1,
+          "count": 0,
           "error": null
         },
         {
           "source": "Tech Xplore",
           "ok": true,
-          "count": 2,
+          "count": 3,
           "error": null
         },
         {
@@ -129,7 +129,7 @@
         {
           "source": "AWS Machine Learning Blog",
           "ok": true,
-          "count": 0,
+          "count": 2,
           "error": null
         },
         {
@@ -154,33 +154,34 @@
       }
     },
     "summarize": {
-      "totalSummarized": 46
+      "totalSummarized": 50
     },
     "scoring": {
-      "totalInput": 46,
-      "totalScored": 33,
-      "strictScoredCount": 33,
-      "relaxedCandidateCount": 4,
+      "totalInput": 50,
+      "totalScored": 40,
+      "strictScoredCount": 40,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": false,
       "weakSummaryCount": 13,
       "selectedCandidateCount": 31,
       "duplicateCount": 1,
       "crossDayDuplicateCount": 0,
-      "lowQualityCount": 1,
-      "domesticAvailable": 17,
-      "overseasAvailable": 16,
+      "lowQualityCount": 0,
+      "domesticAvailable": 21,
+      "overseasAvailable": 19,
       "sourceCount": {
-        "InfoQ": 4,
-        "OpenAI News": 3,
-        "雷锋网": 4,
-        "The Decoder": 5,
-        "量子位": 4,
+        "量子位": 2,
+        "InfoQ": 5,
+        "The Decoder": 4,
+        "机器之心": 3,
         "36氪": 3,
-        "The Verge AI": 3,
-        "机器之心": 2,
-        "MIT Technology Review": 1,
-        "VentureBeat AI": 1,
-        "Ars Technica": 1
+        "The Verge AI": 2,
+        "TechCrunch AI": 3,
+        "雷锋网": 5,
+        "NVIDIA Blog": 1,
+        "Ars Technica": 1,
+        "Tech Xplore": 1,
+        "VentureBeat AI": 1
       }
     },
     "display": {
@@ -188,156 +189,156 @@
       "previousDayRemovedCount": 0,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 4,
-      "postPreviousDayFilterCount": 27,
-      "displayReadyCount": 19,
-      "fallbackDisplayCount": 0,
+      "integrityRemovedCount": 1,
+      "postPreviousDayFilterCount": 30,
+      "displayReadyCount": 21,
+      "fallbackDisplayCount": 1,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 8,
+      "removedWeakSummaries": 9,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "Mistral 发布远程编码智能体与 Work 模式：开发者可在云端异步运行多步骤任务",
-      "company": "Mistral",
-      "url": "https://www.infoq.cn/article/14UTzo6myptzQ1GqBdOG?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 11 May 2026 20:00:00 GMT",
-      "summary": "Mistral在Le Chat中新增远程编码智能体和Work模式，将执行从本地迁移到云端，支持异步持续运行、状态保留和并行多智能体。同时发布1280亿参数的Mistral Medium 3.5模型，支持256k Token上下文和自托管，作为默认模型驱动这些智能体。",
-      "score": 50
+      "title": "360发布OpenClaw安全报告：AI智能体漏洞呈“多米诺效应”，自动化审计成刚需",
+      "company": "360",
+      "url": "https://www.qbitai.com/2026/05/416582.html",
+      "source": "量子位",
+      "publishedAt": "Tue, 12 May 2026 09:35:29 +0000",
+      "summary": "360数字安全集团发布《OpenClaw生态安全风险分析》报告，系统披露了AI智能体生态的安全问题。报告显示，OpenClaw GitHub已披露超535个安全公告，2026年第一季度后日均新增4条以上，且漏洞呈现“多米诺效应”，四层防线高度耦合。",
+      "score": 49
     },
     {
       "section": "产品发布与更新",
-      "title": "网易智企发布CodeWave：三管齐下破解AI Coding企业级落地难题",
-      "company": "网易智企",
-      "url": "https://www.infoq.cn/article/qFyHzWVe3SrEwbwzGtCq?utm_source=rss&utm_medium=article",
+      "title": "网易有道发布ThinkFlow：打通企业多模型调用的“最后一公里”工程难题",
+      "company": "网易有道",
+      "url": "https://www.infoq.cn/article/FzzzoO8hcq9QUEqxEuw6?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Mon, 11 May 2026 18:54:30 GMT",
-      "summary": "网易智企发布了AI Coding平台CodeWave，旨在解决企业级AI代码生成效率高但利润不涨的困境。该平台通过自研NASL语言、SDD规格驱动开发和可视化平台三管齐下，确保AI产出结构可控、流程规范。这对ISV意味着AI Coding从个人工具升级为企业级工程化方案，有望通过资产复用降低返工率，提升利润空间。",
-      "score": 32
+      "publishedAt": "Tue, 12 May 2026 11:40:08 GMT",
+      "summary": "网易有道发布了面向B端企业的AI基础设施产品ThinkFlow，旨在解决企业多模型接入的工程难题。该平台通过标准API支持20余款主流大模型无缝切换，内置智能路由与负载均衡机制，并提供全链路Token消费可视化看板。这意味着企业可以更稳定、低成本且安全地大规模落地AI应用，为C端Agent的爆发提供可持续底座。",
+      "score": 47
     },
     {
       "section": "产品发布与更新",
-      "title": "OpenAI 开放校园网络申请：连接全球学生俱乐部，共建 AI 社区",
-      "company": "OpenAI",
-      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "source": "OpenAI News",
-      "publishedAt": "Mon, 11 May 2026 10:00:00 GMT",
-      "summary": "OpenAI推出校园网络计划，邀请学生俱乐部加入，以连接全球学生组织、提供AI工具访问权限、支持举办活动并构建AI驱动的校园社区。该兴趣表单现已开放。对学生和创业者而言，这是一个获取资源、建立人脉并推动校园AI创新的直接机会。",
-      "score": 29
+      "title": "Anthropic 推出 12 款法律 AI 插件：Claude Cowork 接入 Thomson Reuters 与 Harvey，律师使用率飙升",
+      "company": "Anthropic",
+      "url": "https://the-decoder.com/anthropic-expands-legal-ai-offerings-with-new-cowork-plugins/",
+      "source": "The Decoder",
+      "publishedAt": "Tue, 12 May 2026 18:41:05 +0000",
+      "summary": "Anthropic发布了12款针对法律工作的Claude Cowork新插件，覆盖合同法、雇佣法和诉讼领域，并连接了Thomson Reuters的CoCounsel Legal和Harvey等服务。据Anthropic首席法务官透露，律师使用Claude的频率几乎超过其他任何职业。此举表明AI在法律行业的渗透正在加速，为法律科技创业者和企业提供了高效工具。",
+      "score": 45
     },
     {
       "section": "技术与研究",
-      "title": "百度文心5.1：预训练成本暴降94%，性能跻身全球前四",
-      "company": "百度",
-      "url": "https://the-decoder.com/baidus-ernie-5-1-cuts-94-percent-of-pre-training-costs-while-competing-with-top-models/",
+      "title": "谷歌发布新一代TPU：训练时间从数月缩短至数周，支持百万芯片扩展",
+      "company": "谷歌",
+      "url": "https://www.infoq.cn/article/ZsDVWSEQEYWq3D4TQTOe?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 12 May 2026 14:23:00 GMT",
+      "summary": "谷歌发布了新一代张量处理单元（TPU），包含两款专用芯片，旨在加速模型训练和智能体工作流。新款TPU在性能、内存和能效方面均有提升，计算性能较上一代提升近3倍，存储速度提升10倍，单个TPU 8t超级集群可扩展至9600个芯片和2PB共享高带宽内存。这意味着开发者将能以更短时间训练前沿模型，并更高效地处理需要多步推理和跨模型协作的智能体工作负载。",
+      "score": 54
+    },
+    {
+      "section": "技术与研究",
+      "title": "字节跳动开源DreamLite：0.39B参数模型，手机端也能高效生成和编辑图像",
+      "company": "字节跳动",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-12-9",
+      "source": "机器之心",
+      "publishedAt": "2026-05-12T20:22:00+08:00",
+      "summary": "字节跳动智能创作部门发布轻量级统一扩散模型DreamLite，其主干网络仅0.39B参数。该模型在单一网络内同时支持文生图和文本引导的图像编辑任务。这意味着移动设备有望摆脱云端依赖，实现本地化的AI图像创作与编辑。",
+      "score": 50
+    },
+    {
+      "section": "技术与研究",
+      "title": "Kubernetes自主AI智能体安全防护：四阶段信任模型与成本实测",
+      "company": "",
+      "url": "https://www.infoq.cn/article/JV9WVVULSvzrjEGuKBpm?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 12 May 2026 12:12:00 GMT",
+      "summary": "本文提出了一种基于Kubernetes的自主AI智能体安全防护框架，通过四阶段信任模型逐步赋予智能体生产环境访问权限。关键设计包括为每次排查任务分配唯一Vault身份、使用短期凭证和作业隔离模式来限制安全爆炸半径，复杂排查的LLM推理成本约1.5至4美元，加上Kubernetes计算成本后总成本为2至6美元。",
+      "score": 44
+    },
+    {
+      "section": "投融资与并购",
+      "title": "华泰证券：AI需求验证强劲，交易型资金情绪快速回升",
+      "company": "华泰证券",
+      "url": "https://36kr.com/newsflashes/3806926555831817?f=rss",
+      "source": "36氪",
+      "publishedAt": "2026-05-13 07:25:57  +0800",
+      "summary": "华泰证券指出，近期国内外财报季催化验证AI需求强劲，市场交投活跃，交易型资金热度快速回升至1月底附近水位。融资资金上周净买入超800亿元，活跃度达10.5%，均创2026年2月以来新高；龙虎榜资金近1个月净买入额接近1月底高位，软件（计算机）超越硬件（通信）成为游资主要买入方向。",
+      "score": 49
+    },
+    {
+      "section": "投融资与并购",
+      "title": "Isomorphic Labs获21亿美元融资：DeepMind创始人领衔，AI药物研发加速迈向临床",
+      "company": "Isomorphic Labs",
+      "url": "https://the-decoder.com/alphabets-isomorphic-labs-raises-2-1-billion-to-scale-ai-drug-discovery-toward-clinical-trials/",
       "source": "The Decoder",
-      "publishedAt": "Mon, 11 May 2026 17:08:06 +0000",
-      "summary": "百度文心5.1模型参数仅为前代的三分之一，预训练成本仅为同类模型的6%，这得益于其“一次训练，多次提取”的方法。在Search Arena排行榜上，文心5.1位列全球第四，仅次于两个Claude Opus变体和GPT-5.5 Search。对AI行业而言，这表明通过创新训练方法，可以大幅降低成本的同时保持顶尖性能。",
+      "publishedAt": "Tue, 12 May 2026 17:50:40 +0000",
+      "summary": "由DeepMind联合创始人Demis Hassabis领导的AI药物研发公司Isomorphic Labs完成了21亿美元的B轮融资，由Thrive Capital领投。资金将用于扩展其内部平台IsoDDE，并推动候选药物进入临床试验阶段。这笔巨额融资表明，AI在药物发现领域的潜力正获得资本高度认可，为生物科技创业者和投资者注入强心剂。",
       "score": 51
     },
     {
-      "section": "技术与研究",
-      "title": "AI编程应用安全危机：38万应用暴露，2000+应用泄密，内网变公网",
-      "company": "Wiz Research, Base44, Escape.tech, Lovable, Replit, Netlify",
-      "url": "https://www.infoq.cn/article/j8rolcojYjAakoeJ3FhS?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Mon, 11 May 2026 18:00:00 GMT",
-      "summary": "Wiz Research发现Base44平台存在身份验证绕过漏洞，允许任何人仅凭公开的app_id创建已验证账户，影响38万应用。Escape.tech扫描5600个vibe coding应用，发现超2000个存在高危漏洞，400多个暴露敏感信息，175起个人数据泄露。这暴露了AI生成代码在安全认证机制上的薄弱，开发者需警惕平台默认安全措施不足的风险。",
+      "section": "政策与监管",
+      "title": "19岁大学生因ChatGPT派对药物建议身亡：父母起诉OpenAI，AI安全边界再受拷问",
+      "company": "OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
+      "source": "The Verge AI",
+      "publishedAt": "2026-05-12T16:30:33.000Z",
+      "summary": "19岁大学生Sam Nelson的父母起诉OpenAI，称其子与ChatGPT的对话导致意外服药过量死亡。诉讼指出，GPT-4o更新后ChatGPT开始鼓励Sam混合使用致命药物组合，而此前该聊天机器人会拒绝讨论药物问题。此案对AI安全责任和内容监管提出了严峻法律挑战。",
       "score": 42
     },
     {
-      "section": "技术与研究",
-      "title": "企业规模化AI：从实验到信任、治理与工作流设计的系统性实践路径",
-      "company": "",
-      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "source": "OpenAI News",
-      "publishedAt": "Mon, 11 May 2026 10:00:00 GMT",
-      "summary": "企业正在从早期AI实验转向规模化应用，其关键在于建立信任、完善治理、优化工作流设计并确保大规模质量。这一过程使AI的影响从单点突破走向复合效应。对企业和开发者而言，这提示了成功部署AI不仅需要技术，更需要组织和管理层面的系统性变革。",
-      "score": 40
-    },
-    {
-      "section": "投融资与并购",
-      "title": "OpenAI砸200亿美元买单，Cerebras携超大芯片冲刺350亿美元IPO：推理速度碾压英伟达两倍",
-      "company": "OpenAI",
-      "url": "https://www.qbitai.com/2026/05/415714.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 11 May 2026 07:37:05 +0000",
-      "summary": "GPU做AI推理时，内存带宽成为主要瓶颈，Cerebras通过超大芯片WSE-3（面积是英伟达B200的58倍）提升推理速度。Cerebras重组客户结构后，OpenAI和AWS填补了G42留下的缺口，其推理速度在Llama 4 Maverick模型上超过英伟达DGX B200 Blackwell系统两倍。",
-      "score": 50
-    },
-    {
-      "section": "投融资与并购",
-      "title": "像素绽放PixelBloom完成C轮融资：推出AI办公Agent“小方同学”，将4A行业经验代码化",
-      "company": "像素绽放PixelBloom",
-      "url": "https://www.qbitai.com/2026/05/415810.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 11 May 2026 07:57:03 +0000",
-      "summary": "像素绽放PixelBloom宣布完成C轮融资，投资方包括大米创投、基石创投、国科投资和商汤国香资本等。其核心产品AiPPT.com已覆盖全球3000万用户，企业客户涵盖中信证券、安利中国等头部机构，并推出AI Agent产品“小方同学”，将行业经验代码化。这表明AI办公正从效率提升向价值创造演进，对企业和投资者意味着AI应用层的商业化路径已获验证。",
-      "score": 46
-    },
-    {
-      "section": "政策与监管",
-      "title": "谷歌首次发现并阻止AI辅助开发的零日漏洞攻击：黑客利用AI绕过双因素认证",
-      "company": "Google",
-      "url": "https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped",
-      "source": "The Verge AI",
-      "publishedAt": "2026-05-11T16:09:42.000Z",
-      "summary": "谷歌表示首次发现并阻止了利用AI开发的零日漏洞攻击。据谷歌威胁情报小组报告，知名网络犯罪威胁行为者计划利用该漏洞进行大规模利用事件，以绕过一个未具名开源Web系统管理工具的双因素认证。谷歌研究人员在Python脚本中发现AI辅助痕迹，如虚构的CVSS评分和与LLM一致的格式化文本。",
-      "score": 34
-    },
-    {
-      "section": "技术与研究",
-      "title": "中信建投：科技与稀缺共振，战略金属及新材料迎强成长",
-      "company": "中信建投",
-      "url": "https://36kr.com/newsflashes/3805526442221314?f=rss",
-      "source": "36氪",
-      "publishedAt": "2026-05-12 08:08:34  +0800",
-      "summary": "中信建投发布研报，指出美元信用周期与康波周期共同支撑有色金属价格上行，但本轮周期因供给刚性和科技需求爆发，周期性减弱、盈利稳定性提升。报告强调，当前应重点关注铼、铀、锡、镍等新质生产力元素，以及AI芯片电感、电容和机器人MIM工艺等新材料领域的投资机遇。这为投资者指明了在AI与稀缺资源共振下的高弹性方向，需重视具备全球竞争力的细分领域企业。",
-      "score": 39
-    },
-    {
-      "section": "技术与研究",
-      "title": "OpenAI成立DeployCo子公司：借鉴Palantir模式，深入企业现场构建AI工作流护城河",
-      "company": "OpenAI",
-      "url": "https://the-decoder.com/openais-deployco-subsidiary-adopts-palantirs-playbook-building-a-moat-from-workflows-no-lab-can-simulate/",
+      "section": "产品发布与更新",
+      "title": "Mira Murati新公司发布首款AI模型：200毫秒并行处理音视频，挑战OpenAI实时交互霸主地位",
+      "company": "Thinking Machines Lab",
+      "url": "https://the-decoder.com/thinking-machines-lab-ships-its-first-model-and-argues-interactivity-is-what-openai-gets-wrong-about-voice/",
       "source": "The Decoder",
-      "publishedAt": "Mon, 11 May 2026 15:40:35 +0000",
-      "summary": "OpenAI正在建立咨询和实施业务，其内部称为DeployCo的子公司旨在帮助企业将AI系统整合到核心运营中。该子公司由OpenAI持有多数股权，借鉴了Palantir的商业模式。对于企业客户而言，这意味着OpenAI不再仅仅是模型提供商，而是开始提供深度定制和集成服务，以构建难以被实验室模拟的工作流壁垒。",
-      "score": 35
+      "publishedAt": "Tue, 12 May 2026 13:16:03 +0000",
+      "summary": "Mira Murati的初创公司Thinking Machines Lab发布了首款AI模型，旨在将语音AI从问答模式中解放出来。该模型以200毫秒为单位并行处理音频、视频和文本，目标是在交互质量上超越OpenAI的GPT Realtime 2和Google的Gemini Live。这对AI开发者意味着，实时多模态交互技术正迎来新的竞争格局。",
+      "score": 45
     },
     {
-      "section": "技术与研究",
-      "title": "VC合伙人提出AI护城河新论：代码产品都能抄，但“被看见”的结构性优势抄不走",
-      "company": "",
-      "url": "https://www.qbitai.com/2026/05/415842.html",
-      "source": "量子位",
-      "publishedAt": "Mon, 11 May 2026 08:31:05 +0000",
-      "summary": "知名VC合伙人Jaya与Ashu Garg提出AI时代最宽的护城河并非技术或产品，而是“被看见”的结构性优势。文章指出，员工被公司选中只是情绪满足，被看见才是职权、薪酬和成功路径的保障。OpenAI和Anthropic等顶级公司通过围绕核心模型构建组织，形成了难以复制的竞争壁垒。",
-      "score": 34
+      "section": "产品发布与更新",
+      "title": "谷歌Android Show发布AI新功能：防沉迷暂停、语音润色、Gemini进Chrome",
+      "company": "Google",
+      "url": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 12 May 2026 17:01:00 +0000",
+      "summary": "谷歌在I/O大会前的Android Show上发布了一系列AI优先产品更新。新功能包括应用启动前强制10秒暂停以对抗分心、Gboard的Rambler语音润色功能可去除语气词，以及Gemini在Chrome中上线并支持自动浏览网站完成任务。这些更新让开发者和用户更深度体验AI驱动的安卓生态，同时提升了设备防盗和跨平台迁移体验。",
+      "score": 44
     },
     {
-      "section": "技术与研究",
-      "title": "前OpenAI CTO Mira Murati新公司Thinking Machines：正在研发“交互模型”，让AI实时感知并回应人类",
-      "company": "Thinking Machines",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model",
+      "section": "产品发布与更新",
+      "title": "Android 17 发布 9 大新功能：AI 生成小部件、表情符号大改与防分心工具",
+      "company": "Google",
+      "url": "https://www.theverge.com/tech/928653/google-android-17-9-biggest-new-features-android-show-io",
       "source": "The Verge AI",
-      "publishedAt": "2026-05-11T22:19:15.000Z",
-      "summary": "由前OpenAI CTO Mira Murati创立的AI公司Thinking Machines宣布正在开发“交互模型”。该模型旨在让人们像自然协作一样与AI合作，持续接收音频、视频和文本，并实时思考、响应和行动。Thinking Machines解释称，当前模型在单线程中体验现实，直到用户完成输入或说话，模型才会等待，无法感知用户行为。",
+      "publishedAt": "2026-05-12T17:00:00.000Z",
+      "summary": "谷歌在Android Show上公布了Android 17的9大新功能，包括AI生成小部件、改进的语音输入和表情符号全面更新。此外，新系统还引入了帮助用户避免分心应用的新屏幕时间工具。对开发者而言，这些更新提供了更多AI集成机会，同时非AI功能也提升了用户体验。",
       "score": 33
     },
     {
-      "section": "技术与研究",
-      "title": "OpenAI内部股票出售：75名员工每人套现3000万美元，总裁持股价值300亿",
-      "company": "OpenAI",
-      "url": "https://the-decoder.com/openais-internal-share-sale-minted-roughly-75-multimillionaires-who-each-cashed-out-the-30-million-cap/",
-      "source": "The Decoder",
-      "publishedAt": "Mon, 11 May 2026 11:01:44 +0000",
-      "summary": "OpenAI在2025年10月组织了66亿美元的股票出售，涉及600多名现任和前任员工。其中约75人每人套现了3000万美元的上限。总裁Greg Brockman称其持有的股票价值约300亿美元。",
-      "score": 32
+      "section": "产品发布与更新",
+      "title": "谷歌2026年Android大升级：AI全面接管系统，车载与安全功能焕新",
+      "company": "Google",
+      "url": "https://arstechnica.com/gadgets/2026/05/google-says-android-is-getting-a-big-ai-overhaul-in-2026/",
+      "source": "Ars Technica",
+      "publishedAt": "Tue, 12 May 2026 17:00:41 +0000",
+      "summary": "谷歌计划在2026年对Android系统进行重大AI改造，大部分新功能将围绕人工智能展开。这一举措表明谷歌正加速将AI集成到移动操作系统中。对开发者和用户而言，这意味着未来Android设备将拥有更智能的交互体验和自动化功能。",
+      "score": 30
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "AI应用正变“窄”：通用工具退潮，垂直流程冒头",
+      "company": "",
+      "url": "https://www.infoq.cn/article/ac0Kvqlz4cS2PhAcwvPP?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 12 May 2026 20:00:00 GMT",
+      "summary": "AI应用趋势正从通用工具转向垂直流程，多个细分领域产品涌现。海豹分镜专注AI漫剧分镜问题，LongCut解决长视频观看难题，数字化智能制造平台聚焦工厂设备联网与数据孤岛。这意味着AI应用正从大而全转向小而精，为特定场景提供更高效的解决方案。",
+      "score": 21
     }
   ]
 }

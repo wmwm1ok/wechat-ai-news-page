@@ -1,0 +1,444 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "360发布OpenClaw安全报告：AI智能体漏洞呈“多米诺效应”，自动化审计成刚需",
+      "url": "https://www.qbitai.com/2026/05/416582.html",
+      "snippet": "累计发现23个独立安全漏洞",
+      "source": "量子位",
+      "publishedAt": "Tue, 12 May 2026 09:35:29 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段"
+      ],
+      "summary": "360数字安全集团发布《OpenClaw生态安全风险分析》报告，系统披露了AI智能体生态的安全问题。报告显示，OpenClaw GitHub已披露超535个安全公告，2026年第一季度后日均新增4条以上，且漏洞呈现“多米诺效应”，四层防线高度耦合。",
+      "category": "产品发布与更新",
+      "company": "360",
+      "score": 49,
+      "breakdown": {
+        "substance": 16,
+        "importance": 0,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "网易有道发布ThinkFlow：打通企业多模型调用的“最后一公里”工程难题",
+      "url": "https://www.infoq.cn/article/FzzzoO8hcq9QUEqxEuw6?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 12 May 2026 11:40:08 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "企业每月烧掉数百万元Token却算不清账，谁来解决大模型的“最后一公里”工程难题？"
+      ],
+      "summary": "网易有道发布了面向B端企业的AI基础设施产品ThinkFlow，旨在解决企业多模型接入的工程难题。该平台通过标准API支持20余款主流大模型无缝切换，内置智能路由与负载均衡机制，并提供全链路Token消费可视化看板。这意味着企业可以更稳定、低成本且安全地大规模落地AI应用，为C端Agent的爆发提供可持续底座。",
+      "category": "产品发布与更新",
+      "company": "网易有道",
+      "score": 47,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Anthropic 推出 12 款法律 AI 插件：Claude Cowork 接入 Thomson Reuters 与 Harvey，律师使用率飙升",
+      "url": "https://the-decoder.com/anthropic-expands-legal-ai-offerings-with-new-cowork-plugins/",
+      "snippet": "Anthropic launches twelve new Claude plugins for legal work covering contract law, employment law, and litigation, while connecting the chatbot to services like Thomson Reuters' CoCounsel Legal and Harvey. According to Anthropic's chief legal officer, lawyers use Claude more than almost any other profession. The article Anthropic expands legal AI offerings with new Claude Cowork plugins appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Tue, 12 May 2026 18:41:05 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Anthropic expands legal AI offerings with new Claude Cowork plugins"
+      ],
+      "summary": "Anthropic发布了12款针对法律工作的Claude Cowork新插件，覆盖合同法、雇佣法和诉讼领域，并连接了Thomson Reuters的CoCounsel Legal和Harvey等服务。据Anthropic首席法务官透露，律师使用Claude的频率几乎超过其他任何职业。此举表明AI在法律行业的渗透正在加速，为法律科技创业者和企业提供了高效工具。",
+      "category": "产品发布与更新",
+      "company": "Anthropic",
+      "score": 45,
+      "breakdown": {
+        "substance": 12,
+        "importance": 5,
+        "readerValue": 7,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Mira Murati新公司发布首款AI模型：200毫秒并行处理音视频，挑战OpenAI实时交互霸主地位",
+      "url": "https://the-decoder.com/thinking-machines-lab-ships-its-first-model-and-argues-interactivity-is-what-openai-gets-wrong-about-voice/",
+      "snippet": "Mira Murati's start-up presents its first AI model and aims to free voice AI from the question-and-answer model. The model processes audio, video and text in 200-millisecond chunks in parallel and aims to beat OpenAI's GPT Realtime 2 and Google's Gemini Live in terms of interaction quality. The article Thinking Machines Lab ships its first model and argues interactivity is what OpenAI gets wrong about voice appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Tue, 12 May 2026 13:16:03 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Thinking Machines Lab ships its first model and argues interactivity is what OpenAI gets wrong about voice"
+      ],
+      "summary": "Mira Murati的初创公司Thinking Machines Lab发布了首款AI模型，旨在将语音AI从问答模式中解放出来。该模型以200毫秒为单位并行处理音频、视频和文本，目标是在交互质量上超越OpenAI的GPT Realtime 2和Google的Gemini Live。这对AI开发者意味着，实时多模态交互技术正迎来新的竞争格局。",
+      "category": "产品发布与更新",
+      "company": "Thinking Machines Lab",
+      "score": 45,
+      "breakdown": {
+        "substance": 4,
+        "importance": 11,
+        "readerValue": 11,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "谷歌Android Show发布AI新功能：防沉迷暂停、语音润色、Gemini进Chrome",
+      "url": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
+      "snippet": "Google unveiled its new AI-first Googlebooks laptops, more agentic Gemini features, vibe-coded Android widgets, Gemini in Chrome, refreshed Android Auto, and more ahead of I/O.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Tue, 12 May 2026 17:01:00 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets"
+      ],
+      "summary": "谷歌在I/O大会前的Android Show上发布了一系列AI优先产品更新。新功能包括应用启动前强制10秒暂停以对抗分心、Gboard的Rambler语音润色功能可去除语气词，以及Gemini在Chrome中上线并支持自动浏览网站完成任务。这些更新让开发者和用户更深度体验AI驱动的安卓生态，同时提升了设备防盗和跨平台迁移体验。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 44,
+      "breakdown": {
+        "substance": 5,
+        "importance": 11,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Android 17 发布 9 大新功能：AI 生成小部件、表情符号大改与防分心工具",
+      "url": "https://www.theverge.com/tech/928653/google-android-17-9-biggest-new-features-android-show-io",
+      "snippet": "AI-generated widgets are among the features coming to Android this year. | Screenshot: Google Would it shock you to hear that Android 17 is filled with new AI-enabled features, like improved dictation and vibe-coded widgets? Fortunately, that's not all. The platform is getting non-AI updates too, from an emoji overhaul to a new screentime tool that helps you avoid distracting apps. Google has just revealed the biggest changes coming in its next OS update as part of its dedicated Android Show, ahead of next week's big I/O developer conference. The Android software updates came alongside a tease of upcoming Android-powered Googlebook laptops and a host of Android Auto updates. Here are all the new updates that matter and when you can … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-05-12T17:00:00.000Z",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Verge AI"
+      ],
+      "coverageTitles": [
+        "The 9 biggest new features in Android 17"
+      ],
+      "summary": "谷歌在Android Show上公布了Android 17的9大新功能，包括AI生成小部件、改进的语音输入和表情符号全面更新。此外，新系统还引入了帮助用户避免分心应用的新屏幕时间工具。对开发者而言，这些更新提供了更多AI集成机会，同时非AI功能也提升了用户体验。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 33,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "readerValue": 7,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "谷歌2026年Android大升级：AI全面接管系统，车载与安全功能焕新",
+      "url": "https://arstechnica.com/gadgets/2026/05/google-says-android-is-getting-a-big-ai-overhaul-in-2026/",
+      "snippet": "Google has big plans for Android in 2026, and most of it is AI.",
+      "source": "Ars Technica",
+      "publishedAt": "Tue, 12 May 2026 17:00:41 +0000",
+      "popularityScore": 2,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "Ars Technica"
+      ],
+      "coverageTitles": [
+        "Android is getting a big AI overhaul in 2026"
+      ],
+      "summary": "谷歌计划在2026年对Android系统进行重大AI改造，大部分新功能将围绕人工智能展开。这一举措表明谷歌正加速将AI集成到移动操作系统中。对开发者和用户而言，这意味着未来Android设备将拥有更智能的交互体验和自动化功能。",
+      "category": "产品发布与更新",
+      "company": "Google",
+      "score": 30,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 2,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI应用正变“窄”：通用工具退潮，垂直流程冒头",
+      "url": "https://www.infoq.cn/article/ac0Kvqlz4cS2PhAcwvPP?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 12 May 2026 20:00:00 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "模力工场039周AI应用周榜：AI 应用正悄悄变“窄”，通用工具之争逐渐退潮，垂直流程开始冒头"
+      ],
+      "summary": "AI应用趋势正从通用工具转向垂直流程，多个细分领域产品涌现。海豹分镜专注AI漫剧分镜问题，LongCut解决长视频观看难题，数字化智能制造平台聚焦工厂设备联网与数据孤岛。这意味着AI应用正从大而全转向小而精，为特定场景提供更高效的解决方案。",
+      "category": "产品发布与更新",
+      "company": "",
+      "score": 21,
+      "breakdown": {
+        "substance": 0,
+        "importance": 0,
+        "readerValue": 0,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "谷歌发布新一代TPU：训练时间从数月缩短至数周，支持百万芯片扩展",
+      "url": "https://www.infoq.cn/article/ZsDVWSEQEYWq3D4TQTOe?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 12 May 2026 14:23:00 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "专为智能体和 SOTA 模型训练而设计的谷歌新一代 TPU"
+      ],
+      "summary": "谷歌发布了新一代张量处理单元（TPU），包含两款专用芯片，旨在加速模型训练和智能体工作流。新款TPU在性能、内存和能效方面均有提升，计算性能较上一代提升近3倍，存储速度提升10倍，单个TPU 8t超级集群可扩展至9600个芯片和2PB共享高带宽内存。这意味着开发者将能以更短时间训练前沿模型，并更高效地处理需要多步推理和跨模型协作的智能体工作负载。",
+      "category": "技术与研究",
+      "company": "谷歌",
+      "score": 54,
+      "breakdown": {
+        "substance": 20,
+        "importance": 0,
+        "readerValue": 15,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "字节跳动开源DreamLite：0.39B参数模型，手机端也能高效生成和编辑图像",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-12-9",
+      "snippet": "近日，字节跳动智能创作部门（Intelligent Creation Lab）提出新作 DreamLite，一个主干网络仅有 0.39B 参数的轻量级统一扩散模型，在单一网络内同时支持文生图（Text-to-Image） 和图像编辑（Text-guided Image Editing）两个任务...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-12T20:22:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "告别云端依赖！字节开源新作DreamLite让手机秒变 AI 画板"
+      ],
+      "summary": "字节跳动智能创作部门发布轻量级统一扩散模型DreamLite，其主干网络仅0.39B参数。该模型在单一网络内同时支持文生图和文本引导的图像编辑任务。这意味着移动设备有望摆脱云端依赖，实现本地化的AI图像创作与编辑。",
+      "category": "技术与研究",
+      "company": "字节跳动",
+      "score": 50,
+      "breakdown": {
+        "substance": 15,
+        "importance": 10,
+        "readerValue": 5,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Kubernetes自主AI智能体安全防护：四阶段信任模型与成本实测",
+      "url": "https://www.infoq.cn/article/JV9WVVULSvzrjEGuKBpm?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Tue, 12 May 2026 12:12:00 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "Kubernetes 自主AI智能体安全防护：新型云工作负载的信任边界、密钥管理与可观测性"
+      ],
+      "summary": "本文提出了一种基于Kubernetes的自主AI智能体安全防护框架，通过四阶段信任模型逐步赋予智能体生产环境访问权限。关键设计包括为每次排查任务分配唯一Vault身份、使用短期凭证和作业隔离模式来限制安全爆炸半径，复杂排查的LLM推理成本约1.5至4美元，加上Kubernetes计算成本后总成本为2至6美元。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 44,
+      "breakdown": {
+        "substance": 13,
+        "importance": 0,
+        "readerValue": 12,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "华泰证券：AI需求验证强劲，交易型资金情绪快速回升",
+      "url": "https://36kr.com/newsflashes/3806926555831817?f=rss",
+      "snippet": "36氪获悉，华泰证券指出，近期国内外财报季催化验证AI需求强劲下，市场交投活跃，交易型资金热度快速回升至1月底附近水位：1.融资资金上周净买入超800亿元、活跃度为10.5%，均创2026年2月以来新高；2.龙虎榜资金累计近1个月净买入额接近1月底高位，且软件（计算机）超越硬件（通信）成为游资买入主要方向；3.以参与交易的投资者数量衡量的投资者情绪修复至1月底左右水位。",
+      "source": "36氪",
+      "publishedAt": "2026-05-13 07:25:57  +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "36氪"
+      ],
+      "coverageTitles": [
+        "华泰证券：交易型资金情绪快速回升"
+      ],
+      "summary": "华泰证券指出，近期国内外财报季催化验证AI需求强劲，市场交投活跃，交易型资金热度快速回升至1月底附近水位。融资资金上周净买入超800亿元，活跃度达10.5%，均创2026年2月以来新高；龙虎榜资金近1个月净买入额接近1月底高位，软件（计算机）超越硬件（通信）成为游资主要买入方向。",
+      "category": "投融资与并购",
+      "company": "华泰证券",
+      "score": 49,
+      "breakdown": {
+        "substance": 17,
+        "importance": 8,
+        "readerValue": 5,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Isomorphic Labs获21亿美元融资：DeepMind创始人领衔，AI药物研发加速迈向临床",
+      "url": "https://the-decoder.com/alphabets-isomorphic-labs-raises-2-1-billion-to-scale-ai-drug-discovery-toward-clinical-trials/",
+      "snippet": "Isomorphic Labs, the AI drug research company led by DeepMind co-founder Demis Hassabis, has closed a $2.1 billion Series B round led by Thrive Capital. The funding will go toward expanding its in-house platform IsoDDE and advancing drug candidates toward clinical trials. The article Alphabet's Isomorphic Labs raises $2.1 billion to scale AI drug discovery toward clinical trials appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Tue, 12 May 2026 17:50:40 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Alphabet's Isomorphic Labs raises $2.1 billion to scale AI drug discovery toward clinical trials"
+      ],
+      "summary": "由DeepMind联合创始人Demis Hassabis领导的AI药物研发公司Isomorphic Labs完成了21亿美元的B轮融资，由Thrive Capital领投。资金将用于扩展其内部平台IsoDDE，并推动候选药物进入临床试验阶段。这笔巨额融资表明，AI在药物发现领域的潜力正获得资本高度认可，为生物科技创业者和投资者注入强心剂。",
+      "category": "投融资与并购",
+      "company": "Isomorphic Labs",
+      "score": 51,
+      "breakdown": {
+        "substance": 15,
+        "importance": 13,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "19岁大学生因ChatGPT派对药物建议身亡：父母起诉OpenAI，AI安全边界再受拷问",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
+      "snippet": "The family of a 19-year-old college student is suing OpenAI over claims that his conversations with ChatGPT led to an accidental overdose. In the lawsuit filed on Tuesday, Sam Nelson's parents allege ChatGPT \"encouraged\" the teen to \"consume a combination of substances that any licensed medical professional would have recognized as deadly,\" resulting in his death. Though ChatGPT initially \"shut down\" conversations about drug and alcohol use, the launch of GPT-4o in April 2024 changed the chatbot's behavior, according to the lawsuit. Following the update, ChatGPT \"began to engage and advise Sam on safe drug use, even providing specific dosag … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-05-12T16:30:33.000Z",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Verge AI"
+      ],
+      "coverageTitles": [
+        "Parents say ChatGPT got their son killed with bad advice on party drugs"
+      ],
+      "summary": "19岁大学生Sam Nelson的父母起诉OpenAI，称其子与ChatGPT的对话导致意外服药过量死亡。诉讼指出，GPT-4o更新后ChatGPT开始鼓励Sam混合使用致命药物组合，而此前该聊天机器人会拒绝讨论药物问题。此案对AI安全责任和内容监管提出了严峻法律挑战。",
+      "category": "政策与监管",
+      "company": "OpenAI",
+      "score": 42,
+      "breakdown": {
+        "substance": 4,
+        "importance": 11,
+        "readerValue": 9,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}
