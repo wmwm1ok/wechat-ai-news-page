@@ -1,0 +1,443 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "Anthropic 为小企业推出 Claude 套餐：15 个 AI 工作流嵌入 QuickBooks 和 PayPal，降低技术门槛",
+      "url": "https://the-decoder.com/anthropic-launches-claude-for-small-business-to-embed-ai-into-the-tools-you-forgot-you-pay-for/",
+      "snippet": "Anthropic is launching \"Claude for Small Business,\" a package of 15 agent-based workflows and integrations for tools like QuickBooks, PayPal, and HubSpot. The company is also rolling out free training courses and a workshop tour across ten US cities as it pushes to bring AI directly to small businesses. The article Anthropic launches Claude for Small Business to embed AI into the tools you forgot you pay for appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Wed, 13 May 2026 17:28:42 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Anthropic launches Claude for Small Business to embed AI into the tools you forgot you pay for"
+      ],
+      "summary": "Anthropic发布“Claude for Small Business”套餐，包含15个基于代理的工作流和QuickBooks、PayPal、HubSpot等工具集成。公司还推出免费培训课程，并在美国十个城市举办巡回工作坊。此举旨在让小型企业直接利用AI提升效率，降低技术门槛。",
+      "category": "产品发布与更新",
+      "company": "Anthropic",
+      "score": 49,
+      "breakdown": {
+        "substance": 14,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Luma 开放 Uni-1.1 图像模型 API：每张 0.04 美元起，质量对标 OpenAI 和 Google",
+      "url": "https://the-decoder.com/luma-opens-uni-1-1-image-model-api-at-prices-and-quality-matching-openai-and-google/",
+      "snippet": "Luma is making its Uni-1.1 image model available via API, with prices starting at $0.04 per image at 2,048-pixel resolution. On the Arena leaderboard, the model ranks third, right behind Google and OpenAI. The API includes web search, built-in reasoning, and support for up to nine reference images. The article Luma opens Uni-1.1 image model API at prices and quality matching OpenAI and Google appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Wed, 13 May 2026 15:45:46 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Luma opens Uni-1.1 image model API at prices and quality matching OpenAI and Google"
+      ],
+      "summary": "Luma通过API开放其Uni-1.1图像模型，2048像素分辨率下每张图像起价0.04美元。在Arena排行榜上，该模型排名第三，仅次于Google和OpenAI。API支持网络搜索、内置推理和最多九张参考图像，为开发者提供了高性价比的图像生成选择。",
+      "category": "产品发布与更新",
+      "company": "Luma",
+      "score": 48,
+      "breakdown": {
+        "substance": 9,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "MediaTek 天玑开发者大会：端侧AI引擎2.0与10亿级三角面渲染工具亮相，开发者生态再升级",
+      "url": "https://www.infoq.cn/article/i1arV0AXjw1xSdXt3kzv?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 13 May 2026 15:49:34 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "MediaTek 发布 AI 与游戏开发新工具，聚焦端侧智能体与移动图形能力"
+      ],
+      "summary": "MediaTek在天玑开发者大会MDDC 2026上发布了面向开发者的新工具与方案，重点包括端侧AI智能体引擎2.0和移动游戏图形渲染技术。其中，天玑AI智能体化引擎2.0借助SensingClaw技术实现低功耗全时感知，支持跨应用联动；天玑平台适配团结引擎的虚拟几何体技术，可实现10亿级三角面渲染和1.5K分辨率下1小时满帧体验。",
+      "category": "产品发布与更新",
+      "company": "MediaTek",
+      "score": 45,
+      "breakdown": {
+        "substance": 15,
+        "importance": 0,
+        "readerValue": 11,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "腾讯云AI Agent接入生产数据库：四重安全纵深让DBA从“能用”走向“可托付”",
+      "url": "https://www.infoq.cn/article/79tRpwBeNjESHu3c3YLb?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 13 May 2026 17:22:58 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "当 AI Agent 走进生产数据库，DBA 的角色正在被重新定义"
+      ],
+      "summary": "腾讯云在DBTalk第四期直播中详解了AI Agent如何接入生产数据库，并重新定义DBA角色。关键产品DatabaseClaw以四重安全纵深承载企业级生产准入，同时通过Skill生态沉淀十余年工单经验，将DBbrain和DMC的核心能力标准化封装。这对企业开发者意味着，AI Agent在数据库运维中从“能用”迈向“可托付”，实现了安全与效率的平衡。",
+      "category": "产品发布与更新",
+      "company": "腾讯云",
+      "score": 44,
+      "breakdown": {
+        "substance": 5,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Notion 推出开发者平台：工作空间变身 AI 代理中心，支持自定义代码与外部代理",
+      "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
+      "snippet": "Notion’s new developer platform lets teams connect AI agents, external data sources, and custom code directly into their workspace as the company pushes deeper into agentic productivity software.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 13 May 2026 21:45:09 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "Notion just turned its workspace into a hub for AI agents"
+      ],
+      "summary": "Notion推出了新的开发者平台，允许团队将AI代理、外部数据源和自定义代码直接集成到工作空间中。这标志着Notion进一步深入代理式生产力软件领域。对企业和用户意味着可以在Notion内直接连接和使用AI代理，提升工作效率和自动化水平。",
+      "category": "产品发布与更新",
+      "company": "Notion",
+      "score": 42,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "readerValue": 13,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Poppy 推出主动式AI助手：自动管理日程、邮件和消息，智能预测你的需求",
+      "url": "https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life/",
+      "snippet": "Poppy is an AI-powered app that connects your calendar, email, messages, and other services to surface reminders, suggestions, and tasks based on what’s happening in your life.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Wed, 13 May 2026 13:27:09 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "Poppy debuts a proactive AI assistant to help organize your digital life"
+      ],
+      "summary": "Poppy发布了一款AI驱动的应用，能连接用户的日历、邮件、消息等服务，并根据生活事件主动推送提醒和建议。该应用支持Apple Calendar、Gmail、iMessage、WhatsApp等常用工具，甚至能结合位置信息推荐休息或餐厅。对于追求高效数字生活的用户，Poppy提供了一种减少手动操作、提升工作效率的智能解决方案。",
+      "category": "产品发布与更新",
+      "company": "Poppy",
+      "score": 34,
+      "breakdown": {
+        "substance": 8,
+        "importance": 0,
+        "readerValue": 7,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "Meta AI推出“隐身聊天”：对话数据不存服务器，扎克伯格称行业首创",
+      "url": "https://the-decoder.com/meta-ai-gets-a-private-mode-where-no-conversation-data-is-stored-on-servers/",
+      "snippet": "Meta is rolling out \"Incognito Chat\" for Meta AI on WhatsApp and in the Meta AI app. According to Mark Zuckerberg, conversations are processed in a protected server environment that even Meta can't access, and chat histories disappear when the session ends. Zuckerberg claims Meta is the first AI lab to offer this level of private AI usage. The article Meta AI gets a private mode where no conversation data is stored on servers appeared first on The Decoder.",
+      "source": "The Decoder",
+      "publishedAt": "Wed, 13 May 2026 17:47:02 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Decoder"
+      ],
+      "coverageTitles": [
+        "Meta AI gets a private mode where no conversation data is stored on servers"
+      ],
+      "summary": "Meta在WhatsApp和Meta AI应用中为Meta AI推出“隐身聊天”模式。据扎克伯格称，对话在受保护的服务器环境中处理，Meta也无法访问，会话结束后聊天记录消失。这为注重隐私的AI用户提供了更安全的选择，可能推动行业对AI隐私保护的更高标准。",
+      "category": "产品发布与更新",
+      "company": "Meta",
+      "score": 29,
+      "breakdown": {
+        "substance": 1,
+        "importance": 5,
+        "readerValue": 4,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "Hermes Agent开源框架爆火：NVIDIA RTX PC驱动自我改进AI代理",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
+      "snippet": "Agentic AI is changing the way users get work done. Following the success of OpenClaw, the community is embracing new open source agentic frameworks. The latest is Hermes Agent, which crossed 140,000 GitHub stars in under three months.",
+      "source": "NVIDIA Blog",
+      "publishedAt": "Wed, 13 May 2026 13:00:10 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "NVIDIA Blog"
+      ],
+      "coverageTitles": [
+        "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark"
+      ],
+      "summary": "Hermes Agent是一个新的开源代理框架，在不到三个月内GitHub星标数突破14万。该框架由NVIDIA RTX PC和DGX Spark驱动，支持自我改进的AI代理。这对AI社区和开发者意味着可以更便捷地构建和部署能够自我优化的智能代理应用。",
+      "category": "技术与研究",
+      "company": "NVIDIA",
+      "score": 61,
+      "breakdown": {
+        "substance": 17,
+        "importance": 10,
+        "readerValue": 15,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "谷歌把AI塞进全家桶：Gemini嵌入Android底层，鼠标手表眼镜全都有",
+      "url": "https://www.qbitai.com/2026/05/416870.html",
+      "snippet": "谷歌把Gemini塞进了Android",
+      "source": "量子位",
+      "publishedAt": "Wed, 13 May 2026 08:29:20 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "苹果画的饼谷歌率先搞定！Gemini全面进驻全家桶，连鼠标都AI上了"
+      ],
+      "summary": "谷歌发布了专门用于机器生成摘要的PEGASUS模型，刷新了该领域最佳成绩。Gemini Intelligence已嵌入Android底层，今年内将覆盖手表、汽车、眼镜、笔电等设备，并推出了具备AI能力的Magic Pointer鼠标。这对开发者和企业意味着，无需庞大训练数据即可获得针对特定任务的AI能力，降低了应用门槛。",
+      "category": "技术与研究",
+      "company": "谷歌",
+      "score": 53,
+      "breakdown": {
+        "substance": 11,
+        "importance": 11,
+        "readerValue": 13,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "蚂蚁灵波开源LingBot-VLA后训练代码：150条数据即可适配新机器人",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-13-8",
+      "snippet": "蚂蚁集团旗下具身智能公司灵波科技今日宣布，全面开源其具身基座模型 LingBot-VLA 的真机后训练工具链。开发团队可基于这套工具链，使用自有数据将 LingBot-VLA 快速迁移到自有机器人和具体任务中。当前，具身智能领域开源模型持续增多，但把模型真正部署到自己的机器人上，仍需要完成一系...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-13T14:47:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "150条示教数据即可适配新机器人，蚂蚁灵波开源LingBot-VLA后训练代码"
+      ],
+      "summary": "蚂蚁集团旗下具身智能公司灵波科技宣布全面开源其具身基座模型LingBot-VLA的真机后训练工具链。开发团队可使用自有数据将模型快速迁移到自有机器人和具体任务中。这降低了开发者部署具身智能模型的门槛，加速了机器人应用落地。",
+      "category": "技术与研究",
+      "company": "蚂蚁灵波",
+      "score": 51,
+      "breakdown": {
+        "substance": 13,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "微软Edge Copilot重磅升级：AI跨标签页抓取信息，助你一键总结与对比",
+      "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
+      "snippet": "Microsoft Edge is adding a new feature that will allow its Copilot AI chatbot to gather information from all of your open tabs. When you start a conversation with Copilot, you can ask the chatbot questions about what's in your tabs, compare the products you're looking at, summarize your open articles, and more. In its announcement, Microsoft says you can \"select which experiences you want or leave off the ones you don't.\" The company is retiring Copilot Mode as well, which could similarly draw information from your tabs but offered some agentic features, like the ability to book a reservation on your behalf. Microsoft has since folded these … Read the full story at The Verge.",
+      "source": "The Verge AI",
+      "publishedAt": "2026-05-13T22:04:28.000Z",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "The Verge AI"
+      ],
+      "coverageTitles": [
+        "Microsoft&#8217;s Edge Copilot update uses AI to pull information from across your tabs"
+      ],
+      "summary": "微软Edge浏览器为其Copilot AI聊天机器人新增功能，允许用户从所有打开的标签页中提取信息，并支持提问、对比产品、总结文章等。同时，Copilot可访问浏览历史以提供更精准回答，并引入长期记忆功能，根据过往对话调整响应。这一升级对日常处理大量网页信息的用户来说，将显著提升工作效率，但用户可选择启用或关闭这些体验。",
+      "category": "技术与研究",
+      "company": "Microsoft",
+      "score": 31,
+      "breakdown": {
+        "substance": 2,
+        "importance": 0,
+        "readerValue": 9,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 7,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "百度提出DAA新指标：智能体时代从“看DAU”转向“看任务闭环”",
+      "url": "https://www.infoq.cn/article/aaLabGa4T7z5m1UBiJ2O?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Wed, 13 May 2026 18:58:26 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "从「自我进化」到「DAA」，百度给出 Agent 时代系统答案"
+      ],
+      "summary": "百度在Create 2026大会上发布了文心大模型5.1及一系列智能体系统底座产品，包括秒哒3.0、DuMate等应用，并提出了DAA（日活智能体数）作为衡量AI价值的新指标。这些产品覆盖应用生成、办公工作流、决策优化等场景，旨在让智能体进入真实任务链路并完成闭环。",
+      "category": "技术与研究",
+      "company": "百度",
+      "score": 49,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "阿里云AI收入占比首破30%：外部商业化增长40%创近年新高",
+      "url": "https://www.leiphone.com/category/industrynews/bun2xa6hMdgmEPLh.html",
+      "snippet": "5月13日，阿里巴巴集团发布最新季度业绩。截至2026年3月31日止季度，阿里云收入同比增长38%至416.26亿元，剔除阿里巴巴并表业务后的外部商业化收入增速进一步加速至40%，创下近年新高。其中，AI相关产品收入达89.71亿元，连续第11个季度实现三位数同比增长，占外部收入比重首次突破30%。截至2026年3月，百炼平台的客户数量同比增长了8倍，反映出企业级市场对AI需求的加速释放。 季度内，阿里在芯片、模型、云和应用方面均有突破。芯片层面，平头哥GPU芯片已实现规模化量产，截至26年2月，已经累计规模化交付47万片。在阿里云的实际业务场景，60%以上的平头哥芯片服务于外部商业化客户，已完成规模化外部客户AI任务适配，支持了400多家企业客户的AI任务，涵盖包括互联网、金融服务、自动驾驶等多个行业。 模型层面，4月发布的Qwen3.6-Plus大模型整体性能较上一代显著提升，特别是在编程能力、智能体能力和工具调用能力上实现了全面跃升。该模型原生上下文窗口扩展至100万tokens，并对Qwen Code、Claude Code、Cline等主流Agent框架进行深度优化，更好挖掘模型在开放环境中完成复杂任务的新潜力。此外，面向实时交互的开放世界模型HappyOyster及多模态模型HappyHorse等正分阶段推出。其中，HappyHorse 1.0开启灰测后，已吸引一批头部AI视频生成平台、短剧漫剧公司、广告及影视制作公司接入。 应用层面，阿里推出企业级智能体平台\"悟空\"，千问App全面接通阿里电商服务能力，并与中国东方航空达成首个外部合作，将AI能力延伸至出行场景。 受AI云需求强劲拉动，阿里云实现市场份额加速增长。据Gartner数据，2025年阿里云位居中国IaaS市场第一，市场份额从30.1%提升至32.8%，营收增长显著高于中国IaaS市场整体增速。从本季度数据看，外部商业化收入增速加速至40%、AI收入占比突破30%，叠加自研GPU规模化交付与MaaS客户数的高速增长，阿里云在算力供给、模型能力和商业化落地的投入正进入收获期。 雷峰网",
+      "source": "雷锋网",
+      "publishedAt": "Wed, 13 May 2026 17:59:00 +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "雷锋网"
+      ],
+      "coverageTitles": [
+        "阿里云外部收入增长40%创新高，AI收入占比首破30%"
+      ],
+      "summary": "阿里云最新季度收入同比增长38%至416.26亿元，外部商业化收入增速达40%，创下近年新高。其中AI相关产品收入89.71亿元，连续11个季度三位数增长，占外部收入比重首次突破30%。这标志着阿里云在算力、模型和商业化落地的投入进入收获期，对企业和开发者而言，AI云服务需求加速释放，百炼平台客户数同比增长8倍。",
+      "category": "投融资与并购",
+      "company": "阿里巴巴",
+      "score": 50,
+      "breakdown": {
+        "substance": 17,
+        "importance": 10,
+        "readerValue": 8,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "林俊旸创业：前阿里千问负责人新公司估值20亿美金，瞄准世界模型与具身大脑",
+      "url": "https://36kr.com/p/3807382930251523?f=rss",
+      "snippet": "文｜周鑫雨 邓咏仪 编辑｜杨轩 林俊旸以创业者的身份，重新加入AI模型的战场。 《智能涌现》独家获悉，前阿里千问大模型技术负责人林俊旸近期已经开启创业，考虑方向包括世界模型和具身大脑。 目前，林俊旸已经招募数名字节、腾讯和海外背景的成员，并以约20亿美金的估值开启融资，接触基金包括红杉中国、高榕创投等。 截至发稿前，有关上述信息，林俊旸尚未回复。 时间距离3月初的那场“闪电”诀别，已经过去了两个月。 2026年3月4日凌晨，林俊旸在X上宣布离开千问：“me stepping down. bye my beloved qwen（我卸任了。再见了，我深爱的千问）。”更早前，3月3日下午，他在Qwen成员的钉钉群中发出消息：“无颜再带领大家。” 在从百模大战，快速收束至巨头争锋（字节、阿里、DeepSeek）的三年里，林俊旸是阿里Qwen留在大模型一线梯队的灵魂人物。 自2022年起，林俊旸就接手阿里Qwen团队，负责整体工作。三年以来，他主导了Qwen系列模型的研发和开源——最全尺寸、开源策略的推进，也让Qwen成为在全球开发者社区中颇具影响力的国产模型。 林俊旸掌舵的几年中，Qwen被“保护”为一个相对独立发展的组织。《智能涌现》曾独家报道，为了追求模型训练的效率，此前Qwen拥有自己的预训练、后训练、Infra团队，多个模态方向的员工也在一起工作。 但站在集团的视角中，独立，会造成业务合作的阻力。 比如，《智能涌现》曾了解到，集团重点推进的ToC超级应用“千问App”，并没有得到Qwen团队的积极支持。 2026年3月3日，一场围绕Qwen团队拆分重组的沟通会，成了林俊旸离职的导火索。 当天下午，阿里云CTO周靖人向林俊旸传达了Qwen调整的计划：将原来的Qwen，拆分成预训练、后训练、文本、图像、语音等相对独立的水平团队。一天后，林俊旸官宣了自己的离开。 具身智能，成了林俊旸重回AI战场的切入赛道。 这一方向，也是他在阿里的未竟之业。2025年10月，林俊旸就在Qwen组建了一支专注于机器人与具身智能的小团队。 在X上，他提出了自己的判断：“多模态基础模型正在转化为基础代理，通过强化学习利用工具和记忆进行长时序推理。它们应该从虚拟走向物理世界！” 在硅谷，已经有数名AI大牛，投身于世界模型和具身大脑。 前谷歌副总裁、AI“教母”李飞飞创立的空间智能公司World Labs，在2026年2月官宣了10亿美金的融资，估值高达50亿美金； 3月，杨立昆（Yann LeCun，图灵奖得主）和谢赛宁（DiT架构提出者）成立的世界模型公司AMI Labs，在没有任何产品的情况下，完成了10.3亿美元的种子轮融资，投前估值就达到了35亿美元。 同样入局具身大脑的华人研究员周衔，其成立的Genesis AI在2025年7月，宣布完成1.05亿美元的种子轮融资。 在LLM技术路线收敛的情况下，路线存在诸多争议和可能性的具身智能、世界模型，恰恰成了VC和AI大牛愿意押注的非共识。 曾有AI行业人士对《智能涌现》评价：“林俊旸至少是1亿美金以上级别的人才。”但如今，也有投资人表达了对技术人才创业的担忧：“大厂没有那么自由，但也提供了相对安全、可控的环境。技术高管创业，往往容易在商业化上水土不服。” 抛除阿里时代的技术光环，创业者林俊旸接下来直面的，将是商业世界的考验。 封面来源｜相关活动主办方 欢迎交流！ 欢迎交流！",
+      "source": "36氪",
+      "publishedAt": "2026-05-13 15:24:16  +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "36氪"
+      ],
+      "coverageTitles": [
+        "林俊旸创业，新公司估值约20亿美金丨智能涌现独家"
+      ],
+      "summary": "前阿里千问大模型技术负责人林俊旸近期开启创业，新公司估值约20亿美金，方向包括世界模型和具身大脑。他已招募数名字节、腾讯和海外背景的成员，并接触红杉中国、高榕创投等机构进行融资。这一动向表明，在LLM技术路线收敛的背景下，具身智能和世界模型成为AI大牛和VC押注的非共识赛道，但技术高管创业也面临商业化水土不服的挑战。",
+      "category": "投融资与并购",
+      "company": "阿里",
+      "score": 62,
+      "breakdown": {
+        "substance": 19,
+        "importance": 18,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": -2
+      },
+      "isDuplicate": false,
+      "isDisplayReady": false
+    }
+  ],
+  "政策与监管": []
+}
