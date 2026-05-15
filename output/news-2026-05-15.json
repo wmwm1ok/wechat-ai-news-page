@@ -1,0 +1,444 @@
+{
+  "产品发布与更新": [
+    {
+      "title": "阿里云发布Agent基础设施：安全隔离、状态持久化、持续进化成企业三大刚需",
+      "url": "https://www.infoq.cn/article/gEPoH90ZqdWLPimRcQez?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 14 May 2026 19:45:22 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "当 Agent 开始接管工作流，企业最在意的三件事：安全运行、稳定交付、持续进化"
+      ],
+      "summary": "阿里云推出ACS Agent Sandbox和容器服务ACK，通过解耦运行环境与状态、持久化存储保障任务续接，以及运行时Checkpoint能力，使Agent在节点故障或迁移时能快速恢复上下文。报告显示94%受访者在Agent开发或生产中使用容器，行业更依赖现有云原生体系。",
+      "category": "产品发布与更新",
+      "company": "阿里云",
+      "score": 45,
+      "breakdown": {
+        "substance": 8,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AWS WorkSpaces让AI智能体直接操作遗留应用：无需API改造，成本可控",
+      "url": "https://www.infoq.cn/article/ktRP5kz1fMkW5rmmMFoR?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 14 May 2026 14:29:00 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "AWS WorkSpaces 支持 AI 智能体直接操作遗留桌面应用程序"
+      ],
+      "summary": "亚马逊云科技宣布AWS WorkSpaces支持AI智能体直接操作遗留桌面应用程序，通过模拟人类操作（截图识别、点击、输入）与无API的旧系统交互。智能体在隔离的WorkSpaces实例中运行，继承企业安全设置，并通过CloudTrail和CloudWatch实现审计与可观测性。",
+      "category": "产品发布与更新",
+      "company": "亚马逊云科技",
+      "score": 43,
+      "breakdown": {
+        "substance": 4,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "AI团队协作新发现：多Agent互怼比单Agent自纠更费Token，成本翻3倍",
+      "url": "https://www.qbitai.com/2026/05/417816.html",
+      "snippet": "Team，从来不是默认选项",
+      "source": "量子位",
+      "publishedAt": "Thu, 14 May 2026 11:14:25 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "重生之我在AI时代当老板：让一群Agent互相PUA"
+      ],
+      "summary": "研究发现，在特定模型和同质debate设置下，多Agent的token消耗可达单Agent自我修正的2.1到3.4倍。Leader统筹全局目标，Worker执行子任务，停止条件由Team Engine控制，不再依赖模型模糊判断。OpenAI翁家翌提出新范式，决策只需AI手搓一个.py文件，不更新参数即可实现强化学习。",
+      "category": "产品发布与更新",
+      "company": "",
+      "score": 41,
+      "breakdown": {
+        "substance": 14,
+        "importance": 5,
+        "readerValue": 4,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "OpenAI 确认 Codex 登陆手机端：开发者可远程管理编码工作流",
+      "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+      "snippet": "The update gives users enhanced flexibility over how they can manage their workflows.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 14 May 2026 20:58:55 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "OpenAI says Codex is coming to your phone"
+      ],
+      "summary": "OpenAI宣布Codex功能将登陆手机，为用户提供增强的灵活性来管理工作流程。该更新允许用户从移动设备访问和操作编码相关任务。这对开发者意味着可以更便捷地利用AI辅助编码，不受地点限制。",
+      "category": "产品发布与更新",
+      "company": "OpenAI",
+      "score": 40,
+      "breakdown": {
+        "substance": 5,
+        "importance": 5,
+        "readerValue": 9,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "阿里AI应用悟空规模化放量：30天变身企业核心生产力，自然语言替代BI看板",
+      "url": "https://www.qbitai.com/2026/05/417748.html",
+      "snippet": "阿里 AI 在模型、云基础设施和应用各层实现加速突破",
+      "source": "量子位",
+      "publishedAt": "Thu, 14 May 2026 08:26:45 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "阿里 AI 应用新进展：悟空开始逐步规模化放量"
+      ],
+      "summary": "阿里巴巴旗下AI原生应用悟空开始逐步规模化放量，已有企业将其作为核心生产力。苏州光线能源创始人吴天明在30天内将悟空用于充电桩订单数据分析和管理会议提炼，替代了传统BI看板和人工转述。这意味着企业用户无需掌握SQL等技术，即可通过自然语言完成复杂任务，推动AI技术平权。",
+      "category": "产品发布与更新",
+      "company": "阿里巴巴",
+      "score": 27,
+      "breakdown": {
+        "substance": 0,
+        "importance": 5,
+        "readerValue": 4,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "技术与研究": [
+    {
+      "title": "国产GPU组局开源生态：SGLang等核心开发者联手，Kimi K2权重更新加速7倍",
+      "url": "https://www.qbitai.com/2026/05/417791.html",
+      "snippet": "国产GPU开启生态坐标之争",
+      "source": "量子位",
+      "publishedAt": "Thu, 14 May 2026 09:51:46 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "国产GPU组了个开源局，把SGLang等核心开发者都摇来了！"
+      ],
+      "summary": "国产GPU厂商联合SGLang、MUSA等核心开发者组建开源生态，聚焦大模型推理性能优化。通过RDMA P2P权重更新，Kimi K2 1T模型权重同步时间从53秒降至7.2秒，加速7.37倍；EPD三级解耦架构使多模态模型首token延迟降低6-8倍。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 64,
+      "breakdown": {
+        "substance": 28,
+        "importance": 5,
+        "readerValue": 13,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "腾讯开源Agent记忆方案：Token消耗最高降61%，成功率提升52%",
+      "url": "https://www.qbitai.com/2026/05/417753.html",
+      "snippet": "任务成功率最高提升 51%。",
+      "source": "量子位",
+      "publishedAt": "Thu, 14 May 2026 08:34:30 +0000",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "量子位"
+      ],
+      "coverageTitles": [
+        "腾讯开源 Agent 记忆技术方案，Token 消耗最高降低 61%"
+      ],
+      "summary": "腾讯正式开源了Agent Memory技术方案，支持主流Agent框架，开发者可通过一行命令安装使用。该方案包含Mermaid任务画布和上下文卸载两项核心能力，在网页搜索场景中Token消耗最高降低61%，成功率提升52%。这对AI应用开发者意味着可以显著降低Agent运行成本，同时提升任务执行效率。",
+      "category": "技术与研究",
+      "company": "腾讯",
+      "score": 59,
+      "breakdown": {
+        "substance": 16,
+        "importance": 10,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "港大团队开源FASTER：首创TTFA指标，让VLA模型响应延迟降至毫秒级",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-14-10",
+      "snippet": "本文的第一作者为香港大学博士生陆宇翔，团队包括香港大学博士后刘哲、香港大学博士生范娴喆、杨振亚、侯京华、李俊奕、丁凯欣，通讯作者为香港大学助理教授赵恒爽。具身智能正以前所未有的速度发展，VLA 模型展现出越来越强的动作和泛化能力。然而，当我们真正把 VLA 模型部署到物理世界时，一个核心挑战浮...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-14T15:02:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "首创TTFA指标！港大团队开源FASTER，让VLA模型真正实现「即刻响应」"
+      ],
+      "summary": "香港大学团队开源了名为FASTER的VLA模型框架，旨在解决具身智能部署到物理世界时的响应延迟问题。该框架首创了TTFA（Time-To-First-Action）指标，用于衡量模型从接收输入到输出首个动作的延迟。这一突破意味着开发者可以更高效地评估和优化VLA模型的实时性能，推动具身智能在机器人等领域的实际应用。",
+      "category": "技术与研究",
+      "company": "港大",
+      "score": 56,
+      "breakdown": {
+        "substance": 18,
+        "importance": 5,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "xAI推出Grok Build早期测试版：为重度用户打造专属编码代理",
+      "url": "https://36kr.com/newsflashes/3809750061194752?f=rss",
+      "snippet": "xAI正式推出Grok Build早期测试版，旨在为超级Grok重度用户提供编码代理服务。（财联社）",
+      "source": "36氪",
+      "publishedAt": "2026-05-15 07:18:10  +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "36氪"
+      ],
+      "coverageTitles": [
+        "xAI正式推出Grok Build早期测试版"
+      ],
+      "summary": "xAI正式推出了Grok Build的早期测试版，这是一项针对超级Grok重度用户的编码代理服务。该产品旨在帮助用户更高效地完成编码任务，目前处于早期测试阶段。对于开发者而言，这意味着xAI正在扩展其AI工具的应用场景，从对话式AI向代码辅助领域延伸。",
+      "category": "技术与研究",
+      "company": "xAI",
+      "score": 43,
+      "breakdown": {
+        "substance": 15,
+        "importance": 5,
+        "readerValue": 4,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "腾讯云打通AI Infra底座：自研OS支撑2000万节点，Cube沙箱实现60ms冷启动与硬隔离",
+      "url": "https://www.infoq.cn/article/40UQ0beY3L25lo1rWVzb?utm_source=rss&utm_medium=article",
+      "snippet": "点击查看原文>",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 14 May 2026 17:50:56 GMT",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "InfoQ"
+      ],
+      "coverageTitles": [
+        "从服务器 OS 到 Agent 沙箱：腾讯云如何打通 AI Infra 的生态底座"
+      ],
+      "summary": "腾讯云通过自研服务器操作系统OC9和Cube Agent沙箱，构建了AI基础设施的生态底座。OC9已支撑超2000万节点生产环境，覆盖金融、互联网等行业；Cube沙箱采用独立Guest OS内核实现硬隔离，冷启动时间压缩至60毫秒以内。这对AI Agent开发者意味着更安全、更高效的代码执行环境，解决了传统容器共享内核带来的安全风险。",
+      "category": "技术与研究",
+      "company": "腾讯云",
+      "score": 41,
+      "breakdown": {
+        "substance": 7,
+        "importance": 5,
+        "readerValue": 10,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "上海交大团队提出数据价值密度：应对训练数据枯竭的新思路",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-14-12",
+      "snippet": "本文由来自上海交通大学和上海人工智能实验室的多位研究者共同完成，受到上海市“通用人工智能大模型”基础研究专项支持。共同第一作者为孙亦刘、陆彦超与曹家熙，共同通讯作者为来自上海交通大学自动化与感知学院的宫辰教授与刘伟副教授。团队长期致力于机器学习及大模型方面的研究。当训练数据枯竭、训练成本飙升，...",
+      "source": "机器之心",
+      "publishedAt": "2026-05-14T18:12:00+08:00",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "机器之心"
+      ],
+      "coverageTitles": [
+        "训练数据枯竭怎么办？首篇「数据价值密度」综述理清思路"
+      ],
+      "summary": "上海交通大学与上海人工智能实验室的研究团队发表了一篇关于数据价值密度的综述论文，系统梳理了应对训练数据枯竭的思路。该研究由上海市“通用人工智能大模型”基础研究专项支持，孙亦刘、陆彦超与曹家熙为共同第一作者，宫辰教授与刘伟副教授为共同通讯作者。这对AI领域的研究者和开发者意味着，在数据稀缺和成本飙升的背景下，数据价值密度或成为优化模型训练效率的关键方向。",
+      "category": "技术与研究",
+      "company": "",
+      "score": 39,
+      "breakdown": {
+        "substance": 6,
+        "importance": 0,
+        "readerValue": 15,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "投融资与并购": [
+    {
+      "title": "Richard Socher新公司获6.5亿美元融资：打造能自我改进的AI，开启无限进化",
+      "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
+      "snippet": "Richard Socher's new $650 million startup wants to build an AI that can research and improve itself indefinitely — and he insists it will actually ship products.",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 14 May 2026 19:57:20 +0000",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "TechCrunch AI"
+      ],
+      "coverageTitles": [
+        "What happens when AI starts building itself?"
+      ],
+      "summary": "Richard Socher创立的新公司获得6.5亿美元融资，目标是构建能够无限期研究和自我改进的AI。该公司声称将实际交付产品。这对AI行业意味着自主进化型AI的研发获得巨额资本支持，可能改变AI开发范式。",
+      "category": "投融资与并购",
+      "company": "Richard Socher",
+      "score": 38,
+      "breakdown": {
+        "substance": 4,
+        "importance": 8,
+        "readerValue": 5,
+        "timeliness": 10,
+        "hotness": 0,
+        "credibility": 8,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    },
+    {
+      "title": "芯驰科技完成近1亿美元C轮融资：从汽车芯片到具身智能，加速全栈布局",
+      "url": "https://www.leiphone.com/category/industrynews/barQoX7o1PXA3LwV.html",
+      "snippet": "5月13日，国内领先车规级芯片企业芯驰科技正式宣布完成近1亿美金C轮融资。本轮融资由苏产投领投，陕汽鸿德投资作为全新战略股东，亦庄国投、北京市先进制造基金、西安财金、益中亘泰等多家知名投资机构及产业资本跟投。 本轮融资落地，将进一步巩固芯驰科技在车规芯片领域的技术壁垒、量产优势与产业生态布局，并加速公司从汽车到具身智能赛道的全栈「芯」突破。 苏产投成立于2025年，由苏州国投集团控股，元禾控股、苏创投集团战略参股，是专业私募股权管理平台，也是苏州国投集团落实地方产业战略布局、开展重大产业投资的核心抓手。苏产投紧扣国家发展战略，重点培育产业链链主企业，推动前沿技术成果实现产业化突破。 苏产投高孟表示：“集成电路与智能汽车是国家战略性核心赛道，国产高端车规芯片更是产业自主可控的关键一环。芯驰科技深耕车规芯片领域多年，拥有完善的产品矩阵、严苛的车规认证体系及规模化量产能力，在智能座舱、高端智控等领域位居行业前列，并积极拓展在具身智能赛道的全栈产品应用。我们高度认可芯驰的技术路线、产品竞争力与商业化落地能力。此次领投，是对芯驰行业价值与发展潜力的充分肯定。未来苏产投将依托自身产业资源与资本平台优势，深度赋能芯驰科技的创新研发与产业生态扩容，助力企业持续加码从汽车到具身智能的全栈‘芯’突破。” 陕汽控股王彬表示：“汽车芯片是整车智能化、网联化升级的核心底座，更是整车产业实现自主可控、保障产业链安全稳定的关键支撑。随着新能源与智能汽车产业加速迭代，行业对高性能、高可靠车规芯片的需求持续攀升。芯驰科技在座舱芯片、高端智控芯片等领域产品成熟、量产经验丰富，深度契合整车企业智能化转型发展需求。此次战略入股，是陕汽立足产业链协同、布局核心底层芯片的重要举措。我们期待未来与芯驰深化技术协同、产品适配及联合研发，以优质车规芯片赋能整车产品升级，共建安全、自主、可控的汽车产业供应链生态。” 芯驰科技是全球少数同时可提供SoC与高性能MCU的车规级芯片设计公司之一。截至目前，芯驰全系列芯片累计出货量已突破1200万片，客户覆盖中国全部前十大汽车OEM集团，以及全球前十大汽车OEM集团中的七家，在品牌覆盖广度与商业化落地规模上均处于行业领先地位。 芯驰科技创始人兼董事长仇雨菁表示：“衷心感谢领投方苏产投的信任与认可，同时也诚挚感谢陕汽及各位投资方，以及北京市一直以来给予芯驰的大力支持。本轮融资的顺利完成，是资本市场与产业端对芯驰技术实力、产品布局和发展战略的充分肯定。芯驰将依托本轮融资，持续深耕AI智能座舱、高端智控领域的产品创新与技术引领，进一步夯实规模化量产交付能力，同时积极向具身智能方向拓展布局。我们对公司长期成长与产业价值释放充满坚定信心。”",
+      "source": "雷锋网",
+      "publishedAt": "Thu, 14 May 2026 14:17:00 +0800",
+      "popularityScore": 0,
+      "region": "国内",
+      "coverageCount": 1,
+      "coverageSources": [
+        "雷锋网"
+      ],
+      "coverageTitles": [
+        "芯驰科技完成近1亿美金C轮融资，加码汽车到具身智能全栈「芯」突破"
+      ],
+      "summary": "芯驰科技宣布完成近1亿美元C轮融资，由苏产投领投，陕汽鸿德投资等跟投。该公司已累计出货超1200万片车规级芯片，客户覆盖中国全部前十大及全球七家头部汽车OEM，并正从智能座舱、高端智控向具身智能拓展。这笔融资将助力芯驰深化AI座舱与智控产品创新，夯实量产能力，对汽车及具身智能产业链的自主可控与生态协同具有重要推动意义。",
+      "category": "投融资与并购",
+      "company": "芯驰科技",
+      "score": 59,
+      "breakdown": {
+        "substance": 18,
+        "importance": 13,
+        "readerValue": 13,
+        "timeliness": 6,
+        "hotness": 0,
+        "credibility": 6,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ],
+  "政策与监管": [
+    {
+      "title": "ChatGPT手机端接入Codex：随时随地监控与审批编码任务",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere",
+      "snippet": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
+      "source": "OpenAI News",
+      "publishedAt": "Thu, 14 May 2026 13:00:00 GMT",
+      "popularityScore": 0,
+      "region": "海外",
+      "coverageCount": 1,
+      "coverageSources": [
+        "OpenAI News"
+      ],
+      "coverageTitles": [
+        "Work with Codex from anywhere"
+      ],
+      "summary": "OpenAI将Codex功能集成到ChatGPT移动应用中，用户可在任何地方使用。该更新支持跨设备和远程环境实时监控、引导和审批编码任务。这为开发者和AI使用者提供了更灵活的工作流管理方式，提升了编码任务的移动办公效率。",
+      "category": "政策与监管",
+      "company": "OpenAI",
+      "score": 41,
+      "breakdown": {
+        "substance": 5,
+        "importance": 5,
+        "readerValue": 11,
+        "timeliness": 8,
+        "hotness": 0,
+        "credibility": 9,
+        "displayPenalty": 3
+      },
+      "isDuplicate": false,
+      "isDisplayReady": true
+    }
+  ]
+}

@@ -1,37 +1,37 @@
 {
-  "date": "2026/5/14",
-  "title": "AI资讯每日精选-2026/5/14",
-  "generatedAt": "2026/5/14 08:04",
+  "date": "2026/5/15",
+  "title": "AI资讯每日精选-2026/5/15",
+  "generatedAt": "2026/5/15 08:03",
   "count": 14,
   "targetCount": 14,
   "diagnostics": {
-    "previousDayFile": "news-2026-05-13.json",
+    "previousDayFile": "news-2026-05-14.json",
     "targetCount": 14,
     "candidateTargetCount": 31,
     "fetch": {
-      "domesticBeforeDedup": 27,
-      "overseasBeforeDedup": 29,
-      "domesticAfterDedup": 27,
-      "overseasAfterDedup": 27,
+      "domesticBeforeDedup": 22,
+      "overseasBeforeDedup": 22,
+      "domesticAfterDedup": 22,
+      "overseasAfterDedup": 21,
       "domesticHotGroups": 0,
-      "overseasHotGroups": 0,
+      "overseasHotGroups": 1,
       "domesticSources": [
         {
           "source": "机器之心",
           "ok": true,
-          "count": 6,
+          "count": 5,
           "error": null
         },
         {
           "source": "量子位",
           "ok": true,
-          "count": 3,
+          "count": 6,
           "error": null
         },
         {
           "source": "36氪",
           "ok": true,
-          "count": 5,
+          "count": 3,
           "error": null
         },
         {
@@ -43,7 +43,7 @@
         {
           "source": "雷锋网",
           "ok": true,
-          "count": 8,
+          "count": 3,
           "error": null
         }
       ],
@@ -69,7 +69,7 @@
         {
           "source": "NVIDIA Blog",
           "ok": true,
-          "count": 2,
+          "count": 1,
           "error": null
         },
         {
@@ -80,9 +80,9 @@
         },
         {
           "source": "The Decoder",
-          "ok": true,
-          "count": 8,
-          "error": null
+          "ok": false,
+          "count": 0,
+          "error": "Status code 500"
         },
         {
           "source": "VentureBeat AI",
@@ -93,7 +93,7 @@
         {
           "source": "MIT Technology Review",
           "ok": true,
-          "count": 1,
+          "count": 2,
           "error": null
         },
         {
@@ -105,13 +105,13 @@
         {
           "source": "The Verge AI",
           "ok": true,
-          "count": 3,
+          "count": 6,
           "error": null
         },
         {
           "source": "Wired AI",
           "ok": true,
-          "count": 2,
+          "count": 0,
           "error": null
         },
         {
@@ -154,34 +154,34 @@
       }
     },
     "summarize": {
-      "totalSummarized": 54
+      "totalSummarized": 43
     },
     "scoring": {
-      "totalInput": 54,
-      "totalScored": 42,
-      "strictScoredCount": 42,
-      "relaxedCandidateCount": 0,
+      "totalInput": 43,
+      "totalScored": 34,
+      "strictScoredCount": 34,
+      "relaxedCandidateCount": 2,
       "relaxedUsedForSelection": false,
       "weakSummaryCount": 9,
       "selectedCandidateCount": 31,
-      "duplicateCount": 1,
-      "crossDayDuplicateCount": 0,
-      "lowQualityCount": 1,
+      "duplicateCount": 4,
+      "crossDayDuplicateCount": 3,
+      "lowQualityCount": 0,
       "domesticAvailable": 19,
-      "overseasAvailable": 23,
+      "overseasAvailable": 15,
       "sourceCount": {
-        "雷锋网": 5,
-        "The Decoder": 5,
-        "NVIDIA Blog": 2,
-        "量子位": 1,
-        "机器之心": 3,
-        "36氪": 2,
-        "InfoQ": 5,
-        "TechCrunch AI": 3,
-        "The Verge AI": 2,
+        "InfoQ": 4,
+        "量子位": 5,
+        "机器之心": 4,
+        "雷锋网": 2,
+        "TechCrunch AI": 4,
         "OpenAI News": 1,
-        "Tech Xplore": 1,
-        "Wired AI": 1
+        "VentureBeat AI": 2,
+        "36氪": 3,
+        "The Verge AI": 1,
+        "Tech Xplore": 2,
+        "MIT Technology Review": 2,
+        "AWS Machine Learning Blog": 1
       }
     },
     "display": {
@@ -189,156 +189,156 @@
       "previousDayRemovedCount": 0,
       "previousDayRestoredCount": 0,
       "previousDayLateRestoredCount": 0,
-      "integrityRemovedCount": 3,
-      "postPreviousDayFilterCount": 28,
+      "integrityRemovedCount": 1,
+      "postPreviousDayFilterCount": 30,
       "displayReadyCount": 22,
       "fallbackDisplayCount": 1,
       "reserveDisplayCount": 0,
       "lastChanceDisplayCount": 0,
-      "removedWeakSummaries": 6,
+      "removedWeakSummaries": 8,
       "shortage": 0
     }
   },
   "articles": [
     {
       "section": "产品发布与更新",
-      "title": "Anthropic 为小企业推出 Claude 套餐：15 个 AI 工作流嵌入 QuickBooks 和 PayPal，降低技术门槛",
-      "company": "Anthropic",
-      "url": "https://the-decoder.com/anthropic-launches-claude-for-small-business-to-embed-ai-into-the-tools-you-forgot-you-pay-for/",
-      "source": "The Decoder",
-      "publishedAt": "Wed, 13 May 2026 17:28:42 +0000",
-      "summary": "Anthropic发布“Claude for Small Business”套餐，包含15个基于代理的工作流和QuickBooks、PayPal、HubSpot等工具集成。公司还推出免费培训课程，并在美国十个城市举办巡回工作坊。此举旨在让小型企业直接利用AI提升效率，降低技术门槛。",
-      "score": 49
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Luma 开放 Uni-1.1 图像模型 API：每张 0.04 美元起，质量对标 OpenAI 和 Google",
-      "company": "Luma",
-      "url": "https://the-decoder.com/luma-opens-uni-1-1-image-model-api-at-prices-and-quality-matching-openai-and-google/",
-      "source": "The Decoder",
-      "publishedAt": "Wed, 13 May 2026 15:45:46 +0000",
-      "summary": "Luma通过API开放其Uni-1.1图像模型，2048像素分辨率下每张图像起价0.04美元。在Arena排行榜上，该模型排名第三，仅次于Google和OpenAI。API支持网络搜索、内置推理和最多九张参考图像，为开发者提供了高性价比的图像生成选择。",
-      "score": 48
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "MediaTek 天玑开发者大会：端侧AI引擎2.0与10亿级三角面渲染工具亮相，开发者生态再升级",
-      "company": "MediaTek",
-      "url": "https://www.infoq.cn/article/i1arV0AXjw1xSdXt3kzv?utm_source=rss&utm_medium=article",
+      "title": "阿里云发布Agent基础设施：安全隔离、状态持久化、持续进化成企业三大刚需",
+      "company": "阿里云",
+      "url": "https://www.infoq.cn/article/gEPoH90ZqdWLPimRcQez?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Wed, 13 May 2026 15:49:34 GMT",
-      "summary": "MediaTek在天玑开发者大会MDDC 2026上发布了面向开发者的新工具与方案，重点包括端侧AI智能体引擎2.0和移动游戏图形渲染技术。其中，天玑AI智能体化引擎2.0借助SensingClaw技术实现低功耗全时感知，支持跨应用联动；天玑平台适配团结引擎的虚拟几何体技术，可实现10亿级三角面渲染和1.5K分辨率下1小时满帧体验。",
+      "publishedAt": "Thu, 14 May 2026 19:45:22 GMT",
+      "summary": "阿里云推出ACS Agent Sandbox和容器服务ACK，通过解耦运行环境与状态、持久化存储保障任务续接，以及运行时Checkpoint能力，使Agent在节点故障或迁移时能快速恢复上下文。报告显示94%受访者在Agent开发或生产中使用容器，行业更依赖现有云原生体系。",
       "score": 45
     },
     {
-      "section": "技术与研究",
-      "title": "Hermes Agent开源框架爆火：NVIDIA RTX PC驱动自我改进AI代理",
-      "company": "NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
-      "source": "NVIDIA Blog",
-      "publishedAt": "Wed, 13 May 2026 13:00:10 +0000",
-      "summary": "Hermes Agent是一个新的开源代理框架，在不到三个月内GitHub星标数突破14万。该框架由NVIDIA RTX PC和DGX Spark驱动，支持自我改进的AI代理。这对AI社区和开发者意味着可以更便捷地构建和部署能够自我优化的智能代理应用。",
-      "score": 61
+      "section": "产品发布与更新",
+      "title": "AWS WorkSpaces让AI智能体直接操作遗留应用：无需API改造，成本可控",
+      "company": "亚马逊云科技",
+      "url": "https://www.infoq.cn/article/ktRP5kz1fMkW5rmmMFoR?utm_source=rss&utm_medium=article",
+      "source": "InfoQ",
+      "publishedAt": "Thu, 14 May 2026 14:29:00 GMT",
+      "summary": "亚马逊云科技宣布AWS WorkSpaces支持AI智能体直接操作遗留桌面应用程序，通过模拟人类操作（截图识别、点击、输入）与无API的旧系统交互。智能体在隔离的WorkSpaces实例中运行，继承企业安全设置，并通过CloudTrail和CloudWatch实现审计与可观测性。",
+      "score": 43
     },
     {
-      "section": "技术与研究",
-      "title": "谷歌把AI塞进全家桶：Gemini嵌入Android底层，鼠标手表眼镜全都有",
-      "company": "谷歌",
-      "url": "https://www.qbitai.com/2026/05/416870.html",
+      "section": "产品发布与更新",
+      "title": "AI团队协作新发现：多Agent互怼比单Agent自纠更费Token，成本翻3倍",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/05/417816.html",
       "source": "量子位",
-      "publishedAt": "Wed, 13 May 2026 08:29:20 +0000",
-      "summary": "谷歌发布了专门用于机器生成摘要的PEGASUS模型，刷新了该领域最佳成绩。Gemini Intelligence已嵌入Android底层，今年内将覆盖手表、汽车、眼镜、笔电等设备，并推出了具备AI能力的Magic Pointer鼠标。这对开发者和企业意味着，无需庞大训练数据即可获得针对特定任务的AI能力，降低了应用门槛。",
-      "score": 53
+      "publishedAt": "Thu, 14 May 2026 11:14:25 +0000",
+      "summary": "研究发现，在特定模型和同质debate设置下，多Agent的token消耗可达单Agent自我修正的2.1到3.4倍。Leader统筹全局目标，Worker执行子任务，停止条件由Team Engine控制，不再依赖模型模糊判断。OpenAI翁家翌提出新范式，决策只需AI手搓一个.py文件，不更新参数即可实现强化学习。",
+      "score": 41
     },
     {
       "section": "技术与研究",
-      "title": "蚂蚁灵波开源LingBot-VLA后训练代码：150条数据即可适配新机器人",
-      "company": "蚂蚁灵波",
-      "url": "https://www.jiqizhixin.com/articles/2026-05-13-8",
+      "title": "国产GPU组局开源生态：SGLang等核心开发者联手，Kimi K2权重更新加速7倍",
+      "company": "",
+      "url": "https://www.qbitai.com/2026/05/417791.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 14 May 2026 09:51:46 +0000",
+      "summary": "国产GPU厂商联合SGLang、MUSA等核心开发者组建开源生态，聚焦大模型推理性能优化。通过RDMA P2P权重更新，Kimi K2 1T模型权重同步时间从53秒降至7.2秒，加速7.37倍；EPD三级解耦架构使多模态模型首token延迟降低6-8倍。",
+      "score": 64
+    },
+    {
+      "section": "技术与研究",
+      "title": "腾讯开源Agent记忆方案：Token消耗最高降61%，成功率提升52%",
+      "company": "腾讯",
+      "url": "https://www.qbitai.com/2026/05/417753.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 14 May 2026 08:34:30 +0000",
+      "summary": "腾讯正式开源了Agent Memory技术方案，支持主流Agent框架，开发者可通过一行命令安装使用。该方案包含Mermaid任务画布和上下文卸载两项核心能力，在网页搜索场景中Token消耗最高降低61%，成功率提升52%。这对AI应用开发者意味着可以显著降低Agent运行成本，同时提升任务执行效率。",
+      "score": 59
+    },
+    {
+      "section": "技术与研究",
+      "title": "港大团队开源FASTER：首创TTFA指标，让VLA模型响应延迟降至毫秒级",
+      "company": "港大",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-14-10",
       "source": "机器之心",
-      "publishedAt": "2026-05-13T14:47:00+08:00",
-      "summary": "蚂蚁集团旗下具身智能公司灵波科技宣布全面开源其具身基座模型LingBot-VLA的真机后训练工具链。开发团队可使用自有数据将模型快速迁移到自有机器人和具体任务中。这降低了开发者部署具身智能模型的门槛，加速了机器人应用落地。",
-      "score": 51
+      "publishedAt": "2026-05-14T15:02:00+08:00",
+      "summary": "香港大学团队开源了名为FASTER的VLA模型框架，旨在解决具身智能部署到物理世界时的响应延迟问题。该框架首创了TTFA（Time-To-First-Action）指标，用于衡量模型从接收输入到输出首个动作的延迟。这一突破意味着开发者可以更高效地评估和优化VLA模型的实时性能，推动具身智能在机器人等领域的实际应用。",
+      "score": 56
     },
     {
       "section": "投融资与并购",
-      "title": "阿里云AI收入占比首破30%：外部商业化增长40%创近年新高",
-      "company": "阿里巴巴",
-      "url": "https://www.leiphone.com/category/industrynews/bun2xa6hMdgmEPLh.html",
+      "title": "Richard Socher新公司获6.5亿美元融资：打造能自我改进的AI，开启无限进化",
+      "company": "Richard Socher",
+      "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 14 May 2026 19:57:20 +0000",
+      "summary": "Richard Socher创立的新公司获得6.5亿美元融资，目标是构建能够无限期研究和自我改进的AI。该公司声称将实际交付产品。这对AI行业意味着自主进化型AI的研发获得巨额资本支持，可能改变AI开发范式。",
+      "score": 38
+    },
+    {
+      "section": "投融资与并购",
+      "title": "芯驰科技完成近1亿美元C轮融资：从汽车芯片到具身智能，加速全栈布局",
+      "company": "芯驰科技",
+      "url": "https://www.leiphone.com/category/industrynews/barQoX7o1PXA3LwV.html",
       "source": "雷锋网",
-      "publishedAt": "Wed, 13 May 2026 17:59:00 +0800",
-      "summary": "阿里云最新季度收入同比增长38%至416.26亿元，外部商业化收入增速达40%，创下近年新高。其中AI相关产品收入89.71亿元，连续11个季度三位数增长，占外部收入比重首次突破30%。这标志着阿里云在算力、模型和商业化落地的投入进入收获期，对企业和开发者而言，AI云服务需求加速释放，百炼平台客户数同比增长8倍。",
-      "score": 50
+      "publishedAt": "Thu, 14 May 2026 14:17:00 +0800",
+      "summary": "芯驰科技宣布完成近1亿美元C轮融资，由苏产投领投，陕汽鸿德投资等跟投。该公司已累计出货超1200万片车规级芯片，客户覆盖中国全部前十大及全球七家头部汽车OEM，并正从智能座舱、高端智控向具身智能拓展。这笔融资将助力芯驰深化AI座舱与智控产品创新，夯实量产能力，对汽车及具身智能产业链的自主可控与生态协同具有重要推动意义。",
+      "score": 59
     },
     {
-      "section": "投融资与并购",
-      "title": "林俊旸创业：前阿里千问负责人新公司估值20亿美金，瞄准世界模型与具身大脑",
-      "company": "阿里",
-      "url": "https://36kr.com/p/3807382930251523?f=rss",
+      "section": "政策与监管",
+      "title": "ChatGPT手机端接入Codex：随时随地监控与审批编码任务",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere",
+      "source": "OpenAI News",
+      "publishedAt": "Thu, 14 May 2026 13:00:00 GMT",
+      "summary": "OpenAI将Codex功能集成到ChatGPT移动应用中，用户可在任何地方使用。该更新支持跨设备和远程环境实时监控、引导和审批编码任务。这为开发者和AI使用者提供了更灵活的工作流管理方式，提升了编码任务的移动办公效率。",
+      "score": 41
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "OpenAI 确认 Codex 登陆手机端：开发者可远程管理编码工作流",
+      "company": "OpenAI",
+      "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+      "source": "TechCrunch AI",
+      "publishedAt": "Thu, 14 May 2026 20:58:55 +0000",
+      "summary": "OpenAI宣布Codex功能将登陆手机，为用户提供增强的灵活性来管理工作流程。该更新允许用户从移动设备访问和操作编码相关任务。这对开发者意味着可以更便捷地利用AI辅助编码，不受地点限制。",
+      "score": 40
+    },
+    {
+      "section": "产品发布与更新",
+      "title": "阿里AI应用悟空规模化放量：30天变身企业核心生产力，自然语言替代BI看板",
+      "company": "阿里巴巴",
+      "url": "https://www.qbitai.com/2026/05/417748.html",
+      "source": "量子位",
+      "publishedAt": "Thu, 14 May 2026 08:26:45 +0000",
+      "summary": "阿里巴巴旗下AI原生应用悟空开始逐步规模化放量，已有企业将其作为核心生产力。苏州光线能源创始人吴天明在30天内将悟空用于充电桩订单数据分析和管理会议提炼，替代了传统BI看板和人工转述。这意味着企业用户无需掌握SQL等技术，即可通过自然语言完成复杂任务，推动AI技术平权。",
+      "score": 27
+    },
+    {
+      "section": "技术与研究",
+      "title": "xAI推出Grok Build早期测试版：为重度用户打造专属编码代理",
+      "company": "xAI",
+      "url": "https://36kr.com/newsflashes/3809750061194752?f=rss",
       "source": "36氪",
-      "publishedAt": "2026-05-13 15:24:16  +0800",
-      "summary": "前阿里千问大模型技术负责人林俊旸近期开启创业，新公司估值约20亿美金，方向包括世界模型和具身大脑。他已招募数名字节、腾讯和海外背景的成员，并接触红杉中国、高榕创投等机构进行融资。这一动向表明，在LLM技术路线收敛的背景下，具身智能和世界模型成为AI大牛和VC押注的非共识赛道，但技术高管创业也面临商业化水土不服的挑战。",
-      "score": 62
+      "publishedAt": "2026-05-15 07:18:10  +0800",
+      "summary": "xAI正式推出了Grok Build的早期测试版，这是一项针对超级Grok重度用户的编码代理服务。该产品旨在帮助用户更高效地完成编码任务，目前处于早期测试阶段。对于开发者而言，这意味着xAI正在扩展其AI工具的应用场景，从对话式AI向代码辅助领域延伸。",
+      "score": 43
     },
     {
-      "section": "产品发布与更新",
-      "title": "腾讯云AI Agent接入生产数据库：四重安全纵深让DBA从“能用”走向“可托付”",
+      "section": "技术与研究",
+      "title": "腾讯云打通AI Infra底座：自研OS支撑2000万节点，Cube沙箱实现60ms冷启动与硬隔离",
       "company": "腾讯云",
-      "url": "https://www.infoq.cn/article/79tRpwBeNjESHu3c3YLb?utm_source=rss&utm_medium=article",
+      "url": "https://www.infoq.cn/article/40UQ0beY3L25lo1rWVzb?utm_source=rss&utm_medium=article",
       "source": "InfoQ",
-      "publishedAt": "Wed, 13 May 2026 17:22:58 GMT",
-      "summary": "腾讯云在DBTalk第四期直播中详解了AI Agent如何接入生产数据库，并重新定义DBA角色。关键产品DatabaseClaw以四重安全纵深承载企业级生产准入，同时通过Skill生态沉淀十余年工单经验，将DBbrain和DMC的核心能力标准化封装。这对企业开发者意味着，AI Agent在数据库运维中从“能用”迈向“可托付”，实现了安全与效率的平衡。",
-      "score": 44
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Notion 推出开发者平台：工作空间变身 AI 代理中心，支持自定义代码与外部代理",
-      "company": "Notion",
-      "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 13 May 2026 21:45:09 +0000",
-      "summary": "Notion推出了新的开发者平台，允许团队将AI代理、外部数据源和自定义代码直接集成到工作空间中。这标志着Notion进一步深入代理式生产力软件领域。对企业和用户意味着可以在Notion内直接连接和使用AI代理，提升工作效率和自动化水平。",
-      "score": 42
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Poppy 推出主动式AI助手：自动管理日程、邮件和消息，智能预测你的需求",
-      "company": "Poppy",
-      "url": "https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life/",
-      "source": "TechCrunch AI",
-      "publishedAt": "Wed, 13 May 2026 13:27:09 +0000",
-      "summary": "Poppy发布了一款AI驱动的应用，能连接用户的日历、邮件、消息等服务，并根据生活事件主动推送提醒和建议。该应用支持Apple Calendar、Gmail、iMessage、WhatsApp等常用工具，甚至能结合位置信息推荐休息或餐厅。对于追求高效数字生活的用户，Poppy提供了一种减少手动操作、提升工作效率的智能解决方案。",
-      "score": 34
+      "publishedAt": "Thu, 14 May 2026 17:50:56 GMT",
+      "summary": "腾讯云通过自研服务器操作系统OC9和Cube Agent沙箱，构建了AI基础设施的生态底座。OC9已支撑超2000万节点生产环境，覆盖金融、互联网等行业；Cube沙箱采用独立Guest OS内核实现硬隔离，冷启动时间压缩至60毫秒以内。这对AI Agent开发者意味着更安全、更高效的代码执行环境，解决了传统容器共享内核带来的安全风险。",
+      "score": 41
     },
     {
       "section": "技术与研究",
-      "title": "微软Edge Copilot重磅升级：AI跨标签页抓取信息，助你一键总结与对比",
-      "company": "Microsoft",
-      "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
-      "source": "The Verge AI",
-      "publishedAt": "2026-05-13T22:04:28.000Z",
-      "summary": "微软Edge浏览器为其Copilot AI聊天机器人新增功能，允许用户从所有打开的标签页中提取信息，并支持提问、对比产品、总结文章等。同时，Copilot可访问浏览历史以提供更精准回答，并引入长期记忆功能，根据过往对话调整响应。这一升级对日常处理大量网页信息的用户来说，将显著提升工作效率，但用户可选择启用或关闭这些体验。",
-      "score": 31
-    },
-    {
-      "section": "产品发布与更新",
-      "title": "Meta AI推出“隐身聊天”：对话数据不存服务器，扎克伯格称行业首创",
-      "company": "Meta",
-      "url": "https://the-decoder.com/meta-ai-gets-a-private-mode-where-no-conversation-data-is-stored-on-servers/",
-      "source": "The Decoder",
-      "publishedAt": "Wed, 13 May 2026 17:47:02 +0000",
-      "summary": "Meta在WhatsApp和Meta AI应用中为Meta AI推出“隐身聊天”模式。据扎克伯格称，对话在受保护的服务器环境中处理，Meta也无法访问，会话结束后聊天记录消失。这为注重隐私的AI用户提供了更安全的选择，可能推动行业对AI隐私保护的更高标准。",
-      "score": 29
-    },
-    {
-      "section": "技术与研究",
-      "title": "百度提出DAA新指标：智能体时代从“看DAU”转向“看任务闭环”",
-      "company": "百度",
-      "url": "https://www.infoq.cn/article/aaLabGa4T7z5m1UBiJ2O?utm_source=rss&utm_medium=article",
-      "source": "InfoQ",
-      "publishedAt": "Wed, 13 May 2026 18:58:26 GMT",
-      "summary": "百度在Create 2026大会上发布了文心大模型5.1及一系列智能体系统底座产品，包括秒哒3.0、DuMate等应用，并提出了DAA（日活智能体数）作为衡量AI价值的新指标。这些产品覆盖应用生成、办公工作流、决策优化等场景，旨在让智能体进入真实任务链路并完成闭环。",
-      "score": 49
+      "title": "上海交大团队提出数据价值密度：应对训练数据枯竭的新思路",
+      "company": "",
+      "url": "https://www.jiqizhixin.com/articles/2026-05-14-12",
+      "source": "机器之心",
+      "publishedAt": "2026-05-14T18:12:00+08:00",
+      "summary": "上海交通大学与上海人工智能实验室的研究团队发表了一篇关于数据价值密度的综述论文，系统梳理了应对训练数据枯竭的思路。该研究由上海市“通用人工智能大模型”基础研究专项支持，孙亦刘、陆彦超与曹家熙为共同第一作者，宫辰教授与刘伟副教授为共同通讯作者。这对AI领域的研究者和开发者意味着，在数据稀缺和成本飙升的背景下，数据价值密度或成为优化模型训练效率的关键方向。",
+      "score": 39
     }
   ]
 }
